@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -9,13 +8,9 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="mb-4">
-              <Image
-                src="/images/common/GME-LOGO-HD.png"
-                alt="GME Remit"
-                width={100}
-                height={33}
-                className="h-8 w-auto brightness-0 invert"
-              />
+              <p className="text-lg font-semibold tracking-tight text-white">
+                GME Remit
+              </p>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
               No.1 Money Transfer Service in South Korea.

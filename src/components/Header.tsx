@@ -1,9 +1,11 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
-import Link from "next/link";
+import { useState, useEffect } from "react";
 import Image from "next/image";
-import { useLanguage, languages } from "@/contexts/LanguageContext";
+import Link from "next/link";
+import DesktopNav, { LanguageSelector } from "./header/DesktopNav";
+import MobileNav from "./header/MobileNav";
+import type { MenuSection, MenuItem } from "./header/DesktopNav";
 
 // ============ Business Menu Icons ============
 const FinancialServicesIcon = () => (
@@ -257,25 +259,6 @@ const BranchesIcon = () => (
   </svg>
 );
 
-// ============ Types ============
-interface MenuItem {
-  label: string;
-  href: string;
-  megaMenuType?: "business" | "company";
-  children?: { label: string; href: string }[];
-}
-
-interface MenuSubItem {
-  label: string;
-  href: string;
-  icon: React.ReactNode;
-}
-
-interface MenuSection {
-  title: string;
-  items: MenuSubItem[];
-}
-
 // ============ Menu Data ============
 const businessMenuSections: MenuSection[] = [
   {
@@ -343,343 +326,43 @@ const companyMenuSections: MenuSection[] = [
 
 const menuItems: MenuItem[] = [
   {
-    label: "Company",
+    label: "About Us",
     href: "/company",
     children: [
-      { label: "About Us", href: "/company/ceo-message" },
-      { label: "Careers", href: "/company/careers" },
-      { label: "Blog", href: "/company/blog" },
-    ]
+      { label: "CEO Message", href: "/company/ceo-message" },
+      { label: "History", href: "/company/history" },
+      { label: "Our Services", href: "/company/services" },
+    ],
   },
   {
-    label: "Business",
-    href: "/business",
+    label: "Services",
+    href: "/services",
     children: [
-      { label: "Solution", href: "/business/solution" },
-      { label: "Platform", href: "/business/platform" },
-    ]
+      { label: "GME App Remittance", href: "/services/remittance" },
+      { label: "GME Card", href: "/services/card" },
+      { label: "GME Loan", href: "/services/loan" },
+      { label: "GME Payments (B2B)", href: "/services/payments" },
+    ],
   },
-  { label: "Notice", href: "/notice" },
-  { label: "Help", href: "/help" },
+  {
+    label: "News / Blog",
+    href: "/news",
+    children: [
+      { label: "Business News", href: "/news/business" },
+      { label: "Blog", href: "/news/blog" },
+    ],
+  },
+  {
+    label: "Customer Support",
+    href: "/support",
+    children: [
+      { label: "Branches & Contact", href: "/support/branches" },
+      { label: "Social Channels", href: "/support/social-channels" },
+    ],
+  },
 ];
 
-// ============ Components ============
-function ChevronDownIcon({ className }: { className?: string }) {
-  return (
-    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" width="16" height="16">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-    </svg>
-  );
-}
-
-function GlobeIcon({ className }: { className?: string }) {
-  return (
-    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" width="20" height="20" strokeWidth="1.5">
-      <circle cx="12" cy="12" r="10" />
-      <ellipse cx="12" cy="12" rx="4" ry="10" />
-      <line x1="2" y1="12" x2="22" y2="12" />
-    </svg>
-  );
-}
-
-// Language Selector Component
-function LanguageSelector() {
-  const { currentLanguage, setLanguage } = useLanguage();
-  const [isOpen, setIsOpen] = useState(false);
-  const dropdownRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-        setIsOpen(false);
-      }
-    };
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
-
-  return (
-    <div ref={dropdownRef} className="relative">
-      <button
-        type="button"
-        onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 px-3 py-2 text-[#191c1f] hover:text-[#ed1c24] transition-colors duration-200 cursor-pointer"
-        aria-label="Select language"
-      >
-        <GlobeIcon className="text-gray-500" />
-        <span className="text-sm font-medium hidden sm:inline">{currentLanguage.code.toUpperCase()}</span>
-        <ChevronDownIcon className={`transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`} />
-      </button>
-
-      {isOpen && (
-        <div className="absolute top-full right-0 mt-2 z-50">
-          <div className="bg-white rounded-lg shadow-xl border border-gray-100 py-2 min-w-[180px] max-h-[320px] overflow-y-auto">
-            {languages.map((lang) => (
-              <button
-                key={lang.code}
-                type="button"
-                onClick={() => {
-                  setLanguage(lang);
-                  setIsOpen(false);
-                }}
-                className={`w-full flex items-center gap-3 px-4 py-2.5 text-left hover:bg-gray-50 transition-colors duration-150 cursor-pointer ${
-                  currentLanguage.code === lang.code ? "bg-gray-50 text-[#ed1c24]" : "text-[#191c1f]"
-                }`}
-              >
-                <span className="text-lg">{lang.flag}</span>
-                <span className="text-sm font-medium">{lang.nativeName}</span>
-              </button>
-            ))}
-          </div>
-        </div>
-      )}
-    </div>
-  );
-}
-
-// Mobile Language Selector
-function MobileLanguageSelector({ onClose }: { onClose: () => void }) {
-  const { currentLanguage, setLanguage } = useLanguage();
-  const [isExpanded, setIsExpanded] = useState(false);
-
-  return (
-    <div className="border-b border-gray-100">
-      <button
-        type="button"
-        className="w-full flex items-center justify-between px-4 py-3 text-[#191c1f] hover:bg-gray-50 font-medium cursor-pointer"
-        onClick={() => setIsExpanded(!isExpanded)}
-      >
-        <div className="flex items-center gap-2">
-          <GlobeIcon className="text-gray-500" />
-          <span>Language</span>
-          <span className="text-gray-500">({currentLanguage.nativeName})</span>
-        </div>
-        <ChevronDownIcon className={`transition-transform duration-200 ${isExpanded ? "rotate-180" : ""}`} />
-      </button>
-
-      {isExpanded && (
-        <div className="bg-gray-50 max-h-[240px] overflow-y-auto">
-          {languages.map((lang) => (
-            <button
-              key={lang.code}
-              type="button"
-              onClick={() => {
-                setLanguage(lang);
-                onClose();
-              }}
-              className={`w-full flex items-center gap-3 px-6 py-2.5 text-left hover:bg-gray-100 transition-colors duration-150 cursor-pointer ${
-                currentLanguage.code === lang.code ? "bg-gray-100 text-[#ed1c24]" : "text-[#191c1f]"
-              }`}
-            >
-              <span className="text-lg">{lang.flag}</span>
-              <span className="text-sm">{lang.nativeName}</span>
-            </button>
-          ))}
-        </div>
-      )}
-    </div>
-  );
-}
-
-// Mega Menu Component
-function MegaMenu({ sections, columns }: { sections: MenuSection[]; columns: number }) {
-  return (
-    <div className="absolute top-full left-1/2 -translate-x-1/2 pt-4 z-50">
-      <div className={`bg-white rounded-2xl shadow-2xl border border-gray-100 p-8 ${columns === 4 ? "min-w-[850px]" : "min-w-[700px]"}`}>
-        <div className={`grid gap-8 ${columns === 4 ? "grid-cols-4" : "grid-cols-3"}`}>
-          {sections.map((section) => (
-            <div key={section.title}>
-              <h3 className="text-[#ed1c24] font-semibold text-lg mb-4">{section.title}</h3>
-              <ul className="space-y-3">
-                {section.items.map((item) => (
-                  <li key={item.label}>
-                    <Link
-                      href={item.href}
-                      className="flex items-center gap-3 text-[#191c1f] hover:text-[#ed1c24] transition-colors duration-150 group"
-                    >
-                      <span className="text-gray-500 group-hover:text-[#ed1c24] transition-colors duration-150">
-                        {item.icon}
-                      </span>
-                      <span className="text-sm font-medium">{item.label}</span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  );
-}
-
-// Desktop Dropdown Component
-function DesktopDropdown({ item }: { item: MenuItem }) {
-  const [isOpen, setIsOpen] = useState(false);
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
-
-  const handleMouseEnter = () => {
-    if (timeoutRef.current) clearTimeout(timeoutRef.current);
-    setIsOpen(true);
-  };
-
-  const handleMouseLeave = () => {
-    timeoutRef.current = setTimeout(() => setIsOpen(false), 150);
-  };
-
-  useEffect(() => {
-    return () => {
-      if (timeoutRef.current) clearTimeout(timeoutRef.current);
-    };
-  }, []);
-
-  // Simple link without dropdown
-  if (!item.children && !item.megaMenuType) {
-    return (
-      <Link
-        href={item.href}
-        className="text-[#191c1f] hover:text-[#ed1c24] font-medium transition-colors duration-200 py-2"
-      >
-        {item.label}
-      </Link>
-    );
-  }
-
-  // Mega Menu (Business or Company)
-  if (item.megaMenuType) {
-    const sections = item.megaMenuType === "business" ? businessMenuSections : companyMenuSections;
-    const columns = item.megaMenuType === "company" ? 4 : 3;
-
-    return (
-      <div className="relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-        <button
-          type="button"
-          className="flex items-center gap-1 text-[#191c1f] hover:text-[#ed1c24] font-medium transition-colors duration-200 py-2 cursor-pointer"
-        >
-          {item.label}
-          <ChevronDownIcon className={`transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`} />
-        </button>
-        {isOpen && <MegaMenu sections={sections} columns={columns} />}
-      </div>
-    );
-  }
-
-  // Regular dropdown
-  return (
-    <div className="relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-      <button
-        type="button"
-        className="flex items-center gap-1 text-[#191c1f] hover:text-[#ed1c24] font-medium transition-colors duration-200 py-2 cursor-pointer"
-      >
-        {item.label}
-        <ChevronDownIcon className={`transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`} />
-      </button>
-
-      {isOpen && (
-        <div className="absolute top-full left-0 pt-2 z-50">
-          <div className="bg-white rounded-lg shadow-xl border border-gray-100 min-w-[200px] py-2">
-            {item.children?.map((child) => (
-              <Link
-                key={child.label}
-                href={child.href}
-                className="block px-4 py-2.5 text-[#191c1f] hover:bg-gray-50 hover:text-[#ed1c24] transition-colors duration-150"
-              >
-                {child.label}
-              </Link>
-            ))}
-          </div>
-        </div>
-      )}
-    </div>
-  );
-}
-
-// Mobile Accordion Component
-function MobileAccordion({ item, onClose }: { item: MenuItem; onClose: () => void }) {
-  const [isExpanded, setIsExpanded] = useState(false);
-
-  // Simple link
-  if (!item.children && !item.megaMenuType) {
-    return (
-      <Link
-        href={item.href}
-        className="block px-4 py-3 text-[#191c1f] hover:bg-gray-50 font-medium border-b border-gray-100"
-        onClick={onClose}
-      >
-        {item.label}
-      </Link>
-    );
-  }
-
-  // Mega menu for mobile (Business or Company)
-  if (item.megaMenuType) {
-    const sections = item.megaMenuType === "business" ? businessMenuSections : companyMenuSections;
-
-    return (
-      <div className="border-b border-gray-100">
-        <button
-          type="button"
-          className="w-full flex items-center justify-between px-4 py-3 text-[#191c1f] hover:bg-gray-50 font-medium cursor-pointer"
-          onClick={() => setIsExpanded(!isExpanded)}
-        >
-          <span>{item.label}</span>
-          <ChevronDownIcon className={`transition-transform duration-200 ${isExpanded ? "rotate-180" : ""}`} />
-        </button>
-
-        {isExpanded && (
-          <div className="bg-gray-50 pb-2">
-            {sections.map((section) => (
-              <div key={section.title} className="px-4 py-2">
-                <h4 className="text-[#ed1c24] font-semibold text-sm mb-2">{section.title}</h4>
-                {section.items.map((subItem) => (
-                  <Link
-                    key={subItem.label}
-                    href={subItem.href}
-                    className="flex items-center gap-3 px-2 py-2 text-[#191c1f] hover:text-[#ed1c24]"
-                    onClick={onClose}
-                  >
-                    <span className="text-gray-400 w-6 h-6">{subItem.icon}</span>
-                    <span className="text-sm">{subItem.label}</span>
-                  </Link>
-                ))}
-              </div>
-            ))}
-          </div>
-        )}
-      </div>
-    );
-  }
-
-  // Regular accordion
-  return (
-    <div className="border-b border-gray-100">
-      <button
-        type="button"
-        className="w-full flex items-center justify-between px-4 py-3 text-[#191c1f] hover:bg-gray-50 font-medium cursor-pointer"
-        onClick={() => setIsExpanded(!isExpanded)}
-      >
-        <span>{item.label}</span>
-        <ChevronDownIcon className={`transition-transform duration-200 ${isExpanded ? "rotate-180" : ""}`} />
-      </button>
-
-      {isExpanded && (
-        <div className="bg-gray-50">
-          {item.children?.map((child) => (
-            <Link
-              key={child.label}
-              href={child.href}
-              className="block px-6 py-2.5 text-[#191c1f] hover:bg-gray-100 hover:text-[#ed1c24]"
-              onClick={onClose}
-            >
-              {child.label}
-            </Link>
-          ))}
-        </div>
-      )}
-    </div>
-  );
-}
-
+// ============ Main Header ============
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -697,85 +380,74 @@ export default function Header() {
   }, [isMenuOpen]);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 lg:h-20">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur border-b border-[#f3d6cc]">
+      <div className="max-w-none mx-auto px-4 sm:px-6 lg:px-6">
+        <div className="relative flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center shrink-0">
             <Image
               src="/images/common/GME-LOGO-HD.png"
               alt="GME Remit"
-              width={120}
-              height={40}
+              width={160}
+              height={48}
+              className="h-8 w-auto lg:h-10"
               priority
-              className="h-8 lg:h-10 w-auto"
             />
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-8">
-            {menuItems.map((item) => (
-              <DesktopDropdown key={item.label} item={item} />
-            ))}
-          </nav>
+          <DesktopNav
+            menuItems={menuItems}
+            businessMenuSections={businessMenuSections}
+            companyMenuSections={companyMenuSections}
+          />
 
-          {/* CTA Button & Language */}
-          <div className="hidden lg:flex items-center gap-2">
-            <LanguageSelector />
-            <Link
-              href="/download"
-              className="bg-[#ed1c24] hover:bg-[#c41920] text-white font-semibold px-6 py-2.5 rounded-full transition-colors duration-200"
+          <div className="flex items-center gap-2 lg:gap-3 shrink-0">
+            {/* CTA Button & Language */}
+            <div className="hidden lg:flex items-center gap-3">
+              <Link
+                href="/download"
+                className="bg-[#ed1c24] hover:bg-[#c41920] text-white font-semibold px-6 py-2.5 rounded-full transition-colors duration-200"
+              >
+                Download App
+              </Link>
+              <Link
+                href="/company/careers"
+                className="text-[#191c1f] hover:text-[#ed1c24] font-medium transition-colors duration-200 px-3 py-2"
+              >
+                Careers
+              </Link>
+              <LanguageSelector />
+            </div>
+
+            {/* Mobile Menu Button */}
+            <button
+              type="button"
+              className="lg:hidden p-2 rounded-md text-[#191c1f] hover:bg-gray-100 cursor-pointer"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+              aria-expanded={isMenuOpen}
             >
-              Get the App
-            </Link>
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                {isMenuOpen ? (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                ) : (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                )}
+              </svg>
+            </button>
           </div>
-
-          {/* Mobile Menu Button */}
-          <button
-            type="button"
-            className="lg:hidden p-2 rounded-md text-[#191c1f] hover:bg-gray-100 cursor-pointer"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-            aria-expanded={isMenuOpen}
-          >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              {isMenuOpen ? (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              ) : (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              )}
-            </svg>
-          </button>
         </div>
       </div>
 
       {/* Mobile Menu */}
-      {isMenuOpen && (
-        <>
-          <div
-            className="lg:hidden fixed inset-0 top-16 bg-black/20 z-40"
-            onClick={() => setIsMenuOpen(false)}
-            aria-hidden="true"
-          />
-          <div className="lg:hidden fixed top-16 left-0 right-0 bottom-0 bg-white z-50 overflow-y-auto">
-            <nav className="pb-6">
-              {menuItems.map((item) => (
-                <MobileAccordion key={item.label} item={item} onClose={() => setIsMenuOpen(false)} />
-              ))}
-              <MobileLanguageSelector onClose={() => setIsMenuOpen(false)} />
-              <div className="px-4 pt-4">
-                <Link
-                  href="/download"
-                  className="block w-full bg-[#ed1c24] hover:bg-[#c41920] text-white font-semibold px-6 py-3 rounded-full text-center transition-colors duration-200"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Get the App
-                </Link>
-              </div>
-            </nav>
-          </div>
-        </>
-      )}
+      <MobileNav
+        isOpen={isMenuOpen}
+        onClose={() => setIsMenuOpen(false)}
+        menuItems={menuItems}
+        businessMenuSections={businessMenuSections}
+        companyMenuSections={companyMenuSections}
+      />
     </header>
   );
 }

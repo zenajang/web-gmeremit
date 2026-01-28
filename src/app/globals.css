@@ -1,15 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
   --color-primary: #ed1c24;
   --color-primary-dark: #c41920;
-  --color-secondary: #825cff;
-  --color-accent-cyan: #2AC4EA;
+  --color-secondary: #ff8a4c;
+  --color-accent-cyan: #2ac4ea;
   --color-accent-coral: #f6653c;
   --color-dark: #191c1f;
   --color-gray: #6b7280;
-  --color-light: #fafbfc;
+  --color-light: #f5f6f8;
+  --surface-0: #ffffff;
+  --surface-1: #f6f7fa;
+  --surface-2: #f2f3f6;
+  --surface-warm: #fff6f4;
+  --border-soft: #e7e9ee;
 }
 
 @theme inline {
@@ -24,11 +29,194 @@
 }
 
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Noto Sans KR', 'Poppins', sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+/* Anchor scroll offset for fixed header */
+section[id] {
+  scroll-margin-top: 100px;
+}
+
+@media (min-width: 1024px) {
+  section[id] {
+    scroll-margin-top: 120px;
+  }
+}
+
+body {
+  background-color: var(--color-light);
+  color: #191c1f;
+}
+
+.kfin-grid {
+  background-image:
+    radial-gradient(circle at 12% 18%, rgba(237, 28, 36, 0.06), transparent 48%),
+    radial-gradient(circle at 85% 10%, rgba(255, 138, 76, 0.08), transparent 42%);
+}
+
+.flip-card {
+  perspective: 1200px;
+}
+
+.flip-card-inner {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  transform-style: preserve-3d;
+  transition: transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.flip-card:hover .flip-card-inner,
+.flip-card:focus-within .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+/* Hero Animations */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+}
+
+@keyframes gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+@keyframes orbit {
+  from { transform: rotate(0deg) translateX(120px) rotate(0deg); }
+  to { transform: rotate(360deg) translateX(120px) rotate(-360deg); }
+}
+
+@keyframes orbit-reverse {
+  from { transform: rotate(0deg) translateX(90px) rotate(0deg); }
+  to { transform: rotate(-360deg) translateX(90px) rotate(360deg); }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  opacity: 0;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-scale-in {
+  animation: scale-in 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  opacity: 0;
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 3s ease-in-out infinite;
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient-shift 8s ease infinite;
+}
+
+.animate-orbit {
+  animation: orbit 20s linear infinite;
+}
+
+.animate-orbit-reverse {
+  animation: orbit-reverse 15s linear infinite;
+}
+
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+.delay-600 { animation-delay: 600ms; }
+.delay-700 { animation-delay: 700ms; }
+
+/* Hero Globe Glow */
+.hero-globe-glow {
+  background: radial-gradient(circle at center, rgba(237, 28, 36, 0.15) 0%, transparent 70%);
+}
+
+/* Hero gradient mesh */
+.hero-mesh {
+  background:
+    radial-gradient(ellipse 80% 50% at 20% 40%, rgba(237, 28, 36, 0.08), transparent),
+    radial-gradient(ellipse 60% 40% at 80% 20%, rgba(255, 138, 76, 0.06), transparent),
+    radial-gradient(ellipse 40% 60% at 60% 80%, rgba(42, 196, 234, 0.04), transparent);
+}
+
+/* Glass effect */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.glass-dark {
+  background: rgba(25, 28, 31, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
 }
 
 @media (prefers-reduced-motion: reduce) {

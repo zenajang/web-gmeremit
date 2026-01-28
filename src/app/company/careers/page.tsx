@@ -258,18 +258,12 @@ export default function CareersPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="https://www.gmeremit.com/careers/"
+                  href="https://gme.career.greetinghr.com/ko/recruit"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-white text-[#ed1c24] font-semibold px-8 py-3 rounded-full hover:bg-gray-100 transition-colors duration-200"
                 >
                   View Open Positions
-                </a>
-                <a
-                  href="mailto:hr@gmeremit.com"
-                  className="inline-block border-2 border-white text-white font-semibold px-8 py-3 rounded-full hover:bg-white hover:text-[#ed1c24] transition-colors duration-200"
-                >
-                  Contact HR Team
                 </a>
               </div>
             </div>
