@@ -10,6 +10,8 @@ const sectionIds = [
   "overseas-remittance",
   "online-loan",
   "gme-cards",
+  "testimonials",
+  "app-download",
 ];
 
 export default function ScrollSnap() {

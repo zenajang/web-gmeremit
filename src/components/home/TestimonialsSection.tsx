@@ -1,3 +1,6 @@
+import { HiUser } from "react-icons/hi2";
+import { FaStar, FaQuoteLeft } from "react-icons/fa";
+
 const testimonials = [
   {
     quote: "I love how simple and quick the process is with GME Remittance. My family gets the money instantly, and I can track everything!",
@@ -58,8 +61,8 @@ export default function TestimonialsSection() {
             >
               <div className="flex items-start justify-between gap-4">
                 <div className="flex items-center gap-3">
-                  <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[var(--surface-2)] text-base font-semibold text-[#191c1f]">
-                    {item.name.slice(0, 1)}
+                  <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-[#f3f4f6] to-[#e5e7eb] text-[#6b7280]">
+                    <HiUser className="h-7 w-7" />
                   </div>
                   <div className="text-left">
                     <p className="text-base font-semibold text-[#191c1f]">{item.name}</p>
@@ -73,21 +76,13 @@ export default function TestimonialsSection() {
 
               <div className="mt-6 flex items-center gap-1 text-[#ed1c24]">
                 {Array.from({ length: 5 }).map((_, starIndex) => (
-                  <svg key={`${index}-${starIndex}`} className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 2l2.9 6.3L22 9l-5 4.8L18.2 22 12 18.3 5.8 22 7 13.8 2 9l7.1-.7L12 2z" />
-                  </svg>
+                  <FaStar key={`${index}-${starIndex}`} className="h-4 w-4" />
                 ))}
                 <span className="ml-2 text-sm font-semibold text-gray-500">5.0</span>
               </div>
 
               <div className="relative mt-5 flex-1">
-                <svg
-                  className="absolute -left-1 -top-1 h-6 w-6 text-[#ed1c24]/20"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <path d="M7 11h4v10H1V11c0-5.5 2.7-8.9 8-10v4.1C6.3 6.2 5 8.1 5 11h2zm12 0h4v10H13V11c0-5.5 2.7-8.9 8-10v4.1c-2.7 1.1-4 3-4 5.9h2z" />
-                </svg>
+                <FaQuoteLeft className="absolute -left-1 -top-1 h-6 w-6 text-[#ed1c24]/20" />
                 <p className="pl-7 text-base leading-relaxed text-gray-700">
                   {item.quote}
                 </p>

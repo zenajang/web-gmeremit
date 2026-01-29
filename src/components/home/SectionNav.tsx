@@ -2,14 +2,35 @@
 
 import { useEffect, useState } from "react";
 
-const sections = [
+// 네비게이션에 표시될 섹션들 (5개)
+const navSections = [
   { id: "hero", label: "홈" },
   { id: "app", label: "환율 계산기" },
   { id: "gme-payments", label: "서비스" },
-  { id: "payments-section", label: "Payments" },
-  { id: "overseas-remittance", label: "해외송금" },
-  { id: "online-loan", label: "대출" },
-  { id: "gme-cards", label: "카드" },
+  { id: "testimonials", label: "고객 후기" },
+  { id: "app-download", label: "앱 다운로드" },
+];
+
+// 실제 감지할 모든 섹션들 (서비스 하위 섹션 포함)
+const allSections = [
+  "hero",
+  "app",
+  "gme-payments",
+  "payments-section",
+  "overseas-remittance",
+  "online-loan",
+  "gme-cards",
+  "testimonials",
+  "app-download",
+];
+
+// 서비스 관련 섹션 ID들
+const serviceSectionIds = [
+  "gme-payments",
+  "payments-section",
+  "overseas-remittance",
+  "online-loan",
+  "gme-cards",
 ];
 
 export default function SectionNav() {
@@ -24,16 +45,21 @@ export default function SectionNav() {
       const windowHeight = window.innerHeight;
 
       // 현재 활성 섹션 찾기
-      for (let i = sections.length - 1; i >= 0; i--) {
-        const section = sections[i];
-        const element = section.id === "hero"
+      for (let i = allSections.length - 1; i >= 0; i--) {
+        const sectionId = allSections[i];
+        const element = sectionId === "hero"
           ? document.querySelector(".snap-section")
-          : document.getElementById(section.id);
+          : document.getElementById(sectionId);
 
         if (element) {
           const rect = element.getBoundingClientRect();
           if (rect.top <= windowHeight / 2) {
-            setActiveSection(section.id);
+            // 서비스 관련 섹션이면 "gme-payments"로 매핑
+            if (serviceSectionIds.includes(sectionId)) {
+              setActiveSection("gme-payments");
+            } else {
+              setActiveSection(sectionId);
+            }
             break;
           }
         }
@@ -67,7 +93,7 @@ export default function SectionNav() {
         isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
       }`}
     >
-      {sections.map((section) => (
+      {navSections.map((section) => (
         <button
           key={section.id}
           onClick={() => scrollToSection(section.id)}
@@ -83,7 +109,7 @@ export default function SectionNav() {
             }`}
           />
           {/* Tooltip */}
-          <span className="absolute left-6 px-2.5 py-1 rounded-md bg-[#191c1f] text-white text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
+          <span className="absolute left-8 px-4 py-2 rounded-lg bg-[#191c1f] text-white text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none shadow-lg">
             {section.label}
           </span>
         </button>
