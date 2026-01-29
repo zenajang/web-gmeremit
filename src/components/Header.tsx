@@ -383,17 +383,36 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur border-b border-[#f3d6cc]">
       <div className="max-w-none mx-auto px-4 sm:px-6 lg:px-6">
         <div className="relative flex items-center justify-between h-16 lg:h-20">
-          {/* Logo */}
-          <Link href="/" className="flex items-center shrink-0">
-            <Image
-              src="/images/common/GME-LOGO-HD.png"
-              alt="GME Remit"
-              width={160}
-              height={48}
-              className="h-8 w-auto lg:h-10"
-              priority
-            />
-          </Link>
+          {/* Logo + Biz Badge */}
+          <div className="flex items-center gap-3 shrink-0">
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/images/common/GME-LOGO-HD.png"
+                alt="GME Remit"
+                width={160}
+                height={48}
+                className="h-8 w-auto lg:h-10"
+                priority
+              />
+            </Link>
+            {/* Toggle Style Switcher */}
+            <div className="hidden lg:flex items-center bg-[#f5f5f7] rounded-full p-[3px]">
+              <span className="px-3.5 py-1.5 text-[13px] font-semibold text-white bg-[#191c1f] rounded-full">
+                GME Remit
+              </span>
+              <a
+                href="https://gmebiz.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center gap-1 px-3.5 py-1.5 text-[13px] font-medium text-[#666] hover:text-[#191c1f] transition-colors"
+              >
+                GME Biz
+                <svg className="w-3 h-3 opacity-40 group-hover:opacity-70 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M7 17L17 7M17 7H7M17 7v10" />
+                </svg>
+              </a>
+            </div>
+          </div>
 
           {/* Desktop Navigation */}
           <DesktopNav
@@ -404,20 +423,23 @@ export default function Header() {
 
           <div className="flex items-center gap-2 lg:gap-3 shrink-0">
             {/* CTA Button & Language */}
-            <div className="hidden lg:flex items-center gap-3">
-              <Link
-                href="/download"
-                className="bg-[#ed1c24] hover:bg-[#c41920] text-white font-semibold px-6 py-2.5 rounded-full transition-colors duration-200"
-              >
-                Download App
-              </Link>
+            <div className="hidden lg:flex items-center gap-2">
               <Link
                 href="/company/careers"
-                className="text-[#191c1f] hover:text-[#ed1c24] font-medium transition-colors duration-200 px-3 py-2"
+                className="text-[13px] text-[#666] hover:text-[#191c1f] font-medium transition-colors px-3 py-2"
               >
-                Careers
+                채용
               </Link>
               <LanguageSelector />
+              <Link
+                href="/download"
+                className="flex items-center gap-1.5 bg-[#191c1f] hover:bg-[#2d3036] text-white text-[13px] font-semibold px-4 py-2 rounded-full transition-colors"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                </svg>
+                앱 다운로드
+              </Link>
             </div>
 
             {/* Mobile Menu Button */}

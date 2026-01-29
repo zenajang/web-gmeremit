@@ -85,8 +85,8 @@ export default function RemittanceSection() {
               <div key={item.title} className="flip-card h-56 w-full cursor-pointer">
                 <div className="flip-card-inner">
                   {/* Front */}
-                  <div className="flip-card-face rounded-2xl overflow-hidden">
-                    <div className="absolute inset-0 bg-white backdrop-blur-xl border border-white/70 shadow-[0_12px_32px_rgba(15,23,42,0.12)]" />
+                  <div className="flip-card-face rounded-2xl overflow-hidden shadow-[0_8px_30px_rgba(237,28,36,0.08),0_4px_12px_rgba(237,28,36,0.05)]">
+                    <div className="absolute inset-0 bg-white backdrop-blur-xl border border-[#eee]" />
                     <div className="absolute inset-0 bg-gradient-to-br from-white/70 via-white/10 to-transparent" />
                     <div className="absolute inset-0 shadow-[inset_0_1px_0_rgba(255,255,255,0.65),inset_0_-1px_0_rgba(255,255,255,0.18)]" />
                     <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-white to-transparent" />
@@ -109,8 +109,8 @@ export default function RemittanceSection() {
                   </div>
 
                   {/* Back */}
-                  <div className="flip-card-face flip-card-back rounded-2xl overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-br from-[#ed1c24]/80 to-[#ff6b6b]/80 backdrop-blur-xl" />
+                  <div className="flip-card-face flip-card-back rounded-2xl overflow-hidden shadow-[0_8px_30px_rgba(237,28,36,0.25),0_4px_12px_rgba(0,0,0,0.1)]">
+                    <div className="absolute inset-0 bg-gradient-to-br from-[#ed1c24] to-[#ff6b6b]" />
                     <div className="absolute inset-0 bg-gradient-to-br from-white/30 via-transparent to-transparent" />
                     <div className="absolute inset-0 shadow-[inset_0_1px_0_rgba(255,255,255,0.45),inset_0_-1px_0_rgba(255,255,255,0.15)]" />
                     <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-white/50 to-transparent" />
