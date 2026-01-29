@@ -4,6 +4,8 @@ import HeroSection from "@/components/HeroSection";
 import CardsShowcase from "@/components/CardsShowcase";
 
 import HeroMain from "@/components/home/HeroMain";
+import ScrollSnap from "@/components/home/ScrollSnap";
+import SectionNav from "@/components/home/SectionNav";
 import MainServices from "@/components/home/MainServices";
 import PaymentsSection from "@/components/home/PaymentsSection";
 import RemittanceSection from "@/components/home/RemittanceSection";
@@ -15,6 +17,8 @@ export default function Home() {
   return (
     <>
       <Header />
+      <ScrollSnap />
+      <SectionNav />
 
       <main className="pt-16 lg:pt-20 bg-[var(--surface-1)]">
         {/* Hero Section */}

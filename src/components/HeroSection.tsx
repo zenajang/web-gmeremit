@@ -43,7 +43,7 @@ export default function HeroSection() {
   }, [isOpen]);
 
   return (
-    <section id="app" className="relative bg-gradient-to-b from-[#f8f8f8] to-white py-20 lg:py-28 overflow-hidden">
+    <section id="app" className="relative bg-gradient-to-b from-[#f8f8f8] to-white py-20 lg:py-28 overflow-hidden snap-section">
       {/* Background decorative elements */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Gradient orbs - Red blush (왼쪽 글귀 쪽) */}
@@ -173,14 +173,18 @@ export default function HeroSection() {
                 <div className="flex-1 h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent" />
               </div>
 
-              {/* Receive Output */}
+              {/* Receive Output - Deep Navy Frosted Glass */}
               <div className="space-y-2 mb-6">
                 <label className="text-[13px] font-medium text-[#737373]">받는 금액</label>
-                <div className="flex items-center gap-3 bg-[#111827] rounded-2xl px-5 py-5">
-                  <p className="flex-1 text-[1.75rem] font-bold text-white tabular-nums">
+                <div className="relative flex items-center gap-3 bg-[#0f172a]/85 backdrop-blur-2xl rounded-2xl px-5 py-5 border border-[#3b82f6]/20 shadow-[inset_0_1px_1px_rgba(255,255,255,0.1)]">
+                  {/* Glass highlights */}
+                  <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#3b82f6]/15 via-[#1e3a5f]/10 to-transparent pointer-events-none" />
+                  <div className="absolute top-0 left-4 right-4 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent pointer-events-none" />
+                  <div className="absolute inset-0 rounded-2xl shadow-[inset_0_-1px_1px_rgba(59,130,246,0.1)] pointer-events-none" />
+                  <p className="relative flex-1 text-[1.75rem] font-bold text-white tabular-nums">
                     {formatNumber(receiveAmount.toString())}
                   </p>
-                  <div className="flex items-center gap-2 pl-4 border-l border-white/20">
+                  <div className="relative flex items-center gap-2 pl-4 border-l border-white/20">
                     <span className="text-lg">{selectedCountry.flag}</span>
                     <span className="text-sm font-semibold text-white">{selectedCountry.code}</span>
                   </div>
