@@ -63,8 +63,19 @@ export default function CareersPage() {
       <Header />
       <main className="pt-[82px] lg:pt-[122px] bg-white">
         {/* Page Header - 세부 페이지 스타일 */}
-        <section className="border-b border-gray-100">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+        <section className="relative border-b border-gray-100 overflow-hidden">
+          {/* Background Logo */}
+          <div className="absolute left-15 top-1/3 -translate-y-1/2 opacity-[0.08] pointer-events-none">
+            <Image
+              src="/images/company/careers/icons/logo_icon.png"
+              alt=""
+              width={400}
+              height={400}
+              className="w-[280px] lg:w-[380px] h-auto"
+            />
+          </div>
+
+          <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
             <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
               <div>
                 <p className="text-sm font-medium text-[#ed1c24] mb-2">Careers</p>
