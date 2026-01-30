@@ -2,35 +2,23 @@ import Link from "next/link";
 
 const features = [
   {
-    title: "전 세계 연결",
-    sub: "200+ 국가",
-    desc: "현지 은행과 모바일 지갑으로 바로 송금",
-    backTitle: "글로벌 네트워크",
-    backDesc: "전 세계 200개국 이상의 파트너 은행과 모바일 지갑으로 빠르고 안전하게 송금할 수 있습니다.",
+    title: "최적화된 금액",
+    sub: "90% 절감",
+    desc: "은행보다 90% 저렴한 수수료와 환전금액",
+    backTitle: "압도적 비용 절감",
+    backDesc: "은행 대비 최대 90% 저렴한 수수료. 실시간 환율로 더 많이 보내세요.",
     icon: (
       <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
     ),
   },
   {
-    title: "실시간 송금",
-    sub: "평균 10초",
-    desc: "은행 영업시간 상관없이 24시간 즉시 도착",
-    backTitle: "즉시 도착",
-    backDesc: "24시간 365일 실시간 송금. 평균 10초 내 수취인 계좌에 도착합니다.",
-    icon: (
-      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-      </svg>
-    ),
-  },
-  {
-    title: "투명한 수수료",
-    sub: "숨은 비용 0원",
-    desc: "보내기 전에 수수료와 환율 모두 확인",
-    backTitle: "정직한 가격",
-    backDesc: "숨겨진 수수료 없이 송금 전 총 비용과 환율을 미리 확인하세요.",
+    title: "쉽고 안전한",
+    sub: "보안 인증",
+    desc: "튼튼한 보안으로 안심하고 이용하세요",
+    backTitle: "철저한 보안",
+    backDesc: "E-KYC 인증과 금융위원회 등록 서비스로 안전하게 송금하세요.",
     icon: (
       <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -38,14 +26,26 @@ const features = [
     ),
   },
   {
-    title: "실시간 추적",
-    sub: "알림 제공",
-    desc: "송금 시작부터 도착까지 단계별 알림",
-    backTitle: "단계별 알림",
-    backDesc: "송금 시작부터 도착까지 모든 단계를 실시간 푸시 알림으로 확인하세요.",
+    title: "200개국 이상",
+    sub: "100만+ 이용",
+    desc: "전세계 백만명 이상이 GME와 함께합니다",
+    backTitle: "글로벌 네트워크",
+    backDesc: "200개국 이상, 70개 글로벌 파트너와 함께 전세계로 송금하세요.",
     icon: (
       <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+    ),
+  },
+  {
+    title: "빠른 송금",
+    sub: "몇 번의 클릭",
+    desc: "몇 번의 클릭만으로 해외송금 완료",
+    backTitle: "간편한 송금",
+    backDesc: "복잡한 절차 없이 몇 번의 터치만으로 전세계 어디든 송금 완료.",
+    icon: (
+      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
       </svg>
     ),
   },
@@ -82,7 +82,10 @@ export default function RemittanceSection() {
 
           <div className="grid grid-cols-2 gap-5 lg:gap-7">
             {features.map((item) => (
-              <div key={item.title} className="flip-card h-56 w-full cursor-pointer">
+              <div key={item.title} className="relative flip-card h-56 w-full cursor-pointer">
+                {/* 입체적 그림자 */}
+                <div className="absolute inset-0 rounded-2xl bg-[#ed1c24]/8 translate-x-2 translate-y-2 blur-md" />
+                <div className="absolute inset-0 rounded-2xl bg-[#ed1c24]/4 translate-x-4 translate-y-4 blur-lg" />
                 <div className="flip-card-inner">
                   {/* Front */}
                   <div className="flip-card-face rounded-2xl overflow-hidden shadow-[0_8px_30px_rgba(237,28,36,0.08),0_4px_12px_rgba(237,28,36,0.05)]">

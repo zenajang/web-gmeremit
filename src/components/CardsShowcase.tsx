@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useState, type ReactNode } from "react";
 
-type HighlightIcon = "charge" | "payment" | "notification" | "currency" | "rate" | "lock" | "limit" | "share" | "chart" | "team" | "connect" | "policy";
+type HighlightIcon = "charge" | "payment" | "notification" | "currency" | "rate" | "lock" | "limit" | "share" | "chart" | "team" | "connect" | "policy" | "cashback" | "transport" | "design" | "gift";
 
 type HighlightItem = {
   text: string;
@@ -84,68 +84,90 @@ const highlightIcons: Record<HighlightIcon, ReactNode> = {
       <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
     </svg>
   ),
+  cashback: (
+    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.8}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M9 14l6-6m-5.5.5h.01m4.99 5h.01M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16l3.5-2 3.5 2 3.5-2 3.5 2zM10 8.5a.5.5 0 11-1 0 .5.5 0 011 0zm5 5a.5.5 0 11-1 0 .5.5 0 011 0z" />
+    </svg>
+  ),
+  transport: (
+    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.8}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M8 17a1 1 0 100-2 1 1 0 000 2zm8 0a1 1 0 100-2 1 1 0 000 2zM6 3h12l2 5v9a1 1 0 01-1 1h-1a1 1 0 01-1-1v-1H7v1a1 1 0 01-1 1H5a1 1 0 01-1-1V8l2-5zm0 5h12M9 3v5m6-5v5" />
+    </svg>
+  ),
+  design: (
+    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.8}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
+    </svg>
+  ),
+  gift: (
+    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.8}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
+    </svg>
+  ),
 };
 
 const cards: CardItem[] = [
   {
-    id: "remit",
-    eyebrow: "GLOBAL REMIT",
-    title: "송금 전용 카드",
-    desc: "송금 잔액을 바로 카드로 연결해 국내외 어디서든 안전하게 사용할 수 있습니다.",
+    id: "black",
+    eyebrow: "THE BLACK",
+    title: "The Black",
+    desc: "해외 결제에 특화된 프리미엄 카드. 해외 어디서든 최고의 캐시백 혜택을 누리세요.",
     highlights: [
-      { text: "송금 잔액 즉시 충전", icon: "charge" },
-      { text: "온라인/오프라인 결제", icon: "payment" },
-      { text: "사용 내역 실시간 알림", icon: "notification" },
+      { text: "해외 결제 3% 캐시백", icon: "currency" },
+      { text: "국내 결제 0.3% 캐시백", icon: "cashback" },
+      { text: "특별 이벤트 할인 혜택", icon: "gift" },
+      { text: "지하철·버스·택시 간편 결제", icon: "transport" },
     ],
-    ctaLabel: "송금 카드 소개 보기",
+    ctaLabel: "The Black 카드 보기",
     ctaHref: "/personal/gme-card",
     image: "/images/card/black.png",
   },
   {
-    id: "travel",
-    eyebrow: "TRAVEL READY",
-    title: "해외 결제 카드",
-    desc: "해외 결제와 환전 수수료를 줄이고, 여행 중에도 지출을 투명하게 관리합니다.",
+    id: "white",
+    eyebrow: "THE WHITE",
+    title: "The White",
+    desc: "심플하고 깔끔한 디자인의 일상 카드. 국내 결제와 대중교통을 편리하게.",
     highlights: [
-      { text: "멀티 통화 결제", icon: "currency" },
-      { text: "환율 우대 구간", icon: "rate" },
-      { text: "분실 시 즉시 잠금", icon: "lock" },
+      { text: "국내 결제 0.3% 캐시백", icon: "cashback" },
+      { text: "특별 이벤트 할인 혜택", icon: "gift" },
+      { text: "지하철·버스·택시 간편 결제", icon: "transport" },
     ],
-    ctaLabel: "해외 결제 카드 보기",
+    ctaLabel: "The White 카드 보기",
     ctaHref: "/personal/gme-card",
     image: "/images/card/white.png",
   },
   {
-    id: "team",
-    eyebrow: "TEAM CONTROL",
-    title: "가족/팀 카드",
-    desc: "가족이나 팀원에게 카드 권한을 나눠주고, 한 곳에서 한도와 사용 내역을 관리하세요.",
+    id: "red",
+    eyebrow: "THE RED",
+    title: "The Red",
+    desc: "GME의 시그니처 컬러를 담은 카드. 일상의 모든 결제를 스타일리시하게.",
     highlights: [
-      { text: "카드별 한도 설정", icon: "limit" },
-      { text: "카드 권한 공유", icon: "share" },
-      { text: "지출 카테고리 분석", icon: "chart" },
+      { text: "국내 결제 0.3% 캐시백", icon: "cashback" },
+      { text: "특별 이벤트 할인 혜택", icon: "gift" },
+      { text: "지하철·버스·택시 간편 결제", icon: "transport" },
     ],
-    ctaLabel: "가족/팀 카드 보기",
+    ctaLabel: "The Red 카드 보기",
     ctaHref: "/personal/gme-card",
     image: "/images/card/red.png",
   },
   {
-    id: "business",
-    eyebrow: "BUSINESS FLOW",
-    title: "비즈니스 카드",
-    desc: "정산과 지급을 하나의 흐름으로 연결하고, 팀 단위로 카드 지출을 통제할 수 있습니다.",
+    id: "uniq",
+    eyebrow: "THE UNIQ",
+    title: "The Uniq",
+    desc: "18개국의 30가지 이상 디자인 중 나만의 카드를 선택하세요.",
     highlights: [
-      { text: "팀별 카드 발급", icon: "team" },
-      { text: "지급/정산 연동", icon: "connect" },
-      { text: "승인 정책 설정", icon: "policy" },
+      { text: "국내 결제 0.3% 캐시백", icon: "cashback" },
+      { text: "특별 이벤트 할인 혜택", icon: "gift" },
+      { text: "18개국 30+ 디자인", icon: "design" },
+      { text: "지하철·버스·택시 간편 결제", icon: "transport" },
     ],
-    ctaLabel: "비즈니스 카드 보기",
-    ctaHref: "/business",
+    ctaLabel: "The Uniq 카드 보기",
+    ctaHref: "/personal/gme-card",
     image: "/images/card/uniq.png",
   },
 ];
 
-const AUTO_DELAY = 8600;
+const AUTO_DELAY = 3000;
 
 function mod(n: number, m: number) {
   return ((n % m) + m) % m;
@@ -213,24 +235,25 @@ export default function CardsShowcase() {
           if (Math.abs(offset) > 1) return null;
           const isActive = offset === 0;
           const absOffset = Math.abs(offset);
-          const translateX = offset * 100;
-          const translateY = absOffset === 0 ? 0 : 0 + absOffset * 55;
-          const scale = isActive ? 1.06 : 0.78 - Math.min(absOffset, 2) * 0.08;
-          const opacity = isActive ? 1 : 0.32;
+          const translateX = offset * 90;
+          const translateY = absOffset === 0 ? 0 : absOffset * 50;
+          // 옆 카드는 작게, 등장하면서 커지는 효과
+          const scale = isActive ? 1.06 : 0.65;
+          const opacity = isActive ? 1 : 0.35;
           const baseTilt = index % 2 === 0 ? -1 : 1;
-          const rotation = offset === 0 ? 0 : baseTilt * (8 + absOffset * 2);
+          const rotation = offset === 0 ? 0 : baseTilt * (6 + absOffset * 3);
           const zIndex = 30 - absOffset;
           const imageProps = isActive ? { priority: true } : { loading: "lazy" as const };
 
           return (
             <div
               key={card.id}
-              className="pointer-events-none absolute inset-0 flex items-center justify-center px-4"
+              className="pointer-events-none absolute inset-0 flex items-center justify-center px-4 transition-opacity duration-[800ms] ease-out"
               style={{ zIndex, opacity }}
               aria-hidden={!isActive}
             >
               <div
-                className="w-full max-w-[460px] transition-all duration-[1200ms] ease-[cubic-bezier(0.16,1,0.3,1)]"
+                className="w-full max-w-[460px] transition-all duration-[800ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)]"
                 style={{
                   transform: `translateX(${translateX}px) translateY(${translateY}px) scale(${scale}) rotate(${rotation}deg)`,
                 }}

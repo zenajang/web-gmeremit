@@ -345,11 +345,12 @@ const menuItems: MenuItem[] = [
     ],
   },
   {
-    label: "News / Blog",
-    href: "/news",
+    label: "소식",
+    href: "/board/notice",
     children: [
-      { label: "Business News", href: "/news/business" },
-      { label: "Blog", href: "/news/blog" },
+      { label: "공지사항", href: "/board/notice" },
+      { label: "뉴스 / 보도자료", href: "/board/press" },
+      { label: "블로그", href: "/board/blog" },
     ],
   },
   {
@@ -365,6 +366,7 @@ const menuItems: MenuItem[] = [
 // ============ Main Header ============
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -379,87 +381,101 @@ export default function Header() {
     return () => { document.body.style.overflow = ""; };
   }, [isMenuOpen]);
 
+  // 스크롤 감지
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 10);
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur border-b border-[#f3d6cc]">
-      <div className="max-w-none mx-auto px-4 sm:px-6 lg:px-6">
-        <div className="relative flex items-center justify-between h-16 lg:h-20">
-          {/* Logo + Biz Badge */}
-          <div className="flex items-center gap-3 shrink-0">
-            <Link href="/" className="flex items-center">
+    <header className="fixed top-0 left-0 right-0 z-50">
+      {/* Top Bar - 첫째 줄 */}
+      <div className={`hidden lg:block bg-white border-b transition-all duration-200 ${isScrolled ? "border-gray-200" : "border-gray-100"}`}>
+        <div className="max-w-8xl mx-auto px-6 lg:px-10">
+          <div className="flex items-center justify-end h-10 gap-6">
+            <Link
+              href="/company/careers"
+              className="text-[13px] text-[#666] hover:text-[#191c1f] font-medium transition-colors"
+            >
+              채용
+            </Link>
+            <div className="w-px h-3 bg-gray-300" />
+            <LanguageSelector />
+          </div>
+        </div>
+      </div>
+
+      {/* Main Nav - 둘째 줄 */}
+      <div className={`bg-white transition-all duration-200 ${isScrolled ? "shadow-sm" : ""}`}>
+        <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-10">
+          <div className="flex items-center justify-between h-16 lg:h-[72px]">
+            {/* Logo */}
+            <Link href="/" className="flex items-center group shrink-0">
               <Image
                 src="/images/common/GME-LOGO-HD.png"
                 alt="GME Remit"
                 width={160}
                 height={48}
-                className="h-8 w-auto lg:h-10"
+                className="h-8 w-auto lg:h-11 transition-transform duration-200 group-hover:scale-[1.02]"
                 priority
               />
             </Link>
-            {/* Toggle Style Switcher */}
-            <div className="hidden lg:flex items-center bg-[#f5f5f7] rounded-full p-[3px]">
-              <span className="px-3.5 py-1.5 text-[13px] font-semibold text-white bg-[#191c1f] rounded-full">
-                GME Remit
-              </span>
+
+            {/* Desktop Navigation - 중앙 */}
+            <DesktopNav
+              menuItems={menuItems}
+              businessMenuSections={businessMenuSections}
+              companyMenuSections={companyMenuSections}
+            />
+
+            {/* Right Side */}
+            <div className="flex items-center gap-8 shrink-0">
+              {/* GME Biz */}
               <a
                 href="https://gmebiz.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-center gap-1 px-3.5 py-1.5 text-[13px] font-medium text-[#666] hover:text-[#191c1f] transition-colors"
+                className="hidden lg:flex items-center gap-2 text-[15px] font-semibold text-[#555] hover:text-[#ed1c24] transition-colors"
               >
-                GME Biz
-                <svg className="w-3 h-3 opacity-40 group-hover:opacity-70 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M7 17L17 7M17 7H7M17 7v10" />
+                <span>GME Biz</span>
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
               </a>
-            </div>
-          </div>
 
-          {/* Desktop Navigation */}
-          <DesktopNav
-            menuItems={menuItems}
-            businessMenuSections={businessMenuSections}
-            companyMenuSections={companyMenuSections}
-          />
-
-          <div className="flex items-center gap-2 lg:gap-3 shrink-0">
-            {/* CTA Button & Language */}
-            <div className="hidden lg:flex items-center gap-2">
-              <Link
-                href="/company/careers"
-                className="text-[13px] text-[#666] hover:text-[#191c1f] font-medium transition-colors px-3 py-2"
-              >
-                채용
-              </Link>
-              <LanguageSelector />
+              {/* CTA Button */}
               <a
                 href="/#app-download"
-                className="flex items-center gap-1.5 bg-[#191c1f] hover:bg-[#2d3036] text-white text-[13px] font-semibold px-4 py-2 rounded-full transition-colors"
+                className="hidden lg:flex items-center gap-2 bg-[#ed1c24] hover:bg-[#d91920] text-white text-[14px] font-semibold px-5 py-2.5 rounded-full transition-all duration-200 shadow-sm hover:shadow-md"
               >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                </svg>
                 앱 다운로드
               </a>
-            </div>
 
-            {/* Mobile Menu Button */}
-            <button
-              type="button"
-              className="lg:hidden p-2 rounded-md text-[#191c1f] hover:bg-gray-100 cursor-pointer"
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-              aria-expanded={isMenuOpen}
-            >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                {isMenuOpen ? (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                ) : (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                )}
-              </svg>
-            </button>
+              {/* Mobile Menu Button */}
+              <button
+                type="button"
+                className="lg:hidden p-2.5 rounded-xl text-[#191c1f] hover:bg-[#f5f5f7] active:scale-95 transition-all duration-150 cursor-pointer"
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+                aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+                aria-expanded={isMenuOpen}
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  {isMenuOpen ? (
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  ) : (
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M3.75 17.25h16.5" />
+                  )}
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
+
+        {/* Bottom Accent Bar */}
+        <div className="h-[3px] bg-gradient-to-r from-[#ed1c24] via-[#ed1c24] to-[#ff6b6b]" />
       </div>
 
       {/* Mobile Menu */}

@@ -47,7 +47,9 @@ export default function HeroMain() {
             </h1>
 
             <p className="text-lg sm:text-xl text-[#666] leading-relaxed mb-8 max-w-lg mx-auto lg:mx-0">
-              200개국 실시간 송금. 수수료 무료, 은행보다 좋은 환율로 전 세계 어디든 빠르게 보내세요.
+              200개국 어디든, 국내 모든 은행으로 실시간 송금.
+              <br />
+              70개 글로벌 파트너와 E-KYC 인증으로 안전하게.
             </p>
 
             {/* CTA Buttons */}
@@ -69,18 +71,20 @@ export default function HeroMain() {
               </Link>
             </div>
 
-            {/* Inline Stats */}
-            <div className="flex items-center justify-center lg:justify-start gap-5 text-sm text-[#666]">
-              <span className="flex items-center gap-1.5">
-                <span className="font-bold text-[#191c1f]">82만+</span> 다운로드
-              </span>
-              <span className="w-1 h-1 rounded-full bg-gray-300" />
-              <span className="flex items-center gap-1.5">
-                <svg className="w-4 h-4 text-[#fbbf24]" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                </svg>
-                <span className="font-bold text-[#191c1f]">4.9</span> 평점
-              </span>
+            {/* Rating Badge */}
+            <div className="flex items-center justify-center lg:justify-start">
+              <div className="inline-flex items-center gap-3 bg-white/80 backdrop-blur-sm border border-gray-200/60 rounded-full px-4 py-2 shadow-[0_2px_8px_rgba(0,0,0,0.04)]">
+                <div className="flex items-center gap-1">
+                  {[...Array(5)].map((_, i) => (
+                    <svg key={i} className={`w-3.5 h-3.5 ${i < 4 ? "text-[#fbbf24]" : "text-[#fbbf24]/70"}`} fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                  ))}
+                </div>
+                <span className="text-sm font-bold text-[#191c1f]">4.7</span>
+                <span className="w-px h-3 bg-gray-300" />
+                <span className="text-xs text-[#666]">App Store · Google Play 평균</span>
+              </div>
             </div>
           </div>
           {/* Right - Supported Countries Grid */}

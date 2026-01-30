@@ -63,17 +63,19 @@ export function LanguageSelector() {
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 px-3 py-2 text-[#191c1f] hover:text-[#ed1c24] transition-colors duration-200 cursor-pointer"
+        className={`flex items-center gap-2 px-3 py-2 rounded-lg transition-all duration-200 cursor-pointer ${
+          isOpen ? "bg-[#f5f5f7] text-[#191c1f]" : "text-[#555] hover:text-[#191c1f] hover:bg-[#f5f5f7]"
+        }`}
         aria-label="Select language"
       >
-        <GlobeIcon className="text-gray-500" />
-        <span className="text-sm font-medium hidden sm:inline">{currentLanguage.code.toUpperCase()}</span>
-        <ChevronDownIcon className={`transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`} />
+        <GlobeIcon className="text-current opacity-70" />
+        <span className="text-[15px] font-medium hidden sm:inline">{currentLanguage.code.toUpperCase()}</span>
+        <ChevronDownIcon className={`opacity-50 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`} />
       </button>
 
       {isOpen && (
         <div className="absolute top-full right-0 mt-2 z-50">
-          <div className="bg-white rounded-lg shadow-xl border border-gray-100 py-2 min-w-[180px] max-h-[320px] overflow-y-auto">
+          <div className="bg-white rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.08),0_0_0_1px_rgba(0,0,0,0.04)] py-2 min-w-[200px] max-h-[320px] overflow-y-auto">
             {languages.map((lang) => (
               <button
                 key={lang.code}
@@ -82,12 +84,14 @@ export function LanguageSelector() {
                   setLanguage(lang);
                   setIsOpen(false);
                 }}
-                className={`w-full flex items-center gap-3 px-4 py-2.5 text-left hover:bg-gray-50 transition-colors duration-150 cursor-pointer ${
-                  currentLanguage.code === lang.code ? "bg-gray-50 text-[#ed1c24]" : "text-[#191c1f]"
+                className={`w-full flex items-center gap-3 px-4 py-2.5 text-left transition-all duration-150 cursor-pointer ${
+                  currentLanguage.code === lang.code
+                    ? "bg-[#fef2f2] text-[#ed1c24]"
+                    : "text-[#444] hover:bg-[#f5f5f7] hover:text-[#191c1f]"
                 }`}
               >
                 <span className="text-lg">{lang.flag}</span>
-                <span className="text-sm font-medium">{lang.nativeName}</span>
+                <span className="text-[15px] font-medium">{lang.nativeName}</span>
               </button>
             ))}
           </div>
@@ -97,115 +101,77 @@ export function LanguageSelector() {
   );
 }
 
-// ============ Mega Menu ============
-function MegaMenu({ sections, columns }: { sections: MenuSection[]; columns: number }) {
-  return (
-    <div className="absolute top-full left-1/2 -translate-x-1/2 pt-4 z-50">
-      <div className={`bg-white rounded-2xl shadow-2xl border border-gray-100 p-8 ${columns === 4 ? "min-w-[850px]" : "min-w-[700px]"}`}>
-        <div className={`grid gap-8 ${columns === 4 ? "grid-cols-4" : "grid-cols-3"}`}>
-          {sections.map((section) => (
-            <div key={section.title}>
-              <h3 className="text-[#ed1c24] font-semibold text-lg mb-4">{section.title}</h3>
-              <ul className="space-y-3">
-                {section.items.map((item) => (
-                  <li key={item.label}>
-                    <Link
-                      href={item.href}
-                      className="text-[#191c1f] hover:text-[#ed1c24] transition-colors duration-150"
-                    >
-                      <span className="text-sm font-medium">{item.label}</span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  );
-}
-
 // ============ Desktop Dropdown ============
 export function DesktopDropdown({
   item,
   businessMenuSections,
   companyMenuSections,
+  isOpen,
+  onMouseEnter,
+  onMouseLeave,
 }: {
   item: MenuItem;
   businessMenuSections: MenuSection[];
   companyMenuSections: MenuSection[];
+  isOpen: boolean;
+  onMouseEnter: () => void;
+  onMouseLeave: () => void;
 }) {
-  const [isOpen, setIsOpen] = useState(false);
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
-
-  const handleMouseEnter = () => {
-    if (timeoutRef.current) clearTimeout(timeoutRef.current);
-    setIsOpen(true);
-  };
-
-  const handleMouseLeave = () => {
-    timeoutRef.current = setTimeout(() => setIsOpen(false), 150);
-  };
-
-  useEffect(() => {
-    return () => {
-      if (timeoutRef.current) clearTimeout(timeoutRef.current);
-    };
-  }, []);
-
   // Simple link without dropdown
   if (!item.children && !item.megaMenuType) {
     return (
       <Link
         href={item.href}
-        className="text-[#191c1f] hover:text-[#ed1c24] font-medium transition-colors duration-200 py-2"
+        className="relative text-[15px] text-[#444] hover:text-[#191c1f] font-medium transition-all duration-200 px-4 py-2 rounded-lg hover:bg-[#f5f5f7]"
+        onMouseEnter={onMouseLeave}
       >
         {item.label}
       </Link>
     );
   }
 
-  // Mega Menu (Business or Company)
+  // Get dropdown items based on type
+  let dropdownItems: { label: string; href: string }[] = [];
+
   if (item.megaMenuType) {
     const sections = item.megaMenuType === "business" ? businessMenuSections : companyMenuSections;
-    const columns = item.megaMenuType === "company" ? 4 : 3;
-
-    return (
-      <div className="relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-        <button
-          type="button"
-          className="flex items-center gap-1 text-[#191c1f] hover:text-[#ed1c24] font-medium transition-colors duration-200 py-2 cursor-pointer"
-        >
-          {item.label}
-          <ChevronDownIcon className={`transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`} />
-        </button>
-        {isOpen && <MegaMenu sections={sections} columns={columns} />}
-      </div>
+    // Flatten sections into simple items
+    dropdownItems = sections.flatMap(section =>
+      section.items.map(subItem => ({ label: subItem.label, href: subItem.href }))
     );
+  } else if (item.children) {
+    dropdownItems = item.children;
   }
 
-  // Regular dropdown
   return (
-    <div className="relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+    <div className="relative" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
       <button
         type="button"
-        className="flex items-center gap-1 text-[#191c1f] hover:text-[#ed1c24] font-medium transition-colors duration-200 py-2 cursor-pointer"
+        className={`flex items-center gap-1.5 text-[17px] font-medium transition-all duration-200 px-4 py-2 rounded-lg cursor-pointer ${
+          isOpen ? "text-[#191c1f] bg-[#f5f5f7]" : "text-[#444] hover:text-[#191c1f] hover:bg-[#f5f5f7]"
+        }`}
       >
         {item.label}
         <ChevronDownIcon className={`transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`} />
       </button>
 
       {isOpen && (
-        <div className="absolute top-full left-0 pt-2 z-50">
-          <div className="bg-white rounded-lg shadow-xl border border-gray-100 min-w-[200px] py-2">
-            {item.children?.map((child) => (
+        <div className="absolute top-full left-1/2 -translate-x-1/2 pt-4 z-50">
+          {/* Pointer */}
+          <div className="absolute top-2 left-1/2 -translate-x-1/2 w-3 h-3 bg-white rotate-45 shadow-[-2px_-2px_4px_rgba(0,0,0,0.04)] z-10 animate-[fadeIn_0.2s_ease-out]" />
+          {/* Dropdown */}
+          <div className="relative bg-white/95 backdrop-blur-xl rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.12),0_0_0_1px_rgba(0,0,0,0.04)] py-2 min-w-[180px] animate-[menuReveal_0.3s_ease-out]">
+            {/* Top highlight */}
+            <div className="absolute top-0 left-4 right-4 h-[1px] bg-gradient-to-r from-transparent via-white to-transparent" />
+            {dropdownItems.map((child, index) => (
               <Link
                 key={child.label}
                 href={child.href}
-                className="block px-4 py-2.5 text-[#191c1f] hover:bg-gray-50 hover:text-[#ed1c24] transition-colors duration-150"
+                className="group relative block px-5 py-3 text-[14px] text-[#555] hover:text-[#191c1f] transition-all duration-200 whitespace-nowrap text-center"
+                style={{ animationDelay: `${index * 50}ms` }}
               >
-                {child.label}
+                <span className="absolute inset-x-2 inset-y-1 rounded-lg bg-[#f5f5f7] opacity-0 group-hover:opacity-100 transition-opacity duration-200 -z-10" />
+                <span className="relative">{child.label}</span>
               </Link>
             ))}
           </div>
@@ -225,14 +191,35 @@ export default function DesktopNav({
   businessMenuSections: MenuSection[];
   companyMenuSections: MenuSection[];
 }) {
+  const [openMenuIndex, setOpenMenuIndex] = useState<number | null>(null);
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  const handleMouseEnter = (index: number) => {
+    if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    setOpenMenuIndex(index);
+  };
+
+  const handleMouseLeave = () => {
+    timeoutRef.current = setTimeout(() => setOpenMenuIndex(null), 150);
+  };
+
+  useEffect(() => {
+    return () => {
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    };
+  }, []);
+
   return (
     <nav className="hidden lg:flex absolute left-1/2 -translate-x-1/2 items-center gap-10">
-      {menuItems.map((item) => (
+      {menuItems.map((item, index) => (
         <DesktopDropdown
           key={item.label}
           item={item}
           businessMenuSections={businessMenuSections}
           companyMenuSections={companyMenuSections}
+          isOpen={openMenuIndex === index}
+          onMouseEnter={() => handleMouseEnter(index)}
+          onMouseLeave={handleMouseLeave}
         />
       ))}
     </nav>

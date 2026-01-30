@@ -1,42 +1,42 @@
 import Link from "next/link";
 
 const stats = [
-  { label: "오늘 지급", value: "₩2.8억", change: "+12%", color: "#3b82f6" },
-  { label: "처리 건수", value: "1,247건", change: "+8%", color: "#3b82f6" },
-  { label: "성공률", value: "99.8%", change: "정상", color: "#22c55e" },
+  { label: "비용 절감", value: "최대 70%", change: "vs 기존", color: "#3b82f6" },
+  { label: "파트너사", value: "200+", change: "글로벌", color: "#3b82f6" },
+  { label: "처리 성공률", value: "99.8%", change: "정상", color: "#22c55e" },
 ];
 
 const transactions = [
-  { icon: "💼", name: "파트너 A 정산", amount: "₩45,200,000", time: "방금 전", status: "완료", statusColor: "#22c55e" },
-  { icon: "🏢", name: "급여 일괄 지급", amount: "₩128,500,000", time: "2분 전", status: "처리중", statusColor: "#f59e0b" },
-  { icon: "📄", name: "정산 리포트 생성", amount: "12월 결산", time: "5분 전", status: "완료", statusColor: "#22c55e" },
+  { icon: "💼", name: "B2B 대량 송금", amount: "₩128,500,000", time: "방금 전", status: "완료", statusColor: "#22c55e" },
+  { icon: "🏢", name: "파트너사 정산", amount: "₩45,200,000", time: "2분 전", status: "처리중", statusColor: "#f59e0b" },
+  { icon: "🛒", name: "가맹점 결제", amount: "₩18,700,000", time: "5분 전", status: "완료", statusColor: "#22c55e" },
 ];
 
 const features = [
   {
-    title: "수납",
-    desc: "가상계좌 자동 발급",
+    title: "SPS",
+    desc: "B2B 결제 솔루션",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
       </svg>
     )
   },
   {
-    title: "지급",
-    desc: "대량 지급 한번에",
-    icon: (
-      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-      </svg>
-    )
-  },
-  {
-    title: "정산",
-    desc: "리포트 자동 생성",
+    title: "VAS",
+    desc: "알림·리포트·대시보드",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+      </svg>
+    )
+  },
+  {
+    title: "SMB",
+    desc: "이커머스 솔루션",
+    icon: (
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
       </svg>
     )
   },
@@ -56,7 +56,7 @@ export default function PaymentsSection() {
             <p className="text-xs font-semibold tracking-[0.32em] text-[#3b82f6] mb-3">PAYMENTS</p>
             <h2 className="text-4xl sm:text-5xl font-bold text-[#191c1f] leading-[1.08] mb-5">Global Payments</h2>
             <p className="text-xl text-gray-600 leading-relaxed mb-8">
-              대량 지급, 정산, 파트너 송금까지. 기업 지급 흐름을 빠르고 안전하게 연결합니다.
+              급여 송금, 파트너 정산, 이커머스 결제까지. 비용 절감과 효율적인 기업 결제 솔루션을 제공합니다.
             </p>
             <Link
               href="/business"
@@ -72,7 +72,11 @@ export default function PaymentsSection() {
           </div>
 
           <div className="order-2 lg:order-1">
-            <div className="rounded-3xl border border-[#eee] bg-white p-6 shadow-[0_20px_50px_rgba(0,0,0,0.06)]">
+            <div className="relative">
+              {/* 입체적 그림자 */}
+              <div className="absolute inset-0 rounded-3xl bg-[#3b82f6]/10 translate-x-3 translate-y-3 blur-lg" />
+              <div className="absolute inset-0 rounded-3xl bg-[#3b82f6]/5 translate-x-5 translate-y-5 blur-xl" />
+            <div className="relative rounded-3xl border border-[#eee] bg-white p-6 shadow-[0_20px_50px_rgba(0,0,0,0.06)]">
               {/* Header */}
               <div className="flex items-center justify-between mb-5">
                 <div className="flex items-center gap-3">
@@ -82,8 +86,8 @@ export default function PaymentsSection() {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-sm font-bold text-[#191c1f]">지급 현황</p>
-                    <p className="text-[11px] text-[#999]">실시간 모니터링</p>
+                    <p className="text-sm font-bold text-[#191c1f]">Payment Solutions</p>
+                    <p className="text-[11px] text-[#999]">기업 맞춤 솔루션</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-1.5">
@@ -139,6 +143,7 @@ export default function PaymentsSection() {
                   </div>
                 ))}
               </div>
+            </div>
             </div>
           </div>
         </div>

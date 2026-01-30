@@ -18,7 +18,7 @@ export default function AppDownloadCTA() {
             {/* Left - Text Content */}
             <div>
               <div className="flex flex-wrap items-center gap-2 text-xs font-semibold text-white/70">
-                {["실시간 환율", "송금 추적", "안전한 인증"].map((chip) => (
+                {["실시간 환율", "최적화된 금액", "안전한 인증"].map((chip) => (
                   <span key={chip} className="rounded-full border border-white/15 bg-white/5 px-3 py-1.5">
                     {chip}
                   </span>
@@ -31,7 +31,7 @@ export default function AppDownloadCTA() {
                 관리는 더 똑똑하게
               </h3>
               <p className="mt-4 max-w-2xl text-white/80">
-                실시간 환율 확인부터 송금 추적, 수수료 확인까지.
+                쉽고 안전한 보안으로 최적화된 금액으로 빠른 송금까지
                 GME Remit 앱 하나로 안전하고 간편하게 관리하세요.
               </p>
               <div className="mt-9 flex flex-wrap items-center gap-4">

@@ -67,7 +67,7 @@ export default function HeroSection() {
             <p className="text-lg text-[#666] leading-relaxed mb-8 max-w-sm">
               200개국 이상 실시간 환율 조회.
               <br />
-              수수료 없이 투명하게.
+              수수료 확인을 투명하게.
             </p>
 
             {/* Simple Stats */}
@@ -76,7 +76,7 @@ export default function HeroSection() {
                 <p className="text-3xl font-bold text-[#191c1f]">200+</p>
                 <p className="text-sm text-[#999] mt-1">송금 가능 국가</p>
               </div>
-              <div className="w-px h-12 bg-gray-200" />
+              <div className="w-px h-12 bg-gray-400" />
               <div>
                 <p className="text-3xl font-bold text-[#191c1f]">24/7</p>
                 <p className="text-sm text-[#999] mt-1">실시간 서비스</p>
@@ -190,13 +190,6 @@ export default function HeroSection() {
                   </div>
                 </div>
               </div>
-
-              {/* Fee Notice */}
-              <div className="flex items-center justify-between text-sm mb-6 px-1">
-                <span className="text-[#737373]">송금 수수료</span>
-                <span className="font-semibold text-[#22c55e]">무료</span>
-              </div>
-
               </div>
             </div>
           </div>

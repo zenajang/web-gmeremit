@@ -20,7 +20,10 @@ export default function ScrollSnap() {
   const scrollAccumulator = useRef(0);
 
   useEffect(() => {
-    const headerHeight = window.innerWidth >= 1024 ? 80 : 64;
+    // Header height + extra offset to show content a bit higher
+    const headerHeight = window.innerWidth >= 1024 ? 72 : 64;
+    const extraOffset = 20; // 섹션이 살짝 더 아래에서 시작하도록
+    const effectiveHeaderHeight = headerHeight - extraOffset;
     const threshold = 40;
 
     // 섹션 요소들 가져오기
@@ -97,7 +100,7 @@ export default function ScrollSnap() {
 
       if (direction === "down" && currentIndex < sections.length - 1) {
         const nextSection = sections[currentIndex + 1];
-        const targetTop = nextSection.offsetTop - headerHeight;
+        const targetTop = nextSection.offsetTop - effectiveHeaderHeight;
 
         // 현재 위치가 다음 섹션에 가까우면 스킵
         if (currentScrollY < targetTop - 50) {
@@ -109,10 +112,10 @@ export default function ScrollSnap() {
 
       if (direction === "up" && currentIndex > 0) {
         const prevSection = sections[currentIndex - 1];
-        const targetTop = currentIndex === 1 ? 0 : prevSection.offsetTop - headerHeight;
+        const targetTop = currentIndex === 1 ? 0 : prevSection.offsetTop - effectiveHeaderHeight;
 
         // 현재 섹션 상단 근처에 있을 때만 이전 섹션으로
-        const currentSectionTop = sections[currentIndex].offsetTop - headerHeight;
+        const currentSectionTop = sections[currentIndex].offsetTop - effectiveHeaderHeight;
         if (currentScrollY < currentSectionTop + 150) {
           e.preventDefault();
           smoothScrollTo(targetTop);

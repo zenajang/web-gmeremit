@@ -3,319 +3,276 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Image from "next/image";
+import Link from "next/link";
+import { useState } from "react";
 
-const perksData = [
+const benefits = [
   {
-    title: "Education & Training",
-    description: "Do you want to learn more and develop your professional skills? If yes, GME is the right place for you! We have special courses organized on a regular basis such as educational lectures by special guests, language courses by native teachers, work-related training sessions and etc. Do you want to enroll online individual courses for your professional development, but you are worried about the cost? No worries, just get approval before enrolling, and all financial burden is on us.",
+    title: "교육 및 성장 지원",
+    description: "직무 관련 온라인 강의, 자격증 취득, 원어민 어학 수업, 컨퍼런스 참가비 등 자기계발에 필요한 비용을 전액 지원합니다.",
     image: "/images/company/careers/perks/education-training.jpg",
-    icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M12 14l9-5-9-5-9 5 9 5z" />
-        <path strokeLinecap="round" strokeLinejoin="round" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-      </svg>
-    ),
   },
   {
-    title: "Performance Incentives and Rewards",
-    description: "We would like to show our appreciation for your outstanding work performance with different incentives and rewards. We offer full package of opportunities to participate in various incentive and reward-based tasks and contests such as monthly & yearly target achievements, individual & teamwork improvements, new product idea contests etc.",
+    title: "성과 인센티브",
+    description: "월간/연간 목표 달성, 신규 아이디어 채택, 우수 사원 시상 등 다양한 성과 기반 인센티브와 포상 제도를 운영합니다.",
     image: "/images/company/careers/perks/performance-incentives.jpg",
-    icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-      </svg>
-    ),
   },
   {
-    title: "Team Building Activities & Wellness programs",
-    description: "Monthly meetings are celebration for us with dinner parties, enjoying healing concerts and movies. You are welcome to join in various types of sport activities such as futsal or soccer and events & clubs such as bicycle club, picnic and team leader workshops.",
+    title: "팀 빌딩 & 문화",
+    description: "월간 타운홀 미팅, 분기별 팀 단합 행사, 풋살/자전거 동호회, 힐링 콘서트 등 함께 성장하는 문화를 만들어갑니다.",
     image: "/images/company/careers/perks/team-building.jpg",
-    icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-      </svg>
-    ),
   },
   {
-    title: "Health Check-up Benefit",
-    description: "All full-time employees receive a 300,000 KRW health check-up benefit as part of our internal welfare program.",
+    title: "건강검진 지원",
+    description: "정직원 대상 연 30만원 건강검진 비용을 지원하며, 구성원의 건강한 삶을 응원합니다.",
     image: "/images/company/careers/perks/health-checkup.png",
-    icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-      </svg>
-    ),
   },
   {
-    title: "Annual & Bonus leaves",
-    description: "Apart from fixed annual leaves, you can get extra bonus leaves, anniversary leaves (wedding/funeral) as well as parental leaves.",
-    image: "/images/company/careers/perks/annual-bonus.jpg",
-    icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-      </svg>
-    ),
+    title: "연차 및 특별휴가",
+    description: "법정 연차 외에도 생일휴가, 기념일휴가, 경조휴가, 육아휴직 등 다양한 특별휴가 제도를 운영합니다.",
+    image: "/images/company/careers/perks/annual.jpg",
   },
 ];
 
-const staffTestimonials = [
+const testimonials = [
   {
     name: "Jason Kim",
-    position: "Compliance Team Leader",
+    position: "Strategic Planning Team",
     quote: "Unlike ordinary Korean Companies, GME is very flexible and fast in terms of decision making. That drive GME staffs to think more creative, energetic and enthusiastic in their tasks. Probably that is the main fuel of GME's great success in South Korean Remittance Market. Now, to step-up as a global company, we will follow the next 3 laws. 1) Equal Opportunity 2) Fair Process 3) Righteous Result.",
-    image: "/images/staff/jason.jpg",
+    image: "/images/company/careers/staff/jason.jpg",
   },
   {
     name: "Yukiko Ramadhanti Hadi",
     position: "Marketing Officer of Indonesia",
     quote: "Global Money Express has an environment that employees can access equal rewards, treatment, and opportunities to speak out opinions regardless of gender. 70% of women have leadership roles, especially in the marketing department. GME implements a transparent performance measurement that reflected on the results of the monthly and annual targets.",
-    image: "/images/staff/yukiko.jpg",
+    image: "/images/company/careers/staff/Yukiko.png",
   },
   {
     name: "Sundariya Munkhbileg",
     position: "Marketing Officer of Mongolia",
     quote: "Balancing career with motherhood is not very easy in Korea. However, if you find the right employer who gets it, it should not be very difficult. I am very happy to be part of GME. Its friendly coworkers and employers offering flexible working schedule made it possible for me to grow not only as a career woman, but as a mother too.",
-    image: "/images/staff/sundariya.jpg",
-  },
-  {
-    name: "Suhito Domingo",
-    position: "Graphic Artist",
-    quote: "Throughout this pandemic, there have been significant changes, and for workers like me, going to the office has been an immense challenge. However, thanks to GME, the impossible became possible, allowing me to be present in the office even while working from my bedroom. I am deeply grateful to GME for their unwavering support, providing me with high-end computers and fast connections, which have truly transformed my work environment into a highly efficient and productive space.",
-    image: "/images/staff/suhito.jpg",
+    image: "/images/company/careers/staff/Sundarya.png",
   },
 ];
 
 export default function CareersPage() {
+  const [selectedTestimonial, setSelectedTestimonial] = useState<typeof testimonials[0] | null>(null);
+
   return (
     <>
       <Header />
-      <main className="pt-16 lg:pt-20 bg-[#fafbfc] min-h-screen">
-        {/* Hero Section */}
-        <section className="bg-gradient-to-br from-[#191c1f] to-[#2d3138] text-white py-20 lg:py-32">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-3xl lg:text-5xl font-bold mb-6">Perks and Benefits</h1>
-            <p className="text-xl lg:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Would you like to become a member of the diverse family? If yes, you are welcome to join us. Find out why GME is the best place for personal and professional development.
-            </p>
+      <main className="pt-[82px] lg:pt-[122px] bg-white">
+        {/* Page Header - 세부 페이지 스타일 */}
+        <section className="border-b border-gray-100">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+            <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
+              <div>
+                <p className="text-sm font-medium text-[#ed1c24] mb-2">Careers</p>
+                <h1 className="text-3xl lg:text-4xl font-bold text-[#191c1f] mb-3">GME와 함께 성장하세요</h1>
+                <p className="text-[#666] text-lg max-w-xl">
+                  200개국 고객에게 금융 서비스를 제공하는 글로벌 핀테크 기업에서 함께할 동료를 찾습니다.
+                </p>
+              </div>
+              <a
+                href="https://gme.career.greetinghr.com/ko/recruit"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="shrink-0 inline-flex items-center gap-2 bg-[#ed1c24] hover:bg-[#d91920] text-white font-semibold px-6 py-3 rounded-xl transition-all duration-200"
+              >
+                채용 공고 보기
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </div>
           </div>
         </section>
 
-        {/* Perks & Benefits Section */}
-        <section id="perks" className="py-16 lg:py-24">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-4">Perks & Benefits</h2>
-              <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-                We believe in taking care of our team members with comprehensive benefits and a supportive work environment.
-              </p>
+        {/* Why GME - 간단하게 */}
+        <section className="py-14 lg:py-20 bg-[#fafbfc]">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-2xl lg:text-3xl font-bold text-[#191c1f] mb-10 text-center">GME가 특별한 이유</h2>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-white rounded-2xl p-6 border border-gray-100">
+                <div className="w-12 h-12 rounded-xl bg-[#ed1c24]/10 flex items-center justify-center text-[#ed1c24] mb-4">
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5a17.924 17.924 0 01-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                  </svg>
+                </div>
+                <h3 className="font-bold text-[#191c1f] mb-2">다양성 존중</h3>
+                <p className="text-sm text-[#666] leading-relaxed">14개국 이상의 다양한 국적 동료들과 함께 일하며, 서로 다른 관점에서 배웁니다.</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 border border-gray-100">
+                <div className="w-12 h-12 rounded-xl bg-[#ed1c24]/10 flex items-center justify-center text-[#ed1c24] mb-4">
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
+                  </svg>
+                </div>
+                <h3 className="font-bold text-[#191c1f] mb-2">빠른 의사결정</h3>
+                <p className="text-sm text-[#666] leading-relaxed">수평적인 조직문화에서 빠르게 실행하고, 실패에서 배우며 성장합니다.</p>
+              </div>
+              <div className="bg-white rounded-2xl p-6 border border-gray-100">
+                <div className="w-12 h-12 rounded-xl bg-[#ed1c24]/10 flex items-center justify-center text-[#ed1c24] mb-4">
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0012 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52 2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 01-2.031.352 5.988 5.988 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971Zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0 2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 01-2.031.352 5.989 5.989 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971Z" />
+                  </svg>
+                </div>
+                <h3 className="font-bold text-[#191c1f] mb-2">공정한 기회</h3>
+                <p className="text-sm text-[#666] leading-relaxed">성별, 국적에 관계없이 능력과 성과에 따라 공정하게 평가받습니다.</p>
+              </div>
             </div>
+          </div>
+        </section>
 
-            {/* Dynamic Alternating Layout */}
-            <div className="space-y-24">
-              {perksData.map((perk, index) => (
+        {/* Benefits with Images */}
+        <section className="py-14 lg:py-20">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-2xl lg:text-3xl font-bold text-[#191c1f] mb-3 text-center">복지 제도</h2>
+            <p className="text-[#666] text-center mb-10">GME 구성원의 성장과 행복을 지원합니다</p>
+
+            <div className="space-y-6">
+              {benefits.map((benefit, index) => (
                 <div
-                  key={index}
-                  className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} items-center gap-8 lg:gap-16`}
+                  key={benefit.title}
+                  className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} bg-[#fafbfc] rounded-2xl overflow-hidden`}
                 >
-                  {/* Image Side */}
-                  <div className="w-full lg:w-1/2 relative group">
-                    <div className={`absolute inset-0 bg-gradient-to-br ${index % 2 === 0 ? 'from-[#ed1c24]/20 to-transparent -rotate-3' : 'from-[#ed1c24]/20 to-transparent rotate-3'} rounded-3xl transform scale-105 group-hover:scale-110 transition-transform duration-500`}></div>
-                    <div className="relative overflow-hidden rounded-3xl shadow-2xl">
+                  <div className="lg:w-2/5 relative h-56 lg:h-auto">
+                    <Image
+                      src={benefit.image}
+                      alt={benefit.title}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="lg:w-3/5 p-6 lg:p-10 flex flex-col justify-center">
+                    <div className="flex items-center gap-3 mb-3">
+                      <span className="text-2xl font-bold text-[#ed1c24]/20">0{index + 1}</span>
+                      <h3 className="text-xl font-bold text-[#191c1f]">{benefit.title}</h3>
+                    </div>
+                    <p className="text-[#666] leading-relaxed">{benefit.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Testimonials */}
+        <section className="py-14 lg:py-20 bg-[#fafbfc]">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-2xl lg:text-3xl font-bold text-[#191c1f] mb-3 text-center">구성원 이야기</h2>
+            <p className="text-[#666] text-center mb-10">함께 일하는 동료들의 생생한 이야기</p>
+
+            <div className="grid md:grid-cols-3 gap-6">
+              {testimonials.map((t) => (
+                <div key={t.name} className="bg-white rounded-2xl p-6 border border-gray-100">
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="w-14 h-14 rounded-full overflow-hidden bg-gray-100 shrink-0 ring-2 ring-gray-100">
                       <Image
-                        src={perk.image}
-                        alt={perk.title}
-                        width={600}
-                        height={400}
-                        className="w-full h-[300px] lg:h-[400px] object-cover transform group-hover:scale-105 transition-transform duration-700"
+                        src={t.image}
+                        alt={t.name}
+                        width={56}
+                        height={56}
+                        className="w-full h-full object-cover"
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
-
-                      {/* Floating Badge */}
-                      <div className={`absolute ${index % 2 === 0 ? '-right-4 -bottom-4' : '-left-4 -bottom-4'} w-20 h-20 bg-[#ed1c24] rounded-2xl shadow-xl flex items-center justify-center transform rotate-12 group-hover:rotate-0 transition-transform duration-500`}>
-                        <div className="text-white transform -rotate-12 group-hover:rotate-0 transition-transform duration-500">
-                          {perk.icon}
-                        </div>
-                      </div>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-[#191c1f] text-sm">{t.name}</p>
+                      <p className="text-xs text-[#888]">{t.position}</p>
                     </div>
                   </div>
-
-                  {/* Content Side */}
-                  <div className="w-full lg:w-1/2 space-y-6">
-                    <div className="flex items-center gap-3">
-                      <span className="text-5xl lg:text-7xl font-bold text-[#ed1c24]/10">0{index + 1}</span>
-                    </div>
-                    <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 -mt-8 lg:-mt-12 pl-2">{perk.title}</h3>
-                    <p className="text-gray-600 text-lg leading-relaxed">{perk.description}</p>
-
-                    {/* Decorative Line */}
-                    <div className="flex items-center gap-2 pt-4">
-                      <div className="w-12 h-1 bg-[#ed1c24] rounded-full"></div>
-                      <div className="w-3 h-1 bg-[#ed1c24]/50 rounded-full"></div>
-                      <div className="w-2 h-1 bg-[#ed1c24]/30 rounded-full"></div>
-                    </div>
+                  <div className="relative">
+                    <p className="text-[#555] text-sm leading-relaxed line-clamp-3">{t.quote}</p>
+                    <div className="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-white to-transparent" />
                   </div>
+                  <button
+                    onClick={() => setSelectedTestimonial(t)}
+                    className="mt-4 w-full flex justify-center cursor-pointer"
+                  >
+                    <span className="w-8 h-8 rounded-full bg-[#f5f5f7] hover:bg-[#ed1c24]/10 flex items-center justify-center text-[#888] hover:text-[#ed1c24] transition-colors">
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                  </button>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
-        {/* Our Staff Section */}
-        <section className="py-16 lg:py-24 bg-gradient-to-b from-white to-gray-50 overflow-hidden">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <span className="inline-block px-4 py-1.5 bg-[#ed1c24]/10 text-[#ed1c24] rounded-full text-sm font-semibold mb-4">
-                VOICES OF GME
-              </span>
-              <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-4">Our Staff</h2>
-              <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-                Hear from our diverse team members about their experiences working at GME Remit.
-              </p>
-            </div>
+        {/* Testimonial Modal */}
+        {selectedTestimonial && (
+          <div
+            className="fixed inset-0 bg-black/40 backdrop-blur-md z-50 flex items-center justify-center p-4"
+            onClick={() => setSelectedTestimonial(null)}
+          >
+            <div
+              className="relative bg-gradient-to-b from-white to-[#fafbfc] rounded-[28px] max-w-md w-full max-h-[85vh] overflow-y-auto shadow-[0_25px_50px_-12px_rgba(0,0,0,0.15),0_0_0_1px_rgba(0,0,0,0.03)]"
+              onClick={(e) => e.stopPropagation()}
+            >
+              {/* Close Button - 우측 상단 */}
+              <button
+                onClick={() => setSelectedTestimonial(null)}
+                className="absolute top-4 right-4 w-8 h-8 rounded-full bg-black/5 hover:bg-black/10 flex items-center justify-center transition-colors cursor-pointer text-[#666] hover:text-[#333] z-10"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
 
-            {/* Testimonials Grid */}
-            <div className="space-y-8">
-              {staffTestimonials.map((staff, index) => (
-                <div
-                  key={index}
-                  className={`relative ${index % 2 === 0 ? 'lg:ml-0 lg:mr-24' : 'lg:ml-24 lg:mr-0'}`}
-                >
-                  <div className={`relative bg-white rounded-3xl shadow-xl overflow-hidden group hover:shadow-2xl transition-all duration-500 ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} flex flex-col lg:flex`}>
-                    {/* Quote Side */}
-                    <div className="flex-1 p-8 lg:p-12 relative">
-                      {/* Large Quote Mark Background */}
-                      <div className="absolute top-4 left-4 text-[180px] font-serif text-[#ed1c24]/5 leading-none select-none">
-                        &ldquo;
-                      </div>
-
-                      {/* Content */}
-                      <div className="relative z-10">
-                        <div className="flex items-center gap-2 mb-6">
-                          <div className="w-1 h-8 bg-[#ed1c24] rounded-full"></div>
-                          <span className="text-sm font-semibold text-[#ed1c24] uppercase tracking-wider">Testimonial</span>
-                        </div>
-
-                        <blockquote className="text-gray-700 text-lg lg:text-xl leading-relaxed mb-8">
-                          {staff.quote}
-                        </blockquote>
-
-                        {/* Author Info */}
-                        <div className="flex items-center gap-4">
-                          <div className="w-14 h-14 bg-gradient-to-br from-[#ed1c24] to-[#c41920] rounded-full flex items-center justify-center text-white font-bold text-xl shadow-lg">
-                            {staff.name.charAt(0)}
-                          </div>
-                          <div>
-                            <p className="font-bold text-gray-900 text-lg">{staff.name}</p>
-                            <p className="text-[#ed1c24] font-medium">{staff.position}</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Decorative Side */}
-                    <div className={`hidden lg:block w-2 ${index % 2 === 0 ? 'bg-gradient-to-b' : 'bg-gradient-to-t'} from-[#ed1c24] to-[#ff6b6b]`}></div>
-
-                    {/* Visual Element */}
-                    <div className="lg:w-80 h-48 lg:h-auto bg-gradient-to-br from-[#191c1f] to-[#2d3138] relative overflow-hidden">
-                      {/* Pattern Overlay */}
-                      <div className="absolute inset-0 opacity-10">
-                        <div className="absolute top-0 left-0 w-full h-full" style={{
-                          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-                        }}></div>
-                      </div>
-
-                      {/* Number */}
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <span className="text-[120px] lg:text-[150px] font-bold text-white/10">
-                          0{index + 1}
-                        </span>
-                      </div>
-
-                      {/* Floating Icon */}
-                      <div className="absolute bottom-6 right-6 w-16 h-16 bg-[#ed1c24] rounded-2xl flex items-center justify-center shadow-xl transform rotate-12 group-hover:rotate-0 transition-transform duration-500">
-                        <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Decorative Background Shape */}
-                  <div className={`absolute -z-10 w-full h-full top-4 ${index % 2 === 0 ? 'left-4' : '-left-4'} bg-[#ed1c24]/5 rounded-3xl`}></div>
+              {/* Profile Header */}
+              <div className="pt-10 pb-6 px-8 text-center">
+                <div className="w-20 h-20 rounded-full overflow-hidden bg-gradient-to-br from-gray-100 to-gray-50 ring-[3px] ring-white shadow-lg mb-4 mx-auto">
+                  <Image
+                    src={selectedTestimonial.image}
+                    alt={selectedTestimonial.name}
+                    width={80}
+                    height={80}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
-              ))}
-            </div>
-          </div>
-        </section>
+                <p className="font-bold text-[#191c1f] text-xl">{selectedTestimonial.name}</p>
+                <p className="text-[13px] text-[#888] mt-1">{selectedTestimonial.position}</p>
+              </div>
 
-        {/* Join Us Section */}
-        <section id="join-us" className="py-16 lg:py-24">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="bg-gradient-to-br from-[#ed1c24] to-[#c41920] rounded-3xl p-8 lg:p-16 text-center text-white">
-              <h2 className="text-3xl lg:text-4xl font-bold mb-4">Join Our Talent Community</h2>
-              <p className="text-lg lg:text-xl opacity-90 max-w-2xl mx-auto mb-8">
-                Ready to make a difference? Explore our open positions and become part of a team that&apos;s transforming the future of financial services.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href="https://gme.career.greetinghr.com/ko/recruit"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-white text-[#ed1c24] font-semibold px-8 py-3 rounded-full hover:bg-gray-100 transition-colors duration-200"
-                >
-                  View Open Positions
-                </a>
+              {/* Quote Content */}
+              <div className="px-8 pb-10">
+                <div className="relative bg-white rounded-2xl p-6 shadow-[0_2px_12px_rgba(0,0,0,0.04)]">
+                  <span className="absolute -top-3 left-6 text-[#ed1c24]/20 text-5xl font-serif leading-none">"</span>
+                  <p className="text-[#555] text-[15px] leading-[1.85] pt-2">
+                    {selectedTestimonial.quote}
+                  </p>
+                  <span className="absolute -bottom-4 right-6 text-[#ed1c24]/20 text-5xl font-serif leading-none rotate-180">"</span>
+                </div>
               </div>
             </div>
           </div>
-        </section>
+        )}
 
-        {/* Why GME Section */}
-        <section className="py-16 lg:py-24 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Why GME Remit?</h2>
-              <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-                Join a company that values diversity, innovation, and personal growth.
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="text-center">
-                <div className="w-20 h-20 bg-[#ed1c24] rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Global Impact</h3>
-                <p className="text-gray-600">
-                  Be part of a company connecting people across borders and making a real difference in lives worldwide.
-                </p>
-              </div>
-
-              <div className="text-center">
-                <div className="w-20 h-20 bg-[#ed1c24] rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Innovation First</h3>
-                <p className="text-gray-600">
-                  Work with cutting-edge technology and contribute to innovative solutions in the fintech industry.
-                </p>
-              </div>
-
-              <div className="text-center">
-                <div className="w-20 h-20 bg-[#ed1c24] rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">Diverse Culture</h3>
-                <p className="text-gray-600">
-                  Join a multicultural team where every voice is heard and diversity is celebrated.
-                </p>
-              </div>
+        {/* CTA */}
+        <section className="py-14 lg:py-20 border-t border-gray-100">
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="text-2xl lg:text-3xl font-bold text-[#191c1f] mb-4">GME와 함께할 준비가 되셨나요?</h2>
+            <p className="text-[#666] mb-8">현재 채용 중인 포지션을 확인하고 지원해보세요.</p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <a
+                href="https://gme.career.greetinghr.com/ko/recruit"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-[#ed1c24] hover:bg-[#d91920] text-white font-semibold px-8 py-3.5 rounded-xl transition-all duration-200"
+              >
+                채용 공고 보기
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+              <Link
+                href="/company/about"
+                className="inline-flex items-center justify-center gap-2 bg-[#f5f5f7] hover:bg-[#ebebed] text-[#191c1f] font-semibold px-8 py-3.5 rounded-xl transition-all duration-200"
+              >
+                회사 소개 보기
+              </Link>
             </div>
           </div>
         </section>

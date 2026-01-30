@@ -49,7 +49,7 @@ export default function TestimonialsSection() {
           <p className="text-xs font-semibold tracking-[0.3em] text-[#ed1c24] mb-3">TESTIMONIALS</p>
           <h2 className="text-4xl sm:text-5xl font-bold text-[#191c1f]">고객의 말</h2>
           <p className="text-base text-gray-600 max-w-2xl mx-auto mt-4">
-            이 영역에 고객 후기를 넣어주세요.
+            실제 이용 고객의 경험을 전합니다.
           </p>
         </div>
 

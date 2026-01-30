@@ -20,7 +20,7 @@ export default function Home() {
       <ScrollSnap />
       <SectionNav />
 
-      <main className="pt-16 lg:pt-20 bg-[var(--surface-1)]">
+      <main className="pt-16 lg:pt-[72px]">
         {/* Hero Section */}
         <HeroMain />
 
