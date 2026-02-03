@@ -107,7 +107,7 @@ export function DesktopDropdown({
     return (
       <Link
         href={item.href}
-        className="relative text-base text-[#111] hover:text-[#191c1f] font-medium transition-all duration-200 px-3 py-2 hover:after:absolute hover:after:-bottom-[28px] hover:after:left-0 hover:after:right-0 hover:after:h-[2px] hover:after:bg-[#ed1c24]"
+        className="relative text-lg text-[#111] hover:text-[#191c1f] font-medium transition-all duration-200 px-3 py-2 hover:after:absolute hover:after:-bottom-[28px] hover:after:left-0 hover:after:right-0 hover:after:h-[2px] hover:after:bg-[#ed1c24]"
         onMouseEnter={onMouseEnter}
       >
         {item.label}
@@ -119,7 +119,7 @@ export function DesktopDropdown({
     <div className="relative group" onMouseEnter={onMouseEnter}>
       <button
         type="button"
-        className={`relative flex items-center gap-1.5 text-base font-medium transition-all duration-300 ease-out px-3 py-2 cursor-pointer ${
+        className={`relative flex items-center gap-1.5 text-lg font-medium transition-all duration-300 ease-out px-3 py-2 cursor-pointer ${
           isOpen ? "text-[#ed1c24]" : "text-[#111] hover:text-[#191c1f]"
         }`}
       >
@@ -276,7 +276,7 @@ export default function DesktopNav({
               {dropdownColumnsAll.map((column, idx) => (
                 <div
                   key={column.title}
-                  className={`p-6 transition-all duration-300 ease-out ${
+                  className={`py-8 px-6 transition-all duration-300 ease-out ${
                     activeColumnIndex === idx
                       ? "bg-[#f5f5f7] border-t-2 border-t-[#ed1c24]"
                       : "bg-[#fffff] border-t-2 border-t-transparent"
@@ -284,12 +284,12 @@ export default function DesktopNav({
                   onMouseEnter={() => setHoveredColumnIndex(idx)}
                   onMouseLeave={() => setHoveredColumnIndex(null)}
                 >
-                  <div className="space-y-3">
+                  <div className="space-y-7">
                     {column.items.map((child) => (
                       <Link
                         key={child.label}
                         href={child.href}
-                        className="block text-base text-[#444] hover:text-[#ed1c24] transition-colors duration-250 ease-out"
+                        className="block text-base text-center text-[#444] hover:text-[#ed1c24] transition-colors duration-250 ease-out"
                       >
                         {child.label}
                       </Link>

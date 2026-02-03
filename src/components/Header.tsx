@@ -398,7 +398,7 @@ export default function Header() {
           <div className="flex items-center justify-end h-10 gap-6">
             {/* 채용 */}
             <Link
-              href="/careers"
+              href="/company/careers"
               className="text-[13px] text-[#666] hover:text-[#ed1c24] transition-colors"
             >
               채용
