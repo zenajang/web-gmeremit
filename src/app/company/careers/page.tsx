@@ -4,7 +4,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import Lenis from "lenis";
 
 const benefits = [
   {
@@ -57,6 +58,30 @@ const testimonials = [
 
 export default function CareersPage() {
   const [selectedTestimonial, setSelectedTestimonial] = useState<typeof testimonials[0] | null>(null);
+
+  // Lenis 부드러운 스크롤
+  useEffect(() => {
+    const lenis = new Lenis({
+      lerp: 0.1,
+      duration: 1.2,
+      easing: (t) => 1 - Math.pow(1 - t, 3),
+      smoothWheel: true,
+      wheelMultiplier: 0.8,
+      infinite: false,
+    });
+
+    let rafId: number;
+    function raf(time: number) {
+      lenis.raf(time);
+      rafId = requestAnimationFrame(raf);
+    }
+    rafId = requestAnimationFrame(raf);
+
+    return () => {
+      cancelAnimationFrame(rafId);
+      lenis.destroy();
+    };
+  }, []);
 
   return (
     <>
