@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function MainServices() {
   return (
-    <section id="gme-payments" className="relative overflow-hidden bg-[#f5f5f7] py-16 lg:py-24">
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-0">
+    <section id="gme-payments" className="relative overflow-hidden bg-[#f5f5f7] min-h-screen py-16 lg:py-20 flex items-center">
+      <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-0">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#191c1f] leading-tight">
             저희 GME의
@@ -17,7 +17,7 @@ export default function MainServices() {
           {/* Payments - Large Card */}
           <Link
             href="#payments-section"
-            className="group md:col-span-2 relative overflow-hidden rounded-3xl bg-[#3b82f6] p-8 lg:p-10 min-h-[320px] lg:min-h-[380px] flex flex-col justify-between transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 shadow-[0_35px_60px_-15px_rgba(59,130,246,0.5)] hover:shadow-[0_45px_80px_-15px_rgba(59,130,246,0.6)]"
+            className="group md:col-span-2 relative overflow-hidden rounded-3xl bg-[#3b82f6] p-8 lg:p-10 min-h-[320px] lg:min-h-[330px] flex flex-col justify-between transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 shadow-[0_35px_60px_-15px_rgba(59,130,246,0.5)] hover:shadow-[0_45px_80px_-15px_rgba(59,130,246,0.6)]"
           >
             <div className="relative z-10">
               <h3 className="text-2xl lg:text-3xl font-bold text-white mb-3">Global Payments</h3>
@@ -63,7 +63,7 @@ export default function MainServices() {
           {/* Remittance - Small Card */}
           <Link
             href="#overseas-remittance"
-            className="group relative overflow-hidden rounded-3xl bg-[#ed1c24] p-8 lg:p-10 min-h-[320px] lg:min-h-[380px] flex flex-col justify-between transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 shadow-[0_35px_60px_-15px_rgba(237,28,36,0.5)] hover:shadow-[0_45px_80px_-15px_rgba(237,28,36,0.6)]"
+            className="group relative overflow-hidden rounded-3xl bg-[#ed1c24] p-8 lg:p-10 min-h-[320px] lg:min-h-[330px] flex flex-col justify-between transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 shadow-[0_35px_60px_-15px_rgba(237,28,36,0.5)] hover:shadow-[0_45px_80px_-15px_rgba(237,28,36,0.6)]"
           >
             <div className="relative z-10">
               <h3 className="text-2xl lg:text-3xl font-bold text-white mb-3">해외송금</h3>
@@ -99,7 +99,7 @@ export default function MainServices() {
           {/* Loan - Small Card (Yellow) */}
           <Link
             href="#online-loan"
-            className="group relative overflow-hidden rounded-3xl bg-[#f59e0b] p-8 lg:p-10 min-h-[320px] lg:min-h-[380px] flex flex-col justify-between transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 shadow-[0_35px_60px_-15px_rgba(245,158,11,0.5)] hover:shadow-[0_45px_80px_-15px_rgba(245,158,11,0.6)]"
+            className="group relative overflow-hidden rounded-3xl bg-[#f59e0b] p-8 lg:p-10 min-h-[320px] lg:min-h-[330px] flex flex-col justify-between transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 shadow-[0_35px_60px_-15px_rgba(245,158,11,0.5)] hover:shadow-[0_45px_80px_-15px_rgba(245,158,11,0.6)]"
           >
             <div className="relative z-10">
               <h3 className="text-2xl lg:text-3xl font-bold text-white mb-3">온라인 대출</h3>
@@ -134,7 +134,7 @@ export default function MainServices() {
           {/* Cards - Large Card (Black) */}
           <Link
             href="#gme-cards"
-            className="group md:col-span-2 relative overflow-hidden rounded-3xl bg-[#1f2937] p-8 lg:p-10 min-h-[320px] lg:min-h-[380px] flex flex-col justify-between transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 shadow-[0_35px_60px_-15px_rgba(31,41,55,0.6)] hover:shadow-[0_45px_80px_-15px_rgba(31,41,55,0.7)]"
+            className="group md:col-span-2 relative overflow-hidden rounded-3xl bg-[#1f2937] p-8 lg:p-10 min-h-[320px] lg:min-h-[330px] flex flex-col justify-between transition-all duration-300 hover:scale-[1.02] hover:-translate-y-1 shadow-[0_35px_60px_-15px_rgba(31,41,55,0.6)] hover:shadow-[0_45px_80px_-15px_rgba(31,41,55,0.7)]"
           >
             <div className="relative z-10">
               <h3 className="text-2xl lg:text-3xl font-bold text-white mb-3">GME Card</h3>

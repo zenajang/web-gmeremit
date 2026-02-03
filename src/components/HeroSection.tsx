@@ -43,7 +43,7 @@ export default function HeroSection() {
   }, [isOpen]);
 
   return (
-    <section id="app" className="relative bg-gradient-to-b from-[#f8f8f8] to-white py-20 lg:py-28 overflow-hidden snap-section">
+    <section id="app" className="relative min-h-screen bg-gradient-to-b from-[#f8f8f8] to-white py-20 lg:py-38 overflow-hidden snap-section flex items-center">
       {/* Background decorative elements */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Gradient orbs - Red blush (왼쪽 글귀 쪽) */}
@@ -51,7 +51,7 @@ export default function HeroSection() {
         <div className="absolute bottom-1/3 left-[5%] w-[300px] h-[300px] rounded-full bg-[#ff6b6b]/[0.08] blur-[100px]" />
       </div>
 
-      <div className="relative max-w-6xl mx-auto px-5 sm:px-8 lg:px-12">
+      <div className="relative w-full max-w-6xl mx-auto px-5 sm:px-8 lg:px-12">
         <div className="grid lg:grid-cols-[1.1fr_0.9fr] gap-16 lg:gap-24 items-center">
 
           {/* Left Content */}
@@ -90,9 +90,9 @@ export default function HeroSection() {
             <div className="absolute -top-10 -right-10 w-40 h-40 rounded-full bg-[#60a5fa]/[0.25] blur-2xl" />
             <div className="absolute -bottom-6 -left-6 w-28 h-28 rounded-full bg-[#38bdf8]/[0.20] blur-2xl" />
 
-            <div className="relative bg-gradient-to-b from-[#f8f9fa] to-[#e9ecef] rounded-[1.75rem] p-2 shadow-[0_12px_40px_rgba(15,23,42,0.12)] border border-gray-300/50">
+            <div className="relative bg-gradient-to-b from-[#f8f9fa] to-[#e9ecef] rounded-[2rem] p-3 shadow-[0_12px_40px_rgba(15,23,42,0.12)] border border-gray-300/50">
               {/* Calculator body frame */}
-              <div className="bg-white rounded-[1.25rem] p-6 lg:p-7 shadow-[inset_0_2px_4px_rgba(0,0,0,0.02)]">
+              <div className="bg-white rounded-[1.5rem] p-8 lg:p-10 shadow-[inset_0_2px_4px_rgba(0,0,0,0.02)]">
               <div className="pointer-events-none absolute inset-2 rounded-[1.25rem] shadow-[inset_0_1px_0_rgba(255,255,255,0.9)]" />
               {/* Calculator Header */}
               <div className="flex items-center justify-between mb-7">
@@ -173,14 +173,14 @@ export default function HeroSection() {
                 <div className="flex-1 h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent" />
               </div>
 
-              {/* Receive Output - Deep Navy Frosted Glass */}
+              {/* Receive Output - Fresh Teal Frosted Glass */}
               <div className="space-y-2 mb-6">
                 <label className="text-[13px] font-medium text-[#737373]">받는 금액</label>
-                <div className="relative flex items-center gap-3 bg-[#0f172a]/85 backdrop-blur-2xl rounded-2xl px-5 py-5 border border-[#3b82f6]/20 shadow-[inset_0_1px_1px_rgba(255,255,255,0.1)]">
+                <div className="relative flex items-center gap-3 bg-gradient-to-br from-[#14b8a6]/65 to-[#0f766e]/60 backdrop-blur-2xl rounded-2xl px-5 py-5 border border-[#5eead4]/28 shadow-[inset_0_1px_1px_rgba(255,255,255,0.13)]">
                   {/* Glass highlights */}
-                  <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#3b82f6]/15 via-[#1e3a5f]/10 to-transparent pointer-events-none" />
+                  <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#5eead4]/18 via-[#2dd4bf]/10 to-transparent pointer-events-none" />
                   <div className="absolute top-0 left-4 right-4 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent pointer-events-none" />
-                  <div className="absolute inset-0 rounded-2xl shadow-[inset_0_-1px_1px_rgba(59,130,246,0.1)] pointer-events-none" />
+                  <div className="absolute inset-0 rounded-2xl shadow-[inset_0_-1px_1px_rgba(94,234,212,0.08)] pointer-events-none" />
                   <p className="relative flex-1 text-[1.75rem] font-bold text-white tabular-nums">
                     {formatNumber(receiveAmount.toString())}
                   </p>

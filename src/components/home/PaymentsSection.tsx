@@ -44,14 +44,14 @@ const features = [
 
 export default function PaymentsSection() {
   return (
-    <section id="payments-section" className="relative min-h-[600px] lg:min-h-[700px] overflow-hidden">
+    <section id="payments-section" className="relative min-h-screen overflow-hidden flex items-center">
       <div className="absolute inset-0 bg-gradient-to-br from-[#fafbff] via-[#f5f8ff] to-[#eff6ff]" />
       <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-[#3b82f6]/[0.04] blur-3xl" />
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-[#60a5fa]/[0.05] blur-3xl" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-[#3b82f6]/[0.02] blur-3xl" />
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-[600px] lg:min-h-[700px] flex items-center">
-        <div className="w-full grid lg:grid-cols-[0.8fr_1.2fr] gap-12 lg:gap-20 items-center">
+      <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-screen flex items-center">
+        <div className="w-full grid lg:grid-cols-[1fr_1.2fr] gap-12 lg:gap-20 items-center">
           <div className="order-1 lg:order-2">
             <p className="text-xs font-semibold tracking-[0.32em] text-[#3b82f6] mb-3">PAYMENTS</p>
             <h2 className="text-4xl sm:text-5xl font-bold text-[#191c1f] leading-[1.08] mb-5">Global Payments</h2>
@@ -99,7 +99,7 @@ export default function PaymentsSection() {
               {/* Stats Grid */}
               <div className="grid grid-cols-3 gap-3 mb-4">
                 {stats.map((stat) => (
-                  <div key={stat.label} className="rounded-xl bg-[#f8f9fa] p-3.5">
+                  <div key={stat.label} className="rounded-xl bg-[#f8f9fa] p-5">
                     <p className="text-[11px] text-[#888] mb-1">{stat.label}</p>
                     <p className="text-lg font-bold text-[#191c1f]">{stat.value}</p>
                     <p className="text-[10px] font-semibold mt-0.5" style={{ color: stat.color }}>{stat.change}</p>
@@ -114,7 +114,7 @@ export default function PaymentsSection() {
                 </div>
                 <div className="divide-y divide-[#f0f0f0]">
                   {transactions.map((tx) => (
-                    <div key={tx.name} className="flex items-center justify-between px-4 py-3">
+                    <div key={tx.name} className="flex items-center justify-between px-4 py-4">
                       <div className="flex items-center gap-3">
                         <span className="text-xl">{tx.icon}</span>
                         <div>
@@ -134,7 +134,7 @@ export default function PaymentsSection() {
               {/* Feature Cards */}
               <div className="mt-4 grid grid-cols-3 gap-3">
                 {features.map((feature) => (
-                  <div key={feature.title} className="rounded-xl bg-[#f8f9fa] p-3 text-center hover:bg-[#f0f1f3] transition-colors cursor-pointer">
+                  <div key={feature.title} className="rounded-xl bg-[#f8f9fa] p-4 text-center hover:bg-[#f0f1f3] transition-colors cursor-pointer">
                     <div className="w-9 h-9 rounded-lg bg-white flex items-center justify-center text-[#3b82f6] mx-auto mb-2 shadow-sm">
                       {feature.icon}
                     </div>

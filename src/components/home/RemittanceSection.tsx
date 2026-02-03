@@ -53,13 +53,13 @@ const features = [
 
 export default function RemittanceSection() {
   return (
-    <section id="overseas-remittance" className="relative min-h-[600px] lg:min-h-[700px] overflow-hidden">
+    <section id="overseas-remittance" className="relative min-h-screen overflow-hidden flex items-center">
       <div className="absolute inset-0 bg-gradient-to-br from-[#fffafa] via-[#fff8f8] to-[#fff5f5]" />
       <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-[#ed1c24]/[0.04] blur-3xl" />
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-[#ff8a4c]/[0.05] blur-3xl" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-[#ed1c24]/[0.02] blur-3xl" />
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-[600px] lg:min-h-[700px] flex items-center">
+      <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-screen flex items-center">
         <div className="w-full grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div>
             <p className="text-xs font-semibold tracking-[0.32em] text-[#ed1c24] mb-3">REMITTANCE</p>
@@ -82,7 +82,7 @@ export default function RemittanceSection() {
 
           <div className="grid grid-cols-2 gap-5 lg:gap-7">
             {features.map((item) => (
-              <div key={item.title} className="relative flip-card h-56 w-full cursor-pointer">
+              <div key={item.title} className="relative flip-card h-72 w-full cursor-pointer">
                 {/* 입체적 그림자 */}
                 <div className="absolute inset-0 rounded-2xl bg-[#ed1c24]/8 translate-x-2 translate-y-2 blur-md" />
                 <div className="absolute inset-0 rounded-2xl bg-[#ed1c24]/4 translate-x-4 translate-y-4 blur-lg" />
@@ -97,15 +97,15 @@ export default function RemittanceSection() {
                     <div className="absolute top-4 right-4 w-16 h-[1px] bg-gradient-to-r from-white/60 to-transparent rotate-45" />
                     <div className="absolute top-8 right-8 w-12 h-[1px] bg-gradient-to-r from-white/40 to-transparent rotate-45" />
 
-                    <div className="relative h-full p-6 flex flex-col justify-between">
+                    <div className="relative h-full p-8 flex flex-col justify-between">
                       <div className="flex items-start justify-between">
-                        <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#ed1c24] to-[#ff6b6b] flex items-center justify-center shadow-lg">
+                        <div className="w-15 h-15 rounded-xl bg-gradient-to-br from-[#ed1c24] to-[#ff6b6b] flex items-center justify-center shadow-lg">
                           {item.icon}
                         </div>
                         <span className="text-sm font-semibold text-[#ed1c24] bg-[#ed1c24]/10 px-2.5 py-1 rounded-full backdrop-blur-sm">{item.sub}</span>
                       </div>
                       <div>
-                        <p className="text-xl font-bold text-[#191c1f] mb-1">{item.title}</p>
+                        <p className="text-2xl font-bold text-[#191c1f] mb-1">{item.title}</p>
                         <p className="text-base text-[#666] leading-relaxed">{item.desc}</p>
                       </div>
                     </div>
@@ -119,7 +119,7 @@ export default function RemittanceSection() {
                     <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-white/50 to-transparent" />
                     <div className="absolute bottom-6 left-6 w-20 h-[1px] bg-gradient-to-r from-white/30 to-transparent -rotate-45" />
 
-                    <div className="relative h-full p-6 flex flex-col justify-center text-white">
+                    <div className="relative h-full p-8 flex flex-col justify-center text-white">
                       <p className="text-2xl font-bold mb-2">{item.backTitle}</p>
                       <p className="text-base leading-relaxed text-white/90">{item.backDesc}</p>
                     </div>

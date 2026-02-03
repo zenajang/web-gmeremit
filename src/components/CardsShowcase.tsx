@@ -194,7 +194,7 @@ export default function CardsShowcase() {
   }, [activeIndex]);
 
   return (
-    <div className="grid gap-16 lg:min-h-[550px] lg:gap-32 lg:grid-cols-[1.05fr_0.95fr] lg:items-stretch">
+    <div className="grid gap-16 lg:min-h-[640px] lg:gap-32 lg:grid-cols-[1.05fr_0.95fr] lg:items-stretch">
       <div className="flex h-full max-w-xl flex-col lg:justify-between">
         <p className="text-xs font-semibold tracking-[0.32em] text-gray-400">{activeCard.eyebrow}</p>
         <h3 className="text-4xl sm:text-5xl font-bold text-[#191c1f] leading-[1.08]">{activeCard.title}</h3>
@@ -204,7 +204,7 @@ export default function CardsShowcase() {
           {activeCard.highlights.map((item) => (
             <div
               key={item.text}
-              className="flex items-center gap-3 rounded-2xl border border-[var(--border-soft)] bg-white px-4 py-3 text-sm text-gray-700 shadow-[0_10px_24px_rgba(15,23,42,0.06)]"
+              className="flex items-center gap-4 rounded-2xl border border-[var(--border-soft)] bg-white px-5 py-4 text-sm text-gray-700 shadow-[0_10px_24px_rgba(15,23,42,0.06)]"
             >
               <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-[#374151] to-[#1f2937] text-white shadow-[0_4px_12px_rgba(55,65,81,0.3)]">
                 {highlightIcons[item.icon]}
@@ -229,7 +229,7 @@ export default function CardsShowcase() {
         </div>
       </div>
 
-      <div className="relative h-[420px] pb-6 sm:h-[460px] lg:h-full lg:min-h-[560px]">
+      <div className="relative h-[480px] pb-6 sm:h-[520px] lg:h-full lg:min-h-[640px]">
         {cards.map((card, index) => {
           const offset = positions[index];
           if (Math.abs(offset) > 1) return null;
@@ -253,7 +253,7 @@ export default function CardsShowcase() {
               aria-hidden={!isActive}
             >
               <div
-                className="w-full max-w-[460px] transition-all duration-[800ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)]"
+                className="w-full max-w-[520px] transition-all duration-[800ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)]"
                 style={{
                   transform: `translateX(${translateX}px) translateY(${translateY}px) scale(${scale}) rotate(${rotation}deg)`,
                 }}

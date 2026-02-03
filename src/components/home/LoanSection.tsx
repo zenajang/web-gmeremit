@@ -51,13 +51,13 @@ const features = [
 
 export default function LoanSection() {
   return (
-    <section id="online-loan" className="relative min-h-[600px] lg:min-h-[700px] overflow-hidden">
+    <section id="online-loan" className="relative min-h-screen overflow-hidden flex items-center">
       <div className="absolute inset-0 bg-gradient-to-br from-[#fffefb] via-[#fffdf7] to-[#fefce8]" />
       <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-[#f59e0b]/[0.04] blur-3xl" />
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-[#fbbf24]/[0.05] blur-3xl" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-[#f59e0b]/[0.02] blur-3xl" />
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-[600px] lg:min-h-[700px] flex items-center">
+      <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-screen flex items-center">
         <div className="w-full grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div className="relative order-2 lg:order-1">
             {/* 입체적 그림자 */}
@@ -97,9 +97,9 @@ export default function LoanSection() {
               {features.map((item) => (
                 <div
                   key={item.label}
-                  className="rounded-xl bg-[#f8f9fa] p-3 text-center hover:bg-[#f0f1f3] transition-colors"
+                  className="rounded-xl bg-[#f8f9fa] p-4 text-center hover:bg-[#f0f1f3] transition-colors"
                 >
-                  <div className="w-8 h-8 rounded-lg bg-white flex items-center justify-center text-[#f59e0b] mx-auto mb-1.5 shadow-sm">
+                  <div className="w-10 h-10 rounded-lg bg-white flex items-center justify-center text-[#f59e0b] mx-auto mb-2 shadow-sm">
                     {item.icon}
                   </div>
                   <p className="text-[12px] font-bold text-[#191c1f]">{item.label}</p>
