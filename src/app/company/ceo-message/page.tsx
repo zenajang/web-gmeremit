@@ -39,7 +39,7 @@ export default function CEOPage() {
         <section className="pt-16 lg:pt-20 pb-16 lg:pb-24 relative">
           {/* Background - White top, Gray bottom */}
           <div className="absolute inset-0 bg-white"></div>
-          <div className="absolute inset-x-0 top-[50%] bottom-0 bg-[#f5f6f7]"></div>
+          <div className="absolute inset-x-0 top-[53%] bottom-0 bg-[#f5f6f7]"></div>
 
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           
@@ -100,7 +100,7 @@ export default function CEOPage() {
                   </div>
 
                   {/* Korean Content Section */}
-                  <div className="pt-12 mt-8">
+                  <div className="pt-12 mt-20">
                     <div className="text-lg lg:text-2xl space-y-8 text-[#666] leading-relaxed font-light">
                       <p>
                         한국을 대표하는 핀테크 기업으로서, 저희는 <span className="text-[#191c1f] font-semibold">최첨단 기술</span>과 <span className="text-[#191c1f] font-semibold">인재</span>에 투자하며 <span className="text-[#191c1f] font-semibold">상호 성장</span>과 <span className="text-[#191c1f] font-semibold">고객 성공</span>을 위해 노력하고 있습니다.

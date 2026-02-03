@@ -1,0 +1,47 @@
+"use client";
+
+import { useRouter, useSearchParams } from "next/navigation";
+import { TabType } from "@/types/board";
+
+interface BoardTabsProps {
+  activeTab: TabType;
+}
+
+export default function BoardTabs({ activeTab }: BoardTabsProps) {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  const tabs = [
+    { id: "notice" as TabType, label: "공지사항" },
+    { id: "press" as TabType, label: "언론보도" },
+    { id: "blog" as TabType, label: "블로그" },
+  ];
+
+  const handleTabClick = (tabId: TabType) => {
+    const params = new URLSearchParams(searchParams.toString());
+    params.set("tab", tabId);
+
+    // Reset to page 1 when changing tabs
+    params.delete("page");
+
+    router.push(`/board?${params.toString()}`);
+  };
+
+  return (
+    <div className="flex gap-3">
+      {tabs.map((tab) => (
+        <button
+          key={tab.id}
+          onClick={() => handleTabClick(tab.id)}
+          className={`px-8 py-3.5 rounded-full text-base font-semibold transition-all cursor-pointer ${
+            activeTab === tab.id
+              ? "bg-white border-2 border-[#ed1c24] text-[#ed1c24]"
+              : "bg-[#f5f6f7] text-gray-600 hover:bg-[#ebeced]"
+          }`}
+        >
+          {tab.label}
+        </button>
+      ))}
+    </div>
+  );
+}

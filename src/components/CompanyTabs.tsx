@@ -13,18 +13,18 @@ export default function CompanyTabs({ activeTab }: CompanyTabsProps) {
 
   return (
     <div className="mb-12 lg:mb-16">
-                  <div className="mb-8 lg:mb-12 relative">
-              {/* Gradient Decoration Boxes */}
-              <div className="absolute -top-6 -left-2 w-20 h-20 bg-gradient-to-br from-[#ed1c24]/20 via-[#ed1c24]/10 to-transparent rounded-2xl" />
-              <div className="absolute -top-4 left-0 w-4 h-4 bg-gradient-to-br from-[#ed1c24] to-[#ed1c24]/60 rounded-sm" />
+      <div className="mb-8 lg:mb-12 relative">
+        {/* Gradient Decoration Boxes */}
+        <div className="absolute -top-6 -left-2 w-20 h-20 bg-gradient-to-br from-[#ed1c24]/20 via-[#ed1c24]/10 to-transparent rounded-2xl" />
+        <div className="absolute -top-4 left-0 w-4 h-4 bg-gradient-to-br from-[#ed1c24] to-[#ed1c24]/60 rounded-sm" />
 
-              <p className="text-xs font-semibold text-[#ed1c24] tracking-[0.2em] mb-3 uppercase relative z-10">
-                About Us
-              </p>
-              <h2 className="text-3xl lg:text-5xl font-bold text-[#191c1f] tracking-tight relative z-10">
-                회사 소개
-              </h2>
-            </div>
+        <p className="text-xs font-semibold text-[#ed1c24] tracking-[0.2em] mb-3 uppercase relative z-10">
+          About Us
+        </p>
+        <h2 className="text-3xl lg:text-5xl font-bold text-[#191c1f] tracking-tight relative z-10">
+          회사 소개
+        </h2>
+      </div>
       <div className="flex gap-2 border-b border-gray-200">
         {tabs.map((tab) => (
           <Link
