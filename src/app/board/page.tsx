@@ -33,7 +33,7 @@ const sampleData: BoardEntry[] = [
     type: "notice",
     title: "2025년 설 연휴 송금 서비스 안내",
     content: "설 연휴 기간 중 송금 서비스 운영 시간을 안내드립니다.",
-    date: "2026-0"
+    date: "2026-01-31"
   },
   {
     id: 3,
