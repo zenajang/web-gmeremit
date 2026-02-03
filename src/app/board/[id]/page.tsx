@@ -1,57 +1,65 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import { HiChevronLeft, HiArrowDownTray } from "react-icons/hi2";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import TypeBadge from "@/components/board/TypeBadge";
-
-// Sample data (same as board page - in production, this would come from API/database)
-const sampleData = [
-  {
-    id: 1,
-    type: "press" as const,
-    title: "GME Remit, 2024년 해외송금 거래액 4조원 돌파",
-    content: `Global Money Express가 2024년 한 해 동안 해외송금 거래액 4조원을 돌파했다고 밝혔다.
-
-회사 관계자는 "고객들의 신뢰와 지속적인 서비스 개선이 이러한 성과를 가능하게 했다"며 "앞으로도 더 나은 서비스로 보답하겠다"고 밝혔다.
-
-GME Remit은 2024년 한 해 동안 전년 대비 35% 성장한 거래액을 기록하며, 국내 해외송금 시장에서 선도적인 위치를 확고히 했다.`,
-    date: "2025.01.20",
-    source: "매일경제",
-    hasAttachment: true,
-    attachmentUrl: "/files/press-1.pdf",
-    attachmentName: "보도자료_2024년_거래액.pdf",
-  },
-  {
-    id: 2,
-    type: "notice" as const,
-    title: "2025년 설 연휴 송금 서비스 안내",
-    content: `안녕하세요, GME Remit입니다.
-
-2025년 설 연휴 기간 송금 서비스 운영 시간을 다음과 같이 안내드립니다.
-
-[운영 시간]
-- 1월 27일 (월): 정상 운영
-- 1월 28일 (화) ~ 1월 30일 (목): 오전 9시 ~ 오후 6시
-- 1월 31일 (금): 정상 운영
-
-연휴 기간 중에도 안정적인 서비스를 제공하기 위해 최선을 다하겠습니다.
-
-감사합니다.`,
-    date: "2025.01.15",
-    isImportant: true,
-  },
-];
+import { createClient } from "@/lib/supabase/client";
+import { BoardEntry } from "@/types/board";
 
 export default function BoardDetailPage() {
   const params = useParams();
   const router = useRouter();
-  const id = Number(params.id);
+  const idParam = Array.isArray(params.id) ? params.id[0] : params.id;
+  const id = Number(idParam);
+  const supabase = createClient();
 
-  // Find the entry
-  const entry = sampleData.find((item) => item.id === id);
+  const [entry, setEntry] = useState<BoardEntry | null>(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    if (!idParam || Number.isNaN(id)) {
+      setEntry(null);
+      setLoading(false);
+      return;
+    }
+
+    async function fetchEntry() {
+      setLoading(true);
+      const { data, error } = await supabase
+        .from("board_entries")
+        .select("*")
+        .eq("id", id)
+        .maybeSingle();
+
+      if (error) {
+        console.error("Error fetching entry:", error);
+        setEntry(null);
+      } else {
+        setEntry(data ?? null);
+      }
+      setLoading(false);
+    }
+
+    fetchEntry();
+  }, [id, idParam, supabase]);
+
+  if (loading) {
+    return (
+      <>
+        <Header />
+        <main className="pt-[82px] lg:pt-[120px] min-h-screen bg-[var(--surface-0)]">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+            <p className="text-gray-500">불러오는 중입니다.</p>
+          </div>
+        </main>
+        <Footer />
+      </>
+    );
+  }
 
   if (!entry) {
     return (
@@ -114,14 +122,14 @@ export default function BoardDetailPage() {
             </div>
 
             {/* Attachment */}
-            {entry.hasAttachment && entry.attachmentUrl && (
+            {entry.has_attachment && entry.attachment_url && (
               <div className="mt-10 p-6 rounded-2xl border border-[var(--border-soft)] bg-[var(--surface-1)]">
                 <h3 className="text-sm font-semibold text-gray-700 mb-3">
                   첨부파일
                 </h3>
                 <a
-                  href={entry.attachmentUrl}
-                  download={entry.attachmentName}
+                  href={entry.attachment_url}
+                  download={entry.attachment_name || undefined}
                   className="flex items-center gap-3 p-4 rounded-xl border border-[var(--border-soft)] bg-white hover:bg-gray-50 transition-colors group"
                 >
                   <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-[#ed1c24]/10 text-[#ed1c24] group-hover:bg-[#ed1c24]/20 transition-colors">
@@ -129,7 +137,7 @@ export default function BoardDetailPage() {
                   </div>
                   <div className="flex-1 min-w-0">
                     <p className="text-sm font-medium text-[#191c1f] truncate">
-                      {entry.attachmentName || "첨부파일"}
+                      {entry.attachment_name || "첨부파일"}
                     </p>
                   </div>
                 </a>
