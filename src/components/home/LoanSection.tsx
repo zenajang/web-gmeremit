@@ -97,7 +97,7 @@ export default function LoanSection() {
               {features.map((item) => (
                 <div
                   key={item.label}
-                  className="rounded-xl bg-[#f8f9fa] p-4 text-center hover:bg-[#f0f1f3] transition-colors"
+                  className="rounded-xl bg-[#f8f9fa] p-4 text-center hover:bg-[#f0f1f3] transition-colors duration-250 ease-out"
                 >
                   <div className="w-10 h-10 rounded-lg bg-white flex items-center justify-center text-[#f59e0b] mx-auto mb-2 shadow-sm">
                     {item.icon}
@@ -109,7 +109,7 @@ export default function LoanSection() {
             </div>
 
             {/* CTA */}
-            <button className="w-full mt-4 bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold py-3 rounded-xl transition-colors cursor-pointer">
+            <button className="w-full mt-4 bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold py-3 rounded-xl transition-colors duration-250 ease-out cursor-pointer">
               GME 앱에서 대출 신청
             </button>
           </div>
@@ -123,10 +123,10 @@ export default function LoanSection() {
             </p>
             <Link
               href="/personal/online-loan"
-              className="group inline-flex items-center gap-3 text-[#f59e0b] font-semibold bg-[#fef3c7] hover:bg-[#fde68a] px-5 py-3 rounded-xl transition-colors cursor-pointer"
+              className="group inline-flex items-center gap-3 text-[#f59e0b] font-semibold bg-[#fef3c7] hover:bg-[#fde68a] px-5 py-3 rounded-xl transition-colors duration-250 ease-out cursor-pointer"
             >
               대출 서비스 알아보기
-              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#f59e0b] text-white transition-transform duration-300 group-hover:-rotate-45">
+              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#f59e0b] text-white transition-transform duration-300 ease-out group-hover:-rotate-45">
                 <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
                 </svg>

@@ -24,14 +24,6 @@ export interface MenuSection {
 }
 
 // ============ Icons ============
-function ChevronDownIcon({ className }: { className?: string }) {
-  return (
-    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" width="16" height="16">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-    </svg>
-  );
-}
-
 function GlobeIcon({ className }: { className?: string }) {
   return (
     <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" width="20" height="20" strokeWidth="1.5">
@@ -63,14 +55,13 @@ export function LanguageSelector() {
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
-        className={`flex items-center gap-2 px-3 py-2 rounded-lg transition-all duration-200 cursor-pointer ${
-          isOpen ? "bg-[#f5f5f7] text-[#191c1f]" : "text-[#555] hover:text-[#191c1f] hover:bg-[#f5f5f7]"
+        className={`flex items-center gap-2 px-3 py-2 rounded-full transition-all duration-200 cursor-pointer ${
+          isOpen ? "bg-[#f5f5f7] text-[#191c1f]" : "text-[#111] hover:text-[#191c1f] hover:bg-[#f5f5f7]"
         }`}
         aria-label="Select language"
       >
+        <span className="text-[13px] font-medium">{currentLanguage.code.toUpperCase()}</span>
         <GlobeIcon className="text-current opacity-70" />
-        <span className="text-[15px] font-medium hidden sm:inline">{currentLanguage.code.toUpperCase()}</span>
-        <ChevronDownIcon className={`opacity-50 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`} />
       </button>
 
       {isOpen && (
@@ -104,79 +95,36 @@ export function LanguageSelector() {
 // ============ Desktop Dropdown ============
 export function DesktopDropdown({
   item,
-  businessMenuSections,
-  companyMenuSections,
   isOpen,
   onMouseEnter,
-  onMouseLeave,
 }: {
   item: MenuItem;
-  businessMenuSections: MenuSection[];
-  companyMenuSections: MenuSection[];
   isOpen: boolean;
   onMouseEnter: () => void;
-  onMouseLeave: () => void;
 }) {
   // Simple link without dropdown
   if (!item.children && !item.megaMenuType) {
     return (
       <Link
         href={item.href}
-        className="relative text-[15px] text-[#444] hover:text-[#191c1f] font-medium transition-all duration-200 px-4 py-2 rounded-lg hover:bg-[#f5f5f7]"
-        onMouseEnter={onMouseLeave}
+        className="relative text-base text-[#111] hover:text-[#191c1f] font-medium transition-all duration-200 px-3 py-2 hover:after:absolute hover:after:-bottom-[28px] hover:after:left-0 hover:after:right-0 hover:after:h-[2px] hover:after:bg-[#ed1c24]"
+        onMouseEnter={onMouseEnter}
       >
         {item.label}
       </Link>
     );
   }
 
-  // Get dropdown items based on type
-  let dropdownItems: { label: string; href: string }[] = [];
-
-  if (item.megaMenuType) {
-    const sections = item.megaMenuType === "business" ? businessMenuSections : companyMenuSections;
-    // Flatten sections into simple items
-    dropdownItems = sections.flatMap(section =>
-      section.items.map(subItem => ({ label: subItem.label, href: subItem.href }))
-    );
-  } else if (item.children) {
-    dropdownItems = item.children;
-  }
-
   return (
-    <div className="relative" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+    <div className="relative group" onMouseEnter={onMouseEnter}>
       <button
         type="button"
-        className={`flex items-center gap-1.5 text-[17px] font-medium transition-all duration-200 px-4 py-2 rounded-lg cursor-pointer ${
-          isOpen ? "text-[#191c1f] bg-[#f5f5f7]" : "text-[#444] hover:text-[#191c1f] hover:bg-[#f5f5f7]"
+        className={`relative flex items-center gap-1.5 text-base font-medium transition-all duration-300 ease-out px-3 py-2 cursor-pointer ${
+          isOpen ? "text-[#ed1c24]" : "text-[#111] hover:text-[#191c1f]"
         }`}
       >
         {item.label}
-        <ChevronDownIcon className={`transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`} />
       </button>
-
-      {isOpen && (
-        <div className="absolute top-full left-1/2 -translate-x-1/2 pt-4 z-50">
-          {/* Pointer */}
-          <div className="absolute top-2 left-1/2 -translate-x-1/2 w-3 h-3 bg-white rotate-45 shadow-[-2px_-2px_4px_rgba(0,0,0,0.04)] z-10 animate-[fadeIn_0.2s_ease-out]" />
-          {/* Dropdown */}
-          <div className="relative bg-white/95 backdrop-blur-xl rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.12),0_0_0_1px_rgba(0,0,0,0.04)] py-2 min-w-[180px] animate-[menuReveal_0.3s_ease-out]">
-            {/* Top highlight */}
-            <div className="absolute top-0 left-4 right-4 h-[1px] bg-gradient-to-r from-transparent via-white to-transparent" />
-            {dropdownItems.map((child, index) => (
-              <Link
-                key={child.label}
-                href={child.href}
-                className="group relative block px-5 py-3 text-[14px] text-[#555] hover:text-[#191c1f] transition-all duration-200 whitespace-nowrap text-center"
-                style={{ animationDelay: `${index * 50}ms` }}
-              >
-                <span className="absolute inset-x-2 inset-y-1 rounded-lg bg-[#f5f5f7] opacity-0 group-hover:opacity-100 transition-opacity duration-200 -z-10" />
-                <span className="relative">{child.label}</span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      )}
     </div>
   );
 }
@@ -192,15 +140,15 @@ export default function DesktopNav({
   companyMenuSections: MenuSection[];
 }) {
   const [openMenuIndex, setOpenMenuIndex] = useState<number | null>(null);
+  const [hoveredColumnIndex, setHoveredColumnIndex] = useState<number | null>(null);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   const handleMouseEnter = (index: number) => {
     if (timeoutRef.current) clearTimeout(timeoutRef.current);
     setOpenMenuIndex(index);
   };
-
   const handleMouseLeave = () => {
-    timeoutRef.current = setTimeout(() => setOpenMenuIndex(null), 150);
+    timeoutRef.current = setTimeout(() => setOpenMenuIndex(null), 300);
   };
 
   useEffect(() => {
@@ -209,19 +157,150 @@ export default function DesktopNav({
     };
   }, []);
 
+  // Helper function: 각 메뉴 아이템의 서브메뉴 가져오기
+  const getSubMenuItems = (item: MenuItem) => {
+    if (item.megaMenuType) {
+      const sections = item.megaMenuType === "business" ? businessMenuSections : companyMenuSections;
+      return sections.flatMap(section =>
+        section.items.map(subItem => ({ label: subItem.label, href: subItem.href }))
+      );
+    }
+    if (item.children) {
+      return item.children;
+    }
+    return [];
+  };
+
+  // 모든 메뉴의 서브메뉴 컬럼들
+  const dropdownColumnsAll = menuItems.map((item) => ({
+    title: item.label,
+    items: getSubMenuItems(item)
+  }));
+
+  const hasDropdownContent = dropdownColumnsAll.some(column => column.items.length > 0);
+
+  // 어떤 컬럼을 하이라이트할지 결정
+  const activeColumnIndex = hoveredColumnIndex !== null ? hoveredColumnIndex : openMenuIndex;
+
   return (
-    <nav className="hidden lg:flex absolute left-1/2 -translate-x-1/2 items-center gap-10">
-      {menuItems.map((item, index) => (
-        <DesktopDropdown
-          key={item.label}
-          item={item}
-          businessMenuSections={businessMenuSections}
-          companyMenuSections={companyMenuSections}
-          isOpen={openMenuIndex === index}
-          onMouseEnter={() => handleMouseEnter(index)}
-          onMouseLeave={handleMouseLeave}
+    <>
+      <div
+        className="hidden lg:block absolute left-1/2 -translate-x-1/2 z-50"
+        style={{
+          width: openMenuIndex !== null ? "1024px" : "auto",
+          transition: "width 350ms cubic-bezier(0.34, 1.56, 0.64, 1)",
+        }}
+        onMouseEnter={() => {
+          if (timeoutRef.current) clearTimeout(timeoutRef.current);
+        }}
+        onMouseLeave={handleMouseLeave}
+      >
+        <nav className="relative w-full" style={{ minHeight: "40px" }}>
+          {menuItems.map((item, index) => {
+            const openWidth = 1024;
+            const gap = 24;
+            const columnWidth = (openWidth - (gap * 3)) / 4; // 238px
+
+            let leftFromCenter = 0;
+            if (openMenuIndex === null) {
+              // Closed state - calculate centered positions
+              const closedGap = 180; // Spacing between menu items when closed
+              const totalItems = menuItems.length;
+              const itemSpacing = closedGap;
+              // Position items centered with equal spacing
+              const totalSpacing = (totalItems - 1) * itemSpacing;
+              const startOffset = -totalSpacing / 2;
+              leftFromCenter = startOffset + index * itemSpacing;
+            } else {
+              // Open state - positioned in grid columns
+              const columnCenterFromLeft = index * (columnWidth + gap) + columnWidth / 2;
+              leftFromCenter = columnCenterFromLeft - openWidth / 2;
+            }
+
+            return (
+              <div
+                key={item.label}
+                className="absolute top-0 flex justify-center"
+                style={{
+                  left: "50%",
+                  transform: `translateX(calc(${leftFromCenter}px - 50%))`,
+                  transition: "transform 400ms cubic-bezier(0.4, 0, 0.2, 1), opacity 200ms ease-out",
+                  whiteSpace: "nowrap",
+                  opacity: 1,
+                }}
+              >
+                <DesktopDropdown
+                  item={item}
+                  isOpen={openMenuIndex === index}
+                  onMouseEnter={() => handleMouseEnter(index)}
+                />
+              </div>
+            );
+          })}
+        </nav>
+      </div>
+
+      {/* Backdrop Overlay */}
+      {hasDropdownContent && (
+        <div
+          className="fixed inset-0 bg-black/40 z-30 transition-opacity duration-400 ease-out pointer-events-none"
+          style={{
+            top: "120px",
+            opacity: openMenuIndex !== null ? 1 : 0
+          }}
+          onMouseEnter={handleMouseLeave}
         />
-      ))}
-    </nav>
+      )}
+
+      {/* Full-width Dropdown Panel */}
+      {hasDropdownContent && (
+        <div
+          className="absolute left-0 right-0 top-full bg-white border-t border-gray-200 z-40 transition-all duration-400 ease-out"
+          style={{
+            marginTop: "-2px",
+            opacity: openMenuIndex !== null ? 1 : 0,
+            transform: openMenuIndex !== null ? "translateY(0)" : "translateY(-10px)",
+            pointerEvents: openMenuIndex !== null ? "auto" : "none"
+          }}
+          onMouseEnter={() => {
+            if (timeoutRef.current) clearTimeout(timeoutRef.current);
+          }}
+          onMouseLeave={() => {
+            handleMouseLeave();
+            setHoveredColumnIndex(null);
+          }}
+        >
+          <div className="max-w-5xl mx-auto">
+            {/* 서브메뉴 컬럼들 - 전체 너비에 균등 분배 */}
+            <div className="grid grid-cols-4 gap-6">
+              {dropdownColumnsAll.map((column, idx) => (
+                <div
+                  key={column.title}
+                  className={`p-6 transition-all duration-300 ease-out ${
+                    activeColumnIndex === idx
+                      ? "bg-[#f5f5f7] border-t-2 border-t-[#ed1c24]"
+                      : "bg-[#fffff] border-t-2 border-t-transparent"
+                  }`}
+                  onMouseEnter={() => setHoveredColumnIndex(idx)}
+                  onMouseLeave={() => setHoveredColumnIndex(null)}
+                >
+                  <div className="space-y-3">
+                    {column.items.map((child) => (
+                      <Link
+                        key={child.label}
+                        href={child.href}
+                        className="block text-base text-[#444] hover:text-[#ed1c24] transition-colors duration-250 ease-out"
+                      >
+                        {child.label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+    </>
   );
 }

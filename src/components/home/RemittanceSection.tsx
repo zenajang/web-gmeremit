@@ -69,10 +69,10 @@ export default function RemittanceSection() {
             </p>
             <Link
               href="/personal/remittance"
-              className="group inline-flex items-center gap-3 text-[#ed1c24] font-semibold bg-[#fee2e2] hover:bg-[#fecaca] px-5 py-3 rounded-xl transition-colors cursor-pointer"
+              className="group inline-flex items-center gap-3 text-[#ed1c24] font-semibold bg-[#fee2e2] hover:bg-[#fecaca] px-5 py-3 rounded-xl transition-colors duration-250 ease-out cursor-pointer"
             >
               송금 서비스 알아보기
-              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#ed1c24] text-white transition-transform duration-300 group-hover:-rotate-45">
+              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#ed1c24] text-white transition-transform duration-300 ease-out group-hover:-rotate-45">
                 <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
                 </svg>

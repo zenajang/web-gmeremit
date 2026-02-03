@@ -60,10 +60,10 @@ export default function PaymentsSection() {
             </p>
             <Link
               href="/business"
-              className="group inline-flex items-center gap-3 text-[#3b82f6] font-semibold bg-[#dbeafe] hover:bg-[#bfdbfe] px-5 py-3 rounded-xl transition-colors cursor-pointer"
+              className="group inline-flex items-center gap-3 text-[#3b82f6] font-semibold bg-[#dbeafe] hover:bg-[#bfdbfe] px-5 py-3 rounded-xl transition-colors duration-250 ease-out cursor-pointer"
             >
               Payments 자세히 보기
-              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#3b82f6] text-white transition-transform duration-300 group-hover:-rotate-45">
+              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#3b82f6] text-white transition-transform duration-300 ease-out group-hover:-rotate-45">
                 <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
                 </svg>
@@ -134,7 +134,7 @@ export default function PaymentsSection() {
               {/* Feature Cards */}
               <div className="mt-4 grid grid-cols-3 gap-3">
                 {features.map((feature) => (
-                  <div key={feature.title} className="rounded-xl bg-[#f8f9fa] p-4 text-center hover:bg-[#f0f1f3] transition-colors cursor-pointer">
+                  <div key={feature.title} className="rounded-xl bg-[#f8f9fa] p-4 text-center hover:bg-[#f0f1f3] transition-colors duration-250 ease-out cursor-pointer">
                     <div className="w-9 h-9 rounded-lg bg-white flex items-center justify-center text-[#3b82f6] mx-auto mb-2 shadow-sm">
                       {feature.icon}
                     </div>

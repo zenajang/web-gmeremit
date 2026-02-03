@@ -56,16 +56,16 @@ export default function HeroMain() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-6">
               <a
                 href="#app-download"
-                className="group inline-flex items-center justify-center gap-2 bg-[#ed1c24] hover:bg-[#d91920] text-white font-semibold px-8 py-4 rounded-2xl text-lg transition-all duration-300 shadow-[0_8px_24px_rgba(237,28,36,0.3)] hover:shadow-[0_12px_32px_rgba(237,28,36,0.4)] hover:-translate-y-0.5"
+                className="group inline-flex items-center justify-center gap-2 bg-[#ed1c24] hover:bg-[#d91920] text-white font-semibold px-8 py-4 rounded-2xl text-lg transition-all duration-300 ease-out shadow-[0_8px_24px_rgba(237,28,36,0.3)] hover:shadow-[0_12px_32px_rgba(237,28,36,0.4)] hover:-translate-y-0.5"
               >
                 앱 다운로드
-                <svg className="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 transition-transform duration-250 ease-out group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </a>
               <Link
                 href="#gme-payments"
-                className="inline-flex items-center justify-center gap-2 bg-white hover:bg-gray-50 border border-gray-200 text-[#191c1f] font-semibold px-8 py-4 rounded-2xl text-lg transition-all duration-300"
+                className="inline-flex items-center justify-center gap-2 bg-white hover:bg-gray-50 border border-gray-200 text-[#191c1f] font-semibold px-8 py-4 rounded-2xl text-lg transition-all duration-300 ease-out"
               >
                 서비스 알아보기
               </Link>
