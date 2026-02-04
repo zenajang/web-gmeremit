@@ -14,7 +14,7 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
     onSearch(query, searchType);
   };
 
-  const handleKeyPress = (e: React.KeyboardEvent) => {
+  const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === "Enter") {
       handleSearch();
     }
@@ -44,7 +44,7 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        onKeyPress={handleKeyPress}
+        onKeyDown={handleKeyDown}
         placeholder="검색어를 입력해 주세요."
         className="px-5 py-3 border border-[var(--border-soft)] rounded bg-white text-base text-gray-700 focus:outline-none focus:border-gray-300"
         style={{ width: "280px" }}
@@ -53,7 +53,7 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
       {/* Search Button */}
       <button
         onClick={handleSearch}
-        className="px-6 py-3 bg-[#555] text-white text-base font-medium rounded hover:bg-[#333] transition-colors"
+        className="px-6 py-3 bg-[#555] text-white text-base font-medium rounded hover:bg-[#333] transition-colors cursor-pointer"
       >
         검색
       </button>

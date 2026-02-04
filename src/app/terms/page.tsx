@@ -7,11 +7,11 @@ import { useState } from "react";
 type TabKey = "legal" | "remittance" | "openbanking" | "electronic" | "gmepay";
 
 const tabs: { key: TabKey; label: string }[] = [
-  { key: "legal", label: "Legal Name Confirmation" },
-  { key: "remittance", label: "Small Amount Remittance" },
-  { key: "openbanking", label: "Open-Banking Service" },
-  { key: "electronic", label: "Electronic Finance" },
-  { key: "gmepay", label: "GMEPAY" },
+  { key: "legal", label: "불법 · 탈법 차명거래 금지 실명 확인 동의" },
+  { key: "remittance", label: "소액해외송금" },
+  { key: "openbanking", label: "오픈뱅킹" },
+  { key: "electronic", label: "전자금융거래" },
+  { key: "gmepay", label: "지엠이페이" },
 ];
 
 export default function TermsPage() {
@@ -20,60 +20,52 @@ export default function TermsPage() {
   return (
     <>
       <Header />
-      <main className="pt-16 lg:pt-20 bg-[#fafbfc] min-h-screen">
+      <main className="pt-[82px] lg:pt-[120px] min-h-screen bg-white">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-[#191c1f] to-[#2d3138] text-white py-16 lg:py-24">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
-              Terms & Conditions
-            </h1>
-            <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-              Please read our terms and conditions carefully before using our services.
-            </p>
+        <section className="pt-16 lg:pt-20 pb-8 lg:pb-10 animate-fadeIn">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="relative flex justify-center">
+              <div className="relative inline-block">
+                <div className="absolute -top-6 -left-2 w-20 h-20 bg-gradient-to-br from-[#ed1c24]/20 via-[#ed1c24]/10 to-transparent rounded-2xl" />
+                <div className="absolute -top-4 left-0 w-4 h-4 bg-gradient-to-br from-[#ed1c24] to-[#ed1c24]/60 rounded-sm" />
+
+                <h1 className="text-3xl lg:text-5xl font-bold text-[#191c1f] tracking-tight relative z-10">
+                  이용약관
+                </h1>
+              </div>
+            </div>
           </div>
         </section>
 
         {/* Content Section */}
-        <section className="py-12 lg:py-16">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            {/* Tabs */}
-            <div className="flex flex-wrap gap-2 mb-8 border-b border-gray-200 pb-4">
-              {tabs.map((tab) => (
-                <button
-                  key={tab.key}
-                  onClick={() => setActiveTab(tab.key)}
-                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors cursor-pointer ${
-                    activeTab === tab.key
-                      ? "bg-[#ed1c24] text-white"
-                      : "bg-white text-gray-600 hover:bg-gray-100"
-                  }`}
-                >
-                  {tab.label}
-                </button>
-              ))}
+        <section className="pt-6 lg:pt-10 pb-16 lg:pb-24 animate-fadeIn" style={{ animationDelay: '0.1s' }}>
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            {/* Tabs - Center aligned */}
+            <div className="flex justify-center mb-10">
+              <div className="inline-flex flex-wrap gap-2 justify-center">
+                {tabs.map((tab) => (
+                  <button
+                    key={tab.key}
+                    onClick={() => setActiveTab(tab.key)}
+                    className={`px-6 py-3 rounded-lg text-sm font-medium transition-all cursor-pointer ${
+                      activeTab === tab.key
+                        ? "bg-[#ed1c24] text-white shadow-lg shadow-[#ed1c24]/30"
+                        : "bg-white text-gray-600 hover:bg-gray-100 border border-gray-200"
+                    }`}
+                  >
+                    {tab.label}
+                  </button>
+                ))}
+              </div>
             </div>
 
             {/* Content */}
-            <div className="bg-white rounded-2xl shadow-sm p-6 lg:p-10">
+            <div className="bg-white rounded-2xl border border-gray-200 shadow-lg p-6 lg:p-10">
               {activeTab === "legal" && <LegalNameContent />}
               {activeTab === "remittance" && <RemittanceContent />}
               {activeTab === "openbanking" && <OpenBankingContent />}
               {activeTab === "electronic" && <ElectronicFinanceContent />}
               {activeTab === "gmepay" && <GMEPayContent />}
-            </div>
-
-            {/* Contact Info */}
-            <div className="mt-12 bg-white rounded-2xl shadow-sm p-6 lg:p-10">
-              <h2 className="text-xl font-bold text-[#191c1f] mb-4">Contact Information</h2>
-              <p className="text-gray-600">
-                For any further information please contact: GME Online Team, GME Co. Ltd.
-              </p>
-              <p className="text-gray-600 mt-2">
-                325, Jong-ro, Jongno-gu, Seoul, Korea 03104
-              </p>
-              <p className="text-gray-600">
-                Tel. 1588 6864 (Multi-language Support)
-              </p>
             </div>
           </div>
         </section>
@@ -87,11 +79,8 @@ function LegalNameContent() {
   return (
     <div className="prose prose-gray max-w-none">
       <h2 className="text-2xl font-bold text-[#191c1f] mb-6">
-        Agreement of Legal Name Confirmation for Prohibiting Manipulation of the Law and Illegal Behavior
-      </h2>
-      <h3 className="text-lg font-semibold text-[#191c1f] mb-4">
         불법 · 탈법 차명거래 금지 실명 확인 동의
-      </h3>
+      </h2>
       <p className="text-gray-600 leading-relaxed">
         「금융실명거래 및 비밀보장에 관한 법률」 제3조제3항에 따라 불법재산의 은닉, 자금세탁행위, 공중협박자금조달행위 및 강제집행의 면탈, 그 밖의 탈법행위를 목적으로 타인의 실명으로 금융 거래를 하여서는 아니 되며, 이를 위반 시 5년 이하의 징역 또는 5천만 원 이하의 벌금에 처할 수 있습니다.
       </p>
@@ -103,7 +92,7 @@ function RemittanceContent() {
   return (
     <div className="prose prose-gray max-w-none">
       <h2 className="text-2xl font-bold text-[#191c1f] mb-6">
-        Terms of Use for Small Amount overseas remittance
+        소액해외송금 이용약관
       </h2>
 
       <div className="space-y-6 text-gray-600">
@@ -228,7 +217,7 @@ function OpenBankingContent() {
   return (
     <div className="prose prose-gray max-w-none">
       <h2 className="text-2xl font-bold text-[#191c1f] mb-6">
-        Terms of Use for Open-Banking Service
+        오픈뱅킹서비스 이용약관
       </h2>
 
       <div className="space-y-6 text-gray-600">
@@ -385,7 +374,7 @@ function ElectronicFinanceContent() {
   return (
     <div className="prose prose-gray max-w-none">
       <h2 className="text-2xl font-bold text-[#191c1f] mb-6">
-        Terms of Use for Electronic Finance Transaction
+       전자금융거래 이용약관
       </h2>
 
       <div className="space-y-6 text-gray-600">
@@ -481,7 +470,7 @@ function GMEPayContent() {
   return (
     <div className="prose prose-gray max-w-none">
       <h2 className="text-2xl font-bold text-[#191c1f] mb-6">
-        Terms and Condition for 지엠이페이(GMEPAY)
+        지엠이페이(GMEPAY) 이용약관
       </h2>
 
       <div className="space-y-6 text-gray-600">

@@ -326,22 +326,22 @@ const companyMenuSections: MenuSection[] = [
 
 const menuItems: MenuItem[] = [
   {
-    label: "About Us",
+    label: "회사소개",
     href: "/company",
     children: [
-      { label: "CEO Message", href: "/company/ceo-message" },
-      { label: "History", href: "/company/history" },
-      { label: "Our Services", href: "/company/services" },
+      { label: "CEO 인사말", href: "/company/ceo-message" },
+      { label: "연혁", href: "/company/history" },
+      { label: "사업소개", href: "/company/services" },
     ],
   },
   {
-    label: "Services",
+    label: "서비스",
     href: "/services",
     children: [
-      { label: "GME App Remittance", href: "/services/remittance" },
-      { label: "GME Card", href: "/services/card" },
-      { label: "GME Loan", href: "/services/loan" },
-      { label: "GME Payments (B2B)", href: "/services/payments" },
+      { label: "GME 앱 송금", href: "/services/remittance" },
+      { label: "GME 카드", href: "/services/card" },
+      { label: "GME 대출", href: "/services/loan" },
+      { label: "GME 페이먼츠 (B2B)", href: "/services/payments" },
     ],
   },
   {
@@ -354,11 +354,11 @@ const menuItems: MenuItem[] = [
     ],
   },
   {
-    label: "Customer Support",
+    label: "고객지원",
     href: "/support",
     children: [
-      { label: "Branches & Contact", href: "/support/branches" },
-      { label: "Social Channels", href: "/support/social-channels" },
+      { label: "지점 안내", href: "/support/branches" },
+      { label: "소셜 채널", href: "/support/social-channels" },
     ],
   },
 ];

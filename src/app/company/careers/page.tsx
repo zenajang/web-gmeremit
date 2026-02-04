@@ -172,15 +172,16 @@ export default function CareersPage() {
                   key={benefit.title}
                   className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} bg-[#fafbfc] rounded-2xl overflow-hidden`}
                 >
-                  <div className="lg:w-2/5 relative h-56 lg:h-auto">
+                  <div className="lg:w-1/3 relative h-48 lg:h-auto">
                     <Image
                       src={benefit.image}
                       alt={benefit.title}
                       fill
                       className="object-cover"
+                      style={benefit.title === '건강검진 지원' ? { objectPosition: 'center 25%' } : undefined}
                     />
                   </div>
-                  <div className="lg:w-3/5 p-6 lg:p-10 flex flex-col justify-center">
+                  <div className="lg:w-2/3 p-6 lg:p-10 flex flex-col justify-center">
                     <div className="flex items-center gap-3 mb-3">
                       <span className="text-2xl font-bold text-[#ed1c24]/20">0{index + 1}</span>
                       <h3 className="text-xl font-bold text-[#191c1f]">{benefit.title}</h3>

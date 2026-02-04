@@ -9,6 +9,7 @@ import Footer from "@/components/Footer";
 import TypeBadge from "@/components/board/TypeBadge";
 import { createClient } from "@/lib/supabase/client";
 import { BoardEntry } from "@/types/board";
+import DOMPurify from "dompurify";
 
 export default function BoardDetailPage() {
   const params = useParams();
@@ -90,13 +91,15 @@ export default function BoardDetailPage() {
         <article className="py-10 lg:py-14">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             {/* Back Button */}
-            <button
-              onClick={() => router.back()}
-              className="flex items-center gap-2 text-gray-600 hover:text-[#ed1c24] transition-colors mb-8 group"
-            >
-              <HiChevronLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
-              <span className="text-sm font-medium">목록으로</span>
-            </button>
+            <div className="flex justify-left mb-8">
+              <button
+                onClick={() => router.back()}
+                className="flex items-center gap-2 text-gray-600 hover:text-[#ed1c24] transition-colors group cursor-pointer"
+              >
+                <HiChevronLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform cursor-pointer" />
+                <span className="text-sm font-medium">목록으로</span>
+              </button>
+            </div>
 
             {/* Header */}
             <header className="mb-8 pb-8 border-b border-[var(--border-soft)]">
@@ -109,16 +112,33 @@ export default function BoardDetailPage() {
               <h1 className="text-2xl sm:text-3xl font-bold text-[#191c1f] mb-4 leading-tight">
                 {entry.title}
               </h1>
-              <div className="flex items-center gap-4 text-sm text-gray-500">
+              <div className="flex items-center justify-end gap-4 text-sm text-gray-500">
                 <time dateTime={entry.date}>{entry.date}</time>
               </div>
             </header>
 
+            {/* Image for Press or Blog */}
+            {entry.image_url && (entry.type === 'press' || entry.type === 'blog') && (
+              <div className="mb-8">
+                <img
+                  src={entry.image_url}
+                  alt={entry.title}
+                  className="w-full h-auto rounded-2xl object-cover"
+                />
+              </div>
+            )}
+
             {/* Content */}
             <div className="prose prose-lg max-w-none">
-              <div className="whitespace-pre-wrap text-gray-700 leading-relaxed">
-                {entry.content}
-              </div>
+              <div
+                className="text-gray-700 leading-relaxed"
+                dangerouslySetInnerHTML={{
+                  __html: DOMPurify.sanitize(entry.content || '', {
+                    ADD_TAGS: ['img'],
+                    ADD_ATTR: ['src', 'alt', 'class'],
+                  }),
+                }}
+              />
             </div>
 
             {/* Attachment */}
@@ -145,10 +165,10 @@ export default function BoardDetailPage() {
             )}
 
             {/* Navigation Buttons */}
-            <div className="mt-12 pt-8 border-t border-[var(--border-soft)]">
+            <div className="mt-12 pt-8 border-t border-[var(--border-soft)] flex justify-center">
               <Link
                 href="/board"
-                className="inline-flex items-center justify-center px-6 py-3 rounded-xl border border-[var(--border-soft)] bg-white text-gray-700 font-medium hover:bg-gray-50 transition-colors"
+                className="inline-flex items-center justify-center px-6 py-3 rounded-xl border border-[var(--border-soft)] bg-white text-gray-700 font-medium hover:bg-gray-50 transition-colors cursor-pointer"
               >
                 목록으로 돌아가기
               </Link>

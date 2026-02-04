@@ -4,8 +4,9 @@ import { useEffect, useState } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { createClient } from '@/lib/supabase/client'
 import { BoardEntryType } from '@/types/board'
-import { HiArrowLeft } from 'react-icons/hi2'
+import { HiArrowLeft, HiArrowUpTray } from 'react-icons/hi2'
 import Link from 'next/link'
+import TiptapEditor from '@/components/editor/TiptapEditor'
 
 export default function EditBoardEntryPage() {
   const router = useRouter()
@@ -23,7 +24,10 @@ export default function EditBoardEntryPage() {
     source: '',
     excerpt: '',
     description: '',
+    imageUrl: '',
   })
+  const [imageFile, setImageFile] = useState<File | null>(null)
+  const [imagePreview, setImagePreview] = useState<string | null>(null)
 
   useEffect(() => {
     fetchEntry()
@@ -51,9 +55,26 @@ export default function EditBoardEntryPage() {
         source: data.source || '',
         excerpt: data.excerpt || '',
         description: data.description || '',
+        imageUrl: data.image_url || '',
       })
+      // Set existing image as preview
+      if (data.image_url) {
+        setImagePreview(data.image_url)
+      }
     }
     setLoading(false)
+  }
+
+  const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0]
+    if (file) {
+      setImageFile(file)
+      const reader = new FileReader()
+      reader.onloadend = () => {
+        setImagePreview(reader.result as string)
+      }
+      reader.readAsDataURL(file)
+    }
   }
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -61,6 +82,26 @@ export default function EditBoardEntryPage() {
     setSaving(true)
 
     try {
+      let imageUrl = formData.imageUrl
+
+      // Upload new image if selected
+      if (imageFile && (formData.type === 'blog' || formData.type === 'press')) {
+        const fileExt = imageFile.name.split('.').pop()
+        const fileName = `${Date.now()}.${fileExt}`
+        const bucketName = formData.type === 'blog' ? 'blog-images' : 'press-images'
+        const { error: uploadError } = await supabase.storage
+          .from(bucketName)
+          .upload(fileName, imageFile)
+
+        if (uploadError) throw uploadError
+
+        const { data: { publicUrl } } = supabase.storage
+          .from(bucketName)
+          .getPublicUrl(fileName)
+
+        imageUrl = publicUrl
+      }
+
       // Format date to YYYY.MM.DD
       const formattedDate = formData.date.replace(/-/g, '.')
 
@@ -75,6 +116,7 @@ export default function EditBoardEntryPage() {
           source: formData.source || null,
           excerpt: formData.excerpt || null,
           description: formData.description || null,
+          image_url: imageUrl || null,
         })
         .eq('id', id)
 
@@ -172,16 +214,14 @@ export default function EditBoardEntryPage() {
           {/* Content */}
           {formData.type !== 'blog' && (
             <div>
-              <label htmlFor="content" className="block text-sm font-semibold text-gray-700 mb-2">
+              <label className="block text-sm font-semibold text-gray-700 mb-2">
                 내용 *
               </label>
-              <textarea
-                id="content"
-                value={formData.content}
-                onChange={(e) => setFormData({ ...formData, content: e.target.value })}
-                required
-                rows={10}
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#ed1c24] focus:border-transparent outline-none resize-y"
+              <TiptapEditor
+                content={formData.content}
+                onChange={(content) => setFormData({ ...formData, content })}
+                placeholder="내용을 입력하세요. 이미지 버튼을 클릭하여 원하는 위치에 이미지를 삽입할 수 있습니다."
+                bucketName="press-images"
               />
             </div>
           )}
@@ -229,23 +269,90 @@ export default function EditBoardEntryPage() {
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#ed1c24] focus:border-transparent outline-none"
                 />
               </div>
+              <div>
+                <label className="block text-sm font-semibold text-gray-700 mb-2">
+                  기사 썸네일
+                </label>
+                <div className="flex items-center gap-4">
+                  <label className="flex items-center gap-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg cursor-pointer hover:bg-gray-200 transition-colors">
+                    <HiArrowUpTray className="w-5 h-5" />
+                    <span>이미지 선택</span>
+                    <input
+                      type="file"
+                      accept="image/*"
+                      onChange={handleImageChange}
+                      className="hidden"
+                    />
+                  </label>
+                  {imageFile && <span className="text-sm text-gray-600">{imageFile.name}</span>}
+                </div>
+                {imagePreview && (
+                  <div className="mt-4">
+                    <img
+                      src={imagePreview}
+                      alt="Preview"
+                      className="w-full max-w-md h-48 object-cover rounded-lg"
+                    />
+                  </div>
+                )}
+              </div>
             </>
           )}
 
           {/* Blog-specific fields */}
           {formData.type === 'blog' && (
-            <div>
-              <label htmlFor="description" className="block text-sm font-semibold text-gray-700 mb-2">
-                설명
-              </label>
-              <input
-                id="description"
-                type="text"
-                value={formData.description}
-                onChange={(e) => setFormData({ ...formData, description: e.target.value })}
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#ed1c24] focus:border-transparent outline-none"
-              />
-            </div>
+            <>
+              <div>
+                <label htmlFor="description" className="block text-sm font-semibold text-gray-700 mb-2">
+                  설명
+                </label>
+                <input
+                  id="description"
+                  type="text"
+                  value={formData.description}
+                  onChange={(e) => setFormData({ ...formData, description: e.target.value })}
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#ed1c24] focus:border-transparent outline-none"
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-semibold text-gray-700 mb-2">
+                  내용 *
+                </label>
+                <TiptapEditor
+                  content={formData.content}
+                  onChange={(content) => setFormData({ ...formData, content })}
+                  placeholder="내용을 입력하세요. 이미지 버튼을 클릭하여 원하는 위치에 이미지를 삽입할 수 있습니다."
+                  bucketName="blog-images"
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-semibold text-gray-700 mb-2">
+                  썸네일 이미지
+                </label>
+                <div className="flex items-center gap-4">
+                  <label className="flex items-center gap-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg cursor-pointer hover:bg-gray-200 transition-colors">
+                    <HiArrowUpTray className="w-5 h-5" />
+                    <span>이미지 선택</span>
+                    <input
+                      type="file"
+                      accept="image/*"
+                      onChange={handleImageChange}
+                      className="hidden"
+                    />
+                  </label>
+                  {imageFile && <span className="text-sm text-gray-600">{imageFile.name}</span>}
+                </div>
+                {imagePreview && (
+                  <div className="mt-4">
+                    <img
+                      src={imagePreview}
+                      alt="Preview"
+                      className="w-full max-w-md h-48 object-cover rounded-lg"
+                    />
+                  </div>
+                )}
+              </div>
+            </>
           )}
 
           {/* Submit Buttons */}
