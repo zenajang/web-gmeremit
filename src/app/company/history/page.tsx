@@ -8,11 +8,20 @@ import { usePathname } from "next/navigation";
 import Lenis from "lenis";
 
 const historyData = [
+    {
+    year: "2025",
+    events: [
+      { month: "03", text: "Launched a tailored insurance product designed for foreign residents." },
+      { month: "06", text: "Launched a debit card featuring built-in transportation card functionality."},
+      { month: "12", text: "GME reached a cumulative overseas remittance volume exceeding KRW 3.5 trillion."},
+    ],
+  },
   {
     year: "2024",
     events: [
       { month: "03", text: "GME Mobile(MVNO) Launched with LGU+" },
       { month: "06", text: "GMEBiz(Overseas Corporate Payments) Launched"},
+      { month: "12", text: "GME reached a cumulative overseas remittance volume exceeding KRW 2.8 trillion."},
     ],
   },
   {
@@ -239,28 +248,38 @@ export default function HistoryPage() {
 
             <div className="grid lg:grid-cols-[1fr_1.2fr] gap-8 lg:gap-16">
               {/* Left - Sticky Year Display */}
-              <div className="lg:sticky lg:top-[140px] lg:h-fit">
-                <div className="mb-8">
-                  <h3 className="text-2xl lg:text-3xl font-bold text-[#191c1f] leading-tight">
+              <div className="lg:sticky lg:top-[160px] lg:h-fit">
+                {/* 타이틀 & 년도 영역 */}
+                <div className="relative p-8 lg:p-10 mb-8">
+                  {/* 장식용 작은 이미지 */}
+                  <div className="absolute -top-5 right-10 w-20 h-20 lg:w-55 lg:h-55 rounded-md overflow-hidden shadow-lg opacity-80">
+                    <img
+                      src="/images/branch_bg.jpg"
+                      alt=""
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+
+                  <h3 className="text-2xl lg:text-3xl font-bold text-[#191c1f] leading-tight mb-6">
                     끊임없는 도전,<br />새로운 시작
                   </h3>
-                </div>
 
-                {/* Large Year Number with accent */}
-                <div className="relative">
-                  <div className="absolute -left-4 top-1/2 -translate-y-1/2 w-1 h-20 bg-gradient-to-b from-[#ed1c24] to-[#ed1c24]/20 rounded-full" />
-                  <span
-                    key={activeYear}
-                    className="block text-[120px] lg:text-[160px] font-black text-[#191c1f] leading-none tracking-tighter transition-all duration-500"
-                  >
-                    {activeYear}
-                  </span>
-                </div>
+                  {/* Large Year Number with accent */}
+                  <div className="relative">
+                    <div className="absolute -left-4 top-1/2 -translate-y-1/2 w-1 h-20 bg-gradient-to-b from-[#ed1c24] to-[#ed1c24]/20 rounded-full" />
+                    <span
+                      key={activeYear}
+                      className="block text-[100px] lg:text-[140px] font-black text-[#191c1f] leading-none tracking-tighter transition-all duration-500"
+                    >
+                      {activeYear}
+                    </span>
+                  </div>
 
-                {/* Since Badge - horizontal layout */}
-                <div className="mt-10 lg:mt-5 flex items-baseline gap-2 ml-20 italic">
-                  <span className="text-3xl lg:text-4xl font-light text-[#ccc] ">since</span>
-                  <span className="text-4xl lg:text-6xl font-black text-[#e5e5e5]">2016</span>
+                  {/* Since Badge */}
+                  <div className="mt-6 flex items-baseline gap-2 ml-16 italic">
+                    <span className="text-2xl lg:text-3xl font-light text-[#999]">since</span>
+                    <span className="text-3xl lg:text-5xl font-black text-[#ccc]">2016</span>
+                  </div>
                 </div>
                 {/* Active Event Images */}
                 {activeEvent && (() => {
@@ -335,8 +354,9 @@ export default function HistoryPage() {
                       className="relative"
                     >
                       {/* Year Header */}
-                      <div className={`sticky top-[140px] z-40 bg-white py-3 ${yearIndex === 0 ? '' : 'mt-8'}`}>
-                        <div className="flex items-center gap-3">
+                      <div className={`sticky top-[140px] z-40 py-3 ${yearIndex === 0 ? '' : 'mt-8'}`}>
+                        <div className="absolute -top-10 inset-x-0 bottom-0 bg-white -mx-4" />
+                        <div className="relative flex items-center gap-3">
                           <span className="text-3xl font-bold text-[#191c1f]">{yearData.year}</span>
                           <div className="flex-1 h-px bg-gradient-to-r from-[#ed1c24]/30 via-gray-200 to-transparent" />
                         </div>

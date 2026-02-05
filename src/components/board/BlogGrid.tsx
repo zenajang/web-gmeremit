@@ -15,15 +15,15 @@ export default function BlogGrid({ entries }: BlogGridProps) {
   }
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-12">
       {entries.map((entry) => (
         <Link
           key={entry.id}
           href={`/board/${entry.id}`}
-          className="group rounded-2xl border border-[var(--border-soft)] bg-white overflow-hidden hover:shadow-lg transition-all duration-300"
+          className="group bg-white overflow-hidden hover:opacity-80 transition-all duration-300"
         >
           {/* Image */}
-          <div className="relative w-full aspect-[16/10] bg-gray-100 overflow-hidden">
+          <div className="relative w-full aspect-[4/3] bg-gray-100 overflow-hidden rounded-2xl mb-6">
             {entry.image_url ? (
               <img
                 src={entry.image_url}
@@ -38,16 +38,16 @@ export default function BlogGrid({ entries }: BlogGridProps) {
           </div>
 
           {/* Content */}
-          <div className="p-5">
-            <h3 className="text-base font-semibold text-[#191c1f] mb-2 line-clamp-2 group-hover:text-[#ed1c24] transition-colors">
+          <div className="space-y-3">
+            <p className="text-lg font-light text-gray-400">{entry.date}</p>
+            <h3 className="text-lg lg:text-xl font-bold text-[#191c1f] leading-snug group-hover:text-[#ed1c24] transition-colors">
               {entry.title}
             </h3>
             {entry.description && (
-              <p className="text-sm text-gray-600 mb-3 line-clamp-2">
+              <p className="text-sm text-gray-600 leading-relaxed line-clamp-2">
                 {entry.description}
               </p>
             )}
-            <p className="text-sm text-gray-500">{entry.date}</p>
           </div>
         </Link>
       ))}
