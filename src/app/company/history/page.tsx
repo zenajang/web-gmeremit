@@ -252,7 +252,7 @@ export default function HistoryPage() {
                 {/* 타이틀 & 년도 영역 */}
                 <div className="relative p-8 lg:p-10 mb-8">
                   {/* 장식용 작은 이미지 */}
-                  <div className="absolute -top-5 right-10 w-20 h-20 lg:w-55 lg:h-55 rounded-md overflow-hidden shadow-lg opacity-80">
+                  <div className="absolute top-3 right-5 w-32 h-20 lg:w-64 lg:h-45 rounded-md overflow-hidden shadow-lg opacity-90">
                     <img
                       src="/images/branch_bg.jpg"
                       alt=""
