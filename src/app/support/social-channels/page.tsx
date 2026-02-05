@@ -227,7 +227,7 @@ export default function SocialChannelsPage() {
             style={{ animation: "pulse-scale 1.2s ease-in-out infinite" }}
           />
           <span className="text-base font-bold text-[#ed1c24]">38개국</span>
-          <span className="text-base text-gray-500">운영 중</span>
+          <span className="text-base font-medium text-lime-600">운영 중</span>
           <style jsx global>{`
             @keyframes pulse-scale {
               0%, 100% { transform: scale(1); }
