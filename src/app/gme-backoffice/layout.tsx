@@ -16,12 +16,12 @@ export default function AdminLayout({
   const pathname = usePathname()
 
   useEffect(() => {
-    if (!loading && !user && pathname !== '/admin/login') {
-      router.push('/admin/login')
+    if (!loading && !user && pathname !== '/gme-backoffice/login') {
+      router.push('/gme-backoffice/login')
     }
   }, [user, loading, pathname, router])
 
-  if (pathname === '/admin/login') {
+  if (pathname === '/gme-backoffice/login') {
     return children
   }
 
@@ -42,7 +42,7 @@ export default function AdminLayout({
 
   const handleSignOut = async () => {
     await signOut()
-    router.push('/admin/login')
+    router.push('/gme-backoffice/login')
   }
 
   return (
@@ -57,9 +57,9 @@ export default function AdminLayout({
               </h1>
               <nav className="hidden md:flex items-center gap-4">
                 <Link
-                  href="/admin/dashboard"
+                  href="/gme-backoffice/dashboard"
                   className={`px-4 py-2 rounded-lg font-medium transition-colors ${
-                    pathname === '/admin/dashboard'
+                    pathname === '/gme-backoffice/dashboard'
                       ? 'bg-[#ed1c24] text-white'
                       : 'text-gray-600 hover:bg-gray-100'
                   }`}
@@ -79,7 +79,7 @@ export default function AdminLayout({
               <span className="text-sm text-gray-600">{user.email}</span>
               <button
                 onClick={handleSignOut}
-                className="flex items-center gap-2 px-4 py-2 text-gray-600 hover:text-[#ed1c24] transition-colors"
+                className="flex items-center gap-2 px-4 py-2 text-gray-600 hover:text-[#ed1c24] transition-colors cursor-pointer"
               >
                 <HiLogout className="w-5 h-5" />
                 <span className="hidden sm:inline">로그아웃</span>

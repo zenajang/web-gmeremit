@@ -10,6 +10,7 @@ import TypeBadge from "@/components/board/TypeBadge";
 import { createClient } from "@/lib/supabase/client";
 import { BoardEntry } from "@/types/board";
 import DOMPurify from "dompurify";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export default function BoardDetailPage() {
   const params = useParams();
@@ -17,6 +18,7 @@ export default function BoardDetailPage() {
   const idParam = Array.isArray(params.id) ? params.id[0] : params.id;
   const id = Number(idParam);
   const supabase = createClient();
+  const { t } = useTranslation("board");
 
   const [entry, setEntry] = useState<BoardEntry | null>(null);
   const [loading, setLoading] = useState(true);
@@ -54,7 +56,7 @@ export default function BoardDetailPage() {
         <Header />
         <main className="pt-[82px] lg:pt-[120px] min-h-screen bg-[var(--surface-0)]">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
-            <p className="text-gray-500">불러오는 중입니다.</p>
+            <p className="text-gray-500">{t("loading")}</p>
           </div>
         </main>
         <Footer />
@@ -69,13 +71,13 @@ export default function BoardDetailPage() {
         <main className="pt-[82px] lg:pt-[120px] min-h-screen">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
             <h1 className="text-2xl font-bold text-gray-900 mb-4">
-              게시글을 찾을 수 없습니다
+              {t("detail.not_found")}
             </h1>
             <Link
               href="/board"
               className="text-[#ed1c24] hover:underline font-medium"
             >
-              목록으로 돌아가기
+              {t("detail.back_to_list")}
             </Link>
           </div>
         </main>
@@ -97,7 +99,7 @@ export default function BoardDetailPage() {
                 className="flex items-center gap-2 text-gray-600 hover:text-[#ed1c24] transition-colors group cursor-pointer"
               >
                 <HiChevronLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform cursor-pointer" />
-                <span className="text-sm font-medium">목록으로</span>
+                <span className="text-sm font-medium">{t("detail.back")}</span>
               </button>
             </div>
 
@@ -145,7 +147,7 @@ export default function BoardDetailPage() {
             {entry.has_attachment && entry.attachment_url && (
               <div className="mt-10 p-6 rounded-2xl border border-[var(--border-soft)] bg-[var(--surface-1)]">
                 <h3 className="text-sm font-semibold text-gray-700 mb-3">
-                  첨부파일
+                  {t("detail.attachment")}
                 </h3>
                 <a
                   href={entry.attachment_url}
@@ -157,7 +159,7 @@ export default function BoardDetailPage() {
                   </div>
                   <div className="flex-1 min-w-0">
                     <p className="text-sm font-medium text-[#191c1f] truncate">
-                      {entry.attachment_name || "첨부파일"}
+                      {entry.attachment_name || t("detail.attachment_file")}
                     </p>
                   </div>
                 </a>
@@ -170,7 +172,7 @@ export default function BoardDetailPage() {
                 href="/board"
                 className="inline-flex items-center justify-center px-6 py-3 rounded-xl border border-[var(--border-soft)] bg-white text-gray-700 font-medium hover:bg-gray-50 transition-colors cursor-pointer"
               >
-                목록으로 돌아가기
+                {t("detail.back_to_list")}
               </Link>
             </div>
           </div>

@@ -1,69 +1,31 @@
 'use client'
 
-import { useEffect, useState } from 'react'
-import { useRouter, useParams } from 'next/navigation'
+import { useState } from 'react'
+import { useRouter } from 'next/navigation'
 import { createClient } from '@/lib/supabase/client'
 import { BoardEntryType } from '@/types/board'
 import { HiArrowLeft, HiArrowUpTray } from 'react-icons/hi2'
 import Link from 'next/link'
 import TiptapEditor from '@/components/editor/TiptapEditor'
 
-export default function EditBoardEntryPage() {
+export default function CreateBoardEntryPage() {
   const router = useRouter()
-  const params = useParams()
-  const id = params.id as string
   const supabase = createClient()
-  const [loading, setLoading] = useState(true)
-  const [saving, setSaving] = useState(false)
+  const [loading, setLoading] = useState(false)
   const [formData, setFormData] = useState({
     type: 'notice' as BoardEntryType,
     title: '',
     content: '',
-    date: '',
+    date: new Date().toISOString().split('T')[0],
     isImportant: false,
+    hasAttachment: false,
     source: '',
     excerpt: '',
     description: '',
-    imageUrl: '',
   })
   const [imageFile, setImageFile] = useState<File | null>(null)
+  const [attachmentFile, setAttachmentFile] = useState<File | null>(null)
   const [imagePreview, setImagePreview] = useState<string | null>(null)
-
-  useEffect(() => {
-    fetchEntry()
-  }, [id])
-
-  const fetchEntry = async () => {
-    const { data, error } = await supabase
-      .from('board_entries')
-      .select('*')
-      .eq('id', id)
-      .single()
-
-    if (error) {
-      alert('게시글을 불러올 수 없습니다.')
-      router.push('/admin/dashboard')
-    } else {
-      // Convert date format from YYYY.MM.DD to YYYY-MM-DD
-      const dateForInput = data.date.replace(/\./g, '-')
-      setFormData({
-        type: data.type,
-        title: data.title,
-        content: data.content || '',
-        date: dateForInput,
-        isImportant: data.is_important || false,
-        source: data.source || '',
-        excerpt: data.excerpt || '',
-        description: data.description || '',
-        imageUrl: data.image_url || '',
-      })
-      // Set existing image as preview
-      if (data.image_url) {
-        setImagePreview(data.image_url)
-      }
-    }
-    setLoading(false)
-  }
 
   const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0]
@@ -77,23 +39,33 @@ export default function EditBoardEntryPage() {
     }
   }
 
+  const handleAttachmentChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0]
+    if (file) {
+      setAttachmentFile(file)
+      setFormData({ ...formData, hasAttachment: true })
+    }
+  }
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    setSaving(true)
+    setLoading(true)
 
     try {
-      let imageUrl = formData.imageUrl
+      let imageUrl = ''
+      let attachmentUrl = ''
+      let attachmentName = ''
 
-      // Upload new image if selected
+      // Upload image if exists (for blog or press)
       if (imageFile && (formData.type === 'blog' || formData.type === 'press')) {
         const fileExt = imageFile.name.split('.').pop()
         const fileName = `${Date.now()}.${fileExt}`
         const bucketName = formData.type === 'blog' ? 'blog-images' : 'press-images'
-        const { error: uploadError } = await supabase.storage
+        const { error } = await supabase.storage
           .from(bucketName)
           .upload(fileName, imageFile)
 
-        if (uploadError) throw uploadError
+        if (error) throw error
 
         const { data: { publicUrl } } = supabase.storage
           .from(bucketName)
@@ -102,42 +74,53 @@ export default function EditBoardEntryPage() {
         imageUrl = publicUrl
       }
 
+      // Upload attachment if exists
+      if (attachmentFile) {
+        const fileExt = attachmentFile.name.split('.').pop()
+        const fileName = `${Date.now()}.${fileExt}`
+        const { data, error } = await supabase.storage
+          .from('board-attachments')
+          .upload(fileName, attachmentFile)
+
+        if (error) throw error
+
+        const { data: { publicUrl } } = supabase.storage
+          .from('board-attachments')
+          .getPublicUrl(fileName)
+
+        attachmentUrl = publicUrl
+        attachmentName = attachmentFile.name
+      }
+
       // Format date to YYYY.MM.DD
       const formattedDate = formData.date.replace(/-/g, '.')
 
-      const { error } = await supabase
-        .from('board_entries')
-        .update({
-          type: formData.type,
-          title: formData.title,
-          content: formData.content || null,
-          date: formattedDate,
-          is_important: formData.isImportant,
-          source: formData.source || null,
-          excerpt: formData.excerpt || null,
-          description: formData.description || null,
-          image_url: imageUrl || null,
-        })
-        .eq('id', id)
+      // Insert board entry
+      const { error } = await supabase.from('board_entries').insert({
+        type: formData.type,
+        title: formData.title,
+        content: formData.content || null,
+        date: formattedDate,
+        is_important: formData.isImportant,
+        has_attachment: formData.hasAttachment,
+        attachment_url: attachmentUrl || null,
+        attachment_name: attachmentName || null,
+        source: formData.source || null,
+        excerpt: formData.excerpt || null,
+        image_url: imageUrl || null,
+        description: formData.description || null,
+      })
 
       if (error) throw error
 
-      alert('게시글이 수정되었습니다.')
-      router.push('/admin/dashboard')
+      alert('게시글이 등록되었습니다.')
+      router.push('/gme-backoffice/dashboard')
     } catch (error) {
-      console.error('Error updating entry:', error)
-      alert('게시글 수정 중 오류가 발생했습니다.')
+      console.error('Error creating entry:', error)
+      alert('게시글 등록 중 오류가 발생했습니다.')
     } finally {
-      setSaving(false)
+      setLoading(false)
     }
-  }
-
-  if (loading) {
-    return (
-      <div className="text-center py-12">
-        <div className="inline-block animate-spin rounded-full h-8 w-8 border-4 border-gray-300 border-t-[#ed1c24]" />
-      </div>
-    )
   }
 
   return (
@@ -145,13 +128,13 @@ export default function EditBoardEntryPage() {
       {/* Header */}
       <div className="mb-8">
         <Link
-          href="/admin/dashboard"
+          href="/gme-backoffice/dashboard"
           className="inline-flex items-center gap-2 text-gray-600 hover:text-[#ed1c24] mb-4 transition-colors"
         >
           <HiArrowLeft className="w-5 h-5" />
           <span>대시보드로 돌아가기</span>
         </Link>
-        <h1 className="text-3xl font-bold text-[#191c1f]">게시글 수정</h1>
+        <h1 className="text-3xl font-bold text-[#191c1f]">새 게시글 작성</h1>
       </div>
 
       {/* Form */}
@@ -193,6 +176,7 @@ export default function EditBoardEntryPage() {
               onChange={(e) => setFormData({ ...formData, title: e.target.value })}
               required
               className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#ed1c24] focus:border-transparent outline-none"
+              placeholder="제목을 입력하세요"
             />
           </div>
 
@@ -255,6 +239,7 @@ export default function EditBoardEntryPage() {
                   value={formData.source}
                   onChange={(e) => setFormData({ ...formData, source: e.target.value })}
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#ed1c24] focus:border-transparent outline-none"
+                  placeholder="예: 매일경제"
                 />
               </div>
               <div>
@@ -267,6 +252,7 @@ export default function EditBoardEntryPage() {
                   onChange={(e) => setFormData({ ...formData, excerpt: e.target.value })}
                   rows={3}
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#ed1c24] focus:border-transparent outline-none"
+                  placeholder="간단한 요약을 입력하세요"
                 />
               </div>
               <div>
@@ -312,6 +298,7 @@ export default function EditBoardEntryPage() {
                   value={formData.description}
                   onChange={(e) => setFormData({ ...formData, description: e.target.value })}
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#ed1c24] focus:border-transparent outline-none"
+                  placeholder="짧은 설명을 입력하세요"
                 />
               </div>
               <div>
@@ -355,17 +342,36 @@ export default function EditBoardEntryPage() {
             </>
           )}
 
+          {/* Attachment */}
+          <div>
+            <label className="block text-sm font-semibold text-gray-700 mb-2">
+              첨부파일
+            </label>
+            <div className="flex items-center gap-4">
+              <label className="flex items-center gap-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg cursor-pointer hover:bg-gray-200 transition-colors">
+                <HiArrowUpTray className="w-5 h-5" />
+                <span>파일 선택</span>
+                <input
+                  type="file"
+                  onChange={handleAttachmentChange}
+                  className="hidden"
+                />
+              </label>
+              {attachmentFile && <span className="text-sm text-gray-600">{attachmentFile.name}</span>}
+            </div>
+          </div>
+
           {/* Submit Buttons */}
           <div className="flex gap-4 pt-6 border-t border-gray-200">
             <button
               type="submit"
-              disabled={saving}
+              disabled={loading}
               className="px-6 py-3 bg-[#ed1c24] text-white font-semibold rounded-lg hover:bg-[#d91920] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              {saving ? '저장 중...' : '수정 완료'}
+              {loading ? '등록 중...' : '게시글 등록'}
             </button>
             <Link
-              href="/admin/dashboard"
+              href="/gme-backoffice/dashboard"
               className="px-6 py-3 bg-gray-200 text-gray-700 font-semibold rounded-lg hover:bg-gray-300 transition-colors"
             >
               취소

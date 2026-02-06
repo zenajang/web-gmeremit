@@ -1,28 +1,34 @@
+"use client";
+
 import { HiUser } from "react-icons/hi2";
 import { FaStar, FaQuoteLeft } from "react-icons/fa";
+import { useTranslation } from "@/hooks/useTranslation";
 
+// Quotes stay in English as per user preference (actual user reviews)
 const testimonials = [
   {
     quote: "I love how simple and quick the process is with GME Remittance. My family gets the money instantly, and I can track everything!",
     name: "Dos James",
     meta: "GME Remittance",
-    tag: "간편 송금 및 추적",
+    tagKey: "easy_tracking",
   },
   {
     quote: "I was amazed at how simple it was to apply for a loan with GME. Their flexible terms and great customer service made all the difference.",
     name: "Yin Zaw",
     meta: "GME Loan",
-    tag: "서비스 만족",
+    tagKey: "satisfied",
   },
   {
     quote: "I love the flexibility of my GME Card. Whether I'm shopping or paying bills, it works flawlessly and makes my life easier!",
     name: "Suni Lee",
     meta: "GME Card",
-    tag: "빠른 처리",
+    tagKey: "fast_process",
   },
 ];
 
 export default function TestimonialsSection() {
+  const { t } = useTranslation("home.testimonials");
+
   return (
     <section id="testimonials" className="relative overflow-hidden bg-[var(--surface-warm)] py-16 lg:py-20">
       <div
@@ -47,9 +53,9 @@ export default function TestimonialsSection() {
       <div className="max-w-[1640px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 lg:mb-14">
           <p className="text-xs font-semibold tracking-[0.3em] text-[#ed1c24] mb-3">TESTIMONIALS</p>
-          <h2 className="text-4xl sm:text-5xl font-bold text-[#191c1f]">고객의 말</h2>
+          <h2 className="text-4xl sm:text-5xl font-bold text-[#191c1f]">{t("title")}</h2>
           <p className="text-base text-gray-600 max-w-2xl mx-auto mt-4">
-            실제 이용 고객의 경험을 전합니다.
+            {t("subtitle")}
           </p>
         </div>
 
@@ -70,7 +76,7 @@ export default function TestimonialsSection() {
                   </div>
                 </div>
                 <span className="rounded-full border border-[#ed1c24]/25 bg-[#ed1c24]/10 px-3.5 py-1.5 text-xs font-semibold text-[#c41920] shadow-[0_4px_10px_rgba(237,28,36,0.16)] ring-1 ring-[#ed1c24]/15">
-                  {item.tag}
+                  {t(`tags.${item.tagKey}`)}
                 </span>
               </div>
 

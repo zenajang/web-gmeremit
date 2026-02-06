@@ -7,8 +7,11 @@ import CompanyTabs from "@/components/CompanyTabs";
 import Lenis from "lenis";
 import Link from "next/link";
 import Image from "next/image";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export default function ServicesPage() {
+  const { t } = useTranslation("company.services");
+
   // Lenis 부드러운 스크롤
   useEffect(() => {
     const lenis = new Lenis({
@@ -45,10 +48,10 @@ export default function ServicesPage() {
             <div className="mb-16 flex items-center justify-between">
               <div>
                 <p className="text-base lg:text-lg text-[#666] mb-4 font-light">
-                  글로벌 금융의 모든 것을 한 곳에서
+                  {t("subtitle")}
                 </p>
                 <h1 className="text-3xl lg:text-5xl font-bold text-[#191c1f]">
-                  GME 서비스
+                  {t("title")}
                 </h1>
               </div>
 
@@ -95,7 +98,7 @@ export default function ServicesPage() {
               {/* Main Services Label */}
               <div className="flex items-center gap-3 mb-5">
                 <div className="w-2 h-8 bg-gradient-to-b from-[#ed1c24] to-[#ed1c24]/40 rounded-full"></div>
-                <h2 className="text-2xl font-bold text-[#191c1f]">Core Services</h2>
+                <h2 className="text-2xl font-bold text-[#191c1f]">{t("core_services")}</h2>
               </div>
 
               {/* First Row - 4 Main Services (Larger & Prominent) */}
@@ -108,13 +111,13 @@ export default function ServicesPage() {
                     </svg>
                   </div>
                   <h3 className="text-xl font-bold text-[#191c1f] mb-3">
-                    B2B Payments
+                    {t("b2b_payments.title")}
                   </h3>
                   <p className="text-[#666] leading-relaxed mb-6 flex-grow">
-                    Fast and low-cost cross-border payouts and collections
+                    {t("b2b_payments.desc")}
                   </p>
                   <Link href="#" className="inline-flex items-center text-[#3b82f6] font-semibold hover:gap-2 transition-all">
-                    Learn More <span className="ml-1">›</span>
+                    {t("learn_more")} <span className="ml-1">›</span>
                   </Link>
                 </div>
 
@@ -126,13 +129,13 @@ export default function ServicesPage() {
                     </svg>
                   </div>
                   <h3 className="text-xl font-bold text-[#191c1f] mb-3">
-                    Personal Remittance
+                    {t("personal_remittance.title")}
                   </h3>
                   <p className="text-[#666] leading-relaxed mb-6 flex-grow">
-                    Send money locally or globally with multi-language support
+                    {t("personal_remittance.desc")}
                   </p>
                   <Link href="#" className="inline-flex items-center text-[#ed1c24] font-semibold hover:gap-2 transition-all">
-                    Learn More <span className="ml-1">›</span>
+                    {t("learn_more")} <span className="ml-1">›</span>
                   </Link>
                 </div>
 
@@ -144,13 +147,13 @@ export default function ServicesPage() {
                     </svg>
                   </div>
                   <h3 className="text-xl font-bold text-[#191c1f] mb-3">
-                    Easy Loan
+                    {t("easy_loan.title")}
                   </h3>
                   <p className="text-[#666] leading-relaxed mb-6 flex-grow">
-                    100% paperless loan with same-day approval
+                    {t("easy_loan.desc")}
                   </p>
                   <Link href="#" className="inline-flex items-center text-[#f59e0b] font-semibold hover:gap-2 transition-all">
-                    Learn More <span className="ml-1">›</span>
+                    {t("learn_more")} <span className="ml-1">›</span>
                   </Link>
                 </div>
 
@@ -162,13 +165,13 @@ export default function ServicesPage() {
                     </svg>
                   </div>
                   <h3 className="text-xl font-bold text-[#191c1f] mb-3">
-                    GME Card
+                    {t("gme_card.title")}
                   </h3>
                   <p className="text-[#666] leading-relaxed mb-6 flex-grow">
-                    Pay, withdraw, and manage your money worldwide
+                    {t("gme_card.desc")}
                   </p>
                   <Link href="#" className="inline-flex items-center text-[#1f2937] font-semibold hover:gap-2 transition-all">
-                    Learn More <span className="ml-1">›</span>
+                    {t("learn_more")} <span className="ml-1">›</span>
                   </Link>
                 </div>
               </div>
@@ -176,7 +179,7 @@ export default function ServicesPage() {
               {/* Related Services Label */}
               <div className="flex items-center gap-3 mb-5 mt-20">
                 <div className="w-2 h-8 bg-gradient-to-b from-[#666] to-[#666]/40 rounded-full"></div>
-                <h2 className="text-xl font-semibold">Related Services</h2>
+                <h2 className="text-xl font-semibold">{t("related_services")}</h2>
               </div>
 
               {/* Second Row - 4 Related Services (Smaller & Subtle) */}
@@ -189,10 +192,10 @@ export default function ServicesPage() {
                     </svg>
                   </div>
                   <h3 className="text-lg font-bold text-[#191c1f] mb-2">
-                    Digital Wallet
+                    {t("digital_wallet.title")}
                   </h3>
                   <p className="text-sm text-[#888] leading-relaxed">
-                    Deposit, send, and pay seamlessly in one place
+                    {t("digital_wallet.desc")}
                   </p>
                 </div>
 
@@ -204,10 +207,10 @@ export default function ServicesPage() {
                     </svg>
                   </div>
                   <h3 className="text-lg font-bold text-[#191c1f] mb-2">
-                    Money Exchange
+                    {t("money_exchange.title")}
                   </h3>
                   <p className="text-sm text-[#888] leading-relaxed">
-                    Better exchange rates than traditional banks
+                    {t("money_exchange.desc")}
                   </p>
                 </div>
 
@@ -219,10 +222,10 @@ export default function ServicesPage() {
                     </svg>
                   </div>
                   <h3 className="text-lg font-bold text-[#191c1f] mb-2">
-                    Mobile Top-up
+                    {t("mobile_topup.title")}
                   </h3>
                   <p className="text-sm text-[#888] leading-relaxed">
-                    Instant mobile recharge in 150+ countries
+                    {t("mobile_topup.desc")}
                   </p>
                 </div>
 
@@ -234,10 +237,10 @@ export default function ServicesPage() {
                     </svg>
                   </div>
                   <h3 className="text-lg font-bold text-[#191c1f] mb-2">
-                    Gift Coupons
+                    {t("gift_coupons.title")}
                   </h3>
                   <p className="text-sm text-[#888] leading-relaxed">
-                    Send digital gift coupons using reward points
+                    {t("gift_coupons.desc")}
                   </p>
                 </div>
               </div>

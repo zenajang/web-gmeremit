@@ -6,88 +6,96 @@ import CompanyTabs from "@/components/CompanyTabs";
 import { useEffect, useLayoutEffect, useRef, useState, useMemo } from "react";
 import { usePathname } from "next/navigation";
 import Lenis from "lenis";
+import { useTranslation } from "@/hooks/useTranslation";
 
+// History data with translation keys
 const historyData = [
-    {
+  {
     year: "2025",
     events: [
-      { month: "03", text: "Launched a tailored insurance product designed for foreign residents." },
-      { month: "06", text: "Launched a debit card featuring built-in transportation card functionality."},
-      { month: "12", text: "GME reached a cumulative overseas remittance volume exceeding KRW 3.5 trillion."},
+      { month: "03", textKey: "2025_03" },
+      { month: "06", textKey: "2025_06" },
+      { month: "12", textKey: "2025_12" },
     ],
   },
   {
     year: "2024",
     events: [
-      { month: "03", text: "GME Mobile(MVNO) Launched with LGU+" },
-      { month: "06", text: "GMEBiz(Overseas Corporate Payments) Launched"},
-      { month: "12", text: "GME reached a cumulative overseas remittance volume exceeding KRW 2.8 trillion."},
+      { month: "03", textKey: "2024_03" },
+      { month: "06", textKey: "2024_06" },
+      { month: "12", textKey: "2024_12" },
     ],
   },
   {
     year: "2023",
     events: [
-      { month: "02", text: "Achieved $1.6 Billion in Overseas Remittance" },
-      { month: "05", text: "GME Card Service Launched with BC card & Master card" },
-      { month: "09", text: "GME Mobile(MVNO) License granted" },
+      { month: "02", textKey: "2023_02" },
+      { month: "05", textKey: "2023_05" },
+      { month: "09", textKey: "2023_09" },
+      { month: "10", textKey: "2023_10" },
+      { month: "?", textKey: "2023_nice" },
+      { month: "?", textKey: "2023_kibo" },
     ],
   },
   {
     year: "2022",
     events: [
-      { month: "03", text:"Foreign currency business license granted",  images: ["/images/company/history/2022-03.jpg"] },
-      { month: "06", text: "Start Payment Business" },
-      { month: "11", text: "Achieved $1.5 Billion in Overseas Remittance" },
+      { month: "03", textKey: "2022_03", images: ["/images/company/history/2022-03.jpg"] },
+      { month: "06", textKey: "2022_06" },
+      { month: "11", textKey: "2022_11" },
     ],
   },
   {
     year: "2021",
     events: [
-      { month: "04", text: "Achieved $1.4 Billion in Overseas Remittance" },
-      { month: "07", text: "Mobile Coupon Service Launched"},
-      { month: "12", text: "Granted PG License", images: ["/images/company/history/2021-12.png"] },
+      { month: "04", textKey: "2021_04" },
+      { month: "07", textKey: "2021_07" },
+      { month: "10", textKey: "2021_10", images: ["/images/company/history/2021-10.jpg"] },
+      { month: "12", textKey: "2021_12", images: ["/images/company/history/2021-12.png"] },
     ],
   },
   {
     year: "2020",
     events: [
-      { month: "02", text: "Achieved $1 Billion in Remittance" },
-      { month: "05", text: "Mobile Top-up Service Launched" },
-      { month: "08", text: "Granted Prepaid E-Payment License", images: ["/images/company/history/2020-08.jpg"] },
+      { month: "02", textKey: "2020_02" },
+      { month: "05", textKey: "2020_05" },
+      { month: "08", textKey: "2020_08", images: ["/images/company/history/2020-08.jpg"] },
     ],
   },
   {
     year: "2019",
     events: [
-      { month: "03", text: "Domestic Transfer Service Launched"},
-      { month: "06", text: "12 Nationwide Branches Opened" },
-      { month: "09", text: "3 Nationwide Centers Opened" },
+      { month: "03", textKey: "2019_03" },
+      { month: "06", textKey: "2019_06" },
+      { month: "09", textKey: "2019_09" },
     ],
   },
   {
     year: "2018",
     events: [
-      { month: "04", text: "Achieved $40 Million in Remittance" },
-      { month: "09", text: "Selected as Seoul City Recommended Remittance Operator", images: ["/images/company/history/2018-09.png"] },
+      { month: "04", textKey: "2018_04" },
+      { month: "09", textKey: "2018_09", images: ["/images/company/history/2018-09.png"] },
+      { month: "?", textKey: "2018_loan" },
     ],
   },
   {
     year: "2017",
     events: [
-      { month: "03", text: "First Online Service Launched"},
-      { month: "06", text: "First Service Provider in Korea"},
-      { month: "08", text: "First Remittance License in Korea", images: ["/images/company/history/2017-08_eng.jpg","/images/company/history/2017-08_ko.jpg"] },
+      { month: "03", textKey: "2017_03" },
+      { month: "06", textKey: "2017_06" },
+      { month: "08", textKey: "2017_08", images: ["/images/company/history/2017-08_eng.jpg", "/images/company/history/2017-08_ko.jpg"] },
     ],
   },
   {
     year: "2016",
     events: [
-      { month: "08", text: "Establishment of GME"},
+      { month: "08", textKey: "2016_08" },
     ],
   },
 ];
 
 export default function HistoryPage() {
+  const { t } = useTranslation("company.history");
   const [activeYear, setActiveYear] = useState("2024");
   const [activeEvent, setActiveEvent] = useState<string | null>(null);
   const [currentEventIndex, setCurrentEventIndex] = useState(0);
@@ -260,8 +268,8 @@ export default function HistoryPage() {
                     />
                   </div>
 
-                  <h3 className="text-2xl lg:text-3xl font-bold text-[#191c1f] leading-tight mb-6">
-                    끊임없는 도전,<br />새로운 시작
+                  <h3 className="relative z-10 text-2xl lg:text-3xl font-bold text-[#191c1f] leading-tight mb-6">
+                    {t("title_line1")}<br />{t("title_line2")}
                   </h3>
 
                   {/* Large Year Number with accent */}
@@ -306,7 +314,7 @@ export default function HistoryPage() {
                                 <div className="relative w-full overflow-visible transition-all duration-300 hover:scale-[1.02]">
                                   <img
                                     src={imageSrc}
-                                    alt={`${event.text} ${idx + 1}`}
+                                    alt={`${t(`events.${event.textKey}`)} ${idx + 1}`}
                                     className="w-full h-auto object-contain transition-all duration-500 group-hover:scale-[1.02] opacity-95 cursor-pointer rounded-lg"
                                     style={{ filter: 'drop-shadow(0 8px 24px rgba(25,28,31,0.12))' }}
                                     onClick={() => setModalImageSrc(imageSrc)}
@@ -326,7 +334,7 @@ export default function HistoryPage() {
                             <div className="relative w-full lg:w-full overflow-visible transition-all duration-300 hover:scale-[1.02]">
                               <img
                                 src={imageSrc}
-                                alt={`${event.text} ${idx + 1}`}
+                                alt={`${t(`events.${event.textKey}`)} ${idx + 1}`}
                                 className="w-full h-auto object-contain transition-all duration-500 opacity-95 group-hover:scale-[1.02] cursor-pointer rounded-lg"
                                 style={{ filter: 'drop-shadow(0 8px 24px rgba(25,28,31,0.12))' }}
                                 onClick={() => setModalImageSrc(imageSrc)}
@@ -400,7 +408,7 @@ export default function HistoryPage() {
                                     ? 'text-[#191c1f] font-semibold text-[16px]'
                                     : 'text-[#666] text-[15px]'
                                 }`}>
-                                  {event.text}
+                                  {t(`events.${event.textKey}`)}
                                 </p>
                                 {hasImages && (
                                   <span className="shrink-0 mt-1 inline-flex items-center gap-1 rounded-full border border-[#ed1c24]/30 bg-[#ed1c24]/5 px-2 py-0.5 text-[10px] font-semibold tracking-[0.2em] text-[#ed1c24]">

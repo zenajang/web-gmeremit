@@ -2,6 +2,7 @@
 
 import { useRouter, useSearchParams } from "next/navigation";
 import { TabType } from "@/types/board";
+import { useTranslation } from "@/hooks/useTranslation";
 
 interface BoardTabsProps {
   activeTab: TabType;
@@ -10,11 +11,12 @@ interface BoardTabsProps {
 export default function BoardTabs({ activeTab }: BoardTabsProps) {
   const router = useRouter();
   const searchParams = useSearchParams();
+  const { t } = useTranslation("board.tabs");
 
   const tabs = [
-    { id: "notice" as TabType, label: "공지사항" },
-    { id: "press" as TabType, label: "언론보도" },
-    { id: "blog" as TabType, label: "블로그" },
+    { id: "notice" as TabType, labelKey: "notice" },
+    { id: "press" as TabType, labelKey: "press" },
+    { id: "blog" as TabType, labelKey: "blog" },
   ];
 
   const handleTabClick = (tabId: TabType) => {
@@ -39,7 +41,7 @@ export default function BoardTabs({ activeTab }: BoardTabsProps) {
               : "bg-[#f5f6f7] text-gray-600 hover:bg-[#ebeced]"
           }`}
         >
-          {tab.label}
+          {t(tab.labelKey)}
         </button>
       ))}
     </div>

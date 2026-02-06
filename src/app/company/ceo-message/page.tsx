@@ -6,8 +6,11 @@ import CompanyTabs from "@/components/CompanyTabs";
 import Image from "next/image";
 import { useEffect } from "react";
 import Lenis from "lenis";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export default function CEOPage() {
+  const { t } = useTranslation("company.ceo_message");
+
   // Lenis 부드러운 스크롤
   useEffect(() => {
     const lenis = new Lenis({
@@ -42,7 +45,7 @@ export default function CEOPage() {
           <div className="absolute inset-x-0 top-[53%] bottom-0 bg-[#f5f6f7]"></div>
 
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          
+
 
             {/* Navigation Tabs */}
             <CompanyTabs activeTab="ceo-message" />
@@ -99,15 +102,11 @@ export default function CEOPage() {
                     </blockquote>
                   </div>
 
-                  {/* Korean Content Section */}
+                  {/* Translated Content Section */}
                   <div className="pt-12 mt-20">
                     <div className="text-lg lg:text-2xl space-y-8 text-[#666] leading-relaxed font-light">
-                      <p>
-                        한국을 대표하는 핀테크 기업으로서, 저희는 <span className="text-[#191c1f] font-semibold">최첨단 기술</span>과 <span className="text-[#191c1f] font-semibold">인재</span>에 투자하며 <span className="text-[#191c1f] font-semibold">상호 성장</span>과 <span className="text-[#191c1f] font-semibold">고객 성공</span>을 위해 노력하고 있습니다.
-                      </p>
-                      <p>
-                        글로벌 금융 서비스의 미래를 만들어가는 GME와 함께, 더욱 편리하고 혁신적인 서비스를 경험하시기 바랍니다.
-                      </p>
+                      <p>{t("paragraph1")}</p>
+                      <p>{t("paragraph2")}</p>
                     </div>
 
                     {/* Signature */}

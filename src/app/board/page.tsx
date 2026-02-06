@@ -12,6 +12,7 @@ import Pagination from "@/components/board/Pagination";
 import { BoardEntry, TabType } from "@/types/board";
 import Lenis from "lenis";
 import { createClient } from "@/lib/supabase/client";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export const dynamic = 'force-dynamic';
 
@@ -20,6 +21,7 @@ const ITEMS_PER_PAGE = 10;
 export default function BoardPage() {
   const searchParams = useSearchParams();
   const supabase = createClient();
+  const { t } = useTranslation("board");
 
   const [entries, setEntries] = useState<BoardEntry[]>([]);
   const [loading, setLoading] = useState(true);
@@ -121,16 +123,7 @@ export default function BoardPage() {
 
   // Get title based on active tab
   const getPageTitle = () => {
-    switch (activeTab) {
-      case "notice":
-        return "공지사항";
-      case "press":
-        return "언론보도";
-      case "blog":
-        return "블로그";
-      default:
-        return "공지사항";
-    }
+    return t(`tabs.${activeTab}`);
   };
 
   return (
@@ -145,7 +138,7 @@ export default function BoardPage() {
               <div className="absolute -top-4 left-0 w-4 h-4 bg-gradient-to-br from-[#ed1c24] to-[#ed1c24]/60 rounded-sm" />
 
               <p className="text-xs font-semibold text-[#ed1c24] tracking-[0.2em] mb-3 uppercase relative z-10">
-                GME Remit의 새로운 소식을 확인하세요
+                {t("subtitle")}
               </p>
               <h1 className="text-3xl lg:text-5xl font-bold text-[#191c1f] tracking-tight relative z-10">
                 {getPageTitle()}
@@ -166,9 +159,9 @@ export default function BoardPage() {
             <div className="flex items-center justify-between mb-6">
               {/* Total Count */}
               <div className="flex items-center gap-2">
-                <span className="text-base font-semibold text-gray-700">총</span>
+                <span className="text-base font-semibold text-gray-700">{t("total")}</span>
                 <span className="text-base font-bold text-[#ed1c24]">
-                  {totalCount}건
+                  {totalCount}{t("count_suffix")}
                 </span>
               </div>
 
@@ -179,7 +172,7 @@ export default function BoardPage() {
             {/* Table or Grid based on tab */}
             {loading ? (
               <div className="rounded-2xl border border-[var(--border-soft)] bg-white py-16 text-center">
-                <p className="text-gray-500">불러오는 중입니다.</p>
+                <p className="text-gray-500">{t("loading")}</p>
               </div>
             ) : activeTab === "blog" ? (
               <BlogGrid entries={displayedEntries} />

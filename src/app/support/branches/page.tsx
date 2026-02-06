@@ -1,147 +1,61 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { HiLocationMarker, HiPhone, HiClock } from "react-icons/hi";
 import KakaoMap from "@/components/KakaoMap";
+import { useTranslation } from "@/hooks/useTranslation";
 
-interface Branch {
+interface BranchData {
   id: number;
-  name: string;
-  address: string;
   phone: string;
-  hours: string;
   lat: number;
   lng: number;
   image?: string;
 }
 
-const branches: Branch[] = [
-  {
-    id: 1,
-    name: "동대문 지점",
-    address: "서울특별시 종로구 종로 315 (동대문역 3번 출구)",
-    phone: "02-763-5559",
-    hours: "평일 및 주말 10:00 - 19:00",
-    lat: 37.570926,
-    lng: 127.009453,
-    image: "/images/support/Dongdaemun.png",
-  },
-  {
-    id: 2,
-    name: "안산지점",
-    address: "경기도 안산시 단원구 다문화길 6, 1층",
-    phone: "031-492-1247",
-    hours: "평일 및 주말 10:00 - 19:00",
-    lat: 37.328713,
-    lng: 126.789889,
-    image: "/images/support/Ansan.jpeg",
-  },
-  {
-    id: 3,
-    name: "몽골지점",
-    address: "서울특별시 중구 을지로44길 12, 몽골타운 3층",
-    phone: "02-2261-5540",
-    hours: "평일 및 주말 10:00 - 19:00",
-    lat: 37.565787,
-    lng: 127.006359,
-  },
-  {
-    id: 4,
-    name: "대림지점",
-    address: "서울특별시 영등포구 도림로 134, 1층",
-    phone: "02-841-8884",
-    hours: "평일 및 주말 10:00 - 19:00",
-    lat: 37.492966,
-    lng: 126.897140,
-    image: "/images/support/Daerim.png",
-  },
-  {
-    id: 5,
-    name: "이태원지점",
-    address: "서울특별시 용산구 우사단로10길 36",
-    phone: "-",
-    hours: "평일 및 주말 10:00 - 19:00",
-    lat: 37.533110,
-    lng: 126.997571,
-  },
-  {
-    id: 6,
-    name: "수원지점",
-    address: "경기도 수원시 팔달구 매산로 2-10",
-    phone: "031-207-5559",
-    hours: "평일 및 주말 10:00 - 19:00",
-    lat: 37.267979,
-    lng: 127.000513,
-    image: "/images/support/Suwon.png",
-  },
-  {
-    id: 7,
-    name: "화성지점",
-    address: "경기도 화성시 향남읍 3·1만세로 1109-3, 1층",
-    phone: "031-354-0450",
-    hours: "금 - 화 10:00 - 19:00",
-    lat: 37.132087,
-    lng: 126.908051,
-    image: "/images/support/Hwaseong.jpg",
-  },
-  {
-    id: 8,
-    name: "송우리지점",
-    address: "경기도 포천시 소흘읍 솔모루로 91 (농협은행 옆)",
-    phone: "031-541-1856",
-    hours: "토 - 수 10:00 - 19:00",
-    lat: 37.829546,
-    lng: 127.147558,
-    image: "/images/support/Songuri.png",
-  },
-  {
-    id: 9,
-    name: "부평지점",
-    address: "인천광역시 부평구 광장로 16, 부평역사쇼핑몰",
-    phone: "032-361-0875",
-    hours: "토 - 수 10:00 - 19:00",
-    lat: 37.489863,
-    lng: 126.722719,
-    image: "/images/support/Bupyeong.jpg",
-  },
-  {
-    id: 10,
-    name: "대구지점",
-    address: "대구광역시 달서구 성서로69길 64, 1층",
-    phone: "053-591-2603",
-    hours: "평일 10:00 - 18:00 주말 10:00 - 19:00",
-    lat: 35.856202,
-    lng: 128.496326,
-  },
-  {
-    id: 11,
-    name: "김해지점",
-    address: "경상남도 김해시 가락로 84 (탑마트 맞은편)",
-    phone: "055-329-5559",
-    hours: "평일 및 주말 10:00 - 19:00",
-    lat: 35.234303,
-    lng: 128.881914,
-    image: "/images/support/Gimhae.png",
-  },
-  {
-    id: 12,
-    name: "광주지점",
-    address: "광주광역시 광산구 광산로 7-2",
-    phone: "062-942-5598",
-    hours: "토 - 수 10:00 - 19:00",
-    lat: 35.137899,
-    lng: 126.793613,
-    image: "/images/support/Gwangju.png",
-  },
+interface Branch extends BranchData {
+  name: string;
+  address: string;
+  hours: string;
+}
+
+// Static data (non-translatable)
+const branchesData: BranchData[] = [
+  { id: 1, phone: "02-763-5559", lat: 37.570926, lng: 127.009453, image: "/images/support/Dongdaemun.png" },
+  { id: 2, phone: "031-492-1247", lat: 37.328713, lng: 126.789889, image: "/images/support/Ansan.jpeg" },
+  { id: 3, phone: "02-2261-5540", lat: 37.565787, lng: 127.006359 },
+  { id: 4, phone: "02-841-8884", lat: 37.492966, lng: 126.897140, image: "/images/support/Daerim.png" },
+  { id: 5, phone: "-", lat: 37.533110, lng: 126.997571 },
+  { id: 6, phone: "031-207-5559", lat: 37.267979, lng: 127.000513, image: "/images/support/Suwon.png" },
+  { id: 7, phone: "031-354-0450", lat: 37.132087, lng: 126.908051, image: "/images/support/Hwaseong.jpg" },
+  { id: 8, phone: "031-541-1856", lat: 37.829546, lng: 127.147558, image: "/images/support/Songuri.png" },
+  { id: 9, phone: "032-361-0875", lat: 37.489863, lng: 126.722719, image: "/images/support/Bupyeong.jpg" },
+  { id: 10, phone: "053-591-2603", lat: 35.856202, lng: 128.496326 },
+  { id: 11, phone: "055-329-5559", lat: 35.234303, lng: 128.881914, image: "/images/support/Gimhae.png" },
+  { id: 12, phone: "062-942-5598", lat: 35.137899, lng: 126.793613, image: "/images/support/Gwangju.png" },
 ];
 
-
 export default function BranchesPage() {
-  const [selectedBranch, setSelectedBranch] = useState<Branch>(branches[0]);
+  const { t } = useTranslation("support.branches");
+
+  // Merge static data with translated data
+  const branches: Branch[] = useMemo(() => {
+    return branchesData.map((data) => ({
+      ...data,
+      name: t(`data.${data.id}.name`),
+      address: t(`data.${data.id}.address`),
+      hours: t(`data.${data.id}.hours`),
+    }));
+  }, [t]);
+
+  const [selectedBranchId, setSelectedBranchId] = useState<number>(1);
+
+  const selectedBranch = useMemo(() => {
+    return branches.find((b) => b.id === selectedBranchId) || branches[0];
+  }, [branches, selectedBranchId]);
 
   const handleBranchSelect = (id: number) => {
-    const branch = branches.find((b) => b.id === id);
-    if (branch) setSelectedBranch(branch);
+    setSelectedBranchId(id);
   };
 
   return (
@@ -184,7 +98,7 @@ export default function BranchesPage() {
           <div className="flex items-start gap-3">
             <HiLocationMarker className="w-6 h-6 text-[#ed1c24] flex-shrink-0 mt-1" />
             <div>
-              <p className="text-sm font-semibold text-gray-700 mb-1">주소</p>
+              <p className="text-sm font-semibold text-gray-700 mb-1">{t("address")}</p>
               <p className="text-gray-600 leading-relaxed">
                 {selectedBranch.address}
               </p>
@@ -195,7 +109,7 @@ export default function BranchesPage() {
           <div className="flex items-start gap-3">
             <HiPhone className="w-6 h-6 text-[#ed1c24] flex-shrink-0 mt-1" />
             <div>
-              <p className="text-sm font-semibold text-gray-700 mb-1">전화번호</p>
+              <p className="text-sm font-semibold text-gray-700 mb-1">{t("phone")}</p>
                 {selectedBranch.phone}
             </div>
           </div>
@@ -204,7 +118,7 @@ export default function BranchesPage() {
           <div className="flex items-start gap-3">
             <HiClock className="w-6 h-6 text-[#ed1c24] flex-shrink-0 mt-1" />
             <div>
-              <p className="text-sm font-semibold text-gray-700 mb-1">영업시간</p>
+              <p className="text-sm font-semibold text-gray-700 mb-1">{t("hours")}</p>
               <p className="text-gray-600">{selectedBranch.hours}</p>
             </div>
           </div>

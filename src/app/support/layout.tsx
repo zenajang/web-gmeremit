@@ -7,6 +7,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { RiCustomerService2Fill } from "react-icons/ri";
 import Lenis from "lenis";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export default function SupportLayout({
   children,
@@ -14,6 +15,7 @@ export default function SupportLayout({
   children: React.ReactNode;
 }) {
   const pathname = usePathname();
+  const { t } = useTranslation("support");
 
   // Lenis 부드러운 스크롤
   useEffect(() => {
@@ -40,8 +42,8 @@ export default function SupportLayout({
   }, [pathname]);
 
   const tabs = [
-    { key: "branches", label: "지점안내", href: "/support/branches" },
-    { key: "social-channels", label: "소셜채널", href: "/support/social-channels" },
+    { key: "branches", labelKey: "tabs.branches", href: "/support/branches" },
+    { key: "social-channels", labelKey: "tabs.social_channels", href: "/support/social-channels" },
   ];
 
   return (
@@ -99,7 +101,7 @@ export default function SupportLayout({
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
             <div className="relative inline-block">
               <h1 className="text-3xl lg:text-5xl font-bold text-[#191c1f] mb-8 lg:mb-10">
-                언제나 가까운 곳에서 만나는 GME
+                {t("hero.title")}
               </h1>
               {/* 핀 장식 - 타이틀 오른쪽 상단 */}
               <img
@@ -119,13 +121,13 @@ export default function SupportLayout({
             </div>
             <div className="space-y-2 mb-16 lg:mb-20">
               <p className="text-base lg:text-lg text-gray-700">
-                전국 주요 지점과 글로벌 소셜채널을 통해
+                {t("hero.desc1")}
               </p>
               <p className="text-base lg:text-lg text-gray-700">
-                언제든 편리하게 상담하고 문의하실 수 있습니다.
+                {t("hero.desc2")}
               </p>
               <p className="text-base lg:text-lg text-gray-700">
-                가까운 지점을 찾아보시고, 소셜채널로 소통하세요.
+                {t("hero.desc3")}
               </p>
             </div>
 
@@ -138,9 +140,9 @@ export default function SupportLayout({
                     <path d="M4 21V10L12 3L20 10V21H14V14H10V21H4M12 1L2 9V21H8V14H16V21H22V9L12 1Z" />
                   </svg>
                 </div>
-                <p className="text-sm text-gray-600 mb-2">지점</p>
+                <p className="text-sm text-gray-600 mb-2">{t("stats.branches_label")}</p>
                 <p className="text-4xl lg:text-5xl font-bold text-[#191c1f]">
-                  12<span className="text-2xl lg:text-3xl ml-1">개</span>
+                  {t("stats.branches_value")}<span className="text-2xl lg:text-3xl ml-1">{t("stats.branches_unit")}</span>
                 </p>
               </div>
 
@@ -149,22 +151,22 @@ export default function SupportLayout({
                 <div className="w-16 h-16 mb-4 flex items-center justify-center">
                   <RiCustomerService2Fill className="w-full h-full text-[#ed1c24]" />
                 </div>
-                <p className="text-sm text-gray-600 mb-2">서비스 제공 국가</p>
+                <p className="text-sm text-gray-600 mb-2">{t("stats.countries_label")}</p>
                 <p className="text-4xl lg:text-5xl font-bold text-[#191c1f]">
-                  38<span className="text-2xl lg:text-3xl ml-1">개국</span>
+                  {t("stats.countries_value")}<span className="text-2xl lg:text-3xl ml-1">{t("stats.countries_unit")}</span>
                 </p>
               </div>
 
-              {/* 해외 지사 */}
+              {/* 제공 서비스 */}
               <div className="flex flex-col items-center">
                 <div className="w-16 h-16 mb-4 flex items-center justify-center">
                   <svg className="w-full h-full text-[#ed1c24]" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M13 3V9H21V3M13 21H21V11H13M3 21H11V15H3M3 13H11V3H3V13Z" />
                   </svg>
                 </div>
-                <p className="text-sm text-gray-600 mb-2">제공 서비스</p>
+                <p className="text-sm text-gray-600 mb-2">{t("stats.services_label")}</p>
                 <p className="text-4xl lg:text-5xl font-bold text-[#191c1f]">
-                  8<span className="text-2xl lg:text-3xl ml-1">개+</span>
+                  {t("stats.services_value")}<span className="text-2xl lg:text-3xl ml-1">{t("stats.services_unit")}</span>
                 </p>
               </div>
             </div>
@@ -187,7 +189,7 @@ export default function SupportLayout({
                         : "bg-white text-gray-600 hover:bg-gray-50 border border-gray-200"
                     }`}
                   >
-                    {tab.label}
+                    {t(tab.labelKey)}
                   </Link>
                 ))}
               </div>

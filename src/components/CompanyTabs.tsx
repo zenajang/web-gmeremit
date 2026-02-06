@@ -1,14 +1,19 @@
+"use client";
+
 import Link from "next/link";
+import { useTranslation } from "@/hooks/useTranslation";
 
 interface CompanyTabsProps {
   activeTab: "ceo-message" | "history" | "services";
 }
 
 export default function CompanyTabs({ activeTab }: CompanyTabsProps) {
+  const { t } = useTranslation("company.tabs");
+
   const tabs = [
-    { id: "ceo-message", label: "대표 인사말", href: "/company/ceo-message" },
-    { id: "history", label: "연혁", href: "/company/history" },
-    { id: "services", label: "서비스", href: "/company/services" },
+    { id: "ceo-message", labelKey: "ceo_message", href: "/company/ceo-message" },
+    { id: "history", labelKey: "history", href: "/company/history" },
+    { id: "services", labelKey: "services", href: "/company/services" },
   ];
 
   return (
@@ -22,7 +27,7 @@ export default function CompanyTabs({ activeTab }: CompanyTabsProps) {
           About Us
         </p>
         <h2 className="text-3xl lg:text-5xl font-bold text-[#191c1f] tracking-tight relative z-10">
-          회사 소개
+          {t("title")}
         </h2>
       </div>
       <div className="flex gap-2 border-b border-gray-200">
@@ -36,7 +41,7 @@ export default function CompanyTabs({ activeTab }: CompanyTabsProps) {
                 : "text-[#888] hover:text-[#191c1f] border-transparent hover:border-gray-300"
             }`}
           >
-            {tab.label}
+            {t(tab.labelKey)}
           </Link>
         ))}
       </div>

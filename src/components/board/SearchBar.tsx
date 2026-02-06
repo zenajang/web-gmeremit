@@ -1,12 +1,14 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslation } from "@/hooks/useTranslation";
 
 interface SearchBarProps {
   onSearch: (query: string, searchType: string) => void;
 }
 
 export default function SearchBar({ onSearch }: SearchBarProps) {
+  const { t } = useTranslation("board.search");
   const [searchType, setSearchType] = useState("title");
   const [query, setQuery] = useState("");
 
@@ -34,9 +36,9 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
         }}
         className="pl-5 pr-16 py-3 border border-[var(--border-soft)] rounded bg-white text-base text-gray-700 focus:outline-none focus:border-gray-300 appearance-none"
       >
-        <option value="title">제목</option>
-        <option value="content">내용</option>
-        <option value="all">전체</option>
+        <option value="title">{t("title")}</option>
+        <option value="content">{t("content")}</option>
+        <option value="all">{t("all")}</option>
       </select>
 
       {/* Search Input */}
@@ -45,7 +47,7 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         onKeyDown={handleKeyDown}
-        placeholder="검색어를 입력해 주세요."
+        placeholder={t("placeholder")}
         className="px-5 py-3 border border-[var(--border-soft)] rounded bg-white text-base text-gray-700 focus:outline-none focus:border-gray-300"
         style={{ width: "280px" }}
       />
@@ -55,7 +57,7 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
         onClick={handleSearch}
         className="px-6 py-3 bg-[#555] text-white text-base font-medium rounded hover:bg-[#333] transition-colors cursor-pointer"
       >
-        검색
+        {t("button")}
       </button>
     </div>
   );

@@ -78,7 +78,7 @@ export default function AdminDashboardPage() {
           <p className="text-gray-600">총 {entries.length}개의 게시글</p>
         </div>
         <Link
-          href="/admin/board/create"
+          href="/gme-backoffice/board/create"
           className="flex items-center gap-2 px-6 py-3 bg-[#ed1c24] text-white font-semibold rounded-lg hover:bg-[#d91920] transition-colors"
         >
           <HiPlus className="w-5 h-5" />
@@ -92,7 +92,7 @@ export default function AdminDashboardPage() {
           <button
             key={tab}
             onClick={() => setFilter(tab)}
-            className={`px-4 py-2 rounded-lg font-medium transition-colors ${
+            className={`px-4 py-2 rounded-lg font-medium transition-colors cursor-pointer ${
               filter === tab
                 ? 'bg-[#ed1c24] text-white'
                 : 'bg-white text-gray-600 hover:bg-gray-50 border border-gray-200'
@@ -149,7 +149,7 @@ export default function AdminDashboardPage() {
                         <HiEye className="w-5 h-5" />
                       </Link>
                       <Link
-                        href={`/admin/board/edit/${entry.id}`}
+                        href={`/gme-backoffice/board/edit/${entry.id}`}
                         className="p-2 text-gray-600 hover:text-green-600 transition-colors"
                         title="수정"
                       >

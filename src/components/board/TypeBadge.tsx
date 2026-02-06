@@ -1,22 +1,14 @@
+"use client";
+
 import { BoardEntryType } from "@/types/board";
+import { useTranslation } from "@/hooks/useTranslation";
 
 interface TypeBadgeProps {
   type: BoardEntryType;
 }
 
 export default function TypeBadge({ type }: TypeBadgeProps) {
-  const getTypeLabel = () => {
-    switch (type) {
-      case "notice":
-        return "공지";
-      case "press":
-        return "언론보도";
-      case "blog":
-        return "블로그";
-      default:
-        return "";
-    }
-  };
+  const { t } = useTranslation("board.badge");
 
   const getTypeColor = () => {
     switch (type) {
@@ -33,7 +25,7 @@ export default function TypeBadge({ type }: TypeBadgeProps) {
 
   return (
     <span className={`text-base font-medium ${getTypeColor()}`}>
-      {getTypeLabel()}
+      {t(type)}
     </span>
   );
 }

@@ -1,15 +1,20 @@
+"use client";
+
 import Link from "next/link";
 import { BoardEntry } from "@/types/board";
+import { useTranslation } from "@/hooks/useTranslation";
 
 interface BlogGridProps {
   entries: BoardEntry[];
 }
 
 export default function BlogGrid({ entries }: BlogGridProps) {
+  const { t } = useTranslation("board");
+
   if (entries.length === 0) {
     return (
       <div className="rounded-2xl border border-[var(--border-soft)] bg-white py-16 text-center">
-        <p className="text-gray-500">검색 결과가 없습니다.</p>
+        <p className="text-gray-500">{t("no_results")}</p>
       </div>
     );
   }
@@ -32,7 +37,7 @@ export default function BlogGrid({ entries }: BlogGridProps) {
               />
             ) : (
               <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200">
-                <span className="text-gray-400 text-sm">No Image</span>
+                <span className="text-gray-400 text-sm">{t("no_image")}</span>
               </div>
             )}
           </div>

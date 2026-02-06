@@ -1,0 +1,567 @@
+{
+  "home": {
+    "hero": {
+      "badge": "우수한 해외송금",
+      "title1": "빠르고 안전한",
+      "title2": "해외송금 서비스",
+      "description1": "200개국 어디든, 국내 모든 은행으로 실시간 송금.",
+      "description2": "70개 글로벌 파트너와 E-KYC 인증으로 안전하게.",
+      "button": {
+        "learn_more": "서비스 알아보기"
+      },
+      "rating": "App Store · Google Play 평균",
+      "countries": {
+        "title": "송금 가능 국가",
+        "subtitle": "200개국 이상 지원",
+        "realtime": "실시간",
+        "more": "더보기",
+        "view_all": "전체 국가 보기"
+      },
+      "stats": {
+        "total_amount": "누적 송금액",
+        "trillion": "조원+",
+        "avg_time": "평균 송금 시간",
+        "seconds": "초"
+      }
+    },
+    "services": {
+      "title1": "저희 GME의",
+      "title2": "다양한 서비스를 만나보세요.",
+      "payments": {
+        "title": "글로벌 페이먼츠",
+        "desc1": "대량 지급, 정산, 파트너 송금까지.",
+        "desc2": "기업 지급 흐름을 빠르고 안전하게."
+      },
+      "remittance": {
+        "title": "해외송금",
+        "desc1": "200개국 이상으로 빠르고",
+        "desc2": "안전하게 송금하세요."
+      },
+      "loan": {
+        "title": "온라인 대출",
+        "desc1": "빠른 심사와 유연한 조건의",
+        "desc2": "디지털 대출 서비스",
+        "estimated_limit": "예상 한도"
+      },
+      "card": {
+        "title": "GME 카드",
+        "desc1": "송금과 소비를 연결하는 스마트한 카드.",
+        "desc2": "글로벌 결제의 새로운 기준."
+      }
+    },
+    "app_download": {
+      "chips": ["실시간 환율", "최적화된 금액", "안전한 인증"],
+      "subtitle": "GME REMIT APP",
+      "title1": "송금은 더 빠르게,",
+      "title2": "관리는 더 똑똑하게",
+      "description": "쉽고 안전한 보안으로 최적화된 금액으로 빠른 송금까지 GME Remit 앱 하나로 안전하고 간편하게 관리하세요.",
+      "qr_scan": "QR 코드를 스캔하세요"
+    },
+    "exchange": {
+      "title1": "지금 바로",
+      "title2": "환율을 확인하세요",
+      "description1": "200개국 이상 실시간 환율 조회.",
+      "description2": "수수료 확인을 투명하게.",
+      "stats": {
+        "countries": "200+",
+        "countries_label": "송금 가능 국가",
+        "service": "24/7",
+        "service_label": "실시간 서비스"
+      },
+      "calculator": {
+        "title": "실시간 환율 계산기",
+        "realtime": "실시간",
+        "send_amount": "보내는 금액",
+        "receive_country": "받는 국가",
+        "receive_amount": "받는 금액"
+      }
+    },
+    "global_payments": {
+      "title": "글로벌 페이먼츠",
+      "description": "급여 송금, 파트너 정산, 이커머스 결제까지. 비용 절감과 효율적인 기업 결제 솔루션을 제공합니다.",
+      "button": {
+        "detail": "Payments 자세히 보기"
+      },
+      "card": {
+        "title": "Payment Solutions",
+        "subtitle": "기업 맞춤 솔루션",
+        "status": "운영중"
+      },
+      "stats": {
+        "cost_saving": "비용 절감",
+        "cost_saving_value": "최대 70%",
+        "cost_saving_change": "vs 기존",
+        "partners": "파트너사",
+        "partners_value": "200+",
+        "partners_change": "글로벌",
+        "success_rate": "처리 성공률",
+        "success_rate_value": "99.8%",
+        "success_rate_change": "정상"
+      },
+      "transactions": {
+        "title": "최근 처리 내역",
+        "b2b": "B2B 대량 송금",
+        "partner": "파트너사 정산",
+        "merchant": "가맹점 결제",
+        "just_now": "방금 전",
+        "mins_ago": "분 전",
+        "completed": "완료",
+        "processing": "처리중"
+      },
+      "features": {
+        "sps": "SPS",
+        "sps_desc": "B2B 결제 솔루션",
+        "vas": "VAS",
+        "vas_desc": "알림·리포트·대시보드",
+        "smb": "SMB",
+        "smb_desc": "이커머스 솔루션"
+      }
+    },
+    "remittance": {
+      "title": "해외송금",
+      "description": "200개국 이상으로 빠르고 안전하게 송금하세요.",
+      "button": {
+        "detail": "송금 서비스 알아보기"
+      },
+      "features": {
+        "optimized": {
+          "title": "최적화된 금액",
+          "sub": "90% 절감",
+          "desc": "은행보다 90% 저렴한 수수료와 환전금액",
+          "back_title": "압도적 비용 절감",
+          "back_desc": "은행 대비 최대 90% 저렴한 수수료. 실시간 환율로 더 많이 보내세요."
+        },
+        "security": {
+          "title": "쉽고 안전한",
+          "sub": "보안 인증",
+          "desc": "튼튼한 보안으로 안심하고 이용하세요",
+          "back_title": "철저한 보안",
+          "back_desc": "E-KYC 인증과 금융위원회 등록 서비스로 안전하게 송금하세요."
+        },
+        "global": {
+          "title": "200개국 이상",
+          "sub": "100만+ 이용",
+          "desc": "전세계 백만명 이상이 GME와 함께합니다",
+          "back_title": "글로벌 네트워크",
+          "back_desc": "200개국 이상, 70개 글로벌 파트너와 함께 전세계로 송금하세요."
+        },
+        "fast": {
+          "title": "빠른 송금",
+          "sub": "몇 번의 클릭",
+          "desc": "몇 번의 클릭만으로 해외송금 완료",
+          "back_title": "간편한 송금",
+          "back_desc": "복잡한 절차 없이 몇 번의 터치만으로 전세계 어디든 송금 완료."
+        }
+      }
+    },
+    "loan": {
+      "title": "온라인 대출",
+      "description": "GME 앱에서 몇 분 만에 대출 신청. 실시간 처리 현황과 잔액을 언제 어디서든 확인하세요.",
+      "button": {
+        "detail": "대출 서비스 알아보기",
+        "apply": "GME 앱에서 대출 신청"
+      },
+      "card": {
+        "title": "GME Finance",
+        "subtitle": "외국인 전용 대출",
+        "quick_apply": "간편 신청"
+      },
+      "stats": {
+        "title": "누적 대출 실적",
+        "value": "₩5,000억+",
+        "desc": "100만+ 성공 대출 · 14개국 서비스"
+      },
+      "features": {
+        "countries": { "label": "14개국+", "desc": "서비스" },
+        "success": { "label": "100만+", "desc": "대출 성공" },
+        "support": { "label": "24/7", "desc": "고객 지원" },
+        "realtime": { "label": "실시간", "desc": "진행 확인" },
+        "simple": { "label": "간편", "desc": "앱 신청" }
+      }
+    },
+    "cards": {
+      "black": {
+        "desc": "해외 결제에 특화된 프리미엄 카드. 해외 어디서든 최고의 캐시백 혜택을 누리세요.",
+        "highlights": ["해외 결제 3% 캐시백", "국내 결제 0.3% 캐시백", "특별 이벤트 할인 혜택", "지하철·버스·택시 간편 결제"],
+        "cta": "The Black 카드 보기"
+      },
+      "white": {
+        "desc": "심플하고 깔끔한 디자인의 일상 카드. 국내 결제와 대중교통을 편리하게.",
+        "highlights": ["국내 결제 0.3% 캐시백", "특별 이벤트 할인 혜택", "지하철·버스·택시 간편 결제"],
+        "cta": "The White 카드 보기"
+      },
+      "red": {
+        "desc": "GME의 시그니처 컬러를 담은 카드. 일상의 모든 결제를 스타일리시하게.",
+        "highlights": ["국내 결제 0.3% 캐시백", "특별 이벤트 할인 혜택", "지하철·버스·택시 간편 결제"],
+        "cta": "The Red 카드 보기"
+      },
+      "uniq": {
+        "desc": "18개국의 30가지 이상 디자인 중 나만의 카드를 선택하세요.",
+        "highlights": ["국내 결제 0.3% 캐시백", "특별 이벤트 할인 혜택", "18개국 30+ 디자인", "지하철·버스·택시 간편 결제"],
+        "cta": "The Uniq 카드 보기"
+      },
+      "image_alt": "카드 이미지"
+    },
+    "testimonials": {
+      "title": "고객의 말",
+      "subtitle": "실제 이용 고객의 경험을 전합니다.",
+      "tags": {
+        "easy_tracking": "간편 송금 및 추적",
+        "satisfied": "서비스 만족",
+        "fast_process": "빠른 처리"
+      }
+    }
+  },
+  "company": {
+    "tabs": {
+      "title": "회사 소개",
+      "ceo_message": "대표 인사말",
+      "history": "연혁",
+      "services": "서비스"
+    },
+    "ceo_message": {
+      "paragraph1": "한국을 대표하는 핀테크 기업으로서, 저희는 최첨단 기술과 인재에 투자하며 상호 성장과 고객 성공을 위해 노력하고 있습니다.",
+      "paragraph2": "글로벌 금융 서비스의 미래를 만들어가는 GME와 함께, 더욱 편리하고 혁신적인 서비스를 경험하시기 바랍니다."
+    },
+    "services": {
+      "subtitle": "글로벌 금융의 모든 것을 한 곳에서",
+      "title": "GME 서비스",
+      "core_services": "핵심 서비스",
+      "related_services": "관련 서비스",
+      "learn_more": "자세히 보기",
+      "b2b_payments": {
+        "title": "B2B 결제",
+        "desc": "빠르고 저렴한 해외 지급 및 수금 서비스"
+      },
+      "personal_remittance": {
+        "title": "개인 송금",
+        "desc": "다국어 지원으로 국내외 어디든 송금"
+      },
+      "easy_loan": {
+        "title": "간편 대출",
+        "desc": "100% 비대면, 당일 승인 대출 서비스"
+      },
+      "gme_card": {
+        "title": "GME 카드",
+        "desc": "전 세계에서 결제, 출금, 자금 관리"
+      },
+      "digital_wallet": {
+        "title": "디지털 지갑",
+        "desc": "입금, 송금, 결제를 한 곳에서 간편하게"
+      },
+      "money_exchange": {
+        "title": "환전",
+        "desc": "은행보다 유리한 환율로 환전"
+      },
+      "mobile_topup": {
+        "title": "모바일 충전",
+        "desc": "150개국 이상 즉시 모바일 충전"
+      },
+      "gift_coupons": {
+        "title": "기프트 쿠폰",
+        "desc": "적립 포인트로 디지털 기프트 쿠폰 발송"
+      }
+    },
+    "history": {
+      "title_line1": "끊임없는 도전,",
+      "title_line2": "새로운 시작",
+      "events": {
+        "2025_03": "외국인 전용 보험상품 출시",
+        "2025_06": "체크카드 출시(교통카드 기능 탑재)",
+        "2025_12": "해외송금 누적액 3.5조원 달성",
+        "2024_03": "LG U+와 제휴하여 GME Mobile(MVNO) 서비스 출시",
+        "2024_06": "해외 법인 대상 결제 서비스 'GMEBiz' 출시",
+        "2024_12": "해외송금 누적액 2.8조원 달성",
+        "2023_02": "해외송금 누적액 2.1조원 달성",
+        "2023_05": "BC카드 및 Master Card와 제휴하여 GME 카드 서비스 출시",
+        "2023_09": "GME Mobile(MVNO) 서비스 인가 획득",
+        "2023_10": "Forbes지 선정 2023 대한민국 핀테크 10위",
+        "2023_nice": "Nice평가정보 기술평가 우수기업 인증",
+        "2023_kibo": "기술보증기금 KIBO-Star 밸리 기업 선정",
+        "2022_03": "외국환업무 인가 취득",
+        "2022_06": "결제 사업 개시",
+        "2022_11": "해외송금 누적액 2조원 달성",
+        "2021_04": "해외송금 누적액 1.9조원 달성",
+        "2021_07": "Mobile Coupon 서비스 출시",
+        "2021_10": "'한경 핀테크 대상-테크 분야' 최우수상 수상",
+        "2021_12": "PG(전자결제) 라이센스 취득 및 전자결제업 인가 획득",
+        "2020_02": "해외송금 누적액 1조원 달성",
+        "2020_05": "Mobile Top-up 서비스 출시",
+        "2020_08": "선불 전자지급결제업 인가 획득 및 선불 전자결제 라이선스 취득",
+        "2019_03": "국내 송금 서비스 출시",
+        "2019_06": "전국 12개 지점 개설",
+        "2019_09": "전국 3개 센터 개설",
+        "2018_04": "해외송금 누적액 540억 달성",
+        "2018_09": "서울시 추천 송금업체 선정",
+        "2018_loan": "외국인 신용대출 개시",
+        "2017_03": "최초 온라인 서비스 출시",
+        "2017_06": "국내 최초 서비스 제공업체",
+        "2017_08": "국내 최초 송금업 인가 취득 및 소액해외송금업 등록",
+        "2016_08": "(주)글로벌머니익스프레스 설립"
+      }
+    }
+  },
+  "careers": {
+    "header": {
+      "title": "GME와 함께 성장하세요",
+      "description": "200개국 고객에게 금융 서비스를 제공하는 글로벌 핀테크 기업에서 함께할 동료를 찾습니다.",
+      "button": "채용 공고 보기"
+    },
+    "why_gme": {
+      "title": "GME가 특별한 이유",
+      "diversity": {
+        "title": "다양성 존중",
+        "description": "14개국 이상의 다양한 국적 동료들과 함께 일하며, 서로 다른 관점에서 배웁니다."
+      },
+      "agile": {
+        "title": "빠른 의사결정",
+        "description": "수평적인 조직문화에서 빠르게 실행하고, 실패에서 배우며 성장합니다."
+      },
+      "fairness": {
+        "title": "공정한 기회",
+        "description": "성별, 국적에 관계없이 능력과 성과에 따라 공정하게 평가받습니다."
+      }
+    },
+    "benefits": {
+      "title": "복지 제도",
+      "subtitle": "GME 구성원의 성장과 행복을 지원합니다",
+      "education": {
+        "title": "교육 및 성장 지원",
+        "description": "직무 관련 온라인 강의, 자격증 취득, 원어민 어학 수업, 컨퍼런스 참가비 등 자기계발에 필요한 비용을 전액 지원합니다."
+      },
+      "incentive": {
+        "title": "성과 인센티브",
+        "description": "월간/연간 목표 달성, 신규 아이디어 채택, 우수 사원 시상 등 다양한 성과 기반 인센티브와 포상 제도를 운영합니다."
+      },
+      "team_building": {
+        "title": "팀 빌딩 & 문화",
+        "description": "월간 타운홀 미팅, 분기별 팀 단합 행사, 풋살/자전거 동호회, 힐링 콘서트 등 함께 성장하는 문화를 만들어갑니다."
+      },
+      "health": {
+        "title": "건강검진 지원",
+        "description": "정직원 대상 연 30만원 건강검진 비용을 지원하며, 구성원의 건강한 삶을 응원합니다."
+      },
+      "vacation": {
+        "title": "연차 및 특별휴가",
+        "description": "법정 연차 외에도 생일휴가, 기념일휴가, 경조휴가, 육아휴직 등 다양한 특별휴가 제도를 운영합니다."
+      }
+    },
+    "testimonials": {
+      "title": "구성원 이야기",
+      "subtitle": "함께 일하는 동료들의 생생한 이야기"
+    },
+    "cta": {
+      "title": "GME와 함께할 준비가 되셨나요?",
+      "subtitle": "현재 채용 중인 포지션을 확인하고 지원해보세요.",
+      "openings": "채용 공고 보기",
+      "about": "회사 소개 보기"
+    }
+  },
+  "header": {
+    "link": {
+      "careers": "채용",
+      "gme_biz": "GME Biz"
+    },
+    "nav": {
+      "company": "회사소개",
+      "ceo_message": "CEO 인사말",
+      "history": "연혁",
+      "services": "사업소개",
+      "services_menu": "서비스",
+      "remittance": "GME 앱 송금",
+      "card": "GME 카드",
+      "loan": "GME 대출",
+      "payments": "GME 페이먼츠 (B2B)",
+      "news": "소식",
+      "notice": "공지사항",
+      "press": "뉴스 / 보도자료",
+      "blog": "블로그",
+      "support": "고객지원",
+      "branches": "지점 안내",
+      "social_channels": "소셜 채널"
+    }
+  },
+  "footer": {
+    "company_name": "글로벌머니익스프레스",
+    "link": {
+      "company_intro": "회사소개",
+      "terms": "이용약관",
+      "privacy": "개인정보처리방침"
+    },
+    "info": {
+      "address": "주소 : 서울시 영등포구 영등포로150 생각공장당산 B동 901~911호",
+      "fax": "팩스 : (+82) 2 3674 5559",
+      "email_corporate": "Corporate: corporate@gmeremit.com",
+      "email_support": "Queries: support@gmeremit.com",
+      "phone_foreigner": "(+82) 02-1588-6864 (Foreigner)",
+      "phone_korean": "02-1811-2961 (Korean, 송금 서비스 관련 문의)",
+      "phone_general": "02-3673-5559 (송금 서비스 외 회사 문의)"
+    },
+    "copyright": "© 글로벌머니익스프레스, All rights reserved."
+  },
+  "button": {
+    "app_download": "앱 다운로드"
+  },
+  "board": {
+    "subtitle": "GME Remit의 새로운 소식을 확인하세요",
+    "tabs": {
+      "notice": "공지사항",
+      "press": "언론보도",
+      "blog": "블로그"
+    },
+    "badge": {
+      "notice": "공지",
+      "press": "언론보도",
+      "blog": "블로그"
+    },
+    "table": {
+      "type": "구분",
+      "title": "제목",
+      "attachment": "첨부",
+      "date": "등록일",
+      "attachment_file": "첨부파일"
+    },
+    "search": {
+      "title": "제목",
+      "content": "내용",
+      "all": "전체",
+      "placeholder": "검색어를 입력해 주세요.",
+      "button": "검색"
+    },
+    "total": "총",
+    "count_suffix": "건",
+    "loading": "불러오는 중입니다.",
+    "no_results": "검색 결과가 없습니다.",
+    "no_image": "No Image",
+    "load_more": "더보기",
+    "redirect": {
+      "notice": "공지사항 페이지로 이동 중...",
+      "press": "언론보도 페이지로 이동 중..."
+    },
+    "detail": {
+      "back": "목록으로",
+      "back_to_list": "목록으로 돌아가기",
+      "not_found": "게시글을 찾을 수 없습니다",
+      "attachment": "첨부파일",
+      "attachment_file": "첨부파일"
+    },
+    "loading_spinner": "로딩중..."
+  },
+  "support": {
+    "hero": {
+      "title": "언제나 가까운 곳에서 만나는 GME",
+      "desc1": "전국 주요 지점과 글로벌 소셜채널을 통해",
+      "desc2": "언제든 편리하게 상담하고 문의하실 수 있습니다.",
+      "desc3": "가까운 지점을 찾아보시고, 소셜채널로 소통하세요."
+    },
+    "stats": {
+      "branches_label": "지점",
+      "branches_value": "12",
+      "branches_unit": "개",
+      "countries_label": "서비스 제공 국가",
+      "countries_value": "38",
+      "countries_unit": "개국",
+      "services_label": "제공 서비스",
+      "services_value": "8",
+      "services_unit": "개+"
+    },
+    "tabs": {
+      "branches": "지점안내",
+      "social_channels": "소셜채널"
+    },
+    "branches": {
+      "address": "주소",
+      "phone": "전화번호",
+      "hours": "영업시간",
+      "data": {
+        "1": {
+          "name": "동대문 지점",
+          "address": "서울특별시 종로구 종로 315 (동대문역 3번 출구)",
+          "hours": "평일 및 주말 10:00 - 19:00"
+        },
+        "2": {
+          "name": "안산지점",
+          "address": "경기도 안산시 단원구 다문화길 6, 1층",
+          "hours": "평일 및 주말 10:00 - 19:00"
+        },
+        "3": {
+          "name": "몽골지점",
+          "address": "서울특별시 중구 을지로44길 12, 몽골타운 3층",
+          "hours": "평일 및 주말 10:00 - 19:00"
+        },
+        "4": {
+          "name": "대림지점",
+          "address": "서울특별시 영등포구 도림로 134, 1층",
+          "hours": "평일 및 주말 10:00 - 19:00"
+        },
+        "5": {
+          "name": "이태원지점",
+          "address": "서울특별시 용산구 우사단로10길 36",
+          "hours": "평일 및 주말 10:00 - 19:00"
+        },
+        "6": {
+          "name": "수원지점",
+          "address": "경기도 수원시 팔달구 매산로 2-10",
+          "hours": "평일 및 주말 10:00 - 19:00"
+        },
+        "7": {
+          "name": "화성지점",
+          "address": "경기도 화성시 향남읍 3·1만세로 1109-3, 1층",
+          "hours": "금 - 화 10:00 - 19:00"
+        },
+        "8": {
+          "name": "송우리지점",
+          "address": "경기도 포천시 소흘읍 솔모루로 91 (농협은행 옆)",
+          "hours": "토 - 수 10:00 - 19:00"
+        },
+        "9": {
+          "name": "부평지점",
+          "address": "인천광역시 부평구 광장로 16, 부평역사쇼핑몰",
+          "hours": "토 - 수 10:00 - 19:00"
+        },
+        "10": {
+          "name": "대구지점",
+          "address": "대구광역시 달서구 성서로69길 64, 1층",
+          "hours": "평일 10:00 - 18:00 주말 10:00 - 19:00"
+        },
+        "11": {
+          "name": "김해지점",
+          "address": "경상남도 김해시 가락로 84 (탑마트 맞은편)",
+          "hours": "평일 및 주말 10:00 - 19:00"
+        },
+        "12": {
+          "name": "광주지점",
+          "address": "광주광역시 광산구 광산로 7-2",
+          "hours": "토 - 수 10:00 - 19:00"
+        }
+      }
+    },
+    "social_channels": {
+      "title": "글로벌 소셜 채널",
+      "description": "각 국가별 공식 채널에서 GME의 다양한 소식을 만나보세요",
+      "countries_count": "38개국",
+      "operating": "운영 중",
+      "contact": "연락처",
+      "countries": {
+        "korea": "한국",
+        "indonesia": "인도네시아",
+        "mongolia": "몽골",
+        "cambodia": "캄보디아",
+        "bangladesh": "방글라데시",
+        "thailand": "태국",
+        "pakistan": "파키스탄",
+        "china": "중국",
+        "japan": "일본",
+        "nepal": "네팔",
+        "srilanka": "스리랑카",
+        "philippines": "필리핀",
+        "india": "인도",
+        "myanmar": "미얀마",
+        "vietnam": "베트남",
+        "uzbekistan-cis": "우즈베키스탄 & CIS",
+        "african-region": "아프리카 지역",
+        "western": "영미권"
+      }
+    }
+  }
+}
