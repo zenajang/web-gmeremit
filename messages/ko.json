@@ -399,6 +399,132 @@
     },
     "copyright": "© 글로벌머니익스프레스, All rights reserved."
   },
+  "business": {
+    "hero": {
+      "badge": "기업 송금 비용, 확 줄이세요",
+      "title1": "비즈니스와 셀러를 위한",
+      "title2": "글로벌 결제 파트너",
+      "description": "해외 송금부터 파트너 정산까지, 복잡한 기업 결제를 하나로. GME가 비용은 낮추고 속도는 높여드립니다.",
+      "cta_docs": "API 문서 보기"
+    },
+    "solutions": {
+      "label": "핵심 솔루션",
+      "title": "우리 비즈니스에 딱 맞는 결제 솔루션",
+      "description": "SPS와 VAS, 두 가지 솔루션으로 해외 결제의 모든 것을 해결합니다.",
+      "sps": {
+        "title": "SPS",
+        "subtitle": "Seamless Payment Solution",
+        "description": "24시간 대량 해외 지급에 특화된 결제 솔루션. 환율 관리부터 수취인 검증까지 한 번에 처리하세요.",
+        "features": ["24시간 즉시 지급", "환율 직접 관리", "대량 일괄 송금", "실시간 거래 추적", "즉시 입금 처리", "수취인 실시간 검증"]
+      },
+      "vas": {
+        "title": "VAS",
+        "subtitle": "Value Added Services",
+        "description": "가상계좌 발급부터 대리 수금까지. 결제 운영에 필요한 부가 기능을 제공합니다.",
+        "features": ["거래 실시간 알림", "저비용 현지 수금", "가상계좌 배정", "다양한 형식의 가상계좌", "대리 수금(COBO) 지원", "수취인·입금자 제한 없음", "API·포털로 즉시 발급"]
+      }
+    },
+    "features": {
+      "label": "서비스 특장점",
+      "title": "GME만의 결제 서비스 기능",
+      "accounting": { "title": "간편 정산", "description": "자동 대사로 회계 처리를 간소화합니다. 복잡한 정산도 깔끔하게." },
+      "pob": { "title": "대리 결제", "description": "높은 투명성과 최대 효율로 대리 결제(Payment on Behalf)를 처리합니다." },
+      "flexibility": { "title": "유연한 환전", "description": "환전과 동시에 지급하거나, 직접 FX를 관리하는 등 원하는 방식으로 운영하세요." },
+      "dynamic": { "title": "실시간 추적", "description": "다양한 결제 방식 중 선택하고, 거래를 실시간으로 추적하세요. 즉시 영수증 발급까지." },
+      "netout": { "title": "비용 최적화", "description": "숨은 수수료 없이, 펀딩 레버리지를 활용해 비용을 최소화하세요." },
+      "technology": { "title": "기술 인프라", "description": "MSA 아키텍처 기반, AML·본인확인이 내장된 안정적인 시스템." }
+    },
+    "partners": {
+      "label": "파트너",
+      "title": "신뢰할 수 있는 글로벌 파트너",
+      "list": ["하나은행", "Alipay", "Skyee", "PayerMax", "Xe", "Veem", "Sandman", "colognes", "BaoFuGlobal", "Ripple", "PingPong", "Tazapay", "LianLian Pay", "Terrapin", "Ria", "Thunes"]
+    },
+    "process": {
+      "label": "서비스 흐름",
+      "title": "GME Payments는 이렇게 작동합니다",
+      "step1": { "title": "SPS + VAS", "description": "해외 지급은 SPS, 수금·가상계좌는 VAS. 두 솔루션을 함께 제공합니다." },
+      "step2": { "title": "API 연동", "description": "developers.gmeremit.com의 API 문서로 시스템을 연결합니다." },
+      "step3": { "title": "환율·결제 관리", "description": "직접 FX를 관리하거나, 환전과 동시에 지급. 실시간으로 거래를 추적합니다." },
+      "step4": { "title": "정산·리포트", "description": "자동 대사로 정산을 처리하고, 즉시 영수증과 거래 내역을 확인합니다." }
+    },
+    "cta": {
+      "title": "우리 회사도 GME Payments 시작하기",
+      "description": "전담 매니저가 우리 비즈니스에 맞는 최적의 방법을 제안해드려요.",
+      "email": "corporate@gmeremit.com"
+    }
+  },
+  "card": {
+    "hero": {
+      "badge": "GME CARD",
+      "title1": "나에게 맞는",
+      "title2": "GME 카드",
+      "description": "해외 결제부터 국내 생활까지, 다양한 혜택이 담긴 GME 카드를 만나보세요.",
+      "cta": "카드 둘러보기"
+    },
+    "discover": {
+      "title": "Discover the GME Card",
+      "description": "Mastercard와 함께하는 GME Card로 무한한 가능성을 열어보세요. 특별 이벤트 기간 제휴 매장에서 독점 할인을 받고, 전 세계 어디서나, 주요 교통수단에서도 사용할 수 있습니다. 쇼핑 경험을 업그레이드하고, 매 거래마다 절약을 극대화하세요. 지금 GME Card를 만나보세요!"
+    },
+    "cards": {
+      "red": {
+        "name": "레드 카드",
+        "subtitle": "GME Red Mastercard",
+        "description": "GME의 시그니처 카드. 국내외 어디서나 Mastercard 가맹점에서 결제하고, 특별 이벤트 할인과 캐시백 혜택을 누리세요.",
+        "features": ["Mastercard 글로벌 결제", "특별 이벤트 최대 30% 캐시백", "ATM 입출금 지원", "대중교통 카드 기능"],
+        "cta": "카드 신청하기"
+      },
+      "black": {
+        "name": "블랙 카드",
+        "subtitle": "GME Black Mastercard",
+        "description": "프리미엄을 원하는 분을 위한 블랙 카드. 세련된 디자인과 함께 한층 업그레이드된 혜택을 경험하세요.",
+        "features": ["프리미엄 캐시백 혜택", "해외 결제 수수료 우대", "전용 고객센터 운영", "온·오프라인 결제"],
+        "cta": "자세히 보기"
+      },
+      "white": {
+        "name": "화이트 카드",
+        "subtitle": "GME White Mastercard",
+        "description": "깔끔하고 심플한 화이트 카드. 일상 생활에 꼭 필요한 기능을 합리적으로 제공합니다.",
+        "features": ["편의점·카페 할인", "대중교통 무료 이용권", "모바일 앱 간편 관리", "전국 ATM 이용 가능"],
+        "cta": "혜택 확인하기"
+      },
+      "uniq": {
+        "name": "유니크 카드",
+        "subtitle": "GME Uniq Mastercard",
+        "description": "GME만의 특별한 디자인 카드. 다양한 서비스 아이콘이 담긴 컬러풀한 카드로 개성을 표현하세요.",
+        "features": ["한정판 디자인", "글로벌 결제 지원", "이벤트 특별 혜택", "교통카드 기능 내장"],
+        "cta": "카드 신청하기"
+      }
+    },
+    "why": {
+      "title": "왜 GME Card를 선택해야 할까요?",
+      "description": "Mastercard와 함께하는 GME Card로 무한한 가능성을 열어보세요. 특별 이벤트 할인부터 전 세계 어디서나 사용 가능한 편리함까지, 매 거래마다 혜택을 극대화하세요.",
+      "atm": {
+        "title": "ATM 입출금",
+        "description": "전국 ATM에서 간편하게 입금 및 출금"
+      },
+      "transit": {
+        "title": "대중교통",
+        "description": "지하철, 버스, 택시 교통카드로 사용"
+      },
+      "global": {
+        "title": "국내외 결제",
+        "description": "국내는 물론 해외 어디서나 결제 가능"
+      },
+      "everywhere": {
+        "title": "온·오프라인",
+        "description": "온라인 쇼핑과 오프라인 매장 모두 사용"
+      },
+      "cashback": {
+        "title": "최대 30% 캐시백",
+        "description": "제휴 매장에서 최대 30% 캐시백 혜택"
+      }
+    },
+    "cta": {
+      "title": "지금 GME Card를 시작하세요",
+      "description": "나에게 맞는 카드를 찾고, 특별한 혜택을 누려보세요.",
+      "button": "카드 신청하기"
+    }
+  },
   "button": {
     "app_download": "앱 다운로드"
   },

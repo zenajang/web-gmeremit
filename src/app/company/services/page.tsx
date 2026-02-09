@@ -116,7 +116,7 @@ export default function ServicesPage() {
                   <p className="text-[#666] leading-relaxed mb-6 flex-grow">
                     {t("b2b_payments.desc")}
                   </p>
-                  <Link href="#" className="inline-flex items-center text-[#3b82f6] font-semibold hover:gap-2 transition-all">
+                  <Link href="/services/payments" className="inline-flex items-center text-[#3b82f6] font-semibold hover:gap-2 transition-all">
                     {t("learn_more")} <span className="ml-1">›</span>
                   </Link>
                 </div>
@@ -170,78 +170,61 @@ export default function ServicesPage() {
                   <p className="text-[#666] leading-relaxed mb-6 flex-grow">
                     {t("gme_card.desc")}
                   </p>
-                  <Link href="#" className="inline-flex items-center text-[#1f2937] font-semibold hover:gap-2 transition-all">
+                  <Link href="/services/card" className="inline-flex items-center text-[#1f2937] font-semibold hover:gap-2 transition-all">
                     {t("learn_more")} <span className="ml-1">›</span>
                   </Link>
                 </div>
               </div>
 
-              {/* Related Services Label */}
-              <div className="flex items-center gap-3 mb-5 mt-20">
-                <div className="w-2 h-8 bg-gradient-to-b from-[#666] to-[#666]/40 rounded-full"></div>
-                <h2 className="text-xl font-semibold">{t("related_services")}</h2>
+              {/* Plus separator */}
+              <div className="flex justify-center my-10">
+                <div className="w-10 h-10 rounded-full border-2 border-gray-200 flex items-center justify-center text-gray-400">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                  </svg>
+                </div>
               </div>
 
-              {/* Second Row - 4 Related Services (Smaller & Subtle) */}
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                {/* Digital Wallet */}
-                <div className="bg-[#fafafa] rounded-[18px] p-6 hover:bg-white hover:shadow-md transition-all duration-300">
-                  <div className="w-12 h-12 bg-white rounded-[14px] flex items-center justify-center mb-4 border border-gray-200">
-                    <svg className="w-6 h-6" fill="none" stroke="#666" viewBox="0 0 24 24" strokeWidth={1.5}>
+              {/* Related Services */}
+              <div className="rounded-2xl bg-[#ed1c24]/[0.05] px-10 py-10 text-center">
+                <p className="text-lg font-bold text-[#191c1f] mb-8">{t("related_services")}</p>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                  <div className="inline-flex items-center gap-3 rounded-full bg-white border border-gray-100 shadow-sm pl-3 pr-5 py-2.5">
+                    <svg className="w-7 h-7 text-[#ed1c24] shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a2.25 2.25 0 00-2.25-2.25H15a3 3 0 11-6 0H5.25A2.25 2.25 0 003 12m18 0v6a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 18v-6m18 0V9M3 12V9m18 0a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 9m18 0V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v3" />
                     </svg>
+                    <div className="text-left min-w-0">
+                      <p className="text-[13px] font-semibold text-[#191c1f] truncate">{t("digital_wallet.title")}</p>
+                      <p className="text-[11px] text-[#999] truncate">{t("digital_wallet.desc")}</p>
+                    </div>
                   </div>
-                  <h3 className="text-lg font-bold text-[#191c1f] mb-2">
-                    {t("digital_wallet.title")}
-                  </h3>
-                  <p className="text-sm text-[#888] leading-relaxed">
-                    {t("digital_wallet.desc")}
-                  </p>
-                </div>
-
-                {/* Money Exchange */}
-                <div className="bg-[#fafafa] rounded-[18px] p-6 hover:bg-white hover:shadow-md transition-all duration-300">
-                  <div className="w-12 h-12 bg-white rounded-[14px] flex items-center justify-center mb-4 border border-gray-200">
-                    <svg className="w-6 h-6" fill="none" stroke="#666" viewBox="0 0 24 24" strokeWidth={1.5}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M7.5 21L3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5" />
+                  <div className="inline-flex items-center gap-3 rounded-full bg-white border border-gray-100 shadow-sm pl-3 pr-5 py-2.5">
+                    <svg className="w-7 h-7 text-[#ed1c24] shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
+                    <div className="text-left min-w-0">
+                      <p className="text-[13px] font-semibold text-[#191c1f] truncate">{t("money_exchange.title")}</p>
+                      <p className="text-[11px] text-[#999] truncate">{t("money_exchange.desc")}</p>
+                    </div>
                   </div>
-                  <h3 className="text-lg font-bold text-[#191c1f] mb-2">
-                    {t("money_exchange.title")}
-                  </h3>
-                  <p className="text-sm text-[#888] leading-relaxed">
-                    {t("money_exchange.desc")}
-                  </p>
-                </div>
-
-                {/* Mobile Top-up */}
-                <div className="bg-[#fafafa] rounded-[18px] p-6 hover:bg-white hover:shadow-md transition-all duration-300">
-                  <div className="w-12 h-12 bg-white rounded-[14px] flex items-center justify-center mb-4 border border-gray-200">
-                    <svg className="w-6 h-6" fill="none" stroke="#666" viewBox="0 0 24 24" strokeWidth={1.5}>
+                  <div className="inline-flex items-center gap-3 rounded-full bg-white border border-gray-100 shadow-sm pl-3 pr-5 py-2.5">
+                    <svg className="w-7 h-7 text-[#ed1c24] shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
                     </svg>
+                    <div className="text-left min-w-0">
+                      <p className="text-[13px] font-semibold text-[#191c1f] truncate">{t("mobile_topup.title")}</p>
+                      <p className="text-[11px] text-[#999] truncate">{t("mobile_topup.desc")}</p>
+                    </div>
                   </div>
-                  <h3 className="text-lg font-bold text-[#191c1f] mb-2">
-                    {t("mobile_topup.title")}
-                  </h3>
-                  <p className="text-sm text-[#888] leading-relaxed">
-                    {t("mobile_topup.desc")}
-                  </p>
-                </div>
-
-                {/* Gift Coupons */}
-                <div className="bg-[#fafafa] rounded-[18px] p-6 hover:bg-white hover:shadow-md transition-all duration-300">
-                  <div className="w-12 h-12 bg-white rounded-[14px] flex items-center justify-center mb-4 border border-gray-200">
-                    <svg className="w-6 h-6" fill="none" stroke="#666" viewBox="0 0 24 24" strokeWidth={1.5}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
+                  <div className="inline-flex items-center gap-3 rounded-full bg-white border border-gray-100 shadow-sm pl-3 pr-5 py-2.5">
+                    <svg className="w-7 h-7 text-[#ed1c24] shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.25 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
                     </svg>
+                    <div className="text-left min-w-0">
+                      <p className="text-[13px] font-semibold text-[#191c1f] truncate">{t("gift_coupons.title")}</p>
+                      <p className="text-[11px] text-[#999] truncate">{t("gift_coupons.desc")}</p>
+                    </div>
                   </div>
-                  <h3 className="text-lg font-bold text-[#191c1f] mb-2">
-                    {t("gift_coupons.title")}
-                  </h3>
-                  <p className="text-sm text-[#888] leading-relaxed">
-                    {t("gift_coupons.desc")}
-                  </p>
                 </div>
               </div>
             </div>

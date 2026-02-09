@@ -399,6 +399,133 @@
     },
     "copyright": "© Global Money Express, All rights reserved."
   },
+  "business": {
+    "hero": {
+      "badge": "REDUCE COST ON BUSINESS TRANSFERS",
+      "title1": "GME for SMB's &",
+      "title2": "E-Commerce Merchants",
+      "description": "Creating value together by reshaping payments with collaboration. Reduce costs on business transfers and grow your global business.",
+      "cta_contact": "Contact Sales",
+      "cta_docs": "View API Docs"
+    },
+    "solutions": {
+      "label": "Core Solutions",
+      "title": "Payment Solutions Built for Your Business",
+      "description": "Two powerful solutions — SPS and VAS — to handle every aspect of cross-border payments.",
+      "sps": {
+        "title": "SPS",
+        "subtitle": "Seamless Payment Solution",
+        "description": "24/7 bulk cross-border payout solution. Manage FX, verify recipients, and process mass payments all in one place.",
+        "features": ["Payout 24/7", "Control FX", "Mass Payouts", "Real-Time Status", "Instant Payments", "Real-Time Verification"]
+      },
+      "vas": {
+        "title": "VAS",
+        "subtitle": "Value Added Services",
+        "description": "From virtual account issuance to collections on behalf. All the add-on features you need for payment operations.",
+        "features": ["Real-Time Notifications", "Local Collection at Low Cost", "Assign V/As", "Virtual Accounts in Multiple Formats", "Collections On-behalf-Of (COBO)", "No Restrictions on Beneficiaries & Depositors", "Instant V/A Issuance via API or Portal"]
+      }
+    },
+    "features": {
+      "label": "Service Features",
+      "title": "GME Payment Service Features",
+      "accounting": { "title": "Accounting", "description": "Easy reconciliation to simplify your accounting. Even complex settlements, handled cleanly." },
+      "pob": { "title": "Payment on Behalf", "description": "High level of transparency and maximum efficiency for proxy payments." },
+      "flexibility": { "title": "Flexibility", "description": "Exchange and pay simultaneously, or manage your own FX. Operate the way you want." },
+      "dynamic": { "title": "Dynamic", "description": "Choose your payment method, track transactions in real-time, and get instant payment receipts." },
+      "netout": { "title": "Netout", "description": "Lower your cost with funding leverage. No hidden commissions." },
+      "technology": { "title": "Technology", "description": "Micro Service Architecture with embedded AML & verification for a robust, reliable system." }
+    },
+    "partners": {
+      "label": "Partners",
+      "title": "Trusted and Partnered By",
+      "list": ["Hana Bank", "Alipay", "Skyee", "PayerMax", "Xe", "Veem", "Sandman", "colognes", "BaoFuGlobal", "Ripple", "PingPong", "Tazapay", "LianLian Pay", "Terrapin", "Ria", "Thunes"]
+    },
+    "process": {
+      "label": "How It Works",
+      "title": "How GME Payments Works",
+      "step1": { "title": "SPS + VAS", "description": "SPS for cross-border payouts, VAS for collections and virtual accounts. Both provided as part of the service." },
+      "step2": { "title": "API Integration", "description": "Connect your system using our API documentation at developers.gmeremit.com." },
+      "step3": { "title": "FX & Payment Control", "description": "Manage your own FX or exchange and pay simultaneously. Track every transaction in real-time." },
+      "step4": { "title": "Reconciliation & Reports", "description": "Easy reconciliation for settlements, instant payment receipts and full transaction history." }
+    },
+    "cta": {
+      "title": "Get Started with GME Payments",
+      "description": "Grow your business with global payment solutions. Our dedicated managers will propose the optimal solution for you.",
+      "email": "corporate@gmeremit.com"
+    }
+  },
+  "card": {
+    "hero": {
+      "badge": "GME CARD",
+      "title1": "Find Your Perfect",
+      "title2": "GME Card",
+      "description": "From international payments to everyday spending, discover GME Cards packed with benefits.",
+      "cta": "Explore Cards"
+    },
+    "discover": {
+      "title": "Discover the GME Card",
+      "description": "Unlock a world of possibilities with the GME Card, powered by Mastercard. Enjoy exclusive discounts during special events at select locations, usable worldwide and across major transportation services. Elevate your shopping experience and maximize your savings with every transaction. Get your GME Card today!"
+    },
+    "cards": {
+      "red": {
+        "name": "Red Card",
+        "subtitle": "GME Red Mastercard",
+        "description": "GME's signature card. Pay at any Mastercard merchant worldwide and enjoy exclusive event discounts and cashback rewards.",
+        "features": ["Mastercard global payments", "Up to 30% cashback on events", "ATM withdrawal & deposit", "Public transit card function"],
+        "cta": "Apply Now"
+      },
+      "black": {
+        "name": "Black Card",
+        "subtitle": "GME Black Mastercard",
+        "description": "The premium choice. A sleek black design with upgraded benefits for those who want more.",
+        "features": ["Premium cashback rewards", "Reduced foreign transaction fees", "Dedicated customer center", "On & offline payments"],
+        "cta": "Learn More"
+      },
+      "white": {
+        "name": "White Card",
+        "subtitle": "GME White Mastercard",
+        "description": "Clean and simple. The White Card offers all the essential features you need at a great value.",
+        "features": ["Convenience store & cafe discounts", "Free public transit pass", "Easy mobile app management", "Nationwide ATM access"],
+        "cta": "View Benefits"
+      },
+      "uniq": {
+        "name": "Uniq Card",
+        "subtitle": "GME Uniq Mastercard",
+        "description": "A one-of-a-kind design card by GME. Express your personality with this colorful, limited edition card.",
+        "features": ["Limited edition design", "Global payment support", "Special event benefits", "Built-in transit card"],
+        "cta": "Apply Now"
+      }
+    },
+    "why": {
+      "title": "Why Choose GME Card?",
+      "description": "Unlock a world of possibilities with the GME Card, powered by Mastercard. Enjoy exclusive discounts during special events at select locations, usable worldwide and across major transportation services.",
+      "atm": {
+        "title": "ATM Withdrawal & Deposit",
+        "description": "Easy cash access at ATMs nationwide"
+      },
+      "transit": {
+        "title": "Subway, Bus, Taxi",
+        "description": "Use as a transit card for all public transport"
+      },
+      "global": {
+        "title": "Domestic & Overseas",
+        "description": "Accepted anywhere, at home and abroad"
+      },
+      "everywhere": {
+        "title": "On & Offline",
+        "description": "Shop online and pay in-store seamlessly"
+      },
+      "cashback": {
+        "title": "Cashback up to 30%",
+        "description": "Earn up to 30% cashback at partner stores"
+      }
+    },
+    "cta": {
+      "title": "Start with GME Card Today",
+      "description": "Find the right card for you and enjoy exclusive benefits.",
+      "button": "Apply for a Card"
+    }
+  },
   "button": {
     "app_download": "App Download"
   },

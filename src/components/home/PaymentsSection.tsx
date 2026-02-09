@@ -1,9 +1,18 @@
 import Link from "next/link";
 
 const stats = [
-  { label: "비용 절감", value: "최대 70%", change: "vs 기존", color: "#3b82f6" },
-  { label: "파트너사", value: "200+", change: "글로벌", color: "#3b82f6" },
-  { label: "처리 성공률", value: "99.8%", change: "정상", color: "#22c55e" },
+  {
+    label: "결제 속도",
+    value: (
+      <svg className="w-7 h-7 text-[#191c1f]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+      </svg>
+    ),
+    change: "즉시 입금 처리",
+    color: "#3b82f6",
+  },
+  { label: "글로벌 파트너", value: "16+", change: "파트너사", color: "#3b82f6" },
+  { label: "서비스", value: "24/7", change: "실시간 운영", color: "#22c55e" },
 ];
 
 const transactions = [
@@ -32,11 +41,11 @@ const features = [
     )
   },
   {
-    title: "SMB",
-    desc: "이커머스 솔루션",
+    title: "FX",
+    desc: "환율·정산 관리",
     icon: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
     )
   },
@@ -59,7 +68,7 @@ export default function PaymentsSection() {
               급여 송금, 파트너 정산, 이커머스 결제까지. 비용 절감과 효율적인 기업 결제 솔루션을 제공합니다.
             </p>
             <Link
-              href="/business"
+              href="/services/payments"
               className="group inline-flex items-center gap-3 text-[#3b82f6] font-semibold bg-[#dbeafe] hover:bg-[#bfdbfe] px-5 py-3 rounded-xl transition-colors duration-250 ease-out cursor-pointer"
             >
               Payments 자세히 보기

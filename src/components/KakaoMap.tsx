@@ -110,7 +110,7 @@ export default function KakaoMap({
   }, [map, selectedBranchId, branches]);
 
   return (
-    <div className="relative w-full h-full min-h-[500px]">
+    <div className="relative w-full h-full min-h-[500px]" data-lenis-prevent>
       <div ref={mapRef} className="w-full h-full min-h-[500px] rounded-2xl" />
       {!map && (
         <div className="absolute inset-0 flex items-center justify-center bg-gray-100 rounded-2xl">
