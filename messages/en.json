@@ -494,6 +494,13 @@
         "description": "A one-of-a-kind design card by GME. Express your personality with this colorful, limited edition card.",
         "features": ["Limited edition design", "Global payment support", "Special event benefits", "Built-in transit card"],
         "cta": "Apply Now"
+      },
+      "easyG0": {
+        "name": "EasyGo Card",
+        "subtitle": "GME EasyGo Mastercard",
+        "description": "Make every moment more convenient. Enjoy seasonal benefits from transit to shopping.",
+        "features": ["Postpaid transit card", "Seasonal cashback", "Online & offline shopping", "Pay anywhere in the world"],
+        "cta": "Apply Now"
       }
     },
     "why": {

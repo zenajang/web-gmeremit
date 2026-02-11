@@ -109,61 +109,63 @@ const highlightIcons: Record<HighlightIcon, ReactNode> = {
 const cards: CardItem[] = [
   {
     id: "black",
-    eyebrow: "THE BLACK",
-    title: "The Black",
-    desc: "해외 결제에 특화된 프리미엄 카드. 해외 어디서든 최고의 캐시백 혜택을 누리세요.",
+    eyebrow: "PREMIUM",
+    title: "Premium",
+    desc: "프리미엄을 원하는 분을 위한 카드. 세련된 디자인과 함께 한층 업그레이드된 혜택을 경험하세요.",
     highlights: [
-      { text: "해외 결제 3% 캐시백", icon: "currency" },
-      { text: "국내 결제 0.3% 캐시백", icon: "cashback" },
-      { text: "특별 이벤트 할인 혜택", icon: "gift" },
-      { text: "지하철·버스·택시 간편 결제", icon: "transport" },
+      { text: "3% 해외 사용금액 캐시백", icon: "currency" },
+      { text: "시즌별 캐시백", icon: "cashback" },
+      { text: "전 세계 어디서나 결제", icon: "payment" },
+      { text: "온라인 & 오프라인 쇼핑", icon: "gift" },
     ],
-    ctaLabel: "The Black 카드 보기",
-    ctaHref: "/personal/gme-card",
-    image: "/images/card/black.png",
+    ctaLabel: "프리미엄 카드 보기",
+    ctaHref: "/services/card",
+    image: "/images/card/Premium_front.png",
   },
   {
     id: "white",
     eyebrow: "THE WHITE",
     title: "The White",
-    desc: "심플하고 깔끔한 디자인의 일상 카드. 국내 결제와 대중교통을 편리하게.",
+    desc: "깔끔하고 심플한 화이트 카드. 일상 생활에 꼭 필요한 기능을 합리적으로 제공합니다.",
     highlights: [
-      { text: "국내 결제 0.3% 캐시백", icon: "cashback" },
-      { text: "특별 이벤트 할인 혜택", icon: "gift" },
-      { text: "지하철·버스·택시 간편 결제", icon: "transport" },
+      { text: "시즌별 캐시백", icon: "cashback" },
+      { text: "전 세계 어디서나 결제", icon: "payment" },
+      { text: "온라인 & 오프라인 쇼핑", icon: "gift" },
+      { text: "대중교통", icon: "transport" },
     ],
-    ctaLabel: "The White 카드 보기",
-    ctaHref: "/personal/gme-card",
-    image: "/images/card/white.png",
+    ctaLabel: "화이트 카드 보기",
+    ctaHref: "/services/card",
+    image: "/images/card/Pay_White_front.png",
   },
   {
     id: "red",
     eyebrow: "THE RED",
     title: "The Red",
-    desc: "GME의 시그니처 컬러를 담은 카드. 일상의 모든 결제를 스타일리시하게.",
+    desc: "GME의 시그니처 카드. 국내외 어디서나 Mastercard 가맹점에서 결제하고, 특별 이벤트 할인과 캐시백 혜택을 누리세요.",
     highlights: [
-      { text: "국내 결제 0.3% 캐시백", icon: "cashback" },
-      { text: "특별 이벤트 할인 혜택", icon: "gift" },
-      { text: "지하철·버스·택시 간편 결제", icon: "transport" },
+      { text: "시즌별 캐시백", icon: "cashback" },
+      { text: "전 세계 어디서나 결제", icon: "payment" },
+      { text: "온라인 & 오프라인 쇼핑", icon: "gift" },
+      { text: "대중교통", icon: "transport" },
     ],
-    ctaLabel: "The Red 카드 보기",
-    ctaHref: "/personal/gme-card",
-    image: "/images/card/red.png",
+    ctaLabel: "레드 카드 보기",
+    ctaHref: "/services/card",
+    image: "/images/card/Pay_Red_front.png",
   },
   {
-    id: "uniq",
-    eyebrow: "THE UNIQ",
-    title: "The Uniq",
-    desc: "18개국의 30가지 이상 디자인 중 나만의 카드를 선택하세요.",
+    id: "easyG0",
+    eyebrow: "EASYGO",
+    title: "EasyGo",
+    desc: "일상의 모든 순간을 더 편리하게. 교통부터 쇼핑까지 시즌별 혜택을 누리세요.",
     highlights: [
-      { text: "국내 결제 0.3% 캐시백", icon: "cashback" },
-      { text: "특별 이벤트 할인 혜택", icon: "gift" },
-      { text: "18개국 30+ 디자인", icon: "design" },
-      { text: "지하철·버스·택시 간편 결제", icon: "transport" },
+      { text: "후불 교통카드", icon: "transport" },
+      { text: "시즌별 캐시백", icon: "cashback" },
+      { text: "전 세계 어디서나 결제", icon: "payment" },
+      { text: "온라인 & 오프라인 쇼핑", icon: "gift" },
     ],
-    ctaLabel: "The Uniq 카드 보기",
-    ctaHref: "/personal/gme-card",
-    image: "/images/card/uniq.png",
+    ctaLabel: "이지고 카드 보기",
+    ctaHref: "/services/card",
+    image: "/images/card/EasyGo_front.png",
   },
 ];
 
@@ -235,13 +237,12 @@ export default function CardsShowcase() {
           if (Math.abs(offset) > 1) return null;
           const isActive = offset === 0;
           const absOffset = Math.abs(offset);
-          const translateX = offset * 90;
-          const translateY = absOffset === 0 ? 0 : absOffset * 50;
+          const translateX = offset * 150;
+          const translateY = absOffset === 0 ? 0 : absOffset * 30;
           // 옆 카드는 작게, 등장하면서 커지는 효과
           const scale = isActive ? 1.06 : 0.65;
-          const opacity = isActive ? 1 : 0.35;
-          const baseTilt = index % 2 === 0 ? -1 : 1;
-          const rotation = offset === 0 ? 0 : baseTilt * (6 + absOffset * 3);
+          const opacity = isActive ? 1 : 0.5;
+          const rotation = offset === 0 ? 0 : Math.sign(offset) * (3 + absOffset * 1.5);
           const zIndex = 30 - absOffset;
           const imageProps = isActive ? { priority: true } : { loading: "lazy" as const };
 
@@ -253,7 +254,7 @@ export default function CardsShowcase() {
               aria-hidden={!isActive}
             >
               <div
-                className="w-full max-w-[520px] transition-all duration-[800ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)]"
+                className="w-full max-w-[260px] transition-all duration-[800ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)]"
                 style={{
                   transform: `translateX(${translateX}px) translateY(${translateY}px) scale(${scale}) rotate(${rotation}deg)`,
                 }}
@@ -261,15 +262,15 @@ export default function CardsShowcase() {
                 <Image
                   src={card.image}
                   alt={`${card.title} 카드 이미지`}
-                  width={520}
-                  height={700}
+                  width={360}
+                  height={480}
                   {...imageProps}
                 />
               </div>
             </div>
           );
         })}
-        <div className="absolute top-133 left-1/2 flex -translate-x-1/2 items-center gap-3">
+        <div className="absolute bottom-6 left-1/2 flex -translate-x-1/2 items-center gap-3">
           {cards.map((card, index) => (
             <button
               key={card.id}
