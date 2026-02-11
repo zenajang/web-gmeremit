@@ -533,6 +533,74 @@
       "button": "Apply for a Card"
     }
   },
+  "loan": {
+    "hero": {
+      "badge": "GME FINANCE",
+      "title1": "Loan Services",
+      "title2": "for Foreigners",
+      "description": "Apply for a loan easily with the GME app. We support your life in Korea with fast approvals and flexible terms.",
+      "cta": "View Loan Products"
+    },
+    "why": {
+      "badge": "Powered by GME Finance",
+      "title": "Why Choose GME Loan?",
+      "description": "We provide tailored loan services for foreign customers in 14+ countries. Experience proven trust with over 1 million successful loans and ₩500 billion+ in cumulative lending.",
+      "stats_value": "₩500B+",
+      "stats_label": "Cumulative Loans",
+      "stats_desc": "1M+ Successful Loans · 14 Countries",
+      "countries": { "title": "14+", "desc": "Countries Served" },
+      "success": { "title": "1M+", "desc": "Successful Loans" },
+      "support": { "title": "24/7", "desc": "Customer Support" },
+      "realtime": { "title": "Real-time", "desc": "Status Tracking" },
+      "simple": { "title": "Easy Apply", "desc": "Via Mobile App" }
+    },
+    "products": {
+      "title": "Loan Products",
+      "title2": "Tailored for You",
+      "subtitle": "Compare and choose the loan product that fits your needs.",
+      "gme_loan": { "name": "GME Loan", "desc": "General living expenses" },
+      "house_loan": { "name": "House Loan", "desc": "Jeonse & rent deposit" },
+      "business_loan": { "name": "Business Loan", "desc": "Business operation funds" },
+      "student_loan": { "name": "Student Loan", "desc": "Tuition & school fees" },
+      "property_loan": { "name": "Property Loan", "desc": "Property-backed loan" },
+      "vacation_loan": { "name": "Vacation Loan", "desc": "Travel & vacation funds" },
+      "car_loan": { "name": "Car Loan", "desc": "Vehicle purchase funds" }
+    },
+    "details": {
+      "title": "Loan Details",
+      "max_amount": { "label": "Maximum Loan Amount", "value": "Up to 35 mil" },
+      "duration": { "label": "Loan Duration", "value": "3 - 45 months" },
+      "visa_period": { "label": "Eligible Remaining Visa Period", "value": "7 - 48 months" },
+      "contract": { "label": "Contract Signing Method", "value": "Digital Contract" },
+      "loanable": { "label": "Loanable Amount", "value": "2 mil - 35 mil" },
+      "visa_types": { "label": "Eligible Visa Types", "value": "E9, E7, F2, F5, F6, D8 & any visa with Legal Work Contract" },
+      "repayment": { "label": "Repayment Method", "value": "Monthly Installment" },
+      "early_settlement": { "label": "Early Settlement Charges", "value": "Free" }
+    },
+    "process": {
+      "title": "Simple Loan Application",
+      "subtitle": "5 Step Applying Process",
+      "step1": { "title": "Apply Through GME App", "desc": "Download GME App in Google Play Store or App Store. Register and Apply Loan." },
+      "step2": { "title": "Requirement Submission", "desc": "Fill up your information and submit the required documents." },
+      "step3": { "title": "Verification", "desc": "Our staff will verify your documents and check your credit standing." },
+      "step4": { "title": "Approval", "desc": "Once approved, digital contract signing will proceed." },
+      "step5": { "title": "Disbursements", "desc": "After contract signing, loan amount will be deposited to your bank account." }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        { "q": "Which visa holders can apply for a loan?", "a": "Holders of D-2, E-9, E-10, E-7, E-1, E-2, E-3, F-2, F-2R, F-5, F-6, F-4, and G-1 visas are eligible. Available products may vary depending on your visa type." },
+        { "q": "What documents are required?", "a": "Only three documents are needed: Alien Registration Card (ARC), Employment Contract, and Passport. No complicated paperwork—just a smooth and simple process." },
+        { "q": "How do I apply for a loan?", "a": "You can apply easily through the GME Finance mobile app. With just your smartphone, you can apply for a loan quickly and securely—anytime, anywhere." },
+        { "q": "Is my personal information safe?", "a": "GME Finance provides secure handling of personal information through a system specifically designed for foreign customers. You can use our services with confidence." }
+      ]
+    },
+    "cta": {
+      "title": "Start Your Loan with GME App Today",
+      "description": "Get the funds you need quickly with easy mobile application.",
+      "button": "Download App"
+    }
+  },
   "button": {
     "app_download": "App Download"
   },

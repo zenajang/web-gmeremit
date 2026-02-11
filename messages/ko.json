@@ -827,6 +827,74 @@
       "button": "카드 신청하기"
     }
   },
+  "loan": {
+    "hero": {
+      "badge": "GME FINANCE",
+      "title1": "외국인 전용",
+      "title2": "대출 서비스",
+      "description": "GME 앱에서 간편하게 대출 신청. 빠른 심사와 유연한 조건으로 한국 생활에 필요한 자금을 지원합니다.",
+      "cta": "대출 상품 보기"
+    },
+    "why": {
+      "badge": "Powered by GME Finance",
+      "title": "왜 GME 대출을 선택해야 할까요?",
+      "description": "14개국 이상의 외국인 고객에게 맞춤형 대출 서비스를 제공합니다. 100만 건 이상의 대출 성공 실적과 5,000억 원 이상의 누적 대출로 검증된 신뢰를 경험하세요.",
+      "stats_value": "₩5,000억+",
+      "stats_label": "누적 대출 실적",
+      "stats_desc": "100만+ 성공 대출 · 14개국 서비스",
+      "countries": { "title": "14개국+", "desc": "글로벌 서비스" },
+      "success": { "title": "100만+", "desc": "대출 성공 건수" },
+      "support": { "title": "24/7", "desc": "고객 지원 센터" },
+      "realtime": { "title": "실시간", "desc": "진행 현황 확인" },
+      "simple": { "title": "간편 신청", "desc": "모바일 앱으로" }
+    },
+    "products": {
+      "title": "외국인을 위한",
+      "title2": "맞춤 대출 상품",
+      "subtitle": "다양한 목적에 맞는 대출 상품을 비교하고 선택하세요.",
+      "gme_loan": { "name": "GME 대출", "desc": "일반 생활자금 대출" },
+      "house_loan": { "name": "주택 대출", "desc": "전세·월세 보증금 지원" },
+      "business_loan": { "name": "사업자 대출", "desc": "사업 운영·투자 자금" },
+      "student_loan": { "name": "유학생 대출", "desc": "등록금·학비 지원" },
+      "property_loan": { "name": "부동산 대출", "desc": "부동산 담보 대출" },
+      "vacation_loan": { "name": "휴가 대출", "desc": "여행·휴가 자금 지원" },
+      "car_loan": { "name": "자동차 대출", "desc": "차량 구매 자금 지원" }
+    },
+    "details": {
+      "title": "Loan Details",
+      "max_amount": { "label": "최대 대출 금액", "value": "최대 3,500만원" },
+      "duration": { "label": "대출 기간", "value": "3 - 45개월" },
+      "visa_period": { "label": "잔여 비자 기간", "value": "7 - 48개월" },
+      "contract": { "label": "계약 방식", "value": "디지털 계약" },
+      "loanable": { "label": "대출 가능 금액", "value": "200만원 - 3,500만원" },
+      "visa_types": { "label": "대상 비자", "value": "E9, E7, F2, F5, F6, D8 및 합법 근로계약 보유자" },
+      "repayment": { "label": "상환 방법", "value": "월 할부 상환" },
+      "early_settlement": { "label": "조기 상환 수수료", "value": "무료" }
+    },
+    "process": {
+      "title": "간편 대출 신청",
+      "subtitle": "5단계 신청 절차",
+      "step1": { "title": "GME 앱 신청", "desc": "Google Play Store 또는 App Store에서 GME 앱을 다운로드하고 회원가입 후 대출을 신청하세요." },
+      "step2": { "title": "서류 제출", "desc": "본인 정보를 입력하고 필요한 서류를 제출하세요." },
+      "step3": { "title": "서류 검증", "desc": "담당 직원이 제출된 서류를 검증하고 신용 상태를 확인합니다." },
+      "step4": { "title": "승인", "desc": "승인이 완료되면 디지털 계약 서명 절차가 진행됩니다." },
+      "step5": { "title": "대출금 지급", "desc": "계약 서명 후 대출 금액이 등록된 은행 계좌로 입금됩니다." }
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "items": [
+        { "q": "어떤 비자 소지자가 대출을 받을 수 있나요?", "a": "D-2, E-9, E-10, E-7, E-1, E-2, E-3, F-2, F-2R, F-5, F-6, F-4, G-1 비자 소지자가 대출 신청이 가능합니다. 비자 종류에 따라 신청 가능한 상품이 다를 수 있습니다." },
+        { "q": "대출 신청에 필요한 서류는 무엇인가요?", "a": "외국인등록증(ARC), 근로계약서, 여권 3가지만 있으면 됩니다. 복잡한 서류 없이 간편하게 신청할 수 있습니다." },
+        { "q": "대출은 어떻게 신청하나요?", "a": "GME Finance 앱에서 간편하게 신청할 수 있습니다. 스마트폰만 있으면 언제 어디서든 빠르고 안전하게 대출 신청이 가능합니다." },
+        { "q": "개인정보는 안전한가요?", "a": "GME Finance는 외국인 고객을 위해 설계된 안전한 시스템으로 개인정보를 보호합니다. 안심하고 이용하실 수 있습니다." }
+      ]
+    },
+    "cta": {
+      "title": "지금 GME 앱에서 대출을 시작하세요",
+      "description": "간편한 모바일 신청으로 빠르게 자금을 마련하세요.",
+      "button": "앱 다운로드"
+    }
+  },
   "button": {
     "app_download": "앱 다운로드"
   },

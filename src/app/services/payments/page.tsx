@@ -163,7 +163,7 @@ export default function PaymentsPage() {
 
         {/* ── Page Header ── */}
         <section className="relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#3b82f6]/[0.05] via-white to-[#3b82f6]/[0.10]" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#1f2937]/[0.12] via-[#f5f5f5] to-[#3b82f6]/[0.14]" />
 
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
             <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">

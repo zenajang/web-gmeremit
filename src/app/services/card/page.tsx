@@ -178,7 +178,7 @@ export default function CardPage() {
 
         {/* ── Page Header ── */}
         <section className="relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#1f2937]/[0.05] via-white to-[#ed1c24]/[0.06]" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#1f2937]/[0.12] via-[#f5f5f5] to-[#ed1c24]/[0.14]" />
 
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
             <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
@@ -272,11 +272,25 @@ export default function CardPage() {
         <section id="cards" ref={(el) => { sectionRefs.current[1] = el; }} className="py-16 lg:py-24 fade-section">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             {/* Section Title */}
-            <div className="text-center mb-10 lg:mb-12">
-              <h2 className="text-2xl lg:text-3xl font-bold text-[#191c1f] mb-3">
+            <div className="relative text-center mb-10 lg:mb-12 overflow-visible">
+              {/* 장식 요소 */}
+              <div className="pointer-events-none absolute inset-0">
+                <div className="absolute -left-4 top-1/2 -translate-y-1/2 w-20 h-[2px] bg-gradient-to-r from-transparent to-[#ed1c24]/20 fade-step" />
+                <div className="absolute -right-4 top-1/2 -translate-y-1/2 w-20 h-[2px] bg-gradient-to-l from-transparent to-[#ed1c24]/20 fade-step" />
+                <div className="absolute left-[15%] top-0 w-1.5 h-1.5 rounded-full bg-[#ed1c24]/20 fade-step" />
+                <div className="absolute right-[20%] top-2 w-1 h-1 rounded-full bg-[#ed1c24]/30 fade-step" />
+                <div className="absolute left-[25%] bottom-0 w-1 h-1 rounded-full bg-gray-300 fade-step" />
+                <div className="absolute right-[12%] bottom-1 w-1.5 h-1.5 rounded-full bg-gray-200 fade-step" />
+              </div>
+              <div className="flex items-center justify-center gap-2 mb-4 fade-step">
+                <span className="w-6 h-[2px] bg-[#ed1c24]/40 rounded-full" />
+                <span className="w-1.5 h-1.5 rounded-full bg-[#ed1c24]" />
+                <span className="w-6 h-[2px] bg-[#ed1c24]/40 rounded-full" />
+              </div>
+              <h2 className="relative text-2xl lg:text-3xl font-bold text-[#191c1f] mb-5">
                 원하는 혜택을 선택하세요
               </h2>
-              <p className="text-gray-500 max-w-2xl mx-auto text-sm">
+              <p className="relative text-gray-500 max-w-2xl mx-auto text-sm">
                 다양한 GME 카드 중 나에게 맞는 혜택을 찾아보세요
               </p>
             </div>
