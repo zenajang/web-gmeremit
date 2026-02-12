@@ -50,7 +50,11 @@
       }
     },
     "app_download": {
-      "chips": ["실시간 환율", "최적화된 금액", "안전한 인증"],
+      "chips": [
+        "실시간 환율",
+        "최적화된 금액",
+        "안전한 인증"
+      ],
       "subtitle": "GME REMIT APP",
       "title1": "송금은 더 빠르게,",
       "title2": "관리는 더 똑똑하게",
@@ -172,32 +176,67 @@
         "desc": "100만+ 성공 대출 · 14개국 서비스"
       },
       "features": {
-        "countries": { "label": "14개국+", "desc": "서비스" },
-        "success": { "label": "100만+", "desc": "대출 성공" },
-        "support": { "label": "24/7", "desc": "고객 지원" },
-        "realtime": { "label": "실시간", "desc": "진행 확인" },
-        "simple": { "label": "간편", "desc": "앱 신청" }
+        "countries": {
+          "label": "14개국+",
+          "desc": "서비스"
+        },
+        "success": {
+          "label": "100만+",
+          "desc": "대출 성공"
+        },
+        "support": {
+          "label": "24/7",
+          "desc": "고객 지원"
+        },
+        "realtime": {
+          "label": "실시간",
+          "desc": "진행 확인"
+        },
+        "simple": {
+          "label": "간편",
+          "desc": "앱 신청"
+        }
       }
     },
     "cards": {
       "black": {
         "desc": "프리미엄을 원하는 분을 위한 카드. 세련된 디자인과 함께 한층 업그레이드된 혜택을 경험하세요.",
-        "highlights": ["3% 해외 사용금액 캐시백", "시즌별 캐시백", "전 세계 어디서나 결제", "온라인 & 오프라인 쇼핑"],
+        "highlights": [
+          "3% 해외 사용금액 캐시백",
+          "시즌별 캐시백",
+          "전 세계 어디서나 결제",
+          "온라인 & 오프라인 쇼핑"
+        ],
         "cta": "프리미엄 카드 보기"
       },
       "white": {
         "desc": "깔끔하고 심플한 화이트 카드. 일상 생활에 꼭 필요한 기능을 합리적으로 제공합니다.",
-        "highlights": ["시즌별 캐시백", "전 세계 어디서나 결제", "온라인 & 오프라인 쇼핑", "대중교통"],
+        "highlights": [
+          "시즌별 캐시백",
+          "전 세계 어디서나 결제",
+          "온라인 & 오프라인 쇼핑",
+          "대중교통"
+        ],
         "cta": "화이트 카드 보기"
       },
       "red": {
         "desc": "GME의 시그니처 카드. 국내외 어디서나 Mastercard 가맹점에서 결제하고, 특별 이벤트 할인과 캐시백 혜택을 누리세요.",
-        "highlights": ["시즌별 캐시백", "전 세계 어디서나 결제", "온라인 & 오프라인 쇼핑", "대중교통"],
+        "highlights": [
+          "시즌별 캐시백",
+          "전 세계 어디서나 결제",
+          "온라인 & 오프라인 쇼핑",
+          "대중교통"
+        ],
         "cta": "레드 카드 보기"
       },
       "easyG0": {
         "desc": "일상의 모든 순간을 더 편리하게. 교통부터 쇼핑까지 시즌별 혜택을 누리세요.",
-        "highlights": ["후불 교통카드", "시즌별 캐시백", "전 세계 어디서나 결제", "온라인 & 오프라인 쇼핑"],
+        "highlights": [
+          "후불 교통카드",
+          "시즌별 캐시백",
+          "전 세계 어디서나 결제",
+          "온라인 & 오프라인 쇼핑"
+        ],
         "cta": "이지고 카드 보기"
       },
       "image_alt": "카드 이미지"
@@ -415,37 +454,99 @@
         "title": "SPS",
         "subtitle": "Seamless Payment Solution",
         "description": "24시간 대량 해외 지급에 특화된 결제 솔루션. 환율 관리부터 수취인 검증까지 한 번에 처리하세요.",
-        "features": ["24시간 즉시 지급", "환율 직접 관리", "대량 일괄 송금", "실시간 거래 추적", "즉시 입금 처리", "수취인 실시간 검증"]
+        "features": [
+          "24시간 즉시 지급",
+          "환율 직접 관리",
+          "대량 일괄 송금",
+          "실시간 거래 추적",
+          "즉시 입금 처리",
+          "수취인 실시간 검증"
+        ]
       },
       "vas": {
         "title": "VAS",
         "subtitle": "Value Added Services",
         "description": "가상계좌 발급부터 대리 수금까지. 결제 운영에 필요한 부가 기능을 제공합니다.",
-        "features": ["거래 실시간 알림", "저비용 현지 수금", "가상계좌 배정", "다양한 형식의 가상계좌", "대리 수금(COBO) 지원", "수취인·입금자 제한 없음", "API·포털로 즉시 발급"]
+        "features": [
+          "거래 실시간 알림",
+          "저비용 현지 수금",
+          "가상계좌 배정",
+          "다양한 형식의 가상계좌",
+          "대리 수금(COBO) 지원",
+          "수취인·입금자 제한 없음",
+          "API·포털로 즉시 발급"
+        ]
       }
     },
     "features": {
       "label": "서비스 특장점",
       "title": "GME만의 결제 서비스 기능",
-      "accounting": { "title": "간편 정산", "description": "자동 대사로 회계 처리를 간소화합니다. 복잡한 정산도 깔끔하게." },
-      "pob": { "title": "대리 결제", "description": "높은 투명성과 최대 효율로 대리 결제(Payment on Behalf)를 처리합니다." },
-      "flexibility": { "title": "유연한 환전", "description": "환전과 동시에 지급하거나, 직접 FX를 관리하는 등 원하는 방식으로 운영하세요." },
-      "dynamic": { "title": "실시간 추적", "description": "다양한 결제 방식 중 선택하고, 거래를 실시간으로 추적하세요. 즉시 영수증 발급까지." },
-      "netout": { "title": "비용 최적화", "description": "숨은 수수료 없이, 펀딩 레버리지를 활용해 비용을 최소화하세요." },
-      "technology": { "title": "기술 인프라", "description": "MSA 아키텍처 기반, AML·본인확인이 내장된 안정적인 시스템." }
+      "accounting": {
+        "title": "간편 정산",
+        "description": "자동 대사로 회계 처리를 간소화합니다. 복잡한 정산도 깔끔하게."
+      },
+      "pob": {
+        "title": "대리 결제",
+        "description": "높은 투명성과 최대 효율로 대리 결제(Payment on Behalf)를 처리합니다."
+      },
+      "flexibility": {
+        "title": "유연한 환전",
+        "description": "환전과 동시에 지급하거나, 직접 FX를 관리하는 등 원하는 방식으로 운영하세요."
+      },
+      "dynamic": {
+        "title": "실시간 추적",
+        "description": "다양한 결제 방식 중 선택하고, 거래를 실시간으로 추적하세요. 즉시 영수증 발급까지."
+      },
+      "netout": {
+        "title": "비용 최적화",
+        "description": "숨은 수수료 없이, 펀딩 레버리지를 활용해 비용을 최소화하세요."
+      },
+      "technology": {
+        "title": "기술 인프라",
+        "description": "MSA 아키텍처 기반, AML·본인확인이 내장된 안정적인 시스템."
+      }
     },
     "partners": {
       "label": "파트너",
       "title": "신뢰할 수 있는 글로벌 파트너",
-      "list": ["하나은행", "Alipay", "Skyee", "PayerMax", "Xe", "Veem", "Sandman", "colognes", "BaoFuGlobal", "Ripple", "PingPong", "Tazapay", "LianLian Pay", "Terrapin", "Ria", "Thunes"]
+      "list": [
+        "하나은행",
+        "Alipay",
+        "Skyee",
+        "PayerMax",
+        "Xe",
+        "Veem",
+        "Sandman",
+        "colognes",
+        "BaoFuGlobal",
+        "Ripple",
+        "PingPong",
+        "Tazapay",
+        "LianLian Pay",
+        "Terrapin",
+        "Ria",
+        "Thunes"
+      ]
     },
     "process": {
       "label": "서비스 흐름",
       "title": "GME Payments는 이렇게 작동합니다",
-      "step1": { "title": "SPS + VAS", "description": "해외 지급은 SPS, 수금·가상계좌는 VAS. 두 솔루션을 함께 제공합니다." },
-      "step2": { "title": "API 연동", "description": "developers.gmeremit.com의 API 문서로 시스템을 연결합니다." },
-      "step3": { "title": "환율·결제 관리", "description": "직접 FX를 관리하거나, 환전과 동시에 지급. 실시간으로 거래를 추적합니다." },
-      "step4": { "title": "정산·리포트", "description": "자동 대사로 정산을 처리하고, 즉시 영수증과 거래 내역을 확인합니다." }
+      "step1": {
+        "title": "SPS + VAS",
+        "description": "해외 지급은 SPS, 수금·가상계좌는 VAS. 두 솔루션을 함께 제공합니다."
+      },
+      "step2": {
+        "title": "API 연동",
+        "description": "developers.gmeremit.com의 API 문서로 시스템을 연결합니다."
+      },
+      "step3": {
+        "title": "환율·결제 관리",
+        "description": "직접 FX를 관리하거나, 환전과 동시에 지급. 실시간으로 거래를 추적합니다."
+      },
+      "step4": {
+        "title": "정산·리포트",
+        "description": "자동 대사로 정산을 처리하고, 즉시 영수증과 거래 내역을 확인합니다."
+      }
     },
     "cta": {
       "title": "우리 회사도 GME Payments 시작하기",
@@ -470,7 +571,12 @@
         "name": "레드 카드",
         "subtitle": "GME Red Mastercard",
         "description": "GME의 시그니처 카드. 국내외 어디서나 Mastercard 가맹점에서 결제하고, 특별 이벤트 할인과 캐시백 혜택을 누리세요.",
-        "features": ["시즌별 캐시백", "전 세계 어디서나 결제", "온라인 & 오프라인 쇼핑", "대중교통"],
+        "features": [
+          "시즌별 캐시백",
+          "전 세계 어디서나 결제",
+          "온라인 & 오프라인 쇼핑",
+          "대중교통"
+        ],
         "cta": "카드 신청하기",
         "details": {
           "mainBenefits": {
@@ -507,7 +613,10 @@
           },
           "delivery": {
             "title": "카드 배송 방법",
-            "methods": ["자택 수령", "GME 지점 수령"]
+            "methods": [
+              "자택 수령",
+              "GME 지점 수령"
+            ]
           },
           "cautions": {
             "title": "주의사항",
@@ -542,7 +651,12 @@
         "name": "프리미엄 카드",
         "subtitle": "GME Premium Mastercard",
         "description": "프리미엄을 원하는 분을 위한 카드. 세련된 디자인과 함께 한층 업그레이드된 혜택을 경험하세요.",
-        "features": ["3% 해외 사용금액 캐시백", "시즌별 캐시백", "전 세계 어디서나 결제", "온라인 & 오프라인 쇼핑"],
+        "features": [
+          "3% 해외 사용금액 캐시백",
+          "시즌별 캐시백",
+          "전 세계 어디서나 결제",
+          "온라인 & 오프라인 쇼핑"
+        ],
         "cta": "자세히 보기",
         "details": {
           "mainBenefits": {
@@ -583,7 +697,10 @@
           },
           "delivery": {
             "title": "카드 배송 방법",
-            "methods": ["자택 수령", "GME 지점 수령"]
+            "methods": [
+              "자택 수령",
+              "GME 지점 수령"
+            ]
           },
           "cautions": {
             "title": "주의사항",
@@ -618,7 +735,12 @@
         "name": "화이트 카드",
         "subtitle": "GME White Mastercard",
         "description": "깔끔하고 심플한 화이트 카드. 일상 생활에 꼭 필요한 기능을 합리적으로 제공합니다.",
-        "features": ["시즌별 캐시백", "전 세계 어디서나 결제", "온라인 & 오프라인 쇼핑", "대중교통"],
+        "features": [
+          "시즌별 캐시백",
+          "전 세계 어디서나 결제",
+          "온라인 & 오프라인 쇼핑",
+          "대중교통"
+        ],
         "cta": "혜택 확인하기",
         "details": {
           "mainBenefits": {
@@ -655,7 +777,10 @@
           },
           "delivery": {
             "title": "카드 배송 방법",
-            "methods": ["자택 수령", "GME 지점 수령"]
+            "methods": [
+              "자택 수령",
+              "GME 지점 수령"
+            ]
           },
           "cautions": {
             "title": "주의사항",
@@ -690,14 +815,24 @@
         "name": "유니크 카드",
         "subtitle": "GME Uniq Mastercard",
         "description": "GME만의 특별한 디자인 카드. 다양한 서비스 아이콘이 담긴 컬러풀한 카드로 개성을 표현하세요.",
-        "features": ["한정판 디자인", "글로벌 결제 지원", "이벤트 특별 혜택", "교통카드 기능 내장"],
+        "features": [
+          "한정판 디자인",
+          "글로벌 결제 지원",
+          "이벤트 특별 혜택",
+          "교통카드 기능 내장"
+        ],
         "cta": "카드 신청하기"
       },
       "easyG0": {
         "name": "이지고 카드",
         "subtitle": "GME EasyGo Mastercard",
         "description": "일상의 모든 순간을 더 편리하게. 교통부터 쇼핑까지 시즌별 혜택을 누리세요.",
-        "features": ["후불 교통카드", "시즌별 캐시백", "전 세계 어디서나 결제", "온라인 & 오프라인 쇼핑"],
+        "features": [
+          "후불 교통카드",
+          "시즌별 캐시백",
+          "전 세계 어디서나 결제",
+          "온라인 & 오프라인 쇼핑"
+        ],
         "cta": "카드 신청하기",
         "details": {
           "mainBenefits": {
@@ -737,7 +872,10 @@
           },
           "delivery": {
             "title": "카드 배송 방법",
-            "methods": ["자택 수령", "GME 지점 수령"]
+            "methods": [
+              "자택 수령",
+              "GME 지점 수령"
+            ]
           },
           "cautions": {
             "title": "주의사항",
@@ -842,51 +980,138 @@
       "stats_value": "₩5,000억+",
       "stats_label": "누적 대출 실적",
       "stats_desc": "100만+ 성공 대출 · 14개국 서비스",
-      "countries": { "title": "14개국+", "desc": "글로벌 서비스" },
-      "success": { "title": "100만+", "desc": "대출 성공 건수" },
-      "support": { "title": "24/7", "desc": "고객 지원 센터" },
-      "realtime": { "title": "실시간", "desc": "진행 현황 확인" },
-      "simple": { "title": "간편 신청", "desc": "모바일 앱으로" }
+      "countries": {
+        "title": "14개국+",
+        "desc": "글로벌 서비스"
+      },
+      "success": {
+        "title": "100만+",
+        "desc": "대출 성공 건수"
+      },
+      "support": {
+        "title": "24/7",
+        "desc": "고객 지원 센터"
+      },
+      "realtime": {
+        "title": "실시간",
+        "desc": "진행 현황 확인"
+      },
+      "simple": {
+        "title": "간편 신청",
+        "desc": "모바일 앱으로"
+      }
     },
     "products": {
       "title": "외국인을 위한",
       "title2": "맞춤 대출 상품",
       "subtitle": "다양한 목적에 맞는 대출 상품을 비교하고 선택하세요.",
-      "gme_loan": { "name": "GME 대출", "desc": "일반 생활자금 대출" },
-      "house_loan": { "name": "주택 대출", "desc": "전세·월세 보증금 지원" },
-      "business_loan": { "name": "사업자 대출", "desc": "사업 운영·투자 자금" },
-      "student_loan": { "name": "유학생 대출", "desc": "등록금·학비 지원" },
-      "property_loan": { "name": "부동산 대출", "desc": "부동산 담보 대출" },
-      "vacation_loan": { "name": "휴가 대출", "desc": "여행·휴가 자금 지원" },
-      "car_loan": { "name": "자동차 대출", "desc": "차량 구매 자금 지원" }
+      "gme_loan": {
+        "name": "GME 대출",
+        "desc": "일반 생활자금 대출"
+      },
+      "house_loan": {
+        "name": "주택 대출",
+        "desc": "전세·월세 보증금 지원"
+      },
+      "business_loan": {
+        "name": "사업자 대출",
+        "desc": "사업 운영·투자 자금"
+      },
+      "student_loan": {
+        "name": "유학생 대출",
+        "desc": "등록금·학비 지원"
+      },
+      "property_loan": {
+        "name": "부동산 대출",
+        "desc": "부동산 담보 대출"
+      },
+      "vacation_loan": {
+        "name": "휴가 대출",
+        "desc": "여행·휴가 자금 지원"
+      },
+      "car_loan": {
+        "name": "자동차 대출",
+        "desc": "차량 구매 자금 지원"
+      }
     },
     "details": {
       "title": "Loan Details",
-      "max_amount": { "label": "최대 대출 금액", "value": "최대 3,500만원" },
-      "duration": { "label": "대출 기간", "value": "3 - 45개월" },
-      "visa_period": { "label": "잔여 비자 기간", "value": "7 - 48개월" },
-      "contract": { "label": "계약 방식", "value": "디지털 계약" },
-      "loanable": { "label": "대출 가능 금액", "value": "200만원 - 3,500만원" },
-      "visa_types": { "label": "대상 비자", "value": "E9, E7, F2, F5, F6, D8 및 합법 근로계약 보유자" },
-      "repayment": { "label": "상환 방법", "value": "월 할부 상환" },
-      "early_settlement": { "label": "조기 상환 수수료", "value": "무료" }
+      "max_amount": {
+        "label": "최대 대출 금액",
+        "value": "최대 3,500만원"
+      },
+      "duration": {
+        "label": "대출 기간",
+        "value": "3 - 45개월"
+      },
+      "visa_period": {
+        "label": "잔여 비자 기간",
+        "value": "7 - 48개월"
+      },
+      "contract": {
+        "label": "계약 방식",
+        "value": "디지털 계약"
+      },
+      "loanable": {
+        "label": "대출 가능 금액",
+        "value": "200만원 - 3,500만원"
+      },
+      "visa_types": {
+        "label": "대상 비자",
+        "value": "E9, E7, F2, F5, F6, D8 및 합법 근로계약 보유자"
+      },
+      "repayment": {
+        "label": "상환 방법",
+        "value": "월 할부 상환"
+      },
+      "early_settlement": {
+        "label": "조기 상환 수수료",
+        "value": "무료"
+      }
     },
     "process": {
       "title": "간편 대출 신청",
       "subtitle": "5단계 신청 절차",
-      "step1": { "title": "GME 앱 신청", "desc": "Google Play Store 또는 App Store에서 GME 앱을 다운로드하고 회원가입 후 대출을 신청하세요." },
-      "step2": { "title": "서류 제출", "desc": "본인 정보를 입력하고 필요한 서류를 제출하세요." },
-      "step3": { "title": "서류 검증", "desc": "담당 직원이 제출된 서류를 검증하고 신용 상태를 확인합니다." },
-      "step4": { "title": "승인", "desc": "승인이 완료되면 디지털 계약 서명 절차가 진행됩니다." },
-      "step5": { "title": "대출금 지급", "desc": "계약 서명 후 대출 금액이 등록된 은행 계좌로 입금됩니다." }
+      "step1": {
+        "title": "GME 앱 신청",
+        "desc": "Google Play Store 또는 App Store에서 GME 앱을 다운로드하고 회원가입 후 대출을 신청하세요."
+      },
+      "step2": {
+        "title": "서류 제출",
+        "desc": "본인 정보를 입력하고 필요한 서류를 제출하세요."
+      },
+      "step3": {
+        "title": "서류 검증",
+        "desc": "담당 직원이 제출된 서류를 검증하고 신용 상태를 확인합니다."
+      },
+      "step4": {
+        "title": "승인",
+        "desc": "승인이 완료되면 디지털 계약 서명 절차가 진행됩니다."
+      },
+      "step5": {
+        "title": "대출금 지급",
+        "desc": "계약 서명 후 대출 금액이 등록된 은행 계좌로 입금됩니다."
+      }
     },
     "faq": {
       "title": "자주 묻는 질문",
       "items": [
-        { "q": "어떤 비자 소지자가 대출을 받을 수 있나요?", "a": "D-2, E-9, E-10, E-7, E-1, E-2, E-3, F-2, F-2R, F-5, F-6, F-4, G-1 비자 소지자가 대출 신청이 가능합니다. 비자 종류에 따라 신청 가능한 상품이 다를 수 있습니다." },
-        { "q": "대출 신청에 필요한 서류는 무엇인가요?", "a": "외국인등록증(ARC), 근로계약서, 여권 3가지만 있으면 됩니다. 복잡한 서류 없이 간편하게 신청할 수 있습니다." },
-        { "q": "대출은 어떻게 신청하나요?", "a": "GME Finance 앱에서 간편하게 신청할 수 있습니다. 스마트폰만 있으면 언제 어디서든 빠르고 안전하게 대출 신청이 가능합니다." },
-        { "q": "개인정보는 안전한가요?", "a": "GME Finance는 외국인 고객을 위해 설계된 안전한 시스템으로 개인정보를 보호합니다. 안심하고 이용하실 수 있습니다." }
+        {
+          "q": "어떤 비자 소지자가 대출을 받을 수 있나요?",
+          "a": "D-2, E-9, E-10, E-7, E-1, E-2, E-3, F-2, F-2R, F-5, F-6, F-4, G-1 비자 소지자가 대출 신청이 가능합니다. 비자 종류에 따라 신청 가능한 상품이 다를 수 있습니다."
+        },
+        {
+          "q": "대출 신청에 필요한 서류는 무엇인가요?",
+          "a": "외국인등록증(ARC), 근로계약서, 여권 3가지만 있으면 됩니다. 복잡한 서류 없이 간편하게 신청할 수 있습니다."
+        },
+        {
+          "q": "대출은 어떻게 신청하나요?",
+          "a": "GME Finance 앱에서 간편하게 신청할 수 있습니다. 스마트폰만 있으면 언제 어디서든 빠르고 안전하게 대출 신청이 가능합니다."
+        },
+        {
+          "q": "개인정보는 안전한가요?",
+          "a": "GME Finance는 외국인 고객을 위해 설계된 안전한 시스템으로 개인정보를 보호합니다. 안심하고 이용하실 수 있습니다."
+        }
       ]
     },
     "cta": {
@@ -1058,6 +1283,103 @@
         "african-region": "아프리카 지역",
         "western": "영미권"
       }
+    }
+  },
+  "remittance": {
+    "hero": {
+      "badge": "GME REMITTANCE",
+      "title1": "빠르고 안전한",
+      "title2": "해외송금 서비스",
+      "description": "200개국 이상으로 빠르고 안전하게 송금하세요.",
+      "cta": "서비스 보기"
+    },
+    "why": {
+      "subtitle": "왜 GME 송금인가요",
+      "title": "신뢰할 수 있는 글로벌 송금",
+      "items": {
+        "fastest": {
+          "title": "빠른 송금",
+          "desc": "실시간 처리로 송금 소요 시간을 최소화합니다."
+        },
+        "cheapest": {
+          "title": "합리적인 수수료",
+          "desc": "은행 대비 경쟁력 있는 수수료와 환율을 제공합니다."
+        },
+        "secure": {
+          "title": "안전한 인증",
+          "desc": "강화된 본인인증과 보안 체계로 안전하게 보호합니다."
+        }
+      }
+    },
+    "stats": {
+      "achieved": {
+        "value": "₩3.5조+",
+        "label": "누적 송금액"
+      },
+      "branches": {
+        "value": "12개",
+        "label": "국내 지점"
+      },
+      "savings": {
+        "value": "90%",
+        "label": "수수료 절감"
+      },
+      "languages": {
+        "value": "14개",
+        "label": "지원 언어"
+      }
+    },
+    "features": {
+      "title": "더 쉽고",
+      "title2": "더 안전한 송금",
+      "subtitle": "앱 하나로 간편하게 송금부터 조회까지",
+      "app": {
+        "title": "앱으로 간편 송금",
+        "desc": "모바일 앱에서 몇 번의 터치로 송금 완료"
+      },
+      "convenient": {
+        "title": "편리한 사용자 경험",
+        "desc": "직관적인 화면으로 누구나 쉽게 이용"
+      },
+      "multilingual": {
+        "title": "다국어 지원",
+        "desc": "여러 언어로 편리하게 서비스 이용"
+      },
+      "branches": {
+        "title": "오프라인 지점",
+        "desc": "전국 지점에서 상담 및 지원 가능"
+      }
+    },
+    "process": {
+      "title": "간편한",
+      "title2": "송금 절차",
+      "subtitle": "송금 신청부터 완료까지 3단계",
+      "step1": {
+        "title": "앱 설치 및 실행",
+        "desc": "GME 앱을 설치하고 본인인증을 진행합니다."
+      },
+      "step2": {
+        "title": "수취인 정보 입력",
+        "desc": "국가와 계좌 정보를 입력하고 금액을 확인합니다."
+      },
+      "step3": {
+        "title": "송금 완료",
+        "desc": "결제 후 실시간으로 송금 상태를 확인합니다."
+      }
+    },
+    "trust": {
+      "title": "검증된 신뢰",
+      "desc": "국내외 규정 준수와 글로벌 파트너 네트워크로 안전한 서비스를 제공합니다.",
+      "moef": "기획재정부 등록",
+      "fss": "금융당국 준수",
+      "efb": "전자금융업 등록",
+      "partner": "글로벌 파트너"
+    },
+    "regions": {
+      "title": "전 세계",
+      "title2": "송금 가능 국가",
+      "subtitle": "아시아, 유럽, 미주, 아프리카 등 200개국 이상 지원",
+      "more": "그 외 다수 국가 지원"
     }
   }
 }

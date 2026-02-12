@@ -50,7 +50,11 @@
       }
     },
     "app_download": {
-      "chips": ["Real-time rates", "Optimized amounts", "Secure authentication"],
+      "chips": [
+        "Real-time rates",
+        "Optimized amounts",
+        "Secure authentication"
+      ],
       "subtitle": "GME REMIT APP",
       "title1": "Send faster,",
       "title2": "Manage smarter",
@@ -172,32 +176,65 @@
         "desc": "1M+ Successful Loans · 14 Countries"
       },
       "features": {
-        "countries": { "label": "14+", "desc": "Countries" },
-        "success": { "label": "1M+", "desc": "Loans" },
-        "support": { "label": "24/7", "desc": "Support" },
-        "realtime": { "label": "Real-time", "desc": "Tracking" },
-        "simple": { "label": "Simple", "desc": "App Apply" }
+        "countries": {
+          "label": "14+",
+          "desc": "Countries"
+        },
+        "success": {
+          "label": "1M+",
+          "desc": "Loans"
+        },
+        "support": {
+          "label": "24/7",
+          "desc": "Support"
+        },
+        "realtime": {
+          "label": "Real-time",
+          "desc": "Tracking"
+        },
+        "simple": {
+          "label": "Simple",
+          "desc": "App Apply"
+        }
       }
     },
     "cards": {
       "black": {
         "desc": "Premium card specialized for overseas payments. Enjoy the best cashback benefits wherever you are.",
-        "highlights": ["3% Cashback on Overseas", "0.3% Cashback Domestic", "Special Event Discounts", "Metro · Bus · Taxi Easy Pay"],
+        "highlights": [
+          "3% Cashback on Overseas",
+          "0.3% Cashback Domestic",
+          "Special Event Discounts",
+          "Metro · Bus · Taxi Easy Pay"
+        ],
         "cta": "View The Black Card"
       },
       "white": {
         "desc": "Simple and clean everyday card. Convenient for domestic payments and public transit.",
-        "highlights": ["0.3% Cashback Domestic", "Special Event Discounts", "Metro · Bus · Taxi Easy Pay"],
+        "highlights": [
+          "0.3% Cashback Domestic",
+          "Special Event Discounts",
+          "Metro · Bus · Taxi Easy Pay"
+        ],
         "cta": "View The White Card"
       },
       "red": {
         "desc": "Card with GME's signature color. Make every payment stylish.",
-        "highlights": ["0.3% Cashback Domestic", "Special Event Discounts", "Metro · Bus · Taxi Easy Pay"],
+        "highlights": [
+          "0.3% Cashback Domestic",
+          "Special Event Discounts",
+          "Metro · Bus · Taxi Easy Pay"
+        ],
         "cta": "View The Red Card"
       },
       "uniq": {
         "desc": "Choose your own card from 30+ designs across 18 countries.",
-        "highlights": ["0.3% Cashback Domestic", "Special Event Discounts", "18 Countries 30+ Designs", "Metro · Bus · Taxi Easy Pay"],
+        "highlights": [
+          "0.3% Cashback Domestic",
+          "Special Event Discounts",
+          "18 Countries 30+ Designs",
+          "Metro · Bus · Taxi Easy Pay"
+        ],
         "cta": "View The Uniq Card"
       },
       "image_alt": "Card Image"
@@ -416,37 +453,99 @@
         "title": "SPS",
         "subtitle": "Seamless Payment Solution",
         "description": "24/7 bulk cross-border payout solution. Manage FX, verify recipients, and process mass payments all in one place.",
-        "features": ["Payout 24/7", "Control FX", "Mass Payouts", "Real-Time Status", "Instant Payments", "Real-Time Verification"]
+        "features": [
+          "Payout 24/7",
+          "Control FX",
+          "Mass Payouts",
+          "Real-Time Status",
+          "Instant Payments",
+          "Real-Time Verification"
+        ]
       },
       "vas": {
         "title": "VAS",
         "subtitle": "Value Added Services",
         "description": "From virtual account issuance to collections on behalf. All the add-on features you need for payment operations.",
-        "features": ["Real-Time Notifications", "Local Collection at Low Cost", "Assign V/As", "Virtual Accounts in Multiple Formats", "Collections On-behalf-Of (COBO)", "No Restrictions on Beneficiaries & Depositors", "Instant V/A Issuance via API or Portal"]
+        "features": [
+          "Real-Time Notifications",
+          "Local Collection at Low Cost",
+          "Assign V/As",
+          "Virtual Accounts in Multiple Formats",
+          "Collections On-behalf-Of (COBO)",
+          "No Restrictions on Beneficiaries & Depositors",
+          "Instant V/A Issuance via API or Portal"
+        ]
       }
     },
     "features": {
       "label": "Service Features",
       "title": "GME Payment Service Features",
-      "accounting": { "title": "Accounting", "description": "Easy reconciliation to simplify your accounting. Even complex settlements, handled cleanly." },
-      "pob": { "title": "Payment on Behalf", "description": "High level of transparency and maximum efficiency for proxy payments." },
-      "flexibility": { "title": "Flexibility", "description": "Exchange and pay simultaneously, or manage your own FX. Operate the way you want." },
-      "dynamic": { "title": "Dynamic", "description": "Choose your payment method, track transactions in real-time, and get instant payment receipts." },
-      "netout": { "title": "Netout", "description": "Lower your cost with funding leverage. No hidden commissions." },
-      "technology": { "title": "Technology", "description": "Micro Service Architecture with embedded AML & verification for a robust, reliable system." }
+      "accounting": {
+        "title": "Accounting",
+        "description": "Easy reconciliation to simplify your accounting. Even complex settlements, handled cleanly."
+      },
+      "pob": {
+        "title": "Payment on Behalf",
+        "description": "High level of transparency and maximum efficiency for proxy payments."
+      },
+      "flexibility": {
+        "title": "Flexibility",
+        "description": "Exchange and pay simultaneously, or manage your own FX. Operate the way you want."
+      },
+      "dynamic": {
+        "title": "Dynamic",
+        "description": "Choose your payment method, track transactions in real-time, and get instant payment receipts."
+      },
+      "netout": {
+        "title": "Netout",
+        "description": "Lower your cost with funding leverage. No hidden commissions."
+      },
+      "technology": {
+        "title": "Technology",
+        "description": "Micro Service Architecture with embedded AML & verification for a robust, reliable system."
+      }
     },
     "partners": {
       "label": "Partners",
       "title": "Trusted and Partnered By",
-      "list": ["Hana Bank", "Alipay", "Skyee", "PayerMax", "Xe", "Veem", "Sandman", "colognes", "BaoFuGlobal", "Ripple", "PingPong", "Tazapay", "LianLian Pay", "Terrapin", "Ria", "Thunes"]
+      "list": [
+        "Hana Bank",
+        "Alipay",
+        "Skyee",
+        "PayerMax",
+        "Xe",
+        "Veem",
+        "Sandman",
+        "colognes",
+        "BaoFuGlobal",
+        "Ripple",
+        "PingPong",
+        "Tazapay",
+        "LianLian Pay",
+        "Terrapin",
+        "Ria",
+        "Thunes"
+      ]
     },
     "process": {
       "label": "How It Works",
       "title": "How GME Payments Works",
-      "step1": { "title": "SPS + VAS", "description": "SPS for cross-border payouts, VAS for collections and virtual accounts. Both provided as part of the service." },
-      "step2": { "title": "API Integration", "description": "Connect your system using our API documentation at developers.gmeremit.com." },
-      "step3": { "title": "FX & Payment Control", "description": "Manage your own FX or exchange and pay simultaneously. Track every transaction in real-time." },
-      "step4": { "title": "Reconciliation & Reports", "description": "Easy reconciliation for settlements, instant payment receipts and full transaction history." }
+      "step1": {
+        "title": "SPS + VAS",
+        "description": "SPS for cross-border payouts, VAS for collections and virtual accounts. Both provided as part of the service."
+      },
+      "step2": {
+        "title": "API Integration",
+        "description": "Connect your system using our API documentation at developers.gmeremit.com."
+      },
+      "step3": {
+        "title": "FX & Payment Control",
+        "description": "Manage your own FX or exchange and pay simultaneously. Track every transaction in real-time."
+      },
+      "step4": {
+        "title": "Reconciliation & Reports",
+        "description": "Easy reconciliation for settlements, instant payment receipts and full transaction history."
+      }
     },
     "cta": {
       "title": "Get Started with GME Payments",
@@ -471,35 +570,60 @@
         "name": "Red Card",
         "subtitle": "GME Red Mastercard",
         "description": "GME's signature card. Pay at any Mastercard merchant worldwide and enjoy exclusive event discounts and cashback rewards.",
-        "features": ["Mastercard global payments", "Up to 30% cashback on events", "ATM withdrawal & deposit", "Public transit card function"],
+        "features": [
+          "Mastercard global payments",
+          "Up to 30% cashback on events",
+          "ATM withdrawal & deposit",
+          "Public transit card function"
+        ],
         "cta": "Apply Now"
       },
       "black": {
         "name": "Black Card",
         "subtitle": "GME Black Mastercard",
         "description": "The premium choice. A sleek black design with upgraded benefits for those who want more.",
-        "features": ["Premium cashback rewards", "Reduced foreign transaction fees", "Dedicated customer center", "On & offline payments"],
+        "features": [
+          "Premium cashback rewards",
+          "Reduced foreign transaction fees",
+          "Dedicated customer center",
+          "On & offline payments"
+        ],
         "cta": "Learn More"
       },
       "white": {
         "name": "White Card",
         "subtitle": "GME White Mastercard",
         "description": "Clean and simple. The White Card offers all the essential features you need at a great value.",
-        "features": ["Convenience store & cafe discounts", "Free public transit pass", "Easy mobile app management", "Nationwide ATM access"],
+        "features": [
+          "Convenience store & cafe discounts",
+          "Free public transit pass",
+          "Easy mobile app management",
+          "Nationwide ATM access"
+        ],
         "cta": "View Benefits"
       },
       "uniq": {
         "name": "Uniq Card",
         "subtitle": "GME Uniq Mastercard",
         "description": "A one-of-a-kind design card by GME. Express your personality with this colorful, limited edition card.",
-        "features": ["Limited edition design", "Global payment support", "Special event benefits", "Built-in transit card"],
+        "features": [
+          "Limited edition design",
+          "Global payment support",
+          "Special event benefits",
+          "Built-in transit card"
+        ],
         "cta": "Apply Now"
       },
       "easyG0": {
         "name": "EasyGo Card",
         "subtitle": "GME EasyGo Mastercard",
         "description": "Make every moment more convenient. Enjoy seasonal benefits from transit to shopping.",
-        "features": ["Postpaid transit card", "Seasonal cashback", "Online & offline shopping", "Pay anywhere in the world"],
+        "features": [
+          "Postpaid transit card",
+          "Seasonal cashback",
+          "Online & offline shopping",
+          "Pay anywhere in the world"
+        ],
         "cta": "Apply Now"
       }
     },
@@ -548,51 +672,138 @@
       "stats_value": "₩500B+",
       "stats_label": "Cumulative Loans",
       "stats_desc": "1M+ Successful Loans · 14 Countries",
-      "countries": { "title": "14+", "desc": "Countries Served" },
-      "success": { "title": "1M+", "desc": "Successful Loans" },
-      "support": { "title": "24/7", "desc": "Customer Support" },
-      "realtime": { "title": "Real-time", "desc": "Status Tracking" },
-      "simple": { "title": "Easy Apply", "desc": "Via Mobile App" }
+      "countries": {
+        "title": "14+",
+        "desc": "Countries Served"
+      },
+      "success": {
+        "title": "1M+",
+        "desc": "Successful Loans"
+      },
+      "support": {
+        "title": "24/7",
+        "desc": "Customer Support"
+      },
+      "realtime": {
+        "title": "Real-time",
+        "desc": "Status Tracking"
+      },
+      "simple": {
+        "title": "Easy Apply",
+        "desc": "Via Mobile App"
+      }
     },
     "products": {
       "title": "Loan Products",
       "title2": "Tailored for You",
       "subtitle": "Compare and choose the loan product that fits your needs.",
-      "gme_loan": { "name": "GME Loan", "desc": "General living expenses" },
-      "house_loan": { "name": "House Loan", "desc": "Jeonse & rent deposit" },
-      "business_loan": { "name": "Business Loan", "desc": "Business operation funds" },
-      "student_loan": { "name": "Student Loan", "desc": "Tuition & school fees" },
-      "property_loan": { "name": "Property Loan", "desc": "Property-backed loan" },
-      "vacation_loan": { "name": "Vacation Loan", "desc": "Travel & vacation funds" },
-      "car_loan": { "name": "Car Loan", "desc": "Vehicle purchase funds" }
+      "gme_loan": {
+        "name": "GME Loan",
+        "desc": "General living expenses"
+      },
+      "house_loan": {
+        "name": "House Loan",
+        "desc": "Jeonse & rent deposit"
+      },
+      "business_loan": {
+        "name": "Business Loan",
+        "desc": "Business operation funds"
+      },
+      "student_loan": {
+        "name": "Student Loan",
+        "desc": "Tuition & school fees"
+      },
+      "property_loan": {
+        "name": "Property Loan",
+        "desc": "Property-backed loan"
+      },
+      "vacation_loan": {
+        "name": "Vacation Loan",
+        "desc": "Travel & vacation funds"
+      },
+      "car_loan": {
+        "name": "Car Loan",
+        "desc": "Vehicle purchase funds"
+      }
     },
     "details": {
       "title": "Loan Details",
-      "max_amount": { "label": "Maximum Loan Amount", "value": "Up to 35 mil" },
-      "duration": { "label": "Loan Duration", "value": "3 - 45 months" },
-      "visa_period": { "label": "Eligible Remaining Visa Period", "value": "7 - 48 months" },
-      "contract": { "label": "Contract Signing Method", "value": "Digital Contract" },
-      "loanable": { "label": "Loanable Amount", "value": "2 mil - 35 mil" },
-      "visa_types": { "label": "Eligible Visa Types", "value": "E9, E7, F2, F5, F6, D8 & any visa with Legal Work Contract" },
-      "repayment": { "label": "Repayment Method", "value": "Monthly Installment" },
-      "early_settlement": { "label": "Early Settlement Charges", "value": "Free" }
+      "max_amount": {
+        "label": "Maximum Loan Amount",
+        "value": "Up to 35 mil"
+      },
+      "duration": {
+        "label": "Loan Duration",
+        "value": "3 - 45 months"
+      },
+      "visa_period": {
+        "label": "Eligible Remaining Visa Period",
+        "value": "7 - 48 months"
+      },
+      "contract": {
+        "label": "Contract Signing Method",
+        "value": "Digital Contract"
+      },
+      "loanable": {
+        "label": "Loanable Amount",
+        "value": "2 mil - 35 mil"
+      },
+      "visa_types": {
+        "label": "Eligible Visa Types",
+        "value": "E9, E7, F2, F5, F6, D8 & any visa with Legal Work Contract"
+      },
+      "repayment": {
+        "label": "Repayment Method",
+        "value": "Monthly Installment"
+      },
+      "early_settlement": {
+        "label": "Early Settlement Charges",
+        "value": "Free"
+      }
     },
     "process": {
       "title": "Simple Loan Application",
       "subtitle": "5 Step Applying Process",
-      "step1": { "title": "Apply Through GME App", "desc": "Download GME App in Google Play Store or App Store. Register and Apply Loan." },
-      "step2": { "title": "Requirement Submission", "desc": "Fill up your information and submit the required documents." },
-      "step3": { "title": "Verification", "desc": "Our staff will verify your documents and check your credit standing." },
-      "step4": { "title": "Approval", "desc": "Once approved, digital contract signing will proceed." },
-      "step5": { "title": "Disbursements", "desc": "After contract signing, loan amount will be deposited to your bank account." }
+      "step1": {
+        "title": "Apply Through GME App",
+        "desc": "Download GME App in Google Play Store or App Store. Register and Apply Loan."
+      },
+      "step2": {
+        "title": "Requirement Submission",
+        "desc": "Fill up your information and submit the required documents."
+      },
+      "step3": {
+        "title": "Verification",
+        "desc": "Our staff will verify your documents and check your credit standing."
+      },
+      "step4": {
+        "title": "Approval",
+        "desc": "Once approved, digital contract signing will proceed."
+      },
+      "step5": {
+        "title": "Disbursements",
+        "desc": "After contract signing, loan amount will be deposited to your bank account."
+      }
     },
     "faq": {
       "title": "Frequently Asked Questions",
       "items": [
-        { "q": "Which visa holders can apply for a loan?", "a": "Holders of D-2, E-9, E-10, E-7, E-1, E-2, E-3, F-2, F-2R, F-5, F-6, F-4, and G-1 visas are eligible. Available products may vary depending on your visa type." },
-        { "q": "What documents are required?", "a": "Only three documents are needed: Alien Registration Card (ARC), Employment Contract, and Passport. No complicated paperwork—just a smooth and simple process." },
-        { "q": "How do I apply for a loan?", "a": "You can apply easily through the GME Finance mobile app. With just your smartphone, you can apply for a loan quickly and securely—anytime, anywhere." },
-        { "q": "Is my personal information safe?", "a": "GME Finance provides secure handling of personal information through a system specifically designed for foreign customers. You can use our services with confidence." }
+        {
+          "q": "Which visa holders can apply for a loan?",
+          "a": "Holders of D-2, E-9, E-10, E-7, E-1, E-2, E-3, F-2, F-2R, F-5, F-6, F-4, and G-1 visas are eligible. Available products may vary depending on your visa type."
+        },
+        {
+          "q": "What documents are required?",
+          "a": "Only three documents are needed: Alien Registration Card (ARC), Employment Contract, and Passport. No complicated paperwork—just a smooth and simple process."
+        },
+        {
+          "q": "How do I apply for a loan?",
+          "a": "You can apply easily through the GME Finance mobile app. With just your smartphone, you can apply for a loan quickly and securely—anytime, anywhere."
+        },
+        {
+          "q": "Is my personal information safe?",
+          "a": "GME Finance provides secure handling of personal information through a system specifically designed for foreign customers. You can use our services with confidence."
+        }
       ]
     },
     "cta": {
@@ -764,6 +975,103 @@
         "african-region": "African Region",
         "western": "Western"
       }
+    }
+  },
+  "remittance": {
+    "hero": {
+      "badge": "GME REMITTANCE",
+      "title1": "Fast and Secure",
+      "title2": "International Transfers",
+      "description": "Send money quickly and safely to 200+ countries.",
+      "cta": "View Service"
+    },
+    "why": {
+      "subtitle": "Why GME Remittance",
+      "title": "A Trusted Global Remittance Service",
+      "items": {
+        "fastest": {
+          "title": "Fast Transfers",
+          "desc": "Real-time processing minimizes transfer time."
+        },
+        "cheapest": {
+          "title": "Competitive Fees",
+          "desc": "Better fees and rates than traditional banks."
+        },
+        "secure": {
+          "title": "Secure Verification",
+          "desc": "Enhanced identity verification and security protection."
+        }
+      }
+    },
+    "stats": {
+      "achieved": {
+        "value": "₩3.5T+",
+        "label": "Total Remittance"
+      },
+      "branches": {
+        "value": "12",
+        "label": "Korea Branches"
+      },
+      "savings": {
+        "value": "90%",
+        "label": "Fee Savings"
+      },
+      "languages": {
+        "value": "14",
+        "label": "Supported Languages"
+      }
+    },
+    "features": {
+      "title": "Simpler",
+      "title2": "Safer Transfers",
+      "subtitle": "Transfer and track everything in one app",
+      "app": {
+        "title": "App-based Transfer",
+        "desc": "Complete remittance in a few taps"
+      },
+      "convenient": {
+        "title": "Easy Experience",
+        "desc": "Intuitive flow anyone can use"
+      },
+      "multilingual": {
+        "title": "Multilingual Support",
+        "desc": "Use the service in multiple languages"
+      },
+      "branches": {
+        "title": "Offline Branches",
+        "desc": "Get support at branches nationwide"
+      }
+    },
+    "process": {
+      "title": "Simple",
+      "title2": "Transfer Process",
+      "subtitle": "3 steps from application to completion",
+      "step1": {
+        "title": "Install & Verify",
+        "desc": "Install GME app and complete identity verification."
+      },
+      "step2": {
+        "title": "Enter Recipient",
+        "desc": "Select country, account details, and amount."
+      },
+      "step3": {
+        "title": "Transfer Complete",
+        "desc": "Pay and track transfer status in real time."
+      }
+    },
+    "trust": {
+      "title": "Proven Trust",
+      "desc": "Safe service backed by compliance and global partners.",
+      "moef": "MOEF Registered",
+      "fss": "Regulatory Compliance",
+      "efb": "E-Finance Registered",
+      "partner": "Global Partners"
+    },
+    "regions": {
+      "title": "Global",
+      "title2": "Coverage",
+      "subtitle": "Available across Asia, Europe, Americas, and Africa in 200+ countries.",
+      "more": "And many more supported countries"
     }
   }
 }
