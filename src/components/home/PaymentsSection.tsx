@@ -1,57 +1,46 @@
+"use client";
+
 import Link from "next/link";
+import { useTranslation } from "@/hooks/useTranslation";
+import type { ReactNode } from "react";
 
-const stats = [
-  {
-    label: "결제 속도",
-    value: (
-      <svg className="w-7 h-7 text-[#191c1f]" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
-      </svg>
-    ),
-    change: "즉시 입금 처리",
-    color: "#3b82f6",
-  },
-  { label: "글로벌 파트너", value: "16+", change: "파트너사", color: "#3b82f6" },
-  { label: "서비스", value: "24/7", change: "실시간 운영", color: "#22c55e" },
+const statKeys = ["cost_saving", "partners", "success_rate"] as const;
+
+const statColors: Record<string, string> = {
+  cost_saving: "#3b82f6",
+  partners: "#3b82f6",
+  success_rate: "#22c55e",
+};
+
+const transactionDefs: { key: string; icon: string; amount: string; timePre?: string; timeKey: string; statusKey: string; statusColor: string }[] = [
+  { key: "b2b", icon: "💼", amount: "₩128,500,000", timeKey: "just_now", statusKey: "completed", statusColor: "#22c55e" },
+  { key: "partner", icon: "🏢", amount: "₩45,200,000", timePre: "2", timeKey: "mins_ago", statusKey: "processing", statusColor: "#f59e0b" },
+  { key: "merchant", icon: "🛒", amount: "₩18,700,000", timePre: "5", timeKey: "mins_ago", statusKey: "completed", statusColor: "#22c55e" },
 ];
 
-const transactions = [
-  { icon: "💼", name: "B2B 대량 송금", amount: "₩128,500,000", time: "방금 전", status: "완료", statusColor: "#22c55e" },
-  { icon: "🏢", name: "파트너사 정산", amount: "₩45,200,000", time: "2분 전", status: "처리중", statusColor: "#f59e0b" },
-  { icon: "🛒", name: "가맹점 결제", amount: "₩18,700,000", time: "5분 전", status: "완료", statusColor: "#22c55e" },
-];
+const featureKeys = ["sps", "vas", "smb"] as const;
 
-const features = [
-  {
-    title: "SPS",
-    desc: "B2B 결제 솔루션",
-    icon: (
-      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
-      </svg>
-    )
-  },
-  {
-    title: "VAS",
-    desc: "알림·리포트·대시보드",
-    icon: (
-      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-      </svg>
-    )
-  },
-  {
-    title: "FX",
-    desc: "환율·정산 관리",
-    icon: (
-      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-      </svg>
-    )
-  },
-];
+const featureIcons: Record<string, ReactNode> = {
+  sps: (
+    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+    </svg>
+  ),
+  vas: (
+    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+    </svg>
+  ),
+  smb: (
+    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
+  ),
+};
 
 export default function PaymentsSection() {
+  const { t } = useTranslation("home.global_payments");
+
   return (
     <section id="payments-section" className="relative min-h-screen overflow-hidden flex items-center">
       <div className="absolute inset-0 bg-gradient-to-br from-[#fafbff] via-[#f5f8ff] to-[#eff6ff]" />
@@ -63,15 +52,15 @@ export default function PaymentsSection() {
         <div className="w-full grid lg:grid-cols-[1fr_1.2fr] gap-12 lg:gap-20 items-center">
           <div className="order-1 lg:order-2">
             <p className="text-xs font-semibold tracking-[0.32em] text-[#3b82f6] mb-3">PAYMENTS</p>
-            <h2 className="text-4xl sm:text-5xl font-bold text-[#191c1f] leading-[1.08] mb-5">Global Payments</h2>
+            <h2 className="text-4xl sm:text-5xl font-bold text-[#191c1f] leading-[1.08] mb-5">{t("title")}</h2>
             <p className="text-xl text-gray-600 leading-relaxed mb-8">
-              급여 송금, 파트너 정산, 이커머스 결제까지. 비용 절감과 효율적인 기업 결제 솔루션을 제공합니다.
+              {t("description")}
             </p>
             <Link
               href="/services/payments"
               className="group inline-flex items-center gap-3 text-[#3b82f6] font-semibold bg-[#dbeafe] hover:bg-[#bfdbfe] px-5 py-3 rounded-xl transition-colors duration-250 ease-out cursor-pointer"
             >
-              Payments 자세히 보기
+              {t("button.detail")}
               <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#3b82f6] text-white transition-transform duration-300 ease-out group-hover:-rotate-45">
                 <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
@@ -95,23 +84,23 @@ export default function PaymentsSection() {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-sm font-bold text-[#191c1f]">Payment Solutions</p>
-                    <p className="text-[11px] text-[#999]">기업 맞춤 솔루션</p>
+                    <p className="text-sm font-bold text-[#191c1f]">{t("card.title")}</p>
+                    <p className="text-[11px] text-[#999]">{t("card.subtitle")}</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-1.5">
                   <span className="w-2 h-2 rounded-full bg-[#22c55e] animate-pulse" />
-                  <span className="text-xs font-semibold text-[#22c55e]">운영중</span>
+                  <span className="text-xs font-semibold text-[#22c55e]">{t("card.status")}</span>
                 </div>
               </div>
 
               {/* Stats Grid */}
               <div className="grid grid-cols-3 gap-3 mb-4">
-                {stats.map((stat) => (
-                  <div key={stat.label} className="rounded-xl bg-[#f8f9fa] p-5">
-                    <p className="text-[11px] text-[#888] mb-1">{stat.label}</p>
-                    <p className="text-lg font-bold text-[#191c1f]">{stat.value}</p>
-                    <p className="text-[10px] font-semibold mt-0.5" style={{ color: stat.color }}>{stat.change}</p>
+                {statKeys.map((key) => (
+                  <div key={key} className="rounded-xl bg-[#f8f9fa] p-5">
+                    <p className="text-[11px] text-[#888] mb-1">{t(`stats.${key}`)}</p>
+                    <p className="text-lg font-bold text-[#191c1f]">{t(`stats.${key}_value`)}</p>
+                    <p className="text-[10px] font-semibold mt-0.5" style={{ color: statColors[key] }}>{t(`stats.${key}_change`)}</p>
                   </div>
                 ))}
               </div>
@@ -119,21 +108,23 @@ export default function PaymentsSection() {
               {/* Transaction List */}
               <div className="rounded-2xl border border-[#f0f0f0] overflow-hidden">
                 <div className="px-4 py-2.5 bg-[#fafafa] border-b border-[#f0f0f0]">
-                  <p className="text-[11px] font-semibold text-[#888]">최근 처리 내역</p>
+                  <p className="text-[11px] font-semibold text-[#888]">{t("transactions.title")}</p>
                 </div>
                 <div className="divide-y divide-[#f0f0f0]">
-                  {transactions.map((tx) => (
-                    <div key={tx.name} className="flex items-center justify-between px-4 py-4">
+                  {transactionDefs.map((tx) => (
+                    <div key={tx.key} className="flex items-center justify-between px-4 py-4">
                       <div className="flex items-center gap-3">
                         <span className="text-xl">{tx.icon}</span>
                         <div>
-                          <p className="text-sm font-semibold text-[#191c1f]">{tx.name}</p>
-                          <p className="text-[11px] text-[#999]">{tx.time}</p>
+                          <p className="text-sm font-semibold text-[#191c1f]">{t(`transactions.${tx.key}`)}</p>
+                          <p className="text-[11px] text-[#999]">
+                            {tx.timePre ? `${tx.timePre} ${t(`transactions.${tx.timeKey}`)}` : t(`transactions.${tx.timeKey}`)}
+                          </p>
                         </div>
                       </div>
                       <div className="text-right">
                         <p className="text-sm font-bold text-[#191c1f]">{tx.amount}</p>
-                        <p className="text-[10px] font-semibold" style={{ color: tx.statusColor }}>{tx.status}</p>
+                        <p className="text-[10px] font-semibold" style={{ color: tx.statusColor }}>{t(`transactions.${tx.statusKey}`)}</p>
                       </div>
                     </div>
                   ))}
@@ -142,13 +133,13 @@ export default function PaymentsSection() {
 
               {/* Feature Cards */}
               <div className="mt-4 grid grid-cols-3 gap-3">
-                {features.map((feature) => (
-                  <div key={feature.title} className="rounded-xl bg-[#f8f9fa] p-4 text-center hover:bg-[#f0f1f3] transition-colors duration-250 ease-out cursor-pointer">
+                {featureKeys.map((key) => (
+                  <div key={key} className="rounded-xl bg-[#f8f9fa] p-4 text-center hover:bg-[#f0f1f3] transition-colors duration-250 ease-out cursor-pointer">
                     <div className="w-9 h-9 rounded-lg bg-white flex items-center justify-center text-[#3b82f6] mx-auto mb-2 shadow-sm">
-                      {feature.icon}
+                      {featureIcons[key]}
                     </div>
-                    <p className="text-xs font-bold text-[#191c1f]">{feature.title}</p>
-                    <p className="text-[10px] text-[#888] mt-0.5">{feature.desc}</p>
+                    <p className="text-xs font-bold text-[#191c1f]">{t(`features.${key}`)}</p>
+                    <p className="text-[10px] text-[#888] mt-0.5">{t(`features.${key}_desc`)}</p>
                   </div>
                 ))}
               </div>

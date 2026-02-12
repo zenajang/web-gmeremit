@@ -3,21 +3,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useState, type ReactNode } from "react";
+import { useTranslation } from "@/hooks/useTranslation";
 
 type HighlightIcon = "charge" | "payment" | "notification" | "currency" | "rate" | "lock" | "limit" | "share" | "chart" | "team" | "connect" | "policy" | "cashback" | "transport" | "design" | "gift";
 
-type HighlightItem = {
-  text: string;
-  icon: HighlightIcon;
-};
-
-type CardItem = {
+type CardDef = {
   id: string;
   eyebrow: string;
   title: string;
-  desc: string;
-  highlights: HighlightItem[];
-  ctaLabel: string;
+  highlightIcons: HighlightIcon[];
   ctaHref: string;
   image: string;
 };
@@ -106,19 +100,12 @@ const highlightIcons: Record<HighlightIcon, ReactNode> = {
   ),
 };
 
-const cards: CardItem[] = [
+const cardDefs: CardDef[] = [
   {
     id: "black",
     eyebrow: "PREMIUM",
     title: "Premium",
-    desc: "프리미엄을 원하는 분을 위한 카드. 세련된 디자인과 함께 한층 업그레이드된 혜택을 경험하세요.",
-    highlights: [
-      { text: "3% 해외 사용금액 캐시백", icon: "currency" },
-      { text: "시즌별 캐시백", icon: "cashback" },
-      { text: "전 세계 어디서나 결제", icon: "payment" },
-      { text: "온라인 & 오프라인 쇼핑", icon: "gift" },
-    ],
-    ctaLabel: "프리미엄 카드 보기",
+    highlightIcons: ["currency", "cashback", "payment", "gift"],
     ctaHref: "/services/card",
     image: "/images/card/Premium_front.png",
   },
@@ -126,14 +113,7 @@ const cards: CardItem[] = [
     id: "white",
     eyebrow: "THE WHITE",
     title: "The White",
-    desc: "깔끔하고 심플한 화이트 카드. 일상 생활에 꼭 필요한 기능을 합리적으로 제공합니다.",
-    highlights: [
-      { text: "시즌별 캐시백", icon: "cashback" },
-      { text: "전 세계 어디서나 결제", icon: "payment" },
-      { text: "온라인 & 오프라인 쇼핑", icon: "gift" },
-      { text: "대중교통", icon: "transport" },
-    ],
-    ctaLabel: "화이트 카드 보기",
+    highlightIcons: ["cashback", "payment", "gift", "transport"],
     ctaHref: "/services/card",
     image: "/images/card/Pay_White_front.png",
   },
@@ -141,14 +121,7 @@ const cards: CardItem[] = [
     id: "red",
     eyebrow: "THE RED",
     title: "The Red",
-    desc: "GME의 시그니처 카드. 국내외 어디서나 Mastercard 가맹점에서 결제하고, 특별 이벤트 할인과 캐시백 혜택을 누리세요.",
-    highlights: [
-      { text: "시즌별 캐시백", icon: "cashback" },
-      { text: "전 세계 어디서나 결제", icon: "payment" },
-      { text: "온라인 & 오프라인 쇼핑", icon: "gift" },
-      { text: "대중교통", icon: "transport" },
-    ],
-    ctaLabel: "레드 카드 보기",
+    highlightIcons: ["cashback", "payment", "gift", "transport"],
     ctaHref: "/services/card",
     image: "/images/card/Pay_Red_front.png",
   },
@@ -156,14 +129,7 @@ const cards: CardItem[] = [
     id: "easyG0",
     eyebrow: "EASYGO",
     title: "EasyGo",
-    desc: "일상의 모든 순간을 더 편리하게. 교통부터 쇼핑까지 시즌별 혜택을 누리세요.",
-    highlights: [
-      { text: "후불 교통카드", icon: "transport" },
-      { text: "시즌별 캐시백", icon: "cashback" },
-      { text: "전 세계 어디서나 결제", icon: "payment" },
-      { text: "온라인 & 오프라인 쇼핑", icon: "gift" },
-    ],
-    ctaLabel: "이지고 카드 보기",
+    highlightIcons: ["transport", "cashback", "payment", "gift"],
     ctaHref: "/services/card",
     image: "/images/card/EasyGo_front.png",
   },
@@ -176,21 +142,23 @@ function mod(n: number, m: number) {
 }
 
 export default function CardsShowcase() {
+  const { t, tArray } = useTranslation("home.cards");
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
     const timer = window.setInterval(() => {
-      setActiveIndex((prev) => (prev + 1) % cards.length);
+      setActiveIndex((prev) => (prev + 1) % cardDefs.length);
     }, AUTO_DELAY);
     return () => window.clearInterval(timer);
   }, []);
 
-  const activeCard = cards[activeIndex];
+  const activeDef = cardDefs[activeIndex];
+  const highlights = tArray(`${activeDef.id}.highlights`);
 
   const positions = useMemo(() => {
-    return cards.map((_, index) => {
+    return cardDefs.map((_: CardDef, index: number) => {
       const rawOffset = index - activeIndex;
-      const wrappedOffset = mod(rawOffset + cards.length + 1, cards.length) - 1;
+      const wrappedOffset = mod(rawOffset + cardDefs.length + 1, cardDefs.length) - 1;
       return wrappedOffset;
     });
   }, [activeIndex]);
@@ -198,30 +166,30 @@ export default function CardsShowcase() {
   return (
     <div className="grid gap-16 lg:min-h-[640px] lg:gap-32 lg:grid-cols-[1.05fr_0.95fr] lg:items-stretch">
       <div className="flex h-full max-w-xl flex-col lg:justify-between">
-        <p className="text-xs font-semibold tracking-[0.32em] text-gray-400">{activeCard.eyebrow}</p>
-        <h3 className="text-4xl sm:text-5xl font-bold text-[#191c1f] leading-[1.08]">{activeCard.title}</h3>
-        <p className="text-xl text-gray-600 leading-relaxed">{activeCard.desc}</p>
+        <p className="text-xs font-semibold tracking-[0.32em] text-gray-400">{activeDef.eyebrow}</p>
+        <h3 className="text-4xl sm:text-5xl font-bold text-[#191c1f] leading-[1.08]">{activeDef.title}</h3>
+        <p className="text-xl text-gray-600 leading-relaxed">{t(`${activeDef.id}.desc`)}</p>
 
         <div className="grid gap-3 mt-3">
-          {activeCard.highlights.map((item) => (
+          {highlights.map((text: string, i: number) => (
             <div
-              key={item.text}
+              key={i}
               className="flex items-center gap-4 rounded-2xl border border-[var(--border-soft)] bg-white px-5 py-4 text-sm text-gray-700 shadow-[0_10px_24px_rgba(15,23,42,0.06)]"
             >
               <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-[#374151] to-[#1f2937] text-white shadow-[0_4px_12px_rgba(55,65,81,0.3)]">
-                {highlightIcons[item.icon]}
+                {highlightIcons[activeDef.highlightIcons[i]]}
               </span>
-              <span className="text-sm font-medium">{item.text}</span>
+              <span className="text-sm font-medium">{text}</span>
             </div>
           ))}
         </div>
 
         <div className="mt-7">
           <Link
-            href={activeCard.ctaHref}
+            href={activeDef.ctaHref}
             className="group inline-flex items-center gap-3 text-[#374151] font-semibold bg-[#e5e7eb] hover:bg-[#d1d5db] px-5 py-3 rounded-xl transition-colors cursor-pointer"
           >
-            {activeCard.ctaLabel}
+            {t(`${activeDef.id}.cta`)}
             <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#374151] text-white transition-transform duration-300 group-hover:-rotate-45">
               <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
@@ -232,14 +200,13 @@ export default function CardsShowcase() {
       </div>
 
       <div className="relative h-[480px] pb-6 sm:h-[520px] lg:h-full lg:min-h-[640px]">
-        {cards.map((card, index) => {
+        {cardDefs.map((card, index) => {
           const offset = positions[index];
           if (Math.abs(offset) > 1) return null;
           const isActive = offset === 0;
           const absOffset = Math.abs(offset);
           const translateX = offset * 150;
           const translateY = absOffset === 0 ? 0 : absOffset * 30;
-          // 옆 카드는 작게, 등장하면서 커지는 효과
           const scale = isActive ? 1.06 : 0.65;
           const opacity = isActive ? 1 : 0.5;
           const rotation = offset === 0 ? 0 : Math.sign(offset) * (3 + absOffset * 1.5);
@@ -261,7 +228,7 @@ export default function CardsShowcase() {
               >
                 <Image
                   src={card.image}
-                  alt={`${card.title} 카드 이미지`}
+                  alt={`${card.title} ${t("image_alt")}`}
                   width={360}
                   height={480}
                   {...imageProps}
@@ -271,7 +238,7 @@ export default function CardsShowcase() {
           );
         })}
         <div className="absolute bottom-6 left-1/2 flex -translate-x-1/2 items-center gap-3">
-          {cards.map((card, index) => (
+          {cardDefs.map((card, index) => (
             <button
               key={card.id}
               type="button"

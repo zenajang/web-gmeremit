@@ -1,27 +1,29 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useTranslation } from "@/hooks/useTranslation";
 
 interface CountryConfig {
   code: string;
-  name: string;
+  countryCode: string;
   flag: string;
   exchangeRate: number;
 }
 
 const countryConfigs: CountryConfig[] = [
-  { code: "USD", name: "미국", flag: "🇺🇸", exchangeRate: 0.00075 },
-  { code: "PHP", name: "필리핀", flag: "🇵🇭", exchangeRate: 0.042 },
-  { code: "VND", name: "베트남", flag: "🇻🇳", exchangeRate: 18.5 },
-  { code: "NPR", name: "네팔", flag: "🇳🇵", exchangeRate: 0.1 },
-  { code: "IDR", name: "인도네시아", flag: "🇮🇩", exchangeRate: 11.8 },
-  { code: "THB", name: "태국", flag: "🇹🇭", exchangeRate: 0.026 },
-  { code: "MMK", name: "미얀마", flag: "🇲🇲", exchangeRate: 1.58 },
-  { code: "CNY", name: "중국", flag: "🇨🇳", exchangeRate: 0.0054 },
-  { code: "JPY", name: "일본", flag: "🇯🇵", exchangeRate: 0.11 },
+  { code: "USD", countryCode: "US", flag: "🇺🇸", exchangeRate: 0.00075 },
+  { code: "PHP", countryCode: "PH", flag: "🇵🇭", exchangeRate: 0.042 },
+  { code: "VND", countryCode: "VN", flag: "🇻🇳", exchangeRate: 18.5 },
+  { code: "NPR", countryCode: "NP", flag: "🇳🇵", exchangeRate: 0.1 },
+  { code: "IDR", countryCode: "ID", flag: "🇮🇩", exchangeRate: 11.8 },
+  { code: "THB", countryCode: "TH", flag: "🇹🇭", exchangeRate: 0.026 },
+  { code: "MMK", countryCode: "MM", flag: "🇲🇲", exchangeRate: 1.58 },
+  { code: "CNY", countryCode: "CN", flag: "🇨🇳", exchangeRate: 0.0054 },
+  { code: "JPY", countryCode: "JP", flag: "🇯🇵", exchangeRate: 0.11 },
 ];
 
 export default function HeroSection() {
+  const { t } = useTranslation("home.exchange");
   const [sendAmount, setSendAmount] = useState("1000000");
   const [selectedCountry, setSelectedCountry] = useState(countryConfigs[0]);
   const [isOpen, setIsOpen] = useState(false);
@@ -59,27 +61,27 @@ export default function HeroSection() {
             {/* Heading */}
             <p className="text-sm font-semibold tracking-widest text-[#ed1c24] mb-4">EXCHANGE CALCULATOR</p>
             <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] font-bold text-[#191c1f] leading-[1.1] tracking-tight mb-6">
-              지금 바로
+              {t("title1")}
               <br />
-              환율을 확인하세요
+              {t("title2")}
             </h1>
 
             <p className="text-lg text-[#666] leading-relaxed mb-8 max-w-sm">
-              200개국 이상 실시간 환율 조회.
+              {t("description1")}
               <br />
-              수수료 확인을 투명하게.
+              {t("description2")}
             </p>
 
             {/* Simple Stats */}
             <div className="flex items-center gap-8">
               <div>
-                <p className="text-3xl font-bold text-[#191c1f]">200+</p>
-                <p className="text-sm text-[#999] mt-1">송금 가능 국가</p>
+                <p className="text-3xl font-bold text-[#191c1f]">{t("stats.countries")}</p>
+                <p className="text-sm text-[#999] mt-1">{t("stats.countries_label")}</p>
               </div>
               <div className="w-px h-12 bg-gray-400" />
               <div>
-                <p className="text-3xl font-bold text-[#191c1f]">24/7</p>
-                <p className="text-sm text-[#999] mt-1">실시간 서비스</p>
+                <p className="text-3xl font-bold text-[#191c1f]">{t("stats.service")}</p>
+                <p className="text-sm text-[#999] mt-1">{t("stats.service_label")}</p>
               </div>
             </div>
           </div>
@@ -96,16 +98,16 @@ export default function HeroSection() {
               <div className="pointer-events-none absolute inset-2 rounded-[1.25rem] shadow-[inset_0_1px_0_rgba(255,255,255,0.9)]" />
               {/* Calculator Header */}
               <div className="flex items-center justify-between mb-7">
-                <h2 className="text-lg font-semibold text-[#0f0f0f]">실시간 환율 계산기</h2>
+                <h2 className="text-lg font-semibold text-[#0f0f0f]">{t("calculator.title")}</h2>
                 <div className="flex items-center gap-1.5 rounded-full bg-[#ecfdf3] px-2.5 py-1 text-xs font-semibold text-[#166534]">
                   <span className="w-1.5 h-1.5 bg-[#22c55e] rounded-full" />
-                  실시간
+                  {t("calculator.realtime")}
                 </div>
               </div>
 
               {/* Send Input */}
               <div className="space-y-2 mb-5">
-                <label className="text-[13px] font-medium text-[#737373]">보내는 금액</label>
+                <label className="text-[13px] font-medium text-[#737373]">{t("calculator.send_amount")}</label>
                 <div className="flex items-center gap-3 bg-white rounded-2xl px-5 py-4 border border-gray-200/80 focus-within:ring-2 focus-within:ring-[#e11d24]/15 transition-shadow">
                   <input
                     type="text"
@@ -123,7 +125,7 @@ export default function HeroSection() {
 
               {/* Country Select */}
               <div className="space-y-2 mb-5 relative" onClick={(e) => e.stopPropagation()}>
-                <label className="text-[13px] font-medium text-[#737373]">받는 국가</label>
+                <label className="text-[13px] font-medium text-[#737373]">{t("calculator.receive_country")}</label>
                 <button
                   type="button"
                   onClick={() => setIsOpen(!isOpen)}
@@ -131,7 +133,7 @@ export default function HeroSection() {
                 >
                   <span className="text-2xl">{selectedCountry.flag}</span>
                   <div className="flex-1 text-left">
-                    <span className="font-semibold text-[#0f0f0f]">{selectedCountry.name}</span>
+                    <span className="font-semibold text-[#0f0f0f]">{t(`countries.names.${selectedCountry.countryCode}`, { ns: "home.hero" })}</span>
                     <span className="text-[#737373] ml-2">{selectedCountry.code}</span>
                   </div>
                   <svg className={`w-5 h-5 text-[#a3a3a3] transition-transform ${isOpen ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -156,7 +158,7 @@ export default function HeroSection() {
                         }`}
                       >
                         <span className="text-xl">{country.flag}</span>
-                        <span className="font-medium flex-1 text-left">{country.name}</span>
+                        <span className="font-medium flex-1 text-left">{t(`countries.names.${country.countryCode}`, { ns: "home.hero" })}</span>
                         <span className="text-sm text-[#a3a3a3]">{country.code}</span>
                       </button>
                     ))}
@@ -175,7 +177,7 @@ export default function HeroSection() {
 
               {/* Receive Output - Fresh Teal Frosted Glass */}
               <div className="space-y-2 mb-6">
-                <label className="text-[13px] font-medium text-[#737373]">받는 금액</label>
+                <label className="text-[13px] font-medium text-[#737373]">{t("calculator.receive_amount")}</label>
                 <div className="relative flex items-center gap-3 bg-gradient-to-br from-[#14b8a6]/65 to-[#0f766e]/60 backdrop-blur-2xl rounded-2xl px-5 py-5 border border-[#5eead4]/28 shadow-[inset_0_1px_1px_rgba(255,255,255,0.13)]">
                   {/* Glass highlights */}
                   <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#5eead4]/18 via-[#2dd4bf]/10 to-transparent pointer-events-none" />

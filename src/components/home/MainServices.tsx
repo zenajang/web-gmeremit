@@ -1,14 +1,19 @@
+"use client";
+
 import Link from "next/link";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export default function MainServices() {
+  const { t } = useTranslation("home.services");
+
   return (
     <section id="gme-payments" className="relative overflow-hidden bg-[#f5f5f7] min-h-screen py-16 lg:py-20 flex items-center">
       <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-0">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#191c1f] leading-tight">
-            저희 GME의
+            {t("title1")}
             <br />
-            다양한 서비스를 만나보세요.
+            {t("title2")}
           </h2>
         </div>
 
@@ -20,11 +25,11 @@ export default function MainServices() {
             className="group md:col-span-2 relative overflow-hidden rounded-3xl bg-[#3b82f6] p-8 lg:p-10 min-h-[320px] lg:min-h-[330px] flex flex-col justify-between transition-all duration-300 ease-out hover:scale-[1.02] hover:-translate-y-1 shadow-[0_35px_60px_-15px_rgba(59,130,246,0.5)] hover:shadow-[0_45px_80px_-15px_rgba(59,130,246,0.6)]"
           >
             <div className="relative z-10">
-              <h3 className="text-2xl lg:text-3xl font-bold text-white mb-3">Global Payments</h3>
+              <h3 className="text-2xl lg:text-3xl font-bold text-white mb-3">{t("payments.title")}</h3>
               <p className="text-white/80 text-base lg:text-lg leading-relaxed max-w-md">
-                대량 지급, 정산, 파트너 송금까지.
+                {t("payments.desc1")}
                 <br />
-                기업 지급 흐름을 빠르고 안전하게.
+                {t("payments.desc2")}
               </p>
             </div>
 
@@ -66,11 +71,11 @@ export default function MainServices() {
             className="group relative overflow-hidden rounded-3xl bg-[#ed1c24] p-8 lg:p-10 min-h-[320px] lg:min-h-[330px] flex flex-col justify-between transition-all duration-300 ease-out hover:scale-[1.02] hover:-translate-y-1 shadow-[0_35px_60px_-15px_rgba(237,28,36,0.5)] hover:shadow-[0_45px_80px_-15px_rgba(237,28,36,0.6)]"
           >
             <div className="relative z-10">
-              <h3 className="text-2xl lg:text-3xl font-bold text-white mb-3">해외송금</h3>
+              <h3 className="text-2xl lg:text-3xl font-bold text-white mb-3">{t("remittance.title")}</h3>
               <p className="text-white/80 text-base leading-relaxed">
-                200개국 이상으로 빠르고
+                {t("remittance.desc1")}
                 <br />
-                안전하게 송금하세요.
+                {t("remittance.desc2")}
               </p>
             </div>
 
@@ -102,18 +107,18 @@ export default function MainServices() {
             className="group relative overflow-hidden rounded-3xl bg-[#f59e0b] p-8 lg:p-10 min-h-[320px] lg:min-h-[330px] flex flex-col justify-between transition-all duration-300 ease-out hover:scale-[1.02] hover:-translate-y-1 shadow-[0_35px_60px_-15px_rgba(245,158,11,0.5)] hover:shadow-[0_45px_80px_-15px_rgba(245,158,11,0.6)]"
           >
             <div className="relative z-10">
-              <h3 className="text-2xl lg:text-3xl font-bold text-white mb-3">온라인 대출</h3>
+              <h3 className="text-2xl lg:text-3xl font-bold text-white mb-3">{t("loan.title")}</h3>
               <p className="text-white/90 text-base leading-relaxed">
-                빠른 심사와 유연한 조건의
+                {t("loan.desc1")}
                 <br />
-                디지털 대출 서비스
+                {t("loan.desc2")}
               </p>
             </div>
 
             {/* Calculator UI Mock */}
             <div className="absolute bottom-16 right-4 lg:right-8">
               <div className="bg-white/20 backdrop-blur rounded-xl p-4 border border-white/20 shadow-2xl">
-                <div className="text-[10px] text-white/70 mb-1">예상 한도</div>
+                <div className="text-[10px] text-white/70 mb-1">{t("loan.estimated_limit")}</div>
                 <div className="text-xl font-bold text-white">5,000만원</div>
                 <div className="mt-2 flex gap-1">
                   <div className="h-1 w-12 rounded-full bg-white" />
@@ -137,20 +142,18 @@ export default function MainServices() {
             className="group md:col-span-2 relative overflow-hidden rounded-3xl bg-[#1f2937] p-8 lg:p-10 min-h-[320px] lg:min-h-[330px] flex flex-col justify-between transition-all duration-300 ease-out hover:scale-[1.02] hover:-translate-y-1 shadow-[0_35px_60px_-15px_rgba(31,41,55,0.6)] hover:shadow-[0_45px_80px_-15px_rgba(31,41,55,0.7)]"
           >
             <div className="relative z-10">
-              <h3 className="text-2xl lg:text-3xl font-bold text-white mb-3">GME Card</h3>
+              <h3 className="text-2xl lg:text-3xl font-bold text-white mb-3">{t("card.title")}</h3>
               <p className="text-white/70 text-base lg:text-lg leading-relaxed max-w-md">
-                송금과 소비를 연결하는 스마트한 카드.
+                {t("card.desc1")}
                 <br />
-                글로벌 결제의 새로운 기준.
+                {t("card.desc2")}
               </p>
             </div>
 
             {/* Card Illustration */}
             <div className="absolute top-1/2 right-8 lg:right-16 -translate-y-1/2">
               <div className="relative">
-                {/* Back Card - Silver/Platinum */}
                 <div className="absolute -top-4 -left-4 w-40 h-24 lg:w-52 lg:h-32 rounded-xl bg-gradient-to-br from-[#c0c0c0] to-[#e8e8e8] transform rotate-[-8deg] shadow-xl" />
-                {/* Front Card - GME Red Premium */}
                 <div className="relative w-40 h-24 lg:w-52 lg:h-32 rounded-xl bg-gradient-to-br from-[#ed1c24] to-[#ff6b6b] shadow-2xl transform rotate-[4deg]">
                   <div className="absolute top-3 left-4 w-8 h-6 rounded bg-[#fbbf24]" />
                   <div className="absolute bottom-3 left-4 right-4">

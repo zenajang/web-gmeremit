@@ -1,12 +1,10 @@
-import Image from "next/image";
+"use client";
 
-const features = [
-  { label: "실시간 환율", desc: "목표 환율 도달 시 즉시 알림" },
-  { label: "송금 추적", desc: "도착까지 단계별로 확인" },
-  { label: "안전한 인증", desc: "다단계 인증과 이상 거래 감지" },
-];
+import Image from "next/image";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export default function AppDownloadCTA() {
+  const { t, tArray } = useTranslation("home.app_download");
   return (
     <section id="app-download" className="bg-[var(--surface-0)] py-16 lg:py-24">
       <div className="max-w-[1540px] mx-auto px-4 sm:px-6 lg:px-10">
@@ -18,21 +16,20 @@ export default function AppDownloadCTA() {
             {/* Left - Text Content */}
             <div>
               <div className="flex flex-wrap items-center gap-2 text-xs font-semibold text-white/70">
-                {["실시간 환율", "최적화된 금액", "안전한 인증"].map((chip) => (
+                {tArray("chips").map((chip) => (
                   <span key={chip} className="rounded-full border border-white/15 bg-white/5 px-3 py-1.5">
                     {chip}
                   </span>
                 ))}
               </div>
-              <p className="mt-5 text-sm font-semibold text-white/70">GME REMIT APP</p>
+              <p className="mt-5 text-sm font-semibold text-white/70">{t("subtitle")}</p>
               <h3 className="mt-3 text-4xl sm:text-4xl lg:text-5xl font-bold leading-[1.15]">
-                송금은 더 빠르게,
+                {t("title1")}
                 <br />
-                관리는 더 똑똑하게
+                {t("title2")}
               </h3>
               <p className="mt-4 max-w-2xl text-white/80">
-                쉽고 안전한 보안으로 최적화된 금액으로 빠른 송금까지
-                GME Remit 앱 하나로 안전하고 간편하게 관리하세요.
+                {t("description")}
               </p>
               <div className="mt-9 flex flex-wrap items-center gap-4">
                 <a
@@ -78,7 +75,7 @@ export default function AppDownloadCTA() {
                   className="rounded-2xl"
                 />
                 <p className="mt-4 text-center text-sm font-medium text-gray-600">
-                  QR 코드를 스캔하세요
+                  {t("qr_scan")}
                 </p>
               </div>
             </div>

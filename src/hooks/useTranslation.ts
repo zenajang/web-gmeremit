@@ -56,8 +56,9 @@ export function useTranslation(namespace?: string) {
    * @returns Translated string
    */
   const t = useCallback(
-    (key: string, params?: Record<string, string | number>): string => {
-      const fullPath = namespace ? `${namespace}.${key}` : key;
+    (key: string, params?: Record<string, string | number> & { ns?: string }): string => {
+      const effectiveNamespace = params?.ns ?? namespace;
+      const fullPath = effectiveNamespace ? `${effectiveNamespace}.${key}` : key;
       let value = getNestedValue(currentTranslations, fullPath);
 
       // If value is still the path, it wasn't found
@@ -66,9 +67,10 @@ export function useTranslation(namespace?: string) {
         return fullPath;
       }
 
-      // Handle string interpolation
+      // Handle string interpolation (exclude 'ns' from interpolation)
       if (typeof value === "string" && params) {
         Object.entries(params).forEach(([paramKey, paramValue]) => {
+          if (paramKey === "ns") return;
           value = (value as string).replace(
             new RegExp(`{{${paramKey}}}`, "g"),
             String(paramValue)

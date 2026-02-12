@@ -6,9 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "i18n:pull": "node scripts/lokalise-sync.mjs pull",
+    "i18n:push": "node scripts/lokalise-sync.mjs push"
   },
   "dependencies": {
+    "@lokalise/node-api": "^15.6.1",
     "@supabase/ssr": "^0.8.0",
     "@supabase/supabase-js": "^2.93.3",
     "@tailwindcss/typography": "^0.5.19",

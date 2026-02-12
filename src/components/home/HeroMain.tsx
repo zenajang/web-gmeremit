@@ -1,26 +1,30 @@
+"use client";
+
 import Link from "next/link";
+import { useTranslation } from "@/hooks/useTranslation";
 
 const supportedCountries = [
-  { code: "PH", name: "필리핀", flag: "🇵🇭" },
-  { code: "VN", name: "베트남", flag: "🇻🇳" },
-  { code: "NP", name: "네팔", flag: "🇳🇵" },
-  { code: "ID", name: "인도네시아", flag: "🇮🇩" },
-  { code: "TH", name: "태국", flag: "🇹🇭" },
-  { code: "MM", name: "미얀마", flag: "🇲🇲" },
-  { code: "CN", name: "중국", flag: "🇨🇳" },
-  { code: "JP", name: "일본", flag: "🇯🇵" },
-  { code: "US", name: "미국", flag: "🇺🇸" },
-  { code: "BD", name: "방글라데시", flag: "🇧🇩" },
-  { code: "LK", name: "스리랑카", flag: "🇱🇰" },
-  { code: "PK", name: "파키스탄", flag: "🇵🇰" },
+  { code: "PH", flag: "🇵🇭" },
+  { code: "VN", flag: "🇻🇳" },
+  { code: "NP", flag: "🇳🇵" },
+  { code: "ID", flag: "🇮🇩" },
+  { code: "TH", flag: "🇹🇭" },
+  { code: "MM", flag: "🇲🇲" },
+  { code: "CN", flag: "🇨🇳" },
+  { code: "JP", flag: "🇯🇵" },
+  { code: "US", flag: "🇺🇸" },
+  { code: "BD", flag: "🇧🇩" },
+  { code: "LK", flag: "🇱🇰" },
+  { code: "PK", flag: "🇵🇰" },
 ];
 
 export default function HeroMain() {
+  const { t } = useTranslation("home.hero");
+
   return (
     <section className="relative min-h-screen bg-gradient-to-b from-white to-[#fafafa] overflow-hidden snap-section">
       {/* Background Effects */}
       <div className="absolute inset-0">
-        {/* Red Gradient Blush */}
         <div className="absolute top-1/4 -left-10 w-[500px] h-[500px] rounded-full bg-[#ed1c24]/[0.06] blur-[100px]" />
         <div className="absolute bottom-1/4 right-0 w-[400px] h-[400px] rounded-full bg-[#ed1c24]/[0.04] blur-[80px]" />
       </div>
@@ -36,20 +40,20 @@ export default function HeroMain() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#a3c520] opacity-75" />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-[#a3c520]" />
               </span>
-              <span className="text-sm font-semibold text-[#ed1c24]">우수한 해외송금</span>
+              <span className="text-sm font-semibold text-[#ed1c24]">{t("badge")}</span>
             </div>
 
             {/* Main Heading */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#191c1f] leading-[1.18] tracking-tight mb-6">
-              빠르고 안전한
+              {t("title1")}
               <br />
-              <span className="text-[#ed1c24]">해외송금 서비스</span>
+              <span className="text-[#ed1c24]">{t("title2")}</span>
             </h1>
 
             <p className="text-lg sm:text-xl text-[#666] leading-relaxed mb-8 max-w-lg mx-auto lg:mx-0">
-              200개국 어디든, 국내 모든 은행으로 실시간 송금.
+              {t("description1")}
               <br />
-              70개 글로벌 파트너와 E-KYC 인증으로 안전하게.
+              {t("description2")}
             </p>
 
             {/* CTA Buttons */}
@@ -58,7 +62,7 @@ export default function HeroMain() {
                 href="#app-download"
                 className="group inline-flex items-center justify-center gap-2 bg-[#ed1c24] hover:bg-[#d91920] text-white font-semibold px-8 py-4 rounded-2xl text-lg transition-all duration-300 ease-out shadow-[0_8px_24px_rgba(237,28,36,0.3)] hover:shadow-[0_12px_32px_rgba(237,28,36,0.4)] hover:-translate-y-0.5"
               >
-                앱 다운로드
+                {t("app_download", { ns: "button" })}
                 <svg className="w-5 h-5 transition-transform duration-250 ease-out group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
@@ -67,7 +71,7 @@ export default function HeroMain() {
                 href="#gme-payments"
                 className="inline-flex items-center justify-center gap-2 bg-white hover:bg-gray-50 border border-gray-200 text-[#191c1f] font-semibold px-8 py-4 rounded-2xl text-lg transition-all duration-300 ease-out"
               >
-                서비스 알아보기
+                {t("button.learn_more")}
               </Link>
             </div>
 
@@ -83,23 +87,22 @@ export default function HeroMain() {
                 </div>
                 <span className="text-sm font-bold text-[#191c1f]">4.7</span>
                 <span className="w-px h-3 bg-gray-300" />
-                <span className="text-xs text-[#666]">App Store · Google Play 평균</span>
+                <span className="text-xs text-[#666]">{t("rating")}</span>
               </div>
             </div>
           </div>
           {/* Right - Supported Countries Grid */}
           <div className="relative">
-            {/* Background Card */}
             <div className="relative bg-white rounded-3xl p-8 shadow-[0_20px_60px_rgba(0,0,0,0.08)] border border-gray-100">
               {/* Header */}
               <div className="flex items-center justify-between mb-6">
                 <div>
-                  <h3 className="text-lg font-bold text-[#191c1f]">송금 가능 국가</h3>
-                  <p className="text-sm text-[#999]">200개국 이상 지원</p>
+                  <h3 className="text-lg font-bold text-[#191c1f]">{t("countries.title")}</h3>
+                  <p className="text-sm text-[#999]">{t("countries.subtitle")}</p>
                 </div>
                 <div className="flex items-center gap-1.5 bg-[#ecfdf3] px-3 py-1.5 rounded-full">
                   <span className="w-1.5 h-1.5 bg-[#22c55e] rounded-full animate-pulse" />
-                  <span className="text-xs font-semibold text-[#166534]">실시간</span>
+                  <span className="text-xs font-semibold text-[#166534]">{t("countries.realtime")}</span>
                 </div>
               </div>
 
@@ -111,10 +114,9 @@ export default function HeroMain() {
                     className="flex flex-col items-center gap-2 p-3 rounded-xl bg-gradient-to-b from-white to-[#f8fafc] border border-gray-100 shadow-[0_2px_8px_rgba(0,0,0,0.06),0_1px_2px_rgba(0,0,0,0.04)] hover:shadow-[0_4px_12px_rgba(0,0,0,0.1),0_2px_4px_rgba(0,0,0,0.06)] hover:-translate-y-0.5 transition-all duration-200 cursor-pointer"
                   >
                     <span className="text-2xl">{country.flag}</span>
-                    <span className="text-xs font-medium text-[#374151]">{country.name}</span>
+                    <span className="text-xs font-medium text-[#374151]">{t(`countries.names.${country.code}`)}</span>
                   </div>
                 ))}
-                {/* More Countries Card - Frosted Glass */}
                 <Link
                   href="/countries"
                   className="relative flex flex-col items-center justify-center gap-1 p-3 rounded-xl bg-gradient-to-b from-[#fef2f2] to-[#fee2e2] border border-[#fecaca]/40 shadow-[0_2px_8px_rgba(237,28,36,0.08),inset_0_2px_4px_rgba(255,255,255,0.8),inset_0_-1px_2px_rgba(237,28,36,0.05)] hover:shadow-[0_4px_12px_rgba(237,28,36,0.12),inset_0_2px_4px_rgba(255,255,255,0.9)] hover:-translate-y-0.5 transition-all duration-200 cursor-pointer overflow-hidden"
@@ -122,17 +124,16 @@ export default function HeroMain() {
                   <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-white/70 via-transparent to-[#ed1c24]/5 pointer-events-none" />
                   <div className="absolute top-0 left-3 right-3 h-[1px] rounded-full bg-gradient-to-r from-transparent via-white/80 to-transparent pointer-events-none" />
                   <span className="relative text-xl font-bold text-[#ed1c24]">+188</span>
-                  <span className="relative text-[10px] font-medium text-[#ed1c24]/70">더보기</span>
+                  <span className="relative text-[10px] font-medium text-[#ed1c24]/70">{t("countries.more")}</span>
                 </Link>
               </div>
 
-              {/* More Countries Link */}
               <div className="mt-6 pt-5 border-t border-gray-100">
                 <Link
                   href="/countries"
                   className="flex items-center justify-center gap-2 text-sm font-semibold text-[#ed1c24] hover:text-[#d91920] transition-colors"
                 >
-                  전체 국가 보기
+                  {t("countries.view_all")}
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
@@ -140,17 +141,17 @@ export default function HeroMain() {
               </div>
             </div>
 
-            {/* Floating Stats - Frosted Glass */}
+            {/* Floating Stats */}
             <div className="absolute -bottom-6 -left-6 bg-white/70 backdrop-blur-xl rounded-2xl px-5 py-4 shadow-[0_8px_32px_rgba(0,0,0,0.1)] border border-white/50 ring-1 ring-black/[0.03]">
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-white/60 via-white/20 to-transparent pointer-events-none" />
-              <p className="relative text-xs text-[#666] mb-1">누적 송금액</p>
-              <p className="relative text-2xl font-bold text-[#191c1f]">4.2<span className="text-sm font-medium text-[#999] ml-0.5">조원+</span></p>
+              <p className="relative text-xs text-[#666] mb-1">{t("stats.total_amount")}</p>
+              <p className="relative text-2xl font-bold text-[#191c1f]">4.2<span className="text-sm font-medium text-[#999] ml-0.5">{t("stats.trillion")}</span></p>
             </div>
 
             <div className="absolute -top-4 -right-4 bg-[#ed1c24]/80 backdrop-blur-xl text-white rounded-2xl px-5 py-4 shadow-[0_8px_32px_rgba(237,28,36,0.3)] border border-white/20">
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-white/20 via-transparent to-transparent pointer-events-none" />
-              <p className="relative text-xs opacity-90 mb-1">평균 송금 시간</p>
-              <p className="relative text-2xl font-bold">10<span className="text-sm font-medium opacity-90 ml-0.5">초</span></p>
+              <p className="relative text-xs opacity-90 mb-1">{t("stats.avg_time")}</p>
+              <p className="relative text-2xl font-bold">10<span className="text-sm font-medium opacity-90 ml-0.5">{t("stats.seconds")}</span></p>
             </div>
           </div>
         </div>
@@ -164,7 +165,6 @@ export default function HeroMain() {
         <span className="text-[11px] text-[#9ca3af] font-medium tracking-wide">SCROLL</span>
       </div>
 
-      {/* Bottom Fade Line */}
       <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#e5e5e5] to-transparent" />
     </section>
   );

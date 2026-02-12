@@ -288,10 +288,10 @@ export default function CardPage() {
                 <span className="w-6 h-[2px] bg-[#ed1c24]/40 rounded-full" />
               </div>
               <h2 className="relative text-2xl lg:text-3xl font-bold text-[#191c1f] mb-5">
-                원하는 혜택을 선택하세요
+                {t("grid.title")}
               </h2>
               <p className="relative text-gray-500 max-w-2xl mx-auto text-sm">
-                다양한 GME 카드 중 나에게 맞는 혜택을 찾아보세요
+                {t("grid.subtitle")}
               </p>
             </div>
 
@@ -379,7 +379,7 @@ export default function CardPage() {
                           color: "#fff",
                         }}
                       >
-                        자세히 보기
+                        {t("grid.detail")}
                       </button>
                     )}
                   </div>
@@ -468,28 +468,28 @@ export default function CardPage() {
                 </h3>
                 <div className="space-y-3 bg-gray-50 rounded-xl p-4">
                   <div>
-                    <span className="font-semibold text-[#191c1f]">자격: </span>
+                    <span className="font-semibold text-[#191c1f]">{t("labels.qualification")}: </span>
                     <span className="text-gray-600">{t(`cards.${selectedCard}.details.userGuide.qualification`)}</span>
                   </div>
                   {selectedCard === "easyG0" ? (
                     <div>
-                      <span className="font-semibold text-[#191c1f]">월회비: </span>
+                      <span className="font-semibold text-[#191c1f]">{t("labels.monthly_fee")}: </span>
                       <span className="text-gray-600">{t(`cards.${selectedCard}.details.userGuide.monthlyFee`)}</span>
                     </div>
                   ) : (
                     <>
                       <div>
-                        <span className="font-semibold text-[#191c1f]">연회비: </span>
+                        <span className="font-semibold text-[#191c1f]">{t("labels.annual_fee")}: </span>
                         <span className="text-gray-600">{t(`cards.${selectedCard}.details.userGuide.annualFee`)}</span>
                       </div>
                       <div>
-                        <span className="font-semibold text-[#191c1f]">충전방법: </span>
+                        <span className="font-semibold text-[#191c1f]">{t("labels.charge_method")}: </span>
                         <span className="text-gray-600">{t(`cards.${selectedCard}.details.userGuide.chargeMethod`)}</span>
                       </div>
                     </>
                   )}
                   <div>
-                    <span className="font-semibold text-[#191c1f]">사용한도: </span>
+                    <span className="font-semibold text-[#191c1f]">{t("labels.usage_limit")}: </span>
                     <span className="text-gray-600">{t(`cards.${selectedCard}.details.userGuide.limit`)}</span>
                   </div>
                   <div className="pt-2 border-t border-gray-200">
@@ -561,15 +561,15 @@ export default function CardPage() {
                   </h3>
                   <div className="space-y-2 bg-gray-50 rounded-xl p-4">
                     <p className="text-sm text-gray-600">
-                      <span className="font-semibold text-[#191c1f]">한도: </span>
+                      <span className="font-semibold text-[#191c1f]">{t("labels.limit")}: </span>
                       {t("cards.easyG0.details.transitCard.limit")}
                     </p>
                     <p className="text-sm text-gray-600">
-                      <span className="font-semibold text-[#191c1f]">결제 시점: </span>
+                      <span className="font-semibold text-[#191c1f]">{t("labels.payment_time")}: </span>
                       {t("cards.easyG0.details.transitCard.paymentTime")}
                     </p>
                     <p className="text-sm text-gray-600">
-                      <span className="font-semibold text-[#191c1f]">사용 가능: </span>
+                      <span className="font-semibold text-[#191c1f]">{t("labels.availability")}: </span>
                       {t("cards.easyG0.details.transitCard.availability")}
                     </p>
                   </div>
@@ -597,12 +597,12 @@ export default function CardPage() {
               <div className="pt-4">
                 {selectedCard === "black" ? (
                   <div className="text-center py-6 bg-gray-50 rounded-xl">
-                    <p className="text-lg font-bold text-[#191c1f] mb-1">재고가 모두 소진되었습니다</p>
-                    <p className="text-sm text-gray-500">많은 관심에 감사드립니다. 다른 카드를 확인해보세요.</p>
+                    <p className="text-lg font-bold text-[#191c1f] mb-1">{t("modal.sold_out_title")}</p>
+                    <p className="text-sm text-gray-500">{t("modal.sold_out_desc")}</p>
                   </div>
                 ) : (
                 <>
-                <p className="text-center text-sm text-gray-500 mb-3">카드 신청은 GME 앱에서 가능합니다</p>
+                <p className="text-center text-sm text-gray-500 mb-3">{t("modal.app_guide")}</p>
                 <div className="flex gap-3">
                   <a
                     href="https://apps.apple.com/us/app/gme-remit/id1439161261?l=ko"

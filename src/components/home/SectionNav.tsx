@@ -1,14 +1,14 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTranslation } from "@/hooks/useTranslation";
 
-// 네비게이션에 표시될 섹션들 (5개)
-const navSections = [
-  { id: "hero", label: "홈" },
-  { id: "app", label: "환율 계산기" },
-  { id: "gme-payments", label: "서비스" },
-  { id: "testimonials", label: "고객 후기" },
-  { id: "app-download", label: "앱 다운로드" },
+const navSectionDefs = [
+  { id: "hero", key: "home" },
+  { id: "app", key: "exchange" },
+  { id: "gme-payments", key: "services" },
+  { id: "testimonials", key: "testimonials" },
+  { id: "app-download", key: "app_download" },
 ];
 
 // 실제 감지할 모든 섹션들 (서비스 하위 섹션 포함)
@@ -34,6 +34,7 @@ const serviceSectionIds = [
 ];
 
 export default function SectionNav() {
+  const { t } = useTranslation("home.section_nav");
   const [activeSection, setActiveSection] = useState("hero");
   const [isVisible, setIsVisible] = useState(false);
 
@@ -93,12 +94,12 @@ export default function SectionNav() {
         isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
       }`}
     >
-      {navSections.map((section) => (
+      {navSectionDefs.map((section) => (
         <button
           key={section.id}
           onClick={() => scrollToSection(section.id)}
           className="group relative flex items-center cursor-pointer"
-          aria-label={section.label}
+          aria-label={t(section.key)}
         >
           {/* Dot */}
           <span
@@ -110,7 +111,7 @@ export default function SectionNav() {
           />
           {/* Tooltip */}
           <span className="absolute left-8 px-4 py-2 rounded-lg bg-[#191c1f] text-white text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none shadow-lg">
-            {section.label}
+            {t(section.key)}
           </span>
         </button>
       ))}

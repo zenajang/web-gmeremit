@@ -6,6 +6,7 @@ import Link from "next/link";
 import DesktopNav, { LanguageSelector } from "./header/DesktopNav";
 import MobileNav from "./header/MobileNav";
 import type { MenuSection, MenuItem } from "./header/DesktopNav";
+import { useTranslation } from "@/hooks/useTranslation";
 
 // ============ Business Menu Icons ============
 const FinancialServicesIcon = () => (
@@ -324,47 +325,48 @@ const companyMenuSections: MenuSection[] = [
   },
 ];
 
-const menuItems: MenuItem[] = [
-  {
-    label: "회사소개",
-    href: "/company",
-    children: [
-      { label: "CEO 인사말", href: "/company/ceo-message" },
-      { label: "연혁", href: "/company/history" },
-      { label: "사업소개", href: "/company/services" },
-    ],
-  },
-  {
-    label: "서비스",
-    href: "/services",
-    children: [
-      { label: "GME 앱 송금", href: "/services/remittance" },
-      { label: "GME 카드", href: "/services/card" },
-      { label: "GME 대출", href: "/services/loan" },
-      { label: "GME 페이먼츠 (B2B)", href: "/services/payments" },
-    ],
-  },
-  {
-    label: "소식",
-    href: "/board/notice",
-    children: [
-      { label: "공지사항", href: "/board/notice" },
-      { label: "뉴스 / 보도자료", href: "/board/press" },
-      { label: "블로그", href: "/board/blog" },
-    ],
-  },
-  {
-    label: "고객지원",
-    href: "/support",
-    children: [
-      { label: "지점 안내", href: "/support/branches" },
-      { label: "소셜 채널", href: "/support/social-channels" },
-    ],
-  },
-];
-
 // ============ Main Header ============
 export default function Header() {
+  const { t } = useTranslation("header");
+
+  const menuItems: MenuItem[] = [
+    {
+      label: t("nav.company"),
+      href: "/company",
+      children: [
+        { label: t("nav.ceo_message"), href: "/company/ceo-message" },
+        { label: t("nav.history"), href: "/company/history" },
+        { label: t("nav.services"), href: "/company/services" },
+      ],
+    },
+    {
+      label: t("nav.services_menu"),
+      href: "/services",
+      children: [
+        { label: t("nav.remittance"), href: "/services/remittance" },
+        { label: t("nav.card"), href: "/services/card" },
+        { label: t("nav.loan"), href: "/services/loan" },
+        { label: t("nav.payments"), href: "/services/payments" },
+      ],
+    },
+    {
+      label: t("nav.news"),
+      href: "/board/notice",
+      children: [
+        { label: t("nav.notice"), href: "/board/notice" },
+        { label: t("nav.press"), href: "/board/press" },
+        { label: t("nav.blog"), href: "/board/blog" },
+      ],
+    },
+    {
+      label: t("nav.support"),
+      href: "/support",
+      children: [
+        { label: t("nav.branches"), href: "/support/branches" },
+        { label: t("nav.social_channels"), href: "/support/social-channels" },
+      ],
+    },
+  ];
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -401,7 +403,7 @@ export default function Header() {
               href="/company/careers"
               className="text-[13px] text-[#666] hover:text-[#ed1c24] transition-colors"
             >
-              채용
+              {t("link.careers")}
             </Link>
             {/* Divider */}
             <div className="h-3 w-px bg-gray-300" />
@@ -451,7 +453,7 @@ export default function Header() {
                 href="/#app-download"
                 className="hidden lg:flex items-center gap-2 px-5 py-2.5 text-[14px] font-semibold text-white bg-[#ed1c24] hover:bg-[#c41920] rounded-full transition-colors"
               >
-                앱 다운로드
+                {t("app_download", { ns: "button" })}
               </a>
 
               {/* Language */}
