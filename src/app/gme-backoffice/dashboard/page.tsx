@@ -74,12 +74,12 @@ export default function AdminDashboardPage() {
       {/* Header */}
       <div className="flex items-center justify-between mb-8">
         <div>
-          <h1 className="text-3xl font-bold text-[#191c1f] mb-2">게시글 관리</h1>
+          <h1 className="typo-stat mb-2">게시글 관리</h1>
           <p className="text-gray-600">총 {entries.length}개의 게시글</p>
         </div>
         <Link
           href="/gme-backoffice/board/create"
-          className="flex items-center gap-2 px-6 py-3 bg-[#ed1c24] text-white font-semibold rounded-lg hover:bg-[#d91920] transition-colors"
+          className="flex items-center gap-2 px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary-dark transition-colors"
         >
           <HiPlus className="w-5 h-5" />
           새 게시글
@@ -94,7 +94,7 @@ export default function AdminDashboardPage() {
             onClick={() => setFilter(tab)}
             className={`px-4 py-2 rounded-lg font-medium transition-colors cursor-pointer ${
               filter === tab
-                ? 'bg-[#ed1c24] text-white'
+                ? 'bg-primary text-white'
                 : 'bg-white text-gray-600 hover:bg-gray-50 border border-gray-200'
             }`}
           >
@@ -106,7 +106,7 @@ export default function AdminDashboardPage() {
       {/* Table */}
       {loading ? (
         <div className="text-center py-12">
-          <div className="inline-block animate-spin rounded-full h-8 w-8 border-4 border-gray-300 border-t-[#ed1c24]" />
+          <div className="inline-block animate-spin rounded-full h-8 w-8 border-4 border-gray-300 border-t-primary" />
         </div>
       ) : entries.length === 0 ? (
         <div className="bg-white rounded-lg p-12 text-center">
@@ -130,7 +130,7 @@ export default function AdminDashboardPage() {
                   <td className="px-6 py-4">
                     <div className="flex items-center gap-2">
                       {entry.is_important && (
-                        <BsPinFill className="w-4 h-4 text-[#ed1c24] flex-shrink-0" />
+                        <BsPinFill className="w-4 h-4 text-primary flex-shrink-0" />
                       )}
                       <span className="font-medium text-gray-900">{entry.title}</span>
                     </div>

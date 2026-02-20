@@ -30,10 +30,10 @@ export default function TestimonialsSection() {
   const { t } = useTranslation("home.testimonials");
 
   return (
-    <section id="testimonials" className="relative overflow-hidden bg-[var(--surface-warm)] py-16 lg:py-20">
+    <section id="testimonials" className="relative overflow-hidden bg-[var(--surface-warm)] py-16 lg:py-20 snap-section">
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-0 select-none text-[#ed1c24] opacity-[0.045]"
+        className="pointer-events-none absolute inset-0 select-none text-primary opacity-[0.045]"
       >
         <div className="mx-auto flex max-w-[1800px] flex-col gap-6 px-6 py-8 text-5xl font-bold uppercase tracking-[0.22em] lg:text-7xl">
           {Array.from({ length: 2 }).map((_, row) => (
@@ -52,8 +52,8 @@ export default function TestimonialsSection() {
       </div>
       <div className="max-w-[1640px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 lg:mb-14">
-          <p className="text-xs font-semibold tracking-[0.3em] text-[#ed1c24] mb-3">TESTIMONIALS</p>
-          <h2 className="text-4xl sm:text-5xl font-bold text-[#191c1f]">{t("title")}</h2>
+          <p className="typo-eyebrow text-primary mb-3">TESTIMONIALS</p>
+          <h2 className="typo-section-title">{t("title")}</h2>
           <p className="text-base text-gray-600 max-w-2xl mx-auto mt-4">
             {t("subtitle")}
           </p>
@@ -67,20 +67,20 @@ export default function TestimonialsSection() {
             >
               <div className="flex items-start justify-between gap-4">
                 <div className="flex items-center gap-3">
-                  <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-[#f3f4f6] to-[#e5e7eb] text-[#6b7280]">
+                  <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-gray-100 to-gray-200 text-gray">
                     <HiUser className="h-7 w-7" />
                   </div>
                   <div className="text-left">
-                    <p className="text-base font-semibold text-[#191c1f]">{item.name}</p>
+                    <p className="text-base font-semibold text-dark">{item.name}</p>
                     <p className="text-sm text-gray-500">{item.meta}</p>
                   </div>
                 </div>
-                <span className="rounded-full border border-[#ed1c24]/25 bg-[#ed1c24]/10 px-3.5 py-1.5 text-xs font-semibold text-[#c41920] shadow-[0_4px_10px_rgba(237,28,36,0.16)] ring-1 ring-[#ed1c24]/15">
+                <span className="rounded-full border border-primary/25 bg-primary/10 px-3.5 py-1.5 text-xs font-semibold text-primary-dark shadow-[0_4px_10px_rgba(237,28,36,0.16)] ring-1 ring-primary/15">
                   {t(`tags.${item.tagKey}`)}
                 </span>
               </div>
 
-              <div className="mt-6 flex items-center gap-1 text-[#ed1c24]">
+              <div className="mt-6 flex items-center gap-1 text-primary">
                 {Array.from({ length: 5 }).map((_, starIndex) => (
                   <FaStar key={`${index}-${starIndex}`} className="h-4 w-4" />
                 ))}
@@ -88,7 +88,7 @@ export default function TestimonialsSection() {
               </div>
 
               <div className="relative mt-5 flex-1">
-                <FaQuoteLeft className="absolute -left-1 -top-1 h-6 w-6 text-[#ed1c24]/20" />
+                <FaQuoteLeft className="absolute -left-1 -top-1 h-6 w-6 text-primary/20" />
                 <p className="pl-7 text-base leading-relaxed text-gray-700">
                   {item.quote}
                 </p>

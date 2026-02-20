@@ -2,15 +2,14 @@
 
 import { useState, useCallback, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import PublicLayout from "@/components/layout/PublicLayout";
 import BoardTabs from "@/components/board/BoardTabs";
 import SearchBar from "@/components/board/SearchBar";
 import BoardTable from "@/components/board/BoardTable";
 import BlogGrid from "@/components/board/BlogGrid";
 import Pagination from "@/components/board/Pagination";
 import { BoardEntry, TabType } from "@/types/board";
-import Lenis from "lenis";
+import { useLenis } from "@/hooks/useLenis";
 import { createClient } from "@/lib/supabase/client";
 import { useTranslation } from "@/hooks/useTranslation";
 
@@ -58,29 +57,7 @@ export default function BoardPage() {
     fetchEntries();
   }, [activeTab, supabase]);
 
-  // Lenis 부드러운 스크롤
-  useEffect(() => {
-    const lenis = new Lenis({
-      lerp: 0.1,
-      duration: 1.2,
-      easing: (t) => 1 - Math.pow(1 - t, 3),
-      smoothWheel: true,
-      wheelMultiplier: 0.8,
-      infinite: false,
-    });
-
-    let rafId: number;
-    function raf(time: number) {
-      lenis.raf(time);
-      rafId = requestAnimationFrame(raf);
-    }
-    rafId = requestAnimationFrame(raf);
-
-    return () => {
-      cancelAnimationFrame(rafId);
-      lenis.destroy();
-    };
-  }, []);
+  useLenis();
 
   // Filter entries by tab
   let filteredEntries = entries.filter((entry) => entry.type === activeTab);
@@ -127,20 +104,18 @@ export default function BoardPage() {
   };
 
   return (
-    <>
-      <Header />
-      <main className="pt-[82px] lg:pt-[120px] min-h-screen bg-white">
-        {/* Hero Section */}
+    <PublicLayout className="bg-white">
+      {/* Hero Section */}
         <section className="pt-16 lg:pt-20 pb-8 lg:pb-10 animate-fadeIn">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="relative inline-block">
-              <div className="absolute -top-6 -left-2 w-20 h-20 bg-gradient-to-br from-[#ed1c24]/20 via-[#ed1c24]/10 to-transparent rounded-2xl" />
-              <div className="absolute -top-4 left-0 w-4 h-4 bg-gradient-to-br from-[#ed1c24] to-[#ed1c24]/60 rounded-sm" />
+              <div className="absolute -top-6 -left-2 w-20 h-20 bg-gradient-to-br from-primary/20 via-primary/10 to-transparent rounded-2xl" />
+              <div className="absolute -top-4 left-0 w-4 h-4 bg-gradient-to-br from-primary to-primary/60 rounded-sm" />
 
-              <p className="text-xs font-semibold text-[#ed1c24] tracking-[0.2em] mb-3 uppercase relative z-10">
+              <p className="typo-eyebrow text-primary mb-3 relative z-10">
                 {t("subtitle")}
               </p>
-              <h1 className="text-3xl lg:text-5xl font-bold text-[#191c1f] tracking-tight relative z-10">
+              <h1 className="typo-page-title tracking-tight relative z-10">
                 {getPageTitle()}
               </h1>
             </div>
@@ -160,7 +135,7 @@ export default function BoardPage() {
               {/* Total Count */}
               <div className="flex items-center gap-2">
                 <span className="text-base font-semibold text-gray-700">{t("total")}</span>
-                <span className="text-base font-bold text-[#ed1c24]">
+                <span className="text-base font-bold text-primary">
                   {totalCount}{t("count_suffix")}
                 </span>
               </div>
@@ -189,8 +164,6 @@ export default function BoardPage() {
             />
           </div>
         </section>
-      </main>
-      <Footer />
-    </>
+    </PublicLayout>
   );
 }

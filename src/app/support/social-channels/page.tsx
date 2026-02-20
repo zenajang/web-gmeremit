@@ -66,13 +66,13 @@ export default function SocialChannelsPage() {
     <div>
       {/* 헤더 섹션 */}
       <div className="text-center mb-12">
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-[#ed1c24]/5 rounded-full mb-5">
-          <RiCustomerService2Fill className="w-4 h-4 text-[#ed1c24]" />
-          <span className="text-sm font-semibold text-[#ed1c24]">
+        <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-primary/5 rounded-full mb-5">
+          <RiCustomerService2Fill className="w-4 h-4 text-primary" />
+          <span className="text-sm font-semibold text-primary">
             {t("countries_count")} {t("operating")}
           </span>
         </div>
-        <h2 className="text-2xl lg:text-3xl font-bold text-[#191c1f] mb-3">
+        <h2 className="typo-heading mb-3">
           {t("title")}
         </h2>
         <p className="text-gray-500 max-w-md mx-auto">{t("description")}</p>
@@ -96,15 +96,15 @@ export default function SocialChannelsPage() {
               <div
                 className={`absolute left-0 top-3 bottom-3 w-[3px] rounded-full transition-all duration-300 ${
                   isExpanded
-                    ? "bg-[#ed1c24] opacity-100"
-                    : "bg-[#ed1c24] opacity-0"
+                    ? "bg-primary opacity-100"
+                    : "bg-primary opacity-0"
                 }`}
               />
 
               <div className="p-5">
                 <div className="flex items-center justify-between">
                   {/* 국가명 */}
-                  <h3 className="text-[15px] font-semibold text-[#191c1f]">
+                  <h3 className="text-[15px] font-semibold text-dark">
                     {t(`countries.${country.id}`)}
                   </h3>
 
@@ -117,8 +117,8 @@ export default function SocialChannelsPage() {
                         }
                         className={`flex items-center justify-center w-8 h-8 rounded-full transition-all duration-200 cursor-pointer ${
                           isExpanded
-                            ? "bg-[#ed1c24] text-white shadow-md shadow-[#ed1c24]/25"
-                            : "bg-white text-[#ed1c24] ring-1 ring-gray-200 hover:bg-[#ed1c24] hover:text-white hover:ring-[#ed1c24] hover:shadow-md hover:shadow-[#ed1c24]/25"
+                            ? "bg-primary text-white shadow-md shadow-primary/25"
+                            : "bg-white text-primary ring-1 ring-gray-200 hover:bg-primary hover:text-white hover:ring-primary hover:shadow-md hover:shadow-primary/25"
                         }`}
                         title={t("contact")}
                       >
@@ -174,13 +174,12 @@ export default function SocialChannelsPage() {
                       {country.contacts?.map((contact, idx) => (
                         <a
                           key={idx}
-                          href={`tel:${contact.phone.replace(/-/g, "")}`}
-                          className="flex items-center justify-between text-sm rounded-xl px-3 py-2.5 hover:bg-[#ed1c24]/[0.04] transition-colors group"
+                          className="flex items-center justify-between text-sm rounded-xl px-3 py-2.5 hover:bg-primary/[0.04] transition-colors group"
                         >
                           <span className="text-gray-400 text-xs font-medium tracking-wide uppercase">
                             {contact.label}
                           </span>
-                          <span className="font-semibold text-[#191c1f] group-hover:text-[#ed1c24] transition-colors tabular-nums">
+                          <span className="font-semibold text-dark group-hover:text-primary">
                             {contact.phone}
                           </span>
                         </a>

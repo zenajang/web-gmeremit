@@ -33,7 +33,7 @@ export function MobileLanguageSelector({ onClose }: { onClose: () => void }) {
     <div className="border-b border-gray-100">
       <button
         type="button"
-        className="w-full flex items-center justify-between px-4 py-3 text-[#191c1f] hover:bg-gray-50 font-medium cursor-pointer"
+        className="w-full flex items-center justify-between px-4 py-3 text-dark hover:bg-gray-50 font-medium cursor-pointer"
         onClick={() => setIsExpanded(!isExpanded)}
       >
         <div className="flex items-center gap-2">
@@ -55,7 +55,7 @@ export function MobileLanguageSelector({ onClose }: { onClose: () => void }) {
                 onClose();
               }}
               className={`w-full flex items-center gap-3 px-6 py-2.5 text-left hover:bg-gray-100 transition-colors duration-150 cursor-pointer ${
-                currentLanguage.code === lang.code ? "bg-gray-100 text-[#ed1c24]" : "text-[#191c1f]"
+                currentLanguage.code === lang.code ? "bg-gray-100 text-primary" : "text-dark"
               }`}
             >
               <span className="text-lg">{lang.flag}</span>
@@ -87,7 +87,7 @@ export function MobileAccordion({
     return (
       <Link
         href={item.href}
-        className="block px-4 py-3 text-[#191c1f] hover:bg-gray-50 font-medium border-b border-gray-100"
+        className="block px-4 py-3 text-dark hover:bg-gray-50 font-medium border-b border-gray-100"
         onClick={onClose}
       >
         {item.label}
@@ -103,7 +103,7 @@ export function MobileAccordion({
       <div className="border-b border-gray-100">
         <button
           type="button"
-          className="w-full flex items-center justify-between px-4 py-3 text-[#191c1f] hover:bg-gray-50 font-medium cursor-pointer"
+          className="w-full flex items-center justify-between px-4 py-3 text-dark hover:bg-gray-50 font-medium cursor-pointer"
           onClick={() => setIsExpanded(!isExpanded)}
         >
           <span>{item.label}</span>
@@ -114,12 +114,12 @@ export function MobileAccordion({
           <div className="bg-gray-50 pb-2">
             {sections.map((section) => (
               <div key={section.title} className="px-4 py-2">
-                <h4 className="text-[#ed1c24] font-semibold text-sm mb-2">{section.title}</h4>
+                <h4 className="text-primary font-semibold text-sm mb-2">{section.title}</h4>
                 {section.items.map((subItem) => (
                   <Link
                     key={subItem.label}
                     href={subItem.href}
-                    className="block px-2 py-2 text-[#191c1f] hover:text-[#ed1c24]"
+                    className="block px-2 py-2 text-dark hover:text-primary"
                     onClick={onClose}
                   >
                     <span className="text-sm">{subItem.label}</span>
@@ -138,7 +138,7 @@ export function MobileAccordion({
     <div className="border-b border-gray-100">
       <button
         type="button"
-        className="w-full flex items-center justify-between px-4 py-3 text-[#191c1f] hover:bg-gray-50 font-medium cursor-pointer"
+        className="w-full flex items-center justify-between px-4 py-3 text-dark hover:bg-gray-50 font-medium cursor-pointer"
         onClick={() => setIsExpanded(!isExpanded)}
       >
         <span>{item.label}</span>
@@ -151,7 +151,7 @@ export function MobileAccordion({
             <Link
               key={child.label}
               href={child.href}
-              className="block px-6 py-2.5 text-[#191c1f] hover:bg-gray-100 hover:text-[#ed1c24]"
+              className="block px-6 py-2.5 text-dark hover:bg-gray-100 hover:text-primary"
               onClick={onClose}
             >
               {child.label}
@@ -199,14 +199,14 @@ export default function MobileNav({
           ))}
           <Link
             href="/download"
-            className="block px-4 py-3 text-[#191c1f] hover:bg-gray-50 font-medium border-b border-gray-100"
+            className="block px-4 py-3 text-dark hover:bg-gray-50 font-medium border-b border-gray-100"
             onClick={onClose}
           >
             Download App
           </Link>
           <Link
             href="/company/careers"
-            className="block px-4 py-3 text-[#191c1f] hover:bg-gray-50 font-medium border-b border-gray-100"
+            className="block px-4 py-3 text-dark hover:bg-gray-50 font-medium border-b border-gray-100"
             onClick={onClose}
           >
             Careers
@@ -215,7 +215,7 @@ export default function MobileNav({
           <div className="px-4 pt-4">
             <Link
               href="/download"
-              className="block w-full bg-[#ed1c24] hover:bg-[#c41920] text-white font-semibold px-6 py-3 rounded-full text-center transition-colors duration-200"
+              className="block w-full bg-primary hover:bg-primary-dark text-white font-semibold px-6 py-3 rounded-full text-center transition-colors duration-200"
               onClick={onClose}
             >
               Download App

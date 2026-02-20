@@ -401,7 +401,7 @@ export default function Header() {
             {/* 채용 */}
             <Link
               href="/company/careers"
-              className="text-[13px] text-[#666] hover:text-[#ed1c24] transition-colors"
+              className="text-[13px] text-gray-500 hover:text-primary transition-colors"
             >
               {t("link.careers")}
             </Link>
@@ -412,7 +412,7 @@ export default function Header() {
               href="https://gmebiz.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1 text-[13px] text-[#666] hover:text-[#ed1c24] transition-colors"
+              className="flex items-center gap-1 text-[13px] text-gray-500 hover:text-primary transition-colors"
             >
               <span>GME Biz</span>
               <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -451,7 +451,7 @@ export default function Header() {
               {/* CTA Button */}
               <a
                 href="/#app-download"
-                className="hidden lg:flex items-center gap-2 px-5 py-2.5 text-[14px] font-semibold text-white bg-[#ed1c24] hover:bg-[#c41920] rounded-full transition-colors"
+                className="hidden lg:flex items-center gap-2 px-5 py-2.5 text-[14px] font-semibold text-white bg-primary hover:bg-primary-dark rounded-full transition-colors"
               >
                 {t("app_download", { ns: "button" })}
               </a>
@@ -464,7 +464,7 @@ export default function Header() {
               {/* Mobile Menu Button */}
               <button
                 type="button"
-                className="lg:hidden p-2.5 rounded-xl text-[#191c1f] hover:bg-[#f5f5f7] active:scale-95 transition-all duration-150 cursor-pointer"
+                className="lg:hidden p-2.5 rounded-xl text-dark hover:bg-gray-100 active:scale-95 transition-all duration-150 cursor-pointer"
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 aria-label={isMenuOpen ? "Close menu" : "Open menu"}
                 aria-expanded={isMenuOpen}

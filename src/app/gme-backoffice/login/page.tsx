@@ -33,7 +33,7 @@ export default function AdminLoginPage() {
         <div className="bg-white rounded-2xl shadow-lg p-8">
           {/* Logo */}
           <div className="text-center mb-8">
-            <h1 className="text-2xl font-bold text-[#191c1f] mb-2">
+            <h1 className="typo-content-title mb-2">
               GME Remit Admin
             </h1>
             <p className="text-gray-600">관리자 로그인</p>
@@ -61,7 +61,7 @@ export default function AdminLoginPage() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#ed1c24] focus:border-transparent outline-none transition-all"
+                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all"
                 placeholder="admin@gmeremit.com"
               />
             </div>
@@ -79,7 +79,7 @@ export default function AdminLoginPage() {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#ed1c24] focus:border-transparent outline-none transition-all"
+                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all"
                 placeholder="••••••••"
               />
             </div>
@@ -87,7 +87,7 @@ export default function AdminLoginPage() {
             <button
               type="submit"
               disabled={loading}
-              className="w-full py-3 bg-[#ed1c24] text-white font-semibold rounded-lg hover:bg-[#d91920] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {loading ? '로그인 중...' : '로그인'}
             </button>

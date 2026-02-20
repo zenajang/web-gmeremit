@@ -26,7 +26,7 @@ export default function Pagination({
       {/* Load More Button */}
       <button
         onClick={onLoadMore}
-        className="group relative px-10 py-4 bg-white border-2 border-[#ed1c24] text-[#ed1c24] font-semibold rounded-full hover:bg-gradient-to-r hover:from-[#ed1c24] hover:to-[#d01920] hover:text-white hover:border-[#ed1c24] transition-all duration-300 shadow-sm hover:shadow-[0_8px_30px_rgba(237,28,36,0.2)] hover:-translate-y-1 active:translate-y-0 cursor-pointer"
+        className="group relative px-10 py-4 bg-white border-2 border-primary text-primary font-semibold rounded-full hover:bg-gradient-to-r hover:from-primary hover:to-primary-dark hover:text-white hover:border-primary transition-all duration-300 shadow-sm hover:shadow-[0_8px_30px_rgba(237,28,36,0.2)] hover:-translate-y-1 active:translate-y-0 cursor-pointer"
       >
         <span className="flex items-center gap-3">
           <span>{t("load_more")}</span>

@@ -1,76 +1,16 @@
 "use client";
 
-import { useEffect, useRef } from "react";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import Lenis from "lenis";
+import Image from "next/image";
+import PublicLayout from "@/components/layout/PublicLayout";
+import ServiceHeroSection from "@/components/service/ServiceHeroSection";
+import { useLenis } from "@/hooks/useLenis";
+import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
 import { useTranslation } from "@/hooks/useTranslation";
 
 export default function RemittancePage() {
   const { t } = useTranslation("remittance");
-  const sectionRefs = useRef<(HTMLElement | null)[]>([]);
-  const lenisRef = useRef<Lenis | null>(null);
-
-  useEffect(() => {
-    const lenis = new Lenis({
-      lerp: 0.1,
-      duration: 1.2,
-      easing: (t) => 1 - Math.pow(1 - t, 3),
-      smoothWheel: true,
-      wheelMultiplier: 0.8,
-      infinite: false,
-    });
-
-    lenisRef.current = lenis;
-
-    let rafId: number;
-    function raf(time: number) {
-      lenis.raf(time);
-      rafId = requestAnimationFrame(raf);
-    }
-    rafId = requestAnimationFrame(raf);
-
-    return () => {
-      cancelAnimationFrame(rafId);
-      lenis.destroy();
-      lenisRef.current = null;
-    };
-  }, []);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("animate-in");
-          }
-        });
-      },
-      { threshold: 0.15 }
-    );
-
-    sectionRefs.current.forEach((el) => {
-      if (el) observer.observe(el);
-    });
-
-    const steps = document.querySelectorAll(".fade-step");
-    const stepObserver = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("animate-in");
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-    steps.forEach((el) => stepObserver.observe(el));
-
-    return () => {
-      observer.disconnect();
-      stepObserver.disconnect();
-    };
-  }, []);
+  useLenis();
+  const sectionRefs = useScrollFadeIn();
 
   const whyKeys = ["fastest", "cheapest", "secure"] as const;
 
@@ -124,27 +64,6 @@ export default function RemittancePage() {
     </svg>,
   ];
 
-  const trustItems = ["moef", "fss", "efb", "partner"] as const;
-
-  const trustIcons = [
-    // 기획재정부 - 건물/정부 아이콘
-    <svg key="t1" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
-    </svg>,
-    // 금감원 - 방패 체크 아이콘
-    <svg key="t2" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
-    </svg>,
-    // 전자금융업 - 문서 인증 아이콘
-    <svg key="t3" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
-    </svg>,
-    // 글로벌 파트너
-    <svg key="t4" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
-    </svg>,
-  ];
-
   const countries = [
     "Nepal", "Philippines", "Vietnam", "Indonesia", "India",
     "Bangladesh", "Sri Lanka", "Myanmar", "Cambodia", "Pakistan",
@@ -158,39 +77,9 @@ export default function RemittancePage() {
   ];
 
   return (
-    <>
-      <Header />
-      <main className="pt-[82px] lg:pt-[120px] min-h-screen bg-white">
+    <PublicLayout className="bg-white">
 
-        {/* ── Page Header ── */}
-        <section className="relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#1f2937]/[0.12] via-[#f5f5f5] to-[#ed1c24]/[0.14]" />
-
-          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
-            <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
-              <div>
-                <p className="text-sm font-semibold text-[#ed1c24] tracking-wide uppercase mb-3">
-                  {t("hero.badge")}
-                </p>
-                <h1 className="text-3xl lg:text-4xl font-bold text-[#191c1f] leading-tight mb-3">
-                  {t("hero.title1")} <span className="text-[#ed1c24]">{t("hero.title2")}</span>
-                </h1>
-                <p className="text-gray-500 max-w-lg">
-                  {t("hero.description")}
-                </p>
-              </div>
-              <a
-                href="#why"
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#ed1c24] text-white text-sm font-semibold rounded-lg hover:bg-[#c41920] transition-colors shrink-0"
-              >
-                {t("hero.cta")}
-                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </section>
+        <ServiceHeroSection translationKey="remittance" color="primary" ctaHref="#why" />
 
         {/* ── Why Choose GME Remittance ── */}
         <section id="why" ref={(el) => { sectionRefs.current[0] = el; }} className="py-20 lg:py-28 fade-section">
@@ -199,7 +88,7 @@ export default function RemittancePage() {
             <div className="flex items-end justify-between mb-8">
               <div>
                 <p className="text-[15px] lg:text-base text-gray-500 mb-1">{t("why.subtitle")}</p>
-                <h2 className="text-[28px] lg:text-[36px] font-bold text-[#ed1c24] leading-tight">{t("why.title")}</h2>
+                <h2 className="text-[28px] lg:text-[36px] font-bold text-primary leading-tight">{t("why.title")}</h2>
               </div>
             </div>
 
@@ -240,7 +129,7 @@ export default function RemittancePage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-16 lg:gap-x-24 gap-y-7">
               {whyKeys.map((key) => (
                 <div key={key} className="fade-step">
-                  <h3 className="text-[20px] font-bold text-[#191c1f] mb-1.5">{t(`why.items.${key}.title`)}</h3>
+                  <h3 className="typo-feature-title mb-1.5">{t(`why.items.${key}.title`)}</h3>
                   <p className="text-[16px] text-gray-400 leading-relaxed">{t(`why.items.${key}.desc`)}</p>
                 </div>
               ))}
@@ -249,13 +138,13 @@ export default function RemittancePage() {
         </section>
 
         {/* ── Transfer Methods ── */}
-        <section ref={(el) => { sectionRefs.current[1] = el; }} className="py-20 lg:py-28 bg-[#fafafa] fade-section">
+        <section ref={(el) => { sectionRefs.current[1] = el; }} className="py-20 lg:py-28 bg-gray-50 fade-section">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12 lg:mb-16">
-              <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-[#ed1c24] leading-tight mb-2">
+              <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-primary leading-tight mb-2">
                 {t("features.title")}
               </h2>
-              <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-[#191c1f] leading-tight mb-5">
+              <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-dark leading-tight mb-5">
                 {t("features.title2")}
               </h2>
               <p className="text-gray-500 text-sm sm:text-base">
@@ -267,12 +156,12 @@ export default function RemittancePage() {
               {featureItems.map((item) => (
                 <div
                   key={item.key}
-                  className="group rounded-2xl bg-white border border-gray-200 p-6 hover:shadow-xl hover:border-[#ed1c24]/20 hover:-translate-y-1 transition-all duration-300 fade-step"
+                  className="group rounded-2xl bg-white border border-gray-200 p-6 hover:shadow-xl hover:border-primary/20 hover:-translate-y-1 transition-all duration-300 fade-step"
                 >
-                  <div className="w-12 h-12 rounded-xl bg-[#ed1c24]/10 flex items-center justify-center text-[#ed1c24] mb-4 group-hover:bg-[#ed1c24] group-hover:text-white transition-colors duration-300">
+                  <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-4 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
                     {item.icon}
                   </div>
-                  <h3 className="text-lg font-bold text-[#191c1f] mb-2">
+                  <h3 className="typo-card-title mb-2">
                     {t(`features.${item.key}.title`)}
                   </h3>
                   <p className="text-sm text-gray-500 leading-relaxed">
@@ -288,10 +177,10 @@ export default function RemittancePage() {
         <section ref={(el) => { sectionRefs.current[2] = el; }} className="py-20 lg:py-28 fade-section">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12 lg:mb-16">
-              <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-[#ed1c24] leading-tight mb-2">
+              <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-primary leading-tight mb-2">
                 {t("process.title")}
               </h2>
-              <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-[#191c1f] leading-tight mb-5">
+              <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-dark leading-tight mb-5">
                 {t("process.title2")}
               </h2>
               <p className="text-gray-500 text-sm sm:text-base">
@@ -305,18 +194,18 @@ export default function RemittancePage() {
                   {/* Connector */}
                   {idx < processSteps.length - 1 && (
                     <div className="hidden lg:block absolute top-10 left-[calc(100%)] w-full h-[2px] z-0">
-                      <div className="w-full h-full bg-gradient-to-r from-[#ed1c24]/30 to-[#ed1c24]/10" />
+                      <div className="w-full h-full bg-gradient-to-r from-primary/30 to-primary/10" />
                     </div>
                   )}
 
                   <div className="relative bg-white rounded-2xl border border-gray-200 p-7 text-center hover:shadow-lg transition-shadow duration-300">
-                    <div className="relative inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-[#ed1c24] to-[#ff6b6b] text-white mb-5 shadow-lg shadow-[#ed1c24]/20">
+                    <div className="relative inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-primary to-primary-light text-white mb-5 shadow-lg shadow-primary/20">
                       {processIcons[idx]}
-                      <span className="absolute -top-2 -right-2 w-7 h-7 rounded-full bg-white text-[#ed1c24] text-sm font-bold flex items-center justify-center shadow-md border border-[#ed1c24]/20">
+                      <span className="absolute -top-2 -right-2 w-7 h-7 rounded-full bg-white text-primary text-sm font-bold flex items-center justify-center shadow-md border border-primary/20">
                         {idx + 1}
                       </span>
                     </div>
-                    <h3 className="text-lg font-bold text-[#191c1f] mb-2">
+                    <h3 className="typo-card-title mb-2">
                       {t(`process.${step}.title`)}
                     </h3>
                     <p className="text-sm text-gray-500 leading-relaxed">
@@ -331,30 +220,23 @@ export default function RemittancePage() {
 
         {/* ── Trust / Compliance ── */}
         <section ref={(el) => { sectionRefs.current[3] = el; }} className="py-16 lg:py-20 fade-section">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="rounded-3xl bg-[#191c1f] p-8 lg:p-12 text-center">
-              <h2 className="text-2xl lg:text-3xl font-bold text-white mb-3">
-                {t("trust.title")}
-              </h2>
-              <p className="text-gray-400 mb-8 max-w-lg mx-auto text-sm">
-                {t("trust.desc")}
-              </p>
-              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-                {trustItems.map((key, idx) => (
-                  <div
-                    key={key}
-                    className="rounded-xl bg-white/[0.08] border border-white/[0.08] p-5 hover:bg-white/[0.12] transition-colors duration-300 fade-step"
-                  >
-                    <div className="w-10 h-10 rounded-lg bg-[#ed1c24]/20 flex items-center justify-center text-[#ed1c24] mx-auto mb-3">
-                      {trustIcons[idx]}
-                    </div>
-                    <p className="text-sm font-semibold text-white">
-                      {t(`trust.${key}`)}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="typo-sub-page-title mb-3">
+              {t("trust.title")}
+            </h2>
+            <p className="text-gray-500 leading-relaxed mb-10 max-w-2xl mx-auto">
+              {t("trust.desc")}
+            </p>
+            <Image
+              src="/images/license4.png"
+              alt="GME License"
+              width={1200}
+              height={700}
+              className="mx-auto mb-6 object-contain"
+            />
+            <p className="text-sm text-gray-400">
+              * {t("trust.insurance")}
+            </p>
           </div>
         </section>
 
@@ -368,10 +250,10 @@ export default function RemittancePage() {
           />
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-[#ed1c24] leading-tight mb-2">
+              <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-primary leading-tight mb-2">
                 {t("regions.title")}
               </h2>
-              <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-[#191c1f] leading-tight mb-5">
+              <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-dark leading-tight mb-5">
                 {t("regions.title2")}
               </h2>
               <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto">
@@ -386,7 +268,7 @@ export default function RemittancePage() {
                 return (
                   <span
                     key={country}
-                    className="px-4 py-2 sm:px-5 sm:py-2.5 rounded-full bg-white/80 backdrop-blur-sm border border-gray-200 text-sm sm:text-[15px] font-medium text-[#191c1f] whitespace-nowrap transition-opacity"
+                    className="px-4 py-2 sm:px-5 sm:py-2.5 rounded-full bg-white/80 backdrop-blur-sm border border-gray-200 text-sm sm:text-[15px] font-medium text-dark whitespace-nowrap transition-opacity"
                     style={{ opacity }}
                   >
                     {country}
@@ -397,8 +279,6 @@ export default function RemittancePage() {
           
           </div>
         </section>
-      </main>
-      <Footer />
-    </>
+    </PublicLayout>
   );
 }

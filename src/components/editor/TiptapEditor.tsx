@@ -94,7 +94,7 @@ export default function TiptapEditor({ content, onChange, placeholder, bucketNam
   }
 
   return (
-    <div className="border border-gray-300 rounded-lg focus-within:ring-2 focus-within:ring-[#ed1c24] focus-within:border-transparent max-h-[600px] overflow-y-auto">
+    <div className="border border-gray-300 rounded-lg focus-within:ring-2 focus-within:ring-primary focus-within:border-transparent max-h-[600px] overflow-y-auto">
       {/* Toolbar */}
       <div className="sticky top-0 z-10 flex items-center gap-1 p-2 border-b border-gray-200 bg-gray-50 flex-wrap">
         <button

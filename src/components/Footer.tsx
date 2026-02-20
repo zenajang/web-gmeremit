@@ -17,22 +17,22 @@ export default function Footer() {
             <div className="mb-6">
               <div className="flex items-center gap-2">
                 <img src="/images/favicon.png" alt="GME Logo" className="w-8 h-8" />
-                <span className="text-xl font-bold text-[#191c1f]">{t("company_name")}</span>
+                <span className="typo-feature-title">{t("company_name")}</span>
               </div>
             </div>
 
             {/* Navigation Links */}
             <div className="mb-6">
               <div className="flex items-center gap-2 text-sm font-medium text-gray-700">
-                <Link href="/" className="hover:text-[#ed1c24] transition-colors">
+                <Link href="/" className="hover:text-primary transition-colors">
                   {t("link.company_intro")}
                 </Link>
                 <span className="text-gray-400">|</span>
-                <Link href="/terms" className="hover:text-[#ed1c24] transition-colors">
+                <Link href="/terms" className="hover:text-primary transition-colors">
                   {t("link.terms")}
                 </Link>
                 <span className="text-gray-400">|</span>
-                <Link href="/privacy" className="hover:text-[#ed1c24] transition-colors">
+                <Link href="/privacy" className="hover:text-primary transition-colors">
                   {t("link.privacy")}
                 </Link>
               </div>
@@ -51,7 +51,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-200 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-xs text-gray-500">{t("copyright")}</p>
-          <Link href="/" className="text-xs text-gray-500 hover:text-[#ed1c24] transition-colors">
+          <Link href="/" className="text-xs text-gray-500 hover:text-primary transition-colors">
             {t("company_name")}
           </Link>
         </div>

@@ -1,133 +1,153 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { getHeaderHeight } from "@/utils/scroll";
 
-const sectionIds = [
-  "hero", // snap-section으로 찾음
-  "app",
-  "gme-payments",
-  "payments-section",
-  "overseas-remittance",
-  "online-loan",
-  "gme-cards",
-  "testimonials",
-  "app-download",
-];
+const SCROLL_DURATION = 700;
+const COOLDOWN = 600;
+
+// Trackpad sends many small deltaY events (pixel-level), mouse wheel sends
+// fewer large ones. We use this heuristic to detect the input type per-event.
+const MOUSE_WHEEL_MIN_DELTA = 50;
+
+function easeInOutCubic(t: number) {
+  return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+}
 
 export default function ScrollSnap() {
-  const isScrolling = useRef(false);
-  const scrollDirection = useRef<"up" | "down" | null>(null);
-  const scrollAccumulator = useRef(0);
+  const isAnimatingRef = useRef(false);
+  const lastScrollTime = useRef(0);
+  const accumulatorRef = useRef(0);
+  const directionRef = useRef<"up" | "down" | null>(null);
+  const rafIdRef = useRef<number>(0);
+  const lastWheelTimeRef = useRef(0);
 
   useEffect(() => {
-    // Header height + extra offset to show content a bit higher
-    const headerHeight = window.innerWidth >= 1024 ? 72 : 64;
-    const extraOffset = 10; // 섹션이 더 아래에서 시작하도록
-    const effectiveHeaderHeight = headerHeight - extraOffset;
-    const threshold = 40;
+    const getSections = () =>
+      Array.from(document.querySelectorAll(".snap-section")) as HTMLElement[];
 
-    // 섹션 요소들 가져오기
-    const getSections = () => {
-      return sectionIds.map((id) => {
-        if (id === "hero") {
-          return document.querySelector(".snap-section") as HTMLElement;
-        }
-        return document.getElementById(id);
-      }).filter(Boolean) as HTMLElement[];
-    };
-
-    const smoothScrollTo = (target: number) => {
-      isScrolling.current = true;
-
-      const start = window.scrollY;
-      const distance = target - start;
-      const duration = 500;
-      let startTime: number | null = null;
-
-      const easeOutQuart = (t: number) => 1 - Math.pow(1 - t, 4);
-
-      const animate = (currentTime: number) => {
-        if (startTime === null) startTime = currentTime;
-        const elapsed = currentTime - startTime;
-        const progress = Math.min(elapsed / duration, 1);
-
-        window.scrollTo(0, start + distance * easeOutQuart(progress));
-
-        if (progress < 1) {
-          requestAnimationFrame(animate);
-        } else {
-          setTimeout(() => {
-            isScrolling.current = false;
-            scrollAccumulator.current = 0;
-          }, 150);
-        }
-      };
-
-      requestAnimationFrame(animate);
-    };
-
-    const getCurrentSectionIndex = (sections: HTMLElement[], scrollY: number) => {
+    const getCurrentIndex = (sections: HTMLElement[], scrollY: number) => {
+      const headerHeight = getHeaderHeight();
       for (let i = sections.length - 1; i >= 0; i--) {
-        const section = sections[i];
-        const sectionTop = section.offsetTop - headerHeight - 100;
-        if (scrollY >= sectionTop) {
-          return i;
-        }
+        if (scrollY >= sections[i].offsetTop - headerHeight - 100) return i;
       }
       return 0;
     };
 
+    const smoothScrollTo = (target: number) => {
+      const start = window.scrollY;
+      const distance = target - start;
+      if (Math.abs(distance) < 2) return;
+
+      isAnimatingRef.current = true;
+      lastScrollTime.current = Date.now();
+      let startTime: number | null = null;
+
+      const animate = (time: number) => {
+        if (!startTime) startTime = time;
+        const elapsed = time - startTime;
+        const progress = Math.min(elapsed / SCROLL_DURATION, 1);
+
+        window.scrollTo(0, start + distance * easeInOutCubic(progress));
+
+        if (progress < 1) {
+          rafIdRef.current = requestAnimationFrame(animate);
+        } else {
+          isAnimatingRef.current = false;
+        }
+      };
+
+      cancelAnimationFrame(rafIdRef.current);
+      rafIdRef.current = requestAnimationFrame(animate);
+    };
+
+    // Expose for SectionNav
+    (window as unknown as Record<string, unknown>).__smoothScrollTo =
+      smoothScrollTo;
+
+    const scrollToIndex = (sections: HTMLElement[], index: number) => {
+      const headerHeight = getHeaderHeight();
+      const offset = sections[index].id === "testimonials" ? 40 : 0;
+      const target =
+        index === 0
+          ? 0
+          : Math.max(0, sections[index].offsetTop - headerHeight - offset);
+      smoothScrollTo(target);
+    };
+
     const handleWheel = (e: WheelEvent) => {
-      if (isScrolling.current) return;
+      e.preventDefault();
 
-      const sections = getSections();
-      if (sections.length === 0) return;
+      if (isAnimatingRef.current) return;
+      if (Date.now() - lastScrollTime.current < COOLDOWN) return;
 
-      const currentScrollY = window.scrollY;
+      const now = Date.now();
+      const timeSinceLast = now - lastWheelTimeRef.current;
+      lastWheelTimeRef.current = now;
+
+      const absDelta = Math.abs(e.deltaY);
+      // Mouse wheel: large delta with gaps between events (>80ms)
+      // Trackpad: small delta with rapid succession (<80ms)
+      const isMouseWheel =
+        absDelta >= MOUSE_WHEEL_MIN_DELTA && timeSinceLast > 80;
+      const threshold = isMouseWheel ? 0 : 30;
+
       const direction = e.deltaY > 0 ? "down" : "up";
 
-      // 스크롤 누적
-      if (scrollDirection.current === direction) {
-        scrollAccumulator.current += Math.abs(e.deltaY);
+      if (directionRef.current === direction) {
+        accumulatorRef.current += absDelta;
       } else {
-        scrollDirection.current = direction;
-        scrollAccumulator.current = Math.abs(e.deltaY);
+        directionRef.current = direction;
+        accumulatorRef.current = absDelta;
       }
 
-      if (scrollAccumulator.current < threshold) return;
+      if (accumulatorRef.current < threshold) return;
+      accumulatorRef.current = 0;
 
-      const currentIndex = getCurrentSectionIndex(sections, currentScrollY);
+      const sections = getSections();
+      if (!sections.length) return;
+
+      const currentIndex = getCurrentIndex(sections, window.scrollY);
 
       if (direction === "down" && currentIndex < sections.length - 1) {
-        const nextSection = sections[currentIndex + 1];
-        const targetTop = nextSection.offsetTop - effectiveHeaderHeight;
-
-        // 현재 위치가 다음 섹션에 가까우면 스킵
-        if (currentScrollY < targetTop - 50) {
-          e.preventDefault();
-          smoothScrollTo(targetTop);
-        }
-        return;
+        scrollToIndex(sections, currentIndex + 1);
+      } else if (direction === "up" && currentIndex > 0) {
+        scrollToIndex(sections, currentIndex - 1);
       }
+    };
 
-      if (direction === "up" && currentIndex > 0) {
-        const prevSection = sections[currentIndex - 1];
-        const targetTop = currentIndex === 1 ? 0 : prevSection.offsetTop - effectiveHeaderHeight;
+    let touchStartY = 0;
+    const handleTouchStart = (e: TouchEvent) => {
+      touchStartY = e.touches[0].clientY;
+    };
+    const handleTouchEnd = (e: TouchEvent) => {
+      if (isAnimatingRef.current) return;
+      if (Date.now() - lastScrollTime.current < COOLDOWN) return;
 
-        // 현재 섹션 상단 근처에 있을 때만 이전 섹션으로
-        const currentSectionTop = sections[currentIndex].offsetTop - effectiveHeaderHeight;
-        if (currentScrollY < currentSectionTop + 150) {
-          e.preventDefault();
-          smoothScrollTo(targetTop);
-        }
-        return;
+      const deltaY = touchStartY - e.changedTouches[0].clientY;
+      if (Math.abs(deltaY) < 50) return;
+
+      const sections = getSections();
+      if (!sections.length) return;
+      const currentIndex = getCurrentIndex(sections, window.scrollY);
+
+      if (deltaY > 0 && currentIndex < sections.length - 1) {
+        scrollToIndex(sections, currentIndex + 1);
+      } else if (deltaY < 0 && currentIndex > 0) {
+        scrollToIndex(sections, currentIndex - 1);
       }
     };
 
     window.addEventListener("wheel", handleWheel, { passive: false });
+    window.addEventListener("touchstart", handleTouchStart, { passive: true });
+    window.addEventListener("touchend", handleTouchEnd, { passive: true });
 
     return () => {
+      cancelAnimationFrame(rafIdRef.current);
       window.removeEventListener("wheel", handleWheel);
+      window.removeEventListener("touchstart", handleTouchStart);
+      window.removeEventListener("touchend", handleTouchEnd);
+      delete (window as unknown as Record<string, unknown>).__smoothScrollTo;
     };
   }, []);
 

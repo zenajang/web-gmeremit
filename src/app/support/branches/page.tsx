@@ -89,14 +89,14 @@ export default function BranchesPage() {
 
         {/* 지점 정보 */}
         <div className="p-6 lg:p-8">
-          <h3 className="text-2xl font-bold text-[#191c1f] mb-6">
+          <h3 className="typo-content-title mb-6">
             {selectedBranch.name}
           </h3>
 
           <div className="space-y-5">
           {/* 주소 */}
           <div className="flex items-start gap-3">
-            <HiLocationMarker className="w-6 h-6 text-[#ed1c24] flex-shrink-0 mt-1" />
+            <HiLocationMarker className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
             <div>
               <p className="text-sm font-semibold text-gray-700 mb-1">{t("address")}</p>
               <p className="text-gray-600 leading-relaxed">
@@ -107,7 +107,7 @@ export default function BranchesPage() {
 
           {/* 전화번호 */}
           <div className="flex items-start gap-3">
-            <HiPhone className="w-6 h-6 text-[#ed1c24] flex-shrink-0 mt-1" />
+            <HiPhone className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
             <div>
               <p className="text-sm font-semibold text-gray-700 mb-1">{t("phone")}</p>
                 {selectedBranch.phone}
@@ -116,7 +116,7 @@ export default function BranchesPage() {
 
           {/* 영업시간 */}
           <div className="flex items-start gap-3">
-            <HiClock className="w-6 h-6 text-[#ed1c24] flex-shrink-0 mt-1" />
+            <HiClock className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
             <div>
               <p className="text-sm font-semibold text-gray-700 mb-1">{t("hours")}</p>
               <p className="text-gray-600">{selectedBranch.hours}</p>

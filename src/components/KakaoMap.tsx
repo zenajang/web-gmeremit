@@ -88,7 +88,7 @@ export default function KakaoMap({
       if (branch.id === selectedBranchId) {
         overlay = new window.kakao.maps.CustomOverlay({
           position,
-          content: `<div style="padding:6px 12px;background:#ed1c24;color:#fff;border-radius:16px;font-size:13px;font-weight:600;box-shadow:0 2px 8px rgba(0,0,0,0.2)">${branch.name}</div>`,
+          content: `<div style="padding:6px 12px;background: var(--color-primary);color:#fff;border-radius:16px;font-size:13px;font-weight:600;box-shadow:0 2px 8px rgba(0,0,0,0.2)">${branch.name}</div>`,
           yAnchor: 2.5,
           map,
         });
@@ -114,7 +114,7 @@ export default function KakaoMap({
       <div ref={mapRef} className="w-full h-full min-h-[500px] rounded-2xl" />
       {!map && (
         <div className="absolute inset-0 flex items-center justify-center bg-gray-100 rounded-2xl">
-          <div className="w-6 h-6 border-2 border-[#ed1c24] border-t-transparent rounded-full animate-spin" />
+          <div className="w-6 h-6 border-2 border-primary border-t-transparent rounded-full animate-spin" />
         </div>
       )}
     </div>

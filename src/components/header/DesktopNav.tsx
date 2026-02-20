@@ -56,7 +56,7 @@ export function LanguageSelector() {
         type="button"
         onClick={() => setIsOpen(!isOpen)}
         className={`flex items-center gap-2 px-3 py-2 rounded-full transition-all duration-200 cursor-pointer ${
-          isOpen ? "bg-[#f5f5f7] text-[#191c1f]" : "text-[#111] hover:text-[#191c1f] hover:bg-[#f5f5f7]"
+          isOpen ? "bg-gray-100 text-dark" : "text-dark hover:text-dark hover:bg-gray-100"
         }`}
         aria-label="Select language"
       >
@@ -77,8 +77,8 @@ export function LanguageSelector() {
                 }}
                 className={`w-full flex items-center gap-3 px-4 py-2.5 text-left transition-all duration-150 cursor-pointer ${
                   currentLanguage.code === lang.code
-                    ? "bg-[#fef2f2] text-[#ed1c24]"
-                    : "text-[#444] hover:bg-[#f5f5f7] hover:text-[#191c1f]"
+                    ? "bg-red-50 text-primary"
+                    : "text-gray-600 hover:bg-gray-100 hover:text-dark"
                 }`}
               >
                 <span className="text-lg">{lang.flag}</span>
@@ -107,7 +107,7 @@ export function DesktopDropdown({
     return (
       <Link
         href={item.href}
-        className="relative text-lg text-[#111] hover:text-[#191c1f] font-medium transition-all duration-200 px-3 py-2 hover:after:absolute hover:after:-bottom-[28px] hover:after:left-0 hover:after:right-0 hover:after:h-[2px] hover:after:bg-[#ed1c24]"
+        className="relative text-lg text-dark hover:text-dark font-medium transition-all duration-200 px-3 py-2 hover:after:absolute hover:after:-bottom-[28px] hover:after:left-0 hover:after:right-0 hover:after:h-[2px] hover:after:bg-primary"
         onMouseEnter={onMouseEnter}
       >
         {item.label}
@@ -120,7 +120,7 @@ export function DesktopDropdown({
       <button
         type="button"
         className={`relative flex items-center gap-1.5 text-lg font-medium transition-all duration-300 ease-out px-3 py-2 cursor-pointer ${
-          isOpen ? "text-[#ed1c24]" : "text-[#111] hover:text-[#191c1f]"
+          isOpen ? "text-primary" : "text-dark hover:text-dark"
         }`}
       >
         {item.label}
@@ -278,8 +278,8 @@ export default function DesktopNav({
                   key={column.title}
                   className={`py-8 px-6 transition-all duration-300 ease-out ${
                     activeColumnIndex === idx
-                      ? "bg-[#f5f5f7] border-t-2 border-t-[#ed1c24]"
-                      : "bg-[#fffff] border-t-2 border-t-transparent"
+                      ? "bg-gray-100 border-t-2 border-t-primary"
+                      : "bg-white border-t-2 border-t-transparent"
                   }`}
                   onMouseEnter={() => setHoveredColumnIndex(idx)}
                   onMouseLeave={() => setHoveredColumnIndex(null)}
@@ -289,7 +289,7 @@ export default function DesktopNav({
                       <Link
                         key={child.label}
                         href={child.href}
-                        className="block text-base text-center text-[#444] hover:text-[#ed1c24] transition-colors duration-250 ease-out"
+                        className="block text-base text-center text-gray-600 hover:text-primary transition-colors duration-250 ease-out"
                       >
                         {child.label}
                       </Link>

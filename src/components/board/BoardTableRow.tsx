@@ -31,16 +31,16 @@ export default function BoardTableRow({ entry }: BoardTableRowProps) {
       <td className="px-6 py-4">
         <div className="flex items-center gap-2">
           {entry.is_important && (
-            <BsPinFill className="w-4 h-4 text-[#ed1c24] flex-shrink-0" title="중요 공지" />
+            <BsPinFill className="w-4 h-4 text-primary flex-shrink-0" title="중요 공지" />
           )}
           <Link
             href={`/board/${entry.id}`}
-            className="text-base text-[#191c1f] font-medium hover:text-[#ed1c24] transition-colors"
+            className="text-base text-dark font-medium hover:text-primary transition-colors"
           >
             {entry.title}
           </Link>
           {isNew && (
-            <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-[#ed1c24] text-white flex-shrink-0">
+            <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-primary text-white flex-shrink-0">
               NEW
             </span>
           )}

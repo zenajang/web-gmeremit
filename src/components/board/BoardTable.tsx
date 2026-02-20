@@ -77,13 +77,13 @@ export default function BoardTable({ entries }: BoardTableProps) {
               </div>
               <div className="flex items-center gap-2 mb-2">
                 {entry.is_important && (
-                  <BsPinFill className="w-4 h-4 text-[#ed1c24] flex-shrink-0" />
+                  <BsPinFill className="w-4 h-4 text-primary flex-shrink-0" />
                 )}
-                <h3 className="text-base text-[#191c1f] font-medium leading-relaxed">
+                <h3 className="text-base text-dark font-medium leading-relaxed">
                   {entry.title}
                 </h3>
                 {isNew && (
-                  <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-[#ed1c24] text-white flex-shrink-0">
+                  <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-primary text-white flex-shrink-0">
                     NEW
                   </span>
                 )}

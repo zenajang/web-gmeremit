@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import CompanyTabs from "@/components/CompanyTabs";
 import { useEffect, useLayoutEffect, useRef, useState, useMemo } from "react";
 import { usePathname } from "next/navigation";
-import Lenis from "lenis";
+import { useLenis } from "@/hooks/useLenis";
 import { useTranslation } from "@/hooks/useTranslation";
 
 // History data with translation keys
@@ -115,32 +115,13 @@ export default function HistoryPage() {
     document.body.scrollTop = 0;
   }, [pathname]);
 
-  // Lenis 부드러운 스크롤
+  useLenis([pathname]);
+
+  // history-snap 클래스 관리
   useEffect(() => {
     const root = document.documentElement;
     root.classList.remove("history-snap");
-
-    // Lenis 인스턴스 생성
-    const lenis = new Lenis({
-      lerp: 0.1, // 부드럽지만 반응적으로
-      duration: 1.2, // 적당한 애니메이션 길이
-      easing: (t) => 1 - Math.pow(1 - t, 3), // easeOutCubic
-      smoothWheel: true,
-      wheelMultiplier: 0.8, // 더 반응적인 속도
-      infinite: false,
-    });
-
-    // Lenis 애니메이션 루프
-    let rafId: number;
-    function raf(time: number) {
-      lenis.raf(time);
-      rafId = requestAnimationFrame(raf);
-    }
-    rafId = requestAnimationFrame(raf);
-
     return () => {
-      cancelAnimationFrame(rafId);
-      lenis.destroy();
       root.classList.remove("history-snap");
     };
   }, [pathname]);
@@ -268,16 +249,16 @@ export default function HistoryPage() {
                     />
                   </div>
 
-                  <h3 className="relative z-10 text-2xl lg:text-3xl font-bold text-[#191c1f] leading-tight mb-6">
+                  <h3 className="relative z-10 typo-heading leading-tight mb-6">
                     {t("title_line1")}<br />{t("title_line2")}
                   </h3>
 
                   {/* Large Year Number with accent */}
                   <div className="relative">
-                    <div className="absolute -left-4 top-1/2 -translate-y-1/2 w-1 h-20 bg-gradient-to-b from-[#ed1c24] to-[#ed1c24]/20 rounded-full" />
+                    <div className="absolute -left-4 top-1/2 -translate-y-1/2 w-1 h-20 bg-gradient-to-b from-primary to-primary/20 rounded-full" />
                     <span
                       key={activeYear}
-                      className="block text-[100px] lg:text-[140px] font-black text-[#191c1f] leading-none tracking-tighter transition-all duration-500"
+                      className="block text-[100px] lg:text-[140px] font-black text-dark leading-none tracking-tighter transition-all duration-500"
                     >
                       {activeYear}
                     </span>
@@ -285,8 +266,8 @@ export default function HistoryPage() {
 
                   {/* Since Badge */}
                   <div className="mt-6 flex items-baseline gap-2 ml-16 italic">
-                    <span className="text-2xl lg:text-3xl font-light text-[#999]">since</span>
-                    <span className="text-3xl lg:text-5xl font-black text-[#ccc]">2016</span>
+                    <span className="text-2xl lg:text-3xl font-light text-gray-400">since</span>
+                    <span className="text-3xl lg:text-5xl font-black text-gray-300">2016</span>
                   </div>
                 </div>
                 {/* Active Event Images */}
@@ -298,8 +279,8 @@ export default function HistoryPage() {
                     <div className={`mt-10 space-y-4 ${event.images.length > 1 ? 'max-w-[580px]' : 'max-w-[270px]'}`}>
                       {/* Visual Header */}
                       <div className="flex items-center gap-3 mb-4">
-                        <div className="w-1 h-8 bg-gradient-to-b from-[#ed1c24] to-[#ed1c24]/40 rounded-full" />
-                        <span className="text-md font-semibold text-[#ed1c24] tracking-wider">{year}. {event.month}</span>
+                        <div className="w-1 h-8 bg-gradient-to-b from-primary to-primary/40 rounded-full" />
+                        <span className="text-md font-semibold text-primary tracking-wider">{year}. {event.month}</span>
                       </div>
 
                       {event.images.length > 1 ? (
@@ -365,8 +346,8 @@ export default function HistoryPage() {
                       <div className={`sticky top-[140px] z-40 py-3 ${yearIndex === 0 ? '' : 'mt-8'}`}>
                         <div className="absolute -top-10 inset-x-0 bottom-0 bg-white -mx-4" />
                         <div className="relative flex items-center gap-3">
-                          <span className="text-3xl font-bold text-[#191c1f]">{yearData.year}</span>
-                          <div className="flex-1 h-px bg-gradient-to-r from-[#ed1c24]/30 via-gray-200 to-transparent" />
+                          <span className="typo-stat">{yearData.year}</span>
+                          <div className="flex-1 h-px bg-gradient-to-r from-primary/30 via-gray-200 to-transparent" />
                         </div>
                       </div>
 
@@ -389,15 +370,15 @@ export default function HistoryPage() {
                               <div className="flex items-center gap-4 shrink-0">
                                 <span className={`font-bold w-8 transition-all duration-300 ${
                                   isActive
-                                    ? 'text-[#ed1c24] text-xl'
-                                    : 'text-[#888] text-lg'
+                                    ? 'text-primary text-xl'
+                                    : 'text-gray-400 text-lg'
                                 }`}>
                                   {event.month}
                                 </span>
                                 <div className={`rounded-full transition-all duration-300 ${
                                   isActive
-                                    ? 'w-3.5 h-3.5 bg-[#ed1c24] shadow-[0_0_0_4px_rgba(237,28,36,0.15)]'
-                                    : 'w-2.5 h-2.5 bg-[#ccc]'
+                                    ? 'w-3.5 h-3.5 bg-primary shadow-[0_0_0_4px_rgba(237,28,36,0.15)]'
+                                    : 'w-2.5 h-2.5 bg-gray-300'
                                 }`} />
                               </div>
 
@@ -405,13 +386,13 @@ export default function HistoryPage() {
                               <div className="flex items-start gap-3 w-full">
                                 <p className={`leading-relaxed pt-0.5 transition-all duration-300 flex-1 ${
                                   isActive
-                                    ? 'text-[#191c1f] font-semibold text-[16px]'
-                                    : 'text-[#666] text-[15px]'
+                                    ? 'text-dark font-semibold text-[16px]'
+                                    : 'text-gray-500 text-[15px]'
                                 }`}>
                                   {t(`events.${event.textKey}`)}
                                 </p>
                                 {hasImages && (
-                                  <span className="shrink-0 mt-1 inline-flex items-center gap-1 rounded-full border border-[#ed1c24]/30 bg-[#ed1c24]/5 px-2 py-0.5 text-[10px] font-semibold tracking-[0.2em] text-[#ed1c24]">
+                                  <span className="shrink-0 mt-1 inline-flex items-center gap-1 rounded-full border border-primary/30 bg-primary/5 px-2 py-0.5 text-[10px] font-semibold tracking-[0.2em] text-primary">
                                     VIEW
                                   </span>
                                 )}
@@ -437,7 +418,7 @@ export default function HistoryPage() {
             <button
               type="button"
               aria-label="Close image"
-              className="cursor-pointer absolute -right-3 -top-3 h-10 w-10 rounded-full bg-white/95 text-[#191c1f] shadow-lg transition hover:scale-[1.05]"
+              className="cursor-pointer absolute -right-3 -top-3 h-10 w-10 rounded-full bg-white/95 text-dark shadow-lg transition hover:scale-[1.05]"
               onClick={() => setModalImageSrc(null)}
             >
               ×

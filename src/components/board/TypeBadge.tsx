@@ -13,9 +13,9 @@ export default function TypeBadge({ type }: TypeBadgeProps) {
   const getTypeColor = () => {
     switch (type) {
       case "notice":
-        return "text-[#555]";
+        return "text-gray-600";
       case "press":
-        return "text-[#ed1c24]";
+        return "text-primary";
       case "blog":
         return "text-blue-600";
       default:

@@ -932,7 +932,7 @@
         "realtime": "Real-time",
         "subtitle": "200+ countries supported",
         "title": "Supported Countries",
-        "view_all": "View All Countries"
+        "view_all": "Learn About Remittance"
       },
       "description1": "Send to 200+ countries, all Korean banks in real-time.",
       "description2": "Safe with 70 global partners and E-KYC verification.",
@@ -1291,12 +1291,9 @@
       }
     },
     "trust": {
-      "desc": "Safe service backed by compliance and global partners.",
-      "efb": "E-Finance Registered",
-      "fss": "Regulatory Compliance",
-      "moef": "MOEF Registered",
-      "partner": "Global Partners",
-      "title": "Proven Trust"
+      "desc": "Global Money Express (GME) is a licensed financial institution authorized by the Ministry of Economy and Finance and the Financial Supervisory Service, providing safe and reliable services.",
+      "insurance": "Electronic Financial Transaction Service Liability Insurance: KRW 300 million",
+      "title": "We provide safe services."
     },
     "why": {
       "items": {

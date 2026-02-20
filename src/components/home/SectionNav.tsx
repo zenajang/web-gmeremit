@@ -2,10 +2,10 @@
 
 import { useEffect, useState } from "react";
 import { useTranslation } from "@/hooks/useTranslation";
+import { scrollToTop, scrollToSection } from "@/utils/scroll";
 
 const navSectionDefs = [
   { id: "hero", key: "home" },
-  { id: "app", key: "exchange" },
   { id: "gme-payments", key: "services" },
   { id: "testimonials", key: "testimonials" },
   { id: "app-download", key: "app_download" },
@@ -73,19 +73,13 @@ export default function SectionNav() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const scrollToSection = (sectionId: string) => {
-    const headerHeight = window.innerWidth >= 1024 ? 80 : 64;
-
+  const handleNav = (sectionId: string) => {
     if (sectionId === "hero") {
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      scrollToTop();
       return;
     }
-
-    const element = document.getElementById(sectionId);
-    if (element) {
-      const top = element.offsetTop - headerHeight;
-      window.scrollTo({ top, behavior: "smooth" });
-    }
+    const offset = sectionId === "testimonials" ? 40 : 0;
+    scrollToSection(sectionId, offset);
   };
 
   return (
@@ -97,7 +91,7 @@ export default function SectionNav() {
       {navSectionDefs.map((section) => (
         <button
           key={section.id}
-          onClick={() => scrollToSection(section.id)}
+          onClick={() => handleNav(section.id)}
           className="group relative flex items-center cursor-pointer"
           aria-label={t(section.key)}
         >
@@ -105,12 +99,12 @@ export default function SectionNav() {
           <span
             className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
               activeSection === section.id
-                ? "bg-[#ed1c24] scale-125"
-                : "bg-[#d1d5db] hover:bg-[#9ca3af]"
+                ? "bg-primary scale-125"
+                : "bg-gray-300 hover:bg-gray-400"
             }`}
           />
           {/* Tooltip */}
-          <span className="absolute left-8 px-4 py-2 rounded-lg bg-[#191c1f] text-white text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none shadow-lg">
+          <span className="absolute left-8 px-4 py-1.5 rounded-full bg-white/80 backdrop-blur-md text-gray-700 text-xs font-semibold tracking-wide opacity-0 group-hover:opacity-100 transition-all duration-200 whitespace-nowrap pointer-events-none shadow-sm ring-1 ring-gray-200/60">
             {t(section.key)}
           </span>
         </button>

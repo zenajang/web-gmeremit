@@ -129,12 +129,12 @@ export default function CreateBoardEntryPage() {
       <div className="mb-8">
         <Link
           href="/gme-backoffice/dashboard"
-          className="inline-flex items-center gap-2 text-gray-600 hover:text-[#ed1c24] mb-4 transition-colors"
+          className="inline-flex items-center gap-2 text-gray-600 hover:text-primary mb-4 transition-colors"
         >
           <HiArrowLeft className="w-5 h-5" />
           <span>대시보드로 돌아가기</span>
         </Link>
-        <h1 className="text-3xl font-bold text-[#191c1f]">새 게시글 작성</h1>
+        <h1 className="typo-stat">새 게시글 작성</h1>
       </div>
 
       {/* Form */}
@@ -154,7 +154,7 @@ export default function CreateBoardEntryPage() {
                     value={type}
                     checked={formData.type === type}
                     onChange={(e) => setFormData({ ...formData, type: e.target.value as BoardEntryType })}
-                    className="w-4 h-4 text-[#ed1c24] focus:ring-[#ed1c24]"
+                    className="w-4 h-4 text-primary focus:ring-primary"
                   />
                   <span className="text-gray-700">
                     {type === 'notice' ? '공지사항' : type === 'press' ? '언론보도' : '블로그'}
@@ -175,7 +175,7 @@ export default function CreateBoardEntryPage() {
               value={formData.title}
               onChange={(e) => setFormData({ ...formData, title: e.target.value })}
               required
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#ed1c24] focus:border-transparent outline-none"
+              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary focus:border-transparent outline-none"
               placeholder="제목을 입력하세요"
             />
           </div>
@@ -191,7 +191,7 @@ export default function CreateBoardEntryPage() {
               value={formData.date}
               onChange={(e) => setFormData({ ...formData, date: e.target.value })}
               required
-              className="px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#ed1c24] focus:border-transparent outline-none"
+              className="px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary focus:border-transparent outline-none"
             />
           </div>
 
@@ -218,7 +218,7 @@ export default function CreateBoardEntryPage() {
                 type="checkbox"
                 checked={formData.isImportant}
                 onChange={(e) => setFormData({ ...formData, isImportant: e.target.checked })}
-                className="w-4 h-4 text-[#ed1c24] focus:ring-[#ed1c24] rounded"
+                className="w-4 h-4 text-primary focus:ring-primary rounded"
               />
               <label htmlFor="important" className="text-sm text-gray-700">
                 중요 공지 (상단 고정)
@@ -238,7 +238,7 @@ export default function CreateBoardEntryPage() {
                   type="text"
                   value={formData.source}
                   onChange={(e) => setFormData({ ...formData, source: e.target.value })}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#ed1c24] focus:border-transparent outline-none"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary focus:border-transparent outline-none"
                   placeholder="예: 매일경제"
                 />
               </div>
@@ -251,7 +251,7 @@ export default function CreateBoardEntryPage() {
                   value={formData.excerpt}
                   onChange={(e) => setFormData({ ...formData, excerpt: e.target.value })}
                   rows={3}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#ed1c24] focus:border-transparent outline-none"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary focus:border-transparent outline-none"
                   placeholder="간단한 요약을 입력하세요"
                 />
               </div>
@@ -297,7 +297,7 @@ export default function CreateBoardEntryPage() {
                   type="text"
                   value={formData.description}
                   onChange={(e) => setFormData({ ...formData, description: e.target.value })}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#ed1c24] focus:border-transparent outline-none"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary focus:border-transparent outline-none"
                   placeholder="짧은 설명을 입력하세요"
                 />
               </div>
@@ -366,7 +366,7 @@ export default function CreateBoardEntryPage() {
             <button
               type="submit"
               disabled={loading}
-              className="px-6 py-3 bg-[#ed1c24] text-white font-semibold rounded-lg hover:bg-[#d91920] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              className="px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {loading ? '등록 중...' : '게시글 등록'}
             </button>

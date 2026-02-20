@@ -1,48 +1,21 @@
 "use client";
 
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import PublicLayout from "@/components/layout/PublicLayout";
 import CompanyTabs from "@/components/CompanyTabs";
 import Image from "next/image";
-import { useEffect } from "react";
-import Lenis from "lenis";
+import { useLenis } from "@/hooks/useLenis";
 import { useTranslation } from "@/hooks/useTranslation";
 
 export default function CEOPage() {
   const { t } = useTranslation("company.ceo_message");
-
-  // Lenis 부드러운 스크롤
-  useEffect(() => {
-    const lenis = new Lenis({
-      lerp: 0.1,
-      duration: 1.2,
-      easing: (t) => 1 - Math.pow(1 - t, 3),
-      smoothWheel: true,
-      wheelMultiplier: 0.8,
-      infinite: false,
-    });
-
-    let rafId: number;
-    function raf(time: number) {
-      lenis.raf(time);
-      rafId = requestAnimationFrame(raf);
-    }
-    rafId = requestAnimationFrame(raf);
-
-    return () => {
-      cancelAnimationFrame(rafId);
-      lenis.destroy();
-    };
-  }, []);
+  useLenis();
   return (
-    <>
-      <Header />
-      <main className="pt-[82px] lg:pt-[120px] min-h-screen relative">
-        {/* CEO Message Section */}
+    <PublicLayout className="relative">
+      {/* CEO Message Section */}
         <section className="pt-16 lg:pt-20 pb-16 lg:pb-24 relative">
           {/* Background - White top, Gray bottom */}
           <div className="absolute inset-0 bg-white"></div>
-          <div className="absolute inset-x-0 top-[53%] bottom-0 bg-[#f5f6f7]"></div>
+          <div className="absolute inset-x-0 top-[53%] bottom-0 bg-gray-100"></div>
 
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
 
@@ -56,7 +29,7 @@ export default function CEOPage() {
               <div className="relative">
                 <div className="sticky top-[140px]">
                   {/* Card with Background */}
-                  <div className="relative rounded-2xl bg-gradient-to-br from-[#fafafa] via-[#fcfcfc] to-white p-8 shadow-sm">
+                  <div className="relative rounded-2xl bg-gradient-to-br from-gray-50 via-white to-white p-8 shadow-sm">
                     <div className="relative">
                       {/* Image */}
                       <div className="relative w-full max-w-[250px] mx-auto lg:mx-0 group">
@@ -73,11 +46,11 @@ export default function CEOPage() {
 
                       {/* CEO Info */}
                       <div className="text-center lg:text-left pt-4 relative">
-                        <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#ed1c24] via-[#ed1c24]/80 to-transparent rounded-full" />
-                        <p className="text-2xl font-bold text-[#191c1f] mb-1.5">
+                        <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary via-primary/80 to-transparent rounded-full" />
+                        <p className="typo-content-title mb-1.5">
                           Sung Jong Hwa
                         </p>
-                        <p className="text-sm text-[#888]">
+                        <p className="text-sm text-gray-400">
                           CEO, Global Money Express Co., Ltd.
                         </p>
                       </div>
@@ -90,21 +63,21 @@ export default function CEOPage() {
               <div className="relative">
                 <div className="space-y-6 relative">
                   {/* Accent Line */}
-                  <div className="absolute -left-6 top-0 w-1 h-32 bg-gradient-to-b from-[#ed1c24] to-[#ed1c24]/10 rounded-full hidden lg:block shadow-sm" />
+                  <div className="absolute -left-6 top-0 w-1 h-32 bg-gradient-to-b from-primary to-primary/10 rounded-full hidden lg:block shadow-sm" />
 
                   {/* Quote icon */}
                   <div className="relative">
-                    <svg className="absolute -left-2 -top-2 w-8 h-8 text-[#ed1c24]/10" fill="currentColor" viewBox="0 0 24 24">
+                    <svg className="absolute -left-2 -top-2 w-8 h-8 text-primary/10" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
                     </svg>
-                    <blockquote className="text-xl lg:text-3xl text-[#191c1f] leading-relaxed pl-10 italic font-light">
-                      As a leading fintech company in South Korea, we invest in <span className="text-[#191c1f] font-semibold">cutting-edge technology</span> and our <span className="text-[#191c1f] font-semibold">people</span>, which will continue to achieve <span className="text-[#191c1f] font-semibold">mutual growth</span>, <span className="text-[#191c1f] font-semibold">customer success</span>, and bring the most convenient service to all.
+                    <blockquote className="text-xl lg:text-3xl text-dark leading-relaxed pl-10 italic font-light">
+                      As a leading fintech company in South Korea, we invest in <span className="text-dark font-semibold">cutting-edge technology</span> and our <span className="text-dark font-semibold">people</span>, which will continue to achieve <span className="text-dark font-semibold">mutual growth</span>, <span className="text-dark font-semibold">customer success</span>, and bring the most convenient service to all.
                     </blockquote>
                   </div>
 
                   {/* Translated Content Section */}
                   <div className="pt-12 mt-20">
-                    <div className="text-lg lg:text-2xl space-y-8 text-[#666] leading-relaxed font-light">
+                    <div className="text-lg lg:text-2xl space-y-8 text-gray-500 leading-relaxed font-light">
                       <p>{t("paragraph1")}</p>
                       <p>{t("paragraph2")}</p>
                     </div>
@@ -112,10 +85,10 @@ export default function CEOPage() {
                     {/* Signature */}
                     <div className="pt-18 text-right">
                       <div className="inline-block group">
-                        <p className="text-xl font-bold text-[#191c1f] transition-colors duration-300 group-hover:text-[#ed1c24]">
+                        <p className="typo-feature-title transition-colors duration-300 group-hover:text-primary">
                           Sung Jong Hwa
                         </p>
-                        <div className="mt-2 h-0.5 w-full bg-gradient-to-r from-[#ed1c24] to-transparent rounded-full"></div>
+                        <div className="mt-2 h-0.5 w-full bg-gradient-to-r from-primary to-transparent rounded-full"></div>
                       </div>
                     </div>
                   </div>
@@ -124,8 +97,6 @@ export default function CEOPage() {
             </div>
           </div>
         </section>
-      </main>
-      <Footer />
-    </>
+    </PublicLayout>
   );
 }

@@ -6,11 +6,11 @@ import { useTranslation } from "@/hooks/useTranslation";
 export default function AppDownloadCTA() {
   const { t, tArray } = useTranslation("home.app_download");
   return (
-    <section id="app-download" className="bg-[var(--surface-0)] py-16 lg:py-24">
+    <section id="app-download" className="bg-[var(--surface-0)] py-16 lg:py-24 snap-section">
       <div className="max-w-[1540px] mx-auto px-4 sm:px-6 lg:px-10">
-        <div className="relative overflow-hidden rounded-[36px] bg-[#0b0b0d] px-6 py-12 sm:px-10 lg:px-16 lg:py-16 text-white shadow-[0_40px_100px_rgba(15,23,42,0.3)]">
-          <div className="pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full bg-[#ed1c24]/30 blur-3xl" />
-          <div className="pointer-events-none absolute -bottom-28 -left-16 h-72 w-72 rounded-full bg-[#ff8a4c]/20 blur-3xl" />
+        <div className="relative overflow-hidden rounded-[36px] bg-neutral-950 px-6 py-12 sm:px-10 lg:px-16 lg:py-16 text-white shadow-[0_40px_100px_rgba(15,23,42,0.3)]">
+          <div className="pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full bg-primary/30 blur-3xl" />
+          <div className="pointer-events-none absolute -bottom-28 -left-16 h-72 w-72 rounded-full bg-secondary/20 blur-3xl" />
 
           <div className="relative grid gap-12 lg:grid-cols-2 lg:items-center lg:pl-16">
             {/* Left - Text Content */}

@@ -45,7 +45,7 @@ export default function BlogGrid({ entries }: BlogGridProps) {
           {/* Content */}
           <div className="space-y-3">
             <p className="text-lg font-light text-gray-400">{entry.date}</p>
-            <h3 className="text-lg lg:text-xl font-bold text-[#191c1f] leading-snug group-hover:text-[#ed1c24] transition-colors">
+            <h3 className="text-lg lg:text-xl font-bold text-dark leading-snug group-hover:text-primary transition-colors">
               {entry.title}
             </h3>
             {entry.description && (
