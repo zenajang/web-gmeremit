@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useTranslation } from "@/hooks/useTranslation";
 import type { ReactNode } from "react";
 
@@ -8,7 +9,7 @@ const featureKeys = ["countries", "success", "support", "realtime", "simple"] as
 
 const featureIcons: Record<string, ReactNode> = {
   countries: (
-    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
     </svg>
   ),
@@ -39,45 +40,45 @@ export default function LoanSection() {
   const { t } = useTranslation("home.loan");
 
   return (
-    <section id="online-loan" className="relative min-h-screen overflow-hidden flex items-center">
+    <section id="online-loan" className="relative min-h-screen overflow-hidden flex items-center snap-section">
       <div className="absolute inset-0 bg-gradient-to-br from-[#fffefb] via-[#fffdf7] to-[#fefce8]" />
-      <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-[#f59e0b]/[0.04] blur-3xl" />
-      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-[#fbbf24]/[0.05] blur-3xl" />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-[#f59e0b]/[0.02] blur-3xl" />
+      <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-loan/[0.04] blur-3xl" />
+      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-loan-light/[0.05] blur-3xl" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-loan/[0.02] blur-3xl" />
 
       <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-screen flex items-center">
         <div className="w-full grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div className="relative order-2 lg:order-1">
             {/* 입체적 그림자 */}
-            <div className="absolute inset-0 rounded-3xl bg-[#f59e0b]/10 translate-x-3 translate-y-3 blur-lg" />
-            <div className="absolute inset-0 rounded-3xl bg-[#f59e0b]/5 translate-x-5 translate-y-5 blur-xl" />
-          <div className="relative rounded-3xl border border-[#eee] bg-white p-6 shadow-[0_20px_50px_rgba(0,0,0,0.06)]">
+            <div className="absolute inset-0 rounded-3xl bg-loan/10 translate-x-3 translate-y-3 blur-lg" />
+            <div className="absolute inset-0 rounded-3xl bg-loan/5 translate-x-5 translate-y-5 blur-xl" />
+            <div className="relative rounded-3xl border border-gray-200 bg-white p-6 shadow-[0_20px_50px_rgba(0,0,0,0.06)]">
             {/* Header */}
             <div className="flex items-center justify-between mb-5">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#f59e0b] to-[#fbbf24] flex items-center justify-center">
+                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-loan to-loan-light flex items-center justify-center">
                   <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
                   </svg>
                 </div>
                 <div>
-                  <p className="text-sm font-bold text-[#191c1f]">{t("card.title")}</p>
-                  <p className="text-[11px] text-[#999]">{t("card.subtitle")}</p>
+                  <p className="typo-label">{t("card.title")}</p>
+                  <p className="text-[11px] text-gray-400">{t("card.subtitle")}</p>
                 </div>
               </div>
-              <span className="rounded-full bg-[#f59e0b]/10 px-3 py-1 text-xs font-semibold text-[#f59e0b]">
+              <span className="rounded-full bg-loan/10 px-3 py-1 text-xs font-semibold text-loan">
                 {t("card.quick_apply")}
               </span>
             </div>
 
             {/* Loan Stats */}
-            <div className="rounded-2xl bg-[#fefce8] border border-[#fef08a] p-5 mb-4">
+            <div className="rounded-2xl bg-yellow-50 border border-yellow-200 p-5 mb-4">
               <div className="flex items-center justify-between mb-3">
-                <span className="text-sm font-semibold text-[#191c1f]">{t("stats.title")}</span>
-                <span className="text-[11px] text-[#999]">GME Finance</span>
+                <span className="text-sm font-semibold text-dark">{t("stats.title")}</span>
+                <span className="text-[11px] text-gray-400">GME Finance</span>
               </div>
-              <p className="text-3xl font-bold text-[#f59e0b] mb-1">{t("stats.value")}</p>
-              <p className="text-xs text-[#888]">{t("stats.desc")}</p>
+              <p className="text-3xl font-bold text-loan mb-1">{t("stats.value")}</p>
+              <p className="text-xs text-gray-400">{t("stats.desc")}</p>
             </div>
 
             {/* Features */}
@@ -85,36 +86,36 @@ export default function LoanSection() {
               {featureKeys.map((key) => (
                 <div
                   key={key}
-                  className="rounded-xl bg-[#f8f9fa] p-4 text-center hover:bg-[#f0f1f3] transition-colors duration-250 ease-out"
+                  className="rounded-xl bg-gray-50 p-4 text-center hover:bg-gray-100 transition-colors duration-250 ease-out"
                 >
-                  <div className="w-10 h-10 rounded-lg bg-white flex items-center justify-center text-[#f59e0b] mx-auto mb-2 shadow-sm">
+                  <div className="w-10 h-10 rounded-lg bg-white flex items-center justify-center text-loan mx-auto mb-2 shadow-sm">
                     {featureIcons[key]}
                   </div>
-                  <p className="text-[12px] font-bold text-[#191c1f]">{t(`features.${key}.label`)}</p>
-                  <p className="text-[10px] text-[#888]">{t(`features.${key}.desc`)}</p>
+                  <p className="text-[12px] font-bold text-dark">{t(`features.${key}.label`)}</p>
+                  <p className="text-[10px] text-gray-400">{t(`features.${key}.desc`)}</p>
                 </div>
               ))}
             </div>
 
             {/* CTA */}
-            <button className="w-full mt-4 bg-[#f59e0b] hover:bg-[#d97706] text-white font-semibold py-3 rounded-xl transition-colors duration-250 ease-out cursor-pointer">
+            <button className="w-full mt-4 bg-loan text-white font-semibold py-3 rounded-xl ">
               {t("button.apply")}
             </button>
-          </div>
+            </div>
           </div>
 
           <div className="order-1 lg:order-2">
-            <p className="text-xs font-semibold tracking-[0.32em] text-[#f59e0b] mb-3">GME FINANCE</p>
-            <h2 className="text-4xl sm:text-5xl font-bold text-[#191c1f] leading-[1.08] mb-5">{t("title")}</h2>
+            <p className="typo-eyebrow text-loan mb-3">GME FINANCE</p>
+            <h2 className="typo-section-title mb-5">{t("title")}</h2>
             <p className="text-xl text-gray-600 leading-relaxed mb-8">
               {t("description")}
             </p>
             <Link
-              href="/personal/online-loan"
-              className="group inline-flex items-center gap-3 text-[#f59e0b] font-semibold bg-[#fef3c7] hover:bg-[#fde68a] px-5 py-3 rounded-xl transition-colors duration-250 ease-out cursor-pointer"
+              href="/services/loan"
+              className="group inline-flex items-center gap-3 text-loan font-semibold bg-amber-100 hover:bg-amber-200 px-5 py-3 rounded-xl transition-colors duration-250 ease-out cursor-pointer"
             >
               {t("button.detail")}
-              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#f59e0b] text-white transition-transform duration-300 ease-out group-hover:-rotate-45">
+              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-loan text-white transition-transform duration-300 ease-out group-hover:-rotate-45">
                 <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
                 </svg>
