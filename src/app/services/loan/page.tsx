@@ -18,7 +18,7 @@ export default function LoanPage() {
     {
       key: "countries",
       icon: (
-        <Image src="/images/common/globev.png" alt="Globe" width={42} height={42} className="w-12 h-12 object-contain" />
+        <Image src="/images/common/globe.png" alt="Globe" width={42} height={42} className="w-12 h-12 object-contain" />
       ),
     },
     {
