@@ -34,7 +34,7 @@ const countries: Country[] = [
     contacts: [{ label: "Remittance", phone: "1811-2941" }, { label: "Loan", phone: "010-9928-6864" }] },
   { id: "pakistan", facebook: "https://www.facebook.com/gmepakistan/", tiktok: "https://www.tiktok.com/@gmepakistan",
     contacts: [{ label: "Remittance", phone: "010-2760-6864" }, { label: "Loan", phone: "010-2760-6864" }] },
-  { id: "china", facebook: "https://www.facebook.com/GMERemittanceChina#", tiktok: "https://www.tiktok.com/@chinagme",
+  { id: "china", facebook: "https://www.facebook.com/GMERemittanceChina#", tiktok: "https://www.tiktok.com/@gmeremittance_china",
     contacts: [{ label: "Remittance", phone: "1811-2907" }] },
   { id: "japan", facebook: "https://www.facebook.com/GMERemittanceChina#", instagram: "https://www.instagram.com/gmejapan/?hl=ja",
     contacts: [{ label: "Remittance", phone: "1811-2969" }] },

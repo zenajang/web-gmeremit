@@ -8,6 +8,9 @@ import ScrollToTop from "@/components/ScrollToTop";
 export const metadata: Metadata = {
   title: "GME Remit - Fast & Secure Money Transfer",
   description: "Send money worldwide with GME Remit. Fast, secure, and affordable international money transfers to over 200 countries.",
+  verification: {
+    google: "-i0FVWCtHbe9wEL_OTr5Yy6h9pIQW7ZvrO4TuwArCNA",
+  },
 };
 
 export default function RootLayout({
