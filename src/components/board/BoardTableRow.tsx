@@ -3,18 +3,10 @@ import { HiArrowDownTray } from "react-icons/hi2";
 import { BsPinFill } from "react-icons/bs";
 import { BoardEntry } from "@/types/board";
 import TypeBadge from "./TypeBadge";
+import { isNewEntry } from "@/utils/board";
 
 interface BoardTableRowProps {
   entry: BoardEntry;
-}
-
-// Check if the entry is new (within last 7 days)
-function isNewEntry(dateString: string): boolean {
-  const entryDate = new Date(dateString);
-  const now = new Date();
-  const diffTime = now.getTime() - entryDate.getTime();
-  const diffDays = diffTime / (1000 * 60 * 60 * 24);
-  return diffDays <= 7;
 }
 
 export default function BoardTableRow({ entry }: BoardTableRowProps) {

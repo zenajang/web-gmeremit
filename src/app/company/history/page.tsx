@@ -19,7 +19,6 @@ export default function HistoryPage() {
   const yearRefs = useRef<{ [key: string]: HTMLDivElement | null }>({});
   const eventRefs = useRef<{ [key: string]: HTMLDivElement | null }>({});
   const containerRef = useRef<HTMLDivElement>(null);
-  const isScrollingRef = useRef(false);
   const currentEventIndexRef = useRef(0);
   const scrollRafRef = useRef<number | null>(null);
 
