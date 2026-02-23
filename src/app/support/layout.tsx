@@ -3,9 +3,10 @@
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import PublicLayout from "@/components/layout/PublicLayout";
-import { RiCustomerService2Fill } from "react-icons/ri";
 import { useLenis } from "@/hooks/useLenis";
 import { useTranslation } from "@/hooks/useTranslation";
+import Image from "next/image";
+import { supportTabs, supportStats, networkLines, networkNodes } from "@/data/support";
 
 export default function SupportLayout({
   children,
@@ -16,11 +17,6 @@ export default function SupportLayout({
   const { t } = useTranslation("support");
 
   useLenis([pathname]);
-
-  const tabs = [
-    { key: "branches", labelKey: "tabs.branches", href: "/support/branches" },
-    { key: "social-channels", labelKey: "tabs.social_channels", href: "/support/social-channels" },
-  ];
 
   return (
     <PublicLayout className="bg-gradient-to-b from-gray-50 via-white to-gray-50 relative overflow-hidden">
@@ -39,34 +35,14 @@ export default function SupportLayout({
           <div className="absolute top-20 -right-32 w-[400px] h-[400px] bg-primary/[0.07] rounded-full blur-3xl" />
           <div className="absolute bottom-40 -left-20 w-[350px] h-[350px] bg-primary/[0.07] rounded-full blur-3xl" />
           <div className="absolute -bottom-20 right-20 w-[300px] h-[300px] bg-primary/[0.07] rounded-full blur-3xl" />
-          {/* 네트워크 연결선 패턴 - 불규칙 배치 */}
+          {/* 네트워크 연결선 패턴 */}
           <svg className="absolute inset-0 w-full h-full" xmlns="http://www.w3.org/2000/svg">
-            {/* 연결선들 - 다양한 길이와 각도 */}
-            <line x1="3%" y1="12%" x2="9%" y2="24%" stroke="var(--color-primary)" strokeWidth="1" opacity="0.07" />
-            <line x1="9%" y1="24%" x2="6%" y2="38%" stroke="var(--color-primary)" strokeWidth="1" opacity="0.06" />
-            <line x1="9%" y1="24%" x2="2%" y2="19%" stroke="var(--color-primary)" strokeWidth="1" opacity="0.08" />
-            <line x1="94%" y1="8%" x2="97%" y2="18%" stroke="var(--color-primary)" strokeWidth="1" opacity="0.07" />
-            <line x1="97%" y1="18%" x2="91%" y2="28%" stroke="var(--color-primary)" strokeWidth="1" opacity="0.06" />
-            <line x1="5%" y1="68%" x2="8%" y2="82%" stroke="var(--color-primary)" strokeWidth="1" opacity="0.08" />
-            <line x1="8%" y1="82%" x2="3%" y2="91%" stroke="var(--color-primary)" strokeWidth="1" opacity="0.06" />
-            <line x1="93%" y1="65%" x2="98%" y2="78%" stroke="var(--color-primary)" strokeWidth="1" opacity="0.07" />
-            <line x1="98%" y1="78%" x2="95%" y2="88%" stroke="var(--color-primary)" strokeWidth="1" opacity="0.08" />
-            <line x1="98%" y1="78%" x2="92%" y2="72%" stroke="var(--color-primary)" strokeWidth="1" opacity="0.05" />
-            {/* 노드들 - 다양한 크기와 투명도 */}
-            <circle cx="3%" cy="12%" r="2" fill="var(--color-primary)" opacity="0.08" />
-            <circle cx="9%" cy="24%" r="5" fill="var(--color-primary)" opacity="0.13" />
-            <circle cx="6%" cy="38%" r="3" fill="var(--color-primary)" opacity="0.09" />
-            <circle cx="2%" cy="19%" r="2" fill="var(--color-primary)" opacity="0.07" />
-            <circle cx="94%" cy="8%" r="3" fill="var(--color-primary)" opacity="0.1" />
-            <circle cx="97%" cy="18%" r="4" fill="var(--color-primary)" opacity="0.11" />
-            <circle cx="91%" cy="28%" r="2" fill="var(--color-primary)" opacity="0.08" />
-            <circle cx="5%" cy="68%" r="3" fill="var(--color-primary)" opacity="0.09" />
-            <circle cx="8%" cy="82%" r="5" fill="var(--color-primary)" opacity="0.12" />
-            <circle cx="3%" cy="91%" r="2" fill="var(--color-primary)" opacity="0.08" />
-            <circle cx="93%" cy="65%" r="2" fill="var(--color-primary)" opacity="0.07" />
-            <circle cx="98%" cy="78%" r="4" fill="var(--color-primary)" opacity="0.11" />
-            <circle cx="95%" cy="88%" r="3" fill="var(--color-primary)" opacity="0.1" />
-            <circle cx="92%" cy="72%" r="2" fill="var(--color-primary)" opacity="0.06" />
+            {networkLines.map((line, i) => (
+              <line key={`line-${i}`} x1={line.x1} y1={line.y1} x2={line.x2} y2={line.y2} stroke="var(--color-primary)" strokeWidth="1" opacity={line.opacity} />
+            ))}
+            {networkNodes.map((node, i) => (
+              <circle key={`node-${i}`} cx={node.cx} cy={node.cy} r={node.r} fill="var(--color-primary)" opacity={node.opacity} />
+            ))}
           </svg>
         </div>
 
@@ -107,42 +83,17 @@ export default function SupportLayout({
 
             {/* Statistics */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 max-w-4xl mx-auto">
-              {/* 지점 */}
-              <div className="flex flex-col items-center">
-                <div className="w-16 h-16 mb-4 flex items-center justify-center">
-                  <svg className="w-full h-full text-primary" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M4 21V10L12 3L20 10V21H14V14H10V21H4M12 1L2 9V21H8V14H16V21H22V9L12 1Z" />
-                  </svg>
+              {supportStats.map((stat) => (
+                <div key={stat.labelKey} className="flex flex-col items-center">
+                  <div className="w-20 h-20 flex items-center justify-center mb-4">
+                    <Image src={stat.image.src} alt={stat.image.alt} width={stat.image.width} height={stat.image.height} className="w-full h-full object-contain" />
+                  </div>
+                  <p className="text-sm text-gray-600 mb-2">{t(stat.labelKey)}</p>
+                  <p className="text-4xl lg:text-5xl font-bold text-dark">
+                    {t(stat.valueKey)}<span className="text-2xl lg:text-3xl ml-1">{t(stat.unitKey)}</span>
+                  </p>
                 </div>
-                <p className="text-sm text-gray-600 mb-2">{t("stats.branches_label")}</p>
-                <p className="text-4xl lg:text-5xl font-bold text-dark">
-                  {t("stats.branches_value")}<span className="text-2xl lg:text-3xl ml-1">{t("stats.branches_unit")}</span>
-                </p>
-              </div>
-
-              {/* 서비스 제공 국가 */}
-              <div className="flex flex-col items-center">
-                <div className="w-16 h-16 mb-4 flex items-center justify-center">
-                  <RiCustomerService2Fill className="w-full h-full text-primary" />
-                </div>
-                <p className="text-sm text-gray-600 mb-2">{t("stats.countries_label")}</p>
-                <p className="text-4xl lg:text-5xl font-bold text-dark">
-                  {t("stats.countries_value")}<span className="text-2xl lg:text-3xl ml-1">{t("stats.countries_unit")}</span>
-                </p>
-              </div>
-
-              {/* 제공 서비스 */}
-              <div className="flex flex-col items-center">
-                <div className="w-16 h-16 mb-4 flex items-center justify-center">
-                  <svg className="w-full h-full text-primary" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M13 3V9H21V3M13 21H21V11H13M3 21H11V15H3M3 13H11V3H3V13Z" />
-                  </svg>
-                </div>
-                <p className="text-sm text-gray-600 mb-2">{t("stats.services_label")}</p>
-                <p className="text-4xl lg:text-5xl font-bold text-dark">
-                  {t("stats.services_value")}<span className="text-2xl lg:text-3xl ml-1">{t("stats.services_unit")}</span>
-                </p>
-              </div>
+              ))}
             </div>
           </div>
         </section>
@@ -153,7 +104,7 @@ export default function SupportLayout({
             {/* Tabs */}
             <div className="flex justify-center mb-12">
               <div className="inline-flex gap-2">
-                {tabs.map((tab) => (
+                {supportTabs.map((tab) => (
                   <Link
                     key={tab.key}
                     href={tab.href}

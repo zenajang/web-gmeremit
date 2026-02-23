@@ -7,6 +7,7 @@ import ServiceHeroSection from "@/components/service/ServiceHeroSection";
 import { useLenis } from "@/hooks/useLenis";
 import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
 import { useTranslation } from "@/hooks/useTranslation";
+import { loanBenefitKeys, loanBenefitImages, productKeys, commonTags, loanSteps, loanStepIconPaths } from "@/data/loan";
 
 export default function LoanPage() {
   const { t } = useTranslation("loan");
@@ -14,68 +15,21 @@ export default function LoanPage() {
   useLenis();
   const sectionRefs = useScrollFadeIn();
 
-  const benefits = [
-    {
-      key: "countries",
-      icon: (
-        <Image src="/images/common/globe.png" alt="Globe" width={42} height={42} className="w-12 h-12 object-contain" />
-      ),
-    },
-    {
-      key: "success",
-      icon: (
-        <Image src="/images/common/success.png" alt="success" width={32} height={32} className="w-9 h-9 object-contain" />
+  const benefits = loanBenefitKeys.map((key) => {
+    const img = loanBenefitImages[key];
+    return {
+      key,
+      icon: <Image src={img.src} alt={img.alt} width={42} height={42} className={img.className} />,
+    };
+  });
 
-      ),
-    },
-    {
-      key: "support",
-      icon: (
-        <Image src="/images/common/support.png" alt="support" width={32} height={32} className="w-8 h-8 object-contain" />
-      ),
-    },
-    {
-      key: "realtime",
-      icon: (
-        <Image src="/images/common/realtime.png" alt="realtime" width={32} height={32} className="w-8 h-8 object-contain" />
-      ),
-    },
-    {
-      key: "simple",
-      icon: (
-        <Image src="/images/common/phone.png" alt="Phone" width={32} height={32} className="w-8 h-8 object-contain" />
-      ),
-    },
-  ];
+  const steps = loanSteps;
 
-  const productKeys = ["gme_loan", "house_loan", "business_loan", "student_loan", "property_loan", "vacation_loan", "car_loan"];
-
-  const commonTags = ["max_amount", "duration", "visa_period", "contract", "early_settlement"];
-
-  const steps = ["step1", "step2", "step3", "step4", "step5"];
-
-  const stepIcons = [
-    // 1. GME 앱 신청
-    <svg key="s1" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
-    </svg>,
-    // 2. 서류 제출
-    <svg key="s2" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
-    </svg>,
-    // 3. 서류 검증
-    <svg key="s3" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-    </svg>,
-    // 4. 승인
-    <svg key="s4" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-    </svg>,
-    // 5. 대출금 지급
-    <svg key="s5" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-    </svg>,
-  ];
+  const stepIcons = loanStepIconPaths.map((d, i) => (
+    <svg key={`s${i}`} className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+      <path strokeLinecap="round" strokeLinejoin="round" d={d} />
+    </svg>
+  ));
 
   const faqItems = t("faq.items") as unknown as { q: string; a: string }[];
 

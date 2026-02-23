@@ -3,28 +3,7 @@
 import { HiUser } from "react-icons/hi2";
 import { FaStar, FaQuoteLeft } from "react-icons/fa";
 import { useTranslation } from "@/hooks/useTranslation";
-
-// Quotes stay in English as per user preference (actual user reviews)
-const testimonials = [
-  {
-    quote: "I love how simple and quick the process is with GME Remittance. My family gets the money instantly, and I can track everything!",
-    name: "Dos James",
-    meta: "GME Remittance",
-    tagKey: "easy_tracking",
-  },
-  {
-    quote: "I was amazed at how simple it was to apply for a loan with GME. Their flexible terms and great customer service made all the difference.",
-    name: "Yin Zaw",
-    meta: "GME Loan",
-    tagKey: "satisfied",
-  },
-  {
-    quote: "I love the flexibility of my GME Card. Whether I'm shopping or paying bills, it works flawlessly and makes my life easier!",
-    name: "Suni Lee",
-    meta: "GME Card",
-    tagKey: "fast_process",
-  },
-];
+import { homeTestimonials as testimonials } from "@/data/testimonials";
 
 export default function TestimonialsSection() {
   const { t } = useTranslation("home.testimonials");
