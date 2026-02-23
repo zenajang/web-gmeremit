@@ -4,45 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "@/hooks/useTranslation";
-
-type CardDef = {
-  id: string;
-  eyebrow: string;
-  title: string;
-  ctaHref: string;
-  image: string;
-};
-
-const cardDefs: CardDef[] = [
-  {
-    id: "black",
-    eyebrow: "PREMIUM",
-    title: "Premium",
-    ctaHref: "/services/card",
-    image: "/images/card/Premium_front.png",
-  },
-  {
-    id: "white",
-    eyebrow: "THE WHITE",
-    title: "The White",
-    ctaHref: "/services/card",
-    image: "/images/card/Pay_White_front.png",
-  },
-  {
-    id: "red",
-    eyebrow: "THE RED",
-    title: "The Red",
-    ctaHref: "/services/card",
-    image: "/images/card/Pay_Red_front.png",
-  },
-  {
-    id: "easyG0",
-    eyebrow: "EASYGO",
-    title: "EasyGo",
-    ctaHref: "/services/card",
-    image: "/images/card/EasyGo_front.png",
-  },
-];
+import { cardDefs, type CardDef } from "@/data/cardsShowcase";
 
 const AUTO_DELAY = 3000;
 

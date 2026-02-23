@@ -58,7 +58,12 @@ export function MobileLanguageSelector({ onClose }: { onClose: () => void }) {
                 currentLanguage.code === lang.code ? "bg-gray-100 text-primary" : "text-dark"
               }`}
             >
-              <span className="text-lg">{lang.flag}</span>
+              <span
+                className="text-[13px] font-bold w-6 shrink-0"
+                style={{ color: lang.color }}
+              >
+                {lang.label}
+              </span>
               <span className="text-sm">{lang.nativeName}</span>
             </button>
           ))}

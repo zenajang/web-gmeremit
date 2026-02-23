@@ -23,16 +23,6 @@ export interface MenuSection {
   items: MenuSubItem[];
 }
 
-// ============ Icons ============
-function GlobeIcon({ className }: { className?: string }) {
-  return (
-    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" width="20" height="20" strokeWidth="1.5">
-      <circle cx="12" cy="12" r="10" />
-      <ellipse cx="12" cy="12" rx="4" ry="10" />
-      <line x1="2" y1="12" x2="22" y2="12" />
-    </svg>
-  );
-}
 
 // ============ Language Selector ============
 export function LanguageSelector() {
@@ -55,36 +45,53 @@ export function LanguageSelector() {
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
-        className={`flex items-center gap-2 px-3 py-2 rounded-full transition-all duration-200 cursor-pointer ${
-          isOpen ? "bg-gray-100 text-dark" : "text-dark hover:text-dark hover:bg-gray-100"
+        className={`flex items-center gap-2 px-5 py-2.5 rounded-full text-[14px] font-semibold transition-all duration-200 cursor-pointer border ${
+          isOpen ? "bg-gray-100 text-dark border-gray-300" : "text-dark hover:bg-gray-100 border-gray-200"
         }`}
         aria-label="Select language"
       >
-        <span className="text-[13px] font-medium">{currentLanguage.code.toUpperCase()}</span>
-        <GlobeIcon className="text-current opacity-70" />
+        <svg className="w-5 h-5 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="1.5">
+          <circle cx="12" cy="12" r="10" />
+          <ellipse cx="12" cy="12" rx="4" ry="10" />
+          <line x1="2" y1="12" x2="22" y2="12" />
+        </svg>
+        <span>{currentLanguage.nativeName}</span>
       </button>
 
       {isOpen && (
         <div className="absolute top-full right-0 mt-2 z-50">
-          <div className="bg-white rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.08),0_0_0_1px_rgba(0,0,0,0.04)] py-2 min-w-[200px] max-h-[320px] overflow-y-auto">
-            {languages.map((lang) => (
-              <button
-                key={lang.code}
-                type="button"
-                onClick={() => {
-                  setLanguage(lang);
-                  setIsOpen(false);
-                }}
-                className={`w-full flex items-center gap-3 px-4 py-2.5 text-left transition-all duration-150 cursor-pointer ${
-                  currentLanguage.code === lang.code
-                    ? "bg-red-50 text-primary"
-                    : "text-gray-600 hover:bg-gray-100 hover:text-dark"
-                }`}
-              >
-                <span className="text-lg">{lang.flag}</span>
-                <span className="text-[15px] font-medium">{lang.nativeName}</span>
-              </button>
-            ))}
+          <div
+            className="bg-white rounded-xl shadow-[0_8px_30px_rgba(0,0,0,0.12),0_0_0_1px_rgba(0,0,0,0.04)] py-1.5 min-w-[220px] max-h-[360px] overflow-y-auto overscroll-contain"
+            onWheel={(e) => e.stopPropagation()}
+          >
+            {languages.map((lang) => {
+              const isSelected = currentLanguage.code === lang.code;
+              return (
+                <button
+                  key={lang.code}
+                  type="button"
+                  onClick={() => {
+                    setLanguage(lang);
+                    setIsOpen(false);
+                  }}
+                  className={`group w-full flex items-center gap-3 px-3.5 py-2 text-left transition-all duration-150 cursor-pointer ${
+                    isSelected
+                      ? "bg-gray-50"
+                      : "hover:bg-gray-50"
+                  }`}
+                >
+                  <span
+                    className="text-[13px] font-bold w-7 h-7 shrink-0 flex items-center justify-center rounded-md transition-colors duration-150 group-hover:bg-white group-hover:shadow-[0_1px_3px_rgba(0,0,0,0.1)]"
+                    style={{ color: lang.color }}
+                  >
+                    {lang.label}
+                  </span>
+                  <span className={`text-[14px] ${isSelected ? "text-dark font-semibold" : "text-gray-700 font-medium"}`}>
+                    {lang.nativeName}
+                  </span>
+                </button>
+              );
+            })}
           </div>
         </div>
       )}

@@ -3,21 +3,7 @@
 import Link from "next/link";
 import { useTranslation } from "@/hooks/useTranslation";
 import { scrollToSection } from "@/utils/scroll";
-
-const supportedCountries = [
-  { code: "PH", flag: "🇵🇭" },
-  { code: "VN", flag: "🇻🇳" },
-  { code: "NP", flag: "🇳🇵" },
-  { code: "ID", flag: "🇮🇩" },
-  { code: "TH", flag: "🇹🇭" },
-  { code: "MM", flag: "🇲🇲" },
-  { code: "CN", flag: "🇨🇳" },
-  { code: "JP", flag: "🇯🇵" },
-  { code: "US", flag: "🇺🇸" },
-  { code: "BD", flag: "🇧🇩" },
-  { code: "LK", flag: "🇱🇰" },
-  { code: "PK", flag: "🇵🇰" },
-];
+import { supportedCountries } from "@/data/countries";
 
 export default function HeroMain() {
   const { t } = useTranslation("home.hero");

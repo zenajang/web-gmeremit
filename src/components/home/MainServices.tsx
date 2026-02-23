@@ -41,7 +41,7 @@ export default function MainServices() {
                 alt="Global Payments"
                 width={300}
                 height={300}
-                className="relative w-60 h-60 lg:w-85 lg:h-85 object-contain [filter:drop-shadow(8px_8px_16px_rgba(0,0,0,0.35))]"
+                className="relative w-60 h-60 lg:w-75 lg:h-75 object-contain [filter:drop-shadow(8px_8px_16px_rgba(0,0,0,0.35))]"
               />
             </div>
 
@@ -68,14 +68,14 @@ export default function MainServices() {
               </p>
             </div>
 
-            <div className="absolute top-4/6 right-4 lg:-right-10 -translate-y-1/3">
+            <div className="absolute top-5/7 right-4 lg:-right-10 -translate-y-1/3">
               <div className="relative">
                 <Image
                 src="/images/home/remittance_3d.png"
                 alt="Global Payments"
                 width={300}
                 height={300}
-                className="relative w-60 h-60 lg:w-75 lg:h-75 object-contain [filter:drop-shadow(8px_8px_16px_rgba(0,0,0,0.35))]"
+                className="relative w-60 h-60 lg:w-70 lg:h-70 object-contain [filter:drop-shadow(8px_8px_16px_rgba(0,0,0,0.35))]"
                 />
               </div>
             </div>
@@ -145,7 +145,7 @@ export default function MainServices() {
                 alt="Global Payments"
                 width={600}
                 height={600}
-                className="relative w-60 h-60 lg:w-110 lg:h-110 object-contain [filter:drop-shadow(8px_8px_16px_rgba(0,0,0,0.35))]"
+                className="relative w-60 h-60 lg:w-100 lg:h-100 object-contain [filter:drop-shadow(8px_8px_16px_rgba(0,0,0,0.35))]"
                 />
               </div>
             </div>
