@@ -7,22 +7,9 @@ import { useLanguage, languages } from "@/contexts/LanguageContext";
 // ============ Types ============
 export interface MenuItem {
   label: string;
-  href: string;
-  megaMenuType?: "business" | "company";
+  href?: string;
   children?: { label: string; href: string }[];
 }
-
-export interface MenuSubItem {
-  label: string;
-  href: string;
-  icon: React.ReactNode;
-}
-
-export interface MenuSection {
-  title: string;
-  items: MenuSubItem[];
-}
-
 
 // ============ Language Selector ============
 export function LanguageSelector() {
@@ -110,10 +97,10 @@ export function DesktopDropdown({
   onMouseEnter: () => void;
 }) {
   // Simple link without dropdown
-  if (!item.children && !item.megaMenuType) {
+  if (!item.children) {
     return (
       <Link
-        href={item.href}
+        href={item.href ?? "#"}
         className="relative text-lg text-dark hover:text-dark font-medium transition-all duration-200 px-3 py-2 hover:after:absolute hover:after:-bottom-[28px] hover:after:left-0 hover:after:right-0 hover:after:h-[2px] hover:after:bg-primary"
         onMouseEnter={onMouseEnter}
       >
@@ -139,12 +126,8 @@ export function DesktopDropdown({
 // ============ Desktop Nav ============
 export default function DesktopNav({
   menuItems,
-  businessMenuSections,
-  companyMenuSections,
 }: {
   menuItems: MenuItem[];
-  businessMenuSections: MenuSection[];
-  companyMenuSections: MenuSection[];
 }) {
   const [openMenuIndex, setOpenMenuIndex] = useState<number | null>(null);
   const [hoveredColumnIndex, setHoveredColumnIndex] = useState<number | null>(null);
@@ -166,12 +149,6 @@ export default function DesktopNav({
 
   // Helper function: 각 메뉴 아이템의 서브메뉴 가져오기
   const getSubMenuItems = (item: MenuItem) => {
-    if (item.megaMenuType) {
-      const sections = item.megaMenuType === "business" ? businessMenuSections : companyMenuSections;
-      return sections.flatMap(section =>
-        section.items.map(subItem => ({ label: subItem.label, href: subItem.href }))
-      );
-    }
     if (item.children) {
       return item.children;
     }

@@ -8,27 +8,27 @@ import type { ReactNode } from "react";
 const featureKeys = ["optimized", "security", "global", "fast"] as const;
 
 const featureIcons: ReactNode[] = [
-  <Image key="coin" src="/images/common/coin.png" alt="Coin" width={80} height={80} className="w-20 h-20 object-contain" />,
-  <Image key="shield" src="/images/common/shield.png" alt="Shield" width={80} height={80} className="w-20 h-20 object-contain" />,
-  <Image key="globe" src="/images/common/globe.png" alt="Globe" width={90} height={90} className="w-30 h-30 object-contain" />,
-  <Image key="fast" src="/images/common/speed.png" alt="Speed" width={80} height={80} className="w-20 h-20 object-contain" />,
+  <Image key="coin" src="/images/common/coin.png" alt="Coin" width={80} height={80} className="w-16 h-16 sm:w-20 sm:h-20 object-contain" />,
+  <Image key="shield" src="/images/common/shield.png" alt="Shield" width={80} height={80} className="w-16 h-16 sm:w-20 sm:h-20 object-contain" />,
+  <Image key="globe" src="/images/common/globe.png" alt="Globe" width={90} height={90} className="w-20 h-20 sm:w-30 sm:h-30 object-contain" />,
+  <Image key="fast" src="/images/common/speed.png" alt="Speed" width={80} height={80} className="w-16 h-16 sm:w-20 sm:h-20 object-contain" />,
 ];
 
 export default function RemittanceSection() {
   const { t } = useTranslation("home.remittance");
   return (
-    <section id="overseas-remittance" className="relative min-h-screen overflow-hidden flex items-center snap-section">
+    <section id="overseas-remittance" className="relative overflow-hidden flex items-center snap-section lg:min-h-screen py-14 sm:py-16 lg:py-0">
       <div className="absolute inset-0 bg-gradient-to-br from-[#fffafa] via-[#fff8f8] to-[#fff5f5]" />
       <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-primary/[0.04] blur-3xl" />
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-secondary/[0.05] blur-3xl" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-primary/[0.02] blur-3xl" />
 
-      <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-screen flex items-center">
+      <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:min-h-screen flex items-center">
         <div className="w-full grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div>
             <p className="typo-eyebrow text-primary mb-3">REMITTANCE</p>
             <h2 className="typo-section-title mb-5">{t("title")}</h2>
-            <p className="text-xl text-gray-600 leading-relaxed mb-8">
+            <p className="typo-section-subtitle text-gray-600 mb-8">
               {t("description")}
             </p>
             <CTAButton
@@ -39,9 +39,9 @@ export default function RemittanceSection() {
             />
           </div>
 
-          <div className="grid grid-cols-2 gap-5 lg:gap-7">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5 lg:gap-7">
             {featureKeys.map((key, index) => (
-              <div key={key} className="relative flip-card h-72 w-full">
+              <div key={key} className="relative flip-card h-40 sm:h-72 w-full">
                 {/* 입체적 그림자 */}
                 <div className="absolute inset-0 rounded-2xl bg-primary/8 translate-x-2 translate-y-2 blur-md" />
                 <div className="absolute inset-0 rounded-2xl bg-primary/4 translate-x-4 translate-y-4 blur-lg" />
@@ -56,16 +56,16 @@ export default function RemittanceSection() {
                     <div className="absolute top-4 right-4 w-16 h-[1px] bg-gradient-to-r from-white/60 to-transparent rotate-45" />
                     <div className="absolute top-8 right-8 w-12 h-[1px] bg-gradient-to-r from-white/40 to-transparent rotate-45" />
 
-                    <div className="relative h-full p-8 flex flex-col justify-between">
+                    <div className="relative h-full p-5 sm:p-8 flex flex-col justify-between">
                       <div className="flex items-start justify-between">
-                        <div className="w-15 h-15 rounded-xl bg-gradient-to-br from-white to-[#f8f9fa] flex items-center justify-center shadow-lg">
+                        <div className="w-12 h-12 sm:w-15 sm:h-15 rounded-xl bg-gradient-to-br from-white to-[#f8f9fa] flex items-center justify-center shadow-lg">
                           {featureIcons[index]}
                         </div>
-                        <span className="text-sm font-semibold text-primary bg-primary/10 px-2.5 py-1 rounded-full backdrop-blur-sm">{t(`features.${key}.sub`)}</span>
+                        <span className="text-[11px] sm:text-sm font-semibold text-primary bg-primary/10 px-2.5 py-1 rounded-full backdrop-blur-sm">{t(`features.${key}.sub`)}</span>
                       </div>
                       <div>
-                        <p className="typo-content-title mb-1">{t(`features.${key}.title`)}</p>
-                        <p className="text-base text-gray-500 leading-relaxed">{t(`features.${key}.desc`)}</p>
+                        <p className="text-base sm:text-2xl font-bold text-dark mb-1">{t(`features.${key}.title`)}</p>
+                        <p className="text-sm sm:text-base text-gray-500 leading-relaxed">{t(`features.${key}.desc`)}</p>
                       </div>
                     </div>
                   </div>
@@ -78,9 +78,9 @@ export default function RemittanceSection() {
                     <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-white/50 to-transparent" />
                     <div className="absolute bottom-6 left-6 w-20 h-[1px] bg-gradient-to-r from-white/30 to-transparent -rotate-45" />
 
-                    <div className="relative h-full p-8 flex flex-col justify-center text-white">
-                      <p className="text-2xl font-bold mb-2">{t(`features.${key}.back_title`)}</p>
-                      <p className="text-base leading-relaxed text-white/90">{t(`features.${key}.back_desc`)}</p>
+                    <div className="relative h-full p-5 sm:p-8 flex flex-col justify-center text-white">
+                      <p className="text-lg sm:text-2xl font-bold mb-2">{t(`features.${key}.back_title`)}</p>
+                      <p className="text-sm sm:text-base leading-relaxed text-white/90">{t(`features.${key}.back_desc`)}</p>
                     </div>
                   </div>
                 </div>

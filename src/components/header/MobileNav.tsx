@@ -1,9 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useLanguage, languages } from "@/contexts/LanguageContext";
-import type { MenuItem, MenuSection } from "./DesktopNav";
+import type { MenuItem } from "./DesktopNav";
 
 // ============ Icons ============
 function ChevronDownIcon({ className }: { className?: string }) {
@@ -77,64 +77,22 @@ export function MobileLanguageSelector({ onClose }: { onClose: () => void }) {
 export function MobileAccordion({
   item,
   onClose,
-  businessMenuSections,
-  companyMenuSections,
 }: {
   item: MenuItem;
   onClose: () => void;
-  businessMenuSections: MenuSection[];
-  companyMenuSections: MenuSection[];
 }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   // Simple link
-  if (!item.children && !item.megaMenuType) {
+  if (!item.children) {
     return (
       <Link
-        href={item.href}
+        href={item.href ?? "#"}
         className="block px-4 py-3 text-dark hover:bg-gray-50 font-medium border-b border-gray-100"
         onClick={onClose}
       >
         {item.label}
       </Link>
-    );
-  }
-
-  // Mega menu for mobile (Business or Company)
-  if (item.megaMenuType) {
-    const sections = item.megaMenuType === "business" ? businessMenuSections : companyMenuSections;
-
-    return (
-      <div className="border-b border-gray-100">
-        <button
-          type="button"
-          className="w-full flex items-center justify-between px-4 py-3 text-dark hover:bg-gray-50 font-medium cursor-pointer"
-          onClick={() => setIsExpanded(!isExpanded)}
-        >
-          <span>{item.label}</span>
-          <ChevronDownIcon className={`transition-transform duration-200 ${isExpanded ? "rotate-180" : ""}`} />
-        </button>
-
-        {isExpanded && (
-          <div className="bg-gray-50 pb-2">
-            {sections.map((section) => (
-              <div key={section.title} className="px-4 py-2">
-                <h4 className="text-primary font-semibold text-sm mb-2">{section.title}</h4>
-                {section.items.map((subItem) => (
-                  <Link
-                    key={subItem.label}
-                    href={subItem.href}
-                    className="block px-2 py-2 text-dark hover:text-primary"
-                    onClick={onClose}
-                  >
-                    <span className="text-sm">{subItem.label}</span>
-                  </Link>
-                ))}
-              </div>
-            ))}
-          </div>
-        )}
-      </div>
     );
   }
 
@@ -173,42 +131,45 @@ export default function MobileNav({
   isOpen,
   onClose,
   menuItems,
-  businessMenuSections,
-  companyMenuSections,
 }: {
   isOpen: boolean;
   onClose: () => void;
   menuItems: MenuItem[];
-  businessMenuSections: MenuSection[];
-  companyMenuSections: MenuSection[];
 }) {
-  if (!isOpen) return null;
+  const [visible, setVisible] = useState(false);
+  const [animating, setAnimating] = useState(false);
+
+  useEffect(() => {
+    if (isOpen) {
+      setVisible(true);
+      requestAnimationFrame(() => setAnimating(true));
+    } else {
+      setAnimating(false);
+      const timer = setTimeout(() => setVisible(false), 250);
+      return () => clearTimeout(timer);
+    }
+  }, [isOpen]);
+
+  if (!visible) return null;
 
   return (
     <>
       <div
-        className="lg:hidden fixed inset-0 top-16 bg-black/20 z-40"
+        className={`lg:hidden fixed inset-0 top-16 bg-black/20 z-40 transition-opacity duration-250 ${animating ? "opacity-100" : "opacity-0"}`}
         onClick={onClose}
         aria-hidden="true"
       />
-      <div className="lg:hidden fixed top-16 left-0 right-0 bottom-0 bg-white z-50 overflow-y-auto">
+      <div
+        className={`lg:hidden fixed top-16 left-0 right-0 bottom-0 bg-white z-50 overflow-y-auto transition-transform duration-250 ease-out ${animating ? "translate-y-0" : "-translate-y-4 opacity-0"}`}
+      >
         <nav className="pb-6">
           {menuItems.map((item) => (
             <MobileAccordion
               key={item.label}
               item={item}
               onClose={onClose}
-              businessMenuSections={businessMenuSections}
-              companyMenuSections={companyMenuSections}
             />
           ))}
-          <Link
-            href="/download"
-            className="block px-4 py-3 text-dark hover:bg-gray-50 font-medium border-b border-gray-100"
-            onClick={onClose}
-          >
-            Download App
-          </Link>
           <Link
             href="/company/careers"
             className="block px-4 py-3 text-dark hover:bg-gray-50 font-medium border-b border-gray-100"
@@ -219,7 +180,7 @@ export default function MobileNav({
           <MobileLanguageSelector onClose={onClose} />
           <div className="px-4 pt-4">
             <Link
-              href="/download"
+              href="/#app-download"
               className="block w-full bg-primary hover:bg-primary-dark text-white font-semibold px-6 py-3 rounded-full text-center transition-colors duration-200"
               onClick={onClose}
             >

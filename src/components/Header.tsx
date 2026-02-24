@@ -7,7 +7,7 @@ import DesktopNav, { LanguageSelector } from "./header/DesktopNav";
 import MobileNav from "./header/MobileNav";
 import type { MenuItem } from "./header/DesktopNav";
 import { useTranslation } from "@/hooks/useTranslation";
-import { businessMenuSections, companyMenuSections, menuItemDefs } from "@/data/headerMenu";
+import { menuItemDefs } from "@/data/headerMenu";
 
 // ============ Main Header ============
 export default function Header() {
@@ -49,8 +49,8 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
-      {/* Top Utility Bar */}
-      <div className="bg-white border-b border-gray-100">
+      {/* Top Utility Bar — desktop only */}
+      <div className="hidden lg:block bg-white border-b border-gray-100">
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-10">
           <div className="flex items-center justify-end h-10 gap-6">
             {/* 채용 */}
@@ -95,11 +95,7 @@ export default function Header() {
             </Link>
 
             {/* Desktop Navigation - 중앙 */}
-            <DesktopNav
-              menuItems={menuItems}
-              businessMenuSections={businessMenuSections}
-              companyMenuSections={companyMenuSections}
-            />
+            <DesktopNav menuItems={menuItems} />
 
             {/* Right Side */}
             <div className="flex items-center gap-4 lg:gap-6 shrink-0">
@@ -142,8 +138,6 @@ export default function Header() {
         isOpen={isMenuOpen}
         onClose={() => setIsMenuOpen(false)}
         menuItems={menuItems}
-        businessMenuSections={businessMenuSections}
-        companyMenuSections={companyMenuSections}
       />
     </header>
   );

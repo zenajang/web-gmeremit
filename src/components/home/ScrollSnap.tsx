@@ -23,6 +23,8 @@ export default function ScrollSnap() {
   const lastWheelTimeRef = useRef(0);
 
   useEffect(() => {
+    const desktopQuery = window.matchMedia("(min-width: 1024px)");
+
     const getSections = () =>
       Array.from(document.querySelectorAll(".snap-section")) as HTMLElement[];
 
@@ -76,6 +78,7 @@ export default function ScrollSnap() {
     };
 
     const handleWheel = (e: WheelEvent) => {
+      if (!desktopQuery.matches) return;
       e.preventDefault();
 
       if (isAnimatingRef.current) return;
@@ -118,9 +121,11 @@ export default function ScrollSnap() {
 
     let touchStartY = 0;
     const handleTouchStart = (e: TouchEvent) => {
+      if (!desktopQuery.matches) return;
       touchStartY = e.touches[0].clientY;
     };
     const handleTouchEnd = (e: TouchEvent) => {
+      if (!desktopQuery.matches) return;
       if (isAnimatingRef.current) return;
       if (Date.now() - lastScrollTime.current < COOLDOWN) return;
 

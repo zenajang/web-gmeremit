@@ -3,6 +3,7 @@
 import { BoardEntryType } from '@/types/board'
 import { HiArrowUpTray } from 'react-icons/hi2'
 import TiptapEditor from '@/components/editor/TiptapEditor'
+import Button from '@/components/ui/Button'
 
 export interface BoardFormData {
   type: BoardEntryType
@@ -274,19 +275,12 @@ export default function BoardForm({
 
         {/* Submit Buttons */}
         <div className="flex gap-4 pt-6 border-t border-gray-200">
-          <button
-            type="submit"
-            disabled={submitting}
-            className="px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-          >
+          <Button type="submit" disabled={submitting} className="disabled:opacity-50 disabled:cursor-not-allowed">
             {submitting ? submittingLabel : submitLabel}
-          </button>
-          <a
-            href="/gme-backoffice/dashboard"
-            className="px-6 py-3 bg-gray-200 text-gray-700 font-semibold rounded-lg hover:bg-gray-300 transition-colors"
-          >
+          </Button>
+          <Button as="link" href="/gme-backoffice/dashboard" variant="secondary">
             취소
-          </a>
+          </Button>
         </div>
       </div>
     </form>

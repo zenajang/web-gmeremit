@@ -3,63 +3,67 @@
 import Link from "next/link";
 import { useTranslation } from "@/hooks/useTranslation";
 import { scrollToSection } from "@/utils/scroll";
+import Button from "@/components/ui/Button";
 import { supportedCountries } from "@/data/countries";
 
 export default function HeroMain() {
   const { t } = useTranslation("home.hero");
 
   return (
-    <section className="relative min-h-screen bg-gradient-to-b from-white to-gray-50 overflow-hidden snap-section">
+    <section className="relative bg-gradient-to-b from-white to-gray-50 overflow-hidden snap-section min-h-screen">
       {/* Background Effects */}
       <div className="absolute inset-0">
-        <div className="absolute top-1/4 -left-10 w-[500px] h-[500px] rounded-full bg-primary/[0.06] blur-[100px]" />
-        <div className="absolute bottom-1/4 right-0 w-[400px] h-[400px] rounded-full bg-primary/[0.04] blur-[80px]" />
+        <div className="absolute top-1/4 -left-10 w-[320px] h-[320px] sm:w-[500px] sm:h-[500px] rounded-full bg-primary/[0.06] blur-[80px] sm:blur-[100px]" />
+        <div className="absolute bottom-1/4 right-0 w-[260px] h-[260px] sm:w-[400px] sm:h-[400px] rounded-full bg-primary/[0.04] blur-[64px] sm:blur-[80px]" />
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 pt-28 lg:pt-40 pb-20 lg:pb-28">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+      <div className="relative max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 pt-20 sm:pt-24 lg:pt-40 pb-10 sm:pb-16 lg:pb-28">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
 
           {/* Left - Text Content */}
           <div className="text-center lg:text-left">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 bg-primary/10 px-4 py-2 rounded-full mb-6">
+            <div className="inline-flex items-center gap-2 bg-primary/10 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full mb-4 sm:mb-6">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#a3c520] opacity-75" />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-[#a3c520]" />
               </span>
-              <span className="text-sm font-semibold text-primary">{t("badge")}</span>
+              <span className="text-xs sm:text-sm font-semibold text-primary">{t("badge")}</span>
             </div>
 
             {/* Main Heading */}
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-dark leading-[1.18] tracking-tight mb-6">
+            <h1 className="text-[1.7rem] sm:text-5xl lg:text-6xl font-bold text-dark leading-[1.18] tracking-tight mb-3 sm:mb-6">
               {t("title1")}
               <br />
               <span className="text-primary">{t("title2")}</span>
             </h1>
 
-            <p className="text-lg sm:text-xl text-gray-500 leading-relaxed mb-8 max-w-lg mx-auto lg:mx-0">
+            <p className="typo-section-subtitle text-gray-500 mb-5 sm:mb-8 max-w-lg mx-auto lg:mx-0">
               {t("description1")}
               <br />
               {t("description2")}
             </p>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-6">
-              <button
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start mb-4 sm:mb-6">
+              <Button
+                size="lg"
+                variant="primary"
                 onClick={() => scrollToSection("app-download")}
-                className="group inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary-dark text-white font-semibold px-8 py-4 rounded-2xl text-lg transition-all duration-300 ease-out shadow-[0_8px_24px_rgba(237,28,36,0.3)] hover:shadow-[0_12px_32px_rgba(237,28,36,0.4)] hover:-translate-y-0.5 cursor-pointer"
+                className="group hover:-translate-y-0.5"
               >
                 {t("app_download", { ns: "button" })}
-                <svg className="w-5 h-5 transition-transform duration-250 ease-out group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-4 h-4 sm:w-5 sm:h-5 transition-transform duration-250 ease-out group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
-              </button>
-              <button
+              </Button>
+              <Button
+                size="lg"
+                variant="secondary"
                 onClick={() => scrollToSection("gme-payments")}
-                className="inline-flex items-center justify-center gap-2 bg-white hover:bg-gray-50 border border-gray-200 text-dark font-semibold px-8 py-4 rounded-2xl text-lg transition-all duration-300 ease-out cursor-pointer"
               >
                 {t("button.learn_more")}
-              </button>
+              </Button>
             </div>
 
             {/* Rating Badge */}
@@ -78,9 +82,9 @@ export default function HeroMain() {
               </div>
             </div>
           </div>
-          {/* Right - Supported Countries Grid */}
-          <div className="relative">
-            <div className="relative bg-white rounded-3xl p-8 shadow-[0_20px_60px_rgba(0,0,0,0.08)] border border-gray-100">
+          {/* Right - Supported Countries Grid (hidden on mobile) */}
+          <div className="hidden lg:block relative">
+            <div className="relative bg-white rounded-3xl p-6 sm:p-8 shadow-[0_20px_60px_rgba(0,0,0,0.08)] border border-gray-100">
               {/* Header */}
               <div className="flex items-center justify-between mb-6">
                 <div>
@@ -98,14 +102,14 @@ export default function HeroMain() {
                 {supportedCountries.slice(0, 11).map((country) => (
                   <div
                     key={country.code}
-                    className="flex flex-col items-center gap-2 p-3 rounded-xl bg-gradient-to-b from-white to-slate-50 border border-gray-100 shadow-[0_2px_8px_rgba(0,0,0,0.06),0_1px_2px_rgba(0,0,0,0.04)] hover:shadow-[0_4px_12px_rgba(0,0,0,0.1),0_2px_4px_rgba(0,0,0,0.06)] hover:-translate-y-0.5 transition-all duration-200 cursor-pointer"
+                    className="flex flex-col items-center gap-2 p-3 rounded-xl bg-gradient-to-b from-white to-slate-50 border border-gray-100 shadow-[0_2px_8px_rgba(0,0,0,0.06),0_1px_2px_rgba(0,0,0,0.04)] hover:shadow-[0_4px_12px_rgba(0,0,0,0.1),0_2px_4px_rgba(0,0,0,0.06)] hover:-translate-y-0.5 transition-all duration-200"
                   >
                     <span className="text-2xl">{country.flag}</span>
                     <span className="text-xs font-medium text-cards">{t(`countries.names.${country.code}`)}</span>
                   </div>
                 ))}
                 <div
-                  className="relative flex flex-col items-center justify-center gap-1 p-3 rounded-xl bg-gradient-to-b from-red-50 to-red-100 border border-red-200/40 shadow-[0_2px_8px_rgba(237,28,36,0.08),inset_0_2px_4px_rgba(255,255,255,0.8),inset_0_-1px_2px_rgba(237,28,36,0.05)] hover:shadow-[0_4px_12px_rgba(237,28,36,0.12),inset_0_2px_4px_rgba(255,255,255,0.9)] hover:-translate-y-0.5 transition-all duration-200 cursor-pointer overflow-hidden"
+                  className="relative flex flex-col items-center justify-center gap-1 p-3 rounded-xl bg-gradient-to-b from-red-50 to-red-100 border border-red-200/40 shadow-[0_2px_8px_rgba(237,28,36,0.08),inset_0_2px_4px_rgba(255,255,255,0.8),inset_0_-1px_2px_rgba(237,28,36,0.05)] hover:shadow-[0_4px_12px_rgba(237,28,36,0.12),inset_0_2px_4px_rgba(255,255,255,0.9)] hover:-translate-y-0.5 transition-all duration-20 overflow-hidden"
                 >
                   <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-white/70 via-transparent to-primary/5 pointer-events-none" />
                   <div className="absolute top-0 left-3 right-3 h-[1px] rounded-full bg-gradient-to-r from-transparent via-white/80 to-transparent pointer-events-none" />
@@ -127,13 +131,13 @@ export default function HeroMain() {
             </div>
 
             {/* Floating Stats */}
-            <div className="absolute -bottom-6 -left-6 bg-white/70 backdrop-blur-xl rounded-2xl px-5 py-4 shadow-[0_8px_32px_rgba(0,0,0,0.1)] border border-white/50 ring-1 ring-black/[0.03]">
+            <div className="hidden sm:block absolute -bottom-6 -left-6 bg-white/70 backdrop-blur-xl rounded-2xl px-5 py-4 shadow-[0_8px_32px_rgba(0,0,0,0.1)] border border-white/50 ring-1 ring-black/[0.03]">
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-white/60 via-white/20 to-transparent pointer-events-none" />
               <p className="relative text-xs text-gray-500 mb-1">{t("stats.total_amount")}</p>
               <p className="relative typo-content-title">4.2<span className="text-sm font-medium text-gray-400 ml-0.5">{t("stats.trillion")}</span></p>
             </div>
 
-            <div className="absolute -top-4 -right-4 bg-primary/80 backdrop-blur-xl text-white rounded-2xl px-5 py-4 shadow-[0_8px_32px_rgba(237,28,36,0.3)] border border-white/20">
+            <div className="hidden sm:block absolute -top-4 -right-4 bg-primary/80 backdrop-blur-xl text-white rounded-2xl px-5 py-4 shadow-[0_8px_32px_rgba(237,28,36,0.3)] border border-white/20">
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-white/20 via-transparent to-transparent pointer-events-none" />
               <p className="relative text-xs opacity-90 mb-1">{t("stats.avg_time")}</p>
               <p className="relative text-2xl font-bold">10<span className="text-sm font-medium opacity-90 ml-0.5">{t("stats.seconds")}</span></p>
@@ -143,7 +147,7 @@ export default function HeroMain() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-45 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 hidden sm:flex flex-col items-center gap-2">
         <div className="w-6 h-10 rounded-full border-2 border-gray-300 flex justify-center pt-2">
           <div className="w-1 h-2.5 rounded-full bg-gray-400 animate-[scrollMouse_1.5s_ease-in-out_infinite]" />
         </div>

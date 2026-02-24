@@ -42,18 +42,18 @@ export default function PaymentsSection() {
   const { t } = useTranslation("home.global_payments");
 
   return (
-    <section id="payments-section" className="relative min-h-screen overflow-hidden flex items-center snap-section">
+    <section id="payments-section" className="relative overflow-hidden flex items-center snap-section lg:min-h-screen py-14 sm:py-16 lg:py-0">
       <div className="absolute inset-0 bg-gradient-to-br from-[#fafbff] via-[#f5f8ff] to-[#eff6ff]" />
       <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-payments/[0.04] blur-3xl" />
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-payments-light/[0.05] blur-3xl" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-payments/[0.02] blur-3xl" />
 
-      <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-screen flex items-center">
+      <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:min-h-screen flex items-center">
         <div className="w-full grid lg:grid-cols-[1fr_1.2fr] gap-12 lg:gap-20 items-center">
           <div className="order-1 lg:order-2">
             <p className="typo-eyebrow text-payments mb-3">PAYMENTS</p>
             <h2 className="typo-section-title mb-5">{t("title")}</h2>
-            <p className="text-xl text-gray-600 leading-relaxed mb-8">
+            <p className="typo-section-subtitle text-gray-600 mb-8">
               {t("description")}
             </p>
             <CTAButton
@@ -69,7 +69,7 @@ export default function PaymentsSection() {
               {/* 입체적 그림자 */}
               <div className="absolute inset-0 rounded-3xl bg-payments/10 translate-x-3 translate-y-3 blur-lg" />
               <div className="absolute inset-0 rounded-3xl bg-payments/5 translate-x-5 translate-y-5 blur-xl" />
-              <div className="relative rounded-3xl border border-gray-200 bg-white p-6 shadow-[0_20px_50px_rgba(0,0,0,0.06)]">
+              <div className="relative rounded-3xl border border-gray-200 bg-white p-5 sm:p-6 shadow-[0_20px_50px_rgba(0,0,0,0.06)]">
               {/* Header */}
               <div className="flex items-center justify-between mb-5">
                 <div className="flex items-center gap-3">
@@ -90,7 +90,7 @@ export default function PaymentsSection() {
               </div>
 
               {/* Stats Grid */}
-              <div className="grid grid-cols-3 gap-3 mb-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-4">
                 {statKeys.map((key) => (
                   <div key={key} className="rounded-xl bg-gray-50 p-5">
                     <p className="text-[11px] text-gray-400 mb-1">{t(`stats.${key}`)}</p>
@@ -127,7 +127,7 @@ export default function PaymentsSection() {
               </div>
 
               {/* Feature Cards */}
-              <div className="mt-4 grid grid-cols-3 gap-3">
+              <div className="mt-4 grid grid-cols-2 sm:grid-cols-3 gap-3">
                 {featureKeys.map((key) => (
                   <div key={key} className="rounded-xl bg-gray-50 p-4 text-center hover:bg-gray-100 transition-colors duration-250 ease-out cursor-pointer">
                     <div className="w-9 h-9 rounded-lg bg-white flex items-center justify-center text-payments mx-auto mb-2 shadow-sm">

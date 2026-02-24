@@ -33,7 +33,7 @@ export default function TestimonialsSection() {
         <div className="text-center mb-12 lg:mb-14">
           <p className="typo-eyebrow text-primary mb-3">TESTIMONIALS</p>
           <h2 className="typo-section-title">{t("title")}</h2>
-          <p className="text-base text-gray-600 max-w-2xl mx-auto mt-4">
+          <p className="typo-section-subtitle text-gray-600 max-w-2xl mx-auto mt-4">
             {t("subtitle")}
           </p>
         </div>
