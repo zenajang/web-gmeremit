@@ -13,7 +13,7 @@ const DEFAULT_DESCRIPTION =
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "GME Remit - Fast & Secure Money Transfer",
+    default: "Send Money from Korea | GME Remittance",
     template: "%s | GME Remit",
   },
   description: DEFAULT_DESCRIPTION,
