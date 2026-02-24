@@ -4,6 +4,16 @@ import Image from "next/image";
 import { useTranslation } from "@/hooks/useTranslation";
 import { scrollToSection } from "@/utils/scroll";
 
+function ArrowCircle({ className = "bg-white/20" }: { className?: string }) {
+  return (
+    <span className={`inline-flex items-center justify-center w-10 h-10 rounded-full text-white transition-transform duration-300 ease-out group-hover:translate-x-1 ${className}`}>
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+      </svg>
+    </span>
+  );
+}
+
 export default function MainServices() {
   const { t } = useTranslation("home.services");
 
@@ -46,11 +56,7 @@ export default function MainServices() {
             </div>
 
             <div className="relative z-10">
-              <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/20 text-white transition-transform duration-300 ease-out group-hover:translate-x-1">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </span>
+              <ArrowCircle />
             </div>
           </button>
 
@@ -81,11 +87,7 @@ export default function MainServices() {
             </div>
 
             <div className="relative z-10">
-              <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/20 text-white transition-transform duration-300 ease-out group-hover:translate-x-1">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </span>
+              <ArrowCircle />
             </div>
           </button>
 
@@ -115,11 +117,7 @@ export default function MainServices() {
             </div>
 
             <div className="relative z-10">
-              <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/20 text-white transition-transform duration-300 ease-out group-hover:translate-x-1">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </span>
+              <ArrowCircle />
             </div>
           </button>
 
@@ -151,11 +149,7 @@ export default function MainServices() {
             </div>
 
             <div className="relative z-10">
-              <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/10 text-white transition-transform duration-300 ease-out group-hover:translate-x-1">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </span>
+              <ArrowCircle className="bg-white/10" />
             </div>
           </button>
         </div>

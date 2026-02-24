@@ -1,8 +1,8 @@
 "use client";
 
-import Link from "next/link";
 import Image from "next/image";
 import { useTranslation } from "@/hooks/useTranslation";
+import CTAButton from "@/components/ui/CTAButton";
 import type { ReactNode } from "react";
 
 const featureKeys = ["countries", "success", "support", "realtime", "simple"] as const;
@@ -110,17 +110,12 @@ export default function LoanSection() {
             <p className="text-xl text-gray-600 leading-relaxed mb-8">
               {t("description")}
             </p>
-            <Link
+            <CTAButton
               href="/services/loan"
-              className="group inline-flex items-center gap-3 text-loan font-semibold bg-amber-100 hover:bg-amber-200 px-5 py-3 rounded-xl transition-colors duration-250 ease-out cursor-pointer"
-            >
-              {t("button.detail")}
-              <span className="flex items-center justify-center w-6 h-6 rounded-full bg-loan text-white transition-transform duration-300 ease-out group-hover:-rotate-45">
-                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
-                </svg>
-              </span>
-            </Link>
+              label={t("button.detail")}
+              className="text-loan bg-amber-100 hover:bg-amber-200"
+              iconClassName="bg-loan"
+            />
           </div>
         </div>
       </div>

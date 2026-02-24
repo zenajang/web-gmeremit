@@ -2,9 +2,44 @@
 
 import { useEffect, useRef, useState } from "react";
 
+interface KakaoLatLng {
+  getLat(): number;
+  getLng(): number;
+}
+
+interface KakaoLatLngBounds {
+  extend(latlng: KakaoLatLng): void;
+}
+
+interface KakaoMapInstance {
+  setBounds(bounds: KakaoLatLngBounds, padding: number): void;
+  setCenter(position: KakaoLatLng): void;
+  setLevel(level: number): void;
+}
+
+interface KakaoMarker {
+  setMap(map: KakaoMapInstance | null): void;
+}
+
+interface KakaoOverlay {
+  setMap(map: KakaoMapInstance | null): void;
+}
+
+interface KakaoMaps {
+  load(callback: () => void): void;
+  LatLng: new (lat: number, lng: number) => KakaoLatLng;
+  LatLngBounds: new () => KakaoLatLngBounds;
+  Map: new (container: HTMLElement, options: { center: KakaoLatLng; level: number }) => KakaoMapInstance;
+  Marker: new (options: { position: KakaoLatLng; map: KakaoMapInstance }) => KakaoMarker;
+  CustomOverlay: new (options: { position: KakaoLatLng; content: string; yAnchor: number; map: KakaoMapInstance }) => KakaoOverlay;
+  event: {
+    addListener(target: KakaoMarker, type: string, callback: () => void): void;
+  };
+}
+
 declare global {
   interface Window {
-    kakao: any;
+    kakao: { maps: KakaoMaps };
   }
 }
 
@@ -27,8 +62,8 @@ export default function KakaoMap({
   onBranchSelect,
 }: KakaoMapProps) {
   const mapRef = useRef<HTMLDivElement>(null);
-  const [map, setMap] = useState<any>(null);
-  const markersRef = useRef<any[]>([]);
+  const [map, setMap] = useState<KakaoMapInstance | null>(null);
+  const markersRef = useRef<{ marker: KakaoMarker; overlay: KakaoOverlay | null }[]>([]);
   const hasUserSelected = useRef(false);
 
   // SDK 로드
@@ -84,7 +119,7 @@ export default function KakaoMap({
       });
 
       // 선택된 지점 라벨
-      let overlay: any = null;
+      let overlay: KakaoOverlay | null = null;
       if (branch.id === selectedBranchId) {
         overlay = new window.kakao.maps.CustomOverlay({
           position,

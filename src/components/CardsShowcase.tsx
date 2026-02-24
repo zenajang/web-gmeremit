@@ -1,10 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "@/hooks/useTranslation";
 import { cardDefs, type CardDef } from "@/data/cardsShowcase";
+import CTAButton from "@/components/ui/CTAButton";
 
 const AUTO_DELAY = 3000;
 
@@ -58,17 +58,12 @@ export default function CardsShowcase() {
         </div>
 
         <div className="mt-7">
-          <Link
+          <CTAButton
             href={activeDef.ctaHref}
-            className="group inline-flex items-center gap-3 text-cards font-semibold bg-gray-200 hover:bg-gray-300 px-5 py-3 rounded-xl transition-colors cursor-pointer"
-          >
-            {t(`${activeDef.id}.cta`)}
-            <span className="flex items-center justify-center w-6 h-6 rounded-full bg-cards text-white transition-transform duration-300 group-hover:-rotate-45">
-              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
-              </svg>
-            </span>
-          </Link>
+            label={t(`${activeDef.id}.cta`)}
+            className="text-cards bg-gray-200 hover:bg-gray-300"
+            iconClassName="bg-cards"
+          />
         </div>
       </div>
 
