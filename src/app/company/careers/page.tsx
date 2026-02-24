@@ -2,7 +2,6 @@
 
 import PublicLayout from "@/components/layout/PublicLayout";
 import Image from "next/image";
-import Link from "next/link";
 import { useState } from "react";
 import { useLenis } from "@/hooks/useLenis";
 import { useTranslation } from "@/hooks/useTranslation";

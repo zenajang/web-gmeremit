@@ -8,9 +8,9 @@ import type { ReactNode } from "react";
 const featureKeys = ["optimized", "security", "global", "fast"] as const;
 
 const featureIcons: ReactNode[] = [
-  <Image key="security" src="/images/common/coin.png" alt="Shield" width={80} height={80} className="w-20 h-20 object-contain" />,
-  <Image key="security" src="/images/common/shield.png" alt="Shield" width={80} height={80} className="w-20 h-20 object-contain" />,
-  <Image key="global" src="/images/common/globe.png" alt="Globe" width={90} height={90} className="w-30 h-30 object-contain" />,
+  <Image key="coin" src="/images/common/coin.png" alt="Coin" width={80} height={80} className="w-20 h-20 object-contain" />,
+  <Image key="shield" src="/images/common/shield.png" alt="Shield" width={80} height={80} className="w-20 h-20 object-contain" />,
+  <Image key="globe" src="/images/common/globe.png" alt="Globe" width={90} height={90} className="w-30 h-30 object-contain" />,
   <Image key="fast" src="/images/common/speed.png" alt="Speed" width={80} height={80} className="w-20 h-20 object-contain" />,
 ];
 

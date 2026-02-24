@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useTranslation } from "@/hooks/useTranslation";
 import CTAButton from "@/components/ui/CTAButton";
 import type { ReactNode } from "react";
