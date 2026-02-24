@@ -20,7 +20,7 @@ function ServiceCard({
   return (
     <button
       onClick={onClick}
-      className={`group relative overflow-hidden rounded-3xl p-6 sm:p-7 lg:p-10 min-h-[260px] sm:min-h-[300px] lg:min-h-[330px] flex flex-col justify-between transition-all duration-300 ease-out hover:scale-[1.02] hover:-translate-y-1 cursor-pointer text-left ${bgColor} ${colSpan ? "md:col-span-2" : ""}`}
+      className={`group relative overflow-hidden rounded-2xl sm:rounded-3xl p-5 sm:p-7 lg:p-10 min-h-[180px] sm:min-h-[300px] lg:min-h-[330px] flex flex-col justify-between transition-all duration-300 ease-out hover:scale-[1.02] hover:-translate-y-1 cursor-pointer text-left ${bgColor} ${colSpan ? "md:col-span-2" : ""}`}
       style={{ boxShadow: `0 35px 60px -15px ${shadowColor}` }}
       onMouseEnter={(e) => { e.currentTarget.style.boxShadow = `0 45px 80px -15px ${shadowColor}`; }}
       onMouseLeave={(e) => { e.currentTarget.style.boxShadow = `0 35px 60px -15px ${shadowColor}`; }}
@@ -46,8 +46,8 @@ export default function MainServices() {
   return (
     <section id="gme-payments" className="relative overflow-hidden bg-gray-100 py-14 sm:py-16 lg:py-20 flex items-center snap-section lg:min-h-screen">
       <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-0">
-        <div className="text-center mb-12">
-          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-dark leading-tight">
+        <div className="text-center mb-6 sm:mb-12">
+          <h2 className="typo-section-title">
             {t("title1")}
             <br />
             {t("title2")}
@@ -55,11 +55,11 @@ export default function MainServices() {
         </div>
 
         {/* Bento Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4 lg:gap-5">
           {/* Payments - Large Card */}
           <ServiceCard onClick={() => scrollToSection("payments-section")} bgColor="bg-payments" shadowColor="rgba(96,165,250,0.4)" colSpan>
             <div className="relative z-10">
-              <h3 className="text-2xl lg:text-3xl font-bold text-white mb-3">{t("payments.title")}</h3>
+              <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2 sm:mb-3">{t("payments.title")}</h3>
               <p className="typo-card-desc text-white/80 max-w-md">
                 {t("payments.desc1")}
                 <br />
@@ -74,7 +74,7 @@ export default function MainServices() {
                 alt="Global Payments"
                 width={300}
                 height={300}
-                className="relative w-40 h-40 sm:w-56 sm:h-56 lg:w-75 lg:h-75 object-contain [filter:drop-shadow(8px_8px_16px_rgba(0,0,0,0.35))]"
+                className="relative w-28 h-28 sm:w-56 sm:h-56 lg:w-75 lg:h-75 object-contain [filter:drop-shadow(8px_8px_16px_rgba(0,0,0,0.35))]"
               />
             </div>
 
@@ -86,7 +86,7 @@ export default function MainServices() {
           {/* Remittance - Small Card */}
           <ServiceCard onClick={() => scrollToSection("overseas-remittance")} bgColor="bg-primary" shadowColor="rgba(237,28,36,0.4)">
             <div className="relative z-10">
-              <h3 className="text-2xl lg:text-3xl font-bold text-white mb-3">{t("remittance.title")}</h3>
+              <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2 sm:mb-3">{t("remittance.title")}</h3>
               <p className="typo-card-desc text-white/80">
                 {t("remittance.desc1")}
                 <br />
@@ -101,7 +101,7 @@ export default function MainServices() {
                 alt="Global Payments"
                 width={300}
                 height={300}
-                className="relative w-40 h-40 sm:w-56 sm:h-56 lg:w-70 lg:h-70 object-contain [filter:drop-shadow(8px_8px_16px_rgba(0,0,0,0.35))]"
+                className="relative w-28 h-28 sm:w-56 sm:h-56 lg:w-70 lg:h-70 object-contain [filter:drop-shadow(8px_8px_16px_rgba(0,0,0,0.35))]"
                 />
               </div>
             </div>
@@ -114,7 +114,7 @@ export default function MainServices() {
           {/* Loan - Small Card (Yellow) */}
           <ServiceCard onClick={() => scrollToSection("online-loan")} bgColor="bg-loan" shadowColor="rgba(251,191,36,0.4)">
             <div className="relative z-10">
-              <h3 className="text-2xl lg:text-3xl font-bold text-white mb-3">{t("loan.title")}</h3>
+              <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2 sm:mb-3">{t("loan.title")}</h3>
               <p className="typo-card-desc text-white/90">
                 {t("loan.desc1")}
                 <br />
@@ -128,7 +128,7 @@ export default function MainServices() {
                   alt="Online Loan"
                   width={400}
                   height={400}
-                  className="relative w-40 h-40 sm:w-56 sm:h-56 lg:w-65 lg:h-65 object-contain [filter:drop-shadow(8px_8px_16px_rgba(0,0,0,0.35))]"
+                  className="relative w-28 h-28 sm:w-56 sm:h-56 lg:w-65 lg:h-65 object-contain [filter:drop-shadow(8px_8px_16px_rgba(0,0,0,0.35))]"
                 />
               </div>
             </div>
@@ -141,7 +141,7 @@ export default function MainServices() {
           {/* Cards - (Black) */}
           <ServiceCard onClick={() => scrollToSection("gme-cards")} bgColor="bg-cards" shadowColor="rgba(75,85,99,0.45)" colSpan>
             <div className="relative z-10">
-              <h3 className="text-2xl lg:text-3xl font-bold text-white mb-3">{t("card.title")}</h3>
+              <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2 sm:mb-3">{t("card.title")}</h3>
               <p className="typo-card-desc text-white/70 max-w-md">
                 {t("card.desc1")}
                 <br />
@@ -157,7 +157,7 @@ export default function MainServices() {
                 alt="Global Payments"
                 width={600}
                 height={600}
-                className="relative w-40 h-40 sm:w-56 sm:h-56 lg:w-100 lg:h-100 object-contain [filter:drop-shadow(8px_8px_16px_rgba(0,0,0,0.35))]"
+                className="relative w-28 h-28 sm:w-56 sm:h-56 lg:w-100 lg:h-100 object-contain [filter:drop-shadow(8px_8px_16px_rgba(0,0,0,0.35))]"
                 />
               </div>
             </div>

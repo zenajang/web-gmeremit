@@ -24,11 +24,11 @@ export default function RemittanceSection() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-primary/[0.02] blur-3xl" />
 
       <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:min-h-screen flex items-center">
-        <div className="w-full grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div className="w-full grid lg:grid-cols-2 gap-8 lg:gap-20 items-center">
           <div>
             <p className="typo-eyebrow text-primary mb-3">REMITTANCE</p>
             <h2 className="typo-section-title mb-5">{t("title")}</h2>
-            <p className="typo-section-subtitle text-gray-600 mb-8">
+            <p className="typo-section-subtitle text-gray-600 mb-5 sm:mb-8">
               {t("description")}
             </p>
             <CTAButton
@@ -39,9 +39,9 @@ export default function RemittanceSection() {
             />
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5 lg:gap-7">
+          <div className="grid grid-cols-2 gap-3 sm:gap-5 lg:gap-7">
             {featureKeys.map((key, index) => (
-              <div key={key} className="relative flip-card h-40 sm:h-72 w-full">
+              <div key={key} className="relative flip-card h-32 sm:h-72 w-full">
                 {/* 입체적 그림자 */}
                 <div className="absolute inset-0 rounded-2xl bg-primary/8 translate-x-2 translate-y-2 blur-md" />
                 <div className="absolute inset-0 rounded-2xl bg-primary/4 translate-x-4 translate-y-4 blur-lg" />
@@ -56,16 +56,16 @@ export default function RemittanceSection() {
                     <div className="absolute top-4 right-4 w-16 h-[1px] bg-gradient-to-r from-white/60 to-transparent rotate-45" />
                     <div className="absolute top-8 right-8 w-12 h-[1px] bg-gradient-to-r from-white/40 to-transparent rotate-45" />
 
-                    <div className="relative h-full p-5 sm:p-8 flex flex-col justify-between">
+                    <div className="relative h-full p-3 sm:p-8 flex flex-col justify-between">
                       <div className="flex items-start justify-between">
-                        <div className="w-12 h-12 sm:w-15 sm:h-15 rounded-xl bg-gradient-to-br from-white to-[#f8f9fa] flex items-center justify-center shadow-lg">
+                        <div className="w-9 h-9 sm:w-15 sm:h-15 rounded-lg sm:rounded-xl bg-gradient-to-br from-white to-[#f8f9fa] flex items-center justify-center shadow-lg">
                           {featureIcons[index]}
                         </div>
-                        <span className="text-[11px] sm:text-sm font-semibold text-primary bg-primary/10 px-2.5 py-1 rounded-full backdrop-blur-sm">{t(`features.${key}.sub`)}</span>
+                        <span className="text-[9px] sm:text-sm font-semibold text-primary bg-primary/10 px-1.5 py-0.5 sm:px-2.5 sm:py-1 rounded-full backdrop-blur-sm">{t(`features.${key}.sub`)}</span>
                       </div>
                       <div>
-                        <p className="text-base sm:text-2xl font-bold text-dark mb-1">{t(`features.${key}.title`)}</p>
-                        <p className="text-sm sm:text-base text-gray-500 leading-relaxed">{t(`features.${key}.desc`)}</p>
+                        <p className="text-xs sm:text-2xl font-bold text-dark mb-0.5 sm:mb-1">{t(`features.${key}.title`)}</p>
+                        <p className="text-[10px] sm:text-base text-gray-500 leading-snug sm:leading-relaxed">{t(`features.${key}.desc`)}</p>
                       </div>
                     </div>
                   </div>
@@ -78,9 +78,9 @@ export default function RemittanceSection() {
                     <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-white/50 to-transparent" />
                     <div className="absolute bottom-6 left-6 w-20 h-[1px] bg-gradient-to-r from-white/30 to-transparent -rotate-45" />
 
-                    <div className="relative h-full p-5 sm:p-8 flex flex-col justify-center text-white">
-                      <p className="text-lg sm:text-2xl font-bold mb-2">{t(`features.${key}.back_title`)}</p>
-                      <p className="text-sm sm:text-base leading-relaxed text-white/90">{t(`features.${key}.back_desc`)}</p>
+                    <div className="relative h-full p-3 sm:p-8 flex flex-col justify-center text-white overflow-hidden">
+                      <p className="text-xs sm:text-2xl font-bold mb-1 sm:mb-2">{t(`features.${key}.back_title`)}</p>
+                      <p className="text-[10px] sm:text-base leading-snug sm:leading-relaxed text-white/90 line-clamp-3 sm:line-clamp-none">{t(`features.${key}.back_desc`)}</p>
                     </div>
                   </div>
                 </div>

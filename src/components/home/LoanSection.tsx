@@ -46,14 +46,14 @@ export default function LoanSection() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-loan/[0.02] blur-3xl" />
 
       <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:min-h-screen flex items-center">
-        <div className="w-full grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div className="w-full grid lg:grid-cols-2 gap-8 lg:gap-20 items-center">
           <div className="relative order-2 lg:order-1">
             {/* 입체적 그림자 */}
             <div className="absolute inset-0 rounded-3xl bg-loan/10 translate-x-3 translate-y-3 blur-lg" />
             <div className="absolute inset-0 rounded-3xl bg-loan/5 translate-x-5 translate-y-5 blur-xl" />
-            <div className="relative rounded-3xl border border-gray-200 bg-white p-5 sm:p-6 shadow-[0_20px_50px_rgba(0,0,0,0.06)]">
+            <div className="relative rounded-2xl sm:rounded-3xl border border-gray-200 bg-white p-4 sm:p-6 shadow-[0_20px_50px_rgba(0,0,0,0.06)]">
             {/* Header */}
-            <div className="flex items-center justify-between mb-5">
+            <div className="flex items-center justify-between mb-3 sm:mb-5">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-loan to-loan-light flex items-center justify-center">
                   <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -62,7 +62,7 @@ export default function LoanSection() {
                 </div>
                 <div>
                   <p className="typo-label">{t("card.title")}</p>
-                  <p className="text-[11px] text-gray-400">{t("card.subtitle")}</p>
+                  <p className="typo-caption">{t("card.subtitle")}</p>
                 </div>
               </div>
               <span className="rounded-full bg-loan/10 px-3 py-1 text-xs font-semibold text-loan">
@@ -71,12 +71,12 @@ export default function LoanSection() {
             </div>
 
             {/* Loan Stats */}
-            <div className="rounded-2xl bg-yellow-50 border border-yellow-200 p-5 mb-4">
+            <div className="rounded-xl sm:rounded-2xl bg-yellow-50 border border-yellow-200 p-3 sm:p-5 mb-3 sm:mb-4">
               <div className="flex items-center justify-between mb-3">
                 <span className="text-sm font-semibold text-dark">{t("stats.title")}</span>
-                <span className="text-[11px] text-gray-400">GME Finance</span>
+                <span className="typo-caption">GME Finance</span>
               </div>
-              <p className="text-3xl font-bold text-loan mb-1">{t("stats.value")}</p>
+              <p className="typo-stat text-loan mb-1">{t("stats.value")}</p>
               <p className="text-xs text-gray-400">{t("stats.desc")}</p>
             </div>
 
@@ -90,14 +90,14 @@ export default function LoanSection() {
                   <div className="w-10 h-10 rounded-lg bg-white flex items-center justify-center text-loan mx-auto mb-2 shadow-sm">
                     {featureIcons[key]}
                   </div>
-                  <p className="text-[12px] font-bold text-dark">{t(`features.${key}.label`)}</p>
-                  <p className="text-[10px] text-gray-400">{t(`features.${key}.desc`)}</p>
+                  <p className="text-xs font-bold text-dark">{t(`features.${key}.label`)}</p>
+                  <p className="typo-micro text-gray-400">{t(`features.${key}.desc`)}</p>
                 </div>
               ))}
             </div>
 
             {/* CTA */}
-            <button className="w-full mt-4 bg-loan text-white font-semibold py-3 rounded-xl ">
+            <button className="w-full mt-3 sm:mt-4 bg-loan text-white font-semibold py-2.5 sm:py-3 rounded-xl text-sm sm:text-base">
               {t("button.apply")}
             </button>
             </div>
@@ -106,7 +106,7 @@ export default function LoanSection() {
           <div className="order-1 lg:order-2">
             <p className="typo-eyebrow text-loan mb-3">GME FINANCE</p>
             <h2 className="typo-section-title mb-5">{t("title")}</h2>
-            <p className="typo-section-subtitle text-gray-600 mb-8">
+            <p className="typo-section-subtitle text-gray-600 mb-5 sm:mb-8">
               {t("description")}
             </p>
             <CTAButton

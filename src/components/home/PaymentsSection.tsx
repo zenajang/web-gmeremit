@@ -49,11 +49,11 @@ export default function PaymentsSection() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-payments/[0.02] blur-3xl" />
 
       <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:min-h-screen flex items-center">
-        <div className="w-full grid lg:grid-cols-[1fr_1.2fr] gap-12 lg:gap-20 items-center">
+        <div className="w-full grid lg:grid-cols-[1fr_1.2fr] gap-8 lg:gap-20 items-center">
           <div className="order-1 lg:order-2">
             <p className="typo-eyebrow text-payments mb-3">PAYMENTS</p>
             <h2 className="typo-section-title mb-5">{t("title")}</h2>
-            <p className="typo-section-subtitle text-gray-600 mb-8">
+            <p className="typo-section-subtitle text-gray-600 mb-5 sm:mb-8">
               {t("description")}
             </p>
             <CTAButton
@@ -69,9 +69,9 @@ export default function PaymentsSection() {
               {/* 입체적 그림자 */}
               <div className="absolute inset-0 rounded-3xl bg-payments/10 translate-x-3 translate-y-3 blur-lg" />
               <div className="absolute inset-0 rounded-3xl bg-payments/5 translate-x-5 translate-y-5 blur-xl" />
-              <div className="relative rounded-3xl border border-gray-200 bg-white p-5 sm:p-6 shadow-[0_20px_50px_rgba(0,0,0,0.06)]">
+              <div className="relative rounded-2xl sm:rounded-3xl border border-gray-200 bg-white p-4 sm:p-6 shadow-[0_20px_50px_rgba(0,0,0,0.06)]">
               {/* Header */}
-              <div className="flex items-center justify-between mb-5">
+              <div className="flex items-center justify-between mb-3 sm:mb-5">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-payments to-payments-light flex items-center justify-center">
                     <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -80,7 +80,7 @@ export default function PaymentsSection() {
                   </div>
                   <div>
                     <p className="typo-label">{t("card.title")}</p>
-                    <p className="text-[11px] text-gray-400">{t("card.subtitle")}</p>
+                    <p className="typo-caption">{t("card.subtitle")}</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-1.5">
@@ -90,12 +90,12 @@ export default function PaymentsSection() {
               </div>
 
               {/* Stats Grid */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-4">
+              <div className="grid grid-cols-3 gap-2 sm:gap-3 mb-3 sm:mb-4">
                 {statKeys.map((key) => (
-                  <div key={key} className="rounded-xl bg-gray-50 p-5">
-                    <p className="text-[11px] text-gray-400 mb-1">{t(`stats.${key}`)}</p>
+                  <div key={key} className="rounded-xl bg-gray-50 p-3 sm:p-5">
+                    <p className="typo-caption mb-1">{t(`stats.${key}`)}</p>
                     <p className="typo-card-title">{t(`stats.${key}_value`)}</p>
-                    <p className={`text-[10px] font-semibold mt-0.5 ${statTextColors[key]}`}>{t(`stats.${key}_change`)}</p>
+                    <p className={`typo-micro mt-0.5 ${statTextColors[key]}`}>{t(`stats.${key}_change`)}</p>
                   </div>
                 ))}
               </div>
@@ -103,23 +103,23 @@ export default function PaymentsSection() {
               {/* Transaction List */}
               <div className="rounded-2xl border border-gray-200 overflow-hidden">
                 <div className="px-4 py-2.5 bg-gray-50 border-b border-gray-200">
-                  <p className="text-[11px] font-semibold text-gray-400">{t("transactions.title")}</p>
+                  <p className="typo-caption font-semibold">{t("transactions.title")}</p>
                 </div>
                 <div className="divide-y divide-gray-200">
                   {transactionDefs.map((tx) => (
-                    <div key={tx.key} className="flex items-center justify-between px-4 py-4">
+                    <div key={tx.key} className="flex items-center justify-between px-3 py-3 sm:px-4 sm:py-4">
                       <div className="flex items-center gap-3">
                         <span className="text-xl">{tx.icon}</span>
                         <div>
                           <p className="text-sm font-semibold text-dark">{t(`transactions.${tx.key}`)}</p>
-                          <p className="text-[11px] text-gray-400">
+                          <p className="typo-caption">
                             {tx.timePre ? `${tx.timePre} ${t(`transactions.${tx.timeKey}`)}` : t(`transactions.${tx.timeKey}`)}
                           </p>
                         </div>
                       </div>
                       <div className="text-right">
                         <p className="typo-label">{tx.amount}</p>
-                        <p className={`text-[10px] font-semibold ${tx.statusColorClass}`}>{t(`transactions.${tx.statusKey}`)}</p>
+                        <p className={`typo-micro ${tx.statusColorClass}`}>{t(`transactions.${tx.statusKey}`)}</p>
                       </div>
                     </div>
                   ))}
@@ -127,14 +127,14 @@ export default function PaymentsSection() {
               </div>
 
               {/* Feature Cards */}
-              <div className="mt-4 grid grid-cols-2 sm:grid-cols-3 gap-3">
+              <div className="mt-3 sm:mt-4 grid grid-cols-3 gap-2 sm:gap-3">
                 {featureKeys.map((key) => (
-                  <div key={key} className="rounded-xl bg-gray-50 p-4 text-center hover:bg-gray-100 transition-colors duration-250 ease-out cursor-pointer">
+                  <div key={key} className="rounded-xl bg-gray-50 p-4 text-center">
                     <div className="w-9 h-9 rounded-lg bg-white flex items-center justify-center text-payments mx-auto mb-2 shadow-sm">
                       {featureIcons[key]}
                     </div>
                     <p className="text-xs font-bold text-dark">{t(`features.${key}`)}</p>
-                    <p className="text-[10px] text-gray-400 mt-0.5">{t(`features.${key}_desc`)}</p>
+                    <p className="typo-micro text-gray-400 mt-0.5">{t(`features.${key}_desc`)}</p>
                   </div>
                 ))}
               </div>

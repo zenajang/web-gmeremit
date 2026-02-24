@@ -157,8 +157,8 @@
   color: var(--color-dark);
 }
 
-/* Card/medium title (18px) */
-.typo-card-title {
+/* Card inner label title (18px) */
+.typo-card-label {
   font-size: 1.125rem;    /* text-lg */
   font-weight: 700;
   color: var(--color-dark);
@@ -195,6 +195,18 @@
   font-size: 1.875rem;    /* text-3xl */
   font-weight: 700;
   color: var(--color-dark);
+}
+
+/* Caption text (11px) - timestamps, meta info, small descriptions */
+.typo-caption {
+  font-size: 0.6875rem;   /* ~11px */
+  color: var(--color-gray-400, #9ca3af);
+}
+
+/* Micro text (10px) - status, change indicators */
+.typo-micro {
+  font-size: 0.625rem;    /* 10px */
+  font-weight: 600;
 }
 
 .snap-section {

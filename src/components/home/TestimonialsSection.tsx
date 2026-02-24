@@ -66,9 +66,9 @@ export default function TestimonialsSection() {
                 <span className="ml-2 text-sm font-semibold text-gray-500">5.0</span>
               </div>
 
-              <div className="relative mt-5 flex-1">
-                <FaQuoteLeft className="absolute -left-1 -top-1 h-6 w-6 text-primary/20" />
-                <p className="pl-7 text-base leading-relaxed text-gray-700">
+              <div className="relative mt-4 sm:mt-5 flex-1">
+                <FaQuoteLeft className="absolute -left-1 -top-1 h-5 w-5 sm:h-6 sm:w-6 text-primary/20" />
+                <p className="pl-6 sm:pl-7 text-sm sm:text-base leading-relaxed text-gray-700">
                   {item.quote}
                 </p>
               </div>
