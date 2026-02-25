@@ -1,7 +1,6 @@
 "use client";
 
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import PublicLayout from "@/components/layout/PublicLayout";
 import CompanyTabs from "@/components/CompanyTabs";
 import { useEffect, useLayoutEffect, useRef, useState, useMemo } from "react";
 import { usePathname } from "next/navigation";
@@ -141,19 +140,19 @@ export default function HistoryPage() {
           }
         }
       `}</style>
-      <Header />
-      <main className="pt-[82px] lg:pt-[200px] bg-white min-h-screen">
-        {/* History Section */}
-        <section className="pb-[10vh]" ref={containerRef}>
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            {/* Navigation Tabs */}
-            <CompanyTabs activeTab="history" />
+      <PublicLayout className="bg-white">
+        <div className="pt-10 sm:pt-16 lg:pt-20">
+          {/* History Section */}
+          <section className="pb-[10vh]" ref={containerRef}>
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              {/* Navigation Tabs */}
+              <CompanyTabs activeTab="history" />
 
-            <div className="grid lg:grid-cols-[1fr_1.2fr] gap-8 lg:gap-16">
+              <div className="grid lg:grid-cols-[1fr_1.2fr] gap-0 lg:gap-16">
               {/* Left - Sticky Year Display */}
               <div className="lg:sticky lg:top-[160px] lg:h-fit">
                 {/* 타이틀 & 년도 영역 */}
-                <div className="relative p-8 lg:p-10 mb-8">
+                <div className="relative p-3 pb-0 sm:p-8 lg:p-10 mb-0 sm:mb-8">
                   {/* 장식용 작은 이미지 */}
                   <div className="absolute top-3 right-5 w-32 h-20 lg:w-64 lg:h-45 rounded-md overflow-hidden shadow-lg opacity-90">
                     <img
@@ -172,16 +171,16 @@ export default function HistoryPage() {
                     <div className="absolute -left-4 top-1/2 -translate-y-1/2 w-1 h-20 bg-gradient-to-b from-primary to-primary/20 rounded-full" />
                     <span
                       key={activeYear}
-                      className="block text-[100px] lg:text-[140px] font-black text-dark leading-none tracking-tighter transition-all duration-500"
+                      className="block text-[60px] sm:text-[100px] lg:text-[140px] font-black text-dark leading-none tracking-tighter transition-all duration-500"
                     >
                       {activeYear}
                     </span>
                   </div>
 
                   {/* Since Badge */}
-                  <div className="mt-6 flex items-baseline gap-2 ml-16 italic">
-                    <span className="text-2xl lg:text-3xl font-light text-gray-400">since</span>
-                    <span className="text-3xl lg:text-5xl font-black text-gray-300">2016</span>
+                  <div className="mt-3 sm:mt-6 flex items-baseline gap-2 ml-6 sm:ml-16 italic">
+                    <span className="text-xl sm:text-2xl lg:text-3xl font-light text-gray-400">since</span>
+                    <span className="text-2xl sm:text-3xl lg:text-5xl font-black text-gray-300">2016</span>
                   </div>
                 </div>
                 {/* Active Event Images */}
@@ -190,7 +189,7 @@ export default function HistoryPage() {
                   const yearData = historyData.find(y => y.year === year);
                   const event = yearData?.events[parseInt(eventIndex)];
                   return event?.images && event.images.length > 0 ? (
-                    <div className={`mt-10 space-y-4 ${event.images.length > 1 ? 'max-w-[580px]' : 'max-w-[270px]'}`}>
+                    <div className={`hidden lg:block mt-10 space-y-4 ${event.images.length > 1 ? 'max-w-[580px]' : 'max-w-[270px]'}`}>
                       {/* Visual Header */}
                       <div className="flex items-center gap-3 mb-4">
                         <div className="w-1 h-8 bg-gradient-to-b from-primary to-primary/40 rounded-full" />
@@ -244,9 +243,7 @@ export default function HistoryPage() {
               </div>
 
               {/* Right - Timeline */}
-              <div className="relative isolate ml-20">
-                {/* Top mask */}
-                <div className="sticky top-0 z-50 h-[82px] lg:h-[104px] bg-white pointer-events-none" />
+              <div className="relative isolate ml-0 lg:ml-20">
 
                 {/* Timeline Items */}
                 <div className="space-y-0 relative z-10">
@@ -257,7 +254,7 @@ export default function HistoryPage() {
                       className="relative"
                     >
                       {/* Year Header */}
-                      <div className={`sticky top-[140px] z-40 py-3 ${yearIndex === 0 ? '' : 'mt-8'}`}>
+                      <div className={`sticky top-[60px] sm:top-[140px] z-40 py-3 ${yearIndex === 0 ? '' : 'mt-8'}`}>
                         <div className="absolute -top-10 inset-x-0 bottom-0 bg-white -mx-4" />
                         <div className="relative flex items-center gap-3">
                           <span className="typo-stat">{yearData.year}</span>
@@ -276,16 +273,16 @@ export default function HistoryPage() {
                             <div
                               key={eventIndex}
                               ref={(el) => { eventRefs.current[eventKey] = el; }}
-                              className={`flex items-start gap-5 py-4 transition-all duration-300 origin-left snap-center ${
+                              className={`flex items-start gap-3 sm:gap-5 py-3 sm:py-4 transition-all duration-300 origin-left snap-center ${
                                 isActive ? 'scale-[1.02]' : ''
                               }`}
                             >
                               {/* Month + Dot */}
-                              <div className="flex items-center gap-4 shrink-0">
-                                <span className={`font-bold w-8 transition-all duration-300 ${
+                              <div className="flex items-center gap-2 sm:gap-4 shrink-0">
+                                <span className={`font-bold w-6 sm:w-8 transition-all duration-300 ${
                                   isActive
-                                    ? 'text-primary text-xl'
-                                    : 'text-gray-400 text-lg'
+                                    ? 'text-primary text-base sm:text-xl'
+                                    : 'text-gray-400 text-sm sm:text-lg'
                                 }`}>
                                   {event.month}
                                 </span>
@@ -300,8 +297,8 @@ export default function HistoryPage() {
                               <div className="flex items-start gap-3 w-full">
                                 <p className={`leading-relaxed pt-0.5 transition-all duration-300 flex-1 ${
                                   isActive
-                                    ? 'text-dark font-semibold text-[16px]'
-                                    : 'text-gray-500 text-[15px]'
+                                    ? 'text-dark font-semibold text-[13px] sm:text-[16px]'
+                                    : 'text-gray-500 text-[12px] sm:text-[15px]'
                                 }`}>
                                   {t(`events.${event.textKey}`)}
                                 </p>
@@ -319,11 +316,11 @@ export default function HistoryPage() {
                   ))}
                 </div>
               </div>
+              </div>
             </div>
-          </div>
-        </section>
-      </main>
-      {modalImageSrc && (
+          </section>
+        </div>
+        {modalImageSrc && (
         <div
           className="fixed inset-0 z-[999] flex items-center justify-center bg-black/60 p-4"
           onClick={() => setModalImageSrc(null)}
@@ -344,8 +341,8 @@ export default function HistoryPage() {
             />
           </div>
         </div>
-      )}
-      <Footer />
+        )}
+      </PublicLayout>
     </>
   );
 }

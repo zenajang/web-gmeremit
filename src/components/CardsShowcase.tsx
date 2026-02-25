@@ -97,9 +97,9 @@ export default function CardsShowcase() {
       )}
 
       {isMobile && (
-        <div className="flex h-full max-w-xl flex-col items-center text-center">
-          <p className="typo-eyebrow text-gray-400">{activeDef.eyebrow}</p>
-          <h3 className="typo-section-title">{activeDef.title}</h3>
+        <div className="flex h-full max-w-xl flex-col items-left text-left">
+          <p className="typo-eyebrow text-gray-400 mb-2">{activeDef.eyebrow}</p>
+          <h3 className="typo-section-title mb-5">{activeDef.title}</h3>
           <p className="typo-section-subtitle text-gray-600">{t(`${activeDef.id}.desc`)}</p>
         </div>
       )}
@@ -142,7 +142,7 @@ export default function CardsShowcase() {
             </div>
           );
         })}
-        <div className="absolute -bottom-5 sm:bottom-6 left-1/2 flex -translate-x-1/2 items-center gap-3 z-40">
+        <div className="absolute -bottom-8 sm:bottom-6 left-1/2 flex -translate-x-1/2 items-center gap-3 z-40">
           {cardDefs.map((card, index) => (
             <button
               key={card.id}
@@ -159,7 +159,7 @@ export default function CardsShowcase() {
 
       {isMobile && (
         <div className="flex h-full max-w-xl flex-col items-center text-center">
-          <div className="grid gap-3 mt-2 w-full">
+          <div className="grid gap-3 mt-8 w-full">
             {highlights.map((text: string, i: number) => (
               <div
                 key={i}

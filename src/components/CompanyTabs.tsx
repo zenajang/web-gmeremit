@@ -17,8 +17,8 @@ export default function CompanyTabs({ activeTab }: CompanyTabsProps) {
   ];
 
   return (
-    <div className="mb-12 lg:mb-16">
-      <div className="mb-8 lg:mb-12 relative">
+    <div className="mb-8 sm:mb-12 lg:mb-16">
+      <div className="mb-6 sm:mb-8 lg:mb-12 relative">
         {/* Gradient Decoration Boxes */}
         <div className="absolute -top-6 -left-2 w-20 h-20 bg-gradient-to-br from-primary/20 via-primary/10 to-transparent rounded-2xl" />
         <div className="absolute -top-4 left-0 w-4 h-4 bg-gradient-to-br from-primary to-primary/60 rounded-sm" />
@@ -30,12 +30,12 @@ export default function CompanyTabs({ activeTab }: CompanyTabsProps) {
           {t("title")}
         </h2>
       </div>
-      <div className="flex gap-2 border-b border-gray-200">
+      <div className="flex gap-1 sm:gap-2 border-b border-gray-200">
         {tabs.map((tab) => (
           <Link
             key={tab.id}
             href={tab.href}
-            className={`px-6 py-3 text-md font-semibold border-b-2 transition-colors ${
+            className={`px-3 py-2.5 sm:px-6 sm:py-3 text-sm sm:text-md font-semibold border-b-2 transition-colors whitespace-nowrap ${
               activeTab === tab.id
                 ? "text-primary border-primary"
                 : "text-gray-400 hover:text-dark border-transparent hover:border-gray-300"

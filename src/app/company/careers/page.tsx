@@ -27,12 +27,12 @@ export default function CareersPage() {
             />
           </div>
 
-          <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+          <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16">
             <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
               <div>
                 <p className="text-sm font-medium text-primary mb-2">Careers</p>
                 <h1 className="typo-sub-page-title mb-3">{t("header.title")}</h1>
-                <p className="text-gray-500 text-lg max-w-xl">
+                <p className="text-gray-500 text-base sm:text-lg max-w-xl">
                   {t("header.description")}
                 </p>
               </div>
@@ -54,10 +54,10 @@ export default function CareersPage() {
         {/* Why GME */}
         <section className="py-14 lg:py-20 bg-gray-50">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="typo-heading mb-10 text-center">{t("why_gme.title")}</h2>
-            <div className="grid md:grid-cols-3 gap-6">
+            <h2 className="typo-heading mb-6 sm:mb-10 text-center">{t("why_gme.title")}</h2>
+            <div className="grid md:grid-cols-3 gap-4 sm:gap-6">
               {whyGmeKeys.map((key, idx) => (
-                <div key={key} className="bg-white rounded-2xl p-6 border border-gray-100">
+                <div key={key} className="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100">
                   <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-4">
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" d={whyGmeIcons[idx]} />
@@ -75,15 +75,15 @@ export default function CareersPage() {
         <section className="py-14 lg:py-20">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="typo-heading mb-3 text-center">{t("benefits.title")}</h2>
-            <p className="text-gray-500 text-center mb-10">{t("benefits.subtitle")}</p>
+            <p className="text-gray-500 text-center mb-6 sm:mb-10">{t("benefits.subtitle")}</p>
 
-            <div className="space-y-6">
+            <div className="space-y-4 sm:space-y-6">
               {benefitKeys.map((key, index) => (
                 <div
                   key={key}
                   className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} bg-gray-50 rounded-2xl overflow-hidden`}
                 >
-                  <div className="lg:w-1/3 relative h-48 lg:h-auto">
+                  <div className="lg:w-1/3 relative h-36 sm:h-48 lg:h-auto">
                     <Image
                       src={benefitImages[index]}
                       alt={t(`benefits.${key}.title`)}
@@ -109,11 +109,11 @@ export default function CareersPage() {
         <section className="py-14 lg:py-20 bg-gray-50">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="typo-heading mb-3 text-center">{t("testimonials.title")}</h2>
-            <p className="text-gray-500 text-center mb-10">{t("testimonials.subtitle")}</p>
+            <p className="text-gray-500 text-center mb-6 sm:mb-10">{t("testimonials.subtitle")}</p>
 
-            <div className="grid md:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-3 gap-4 sm:gap-6">
               {testimonials.map((item) => (
-                <div key={item.name} className="bg-white rounded-2xl p-6 border border-gray-100">
+                <div key={item.name} className="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100">
                   <div className="flex items-center gap-4 mb-4">
                     <div className="w-14 h-14 rounded-full overflow-hidden bg-gray-100 shrink-0 ring-2 ring-gray-100">
                       <Image
@@ -168,7 +168,7 @@ export default function CareersPage() {
                 </svg>
               </button>
 
-              <div className="pt-10 pb-6 px-8 text-center">
+              <div className="pt-8 pb-4 px-5 sm:pt-10 sm:pb-6 sm:px-8 text-center">
                 <div className="w-20 h-20 rounded-full overflow-hidden bg-gradient-to-br from-gray-100 to-gray-50 ring-[3px] ring-white shadow-lg mb-4 mx-auto">
                   <Image
                     src={selectedTestimonial.image}
@@ -182,7 +182,7 @@ export default function CareersPage() {
                 <p className="text-[13px] text-gray-400 mt-1">{selectedTestimonial.position}</p>
               </div>
 
-              <div className="px-8 pb-10">
+              <div className="px-5 pb-8 sm:px-8 sm:pb-10">
                 <div className="relative bg-white rounded-2xl p-6 shadow-[0_2px_12px_rgba(0,0,0,0.04)]">
                   <span className="absolute -top-3 left-6 text-primary/20 text-5xl font-serif leading-none">&ldquo;</span>
                   <p className="text-gray-600 text-[15px] leading-[1.85] pt-2">

@@ -13,14 +13,14 @@ export default function ServicesPage() {
 
   return (
     <PublicLayout className="bg-white">
-        <section className="pt-16 lg:pt-20 pb-16 lg:pb-24">
+        <section className="pt-10 sm:pt-16 lg:pt-20 pb-10 sm:pb-16 lg:pb-24">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <CompanyTabs activeTab="services" />
 
             {/* Hero Section with Title and Icons */}
-            <div className="mb-16 flex items-center justify-between">
+            <div className="mb-5 sm:mb-16 flex items-center justify-between">
               <div>
-                <p className="text-base lg:text-lg text-gray-500 mb-4 font-light">
+                <p className="text-base lg:text-lg text-gray-500 lg:mb-4 font-light">
                   {t("subtitle")}
                 </p>
                 <h1 className="typo-page-title">
@@ -75,74 +75,94 @@ export default function ServicesPage() {
               </div>
 
               {/* First Row - 4 Main Services (Larger & Prominent) */}
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-10">
                 {/* B2B Payments */}
-                <div className="bg-white border border-gray-200 rounded-[20px] p-8 hover:border-payments/30 hover:shadow-lg transition-all duration-300 min-h-[280px] flex flex-col">
-                  <div className="w-16 h-16 bg-payments/10 rounded-[18px] flex items-center justify-center mb-6">
-                    <svg className="w-7 h-7" fill="none" stroke="#3b82f6" viewBox="0 0 24 24" strokeWidth={2}>
-                      <circle cx="12" cy="12" r="10" />
-                      <path strokeLinecap="round" d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
-                    </svg>
+                <div className="bg-white border border-gray-200 rounded-[20px] p-4 sm:p-8 hover:border-payments/30 hover:shadow-lg transition-all duration-300 min-h-0 sm:min-h-[280px] flex flex-col">
+                  <div className="flex items-center justify-between mb-3 sm:mb-6">
+                    <div className="w-12 h-12 sm:w-16 sm:h-16 bg-payments/10 rounded-[18px] flex items-center justify-center">
+                      <svg className="w-7 h-7" fill="none" stroke="#3b82f6" viewBox="0 0 24 24" strokeWidth={2}>
+                        <circle cx="12" cy="12" r="10" />
+                        <path strokeLinecap="round" d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
+                      </svg>
+                    </div>
+                    <Link href="/services/payments" className="inline-flex sm:hidden items-center text-sm text-payments font-semibold">
+                      {t("learn_more")} <span className="ml-1">›</span>
+                    </Link>
                   </div>
-                  <h3 className="typo-feature-title mb-3">
+                  <h3 className="typo-feature-title mb-2 sm:mb-3">
                     {t("b2b_payments.title")}
                   </h3>
-                  <p className="text-gray-500 leading-relaxed mb-6 flex-grow">
+                  <p className="text-gray-500 leading-relaxed sm:mb-6 flex-grow text-sm sm:text-base">
                     {t("b2b_payments.desc")}
                   </p>
-                  <Link href="/services/payments" className="inline-flex items-center text-payments font-semibold hover:gap-2 transition-all">
+                  <Link href="/services/payments" className="hidden sm:inline-flex items-center text-payments font-semibold hover:gap-2 transition-all">
                     {t("learn_more")} <span className="ml-1">›</span>
                   </Link>
                 </div>
 
                 {/* Personal Remittance */}
-                <div className="bg-white border border-gray-200 rounded-[20px] p-8 hover:border-primary/30 hover:shadow-lg transition-all duration-300 min-h-[280px] flex flex-col">
-                  <div className="w-16 h-16 bg-primary/10 rounded-[18px] flex items-center justify-center mb-6">
-                    <svg className="w-8 h-8 stroke-primary" fill="none" viewBox="0 0 24 24" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
+                <div className="bg-white border border-gray-200 rounded-[20px] p-4 sm:p-8 hover:border-primary/30 hover:shadow-lg transition-all duration-300 min-h-0 sm:min-h-[280px] flex flex-col">
+                  <div className="flex items-center justify-between mb-3 sm:mb-6">
+                    <div className="w-12 h-12 sm:w-16 sm:h-16 bg-primary/10 rounded-[18px] flex items-center justify-center">
+                      <svg className="w-8 h-8 stroke-primary" fill="none" viewBox="0 0 24 24" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                    </div>
+                    <Link href="/services/remittance" className="inline-flex sm:hidden items-center text-sm text-primary font-semibold">
+                      {t("learn_more")} <span className="ml-1">›</span>
+                    </Link>
                   </div>
-                  <h3 className="typo-feature-title mb-3">
+                  <h3 className="typo-feature-title mb-2 sm:mb-3">
                     {t("personal_remittance.title")}
                   </h3>
-                  <p className="text-gray-500 leading-relaxed mb-6 flex-grow">
+                  <p className="text-gray-500 leading-relaxed sm:mb-6 flex-grow text-sm sm:text-base">
                     {t("personal_remittance.desc")}
                   </p>
-                  <Link href="/services/remittance" className="inline-flex items-center text-primary font-semibold hover:gap-2 transition-all">
+                  <Link href="/services/remittance" className="hidden sm:inline-flex items-center text-primary font-semibold hover:gap-2 transition-all">
                     {t("learn_more")} <span className="ml-1">›</span>
                   </Link>
                 </div>
 
                 {/* Easy Loan */}
-                <div className="bg-white border border-gray-200 rounded-[20px] p-8 hover:border-loan/30 hover:shadow-lg transition-all duration-300 min-h-[280px] flex flex-col">
-                  <div className="w-16 h-16 bg-loan/10 rounded-[18px] flex items-center justify-center mb-6">
-                    <svg className="w-8 h-8 stroke-loan" fill="none" viewBox="0 0 24 24" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                    </svg>
+                <div className="bg-white border border-gray-200 rounded-[20px] p-4 sm:p-8 hover:border-loan/30 hover:shadow-lg transition-all duration-300 min-h-0 sm:min-h-[280px] flex flex-col">
+                  <div className="flex items-center justify-between mb-3 sm:mb-6">
+                    <div className="w-12 h-12 sm:w-16 sm:h-16 bg-loan/10 rounded-[18px] flex items-center justify-center">
+                      <svg className="w-8 h-8 stroke-loan" fill="none" viewBox="0 0 24 24" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                      </svg>
+                    </div>
+                    <Link href="/services/loan" className="inline-flex sm:hidden items-center text-sm text-loan font-semibold">
+                      {t("learn_more")} <span className="ml-1">›</span>
+                    </Link>
                   </div>
-                  <h3 className="typo-feature-title mb-3">
+                  <h3 className="typo-feature-title mb-2 sm:mb-3">
                     {t("easy_loan.title")}
                   </h3>
-                  <p className="text-gray-500 leading-relaxed mb-6 flex-grow">
+                  <p className="text-gray-500 leading-relaxed sm:mb-6 flex-grow text-sm sm:text-base">
                     {t("easy_loan.desc")}
                   </p>
-                  <Link href="/services/loan" className="inline-flex items-center text-loan font-semibold hover:gap-2 transition-all">
+                  <Link href="/services/loan" className="hidden sm:inline-flex items-center text-loan font-semibold hover:gap-2 transition-all">
                     {t("learn_more")} <span className="ml-1">›</span>
                   </Link>
                 </div>
 
                 {/* GME Card */}
-                <div className="bg-white border border-gray-200 rounded-[20px] p-8 hover:border-cards/30 hover:shadow-lg transition-all duration-300 min-h-[280px] flex flex-col">
-                  <div className="w-16 h-16 bg-cards/10 rounded-[18px] flex items-center justify-center mb-6">
-                    <Image src="/images/common/card.png" alt="Card" width={60} height={60} className="w-12 h-12 object-contain" />
+                <div className="bg-white border border-gray-200 rounded-[20px] p-4 sm:p-8 hover:border-cards/30 hover:shadow-lg transition-all duration-300 min-h-0 sm:min-h-[280px] flex flex-col">
+                  <div className="flex items-center justify-between mb-3 sm:mb-6">
+                    <div className="w-12 h-12 sm:w-16 sm:h-16 bg-cards/10 rounded-[18px] flex items-center justify-center">
+                      <Image src="/images/common/card.png" alt="Card" width={60} height={60} className="w-12 h-12 object-contain" />
+                    </div>
+                    <Link href="/services/card" className="inline-flex sm:hidden items-center text-sm text-cards font-semibold">
+                      {t("learn_more")} <span className="ml-1">›</span>
+                    </Link>
                   </div>
-                  <h3 className="typo-feature-title mb-3">
+                  <h3 className="typo-feature-title mb-2 sm:mb-3">
                     {t("gme_card.title")}
                   </h3>
-                  <p className="text-gray-500 leading-relaxed mb-6 flex-grow">
+                  <p className="text-gray-500 leading-relaxed sm:mb-6 flex-grow text-sm sm:text-base">
                     {t("gme_card.desc")}
                   </p>
-                  <Link href="/services/card" className="inline-flex items-center text-cards font-semibold hover:gap-2 transition-all">
+                  <Link href="/services/card" className="hidden sm:inline-flex items-center text-cards font-semibold hover:gap-2 transition-all">
                     {t("learn_more")} <span className="ml-1">›</span>
                   </Link>
                 </div>
@@ -158,9 +178,9 @@ export default function ServicesPage() {
               </div>
 
               {/* Related Services */}
-              <div className="rounded-2xl bg-primary/5 px-10 py-10 text-center">
+              <div className="rounded-2xl bg-primary/5 px-4 py-6 sm:px-10 sm:py-10 text-center">
                 <p className="typo-card-title mb-8">{t("related_services")}</p>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
                   <div className="inline-flex items-center gap-3 rounded-full bg-white border border-gray-100 shadow-sm pl-3 pr-5 py-2.5">
                     <Image src="/images/common/wallet.png" alt="Wallet" width={28} height={28} className="w-7 h-7 object-contain shrink-0" />
                     <div className="text-left min-w-0">
