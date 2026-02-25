@@ -1,0 +1,1146 @@
+{
+  "board": {
+    "badge": {
+      "blog": "Blog",
+      "notice": "E'lon",
+      "press": "Matbuot"
+    },
+    "count_suffix": " ta post",
+    "detail": {
+      "attachment": "Ilova",
+      "attachment_file": "Ilova fayl",
+      "back": "Orqaga",
+      "back_to_list": "Ro'yxatga qaytish",
+      "not_found": "Post topilmadi"
+    },
+    "load_more": "Yana ko'rsatish",
+    "no_image": "Rasm yo'q",
+    "no_results": "Natija topilmadi.",
+    "redirect": {
+      "notice": "E'lonlar sahifasiga yo'naltirilmoqda...",
+      "press": "Matbuot sahifasiga yo'naltirilmoqda..."
+    },
+    "search": {
+      "all": "Barchasi",
+      "button": "Qidirish",
+      "content": "Kontent",
+      "placeholder": "Qidiruv so'zini kiriting",
+      "title": "Sarlavha"
+    },
+    "subtitle": "GME Remit yangiliklarini tekshiring",
+    "table": {
+      "attachment": "Fayl",
+      "attachment_file": "Ilova",
+      "date": "Sana",
+      "title": "Sarlavha",
+      "type": "Turi"
+    },
+    "tabs": {
+      "blog": "Blog",
+      "notice": "E'lon",
+      "press": "Matbuot"
+    },
+    "total": "Jami"
+  },
+  "business": {
+    "cta": {
+      "description": "Global to'lov yechimlari bilan biznesingizni kengaytiring. Shaxsiy menejerimiz sizga eng yaxshi yechimni taklif qiladi.",
+      "email": "corporate@gmeremit.com",
+      "title": "GME Payments bilan boshlang"
+    },
+    "features": {
+      "accounting": {
+        "description": "Hisoblarni moslashtirish buxgalteriyangizni soddalashtiradi. Murakkab to'lovlar ham tartibli yechiladi.",
+        "title": "Buxgalteriya"
+      },
+      "dynamic": {
+        "description": "To'lov usulini tanlang, tranzaksiyalarni real vaqt rejimida kuzating va darhol kvitansiya oling.",
+        "title": "Dinamik"
+      },
+      "flexibility": {
+        "description": "Valyutani almashtirish va to'lovni bir vaqtda bajaring yoki FX-ni o'zingiz boshqaring. Sizga qulay tarzda ishlang.",
+        "title": "Moslashuvchanlik"
+      },
+      "label": "Xizmat xususiyatlari",
+      "netout": {
+        "description": "Netting imkoniyati bilan xarajatlarni kamaytiring. Yashirin to'lovlar yo'q.",
+        "title": "Netout"
+      },
+      "pob": {
+        "description": "Muqobil to'lovlar uchun yuqori tezlik va samaradorlikni ta'minlaydi.",
+        "title": "Muqobil to'lov"
+      },
+      "technology": {
+        "description": "AML va tekshiruvlar bilan micro service arxitekturasi asosida kuchli va ishonchli tizim yaratilgan.",
+        "title": "Texnologiya"
+      }
+    },
+    "hero": {
+      "badge": "GME PAYMENTS",
+      "description": "Global to'lov yechimlari bilan biznesingizni kuchaytiring.",
+      "title1": "Global",
+      "title2": "To'lovlar"
+    },
+    "process": {
+      "step1": {
+        "description": "SPS — transchegaraviy to'lovlar uchun, VAS — yig'ish va virtual hisoblar uchun. Ikkalasi ham xizmat sifatida taqdim etiladi.",
+        "title": "SPS + VAS"
+      },
+      "step2": {
+        "description": "developers.gmeremit.com dagi API hujjatlari orqali tizimingizni ulang.",
+        "title": "API ulash"
+      },
+      "step3": {
+        "description": "FX-ni o'zingiz boshqaring, valyuta almashtirish va to'lovni bir vaqtda bajaring. Barcha operatsiyalarni real vaqtda kuzating.",
+        "title": "FX boshqaruvi va to'lov"
+      },
+      "step4": {
+        "description": "Hisoblarni moslashtirish oson, to'lov kvitansiyalari va tranzaksiya tarixi darhol olinadi.",
+        "title": "Moslashtirish + hisobot"
+      },
+      "title": "GME Payments jarayoni"
+    },
+    "solutions": {
+      "description": "SPS va VAS yechimlari bilan transchegaraviy to'lovlarning barcha qismlarini qamrab oling.",
+      "label": "Asosiy yechimlar",
+      "sps": {
+        "description": "24/7 ishlaydigan yirik hajmdagi transchegaraviy to'lov yechimi. FX boshqaruvi va real vaqt to'lovlari bir joyda.",
+        "features": [
+          "24/7 to'lovlar",
+          "FX boshqaruvi",
+          "Yirik hajmdagi operatsiyalar",
+          "Real vaqt monitoringi",
+          "Tezkor to'lov",
+          "Real vaqt tasdiqlash"
+        ],
+        "subtitle": "Vositachisiz to'lov yechimi",
+        "title": "SPS"
+      },
+      "title": "Biznesingiz uchun to'lov yechimlari",
+      "vas": {
+        "description": "Hisob ochishdan tortib yig'ishgacha bo'lgan barcha qo'shimcha funksiyalar.",
+        "features": [
+          "Real vaqt bildirishnomalari",
+          "Arzon yig'ish",
+          "V/A boshqaruvi",
+          "Ko'p hisoblarni qo'llab-quvvatlash",
+          "COBO yig'ish",
+          "Qabul qiluvchi va to'lovchi cheklovlari yo'q",
+          "API orqali tezkor V/A yaratish va moslashtirish"
+        ],
+        "subtitle": "Qo'shimcha qiymatli xizmatlar",
+        "title": "VAS"
+      }
+    }
+  },
+  "button": {
+    "app_download": "Ilovani yuklab oling"
+  },
+  "card": {
+    "cards": {
+      "black": {
+        "cta": "Batafsil",
+        "description": "Premium tanlov. Ko'proq xohlaganlar uchun yangilangan imtiyozlarga ega zamonaviy qora dizayn.",
+        "details": {
+          "autoPayment": {
+            "desc": "Agar GME Pay balansingiz yetarli bo'lmasa, yetishmayotgan summa ulangan avtomatik yechib olish hisobidan avtomatik yechiladi.",
+            "title": "Avtomatik to'lov"
+          },
+          "cautions": {
+            "items": [
+              "GME kart to'lovi bekor qilinsa, qaytarim GME Walletga tushadi. Boshqa hisobga qaytarilmaydi.",
+              "GME Card — oldindan to'lanadigan debet karta. Bo'lib-bo'lib to'lash mavjud emas.",
+              "Kartani bekor qilsangiz ham GME ilovasidan foydalanishingiz mumkin. Ammo ilovadagi obunani bekor qilsangiz, karta avtomatik bekor qilinadi.",
+              "Telefon yoki kartani yo'qotish uchun siz to'liq javobgarsiz. Bunday holatlarda GME javobgar emas.",
+              "Xalqaro hamkorlar MasterCard siyosati va standartlariga amal qiladi."
+            ],
+            "title": "Ogohlantirishlar"
+          },
+          "delivery": {
+            "methods": [
+              "Uyga yetkazib berish",
+              "GME filialidan olib ketish"
+            ],
+            "title": "Karta yetkazib berish usullari"
+          },
+          "foreignPayment": {
+            "items": [
+              "Chet el savdogarlarida to'lov qilganda USD bo'lmagan valyutalar Mastercard kursi asosida USDga aylantiriladi va to'lov tasdiqlangan sana (tasdiqlangan operatsiyalar) yoki GME hisob-kitob ma'lumotini olgan sana (tasdiqlanmagan operatsiyalar) bo'yicha qayta ishlanadi. 1.25% chet el to'lovi kiritilgan KRW hisob-kitob summasi GME ning USD kursi asosida KRWga qo'shiladi va GME Paydan yechiladi.",
+              "Hisob-kitob summasi = (To'lov summasi × Kurs) + Chet el to'lovlari (Xalqaro brend to'lovi² + Chet el to'lov to'lovi³)",
+              "Kurs — GME kart to'lovining USD kursi bo'lib, har 15 daqiqada yangilanadi va to'lov tasdiqlanganda (yoki GME hisob-kitob ma'lumotini olganda) qo'llanadi.",
+              "Xalqaro brend to'lovi² = (To'lov summasi × Kurs) × Mastercard to'lovi (1.0%)",
+              "Chet el to'lov to'lovi³ = (To'lov summasi × Kurs) × GME karta to'lovi (0.25%)",
+              "Chet el savdogarlarida KRW bilan to'lov qilganda DCC to'lovi (taxminan 3-15%) qo'shimcha bo'lishi mumkin. Chet el KRW to'lovini bloklab, mahalliy valyutada to'lash tejamliroq.",
+              "GME ilovasida chet el KRW to'lovi (DCC) cheklovini sozlashingiz mumkin. Card > Card Management > 'Overseas KRW Payment Restriction' (Standart: 'Restricted')",
+              "Batafsil ma'lumot uchun Customer Center (1588-6864) bilan bog'laning yoki www.gmeremit.com saytiga kiring."
+            ],
+            "title": "Xalqaro to'lovlar va boshqa ma'lumotlar"
+          },
+          "mainBenefits": {
+            "items": [
+              {"desc": "Chet el xaridlarida 3% cashback", "title": "3% Chet el Cashback"},
+              {"desc": "Hamkor do'konlarda cashback", "title": "Mavsumiy Cashback"},
+              {"desc": "Ichki va xalqaro erkin to'lov", "title": "Dunyo bo'ylab to'lov"},
+              {"desc": "Onlayn va oflayn xaridlar uchun erkin to'lov", "title": "Onlayn & Oflayn xarid"},
+              {"desc": "Avtobus, metro, poyezd va barcha jamoat transportida to'lov", "title": "Jamoat transporti"}
+            ],
+            "title": "Asosiy afzalliklar"
+          },
+          "userGuide": {
+            "annualFee": "Yillik to'lov ₩15,000 (yiliga)",
+            "chargeMethod": "GME Payni GME Wallet yoki bank hisobidan to'ldirish mumkin.",
+            "contact": {
+              "center": "GME Customer Center: 1811-2961",
+              "website": "Veb-sayt: gmeremit.com"
+            },
+            "limit": "Bir operatsiya uchun ₩2,000,000 gacha",
+            "qualification": "GME Pay a'zolari (17+)",
+            "title": "Foydalanuvchi qo'llanmasi"
+          }
+        },
+        "features": [
+          "Premium cashback mukofotlari",
+          "Chet el to'lovlari bo'yicha past komissiya",
+          "Maxsus mijozlar markazi",
+          "Onlayn va oflayn to'lovlar"
+        ],
+        "name": "Black Card",
+        "subtitle": "GME Black Mastercard"
+      },
+      "easyG0": {
+        "cta": "Hozir ariza bering",
+        "description": "Har bir lahzani yanada qulay qiling. Transportdan xaridgacha mavsumiy afzalliklardan foydalaning.",
+        "details": {
+          "autoPayment": {
+            "desc": "Agar GME Pay balansingiz yetarli bo'lmasa, yetishmayotgan summa ulangan avtomatik yechib olish hisobidan avtomatik yechiladi.",
+            "title": "Avtomatik to'lov"
+          },
+          "cardStatus": {
+            "items": [
+              {"desc": "Transport karta funksiyasi mavjud bo'lib qoladi.", "status": "Vaqtincha to'xtatilgan"},
+              {"desc": "Karta 2 kun ichida to'xtatiladi. Yo'qolganligi haqida xabar berilgach 2 kundan keyin transport funksiyasi to'xtatiladi.", "status": "Yo'qolganligi haqida xabar"},
+              {"desc": "Karta 2-3 kundan so'ng qayta ishlatiladi.", "status": "Yo'qotishni bekor qilish"},
+              {"desc": "Qayta chiqarilgandan 10 kun o'tgach transport funksiyasi bekor qilinadi.", "status": "Qayta chiqarish"}
+            ],
+            "title": "Karta holatiga ko'ra transportdan foydalanish"
+          },
+          "cautions": {
+            "items": [
+              "GME kart to'lovi bekor qilinsa, qaytarim GME Walletga tushadi. Boshqa hisobga qaytarilmaydi.",
+              "GME Card — oldindan to'lanadigan debet karta. Bo'lib-bo'lib to'lash mavjud emas.",
+              "Kartani bekor qilsangiz ham GME ilovasidan foydalanishingiz mumkin. Ammo ilovadagi obunani bekor qilsangiz, karta avtomatik bekor qilinadi.",
+              "Telefon yoki kartani yo'qotish uchun siz to'liq javobgarsiz. Bunday holatlarda GME javobgar emas.",
+              "Xalqaro hamkorlar MasterCard siyosati va standartlariga amal qiladi.",
+              "Chiqarilganidan 3 oy ichida bekor qilinsa, ishlov berish xarajatlari uchun ₩10,000 bekor qilish to'lovi olinadi."
+            ],
+            "title": "Ogohlantirishlar"
+          },
+          "delivery": {
+            "methods": [
+              "Uyga yetkazib berish",
+              "GME filialidan olib ketish"
+            ],
+            "title": "Karta yetkazib berish usullari"
+          },
+          "foreignPayment": {
+            "items": [
+              "Chet el savdogarlarida to'lov qilganda USD bo'lmagan valyutalar Mastercard kursi asosida USDga aylantiriladi va to'lov tasdiqlangan sana (tasdiqlangan operatsiyalar) yoki GME hisob-kitob ma'lumotini olgan sana (tasdiqlanmagan operatsiyalar) bo'yicha qayta ishlanadi. 1.25% chet el to'lovi kiritilgan KRW hisob-kitob summasi GME ning USD kursi asosida KRWga qo'shiladi va GME Paydan yechiladi.",
+              "Hisob-kitob summasi = (To'lov summasi × Kurs) + Chet el to'lovlari (Xalqaro brend to'lovi² + Chet el to'lov to'lovi²)",
+              "Kurs — GME kart to'lovining USD kursi bo'lib, har 15 daqiqada yangilanadi va to'lov tasdiqlanganda (yoki GME hisob-kitob ma'lumotini olganda) qo'llanadi.",
+              "Xalqaro brend to'lovi² = (To'lov summasi × Kurs) × Mastercard to'lovi (1.0%)",
+              "Chet el to'lov to'lovi² = (To'lov summasi × Kurs) × GME karta to'lovi (0.25%)",
+              "Chet el savdogarlarida KRW bilan to'lov qilganda DCC to'lovi (taxminan 3-15%) qo'shimcha bo'lishi mumkin. Chet el KRW to'lovini bloklab, mahalliy valyutada to'lash tejamliroq.",
+              "GME ilovasida chet el KRW to'lovi (DCC) cheklovini sozlashingiz mumkin. Card > Card Management > 'Overseas KRW Payment Restriction' (Standart: 'Restricted')",
+              "Batafsil ma'lumot uchun Customer Center (1588-6864) bilan bog'laning yoki www.gmeremit.com saytiga kiring."
+            ],
+            "title": "Xalqaro to'lovlar va boshqa ma'lumotlar"
+          },
+          "mainBenefits": {
+            "items": [
+              {"desc": "Avtobus va metroda balansni to'ldirish shart emas", "title": "Keyin to'lovli transport kartasi"},
+              {"desc": "Hamkor do'konlarda cashback", "title": "Mavsumiy Cashback"},
+              {"desc": "Ichki va xalqaro erkin to'lov", "title": "Dunyo bo'ylab to'lov"},
+              {"desc": "Onlayn va oflayn xaridlar uchun erkin to'lov", "title": "Onlayn & Oflayn xarid"},
+              {"desc": "Balansni tekshirmasdan tegizing va boring — keyin bir yo'la to'lang.", "title": "Keyin to'lovli transport kartasi"}
+            ],
+            "title": "Asosiy afzalliklar"
+          },
+          "transitCard": {
+            "availability": "Metrolar va shahar avtobuslarida mavjud. Taksi, tezkor/aeroport avtobuslari va poyezdlar uchun kartadan (IC chip va MS reader) foydalaning.",
+            "limit": "Bir safar uchun ₩10,000 limit",
+            "paymentTime": "Foydalanish to'lovi 1-2 kun ichida to'lanadi.",
+            "title": "Keyin to'lovli transport kartasi"
+          },
+          "userGuide": {
+            "contact": {
+              "center": "GME Customer Center: 1811-2961",
+              "website": "Veb-sayt: gmeremit.com"
+            },
+            "limit": "Bir operatsiya uchun ₩2,000,000 gacha",
+            "monthlyFee": "Oylik to'lov ₩1,000 (har oy 1-kuni yechiladi)",
+            "qualification": "GME Pay a'zolari (17+)",
+            "title": "Foydalanuvchi qo'llanmasi"
+          }
+        },
+        "features": [
+          "Keyin to'lovli transport kartasi",
+          "Mavsumiy cashback",
+          "Onlayn va oflayn xarid",
+          "Dunyo bo'ylab to'lov"
+        ],
+        "name": "EasyGo Card",
+        "subtitle": "GME EasyGo Mastercard"
+      },
+      "red": {
+        "cta": "Hozir ariza bering",
+        "description": "GME ning ramziy kartasi. Mastercard savdogarlarida to'lov qiling va eksklyuziv chegirmalar hamda cashback oling.",
+        "details": {
+          "autoPayment": {
+            "desc": "Agar GME Pay balansingiz yetarli bo'lmasa, yetishmayotgan summa ulangan avtomatik yechib olish hisobidan avtomatik yechiladi.",
+            "title": "Avtomatik to'lov"
+          },
+          "cautions": {
+            "items": [
+              "GME kart to'lovi bekor qilinsa, qaytarim GME Walletga tushadi. Boshqa hisobga qaytarilmaydi.",
+              "GME Card — oldindan to'lanadigan debet karta. Bo'lib-bo'lib to'lash mavjud emas.",
+              "Kartani bekor qilsangiz ham GME ilovasidan foydalanishingiz mumkin. Ammo ilovadagi obunani bekor qilsangiz, karta avtomatik bekor qilinadi.",
+              "Telefon yoki kartani yo'qotish uchun siz to'liq javobgarsiz. Bunday holatlarda GME javobgar emas.",
+              "Xalqaro hamkorlar MasterCard siyosati va standartlariga amal qiladi."
+            ],
+            "title": "Ogohlantirishlar"
+          },
+          "delivery": {
+            "methods": [
+              "Uyga yetkazib berish",
+              "GME filialidan olib ketish"
+            ],
+            "title": "Karta yetkazib berish usullari"
+          },
+          "foreignPayment": {
+            "items": [
+              "Chet el savdogarlarida to'lov qilganda USD bo'lmagan valyutalar Mastercard kursi asosida USDga aylantiriladi va to'lov tasdiqlangan sana (tasdiqlangan operatsiyalar) yoki GME hisob-kitob ma'lumotini olgan sana (tasdiqlanmagan operatsiyalar) bo'yicha qayta ishlanadi. 1.25% chet el to'lovi kiritilgan KRW hisob-kitob summasi GME ning USD kursi asosida KRWga qo'shiladi va GME Paydan yechiladi.",
+              "Hisob-kitob summasi = (To'lov summasi × Kurs) + Chet el to'lovlari (Xalqaro brend to'lovi² + Chet el to'lov to'lovi²)",
+              "Kurs — GME kart to'lovining USD kursi bo'lib, har 15 daqiqada yangilanadi va to'lov tasdiqlanganda (yoki GME hisob-kitob ma'lumotini olganda) qo'llanadi.",
+              "Xalqaro brend to'lovi² = (To'lov summasi × Kurs) × Mastercard to'lovi (1.0%)",
+              "Chet el to'lov to'lovi² = (To'lov summasi × Kurs) × GME karta to'lovi (0.25%)",
+              "Chet el savdogarlarida KRW bilan to'lov qilganda DCC to'lovi (taxminan 3-15%) qo'shimcha bo'lishi mumkin. Chet el KRW to'lovini bloklab, mahalliy valyutada to'lash tejamliroq.",
+              "GME ilovasida chet el KRW to'lovi (DCC) cheklovini sozlashingiz mumkin. Card > Card Management > 'Overseas KRW Payment Restriction' (Standart: 'Restricted')",
+              "Batafsil ma'lumot uchun Customer Center (1588-6864) bilan bog'laning yoki www.gmeremit.com saytiga kiring."
+            ],
+            "title": "Xalqaro to'lovlar va boshqa ma'lumotlar"
+          },
+          "mainBenefits": {
+            "items": [
+              {"desc": "Hamkor do'konlarda cashback", "title": "Mavsumiy Cashback"},
+              {"desc": "Ichki va xalqaro erkin to'lov", "title": "Dunyo bo'ylab to'lov"},
+              {"desc": "Onlayn va oflayn xaridlar uchun erkin to'lov", "title": "Onlayn & Oflayn xarid"},
+              {"desc": "Avtobus, metro, poyezd va barcha jamoat transportida to'lov", "title": "Jamoat transporti"}
+            ],
+            "title": "Asosiy afzalliklar"
+          },
+          "userGuide": {
+            "annualFee": "Yillik to'lov ₩10,000 (yiliga)",
+            "chargeMethod": "GME Payni GME Wallet yoki bank hisobidan to'ldirish mumkin.",
+            "contact": {
+              "center": "GME Customer Center: 1811-2961",
+              "website": "Veb-sayt: gmeremit.com"
+            },
+            "limit": "Bir operatsiya uchun ₩2,000,000 gacha",
+            "qualification": "GME Pay a'zolari (17+)",
+            "title": "Foydalanuvchi qo'llanmasi"
+          }
+        },
+        "features": [
+          "Mastercard global to'lovlar",
+          "30% gacha cashback",
+          "ATM orqali yechish/kiritish",
+          "Jamoat transporti kartasi"
+        ],
+        "name": "Red Card",
+        "subtitle": "GME Red Mastercard"
+      },
+      "uniq": {
+        "cta": "Hozir ariza bering",
+        "description": "GMEning noyob dizayndagi kartasi. Rangli, cheklangan dizayn bilan shaxsingizni ifoda eting.",
+        "features": [
+          "Cheklangan dizayn",
+          "Global to'lov qo'llovi",
+          "Maxsus tadbir imtiyozlari",
+          "Jamoat transporti kartasi funksiyasi"
+        ],
+        "name": "Uniq Card",
+        "subtitle": "GME Uniq Mastercard"
+      },
+      "white": {
+        "cta": "Imtiyozlarni ko'rish",
+        "description": "Sodda va toza. White Card sizga kerakli barcha asosiy funksiyalarni qulay narxda beradi.",
+        "details": {
+          "autoPayment": {
+            "desc": "Agar GME Pay balansingiz yetarli bo'lmasa, yetishmayotgan summa ulangan avtomatik yechib olish hisobidan avtomatik yechiladi.",
+            "title": "Avtomatik to'lov"
+          },
+          "cautions": {
+            "items": [
+              "GME kart to'lovi bekor qilinsa, qaytarim GME Walletga tushadi. Boshqa hisobga qaytarilmaydi.",
+              "GME Card — oldindan to'lanadigan debet karta. Bo'lib-bo'lib to'lash mavjud emas.",
+              "Kartani bekor qilsangiz ham GME ilovasidan foydalanishingiz mumkin. Ammo ilovadagi obunani bekor qilsangiz, karta avtomatik bekor qilinadi.",
+              "Telefon yoki kartani yo'qotish uchun siz to'liq javobgarsiz. Bunday holatlarda GME javobgar emas.",
+              "Xalqaro hamkorlar MasterCard siyosati va standartlariga amal qiladi."
+            ],
+            "title": "Ogohlantirishlar"
+          },
+          "delivery": {
+            "methods": [
+              "Uyga yetkazib berish",
+              "GME filialidan olib ketish"
+            ],
+            "title": "Karta yetkazib berish usullari"
+          },
+          "foreignPayment": {
+            "items": [
+              "Chet el savdogarlarida to'lov qilganda USD bo'lmagan valyutalar Mastercard kursi asosida USDga aylantiriladi va to'lov tasdiqlangan sana (tasdiqlangan operatsiyalar) yoki GME hisob-kitob ma'lumotini olgan sana (tasdiqlanmagan operatsiyalar) bo'yicha qayta ishlanadi. 1.25% chet el to'lovi kiritilgan KRW hisob-kitob summasi GME ning USD kursi asosida KRWga qo'shiladi va GME Paydan yechiladi.",
+              "Hisob-kitob summasi = (To'lov summasi × Kurs) + Chet el to'lovlari (Xalqaro brend to'lovi² + Chet el to'lov to'lovi²)",
+              "Kurs — GME kart to'lovining USD kursi bo'lib, har 15 daqiqada yangilanadi va to'lov tasdiqlanganda (yoki GME hisob-kitob ma'lumotini olganda) qo'llanadi.",
+              "Xalqaro brend to'lovi² = (To'lov summasi × Kurs) × Mastercard to'lovi (1.0%)",
+              "Chet el to'lovi² = (To'lov summasi × Kurs) × GME karta to'lovi (0.25%)",
+              "Chet el savdogarlarida KRW bilan to'lov qilganda DCC to'lovi (taxminan 3-15%) qo'shimcha bo'lishi mumkin. Chet el KRW to'lovini bloklab, mahalliy valyutada to'lash tejamliroq.",
+              "GME ilovasida chet el KRW to'lovi (DCC) cheklovini sozlashingiz mumkin. Card > Card Management > 'Overseas KRW Payment Restriction' (Standart: 'Restricted')",
+              "Batafsil ma'lumot uchun Customer Center (1588-6864) bilan bog'laning yoki www.gmeremit.com saytiga kiring."
+            ],
+            "title": "Xalqaro to'lovlar va boshqa ma'lumotlar"
+          },
+          "mainBenefits": {
+            "items": [
+              {"desc": "Hamkor do'konlarda cashback", "title": "Mavsumiy Cashback"},
+              {"desc": "Ichki va xalqaro erkin to'lov", "title": "Dunyo bo'ylab to'lov"},
+              {"desc": "Onlayn va oflayn xaridlar uchun erkin to'lov", "title": "Onlayn & Oflayn xarid"},
+              {"desc": "Avtobus, metro, poyezd va barcha jamoat transportida to'lov", "title": "Jamoat transporti"}
+            ],
+            "title": "Asosiy afzalliklar"
+          },
+          "userGuide": {
+            "annualFee": "Yillik to'lov ₩10,000 (yiliga)",
+            "chargeMethod": "GME Payni GME Wallet yoki bank hisobidan to'ldirish mumkin.",
+            "contact": {
+              "center": "GME Customer Center: 1811-2961",
+              "website": "Veb-sayt: gmeremit.com"
+            },
+            "limit": "Bir operatsiya uchun ₩2,000,000 gacha",
+            "qualification": "GME Pay a'zolari (17+)",
+            "title": "Foydalanuvchi qo'llanmasi"
+          }
+        },
+        "features": [
+          "Do'kon va kafe chegirmalari",
+          "Bepul jamoat transporti chipta",
+          "Mobil ilova orqali oson boshqaruv",
+          "Mamlakat bo'ylab ATMdan foydalanish"
+        ],
+        "name": "White Card",
+        "subtitle": "GME White Mastercard"
+      }
+    },
+    "cta": {
+      "button": "Karta uchun ariza bering",
+      "description": "Sizga mos kartani toping va maxsus imtiyozlardan bahramand bo'ling.",
+      "title": "Bugun GME Card bilan boshlang"
+    },
+    "discover": {
+      "description": "Mastercard bilan ishlaydigan GME Card yangi imkoniyatlar eshigini ochadi. Tanlangan joylarda maxsus tadbir chegirmalaridan bahramand bo'ling, butun dunyo bo'ylab va yirik transport xizmatlarida foydalaning. Har bir tranzaksiyada tejashni oshiring. GME Cardni bugun oling!",
+      "title": "GME Cardni kashf eting"
+    },
+    "grid": {
+      "detail": "Batafsil ko'rish",
+      "subtitle": "Turli GME kartlari ichidan sizga mos imtiyozni toping",
+      "title": "Imtiyozingizni tanlang"
+    },
+    "hero": {
+      "badge": "GME CARD",
+      "cta": "Kartalarni ko'rish",
+      "description": "Xalqaro to'lovlardan tortib kundalik sarf-xarajatlargacha foydali GME kartlarini kashf eting.",
+      "title1": "Sizga mos",
+      "title2": "GME Cardni toping"
+    },
+    "labels": {
+      "annual_fee": "Yillik to'lov",
+      "availability": "Mavjudligi",
+      "charge_method": "To'ldirish usuli",
+      "limit": "Limit",
+      "monthly_fee": "Oylik to'lov",
+      "payment_time": "To'lov vaqti",
+      "qualification": "Talab",
+      "usage_limit": "Foydalanish limiti"
+    },
+    "modal": {
+      "app_guide": "Karta uchun ariza GME ilovasida mavjud",
+      "sold_out_desc": "Qiziqishingiz uchun rahmat. Boshqa kartalarni ko'ring.",
+      "sold_out_title": "Tugagan"
+    },
+    "why": {
+      "atm": {
+        "description": "Mamlakat bo'ylab ATMda naqd pul olish",
+        "title": "ATM orqali yechish/kiritish"
+      },
+      "cashback": {
+        "description": "Hamkor do'konlarda 30% gacha cashback",
+        "title": "30% gacha Cashback"
+      },
+      "description": "Mastercard bilan ishlaydigan GME Card yangi imkoniyatlar eshigini ochadi. Tanlangan joylarda maxsus tadbir chegirmalaridan bahramand bo'ling.",
+      "everywhere": {
+        "description": "Onlayn va oflayn to'lovlar",
+        "title": "Onlayn & Oflayn"
+      },
+      "global": {
+        "description": "Ichki va xalqaro har joyda qabul qilinadi",
+        "title": "Ichki & Xalqaro"
+      },
+      "title": "Nega GME Cardni tanlash kerak?",
+      "transit": {
+        "description": "Jamoat transportida karta bilan to'lov",
+        "title": "Metro, avtobus, taksi"
+      }
+    }
+  },
+  "careers": {
+    "benefits": {
+      "education": {
+        "description": "Onlayn kurslar, sertifikatlar, til darslari va konferensiya to'lovlarini to'liq qo'llab-quvvatlash.",
+        "title": "Ta'lim va rivojlanish yordami"
+      },
+      "health": {
+        "description": "To'liq stavkali xodimlar uchun yiliga ₩300,000 sog'liqni tekshirish subsidiyasi.",
+        "title": "Sog'liqni tekshirish yordami"
+      },
+      "incentive": {
+        "description": "Maqsadlarga erishish, yangi g'oyalar va yuqori natija uchun rag'batlantirishlar.",
+        "title": "Natijaga asoslangan rag'bat"
+      },
+      "subtitle": "GME a'zolarining o'sishi va baxtini qo'llab-quvvatlaymiz",
+      "team_building": {
+        "description": "Oylik town hall, choraklik jamoaviy tadbirlar, sport klublari va sog'lomlashtirish konsertlari.",
+        "title": "Jamoa va madaniyat"
+      },
+      "title": "Imtiyozlar",
+      "vacation": {
+        "description": "Tug'ilgan kun ta'tili, yubiley ta'tili, oilaviy tadbirlar va ota-ona ta'tillari.",
+        "title": "Yillik va maxsus ta'tillar"
+      }
+    },
+    "cta": {
+      "about": "Kompaniya haqida",
+      "openings": "Bo'sh ish o'rinlari",
+      "subtitle": "Hozirgi bo'sh ish o'rinlarini ko'ring va bugun ariza bering.",
+      "title": "GMEga qo'shilishga tayyormisiz?"
+    },
+    "header": {
+      "button": "Bo'sh ish o'rinlari",
+      "description": "200+ mamlakatdagi mijozlarga xizmat ko'rsatuvchi global fintech kompaniyasiga qo'shiling.",
+      "title": "GME bilan o'sing"
+    },
+    "testimonials": {
+      "subtitle": "Hamkasblarimizdan haqiqiy hikoyalar",
+      "title": "Jamoa hikoyalari"
+    },
+    "why_gme": {
+      "agile": {
+        "description": "Yassi tashkilotda tez qarorlar qabul qilamiz, xatolardan o'rganamiz va birga o'samiz.",
+        "title": "Tez qarorlar"
+      },
+      "diversity": {
+        "description": "14+ millat vakillari bilan ishlaymiz va turli qarashlardan o'rganamiz.",
+        "title": "Turli xillik"
+      },
+      "fairness": {
+        "description": "Jins yoki millatdan qat'i nazar, faqat qobiliyat va natijaga ko'ra adolatli baholanadi.",
+        "title": "Adolatli imkoniyat"
+      },
+      "title": "Nega GME alohida?"
+    }
+  },
+  "company": {
+    "ceo_message": {
+      "paragraph1": "Koreyadagi yetakchi fintech kompaniyasi sifatida biz ilg'or texnologiya va odamlarimizga sarmoya kiritib, o'zaro o'sish va mijozlar muvaffaqiyatiga intilamiz.",
+      "paragraph2": "GME bilan birga global moliyaviy xizmatlar kelajagini yarating va yanada qulay hamda innovatsion xizmatlardan bahramand bo'ling."
+    },
+    "history": {
+      "events": {
+        "2016_08": "Global Money Express Co., Ltd. tashkil etildi",
+        "2017_03": "Birinchi onlayn xizmat ishga tushirildi",
+        "2017_06": "Koreyada birinchi xizmat ko'rsatuvchi",
+        "2017_08": "Koreyada kichik miqdordagi xalqaro pul o'tkazmalari litsenziyasini olgan birinchi kompaniya",
+        "2018_04": "Xalqaro o'tkazmalar jami KRW 54 mlrd dan oshdi",
+        "2018_09": "Seul shahri tavsiya qilgan pul o'tkazma provayderi sifatida tanlandi",
+        "2018_loan": "Chet elliklar uchun kredit xizmati boshlandi",
+        "2019_03": "Ichki pul o'tkazma xizmati ishga tushdi",
+        "2019_07": "Koreyada №1 xalqaro pul o'tkazma kompaniyasi (yakunlangan o'tkazmalar)",
+        "2019_12": "Valyuta ayirboshlash litsenziyasi olindi",
+        "2020_02": "Xalqaro o'tkazmalar jami KRW 1 trln dan oshdi",
+        "2020_05": "Mobile Top-up xizmati ishga tushdi",
+        "2020_08": "Oldindan elektron to'lov litsenziyasi olindi",
+        "2021_04": "Xalqaro o'tkazmalar jami KRW 1.9 trln dan oshdi",
+        "2021_07": "Mobile Coupon xizmati ishga tushdi",
+        "2021_10": "Hankyung Fintech Awards (Tech Category) da bosh mukofot",
+        "2021_12": "PG litsenziyasi va elektron to'lov biznesi ruxsatnomasi olindi",
+        "2022_03": "Valyuta biznesi litsenziyasi olindi",
+        "2022_06": "To'lov biznesi boshlandi",
+        "2022_11": "Xalqaro o'tkazmalar jami KRW 2 trln dan oshdi",
+        "2023_02": "Xalqaro o'tkazmalar jami KRW 2.1 trln dan oshdi",
+        "2023_05": "BC Card va Mastercard bilan GME Card xizmati ishga tushdi",
+        "2023_09": "GME Mobile (MVNO) xizmat litsenziyasi olindi",
+        "2023_10": "Forbes 2023 da Korea Fintech Top 10",
+        "2023_kibo": "KOTEC tomonidan KIBO-Star Valley Company sifatida tanlandi",
+        "2023_nice": "NICE tomonidan A'lo texnologik kompaniya sifatida sertifikatlandi",
+        "2024_03": "LG U+ bilan GME Mobile (MVNO) xizmati ishga tushdi",
+        "2024_06": "'GMEBiz' korporativ to'lov xizmati ishga tushdi",
+        "2024_12": "Xalqaro o'tkazmalar jami KRW 2.8 trln dan oshdi",
+        "2025_03": "Chet elliklar uchun sug'urta mahsuloti ishga tushdi",
+        "2025_06": "Transport kartasi funksiyali debit karta ishga tushdi",
+        "2025_12": "Xalqaro o'tkazmalar jami KRW 3.5 trln dan oshdi"
+      },
+      "title_line1": "Cheksiz sinovlar,",
+      "title_line2": "Yangi boshlanishlar"
+    },
+    "services": {
+      "b2b_payments": {
+        "desc": "Tez va arzon transchegaraviy to'lovlar va yig'ishlar",
+        "title": "B2B to'lovlar"
+      },
+      "core_services": "Asosiy xizmatlar",
+      "digital_wallet": {
+        "desc": "Bir joyda to'lash, yuborish va saqlash",
+        "title": "Raqamli hamyon"
+      },
+      "easy_loan": {
+        "desc": "100% qog'ozsiz, bir kunda tasdiqlanadigan kredit",
+        "title": "Oson kredit"
+      },
+      "gift_coupons": {
+        "desc": "Mukofot ballari orqali raqamli sovg'a kuponlari",
+        "title": "Sovg'a kuponlari"
+      },
+      "gme_card": {
+        "desc": "Dunyo bo'ylab to'lang, yeching va boshqaring",
+        "title": "GME Card"
+      },
+      "learn_more": "Batafsil",
+      "mobile_topup": {
+        "desc": "150+ mamlakatda tezkor mobil to'ldirish",
+        "title": "Mobile Top-up"
+      },
+      "money_exchange": {
+        "desc": "Banklardan ko'ra yaxshi kurslar",
+        "title": "Valyuta ayirboshlash"
+      },
+      "personal_remittance": {
+        "desc": "Ko'p tilli qo'llab-quvvatlash bilan ichki va xalqaro o'tkazmalar",
+        "title": "Shaxsiy pul o'tkazma"
+      },
+      "related_services": "Bog'liq xizmatlar",
+      "subtitle": "Barcha global moliyaviy ehtiyojlaringiz bir joyda",
+      "title": "GME xizmatlari"
+    },
+    "tabs": {
+      "ceo_message": "CEO xabari",
+      "history": "Tarix",
+      "services": "Xizmatlar",
+      "title": "Kompaniya haqida"
+    }
+  },
+  "footer": {
+    "company_name": "Global Money Express",
+    "copyright": "© Global Money Express, All rights reserved.",
+    "info": {
+      "address": "Manzil: B-dong 901~911, Saenggak Gongjangjangsan, 150 Yeongdeungpo-ro, Yeongdeungpo-gu, Seoul",
+      "email_corporate": "Korporativ: corporate@gmeremit.com",
+      "email_support": "Savollar: support@gmeremit.com",
+      "fax": "Faks: (+82) 2 3674 5559",
+      "phone_foreigner": "(+82) 02-1588-6864 (Chet elliklar)",
+      "phone_general": "02-3673-5559 (Umumiy so'rovlar)",
+      "phone_korean": "02-1811-2961 (Koreyslar, pul o'tkazma savollari)"
+    },
+    "link": {
+      "company_intro": "Kompaniya",
+      "privacy": "Maxfiylik siyosati",
+      "terms": "Xizmat ko'rsatish shartlari"
+    }
+  },
+  "header": {
+    "link": {
+      "careers": "Karyera",
+      "gme_biz": "GME Biz"
+    },
+    "nav": {
+      "blog": "Blog",
+      "branches": "Filiallar",
+      "card": "GME Card",
+      "ceo_message": "CEO xabari",
+      "company": "Kompaniya",
+      "history": "Tarix",
+      "loan": "GME Loan",
+      "news": "Yangiliklar",
+      "notice": "E'lon",
+      "payments": "GME Payments (B2B)",
+      "press": "Yangiliklar / Matbuot",
+      "remittance": "GME App Remittance",
+      "services": "Xizmatlar",
+      "services_menu": "Xizmatlar menyusi",
+      "social_channels": "Ijtimoiy tarmoqlar",
+      "support": "Yordam"
+    }
+  },
+  "home": {
+    "app_download": {
+      "chips": [
+        "Real vaqt kurslari",
+        "Optimallashtirilgan miqdor",
+        "Xavfsiz tasdiqlash"
+      ],
+      "description": "Oson va xavfsiz tasdiqlash, optimallashtirilgan miqdor, tez o'tkazmalar. GME Remit ilovasi bilan hammasini xavfsiz va qulay boshqaring.",
+      "qr_scan": "QR kodni skaner qiling",
+      "subtitle": "GME REMIT APP",
+      "title1": "Tezroq yuboring,",
+      "title2": "Aqlliroq boshqaring"
+    },
+    "cards": {
+      "black": {
+        "cta": "Black Cardni ko'rish",
+        "desc": "Chet el to'lovlari uchun premium karta. Eng yaxshi cashbacklardan bahramand bo'ling.",
+        "highlights": [
+          "Chet elda 3% Cashback",
+          "Ichki 0.3% Cashback",
+          "Maxsus tadbir chegirmalari",
+          "Metro · Bus · Taxi Easy Pay"
+        ]
+      },
+      "easyG0": {
+        "cta": "EasyGo Cardni ko'rish",
+        "desc": "Har bir lahzani qulayroq qiling. Transportdan xaridgacha mavsumiy afzalliklarni oling.",
+        "highlights": [
+          "Keyin to'lovli transport kartasi",
+          "Mavsumiy Cashback",
+          "Dunyo bo'ylab to'lov",
+          "Onlayn & oflayn xarid"
+        ]
+      },
+      "image_alt": "Karta rasmi",
+      "red": {
+        "cta": "Red Cardni ko'rish",
+        "desc": "GME ning ramziy kartasi. Har bir to'lovni zamonaviy qiling.",
+        "highlights": [
+          "Ichki 0.3% Cashback",
+          "Maxsus tadbir chegirmalari",
+          "Metro · Bus · Taxi Easy Pay",
+          "Jamoat transporti"
+        ]
+      },
+      "uniq": {
+        "cta": "Uniq Cardni ko'rish",
+        "desc": "18 mamlakatdan 30+ dizayn ichidan kartangizni tanlang.",
+        "highlights": [
+          "Ichki 0.3% Cashback",
+          "Maxsus tadbir chegirmalari",
+          "18 mamlakat 30+ dizayn",
+          "Metro · Bus · Taxi Easy Pay"
+        ]
+      },
+      "white": {
+        "cta": "White Cardni ko'rish",
+        "desc": "Oddiy va toza kundalik karta. Ichki to'lovlar va jamoat transporti uchun qulay.",
+        "highlights": [
+          "Ichki 0.3% Cashback",
+          "Maxsus tadbir chegirmalari",
+          "Metro · Bus · Taxi Easy Pay",
+          "Jamoat transporti"
+        ]
+      }
+    },
+    "exchange": {
+      "calculator": {
+        "realtime": "Real vaqt",
+        "receive_amount": "Olinadigan miqdor",
+        "receive_country": "Qabul qiluvchi mamlakat",
+        "send_amount": "Yuboriladigan miqdor",
+        "title": "Real vaqt valyuta kalkulyatori"
+      },
+      "description1": "200+ mamlakat uchun real vaqt kurslari.",
+      "description2": "Komissiyalarni ochiq ko'rsatish.",
+      "stats": {
+        "countries": "200+",
+        "countries_label": "Qo'llab-quvvatlanadigan mamlakatlar",
+        "service": "24/7",
+        "service_label": "Real vaqt xizmati"
+      },
+      "title1": "Kurslarni",
+      "title2": "hozir tekshiring"
+    },
+    "global_payments": {
+      "button": {
+        "detail": "Payments haqida ko'proq"
+      },
+      "card": {
+        "status": "Faol",
+        "subtitle": "Korporativ yechimlar",
+        "title": "To'lov yechimlari"
+      },
+      "description": "Maosh o'tkazmalari, hamkorlar hisob-kitobi, e-commerce to'lovlari. Tejamkor korporativ to'lov yechimlari.",
+      "features": {
+        "smb": "SMB",
+        "smb_desc": "E-commerce yechim",
+        "sps": "SPS",
+        "sps_desc": "B2B to'lov yechimi",
+        "vas": "VAS",
+        "vas_desc": "Bildirishnoma · Hisobot · Dashboard"
+      },
+      "stats": {
+        "cost_saving": "Xarajatlarni tejash",
+        "cost_saving_change": "An'anaviyga nisbatan",
+        "cost_saving_value": "70% gacha",
+        "partners": "Hamkorlar",
+        "partners_change": "Global",
+        "partners_value": "200+",
+        "success_rate": "Muvaffaqiyat darajasi",
+        "success_rate_change": "Normal",
+        "success_rate_value": "99.8%"
+      },
+      "title": "Global to'lovlar",
+      "transactions": {
+        "b2b": "B2B ommaviy o'tkazma",
+        "completed": "Yakunlandi",
+        "just_now": "Hozirgina",
+        "merchant": "Savdogar to'lovi",
+        "mins_ago": "daq. avval",
+        "partner": "Hamkor hisob-kitobi",
+        "processing": "Jarayonda",
+        "title": "So'nggi tranzaksiyalar"
+      }
+    },
+    "hero": {
+      "badge": "Mukammal pul o'tkazma xizmati",
+      "button": {
+        "learn_more": "Batafsil"
+      },
+      "countries": {
+        "more": "Yana",
+        "names": {
+          "BD": "Bangladesh",
+          "CN": "Xitoy",
+          "ID": "Indoneziya",
+          "JP": "Yaponiya",
+          "LK": "Shri Lanka",
+          "MM": "Myanma",
+          "NP": "Nepal",
+          "PH": "Filippin",
+          "PK": "Pokiston",
+          "TH": "Tailand",
+          "US": "AQSh",
+          "VN": "Vyetnam"
+        },
+        "realtime": "Real vaqt",
+        "subtitle": "200+ mamlakatni qo'llab-quvvatlaydi",
+        "title": "Qo'llab-quvvatlanadigan mamlakatlar",
+        "view_all": "Pul o'tkazma haqida"
+      },
+      "description1": "200+ mamlakatga, Koreyaning barcha banklariga real vaqtda yuboring.",
+      "description2": "70 ta global hamkor va E-KYC tekshiruvi bilan xavfsiz.",
+      "rating": "App Store · Google Play o'rtacha",
+      "stats": {
+        "avg_time": "O'rtacha o'tkazish vaqti",
+        "seconds": "soniya",
+        "total_amount": "Jami o'tkazmalar",
+        "trillion": "trln+"
+      },
+      "title1": "Tez va xavfsiz",
+      "title2": "Xalqaro pul o'tkazmalar"
+    },
+    "loan": {
+      "button": {
+        "apply": "GME ilovasida kreditga ariza",
+        "detail": "Kredit haqida batafsil"
+      },
+      "card": {
+        "quick_apply": "Tezkor ariza",
+        "subtitle": "Chet elliklar uchun kredit",
+        "title": "GME Finance"
+      },
+      "description": "GME ilovasi orqali bir necha daqiqada kreditga ariza bering. Jarayon holatini real vaqtda kuzating va balansni tekshiring.",
+      "features": {
+        "countries": {"desc": "Mamlakatlar", "label": "14+"},
+        "realtime": {"desc": "Kuzatuv", "label": "Real vaqt"},
+        "simple": {"desc": "Ilova orqali", "label": "Oddiy"},
+        "success": {"desc": "Kreditlar", "label": "1M+"},
+        "support": {"desc": "Yordam", "label": "24/7"}
+      },
+      "stats": {
+        "desc": "1M+ muvaffaqiyatli kredit · 14 mamlakat",
+        "title": "Kredit ko'rsatkichlari",
+        "value": "₩500B+"
+      },
+      "title": "Onlayn kredit"
+    },
+    "remittance": {
+      "button": {"detail": "Pul o'tkazma haqida batafsil"},
+      "description": "200+ mamlakatga tez va xavfsiz pul o'tkazing.",
+      "features": {
+        "fast": {
+          "back_desc": "Bir necha marta bosish bilan dunyo bo'ylab yuboring, murakkab bosqichlar shart emas.",
+          "back_title": "Oddiy o'tkazma",
+          "desc": "Bir necha bosishda xalqaro o'tkazma",
+          "sub": "Bir necha bosish",
+          "title": "Tez o'tkazma"
+        },
+        "global": {
+          "back_desc": "200+ mamlakat va 70 global hamkor orqali butun dunyoga yuboring.",
+          "back_title": "Global tarmoq",
+          "desc": "1M+ foydalanuvchi GMEga ishonadi",
+          "sub": "1M+ foydalanuvchi",
+          "title": "200+ mamlakat"
+        },
+        "optimized": {
+          "back_desc": "Banklarga qaraganda 90% gacha past komissiya. Real vaqt kurslari bilan ko'proq yuboring.",
+          "back_title": "Katta tejamkorlik",
+          "desc": "90% kam komissiya, yaxshiroq kurs",
+          "sub": "90% tejash",
+          "title": "Optimallashtirilgan miqdor"
+        },
+        "security": {
+          "back_desc": "E-KYC tekshiruvi va FSC ro'yxatdan o'tgan xizmat bilan xavfsiz yuboring.",
+          "back_title": "Kuchli xavfsizlik",
+          "desc": "Kuchli himoya bilan ishonchli foydalaning",
+          "sub": "Tasdiqlangan",
+          "title": "Oson & Xavfsiz"
+        }
+      },
+      "title": "Xalqaro pul o'tkazma"
+    },
+    "section_nav": {
+      "app_download": "Ilovani yuklab oling",
+      "exchange": "Valyuta kalkulyatori",
+      "home": "Bosh sahifa",
+      "services": "Xizmatlar",
+      "testimonials": "Fikrlar"
+    },
+    "services": {
+      "card": {
+        "desc1": "Pul o'tkazma va sarfni bog'laydigan aqlli karta.",
+        "desc2": "Global to'lovlar uchun yangi standart.",
+        "title": "GME Card"
+      },
+      "loan": {
+        "desc1": "Tez tasdiq va moslashuvchan shartlar",
+        "desc2": "Raqamli kredit xizmati",
+        "estimated_limit": "Taxminiy limit",
+        "title": "Onlayn kredit"
+      },
+      "payments": {
+        "desc1": "Ommaviy to'lovlar, hisob-kitoblar, hamkor transferlari",
+        "desc2": "Tez va xavfsiz korporativ to'lov oqimlari.",
+        "title": "Global to'lovlar"
+      },
+      "remittance": {
+        "desc1": "Tez va xavfsiz yuboring",
+        "desc2": "200+ mamlakatga",
+        "title": "Xalqaro pul o'tkazma"
+      },
+      "title1": "GME ning",
+      "title2": "xizmatlarini kashf eting"
+    },
+    "testimonials": {
+      "subtitle": "Mijozlarimizning haqiqiy tajribalari.",
+      "tags": {
+        "easy_tracking": "Oson o'tkazma & kuzatuv",
+        "fast_process": "Tez jarayon",
+        "satisfied": "Qoniqarli xizmat"
+      },
+      "title": "Fikrlar"
+    }
+  },
+  "loan": {
+    "cta": {
+      "button": "Ilovani yuklab oling",
+      "description": "Kerakli mablag'ni tez olish uchun mobil ilova orqali oson ariza bering.",
+      "title": "Bugun GME ilovasi bilan kredit boshlang"
+    },
+    "details": {
+      "contract": {"label": "Shartnoma imzolash usuli", "value": "Raqamli shartnoma"},
+      "duration": {"label": "Kredit muddati", "value": "3 - 45 oy"},
+      "early_settlement": {"label": "Muddatidan oldin to'lash to'lovi", "value": "Bepul"},
+      "loanable": {"label": "Kredit summasi", "value": "2 mln - 35 mln"},
+      "max_amount": {"label": "Maksimal summa", "value": "35 mln gacha"},
+      "repayment": {"label": "To'lov usuli", "value": "Oylik bo'lib to'lash"},
+      "title": "Kredit tafsilotlari",
+      "visa_period": {"label": "Qolgan visa muddati", "value": "7 - 48 oy"},
+      "visa_types": {"label": "Mos visa turlari", "value": "E9, E7, F2, F5, F6, D8 va qonuniy mehnat shartnomasi bo'lgan boshqa vizalar"}
+    },
+    "faq": {
+      "items": [
+        {"a": "D-2, E-9, E-10, E-7, E-1, E-2, E-3, F-2, F-2R, F-5, F-6, F-4 va G-1 vizalari egalariga ariza berish mumkin. Visa turiga ko'ra mahsulotlar farq qilishi mumkin.", "q": "Qaysi vizalar bilan kredit olish mumkin?"},
+        {"a": "Faqat 3 ta hujjat kerak: Alien Registration Card (ARC), Mehnat shartnomasi va Pasport. Murakkab hujjatlar kerak emas.", "q": "Qaysi hujjatlar kerak?"},
+        {"a": "GME Finance mobil ilovasi orqali oson ariza bering. Smartfon bilan tez va xavfsiz tarzda ariza topshirasiz.", "q": "Kreditga qanday ariza beraman?"},
+        {"a": "GME Finance chet ellik mijozlar uchun maxsus tizim orqali shaxsiy ma'lumotlarni himoya qiladi.", "q": "Shaxsiy ma'lumotlarim xavfsizmi?"}
+      ],
+      "title": "Ko'p so'raladigan savollar"
+    },
+    "hero": {
+      "badge": "GME FINANCE",
+      "cta": "Kredit mahsulotlarini ko'rish",
+      "description": "GME ilovasi orqali kreditga oson ariza bering. Biz tez tasdiq va moslashuvchan shartlar bilan qo'llab-quvvatlaymiz.",
+      "title1": "Kredit xizmatlari",
+      "title2": "chet elliklar uchun"
+    },
+    "process": {
+      "step1": {"desc": "Google Play yoki App Store'dan GME ilovasini yuklab oling. Ro'yxatdan o'ting va kreditga ariza bering.", "title": "GME ilovasi orqali ariza"},
+      "step2": {"desc": "Ma'lumotlarni to'ldiring va kerakli hujjatlarni yuboring.", "title": "Talablarni topshirish"},
+      "step3": {"desc": "Xodimlarimiz hujjatlarni tekshiradi va kredit holatingizni baholaydi.", "title": "Tekshiruv"},
+      "step4": {"desc": "Tasdiqlangach raqamli shartnoma imzolanadi.", "title": "Tasdiqlash"},
+      "step5": {"desc": "Shartnoma imzolangach, kredit summasi bank hisobingizga o'tkaziladi.", "title": "O'tkazish"},
+      "subtitle": "5 bosqichli ariza jarayoni",
+      "title": "Oson kredit arizasi"
+    },
+    "products": {
+      "business_loan": {"desc": "Biznes faoliyati uchun mablag'", "name": "Biznes krediti"},
+      "car_loan": {"desc": "Avtomobil xaridi uchun mablag'", "name": "Avto kredit"},
+      "gme_loan": {"desc": "Umumiy yashash xarajatlari", "name": "GME Loan"},
+      "house_loan": {"desc": "Jeonse va ijara depoziti", "name": "Uy krediti"},
+      "property_loan": {"desc": "Garovli kredit", "name": "Mulk krediti"},
+      "student_loan": {"desc": "O'qish va ta'lim to'lovi", "name": "Talaba krediti"},
+      "subtitle": "Sizga mos kredit mahsulotini tanlang",
+      "title": "Kredit mahsulotlari",
+      "title2": "Siz uchun",
+      "vacation_loan": {"desc": "Sayohat va ta'til xarajatlari", "name": "Ta'til krediti"}
+    },
+    "why": {
+      "badge": "GME Finance tomonidan",
+      "countries": {"desc": "Xizmat ko'rsatiladigan mamlakatlar", "title": "14+"},
+      "description": "14+ mamlakatda chet elliklar uchun kredit xizmati. 1 mln+ muvaffaqiyatli kredit va ₩500B+ jami kredit bilan ishonchni tasdiqlaydi.",
+      "realtime": {"desc": "Holat kuzatuvi", "title": "Real vaqt"},
+      "simple": {"desc": "Ilova orqali", "title": "Oson"},
+      "stats_desc": "1M+ muvaffaqiyatli kredit · 14 mamlakat",
+      "stats_label": "Jami kreditlar",
+      "stats_value": "₩500B+",
+      "success": {"desc": "Muvaffaqiyatli kreditlar", "title": "1M+"},
+      "support": {"desc": "Yordam", "title": "24/7"},
+      "title": "Nega GME Loanni tanlash kerak?"
+    }
+  },
+  "remittance": {
+    "features": {
+      "app": {"desc": "Bir necha bosishda pul o'tkazma", "title": "Ilova orqali o'tkazma"},
+      "branches": {"desc": "Mamlakat bo'ylab filiallardan yordam", "title": "Oflayn filiallar"},
+      "convenient": {"desc": "Tushunarli jarayon, hamma uchun qulay", "title": "Qulay tajriba"},
+      "multilingual": {"desc": "Ko'p tilli xizmat", "title": "Ko'p tilli qo'llab-quvvatlash"},
+      "subtitle": "Bitta ilovada yuboring va kuzating",
+      "title": "Yanada oson",
+      "title2": "Yanada xavfsiz"
+    },
+    "hero": {
+      "badge": "GME REMITTANCE",
+      "cta": "Xizmatni ko'rish",
+      "description": "200+ mamlakatga tez va xavfsiz pul o'tkazing.",
+      "title1": "Tez va xavfsiz",
+      "title2": "Xalqaro o'tkazmalar"
+    },
+    "process": {
+      "step1": {"desc": "GME ilovasini o'rnating va shaxsingizni tasdiqlang.", "title": "O'rnatish & tasdiqlash"},
+      "step2": {"desc": "Mamlakat, hisob ma'lumotlari va summani tanlang.", "title": "Qabul qiluvchini kiriting"},
+      "step3": {"desc": "To'lov qiling va o'tkazma holatini real vaqtda kuzating.", "title": "O'tkazma yakunlandi"},
+      "subtitle": "3 bosqichda yakunlanadi",
+      "title": "Oddiy",
+      "title2": "o'tkazma jarayoni"
+    },
+    "regions": {
+      "more": "va yana ko'plab mamlakatlar",
+      "subtitle": "Osiyo, Yevropa, Amerika va Afrikadagi 200+ mamlakatda mavjud.",
+      "title": "Global",
+      "title2": "qamrov"
+    },
+    "stats": {
+      "achieved": {"label": "Jami o'tkazmalar", "value": "₩3.5T+"},
+      "branches": {"label": "Koreya filiallari", "value": "12"},
+      "languages": {"label": "Qo'llab-quvvatlanadigan tillar", "value": "14"},
+      "savings": {"label": "Tejangan komissiya", "value": "90%"}
+    },
+    "trust": {
+      "desc": "Global Money Express (GME) — Iqtisodiyot va Moliya vazirligi hamda Moliyaviy nazorat xizmati tomonidan tasdiqlangan litsenziyaga ega moliyaviy institut bo'lib, xavfsiz va ishonchli xizmat ko'rsatadi.",
+      "insurance": "Elektron moliyaviy operatsiyalar javobgarlik sug'urtasi: KRW 300 mln",
+      "title": "Biz xavfsiz xizmat ko'rsatamiz."
+    },
+    "why": {
+      "items": {
+        "cheapest": {"desc": "Banklarga qaraganda past komissiya va yaxshi kurslar.", "title": "Raqobatbardosh komissiya"},
+        "fastest": {"desc": "Real vaqt ishlovi o'tkazma vaqtini kamaytiradi.", "title": "Tez o'tkazmalar"},
+        "secure": {"desc": "Kuchli tasdiqlash va xavfsizlik himoyasi.", "title": "Xavfsiz tasdiqlash"}
+      },
+      "subtitle": "Nega GME Remittance",
+      "title": "Ishonchli global pul o'tkazma xizmati"
+    }
+  },
+  "support": {
+    "branches": {
+      "address": "Manzil",
+      "data": {
+        "1": {"address": "315 Jongno, Jongno-gu, Seoul (Dongdaemun Station Exit 3)", "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00", "name": "Dongdaemun filiali"},
+        "2": {"address": "1F, 6 Damunhwa-gil, Danwon-gu, Ansan-si, Gyeonggi-do", "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00", "name": "Ansan filiali"},
+        "3": {"address": "3F, 12 Euljiro 44-gil, Jung-gu, Seoul (Mongolia Town)", "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00", "name": "Mongolia Town filiali"},
+        "4": {"address": "1F, 134 Dorim-ro, Yeongdeungpo-gu, Seoul", "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00", "name": "Daerim filiali"},
+        "5": {"address": "36 Usadan-ro 10-gil, Yongsan-gu, Seoul", "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00", "name": "Itaewon filiali"},
+        "6": {"address": "2-10 Maesan-ro, Paldal-gu, Suwon-si, Gyeonggi-do", "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00", "name": "Suwon filiali"},
+        "7": {"address": "1F, 1109-3 3·1 Manse-ro, Hyangnam-eup, Hwaseong-si, Gyeonggi-do", "hours": "Juma - Seshanba 10:00 - 19:00", "name": "Hwaseong filiali"},
+        "8": {"address": "91 Solmoru-ro, Soheul-eup, Pocheon-si, Gyeonggi-do (Next to NH Bank)", "hours": "Shanba - Chorshanba 10:00 - 19:00", "name": "Songuri filiali"},
+        "9": {"address": "16 Gwangjang-ro, Bupyeong-gu, Incheon (Bupyeong Station Shopping Mall)", "hours": "Shanba - Chorshanba 10:00 - 19:00", "name": "Bupyeong filiali"},
+        "10": {"address": "1F, 64 Seongseo-ro 69-gil, Dalseo-gu, Daegu", "hours": "Ish kunlari 10:00 - 18:00, Dam olish kunlari 10:00 - 19:00", "name": "Daegu filiali"},
+        "11": {"address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (Across from Top Mart)", "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00", "name": "Gimhae filiali"},
+        "12": {"address": "7-2 Gwangsan-ro, Gwangsan-gu, Gwangju", "hours": "Shanba - Chorshanba 10:00 - 19:00", "name": "Gwangju filiali"}
+      },
+      "hours": "Soat",
+      "phone": "Telefon"
+    },
+    "hero": {
+      "desc1": "Mamlakat bo'ylab filiallar va global ijtimoiy kanallar orqali",
+      "desc2": "istalgan vaqtda yordam va savollarga javob olishingiz mumkin.",
+      "desc3": "Yaqiningizdagi filialni toping yoki ijtimoiy tarmoqlarda biz bilan bog'laning.",
+      "title": "GME, har doim sizga yaqin"
+    },
+    "social_channels": {
+      "contact": "Aloqa",
+      "countries": {
+        "african-region": "Afrika mintaqasi",
+        "bangladesh": "Bangladesh",
+        "cambodia": "Kambodja",
+        "china": "Xitoy",
+        "india": "Hindiston",
+        "indonesia": "Indoneziya",
+        "japan": "Yaponiya",
+        "korea": "Koreya",
+        "mongolia": "Mo'g'uliston",
+        "myanmar": "Myanma",
+        "nepal": "Nepal",
+        "pakistan": "Pokiston",
+        "philippines": "Filippin",
+        "srilanka": "Shri Lanka",
+        "thailand": "Tailand",
+        "uzbekistan-cis": "O'zbekiston & CIS",
+        "vietnam": "Vyetnam",
+        "western": "G'arbiy"
+      },
+      "countries_count": "38 mamlakat",
+      "description": "Har bir mamlakatning rasmiy kanallari orqali GME bilan bog'laning",
+      "operating": "Ishlayapti",
+      "title": "Global ijtimoiy kanallar"
+    },
+    "stats": {
+      "branches_label": "Filiallar",
+      "branches_unit": "+",
+      "branches_value": "12",
+      "countries_label": "Xizmat mamlakatlari",
+      "countries_unit": "+",
+      "countries_value": "38",
+      "services_label": "Xizmatlar",
+      "services_unit": "+",
+      "services_value": "8"
+    },
+    "tabs": {
+      "branches": "Filiallar",
+      "social_channels": "Ijtimoiy kanallar"
+    }
+  }
+}

@@ -1,0 +1,1432 @@
+{
+  "board": {
+    "badge": {
+      "blog": "Blog",
+      "notice": "Thông báo",
+      "press": "Báo chí"
+    },
+    "count_suffix": " bài",
+    "detail": {
+      "attachment": "Tệp đính kèm",
+      "attachment_file": "Tệp đính kèm",
+      "back": "Quay lại",
+      "back_to_list": "Quay lại danh sách",
+      "not_found": "Không tìm thấy bài viết"
+    },
+    "load_more": "Xem thêm",
+    "no_image": "Không có hình ảnh",
+    "no_results": "Không tìm thấy kết quả.",
+    "redirect": {
+      "notice": "Đang chuyển đến trang Thông báo...",
+      "press": "Đang chuyển đến trang Báo chí..."
+    },
+    "search": {
+      "all": "Tất cả",
+      "button": "Tìm kiếm",
+      "content": "Nội dung",
+      "placeholder": "Nhập từ khóa tìm kiếm",
+      "title": "Tiêu đề"
+    },
+    "subtitle": "Xem tin tức mới nhất từ GME Remit",
+    "table": {
+      "attachment": "Tệp",
+      "attachment_file": "Tệp đính kèm",
+      "date": "Ngày",
+      "title": "Tiêu đề",
+      "type": "Loại"
+    },
+    "tabs": {
+      "blog": "Blog",
+      "notice": "Thông báo",
+      "press": "Báo chí"
+    },
+    "total": "Tổng"
+  },
+  "business": {
+    "cta": {
+      "description": "Phát triển doanh nghiệp của bạn với giải pháp thanh toán toàn cầu. Quản lý chuyên trách sẽ đề xuất giải pháp tối ưu cho bạn.",
+      "email": "corporate@gmeremit.com",
+      "title": "Bắt đầu với GME Payments"
+    },
+    "features": {
+      "accounting": {
+        "description": "Đối soát tự động giúp đơn giản hóa kế toán. Thanh toán phức tạp cũng được xử lý gọn gàng.",
+        "title": "Đối soát dễ dàng"
+      },
+      "dynamic": {
+        "description": "Chọn phương thức thanh toán, theo dõi giao dịch theo thời gian thực và nhận biên lai tức thì.",
+        "title": "Theo dõi thời gian thực"
+      },
+      "flexibility": {
+        "description": "Đổi ngoại tệ đồng thời thanh toán, hoặc tự quản lý FX. Vận hành theo cách bạn muốn.",
+        "title": "Đổi ngoại tệ linh hoạt"
+      },
+      "label": "Tính năng dịch vụ",
+      "netout": {
+        "description": "Giảm chi phí với đòn bẩy vốn. Không có hoa hồng ẩn.",
+        "title": "Bù trừ"
+      },
+      "pob": {
+        "description": "Mức độ minh bạch cao và hiệu quả tối đa cho thanh toán ủy quyền.",
+        "title": "Thanh toán thay"
+      },
+      "technology": {
+        "description": "Kiến trúc Micro Service với AML và xác minh tích hợp cho hệ thống mạnh mẽ, đáng tin cậy.",
+        "title": "Công nghệ"
+      },
+      "title": "Tính năng dịch vụ thanh toán GME"
+    },
+    "hero": {
+      "badge": "GIẢM CHI PHÍ CHUYỂN TIỀN DOANH NGHIỆP",
+      "cta_contact": "Liên hệ kinh doanh",
+      "cta_docs": "Xem tài liệu API",
+      "description": "Cùng tạo giá trị bằng cách tái định hình thanh toán thông qua hợp tác. Giảm chi phí chuyển tiền doanh nghiệp và phát triển kinh doanh toàn cầu.",
+      "title1": "GME cho SMB &",
+      "title2": "Nhà bán hàng thương mại điện tử"
+    },
+    "partners": {
+      "label": "Đối tác",
+      "list": [
+        "Hana Bank",
+        "Alipay",
+        "Skyee",
+        "PayerMax",
+        "Xe",
+        "Veem",
+        "Sandman",
+        "colognes",
+        "BaoFuGlobal",
+        "Ripple",
+        "PingPong",
+        "Tazapay",
+        "LianLian Pay",
+        "Terrapin",
+        "Ria",
+        "Thunes"
+      ],
+      "title": "Được tin tưởng và hợp tác bởi"
+    },
+    "process": {
+      "label": "Cách thức hoạt động",
+      "step1": {
+        "description": "SPS cho thanh toán xuyên biên giới, VAS cho thu tiền và tài khoản ảo. Cả hai đều được cung cấp như một phần của dịch vụ.",
+        "title": "SPS + VAS"
+      },
+      "step2": {
+        "description": "Kết nối hệ thống của bạn qua tài liệu API tại developers.gmeremit.com.",
+        "title": "Tích hợp API"
+      },
+      "step3": {
+        "description": "Tự quản lý FX hoặc đổi ngoại tệ đồng thời thanh toán. Theo dõi mọi giao dịch theo thời gian thực.",
+        "title": "Quản lý FX & Thanh toán"
+      },
+      "step4": {
+        "description": "Đối soát dễ dàng, biên lai thanh toán tức thì và lịch sử giao dịch đầy đủ.",
+        "title": "Đối soát & Báo cáo"
+      },
+      "title": "Cách GME Payments hoạt động"
+    },
+    "solutions": {
+      "description": "Hai giải pháp mạnh mẽ — SPS và VAS — xử lý mọi khía cạnh của thanh toán xuyên biên giới.",
+      "label": "Giải pháp cốt lõi",
+      "sps": {
+        "description": "Giải pháp thanh toán xuyên biên giới hàng loạt 24/7. Quản lý FX, xác minh người nhận và xử lý thanh toán hàng loạt tất cả trong một nơi.",
+        "features": [
+          "Thanh toán 24/7",
+          "Kiểm soát FX",
+          "Thanh toán hàng loạt",
+          "Trạng thái thời gian thực",
+          "Thanh toán tức thì",
+          "Xác minh thời gian thực"
+        ],
+        "subtitle": "Giải pháp thanh toán liền mạch",
+        "title": "SPS"
+      },
+      "title": "Giải pháp thanh toán cho doanh nghiệp của bạn",
+      "vas": {
+        "description": "Từ phát hành tài khoản ảo đến thu tiền thay. Tất cả tính năng bổ sung cần thiết cho hoạt động thanh toán.",
+        "features": [
+          "Thông báo thời gian thực",
+          "Thu tiền nội địa chi phí thấp",
+          "Gán V/A",
+          "Tài khoản ảo nhiều định dạng",
+          "Thu tiền thay (COBO)",
+          "Không giới hạn người nhận & người gửi",
+          "Phát hành V/A tức thì qua API hoặc Portal"
+        ],
+        "subtitle": "Dịch vụ giá trị gia tăng",
+        "title": "VAS"
+      }
+    }
+  },
+  "button": {
+    "app_download": "Tải ứng dụng"
+  },
+  "card": {
+    "cards": {
+      "black": {
+        "cta": "Tìm hiểu thêm",
+        "description": "Lựa chọn cao cấp. Thiết kế đen sang trọng với quyền lợi nâng cấp cho những ai muốn nhiều hơn.",
+        "details": {
+          "autoPayment": {
+            "desc": "Khi số dư GME Pay không đủ để thanh toán thẻ, phần thiếu sẽ được tự động trừ từ tài khoản trích nợ tự động đã liên kết.",
+            "title": "Thanh toán tự động"
+          },
+          "cautions": {
+            "items": [
+              "Nếu thanh toán thẻ GME bị hủy, tiền hoàn sẽ được trả về Ví GME. Không hỗ trợ hoàn tiền sang tài khoản khác.",
+              "Thẻ GME là thẻ ghi nợ trả trước. Không hỗ trợ trả góp.",
+              "Bạn vẫn có thể sử dụng ứng dụng GME ngay cả khi hủy thẻ. Tuy nhiên, nếu bạn hủy đăng ký trên ứng dụng GME, thẻ sẽ tự động bị hủy.",
+              "Bạn hoàn toàn chịu trách nhiệm về việc mất điện thoại hoặc thẻ. GME không chịu trách nhiệm trong các trường hợp này.",
+              "Các đại lý quốc tế tuân theo chính sách và tiêu chuẩn của Mastercard."
+            ],
+            "title": "Lưu ý"
+          },
+          "delivery": {
+            "methods": [
+              "Giao hàng tận nhà",
+              "Nhận tại chi nhánh GME"
+            ],
+            "title": "Phương thức nhận thẻ"
+          },
+          "foreignPayment": {
+            "items": [
+              "Đối với thanh toán tại cửa hàng nước ngoài, các loại tiền không phải USD sẽ được chuyển đổi sang USD theo tỷ giá Mastercard, xử lý vào ngày phê duyệt thanh toán (giao dịch được phê duyệt) hoặc ngày GME nhận thông tin hóa đơn (giao dịch chưa phê duyệt). Số tiền hóa đơn KRW, bao gồm 1,25% phí nước ngoài, được cộng vào số tiền KRW theo tỷ giá USD của GME và trừ từ GME Pay.",
+              "Số tiền hóa đơn = (Số tiền thanh toán × Tỷ giá) + Phí nước ngoài (Phí thương hiệu quốc tế² + Phí thanh toán nước ngoài³)",
+              "Tỷ giá là tỷ giá USD thanh toán thẻ GME, được cập nhật mỗi 15 phút, áp dụng tại thời điểm phê duyệt thanh toán (hoặc khi GME nhận thông tin hóa đơn).",
+              "Phí thương hiệu quốc tế² = (Số tiền thanh toán × Tỷ giá) × Tỷ lệ phí Mastercard (1,0%)",
+              "Phí thanh toán nước ngoài³ = (Số tiền thanh toán × Tỷ giá) × Tỷ lệ phí thẻ GME (0,25%)",
+              "Khi thanh toán bằng KRW tại cửa hàng nước ngoài, có thể phát sinh phí DCC bổ sung (khoảng 3-15%). Chặn thanh toán KRW ở nước ngoài và thanh toán bằng nội tệ sẽ tiết kiệm hơn.",
+              "Bạn có thể cài đặt hạn chế thanh toán KRW ở nước ngoài (DCC) trong ứng dụng GME. Vào: Thẻ > Quản lý thẻ > Cài đặt 'Hạn chế thanh toán KRW ở nước ngoài' (Mặc định: 'Đã hạn chế')",
+              "Để biết thêm chi tiết, vui lòng liên hệ Trung tâm khách hàng (1588-6864) hoặc truy cập www.gmeremit.com."
+            ],
+            "title": "Thanh toán quốc tế & Thông tin khác"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "Hoàn tiền 3% cho mua sắm ở nước ngoài",
+                "title": "Hoàn tiền 3% nước ngoài"
+              },
+              {
+                "desc": "Hoàn tiền tại các cửa hàng đối tác được chọn",
+                "title": "Hoàn tiền theo mùa"
+              },
+              {
+                "desc": "Thanh toán tự do trong nước và quốc tế",
+                "title": "Thanh toán toàn cầu"
+              },
+              {
+                "desc": "Thanh toán tự do cho mua sắm và giải trí, cả trực tuyến và ngoại tuyến",
+                "title": "Mua sắm trực tuyến & ngoại tuyến"
+              },
+              {
+                "desc": "Thanh toán trên xe buýt, tàu điện ngầm, tàu hỏa và tất cả phương tiện giao thông công cộng.",
+                "title": "Giao thông công cộng"
+              }
+            ],
+            "title": "Quyền lợi chính"
+          },
+          "userGuide": {
+            "annualFee": "Phí thường niên ₩15.000 (mỗi năm)",
+            "chargeMethod": "Bạn có thể nạp GME Pay qua Ví GME hoặc tài khoản ngân hàng.",
+            "contact": {
+              "center": "Trung tâm khách hàng GME: 1811-2961",
+              "website": "Website: gmeremit.com"
+            },
+            "limit": "Tối đa ₩2.000.000 mỗi giao dịch",
+            "qualification": "Thành viên GME Pay (từ 17 tuổi trở lên)",
+            "title": "Hướng dẫn sử dụng"
+          }
+        },
+        "features": [
+          "Hoàn tiền cao cấp",
+          "Giảm phí giao dịch nước ngoài",
+          "Trung tâm khách hàng chuyên biệt",
+          "Thanh toán trực tuyến & ngoại tuyến"
+        ],
+        "name": "Black Card",
+        "subtitle": "GME Black Mastercard"
+      },
+      "easyG0": {
+        "cta": "Đăng ký ngay",
+        "description": "Biến mỗi khoảnh khắc trở nên tiện lợi hơn. Tận hưởng ưu đãi theo mùa từ đi lại đến mua sắm.",
+        "details": {
+          "autoPayment": {
+            "desc": "Khi số dư GME Pay không đủ để thanh toán thẻ, phần thiếu sẽ được tự động trừ từ tài khoản trích nợ tự động đã liên kết.",
+            "title": "Thanh toán tự động"
+          },
+          "cardStatus": {
+            "items": [
+              {
+                "desc": "Chức năng thẻ giao thông vẫn sử dụng được.",
+                "status": "Tạm khóa"
+              },
+              {
+                "desc": "Thẻ sẽ bị khóa trong vòng 2 ngày. Chức năng thẻ giao thông sẽ bị khóa 2 ngày sau khi báo mất.",
+                "status": "Báo mất"
+              },
+              {
+                "desc": "Thẻ có thể sử dụng lại sau 2-3 ngày.",
+                "status": "Hủy báo mất"
+              },
+              {
+                "desc": "Chức năng thẻ giao thông sẽ bị hủy 10 ngày sau khi cấp lại.",
+                "status": "Cấp lại"
+              }
+            ],
+            "title": "Sử dụng giao thông theo trạng thái thẻ"
+          },
+          "cautions": {
+            "items": [
+              "Nếu thanh toán thẻ GME bị hủy, tiền hoàn sẽ được trả về Ví GME. Không hỗ trợ hoàn tiền sang tài khoản khác.",
+              "Thẻ GME là thẻ ghi nợ trả trước. Không hỗ trợ trả góp.",
+              "Bạn vẫn có thể sử dụng ứng dụng GME ngay cả khi hủy thẻ. Tuy nhiên, nếu bạn hủy đăng ký trên ứng dụng GME, thẻ sẽ tự động bị hủy.",
+              "Bạn hoàn toàn chịu trách nhiệm về việc mất điện thoại hoặc thẻ. GME không chịu trách nhiệm trong các trường hợp này.",
+              "Các đại lý quốc tế tuân theo chính sách và tiêu chuẩn của Mastercard.",
+              "Nếu hủy trong vòng 3 tháng kể từ ngày phát hành, sẽ tính phí hủy ₩10.000 để bù đắp chi phí xử lý."
+            ],
+            "title": "Lưu ý"
+          },
+          "delivery": {
+            "methods": [
+              "Giao hàng tận nhà",
+              "Nhận tại chi nhánh GME"
+            ],
+            "title": "Phương thức nhận thẻ"
+          },
+          "foreignPayment": {
+            "items": [
+              "Đối với thanh toán tại cửa hàng nước ngoài, các loại tiền không phải USD sẽ được chuyển đổi sang USD theo tỷ giá Mastercard, xử lý vào ngày phê duyệt thanh toán (giao dịch được phê duyệt) hoặc ngày GME nhận thông tin hóa đơn (giao dịch chưa phê duyệt). Số tiền hóa đơn KRW, bao gồm 1,25% phí nước ngoài, được cộng vào số tiền KRW theo tỷ giá USD của GME và trừ từ GME Pay.",
+              "Số tiền hóa đơn = (Số tiền thanh toán × Tỷ giá) + Phí nước ngoài (Phí thương hiệu quốc tế² + Phí thanh toán nước ngoài²)",
+              "Tỷ giá là tỷ giá USD thanh toán thẻ GME, được cập nhật mỗi 15 phút, áp dụng tại thời điểm phê duyệt thanh toán (hoặc khi GME nhận thông tin hóa đơn).",
+              "Phí thương hiệu quốc tế² = (Số tiền thanh toán × Tỷ giá) × Tỷ lệ phí Mastercard (1,0%)",
+              "Phí thanh toán nước ngoài² = (Số tiền thanh toán × Tỷ giá) × Tỷ lệ phí thẻ GME (0,25%)",
+              "Khi thanh toán bằng KRW tại cửa hàng nước ngoài, có thể phát sinh phí DCC bổ sung (khoảng 3-15%). Chặn thanh toán KRW ở nước ngoài và thanh toán bằng nội tệ sẽ tiết kiệm hơn.",
+              "Bạn có thể cài đặt hạn chế thanh toán KRW ở nước ngoài (DCC) trong ứng dụng GME. Vào: Thẻ > Quản lý thẻ > Cài đặt 'Hạn chế thanh toán KRW ở nước ngoài' (Mặc định: 'Đã hạn chế')",
+              "Để biết thêm chi tiết, vui lòng liên hệ Trung tâm khách hàng (1588-6864) hoặc truy cập www.gmeremit.com."
+            ],
+            "title": "Thanh toán quốc tế & Thông tin khác"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "Không cần nạp tiền khi đi xe buýt và tàu điện ngầm",
+                "title": "Thẻ giao thông trả sau"
+              },
+              {
+                "desc": "Hoàn tiền tại các cửa hàng đối tác được chọn",
+                "title": "Hoàn tiền theo mùa"
+              },
+              {
+                "desc": "Thanh toán tự do trong nước và quốc tế",
+                "title": "Thanh toán toàn cầu"
+              },
+              {
+                "desc": "Thanh toán tự do cho mua sắm và giải trí, cả trực tuyến và ngoại tuyến",
+                "title": "Mua sắm trực tuyến & ngoại tuyến"
+              },
+              {
+                "desc": "Sử dụng thẻ giao thông trả sau để đi lại tiện lợi. Chỉ cần chạm và đi, thanh toán tất cả sau.",
+                "title": "Thẻ giao thông trả sau"
+              }
+            ],
+            "title": "Quyền lợi chính"
+          },
+          "transitCard": {
+            "availability": "Sử dụng được trên tàu điện ngầm và xe buýt nội thành. Đối với taxi, xe buýt sân bay và tàu hỏa, sử dụng thẻ (chip IC và đầu đọc từ) để thanh toán.",
+            "limit": "Giới hạn ₩10.000 mỗi lượt đi",
+            "paymentTime": "Phí đi lại phải được thanh toán trong vòng 1-2 ngày.",
+            "title": "Thẻ giao thông trả sau"
+          },
+          "userGuide": {
+            "contact": {
+              "center": "Trung tâm khách hàng GME: 1811-2961",
+              "website": "Website: gmeremit.com"
+            },
+            "limit": "Tối đa ₩2.000.000 mỗi giao dịch",
+            "monthlyFee": "Phí hàng tháng ₩1.000 (tính vào ngày 1 mỗi tháng)",
+            "qualification": "Thành viên GME Pay (từ 17 tuổi trở lên)",
+            "title": "Hướng dẫn sử dụng"
+          }
+        },
+        "features": [
+          "Thẻ giao thông trả sau",
+          "Hoàn tiền theo mùa",
+          "Mua sắm trực tuyến & ngoại tuyến",
+          "Thanh toán toàn cầu"
+        ],
+        "name": "EasyGo Card",
+        "subtitle": "GME EasyGo Mastercard"
+      },
+      "red": {
+        "cta": "Đăng ký ngay",
+        "description": "Thẻ đặc trưng của GME. Thanh toán tại bất kỳ cửa hàng Mastercard nào trên toàn thế giới và tận hưởng giảm giá sự kiện và hoàn tiền.",
+        "details": {
+          "autoPayment": {
+            "desc": "Khi số dư GME Pay không đủ để thanh toán thẻ, phần thiếu sẽ được tự động trừ từ tài khoản trích nợ tự động đã liên kết.",
+            "title": "Thanh toán tự động"
+          },
+          "cautions": {
+            "items": [
+              "Nếu thanh toán thẻ GME bị hủy, tiền hoàn sẽ được trả về Ví GME. Không hỗ trợ hoàn tiền sang tài khoản khác.",
+              "Thẻ GME là thẻ ghi nợ trả trước. Không hỗ trợ trả góp.",
+              "Bạn vẫn có thể sử dụng ứng dụng GME ngay cả khi hủy thẻ. Tuy nhiên, nếu bạn hủy đăng ký trên ứng dụng GME, thẻ sẽ tự động bị hủy.",
+              "Bạn hoàn toàn chịu trách nhiệm về việc mất điện thoại hoặc thẻ. GME không chịu trách nhiệm trong các trường hợp này.",
+              "Các đại lý quốc tế tuân theo chính sách và tiêu chuẩn của Mastercard."
+            ],
+            "title": "Lưu ý"
+          },
+          "delivery": {
+            "methods": [
+              "Giao hàng tận nhà",
+              "Nhận tại chi nhánh GME"
+            ],
+            "title": "Phương thức nhận thẻ"
+          },
+          "foreignPayment": {
+            "items": [
+              "Đối với thanh toán tại cửa hàng nước ngoài, các loại tiền không phải USD sẽ được chuyển đổi sang USD theo tỷ giá Mastercard, xử lý vào ngày phê duyệt thanh toán (giao dịch được phê duyệt) hoặc ngày GME nhận thông tin hóa đơn (giao dịch chưa phê duyệt). Số tiền hóa đơn KRW, bao gồm 1,25% phí nước ngoài, được cộng vào số tiền KRW theo tỷ giá USD của GME và trừ từ GME Pay.",
+              "Số tiền hóa đơn = (Số tiền thanh toán × Tỷ giá) + Phí nước ngoài (Phí thương hiệu quốc tế² + Phí thanh toán nước ngoài²)",
+              "Tỷ giá là tỷ giá USD thanh toán thẻ GME, được cập nhật mỗi 15 phút, áp dụng tại thời điểm phê duyệt thanh toán (hoặc khi GME nhận thông tin hóa đơn).",
+              "Phí thương hiệu quốc tế² = (Số tiền thanh toán × Tỷ giá) × Tỷ lệ phí Mastercard (1,0%)",
+              "Phí thanh toán nước ngoài² = (Số tiền thanh toán × Tỷ giá) × Tỷ lệ phí thẻ GME (0,25%)",
+              "Khi thanh toán bằng KRW tại cửa hàng nước ngoài, có thể phát sinh phí DCC bổ sung (khoảng 3-15%). Chặn thanh toán KRW ở nước ngoài và thanh toán bằng nội tệ sẽ tiết kiệm hơn.",
+              "Bạn có thể cài đặt hạn chế thanh toán KRW ở nước ngoài (DCC) trong ứng dụng GME. Vào: Thẻ > Quản lý thẻ > Cài đặt 'Hạn chế thanh toán KRW ở nước ngoài' (Mặc định: 'Đã hạn chế')",
+              "Để biết thêm chi tiết, vui lòng liên hệ Trung tâm khách hàng (1588-6864) hoặc truy cập www.gmeremit.com."
+            ],
+            "title": "Thanh toán quốc tế & Thông tin khác"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "Hoàn tiền tại các cửa hàng đối tác được chọn",
+                "title": "Hoàn tiền theo mùa"
+              },
+              {
+                "desc": "Thanh toán tự do trong nước và quốc tế",
+                "title": "Thanh toán toàn cầu"
+              },
+              {
+                "desc": "Thanh toán tự do cho mua sắm và giải trí, cả trực tuyến và ngoại tuyến",
+                "title": "Mua sắm trực tuyến & ngoại tuyến"
+              },
+              {
+                "desc": "Thanh toán trên xe buýt, tàu điện ngầm, tàu hỏa và tất cả phương tiện giao thông công cộng.",
+                "title": "Giao thông công cộng"
+              }
+            ],
+            "title": "Quyền lợi chính"
+          },
+          "userGuide": {
+            "annualFee": "Phí thường niên ₩10.000 (mỗi năm)",
+            "chargeMethod": "Bạn có thể nạp GME Pay qua Ví GME hoặc tài khoản ngân hàng.",
+            "contact": {
+              "center": "Trung tâm khách hàng GME: 1811-2961",
+              "website": "Website: gmeremit.com"
+            },
+            "limit": "Tối đa ₩2.000.000 mỗi giao dịch",
+            "qualification": "Thành viên GME Pay (từ 17 tuổi trở lên)",
+            "title": "Hướng dẫn sử dụng"
+          }
+        },
+        "features": [
+          "Thanh toán toàn cầu Mastercard",
+          "Hoàn tiền lên đến 30% trong sự kiện",
+          "Rút và nạp tiền tại ATM",
+          "Chức năng thẻ giao thông công cộng"
+        ],
+        "name": "Red Card",
+        "subtitle": "GME Red Mastercard"
+      },
+      "uniq": {
+        "cta": "Đăng ký ngay",
+        "description": "Thẻ thiết kế độc nhất của GME. Thể hiện cá tính của bạn với thẻ phiên bản giới hạn đầy màu sắc.",
+        "features": [
+          "Thiết kế phiên bản giới hạn",
+          "Hỗ trợ thanh toán toàn cầu",
+          "Ưu đãi sự kiện đặc biệt",
+          "Thẻ giao thông tích hợp"
+        ],
+        "name": "Uniq Card",
+        "subtitle": "GME Uniq Mastercard"
+      },
+      "white": {
+        "cta": "Xem quyền lợi",
+        "description": "Sạch sẽ và đơn giản. White Card cung cấp tất cả tính năng cần thiết với giá trị tuyệt vời.",
+        "details": {
+          "autoPayment": {
+            "desc": "Khi số dư GME Pay không đủ để thanh toán thẻ, phần thiếu sẽ được tự động trừ từ tài khoản trích nợ tự động đã liên kết.",
+            "title": "Thanh toán tự động"
+          },
+          "cautions": {
+            "items": [
+              "Nếu thanh toán thẻ GME bị hủy, tiền hoàn sẽ được trả về Ví GME. Không hỗ trợ hoàn tiền sang tài khoản khác.",
+              "Thẻ GME là thẻ ghi nợ trả trước. Không hỗ trợ trả góp.",
+              "Bạn vẫn có thể sử dụng ứng dụng GME ngay cả khi hủy thẻ. Tuy nhiên, nếu bạn hủy đăng ký trên ứng dụng GME, thẻ sẽ tự động bị hủy.",
+              "Bạn hoàn toàn chịu trách nhiệm về việc mất điện thoại hoặc thẻ. GME không chịu trách nhiệm trong các trường hợp này.",
+              "Các đại lý quốc tế tuân theo chính sách và tiêu chuẩn của Mastercard."
+            ],
+            "title": "Lưu ý"
+          },
+          "delivery": {
+            "methods": [
+              "Giao hàng tận nhà",
+              "Nhận tại chi nhánh GME"
+            ],
+            "title": "Phương thức nhận thẻ"
+          },
+          "foreignPayment": {
+            "items": [
+              "Đối với thanh toán tại cửa hàng nước ngoài, các loại tiền không phải USD sẽ được chuyển đổi sang USD theo tỷ giá Mastercard, xử lý vào ngày phê duyệt thanh toán (giao dịch được phê duyệt) hoặc ngày GME nhận thông tin hóa đơn (giao dịch chưa phê duyệt). Số tiền hóa đơn KRW, bao gồm 1,25% phí nước ngoài, được cộng vào số tiền KRW theo tỷ giá USD của GME và trừ từ GME Pay.",
+              "Số tiền hóa đơn = (Số tiền thanh toán × Tỷ giá) + Phí nước ngoài (Phí thương hiệu quốc tế² + Phí thanh toán nước ngoài²)",
+              "Tỷ giá là tỷ giá USD thanh toán thẻ GME, được cập nhật mỗi 15 phút, áp dụng tại thời điểm phê duyệt thanh toán (hoặc khi GME nhận thông tin hóa đơn).",
+              "Phí thương hiệu quốc tế² = (Số tiền thanh toán × Tỷ giá) × Tỷ lệ phí Mastercard (1,0%)",
+              "Phí thanh toán nước ngoài² = (Số tiền thanh toán × Tỷ giá) × Tỷ lệ phí thẻ GME (0,25%)",
+              "Khi thanh toán bằng KRW tại cửa hàng nước ngoài, có thể phát sinh phí DCC bổ sung (khoảng 3-15%). Chặn thanh toán KRW ở nước ngoài và thanh toán bằng nội tệ sẽ tiết kiệm hơn.",
+              "Bạn có thể cài đặt hạn chế thanh toán KRW ở nước ngoài (DCC) trong ứng dụng GME. Vào: Thẻ > Quản lý thẻ > Cài đặt 'Hạn chế thanh toán KRW ở nước ngoài' (Mặc định: 'Đã hạn chế')",
+              "Để biết thêm chi tiết, vui lòng liên hệ Trung tâm khách hàng (1588-6864) hoặc truy cập www.gmeremit.com."
+            ],
+            "title": "Thanh toán quốc tế & Thông tin khác"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "Hoàn tiền tại các cửa hàng đối tác được chọn",
+                "title": "Hoàn tiền theo mùa"
+              },
+              {
+                "desc": "Thanh toán tự do trong nước và quốc tế",
+                "title": "Thanh toán toàn cầu"
+              },
+              {
+                "desc": "Thanh toán tự do cho mua sắm và giải trí, cả trực tuyến và ngoại tuyến",
+                "title": "Mua sắm trực tuyến & ngoại tuyến"
+              },
+              {
+                "desc": "Thanh toán trên xe buýt, tàu điện ngầm, tàu hỏa và tất cả phương tiện giao thông công cộng.",
+                "title": "Giao thông công cộng"
+              }
+            ],
+            "title": "Quyền lợi chính"
+          },
+          "userGuide": {
+            "annualFee": "Phí thường niên ₩10.000 (mỗi năm)",
+            "chargeMethod": "Bạn có thể nạp GME Pay qua Ví GME hoặc tài khoản ngân hàng.",
+            "contact": {
+              "center": "Trung tâm khách hàng GME: 1811-2961",
+              "website": "Website: gmeremit.com"
+            },
+            "limit": "Tối đa ₩2.000.000 mỗi giao dịch",
+            "qualification": "Thành viên GME Pay (từ 17 tuổi trở lên)",
+            "title": "Hướng dẫn sử dụng"
+          }
+        },
+        "features": [
+          "Giảm giá cửa hàng tiện lợi · quán cà phê",
+          "Miễn phí giao thông công cộng",
+          "Quản lý dễ dàng trên ứng dụng",
+          "ATM toàn quốc"
+        ],
+        "name": "White Card",
+        "subtitle": "GME White Mastercard"
+      }
+    },
+    "cta": {
+      "button": "Đăng ký thẻ",
+      "description": "Tìm thẻ phù hợp nhất và tận hưởng các ưu đãi độc quyền.",
+      "title": "Bắt đầu sử dụng GME Card ngay hôm nay"
+    },
+    "discover": {
+      "description": "Mở rộng khả năng với GME Card tích hợp Mastercard. Tận hưởng giảm giá độc quyền tại các cửa hàng được chọn trong thời gian sự kiện đặc biệt. Sử dụng trên toàn thế giới và trên các phương tiện giao thông công cộng chính. Nâng cao trải nghiệm mua sắm và tối đa hóa tiết kiệm trong mỗi giao dịch. Sở hữu GME Card ngay!",
+      "title": "Khám phá GME Card"
+    },
+    "grid": {
+      "detail": "Xem chi tiết",
+      "subtitle": "Tìm quyền lợi phù hợp với bạn từ nhiều loại GME Card",
+      "title": "Chọn quyền lợi của bạn"
+    },
+    "hero": {
+      "badge": "GME CARD",
+      "cta": "Xem thẻ",
+      "description": "Từ thanh toán nước ngoài đến chi tiêu hàng ngày, khám phá GME Card đầy quyền lợi.",
+      "title1": "Thẻ dành riêng",
+      "title2": "cho bạn - GME Card"
+    },
+    "labels": {
+      "annual_fee": "Phí thường niên",
+      "availability": "Phạm vi sử dụng",
+      "charge_method": "Phương thức nạp tiền",
+      "limit": "Hạn mức sử dụng",
+      "monthly_fee": "Phí hàng tháng",
+      "payment_time": "Thời gian thanh toán",
+      "qualification": "Điều kiện đăng ký",
+      "usage_limit": "Hạn mức sử dụng"
+    },
+    "modal": {
+      "app_guide": "Đăng ký thẻ qua ứng dụng GME",
+      "sold_out_desc": "Cảm ơn sự quan tâm của bạn. Vui lòng xem các thẻ khác.",
+      "sold_out_title": "Hết hàng"
+    },
+    "why": {
+      "atm": {
+        "description": "Rút tiền mặt dễ dàng tại ATM trên toàn quốc",
+        "title": "Rút và nạp tiền ATM"
+      },
+      "cashback": {
+        "description": "Hoàn tiền lên đến 30% tại cửa hàng đối tác",
+        "title": "Hoàn tiền lên đến 30%"
+      },
+      "description": "Mở rộng khả năng với GME Card tích hợp Mastercard. Tận hưởng giảm giá độc quyền tại các cửa hàng được chọn trong thời gian sự kiện đặc biệt. Sử dụng trên toàn thế giới và trên các phương tiện giao thông công cộng chính.",
+      "everywhere": {
+        "description": "Mua sắm trực tuyến và thanh toán tại cửa hàng liền mạch",
+        "title": "Trực tuyến · Ngoại tuyến"
+      },
+      "global": {
+        "description": "Sử dụng tự do trong nước và nước ngoài",
+        "title": "Trong nước · Nước ngoài"
+      },
+      "title": "Tại sao chọn GME Card",
+      "transit": {
+        "description": "Sử dụng như thẻ giao thông trên tất cả phương tiện công cộng",
+        "title": "Tàu điện · Xe buýt · Taxi"
+      }
+    }
+  },
+  "careers": {
+    "benefits": {
+      "education": {
+        "description": "Hỗ trợ toàn diện cho phát triển bản thân bao gồm khóa học trực tuyến, chứng chỉ, học ngoại ngữ, tham gia hội nghị.",
+        "title": "Hỗ trợ đào tạo · phát triển"
+      },
+      "health": {
+        "description": "Hỗ trợ ₩300.000/năm cho kiểm tra sức khỏe dành cho nhân viên chính thức.",
+        "title": "Hỗ trợ kiểm tra sức khỏe"
+      },
+      "incentive": {
+        "description": "Các chương trình thưởng và khích lệ đa dạng dựa trên hiệu suất cho việc đạt mục tiêu, ý tưởng mới và thành tích xuất sắc.",
+        "title": "Thưởng hiệu suất"
+      },
+      "subtitle": "Hỗ trợ sự phát triển và hạnh phúc của thành viên GME",
+      "team_building": {
+        "description": "Town Hall hàng tháng, sự kiện team hàng quý, câu lạc bộ thể thao, concert thư giãn và nhiều hơn nữa.",
+        "title": "Xây dựng đội nhóm · Văn hóa"
+      },
+      "title": "Phúc lợi",
+      "vacation": {
+        "description": "Nghỉ sinh nhật, kỷ niệm, sự kiện gia đình, nghỉ phép chăm sóc con và nhiều chế độ nghỉ đặc biệt khác.",
+        "title": "Nghỉ phép · Nghỉ đặc biệt"
+      }
+    },
+    "cta": {
+      "about": "Về công ty",
+      "openings": "Xem vị trí tuyển dụng",
+      "subtitle": "Xem các vị trí đang tuyển dụng và ứng tuyển ngay.",
+      "title": "Gia nhập GME"
+    },
+    "header": {
+      "button": "Xem vị trí tuyển dụng",
+      "description": "Gia nhập công ty fintech toàn cầu phục vụ khách hàng tại hơn 200 quốc gia và vùng lãnh thổ.",
+      "title": "Cùng phát triển với GME"
+    },
+    "testimonials": {
+      "subtitle": "Câu chuyện thực từ đồng nghiệp",
+      "title": "Câu chuyện đội nhóm"
+    },
+    "why_gme": {
+      "agile": {
+        "description": "Tổ chức phẳng, thực thi nhanh, học từ thất bại và cùng phát triển.",
+        "title": "Ra quyết định nhanh"
+      },
+      "diversity": {
+        "description": "Làm việc với đồng nghiệp từ hơn 14 quốc tịch, học hỏi từ nhiều góc nhìn khác nhau.",
+        "title": "Tôn trọng đa dạng"
+      },
+      "fairness": {
+        "description": "Đánh giá công bằng dựa trên năng lực và hiệu suất, không phân biệt giới tính hay quốc tịch.",
+        "title": "Cơ hội công bằng"
+      },
+      "title": "Điều đặc biệt tại GME"
+    }
+  },
+  "company": {
+    "ceo_message": {
+      "paragraph1": "Là công ty fintech hàng đầu Hàn Quốc, chúng tôi đầu tư vào công nghệ tiên tiến và nhân tài, hướng tới sự phát triển chung và thành công của khách hàng.",
+      "paragraph2": "Cùng GME xây dựng tương lai dịch vụ tài chính toàn cầu, trải nghiệm dịch vụ tiện lợi và đổi mới hơn."
+    },
+    "history": {
+      "events": {
+        "2016_08": "Thành lập Công ty Global Money Express",
+        "2017_03": "Ra mắt dịch vụ trực tuyến đầu tiên",
+        "2017_06": "Nhà cung cấp dịch vụ đầu tiên tại Hàn Quốc",
+        "2017_08": "Giấy phép chuyển tiền nước ngoài nhỏ đầu tiên tại Hàn Quốc",
+        "2018_04": "Tổng chuyển tiền nước ngoài lũy kế vượt 54 tỷ Won",
+        "2018_09": "Được chọn làm nhà cung cấp dịch vụ chuyển tiền khuyến nghị bởi thành phố Seoul",
+        "2018_loan": "Ra mắt dịch vụ cho vay tín dụng dành cho người nước ngoài",
+        "2019_03": "Ra mắt dịch vụ chuyển tiền nội địa",
+        "2019_06": "Mở 12 chi nhánh trên toàn quốc",
+        "2019_09": "Mở 3 trung tâm trên toàn quốc",
+        "2020_02": "Tổng chuyển tiền nước ngoài lũy kế vượt 1 nghìn tỷ Won",
+        "2020_05": "Ra mắt dịch vụ nạp tiền di động",
+        "2020_08": "Giấy phép thanh toán điện tử trả trước",
+        "2021_04": "Tổng chuyển tiền nước ngoài lũy kế vượt 1,9 nghìn tỷ Won",
+        "2021_07": "Ra mắt dịch vụ coupon di động",
+        "2021_10": "Giải thưởng Fintech Hàn Quốc (hạng mục Công nghệ)",
+        "2021_12": "Giấy phép PG và giấy phép kinh doanh thanh toán điện tử",
+        "2022_03": "Giấy phép kinh doanh ngoại hối",
+        "2022_06": "Ra mắt dịch vụ thanh toán",
+        "2022_11": "Tổng chuyển tiền nước ngoài lũy kế vượt 2 nghìn tỷ Won",
+        "2023_02": "Tổng chuyển tiền nước ngoài lũy kế vượt 2,1 nghìn tỷ Won",
+        "2023_05": "Hợp tác BC Card · Mastercard ra mắt dịch vụ GME Card",
+        "2023_09": "Giấy phép dịch vụ GME Mobile (MVNO)",
+        "2023_10": "Lọt top 10 Fintech Hàn Quốc của Forbes 2023",
+        "2023_kibo": "Được KOTEC chọn là doanh nghiệp KIBO-Star Valley",
+        "2023_nice": "Chứng nhận doanh nghiệp công nghệ ưu tú từ NICE",
+        "2024_03": "Hợp tác LG U+ ra mắt dịch vụ GME Mobile (MVNO)",
+        "2024_06": "Ra mắt dịch vụ thanh toán doanh nghiệp 'GMEBiz'",
+        "2024_12": "Tổng chuyển tiền nước ngoài lũy kế vượt 2,8 nghìn tỷ Won",
+        "2025_03": "Ra mắt sản phẩm bảo hiểm cho cư dân nước ngoài",
+        "2025_06": "Ra mắt thẻ ghi nợ tích hợp thẻ giao thông",
+        "2025_12": "Tổng chuyển tiền nước ngoài lũy kế vượt 3,5 nghìn tỷ Won"
+      },
+      "title_line1": "Thử thách không ngừng,",
+      "title_line2": "Khởi đầu mới"
+    },
+    "services": {
+      "b2b_payments": {
+        "desc": "Chuyển tiền và thu tiền quốc tế nhanh và chi phí thấp",
+        "title": "Thanh toán B2B"
+      },
+      "core_services": "Dịch vụ cốt lõi",
+      "digital_wallet": {
+        "desc": "Nạp tiền · Chuyển tiền · Thanh toán tất cả trong một",
+        "title": "Ví điện tử"
+      },
+      "easy_loan": {
+        "desc": "100% không giấy tờ, phê duyệt tức thì",
+        "title": "Vay dễ dàng"
+      },
+      "gift_coupons": {
+        "desc": "Gửi coupon quà tặng kỹ thuật số bằng điểm",
+        "title": "Coupon quà tặng"
+      },
+      "gme_card": {
+        "desc": "Thanh toán · Rút tiền · Quản lý toàn cầu",
+        "title": "GME Card"
+      },
+      "learn_more": "Tìm hiểu thêm",
+      "mobile_topup": {
+        "desc": "Nạp tiền di động tức thì tại hơn 150 quốc gia",
+        "title": "Nạp tiền di động"
+      },
+      "money_exchange": {
+        "desc": "Tỷ giá tốt hơn ngân hàng truyền thống",
+        "title": "Đổi ngoại tệ"
+      },
+      "personal_remittance": {
+        "desc": "Chuyển tiền trong nước và quốc tế đa ngôn ngữ",
+        "title": "Chuyển tiền cá nhân"
+      },
+      "related_services": "Dịch vụ liên quan",
+      "subtitle": "Tất cả dịch vụ tài chính toàn cầu trong một nơi",
+      "title": "Dịch vụ GME"
+    },
+    "tabs": {
+      "ceo_message": "Thông điệp CEO",
+      "history": "Lịch sử",
+      "services": "Dịch vụ",
+      "title": "Giới thiệu công ty"
+    }
+  },
+  "footer": {
+    "company_name": "Global Money Express",
+    "copyright": "\u00a9 Global Money Express, All rights reserved.",
+    "info": {
+      "address": "Địa chỉ: 901~911, Tòa B, Senggak Gongjang Jangsan, 150 Yeongdeungpo-ro, Yeongdeungpo-gu, Seoul",
+      "email_corporate": "Doanh nghiệp: corporate@gmeremit.com",
+      "email_support": "Hỗ trợ: support@gmeremit.com",
+      "fax": "Fax: (+82) 2 3674 5559",
+      "phone_foreigner": "(+82) 02-1588-6864 (Người nước ngoài)",
+      "phone_general": "02-3673-5559 (Thắc mắc chung)",
+      "phone_korean": "02-1811-2961 (Tiếng Hàn, Thắc mắc chuyển tiền)"
+    },
+    "link": {
+      "company_intro": "Giới thiệu công ty",
+      "privacy": "Chính sách bảo mật",
+      "terms": "Điều khoản dịch vụ"
+    }
+  },
+  "header": {
+    "link": {
+      "careers": "Tuyển dụng",
+      "gme_biz": "GME Biz"
+    },
+    "nav": {
+      "blog": "Blog",
+      "branches": "Chi nhánh",
+      "card": "GME Card",
+      "ceo_message": "Thông điệp CEO",
+      "company": "Công ty",
+      "history": "Lịch sử",
+      "loan": "GME Loan",
+      "news": "Tin tức",
+      "notice": "Thông báo",
+      "payments": "GME Payments (B2B)",
+      "press": "Tin tức / Báo chí",
+      "remittance": "Chuyển tiền qua ứng dụng GME",
+      "services": "Dịch vụ",
+      "services_menu": "Dịch vụ",
+      "social_channels": "Kênh mạng xã hội",
+      "support": "Hỗ trợ"
+    }
+  },
+  "home": {
+    "app_download": {
+      "chips": [
+        "Tỷ giá thời gian thực",
+        "Số tiền tối ưu",
+        "Xác thực an toàn"
+      ],
+      "description": "Xác thực dễ dàng và an toàn, số tiền tối ưu, chuyển tiền nhanh. Quản lý mọi thứ an toàn và tiện lợi với ứng dụng GME Remit.",
+      "qr_scan": "Quét mã QR",
+      "subtitle": "GME REMIT APP",
+      "title1": "Gửi nhanh hơn,",
+      "title2": "Quản lý thông minh hơn"
+    },
+    "cards": {
+      "black": {
+        "cta": "Xem Black Card",
+        "desc": "Thẻ cao cấp chuyên biệt cho thanh toán nước ngoài. Tận hưởng quyền lợi hoàn tiền tốt nhất mọi nơi.",
+        "highlights": [
+          "Hoàn tiền 3% ở nước ngoài",
+          "Hoàn tiền 0,3% trong nước",
+          "Giảm giá sự kiện đặc biệt",
+          "Tàu điện · Xe buýt · Taxi thanh toán dễ dàng"
+        ]
+      },
+      "easyG0": {
+        "cta": "Xem EasyGo Card",
+        "desc": "Biến mọi khoảnh khắc trở nên tiện lợi. Tận hưởng các ưu đãi theo mùa từ đi lại đến mua sắm.",
+        "highlights": [
+          "Thẻ giao thông trả sau",
+          "Hoàn tiền theo mùa",
+          "Thanh toán toàn cầu",
+          "Mua sắm trực tuyến & ngoại tuyến"
+        ]
+      },
+      "image_alt": "Hình ảnh thẻ",
+      "red": {
+        "cta": "Xem Red Card",
+        "desc": "Thẻ mang màu sắc đặc trưng của GME. Biến mỗi thanh toán trở nên phong cách.",
+        "highlights": [
+          "Hoàn tiền 0,3% trong nước",
+          "Giảm giá sự kiện đặc biệt",
+          "Tàu điện · Xe buýt · Taxi thanh toán dễ dàng",
+          "Giao thông công cộng"
+        ]
+      },
+      "uniq": {
+        "cta": "Xem Uniq Card",
+        "desc": "Chọn thẻ của riêng bạn từ hơn 30 thiết kế của 18 quốc gia.",
+        "highlights": [
+          "Hoàn tiền 0,3% trong nước",
+          "Giảm giá sự kiện đặc biệt",
+          "18 quốc gia hơn 30 thiết kế",
+          "Tàu điện · Xe buýt · Taxi thanh toán dễ dàng"
+        ]
+      },
+      "white": {
+        "cta": "Xem White Card",
+        "desc": "Thẻ đơn giản và gọn gàng cho hàng ngày. Tiện lợi cho thanh toán trong nước và giao thông công cộng.",
+        "highlights": [
+          "Hoàn tiền 0,3% trong nước",
+          "Giảm giá sự kiện đặc biệt",
+          "Tàu điện · Xe buýt · Taxi thanh toán dễ dàng",
+          "Giao thông công cộng"
+        ]
+      }
+    },
+    "exchange": {
+      "calculator": {
+        "realtime": "Thời gian thực",
+        "receive_amount": "Số tiền nhận",
+        "receive_country": "Quốc gia nhận",
+        "send_amount": "Số tiền gửi",
+        "title": "Máy tính tỷ giá thời gian thực"
+      },
+      "description1": "Tỷ giá thời gian thực cho hơn 200 quốc gia.",
+      "description2": "Công khai phí minh bạch.",
+      "stats": {
+        "countries": "200+",
+        "countries_label": "Quốc gia hỗ trợ",
+        "service": "24/7",
+        "service_label": "Dịch vụ thời gian thực"
+      },
+      "title1": "Kiểm tra tỷ giá",
+      "title2": "ngay bây giờ"
+    },
+    "global_payments": {
+      "button": {
+        "detail": "Tìm hiểu thêm về Payments"
+      },
+      "card": {
+        "status": "Đang hoạt động",
+        "subtitle": "Giải pháp doanh nghiệp",
+        "title": "Giải pháp thanh toán"
+      },
+      "description": "Chuyển lương, thanh toán đối tác, thanh toán thương mại điện tử. Giải pháp thanh toán doanh nghiệp tiết kiệm chi phí.",
+      "features": {
+        "smb": "SMB",
+        "smb_desc": "Giải pháp thương mại điện tử",
+        "sps": "SPS",
+        "sps_desc": "Giải pháp thanh toán B2B",
+        "vas": "VAS",
+        "vas_desc": "Cảnh báo · Báo cáo · Bảng điều khiển"
+      },
+      "stats": {
+        "cost_saving": "Tiết kiệm chi phí",
+        "cost_saving_change": "so với truyền thống",
+        "cost_saving_value": "Lên đến 70%",
+        "partners": "Đối tác",
+        "partners_change": "Toàn cầu",
+        "partners_value": "200+",
+        "success_rate": "Tỷ lệ thành công",
+        "success_rate_change": "Bình thường",
+        "success_rate_value": "99,8%"
+      },
+      "title": "Thanh toán toàn cầu",
+      "transactions": {
+        "b2b": "Chuyển khoản hàng loạt B2B",
+        "completed": "Hoàn thành",
+        "just_now": "Vừa xong",
+        "merchant": "Thanh toán thương nhân",
+        "mins_ago": "phút trước",
+        "partner": "Thanh toán đối tác",
+        "processing": "Đang xử lý",
+        "title": "Giao dịch gần đây"
+      }
+    },
+    "hero": {
+      "badge": "Dịch vụ chuyển tiền xuất sắc",
+      "button": {
+        "learn_more": "Tìm hiểu thêm"
+      },
+      "countries": {
+        "more": "Thêm",
+        "names": {
+          "BD": "Bangladesh",
+          "CN": "Trung Quốc",
+          "ID": "Indonesia",
+          "JP": "Nhật Bản",
+          "LK": "Sri Lanka",
+          "MM": "Myanmar",
+          "NP": "Nepal",
+          "PH": "Philippines",
+          "PK": "Pakistan",
+          "TH": "Thái Lan",
+          "US": "Hoa Kỳ",
+          "VN": "Việt Nam"
+        },
+        "realtime": "Thời gian thực",
+        "subtitle": "Hỗ trợ hơn 200 quốc gia",
+        "title": "Quốc gia hỗ trợ",
+        "view_all": "Tìm hiểu về chuyển tiền"
+      },
+      "description1": "Gửi đến hơn 200 quốc gia, tất cả ngân hàng Hàn Quốc theo thời gian thực.",
+      "description2": "An toàn với 70 đối tác toàn cầu và xác minh E-KYC.",
+      "rating": "Trung bình App Store · Google Play",
+      "stats": {
+        "avg_time": "Thời gian chuyển trung bình",
+        "seconds": "giây",
+        "total_amount": "Tổng số tiền chuyển",
+        "trillion": "nghìn tỷ+"
+      },
+      "title1": "Nhanh chóng và An toàn",
+      "title2": "Chuyển tiền quốc tế"
+    },
+    "loan": {
+      "button": {
+        "apply": "Đăng ký vay trong ứng dụng GME",
+        "detail": "Tìm hiểu thêm về Vay"
+      },
+      "card": {
+        "quick_apply": "Đăng ký nhanh",
+        "subtitle": "Vay cho người nước ngoài",
+        "title": "GME Finance"
+      },
+      "description": "Đăng ký vay trong vài phút với ứng dụng GME. Kiểm tra trạng thái và số dư theo thời gian thực mọi lúc, mọi nơi.",
+      "features": {
+        "countries": {
+          "desc": "Quốc gia",
+          "label": "14+"
+        },
+        "realtime": {
+          "desc": "Theo dõi",
+          "label": "Thời gian thực"
+        },
+        "simple": {
+          "desc": "Đăng ký qua ứng dụng",
+          "label": "Đơn giản"
+        },
+        "success": {
+          "desc": "Khoản vay",
+          "label": "1M+"
+        },
+        "support": {
+          "desc": "Hỗ trợ",
+          "label": "24/7"
+        }
+      },
+      "stats": {
+        "desc": "Hơn 1 triệu khoản vay · 14 quốc gia",
+        "title": "Thành tích cho vay lũy kế",
+        "value": "₩500B+"
+      },
+      "title": "Vay trực tuyến"
+    },
+    "remittance": {
+      "button": {
+        "detail": "Tìm hiểu thêm về Chuyển tiền"
+      },
+      "description": "Gửi tiền nhanh chóng và an toàn đến hơn 200 quốc gia.",
+      "features": {
+        "fast": {
+          "back_desc": "Gửi đến bất kỳ đâu trên thế giới chỉ với vài thao tác, không có bước phức tạp.",
+          "back_title": "Chuyển tiền đơn giản",
+          "desc": "Hoàn tất chuyển tiền quốc tế chỉ với vài cú nhấp",
+          "sub": "Vài cú nhấp",
+          "title": "Chuyển tiền nhanh"
+        },
+        "global": {
+          "back_desc": "Gửi toàn cầu với hơn 200 quốc gia và 70 đối tác toàn cầu.",
+          "back_title": "Mạng lưới toàn cầu",
+          "desc": "Hơn một triệu người dùng trên toàn thế giới tin tưởng GME",
+          "sub": "1M+ Người dùng",
+          "title": "200+ Quốc gia"
+        },
+        "optimized": {
+          "back_desc": "Phí thấp hơn đến 90% so với ngân hàng. Gửi nhiều hơn với tỷ giá thời gian thực.",
+          "back_title": "Tiết kiệm chi phí lớn",
+          "desc": "Phí thấp hơn 90% và tỷ giá tốt hơn so với ngân hàng",
+          "sub": "Tiết kiệm 90%",
+          "title": "Số tiền tối ưu"
+        },
+        "security": {
+          "back_desc": "Gửi an toàn với xác minh E-KYC và dịch vụ đã đăng ký tại FSC.",
+          "back_title": "Bảo mật triệt để",
+          "desc": "Sử dụng an tâm với bảo mật mạnh mẽ",
+          "sub": "Đã xác minh",
+          "title": "Dễ dàng & An toàn"
+        }
+      },
+      "title": "Chuyển tiền quốc tế"
+    },
+    "section_nav": {
+      "app_download": "Tải ứng dụng",
+      "exchange": "Máy tính tỷ giá",
+      "home": "Trang chủ",
+      "services": "Dịch vụ",
+      "testimonials": "Đánh giá"
+    },
+    "services": {
+      "card": {
+        "desc1": "Thẻ thông minh kết nối chuyển tiền và chi tiêu.",
+        "desc2": "Tiêu chuẩn mới cho thanh toán toàn cầu.",
+        "title": "GME Card"
+      },
+      "loan": {
+        "desc1": "Phê duyệt nhanh và điều khoản linh hoạt",
+        "desc2": "Dịch vụ vay kỹ thuật số",
+        "estimated_limit": "Hạn mức ước tính",
+        "title": "Vay trực tuyến"
+      },
+      "payments": {
+        "desc1": "Thanh toán hàng loạt, thanh toán đối tác.",
+        "desc2": "Luồng thanh toán doanh nghiệp nhanh và an toàn.",
+        "title": "Thanh toán toàn cầu"
+      },
+      "remittance": {
+        "desc1": "Gửi tiền nhanh chóng và an toàn",
+        "desc2": "đến hơn 200 quốc gia.",
+        "title": "Chuyển tiền quốc tế"
+      },
+      "title1": "Khám phá các",
+      "title2": "Dịch vụ đa dạng của GME"
+    },
+    "testimonials": {
+      "subtitle": "Trải nghiệm thực tế từ khách hàng của chúng tôi.",
+      "tags": {
+        "easy_tracking": "Chuyển tiền & Theo dõi dễ dàng",
+        "fast_process": "Xử lý nhanh",
+        "satisfied": "Dịch vụ hài lòng"
+      },
+      "title": "Đánh giá"
+    }
+  },
+  "loan": {
+    "cta": {
+      "button": "Tải ứng dụng",
+      "description": "Nhận khoản vay bạn cần nhanh chóng với đăng ký dễ dàng trên di động.",
+      "title": "Bắt đầu vay với ứng dụng GME ngay hôm nay"
+    },
+    "details": {
+      "contract": {
+        "label": "Phương thức ký hợp đồng",
+        "value": "Hợp đồng điện tử"
+      },
+      "duration": {
+        "label": "Thời hạn vay",
+        "value": "3 - 45 tháng"
+      },
+      "early_settlement": {
+        "label": "Phí tất toán trước hạn",
+        "value": "Miễn phí"
+      },
+      "loanable": {
+        "label": "Số tiền có thể vay",
+        "value": "2 triệu - 35 triệu"
+      },
+      "max_amount": {
+        "label": "Số tiền vay tối đa",
+        "value": "Lên đến 35 triệu"
+      },
+      "repayment": {
+        "label": "Phương thức trả nợ",
+        "value": "Trả góp hàng tháng"
+      },
+      "title": "Chi tiết khoản vay",
+      "visa_period": {
+        "label": "Thời hạn visa còn lại đủ điều kiện",
+        "value": "7 - 48 tháng"
+      },
+      "visa_types": {
+        "label": "Loại visa đủ điều kiện",
+        "value": "E9, E7, F2, F5, F6, D8 & bất kỳ visa nào có Hợp đồng lao động hợp pháp"
+      }
+    },
+    "faq": {
+      "items": [
+        {
+          "a": "Người sở hữu visa D-2, E-9, E-10, E-7, E-1, E-2, E-3, F-2, F-2R, F-5, F-6, F-4 và G-1 đủ điều kiện. Sản phẩm khả dụng có thể khác nhau tùy theo loại visa.",
+          "q": "Loại visa nào có thể đăng ký vay?"
+        },
+        {
+          "a": "Chỉ cần ba tài liệu: Thẻ đăng ký người nước ngoài (ARC), Hợp đồng lao động và Hộ chiếu. Không cần giấy tờ phức tạp — quy trình đơn giản và thuận tiện.",
+          "q": "Cần những tài liệu gì?"
+        },
+        {
+          "a": "Bạn có thể đăng ký dễ dàng qua ứng dụng di động GME Finance. Chỉ với điện thoại thông minh, bạn có thể đăng ký vay nhanh chóng và an toàn mọi lúc, mọi nơi.",
+          "q": "Làm thế nào để đăng ký vay?"
+        },
+        {
+          "a": "GME Finance cung cấp xử lý thông tin cá nhân an toàn thông qua hệ thống được thiết kế riêng cho khách hàng nước ngoài. Bạn có thể sử dụng dịch vụ một cách yên tâm.",
+          "q": "Thông tin cá nhân có an toàn không?"
+        }
+      ],
+      "title": "Câu hỏi thường gặp"
+    },
+    "hero": {
+      "badge": "GME FINANCE",
+      "cta": "Xem sản phẩm vay",
+      "description": "Đăng ký vay dễ dàng với ứng dụng GME. Hỗ trợ cuộc sống tại Hàn Quốc với phê duyệt nhanh và điều khoản linh hoạt.",
+      "title1": "Dịch vụ cho vay",
+      "title2": "dành cho người nước ngoài"
+    },
+    "process": {
+      "step1": {
+        "desc": "Tải ứng dụng GME trên Google Play Store hoặc App Store. Đăng ký và đăng ký vay.",
+        "title": "Đăng ký qua ứng dụng GME"
+      },
+      "step2": {
+        "desc": "Điền thông tin và nộp các tài liệu yêu cầu.",
+        "title": "Nộp hồ sơ"
+      },
+      "step3": {
+        "desc": "Nhân viên sẽ xác minh tài liệu và kiểm tra tín dụng.",
+        "title": "Xác minh"
+      },
+      "step4": {
+        "desc": "Sau khi được phê duyệt, tiến hành ký hợp đồng điện tử.",
+        "title": "Phê duyệt"
+      },
+      "step5": {
+        "desc": "Sau khi ký hợp đồng, số tiền vay sẽ được chuyển vào tài khoản ngân hàng của bạn.",
+        "title": "Giải ngân"
+      },
+      "subtitle": "Quy trình đăng ký 5 bước",
+      "title": "Đăng ký vay đơn giản"
+    },
+    "products": {
+      "business_loan": {
+        "desc": "Vốn hoạt động kinh doanh",
+        "name": "Vay kinh doanh"
+      },
+      "car_loan": {
+        "desc": "Vốn mua xe",
+        "name": "Vay mua xe"
+      },
+      "gme_loan": {
+        "desc": "Chi phí sinh hoạt chung",
+        "name": "GME Loan"
+      },
+      "house_loan": {
+        "desc": "Tiền đặt cọc thuê nhà & jeonse",
+        "name": "Vay nhà ở"
+      },
+      "property_loan": {
+        "desc": "Vay thế chấp tài sản",
+        "name": "Vay tài sản"
+      },
+      "student_loan": {
+        "desc": "Học phí & chi phí trường học",
+        "name": "Vay sinh viên"
+      },
+      "subtitle": "So sánh và chọn sản phẩm vay phù hợp với nhu cầu của bạn.",
+      "title": "Sản phẩm vay",
+      "title2": "Phù hợp cho bạn",
+      "vacation_loan": {
+        "desc": "Chi phí du lịch & nghỉ dưỡng",
+        "name": "Vay du lịch"
+      }
+    },
+    "why": {
+      "badge": "Powered by GME Finance",
+      "countries": {
+        "desc": "Quốc gia phục vụ",
+        "title": "14+"
+      },
+      "description": "Chúng tôi cung cấp dịch vụ cho vay phù hợp cho khách hàng nước ngoài tại hơn 14 quốc gia. Trải nghiệm sự tin tưởng đã được chứng minh với hơn 1 triệu khoản vay và tổng số tiền cho vay lũy kế hơn ₩500 tỷ.",
+      "realtime": {
+        "desc": "Theo dõi trạng thái",
+        "title": "Thời gian thực"
+      },
+      "simple": {
+        "desc": "Qua ứng dụng di động",
+        "title": "Đăng ký dễ dàng"
+      },
+      "stats_desc": "Hơn 1 triệu khoản vay · 14 quốc gia",
+      "stats_label": "Tổng khoản vay lũy kế",
+      "stats_value": "₩500B+",
+      "success": {
+        "desc": "Khoản vay thành công",
+        "title": "1M+"
+      },
+      "support": {
+        "desc": "Hỗ trợ khách hàng",
+        "title": "24/7"
+      },
+      "title": "Tại sao chọn GME Loan?"
+    }
+  },
+  "remittance": {
+    "features": {
+      "app": {
+        "desc": "Hoàn tất chuyển tiền chỉ với vài thao tác",
+        "title": "Chuyển tiền qua ứng dụng"
+      },
+      "branches": {
+        "desc": "Nhận hỗ trợ tại các chi nhánh trên toàn quốc",
+        "title": "Chi nhánh ngoại tuyến"
+      },
+      "convenient": {
+        "desc": "Quy trình trực quan ai cũng có thể sử dụng",
+        "title": "Trải nghiệm dễ dàng"
+      },
+      "multilingual": {
+        "desc": "Sử dụng dịch vụ bằng nhiều ngôn ngữ",
+        "title": "Hỗ trợ đa ngôn ngữ"
+      },
+      "subtitle": "Chuyển tiền và theo dõi mọi thứ trong một ứng dụng",
+      "title": "Đơn giản hơn",
+      "title2": "Chuyển tiền an toàn hơn"
+    },
+    "hero": {
+      "badge": "GME REMITTANCE",
+      "cta": "Xem dịch vụ",
+      "description": "Gửi tiền nhanh chóng và an toàn đến hơn 200 quốc gia.",
+      "title1": "Nhanh chóng và An toàn",
+      "title2": "Chuyển tiền quốc tế"
+    },
+    "process": {
+      "step1": {
+        "desc": "Cài đặt ứng dụng GME và hoàn tất xác minh danh tính.",
+        "title": "Cài đặt & Xác minh"
+      },
+      "step2": {
+        "desc": "Chọn quốc gia, thông tin tài khoản và số tiền.",
+        "title": "Nhập thông tin người nhận"
+      },
+      "step3": {
+        "desc": "Thanh toán và theo dõi trạng thái chuyển tiền theo thời gian thực.",
+        "title": "Hoàn tất chuyển tiền"
+      },
+      "subtitle": "3 bước từ đăng ký đến hoàn tất",
+      "title": "Quy trình",
+      "title2": "Chuyển tiền đơn giản"
+    },
+    "regions": {
+      "more": "Và nhiều quốc gia được hỗ trợ khác",
+      "subtitle": "Khả dụng tại châu Á, châu Âu, châu Mỹ và châu Phi ở hơn 200 quốc gia.",
+      "title": "Phạm vi",
+      "title2": "Toàn cầu"
+    },
+    "stats": {
+      "achieved": {
+        "label": "Tổng số tiền chuyển",
+        "value": "₩3.5T+"
+      },
+      "branches": {
+        "label": "Chi nhánh tại Hàn Quốc",
+        "value": "12"
+      },
+      "languages": {
+        "label": "Ngôn ngữ hỗ trợ",
+        "value": "14"
+      },
+      "savings": {
+        "label": "Tiết kiệm phí",
+        "value": "90%"
+      }
+    },
+    "trust": {
+      "desc": "Global Money Express (GME) là tổ chức tài chính được cấp phép bởi Bộ Kinh tế và Cơ quan Giám sát Tài chính, cung cấp dịch vụ an toàn và đáng tin cậy.",
+      "insurance": "Bảo hiểm trách nhiệm dịch vụ giao dịch tài chính điện tử: 300 triệu KRW",
+      "title": "Chúng tôi cung cấp dịch vụ an toàn."
+    },
+    "why": {
+      "items": {
+        "cheapest": {
+          "desc": "Phí và tỷ giá tốt hơn so với ngân hàng truyền thống.",
+          "title": "Phí cạnh tranh"
+        },
+        "fastest": {
+          "desc": "Xử lý theo thời gian thực giảm thiểu thời gian chuyển tiền.",
+          "title": "Chuyển tiền nhanh"
+        },
+        "secure": {
+          "desc": "Xác minh danh tính nâng cao và bảo vệ an ninh.",
+          "title": "Xác minh an toàn"
+        }
+      },
+      "subtitle": "Tại sao chọn GME Remittance",
+      "title": "Dịch vụ chuyển tiền toàn cầu đáng tin cậy"
+    }
+  },
+  "support": {
+    "branches": {
+      "address": "Địa chỉ",
+      "data": {
+        "1": {
+          "address": "315 Jongno, Jongno-gu, Seoul (Lối ra số 3 ga Dongdaemun)",
+          "hours": "Ngày thường & Cuối tuần 10:00 - 19:00",
+          "name": "Chi nhánh Dongdaemun"
+        },
+        "2": {
+          "address": "Tầng 1, 6 Damunhwa-gil, Danwon-gu, Ansan-si, Gyeonggi-do",
+          "hours": "Ngày thường & Cuối tuần 10:00 - 19:00",
+          "name": "Chi nhánh Ansan"
+        },
+        "3": {
+          "address": "Tầng 3, 12 Euljiro 44-gil, Jung-gu, Seoul (Mongolia Town)",
+          "hours": "Ngày thường & Cuối tuần 10:00 - 19:00",
+          "name": "Chi nhánh Mongolia Town"
+        },
+        "4": {
+          "address": "Tầng 1, 134 Dorim-ro, Yeongdeungpo-gu, Seoul",
+          "hours": "Ngày thường & Cuối tuần 10:00 - 19:00",
+          "name": "Chi nhánh Daerim"
+        },
+        "5": {
+          "address": "36 Usadan-ro 10-gil, Yongsan-gu, Seoul",
+          "hours": "Ngày thường & Cuối tuần 10:00 - 19:00",
+          "name": "Chi nhánh Itaewon"
+        },
+        "6": {
+          "address": "2-10 Maesan-ro, Paldal-gu, Suwon-si, Gyeonggi-do",
+          "hours": "Ngày thường & Cuối tuần 10:00 - 19:00",
+          "name": "Chi nhánh Suwon"
+        },
+        "7": {
+          "address": "Tầng 1, 1109-3 3·1 Manse-ro, Hyangnam-eup, Hwaseong-si, Gyeonggi-do",
+          "hours": "Thứ Sáu - Thứ Ba 10:00 - 19:00",
+          "name": "Chi nhánh Hwaseong"
+        },
+        "8": {
+          "address": "91 Solmoru-ro, Soheul-eup, Pocheon-si, Gyeonggi-do (Cạnh NH Bank)",
+          "hours": "Thứ Bảy - Thứ Tư 10:00 - 19:00",
+          "name": "Chi nhánh Songuri"
+        },
+        "9": {
+          "address": "16 Gwangjang-ro, Bupyeong-gu, Incheon (Trung tâm mua sắm ga Bupyeong)",
+          "hours": "Thứ Bảy - Thứ Tư 10:00 - 19:00",
+          "name": "Chi nhánh Bupyeong"
+        },
+        "10": {
+          "address": "Tầng 1, 64 Seongseo-ro 69-gil, Dalseo-gu, Daegu",
+          "hours": "Ngày thường 10:00 - 18:00, Cuối tuần 10:00 - 19:00",
+          "name": "Chi nhánh Daegu"
+        },
+        "11": {
+          "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (Đối diện Top Mart)",
+          "hours": "Ngày thường & Cuối tuần 10:00 - 19:00",
+          "name": "Chi nhánh Gimhae"
+        },
+        "12": {
+          "address": "7-2 Gwangsan-ro, Gwangsan-gu, Gwangju",
+          "hours": "Thứ Bảy - Thứ Tư 10:00 - 19:00",
+          "name": "Chi nhánh Gwangju"
+        }
+      },
+      "hours": "Giờ làm việc",
+      "phone": "Điện thoại"
+    },
+    "hero": {
+      "desc1": "Thông qua các chi nhánh trên toàn quốc và kênh mạng xã hội toàn cầu,",
+      "desc2": "bạn có thể nhận hỗ trợ và đặt câu hỏi bất cứ lúc nào.",
+      "desc3": "Tìm chi nhánh gần bạn hoặc kết nối với chúng tôi trên mạng xã hội.",
+      "title": "GME, Luôn bên bạn"
+    },
+    "social_channels": {
+      "contact": "Liên hệ",
+      "countries": {
+        "african-region": "Khu vực châu Phi",
+        "bangladesh": "Bangladesh",
+        "cambodia": "Campuchia",
+        "china": "Trung Quốc",
+        "india": "Ấn Độ",
+        "indonesia": "Indonesia",
+        "japan": "Nhật Bản",
+        "korea": "Hàn Quốc",
+        "mongolia": "Mông Cổ",
+        "myanmar": "Myanmar",
+        "nepal": "Nepal",
+        "pakistan": "Pakistan",
+        "philippines": "Philippines",
+        "srilanka": "Sri Lanka",
+        "thailand": "Thái Lan",
+        "uzbekistan-cis": "Uzbekistan & CIS",
+        "vietnam": "Việt Nam",
+        "western": "Phương Tây"
+      },
+      "countries_count": "38 quốc gia",
+      "description": "Kết nối với GME qua các kênh chính thức tại mỗi quốc gia",
+      "operating": "Đang hoạt động",
+      "title": "Kênh mạng xã hội toàn cầu"
+    },
+    "stats": {
+      "branches_label": "Chi nhánh",
+      "branches_unit": "+",
+      "branches_value": "12",
+      "countries_label": "Quốc gia phục vụ",
+      "countries_unit": "+",
+      "countries_value": "38",
+      "services_label": "Dịch vụ",
+      "services_unit": "+",
+      "services_value": "8"
+    },
+    "tabs": {
+      "branches": "Chi nhánh",
+      "social_channels": "Kênh mạng xã hội"
+    }
+  }
+}

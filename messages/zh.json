@@ -1,0 +1,1432 @@
+{
+  "board": {
+    "badge": {
+      "blog": "博客",
+      "notice": "公告",
+      "press": "新闻"
+    },
+    "count_suffix": " 篇",
+    "detail": {
+      "attachment": "附件",
+      "attachment_file": "附件",
+      "back": "返回",
+      "back_to_list": "返回列表",
+      "not_found": "未找到该文章"
+    },
+    "load_more": "加载更多",
+    "no_image": "无图片",
+    "no_results": "未找到搜索结果。",
+    "redirect": {
+      "notice": "正在跳转到公告页面...",
+      "press": "正在跳转到新闻页面..."
+    },
+    "search": {
+      "all": "全部",
+      "button": "搜索",
+      "content": "内容",
+      "placeholder": "请输入搜索关键词",
+      "title": "标题"
+    },
+    "subtitle": "查看GME Remit的最新消息",
+    "table": {
+      "attachment": "附件",
+      "attachment_file": "附件",
+      "date": "日期",
+      "title": "标题",
+      "type": "分类"
+    },
+    "tabs": {
+      "blog": "博客",
+      "notice": "公告",
+      "press": "新闻"
+    },
+    "total": "共"
+  },
+  "business": {
+    "cta": {
+      "description": "通过全球支付解决方案发展您的业务。我们的专属经理将为您提供最佳方案。",
+      "email": "corporate@gmeremit.com",
+      "title": "开始使用GME Payments"
+    },
+    "features": {
+      "accounting": {
+        "description": "自动对账简化会计处理。即使复杂的结算也能轻松完成。",
+        "title": "便捷结算"
+      },
+      "dynamic": {
+        "description": "选择您的支付方式，实时追踪交易，即时获取收据。",
+        "title": "实时追踪"
+      },
+      "flexibility": {
+        "description": "兑换的同时付款，或自主管理外汇。按您的方式运营。",
+        "title": "灵活汇兑"
+      },
+      "label": "服务特点",
+      "netout": {
+        "description": "通过资金杠杆降低成本。无隐藏佣金。",
+        "title": "净额结算"
+      },
+      "pob": {
+        "description": "代理支付具有高度透明性和最大效率。",
+        "title": "代付服务"
+      },
+      "technology": {
+        "description": "微服务架构，内嵌AML及验证功能，打造稳健可靠的系统。",
+        "title": "技术"
+      },
+      "title": "GME支付服务特点"
+    },
+    "hero": {
+      "badge": "降低企业汇款成本",
+      "cta_contact": "联系销售",
+      "cta_docs": "查看API文档",
+      "description": "通过合作重塑支付，共创价值。降低企业汇款成本，助力全球业务增长。",
+      "title1": "面向中小企业及",
+      "title2": "电商商家的GME"
+    },
+    "partners": {
+      "label": "合作伙伴",
+      "list": [
+        "Hana Bank",
+        "Alipay",
+        "Skyee",
+        "PayerMax",
+        "Xe",
+        "Veem",
+        "Sandman",
+        "colognes",
+        "BaoFuGlobal",
+        "Ripple",
+        "PingPong",
+        "Tazapay",
+        "LianLian Pay",
+        "Terrapin",
+        "Ria",
+        "Thunes"
+      ],
+      "title": "值得信赖的合作伙伴"
+    },
+    "process": {
+      "label": "使用流程",
+      "step1": {
+        "description": "SPS用于跨境支付，VAS用于收款和虚拟账户。两者均作为服务的一部分提供。",
+        "title": "SPS + VAS"
+      },
+      "step2": {
+        "description": "通过developers.gmeremit.com的API文档连接您的系统。",
+        "title": "API对接"
+      },
+      "step3": {
+        "description": "自主管理外汇或同时兑换付款。实时追踪每笔交易。",
+        "title": "汇兑与支付控制"
+      },
+      "step4": {
+        "description": "轻松对账结算，即时获取收据和完整交易记录。",
+        "title": "对账与报表"
+      },
+      "title": "GME Payments使用流程"
+    },
+    "solutions": {
+      "description": "两大核心解决方案——SPS和VAS——全面处理跨境支付的各个环节。",
+      "label": "核心解决方案",
+      "sps": {
+        "description": "24/7全天候批量跨境支付解决方案。在一个平台管理外汇、验证收款人并处理批量付款。",
+        "features": [
+          "全天候支付",
+          "控制外汇",
+          "批量付款",
+          "实时状态",
+          "即时到账",
+          "实时验证"
+        ],
+        "subtitle": "无缝支付解决方案",
+        "title": "SPS"
+      },
+      "title": "为您的业务打造的支付解决方案",
+      "vas": {
+        "description": "从虚拟账户发行到代收款。支付运营所需的所有增值功能。",
+        "features": [
+          "实时通知",
+          "低成本本地收款",
+          "分配V/A",
+          "多种格式虚拟账户",
+          "代收款(COBO)",
+          "收款人和存款人无限制",
+          "通过API或门户即时发行V/A"
+        ],
+        "subtitle": "增值服务",
+        "title": "VAS"
+      }
+    }
+  },
+  "button": {
+    "app_download": "下载APP"
+  },
+  "card": {
+    "cards": {
+      "black": {
+        "cta": "了解更多",
+        "description": "高端之选。时尚的黑色设计搭配升级优惠，满足更高追求。",
+        "details": {
+          "autoPayment": {
+            "desc": "当GME Pay余额不足以支付卡片消费时，差额将自动从您绑定的自动扣款账户中扣除。",
+            "title": "自动付款"
+          },
+          "cautions": {
+            "items": [
+              "GME卡消费取消后，退款将退回到您的GME钱包。不支持退款到其他账户。",
+              "GME卡是预付借记卡。不支持分期付款。",
+              "即使取消卡片，仍可使用GME APP。但如果在GME APP中取消订阅，卡片将自动注销。",
+              "您应对手机或卡片的丢失承担全部责任。GME不承担相关责任。",
+              "国际联盟遵循Mastercard的政策和标准。"
+            ],
+            "title": "注意事项"
+          },
+          "delivery": {
+            "methods": [
+              "送货上门",
+              "GME门店自取"
+            ],
+            "title": "卡片领取方式"
+          },
+          "foreignPayment": {
+            "items": [
+              "海外商户支付时，非美元货币将按Mastercard汇率转换为美元，在付款批准日期（已批准交易）或GME收到账单信息日期（未批准交易）处理。韩元账单金额包含1.25%海外手续费，加上基于GME美元汇率的韩元金额，从GME Pay中扣除。",
+              "账单金额 = (支付金额 × 汇率) + 海外手续费(国际品牌费² + 海外支付费³)",
+              "汇率为GME卡支付美元汇率，每15分钟更新一次，在付款批准时（或GME收到账单信息时）适用。",
+              "国际品牌费² = (支付金额 × 汇率) × Mastercard费率(1.0%)",
+              "海外支付费³ = (支付金额 × 汇率) × GME卡费率(0.25%)",
+              "在海外商户使用韩元支付时，可能产生额外的DCC费用(约3-15%)。屏蔽海外韩元支付并使用当地货币更为划算。",
+              "您可以在GME APP中设置海外韩元支付(DCC)限制。前往：卡片 > 卡片管理 > '海外韩元支付限制'设置（默认：'已限制'）",
+              "如需了解更多详情，请联系客服中心(1588-6864)或访问www.gmeremit.com。"
+            ],
+            "title": "海外支付及其他信息"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "海外消费3%返现",
+                "title": "海外3%返现"
+              },
+              {
+                "desc": "指定合作商户返现",
+                "title": "季节性返现"
+              },
+              {
+                "desc": "国内外自由支付",
+                "title": "全球通用"
+              },
+              {
+                "desc": "线上线下自由消费购物娱乐",
+                "title": "线上线下购物"
+              },
+              {
+                "desc": "公交、地铁、火车及所有公共交通均可使用。",
+                "title": "公共交通"
+              }
+            ],
+            "title": "主要优惠"
+          },
+          "userGuide": {
+            "annualFee": "年费 ₩15,000（每年）",
+            "chargeMethod": "您可以通过GME钱包或银行账户充值GME Pay。",
+            "contact": {
+              "center": "GME客服中心：1811-2961",
+              "website": "网站：gmeremit.com"
+            },
+            "limit": "每笔最高 ₩2,000,000",
+            "qualification": "GME Pay会员（17岁以上）",
+            "title": "使用指南"
+          }
+        },
+        "features": [
+          "高额返现优惠",
+          "降低海外交易费",
+          "专属客服中心",
+          "线上线下支付"
+        ],
+        "name": "Black Card",
+        "subtitle": "GME Black Mastercard"
+      },
+      "easyG0": {
+        "cta": "立即申请",
+        "description": "让每一刻更加便利。从交通到购物，尽享各季专属优惠。",
+        "details": {
+          "autoPayment": {
+            "desc": "当GME Pay余额不足以支付卡片消费时，差额将自动从您绑定的自动扣款账户中扣除。",
+            "title": "自动付款"
+          },
+          "cardStatus": {
+            "items": [
+              {
+                "desc": "交通卡功能仍可使用。",
+                "status": "临时挂失"
+              },
+              {
+                "desc": "卡片将在2天内停用。交通卡功能将在挂失后2天停用。",
+                "status": "挂失"
+              },
+              {
+                "desc": "卡片可在2-3天后重新使用。",
+                "status": "取消挂失"
+              },
+              {
+                "desc": "交通卡功能将在补卡后10天注销。",
+                "status": "补卡"
+              }
+            ],
+            "title": "各卡片状态下的交通使用情况"
+          },
+          "cautions": {
+            "items": [
+              "GME卡消费取消后，退款将退回到您的GME钱包。不支持退款到其他账户。",
+              "GME卡是预付借记卡。不支持分期付款。",
+              "即使取消卡片，仍可使用GME APP。但如果在GME APP中取消订阅，卡片将自动注销。",
+              "您应对手机或卡片的丢失承担全部责任。GME不承担相关责任。",
+              "国际联盟遵循Mastercard的政策和标准。",
+              "办卡3个月内注销，将收取₩10,000的注销费以弥补处理成本。"
+            ],
+            "title": "注意事项"
+          },
+          "delivery": {
+            "methods": [
+              "送货上门",
+              "GME门店自取"
+            ],
+            "title": "卡片领取方式"
+          },
+          "foreignPayment": {
+            "items": [
+              "海外商户支付时，非美元货币将按Mastercard汇率转换为美元，在付款批准日期（已批准交易）或GME收到账单信息日期（未批准交易）处理。韩元账单金额包含1.25%海外手续费，加上基于GME美元汇率的韩元金额，从GME Pay中扣除。",
+              "账单金额 = (支付金额 × 汇率) + 海外手续费(国际品牌费² + 海外支付费²)",
+              "汇率为GME卡支付美元汇率，每15分钟更新一次，在付款批准时（或GME收到账单信息时）适用。",
+              "国际品牌费² = (支付金额 × 汇率) × Mastercard费率(1.0%)",
+              "海外支付费² = (支付金额 × 汇率) × GME卡费率(0.25%)",
+              "在海外商户使用韩元支付时，可能产生额外的DCC费用(约3-15%)。屏蔽海外韩元支付并使用当地货币更为划算。",
+              "您可以在GME APP中设置海外韩元支付(DCC)限制。前往：卡片 > 卡片管理 > '海外韩元支付限制'设置（默认：'已限制'）",
+              "如需了解更多详情，请联系客服中心(1588-6864)或访问www.gmeremit.com。"
+            ],
+            "title": "海外支付及其他信息"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "乘坐公交地铁无需充值",
+                "title": "后付费交通卡"
+              },
+              {
+                "desc": "指定合作商户返现",
+                "title": "季节性返现"
+              },
+              {
+                "desc": "国内外自由支付",
+                "title": "全球通用"
+              },
+              {
+                "desc": "线上线下自由消费购物娱乐",
+                "title": "线上线下购物"
+              },
+              {
+                "desc": "使用后付费交通卡，免查余额轻松出行，后续统一结算。",
+                "title": "后付费交通卡"
+              }
+            ],
+            "title": "主要优惠"
+          },
+          "transitCard": {
+            "availability": "地铁和市内公交可用。出租车、机场大巴和火车请使用卡片(IC芯片和磁条)支付。",
+            "limit": "每次乘车限额 ₩10,000",
+            "paymentTime": "交通费用需在1-2天内结算。",
+            "title": "后付费交通卡"
+          },
+          "userGuide": {
+            "contact": {
+              "center": "GME客服中心：1811-2961",
+              "website": "网站：gmeremit.com"
+            },
+            "limit": "每笔最高 ₩2,000,000",
+            "monthlyFee": "月费 ₩1,000（每月1日扣除）",
+            "qualification": "GME Pay会员（17岁以上）",
+            "title": "使用指南"
+          }
+        },
+        "features": [
+          "后付费交通卡",
+          "季节性返现",
+          "线上线下购物",
+          "全球通用"
+        ],
+        "name": "EasyGo Card",
+        "subtitle": "GME EasyGo Mastercard"
+      },
+      "red": {
+        "cta": "立即申请",
+        "description": "GME的标志性卡片。在全球Mastercard商户支付，享受专属活动折扣和返现优惠。",
+        "details": {
+          "autoPayment": {
+            "desc": "当GME Pay余额不足以支付卡片消费时，差额将自动从您绑定的自动扣款账户中扣除。",
+            "title": "自动付款"
+          },
+          "cautions": {
+            "items": [
+              "GME卡消费取消后，退款将退回到您的GME钱包。不支持退款到其他账户。",
+              "GME卡是预付借记卡。不支持分期付款。",
+              "即使取消卡片，仍可使用GME APP。但如果在GME APP中取消订阅，卡片将自动注销。",
+              "您应对手机或卡片的丢失承担全部责任。GME不承担相关责任。",
+              "国际联盟遵循Mastercard的政策和标准。"
+            ],
+            "title": "注意事项"
+          },
+          "delivery": {
+            "methods": [
+              "送货上门",
+              "GME门店自取"
+            ],
+            "title": "卡片领取方式"
+          },
+          "foreignPayment": {
+            "items": [
+              "海外商户支付时，非美元货币将按Mastercard汇率转换为美元，在付款批准日期（已批准交易）或GME收到账单信息日期（未批准交易）处理。韩元账单金额包含1.25%海外手续费，加上基于GME美元汇率的韩元金额，从GME Pay中扣除。",
+              "账单金额 = (支付金额 × 汇率) + 海外手续费(国际品牌费² + 海外支付费²)",
+              "汇率为GME卡支付美元汇率，每15分钟更新一次，在付款批准时（或GME收到账单信息时）适用。",
+              "国际品牌费² = (支付金额 × 汇率) × Mastercard费率(1.0%)",
+              "海外支付费² = (支付金额 × 汇率) × GME卡费率(0.25%)",
+              "在海外商户使用韩元支付时，可能产生额外的DCC费用(约3-15%)。屏蔽海外韩元支付并使用当地货币更为划算。",
+              "您可以在GME APP中设置海外韩元支付(DCC)限制。前往：卡片 > 卡片管理 > '海外韩元支付限制'设置（默认：'已限制'）",
+              "如需了解更多详情，请联系客服中心(1588-6864)或访问www.gmeremit.com。"
+            ],
+            "title": "海外支付及其他信息"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "指定合作商户返现",
+                "title": "季节性返现"
+              },
+              {
+                "desc": "国内外自由支付",
+                "title": "全球通用"
+              },
+              {
+                "desc": "线上线下自由消费购物娱乐",
+                "title": "线上线下购物"
+              },
+              {
+                "desc": "公交、地铁、火车及所有公共交通均可使用。",
+                "title": "公共交通"
+              }
+            ],
+            "title": "主要优惠"
+          },
+          "userGuide": {
+            "annualFee": "年费 ₩10,000（每年）",
+            "chargeMethod": "您可以通过GME钱包或银行账户充值GME Pay。",
+            "contact": {
+              "center": "GME客服中心：1811-2961",
+              "website": "网站：gmeremit.com"
+            },
+            "limit": "每笔最高 ₩2,000,000",
+            "qualification": "GME Pay会员（17岁以上）",
+            "title": "使用指南"
+          }
+        },
+        "features": [
+          "Mastercard全球支付",
+          "活动期间最高30%返现",
+          "ATM存取款",
+          "公共交通卡功能"
+        ],
+        "name": "Red Card",
+        "subtitle": "GME Red Mastercard"
+      },
+      "uniq": {
+        "cta": "立即申请",
+        "description": "GME独一无二的设计卡。以多彩限量版卡片展现您的个性。",
+        "features": [
+          "限量版设计",
+          "全球支付",
+          "专属活动优惠",
+          "内置交通卡"
+        ],
+        "name": "Uniq Card",
+        "subtitle": "GME Uniq Mastercard"
+      },
+      "white": {
+        "cta": "查看优惠",
+        "description": "简洁明了。White Card以超高性价比提供您所需的全部基本功能。",
+        "details": {
+          "autoPayment": {
+            "desc": "当GME Pay余额不足以支付卡片消费时，差额将自动从您绑定的自动扣款账户中扣除。",
+            "title": "自动付款"
+          },
+          "cautions": {
+            "items": [
+              "GME卡消费取消后，退款将退回到您的GME钱包。不支持退款到其他账户。",
+              "GME卡是预付借记卡。不支持分期付款。",
+              "即使取消卡片，仍可使用GME APP。但如果在GME APP中取消订阅，卡片将自动注销。",
+              "您应对手机或卡片的丢失承担全部责任。GME不承担相关责任。",
+              "国际联盟遵循Mastercard的政策和标准。"
+            ],
+            "title": "注意事项"
+          },
+          "delivery": {
+            "methods": [
+              "送货上门",
+              "GME门店自取"
+            ],
+            "title": "卡片领取方式"
+          },
+          "foreignPayment": {
+            "items": [
+              "海外商户支付时，非美元货币将按Mastercard汇率转换为美元，在付款批准日期（已批准交易）或GME收到账单信息日期（未批准交易）处理。韩元账单金额包含1.25%海外手续费，加上基于GME美元汇率的韩元金额，从GME Pay中扣除。",
+              "账单金额 = (支付金额 × 汇率) + 海外手续费(国际品牌费² + 海外支付费²)",
+              "汇率为GME卡支付美元汇率，每15分钟更新一次，在付款批准时（或GME收到账单信息时）适用。",
+              "国际品牌费² = (支付金额 × 汇率) × Mastercard费率(1.0%)",
+              "海外支付费² = (支付金额 × 汇率) × GME卡费率(0.25%)",
+              "在海外商户使用韩元支付时，可能产生额外的DCC费用(约3-15%)。屏蔽海外韩元支付并使用当地货币更为划算。",
+              "您可以在GME APP中设置海外韩元支付(DCC)限制。前往：卡片 > 卡片管理 > '海外韩元支付限制'设置（默认：'已限制'）",
+              "如需了解更多详情，请联系客服中心(1588-6864)或访问www.gmeremit.com。"
+            ],
+            "title": "海外支付及其他信息"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "指定合作商户返现",
+                "title": "季节性返现"
+              },
+              {
+                "desc": "国内外自由支付",
+                "title": "全球通用"
+              },
+              {
+                "desc": "线上线下自由消费购物娱乐",
+                "title": "线上线下购物"
+              },
+              {
+                "desc": "公交、地铁、火车及所有公共交通均可使用。",
+                "title": "公共交通"
+              }
+            ],
+            "title": "主要优惠"
+          },
+          "userGuide": {
+            "annualFee": "年费 ₩10,000（每年）",
+            "chargeMethod": "您可以通过GME钱包或银行账户充值GME Pay。",
+            "contact": {
+              "center": "GME客服中心：1811-2961",
+              "website": "网站：gmeremit.com"
+            },
+            "limit": "每笔最高 ₩2,000,000",
+            "qualification": "GME Pay会员（17岁以上）",
+            "title": "使用指南"
+          }
+        },
+        "features": [
+          "便利店·咖啡厅折扣",
+          "免费公共交通",
+          "APP轻松管理",
+          "全国ATM通用"
+        ],
+        "name": "White Card",
+        "subtitle": "GME White Mastercard"
+      }
+    },
+    "cta": {
+      "button": "申请卡片",
+      "description": "找到最适合您的卡片，享受专属优惠。",
+      "title": "今天就开始使用GME Card"
+    },
+    "discover": {
+      "description": "使用搭载Mastercard的GME Card，开启无限可能。在特别活动期间享受精选商户的专属折扣。可在全球及主要公共交通工具上使用。提升您的消费体验，最大化每笔交易的节省。立即获取GME Card！",
+      "title": "发现GME Card"
+    },
+    "grid": {
+      "detail": "查看详情",
+      "subtitle": "从多种GME Card中找到最适合您的优惠",
+      "title": "选择您的优惠"
+    },
+    "hero": {
+      "badge": "GME CARD",
+      "cta": "查看卡片",
+      "description": "从海外支付到日常消费，了解优惠满满的GME Card。",
+      "title1": "专属于您的",
+      "title2": "GME Card"
+    },
+    "labels": {
+      "annual_fee": "年费",
+      "availability": "适用范围",
+      "charge_method": "充值方式",
+      "limit": "使用限额",
+      "monthly_fee": "月费",
+      "payment_time": "结算时间",
+      "qualification": "申请条件",
+      "usage_limit": "使用限额"
+    },
+    "modal": {
+      "app_guide": "卡片申请请在GME APP中进行",
+      "sold_out_desc": "感谢您的关注。请浏览其他卡片。",
+      "sold_out_title": "已售罄"
+    },
+    "why": {
+      "atm": {
+        "description": "在全国ATM轻松取款",
+        "title": "ATM存取款"
+      },
+      "cashback": {
+        "description": "合作商户最高30%返现",
+        "title": "最高30%返现"
+      },
+      "description": "使用搭载Mastercard的GME Card，开启无限可能。在特别活动期间享受精选商户的专属折扣。可在全球及主要公共交通工具上使用。",
+      "everywhere": {
+        "description": "线上购物和线下支付无缝衔接",
+        "title": "线上线下"
+      },
+      "global": {
+        "description": "国内外均可自由使用",
+        "title": "国内·海外"
+      },
+      "title": "为什么选择GME Card",
+      "transit": {
+        "description": "所有公共交通均可作为交通卡使用",
+        "title": "地铁·公交·出租车"
+      }
+    }
+  },
+  "careers": {
+    "benefits": {
+      "education": {
+        "description": "全面支持自我提升，包括在线课程、资格认证、语言学习、会议参加等费用。",
+        "title": "教育·成长支持"
+      },
+      "health": {
+        "description": "为正式员工提供每年₩300,000的健康检查补贴，支持健康生活。",
+        "title": "健康检查支持"
+      },
+      "incentive": {
+        "description": "提供多种与业绩挂钩的激励和奖励，表彰目标达成、新创意和卓越表现。",
+        "title": "绩效激励"
+      },
+      "subtitle": "支持GME成员的成长和幸福",
+      "team_building": {
+        "description": "月度Town Hall、季度团建活动、运动俱乐部、疗愈音乐会等，提供共同成长的平台。",
+        "title": "团队建设·文化"
+      },
+      "title": "福利待遇",
+      "vacation": {
+        "description": "提供生日假、纪念日假、家庭活动假、育儿假等多种特别休假制度。",
+        "title": "年假·特别休假"
+      }
+    },
+    "cta": {
+      "about": "公司介绍",
+      "openings": "查看职位",
+      "subtitle": "查看当前招聘信息，立即申请。",
+      "title": "加入GME"
+    },
+    "header": {
+      "button": "查看职位",
+      "description": "加入为200多个国家和地区客户提供金融服务的全球金融科技公司。",
+      "title": "与GME一起成长"
+    },
+    "testimonials": {
+      "subtitle": "同事们的真实故事",
+      "title": "团队故事"
+    },
+    "why_gme": {
+      "agile": {
+        "description": "扁平化组织快速执行，从失败中学习，共同成长。",
+        "title": "快速决策"
+      },
+      "diversity": {
+        "description": "与来自14个以上国家的同事一起工作，从多元视角学习。",
+        "title": "尊重多元"
+      },
+      "fairness": {
+        "description": "不论性别和国籍，根据能力和业绩公正评价。",
+        "title": "公平机会"
+      },
+      "title": "GME的独特之处"
+    }
+  },
+  "company": {
+    "ceo_message": {
+      "paragraph1": "作为韩国代表性金融科技企业，我们投资于尖端技术和人才，致力于互惠增长和客户成功。",
+      "paragraph2": "与GME一起打造全球金融服务的未来，体验更加便捷和创新的服务。"
+    },
+    "history": {
+      "events": {
+        "2016_08": "Global Money Express株式会社成立",
+        "2017_03": "首个线上服务上线",
+        "2017_06": "韩国首家服务提供商",
+        "2017_08": "韩国首家获得小额海外汇款牌照",
+        "2018_04": "累计海外汇款额突破540亿韩元",
+        "2018_09": "入选首尔市推荐汇款服务商",
+        "2018_loan": "面向外国人信用贷款服务上线",
+        "2019_03": "国内汇款服务上线",
+        "2019_06": "全国12家分行开业",
+        "2019_09": "全国3个中心开设",
+        "2020_02": "累计海外汇款额突破1万亿韩元",
+        "2020_05": "手机话费充值服务上线",
+        "2020_08": "获得预付电子支付牌照",
+        "2021_04": "累计海外汇款额突破1.9万亿韩元",
+        "2021_07": "手机优惠券服务上线",
+        "2021_10": "荣获韩国经济金融科技大奖（技术类）",
+        "2021_12": "获得PG牌照及电子支付业务许可",
+        "2022_03": "获得外汇业务牌照",
+        "2022_06": "支付业务上线",
+        "2022_11": "累计海外汇款额突破2万亿韩元",
+        "2023_02": "累计海外汇款额突破2.1万亿韩元",
+        "2023_05": "与BC卡·Mastercard合作推出GME Card服务",
+        "2023_09": "获得GME移动（MVNO）服务牌照",
+        "2023_10": "入选Forbes 2023韩国金融科技Top10",
+        "2023_kibo": "获选KOTEC KIBO明星谷企业",
+        "2023_nice": "获得NICE优良技术企业认证",
+        "2024_03": "与LG U+合作推出GME移动（MVNO）服务",
+        "2024_06": "企业支付服务「GMEBiz」上线",
+        "2024_12": "累计海外汇款额突破2.8万亿韩元",
+        "2025_03": "面向外国居民保险产品上线",
+        "2025_06": "带交通卡功能的借记卡上线",
+        "2025_12": "累计海外汇款额突破3.5万亿韩元"
+      },
+      "title_line1": "不断挑战，",
+      "title_line2": "崭新开始"
+    },
+    "services": {
+      "b2b_payments": {
+        "desc": "快速低成本的国际汇款与收款",
+        "title": "B2B支付"
+      },
+      "core_services": "核心服务",
+      "digital_wallet": {
+        "desc": "充值·汇款·支付一站式完成",
+        "title": "数字钱包"
+      },
+      "easy_loan": {
+        "desc": "100%无纸化即时审批贷款",
+        "title": "便捷贷款"
+      },
+      "gift_coupons": {
+        "desc": "用积分发送数字礼品券",
+        "title": "礼品券"
+      },
+      "gme_card": {
+        "desc": "全球支付·取款·管理",
+        "title": "GME Card"
+      },
+      "learn_more": "了解更多",
+      "mobile_topup": {
+        "desc": "150多个国家即时充值话费",
+        "title": "手机话费充值"
+      },
+      "money_exchange": {
+        "desc": "比传统银行更优惠的汇率",
+        "title": "外汇兑换"
+      },
+      "personal_remittance": {
+        "desc": "多语言支持的国内外汇款",
+        "title": "个人汇款"
+      },
+      "related_services": "相关服务",
+      "subtitle": "全球金融一站式服务",
+      "title": "GME服务"
+    },
+    "tabs": {
+      "ceo_message": "CEO致辞",
+      "history": "发展历程",
+      "services": "服务",
+      "title": "公司介绍"
+    }
+  },
+  "footer": {
+    "company_name": "Global Money Express",
+    "copyright": "\u00a9 Global Money Express, All rights reserved.",
+    "info": {
+      "address": "地址：首尔特别市永登浦区永登浦路150 盛角工场长山 B栋 901~911号",
+      "email_corporate": "企业合作：corporate@gmeremit.com",
+      "email_support": "客户支持：support@gmeremit.com",
+      "fax": "传真：(+82) 2 3674 5559",
+      "phone_foreigner": "(+82) 02-1588-6864（外国人专线）",
+      "phone_general": "02-3673-5559（一般咨询）",
+      "phone_korean": "02-1811-2961（韩语、汇款咨询）"
+    },
+    "link": {
+      "company_intro": "公司介绍",
+      "privacy": "隐私政策",
+      "terms": "服务条款"
+    }
+  },
+  "header": {
+    "link": {
+      "careers": "招聘",
+      "gme_biz": "GME Biz"
+    },
+    "nav": {
+      "blog": "博客",
+      "branches": "分行",
+      "card": "GME Card",
+      "ceo_message": "CEO致辞",
+      "company": "公司介绍",
+      "history": "发展历程",
+      "loan": "GME贷款",
+      "news": "新闻",
+      "notice": "公告",
+      "payments": "GME Payments (B2B)",
+      "press": "新闻/媒体",
+      "remittance": "GME APP汇款",
+      "services": "服务",
+      "services_menu": "服务",
+      "social_channels": "社交频道",
+      "support": "客服支持"
+    }
+  },
+  "home": {
+    "app_download": {
+      "chips": [
+        "实时汇率",
+        "最优金额",
+        "安全认证"
+      ],
+      "description": "便捷安全的认证、最优金额、快速汇款。GME Remit APP让一切安全又方便。",
+      "qr_scan": "扫描二维码",
+      "subtitle": "GME REMIT APP",
+      "title1": "更快汇款，",
+      "title2": "更智能管理"
+    },
+    "cards": {
+      "black": {
+        "cta": "查看Black Card",
+        "desc": "专为海外消费打造的高端卡片。随时随地享受最高返现优惠。",
+        "highlights": [
+          "海外3%返现",
+          "国内0.3%返现",
+          "特别活动折扣",
+          "地铁·公交·出租车便捷支付"
+        ]
+      },
+      "easyG0": {
+        "cta": "查看EasyGo Card",
+        "desc": "让每一刻更加便利。从交通到购物，尽享各季专属优惠。",
+        "highlights": [
+          "后付费交通卡",
+          "季节性返现",
+          "全球支付",
+          "线上线下购物"
+        ]
+      },
+      "image_alt": "卡片图片",
+      "red": {
+        "cta": "查看Red Card",
+        "desc": "GME标志色彩卡片。让每一次支付都充满格调。",
+        "highlights": [
+          "国内0.3%返现",
+          "特别活动折扣",
+          "地铁·公交·出租车便捷支付",
+          "公共交通"
+        ]
+      },
+      "uniq": {
+        "cta": "查看Uniq Card",
+        "desc": "从18个国家30多种设计中选择专属于您的卡片。",
+        "highlights": [
+          "国内0.3%返现",
+          "特别活动折扣",
+          "18个国家30多种设计",
+          "地铁·公交·出租车便捷支付"
+        ]
+      },
+      "white": {
+        "cta": "查看White Card",
+        "desc": "简洁清爽的日常卡片。方便国内支付和公共交通使用。",
+        "highlights": [
+          "国内0.3%返现",
+          "特别活动折扣",
+          "地铁·公交·出租车便捷支付",
+          "公共交通"
+        ]
+      }
+    },
+    "exchange": {
+      "calculator": {
+        "realtime": "实时",
+        "receive_amount": "收款金额",
+        "receive_country": "收款国家",
+        "send_amount": "汇款金额",
+        "title": "实时汇率计算器"
+      },
+      "description1": "200多个国家的实时汇率。",
+      "description2": "费用透明公开。",
+      "stats": {
+        "countries": "200+",
+        "countries_label": "支持国家",
+        "service": "24/7",
+        "service_label": "实时服务"
+      },
+      "title1": "立即查看",
+      "title2": "汇率"
+    },
+    "global_payments": {
+      "button": {
+        "detail": "了解更多支付信息"
+      },
+      "card": {
+        "status": "运行中",
+        "subtitle": "企业解决方案",
+        "title": "支付解决方案"
+      },
+      "description": "工资发放、合作伙伴结算、电商支付。高性价比的企业支付解决方案。",
+      "features": {
+        "smb": "SMB",
+        "smb_desc": "电商解决方案",
+        "sps": "SPS",
+        "sps_desc": "B2B支付解决方案",
+        "vas": "VAS",
+        "vas_desc": "通知·报表·仪表板"
+      },
+      "stats": {
+        "cost_saving": "成本节省",
+        "cost_saving_change": "相比传统方式",
+        "cost_saving_value": "最高70%",
+        "partners": "合作伙伴",
+        "partners_change": "全球",
+        "partners_value": "200+",
+        "success_rate": "成功率",
+        "success_rate_change": "通常",
+        "success_rate_value": "99.8%"
+      },
+      "title": "全球支付",
+      "transactions": {
+        "b2b": "B2B批量汇款",
+        "completed": "已完成",
+        "just_now": "刚刚",
+        "merchant": "商户支付",
+        "mins_ago": "分钟前",
+        "partner": "合作伙伴结算",
+        "processing": "处理中",
+        "title": "最近交易"
+      }
+    },
+    "hero": {
+      "badge": "卓越的汇款服务",
+      "button": {
+        "learn_more": "了解更多"
+      },
+      "countries": {
+        "more": "更多",
+        "names": {
+          "BD": "孟加拉国",
+          "CN": "中国",
+          "ID": "印度尼西亚",
+          "JP": "日本",
+          "LK": "斯里兰卡",
+          "MM": "缅甸",
+          "NP": "尼泊尔",
+          "PH": "菲律宾",
+          "PK": "巴基斯坦",
+          "TH": "泰国",
+          "US": "美国",
+          "VN": "越南"
+        },
+        "realtime": "实时",
+        "subtitle": "支持200多个国家",
+        "title": "支持国家",
+        "view_all": "了解汇款"
+      },
+      "description1": "向200多个国家汇款，韩国所有银行实时到账。",
+      "description2": "70个全球合作伙伴和E-KYC认证，安全可靠。",
+      "rating": "App Store·Google Play 平均",
+      "stats": {
+        "avg_time": "平均汇款时间",
+        "seconds": "秒",
+        "total_amount": "累计汇款额",
+        "trillion": "万亿+"
+      },
+      "title1": "快速安全的",
+      "title2": "海外汇款"
+    },
+    "loan": {
+      "button": {
+        "apply": "在GME APP中申请贷款",
+        "detail": "了解更多贷款信息"
+      },
+      "card": {
+        "quick_apply": "快速申请",
+        "subtitle": "外国人专用贷款",
+        "title": "GME Finance"
+      },
+      "description": "GME APP几分钟即可申请贷款。随时随地实时查看处理状态和余额。",
+      "features": {
+        "countries": {
+          "desc": "国家",
+          "label": "14+"
+        },
+        "realtime": {
+          "desc": "追踪",
+          "label": "实时"
+        },
+        "simple": {
+          "desc": "APP申请",
+          "label": "简单"
+        },
+        "success": {
+          "desc": "放贷笔数",
+          "label": "100万+"
+        },
+        "support": {
+          "desc": "客服",
+          "label": "24/7"
+        }
+      },
+      "stats": {
+        "desc": "100万+笔放贷·14个国家",
+        "title": "累计放贷业绩",
+        "value": "₩500B+"
+      },
+      "title": "在线贷款"
+    },
+    "remittance": {
+      "button": {
+        "detail": "了解更多汇款信息"
+      },
+      "description": "快速安全地向200多个国家汇款。",
+      "features": {
+        "fast": {
+          "back_desc": "无需复杂步骤，只需轻触几下即可向全世界汇款。",
+          "back_title": "简单汇款",
+          "desc": "只需几次点击即可完成海外汇款",
+          "sub": "几次点击",
+          "title": "快速汇款"
+        },
+        "global": {
+          "back_desc": "通过200多个国家和70个全球合作伙伴向全世界汇款。",
+          "back_title": "全球网络",
+          "desc": "全球超过100万用户信赖GME",
+          "sub": "100万+用户",
+          "title": "200+个国家"
+        },
+        "optimized": {
+          "back_desc": "比银行手续费低90%。实时汇率让您汇出更多。",
+          "back_title": "大幅节省成本",
+          "desc": "比银行便宜90%的手续费和更优惠的汇率",
+          "sub": "节省90%",
+          "title": "最优金额"
+        },
+        "security": {
+          "back_desc": "通过E-KYC认证和金融委员会注册服务安全汇款。",
+          "back_title": "全方位安全保障",
+          "desc": "强大安全保障让您安心使用",
+          "sub": "已认证",
+          "title": "简单·安全"
+        }
+      },
+      "title": "海外汇款"
+    },
+    "section_nav": {
+      "app_download": "下载APP",
+      "exchange": "汇率计算器",
+      "home": "首页",
+      "services": "服务",
+      "testimonials": "用户评价"
+    },
+    "services": {
+      "card": {
+        "desc1": "连接汇款和消费的智能卡片。",
+        "desc2": "全球支付的新标准。",
+        "title": "GME Card"
+      },
+      "loan": {
+        "desc1": "快速审批、灵活条件",
+        "desc2": "数字贷款服务",
+        "estimated_limit": "预估额度",
+        "title": "在线贷款"
+      },
+      "payments": {
+        "desc1": "批量支付、结算、合作伙伴汇款。",
+        "desc2": "快速安全的企业支付流程。",
+        "title": "全球支付"
+      },
+      "remittance": {
+        "desc1": "快速安全地汇款",
+        "desc2": "支持200多个国家。",
+        "title": "海外汇款"
+      },
+      "title1": "了解GME的",
+      "title2": "多样化服务"
+    },
+    "testimonials": {
+      "subtitle": "来自真实客户的使用体验。",
+      "tags": {
+        "easy_tracking": "便捷汇款·追踪",
+        "fast_process": "快速处理",
+        "satisfied": "满意的服务"
+      },
+      "title": "用户评价"
+    }
+  },
+  "loan": {
+    "cta": {
+      "button": "下载APP",
+      "description": "通过手机轻松申请，快速获取所需资金。",
+      "title": "立即通过GME APP开始贷款"
+    },
+    "details": {
+      "contract": {
+        "label": "签约方式",
+        "value": "电子合同"
+      },
+      "duration": {
+        "label": "贷款期限",
+        "value": "3～45个月"
+      },
+      "early_settlement": {
+        "label": "提前还款手续费",
+        "value": "免费"
+      },
+      "loanable": {
+        "label": "可贷金额",
+        "value": "200万～3,500万"
+      },
+      "max_amount": {
+        "label": "最高贷款额",
+        "value": "最高3,500万"
+      },
+      "repayment": {
+        "label": "还款方式",
+        "value": "每月分期还款"
+      },
+      "title": "贷款详情",
+      "visa_period": {
+        "label": "签证剩余有效期",
+        "value": "7～48个月"
+      },
+      "visa_types": {
+        "label": "可申请签证类型",
+        "value": "E9, E7, F2, F5, F6, D8及所有拥有合法劳动合同的签证"
+      }
+    },
+    "faq": {
+      "items": [
+        {
+          "a": "D-2、E-9、E-10、E-7、E-1、E-2、E-3、F-2、F-2R、F-5、F-6、F-4、G-1签证持有者可申请。根据签证类型，可申请的产品可能有所不同。",
+          "q": "哪些签证持有者可以申请贷款？"
+        },
+        {
+          "a": "只需三份文件：外国人登录证(ARC)、劳动合同书、护照。无需繁琐文件，流程简单便捷。",
+          "q": "需要哪些文件？"
+        },
+        {
+          "a": "可通过GME Finance手机APP轻松申请。只需智能手机，随时随地快速安全地申请贷款。",
+          "q": "如何申请贷款？"
+        },
+        {
+          "a": "GME Finance通过专为外国客户设计的系统安全管理个人信息。请放心使用我们的服务。",
+          "q": "个人信息安全吗？"
+        }
+      ],
+      "title": "常见问题"
+    },
+    "hero": {
+      "badge": "GME FINANCE",
+      "cta": "查看贷款产品",
+      "description": "通过GME APP轻松申请贷款。快速审批和灵活条件，助力您在韩国的生活。",
+      "title1": "外国人专用",
+      "title2": "贷款服务"
+    },
+    "process": {
+      "step1": {
+        "desc": "在Google Play Store或App Store下载GME APP，注册并申请贷款。",
+        "title": "通过GME APP申请"
+      },
+      "step2": {
+        "desc": "填写个人信息并提交所需文件。",
+        "title": "提交材料"
+      },
+      "step3": {
+        "desc": "工作人员将审核文件并进行信用评估。",
+        "title": "审核"
+      },
+      "step4": {
+        "desc": "审批通过后，进行电子合同签署。",
+        "title": "审批"
+      },
+      "step5": {
+        "desc": "签署合同后，贷款金额将打入您的银行账户。",
+        "title": "放款"
+      },
+      "subtitle": "5步申请流程",
+      "title": "简单的贷款申请"
+    },
+    "products": {
+      "business_loan": {
+        "desc": "企业运营资金",
+        "name": "商业贷款"
+      },
+      "car_loan": {
+        "desc": "购车资金",
+        "name": "购车贷款"
+      },
+      "gme_loan": {
+        "desc": "一般生活费",
+        "name": "GME贷款"
+      },
+      "house_loan": {
+        "desc": "全租·月租保证金",
+        "name": "住房贷款"
+      },
+      "property_loan": {
+        "desc": "不动产抵押贷款",
+        "name": "房产贷款"
+      },
+      "student_loan": {
+        "desc": "学费·教育费",
+        "name": "学生贷款"
+      },
+      "subtitle": "比较并选择最适合您需求的贷款产品。",
+      "title": "贷款产品",
+      "title2": "为您量身定制",
+      "vacation_loan": {
+        "desc": "旅行·休假资金",
+        "name": "旅行贷款"
+      }
+    },
+    "why": {
+      "badge": "Powered by GME Finance",
+      "countries": {
+        "desc": "服务国家",
+        "title": "14+"
+      },
+      "description": "我们为14个以上国家的外国客户提供量身定制的贷款服务。100万+笔放贷和累计放贷额5,000亿韩元以上的信赖，等您来体验。",
+      "realtime": {
+        "desc": "状态追踪",
+        "title": "实时"
+      },
+      "simple": {
+        "desc": "通过手机APP",
+        "title": "简单申请"
+      },
+      "stats_desc": "100万+笔放贷·14个国家",
+      "stats_label": "累计放贷额",
+      "stats_value": "₩500B+",
+      "success": {
+        "desc": "放贷笔数",
+        "title": "100万+"
+      },
+      "support": {
+        "desc": "客服支持",
+        "title": "24/7"
+      },
+      "title": "为什么选择GME贷款"
+    }
+  },
+  "remittance": {
+    "features": {
+      "app": {
+        "desc": "轻触几下即可完成汇款",
+        "title": "APP汇款"
+      },
+      "branches": {
+        "desc": "在全国各分行获得帮助",
+        "title": "线下分行"
+      },
+      "convenient": {
+        "desc": "任何人都能轻松使用的直观操作",
+        "title": "便捷操作"
+      },
+      "multilingual": {
+        "desc": "支持多语言使用",
+        "title": "多语言支持"
+      },
+      "subtitle": "汇款和追踪全在一个APP里",
+      "title": "更简单",
+      "title2": "更安全地汇款"
+    },
+    "hero": {
+      "badge": "GME REMITTANCE",
+      "cta": "查看服务",
+      "description": "快速安全地向200多个国家汇款。",
+      "title1": "快速安全的",
+      "title2": "海外汇款"
+    },
+    "process": {
+      "step1": {
+        "desc": "安装GME APP并完成实名认证。",
+        "title": "安装·实名认证"
+      },
+      "step2": {
+        "desc": "选择收款国家、账户信息和金额。",
+        "title": "输入收款人信息"
+      },
+      "step3": {
+        "desc": "完成付款，实时追踪汇款状态。",
+        "title": "汇款完成"
+      },
+      "subtitle": "从申请到完成3个步骤",
+      "title": "简单的",
+      "title2": "汇款流程"
+    },
+    "regions": {
+      "more": "还支持更多国家",
+      "subtitle": "覆盖亚洲、欧洲、美洲、非洲等200多个国家。",
+      "title": "全球",
+      "title2": "覆盖范围"
+    },
+    "stats": {
+      "achieved": {
+        "label": "累计汇款额",
+        "value": "₩3.5T+"
+      },
+      "branches": {
+        "label": "韩国分行",
+        "value": "12"
+      },
+      "languages": {
+        "label": "支持语言",
+        "value": "14"
+      },
+      "savings": {
+        "label": "手续费节省",
+        "value": "90%"
+      }
+    },
+    "trust": {
+      "desc": "Global Money Express（GME）是经韩国经济产业部和金融监督院许可的金融机构，提供安全可靠的服务。",
+      "insurance": "电子金融交易服务赔偿责任保险：3亿韩元",
+      "title": "我们提供安全的服务。"
+    },
+    "why": {
+      "items": {
+        "cheapest": {
+          "desc": "比传统银行更优惠的手续费和汇率。",
+          "title": "有竞争力的费用"
+        },
+        "fastest": {
+          "desc": "实时处理最大限度缩短汇款时间。",
+          "title": "快速汇款"
+        },
+        "secure": {
+          "desc": "增强的实名认证和安全保护。",
+          "title": "安全认证"
+        }
+      },
+      "subtitle": "为什么选择GME Remittance",
+      "title": "值得信赖的全球汇款服务"
+    }
+  },
+  "support": {
+    "branches": {
+      "address": "地址",
+      "data": {
+        "1": {
+          "address": "首尔特别市钟路区钟路315（东大门站3号出口）",
+          "hours": "工作日·周末 10:00 - 19:00",
+          "name": "东大门分行"
+        },
+        "2": {
+          "address": "京畿道安山市檀园区多文化路6 1楼",
+          "hours": "工作日·周末 10:00 - 19:00",
+          "name": "安山分行"
+        },
+        "3": {
+          "address": "首尔特别市中区乙支路44街12 3楼（蒙古城）",
+          "hours": "工作日·周末 10:00 - 19:00",
+          "name": "蒙古城分行"
+        },
+        "4": {
+          "address": "首尔特别市永登浦区道林路134 1楼",
+          "hours": "工作日·周末 10:00 - 19:00",
+          "name": "大林分行"
+        },
+        "5": {
+          "address": "首尔特别市龙山区梨泰院路10街36",
+          "hours": "工作日·周末 10:00 - 19:00",
+          "name": "梨泰院分行"
+        },
+        "6": {
+          "address": "京畿道水原市八达区梅山路2-10",
+          "hours": "工作日·周末 10:00 - 19:00",
+          "name": "水原分行"
+        },
+        "7": {
+          "address": "京畿道华城市乡南邑3·1万岁路1109-3 1楼",
+          "hours": "周五～周二 10:00 - 19:00",
+          "name": "华城分行"
+        },
+        "8": {
+          "address": "京畿道抱川市苏屹邑松墨路91（农协银行旁）",
+          "hours": "周六～周三 10:00 - 19:00",
+          "name": "松内分行"
+        },
+        "9": {
+          "address": "仁川广域市富平区光场路16（富平站购物中心）",
+          "hours": "周六～周三 10:00 - 19:00",
+          "name": "富平分行"
+        },
+        "10": {
+          "address": "大邱广域市达西区城西路69街64 1楼",
+          "hours": "工作日 10:00 - 18:00，周末 10:00 - 19:00",
+          "name": "大邱分行"
+        },
+        "11": {
+          "address": "庆尚南道金海市伽落路84（Top Mart对面）",
+          "hours": "工作日·周末 10:00 - 19:00",
+          "name": "金海分行"
+        },
+        "12": {
+          "address": "光州广域市光山区光山路7-2",
+          "hours": "周六～周三 10:00 - 19:00",
+          "name": "光州分行"
+        }
+      },
+      "hours": "营业时间",
+      "phone": "电话"
+    },
+    "hero": {
+      "desc1": "通过全国分行和全球社交频道，",
+      "desc2": "随时获取帮助或咨询。",
+      "desc3": "查找附近分行或通过社交媒体联系我们。",
+      "title": "GME，始终在您身边"
+    },
+    "social_channels": {
+      "contact": "联系我们",
+      "countries": {
+        "african-region": "非洲地区",
+        "bangladesh": "孟加拉国",
+        "cambodia": "柬埔寨",
+        "china": "中国",
+        "india": "印度",
+        "indonesia": "印度尼西亚",
+        "japan": "日本",
+        "korea": "韩国",
+        "mongolia": "蒙古",
+        "myanmar": "缅甸",
+        "nepal": "尼泊尔",
+        "pakistan": "巴基斯坦",
+        "philippines": "菲律宾",
+        "srilanka": "斯里兰卡",
+        "thailand": "泰国",
+        "uzbekistan-cis": "乌兹别克斯坦·CIS",
+        "vietnam": "越南",
+        "western": "欧美"
+      },
+      "countries_count": "38个国家",
+      "description": "通过各国GME官方频道与我们联系",
+      "operating": "运营中",
+      "title": "全球社交频道"
+    },
+    "stats": {
+      "branches_label": "分行",
+      "branches_unit": "+",
+      "branches_value": "12",
+      "countries_label": "服务国家",
+      "countries_unit": "+",
+      "countries_value": "38",
+      "services_label": "服务",
+      "services_unit": "+",
+      "services_value": "8"
+    },
+    "tabs": {
+      "branches": "分行",
+      "social_channels": "社交频道"
+    }
+  }
+}

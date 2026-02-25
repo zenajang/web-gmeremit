@@ -6,6 +6,21 @@ import { useCallback, useMemo } from "react";
 // Import all translation files
 import en from "@messages/en.json";
 import ko from "@messages/ko.json";
+import zh from "@messages/zh.json";
+import ja from "@messages/ja.json";
+import vi from "@messages/vi.json";
+import id from "@messages/id.json";
+import tl from "@messages/tl.json";
+import th from "@messages/th.json";
+import hi from "@messages/hi.json";
+import bn from "@messages/bn.json";
+import ne from "@messages/ne.json";
+import km from "@messages/km.json";
+import ur from "@messages/ur.json";
+import my from "@messages/my.json";
+import mn from "@messages/mn.json";
+import uz from "@messages/uz.json";
+import si from "@messages/si.json";
 
 type TranslationValue = string | string[] | Record<string, unknown>;
 type Translations = Record<string, unknown>;
@@ -13,6 +28,21 @@ type Translations = Record<string, unknown>;
 const translations: Record<string, Translations> = {
   en,
   ko,
+  zh,
+  ja,
+  vi,
+  id,
+  tl,
+  th,
+  hi,
+  bn,
+  ne,
+  km,
+  ur,
+  my,
+  mn,
+  uz,
+  si,
 };
 
 /**
