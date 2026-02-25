@@ -18,7 +18,7 @@ export default function Home() {
       <ScrollSnap />
       <SectionNav />
 
-      <main className="pt-16 lg:pt-[100px]">
+      <main className="pt-5 lg:pt-[10px]">
         {/* Hero Section */}
         <HeroMain />
 

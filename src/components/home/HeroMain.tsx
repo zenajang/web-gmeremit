@@ -10,14 +10,14 @@ export default function HeroMain() {
   const { t } = useTranslation("home.hero");
 
   return (
-    <section className="relative bg-gradient-to-b from-white to-gray-50 overflow-hidden snap-section min-h-svh">
+    <section className="relative flex flex-col min-h-svh bg-gradient-to-b from-white to-gray-50 overflow-hidden snap-section">
       {/* Background Effects */}
       <div className="absolute inset-0">
         <div className="absolute top-1/4 -left-10 w-[320px] h-[320px] sm:w-[500px] sm:h-[500px] rounded-full bg-primary/[0.06] blur-[80px] sm:blur-[100px]" />
         <div className="absolute bottom-1/4 right-0 w-[260px] h-[260px] sm:w-[400px] sm:h-[400px] rounded-full bg-primary/[0.04] blur-[64px] sm:blur-[80px]" />
       </div>
 
-      <div className="relative flex-1 flex items-center max-w-7xl mx-auto w-full px-5 sm:px-6 lg:px-8 pt-20 sm:pt-24 lg:pt-32 pb-10 sm:pb-16 lg:pb-20">
+      <div className="relative flex-1 flex items-center max-w-7xl mx-auto w-full px-5 sm:px-6 lg:px-8 pb-10 sm:pb-16 lg:pb-20">
         <div className="w-full grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
 
           {/* Left - Text Content */}
@@ -78,7 +78,7 @@ export default function HeroMain() {
                 </div>
                 <span className="typo-label">4.7</span>
                 <span className="w-px h-3 bg-gray-300" />
-                <span className="text-xs text-gray-500">{t("rating")}</span>
+                <span className="text-[10px] sm:text-xs text-gray-500">{t("rating")}</span>
               </div>
             </div>
           </div>
@@ -147,7 +147,7 @@ export default function HeroMain() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-56 left-1/2 -translate-x-1/2 hidden lg:flex flex-col items-center gap-2">
+      <div className="absolute bottom-30 left-1/2 -translate-x-1/2 hidden lg:flex flex-col items-center gap-2">
         <div className="w-6 h-10 rounded-full border-2 border-gray-300 flex justify-center pt-2">
           <div className="w-1 h-2.5 rounded-full bg-gray-400 animate-[scrollMouse_1.5s_ease-in-out_infinite]" />
         </div>

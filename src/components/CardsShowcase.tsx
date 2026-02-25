@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "@/hooks/useTranslation";
 import { cardDefs, type CardDef } from "@/data/cardsShowcase";
 import CTAButton from "@/components/ui/CTAButton";
@@ -49,6 +49,22 @@ export default function CardsShowcase() {
       mediaQuery.removeEventListener("change", sync);
     };
   }, []);
+
+  // Mobile swipe
+  const touchStartX = useRef(0);
+  const handleTouchStart = useCallback((e: React.TouchEvent) => {
+    touchStartX.current = e.touches[0].clientX;
+  }, []);
+  const handleTouchEnd = useCallback((e: React.TouchEvent) => {
+    if (!isMobile) return;
+    const deltaX = e.changedTouches[0].clientX - touchStartX.current;
+    if (Math.abs(deltaX) < 50) return;
+    setActiveIndex((prev) =>
+      deltaX < 0
+        ? (prev + 1) % cardDefs.length
+        : (prev - 1 + cardDefs.length) % cardDefs.length
+    );
+  }, [isMobile]);
 
   const activeDef = cardDefs[activeIndex];
   const highlights = tArray(`${activeDef.id}.highlights`);
@@ -104,7 +120,11 @@ export default function CardsShowcase() {
         </div>
       )}
 
-      <div className="relative h-[220px] pb-10 sm:pb-1 sm:h-[520px] lg:h-full lg:min-h-[640px]">
+      <div
+        className="relative h-[220px] pb-10 sm:pb-1 sm:h-[520px] lg:h-full lg:min-h-[640px]"
+        onTouchStart={handleTouchStart}
+        onTouchEnd={handleTouchEnd}
+      >
         {cardDefs.map((card, index) => {
           const offset = positions[index];
           if (Math.abs(offset) > 1) return null;
