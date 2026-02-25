@@ -8,6 +8,35 @@ import { LokaliseApi } from "@lokalise/node-api";
 const ROOT = process.cwd();
 const ENV_PATH = path.join(ROOT, ".env.local");
 const MESSAGES_DIR = path.join(ROOT, "messages");
+const LANG_ISO_MAP = {
+  bn: ["bn_BD", "bn_IN", "bn"],
+  hi: ["hi_IN", "hi"],
+  id: ["id_ID", "id"],
+  ja: ["ja_JP", "ja"],
+  km: ["km_KH", "km"],
+  mn: ["mn_MN", "mn"],
+  my: ["my-MM", "my_MM", "my","my-mm"],
+  ne: ["ne_NP", "ne"],
+  si: ["si_LK", "si"],
+  th: ["th_TH", "th"],
+  tl: ["fil_PH", "tl_PH", "tl"], // Filipino often uses 'fil'
+  ur: ["ur_PK", "ur_IN", "ur"],
+  uz: ["uz_UZ", "uz"],
+  vi: ["vi_VN", "vi"],
+  zh: ["zh_CN", "zh_TW", "zh"],
+};
+
+function langCandidates(code) {
+  return LANG_ISO_MAP[code] ? LANG_ISO_MAP[code] : [code];
+}
+
+async function getProjectLangs(client, projectId) {
+  const res = await client.languages().list({ project_id: projectId });
+  return res.items.map((l) => ({
+    lang_iso: l.lang_iso,
+    lang_name: l.lang_name,
+  }));
+}
 
 function loadEnv(filePath) {
   if (!fs.existsSync(filePath)) return;
@@ -70,21 +99,65 @@ async function push(client, projectId) {
     .readdirSync(MESSAGES_DIR)
     .filter((f) => f.endsWith(".json"));
 
+  const projectLangs = await getProjectLangs(client, projectId);
+  const projectLangIso = new Set(projectLangs.map((l) => l.lang_iso));
+
+  const failed = [];
   for (const filename of files) {
-    const lang_iso = filename.replace(/\.json$/, "");
+    const code = filename.replace(/\.json$/, "");
     const fullPath = path.join(MESSAGES_DIR, filename);
     const data = fs.readFileSync(fullPath);
 
-    await client.files().upload(projectId, {
-      data: data.toString("base64"),
-      filename,
-      lang_iso,
-      detect_icu_plurals: true,
-      cleanup_mode: false,
-      replace_modified: true,
-    });
+    let uploaded = false;
+    let lastErr = null;
 
-    console.log(`⬆️  Uploaded ${filename} (${lang_iso})`);
+    // Prefer a lang_iso that actually exists in the Lokalise project
+    const candidates = langCandidates(code);
+    let chosen = candidates.find((c) => projectLangIso.has(c));
+    if (!chosen) {
+      // Try prefix match like "xx_YY"
+      const prefixMatch = projectLangs.find((l) => l.lang_iso.startsWith(`${code}_`));
+      if (prefixMatch) chosen = prefixMatch.lang_iso;
+    }
+
+    if (chosen) {
+      try {
+        await client.files().upload(projectId, {
+          data: data.toString("base64"),
+          filename,
+          lang_iso: chosen,
+          detect_icu_plurals: true,
+          cleanup_mode: false,
+          replace_modified: true,
+        });
+        console.log(`⬆️  Uploaded ${filename} (${chosen})`);
+        uploaded = true;
+      } catch (err) {
+        lastErr = err?.message || String(err);
+        if (!String(lastErr).includes("Invalid `lang_iso` parameter")) throw err;
+      }
+    }
+
+    if (!uploaded) {
+      failed.push({
+        filename,
+        code,
+        error: lastErr || "Language not found in Lokalise project",
+        candidates,
+      });
+    }
+  }
+
+  if (failed.length) {
+    const details = failed
+      .map(
+        (f) =>
+          `${f.filename} (${f.code}) -> ${f.error}. Candidates tried: ${f.candidates.join(", ")}`
+      )
+      .join("\n");
+    throw new Error(
+      `Some files failed to upload. Check if these languages exist in Lokalise project:\n${details}`
+    );
   }
 
   console.log("✅ Pushed messages/*.json to Lokalise");
