@@ -12,6 +12,7 @@ import { BoardEntry, TabType } from "@/types/board";
 import { useLenis } from "@/hooks/useLenis";
 import { createClient } from "@/lib/supabase/client";
 import { useTranslation } from "@/hooks/useTranslation";
+import DotLoader from "@/components/ui/DotLoader";
 
 export const dynamic = 'force-dynamic';
 
@@ -123,7 +124,7 @@ export default function BoardPage() {
         </section>
 
         {/* Content Section */}
-        <section className="pt-6 lg:pt-10 pb-16 lg:pb-24 animate-fadeIn" style={{ animationDelay: '0.1s' }}>
+        <section className="pt-0 lg:pt-10 pb-16 lg:pb-24 animate-fadeIn" style={{ animationDelay: '0.1s' }}>
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             {/* Tabs */}
             <div className="mb-10">
@@ -131,11 +132,11 @@ export default function BoardPage() {
             </div>
 
             {/* Total Count and Search */}
-            <div className="flex items-center justify-between mb-6">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-6">
               {/* Total Count */}
-              <div className="flex items-center gap-2">
-                <span className="text-base font-semibold text-gray-700">{t("total")}</span>
-                <span className="text-base font-bold text-primary">
+              <div className="flex items-center gap-2 shrink-0">
+                <span className="text-sm sm:text-base font-semibold text-gray-700">{t("total")}</span>
+                <span className="text-sm sm:text-base font-bold text-primary">
                   {totalCount}{t("count_suffix")}
                 </span>
               </div>
@@ -146,8 +147,8 @@ export default function BoardPage() {
 
             {/* Table or Grid based on tab */}
             {loading ? (
-              <div className="rounded-2xl border border-[var(--border-soft)] bg-white py-16 text-center">
-                <p className="text-gray-500">{t("loading")}</p>
+              <div className="rounded-2xl border border-[var(--border-soft)] bg-white py-20 flex justify-center">
+                <DotLoader />
               </div>
             ) : activeTab === "blog" ? (
               <BlogGrid entries={displayedEntries} />

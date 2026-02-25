@@ -35,7 +35,7 @@ export default function BoardTabs({ activeTab }: BoardTabsProps) {
         <button
           key={tab.id}
           onClick={() => handleTabClick(tab.id)}
-          className={`px-8 py-3.5 rounded-full text-base font-semibold transition-all cursor-pointer ${
+          className={`px-4 sm:px-8 py-2.5 rounded-full text-xs sm:text-lg font-semibold transition-all cursor-pointer ${
             activeTab === tab.id
               ? "bg-white border-2 border-primary text-primary"
               : "bg-gray-100 text-gray-600 hover:bg-gray-200"

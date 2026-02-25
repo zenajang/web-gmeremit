@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import DotLoader from "@/components/ui/DotLoader";
 
 interface KakaoLatLng {
   getLat(): number;
@@ -149,7 +150,7 @@ export default function KakaoMap({
       <div ref={mapRef} className="w-full h-full min-h-[500px] rounded-2xl" />
       {!map && (
         <div className="absolute inset-0 flex items-center justify-center bg-gray-100 rounded-2xl">
-          <div className="w-6 h-6 border-2 border-primary border-t-transparent rounded-full animate-spin" />
+          <DotLoader />
         </div>
       )}
     </div>

@@ -5,6 +5,7 @@ import { useParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import { HiChevronLeft, HiArrowDownTray } from "react-icons/hi2";
 import PublicLayout from "@/components/layout/PublicLayout";
+import DotLoader from "@/components/ui/DotLoader";
 import TypeBadge from "@/components/board/TypeBadge";
 import { createClient } from "@/lib/supabase/client";
 import { BoardEntry } from "@/types/board";
@@ -52,8 +53,8 @@ export default function BoardDetailPage() {
   return (
     <PublicLayout className="bg-[var(--surface-0)]">
       {loading ? (
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
-          <p className="text-gray-500">{t("loading")}</p>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 flex justify-center">
+          <DotLoader />
         </div>
       ) : !entry ? (
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
