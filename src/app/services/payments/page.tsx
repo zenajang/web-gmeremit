@@ -104,7 +104,7 @@ export default function PaymentsPage() {
               <span className="inline-block text-sm font-semibold text-payments tracking-wide uppercase mb-3">
                 {t("solutions.label")}
               </span>
-              <h2 className="typo-sub-page-title mb-4">
+              <h2 className="typo-section-title mb-4">
                 {t("solutions.title")}
               </h2>
               <p className="text-gray-500 max-w-lg mx-auto">
@@ -166,7 +166,7 @@ export default function PaymentsPage() {
               <span className="inline-block text-sm font-semibold text-payments tracking-wide uppercase mb-3">
                 {t("features.label")}
               </span>
-              <h2 className="typo-sub-page-title mb-4">
+              <h2 className="typo-section-title mb-4">
                 {t("features.title")}
               </h2>
             </div>
@@ -201,7 +201,7 @@ export default function PaymentsPage() {
               <span className="inline-block text-sm font-semibold text-payments tracking-wide uppercase mb-3">
                 {t("partners.label")}
               </span>
-              <h2 className="typo-sub-page-title">
+              <h2 className="typo-section-title">
                 {t("partners.title")}
               </h2>
             </div>
@@ -232,7 +232,7 @@ export default function PaymentsPage() {
               <span className="inline-block text-sm font-semibold text-payments tracking-wide uppercase mb-3">
                 {t("process.label")}
               </span>
-              <h2 className="typo-sub-page-title">
+              <h2 className="typo-section-title">
                 {t("process.title")}
               </h2>
             </div>

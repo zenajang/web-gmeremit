@@ -68,15 +68,17 @@
 }
 
 /* Home section title: larger titles on snap-scroll sections */
-.typo-section-title {
-  font-size: 1.6rem;     /* text-2xl ~ text-3xl */
-  font-weight: 700;
-  color: var(--color-dark);
-  line-height: 1.28;
-}
-@media (min-width: 640px) {
+@layer components {
   .typo-section-title {
-    font-size: 3rem;      /* text-5xl */
+    font-size: 1.6rem;     /* text-2xl ~ text-3xl */
+    font-weight: 700;
+    color: var(--color-dark);
+    line-height: 1.28;
+  }
+  @media (min-width: 640px) {
+    .typo-section-title {
+      font-size: 3rem;      /* text-5xl */
+    }
   }
 }
 

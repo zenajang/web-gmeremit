@@ -96,7 +96,7 @@ export default function LoanPage() {
                 <p className="text-sm font-semibold text-loan tracking-wide uppercase mb-3">
                   {t("why.badge")}
                 </p>
-                <h2 className="typo-heading mb-4">
+                <h2 className="typo-section-title mb-4">
                   {t("why.title")}
                 </h2>
                 <p className="text-gray-500 leading-relaxed mb-8">
@@ -122,10 +122,10 @@ export default function LoanPage() {
         <section id="products" ref={(el) => { sectionRefs.current[1] = el; }} className="py-20 lg:py-32 fade-section">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12 lg:mb-16">
-              <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-loan leading-tight mb-2">
+              <h2 className="typo-section-title text-loan mb-2">
                 {t("products.title")}
               </h2>
-              <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-dark leading-tight mb-5">
+              <h2 className="typo-section-title mb-5">
                 {t("products.title2")}
               </h2>
               <p className="text-gray-500 text-sm sm:text-base">
@@ -170,7 +170,7 @@ export default function LoanPage() {
         <section ref={(el) => { sectionRefs.current[2] = el; }} className="py-16 lg:py-24 fade-section">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="typo-heading mb-3">
+              <h2 className="typo-section-title mb-3">
                 {t("process.title")}
               </h2>
               <p className="text-gray-500 max-w-2xl mx-auto text-sm">
@@ -212,7 +212,7 @@ export default function LoanPage() {
         <section ref={(el) => { sectionRefs.current[3] = el; }} className="py-16 lg:py-24 fade-section">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-10">
-              <h2 className="typo-heading mb-3">
+              <h2 className="typo-section-title mb-3">
                 {t("faq.title")}
               </h2>
             </div>

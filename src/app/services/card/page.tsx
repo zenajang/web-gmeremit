@@ -53,7 +53,7 @@ export default function CardPage() {
                 <p className="text-sm font-semibold text-primary tracking-wide uppercase mb-3">
                   Powered by Mastercard
                 </p>
-                <h2 className="typo-heading mb-4">
+                <h2 className="typo-section-title mb-4">
                   {t("why.title")}
                 </h2>
                 <p className="text-gray-500 leading-relaxed mb-6">
@@ -115,7 +115,7 @@ export default function CardPage() {
                 <span className="w-1.5 h-1.5 rounded-full bg-primary" />
                 <span className="w-6 h-[2px] bg-primary/40 rounded-full" />
               </div>
-              <h2 className="relative typo-heading mb-5">
+              <h2 className="relative typo-section-title mb-5">
                 {t("grid.title")}
               </h2>
               <p className="relative text-gray-500 max-w-2xl mx-auto text-sm">

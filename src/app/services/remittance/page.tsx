@@ -48,7 +48,7 @@ export default function RemittancePage() {
             <div className="flex items-end justify-between mb-8">
               <div>
                 <p className="text-[15px] lg:text-base text-gray-500 mb-1">{t("why.subtitle")}</p>
-                <h2 className="text-[28px] lg:text-[36px] font-bold text-primary leading-tight">{t("why.title")}</h2>
+                <h2 className="typo-section-title text-primary">{t("why.title")}</h2>
               </div>
             </div>
 
@@ -101,10 +101,10 @@ export default function RemittancePage() {
         <section ref={(el) => { sectionRefs.current[1] = el; }} className="py-20 lg:py-28 bg-gray-50 fade-section">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12 lg:mb-16">
-              <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-primary leading-tight mb-2">
+              <h2 className="typo-section-title text-primary mb-2">
                 {t("features.title")}
               </h2>
-              <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-dark leading-tight mb-5">
+              <h2 className="typo-section-title mb-5">
                 {t("features.title2")}
               </h2>
               <p className="text-gray-500 text-sm sm:text-base">
@@ -137,10 +137,10 @@ export default function RemittancePage() {
         <section ref={(el) => { sectionRefs.current[2] = el; }} className="py-20 lg:py-28 fade-section">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12 lg:mb-16">
-              <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-primary leading-tight mb-2">
+              <h2 className="typo-section-title text-primary mb-2">
                 {t("process.title")}
               </h2>
-              <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-dark leading-tight mb-5">
+              <h2 className="typo-section-title mb-5">
                 {t("process.title2")}
               </h2>
               <p className="text-gray-500 text-sm sm:text-base">
@@ -181,7 +181,7 @@ export default function RemittancePage() {
         {/* ── Trust / Compliance ── */}
         <section ref={(el) => { sectionRefs.current[3] = el; }} className="py-16 lg:py-20 fade-section">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="typo-sub-page-title mb-3">
+            <h2 className="typo-section-title mb-3">
               {t("trust.title")}
             </h2>
             <p className="text-gray-500 leading-relaxed mb-10 max-w-2xl mx-auto">
@@ -210,10 +210,10 @@ export default function RemittancePage() {
           />
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-primary leading-tight mb-2">
+              <h2 className="typo-section-title text-primary mb-2">
                 {t("regions.title")}
               </h2>
-              <h2 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-dark leading-tight mb-5">
+              <h2 className="typo-section-title mb-5">
                 {t("regions.title2")}
               </h2>
               <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto">
