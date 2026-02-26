@@ -12,7 +12,7 @@ export default function PublicLayout({ children, className = "" }: PublicLayoutP
   return (
     <>
       <Header />
-      <main className={`pt-[82px] lg:pt-[120px] min-h-screen ${className}`}>
+      <main className={`pt-[65px] lg:pt-[120px] min-h-screen ${className}`}>
         {children}
       </main>
       <Footer />
