@@ -47,7 +47,7 @@ export default function SupportLayout({
         </div>
 
         {/* Hero Section */}
-        <section className="pt-24 lg:pt-24 pb-8 lg:pb-20 relative z-10">
+        <section className="pt-10 lg:pt-24 pb-8 lg:pb-20 relative z-10">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
             <div className="relative inline-block">
               <h1 className="text-xl lg:text-5xl font-bold text-dark mb-6 lg:mb-10">
