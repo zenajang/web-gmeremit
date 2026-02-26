@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useMemo } from "react";
-import { HiLocationMarker, HiPhone, HiClock } from "react-icons/hi";
+import { useState, useMemo, useRef, useEffect } from "react";
+import { HiLocationMarker, HiPhone, HiClock, HiChevronDown } from "react-icons/hi";
 import KakaoMap from "@/components/KakaoMap";
 import { useTranslation } from "@/hooks/useTranslation";
 import { branchesData, type BranchData } from "@/data/branches";
@@ -25,6 +25,8 @@ export default function BranchesPage() {
   }, [t]);
 
   const [selectedBranchId, setSelectedBranchId] = useState<number>(1);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   const selectedBranch = useMemo(() => {
     return branches.find((b) => b.id === selectedBranchId) || branches[0];
@@ -32,7 +34,18 @@ export default function BranchesPage() {
 
   const handleBranchSelect = (id: number) => {
     setSelectedBranchId(id);
+    setDropdownOpen(false);
   };
+
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+        setDropdownOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   return (
     <div className="flex flex-col gap-4 lg:grid lg:grid-cols-5 lg:gap-6">
@@ -75,19 +88,55 @@ export default function BranchesPage() {
 
       {/* 지점 정보 */}
       <div className="lg:col-span-2 flex flex-col gap-4 lg:gap-6">
+
+        {/* 지점 선택 드롭다운 (데스크탑) */}
+        <div ref={dropdownRef} className="hidden lg:block relative">
+          <button
+            type="button"
+            onClick={() => setDropdownOpen((o) => !o)}
+            className="w-full flex items-center gap-3 px-4 py-3 bg-white border border-gray-200 rounded-xl hover:border-primary/50 transition-colors cursor-pointer shadow-sm"
+          >
+            <HiLocationMarker className="w-4 h-4 text-primary flex-shrink-0" />
+            <span className="flex-1 text-sm font-medium text-dark text-left">{selectedBranch?.name}</span>
+            <HiChevronDown className={`w-4 h-4 text-gray-400 transition-transform duration-200 ${dropdownOpen ? "rotate-180" : ""}`} />
+          </button>
+
+          {dropdownOpen && (
+            <div className="absolute z-10 top-full mt-1 w-full bg-white border border-gray-200 rounded-xl shadow-lg overflow-hidden">
+              <div className="overflow-y-auto max-h-[260px]">
+                {branches.map((branch) => (
+                  <button
+                    key={branch.id}
+                    type="button"
+                    onClick={() => handleBranchSelect(branch.id)}
+                    className={`w-full flex items-center gap-3 px-4 py-2.5 text-left transition-colors cursor-pointer ${
+                      selectedBranchId === branch.id
+                        ? "bg-primary/[0.06] text-primary"
+                        : "text-gray-700 hover:bg-gray-50"
+                    }`}
+                  >
+                    <HiLocationMarker className={`w-3.5 h-3.5 flex-shrink-0 ${selectedBranchId === branch.id ? "text-primary" : "text-gray-300"}`} />
+                    <span className="text-sm font-medium">{branch.name}</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+
         {/* 지점 이미지 */}
         {selectedBranch.image && (
           <div className="rounded-2xl overflow-hidden">
             <img
               src={selectedBranch.image}
               alt={selectedBranch.name}
-              className="w-full h-40 lg:h-56 object-cover"
+              className="w-full h-40 lg:h-44 object-cover"
             />
           </div>
         )}
 
         {/* 지점 정보 카드 */}
-        <div className="bg-gray-50 rounded-2xl p-5 lg:p-8">
+        <div className="bg-gray-50 rounded-2xl p-5 lg:p-6">
           <h3 className="text-lg lg:text-xl font-bold text-dark mb-5">
             {selectedBranch.name}
           </h3>

@@ -141,7 +141,7 @@ export default function KakaoMap({
     if (branch) {
       const position = new window.kakao.maps.LatLng(branch.lat, branch.lng);
       map.setCenter(position);
-      map.setLevel(6); // 확대 레벨 (숫자가 작을수록 확대)
+      map.setLevel(6);
     }
   }, [map, selectedBranchId, branches]);
 
