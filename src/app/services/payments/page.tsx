@@ -171,21 +171,27 @@ export default function PaymentsPage() {
               </h2>
             </div>
 
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 lg:gap-5">
               {featureKeys.map((f) => (
                 <div
                   key={f.key}
-                  className="bg-white rounded-2xl p-7 border border-gray-100 hover:border-payments/20 hover:shadow-lg hover:shadow-payments/[0.04] transition-all duration-300"
+                  className="bg-white rounded-2xl p-4 lg:p-7 border border-gray-100 hover:border-payments/20 hover:shadow-lg hover:shadow-payments/[0.04] transition-all duration-300"
                 >
-                  <div className="w-11 h-11 rounded-xl bg-payments/[0.08] flex items-center justify-center text-payments mb-5">
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d={f.icon} />
-                    </svg>
+                  {/* 모바일: 아이콘 + 제목 가로 정렬 */}
+                  <div className="flex items-center gap-3 mb-1.5 lg:block">
+                    <div
+                      className="w-8 h-8 lg:w-12 lg:h-12 rounded-lg lg:rounded-2xl flex-shrink-0 flex items-center justify-center lg:mb-5 shadow-sm"
+                      style={{ backgroundColor: f.color }}
+                    >
+                      <svg className="w-4 h-4 lg:w-6 lg:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.8}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d={f.icon} />
+                      </svg>
+                    </div>
+                    <h3 className="typo-base-title text-[15px] lg:text-base lg:mb-2">
+                      {t(`features.${f.key}.title`)}
+                    </h3>
                   </div>
-                  <h3 className="typo-base-title mb-2">
-                    {t(`features.${f.key}.title`)}
-                  </h3>
-                  <p className="text-sm text-gray-500 leading-relaxed">
+                  <p className="text-sm text-gray-500 leading-relaxed lg:pl-0 pl-[44px]">
                     {t(`features.${f.key}.description`)}
                   </p>
                 </div>
@@ -252,7 +258,7 @@ export default function PaymentsPage() {
                   <div className="px-5">
                     {/* Step number */}
                     <div className="flex items-center gap-3 mb-5">
-                      <span className="text-[42px] font-extrabold text-payments/15 leading-none">
+                      <span className="text-[42px] font-extrabold text-payments/35 leading-none">
                         {String(idx + 1).padStart(2, "0")}
                       </span>
                       <div className="h-px flex-1 bg-gradient-to-r from-payments/25 to-transparent" />

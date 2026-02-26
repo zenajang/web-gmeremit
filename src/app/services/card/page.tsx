@@ -8,8 +8,16 @@ import CardDetailModal from "@/components/service/CardDetailModal";
 import { useLenis } from "@/hooks/useLenis";
 import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
 import { useTranslation } from "@/hooks/useTranslation";
-import { RiSubwayLine } from "react-icons/ri";
-import { cards, cardBenefitKeys, cardBenefitIconPaths } from "@/data/cards";
+import { FcMoneyTransfer, FcShop,FcGlobe, FcDonate,FcAutomotive } from "react-icons/fc";
+import { cards, cardBenefitKeys } from "@/data/cards";
+
+const benefitIcons: Record<string, React.ReactNode> = {
+  atm:        <FcMoneyTransfer  className="w-10 h-10" />,
+  transit:    <FcAutomotive    className="w-10 h-10" />,
+  global:     <FcGlobe className="w-10 h-10" />,
+  everywhere: <FcShop className="w-10 h-10" />,
+  cashback:   <FcDonate className="w-10 h-10"/>,
+};
 
 export default function CardPage() {
   const { t } = useTranslation("card");
@@ -19,14 +27,7 @@ export default function CardPage() {
 
   const benefits = cardBenefitKeys.map((key) => ({
     key,
-    icon: key === "transit" ? (
-      <RiSubwayLine className="w-9 h-9" />
-    ) : (
-      <svg className="w-9 h-9" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d={cardBenefitIconPaths[key]} />
-      </svg>
-    ),
-    color: "#ed1c24",
+    icon: benefitIcons[key],
   }));
 
   return (
@@ -78,8 +79,7 @@ export default function CardPage() {
                     className="group rounded-xl p-6 text-center bg-white border border-gray-200 shadow-sm hover:shadow-xl hover:border-primary/30 hover:-translate-y-1 transition-all duration-300 fade-step"
                   >
                     <div
-                      className="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300"
-                      style={{ backgroundColor: `${benefit.color}1A`, color: benefit.color }}
+                      className="w-12 h-12 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300"
                     >
                       {benefit.icon}
                     </div>
