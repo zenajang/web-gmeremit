@@ -6,7 +6,8 @@ import ServiceHeroSection from "@/components/service/ServiceHeroSection";
 import { useLenis } from "@/hooks/useLenis";
 import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
 import { useTranslation } from "@/hooks/useTranslation";
-import { remittanceFeatureKeys, remittanceFeatureIconPaths, processStepKeys, processIconPaths, remittanceCountries } from "@/data/remittance";
+import { FcDownload,FcConferenceCall,FcExternal } from "react-icons/fc";
+import { remittanceFeatureKeys, remittanceFeatureIconPaths, processStepKeys, remittanceCountries } from "@/data/remittance";
 
 export default function RemittancePage() {
   const { t } = useTranslation("remittance");
@@ -28,11 +29,11 @@ export default function RemittancePage() {
 
   const processSteps = processStepKeys;
 
-  const processIcons = processIconPaths.map((d, i) => (
-    <svg key={`p${i}`} className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d={d} />
-    </svg>
-  ));
+  const processIcons = [
+    <FcDownload key="step1" className="w-13 h-13" />,
+    <FcConferenceCall  key="step2" className="w-13 h-13" />,
+    <FcExternal  key="step3" className="w-13 h-13" />,
+  ];
 
   const countries = remittanceCountries;
 
@@ -159,12 +160,12 @@ export default function RemittancePage() {
                   )}
 
                   <div className="relative bg-white rounded-2xl border border-gray-200 p-7 text-center hover:shadow-lg transition-shadow duration-300">
-                    <div className="relative inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-primary to-primary-light text-white mb-5 shadow-lg shadow-primary/20">
+                    <div className="inline-flex items-center justify-center w-16 h-16 mb-2 text-primary">
                       {processIcons[idx]}
-                      <span className="absolute -top-2 -right-2 w-7 h-7 rounded-full bg-white text-primary text-sm font-bold flex items-center justify-center shadow-md border border-primary/20">
-                        {idx + 1}
-                      </span>
                     </div>
+                    <p className="text-xs font-bold text-primary tracking-widest uppercase mb-3">
+                      STEP {String(idx + 1).padStart(2, "0")}
+                    </p>
                     <h3 className="typo-card-title mb-2">
                       {t(`process.${step}.title`)}
                     </h3>

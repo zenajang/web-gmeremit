@@ -76,7 +76,7 @@ export default function CardPage() {
                 {benefits.map((benefit) => (
                   <div
                     key={benefit.key}
-                    className="group rounded-xl p-6 text-center bg-white border border-gray-200 shadow-sm hover:shadow-xl hover:border-primary/30 hover:-translate-y-1 transition-all duration-300 fade-step"
+                    className="group rounded-xl p-6 text-center bg-white border border-gray-200 shadow-sm hover:shadow-lg hover:border-primary/30 hover:-translate-y-1 will-change-transform transition-[transform,box-shadow,border-color] duration-200 fade-step"
                   >
                     <div
                       className="w-12 h-12 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300"
@@ -131,7 +131,7 @@ export default function CardPage() {
                 return (
                   <div
                     key={card.key}
-                    className="bg-white rounded-xl border border-gray-200 p-4 lg:p-5 hover:shadow-lg transition-all duration-300 fade-step"
+                    className="bg-white rounded-xl border border-gray-200 p-4 lg:p-5 hover:shadow-md will-change-transform transition-shadow duration-200 fade-step"
                   >
                     {/* Header */}
                     <div className="flex items-start justify-between mb-4">

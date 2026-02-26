@@ -18,11 +18,6 @@ export const remittanceFeatureIconPaths: Record<string, string[]> = {
 
 export const processStepKeys = ["step1", "step2", "step3"] as const;
 
-export const processIconPaths = [
-  "M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3",
-  "M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z",
-  "M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5",
-];
 
 export const remittanceCountries = [
   "Nepal", "Philippines", "Vietnam", "Indonesia", "India",
