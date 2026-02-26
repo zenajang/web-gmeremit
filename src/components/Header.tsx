@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import DesktopNav, { LanguageSelector } from "./header/DesktopNav";
-import MobileNav from "./header/MobileNav";
+import MobileNav, { MobileLanguageBottomSheet } from "./header/MobileNav";
 import type { MenuItem } from "./header/DesktopNav";
 import { useTranslation } from "@/hooks/useTranslation";
 import { menuItemDefs } from "@/data/headerMenu";
@@ -23,6 +23,7 @@ export default function Header() {
   }));
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isLangOpen, setIsLangOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -112,6 +113,20 @@ export default function Header() {
                 <LanguageSelector />
               </div>
 
+              {/* Mobile Language Button */}
+              <button
+                type="button"
+                className="lg:hidden p-2.5 rounded-xl text-dark hover:bg-gray-100 active:scale-95 transition-all duration-150 cursor-pointer"
+                onClick={() => setIsLangOpen(true)}
+                aria-label="Select language"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+                  <circle cx="12" cy="12" r="10" />
+                  <ellipse cx="12" cy="12" rx="4" ry="10" />
+                  <line x1="2" y1="12" x2="22" y2="12" />
+                </svg>
+              </button>
+
               {/* Mobile Menu Button */}
               <button
                 type="button"
@@ -138,6 +153,12 @@ export default function Header() {
         isOpen={isMenuOpen}
         onClose={() => setIsMenuOpen(false)}
         menuItems={menuItems}
+      />
+
+      {/* Mobile Language Bottom Sheet */}
+      <MobileLanguageBottomSheet
+        isOpen={isLangOpen}
+        onClose={() => setIsLangOpen(false)}
       />
     </header>
   );

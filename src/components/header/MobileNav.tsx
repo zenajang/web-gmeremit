@@ -14,62 +14,93 @@ function ChevronDownIcon({ className }: { className?: string }) {
   );
 }
 
-function GlobeIcon({ className }: { className?: string }) {
+function CheckIcon() {
   return (
-    <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" width="20" height="20" strokeWidth="1.5">
-      <circle cx="12" cy="12" r="10" />
-      <ellipse cx="12" cy="12" rx="4" ry="10" />
-      <line x1="2" y1="12" x2="22" y2="12" />
+    <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24" className="text-primary shrink-0">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
     </svg>
   );
 }
 
-// ============ Mobile Language Selector ============
-export function MobileLanguageSelector({ onClose }: { onClose: () => void }) {
+// ============ Language Bottom Sheet ============
+export function MobileLanguageBottomSheet({
+  isOpen,
+  onClose,
+}: {
+  isOpen: boolean;
+  onClose: () => void;
+}) {
   const { currentLanguage, setLanguage } = useLanguage();
-  const [isExpanded, setIsExpanded] = useState(false);
+  const [visible, setVisible] = useState(false);
+  const [animating, setAnimating] = useState(false);
+
+  useEffect(() => {
+    if (isOpen) {
+      setVisible(true);
+      requestAnimationFrame(() => setAnimating(true));
+    } else {
+      setAnimating(false);
+      const timer = setTimeout(() => setVisible(false), 300);
+      return () => clearTimeout(timer);
+    }
+  }, [isOpen]);
+
+  if (!visible) return null;
 
   return (
-    <div className="border-b border-gray-100">
-      <button
-        type="button"
-        className="w-full flex items-center justify-between px-4 py-3 text-dark hover:bg-gray-50 font-medium cursor-pointer"
-        onClick={() => setIsExpanded(!isExpanded)}
-      >
-        <div className="flex items-center gap-2">
-          <GlobeIcon className="text-gray-500" />
-          <span>Language</span>
-          <span className="text-gray-500">({currentLanguage.nativeName})</span>
-        </div>
-        <ChevronDownIcon className={`transition-transform duration-200 ${isExpanded ? "rotate-180" : ""}`} />
-      </button>
+    <>
+      {/* Backdrop */}
+      <div
+        className={`fixed inset-0 bg-black/40 z-[60] transition-opacity duration-300 ${animating ? "opacity-100" : "opacity-0"}`}
+        onClick={onClose}
+        aria-hidden="true"
+      />
 
-      {isExpanded && (
-        <div className="bg-gray-50 max-h-[240px] overflow-y-auto">
-          {languages.map((lang) => (
-            <button
-              key={lang.code}
-              type="button"
-              onClick={() => {
-                setLanguage(lang);
-                onClose();
-              }}
-              className={`w-full flex items-center gap-3 px-6 py-2.5 text-left hover:bg-gray-100 transition-colors duration-150 cursor-pointer ${
-                currentLanguage.code === lang.code ? "bg-gray-100 text-primary" : "text-dark"
-              }`}
-            >
-              <span
-                className="text-[13px] font-bold w-6 shrink-0"
-                style={{ color: lang.color }}
-              >
-                {lang.label}
-              </span>
-              <span className="text-sm">{lang.nativeName}</span>
-            </button>
-          ))}
+      {/* Bottom Sheet */}
+      <div
+        className={`fixed bottom-0 left-0 right-0 bg-white z-[70] rounded-t-2xl transition-transform duration-300 ease-out ${animating ? "translate-y-0" : "translate-y-full"}`}
+      >
+        {/* Handle */}
+        <div className="flex justify-center pt-3">
+          <div className="w-9 h-[3px] bg-gray-200 rounded-full" />
         </div>
-      )}
-    </div>
+
+        {/* Title */}
+        <div className="px-5 pt-5 pb-3">
+          <h3 className="text-[15px] font-semibold text-dark">언어 선택</h3>
+        </div>
+
+        {/* Language List */}
+        <div className="overflow-y-auto max-h-[65vh] pb-8">
+          {languages.map((lang, i) => {
+            const isSelected = currentLanguage.code === lang.code;
+            return (
+              <button
+                key={lang.code}
+                type="button"
+                onClick={() => {
+                  setLanguage(lang);
+                  onClose();
+                }}
+                className={`w-full flex items-center justify-between px-5 py-4 transition-colors duration-100 cursor-pointer ${
+                  isSelected ? "bg-gray-50" : "hover:bg-gray-50"
+                } ${i !== 0 ? "border-t border-gray-100" : ""}`}
+              >
+                <div className="flex flex-col items-start gap-0.5">
+                  <span className={`text-[15px] leading-snug ${isSelected ? "font-semibold text-primary" : "font-medium text-dark"}`}>
+                    {lang.nativeName}
+                  </span>
+                  {lang.nativeName !== lang.name && (
+                    <span className="text-xs text-gray-400">{lang.name}</span>
+                  )}
+                </div>
+                {isSelected && <CheckIcon />}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+    </>
   );
 }
 
@@ -88,7 +119,7 @@ export function MobileAccordion({
     return (
       <Link
         href={item.href ?? "#"}
-        className="block px-4 py-3 text-dark hover:bg-gray-50 font-medium border-b border-gray-100"
+        className="block px-4 py-3 text-base text-dark hover:bg-gray-50 font-medium border-b border-gray-100"
         onClick={onClose}
       >
         {item.label}
@@ -101,7 +132,7 @@ export function MobileAccordion({
     <div className="border-b border-gray-100">
       <button
         type="button"
-        className="w-full flex items-center justify-between px-4 py-3 text-dark hover:bg-gray-50 font-medium cursor-pointer"
+        className="w-full flex items-center justify-between px-4 py-3 text-base text-dark hover:bg-gray-50 font-medium cursor-pointer"
         onClick={() => setIsExpanded(!isExpanded)}
       >
         <span>{item.label}</span>
@@ -114,7 +145,7 @@ export function MobileAccordion({
             <Link
               key={child.label}
               href={child.href}
-              className="block px-6 py-2.5 text-dark hover:bg-gray-100 hover:text-primary"
+              className="block px-6 py-2.5 text-sm text-dark hover:bg-gray-100 hover:text-primary"
               onClick={onClose}
             >
               {child.label}
@@ -172,12 +203,11 @@ export default function MobileNav({
           ))}
           <Link
             href="/company/careers"
-            className="block px-4 py-3 text-dark hover:bg-gray-50 font-medium border-b border-gray-100"
+            className="block px-4 py-3 text-base text-dark hover:bg-gray-50 font-medium border-b border-gray-100"
             onClick={onClose}
           >
             Careers
           </Link>
-          <MobileLanguageSelector onClose={onClose} />
           <div className="px-4 pt-4">
             <Link
               href="/#app-download"

@@ -26,7 +26,7 @@ export default function CompanyTabs({ activeTab }: CompanyTabsProps) {
         <p className="typo-eyebrow text-primary mb-3 relative z-10">
           About Us
         </p>
-        <h2 className="typo-page-title tracking-tight relative z-10">
+        <h2 className="text-xl sm:text-3xl lg:text-5xl font-bold text-dark tracking-tight relative z-10">
           {t("title")}
         </h2>
       </div>

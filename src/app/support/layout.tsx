@@ -47,17 +47,17 @@ export default function SupportLayout({
         </div>
 
         {/* Hero Section */}
-        <section className="pt-16 lg:pt-24 pb-16 lg:pb-20 relative z-10">
+        <section className="pt-24 lg:pt-24 pb-8 lg:pb-20 relative z-10">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
             <div className="relative inline-block">
-              <h1 className="typo-page-title mb-8 lg:mb-10">
+              <h1 className="text-xl lg:text-5xl font-bold text-dark mb-6 lg:mb-10">
                 {t("hero.title")}
               </h1>
               {/* 핀 장식 - 타이틀 오른쪽 상단 */}
               <img
                 src="/images/support/pin.png"
                 alt=""
-                className="absolute -top-2 -right-8 lg:-top-7 lg:-right-20 w-10 h-10 lg:w-24 lg:h-24 object-contain"
+                className="hidden lg:block absolute lg:-top-7 lg:-right-20 lg:w-24 lg:h-24 object-contain"
                 style={{
                   animation: "float 1.5s ease-in-out infinite",
                 }}
@@ -69,28 +69,28 @@ export default function SupportLayout({
                 }
               `}</style>
             </div>
-            <div className="space-y-2 mb-16 lg:mb-20">
-              <p className="text-base lg:text-lg text-gray-700">
+            <div className="space-y-2 mb-10 lg:mb-20">
+              <p className="text-sm lg:text-lg text-gray-700">
                 {t("hero.desc1")}
               </p>
-              <p className="text-base lg:text-lg text-gray-700">
+              <p className="text-sm lg:text-lg text-gray-700">
                 {t("hero.desc2")}
               </p>
-              <p className="text-base lg:text-lg text-gray-700">
+              <p className="text-sm lg:text-lg text-gray-700">
                 {t("hero.desc3")}
               </p>
             </div>
 
             {/* Statistics */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 max-w-4xl mx-auto">
+            <div className="grid grid-cols-3 gap-4 lg:gap-12 max-w-4xl mx-auto">
               {supportStats.map((stat) => (
                 <div key={stat.labelKey} className="flex flex-col items-center">
-                  <div className="w-20 h-20 flex items-center justify-center mb-4">
+                  <div className="w-12 h-12 md:w-20 md:h-20 flex items-center justify-center mb-2 md:mb-4">
                     <Image src={stat.image.src} alt={stat.image.alt} width={stat.image.width} height={stat.image.height} className="w-full h-full object-contain" />
                   </div>
-                  <p className="text-sm text-gray-600 mb-2">{t(stat.labelKey)}</p>
-                  <p className="text-4xl lg:text-5xl font-bold text-dark">
-                    {t(stat.valueKey)}<span className="text-2xl lg:text-3xl ml-1">{t(stat.unitKey)}</span>
+                  <p className="text-[11px] md:text-sm text-gray-600 mb-1 md:mb-2">{t(stat.labelKey)}</p>
+                  <p className="text-2xl md:text-4xl lg:text-5xl font-bold text-dark">
+                    {t(stat.valueKey)}<span className="text-sm md:text-2xl lg:text-3xl ml-0.5">{t(stat.unitKey)}</span>
                   </p>
                 </div>
               ))}
@@ -99,16 +99,16 @@ export default function SupportLayout({
         </section>
 
         {/* Content Section */}
-        <section className="py-12 lg:py-16 relative z-10">
+        <section className="pt-6 pb-12 lg:py-16 relative z-10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             {/* Tabs */}
-            <div className="flex justify-center mb-12">
-              <div className="inline-flex gap-2">
+            <div className="flex justify-center mb-8 lg:mb-12">
+              <div className="inline-flex gap-2 w-full sm:w-auto">
                 {supportTabs.map((tab) => (
                   <Link
                     key={tab.key}
                     href={tab.href}
-                    className={`px-8 py-3 text-base font-medium transition-all rounded-md ${
+                    className={`flex-1 sm:flex-none text-center px-6 py-2.5 text-sm sm:text-base font-medium transition-all rounded-md ${
                       pathname === tab.href
                         ? "bg-primary text-white shadow-lg shadow-primary/30"
                         : "bg-white text-gray-600 hover:bg-gray-50 border border-gray-200"
@@ -121,7 +121,7 @@ export default function SupportLayout({
             </div>
 
             {/* Tab Content */}
-            <div className="bg-white/90 backdrop-blur-sm rounded-xl border border-gray-200 p-8 lg:p-12 shadow-sm">
+            <div className="bg-white/90 backdrop-blur-sm rounded-xl border border-gray-200 p-4 sm:p-8 lg:p-12 shadow-sm">
               {children}
             </div>
           </div>
