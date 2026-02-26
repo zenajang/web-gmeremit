@@ -25,9 +25,10 @@ export default function LoanPage() {
 
   const steps = loanSteps;
 
-  const stepIcons = loanStepIconPaths.map((d, i) => (
-    <svg key={`s${i}`} className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-      <path strokeLinecap="round" strokeLinejoin="round" d={d} />
+  const stepIcons = loanStepIconPaths.map((paths, i) => (
+    <svg key={`s${i}`} className="w-6 h-6 lg:w-10 lg:h-10" fill="none" viewBox="0 0 24 24" strokeWidth={1.8}>
+      <path strokeLinecap="round" strokeLinejoin="round" d={paths.main} stroke="#1F2937" />
+      <path strokeLinecap="round" strokeLinejoin="round" d={paths.accent} stroke="#fbbf24" />
     </svg>
   ));
 
@@ -74,18 +75,21 @@ export default function LoanPage() {
                     </div>
 
                     {/* Mini Feature Icons */}
-                    <div className="grid grid-cols-5 gap-2">
-                      {benefits.map((item) => (
-                        <div
-                          key={item.key}
-                          className="rounded-xl bg-gray-50 p-3 text-center hover:bg-gray-100 transition-colors duration-250 ease-out"
-                        >
-                          <div className="w-10 h-10 rounded-lg bg-white flex items-center justify-center text-loan mx-auto mb-1.5 shadow-sm">
-                            {item.icon}
+                    <div className="grid grid-cols-5 gap-1 sm:gap-2">
+                      {loanBenefitKeys.map((key) => {
+                        const img = loanBenefitImages[key];
+                        return (
+                          <div
+                            key={key}
+                            className="rounded-xl bg-gray-50 p-1.5 sm:p-3 text-center hover:bg-gray-100 transition-colors duration-250 ease-out"
+                          >
+                            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg bg-white flex items-center justify-center text-loan mx-auto mb-1 sm:mb-1.5 shadow-sm">
+                              <Image src={img.src} alt={img.alt} width={24} height={24} className="w-5 h-5 sm:w-7 sm:h-7 object-contain" />
+                            </div>
+                            <p className="text-[9px] sm:text-[11px] font-bold text-dark leading-tight">{t(`why.${key}.title`)}</p>
                           </div>
-                          <p className="text-[11px] font-bold text-dark">{t(`why.${item.key}.title`)}</p>
-                        </div>
-                      ))}
+                        );
+                      })}
                     </div>
                   </div>
                 </div>
@@ -173,7 +177,7 @@ export default function LoanPage() {
               <h2 className="typo-section-title mb-3">
                 {t("process.title")}
               </h2>
-              <p className="text-gray-500 max-w-2xl mx-auto text-sm">
+              <p className="max-w-2xl mx-auto text-lg font-semibold text-dark">
                 {t("process.subtitle")}
               </p>
             </div>
@@ -181,21 +185,25 @@ export default function LoanPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5">
               {steps.map((step, idx) => (
                 <div key={step} className="relative fade-step">
-                  {/* Connector line */}
+                  {/* Chevron connector */}
                   {idx < steps.length - 1 && (
-                    <div className="hidden lg:block absolute top-8 left-[calc(50%+28px)] w-[calc(100%-56px)] h-[2px] bg-gradient-to-r from-loan/30 to-loan/10" />
+                    <div className="hidden lg:flex absolute top-14 right-0 translate-x-1/2 z-10 items-center justify-center">
+                      <svg className="w-5 h-5 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                      </svg>
+                    </div>
                   )}
 
                   <div className="text-center">
-                    {/* Step number + icon */}
-                    <div className="relative inline-flex items-center justify-center w-18 h-18 rounded-2xl bg-gradient-to-br from-loan to-loan-light text-white mb-4 shadow-lg shadow-loan/20">
+                    {/* Icon circle */}
+                    <div className="inline-flex items-center justify-center w-16 h-16 lg:w-28 lg:h-28 rounded-full bg-gray-50 mb-3">
                       {stepIcons[idx]}
-                      <span className="absolute -top-1.5 -right-1.5 w-6 h-6 rounded-full bg-white text-loan text-sm font-bold flex items-center justify-center shadow-md">
-                        {idx + 1}
-                      </span>
                     </div>
 
-                    <h3 className="typo-card-title mb-2">
+                    <p className="text-[13px] font-bold text-loan mb-0.5">
+                      STEP 0{idx + 1}.
+                    </p>
+                    <h3 className="typo-card-title mb-1.5">
                       {t(`process.${step}.title`)}
                     </h3>
                     <p className="text-sm text-gray-500 leading-relaxed">
