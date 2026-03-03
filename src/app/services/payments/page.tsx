@@ -7,6 +7,7 @@ import ServiceHeroSection from "@/components/service/ServiceHeroSection";
 import { useLenis } from "@/hooks/useLenis";
 import { useTranslation } from "@/hooks/useTranslation";
 import { solutions as solutionsData, paymentFeatureKeys, partnerLogos, paymentProcessSteps } from "@/data/payments";
+import SectionHeader from "@/components/ui/SectionHeader";
 
 export default function PaymentsPage() {
   const { t } = useTranslation("business");
@@ -94,23 +95,17 @@ export default function PaymentsPage() {
 
   return (
     <PublicLayout className="bg-white">
-
         <ServiceHeroSection translationKey="business" color="payments" ctaHref="https://developers.gmeremit.com/" ctaTextKey="hero.cta_docs" isExternal />
-
         {/* ── Core Solutions (SPS / VAS) ── */}
         <section ref={(el) => { sectionRefs.current[0] = el; }} className="py-24 lg:py-32 fade-section">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <span className="inline-block text-sm font-semibold text-payments tracking-wide uppercase mb-3">
-                {t("solutions.label")}
-              </span>
-              <h2 className="typo-section-title mb-4">
-                {t("solutions.title")}
-              </h2>
-              <p className="text-gray-500 max-w-lg mx-auto">
-                {t("solutions.description")}
-              </p>
-            </div>
+            <SectionHeader
+              label={t("solutions.label")}
+              title={t("solutions.title")}
+              description={t("solutions.description")}
+              colorClass="text-payments"
+              className="mb-16"
+            />
 
             <div className="grid lg:grid-cols-2 gap-6">
               {solutions.map((sol) => (
@@ -162,14 +157,12 @@ export default function PaymentsPage() {
         {/* ── Service Features ── */}
         <section ref={(el) => { sectionRefs.current[1] = el; }} className="py-24 lg:py-32 bg-[#fafbfc] fade-section">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <span className="inline-block text-sm font-semibold text-payments tracking-wide uppercase mb-3">
-                {t("features.label")}
-              </span>
-              <h2 className="typo-section-title mb-4">
-                {t("features.title")}
-              </h2>
-            </div>
+            <SectionHeader
+              label={t("features.label")}
+              title={t("features.title")}
+              colorClass="text-payments"
+              className="mb-16"
+            />
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 lg:gap-5">
               {featureKeys.map((f) => (
@@ -203,14 +196,12 @@ export default function PaymentsPage() {
         {/* ── Partners ── */}
         <section className="py-24 lg:py-32 bg-light">
           <div ref={partnersRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ opacity: partnersVisible ? 1 : 0, transform: partnersVisible ? "translateY(0)" : "translateY(-48px)", transition: "opacity 3s cubic-bezier(0.16, 1, 0.3, 1), transform 3s cubic-bezier(0.16, 1, 0.3, 1)" }}>
-            <div className="text-center mb-16">
-              <span className="inline-block text-sm font-semibold text-payments tracking-wide uppercase mb-3">
-                {t("partners.label")}
-              </span>
-              <h2 className="typo-section-title">
-                {t("partners.title")}
-              </h2>
-            </div>
+            <SectionHeader
+              label={t("partners.label")}
+              title={t("partners.title")}
+              colorClass="text-payments"
+              className="mb-16"
+            />
 
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5">
               {partnerLogos.map((partner) => (
@@ -234,14 +225,12 @@ export default function PaymentsPage() {
         {/* ── Process ── */}
         <section className="py-24 lg:py-32 bg-[#fafbfc]">
           <div ref={processRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-20 fade-step">
-              <span className="inline-block text-sm font-semibold text-payments tracking-wide uppercase mb-3">
-                {t("process.label")}
-              </span>
-              <h2 className="typo-section-title">
-                {t("process.title")}
-              </h2>
-            </div>
+            <SectionHeader
+              label={t("process.label")}
+              title={t("process.title")}
+              colorClass="text-payments"
+              className="mb-20 fade-step"
+            />
 
             {/* Desktop: horizontal flow */}
             <div className="hidden lg:grid lg:grid-cols-4 gap-20">

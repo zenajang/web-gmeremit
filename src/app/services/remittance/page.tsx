@@ -8,6 +8,7 @@ import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
 import { useTranslation } from "@/hooks/useTranslation";
 import { FcDownload,FcConferenceCall,FcExternal } from "react-icons/fc";
 import { remittanceFeatureKeys, remittanceFeatureIconPaths, processStepKeys, remittanceCountries } from "@/data/remittance";
+import SectionHeader from "@/components/ui/SectionHeader";
 
 export default function RemittancePage() {
   const { t } = useTranslation("remittance");
@@ -101,17 +102,12 @@ export default function RemittancePage() {
         {/* ── Transfer Methods ── */}
         <section ref={(el) => { sectionRefs.current[1] = el; }} className="py-20 lg:py-28 bg-gray-50 fade-section">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12 lg:mb-16">
-              <h2 className="typo-section-title text-primary mb-2">
-                {t("features.title")}
-              </h2>
-              <h2 className="typo-section-title mb-5">
-                {t("features.title2")}
-              </h2>
-              <p className="text-gray-500 text-sm sm:text-base">
-                {t("features.subtitle")}
-              </p>
-            </div>
+            <SectionHeader
+              title={t("features.title")}
+              title2={t("features.title2")}
+              description={t("features.subtitle")}
+              colorClass="text-primary"
+            />
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
               {featureItems.map((item) => (
@@ -137,17 +133,12 @@ export default function RemittancePage() {
         {/* ── Process ── */}
         <section ref={(el) => { sectionRefs.current[2] = el; }} className="py-20 lg:py-28 fade-section">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12 lg:mb-16">
-              <h2 className="typo-section-title text-primary mb-2">
-                {t("process.title")}
-              </h2>
-              <h2 className="typo-section-title mb-5">
-                {t("process.title2")}
-              </h2>
-              <p className="text-gray-500 text-sm sm:text-base">
-                {t("process.subtitle")}
-              </p>
-            </div>
+            <SectionHeader
+              title={t("process.title")}
+              title2={t("process.title2")}
+              description={t("process.subtitle")}
+              colorClass="text-primary"
+            />
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
               {processSteps.map((step, idx) => (
@@ -210,17 +201,13 @@ export default function RemittancePage() {
             className="absolute inset-0 w-full h-full object-cover opacity-50"
           />
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12">
-              <h2 className="typo-section-title text-primary mb-2">
-                {t("regions.title")}
-              </h2>
-              <h2 className="typo-section-title mb-5">
-                {t("regions.title2")}
-              </h2>
-              <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto">
-                {t("regions.subtitle")}
-              </p>
-            </div>
+            <SectionHeader
+              title={t("regions.title")}
+              title2={t("regions.title2")}
+              description={t("regions.subtitle")}
+              colorClass="text-primary"
+              className="mb-12"
+            />
 
             <div className="flex flex-wrap justify-center gap-2.5 sm:gap-3">
               {countries.map((country, idx) => {

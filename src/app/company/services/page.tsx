@@ -113,9 +113,9 @@ export default function ServicesPage() {
             {/* Services Grid */}
             <div className="space-y-6 sm:space-y-8">
               {/* Main Services Label */}
-              <div className="flex items-center gap-3">
-                <div className="w-2 h-8 bg-gradient-to-b from-primary to-primary/40 rounded-full"></div>
-                <h2 className="typo-content-title">{t("core_services")}</h2>
+              <div className="hidden sm:inline-flex items-center gap-2 bg-gray-100 rounded-full px-4 py-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0" />
+                <span className="text-sm font-semibold text-gray-600">{t("core_services")}</span>
               </div>
 
               {/* Main Services — 가로 카드 (모바일) / 세로 그리드 (데스크탑) */}
@@ -151,15 +151,18 @@ export default function ServicesPage() {
               </div>
 
               {/* Related Services */}
-              <div className="rounded-2xl bg-primary/5 px-4 py-6 sm:px-10 sm:py-10 text-center">
-                <p className="typo-card-title mb-6 sm:mb-8">{t("related_services")}</p>
+              <div>
+                <div className="hidden sm:inline-flex items-center gap-2 bg-gray-100 rounded-full px-4 py-2 mb-4">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0" />
+                  <span className="text-sm font-semibold text-gray-600">{t("related_services")}</span>
+                </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
                   {relatedServices.map(({ key, img, alt }) => (
-                    <div key={key} className="flex items-center gap-3 rounded-full bg-white border border-gray-100 shadow-sm pl-3 pr-4 py-2.5">
+                    <div key={key} className="flex items-center gap-3 rounded-full bg-white border border-gray-200 shadow-sm pl-3 pr-4 py-2.5">
                       <Image src={img} alt={alt} width={28} height={28} className="w-10 h-10 object-contain shrink-0" />
                       <div className="text-left min-w-0">
-                        <p className="text-[12px] sm:text-[13px] font-semibold text-dark truncate">{t(`${key}.title`)}</p>
-                        <p className="text-[10px] sm:text-[11px] text-gray-400 truncate">{t(`${key}.desc`)}</p>
+                        <p className="text-sm font-semibold text-dark">{t(`${key}.title`)}</p>
+                        <p className="text-xs text-gray-400">{t(`${key}.desc`)}</p>
                       </div>
                     </div>
                   ))}

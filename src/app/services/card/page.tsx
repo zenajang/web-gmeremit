@@ -10,6 +10,7 @@ import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
 import { useTranslation } from "@/hooks/useTranslation";
 import { FcMoneyTransfer, FcShop,FcGlobe, FcDonate,FcAutomotive } from "react-icons/fc";
 import { cards, cardBenefitKeys } from "@/data/cards";
+import SectionHeader from "@/components/ui/SectionHeader";
 
 const benefitIcons: Record<string, React.ReactNode> = {
   atm:        <FcMoneyTransfer  className="w-10 h-10" />,
@@ -51,15 +52,14 @@ export default function CardPage() {
                 />
               </div>
               <div className="w-full lg:w-1/2">
-                <p className="text-sm font-semibold text-primary tracking-wide uppercase mb-3">
-                  Powered by Mastercard
-                </p>
-                <h2 className="typo-section-title mb-4">
-                  {t("why.title")}
-                </h2>
-                <p className="text-gray-500 leading-relaxed mb-6">
-                  {t("why.description")}
-                </p>
+                <SectionHeader
+                  label="Powered by Mastercard"
+                  title={t("why.title")}
+                  description={t("why.description")}
+                  colorClass="text-primary"
+                  align="left"
+                  className="mb-6"
+                />
                 <div className="flex flex-wrap gap-2">
                   {benefits.map((benefit) => (
                     <span key={benefit.key} className="px-3.5 py-1.5 rounded-full bg-dark/[0.06] text-gray-600 text-[13px] font-medium">

@@ -8,6 +8,7 @@ import { useLenis } from "@/hooks/useLenis";
 import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
 import { useTranslation } from "@/hooks/useTranslation";
 import { loanBenefitKeys, loanBenefitImages, productKeys, commonTags, loanSteps, loanStepIconPaths } from "@/data/loan";
+import SectionHeader from "@/components/ui/SectionHeader";
 
 export default function LoanPage() {
   const { t } = useTranslation("loan");
@@ -97,15 +98,14 @@ export default function LoanPage() {
 
               {/* Text Content */}
               <div className="w-full lg:w-7/12">
-                <p className="text-sm font-semibold text-loan tracking-wide uppercase mb-3">
-                  {t("why.badge")}
-                </p>
-                <h2 className="typo-section-title mb-4">
-                  {t("why.title")}
-                </h2>
-                <p className="text-gray-500 leading-relaxed mb-8">
-                  {t("why.description")}
-                </p>
+                <SectionHeader
+                  label={t("why.badge")}
+                  title={t("why.title")}
+                  description={t("why.description")}
+                  colorClass="text-loan"
+                  align="left"
+                  className="mb-8"
+                />
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                   {benefits.map((item) => (
                     <div
@@ -125,17 +125,12 @@ export default function LoanPage() {
         {/* ── Loan Products ── */}
         <section id="products" ref={(el) => { sectionRefs.current[1] = el; }} className="py-20 lg:py-32 fade-section">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12 lg:mb-16">
-              <h2 className="typo-section-title text-loan mb-2">
-                {t("products.title")}
-              </h2>
-              <h2 className="typo-section-title mb-5">
-                {t("products.title2")}
-              </h2>
-              <p className="text-gray-500 text-sm sm:text-base">
-                {t("products.subtitle")}
-              </p>
-            </div>
+            <SectionHeader
+              title={t("products.title")}
+              title2={t("products.title2")}
+              description={t("products.subtitle")}
+              colorClass="text-loan"
+            />
 
             {/* Common Loan Conditions — Tags */}
             <div className="flex flex-wrap items-center justify-center gap-2.5 mb-10">
