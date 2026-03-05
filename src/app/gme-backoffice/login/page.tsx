@@ -43,7 +43,7 @@ export default function AdminLoginPage() {
             height={34}
             className="brightness-0 invert"
           />
-          <p className="mt-1.5 text-[12px] text-gray-500 tracking-wider font-medium">ADMIN CONSOLE</p>
+          <p className="mt-1.5 text-[12px] text-gray-500 tracking-wider font-medium">관리자 시스템</p>
         </div>
 
         <div className="relative z-10 space-y-4">
