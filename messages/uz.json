@@ -178,11 +178,26 @@
           },
           "mainBenefits": {
             "items": [
-              {"desc": "Chet el xaridlarida 3% cashback", "title": "3% Chet el Cashback"},
-              {"desc": "Hamkor do'konlarda cashback", "title": "Mavsumiy Cashback"},
-              {"desc": "Ichki va xalqaro erkin to'lov", "title": "Dunyo bo'ylab to'lov"},
-              {"desc": "Onlayn va oflayn xaridlar uchun erkin to'lov", "title": "Onlayn & Oflayn xarid"},
-              {"desc": "Avtobus, metro, poyezd va barcha jamoat transportida to'lov", "title": "Jamoat transporti"}
+              {
+                "desc": "Chet el xaridlarida 3% cashback",
+                "title": "3% Chet el Cashback"
+              },
+              {
+                "desc": "Hamkor do'konlarda cashback",
+                "title": "Mavsumiy Cashback"
+              },
+              {
+                "desc": "Ichki va xalqaro erkin to'lov",
+                "title": "Dunyo bo'ylab to'lov"
+              },
+              {
+                "desc": "Onlayn va oflayn xaridlar uchun erkin to'lov",
+                "title": "Onlayn & Oflayn xarid"
+              },
+              {
+                "desc": "Avtobus, metro, poyezd va barcha jamoat transportida to'lov",
+                "title": "Jamoat transporti"
+              }
             ],
             "title": "Asosiy afzalliklar"
           },
@@ -217,10 +232,22 @@
           },
           "cardStatus": {
             "items": [
-              {"desc": "Transport karta funksiyasi mavjud bo'lib qoladi.", "status": "Vaqtincha to'xtatilgan"},
-              {"desc": "Karta 2 kun ichida to'xtatiladi. Yo'qolganligi haqida xabar berilgach 2 kundan keyin transport funksiyasi to'xtatiladi.", "status": "Yo'qolganligi haqida xabar"},
-              {"desc": "Karta 2-3 kundan so'ng qayta ishlatiladi.", "status": "Yo'qotishni bekor qilish"},
-              {"desc": "Qayta chiqarilgandan 10 kun o'tgach transport funksiyasi bekor qilinadi.", "status": "Qayta chiqarish"}
+              {
+                "desc": "Transport karta funksiyasi mavjud bo'lib qoladi.",
+                "status": "Vaqtincha to'xtatilgan"
+              },
+              {
+                "desc": "Karta 2 kun ichida to'xtatiladi. Yo'qolganligi haqida xabar berilgach 2 kundan keyin transport funksiyasi to'xtatiladi.",
+                "status": "Yo'qolganligi haqida xabar"
+              },
+              {
+                "desc": "Karta 2-3 kundan so'ng qayta ishlatiladi.",
+                "status": "Yo'qotishni bekor qilish"
+              },
+              {
+                "desc": "Qayta chiqarilgandan 10 kun o'tgach transport funksiyasi bekor qilinadi.",
+                "status": "Qayta chiqarish"
+              }
             ],
             "title": "Karta holatiga ko'ra transportdan foydalanish"
           },
@@ -257,11 +284,26 @@
           },
           "mainBenefits": {
             "items": [
-              {"desc": "Avtobus va metroda balansni to'ldirish shart emas", "title": "Keyin to'lovli transport kartasi"},
-              {"desc": "Hamkor do'konlarda cashback", "title": "Mavsumiy Cashback"},
-              {"desc": "Ichki va xalqaro erkin to'lov", "title": "Dunyo bo'ylab to'lov"},
-              {"desc": "Onlayn va oflayn xaridlar uchun erkin to'lov", "title": "Onlayn & Oflayn xarid"},
-              {"desc": "Balansni tekshirmasdan tegizing va boring — keyin bir yo'la to'lang.", "title": "Keyin to'lovli transport kartasi"}
+              {
+                "desc": "Avtobus va metroda balansni to'ldirish shart emas",
+                "title": "Keyin to'lovli transport kartasi"
+              },
+              {
+                "desc": "Hamkor do'konlarda cashback",
+                "title": "Mavsumiy Cashback"
+              },
+              {
+                "desc": "Ichki va xalqaro erkin to'lov",
+                "title": "Dunyo bo'ylab to'lov"
+              },
+              {
+                "desc": "Onlayn va oflayn xaridlar uchun erkin to'lov",
+                "title": "Onlayn & Oflayn xarid"
+              },
+              {
+                "desc": "Balansni tekshirmasdan tegizing va boring — keyin bir yo'la to'lang.",
+                "title": "Keyin to'lovli transport kartasi"
+              }
             ],
             "title": "Asosiy afzalliklar"
           },
@@ -331,10 +373,22 @@
           },
           "mainBenefits": {
             "items": [
-              {"desc": "Hamkor do'konlarda cashback", "title": "Mavsumiy Cashback"},
-              {"desc": "Ichki va xalqaro erkin to'lov", "title": "Dunyo bo'ylab to'lov"},
-              {"desc": "Onlayn va oflayn xaridlar uchun erkin to'lov", "title": "Onlayn & Oflayn xarid"},
-              {"desc": "Avtobus, metro, poyezd va barcha jamoat transportida to'lov", "title": "Jamoat transporti"}
+              {
+                "desc": "Hamkor do'konlarda cashback",
+                "title": "Mavsumiy Cashback"
+              },
+              {
+                "desc": "Ichki va xalqaro erkin to'lov",
+                "title": "Dunyo bo'ylab to'lov"
+              },
+              {
+                "desc": "Onlayn va oflayn xaridlar uchun erkin to'lov",
+                "title": "Onlayn & Oflayn xarid"
+              },
+              {
+                "desc": "Avtobus, metro, poyezd va barcha jamoat transportida to'lov",
+                "title": "Jamoat transporti"
+              }
             ],
             "title": "Asosiy afzalliklar"
           },
@@ -411,10 +465,22 @@
           },
           "mainBenefits": {
             "items": [
-              {"desc": "Hamkor do'konlarda cashback", "title": "Mavsumiy Cashback"},
-              {"desc": "Ichki va xalqaro erkin to'lov", "title": "Dunyo bo'ylab to'lov"},
-              {"desc": "Onlayn va oflayn xaridlar uchun erkin to'lov", "title": "Onlayn & Oflayn xarid"},
-              {"desc": "Avtobus, metro, poyezd va barcha jamoat transportida to'lov", "title": "Jamoat transporti"}
+              {
+                "desc": "Hamkor do'konlarda cashback",
+                "title": "Mavsumiy Cashback"
+              },
+              {
+                "desc": "Ichki va xalqaro erkin to'lov",
+                "title": "Dunyo bo'ylab to'lov"
+              },
+              {
+                "desc": "Onlayn va oflayn xaridlar uchun erkin to'lov",
+                "title": "Onlayn & Oflayn xarid"
+              },
+              {
+                "desc": "Avtobus, metro, poyezd va barcha jamoat transportida to'lov",
+                "title": "Jamoat transporti"
+              }
             ],
             "title": "Asosiy afzalliklar"
           },
@@ -831,32 +897,64 @@
       "countries": {
         "more": "Yana",
         "names": {
+          "AE": "Birlashgan Arab Amirliklari",
+          "AR": "Argentina",
           "AU": "Avstraliya",
           "BD": "Bangladesh",
+          "BH": "Bahrayn",
+          "BO": "Boliviya",
           "BR": "Braziliya",
           "CA": "Kanada",
+          "CH": "Shveytsariya",
+          "CL": "Chili",
           "CN": "Xitoy",
           "CO": "Kolumbiya",
+          "CZ": "Chexiya Respublikasi",
           "DE": "Germaniya",
+          "DK": "Daniya",
+          "DO": "Dominikan Respublikasi",
+          "FJ": "Fiji",
           "GB": "Buyuk Britaniya",
           "GH": "Gana",
+          "GT": "Gvatemala",
+          "HK": "Gonkong",
+          "HN": "Gonduras",
+          "HU": "Vengriya",
           "ID": "Indoneziya",
+          "IL": "Isroil",
           "IN": "Hindiston",
+          "JO": "Iordaniya",
           "JP": "Yaponiya",
           "KE": "Keniya",
+          "KW": "Quvayt",
           "LK": "Shri Lanka",
+          "MA": "Marokash",
           "MM": "Myanma",
           "MX": "Meksika",
           "MY": "Malayziya",
           "NG": "Nigeriya",
+          "NO": "Norvegiya",
           "NP": "Nepal",
+          "NZ": "Yangi Zelandiya",
+          "OM": "Ummon",
           "PE": "Peru",
           "PH": "Filippin",
           "PK": "Pokiston",
+          "PL": "Polsha",
+          "PY": "Paragvay",
+          "QA": "Qatar",
+          "RO": "Ruminiya",
+          "RW": "Ruanda",
+          "SA": "Saudiya Arabistoni",
           "SG": "Singapur",
           "TH": "Tailand",
+          "TO": "Tonga",
+          "TZ": "Tanzaniya",
+          "UG": "Uganda",
           "US": "AQSh",
-          "VN": "Vyetnam"
+          "VN": "Vyetnam",
+          "WS": "Samoa",
+          "ZM": "Zambiya"
         },
         "realtime": "Real vaqt",
         "subtitle": "200+ mamlakatni qo'llab-quvvatlaydi",
@@ -887,11 +985,26 @@
       },
       "description": "GME ilovasi orqali bir necha daqiqada kreditga ariza bering. Jarayon holatini real vaqtda kuzating va balansni tekshiring.",
       "features": {
-        "countries": {"desc": "Mamlakatlar", "label": "14+"},
-        "realtime": {"desc": "Kuzatuv", "label": "Real vaqt"},
-        "simple": {"desc": "Ilova orqali", "label": "Oddiy"},
-        "success": {"desc": "Kreditlar", "label": "1M+"},
-        "support": {"desc": "Yordam", "label": "24/7"}
+        "countries": {
+          "desc": "Mamlakatlar",
+          "label": "14+"
+        },
+        "realtime": {
+          "desc": "Kuzatuv",
+          "label": "Real vaqt"
+        },
+        "simple": {
+          "desc": "Ilova orqali",
+          "label": "Oddiy"
+        },
+        "success": {
+          "desc": "Kreditlar",
+          "label": "1M+"
+        },
+        "support": {
+          "desc": "Yordam",
+          "label": "24/7"
+        }
       },
       "stats": {
         "desc": "1M+ muvaffaqiyatli kredit · 14 mamlakat",
@@ -901,7 +1014,9 @@
       "title": "Onlayn kredit"
     },
     "remittance": {
-      "button": {"detail": "Pul o'tkazma haqida batafsil"},
+      "button": {
+        "detail": "Pul o'tkazma haqida batafsil"
+      },
       "description": "200+ mamlakatga tez va xavfsiz pul o'tkazing.",
       "features": {
         "fast": {
@@ -984,22 +1099,58 @@
       "title": "Bugun GME ilovasi bilan kredit boshlang"
     },
     "details": {
-      "contract": {"label": "Shartnoma imzolash usuli", "value": "Raqamli shartnoma"},
-      "duration": {"label": "Kredit muddati", "value": "3 - 45 oy"},
-      "early_settlement": {"label": "Muddatidan oldin to'lash to'lovi", "value": "Bepul"},
-      "loanable": {"label": "Kredit summasi", "value": "2 mln - 35 mln"},
-      "max_amount": {"label": "Maksimal summa", "value": "35 mln gacha"},
-      "repayment": {"label": "To'lov usuli", "value": "Oylik bo'lib to'lash"},
+      "contract": {
+        "label": "Shartnoma imzolash usuli",
+        "value": "Raqamli shartnoma"
+      },
+      "duration": {
+        "label": "Kredit muddati",
+        "value": "3 - 45 oy"
+      },
+      "early_settlement": {
+        "label": "Muddatidan oldin to'lash to'lovi",
+        "value": "Bepul"
+      },
+      "loanable": {
+        "label": "Kredit summasi",
+        "value": "2 mln - 35 mln"
+      },
+      "max_amount": {
+        "label": "Maksimal summa",
+        "value": "35 mln gacha"
+      },
+      "repayment": {
+        "label": "To'lov usuli",
+        "value": "Oylik bo'lib to'lash"
+      },
       "title": "Kredit tafsilotlari",
-      "visa_period": {"label": "Qolgan visa muddati", "value": "7 - 48 oy"},
-      "visa_types": {"label": "Mos visa turlari", "value": "E9, E7, F2, F5, F6, D8 va qonuniy mehnat shartnomasi bo'lgan boshqa vizalar"}
+      "visa_period": {
+        "label": "Qolgan visa muddati",
+        "value": "7 - 48 oy"
+      },
+      "visa_types": {
+        "label": "Mos visa turlari",
+        "value": "E9, E7, F2, F5, F6, D8 va qonuniy mehnat shartnomasi bo'lgan boshqa vizalar"
+      }
     },
     "faq": {
       "items": [
-        {"a": "D-2, E-9, E-10, E-7, E-1, E-2, E-3, F-2, F-2R, F-5, F-6, F-4 va G-1 vizalari egalariga ariza berish mumkin. Visa turiga ko'ra mahsulotlar farq qilishi mumkin.", "q": "Qaysi vizalar bilan kredit olish mumkin?"},
-        {"a": "Faqat 3 ta hujjat kerak: Alien Registration Card (ARC), Mehnat shartnomasi va Pasport. Murakkab hujjatlar kerak emas.", "q": "Qaysi hujjatlar kerak?"},
-        {"a": "GME Finance mobil ilovasi orqali oson ariza bering. Smartfon bilan tez va xavfsiz tarzda ariza topshirasiz.", "q": "Kreditga qanday ariza beraman?"},
-        {"a": "GME Finance chet ellik mijozlar uchun maxsus tizim orqali shaxsiy ma'lumotlarni himoya qiladi.", "q": "Shaxsiy ma'lumotlarim xavfsizmi?"}
+        {
+          "a": "D-2, E-9, E-10, E-7, E-1, E-2, E-3, F-2, F-2R, F-5, F-6, F-4 va G-1 vizalari egalariga ariza berish mumkin. Visa turiga ko'ra mahsulotlar farq qilishi mumkin.",
+          "q": "Qaysi vizalar bilan kredit olish mumkin?"
+        },
+        {
+          "a": "Faqat 3 ta hujjat kerak: Alien Registration Card (ARC), Mehnat shartnomasi va Pasport. Murakkab hujjatlar kerak emas.",
+          "q": "Qaysi hujjatlar kerak?"
+        },
+        {
+          "a": "GME Finance mobil ilovasi orqali oson ariza bering. Smartfon bilan tez va xavfsiz tarzda ariza topshirasiz.",
+          "q": "Kreditga qanday ariza beraman?"
+        },
+        {
+          "a": "GME Finance chet ellik mijozlar uchun maxsus tizim orqali shaxsiy ma'lumotlarni himoya qiladi.",
+          "q": "Shaxsiy ma'lumotlarim xavfsizmi?"
+        }
       ],
       "title": "Ko'p so'raladigan savollar"
     },
@@ -1011,46 +1162,109 @@
       "title2": "chet elliklar uchun"
     },
     "process": {
-      "step1": {"desc": "Google Play yoki App Store'dan GME ilovasini yuklab oling. Ro'yxatdan o'ting va kreditga ariza bering.", "title": "GME ilovasi orqali ariza"},
-      "step2": {"desc": "Ma'lumotlarni to'ldiring va kerakli hujjatlarni yuboring.", "title": "Talablarni topshirish"},
-      "step3": {"desc": "Xodimlarimiz hujjatlarni tekshiradi va kredit holatingizni baholaydi.", "title": "Tekshiruv"},
-      "step4": {"desc": "Tasdiqlangach raqamli shartnoma imzolanadi.", "title": "Tasdiqlash"},
-      "step5": {"desc": "Shartnoma imzolangach, kredit summasi bank hisobingizga o'tkaziladi.", "title": "O'tkazish"},
+      "step1": {
+        "desc": "Google Play yoki App Store'dan GME ilovasini yuklab oling. Ro'yxatdan o'ting va kreditga ariza bering.",
+        "title": "GME ilovasi orqali ariza"
+      },
+      "step2": {
+        "desc": "Ma'lumotlarni to'ldiring va kerakli hujjatlarni yuboring.",
+        "title": "Talablarni topshirish"
+      },
+      "step3": {
+        "desc": "Xodimlarimiz hujjatlarni tekshiradi va kredit holatingizni baholaydi.",
+        "title": "Tekshiruv"
+      },
+      "step4": {
+        "desc": "Tasdiqlangach raqamli shartnoma imzolanadi.",
+        "title": "Tasdiqlash"
+      },
+      "step5": {
+        "desc": "Shartnoma imzolangach, kredit summasi bank hisobingizga o'tkaziladi.",
+        "title": "O'tkazish"
+      },
       "subtitle": "5 bosqichli ariza jarayoni",
       "title": "Oson kredit arizasi"
     },
     "products": {
-      "business_loan": {"desc": "Biznes faoliyati uchun mablag'", "name": "Biznes krediti"},
-      "car_loan": {"desc": "Avtomobil xaridi uchun mablag'", "name": "Avto kredit"},
-      "gme_loan": {"desc": "Umumiy yashash xarajatlari", "name": "GME Loan"},
-      "house_loan": {"desc": "Jeonse va ijara depoziti", "name": "Uy krediti"},
-      "property_loan": {"desc": "Garovli kredit", "name": "Mulk krediti"},
-      "student_loan": {"desc": "O'qish va ta'lim to'lovi", "name": "Talaba krediti"},
+      "business_loan": {
+        "desc": "Biznes faoliyati uchun mablag'",
+        "name": "Biznes krediti"
+      },
+      "car_loan": {
+        "desc": "Avtomobil xaridi uchun mablag'",
+        "name": "Avto kredit"
+      },
+      "gme_loan": {
+        "desc": "Umumiy yashash xarajatlari",
+        "name": "GME Loan"
+      },
+      "house_loan": {
+        "desc": "Jeonse va ijara depoziti",
+        "name": "Uy krediti"
+      },
+      "property_loan": {
+        "desc": "Garovli kredit",
+        "name": "Mulk krediti"
+      },
+      "student_loan": {
+        "desc": "O'qish va ta'lim to'lovi",
+        "name": "Talaba krediti"
+      },
       "subtitle": "Sizga mos kredit mahsulotini tanlang",
       "title": "Kredit mahsulotlari",
       "title2": "Siz uchun",
-      "vacation_loan": {"desc": "Sayohat va ta'til xarajatlari", "name": "Ta'til krediti"}
+      "vacation_loan": {
+        "desc": "Sayohat va ta'til xarajatlari",
+        "name": "Ta'til krediti"
+      }
     },
     "why": {
       "badge": "GME Finance tomonidan",
-      "countries": {"desc": "Xizmat ko'rsatiladigan mamlakatlar", "title": "14+"},
+      "countries": {
+        "desc": "Xizmat ko'rsatiladigan mamlakatlar",
+        "title": "14+"
+      },
       "description": "14+ mamlakatda chet elliklar uchun kredit xizmati. 1 mln+ muvaffaqiyatli kredit va ₩500B+ jami kredit bilan ishonchni tasdiqlaydi.",
-      "realtime": {"desc": "Holat kuzatuvi", "title": "Real vaqt"},
-      "simple": {"desc": "Ilova orqali", "title": "Oson"},
+      "realtime": {
+        "desc": "Holat kuzatuvi",
+        "title": "Real vaqt"
+      },
+      "simple": {
+        "desc": "Ilova orqali",
+        "title": "Oson"
+      },
       "stats_desc": "1M+ muvaffaqiyatli kredit · 14 mamlakat",
       "stats_label": "Jami kreditlar",
       "stats_value": "₩500B+",
-      "success": {"desc": "Muvaffaqiyatli kreditlar", "title": "1M+"},
-      "support": {"desc": "Yordam", "title": "24/7"},
+      "success": {
+        "desc": "Muvaffaqiyatli kreditlar",
+        "title": "1M+"
+      },
+      "support": {
+        "desc": "Yordam",
+        "title": "24/7"
+      },
       "title": "Nega GME Loanni tanlash kerak?"
     }
   },
   "remittance": {
     "features": {
-      "app": {"desc": "Bir necha bosishda pul o'tkazma", "title": "Ilova orqali o'tkazma"},
-      "branches": {"desc": "Mamlakat bo'ylab filiallardan yordam", "title": "Oflayn filiallar"},
-      "convenient": {"desc": "Tushunarli jarayon, hamma uchun qulay", "title": "Qulay tajriba"},
-      "multilingual": {"desc": "Ko'p tilli xizmat", "title": "Ko'p tilli qo'llab-quvvatlash"},
+      "app": {
+        "desc": "Bir necha bosishda pul o'tkazma",
+        "title": "Ilova orqali o'tkazma"
+      },
+      "branches": {
+        "desc": "Mamlakat bo'ylab filiallardan yordam",
+        "title": "Oflayn filiallar"
+      },
+      "convenient": {
+        "desc": "Tushunarli jarayon, hamma uchun qulay",
+        "title": "Qulay tajriba"
+      },
+      "multilingual": {
+        "desc": "Ko'p tilli xizmat",
+        "title": "Ko'p tilli qo'llab-quvvatlash"
+      },
       "subtitle": "Bitta ilovada yuboring va kuzating",
       "title": "Yanada oson",
       "title2": "Yanada xavfsiz"
@@ -1063,9 +1277,18 @@
       "title2": "Xalqaro o'tkazmalar"
     },
     "process": {
-      "step1": {"desc": "GME ilovasini o'rnating va shaxsingizni tasdiqlang.", "title": "O'rnatish & tasdiqlash"},
-      "step2": {"desc": "Mamlakat, hisob ma'lumotlari va summani tanlang.", "title": "Qabul qiluvchini kiriting"},
-      "step3": {"desc": "To'lov qiling va o'tkazma holatini real vaqtda kuzating.", "title": "O'tkazma yakunlandi"},
+      "step1": {
+        "desc": "GME ilovasini o'rnating va shaxsingizni tasdiqlang.",
+        "title": "O'rnatish & tasdiqlash"
+      },
+      "step2": {
+        "desc": "Mamlakat, hisob ma'lumotlari va summani tanlang.",
+        "title": "Qabul qiluvchini kiriting"
+      },
+      "step3": {
+        "desc": "To'lov qiling va o'tkazma holatini real vaqtda kuzating.",
+        "title": "O'tkazma yakunlandi"
+      },
       "subtitle": "3 bosqichda yakunlanadi",
       "title": "Oddiy",
       "title2": "o'tkazma jarayoni"
@@ -1077,10 +1300,22 @@
       "title2": "qamrov"
     },
     "stats": {
-      "achieved": {"label": "Jami o'tkazmalar", "value": "₩3.5T+"},
-      "branches": {"label": "Koreya filiallari", "value": "12"},
-      "languages": {"label": "Qo'llab-quvvatlanadigan tillar", "value": "14"},
-      "savings": {"label": "Tejangan komissiya", "value": "90%"}
+      "achieved": {
+        "label": "Jami o'tkazmalar",
+        "value": "₩3.5T+"
+      },
+      "branches": {
+        "label": "Koreya filiallari",
+        "value": "12"
+      },
+      "languages": {
+        "label": "Qo'llab-quvvatlanadigan tillar",
+        "value": "14"
+      },
+      "savings": {
+        "label": "Tejangan komissiya",
+        "value": "90%"
+      }
     },
     "trust": {
       "desc": "Global Money Express (GME) — Iqtisodiyot va Moliya vazirligi hamda Moliyaviy nazorat xizmati tomonidan tasdiqlangan litsenziyaga ega moliyaviy institut bo'lib, xavfsiz va ishonchli xizmat ko'rsatadi.",
@@ -1089,9 +1324,18 @@
     },
     "why": {
       "items": {
-        "cheapest": {"desc": "Banklarga qaraganda past komissiya va yaxshi kurslar.", "title": "Raqobatbardosh komissiya"},
-        "fastest": {"desc": "Real vaqt ishlovi o'tkazma vaqtini kamaytiradi.", "title": "Tez o'tkazmalar"},
-        "secure": {"desc": "Kuchli tasdiqlash va xavfsizlik himoyasi.", "title": "Xavfsiz tasdiqlash"}
+        "cheapest": {
+          "desc": "Banklarga qaraganda past komissiya va yaxshi kurslar.",
+          "title": "Raqobatbardosh komissiya"
+        },
+        "fastest": {
+          "desc": "Real vaqt ishlovi o'tkazma vaqtini kamaytiradi.",
+          "title": "Tez o'tkazmalar"
+        },
+        "secure": {
+          "desc": "Kuchli tasdiqlash va xavfsizlik himoyasi.",
+          "title": "Xavfsiz tasdiqlash"
+        }
       },
       "subtitle": "Nega GME Remittance",
       "title": "Ishonchli global pul o'tkazma xizmati"
@@ -1101,18 +1345,66 @@
     "branches": {
       "address": "Manzil",
       "data": {
-        "1": {"address": "315 Jongno, Jongno-gu, Seoul (Dongdaemun Station Exit 3)", "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00", "name": "Dongdaemun filiali"},
-        "2": {"address": "1F, 6 Damunhwa-gil, Danwon-gu, Ansan-si, Gyeonggi-do", "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00", "name": "Ansan filiali"},
-        "3": {"address": "3F, 12 Euljiro 44-gil, Jung-gu, Seoul (Mongolia Town)", "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00", "name": "Mongolia Town filiali"},
-        "4": {"address": "1F, 134 Dorim-ro, Yeongdeungpo-gu, Seoul", "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00", "name": "Daerim filiali"},
-        "5": {"address": "36 Usadan-ro 10-gil, Yongsan-gu, Seoul", "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00", "name": "Itaewon filiali"},
-        "6": {"address": "2-10 Maesan-ro, Paldal-gu, Suwon-si, Gyeonggi-do", "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00", "name": "Suwon filiali"},
-        "7": {"address": "1F, 1109-3 3·1 Manse-ro, Hyangnam-eup, Hwaseong-si, Gyeonggi-do", "hours": "Juma - Seshanba 10:00 - 19:00", "name": "Hwaseong filiali"},
-        "8": {"address": "91 Solmoru-ro, Soheul-eup, Pocheon-si, Gyeonggi-do (Next to NH Bank)", "hours": "Shanba - Chorshanba 10:00 - 19:00", "name": "Songuri filiali"},
-        "9": {"address": "16 Gwangjang-ro, Bupyeong-gu, Incheon (Bupyeong Station Shopping Mall)", "hours": "Shanba - Chorshanba 10:00 - 19:00", "name": "Bupyeong filiali"},
-        "10": {"address": "1F, 64 Seongseo-ro 69-gil, Dalseo-gu, Daegu", "hours": "Ish kunlari 10:00 - 18:00, Dam olish kunlari 10:00 - 19:00", "name": "Daegu filiali"},
-        "11": {"address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (Across from Top Mart)", "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00", "name": "Gimhae filiali"},
-        "12": {"address": "7-2 Gwangsan-ro, Gwangsan-gu, Gwangju", "hours": "Shanba - Chorshanba 10:00 - 19:00", "name": "Gwangju filiali"}
+        "1": {
+          "address": "315 Jongno, Jongno-gu, Seoul (Dongdaemun Station Exit 3)",
+          "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00",
+          "name": "Dongdaemun filiali"
+        },
+        "2": {
+          "address": "1F, 6 Damunhwa-gil, Danwon-gu, Ansan-si, Gyeonggi-do",
+          "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00",
+          "name": "Ansan filiali"
+        },
+        "3": {
+          "address": "3F, 12 Euljiro 44-gil, Jung-gu, Seoul (Mongolia Town)",
+          "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00",
+          "name": "Mongolia Town filiali"
+        },
+        "4": {
+          "address": "1F, 134 Dorim-ro, Yeongdeungpo-gu, Seoul",
+          "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00",
+          "name": "Daerim filiali"
+        },
+        "5": {
+          "address": "36 Usadan-ro 10-gil, Yongsan-gu, Seoul",
+          "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00",
+          "name": "Itaewon filiali"
+        },
+        "6": {
+          "address": "2-10 Maesan-ro, Paldal-gu, Suwon-si, Gyeonggi-do",
+          "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00",
+          "name": "Suwon filiali"
+        },
+        "7": {
+          "address": "1F, 1109-3 3·1 Manse-ro, Hyangnam-eup, Hwaseong-si, Gyeonggi-do",
+          "hours": "Juma - Seshanba 10:00 - 19:00",
+          "name": "Hwaseong filiali"
+        },
+        "8": {
+          "address": "91 Solmoru-ro, Soheul-eup, Pocheon-si, Gyeonggi-do (Next to NH Bank)",
+          "hours": "Shanba - Chorshanba 10:00 - 19:00",
+          "name": "Songuri filiali"
+        },
+        "9": {
+          "address": "16 Gwangjang-ro, Bupyeong-gu, Incheon (Bupyeong Station Shopping Mall)",
+          "hours": "Shanba - Chorshanba 10:00 - 19:00",
+          "name": "Bupyeong filiali"
+        },
+        "10": {
+          "address": "1F, 64 Seongseo-ro 69-gil, Dalseo-gu, Daegu",
+          "hours": "Ish kunlari 10:00 - 18:00, Dam olish kunlari 10:00 - 19:00",
+          "name": "Daegu filiali"
+        },
+        "11": {
+          "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (Across from Top Mart)",
+          "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00",
+          "name": "Gimhae filiali"
+        },
+        "12": {
+          "address": "7-2 Gwangsan-ro, Gwangsan-gu, Gwangju",
+          "hours": "Shanba - Chorshanba 10:00 - 19:00",
+          "name": "Gwangju filiali"
+        }
       },
       "hours": "Soat",
       "phone": "Telefon"

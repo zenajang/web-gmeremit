@@ -130,9 +130,9 @@
       "description": "Two powerful solutions — SPS and VAS — to handle every aspect of cross-border payments.",
       "label": "Core Solutions",
       "sps": {
-        "description": "24\/7 bulk cross-border payout solution. Manage FX, verify recipients, and process mass payments all in one place.",
+        "description": "24/7 bulk cross-border payout solution. Manage FX, verify recipients, and process mass payments all in one place.",
         "features": [
-          "Payout 24\/7",
+          "Payout 24/7",
           "Control FX",
           "Mass Payouts",
           "Real-Time Status",
@@ -148,11 +148,11 @@
         "features": [
           "Real-Time Notifications",
           "Local Collection at Low Cost",
-          "Assign V\/As",
+          "Assign V/As",
           "Virtual Accounts in Multiple Formats",
           "Collections On-behalf-Of (COBO)",
           "No Restrictions on Beneficiaries & Depositors",
-          "Instant V\/A Issuance via API or Portal"
+          "Instant V/A Issuance via API or Portal"
         ],
         "subtitle": "Value Added Services",
         "title": "VAS"
@@ -334,7 +334,7 @@
             "title": "Key Benefits"
           },
           "transitCard": {
-            "availability": "Available on subways and city buses. For taxis, express\/airport buses, and trains, use the card (IC chip and MS reader) to pay.",
+            "availability": "Available on subways and city buses. For taxis, express/airport buses, and trains, use the card (IC chip and MS reader) to pay.",
             "limit": "₩10,000 per ride limit",
             "paymentTime": "Usage fees must be paid within 1-2 days.",
             "title": "Postpaid Transit Card"
@@ -772,7 +772,7 @@
       "news": "News",
       "notice": "Notice",
       "payments": "GME Payments (B2B)",
-      "press": "News \/ Press",
+      "press": "News / Press",
       "remittance": "GME App Remittance",
       "services": "Services",
       "services_menu": "Services",
@@ -868,7 +868,7 @@
       "stats": {
         "countries": "200+",
         "countries_label": "Supported Countries",
-        "service": "24\/7",
+        "service": "24/7",
         "service_label": "Real-time Service"
       },
       "title1": "Check exchange rates",
@@ -923,32 +923,64 @@
       "countries": {
         "more": "More",
         "names": {
+          "AE": "United Arab Emirates",
+          "AR": "Argentina",
           "AU": "Australia",
           "BD": "Bangladesh",
+          "BH": "Bahrain",
+          "BO": "Bolivia",
           "BR": "Brazil",
           "CA": "Canada",
+          "CH": "Switzerland",
+          "CL": "Chile",
           "CN": "China",
           "CO": "Colombia",
+          "CZ": "Czech Republic",
           "DE": "Germany",
+          "DK": "Denmark",
+          "DO": "Dominican Republic",
+          "FJ": "Fiji",
           "GB": "United Kingdom",
           "GH": "Ghana",
+          "GT": "Guatemala",
+          "HK": "Hong Kong",
+          "HN": "Honduras",
+          "HU": "Hungary",
           "ID": "Indonesia",
+          "IL": "Israel",
           "IN": "India",
+          "JO": "Jordan",
           "JP": "Japan",
           "KE": "Kenya",
+          "KW": "Kuwait",
           "LK": "Sri Lanka",
+          "MA": "Morocco",
           "MM": "Myanmar",
           "MX": "Mexico",
           "MY": "Malaysia",
           "NG": "Nigeria",
+          "NO": "Norway",
           "NP": "Nepal",
+          "NZ": "New Zealand",
+          "OM": "Oman",
           "PE": "Peru",
           "PH": "Philippines",
           "PK": "Pakistan",
+          "PL": "Poland",
+          "PY": "Paraguay",
+          "QA": "Qatar",
+          "RO": "Romania",
+          "RW": "Rwanda",
+          "SA": "Saudi Arabia",
           "SG": "Singapore",
           "TH": "Thailand",
+          "TO": "Tonga",
+          "TZ": "Tanzania",
+          "UG": "Uganda",
           "US": "United States",
-          "VN": "Vietnam"
+          "VN": "Vietnam",
+          "WS": "Samoa",
+          "ZM": "Zambia"
         },
         "realtime": "Real-time",
         "subtitle": "200+ countries supported",
@@ -997,7 +1029,7 @@
         },
         "support": {
           "desc": "Support",
-          "label": "24\/7"
+          "label": "24/7"
         }
       },
       "stats": {
@@ -1236,7 +1268,7 @@
       },
       "support": {
         "desc": "Customer Support",
-        "title": "24\/7"
+        "title": "24/7"
       },
       "title": "Why Choose GME Loan?"
     }

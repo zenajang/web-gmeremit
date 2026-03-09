@@ -740,7 +740,7 @@
   },
   "footer": {
     "company_name": "Global Money Express",
-    "copyright": "\u00a9 Global Money Express, All rights reserved.",
+    "copyright": "© Global Money Express, All rights reserved.",
     "info": {
       "address": "Alamat: 901~911, Gedung B, Senggak Gongjang Jangsan, 150 Yeongdeungpo-ro, Yeongdeungpo-gu, Seoul",
       "email_corporate": "Korporat: corporate@gmeremit.com",
@@ -782,7 +782,11 @@
   },
   "home": {
     "app_download": {
-      "chips": ["Kurs Real-Time", "Jumlah Optimal", "Autentikasi Aman"],
+      "chips": [
+        "Kurs Real-Time",
+        "Jumlah Optimal",
+        "Autentikasi Aman"
+      ],
       "description": "Autentikasi mudah dan aman, jumlah optimal, pengiriman cepat. Kelola semuanya dengan aman dan nyaman di aplikasi GME Remit.",
       "qr_scan": "Pindai Kode QR",
       "subtitle": "APLIKASI GME REMIT",
@@ -793,28 +797,53 @@
       "black": {
         "cta": "Lihat Black Card",
         "desc": "Kartu premium untuk pembayaran luar negeri. Nikmati cashback terbaik di mana saja.",
-        "highlights": ["Cashback 3% luar negeri", "Cashback 0,3% domestik", "Diskon event khusus", "Kereta · Bus · Taksi bayar mudah"]
+        "highlights": [
+          "Cashback 3% luar negeri",
+          "Cashback 0,3% domestik",
+          "Diskon event khusus",
+          "Kereta · Bus · Taksi bayar mudah"
+        ]
       },
       "easyG0": {
         "cta": "Lihat EasyGo Card",
         "desc": "Jadikan setiap momen lebih nyaman. Nikmati manfaat musiman dari transportasi hingga belanja.",
-        "highlights": ["Kartu transportasi pascabayar", "Cashback musiman", "Pembayaran global", "Belanja online & offline"]
+        "highlights": [
+          "Kartu transportasi pascabayar",
+          "Cashback musiman",
+          "Pembayaran global",
+          "Belanja online & offline"
+        ]
       },
       "image_alt": "Gambar kartu",
       "red": {
         "cta": "Lihat Red Card",
         "desc": "Kartu warna khas GME. Jadikan setiap pembayaran penuh gaya.",
-        "highlights": ["Cashback 0,3% domestik", "Diskon event khusus", "Kereta · Bus · Taksi bayar mudah", "Transportasi umum"]
+        "highlights": [
+          "Cashback 0,3% domestik",
+          "Diskon event khusus",
+          "Kereta · Bus · Taksi bayar mudah",
+          "Transportasi umum"
+        ]
       },
       "uniq": {
         "cta": "Lihat Uniq Card",
         "desc": "Pilih kartu Anda dari 30+ desain dari 18 negara.",
-        "highlights": ["Cashback 0,3% domestik", "Diskon event khusus", "18 Negara 30+ Desain", "Kereta · Bus · Taksi bayar mudah"]
+        "highlights": [
+          "Cashback 0,3% domestik",
+          "Diskon event khusus",
+          "18 Negara 30+ Desain",
+          "Kereta · Bus · Taksi bayar mudah"
+        ]
       },
       "white": {
         "cta": "Lihat White Card",
         "desc": "Kartu harian yang simpel dan bersih. Nyaman untuk pembayaran domestik dan transportasi umum.",
-        "highlights": ["Cashback 0,3% domestik", "Diskon event khusus", "Kereta · Bus · Taksi bayar mudah", "Transportasi umum"]
+        "highlights": [
+          "Cashback 0,3% domestik",
+          "Diskon event khusus",
+          "Kereta · Bus · Taksi bayar mudah",
+          "Transportasi umum"
+        ]
       }
     },
     "exchange": {
@@ -836,51 +865,122 @@
       },
       "description1": "Kurs real-time untuk 200+ negara.",
       "description2": "Biaya transparan.",
-      "stats": { "countries": "200+", "countries_label": "Negara Didukung", "service": "24/7", "service_label": "Layanan Real-Time" },
+      "stats": {
+        "countries": "200+",
+        "countries_label": "Negara Didukung",
+        "service": "24/7",
+        "service_label": "Layanan Real-Time"
+      },
       "title1": "Cek Kurs",
       "title2": "Sekarang"
     },
     "global_payments": {
-      "button": { "detail": "Pelajari Lebih Lanjut tentang Payments" },
-      "card": { "status": "Aktif", "subtitle": "Solusi Korporat", "title": "Solusi Pembayaran" },
+      "button": {
+        "detail": "Pelajari Lebih Lanjut tentang Payments"
+      },
+      "card": {
+        "status": "Aktif",
+        "subtitle": "Solusi Korporat",
+        "title": "Solusi Pembayaran"
+      },
       "description": "Pembayaran gaji, penyelesaian mitra, pembayaran e-commerce. Solusi pembayaran korporat hemat biaya.",
-      "features": { "smb": "SMB", "smb_desc": "Solusi E-Commerce", "sps": "SPS", "sps_desc": "Solusi Pembayaran B2B", "vas": "VAS", "vas_desc": "Notifikasi · Laporan · Dashboard" },
-      "stats": { "cost_saving": "Penghematan Biaya", "cost_saving_change": "vs tradisional", "cost_saving_value": "Hingga 70%", "partners": "Mitra", "partners_change": "Global", "partners_value": "200+", "success_rate": "Tingkat Keberhasilan", "success_rate_change": "Normal", "success_rate_value": "99,8%" },
+      "features": {
+        "smb": "SMB",
+        "smb_desc": "Solusi E-Commerce",
+        "sps": "SPS",
+        "sps_desc": "Solusi Pembayaran B2B",
+        "vas": "VAS",
+        "vas_desc": "Notifikasi · Laporan · Dashboard"
+      },
+      "stats": {
+        "cost_saving": "Penghematan Biaya",
+        "cost_saving_change": "vs tradisional",
+        "cost_saving_value": "Hingga 70%",
+        "partners": "Mitra",
+        "partners_change": "Global",
+        "partners_value": "200+",
+        "success_rate": "Tingkat Keberhasilan",
+        "success_rate_change": "Normal",
+        "success_rate_value": "99,8%"
+      },
       "title": "Pembayaran Global",
-      "transactions": { "b2b": "Transfer Massal B2B", "completed": "Selesai", "just_now": "Baru saja", "merchant": "Pembayaran Merchant", "mins_ago": "menit lalu", "partner": "Pembayaran Mitra", "processing": "Diproses", "title": "Transaksi Terbaru" }
+      "transactions": {
+        "b2b": "Transfer Massal B2B",
+        "completed": "Selesai",
+        "just_now": "Baru saja",
+        "merchant": "Pembayaran Merchant",
+        "mins_ago": "menit lalu",
+        "partner": "Pembayaran Mitra",
+        "processing": "Diproses",
+        "title": "Transaksi Terbaru"
+      }
     },
     "hero": {
       "badge": "Layanan Pengiriman Uang Terbaik",
-      "button": { "learn_more": "Pelajari Lebih Lanjut" },
+      "button": {
+        "learn_more": "Pelajari Lebih Lanjut"
+      },
       "countries": {
         "more": "Lainnya",
         "names": {
+          "AE": "Uni Emirat Arab",
+          "AR": "Argentina",
           "AU": "Australia",
           "BD": "Bangladesh",
+          "BH": "Bahrain",
+          "BO": "Bolivia",
           "BR": "Brasil",
           "CA": "Kanada",
+          "CH": "Swiss",
+          "CL": "Chili",
           "CN": "Tiongkok",
           "CO": "Kolombia",
+          "CZ": "Republik Ceko",
           "DE": "Jerman",
+          "DK": "Denmark",
+          "DO": "Republik Dominika",
+          "FJ": "Fiji",
           "GB": "Inggris",
           "GH": "Ghana",
+          "GT": "Guatemala",
+          "HK": "Hong Kong",
+          "HN": "Honduras",
+          "HU": "Hungaria",
           "ID": "Indonesia",
+          "IL": "Israel",
           "IN": "India",
+          "JO": "Yordania",
           "JP": "Jepang",
           "KE": "Kenya",
+          "KW": "Kuwait",
           "LK": "Sri Lanka",
+          "MA": "Maroko",
           "MM": "Myanmar",
           "MX": "Meksiko",
           "MY": "Malaysia",
           "NG": "Nigeria",
+          "NO": "Norwegia",
           "NP": "Nepal",
+          "NZ": "Selandia Baru",
+          "OM": "Oman",
           "PE": "Peru",
           "PH": "Filipina",
           "PK": "Pakistan",
+          "PL": "Polandia",
+          "PY": "Paraguay",
+          "QA": "Qatar",
+          "RO": "Rumania",
+          "RW": "Rwanda",
+          "SA": "Arab Saudi",
           "SG": "Singapura",
           "TH": "Thailand",
+          "TO": "Tonga",
+          "TZ": "Tanzania",
+          "UG": "Uganda",
           "US": "Amerika Serikat",
-          "VN": "Vietnam"
+          "VN": "Vietnam",
+          "WS": "Samoa",
+          "ZM": "Zambia"
         },
         "realtime": "Real-Time",
         "subtitle": "Mendukung 200+ negara",
@@ -890,130 +990,378 @@
       "description1": "Kirim ke 200+ negara, semua bank Korea secara real-time.",
       "description2": "Aman dengan 70 mitra global dan verifikasi E-KYC.",
       "rating": "Rata-rata App Store · Google Play",
-      "stats": { "avg_time": "Waktu Kirim Rata-rata", "seconds": "detik", "total_amount": "Total Pengiriman", "trillion": "triliun+" },
+      "stats": {
+        "avg_time": "Waktu Kirim Rata-rata",
+        "seconds": "detik",
+        "total_amount": "Total Pengiriman",
+        "trillion": "triliun+"
+      },
       "title1": "Cepat dan Aman",
       "title2": "Pengiriman Uang Internasional"
     },
     "loan": {
-      "button": { "apply": "Ajukan Pinjaman di Aplikasi GME", "detail": "Pelajari Lebih Lanjut tentang Pinjaman" },
-      "card": { "quick_apply": "Daftar Cepat", "subtitle": "Pinjaman untuk Warga Asing", "title": "GME Finance" },
+      "button": {
+        "apply": "Ajukan Pinjaman di Aplikasi GME",
+        "detail": "Pelajari Lebih Lanjut tentang Pinjaman"
+      },
+      "card": {
+        "quick_apply": "Daftar Cepat",
+        "subtitle": "Pinjaman untuk Warga Asing",
+        "title": "GME Finance"
+      },
       "description": "Ajukan pinjaman dalam hitungan menit dengan aplikasi GME. Cek status dan saldo secara real-time kapan saja, di mana saja.",
-      "features": { "countries": { "desc": "Negara", "label": "14+" }, "realtime": { "desc": "Pelacakan", "label": "Real-Time" }, "simple": { "desc": "Pendaftaran via Aplikasi", "label": "Mudah" }, "success": { "desc": "Pinjaman", "label": "1M+" }, "support": { "desc": "Dukungan", "label": "24/7" } },
-      "stats": { "desc": "1 juta+ pinjaman · 14 Negara", "title": "Kinerja Pinjaman Kumulatif", "value": "₩500B+" },
+      "features": {
+        "countries": {
+          "desc": "Negara",
+          "label": "14+"
+        },
+        "realtime": {
+          "desc": "Pelacakan",
+          "label": "Real-Time"
+        },
+        "simple": {
+          "desc": "Pendaftaran via Aplikasi",
+          "label": "Mudah"
+        },
+        "success": {
+          "desc": "Pinjaman",
+          "label": "1M+"
+        },
+        "support": {
+          "desc": "Dukungan",
+          "label": "24/7"
+        }
+      },
+      "stats": {
+        "desc": "1 juta+ pinjaman · 14 Negara",
+        "title": "Kinerja Pinjaman Kumulatif",
+        "value": "₩500B+"
+      },
       "title": "Pinjaman Online"
     },
     "remittance": {
-      "button": { "detail": "Pelajari Lebih Lanjut tentang Pengiriman Uang" },
+      "button": {
+        "detail": "Pelajari Lebih Lanjut tentang Pengiriman Uang"
+      },
       "description": "Kirim uang dengan cepat dan aman ke 200+ negara.",
       "features": {
-        "fast": { "back_desc": "Kirim ke mana saja di dunia hanya dengan beberapa ketukan, tanpa langkah rumit.", "back_title": "Pengiriman Sederhana", "desc": "Selesaikan pengiriman uang internasional hanya dengan beberapa klik", "sub": "Beberapa Klik", "title": "Kirim Cepat" },
-        "global": { "back_desc": "Kirim ke seluruh dunia dengan 200+ negara dan 70 mitra global.", "back_title": "Jaringan Global", "desc": "Lebih dari satu juta pengguna di seluruh dunia mempercayai GME", "sub": "1M+ Pengguna", "title": "200+ Negara" },
-        "optimized": { "back_desc": "Biaya hingga 90% lebih murah dari bank. Kirim lebih banyak dengan kurs real-time.", "back_title": "Penghematan Besar", "desc": "Biaya 90% lebih murah dan kurs lebih baik dari bank", "sub": "Hemat 90%", "title": "Jumlah Optimal" },
-        "security": { "back_desc": "Kirim dengan aman dengan verifikasi E-KYC dan layanan terdaftar FSC.", "back_title": "Keamanan Menyeluruh", "desc": "Gunakan dengan tenang berkat keamanan yang kuat", "sub": "Terverifikasi", "title": "Mudah & Aman" }
+        "fast": {
+          "back_desc": "Kirim ke mana saja di dunia hanya dengan beberapa ketukan, tanpa langkah rumit.",
+          "back_title": "Pengiriman Sederhana",
+          "desc": "Selesaikan pengiriman uang internasional hanya dengan beberapa klik",
+          "sub": "Beberapa Klik",
+          "title": "Kirim Cepat"
+        },
+        "global": {
+          "back_desc": "Kirim ke seluruh dunia dengan 200+ negara dan 70 mitra global.",
+          "back_title": "Jaringan Global",
+          "desc": "Lebih dari satu juta pengguna di seluruh dunia mempercayai GME",
+          "sub": "1M+ Pengguna",
+          "title": "200+ Negara"
+        },
+        "optimized": {
+          "back_desc": "Biaya hingga 90% lebih murah dari bank. Kirim lebih banyak dengan kurs real-time.",
+          "back_title": "Penghematan Besar",
+          "desc": "Biaya 90% lebih murah dan kurs lebih baik dari bank",
+          "sub": "Hemat 90%",
+          "title": "Jumlah Optimal"
+        },
+        "security": {
+          "back_desc": "Kirim dengan aman dengan verifikasi E-KYC dan layanan terdaftar FSC.",
+          "back_title": "Keamanan Menyeluruh",
+          "desc": "Gunakan dengan tenang berkat keamanan yang kuat",
+          "sub": "Terverifikasi",
+          "title": "Mudah & Aman"
+        }
       },
       "title": "Pengiriman Uang Internasional"
     },
-    "section_nav": { "app_download": "Unduh Aplikasi", "exchange": "Kalkulator Kurs", "home": "Beranda", "services": "Layanan", "testimonials": "Ulasan" },
+    "section_nav": {
+      "app_download": "Unduh Aplikasi",
+      "exchange": "Kalkulator Kurs",
+      "home": "Beranda",
+      "services": "Layanan",
+      "testimonials": "Ulasan"
+    },
     "services": {
-      "card": { "desc1": "Kartu pintar yang menghubungkan pengiriman uang dan pengeluaran.", "desc2": "Standar baru untuk pembayaran global.", "title": "GME Card" },
-      "loan": { "desc1": "Persetujuan cepat dan ketentuan fleksibel", "desc2": "Layanan pinjaman digital", "estimated_limit": "Estimasi Limit", "title": "Pinjaman Online" },
-      "payments": { "desc1": "Pembayaran massal, penyelesaian mitra.", "desc2": "Alur pembayaran korporat yang cepat dan aman.", "title": "Pembayaran Global" },
-      "remittance": { "desc1": "Kirim uang dengan cepat dan aman", "desc2": "ke 200+ negara.", "title": "Pengiriman Uang Internasional" },
+      "card": {
+        "desc1": "Kartu pintar yang menghubungkan pengiriman uang dan pengeluaran.",
+        "desc2": "Standar baru untuk pembayaran global.",
+        "title": "GME Card"
+      },
+      "loan": {
+        "desc1": "Persetujuan cepat dan ketentuan fleksibel",
+        "desc2": "Layanan pinjaman digital",
+        "estimated_limit": "Estimasi Limit",
+        "title": "Pinjaman Online"
+      },
+      "payments": {
+        "desc1": "Pembayaran massal, penyelesaian mitra.",
+        "desc2": "Alur pembayaran korporat yang cepat dan aman.",
+        "title": "Pembayaran Global"
+      },
+      "remittance": {
+        "desc1": "Kirim uang dengan cepat dan aman",
+        "desc2": "ke 200+ negara.",
+        "title": "Pengiriman Uang Internasional"
+      },
       "title1": "Jelajahi",
       "title2": "Berbagai Layanan GME"
     },
-    "testimonials": { "subtitle": "Pengalaman nyata dari pelanggan kami.", "tags": { "easy_tracking": "Kirim & Lacak Mudah", "fast_process": "Proses Cepat", "satisfied": "Layanan Memuaskan" }, "title": "Ulasan" }
+    "testimonials": {
+      "subtitle": "Pengalaman nyata dari pelanggan kami.",
+      "tags": {
+        "easy_tracking": "Kirim & Lacak Mudah",
+        "fast_process": "Proses Cepat",
+        "satisfied": "Layanan Memuaskan"
+      },
+      "title": "Ulasan"
+    }
   },
   "loan": {
-    "cta": { "button": "Unduh Aplikasi", "description": "Dapatkan pinjaman yang Anda butuhkan dengan cepat melalui pendaftaran mudah di ponsel.", "title": "Mulai Pinjaman dengan Aplikasi GME Hari Ini" },
+    "cta": {
+      "button": "Unduh Aplikasi",
+      "description": "Dapatkan pinjaman yang Anda butuhkan dengan cepat melalui pendaftaran mudah di ponsel.",
+      "title": "Mulai Pinjaman dengan Aplikasi GME Hari Ini"
+    },
     "details": {
-      "contract": { "label": "Metode Kontrak", "value": "Kontrak Digital" },
-      "duration": { "label": "Jangka Waktu Pinjaman", "value": "3 - 45 bulan" },
-      "early_settlement": { "label": "Biaya Pelunasan Awal", "value": "Gratis" },
-      "loanable": { "label": "Jumlah yang Dapat Dipinjam", "value": "2 juta - 35 juta" },
-      "max_amount": { "label": "Jumlah Pinjaman Maksimal", "value": "Hingga 35 juta" },
-      "repayment": { "label": "Metode Pembayaran", "value": "Cicilan Bulanan" },
+      "contract": {
+        "label": "Metode Kontrak",
+        "value": "Kontrak Digital"
+      },
+      "duration": {
+        "label": "Jangka Waktu Pinjaman",
+        "value": "3 - 45 bulan"
+      },
+      "early_settlement": {
+        "label": "Biaya Pelunasan Awal",
+        "value": "Gratis"
+      },
+      "loanable": {
+        "label": "Jumlah yang Dapat Dipinjam",
+        "value": "2 juta - 35 juta"
+      },
+      "max_amount": {
+        "label": "Jumlah Pinjaman Maksimal",
+        "value": "Hingga 35 juta"
+      },
+      "repayment": {
+        "label": "Metode Pembayaran",
+        "value": "Cicilan Bulanan"
+      },
       "title": "Detail Pinjaman",
-      "visa_period": { "label": "Sisa Masa Berlaku Visa", "value": "7 - 48 bulan" },
-      "visa_types": { "label": "Jenis Visa yang Memenuhi Syarat", "value": "E9, E7, F2, F5, F6, D8 & visa apapun dengan Kontrak Kerja yang Sah" }
+      "visa_period": {
+        "label": "Sisa Masa Berlaku Visa",
+        "value": "7 - 48 bulan"
+      },
+      "visa_types": {
+        "label": "Jenis Visa yang Memenuhi Syarat",
+        "value": "E9, E7, F2, F5, F6, D8 & visa apapun dengan Kontrak Kerja yang Sah"
+      }
     },
     "faq": {
       "items": [
-        { "a": "Pemegang visa D-2, E-9, E-10, E-7, E-1, E-2, E-3, F-2, F-2R, F-5, F-6, F-4, dan G-1 memenuhi syarat. Produk yang tersedia mungkin berbeda berdasarkan jenis visa.", "q": "Visa apa saja yang bisa mengajukan pinjaman?" },
-        { "a": "Hanya tiga dokumen: Kartu Registrasi Orang Asing (ARC), Kontrak Kerja, dan Paspor. Tanpa dokumen rumit — prosesnya lancar dan mudah.", "q": "Dokumen apa saja yang diperlukan?" },
-        { "a": "Anda dapat mendaftar dengan mudah melalui aplikasi mobile GME Finance. Hanya dengan smartphone, Anda dapat mengajukan pinjaman dengan cepat dan aman — kapan saja, di mana saja.", "q": "Bagaimana cara mengajukan pinjaman?" },
-        { "a": "GME Finance menyediakan penanganan informasi pribadi yang aman melalui sistem yang dirancang khusus untuk pelanggan asing. Anda dapat menggunakan layanan kami dengan tenang.", "q": "Apakah informasi pribadi saya aman?" }
+        {
+          "a": "Pemegang visa D-2, E-9, E-10, E-7, E-1, E-2, E-3, F-2, F-2R, F-5, F-6, F-4, dan G-1 memenuhi syarat. Produk yang tersedia mungkin berbeda berdasarkan jenis visa.",
+          "q": "Visa apa saja yang bisa mengajukan pinjaman?"
+        },
+        {
+          "a": "Hanya tiga dokumen: Kartu Registrasi Orang Asing (ARC), Kontrak Kerja, dan Paspor. Tanpa dokumen rumit — prosesnya lancar dan mudah.",
+          "q": "Dokumen apa saja yang diperlukan?"
+        },
+        {
+          "a": "Anda dapat mendaftar dengan mudah melalui aplikasi mobile GME Finance. Hanya dengan smartphone, Anda dapat mengajukan pinjaman dengan cepat dan aman — kapan saja, di mana saja.",
+          "q": "Bagaimana cara mengajukan pinjaman?"
+        },
+        {
+          "a": "GME Finance menyediakan penanganan informasi pribadi yang aman melalui sistem yang dirancang khusus untuk pelanggan asing. Anda dapat menggunakan layanan kami dengan tenang.",
+          "q": "Apakah informasi pribadi saya aman?"
+        }
       ],
       "title": "Pertanyaan yang Sering Diajukan"
     },
-    "hero": { "badge": "GME FINANCE", "cta": "Lihat Produk Pinjaman", "description": "Ajukan pinjaman dengan mudah melalui aplikasi GME. Persetujuan cepat dan ketentuan fleksibel untuk mendukung kehidupan Anda di Korea.", "title1": "Layanan Pinjaman", "title2": "untuk Warga Asing" },
+    "hero": {
+      "badge": "GME FINANCE",
+      "cta": "Lihat Produk Pinjaman",
+      "description": "Ajukan pinjaman dengan mudah melalui aplikasi GME. Persetujuan cepat dan ketentuan fleksibel untuk mendukung kehidupan Anda di Korea.",
+      "title1": "Layanan Pinjaman",
+      "title2": "untuk Warga Asing"
+    },
     "process": {
-      "step1": { "desc": "Unduh aplikasi GME di Google Play Store atau App Store. Daftar dan ajukan pinjaman.", "title": "Daftar via Aplikasi GME" },
-      "step2": { "desc": "Isi informasi Anda dan kirim dokumen yang diperlukan.", "title": "Kirim Dokumen" },
-      "step3": { "desc": "Staf akan memverifikasi dokumen dan melakukan pengecekan kredit.", "title": "Verifikasi" },
-      "step4": { "desc": "Setelah disetujui, penandatanganan kontrak digital akan dilakukan.", "title": "Persetujuan" },
-      "step5": { "desc": "Setelah penandatanganan kontrak, jumlah pinjaman akan ditransfer ke rekening bank Anda.", "title": "Pencairan" },
+      "step1": {
+        "desc": "Unduh aplikasi GME di Google Play Store atau App Store. Daftar dan ajukan pinjaman.",
+        "title": "Daftar via Aplikasi GME"
+      },
+      "step2": {
+        "desc": "Isi informasi Anda dan kirim dokumen yang diperlukan.",
+        "title": "Kirim Dokumen"
+      },
+      "step3": {
+        "desc": "Staf akan memverifikasi dokumen dan melakukan pengecekan kredit.",
+        "title": "Verifikasi"
+      },
+      "step4": {
+        "desc": "Setelah disetujui, penandatanganan kontrak digital akan dilakukan.",
+        "title": "Persetujuan"
+      },
+      "step5": {
+        "desc": "Setelah penandatanganan kontrak, jumlah pinjaman akan ditransfer ke rekening bank Anda.",
+        "title": "Pencairan"
+      },
       "subtitle": "Proses Pendaftaran 5 Langkah",
       "title": "Pengajuan Pinjaman Mudah"
     },
     "products": {
-      "business_loan": { "desc": "Modal kerja bisnis", "name": "Pinjaman Bisnis" },
-      "car_loan": { "desc": "Dana pembelian kendaraan", "name": "Pinjaman Mobil" },
-      "gme_loan": { "desc": "Biaya hidup umum", "name": "GME Loan" },
-      "house_loan": { "desc": "Deposit sewa & jeonse", "name": "Pinjaman Rumah" },
-      "property_loan": { "desc": "Pinjaman jaminan properti", "name": "Pinjaman Properti" },
-      "student_loan": { "desc": "Biaya kuliah & sekolah", "name": "Pinjaman Pelajar" },
+      "business_loan": {
+        "desc": "Modal kerja bisnis",
+        "name": "Pinjaman Bisnis"
+      },
+      "car_loan": {
+        "desc": "Dana pembelian kendaraan",
+        "name": "Pinjaman Mobil"
+      },
+      "gme_loan": {
+        "desc": "Biaya hidup umum",
+        "name": "GME Loan"
+      },
+      "house_loan": {
+        "desc": "Deposit sewa & jeonse",
+        "name": "Pinjaman Rumah"
+      },
+      "property_loan": {
+        "desc": "Pinjaman jaminan properti",
+        "name": "Pinjaman Properti"
+      },
+      "student_loan": {
+        "desc": "Biaya kuliah & sekolah",
+        "name": "Pinjaman Pelajar"
+      },
       "subtitle": "Bandingkan dan pilih produk pinjaman yang sesuai dengan kebutuhan Anda.",
       "title": "Produk Pinjaman",
       "title2": "Cocok untuk Anda",
-      "vacation_loan": { "desc": "Biaya liburan & perjalanan", "name": "Pinjaman Liburan" }
+      "vacation_loan": {
+        "desc": "Biaya liburan & perjalanan",
+        "name": "Pinjaman Liburan"
+      }
     },
     "why": {
       "badge": "Powered by GME Finance",
-      "countries": { "desc": "Negara Dilayani", "title": "14+" },
+      "countries": {
+        "desc": "Negara Dilayani",
+        "title": "14+"
+      },
       "description": "Kami menyediakan layanan pinjaman yang disesuaikan untuk pelanggan asing di 14+ negara. Rasakan kepercayaan yang terbukti dengan 1 juta+ pinjaman dan total kumulatif ₩500 miliar+.",
-      "realtime": { "desc": "Pelacakan Status", "title": "Real-Time" },
-      "simple": { "desc": "Via Aplikasi Mobile", "title": "Pendaftaran Mudah" },
+      "realtime": {
+        "desc": "Pelacakan Status",
+        "title": "Real-Time"
+      },
+      "simple": {
+        "desc": "Via Aplikasi Mobile",
+        "title": "Pendaftaran Mudah"
+      },
       "stats_desc": "1 juta+ pinjaman · 14 Negara",
       "stats_label": "Total Pinjaman Kumulatif",
       "stats_value": "₩500B+",
-      "success": { "desc": "Pinjaman Berhasil", "title": "1M+" },
-      "support": { "desc": "Dukungan Pelanggan", "title": "24/7" },
+      "success": {
+        "desc": "Pinjaman Berhasil",
+        "title": "1M+"
+      },
+      "support": {
+        "desc": "Dukungan Pelanggan",
+        "title": "24/7"
+      },
       "title": "Mengapa Memilih GME Loan?"
     }
   },
   "remittance": {
     "features": {
-      "app": { "desc": "Selesaikan pengiriman uang hanya dengan beberapa ketukan", "title": "Kirim via Aplikasi" },
-      "branches": { "desc": "Dapatkan bantuan di cabang-cabang seluruh negeri", "title": "Cabang Offline" },
-      "convenient": { "desc": "Proses intuitif yang bisa digunakan siapa saja", "title": "Pengalaman Mudah" },
-      "multilingual": { "desc": "Gunakan layanan dalam berbagai bahasa", "title": "Dukungan Multibahasa" },
+      "app": {
+        "desc": "Selesaikan pengiriman uang hanya dengan beberapa ketukan",
+        "title": "Kirim via Aplikasi"
+      },
+      "branches": {
+        "desc": "Dapatkan bantuan di cabang-cabang seluruh negeri",
+        "title": "Cabang Offline"
+      },
+      "convenient": {
+        "desc": "Proses intuitif yang bisa digunakan siapa saja",
+        "title": "Pengalaman Mudah"
+      },
+      "multilingual": {
+        "desc": "Gunakan layanan dalam berbagai bahasa",
+        "title": "Dukungan Multibahasa"
+      },
       "subtitle": "Kirim uang dan lacak semuanya dalam satu aplikasi",
       "title": "Lebih Mudah",
       "title2": "Kirim Uang Lebih Aman"
     },
-    "hero": { "badge": "GME REMITTANCE", "cta": "Lihat Layanan", "description": "Kirim uang dengan cepat dan aman ke 200+ negara.", "title1": "Cepat dan Aman", "title2": "Pengiriman Uang Internasional" },
+    "hero": {
+      "badge": "GME REMITTANCE",
+      "cta": "Lihat Layanan",
+      "description": "Kirim uang dengan cepat dan aman ke 200+ negara.",
+      "title1": "Cepat dan Aman",
+      "title2": "Pengiriman Uang Internasional"
+    },
     "process": {
-      "step1": { "desc": "Instal aplikasi GME dan selesaikan verifikasi identitas.", "title": "Instal & Verifikasi" },
-      "step2": { "desc": "Pilih negara tujuan, info rekening, dan jumlah.", "title": "Masukkan Info Penerima" },
-      "step3": { "desc": "Bayar dan lacak status pengiriman secara real-time.", "title": "Pengiriman Selesai" },
+      "step1": {
+        "desc": "Instal aplikasi GME dan selesaikan verifikasi identitas.",
+        "title": "Instal & Verifikasi"
+      },
+      "step2": {
+        "desc": "Pilih negara tujuan, info rekening, dan jumlah.",
+        "title": "Masukkan Info Penerima"
+      },
+      "step3": {
+        "desc": "Bayar dan lacak status pengiriman secara real-time.",
+        "title": "Pengiriman Selesai"
+      },
       "subtitle": "3 langkah dari pendaftaran hingga selesai",
       "title": "Proses",
       "title2": "Pengiriman Uang Sederhana"
     },
-    "regions": { "more": "Dan banyak negara lainnya yang didukung", "subtitle": "Tersedia di Asia, Eropa, Amerika, dan Afrika di 200+ negara.", "title": "Jangkauan", "title2": "Global" },
-    "stats": {
-      "achieved": { "label": "Total Pengiriman", "value": "₩3.5T+" },
-      "branches": { "label": "Cabang di Korea", "value": "12" },
-      "languages": { "label": "Bahasa Didukung", "value": "14" },
-      "savings": { "label": "Penghematan Biaya", "value": "90%" }
+    "regions": {
+      "more": "Dan banyak negara lainnya yang didukung",
+      "subtitle": "Tersedia di Asia, Eropa, Amerika, dan Afrika di 200+ negara.",
+      "title": "Jangkauan",
+      "title2": "Global"
     },
-    "trust": { "desc": "Global Money Express (GME) adalah lembaga keuangan yang dilisensikan oleh Kementerian Ekonomi dan Badan Pengawas Keuangan, menyediakan layanan yang aman dan terpercaya.", "insurance": "Asuransi tanggung jawab layanan transaksi keuangan elektronik: 300 juta KRW", "title": "Kami menyediakan layanan yang aman." },
+    "stats": {
+      "achieved": {
+        "label": "Total Pengiriman",
+        "value": "₩3.5T+"
+      },
+      "branches": {
+        "label": "Cabang di Korea",
+        "value": "12"
+      },
+      "languages": {
+        "label": "Bahasa Didukung",
+        "value": "14"
+      },
+      "savings": {
+        "label": "Penghematan Biaya",
+        "value": "90%"
+      }
+    },
+    "trust": {
+      "desc": "Global Money Express (GME) adalah lembaga keuangan yang dilisensikan oleh Kementerian Ekonomi dan Badan Pengawas Keuangan, menyediakan layanan yang aman dan terpercaya.",
+      "insurance": "Asuransi tanggung jawab layanan transaksi keuangan elektronik: 300 juta KRW",
+      "title": "Kami menyediakan layanan yang aman."
+    },
     "why": {
       "items": {
-        "cheapest": { "desc": "Biaya dan kurs lebih baik dari bank tradisional.", "title": "Biaya Kompetitif" },
-        "fastest": { "desc": "Pemrosesan real-time meminimalkan waktu pengiriman.", "title": "Pengiriman Cepat" },
-        "secure": { "desc": "Verifikasi identitas yang ditingkatkan dan perlindungan keamanan.", "title": "Verifikasi Aman" }
+        "cheapest": {
+          "desc": "Biaya dan kurs lebih baik dari bank tradisional.",
+          "title": "Biaya Kompetitif"
+        },
+        "fastest": {
+          "desc": "Pemrosesan real-time meminimalkan waktu pengiriman.",
+          "title": "Pengiriman Cepat"
+        },
+        "secure": {
+          "desc": "Verifikasi identitas yang ditingkatkan dan perlindungan keamanan.",
+          "title": "Verifikasi Aman"
+        }
       },
       "subtitle": "Mengapa Memilih GME Remittance",
       "title": "Layanan Pengiriman Uang Global Terpercaya"
@@ -1023,32 +1371,117 @@
     "branches": {
       "address": "Alamat",
       "data": {
-        "1": { "address": "315 Jongno, Jongno-gu, Seoul (Pintu keluar 3 Stasiun Dongdaemun)", "hours": "Hari kerja & Akhir pekan 10:00 - 19:00", "name": "Cabang Dongdaemun" },
-        "2": { "address": "Lantai 1, 6 Damunhwa-gil, Danwon-gu, Ansan-si, Gyeonggi-do", "hours": "Hari kerja & Akhir pekan 10:00 - 19:00", "name": "Cabang Ansan" },
-        "3": { "address": "Lantai 3, 12 Euljiro 44-gil, Jung-gu, Seoul (Mongolia Town)", "hours": "Hari kerja & Akhir pekan 10:00 - 19:00", "name": "Cabang Mongolia Town" },
-        "4": { "address": "Lantai 1, 134 Dorim-ro, Yeongdeungpo-gu, Seoul", "hours": "Hari kerja & Akhir pekan 10:00 - 19:00", "name": "Cabang Daerim" },
-        "5": { "address": "36 Usadan-ro 10-gil, Yongsan-gu, Seoul", "hours": "Hari kerja & Akhir pekan 10:00 - 19:00", "name": "Cabang Itaewon" },
-        "6": { "address": "2-10 Maesan-ro, Paldal-gu, Suwon-si, Gyeonggi-do", "hours": "Hari kerja & Akhir pekan 10:00 - 19:00", "name": "Cabang Suwon" },
-        "7": { "address": "Lantai 1, 1109-3 3·1 Manse-ro, Hyangnam-eup, Hwaseong-si, Gyeonggi-do", "hours": "Jumat - Selasa 10:00 - 19:00", "name": "Cabang Hwaseong" },
-        "8": { "address": "91 Solmoru-ro, Soheul-eup, Pocheon-si, Gyeonggi-do (Sebelah NH Bank)", "hours": "Sabtu - Rabu 10:00 - 19:00", "name": "Cabang Songuri" },
-        "9": { "address": "16 Gwangjang-ro, Bupyeong-gu, Incheon (Pusat Perbelanjaan Stasiun Bupyeong)", "hours": "Sabtu - Rabu 10:00 - 19:00", "name": "Cabang Bupyeong" },
-        "10": { "address": "Lantai 1, 64 Seongseo-ro 69-gil, Dalseo-gu, Daegu", "hours": "Hari kerja 10:00 - 18:00, Akhir pekan 10:00 - 19:00", "name": "Cabang Daegu" },
-        "11": { "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (Seberang Top Mart)", "hours": "Hari kerja & Akhir pekan 10:00 - 19:00", "name": "Cabang Gimhae" },
-        "12": { "address": "7-2 Gwangsan-ro, Gwangsan-gu, Gwangju", "hours": "Sabtu - Rabu 10:00 - 19:00", "name": "Cabang Gwangju" }
+        "1": {
+          "address": "315 Jongno, Jongno-gu, Seoul (Pintu keluar 3 Stasiun Dongdaemun)",
+          "hours": "Hari kerja & Akhir pekan 10:00 - 19:00",
+          "name": "Cabang Dongdaemun"
+        },
+        "2": {
+          "address": "Lantai 1, 6 Damunhwa-gil, Danwon-gu, Ansan-si, Gyeonggi-do",
+          "hours": "Hari kerja & Akhir pekan 10:00 - 19:00",
+          "name": "Cabang Ansan"
+        },
+        "3": {
+          "address": "Lantai 3, 12 Euljiro 44-gil, Jung-gu, Seoul (Mongolia Town)",
+          "hours": "Hari kerja & Akhir pekan 10:00 - 19:00",
+          "name": "Cabang Mongolia Town"
+        },
+        "4": {
+          "address": "Lantai 1, 134 Dorim-ro, Yeongdeungpo-gu, Seoul",
+          "hours": "Hari kerja & Akhir pekan 10:00 - 19:00",
+          "name": "Cabang Daerim"
+        },
+        "5": {
+          "address": "36 Usadan-ro 10-gil, Yongsan-gu, Seoul",
+          "hours": "Hari kerja & Akhir pekan 10:00 - 19:00",
+          "name": "Cabang Itaewon"
+        },
+        "6": {
+          "address": "2-10 Maesan-ro, Paldal-gu, Suwon-si, Gyeonggi-do",
+          "hours": "Hari kerja & Akhir pekan 10:00 - 19:00",
+          "name": "Cabang Suwon"
+        },
+        "7": {
+          "address": "Lantai 1, 1109-3 3·1 Manse-ro, Hyangnam-eup, Hwaseong-si, Gyeonggi-do",
+          "hours": "Jumat - Selasa 10:00 - 19:00",
+          "name": "Cabang Hwaseong"
+        },
+        "8": {
+          "address": "91 Solmoru-ro, Soheul-eup, Pocheon-si, Gyeonggi-do (Sebelah NH Bank)",
+          "hours": "Sabtu - Rabu 10:00 - 19:00",
+          "name": "Cabang Songuri"
+        },
+        "9": {
+          "address": "16 Gwangjang-ro, Bupyeong-gu, Incheon (Pusat Perbelanjaan Stasiun Bupyeong)",
+          "hours": "Sabtu - Rabu 10:00 - 19:00",
+          "name": "Cabang Bupyeong"
+        },
+        "10": {
+          "address": "Lantai 1, 64 Seongseo-ro 69-gil, Dalseo-gu, Daegu",
+          "hours": "Hari kerja 10:00 - 18:00, Akhir pekan 10:00 - 19:00",
+          "name": "Cabang Daegu"
+        },
+        "11": {
+          "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (Seberang Top Mart)",
+          "hours": "Hari kerja & Akhir pekan 10:00 - 19:00",
+          "name": "Cabang Gimhae"
+        },
+        "12": {
+          "address": "7-2 Gwangsan-ro, Gwangsan-gu, Gwangju",
+          "hours": "Sabtu - Rabu 10:00 - 19:00",
+          "name": "Cabang Gwangju"
+        }
       },
       "hours": "Jam Operasional",
       "phone": "Telepon"
     },
-    "hero": { "desc1": "Melalui cabang di seluruh negeri dan saluran sosial global,", "desc2": "Anda dapat mendapatkan dukungan dan bertanya kapan saja.", "desc3": "Temukan cabang terdekat atau hubungi kami di media sosial.", "title": "GME, Selalu di Sisi Anda" },
+    "hero": {
+      "desc1": "Melalui cabang di seluruh negeri dan saluran sosial global,",
+      "desc2": "Anda dapat mendapatkan dukungan dan bertanya kapan saja.",
+      "desc3": "Temukan cabang terdekat atau hubungi kami di media sosial.",
+      "title": "GME, Selalu di Sisi Anda"
+    },
     "social_channels": {
       "contact": "Hubungi",
-      "countries": { "african-region": "Kawasan Afrika", "bangladesh": "Bangladesh", "cambodia": "Kamboja", "china": "Tiongkok", "india": "India", "indonesia": "Indonesia", "japan": "Jepang", "korea": "Korea", "mongolia": "Mongolia", "myanmar": "Myanmar", "nepal": "Nepal", "pakistan": "Pakistan", "philippines": "Filipina", "srilanka": "Sri Lanka", "thailand": "Thailand", "uzbekistan-cis": "Uzbekistan & CIS", "vietnam": "Vietnam", "western": "Barat" },
+      "countries": {
+        "african-region": "Kawasan Afrika",
+        "bangladesh": "Bangladesh",
+        "cambodia": "Kamboja",
+        "china": "Tiongkok",
+        "india": "India",
+        "indonesia": "Indonesia",
+        "japan": "Jepang",
+        "korea": "Korea",
+        "mongolia": "Mongolia",
+        "myanmar": "Myanmar",
+        "nepal": "Nepal",
+        "pakistan": "Pakistan",
+        "philippines": "Filipina",
+        "srilanka": "Sri Lanka",
+        "thailand": "Thailand",
+        "uzbekistan-cis": "Uzbekistan & CIS",
+        "vietnam": "Vietnam",
+        "western": "Barat"
+      },
       "countries_count": "38 Negara",
       "description": "Terhubung dengan GME melalui saluran resmi di setiap negara",
       "operating": "Beroperasi",
       "title": "Saluran Sosial Global"
     },
-    "stats": { "branches_label": "Cabang", "branches_unit": "+", "branches_value": "12", "countries_label": "Negara Dilayani", "countries_unit": "+", "countries_value": "38", "services_label": "Layanan", "services_unit": "+", "services_value": "8" },
-    "tabs": { "branches": "Cabang", "social_channels": "Saluran Sosial" }
+    "stats": {
+      "branches_label": "Cabang",
+      "branches_unit": "+",
+      "branches_value": "12",
+      "countries_label": "Negara Dilayani",
+      "countries_unit": "+",
+      "countries_value": "38",
+      "services_label": "Layanan",
+      "services_unit": "+",
+      "services_value": "8"
+    },
+    "tabs": {
+      "branches": "Cabang",
+      "social_channels": "Saluran Sosial"
+    }
   }
 }
