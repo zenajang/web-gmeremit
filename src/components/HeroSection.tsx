@@ -208,7 +208,7 @@ export default function HeroSection() {
               {/* Calculator Header */}
               <div className="mb-6 lg:mb-7">
                 <div className="lg:flex lg:items-center lg:justify-between">
-                  <h2 className="text-lg font-semibold text-dark">{t("calculator.title")}</h2>
+                  <h2 className="text-xl lg:text-2xl font-bold text-dark">{t("calculator.title")}</h2>
                   <div className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-medium mt-1.5 lg:mt-0 lg:gap-2 lg:px-3.5 lg:py-1.5 lg:text-sm lg:font-semibold ${
                     hasError ? "bg-red-50 text-red-600" : "bg-emerald-50 text-green-800"
                   }`}>
