@@ -10,14 +10,14 @@ export default function HeroMain() {
   const { t } = useTranslation("home.hero");
 
   return (
-    <section className="relative flex flex-col min-h-svh bg-gradient-to-b from-white to-gray-50 overflow-hidden snap-section">
+    <section className="relative flex flex-col lg:min-h-svh bg-gradient-to-b from-white to-gray-50 overflow-hidden snap-section">
       {/* Background Effects */}
       <div className="absolute inset-0">
         <div className="absolute top-1/4 -left-10 w-[320px] h-[320px] sm:w-[500px] sm:h-[500px] rounded-full bg-primary/[0.06] blur-[80px] sm:blur-[100px]" />
         <div className="absolute bottom-1/4 right-0 w-[260px] h-[260px] sm:w-[400px] sm:h-[400px] rounded-full bg-primary/[0.04] blur-[64px] sm:blur-[80px]" />
       </div>
 
-      <div className="relative flex-1 flex items-center max-w-7xl mx-auto w-full px-5 sm:px-6 lg:px-8 pb-10 sm:pb-16 lg:pb-20">
+      <div className="relative flex-1 flex items-center max-w-7xl mx-auto w-full px-5 sm:px-6 lg:px-8 pt-33 lg:pt-0 pb-10 sm:pb-16 lg:pb-20">
         <div className="w-full grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
 
           {/* Left - Text Content */}

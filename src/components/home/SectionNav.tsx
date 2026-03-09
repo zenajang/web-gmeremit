@@ -6,6 +6,7 @@ import { scrollToTop, scrollToSection } from "@/utils/scroll";
 
 const navSectionDefs = [
   { id: "hero", key: "home" },
+  { id: "app", key: "exchange" },
   { id: "gme-payments", key: "services" },
   { id: "testimonials", key: "testimonials" },
   { id: "app-download", key: "app_download" },
@@ -39,6 +40,9 @@ export default function SectionNav() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
+    const desktopQuery = window.matchMedia("(min-width: 1024px)");
+    if (!desktopQuery.matches) return;
+
     // 처음부터 표시
     setIsVisible(true);
 
