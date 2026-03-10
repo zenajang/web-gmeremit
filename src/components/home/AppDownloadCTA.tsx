@@ -57,7 +57,7 @@ export default function AppDownloadCTA() {
                     alt="Get it on Google Play"
                     width={302}
                     height={50}
-                    className="h-[66px] sm:h-[60px] w-auto"
+                    className="h-[67px] sm:h-[89px] w-auto"
                   />
                 </a>
               </div>
