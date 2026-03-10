@@ -41,7 +41,7 @@ export default function AdminDashboardPage() {
     const { data, error } = await query
 
     if (error) {
-      console.error('Error fetching entries:', error)
+      setEntries([])
     } else {
       setEntries(data || [])
     }
@@ -62,7 +62,7 @@ export default function AdminDashboardPage() {
       }
     }
     fetchCounts()
-  }, [entries])
+  }, [filter])
 
   const handleDelete = async (id: number) => {
     if (!confirm('정말 삭제하시겠습니까?')) return
@@ -74,7 +74,6 @@ export default function AdminDashboardPage() {
 
     if (error) {
       alert('삭제 중 오류가 발생했습니다.')
-      console.error(error)
     } else {
       alert('삭제되었습니다.')
       fetchEntries()

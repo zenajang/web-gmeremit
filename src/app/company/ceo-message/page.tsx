@@ -77,7 +77,7 @@ export default function CEOPage() {
 
                   {/* Translated Content Section */}
                   <div className="pt-10 sm:pt-12 mt-0 sm:mt-20">
-                    <div className="text-base sm:text-lg lg:text-2xl sm:space-y-8 text-gray-500 leading-relaxed font-light">
+                    <div className="text-base sm:text-lg lg:text-2xl sm:space-y-8 text-gray-500 leading-relaxed font-light max-w-[85%] sm:max-w-none mx-auto sm:mx-0">
                       <p>{t("paragraph1")}</p>
                       <p>{t("paragraph2")}</p>
                     </div>

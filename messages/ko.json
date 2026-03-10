@@ -730,9 +730,9 @@
       "title": "GME 서비스"
     },
     "tabs": {
-      "ceo_message": "대표 인사말",
+      "ceo_message": "CEO 인사말",
       "history": "연혁",
-      "services": "서비스",
+      "services": "사업소개",
       "title": "회사 소개"
     }
   },

@@ -113,7 +113,6 @@ export default function CreateBoardEntryPage() {
       alert('게시글이 등록되었습니다.')
       router.push('/gme-backoffice/dashboard')
     } catch (error) {
-      console.error('Error creating entry:', error)
       alert('게시글 등록 중 오류가 발생했습니다.')
     } finally {
       setLoading(false)

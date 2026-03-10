@@ -39,7 +39,6 @@ export default function BoardDetailPage() {
         .maybeSingle();
 
       if (error) {
-        console.error("Error fetching entry:", error);
         setEntry(null);
       } else {
         setEntry(data ?? null);

@@ -47,7 +47,6 @@ export default function BoardPage() {
         .order('date', { ascending: false });
 
       if (error) {
-        console.error('Error fetching entries:', error);
         setEntries([]);
       } else {
         setEntries(data || []);

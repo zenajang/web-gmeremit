@@ -10,7 +10,7 @@ import LoanSection from "@/components/home/LoanSection";
 import CardsSection from "@/components/home/CardsSection";
 import TestimonialsSection from "@/components/home/TestimonialsSection";
 import AppDownloadCTA from "@/components/home/AppDownloadCTA";
-import HeroSection from "@/components/HeroSection";
+import HeroSection from "@/components/home/HeroSection";
 
 export default function Home() {
   return (

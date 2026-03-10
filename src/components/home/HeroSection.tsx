@@ -202,7 +202,7 @@ export default function HeroSection() {
             <div className="absolute -top-10 -right-10 w-40 h-40 rounded-full bg-payments-light/[0.25] blur-2xl hidden lg:block" />
             <div className="absolute -bottom-6 -left-6 w-28 h-28 rounded-full bg-sky-400/[0.20] blur-2xl hidden lg:block" />
 
-            <div className="relative bg-gradient-to-b from-gray-50 to-gray-200 rounded-2xl lg:rounded-[2rem] p-2 lg:p-3 shadow-[0_12px_40px_rgba(15,23,42,0.12)] border border-gray-300/50">
+            <div className="relative bg-gradient-to-b from-gray-50 to-gray-200 rounded-2xl lg:rounded-[2rem] p-2 lg:p-3 shadow-none lg:shadow-[0_12px_40px_rgba(15,23,42,0.12)] border border-gray-300/50">
               <div className="bg-white rounded-xl lg:rounded-[1.5rem] p-5 sm:p-8 lg:p-10 shadow-[inset_0_2px_4px_rgba(0,0,0,0.02)]">
               <div className="pointer-events-none absolute inset-2 rounded-[1.25rem] shadow-[inset_0_1px_0_rgba(255,255,255,0.9)] hidden lg:block" />
               {/* Calculator Header */}

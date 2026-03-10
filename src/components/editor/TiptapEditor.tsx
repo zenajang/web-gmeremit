@@ -77,7 +77,6 @@ export default function TiptapEditor({ content, onChange, placeholder, bucketNam
         editor.chain().focus().setImage({ src: publicUrl }).run()
       }
     } catch (error) {
-      console.error('Error uploading image:', error)
       alert('이미지 업로드 중 오류가 발생했습니다.')
     }
   }, [editor, supabase, bucketName])

@@ -151,6 +151,18 @@
   color: var(--color-dark);
 }
 
+/* Services page: mobile-only overrides for consistent sizing */
+@media (max-width: 639px) {
+  .services-mobile-title.typo-feature-title {
+    font-size: 0.875rem;    /* text-sm */
+    font-weight: 600;
+  }
+  .services-mobile-desc {
+    font-size: 0.75rem;     /* text-xs */
+    color: #9ca3af;         /* gray-400 */
+  }
+}
+
 /* Content section title (24px, non-responsive) */
 .typo-content-title {
   font-size: 1.5rem;      /* text-2xl */
@@ -167,13 +179,13 @@
 
 /* Sub-page title (30px → lg:36px) - service detail, payments sections */
 .typo-sub-page-title {
-  font-size: 1.875rem;    /* text-3xl */
+  font-size: 1.7rem;    /* text-3xl */
   font-weight: 700;
   color: var(--color-dark);
 }
 @media (min-width: 1024px) {
   .typo-sub-page-title {
-    font-size: 2.55rem;   /* text-4xl */
+    font-size: 2.65rem;   /* text-4xl */
   }
 }
 
@@ -191,11 +203,16 @@
   color: var(--color-dark);
 }
 
-/* Stat number (30px) - large stats/numbers */
+/* Stat number - large stats/numbers */
 .typo-stat {
-  font-size: 1.875rem;    /* text-3xl */
+  font-size: 1.25rem;     /* 20px mobile */
   font-weight: 700;
   color: var(--color-dark);
+}
+@media (min-width: 640px) {
+  .typo-stat {
+    font-size: 1.875rem;  /* 30px desktop */
+  }
 }
 
 /* Caption text (11px) - timestamps, meta info, small descriptions */

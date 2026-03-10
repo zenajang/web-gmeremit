@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { useAuth } from '@/contexts/AuthContext'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function AdminLoginPage() {
   const [email, setEmail] = useState('')
@@ -36,13 +37,15 @@ export default function AdminLoginPage() {
         <div className="absolute bottom-0 left-0 w-48 h-48 bg-primary/[0.08] rounded-full translate-y-1/3 -translate-x-1/3" />
 
         <div className="relative z-10">
-          <Image
-            src="/images/common/GME-LOGO-HD.png"
-            alt="GME Remit"
-            width={120}
-            height={34}
-            className="brightness-0 invert"
-          />
+          <Link href="/" className="inline-block">
+            <Image
+              src="/images/common/GME-LOGO-HD.png"
+              alt="GME Remit"
+              width={120}
+              height={34}
+              className="brightness-0 invert"
+            />
+          </Link>
           <p className="mt-1.5 text-[12px] text-gray-500 tracking-wider font-medium">관리자 시스템</p>
         </div>
 
@@ -65,7 +68,9 @@ export default function AdminLoginPage() {
         <div className="w-full max-w-[400px]">
           {/* Mobile logo */}
           <div className="lg:hidden mb-8 flex items-center gap-3">
-            <Image src="/images/common/GME-LOGO-HD.png" alt="GME" width={100} height={28} />
+            <Link href="/">
+              <Image src="/images/common/GME-LOGO-HD.png" alt="GME" width={100} height={28} />
+            </Link>
             <span className="text-[12px] text-gray-400 font-medium border-l border-gray-200 pl-3">Admin</span>
           </div>
 
