@@ -281,7 +281,7 @@ export default function HeroSection() {
 
                 {isOpen && (
                   <div
-                    className="absolute z-50 mt-2 w-full bg-white rounded-2xl shadow-xl border border-gray-200/70 py-2 max-h-56 overflow-auto"
+                    className="absolute z-50 mt-2 w-full bg-white rounded-2xl shadow-xl border border-gray-200/70 py-2 max-h-40 overflow-auto"
                     onWheel={(e) => e.stopPropagation()}
                   >
                     {countryConfigs.map((country) => (
