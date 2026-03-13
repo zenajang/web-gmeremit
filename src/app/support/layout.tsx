@@ -19,7 +19,7 @@ export default function SupportLayout({
   useLenis([pathname]);
 
   return (
-    <PublicLayout className="bg-gradient-to-b from-gray-50 via-white to-gray-50 relative overflow-hidden">
+    <PublicLayout className="bg-gradient-to-b from-gray-50 via-white to-gray-50 relative overflow-x-hidden">
         {/* 전체 배경 패턴 */}
         <div className="absolute inset-0 pointer-events-none">
           {/* 도트 패턴 */}

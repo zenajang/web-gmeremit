@@ -3,8 +3,8 @@
 import { useEffect, useRef } from "react";
 import { getHeaderHeight } from "@/utils/scroll";
 
-const SCROLL_DURATION = 700;
-const COOLDOWN = 600;
+const SCROLL_DURATION = 470;
+const COOLDOWN = 400;
 
 // Trackpad sends many small deltaY events (pixel-level), mouse wheel sends
 // fewer large ones. We use this heuristic to detect the input type per-event.

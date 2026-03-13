@@ -106,7 +106,7 @@ export default function BranchesPage() {
 
           {dropdownOpen && (
             <div className="absolute z-10 top-full mt-1 w-full bg-white border border-gray-200 rounded-xl shadow-lg overflow-hidden">
-              <div className="overflow-y-auto max-h-[260px]">
+              <div className="overflow-y-auto max-h-[260px]" data-lenis-prevent style={{ overscrollBehavior: "contain" }}>
                 {branches.map((branch) => (
                   <button
                     key={branch.id}

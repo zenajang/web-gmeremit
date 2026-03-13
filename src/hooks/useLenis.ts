@@ -8,11 +8,11 @@ export function useLenis(deps: unknown[] = []) {
 
   useEffect(() => {
     const lenis = new Lenis({
-      lerp: 0.12,
-      duration: 0.8,
+      lerp: 0.15,
+      duration: 0.6,
       easing: (t) => 1 - Math.pow(1 - t, 3),
       smoothWheel: true,
-      wheelMultiplier: 1.1,
+      wheelMultiplier: 1.8,
       infinite: false,
     });
     lenisRef.current = lenis;
