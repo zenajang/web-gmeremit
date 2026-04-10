@@ -267,6 +267,7 @@ export default function DesktopNav({
                       <Link
                         key={child.label}
                         href={child.href}
+                        {...(child.href.startsWith("http") && { target: "_blank", rel: "noopener noreferrer" })}
                         className="block text-base text-center text-gray-600 hover:text-primary transition-colors duration-250 ease-out"
                       >
                         {child.label}

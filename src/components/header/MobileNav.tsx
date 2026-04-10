@@ -135,6 +135,7 @@ export function MobileAccordion({
             <Link
               key={child.label}
               href={child.href}
+              {...(child.href.startsWith("http") && { target: "_blank", rel: "noopener noreferrer" })}
               className="block px-6 py-2.5 text-sm text-dark hover:bg-gray-100 hover:text-primary"
               onClick={onClose}
             >

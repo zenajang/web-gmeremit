@@ -17,7 +17,7 @@ export default function CEOPage() {
           <div className="absolute inset-0 bg-white"></div>
           <div className="absolute inset-x-0 top-[61%] sm:top-[53%] bottom-0 bg-gray-100"></div>
 
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
 
 
             {/* Navigation Tabs */}

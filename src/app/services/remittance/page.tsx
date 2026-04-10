@@ -45,7 +45,7 @@ export default function RemittancePage() {
 
         {/* ── Why Choose GME Remittance ── */}
         <section id="why" ref={registerSectionRef(0)} className="py-20 lg:py-28 fade-section">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
             {/* Header */}
             <div className="flex items-end justify-between mb-8">
               <div>
@@ -101,7 +101,7 @@ export default function RemittancePage() {
 
         {/* ── Transfer Methods ── */}
         <section ref={registerSectionRef(1)} className="py-20 lg:py-28 bg-gray-50 fade-section">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
             <SectionHeader
               title={t("features.title")}
               title2={t("features.title2")}
@@ -132,7 +132,7 @@ export default function RemittancePage() {
 
         {/* ── Process ── */}
         <section ref={registerSectionRef(2)} className="py-20 lg:py-28 fade-section">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <SectionHeader
               title={t("process.title")}
               title2={t("process.title2")}
@@ -180,7 +180,7 @@ export default function RemittancePage() {
               {t("trust.desc")}
             </p>
             <Image
-              src="/images/license4.png"
+              src="/images/license.png"
               alt="GME License"
               width={1200}
               height={700}
@@ -194,14 +194,14 @@ export default function RemittancePage() {
 
         {/* ── Regions Coverage ── */}
         <section ref={registerSectionRef(4)} className="relative py-20 lg:py-28 overflow-hidden fade-section">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+          <Image
             src="/images/worldmap.jpg"
             alt=""
             aria-hidden="true"
-            className="absolute inset-0 w-full h-full object-cover opacity-50"
+            fill
+            className="object-cover opacity-50"
           />
-          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="relative max-w-content mx-auto px-4 sm:px-6 lg:px-8">
             <SectionHeader
               title={t("regions.title")}
               title2={t("regions.title2")}

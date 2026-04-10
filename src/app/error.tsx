@@ -18,16 +18,16 @@ export default function Error({
       <div className="text-center max-w-md">
         <div className="mb-6 text-6xl font-bold text-primary">!</div>
         <h2 className="mb-3 text-2xl font-bold text-dark">
-          Something went wrong
+          문제가 발생했습니다
         </h2>
         <p className="mb-8 text-gray leading-relaxed">
-          An unexpected error occurred. Please try again.
+          예상치 못한 오류가 발생했습니다. 다시 시도해 주세요.
         </p>
         <button
           onClick={reset}
           className="rounded-xl bg-primary-dark px-8 py-3 text-sm font-semibold text-white transition-colors hover:bg-primary"
         >
-          Try again
+          다시 시도
         </button>
       </div>
     </div>

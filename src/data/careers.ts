@@ -8,14 +8,14 @@ export const benefitImages = [
   "/images/company/careers/perks/annual.jpg",
 ];
 
-export interface Testimonial {
+export interface StaffStory {
   name: string;
   position: string;
   quote: string;
   image: string;
 }
 
-export const testimonials: Testimonial[] = [
+export const staffStories: StaffStory[] = [
   {
     name: "Jason Kim",
     position: "Strategic Planning Team",

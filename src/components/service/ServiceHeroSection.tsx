@@ -4,11 +4,12 @@ import { useTranslation } from "@/hooks/useTranslation";
 
 interface ServiceHeroProps {
   translationKey: string;
-  color: "primary" | "loan" | "payments";
+  color: "primary" | "loan" | "payments" | "purple";
   ctaHref: string;
   ctaTextKey?: string;
   isExternal?: boolean;
   gradientVia?: string;
+  maxWidth?: string;
 }
 
 const colorStyles = {
@@ -36,6 +37,12 @@ const colorStyles = {
     hover: "hover:bg-[#2563eb]",
     gradient: "from-gray-800/[0.12] via-[#f5f5f5] to-payments/[0.14]",
   },
+  purple: {
+    text: "text-[#5b21b6]",
+    bg: "bg-[#5b21b6]",
+    hover: "hover:bg-[#7c3aed]",
+    gradient: "from-gray-800/[0.12] via-[#f5f5f5] to-[#5b21b6]/[0.14]",
+  },
 } as const;
 
 function getStyleKey(color: string, gradientVia?: string): keyof typeof colorStyles {
@@ -50,6 +57,7 @@ export default function ServiceHeroSection({
   ctaTextKey = "hero.cta",
   isExternal = false,
   gradientVia,
+  maxWidth = "max-w-content",
 }: ServiceHeroProps) {
   const { t } = useTranslation(translationKey);
   const styles = colorStyles[getStyleKey(color, gradientVia)];
@@ -58,7 +66,7 @@ export default function ServiceHeroSection({
     <section className="relative overflow-hidden">
       <div className={`absolute inset-0 bg-gradient-to-br ${styles.gradient}`} />
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+      <div className={`relative ${maxWidth} mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16`}>
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
           <div>
             <p className={`text-sm font-semibold ${styles.text} tracking-wide uppercase mb-3`}>

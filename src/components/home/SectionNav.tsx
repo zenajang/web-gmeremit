@@ -8,7 +8,7 @@ const navSectionDefs = [
   { id: "hero", key: "home" },
   { id: "app", key: "exchange" },
   { id: "gme-payments", key: "services" },
-  { id: "testimonials", key: "testimonials" },
+  { id: "customer-feedback", key: "customer_feedback" },
   { id: "app-download", key: "app_download" },
 ];
 
@@ -21,7 +21,7 @@ const allSections = [
   "overseas-remittance",
   "online-loan",
   "gme-cards",
-  "testimonials",
+  "customer-feedback",
   "app-download",
 ];
 
@@ -78,7 +78,7 @@ export default function SectionNav() {
       scrollToTop();
       return;
     }
-    const offset = sectionId === "testimonials" ? 40 : 0;
+    const offset = sectionId === "customer-feedback" ? 40 : 0;
     scrollToSection(sectionId, offset);
   };
 

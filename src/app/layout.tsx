@@ -3,7 +3,7 @@ import { cookies } from "next/headers";
 import localFont from "next/font/local";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import { AuthProvider } from "@/contexts/AuthContext";
-import KakaoFloatingButton from "@/components/KakaoFloatingButton";
+import ChannelTalk from "@/components/channel-talk/ChannelTalk";
 import ScrollToTop from "@/components/ScrollToTop";
 import { LANGUAGE_COOKIE_NAME, getLanguageByCode } from "@/lib/language";
 import "./globals.css";
@@ -102,7 +102,7 @@ export default async function RootLayout({
           </LanguageProvider>
         </AuthProvider>
         <ScrollToTop />
-        <KakaoFloatingButton />
+        <ChannelTalk />
       </body>
     </html>
   );

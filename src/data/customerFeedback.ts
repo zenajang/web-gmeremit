@@ -1,11 +1,11 @@
-export interface HomeTestimonial {
+export interface CustomerFeedback {
   quote: string;
   name: string;
   meta: string;
   tagKey: string;
 }
 
-export const homeTestimonials: HomeTestimonial[] = [
+export const customerFeedbacks: CustomerFeedback[] = [
   {
     quote: "I love how simple and quick the process is with GME Remittance. My family gets the money instantly, and I can track everything!",
     name: "Dos James",

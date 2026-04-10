@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { FaFacebook, FaTiktok, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { HiPhone } from "react-icons/hi";
 import { RiCustomerService2Fill } from "react-icons/ri";
 import { useTranslation } from "@/hooks/useTranslation";
@@ -85,17 +85,7 @@ export default function SocialChannelsPage() {
                         <FaFacebook className="w-3.5 h-3.5" />
                       </a>
                     )}
-                    {country.tiktok && (
-                      <a
-                        href={country.tiktok}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center justify-center w-8 h-8 rounded-full bg-white ring-1 ring-gray-200 text-gray-700 hover:bg-black hover:text-white hover:ring-black hover:shadow-md hover:shadow-black/20 transition-all duration-200"
-                        title="TikTok"
-                      >
-                        <FaTiktok className="w-3.5 h-3.5" />
-                      </a>
-                    )}
+
                     {country.instagram && (
                       <a
                         href={country.instagram}

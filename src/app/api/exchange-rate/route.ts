@@ -11,7 +11,7 @@ export async function POST(request: NextRequest) {
       method: "GetExRate",
       pCurr,
       pCountryName,
-      collCurr: "KRW",
+      collCurr: "KRW", 
       deliveryMethod,
       cAmt: cAmt || "",
       pAmt: pAmt || "",

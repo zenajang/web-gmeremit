@@ -46,6 +46,7 @@
   --color-surface-2: var(--surface-2);
   --color-surface-warm: var(--surface-warm);
   --color-border-soft: var(--border-soft);
+  --container-content: 1450px;
 }
 
 * {

@@ -603,10 +603,6 @@
       "description": "200+ mamlakatdagi mijozlarga xizmat ko'rsatuvchi global fintech kompaniyasiga qo'shiling.",
       "title": "GME bilan o'sing"
     },
-    "testimonials": {
-      "subtitle": "Hamkasblarimizdan haqiqiy hikoyalar",
-      "title": "Jamoa hikoyalari"
-    },
     "why_gme": {
       "agile": {
         "description": "Yassi tashkilotda tez qarorlar qabul qilamiz, xatolardan o'rganamiz va birga o'samiz.",
@@ -621,6 +617,10 @@
         "title": "Adolatli imkoniyat"
       },
       "title": "Nega GME alohida?"
+    },
+    "staff_stories": {
+      "subtitle": "Hamkasblarimizdan haqiqiy hikoyalar",
+      "title": "Jamoa hikoyalari"
     }
   },
   "company": {
@@ -1055,7 +1055,7 @@
       "exchange": "Valyuta kalkulyatori",
       "home": "Bosh sahifa",
       "services": "Xizmatlar",
-      "testimonials": "Fikrlar"
+      "customer_feedback": "Fikrlar"
     },
     "services": {
       "card": {
@@ -1082,7 +1082,7 @@
       "title1": "GME ning",
       "title2": "xizmatlarini kashf eting"
     },
-    "testimonials": {
+    "customer_feedback": {
       "subtitle": "Mijozlarimizning haqiqiy tajribalari.",
       "tags": {
         "easy_tracking": "Oson o'tkazma & kuzatuv",

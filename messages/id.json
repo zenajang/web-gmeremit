@@ -629,10 +629,6 @@
       "description": "Bergabunglah dengan perusahaan fintech global yang melayani pelanggan di lebih dari 200 negara dan wilayah.",
       "title": "Berkembang Bersama GME"
     },
-    "testimonials": {
-      "subtitle": "Kisah nyata dari rekan kerja",
-      "title": "Cerita Tim"
-    },
     "why_gme": {
       "agile": {
         "description": "Organisasi flat, eksekusi cepat, belajar dari kegagalan, dan tumbuh bersama.",
@@ -647,6 +643,10 @@
         "title": "Kesempatan yang Adil"
       },
       "title": "Yang Membuat GME Istimewa"
+    },
+    "staff_stories": {
+      "subtitle": "Kisah nyata dari rekan kerja",
+      "title": "Cerita Tim"
     }
   },
   "company": {
@@ -1081,7 +1081,7 @@
       "exchange": "Kalkulator Kurs",
       "home": "Beranda",
       "services": "Layanan",
-      "testimonials": "Ulasan"
+      "customer_feedback": "Ulasan"
     },
     "services": {
       "card": {
@@ -1108,7 +1108,7 @@
       "title1": "Jelajahi",
       "title2": "Berbagai Layanan GME"
     },
-    "testimonials": {
+    "customer_feedback": {
       "subtitle": "Pengalaman nyata dari pelanggan kami.",
       "tags": {
         "easy_tracking": "Kirim & Lacak Mudah",

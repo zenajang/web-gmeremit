@@ -135,7 +135,7 @@ export default function BranchesPage() {
               alt={selectedBranch.name}
               width={600}
               height={176}
-              className="w-full h-40 lg:h-44 object-cover"
+              className="w-full h-56 lg:h-64 object-cover"
             />
           </div>
         )}

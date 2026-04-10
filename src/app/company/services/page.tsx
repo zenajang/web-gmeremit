@@ -15,6 +15,16 @@ const mainServices: {
   icon: ReactNode;
 }[] = [
   {
+    key: "personal_remittance",
+    href: "/services/remittance",
+    color: "primary",
+    icon: (
+      <svg className="w-8 h-8 stroke-primary" fill="none" viewBox="0 0 24 24" strokeWidth={2}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+    ),
+  },
+  {
     key: "b2b_payments",
     href: "/services/payments",
     color: "payments",
@@ -26,12 +36,22 @@ const mainServices: {
     ),
   },
   {
-    key: "personal_remittance",
-    href: "/services/remittance",
-    color: "primary",
+    key: "gme_card",
+    href: "/services/card",
+    color: "cards",
     icon: (
-      <svg className="w-8 h-8 stroke-primary" fill="none" viewBox="0 0 24 24" strokeWidth={2}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      <svg className="w-8 h-8" fill="none" stroke="#374151" viewBox="0 0 24 24" strokeWidth={2}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H5a3 3 0 00-3 3v8a3 3 0 003 3z" />
+      </svg>
+    ),
+  },
+  {
+    key: "telecom",
+    href: "/services/telecom",
+    color: "purple",
+    icon: (
+      <svg className="w-8 h-8" fill="none" stroke="#5b21b6" viewBox="0 0 24 24" strokeWidth={2}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
       </svg>
     ),
   },
@@ -43,14 +63,6 @@ const mainServices: {
       <svg className="w-8 h-8 stroke-loan" fill="none" viewBox="0 0 24 24" strokeWidth={2}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
       </svg>
-    ),
-  },
-  {
-    key: "gme_card",
-    href: "/services/card",
-    color: "cards",
-    icon: (
-      <Image src="/images/common/card.png" alt="Card" width={60} height={60} className="w-10 h-10 sm:w-12 sm:h-12 object-contain" />
     ),
   },
 ];
@@ -69,7 +81,7 @@ export default function ServicesPage() {
   return (
     <PublicLayout className="bg-white">
         <section className="pt-10 sm:pt-16 lg:pt-20 pb-10 sm:pb-16 lg:pb-24">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
             <CompanyTabs activeTab="services" />
 
             {/* Hero Section */}
@@ -121,13 +133,14 @@ export default function ServicesPage() {
               </div>
 
               {/* Main Services — 가로 카드 (모바일) / 세로 그리드 (데스크탑) */}
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-10">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-3 sm:gap-6">
                 {mainServices.map(({ key, href, color, icon }) => {
                   const colorMap: Record<string, { bg: string; border: string; text: string }> = {
                     payments: { bg: "bg-payments/10", border: "hover:border-payments/30", text: "text-payments" },
                     primary: { bg: "bg-primary/10", border: "hover:border-primary/30", text: "text-primary" },
                     loan: { bg: "bg-loan/10", border: "hover:border-loan/30", text: "text-loan" },
                     cards: { bg: "bg-cards/10", border: "hover:border-cards/30", text: "text-cards" },
+                    purple: { bg: "bg-[#5b21b6]/10", border: "hover:border-[#5b21b6]/30", text: "text-[#5b21b6]" },
                   };
                   const c = colorMap[color] || colorMap.primary;
                   return (

@@ -629,10 +629,6 @@
       "description": "Sumali sa aming pandaigdigang fintech company na nagbibigay ng serbisyong pinansyal sa mga customer sa 200+ na bansa.",
       "title": "Lumago kasama ang GME"
     },
-    "testimonials": {
-      "subtitle": "Mga totoong kwento mula sa aming mga kasamahan",
-      "title": "Mga Kwento ng Team"
-    },
     "why_gme": {
       "agile": {
         "description": "Mabilis na pagpapatupad sa flat na organisasyon, matuto mula sa mga pagkabigo, at lumago nang magkasama.",
@@ -647,6 +643,10 @@
         "title": "Patas na Pagkakataon"
       },
       "title": "Bakit Espesyal ang GME"
+    },
+    "staff_stories": {
+      "subtitle": "Mga totoong kwento mula sa aming mga kasamahan",
+      "title": "Mga Kwento ng Team"
     }
   },
   "company": {
@@ -1081,7 +1081,7 @@
       "exchange": "Exchange Calculator",
       "home": "Home",
       "services": "Mga Serbisyo",
-      "testimonials": "Mga Testimonial"
+      "customer_feedback": "Feedback ng Customer"
     },
     "services": {
       "card": {
@@ -1108,14 +1108,14 @@
       "title1": "Tuklasin ang",
       "title2": "Iba't ibang Serbisyo ng GME"
     },
-    "testimonials": {
+    "customer_feedback": {
       "subtitle": "Mga totoong karanasan mula sa aming mga customer.",
       "tags": {
         "easy_tracking": "Madaling Transfer at Pagsubaybay",
         "fast_process": "Mabilis na Proseso",
         "satisfied": "Nasiyahang Serbisyo"
       },
-      "title": "Mga Testimonial"
+      "title": "Feedback ng Customer"
     }
   },
   "loan": {

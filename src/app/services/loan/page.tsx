@@ -42,7 +42,7 @@ export default function LoanPage() {
 
         {/* ── Why Choose GME Loan ── */}
         <section ref={registerSectionRef(0)} className="py-20 lg:py-28 fade-section">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
               {/* Stats Card */}
               <div className="w-full lg:w-5/12">
@@ -124,7 +124,7 @@ export default function LoanPage() {
 
         {/* ── Loan Products ── */}
         <section id="products" ref={registerSectionRef(1)} className="py-20 lg:py-32 fade-section">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
             <SectionHeader
               title={t("products.title")}
               title2={t("products.title2")}
@@ -167,7 +167,7 @@ export default function LoanPage() {
 
         {/* ── Application Process ── */}
         <section ref={registerSectionRef(2)} className="py-16 lg:py-24 fade-section">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="typo-section-title mb-3">
                 {t("process.title")}

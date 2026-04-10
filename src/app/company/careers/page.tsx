@@ -5,11 +5,11 @@ import Image from "next/image";
 import { useState } from "react";
 import { useLenis } from "@/hooks/useLenis";
 import { useTranslation } from "@/hooks/useTranslation";
-import { benefitKeys, benefitImages, testimonials, whyGmeKeys, whyGmeIcons } from "@/data/careers";
+import { benefitKeys, benefitImages, staffStories, whyGmeKeys, whyGmeIcons } from "@/data/careers";
 
 export default function CareersPage() {
   const { t } = useTranslation("careers");
-  const [selectedTestimonial, setSelectedTestimonial] = useState<typeof testimonials[0] | null>(null);
+  const [selectedStory, setSelectedStory] = useState<typeof staffStories[0] | null>(null);
 
   useLenis();
 
@@ -106,14 +106,14 @@ export default function CareersPage() {
           </div>
         </section>
 
-        {/* Testimonials */}
+        {/* Team Stories */}
         <section className="py-14 lg:py-20 bg-gray-50">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="typo-heading mb-3 text-center">{t("testimonials.title")}</h2>
-            <p className="text-gray-500 text-center mb-6 sm:mb-10">{t("testimonials.subtitle")}</p>
+            <h2 className="typo-heading mb-3 text-center">{t("staff_stories.title")}</h2>
+            <p className="text-gray-500 text-center mb-6 sm:mb-10">{t("staff_stories.subtitle")}</p>
 
             <div className="grid md:grid-cols-3 gap-4 sm:gap-6">
-              {testimonials.map((item) => (
+              {staffStories.map((item) => (
                 <div key={item.name} className="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100">
                   <div className="flex items-center gap-4 mb-4">
                     <div className="w-14 h-14 rounded-full overflow-hidden bg-gray-100 shrink-0 ring-2 ring-gray-100">
@@ -135,7 +135,7 @@ export default function CareersPage() {
                     <div className="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-white to-transparent" />
                   </div>
                   <button
-                    onClick={() => setSelectedTestimonial(item)}
+                    onClick={() => setSelectedStory(item)}
                     aria-label={`${item.name} 후기 더 보기`}
                     className="mt-4 w-full flex justify-center cursor-pointer"
                   >
@@ -151,18 +151,18 @@ export default function CareersPage() {
           </div>
         </section>
 
-        {/* Testimonial Modal */}
-        {selectedTestimonial && (
+        {/* Story Modal */}
+        {selectedStory && (
           <div
             className="fixed inset-0 bg-black/40 backdrop-blur-md z-50 flex items-center justify-center p-4"
-            onClick={() => setSelectedTestimonial(null)}
+            onClick={() => setSelectedStory(null)}
           >
             <div
               className="relative bg-gradient-to-b from-white to-gray-50 rounded-2xl max-w-md w-full max-h-[85vh] overflow-y-auto shadow-[0_25px_50px_-12px_rgba(0,0,0,0.15),0_0_0_1px_rgba(0,0,0,0.03)]"
               onClick={(e) => e.stopPropagation()}
             >
               <button
-                onClick={() => setSelectedTestimonial(null)}
+                onClick={() => setSelectedStory(null)}
                 className="absolute top-4 right-4 w-8 h-8 rounded-full bg-black/5 hover:bg-black/10 flex items-center justify-center transition-colors cursor-pointer text-gray-500 hover:text-gray-800 z-10"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
@@ -173,22 +173,22 @@ export default function CareersPage() {
               <div className="pt-8 pb-4 px-5 sm:pt-10 sm:pb-6 sm:px-8 text-center">
                 <div className="w-20 h-20 rounded-full overflow-hidden bg-gradient-to-br from-gray-100 to-gray-50 ring-[3px] ring-white shadow-lg mb-4 mx-auto">
                   <Image
-                    src={selectedTestimonial.image}
-                    alt={selectedTestimonial.name}
+                    src={selectedStory.image}
+                    alt={selectedStory.name}
                     width={80}
                     height={80}
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <p className="typo-feature-title">{selectedTestimonial.name}</p>
-                <p className="text-[13px] text-gray-500 mt-1">{selectedTestimonial.position}</p>
+                <p className="typo-feature-title">{selectedStory.name}</p>
+                <p className="text-[13px] text-gray-500 mt-1">{selectedStory.position}</p>
               </div>
 
               <div className="px-5 pb-8 sm:px-8 sm:pb-10">
                 <div className="relative bg-white rounded-2xl p-6 shadow-[0_2px_12px_rgba(0,0,0,0.04)]">
                   <span className="absolute -top-3 left-6 text-primary/20 text-5xl font-serif leading-none" aria-hidden="true">&ldquo;</span>
                   <p className="text-gray-600 text-[15px] leading-[1.85] pt-2">
-                    {selectedTestimonial.quote}
+                    {selectedStory.quote}
                   </p>
                   <span className="absolute -bottom-4 right-6 text-primary/20 text-5xl font-serif leading-none rotate-180" aria-hidden="true">&ldquo;</span>
                 </div>

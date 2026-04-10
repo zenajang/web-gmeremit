@@ -6,30 +6,27 @@ export interface Contact {
 export interface Country {
   id: string;
   facebook?: string;
-  tiktok?: string;
   instagram?: string;
   contacts?: Contact[];
 }
 
 export const countries: Country[] = [
-  { id: "korea", facebook: "https://www.facebook.com/GMEKorea/", tiktok: "https://www.tiktok.com/@GMEKorea",
+  { id: "korea", facebook: "https://www.facebook.com/GMEKorea/",
     contacts: [{ label: "Remittance", phone: "1811-2961" }, { label: "Remittance", phone: "010-6551-6864" }] },
-  { id: "indonesia", facebook: "https://www.facebook.com/gmeindonesia/", tiktok: "https://www.tiktok.com/@gmeindonesia",
+  { id: "indonesia", facebook: "https://www.facebook.com/gmeindonesia/",
     contacts: [{ label: "Remittance", phone: "1811-2945" }, { label: "Loan", phone: "010-3017-6864" }] },
-  { id: "mongolia", facebook: "https://www.facebook.com/gmemongolia/", tiktok: "https://www.tiktok.com/@gmemongolia",
+  { id: "mongolia", facebook: "https://www.facebook.com/gmemongolia/",
     contacts: [{ label: "Remittance", phone: "1811-2946" }, { label: "Loan", phone: "010-2973-6864" }] },
-  { id: "cambodia", facebook: "https://www.facebook.com/gmecambodia/", tiktok: "https://www.tiktok.com/@gmecambodia",
+  { id: "cambodia", facebook: "https://www.facebook.com/gmecambodia/",
     contacts: [{ label: "Remittance", phone: "1811-2948" }, { label: "Loan", phone: "010-3077-6864" }] },
-  { id: "bangladesh", facebook: "https://www.facebook.com/gmebangladesh/", tiktok: "https://www.tiktok.com/@gmebangladesh",
+  { id: "bangladesh", facebook: "https://www.facebook.com/gmebangladesh/",
     contacts: [{ label: "Remittance", phone: "1811-2943" }, { label: "Loan", phone: "010-9932-6864" }] },
-  { id: "thailand", facebook: "https://www.facebook.com/gmethailand/", tiktok: "https://www.tiktok.com/@gmeremittancethailand",
+  { id: "thailand", facebook: "https://www.facebook.com/gmethailand/",
     contacts: [{ label: "Remittance", phone: "1811-2941" }, { label: "Loan", phone: "010-9928-6864" }] },
-  { id: "pakistan", facebook: "https://www.facebook.com/gmepakistan/", tiktok: "https://www.tiktok.com/@gmepakistan",
+  { id: "pakistan", facebook: "https://www.facebook.com/gmepakistan/",
     contacts: [{ label: "Remittance", phone: "010-2760-6864" }, { label: "Loan", phone: "010-2760-6864" }] },
-  { id: "china", facebook: "https://www.facebook.com/GMERemittanceChina#", tiktok: "https://www.tiktok.com/@gmeremittance_china",
+  { id: "china", facebook: "https://www.facebook.com/GMERemittanceChina#",
     contacts: [{ label: "Remittance", phone: "1811-2907" }] },
-  { id: "japan", facebook: "https://www.facebook.com/GMERemittanceChina#", instagram: "https://www.instagram.com/gmejapan/?hl=ja",
-    contacts: [{ label: "Remittance", phone: "1811-2969" }] },
   { id: "nepal", facebook: "https://www.facebook.com/gmenepal/",
     contacts: [{ label: "Remittance", phone: "1811-2934" }, { label: "Loan", phone: "010-6584-6864" }] },
   { id: "srilanka", facebook: "https://www.facebook.com/gmeremitsrilanka/",

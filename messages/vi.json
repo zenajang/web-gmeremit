@@ -629,10 +629,6 @@
       "description": "Gia nhập công ty fintech toàn cầu phục vụ khách hàng tại hơn 200 quốc gia và vùng lãnh thổ.",
       "title": "Cùng phát triển với GME"
     },
-    "testimonials": {
-      "subtitle": "Câu chuyện thực từ đồng nghiệp",
-      "title": "Câu chuyện đội nhóm"
-    },
     "why_gme": {
       "agile": {
         "description": "Tổ chức phẳng, thực thi nhanh, học từ thất bại và cùng phát triển.",
@@ -647,6 +643,10 @@
         "title": "Cơ hội công bằng"
       },
       "title": "Điều đặc biệt tại GME"
+    },
+    "staff_stories": {
+      "subtitle": "Câu chuyện thực từ đồng nghiệp",
+      "title": "Câu chuyện đội nhóm"
     }
   },
   "company": {
@@ -1081,7 +1081,7 @@
       "exchange": "Máy tính tỷ giá",
       "home": "Trang chủ",
       "services": "Dịch vụ",
-      "testimonials": "Đánh giá"
+      "customer_feedback": "Đánh giá"
     },
     "services": {
       "card": {
@@ -1108,7 +1108,7 @@
       "title1": "Khám phá các",
       "title2": "Dịch vụ đa dạng của GME"
     },
-    "testimonials": {
+    "customer_feedback": {
       "subtitle": "Trải nghiệm thực tế từ khách hàng của chúng tôi.",
       "tags": {
         "easy_tracking": "Chuyển tiền & Theo dõi dễ dàng",

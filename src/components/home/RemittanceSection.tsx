@@ -23,7 +23,7 @@ export default function RemittanceSection() {
       <div className="hidden lg:block absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-secondary/[0.05] blur-3xl" />
       <div className="hidden lg:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-primary/[0.02] blur-3xl" />
 
-      <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:min-h-screen flex items-center">
+      <div className="relative w-full max-w-content mx-auto px-4 sm:px-6 lg:px-8 lg:min-h-screen flex items-center">
         <div className="w-full grid lg:grid-cols-2 gap-8 lg:gap-20 items-center">
           <div>
             <p className="typo-eyebrow text-primary mb-3">REMITTANCE</p>

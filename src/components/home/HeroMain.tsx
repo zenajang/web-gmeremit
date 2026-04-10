@@ -17,7 +17,7 @@ export default function HeroMain() {
         <div className="absolute bottom-1/4 right-0 w-[260px] h-[260px] sm:w-[400px] sm:h-[400px] rounded-full bg-primary/[0.04] blur-[64px] sm:blur-[80px]" />
       </div>
 
-      <div className="relative flex-1 flex items-center max-w-7xl mx-auto w-full px-5 sm:px-6 lg:px-8 pt-33 lg:pt-0 pb-10 sm:pb-16 lg:pb-20">
+      <div className="relative flex-1 flex items-center max-w-content mx-auto w-full px-5 sm:px-6 lg:px-8 pt-33 lg:pt-0 pb-10 sm:pb-16 lg:pb-20">
         <div className="w-full grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
 
           {/* Left - Text Content */}
@@ -134,7 +134,7 @@ export default function HeroMain() {
             <div className="hidden sm:block absolute -bottom-6 -left-6 bg-white/70 backdrop-blur-xl rounded-2xl px-5 py-4 shadow-[0_8px_32px_rgba(0,0,0,0.1)] border border-white/50 ring-1 ring-black/[0.03]">
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-white/60 via-white/20 to-transparent pointer-events-none" />
               <p className="relative text-xs text-gray-500 mb-1">{t("stats.total_amount")}</p>
-              <p className="relative typo-content-title">4.2<span className="text-sm font-medium text-gray-400 ml-0.5">{t("stats.trillion")}</span></p>
+              <p className="relative typo-content-title">4 <span className="text-sm font-medium text-gray-400">{t("stats.trillion")}</span></p>
             </div>
 
             <div className="hidden sm:block absolute -top-4 -right-4 bg-primary/80 backdrop-blur-xl text-white rounded-2xl px-5 py-4 shadow-[0_8px_32px_rgba(237,28,36,0.3)] border border-white/20">

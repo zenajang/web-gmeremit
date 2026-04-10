@@ -103,7 +103,7 @@ export default function SupportLayout({
 
         {/* Content Section */}
         <section className="pt-6 pb-12 lg:py-16 relative z-10">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
             {/* Tabs */}
             <div className="flex justify-center mb-8 lg:mb-12">
               <div className="inline-flex gap-2 w-full sm:w-auto">

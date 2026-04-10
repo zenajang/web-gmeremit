@@ -50,5 +50,5 @@ export const cards: CardProduct[] = [
   },
 ];
 
-export const cardBenefitKeys = ["atm", "transit", "global", "everywhere", "cashback"] as const;
+export const cardBenefitKeys = ["global", "everywhere", "cashback", "transit", "atm"] as const;
 

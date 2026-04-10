@@ -69,7 +69,7 @@ export default function ScrollSnap() {
 
     const scrollToIndex = (sections: HTMLElement[], index: number) => {
       const headerHeight = getHeaderHeight();
-      const offset = sections[index].id === "testimonials" ? 40 : 0;
+      const offset = sections[index].id === "customer-feedback" ? 40 : 0;
       const target =
         index === 0
           ? 0

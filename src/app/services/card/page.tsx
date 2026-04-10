@@ -34,11 +34,11 @@ export default function CardPage() {
   return (
     <PublicLayout className="bg-gradient-to-b from-white via-white to-gray-100">
 
-        <ServiceHeroSection translationKey="card" color="primary" ctaHref="#cards" />
+        <ServiceHeroSection translationKey="card" color="primary" ctaHref="#cards" maxWidth="max-w-content" />
 
         {/* ── Discover + Why Choose ── */}
         <section ref={registerSectionRef(0)} className="py-20 lg:py-28 fade-section">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
             {/* Discover */}
             <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
               <div className="w-full lg:w-1/2">
@@ -96,7 +96,7 @@ export default function CardPage() {
 
         {/* ── Card Products Grid ── */}
         <section id="cards" ref={registerSectionRef(1)} className="py-16 lg:py-24 fade-section">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
             {/* Section Title */}
             <div className="relative text-center mb-10 lg:mb-12 overflow-visible">
               {/* 장식 요소 */}

@@ -629,10 +629,6 @@
       "description": "200개국 고객에게 금융 서비스를 제공하는 글로벌 핀테크 기업에서 함께할 동료를 찾습니다.",
       "title": "GME와 함께 성장하세요"
     },
-    "testimonials": {
-      "subtitle": "함께 일하는 동료들의 생생한 이야기",
-      "title": "구성원 이야기"
-    },
     "why_gme": {
       "agile": {
         "description": "수평적인 조직문화에서 빠르게 실행하고, 실패에서 배우며 성장합니다.",
@@ -647,6 +643,10 @@
         "title": "공정한 기회"
       },
       "title": "GME가 특별한 이유"
+    },
+    "staff_stories": {
+      "subtitle": "함께 일하는 동료들의 생생한 이야기",
+      "title": "구성원 이야기"
     }
   },
   "company": {
@@ -657,26 +657,27 @@
     "history": {
       "events": {
         "2016_08": "(주)글로벌머니익스프레스 설립",
-        "2017_03": "최초 온라인 서비스 출시",
-        "2017_06": "국내 최초 서비스 제공업체",
-        "2017_08": "국내 최초 송금업 인가 취득 및 소액해외송금업 등록",
-        "2018_04": "해외송금 누적액 540억 달성",
+        "2017_12": "연간 송금액 100억원 달성",
+        "2017_06": "국내 최초 해외송금 서비스 출시",
+        "2017_08": "국내 최초 소액해외송금업 등록",
+        "2018_12": "연간 송금액 4,600억 달성",
         "2018_09": "서울시 추천 송금업체 선정",
         "2018_loan": "외국인 신용대출 개시",
-        "2019_03": "국내 송금 서비스 출시",
+        "2019_03": "국내 이체 서비스 출시",
         "2019_06": "전국 12개 지점 개설",
         "2019_09": "전국 3개 센터 개설",
-        "2020_02": "해외송금 누적액 1조원 달성",
+        "2020_12": "연간 송금액 1.0조원 달성",
         "2020_05": "Mobile Top-up 서비스 출시",
-        "2020_08": "선불 전자지급결제업 인가 획득 및 선불 전자결제 라이선스 취득",
-        "2021_04": "해외송금 누적액 1.9조원 달성",
+        "2020_08": "선불전자지급수단 발행 및 관리업 취득",
+        "2020_09": "GME Pay 서비스 출시",
+        "2021_04": "연간 송금액 1.5조원 달성",
         "2021_07": "Mobile Coupon 서비스 출시",
         "2021_10": "'한경 핀테크 대상-테크 분야' 최우수상 수상",
-        "2021_12": "PG(전자결제) 라이센스 취득 및 전자결제업 인가 획득",
-        "2022_03": "외국환업무 인가 취득",
-        "2022_06": "결제 사업 개시",
-        "2022_11": "해외송금 누적액 2조원 달성",
-        "2023_02": "해외송금 누적액 2.1조원 달성",
+        "2021_12": "전자지급결제대행업(PG) 인가 획득",
+        "2022_03": "기타전문외국환업무 인가 취득",
+        "2022_06": "GME 기업송금 서비스 출시",
+        "2022_12": "연간 송금액 1.7조원 달성",
+        "2023_02": "연간 송금액 2.8조원 달성",
         "2023_05": "BC카드 및 Master Card와 제휴하여 GME 카드 서비스 출시",
         "2023_09": "GME Mobile(MVNO) 서비스 인가 획득",
         "2023_10": "Forbes지 선정 2023 대한민국 핀테크 10위",
@@ -684,10 +685,11 @@
         "2023_nice": "Nice평가정보 기술평가 우수기업 인증",
         "2024_03": "LG U+와 제휴하여 GME Mobile(MVNO) 서비스 출시",
         "2024_06": "해외 법인 대상 결제 서비스 'GMEBiz' 출시",
-        "2024_12": "해외송금 누적액 2.8조원 달성",
+        "2024_12": "연간 송금액 2.8조원 달성",
         "2025_03": "외국인 전용 보험상품 출시",
+        "2025_04": "기술혁신형 중소기업(Inno-Biz) 취득",
         "2025_06": "체크카드 출시(교통카드 기능 탑재)",
-        "2025_12": "해외송금 누적액 3.5조원 달성"
+        "2025_12": "연간 송금액 4조원 달성"
       },
       "title_line1": "끊임없는 도전,",
       "title_line2": "새로운 시작"
@@ -695,7 +697,7 @@
     "services": {
       "b2b_payments": {
         "desc": "빠르고 저렴한 해외 지급 및 수금 서비스",
-        "title": "B2B 결제"
+        "title": "기업송금"
       },
       "core_services": "핵심 서비스",
       "digital_wallet": {
@@ -704,7 +706,7 @@
       },
       "easy_loan": {
         "desc": "100% 비대면, 당일 승인 대출 서비스",
-        "title": "간편 대출"
+        "title": "대출"
       },
       "gift_coupons": {
         "desc": "적립 포인트로 디지털 기프트 쿠폰 발송",
@@ -725,7 +727,11 @@
       },
       "personal_remittance": {
         "desc": "다국어 지원으로 국내외 어디든 송금",
-        "title": "개인 송금"
+        "title": "해외송금"
+      },
+      "telecom": {
+        "desc": "월 3,300원부터 시작하는 알뜰폰 서비스",
+        "title": "Telecom"
       },
       "related_services": "관련 서비스",
       "subtitle": "글로벌 금융의 모든 것을 한 곳에서",
@@ -764,16 +770,17 @@
     "nav": {
       "blog": "블로그",
       "branches": "지점 안내",
-      "card": "GME 카드",
+      "card": "카드",
       "ceo_message": "CEO 인사말",
       "company": "회사소개",
       "history": "연혁",
-      "loan": "GME 대출",
+      "loan": "대출",
       "news": "소식",
       "notice": "공지사항",
-      "payments": "GME 페이먼츠 (B2B)",
+      "payments": "기업송금",
       "press": "뉴스 / 보도자료",
-      "remittance": "GME 앱 송금",
+      "remittance": "해외송금",
+      "telecom": "모바일",
       "services": "사업소개",
       "services_menu": "서비스",
       "social_channels": "소셜 채널",
@@ -787,11 +794,11 @@
         "최적화된 금액",
         "안전한 인증"
       ],
-      "description": "쉽고 안전한 보안으로 최적화된 금액으로 빠른 송금까지 GME Remit 앱 하나로 안전하고 간편하게 관리하세요.",
+      "description": "GME Remit 앱 하나로 해외 송금, 금융 관리, GME 카드, SIM 서비스, B2B 솔루션까지 모든 필수 서비스를 안전하고 편리하게 이용하세요.",
       "qr_scan": "QR 코드를 스캔하세요",
       "subtitle": "GME REMIT APP",
-      "title1": "송금은 더 빠르게,",
-      "title2": "관리는 더 똑똑하게"
+      "title1": "필요한 모든 금융,",
+      "title2": "하나의 앱으로"
     },
     "cards": {
       "black": {
@@ -876,7 +883,7 @@
     },
     "global_payments": {
       "button": {
-        "detail": "Payments 자세히 보기"
+        "detail": "기업송금 자세히 보기"
       },
       "card": {
         "status": "운영중",
@@ -903,7 +910,7 @@
         "success_rate_change": "정상",
         "success_rate_value": "99.8%"
       },
-      "title": "글로벌 페이먼츠",
+      "title": "기업송금",
       "transactions": {
         "b2b": "B2B 대량 송금",
         "completed": "완료",
@@ -993,8 +1000,8 @@
       "stats": {
         "avg_time": "평균 송금 시간",
         "seconds": "초",
-        "total_amount": "누적 송금액",
-        "trillion": "조원+"
+        "total_amount": "2025 연간 송금액",
+        "trillion": "조원"
       },
       "title1": "빠르고 안전한",
       "title2": "해외송금 서비스"
@@ -1081,7 +1088,7 @@
       "exchange": "환율 계산기",
       "home": "홈",
       "services": "서비스",
-      "testimonials": "고객 후기"
+      "customer_feedback": "고객 후기"
     },
     "services": {
       "card": {
@@ -1095,10 +1102,15 @@
         "estimated_limit": "예상 한도",
         "title": "온라인 대출"
       },
+      "mobile": {
+        "desc1": "월 3,300원부터 시작하는",
+        "desc2": "외국인 맞춤 알뜰폰 서비스",
+        "title": "모바일"
+      },
       "payments": {
-        "desc1": "대량 지급, 정산, 파트너 송금까지.",
-        "desc2": "기업 지급 흐름을 빠르고 안전하게.",
-        "title": "글로벌 페이먼츠"
+        "desc1": "급여 송금, 파트너 정산, 이커머스 결제까지.",
+        "desc2": "비용 절감과 효율적인 기업 결제 솔루션을 제공합니다.",
+        "title": "기업송금"
       },
       "remittance": {
         "desc1": "200개국 이상으로 빠르고",
@@ -1108,7 +1120,7 @@
       "title1": "저희 GME의",
       "title2": "다양한 서비스를 만나보세요."
     },
-    "testimonials": {
+    "customer_feedback": {
       "subtitle": "실제 이용 고객의 경험을 전합니다.",
       "tags": {
         "easy_tracking": "간편 송금 및 추적",
@@ -1273,6 +1285,111 @@
       "title": "왜 GME 대출을 선택해야 할까요?"
     }
   },
+  "telecom": {
+    "hero": {
+      "badge": "GME MOBILE",
+      "title1": "나에게 딱 맞는",
+      "title2": "알뜰 통신",
+      "description": "LGU+ 망을 사용하는 알뜰폰 서비스. 월 3,300원부터 시작하는 합리적인 요금제로 통신비를 절약하세요.",
+      "cta": "요금제 보기"
+    },
+    "features": {
+      "title": "왜 GME Mobile인가요?",
+      "multilang": {
+        "title": "17개 언어 지원",
+        "description": "모국어로 편리하게 이용"
+      },
+      "affordable": {
+        "title": "월 3,300원부터",
+        "description": "외국인 맞춤 초저가 요금제"
+      },
+      "network": {
+        "title": "LGU+ 네트워크",
+        "description": "전국 어디서나 안정적인 통화 품질"
+      },
+      "usim": {
+        "title": "USIM 셀프개통",
+        "description": "배송받아서 5분 만에 개통 완료"
+      },
+      "esim": {
+        "title": "eSIM 지원",
+        "description": "QR 스캔 한 번으로 바로 개통"
+      },
+      "plans": {
+        "title": "다양한 요금제",
+        "description": "월 3,300원부터 나에게 맞는 요금제"
+      },
+      "activation": {
+        "title": "5분 셀프개통",
+        "description": "앱에서 간편하게 직접 개통"
+      },
+      "intl_call": {
+        "title": "국제전화 포함",
+        "description": "일부 요금제 매일 20분 국제전화"
+      }
+    },
+    "plans": {
+      "title": "맞춤별 요금제",
+      "subtitle": "내 생활에 맞는 요금제를 찾아보세요!",
+      "data": "데이터",
+      "voice": "통화",
+      "sms": "문자",
+      "per_month": "월",
+      "discount": "할인",
+      "unlimited": "무제한",
+      "cta": "전체 요금제 보기"
+    },
+    "process": {
+      "title": "간편한",
+      "title2": "셀프개통",
+      "subtitle": "USIM 구매부터 개통까지 4단계",
+      "steps": {
+        "step1": {
+          "title": "USIM 구매",
+          "description": "온라인에서 USIM을 주문하세요"
+        },
+        "step2": {
+          "title": "배송 확인",
+          "description": "USIM 배송 현황을 확인하세요"
+        },
+        "step3": {
+          "title": "셀프개통",
+          "description": "앱에서 본인인증 후 개통하세요"
+        },
+        "step4": {
+          "title": "개통 완료",
+          "description": "5분이면 개통 완료!"
+        }
+      }
+    },
+    "esim_intro": {
+      "badge": "eSIM",
+      "title": "하나의 폰, 두 개의 번호",
+      "description": "eSIM으로 간편하게 이용하세요! eSIM을 활용하여 업무와 일상을 명확히 구분하며 더 좋은 라이프스타일 균형을 찾아보세요.",
+      "cta": "eSIM 개통하기"
+    },
+    "usim_intro": {
+      "badge": "USIM",
+      "title": "5분이면 개통완료!",
+      "description": "셀프개통 가능 시간",
+      "time1_label": "번호이동",
+      "time1_value": "오전 10시 - 오후 8시",
+      "time1_note": "일요일, 신정/설/추석 당일 제외",
+      "time2_label": "신규가입",
+      "time2_value": "오전 8시 - 오후 10시",
+      "time2_note": "요일 제한 없음",
+      "step1": "USIM 구매",
+      "step2": "배송 수령",
+      "step3": "셀프개통",
+      "step4": "개통 완료",
+      "cta": "USIM 구매하기"
+    },
+    "cta": {
+      "title": "지금 GME Mobile을 시작하세요",
+      "description": "합리적인 요금제로 통신비를 절약하고, 17개 언어로 편리하게 이용하세요.",
+      "button": "GME Mobile 바로가기"
+    }
+  },
   "remittance": {
     "features": {
       "app": {
@@ -1327,16 +1444,16 @@
     },
     "stats": {
       "achieved": {
-        "label": "누적 송금액",
-        "value": "₩3.5조+"
+        "label": "2025년 연간 송금액",
+        "value": "₩4조"
       },
       "branches": {
         "label": "국내 지점",
-        "value": "12개"
+        "value": "10개"
       },
       "languages": {
         "label": "지원 언어",
-        "value": "14개"
+        "value": "24개"
       },
       "savings": {
         "label": "수수료 절감",
@@ -1381,20 +1498,10 @@
           "hours": "평일 및 주말 10:00 - 19:00",
           "name": "안산지점"
         },
-        "3": {
-          "address": "서울특별시 중구 을지로44길 12, 몽골타운 3층",
-          "hours": "평일 및 주말 10:00 - 19:00",
-          "name": "몽골지점"
-        },
         "4": {
           "address": "서울특별시 영등포구 도림로 134, 1층",
           "hours": "평일 및 주말 10:00 - 19:00",
           "name": "대림지점"
-        },
-        "5": {
-          "address": "서울특별시 용산구 우사단로10길 36",
-          "hours": "평일 및 주말 10:00 - 19:00",
-          "name": "이태원지점"
         },
         "6": {
           "address": "경기도 수원시 팔달구 매산로 2-10",
@@ -1416,20 +1523,10 @@
           "hours": "토 - 수 10:00 - 19:00",
           "name": "부평지점"
         },
-        "10": {
-          "address": "대구광역시 달서구 성서로69길 64, 1층",
-          "hours": "평일 10:00 - 18:00 주말 10:00 - 19:00",
-          "name": "대구지점"
-        },
         "11": {
           "address": "경상남도 김해시 가락로 84 (탑마트 맞은편)",
           "hours": "평일 및 주말 10:00 - 19:00",
           "name": "김해지점"
-        },
-        "12": {
-          "address": "광주광역시 광산구 광산로 7-2",
-          "hours": "토 - 수 10:00 - 19:00",
-          "name": "광주지점"
         }
       },
       "hours": "영업시간",
@@ -1463,18 +1560,18 @@
         "vietnam": "베트남",
         "western": "영미권"
       },
-      "countries_count": "38개국",
+      "countries_count": "24개 언어",
       "description": "각 국가별 공식 채널에서 GME의 다양한 소식을 만나보세요",
-      "operating": "운영 중",
+      "operating": "지원",
       "title": "글로벌 소셜 채널"
     },
     "stats": {
       "branches_label": "지점",
       "branches_unit": "개",
-      "branches_value": "12",
+      "branches_value": "10",
       "countries_label": "서비스 제공 국가",
-      "countries_unit": "개국",
-      "countries_value": "38",
+      "countries_unit": "개국+",
+      "countries_value": "200",
       "services_label": "제공 서비스",
       "services_unit": "개+",
       "services_value": "8"

@@ -629,10 +629,6 @@
       "description": "200以上の国と地域のお客様に金融サービスを提供するグローバルフィンテック企業に参加しませんか。",
       "title": "GMEと共に成長しよう"
     },
-    "testimonials": {
-      "subtitle": "仲間たちのリアルなストーリー",
-      "title": "チームストーリー"
-    },
     "why_gme": {
       "agile": {
         "description": "フラットな組織で迅速に実行し、失敗から学び、共に成長します。",
@@ -647,6 +643,10 @@
         "title": "公正な機会"
       },
       "title": "GMEが特別な理由"
+    },
+    "staff_stories": {
+      "subtitle": "仲間たちのリアルなストーリー",
+      "title": "チームストーリー"
     }
   },
   "company": {
@@ -1081,7 +1081,7 @@
       "exchange": "為替計算機",
       "home": "ホーム",
       "services": "サービス",
-      "testimonials": "お客様の声"
+      "customer_feedback": "お客様の声"
     },
     "services": {
       "card": {
@@ -1108,7 +1108,7 @@
       "title1": "GMEの",
       "title2": "さまざまなサービス"
     },
-    "testimonials": {
+    "customer_feedback": {
       "subtitle": "お客様の実際の体験談をご紹介します。",
       "tags": {
         "easy_tracking": "簡単な送金・追跡",

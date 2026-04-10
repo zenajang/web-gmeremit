@@ -17,9 +17,9 @@ export default function LoanSection() {
       <div className="hidden lg:block absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-loan-light/[0.05] blur-3xl" />
       <div className="hidden lg:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-loan/[0.02] blur-3xl" />
 
-      <div className="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:min-h-screen flex items-center">
+      <div className="relative w-full max-w-content mx-auto px-4 sm:px-6 lg:px-8 lg:min-h-screen flex items-center">
         <div className="w-full grid lg:grid-cols-2 gap-8 lg:gap-20 items-center">
-          <div className="relative order-2 lg:order-1">
+          <div className="relative order-2 lg:order-2">
             {/* 입체적 그림자 */}
             <div className="absolute inset-0 rounded-3xl bg-loan/10 translate-x-3 translate-y-3 blur-lg" />
             <div className="absolute inset-0 rounded-3xl bg-loan/5 translate-x-5 translate-y-5 blur-xl" />
@@ -81,7 +81,7 @@ export default function LoanSection() {
             </div>
           </div>
 
-          <div className="order-1 lg:order-2">
+          <div className="order-1 lg:order-1">
             <p className="typo-eyebrow text-loan mb-3">GME FINANCE</p>
             <h2 className="typo-section-title mb-5">{t("title")}</h2>
             <p className="typo-section-subtitle text-gray-600 mb-5 sm:mb-8">

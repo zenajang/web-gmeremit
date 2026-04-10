@@ -629,10 +629,6 @@
       "description": "加入为200多个国家和地区客户提供金融服务的全球金融科技公司。",
       "title": "与GME一起成长"
     },
-    "testimonials": {
-      "subtitle": "同事们的真实故事",
-      "title": "团队故事"
-    },
     "why_gme": {
       "agile": {
         "description": "扁平化组织快速执行，从失败中学习，共同成长。",
@@ -647,6 +643,10 @@
         "title": "公平机会"
       },
       "title": "GME的独特之处"
+    },
+    "staff_stories": {
+      "subtitle": "同事们的真实故事",
+      "title": "团队故事"
     }
   },
   "company": {
@@ -1081,7 +1081,7 @@
       "exchange": "汇率计算器",
       "home": "首页",
       "services": "服务",
-      "testimonials": "用户评价"
+      "customer_feedback": "用户评价"
     },
     "services": {
       "card": {
@@ -1108,7 +1108,7 @@
       "title1": "了解GME的",
       "title2": "多样化服务"
     },
-    "testimonials": {
+    "customer_feedback": {
       "subtitle": "来自真实客户的使用体验。",
       "tags": {
         "easy_tracking": "便捷汇款·追踪",

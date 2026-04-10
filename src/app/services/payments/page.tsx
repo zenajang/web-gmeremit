@@ -104,7 +104,7 @@ export default function PaymentsPage() {
         <ServiceHeroSection translationKey="business" color="payments" ctaHref="https://developers.gmeremit.com/" ctaTextKey="hero.cta_docs" isExternal />
         {/* ── Core Solutions (SPS / VAS) ── */}
         <section ref={setSolutionsSectionRef} className="py-24 lg:py-32 fade-section">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
             <SectionHeader
               label={t("solutions.label")}
               title={t("solutions.title")}
@@ -162,7 +162,7 @@ export default function PaymentsPage() {
 
         {/* ── Service Features ── */}
         <section ref={setFeaturesSectionRef} className="py-24 lg:py-32 bg-[#fafbfc] fade-section">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
             <SectionHeader
               label={t("features.label")}
               title={t("features.title")}
@@ -201,7 +201,7 @@ export default function PaymentsPage() {
 
         {/* ── Partners ── */}
         <section className="py-24 lg:py-32 bg-light">
-          <div ref={partnersRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ opacity: partnersVisible ? 1 : 0, transform: partnersVisible ? "translateY(0)" : "translateY(-48px)", transition: "opacity 3s cubic-bezier(0.16, 1, 0.3, 1), transform 3s cubic-bezier(0.16, 1, 0.3, 1)" }}>
+          <div ref={partnersRef} className="max-w-content mx-auto px-4 sm:px-6 lg:px-8" style={{ opacity: partnersVisible ? 1 : 0, transform: partnersVisible ? "translateY(0)" : "translateY(-48px)", transition: "opacity 3s cubic-bezier(0.16, 1, 0.3, 1), transform 3s cubic-bezier(0.16, 1, 0.3, 1)" }}>
             <SectionHeader
               label={t("partners.label")}
               title={t("partners.title")}
@@ -230,7 +230,7 @@ export default function PaymentsPage() {
 
         {/* ── Process ── */}
         <section className="py-24 lg:py-32 bg-[#fafbfc]">
-          <div ref={processRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div ref={processRef} className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
             <SectionHeader
               label={t("process.label")}
               title={t("process.title")}

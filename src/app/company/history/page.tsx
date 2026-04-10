@@ -56,7 +56,7 @@ export default function HistoryPage() {
   useEffect(() => {
 
     const updateActiveByScroll = () => {
-      const viewportCenter = window.innerHeight / 2 + 50;
+      const viewportCenter = window.innerHeight * 0.35;
       let closestIndex = currentEventIndexRef.current;
       let closestDistance = Number.POSITIVE_INFINITY;
 
@@ -87,10 +87,8 @@ export default function HistoryPage() {
     };
 
     window.addEventListener("scroll", handleScroll, { passive: true });
-    const timer = setTimeout(updateActiveByScroll, 120);
 
     return () => {
-      clearTimeout(timer);
       window.removeEventListener("scroll", handleScroll);
       if (scrollRafRef.current !== null) {
         cancelAnimationFrame(scrollRafRef.current);
@@ -134,8 +132,8 @@ export default function HistoryPage() {
       <PublicLayout className="bg-white">
         <div className="pt-10 sm:pt-16 lg:pt-20">
           {/* History Section */}
-          <section className="pb-[10vh]" ref={containerRef}>
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <section className="pb-[25vh]" ref={containerRef}>
+            <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
               {/* Navigation Tabs */}
               <CompanyTabs activeTab="history" />
 

@@ -3,13 +3,13 @@
 import { HiUser } from "react-icons/hi2";
 import { FaStar, FaQuoteLeft } from "react-icons/fa";
 import { useTranslation } from "@/hooks/useTranslation";
-import { homeTestimonials as testimonials } from "@/data/testimonials";
+import { customerFeedbacks } from "@/data/customerFeedback";
 
-export default function TestimonialsSection() {
-  const { t } = useTranslation("home.testimonials");
+export default function CustomerFeedbackSection() {
+  const { t } = useTranslation("home.customer_feedback");
 
   return (
-    <section id="testimonials" className="relative overflow-hidden bg-[var(--surface-warm)] py-12 lg:py-16 snap-section">
+    <section id="customer-feedback" className="relative overflow-hidden bg-[var(--surface-warm)] py-12 lg:py-16 snap-section">
       <div
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 select-none text-primary opacity-[0.045]"
@@ -31,7 +31,7 @@ export default function TestimonialsSection() {
       </div>
       <div className="max-w-[1640px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 lg:mb-14">
-          <p className="typo-eyebrow text-primary mb-3">TESTIMONIALS</p>
+          <p className="typo-eyebrow text-primary mb-3">CUSTOMER FEEDBACK</p>
           <h2 className="typo-section-title">{t("title")}</h2>
           <p className="typo-section-subtitle text-gray-600 max-w-2xl mx-auto mt-4">
             {t("subtitle")}
@@ -39,7 +39,7 @@ export default function TestimonialsSection() {
         </div>
 
         <div className="grid md:grid-cols-3 gap-7 lg:gap-9">
-          {testimonials.map((item, index) => (
+          {customerFeedbacks.map((item, index) => (
             <div
               key={item.quote}
               className="flex h-full flex-col rounded-2xl border border-[var(--border-soft)] bg-white p-7 lg:p-8 shadow-[0_18px_45px_rgba(15,23,42,0.08)]"
