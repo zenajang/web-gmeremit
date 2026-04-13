@@ -153,10 +153,12 @@ export default function MobileNav({
   isOpen,
   onClose,
   menuItems,
+  careersLabel = "Careers",
 }: {
   isOpen: boolean;
   onClose: () => void;
   menuItems: MenuItem[];
+  careersLabel?: string;
 }) {
   return (
     <>
@@ -180,13 +182,6 @@ export default function MobileNav({
               onClose={onClose}
             />
           ))}
-          <Link
-            href="/company/careers"
-            className="block px-4 py-3 text-base text-dark hover:bg-gray-50 font-medium border-b border-gray-100"
-            onClick={onClose}
-          >
-            Careers
-          </Link>
           <div className="px-4 pt-4">
             <Link
               href={{ pathname: "/", hash: "app-download" }}
@@ -195,6 +190,25 @@ export default function MobileNav({
             >
               Download App
             </Link>
+            <div className="flex items-center justify-center gap-3 mt-4 pb-2">
+              <Link
+                href="/company/careers"
+                className="text-sm text-gray-500 hover:text-primary transition-colors"
+                onClick={onClose}
+              >
+                {careersLabel}
+              </Link>
+              <span className="text-gray-300">|</span>
+              <a
+                href="https://gmebiz.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-gray-500 hover:text-primary transition-colors"
+                onClick={onClose}
+              >
+                GME Biz
+              </a>
+            </div>
           </div>
         </nav>
       </div>

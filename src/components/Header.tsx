@@ -164,6 +164,7 @@ export default function Header() {
         isOpen={isMenuOpen}
         onClose={() => setIsMenuOpen(false)}
         menuItems={menuItems}
+        careersLabel={t("link.careers")}
       />
 
       {/* Mobile Language Bottom Sheet */}
