@@ -116,7 +116,8 @@ export default function KakaoMap({
 
     const center = new window.kakao.maps.LatLng(36.3, 127.8);
     map.setCenter(center);
-    map.setLevel(14);
+    const isMobile = window.innerWidth < 1024;
+    map.setLevel(isMobile ? 14 : 12);
   }, [map, branches]);
 
   // 마커 생성
