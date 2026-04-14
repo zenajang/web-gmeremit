@@ -157,7 +157,7 @@ export default function MainServices() {
                   alt="GME Mobile"
                   width={300}
                   height={300}
-                  className="relative w-26 h-26 sm:w-56 sm:h-56 lg:w-55 lg:h-55 object-contain [filter:drop-shadow(8px_8px_16px_rgba(0,0,0,0.35))] opacity-80"
+                  className="relative w-26 h-26 sm:w-56 sm:h-56 lg:w-55 lg:h-55 object-contain [filter:drop-shadow(8px_8px_16px_rgba(0,0,0,0.35))]"
                 />
               </div>
             </div>
