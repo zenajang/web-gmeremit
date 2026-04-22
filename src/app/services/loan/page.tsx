@@ -18,7 +18,6 @@ export default function LoanPage() {
 
   // 한국어는 법적 원본, 그 외 언어는 영문 정보 사용
   const providerInfo = currentLanguage === "ko" ? gmeFinanceInfo : gmeFinanceInfoEn;
-  const brandName = "GME Finance";
 
   const benefits = loanBenefitKeys.map((key) => {
     const img = loanBenefitImages[key];
@@ -52,7 +51,7 @@ export default function LoanPage() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
               </svg>
               <p className="text-sm lg:text-base text-amber-900 leading-relaxed">
-                {t("disclosure.banner", { brand: brandName })}
+                {t("disclosure.banner")}
               </p>
             </div>
           </div>
@@ -289,7 +288,7 @@ export default function LoanPage() {
                   {t("cta.description")}
                 </p>
                 <p className="text-[12px] text-loan-light/90 mb-5 max-w-lg mx-auto">
-                  {t("cta.inline_notice", { brand: brandName })}
+                  {t("cta.inline_notice")}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 justify-center">
                   <a
@@ -362,10 +361,7 @@ export default function LoanPage() {
 
             <div className="mt-5 pt-4 border-t border-white/10 space-y-1.5">
               <p className="text-xs text-gray-400 leading-relaxed">
-                {t("disclosure.disclaimer", {
-                  companyName: providerInfo.companyName,
-                  brandName: providerInfo.brandName,
-                })}
+                {t("disclosure.disclaimer")}
               </p>
               <p className="text-[11px] text-gray-500 leading-relaxed">
                 {t("disclosure.law_notice")}

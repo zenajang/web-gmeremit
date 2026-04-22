@@ -1137,10 +1137,10 @@
       "button": "Download App",
       "description": "Get the funds you need quickly with easy mobile application.",
       "title": "Start Your Loan with GME App Today",
-      "inline_notice": "ⓘ Clicking the button below will connect you to the loan service provided by {brand}."
+      "inline_notice": "ⓘ Clicking the button below will connect you to the loan service provided by GME Finance."
     },
     "disclosure": {
-      "banner": "The loan products introduced on this page are provided by {brand} (a separate legal entity). {brand} is solely responsible for all aspects of the loan service including consultation, review, contract, and after-sales service. GME Remit only provides product information and connection features.",
+      "banner": "The loan products introduced on this page are provided by GME Finance (a separate legal entity). GME Finance is solely responsible for all aspects of the loan service including consultation, review, contract, and after-sales service. GME Remit only provides product information and connection features.",
       "provider_heading": "GME Finance",
       "label_ceo": "CEO",
       "label_phone": "Phone",
@@ -1150,7 +1150,7 @@
       "label_supervisor": "Supervisory Authority",
       "label_address": "Head Office",
       "label_brand_name": "Brand",
-      "disclaimer": "* GME Remit is not a seller or intermediary of this loan product. All rights and obligations arising from loan contracts between {companyName} ({brandName}) and customers belong solely to {companyName}. Please direct any related disputes or inquiries to {companyName}.",
+      "disclaimer": "* GME Remit is not a seller or intermediary of this loan product. All rights and obligations arising from loan contracts between GME Finance and customers belong solely to GME Finance. Please direct any related disputes or inquiries to GME Finance.",
       "law_notice": "Business identity disclosure in accordance with Article 10 of the Act on the Consumer Protection in Electronic Commerce, etc."
     },
     "details": {

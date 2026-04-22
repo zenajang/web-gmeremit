@@ -1135,10 +1135,10 @@
       "button": "앱 다운로드",
       "description": "간편한 모바일 신청으로 빠르게 자금을 마련하세요.",
       "title": "지금 GME 앱에서 대출을 시작하세요",
-      "inline_notice": "ⓘ 아래 버튼을 누르면 {brand}가 제공하는 대출 서비스로 연결됩니다."
+      "inline_notice": "ⓘ 아래 버튼을 누르면 GME Finance가 제공하는 대출 서비스로 연결됩니다."
     },
     "disclosure": {
-      "banner": "본 페이지에서 소개하는 대출 상품은 {brand}(별도 법인)가 제공합니다. 상담·심사·계약·사후관리 등 대출 서비스의 모든 책임은 {brand}에 있으며, GME Remit은 상품 소개 및 연결 기능만 제공합니다.",
+      "banner": "본 페이지에서 소개하는 대출 상품은 GME Finance(별도 법인)가 제공합니다. 상담·심사·계약·사후관리 등 대출 서비스의 모든 책임은 GME Finance에 있으며, GME Remit은 상품 소개 및 연결 기능만 제공합니다.",
       "provider_heading": "GME Finance",
       "label_ceo": "대표자",
       "label_phone": "대표 전화",
@@ -1148,7 +1148,7 @@
       "label_supervisor": "감독기관",
       "label_address": "본사",
       "label_brand_name": "브랜드명",
-      "disclaimer": "※ GME Remit은 본 대출 상품의 판매업자 또는 중개업자가 아닙니다. {companyName}({brandName})와 소비자 간 체결되는 대출 계약의 권리·의무 일체는 {companyName}에 귀속되며, 이와 관련한 분쟁 및 민원은 {companyName}로 문의해 주시기 바랍니다.",
+      "disclaimer": "※ GME Remit은 본 대출 상품의 판매업자 또는 중개업자가 아닙니다. GME Finance와 소비자 간 체결되는 대출 계약의 권리·의무 일체는 GME Finance에 귀속되며, 이와 관련한 분쟁 및 민원은 GME Finance로 문의해 주시기 바랍니다.",
       "law_notice": "전자상거래 등에서의 소비자보호에 관한 법률 제10조에 따른 사업자 신원 정보 고지"
     },
     "details": {
