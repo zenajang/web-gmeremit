@@ -3,10 +3,11 @@
 import PublicLayout from "@/components/layout/PublicLayout";
 import ServiceHeroSection from "@/components/service/ServiceHeroSection";
 import SectionHeader from "@/components/ui/SectionHeader";
+import DotLoader from "@/components/ui/DotLoader";
 import { useLenis } from "@/hooks/useLenis";
 import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
 import { useTranslation } from "@/hooks/useTranslation";
-import { useEffect, useRef, useState } from "react";
+import { Suspense, use, useEffect, useRef, useState } from "react";
 import {
   FcGlobe,
   FcMoneyTransfer,
@@ -38,14 +39,27 @@ const parsePrice = (value: string) => {
 };
 
 interface TelecomPageClientProps {
-  initialPlans: ApiPlan[];
+  plansPromise: Promise<ApiPlan[]>;
   initialSeq: string;
 }
 
-export default function TelecomPageClient({ initialPlans, initialSeq }: TelecomPageClientProps) {
+function PlansSpinner() {
+  return (
+    <div className="flex justify-center items-center py-20">
+      <DotLoader />
+    </div>
+  );
+}
+
+function PlansContent({
+  plansPromise,
+  initialSeq,
+}: {
+  plansPromise: Promise<ApiPlan[]>;
+  initialSeq: string;
+}) {
   const { t } = useTranslation("telecom");
-  useLenis();
-  const { registerSectionRef } = useScrollFadeIn();
+  const initialPlans = use(plansPromise);
 
   const [selectedSeq, setSelectedSeq] = useState<string>(initialSeq);
   const [plans, setPlans] = useState<ApiPlan[]>(initialPlans);
@@ -75,6 +89,108 @@ export default function TelecomPageClient({ initialPlans, initialSeq }: TelecomP
       cancelled = true;
     };
   }, [selectedSeq]);
+
+  return (
+    <>
+      <div className="flex flex-wrap justify-center gap-2 mt-10">
+        {TELECOM_CATEGORIES.map((cat) => {
+          const isActive = cat.seq === selectedSeq;
+          return (
+            <button
+              key={cat.seq}
+              type="button"
+              onClick={() => setSelectedSeq(cat.seq)}
+              className={`px-5 py-2 text-sm font-semibold rounded-full transition-colors cursor-pointer ${
+                isActive
+                  ? "bg-mobile text-white"
+                  : "bg-white text-gray-600 border border-gray-200 hover:border-mobile/40 hover:text-mobile"
+              }`}
+            >
+              {cat.label}
+            </button>
+          );
+        })}
+      </div>
+
+      {plansLoading ? (
+        <PlansSpinner />
+      ) : plans.length === 0 ? (
+        <p className="text-center text-gray-400 py-10">{t("plans.empty")}</p>
+      ) : (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-8">
+          {plans.map((plan) => {
+            const ttAmt = parsePrice(plan.TT_AMT);
+            const discountAmt = parsePrice(plan.DISCOUNT);
+            const hasDiscount = discountAmt > 0 && discountAmt !== ttAmt;
+            const price = hasDiscount ? discountAmt : ttAmt;
+            const original = hasDiscount ? ttAmt : 0;
+            const hasQos = plan.QOSFG === "1" && plan.QOSAMT;
+            return (
+              <div
+                key={plan.GDCD}
+                className="bg-white rounded-2xl border border-gray-200 p-6"
+              >
+                <div className="flex items-center justify-between mb-4 gap-2">
+                  <h3 className="text-base font-bold text-dark truncate">{plan.GDNM}</h3>
+                  <div className="flex items-center gap-1.5 shrink-0">
+                    {plan.GDDESC && (
+                      <span className="px-2.5 py-1 bg-mobile/10 text-mobile text-xs font-semibold rounded-full">
+                        {plan.GDDESC}
+                      </span>
+                    )}
+                    {plan.MNO_CD && (
+                      <span className="px-2 py-0.5 bg-black text-white text-[10px] font-bold rounded-full">
+                        {plan.MNO_CD}
+                      </span>
+                    )}
+                  </div>
+                </div>
+
+                <div className="space-y-2 mb-5">
+                  <div className="flex justify-between text-sm">
+                    <span className="text-gray-400">{t("plans.data")}</span>
+                    <span className="font-medium text-dark">
+                      {plan.DATAAMOUNT}
+                      {hasQos && ` + ${plan.QOSAMT}`}
+                    </span>
+                  </div>
+                  <div className="flex justify-between text-sm">
+                    <span className="text-gray-400">{t("plans.voice")}</span>
+                    <span className="font-medium text-dark">{plan.VOICEAMOUNT}</span>
+                  </div>
+                  <div className="flex justify-between text-sm">
+                    <span className="text-gray-400">{t("plans.sms")}</span>
+                    <span className="font-medium text-dark">{plan.LETTERAMOUNT}</span>
+                  </div>
+                </div>
+
+                <div className="border-t border-gray-100 pt-4">
+                  {original > 0 && original !== price && (
+                    <p className="text-gray-400 text-xs line-through">
+                      {original.toLocaleString()}
+                      {t("plans.currency")}/{t("plans.per_month")}
+                    </p>
+                  )}
+                  <p className="text-2xl font-bold text-mobile">
+                    {price.toLocaleString()}
+                    <span className="text-sm font-medium text-gray-500">
+                      {t("plans.currency")}/{t("plans.per_month")}
+                    </span>
+                  </p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      )}
+    </>
+  );
+}
+
+export default function TelecomPageClient({ plansPromise, initialSeq }: TelecomPageClientProps) {
+  const { t } = useTranslation("telecom");
+  useLenis();
+  const { registerSectionRef } = useScrollFadeIn();
 
   return (
     <PublicLayout className="bg-gradient-to-b from-white via-white to-gray-100">
@@ -109,7 +225,7 @@ export default function TelecomPageClient({ initialPlans, initialSeq }: TelecomP
       </section>
 
       {/* ── Plans ── */}
-      <section id="plans" ref={registerSectionRef(1)} className="py-20 lg:py-28 bg-[#f5f0ff] fade-section">
+      <section id="plans" ref={registerSectionRef(1)} className="py-20 lg:py-28 bg-[#f5f0ff]">
         <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeader
             title={t("plans.title")}
@@ -117,104 +233,9 @@ export default function TelecomPageClient({ initialPlans, initialSeq }: TelecomP
             colorClass="text-mobile"
           />
 
-          <div className="flex flex-wrap justify-center gap-2 mt-10">
-            {TELECOM_CATEGORIES.map((cat) => {
-              const isActive = cat.seq === selectedSeq;
-              return (
-                <button
-                  key={cat.seq}
-                  type="button"
-                  onClick={() => setSelectedSeq(cat.seq)}
-                  className={`px-5 py-2 text-sm font-semibold rounded-full transition-colors cursor-pointer ${
-                    isActive
-                      ? "bg-mobile text-white"
-                      : "bg-white text-gray-600 border border-gray-200 hover:border-mobile/40 hover:text-mobile"
-                  }`}
-                >
-                  {cat.label}
-                </button>
-              );
-            })}
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-8">
-            {plansLoading ? (
-              Array.from({ length: 6 }).map((_, idx) => (
-                <div
-                  key={idx}
-                  className="bg-white rounded-2xl border border-gray-200 p-6 h-52 animate-pulse"
-                />
-              ))
-            ) : plans.length === 0 ? (
-              <p className="col-span-full text-center text-gray-400 py-10">
-                {t("plans.empty")}
-              </p>
-            ) : (
-              plans.map((plan) => {
-                const ttAmt = parsePrice(plan.TT_AMT);
-                const discountAmt = parsePrice(plan.DISCOUNT);
-                const hasDiscount = discountAmt > 0 && discountAmt !== ttAmt;
-                const price = hasDiscount ? discountAmt : ttAmt;
-                const original = hasDiscount ? ttAmt : 0;
-                const hasQos = plan.QOSFG === "1" && plan.QOSAMT;
-                return (
-                  <div
-                    key={plan.GDCD}
-                    className="bg-white rounded-2xl border border-gray-200 p-6"
-                  >
-                    <div className="flex items-center justify-between mb-4 gap-2">
-                      <h3 className="text-base font-bold text-dark truncate">{plan.GDNM}</h3>
-                      <div className="flex items-center gap-1.5 shrink-0">
-                        {plan.GDDESC && (
-                          <span className="px-2.5 py-1 bg-mobile/10 text-mobile text-xs font-semibold rounded-full">
-                            {plan.GDDESC}
-                          </span>
-                        )}
-                        {plan.MNO_CD && (
-                          <span className="px-2 py-0.5 bg-black text-white text-[10px] font-bold rounded-full">
-                            {plan.MNO_CD}
-                          </span>
-                        )}
-                      </div>
-                    </div>
-
-                    <div className="space-y-2 mb-5">
-                      <div className="flex justify-between text-sm">
-                        <span className="text-gray-400">{t("plans.data")}</span>
-                        <span className="font-medium text-dark">
-                          {plan.DATAAMOUNT}
-                          {hasQos && ` + ${plan.QOSAMT}`}
-                        </span>
-                      </div>
-                      <div className="flex justify-between text-sm">
-                        <span className="text-gray-400">{t("plans.voice")}</span>
-                        <span className="font-medium text-dark">{plan.VOICEAMOUNT}</span>
-                      </div>
-                      <div className="flex justify-between text-sm">
-                        <span className="text-gray-400">{t("plans.sms")}</span>
-                        <span className="font-medium text-dark">{plan.LETTERAMOUNT}</span>
-                      </div>
-                    </div>
-
-                    <div className="border-t border-gray-100 pt-4">
-                      {original > 0 && original !== price && (
-                        <p className="text-gray-400 text-xs line-through">
-                          {original.toLocaleString()}
-                          {t("plans.currency")}/{t("plans.per_month")}
-                        </p>
-                      )}
-                      <p className="text-2xl font-bold text-mobile">
-                        {price.toLocaleString()}
-                        <span className="text-sm font-medium text-gray-500">
-                          {t("plans.currency")}/{t("plans.per_month")}
-                        </span>
-                      </p>
-                    </div>
-                  </div>
-                );
-              })
-            )}
-          </div>
+          <Suspense fallback={<PlansSpinner />}>
+            <PlansContent plansPromise={plansPromise} initialSeq={initialSeq} />
+          </Suspense>
 
           <div className="text-center mt-10">
             <a

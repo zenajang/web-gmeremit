@@ -1,12 +1,14 @@
 import { fetchTelecomPlans, DEFAULT_TELECOM_SEQ } from "./data";
 import TelecomPageClient from "./TelecomPageClient";
 
-export default async function TelecomPage() {
-  const initialPlans = await fetchTelecomPlans(DEFAULT_TELECOM_SEQ);
+export const revalidate = 86400;
+
+export default function TelecomPage() {
+  const plansPromise = fetchTelecomPlans(DEFAULT_TELECOM_SEQ);
 
   return (
     <TelecomPageClient
-      initialPlans={initialPlans}
+      plansPromise={plansPromise}
       initialSeq={DEFAULT_TELECOM_SEQ}
     />
   );
