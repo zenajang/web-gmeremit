@@ -168,7 +168,7 @@ export default function TelecomPage() {
                 return (
                   <div
                     key={plan.GDCD}
-                    className="bg-white rounded-2xl border border-gray-200 p-6 hover:shadow-lg will-change-transform transition-shadow duration-200"
+                    className="bg-white rounded-2xl border border-gray-200 p-6"
                   >
                     <div className="flex items-center justify-between mb-4 gap-2">
                       <h3 className="text-base font-bold text-dark truncate">{plan.GDNM}</h3>

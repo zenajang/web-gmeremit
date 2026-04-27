@@ -56,7 +56,13 @@ export default function HistoryPage() {
   useEffect(() => {
 
     const updateActiveByScroll = () => {
-      const viewportCenter = window.innerHeight * 0.35;
+      const baseCenter = window.innerHeight * 0.35;
+      const scrollBottom = window.innerHeight + window.scrollY;
+      const pageHeight = document.documentElement.scrollHeight;
+      const distanceFromBottom = pageHeight - scrollBottom;
+      const bottomBias = Math.max(0, window.innerHeight * 0.65 - distanceFromBottom);
+      const viewportCenter = baseCenter + bottomBias;
+
       let closestIndex = currentEventIndexRef.current;
       let closestDistance = Number.POSITIVE_INFINITY;
 

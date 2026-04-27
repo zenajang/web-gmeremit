@@ -31,11 +31,11 @@ export const historyData: HistoryYear[] = [
     year: "2023",
     events: [
       { month: "10", textKey: "2023_10" },
-      { month: "10", textKey: "2023_09", images: ["/images/company/history/2023-mvno.jpg"] },
+      { month: "10", textKey: "2023_09", images: ["/images/company/history/2023-mvno.png"] },
       { month: "05", textKey: "2023_05" },
       { month: "02", textKey: "2023_02" },
       { month: "02", textKey: "2023_kibo", images: ["/images/company/history/2023-kibo.jpg"] },
-      { month: "01", textKey: "2023_nice", images: ["/images/company/history/2023-nice.jpg"] },
+      { month: "01", textKey: "2023_nice", images: ["/images/company/history/2023-nice.png"] },
     ],
   },
   {
@@ -85,7 +85,7 @@ export const historyData: HistoryYear[] = [
     events: [
       { month: "12", textKey: "2017_12" },
       { month: "08", textKey: "2017_08", images: ["/images/company/history/2017-08_eng.jpg", "/images/company/history/2017-08_ko.jpg"] },
-      { month: "06", textKey: "2017_06", images: ["/images/company/history/2017-06.jpg"] },
+      { month: "06", textKey: "2017_06"},
     ],
   },
   {
