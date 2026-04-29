@@ -800,7 +800,7 @@
         "desc": "Thẻ cao cấp chuyên biệt cho thanh toán nước ngoài. Tận hưởng quyền lợi hoàn tiền tốt nhất mọi nơi.",
         "highlights": [
           "Hoàn tiền 3% ở nước ngoài",
-          "Hoàn tiền 0,3% trong nước",
+          "Hoàn tiền theo mùa",
           "Giảm giá sự kiện đặc biệt",
           "Tàu điện · Xe buýt · Taxi thanh toán dễ dàng"
         ]
@@ -820,7 +820,7 @@
         "cta": "Xem Red Card",
         "desc": "Thẻ mang màu sắc đặc trưng của GME. Biến mỗi thanh toán trở nên phong cách.",
         "highlights": [
-          "Hoàn tiền 0,3% trong nước",
+          "Hoàn tiền theo mùa",
           "Giảm giá sự kiện đặc biệt",
           "Tàu điện · Xe buýt · Taxi thanh toán dễ dàng",
           "Giao thông công cộng"
@@ -830,7 +830,7 @@
         "cta": "Xem Uniq Card",
         "desc": "Chọn thẻ của riêng bạn từ hơn 30 thiết kế của 18 quốc gia.",
         "highlights": [
-          "Hoàn tiền 0,3% trong nước",
+          "Hoàn tiền theo mùa",
           "Giảm giá sự kiện đặc biệt",
           "18 quốc gia hơn 30 thiết kế",
           "Tàu điện · Xe buýt · Taxi thanh toán dễ dàng"
@@ -840,7 +840,7 @@
         "cta": "Xem White Card",
         "desc": "Thẻ đơn giản và gọn gàng cho hàng ngày. Tiện lợi cho thanh toán trong nước và giao thông công cộng.",
         "highlights": [
-          "Hoàn tiền 0,3% trong nước",
+          "Hoàn tiền theo mùa",
           "Giảm giá sự kiện đặc biệt",
           "Tàu điện · Xe buýt · Taxi thanh toán dễ dàng",
           "Giao thông công cộng"
@@ -1593,6 +1593,12 @@
       "title": "Bắt đầu với GME Mobile",
       "description": "Tiết kiệm cước phí với gói cước giá rẻ, hỗ trợ 17 ngôn ngữ.",
       "button": "Đến GME Mobile"
+    },
+    "categories": {
+      "recommended": "Đề xuất",
+      "postpaid": "Trả sau",
+      "fiveG": "5G/Đặc biệt",
+      "prepaid": "Trả trước"
     }
   }
 }

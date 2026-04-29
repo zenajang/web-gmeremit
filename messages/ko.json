@@ -1408,6 +1408,12 @@
       "title": "지금 GME Mobile을 시작하세요",
       "description": "합리적인 요금제로 통신비를 절약하고, 17개 언어로 편리하게 이용하세요.",
       "button": "GME Mobile 바로가기"
+    },
+    "categories": {
+      "recommended": "추천",
+      "postpaid": "후불",
+      "fiveG": "5G/특수",
+      "prepaid": "선불"
     }
   },
   "remittance": {

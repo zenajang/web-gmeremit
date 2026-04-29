@@ -808,7 +808,7 @@
         "desc": "Premium card specialized for overseas payments. Enjoy the best cashback benefits wherever you are.",
         "highlights": [
           "3% Cashback on Overseas",
-          "0.3% Cashback Domestic",
+          "Seasonal Cashback",
           "Special Event Discounts",
           "Metro · Bus · Taxi Easy Pay"
         ]
@@ -828,7 +828,7 @@
         "cta": "View The Red Card",
         "desc": "Card with GME's signature color. Make every payment stylish.",
         "highlights": [
-          "0.3% Cashback Domestic",
+          "Seasonal Cashback",
           "Special Event Discounts",
           "Metro · Bus · Taxi Easy Pay",
           "Public Transit"
@@ -838,7 +838,7 @@
         "cta": "View The Uniq Card",
         "desc": "Choose your own card from 30+ designs across 18 countries.",
         "highlights": [
-          "0.3% Cashback Domestic",
+          "Seasonal Cashback",
           "Special Event Discounts",
           "18 Countries 30+ Designs",
           "Metro · Bus · Taxi Easy Pay"
@@ -848,7 +848,7 @@
         "cta": "View The White Card",
         "desc": "Simple and clean everyday card. Convenient for domestic payments and public transit.",
         "highlights": [
-          "0.3% Cashback Domestic",
+          "Seasonal Cashback",
           "Special Event Discounts",
           "Metro · Bus · Taxi Easy Pay",
           "Public Transit"
@@ -1410,6 +1410,12 @@
       "title": "Get Started with GME Mobile",
       "description": "Save on phone bills with affordable plans, available in 17 languages.",
       "button": "Go to GME Mobile"
+    },
+    "categories": {
+      "recommended": "Recommended",
+      "postpaid": "Postpaid",
+      "fiveG": "5G/Special",
+      "prepaid": "Prepaid"
     }
   },
   "remittance": {

@@ -800,7 +800,7 @@
         "desc": "Kartu premium untuk pembayaran luar negeri. Nikmati cashback terbaik di mana saja.",
         "highlights": [
           "Cashback 3% luar negeri",
-          "Cashback 0,3% domestik",
+          "Cashback Musiman",
           "Diskon event khusus",
           "Kereta · Bus · Taksi bayar mudah"
         ]
@@ -820,7 +820,7 @@
         "cta": "Lihat Red Card",
         "desc": "Kartu warna khas GME. Jadikan setiap pembayaran penuh gaya.",
         "highlights": [
-          "Cashback 0,3% domestik",
+          "Cashback Musiman",
           "Diskon event khusus",
           "Kereta · Bus · Taksi bayar mudah",
           "Transportasi umum"
@@ -830,7 +830,7 @@
         "cta": "Lihat Uniq Card",
         "desc": "Pilih kartu Anda dari 30+ desain dari 18 negara.",
         "highlights": [
-          "Cashback 0,3% domestik",
+          "Cashback Musiman",
           "Diskon event khusus",
           "18 Negara 30+ Desain",
           "Kereta · Bus · Taksi bayar mudah"
@@ -840,7 +840,7 @@
         "cta": "Lihat White Card",
         "desc": "Kartu harian yang simpel dan bersih. Nyaman untuk pembayaran domestik dan transportasi umum.",
         "highlights": [
-          "Cashback 0,3% domestik",
+          "Cashback Musiman",
           "Diskon event khusus",
           "Kereta · Bus · Taksi bayar mudah",
           "Transportasi umum"
@@ -1593,6 +1593,12 @@
       "title": "Mulai dengan GME Mobile",
       "description": "Hemat biaya telepon dengan paket terjangkau, tersedia dalam 17 bahasa.",
       "button": "Ke GME Mobile"
+    },
+    "categories": {
+      "recommended": "Rekomendasi",
+      "postpaid": "Pascabayar",
+      "fiveG": "5G/Khusus",
+      "prepaid": "Prabayar"
     }
   }
 }

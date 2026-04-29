@@ -227,7 +227,7 @@ export default function TelecomPageClient({ plansPromise, initialSeq }: TelecomP
                       : "bg-white text-gray-600 border border-gray-200 hover:border-mobile/40 hover:text-mobile"
                   }`}
                 >
-                  {cat.label}
+                  {t(cat.labelKey)}
                 </button>
               );
             })}

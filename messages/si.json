@@ -774,7 +774,7 @@
         "desc": "විදේශ ගෙවීම් සඳහා ප්‍රිමියම් කාඩ්. ඉහළම cashback ප්‍රතිලාභ ලබා ගන්න.",
         "highlights": [
           "විදේශ 3% Cashback",
-          "දේශීය 0.3% Cashback",
+          "සෘතුමය Cashback",
           "විශේෂ උත්සව වට්ටම්",
           "Metro · Bus · Taxi Easy Pay"
         ]
@@ -794,7 +794,7 @@
         "cta": "Red Card බලන්න",
         "desc": "GME හි සංකේත කාඩ්. සෑම ගෙවීමක්ම සුවිශේෂී කරන්න.",
         "highlights": [
-          "දේශීය 0.3% Cashback",
+          "සෘතුමය Cashback",
           "විශේෂ උත්සව වට්ටම්",
           "Metro · Bus · Taxi Easy Pay",
           "පොදු ප්‍රවාහනය"
@@ -804,7 +804,7 @@
         "cta": "Uniq Card බලන්න",
         "desc": "රට 18කින් 30+ නිර්මාණ අතරින් ඔබේ කාඩ් එක තෝරන්න.",
         "highlights": [
-          "දේශීය 0.3% Cashback",
+          "සෘතුමය Cashback",
           "විශේෂ උත්සව වට්ටම්",
           "රට 18 30+ නිර්මාණ",
           "Metro · Bus · Taxi Easy Pay"
@@ -814,7 +814,7 @@
         "cta": "White Card බලන්න",
         "desc": "සරල හා පිරිසිදු දෛනික කාඩ්. දේශීය ගෙවීම් සහ පොදු ප්‍රවාහනය සඳහා පහසුයි.",
         "highlights": [
-          "දේශීය 0.3% Cashback",
+          "සෘතුමය Cashback",
           "විශේෂ උත්සව වට්ටම්",
           "Metro · Bus · Taxi Easy Pay",
           "පොදු ප්‍රවාහනය"
@@ -1567,6 +1567,12 @@
       "title": "GME Mobile සමඟ ආරම්භ කරන්න",
       "description": "දැරිය හැකි සැලසුම් සමඟ දුරකථන බිල මත ඉතිරි කර ගන්න, භාෂා 17 කින් ලබා ගත හැක.",
       "button": "GME Mobile වෙත යන්න"
+    },
+    "categories": {
+      "recommended": "නිර්දේශිත",
+      "postpaid": "පසුගෙවුම්",
+      "fiveG": "5G/විශේෂ",
+      "prepaid": "පෙර ගෙවුම්"
     }
   }
 }

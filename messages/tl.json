@@ -800,7 +800,7 @@
         "desc": "Premium card na espesyalisado para sa overseas payment. Mag-enjoy ng pinakamahusay na cashback benefit saan ka man.",
         "highlights": [
           "3% Cashback sa Overseas",
-          "0.3% Cashback Domestic",
+          "Seasonal Cashback",
           "Espesyal na Event Discount",
           "Metro · Bus · Taxi Easy Pay"
         ]
@@ -820,7 +820,7 @@
         "cta": "Tingnan ang Red Card",
         "desc": "Card na may signature color ng GME. Gawing istilo ang bawat pagbabayad.",
         "highlights": [
-          "0.3% Cashback Domestic",
+          "Seasonal Cashback",
           "Espesyal na Event Discount",
           "Metro · Bus · Taxi Easy Pay",
           "Pampublikong Transportasyon"
@@ -830,7 +830,7 @@
         "cta": "Tingnan ang Uniq Card",
         "desc": "Pumili ng sarili mong card mula sa 30+ na disenyo sa 18 bansa.",
         "highlights": [
-          "0.3% Cashback Domestic",
+          "Seasonal Cashback",
           "Espesyal na Event Discount",
           "18 Bansa 30+ Disenyo",
           "Metro · Bus · Taxi Easy Pay"
@@ -840,7 +840,7 @@
         "cta": "Tingnan ang White Card",
         "desc": "Simple at malinis na pang-araw-araw na card. Maginhawa para sa domestic payment at pampublikong transportasyon.",
         "highlights": [
-          "0.3% Cashback Domestic",
+          "Seasonal Cashback",
           "Espesyal na Event Discount",
           "Metro · Bus · Taxi Easy Pay",
           "Pampublikong Transportasyon"
@@ -1593,6 +1593,12 @@
       "title": "Simulan sa GME Mobile",
       "description": "Tipid sa phone bills sa mga affordable plans, available sa 17 wika.",
       "button": "Punta sa GME Mobile"
+    },
+    "categories": {
+      "recommended": "Rekomendado",
+      "postpaid": "Postpaid",
+      "fiveG": "5G/Special",
+      "prepaid": "Prepaid"
     }
   }
 }

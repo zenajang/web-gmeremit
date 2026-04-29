@@ -774,7 +774,7 @@
         "desc": "Chet el to'lovlari uchun premium karta. Eng yaxshi cashbacklardan bahramand bo'ling.",
         "highlights": [
           "Chet elda 3% Cashback",
-          "Ichki 0.3% Cashback",
+          "Mavsumiy Cashback",
           "Maxsus tadbir chegirmalari",
           "Metro · Bus · Taxi Easy Pay"
         ]
@@ -794,7 +794,7 @@
         "cta": "Red Cardni ko'rish",
         "desc": "GME ning ramziy kartasi. Har bir to'lovni zamonaviy qiling.",
         "highlights": [
-          "Ichki 0.3% Cashback",
+          "Mavsumiy Cashback",
           "Maxsus tadbir chegirmalari",
           "Metro · Bus · Taxi Easy Pay",
           "Jamoat transporti"
@@ -804,7 +804,7 @@
         "cta": "Uniq Cardni ko'rish",
         "desc": "18 mamlakatdan 30+ dizayn ichidan kartangizni tanlang.",
         "highlights": [
-          "Ichki 0.3% Cashback",
+          "Mavsumiy Cashback",
           "Maxsus tadbir chegirmalari",
           "18 mamlakat 30+ dizayn",
           "Metro · Bus · Taxi Easy Pay"
@@ -814,7 +814,7 @@
         "cta": "White Cardni ko'rish",
         "desc": "Oddiy va toza kundalik karta. Ichki to'lovlar va jamoat transporti uchun qulay.",
         "highlights": [
-          "Ichki 0.3% Cashback",
+          "Mavsumiy Cashback",
           "Maxsus tadbir chegirmalari",
           "Metro · Bus · Taxi Easy Pay",
           "Jamoat transporti"
@@ -1567,6 +1567,12 @@
       "title": "GME Mobile bilan boshlang",
       "description": "Arzon tariflar bilan telefon hisoblarini tejang, 17 tilda mavjud.",
       "button": "GME Mobile ga o'tish"
+    },
+    "categories": {
+      "recommended": "Tavsiya",
+      "postpaid": "Postpaid",
+      "fiveG": "5G/Maxsus",
+      "prepaid": "Prepaid"
     }
   }
 }
