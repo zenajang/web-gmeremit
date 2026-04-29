@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const GME_API_URL = "https://online.gmeremit.com/ExchangeRate.aspx";
+const GME_API_URL = "https://online.gmeremit.com/Default.aspx";
 
 export async function POST(request: NextRequest) {
   try {

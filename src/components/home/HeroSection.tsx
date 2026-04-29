@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import { useTranslation } from "@/hooks/useTranslation";
 import { useClickOutside } from "@/hooks/useClickOutside";
 import { countryConfigs, defaultCountry, CountryConfig } from "@/data/countries";
@@ -19,31 +19,48 @@ interface ExRateResponse {
 const formatNumber = (num: string) => num.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 const parseNumber = (str: string) => str.replace(/,/g, "");
 
-const DELIVERY_METHODS = [
-  { value: "1", key: "calculator.bank_deposit" },
-  { value: "2", key: "calculator.cash_payment" },
-  { value: "13", key: "calculator.mobile_wallet" },
-  { value: "37", key: "calculator.qr_pay" },
-] as const;
-
 export default function HeroSection() {
   const { t } = useTranslation("home.exchange");
   const [sendAmount, setSendAmount] = useState("1000000");
   const [selectedCountry, setSelectedCountry] = useState<CountryConfig>(defaultCountry);
   const [isOpen, setIsOpen] = useState(false);
-  const [searchQuery, setSearchQuery] = useState("");
   const [receiveAmount, setReceiveAmount] = useState("");
   const [exchangeRate, setExchangeRate] = useState(0);
+  const [exchangeRateDisplay, setExchangeRateDisplay] = useState("");
+  const [serviceCharge, setServiceCharge] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [hasError, setHasError] = useState(false);
   const [errorMsg, setErrorMsg] = useState("");
-  const [deliveryMethod, setDeliveryMethod] = useState<string>(defaultCountry.availableDeliveryMethods[0]);
+  const [errorParams, setErrorParams] = useState<Record<string, string>>({});
+  const [deliveryMethod, setDeliveryMethod] = useState<string>(defaultCountry.payoutMethods[0].key);
+  const [searchQuery, setSearchQuery] = useState("");
 
-  const availableDeliveryMethods = DELIVERY_METHODS.filter((m) =>
-    selectedCountry.availableDeliveryMethods.includes(m.value)
-  );
+  const payoutMethods = selectedCountry.payoutMethods;
   const debounceRef = useRef<ReturnType<typeof setTimeout>>(undefined);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const searchInputRef = useRef<HTMLInputElement>(null);
+
+  const filteredCountries = useMemo(() => {
+    const q = searchQuery.trim().toLowerCase();
+    if (!q) return countryConfigs;
+    return countryConfigs.filter((c) => {
+      const localized = t(`countries.names.${c.countryCode}`, { ns: "home.hero" });
+      return (
+        c.countryCode.toLowerCase().includes(q) ||
+        c.code.toLowerCase().includes(q) ||
+        c.countryName.toLowerCase().includes(q) ||
+        localized.toLowerCase().includes(q)
+      );
+    });
+  }, [searchQuery, t]);
+
+  useEffect(() => {
+    if (isOpen) {
+      const id = requestAnimationFrame(() => searchInputRef.current?.focus());
+      return () => cancelAnimationFrame(id);
+    }
+    setSearchQuery("");
+  }, [isOpen]);
 
   // 포맷 변경 후 커서 위치 보정
   const restoreCursor = (input: HTMLInputElement, rawValue: string, prevFormatted: string, cursorPos: number) => {
@@ -72,6 +89,7 @@ export default function HeroSection() {
     setIsLoading(true);
     setHasError(false);
     setErrorMsg("");
+    setErrorParams({});
     try {
       const res = await fetch("/api/exchange-rate", {
         method: "POST",
@@ -90,6 +108,8 @@ export default function HeroSection() {
 
       if (data.errorCode === "0" && data.pAmt && data.exRate) {
         setExchangeRate(Number(data.exRate));
+        setExchangeRateDisplay(data.exRateDisplay || data.exRate);
+        setServiceCharge(data.scCharge || "");
         if (direction === "C") {
           setReceiveAmount(Math.floor(Number(data.pAmt.replace(/,/g, ""))).toString());
         } else {
@@ -99,11 +119,19 @@ export default function HeroSection() {
         if (direction === "C") setReceiveAmount("");
         else setSendAmount("");
         setExchangeRate(0);
+        setExchangeRateDisplay("");
+        setServiceCharge("");
         setHasError(true);
         const msg = data.msg || "";
-        if (msg.includes("limit") || msg.includes("exceeds")) {
+        const maxAmtMatch = msg.match(/Maximum sending amount\s+([\d,]+)\s*KRW/i);
+        if (msg.includes("Thirdparty") || msg.includes("Service is currently not available")) {
+          setErrorMsg("error_unavailable_method");
+        } else if (maxAmtMatch) {
+          setErrorMsg("error_max_amount");
+          setErrorParams({ amount: maxAmtMatch[1] });
+        } else if (msg.includes("limit") || msg.includes("exceeds")) {
           setErrorMsg("error_limit");
-        } else if (msg.includes("charge not defined")) {
+        } else if (msg.includes("Exchange rate not defined") || msg.includes("charge not defined")) {
           setErrorMsg("error_unavailable");
         } else {
           setErrorMsg("error_failed");
@@ -113,6 +141,7 @@ export default function HeroSection() {
       if (direction === "C") setReceiveAmount("");
       else setSendAmount("");
       setExchangeRate(0);
+      setServiceCharge("");
       setHasError(true);
       setErrorMsg("error_network");
     } finally {
@@ -160,17 +189,13 @@ export default function HeroSection() {
 
   const handleCountrySelect = (country: CountryConfig) => {
     setSelectedCountry(country);
-    if (!country.availableDeliveryMethods.includes(deliveryMethod as "1" | "2" | "13" | "37")) {
-      setDeliveryMethod(country.availableDeliveryMethods[0]);
+    if (!country.payoutMethods.some((m) => m.key === deliveryMethod)) {
+      setDeliveryMethod(country.payoutMethods[0].key);
     }
     setIsOpen(false);
-    setSearchQuery("");
   };
 
-  useClickOutside(dropdownRef, () => {
-    setIsOpen(false);
-    setSearchQuery("");
-  }, isOpen);
+  useClickOutside(dropdownRef, () => setIsOpen(false), isOpen);
 
   return (
     <section id="app" className="relative lg:min-h-[calc(100svh-var(--header-height))] bg-gradient-to-b from-gray-100 to-white py-12 lg:py-24 overflow-hidden snap-section flex items-center">
@@ -223,7 +248,7 @@ export default function HeroSection() {
               <div className="mb-6 lg:mb-7">
                 <div className="lg:flex lg:items-center lg:justify-between">
                   <h2 className="text-xl lg:text-2xl font-bold text-dark">{t("calculator.title")}</h2>
-                  <div className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-medium mt-1.5 lg:mt-0 lg:gap-2 lg:px-3.5 lg:py-1.5 lg:text-sm lg:font-semibold whitespace-nowrap ${
+                  <div className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-medium mt-1.5 lg:mt-0 lg:gap-2 lg:px-3.5 lg:py-1.5 lg:text-sm lg:font-semibold ${
                     hasError ? "bg-red-50 text-red-600" : "bg-emerald-50 text-green-800"
                   }`}>
                     <span className={`w-1.5 h-1.5 lg:w-2 lg:h-2 rounded-full ${
@@ -253,27 +278,27 @@ export default function HeroSection() {
                   </div>
                 </div>
                 {hasError && errorMsg && (
-                  <p className="text-xs text-red-500 mt-1.5 ml-1">{t(`calculator.${errorMsg}`)}</p>
+                  <p className="text-xs text-red-500 mt-1.5 ml-1">{t(`calculator.${errorMsg}`, errorParams)}</p>
                 )}
               </div>
               {/* Delivery Method */}
               <div className="space-y-2 mb-5">
                 <label className="text-[13px] font-medium text-neutral-500">{t("calculator.delivery_method")}</label>
-                <div className="flex bg-gray-100 rounded-xl p-1">
-                  {availableDeliveryMethods.map((method) => (
-                    <button
-                      key={method.value}
-                      type="button"
-                      onClick={() => setDeliveryMethod(method.value)}
-                      className={`flex-1 py-2.5 text-sm font-medium rounded-lg transition-all cursor-pointer ${
-                        deliveryMethod === method.value
-                          ? "bg-white text-dark shadow-sm"
-                          : "text-neutral-400 hover:text-neutral-600"
-                      }`}
-                    >
-                      {t(method.key)}
-                    </button>
-                  ))}
+                <div className="relative">
+                  <select
+                    value={deliveryMethod}
+                    onChange={(e) => setDeliveryMethod(e.target.value)}
+                    className="w-full appearance-none bg-white rounded-2xl px-4 py-3 lg:px-5 lg:py-4 pr-10 border border-gray-200/80 text-sm lg:text-base font-semibold text-dark cursor-pointer hover:bg-slate-50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/15"
+                  >
+                    {payoutMethods.map((method) => (
+                      <option key={method.key} value={method.key}>
+                        {method.label}
+                      </option>
+                    ))}
+                  </select>
+                  <svg className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
                 </div>
               </div>
               {/* Country Select */}
@@ -299,57 +324,47 @@ export default function HeroSection() {
                     className="absolute z-50 mt-2 w-full bg-white rounded-2xl shadow-xl border border-gray-200/70 overflow-hidden"
                     onWheel={(e) => e.stopPropagation()}
                   >
-                    <div className="p-2 border-b border-gray-100 sticky top-0 bg-white">
-                      <div className="relative">
-                        <svg
-                          className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400 pointer-events-none"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
+                    <div className="px-3 py-2 border-b border-gray-100">
+                      <div className="flex items-center gap-2 bg-gray-50 rounded-xl px-3 py-2">
+                        <svg className="w-4 h-4 text-neutral-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z" />
                         </svg>
                         <input
+                          ref={searchInputRef}
                           type="text"
-                          autoFocus
                           value={searchQuery}
                           onChange={(e) => setSearchQuery(e.target.value)}
                           placeholder={t("calculator.search_placeholder")}
-                          className="w-full pl-9 pr-3 py-2 text-sm bg-slate-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary"
+                          className="flex-1 min-w-0 bg-transparent text-sm text-dark outline-none placeholder-neutral-400"
                         />
-                      </div>
-                    </div>
-                    <div className="max-h-60 overflow-auto py-2">
-                      {(() => {
-                        const q = searchQuery.trim().toLowerCase();
-                        const filtered = q
-                          ? countryConfigs.filter((c) => {
-                              const name = t(`countries.names.${c.countryCode}`, { ns: "home.hero" }).toLowerCase();
-                              return (
-                                name.includes(q) ||
-                                c.countryName.toLowerCase().includes(q) ||
-                                c.code.toLowerCase().includes(q) ||
-                                c.countryCode.toLowerCase().includes(q)
-                              );
-                            })
-                          : countryConfigs;
-                        if (filtered.length === 0) {
-                          return (
-                            <p className="text-center text-sm text-neutral-400 py-6">
-                              {t("calculator.no_results")}
-                            </p>
-                          );
-                        }
-                        return filtered.map((country) => (
+                        {searchQuery && (
                           <button
-                            key={country.countryCode}
                             type="button"
                             onClick={() => {
-                              handleCountrySelect(country);
                               setSearchQuery("");
+                              searchInputRef.current?.focus();
                             }}
+                            className="text-neutral-400 hover:text-neutral-600 cursor-pointer"
+                            aria-label="clear"
+                          >
+                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                          </button>
+                        )}
+                      </div>
+                    </div>
+                    <div className="py-2 max-h-56 overflow-auto">
+                      {filteredCountries.length === 0 ? (
+                        <p className="px-5 py-4 text-sm text-neutral-400 text-center">{t("calculator.no_results")}</p>
+                      ) : (
+                        filteredCountries.map((country) => (
+                          <button
+                            key={country.code + country.countryCode}
+                            type="button"
+                            onClick={() => handleCountrySelect(country)}
                             className={`w-full flex items-center gap-3 px-5 py-3 transition-colors cursor-pointer ${
-                              selectedCountry.countryCode === country.countryCode
+                              selectedCountry.code === country.code
                                 ? "bg-red-50 text-primary"
                                 : "hover:bg-slate-50"
                             }`}
@@ -358,8 +373,8 @@ export default function HeroSection() {
                             <span className="font-medium flex-1 text-left">{t(`countries.names.${country.countryCode}`, { ns: "home.hero" })}</span>
                             <span className="text-sm text-neutral-400">{country.code}</span>
                           </button>
-                        ));
-                      })()}
+                        ))
+                      )}
                     </div>
                   </div>
                 )}
@@ -397,6 +412,24 @@ export default function HeroSection() {
                     <span className="text-sm font-semibold text-white">{selectedCountry.code}</span>
                   </div>
                 </div>
+                {!hasError && exchangeRate > 0 && (
+                  <div className="mt-3 px-1 space-y-2 text-[12.5px] lg:text-sm">
+                    <div className="flex items-center gap-2.5">
+                      <span className="w-1.5 h-1.5 rounded-full bg-gray-300 shrink-0" />
+                      <span className="text-neutral-500">{t("calculator.fee")}</span>
+                      <span className="ml-auto font-semibold text-dark tabular-nums">
+                        {serviceCharge || "0"} KRW
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-2.5">
+                      <span className="w-1.5 h-1.5 rounded-full bg-gray-300 shrink-0" />
+                      <span className="text-neutral-500">{t("calculator.rate")}</span>
+                      <span className="ml-auto font-semibold text-dark tabular-nums">
+                        {exchangeRateDisplay}
+                      </span>
+                    </div>
+                  </div>
+                )}
               </div>
               </div>
             </div>
