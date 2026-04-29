@@ -101,7 +101,9 @@ export default function PaymentsPage() {
 
   return (
     <PublicLayout className="bg-white">
-        <ServiceHeroSection translationKey="business" color="payments" ctaHref="https://developers.gmeremit.com/" ctaTextKey="hero.cta_docs" isExternal />
+        <div className="[&_section_a]:hidden">
+          <ServiceHeroSection translationKey="business" color="payments" ctaHref="https://developers.gmeremit.com/" ctaTextKey="hero.cta_docs" isExternal />
+        </div>
         {/* ── Core Solutions (SPS / VAS) ── */}
         <section ref={setSolutionsSectionRef} className="py-24 lg:py-32 fade-section">
           <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">

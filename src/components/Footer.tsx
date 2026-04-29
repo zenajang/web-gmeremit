@@ -39,7 +39,7 @@ export default function Footer({ variant = "full" }: FooterProps) {
 
   return (
     <footer className="bg-white border-t border-gray-200">
-      <div className="max-w-[1540px] mx-auto px-4 lg:pt-10 sm:px-6 lg:px-8 py-12 lg:py-6">
+      <div className="max-w-[1540px] mx-auto px-4 lg:pt-10 sm:px-6 lg:px-8 py-12 lg:py-6 min-h-[420px] lg:min-h-[320px]">
         {/* Main Content */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mb-4">
           {/* Left Side - Company Info */}
@@ -66,7 +66,7 @@ export default function Footer({ variant = "full" }: FooterProps) {
             </div>
 
             {/* Company Details */}
-            <div className="space-y-1 text-xs text-gray-600">
+            <div className="space-y-1 text-xs text-gray-600 min-h-[200px] lg:min-h-[100px]">
               <p>{t("info.address")}</p>
               <p>{t("info.fax")}</p>
               <p>{t("info.email_corporate")} | {t("info.email_support")}</p>
@@ -77,7 +77,7 @@ export default function Footer({ variant = "full" }: FooterProps) {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-200 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-xs text-gray-500">{t("copyright")}</p>
+          <p className="text-xs text-gray-500 text-center sm:text-left">{t("copyright")}</p>
           <Link href="/" className="text-xs text-gray-500 hover:text-primary transition-colors">
             {t("company_name")}
           </Link>

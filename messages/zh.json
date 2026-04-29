@@ -154,7 +154,7 @@
           "收款人和存款人无限制",
           "通过API或门户即时发行V/A"
         ],
-        "subtitle": "增值服务",
+        "subtitle": "虚拟账户服务",
         "title": "VAS"
       }
     }
@@ -742,7 +742,7 @@
     "company_name": "Global Money Express",
     "copyright": "© Global Money Express, All rights reserved.",
     "info": {
-      "address": "地址：首尔特别市永登浦区永登浦路150 盛角工场长山 B栋 901~911号",
+      "address": "地址: 901~911Ho, B-dong, Saenggak Gongjang Bldg., 150, Yeongdeungpo-ro, Yeongdeungpo-gu, Seoul, Korea 07292",
       "email_corporate": "企业合作：corporate@gmeremit.com",
       "email_support": "客户支持：support@gmeremit.com",
       "fax": "传真：(+82) 2 3674 5559",

@@ -79,6 +79,19 @@ export default function ScrollSnap() {
 
     const handleWheel = (e: WheelEvent) => {
       if (!desktopQuery.matches) return;
+
+      // 마지막 섹션을 지나 푸터 영역으로 스크롤 시 자연 스크롤 허용
+      const sectionsForCheck = getSections();
+      if (sectionsForCheck.length) {
+        const lastSection = sectionsForCheck[sectionsForCheck.length - 1];
+        const lastSectionBottom = lastSection.offsetTop + lastSection.offsetHeight;
+        const viewportBottom = window.scrollY + window.innerHeight;
+        // 마지막 섹션 끝에 거의 도달했고 + 아래로 스크롤 → 자연 스크롤
+        if (e.deltaY > 0 && viewportBottom >= lastSectionBottom - 50) {
+          return;
+        }
+      }
+
       e.preventDefault();
 
       if (isAnimatingRef.current) return;
