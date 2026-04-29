@@ -55,10 +55,6 @@ export default function Footer({ variant = "full" }: FooterProps) {
             {/* Navigation Links */}
             <div className="mb-6">
               <div className="flex items-center gap-2 text-sm font-medium text-gray-700">
-                <Link href="/" className="hover:text-primary transition-colors">
-                  {t("link.company_intro")}
-                </Link>
-                <span className="text-gray-400">|</span>
                 <Link href="/terms" className="hover:text-primary transition-colors">
                   {t("link.terms")}
                 </Link>
