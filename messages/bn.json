@@ -878,7 +878,27 @@
         "mobile_wallet": "মোবাইল ওয়ালেট",
         "qr_pay": "QR পে",
         "search_placeholder": "দেশ অনুসন্ধান করুন",
-        "no_results": "কোন ফলাফল নেই"
+        "no_results": "কোন ফলাফল নেই",
+        "fee": "ফি",
+        "rate": "বিনিময় হার",
+        "error_unavailable_method": "এই প্রেরণ পদ্ধতি বর্তমানে উপলব্ধ নয়",
+        "error_max_amount": "সর্বোচ্চ প্রেরণযোগ্য পরিমাণ: {{amount}} KRW",
+        "payout_methods": {
+          "1": "নগদ প্রদান",
+          "2": "ব্যাংক জমা",
+          "12": "হোম ডেলিভারি",
+          "13": "মোবাইল ওয়ালেট",
+          "14": "কার্ড পেমেন্ট",
+          "16": "WeChat Pay",
+          "17": "Alipay",
+          "18": "Visa/Mastercard/UnionPay",
+          "19": "Visa/Mastercard",
+          "25": "UPI",
+          "33": "bKash",
+          "34": "Rocket",
+          "35": "Nagad",
+          "37": "QR পে"
+        }
       },
       "description1": "200+ দেশের জন্য রিয়েল-টাইম বিনিময় হার।",
       "description2": "স্বচ্ছ ফি প্রকাশ।",

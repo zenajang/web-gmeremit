@@ -880,7 +880,27 @@
         "mobile_wallet": "Мобайл хэтэвч",
         "qr_pay": "QR төлбөр",
         "search_placeholder": "Улс хайх",
-        "no_results": "Үр дүн алга"
+        "no_results": "Үр дүн алга",
+        "fee": "Шимтгэл",
+        "rate": "Ханш",
+        "error_unavailable_method": "Энэ илгээх аргыг одоогоор ашиглах боломжгүй",
+        "error_max_amount": "Илгээх дээд хэмжээ: {{amount}} KRW",
+        "payout_methods": {
+          "1": "Бэлэн мөнгө",
+          "2": "Банкны шилжүүлэг",
+          "12": "Гэрт хүргэх",
+          "13": "Мобайл хэтэвч",
+          "14": "Картаар төлөх",
+          "16": "WeChat Pay",
+          "17": "Alipay",
+          "18": "Visa/Mastercard/UnionPay",
+          "19": "Visa/Mastercard",
+          "25": "UPI",
+          "33": "bKash",
+          "34": "Rocket",
+          "35": "Nagad",
+          "37": "QR төлбөр"
+        }
       },
       "description1": "200+ улсад бодит цагийн ханш.",
       "description2": "Шимтгэлийг ил тод харуулна.",

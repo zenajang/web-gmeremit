@@ -878,7 +878,27 @@
         "mobile_wallet": "モバイルウォレット",
         "qr_pay": "QR決済",
         "search_placeholder": "国を検索",
-        "no_results": "結果がありません"
+        "no_results": "結果がありません",
+        "fee": "手数料",
+        "rate": "為替レート",
+        "error_unavailable_method": "現在この送金方法はご利用いただけません",
+        "error_max_amount": "最大送金可能額: {{amount}} KRW",
+        "payout_methods": {
+          "1": "現金受取",
+          "2": "銀行振込",
+          "12": "宅配",
+          "13": "モバイルウォレット",
+          "14": "カード決済",
+          "16": "WeChat Pay",
+          "17": "Alipay",
+          "18": "Visa/Mastercard/UnionPay",
+          "19": "Visa/Mastercard",
+          "25": "UPI",
+          "33": "bKash",
+          "34": "Rocket",
+          "35": "Nagad",
+          "37": "QR決済"
+        }
       },
       "description1": "200以上の国のリアルタイム為替レート。",
       "description2": "透明な手数料開示。",

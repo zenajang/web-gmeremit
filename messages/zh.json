@@ -878,7 +878,27 @@
         "mobile_wallet": "移动钱包",
         "qr_pay": "QR支付",
         "search_placeholder": "搜索国家",
-        "no_results": "暂无结果"
+        "no_results": "暂无结果",
+        "fee": "手续费",
+        "rate": "汇率",
+        "error_unavailable_method": "当前不支持此汇款方式",
+        "error_max_amount": "最大汇款金额：{{amount}} 韩元",
+        "payout_methods": {
+          "1": "现金领取",
+          "2": "银行转账",
+          "12": "上门派送",
+          "13": "移动钱包",
+          "14": "刷卡支付",
+          "16": "微信支付",
+          "17": "支付宝",
+          "18": "Visa/Mastercard/银联",
+          "19": "Visa/Mastercard",
+          "25": "UPI",
+          "33": "bKash",
+          "34": "Rocket",
+          "35": "Nagad",
+          "37": "QR 支付"
+        }
       },
       "description1": "200多个国家的实时汇率。",
       "description2": "费用透明公开。",

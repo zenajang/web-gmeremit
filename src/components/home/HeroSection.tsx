@@ -292,7 +292,7 @@ export default function HeroSection() {
                   >
                     {payoutMethods.map((method) => (
                       <option key={method.key} value={method.key}>
-                        {method.label}
+                        {t(`calculator.payout_methods.${method.key}`)}
                       </option>
                     ))}
                   </select>

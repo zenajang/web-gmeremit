@@ -878,7 +878,27 @@
         "mobile_wallet": "Ví di động",
         "qr_pay": "Thanh toán QR",
         "search_placeholder": "Tìm kiếm quốc gia",
-        "no_results": "Không có kết quả"
+        "no_results": "Không có kết quả",
+        "fee": "Phí",
+        "rate": "Tỷ giá",
+        "error_unavailable_method": "Phương thức chuyển tiền này hiện không khả dụng",
+        "error_max_amount": "Số tiền chuyển tối đa: {{amount}} KRW",
+        "payout_methods": {
+          "1": "Nhận tiền mặt",
+          "2": "Chuyển khoản",
+          "12": "Giao tận nơi",
+          "13": "Ví di động",
+          "14": "Thanh toán thẻ",
+          "16": "WeChat Pay",
+          "17": "Alipay",
+          "18": "Visa/Mastercard/UnionPay",
+          "19": "Visa/Mastercard",
+          "25": "UPI",
+          "33": "bKash",
+          "34": "Rocket",
+          "35": "Nagad",
+          "37": "Thanh toán QR"
+        }
       },
       "description1": "Tỷ giá thời gian thực cho hơn 200 quốc gia.",
       "description2": "Công khai phí minh bạch.",

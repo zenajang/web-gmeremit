@@ -878,7 +878,27 @@
         "mobile_wallet": "Dompet Seluler",
         "qr_pay": "Pembayaran QR",
         "search_placeholder": "Cari negara",
-        "no_results": "Tidak ada hasil"
+        "no_results": "Tidak ada hasil",
+        "fee": "Biaya",
+        "rate": "Kurs",
+        "error_unavailable_method": "Metode pengiriman ini saat ini tidak tersedia",
+        "error_max_amount": "Jumlah maksimum pengiriman: {{amount}} KRW",
+        "payout_methods": {
+          "1": "Tunai",
+          "2": "Transfer Bank",
+          "12": "Antar ke Rumah",
+          "13": "Dompet Seluler",
+          "14": "Pembayaran Kartu",
+          "16": "WeChat Pay",
+          "17": "Alipay",
+          "18": "Visa/Mastercard/UnionPay",
+          "19": "Visa/Mastercard",
+          "25": "UPI",
+          "33": "bKash",
+          "34": "Rocket",
+          "35": "Nagad",
+          "37": "Pembayaran QR"
+        }
       },
       "description1": "Kurs real-time untuk 200+ negara.",
       "description2": "Biaya transparan.",

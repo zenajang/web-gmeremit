@@ -880,7 +880,27 @@
         "mobile_wallet": "ජංගම පසුම්බිය",
         "qr_pay": "QR ගෙවීම",
         "search_placeholder": "රට සොයන්න",
-        "no_results": "ප්‍රතිඵල නැත"
+        "no_results": "ප්‍රතිඵල නැත",
+        "fee": "ගාස්තුව",
+        "rate": "විනිමය අනුපාතය",
+        "error_unavailable_method": "මෙම ප්‍රේෂණ ක්‍රමය දැනට ලබා ගත නොහැක",
+        "error_max_amount": "උපරිම යැවිය හැකි මුදල: {{amount}} KRW",
+        "payout_methods": {
+          "1": "මුදල් ගෙවීම",
+          "2": "බැංකු තැන්පතු",
+          "12": "නිවසට බෙදාහැරීම",
+          "13": "ජංගම පසුම්බිය",
+          "14": "කාඩ්පත් ගෙවීම",
+          "16": "WeChat Pay",
+          "17": "Alipay",
+          "18": "Visa/Mastercard/UnionPay",
+          "19": "Visa/Mastercard",
+          "25": "UPI",
+          "33": "bKash",
+          "34": "Rocket",
+          "35": "Nagad",
+          "37": "QR ගෙවීම"
+        }
       },
       "description1": "200+ රට සඳහා රියල්-ටයිම් අනුපාතිකයන්.",
       "description2": "ගාස්තු පැහැදිලිව පෙන්වයි.",

@@ -878,7 +878,27 @@
         "mobile_wallet": "موبائل والیٹ",
         "qr_pay": "QR ادائیگی",
         "search_placeholder": "ملک تلاش کریں",
-        "no_results": "کوئی نتیجہ نہیں"
+        "no_results": "کوئی نتیجہ نہیں",
+        "fee": "فیس",
+        "rate": "شرح تبادلہ",
+        "error_unavailable_method": "یہ ترسیل کا طریقہ فی الحال دستیاب نہیں ہے",
+        "error_max_amount": "زیادہ سے زیادہ بھیجنے کی رقم: {{amount}} KRW",
+        "payout_methods": {
+          "1": "نقد ادائیگی",
+          "2": "بینک ڈپازٹ",
+          "12": "ہوم ڈلیوری",
+          "13": "موبائل والیٹ",
+          "14": "کارڈ ادائیگی",
+          "16": "WeChat Pay",
+          "17": "Alipay",
+          "18": "Visa/Mastercard/UnionPay",
+          "19": "Visa/Mastercard",
+          "25": "UPI",
+          "33": "bKash",
+          "34": "Rocket",
+          "35": "Nagad",
+          "37": "QR ادائیگی"
+        }
       },
       "description1": "200+ ممالک کے لیے ریئل ٹائم ایکسچینج ریٹس۔",
       "description2": "شفاف فیس کی تفصیلات۔",

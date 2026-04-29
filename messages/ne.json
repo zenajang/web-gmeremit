@@ -878,7 +878,27 @@
         "mobile_wallet": "मोबाइल वालेट",
         "qr_pay": "QR भुक्तानी",
         "search_placeholder": "देश खोज्नुहोस्",
-        "no_results": "कुनै परिणाम छैन"
+        "no_results": "कुनै परिणाम छैन",
+        "fee": "शुल्क",
+        "rate": "विनिमय दर",
+        "error_unavailable_method": "यो प्रेषण विधि हाल उपलब्ध छैन",
+        "error_max_amount": "अधिकतम पठाउन सकिने रकम: {{amount}} KRW",
+        "payout_methods": {
+          "1": "नगद भुक्तानी",
+          "2": "बैंक जम्मा",
+          "12": "घर डेलिभरी",
+          "13": "मोबाइल वालेट",
+          "14": "कार्ड भुक्तानी",
+          "16": "WeChat Pay",
+          "17": "Alipay",
+          "18": "Visa/Mastercard/UnionPay",
+          "19": "Visa/Mastercard",
+          "25": "UPI",
+          "33": "bKash",
+          "34": "Rocket",
+          "35": "Nagad",
+          "37": "QR भुक्तानी"
+        }
       },
       "description1": "200+ देशहरूको लागि वास्तविक-समय विनिमय दरहरू।",
       "description2": "पारदर्शी शुल्क खुलासा।",

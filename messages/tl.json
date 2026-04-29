@@ -878,7 +878,27 @@
         "mobile_wallet": "Mobile Wallet",
         "qr_pay": "QR Pay",
         "search_placeholder": "Maghanap ng bansa",
-        "no_results": "Walang resulta"
+        "no_results": "Walang resulta",
+        "fee": "Bayad",
+        "rate": "Palitan",
+        "error_unavailable_method": "Hindi available ang paraan ng paghahatid na ito sa ngayon",
+        "error_max_amount": "Pinakamataas na halaga ng pagpapadala: {{amount}} KRW",
+        "payout_methods": {
+          "1": "Cash Payment",
+          "2": "Bank Deposit",
+          "12": "Home Delivery",
+          "13": "Mobile Wallet",
+          "14": "Card Payment",
+          "16": "WeChat Pay",
+          "17": "Alipay",
+          "18": "Visa/Mastercard/UnionPay",
+          "19": "Visa/Mastercard",
+          "25": "UPI",
+          "33": "bKash",
+          "34": "Rocket",
+          "35": "Nagad",
+          "37": "QR Pay"
+        }
       },
       "description1": "Real-time exchange rate para sa 200+ na bansa.",
       "description2": "Transparent na pagsisiwalat ng bayarin.",

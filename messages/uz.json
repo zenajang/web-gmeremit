@@ -880,7 +880,27 @@
         "mobile_wallet": "Mobil hamyon",
         "qr_pay": "QR to'lov",
         "search_placeholder": "Davlat qidirish",
-        "no_results": "Natija yo'q"
+        "no_results": "Natija yo'q",
+        "fee": "Komissiya",
+        "rate": "Valyuta kursi",
+        "error_unavailable_method": "Bu pul oʻtkazish usuli hozir mavjud emas",
+        "error_max_amount": "Maksimal yuborish summasi: {{amount}} KRW",
+        "payout_methods": {
+          "1": "Naqd toʻlov",
+          "2": "Bank oʻtkazmasi",
+          "12": "Uyga yetkazib berish",
+          "13": "Mobil hamyon",
+          "14": "Karta orqali toʻlov",
+          "16": "WeChat Pay",
+          "17": "Alipay",
+          "18": "Visa/Mastercard/UnionPay",
+          "19": "Visa/Mastercard",
+          "25": "UPI",
+          "33": "bKash",
+          "34": "Rocket",
+          "35": "Nagad",
+          "37": "QR toʻlov"
+        }
       },
       "description1": "200+ mamlakat uchun real vaqt kurslari.",
       "description2": "Komissiyalarni ochiq ko'rsatish.",
