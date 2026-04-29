@@ -870,7 +870,11 @@
         "receive_amount": "Receive Amount",
         "receive_country": "Recipient Country",
         "send_amount": "Send Amount",
-        "title": "Real-time Exchange Calculator"
+        "title": "Real-time Exchange Calculator",
+        "mobile_wallet": "Mobile Wallet",
+        "qr_pay": "QR Pay",
+        "search_placeholder": "Search country",
+        "no_results": "No results"
       },
       "description1": "Real-time exchange rates for 200+ countries.",
       "description2": "Transparent fee disclosure.",
@@ -989,7 +993,8 @@
           "US": "United States",
           "VN": "Vietnam",
           "WS": "Samoa",
-          "ZM": "Zambia"
+          "ZM": "Zambia",
+          "KH": "Cambodia"
         },
         "realtime": "Real-time",
         "subtitle": "200+ countries supported",

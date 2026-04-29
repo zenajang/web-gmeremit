@@ -868,7 +868,11 @@
         "receive_amount": "받는 금액",
         "receive_country": "받는 국가",
         "send_amount": "보내는 금액",
-        "title": "실시간 환율 계산기"
+        "title": "실시간 환율 계산기",
+        "mobile_wallet": "모바일 월렛",
+        "qr_pay": "QR 결제",
+        "search_placeholder": "국가 검색",
+        "no_results": "검색 결과가 없습니다"
       },
       "description1": "200개국 이상 실시간 환율 조회.",
       "description2": "수수료 확인을 투명하게.",
@@ -987,7 +991,8 @@
           "US": "미국",
           "VN": "베트남",
           "WS": "사모아",
-          "ZM": "잠비아"
+          "ZM": "잠비아",
+          "KH": "캄보디아"
         },
         "realtime": "실시간",
         "subtitle": "200개국 이상 지원",

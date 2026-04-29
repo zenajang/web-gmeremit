@@ -40,7 +40,9 @@
       "notice": "Abiso",
       "press": "Balita"
     },
-    "total": "Kabuuan"
+    "total": "Kabuuan",
+    "error_title": "Hindi ma-load ang mga post",
+    "error_description": "Pakisubukang muli mamaya."
   },
   "business": {
     "cta": {
@@ -687,7 +689,13 @@
         "2024_12": "Lumagpas sa KRW 2.8 trilyon ang kabuuang overseas remittance",
         "2025_03": "Inilunsad ang insurance product para sa mga dayuhang residente",
         "2025_06": "Inilunsad ang debit card na may transportation card feature",
-        "2025_12": "Lumagpas sa KRW 3.5 trilyon ang kabuuang overseas remittance"
+        "2025_12": "Lumagpas sa KRW 3.5 trilyon ang kabuuang overseas remittance",
+        "2017_12": "Lumampas sa KRW 10 bilyon ang taunang remittance sa ibang bansa",
+        "2018_12": "Lumampas sa KRW 460 bilyon ang taunang remittance sa ibang bansa",
+        "2020_09": "Inilunsad ang serbisyo ng GME Pay",
+        "2020_12": "Lumampas sa KRW 1.0 trilyon ang taunang remittance sa ibang bansa",
+        "2022_12": "Lumampas sa KRW 1.7 trilyon ang taunang remittance sa ibang bansa",
+        "2025_04": "Sertipikado bilang Innovative SME (Inno-Biz)"
       },
       "title_line1": "Walang Katapusang Hamon,",
       "title_line2": "Mga Bagong Simula"
@@ -729,7 +737,11 @@
       },
       "related_services": "Mga Kaugnay na Serbisyo",
       "subtitle": "Lahat ng iyong pangangailangan sa pandaigdigang pananalapi sa isang lugar",
-      "title": "Mga Serbisyo ng GME"
+      "title": "Mga Serbisyo ng GME",
+      "telecom": {
+        "title": "Telecom",
+        "desc": "Mga budget mobile plan simula sa ₩3,300/buwan"
+      }
     },
     "tabs": {
       "ceo_message": "Mensahe ng CEO",
@@ -862,7 +874,11 @@
         "receive_amount": "Halagang Matatanggap",
         "receive_country": "Bansang Tatanggap",
         "send_amount": "Halagang Ipapadala",
-        "title": "Real-time Exchange Calculator"
+        "title": "Real-time Exchange Calculator",
+        "mobile_wallet": "Mobile Wallet",
+        "qr_pay": "QR Pay",
+        "search_placeholder": "Maghanap ng bansa",
+        "no_results": "Walang resulta"
       },
       "description1": "Real-time exchange rate para sa 200+ na bansa.",
       "description2": "Transparent na pagsisiwalat ng bayarin.",
@@ -981,7 +997,8 @@
           "US": "United States",
           "VN": "Vietnam",
           "WS": "Samoa",
-          "ZM": "Zambia"
+          "ZM": "Zambia",
+          "KH": "Cambodia"
         },
         "realtime": "Real-time",
         "subtitle": "200+ na bansang suportado",
@@ -1107,7 +1124,12 @@
         "title": "Overseas Remittance"
       },
       "title1": "Tuklasin ang",
-      "title2": "Iba't ibang Serbisyo ng GME"
+      "title2": "Iba't ibang Serbisyo ng GME",
+      "mobile": {
+        "title": "Mobile",
+        "desc1": "Mga budget mobile plan simula sa",
+        "desc2": "₩3,300/buwan para sa mga dayuhan"
+      }
     },
     "customer_feedback": {
       "subtitle": "Mga totoong karanasan mula sa aming mga customer.",
@@ -1123,7 +1145,8 @@
     "cta": {
       "button": "I-download ang App",
       "description": "Makuha ang pondo na kailangan mo nang mabilis gamit ang madaling mobile application.",
-      "title": "Simulan ang Iyong Loan sa GME App Ngayon"
+      "title": "Simulan ang Iyong Loan sa GME App Ngayon",
+      "inline_notice": "ⓘ Ang pag-click sa button sa ibaba ay magkokonekta sa iyo sa serbisyo ng pautang na ibinibigay ng GME Finance."
     },
     "details": {
       "contract": {
@@ -1272,6 +1295,20 @@
         "title": "24/7"
       },
       "title": "Bakit Pumili ng GME Loan?"
+    },
+    "disclosure": {
+      "banner": "Ang mga produkto ng pautang na ipinakilala sa pahinang ito ay ibinibigay ng GME Finance (isang hiwalay na legal na entity). Ang GME Finance ay tanging responsable para sa lahat ng aspeto ng serbisyo ng pautang kabilang ang konsultasyon, pagsusuri, kontrata, at after-sales service. Ang GME Remit ay nagbibigay lamang ng impormasyon ng produkto at mga tampok ng koneksyon.",
+      "disclaimer": "※ Ang GME Remit ay hindi nagbebenta o tagapamagitan ng produktong ito ng pautang. Ang lahat ng karapatan at obligasyon na nagmumula sa mga kontrata ng pautang sa pagitan ng GME Finance at mga customer ay nabibilang lamang sa GME Finance. Mangyaring iruta ang anumang kaugnay na hindi pagkakaunawaan o tanong nang direkta sa GME Finance.",
+      "label_address": "Punong Tanggapan",
+      "label_brand_name": "Brand",
+      "label_business_number": "Business Registration No.",
+      "label_ceo": "CEO",
+      "label_email": "Email",
+      "label_loan_license": "Lending License No.",
+      "label_phone": "Telepono",
+      "label_supervisor": "Supervisory Authority",
+      "law_notice": "Pagsisiwalat ng pagkakakilanlan ng negosyo alinsunod sa Artikulo 10 ng Batas sa Proteksyon ng Mamimili sa Electronic Commerce.",
+      "provider_heading": "GME Finance"
     }
   },
   "remittance": {

@@ -40,7 +40,9 @@
       "notice": "សេចក្តីជូនដំណឹង",
       "press": "សារព័ត៌មាន"
     },
-    "total": "សរុប"
+    "total": "សរុប",
+    "error_title": "មិនអាចផ្ទុកការប្រកាសបានទេ",
+    "error_description": "សូមព្យាយាមម្តងទៀតនៅពេលក្រោយ។"
   },
   "business": {
     "cta": {
@@ -67,7 +69,95 @@
         "title": "Netout"
       },
       "pob": {
-        "description": "កម្រិតខ org ្ពស់នៃតម្លាភាព និងប្រសិទ org្ org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org"
+        "description": "កម្រិតខ org ្ពស់នៃតម្លាភាព និងប្រសិទ org្ org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org",
+        "title": "ការទូទាត់ជំនួស"
+      },
+      "title": "លក្ខណៈពិសេសសេវាទូទាត់របស់ GME",
+      "technology": {
+        "title": "ហេដ្ឋារចនាសម្ព័ន្ធបច្ចេកវិទ្យា",
+        "description": "ប្រព័ន្ធដែលមានស្ថេរភាព ផ្អែកលើ MSA Architecture និងភ្ជាប់មកជាមួយ AML និងការផ្ទៀងផ្ទាត់អត្តសញ្ញាណ។"
+      }
+    },
+    "hero": {
+      "badge": "កាត់បន្ថយយ៉ាងខ្លាំងនូវតម្លៃផ្ទេរប្រាក់សម្រាប់អាជីវកម្ម",
+      "cta_contact": "ទាក់ទងពួកយើង",
+      "cta_docs": "មើលឯកសារ API",
+      "description": "ពីការផ្ទេរប្រាក់ឆ្លងព្រំដែន រហូតដល់ការទូទាត់ដៃគូ - បង្រួបបង្រួមការទូទាត់អាជីវកម្មស្មុគស្មាញទៅជាមួយគ្នា។ GME កាត់បន្ថយតម្លៃ និងបង្កើនល្បឿន។",
+      "title1": "សម្រាប់អាជីវកម្ម និងអ្នកលក់",
+      "title2": "ដៃគូទូទាត់សកល"
+    },
+    "partners": {
+      "label": "ដៃគូ",
+      "title": "ដៃគូសកលដែលអាចទុកចិត្តបាន",
+      "list": [
+        "Hana Bank",
+        "Alipay",
+        "Skyee",
+        "PayerMax",
+        "Xe",
+        "Veem",
+        "Sandman",
+        "colognes",
+        "BaoFuGlobal",
+        "Ripple",
+        "PingPong",
+        "Tazapay",
+        "LianLian Pay",
+        "Terrapin",
+        "Ria",
+        "Thunes"
+      ]
+    },
+    "process": {
+      "label": "លំហូរសេវាកម្ម",
+      "title": "របៀប GME Payments ដំណើរការ",
+      "step1": {
+        "title": "SPS + VAS",
+        "description": "SPS សម្រាប់ការទូទាត់ឆ្លងព្រំដែន, VAS សម្រាប់ការប្រមូល និងគណនីនិម្មិត។ ផ្តល់ដំណោះស្រាយទាំងពីរ។"
+      },
+      "step2": {
+        "title": "ការដាក់បញ្ចូល API",
+        "description": "ភ្ជាប់ប្រព័ន្ធរបស់អ្នកដោយប្រើឯកសារ API នៅ developers.gmeremit.com។"
+      },
+      "step3": {
+        "title": "ការគ្រប់គ្រង FX និងការទូទាត់",
+        "description": "គ្រប់គ្រង FX ដោយខ្លួនឯង ឬប្តូរប្រាក់ និងបង់ប្រាក់ក្នុងពេលតែមួយ។ តាមដានរាល់ប្រតិបត្តិការតាមពេលវេលាជាក់ស្តែង។"
+      },
+      "step4": {
+        "title": "ការផ្សះផ្សា និងរបាយការណ៍",
+        "description": "ការផ្សះផ្សាងាយស្រួលសម្រាប់ការទូទាត់ បង្កាន់ដៃទូទាត់ភ្លាមៗ និងប្រវត្តិប្រតិបត្តិការពេញលេញ។"
+      }
+    },
+    "solutions": {
+      "label": "ដំណោះស្រាយស្នូល",
+      "title": "ដំណោះស្រាយទូទាត់សម្រាប់អាជីវកម្មរបស់អ្នក",
+      "description": "ដំណោះស្រាយដ៏មានឥទ្ធិពលពីរ - SPS និង VAS - ដើម្បីដោះស្រាយរាល់ផ្នែករបស់ការទូទាត់ឆ្លងព្រំដែន។",
+      "sps": {
+        "title": "SPS",
+        "subtitle": "Seamless Payment Solution",
+        "description": "ដំណោះស្រាយការទូទាត់ឆ្លងព្រំដែនជាដុំ 24/7។ គ្រប់គ្រង FX ផ្ទៀងផ្ទាត់អ្នកទទួល និងដំណើរការការទូទាត់ដ៏ច្រើនទាំងអស់នៅកន្លែងតែមួយ។",
+        "features": [
+          "ទូទាត់ 24/7",
+          "គ្រប់គ្រង FX",
+          "ទូទាត់ច្រើន",
+          "ស្ថានភាពពេលវេលាជាក់ស្តែង",
+          "ការទូទាត់ភ្លាមៗ",
+          "ការផ្ទៀងផ្ទាត់ពេលវេលាជាក់ស្តែង"
+        ]
+      },
+      "vas": {
+        "title": "VAS",
+        "subtitle": "សេវាគណនីនិម្មិត",
+        "description": "ពីការចេញគណនីនិម្មិត រហូតដល់ការប្រមូលជំនួស។ លក្ខណៈពិសេសបន្ថែមទាំងអស់ដែលអ្នកត្រូវការសម្រាប់ប្រតិបត្តិការទូទាត់។",
+        "features": [
+          "ការជូនដំណឹងពេលវេលាជាក់ស្តែង",
+          "ការប្រមូលក្នុងតំបន់ក្នុងតម្លៃទាប",
+          "កំណត់ V/As",
+          "គណនីនិម្មិតក្នុងទម្រង់ច្រើន",
+          "ការប្រមូលជំនួស (COBO)",
+          "គ្មានដែនកំណត់លើអ្នកទទួលផល និងអ្នកបញ្ញើ",
+          "ការចេញ V/A ភ្លាមៗតាម API ឬ Portal"
+        ]
       }
     }
   },
@@ -599,7 +689,15 @@
         "2024_12": "ប្រាក់ផ្ញើក្រៅប្រទេសសរុបលើស KRW 2.8 ពាន់លាន",
         "2025_03": "ដាក់ឲ្យប្រើផលិតផលធានារ៉ាប់រងសម្រាប់ជនបរទេស",
         "2025_06": "ដាក់ឲ្យប្រើកាតឥណពន្ធដែលមានមុខងារកាតធ្វើដំណើរ",
-        "2025_12": "ប្រាក់ផ្ញើក្រៅប្រទេសសរុបលើស KRW 3.5 ពាន់លាន"
+        "2025_12": "ប្រាក់ផ្ញើក្រៅប្រទេសសរុបលើស KRW 3.5 ពាន់លាន",
+        "2017_12": "សម្រេចបានចំនួនការផ្ទេរប្រាក់ប្រចាំឆ្នាំ 10 ពាន់លានវ៉ុន",
+        "2018_12": "សម្រេចបានចំនួនការផ្ទេរប្រាក់ប្រចាំឆ្នាំ 460 ពាន់លានវ៉ុន",
+        "2019_06": "បើកសាខា 12 នៅទូទាំងប្រទេស",
+        "2019_09": "បើកមជ្ឈមណ្ឌល 3 នៅទូទាំងប្រទេស",
+        "2020_09": "ចាប់ផ្តើមសេវា GME Pay",
+        "2020_12": "សម្រេចបានចំនួនការផ្ទេរប្រាក់ប្រចាំឆ្នាំ 1 លានលានវ៉ុន",
+        "2022_12": "សម្រេចបានចំនួនការផ្ទេរប្រាក់ប្រចាំឆ្នាំ 1.7 លានលានវ៉ុន",
+        "2025_04": "ទទួលបានការទទួលស្គាល់ Inno-Biz (សហគ្រាសច្នៃប្រឌិតបច្ចេកវិទ្យា)"
       },
       "title_line1": "ការប៉ុនប៉ងគ្មានទីបញ្ចប់,",
       "title_line2": "ការចាប់ផ្តើមថ្មី"
@@ -641,7 +739,11 @@
       },
       "related_services": "សេវាផ្សេងៗ",
       "subtitle": "គ្រប់តម្រូវការហិរញ្ញវត្ថុសកលរបស់អ្នកនៅកន្លែងតែមួយ",
-      "title": "សេវា GME"
+      "title": "សេវា GME",
+      "telecom": {
+        "title": "Telecom",
+        "desc": "សេវាទូរសព្ទចល័តចាប់ពី 3,300 វ៉ុនក្នុងមួយខែ"
+      }
     },
     "tabs": {
       "ceo_message": "សារ​របស់ CEO",
@@ -774,7 +876,11 @@
         "receive_amount": "ចំនួនទទួលបាន",
         "receive_country": "ប្រទេសទទួល",
         "send_amount": "ចំនួនផ្ញើ",
-        "title": "ម៉ាស៊ីនគណនាអត្រាប្តូរប្រាក់ពេលវេលាពិត"
+        "title": "ម៉ាស៊ីនគណនាអត្រាប្តូរប្រាក់ពេលវេលាពិត",
+        "mobile_wallet": "កាបូបទូរសព្ទចល័ត",
+        "qr_pay": "ការទូទាត់ QR",
+        "search_placeholder": "ស្វែងរកប្រទេស",
+        "no_results": "មិនមានលទ្ធផល"
       },
       "description1": "អត្រាប្តូរប្រាក់ពេលវេលាពិតសម្រាប់ 200+ ប្រទេស។",
       "description2": "បង្ហាញថ្លៃសេវាដោយច្បាស់។",
@@ -893,7 +999,8 @@
           "US": "សហរដ្ឋអាមេរិក",
           "VN": "វៀតណាម",
           "WS": "សាម័រ",
-          "ZM": "សំប៊ី"
+          "ZM": "សំប៊ី",
+          "KH": "កម្ពុជា"
         },
         "realtime": "ពេលវេលាពិត",
         "subtitle": "គាំទ្រ 200+ ប្រទេស",
@@ -1019,7 +1126,12 @@
         "title": "ការផ្ញើប្រាក់ក្រៅប្រទេស"
       },
       "title1": "ស្វែងរកសេវា",
-      "title2": "GME ជាច្រើន"
+      "title2": "GME ជាច្រើន",
+      "mobile": {
+        "title": "ទូរសព្ទចល័ត",
+        "desc1": "ចាប់ពី 3,300 វ៉ុនក្នុងមួយខែ",
+        "desc2": "សេវាទូរសព្ទចល័តសម្រាប់ជនបរទេស"
+      }
     },
     "customer_feedback": {
       "subtitle": "បទពិសោធន៍ពិតពីអតិថិជនរបស់យើង។",
@@ -1035,7 +1147,8 @@
     "cta": {
       "button": "ទាញយកកម្មវិធី",
       "description": "ទទួលទឹកប្រាក់ដែលអ្នកត្រូវការយ៉ាងរហ័ស ជាមួយការដាក់ពាក្យតាមទូរស័ព្ទងាយស្រួល។",
-      "title": "ចាប់ផ្តើមកម្ចីរបស់អ្នកជាមួយកម្មវិធី GME ថ្ងៃនេះ"
+      "title": "ចាប់ផ្តើមកម្ចីរបស់អ្នកជាមួយកម្មវិធី GME ថ្ងៃនេះ",
+      "inline_notice": "ⓘ ការចុចប៊ូតុងខាងក្រោមនឹងភ្ជាប់អ្នកទៅសេវាឥណទានដែលផ្តល់ដោយ GME Finance។"
     },
     "details": {
       "contract": {
@@ -1184,6 +1297,20 @@
         "title": "24/7"
       },
       "title": "ហេតុអ្វីជ្រើសរើស GME Loan?"
+    },
+    "disclosure": {
+      "banner": "ផលិតផលឥណទានដែលណែនាំក្នុងទំព័រនេះ ត្រូវបានផ្តល់ដោយ GME Finance (ស្ថាប័នដាច់ដោយឡែក)។ ការទទួលខុសត្រូវទាំងអស់សម្រាប់សេវាឥណទាន រួមមានការប្រឹក្សា ការវាយតម្លៃ កិច្ចសន្យា និងការគ្រប់គ្រងក្រោយការផ្តល់ ស្ថិតនៅលើ GME Finance ហើយ GME Remit គ្រាន់តែផ្តល់នូវការណែនាំ និងមុខងារភ្ជាប់ប៉ុណ្ណោះ។",
+      "disclaimer": "※ GME Remit មិនមែនជាអ្នកលក់ ឬឈ្មួញកណ្តាលនៃផលិតផលឥណទាននេះទេ។ សិទ្ធិ និងកាតព្វកិច្ចទាំងអស់នៃកិច្ចសន្យាឥណទានរវាង GME Finance និងអ្នកប្រើប្រាស់ ស្ថិតនៅលើ GME Finance ហើយវិវាទ និងពាក្យបណ្តឹងពាក់ព័ន្ធគួរតែដាក់ទៅ GME Finance។",
+      "law_notice": "ការផ្សព្វផ្សាយព័ត៌មានអត្តសញ្ញាណអាជីវកម្ម យោងតាមមាត្រា 10 នៃច្បាប់ស្តីពីការការពារអ្នកប្រើប្រាស់ក្នុងពាណិជ្ជកម្មអេឡិចត្រូនិច។",
+      "provider_heading": "GME Finance",
+      "label_address": "ការិយាល័យកណ្តាល",
+      "label_brand_name": "ឈ្មោះម៉ាក",
+      "label_business_number": "លេខចុះបញ្ជីអាជីវកម្ម",
+      "label_ceo": "នាយកប្រតិបត្តិ",
+      "label_email": "អ៊ីមែល",
+      "label_loan_license": "លេខចុះបញ្ជីសេវាឥណទាន",
+      "label_phone": "លេខទូរស័ព្ទ",
+      "label_supervisor": "ស្ថាប័នត្រួតពិនិត្យ"
     }
   },
   "remittance": {

@@ -40,7 +40,9 @@
       "notice": "E'lon",
       "press": "Matbuot"
     },
-    "total": "Jami"
+    "total": "Jami",
+    "error_title": "Postlarni yuklab bo'lmadi",
+    "error_description": "Iltimos, keyinroq qayta urinib ko'ring."
   },
   "business": {
     "cta": {
@@ -73,13 +75,16 @@
       "technology": {
         "description": "AML va tekshiruvlar bilan micro service arxitekturasi asosida kuchli va ishonchli tizim yaratilgan.",
         "title": "Texnologiya"
-      }
+      },
+      "title": "GME ning To'lov Xizmati Xususiyatlari"
     },
     "hero": {
       "badge": "GME PAYMENTS",
       "description": "Global to'lov yechimlari bilan biznesingizni kuchaytiring.",
       "title1": "Global",
-      "title2": "To'lovlar"
+      "title2": "To'lovlar",
+      "cta_contact": "Bog'lanish",
+      "cta_docs": "API hujjatlarini ko'rish"
     },
     "process": {
       "step1": {
@@ -98,7 +103,8 @@
         "description": "Hisoblarni moslashtirish oson, to'lov kvitansiyalari va tranzaksiya tarixi darhol olinadi.",
         "title": "Moslashtirish + hisobot"
       },
-      "title": "GME Payments jarayoni"
+      "title": "GME Payments jarayoni",
+      "label": "Qanday ishlaydi"
     },
     "solutions": {
       "description": "SPS va VAS yechimlari bilan transchegaraviy to'lovlarning barcha qismlarini qamrab oling.",
@@ -131,6 +137,28 @@
         "subtitle": "Virtual hisob xizmati",
         "title": "VAS"
       }
+    },
+    "partners": {
+      "label": "Hamkorlar",
+      "title": "Ishonchli global hamkorlar",
+      "list": [
+        "Hana Bank",
+        "Alipay",
+        "Skyee",
+        "PayerMax",
+        "Xe",
+        "Veem",
+        "Sandman",
+        "colognes",
+        "BaoFuGlobal",
+        "Ripple",
+        "PingPong",
+        "Tazapay",
+        "LianLian Pay",
+        "Terrapin",
+        "Ria",
+        "Thunes"
+      ]
     }
   },
   "button": {
@@ -661,7 +689,15 @@
         "2024_12": "Xalqaro o'tkazmalar jami KRW 2.8 trln dan oshdi",
         "2025_03": "Chet elliklar uchun sug'urta mahsuloti ishga tushdi",
         "2025_06": "Transport kartasi funksiyali debit karta ishga tushdi",
-        "2025_12": "Xalqaro o'tkazmalar jami KRW 3.5 trln dan oshdi"
+        "2025_12": "Xalqaro o'tkazmalar jami KRW 3.5 trln dan oshdi",
+        "2017_12": "Yillik xorijiy pul o'tkazmalari 10 milliard vondan oshdi",
+        "2018_12": "Yillik xorijiy pul o'tkazmalari 460 milliard vondan oshdi",
+        "2019_06": "Butun mamlakat bo'ylab 12 ta filial ochildi",
+        "2019_09": "Butun mamlakat bo'ylab 3 ta markaz ochildi",
+        "2020_09": "GME Pay xizmati ishga tushirildi",
+        "2020_12": "Yillik xorijiy pul o'tkazmalari 1.0 trillion vondan oshdi",
+        "2022_12": "Yillik xorijiy pul o'tkazmalari 1.7 trillion vondan oshdi",
+        "2025_04": "Innovatsion KO'B (Inno-Biz) sertifikatini oldi"
       },
       "title_line1": "Cheksiz sinovlar,",
       "title_line2": "Yangi boshlanishlar"
@@ -703,7 +739,11 @@
       },
       "related_services": "Bog'liq xizmatlar",
       "subtitle": "Barcha global moliyaviy ehtiyojlaringiz bir joyda",
-      "title": "GME xizmatlari"
+      "title": "GME xizmatlari",
+      "telecom": {
+        "title": "Telecom",
+        "desc": "Oyiga 3,300 vondan boshlanadigan arzon mobil tariflar"
+      }
     },
     "tabs": {
       "ceo_message": "CEO xabari",
@@ -836,7 +876,11 @@
         "receive_amount": "Olinadigan miqdor",
         "receive_country": "Qabul qiluvchi mamlakat",
         "send_amount": "Yuboriladigan miqdor",
-        "title": "Real vaqt valyuta kalkulyatori"
+        "title": "Real vaqt valyuta kalkulyatori",
+        "mobile_wallet": "Mobil hamyon",
+        "qr_pay": "QR to'lov",
+        "search_placeholder": "Davlat qidirish",
+        "no_results": "Natija yo'q"
       },
       "description1": "200+ mamlakat uchun real vaqt kurslari.",
       "description2": "Komissiyalarni ochiq ko'rsatish.",
@@ -955,7 +999,8 @@
           "US": "AQSh",
           "VN": "Vyetnam",
           "WS": "Samoa",
-          "ZM": "Zambiya"
+          "ZM": "Zambiya",
+          "KH": "Kambodja"
         },
         "realtime": "Real vaqt",
         "subtitle": "200+ mamlakatni qo'llab-quvvatlaydi",
@@ -1081,7 +1126,12 @@
         "title": "Xalqaro pul o'tkazma"
       },
       "title1": "GME ning",
-      "title2": "xizmatlarini kashf eting"
+      "title2": "xizmatlarini kashf eting",
+      "mobile": {
+        "title": "Mobil",
+        "desc1": "Oyiga 3,300 vondan boshlanadigan",
+        "desc2": "chet elliklar uchun arzon mobil xizmat"
+      }
     },
     "customer_feedback": {
       "subtitle": "Mijozlarimizning haqiqiy tajribalari.",
@@ -1097,7 +1147,8 @@
     "cta": {
       "button": "Ilovani yuklab oling",
       "description": "Kerakli mablag'ni tez olish uchun mobil ilova orqali oson ariza bering.",
-      "title": "Bugun GME ilovasi bilan kredit boshlang"
+      "title": "Bugun GME ilovasi bilan kredit boshlang",
+      "inline_notice": "ⓘ Quyidagi tugmani bosish sizni GME Finance tomonidan taqdim etilgan kredit xizmatiga ulaydi."
     },
     "details": {
       "contract": {
@@ -1246,6 +1297,20 @@
         "title": "24/7"
       },
       "title": "Nega GME Loanni tanlash kerak?"
+    },
+    "disclosure": {
+      "banner": "Ushbu sahifada taqdim etilgan kredit mahsulotlari GME Finance (alohida yuridik shaxs) tomonidan beriladi. Maslahat, ko'rib chiqish, shartnoma va sotuvdan keyingi xizmat ko'rsatishni o'z ichiga olgan kredit xizmatining barcha jihatlari uchun GME Finance to'liq javobgardir. GME Remit faqat mahsulot ma'lumotlari va ulanish funksiyalarini taqdim etadi.",
+      "disclaimer": "※ GME Remit ushbu kredit mahsulotining sotuvchisi yoki vositachisi emas. GME Finance va mijozlar o'rtasidagi kredit shartnomalaridan kelib chiqadigan barcha huquqlar va majburiyatlar faqat GME Finance ga tegishli. Tegishli nizolar yoki so'rovlarni to'g'ridan-to'g'ri GME Finance ga yuboring.",
+      "label_address": "Bosh ofis",
+      "label_brand_name": "Brend",
+      "label_business_number": "Biznes ro'yxat raqami",
+      "label_ceo": "Bosh direktor",
+      "label_email": "Elektron pochta",
+      "label_loan_license": "Kreditlash litsenziya raqami",
+      "label_phone": "Telefon",
+      "label_supervisor": "Nazorat organi",
+      "law_notice": "Elektron tijoratda iste'molchilarni himoya qilish to'g'risidagi qonunning 10-moddasi bo'yicha biznes identifikatsiyasini oshkor qilish.",
+      "provider_heading": "GME Finance"
     }
   },
   "remittance": {

@@ -40,7 +40,9 @@
       "notice": "Thông báo",
       "press": "Báo chí"
     },
-    "total": "Tổng"
+    "total": "Tổng",
+    "error_title": "Không thể tải bài viết",
+    "error_description": "Vui lòng thử lại sau."
   },
   "business": {
     "cta": {
@@ -687,7 +689,13 @@
         "2024_12": "Tổng chuyển tiền nước ngoài lũy kế vượt 2,8 nghìn tỷ Won",
         "2025_03": "Ra mắt sản phẩm bảo hiểm cho cư dân nước ngoài",
         "2025_06": "Ra mắt thẻ ghi nợ tích hợp thẻ giao thông",
-        "2025_12": "Tổng chuyển tiền nước ngoài lũy kế vượt 3,5 nghìn tỷ Won"
+        "2025_12": "Tổng chuyển tiền nước ngoài lũy kế vượt 3,5 nghìn tỷ Won",
+        "2017_12": "Tổng chuyển tiền nước ngoài hàng năm vượt 10 tỷ KRW",
+        "2018_12": "Tổng chuyển tiền nước ngoài hàng năm vượt 460 tỷ KRW",
+        "2020_09": "Ra mắt dịch vụ GME Pay",
+        "2020_12": "Tổng chuyển tiền nước ngoài hàng năm vượt 1,0 nghìn tỷ KRW",
+        "2022_12": "Tổng chuyển tiền nước ngoài hàng năm vượt 1,7 nghìn tỷ KRW",
+        "2025_04": "Được chứng nhận là SME đổi mới sáng tạo (Inno-Biz)"
       },
       "title_line1": "Thử thách không ngừng,",
       "title_line2": "Khởi đầu mới"
@@ -729,7 +737,11 @@
       },
       "related_services": "Dịch vụ liên quan",
       "subtitle": "Tất cả dịch vụ tài chính toàn cầu trong một nơi",
-      "title": "Dịch vụ GME"
+      "title": "Dịch vụ GME",
+      "telecom": {
+        "title": "Telecom",
+        "desc": "Gói cước di động giá rẻ từ ₩3.300/tháng"
+      }
     },
     "tabs": {
       "ceo_message": "Thông điệp CEO",
@@ -862,7 +874,11 @@
         "receive_amount": "Số tiền nhận",
         "receive_country": "Quốc gia nhận",
         "send_amount": "Số tiền gửi",
-        "title": "Máy tính tỷ giá thời gian thực"
+        "title": "Máy tính tỷ giá thời gian thực",
+        "mobile_wallet": "Ví di động",
+        "qr_pay": "Thanh toán QR",
+        "search_placeholder": "Tìm kiếm quốc gia",
+        "no_results": "Không có kết quả"
       },
       "description1": "Tỷ giá thời gian thực cho hơn 200 quốc gia.",
       "description2": "Công khai phí minh bạch.",
@@ -981,7 +997,8 @@
           "US": "Hoa Kỳ",
           "VN": "Việt Nam",
           "WS": "Samoa",
-          "ZM": "Zambia"
+          "ZM": "Zambia",
+          "KH": "Campuchia"
         },
         "realtime": "Thời gian thực",
         "subtitle": "Hỗ trợ hơn 200 quốc gia",
@@ -1107,7 +1124,12 @@
         "title": "Chuyển tiền quốc tế"
       },
       "title1": "Khám phá các",
-      "title2": "Dịch vụ đa dạng của GME"
+      "title2": "Dịch vụ đa dạng của GME",
+      "mobile": {
+        "title": "Di động",
+        "desc1": "Gói cước di động giá rẻ từ",
+        "desc2": "₩3.300/tháng dành cho người nước ngoài"
+      }
     },
     "customer_feedback": {
       "subtitle": "Trải nghiệm thực tế từ khách hàng của chúng tôi.",
@@ -1123,7 +1145,8 @@
     "cta": {
       "button": "Tải ứng dụng",
       "description": "Nhận khoản vay bạn cần nhanh chóng với đăng ký dễ dàng trên di động.",
-      "title": "Bắt đầu vay với ứng dụng GME ngay hôm nay"
+      "title": "Bắt đầu vay với ứng dụng GME ngay hôm nay",
+      "inline_notice": "ⓘ Khi nhấp vào nút bên dưới, bạn sẽ được kết nối đến dịch vụ cho vay do GME Finance cung cấp."
     },
     "details": {
       "contract": {
@@ -1272,6 +1295,20 @@
         "title": "24/7"
       },
       "title": "Tại sao chọn GME Loan?"
+    },
+    "disclosure": {
+      "banner": "Các sản phẩm cho vay được giới thiệu trên trang này được cung cấp bởi GME Finance (một thực thể pháp lý riêng). GME Finance chịu hoàn toàn trách nhiệm về tất cả các khía cạnh của dịch vụ cho vay bao gồm tư vấn, xét duyệt, hợp đồng và dịch vụ sau bán hàng. GME Remit chỉ cung cấp thông tin sản phẩm và tính năng kết nối.",
+      "disclaimer": "※ GME Remit không phải là người bán hoặc trung gian của sản phẩm cho vay này. Mọi quyền và nghĩa vụ phát sinh từ hợp đồng cho vay giữa GME Finance và khách hàng đều thuộc về GME Finance. Vui lòng gửi mọi tranh chấp hoặc thắc mắc liên quan trực tiếp đến GME Finance.",
+      "label_address": "Trụ sở chính",
+      "label_brand_name": "Thương hiệu",
+      "label_business_number": "Số đăng ký kinh doanh",
+      "label_ceo": "Giám đốc",
+      "label_email": "Email",
+      "label_loan_license": "Số giấy phép cho vay",
+      "label_phone": "Điện thoại",
+      "label_supervisor": "Cơ quan giám sát",
+      "law_notice": "Công bố thông tin nhận dạng doanh nghiệp theo Điều 10 của Luật Bảo vệ Người tiêu dùng trong Thương mại Điện tử.",
+      "provider_heading": "GME Finance"
     }
   },
   "remittance": {

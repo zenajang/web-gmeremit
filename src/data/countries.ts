@@ -1,4 +1,4 @@
-export type DeliveryMethod = "1" | "2";
+export type DeliveryMethod = "1" | "2" | "13" | "37";
 
 export interface CountryConfig {
   code: string;
@@ -11,6 +11,7 @@ export interface CountryConfig {
 const BOTH: DeliveryMethod[] = ["1", "2"];
 const BANK_ONLY: DeliveryMethod[] = ["1"];
 const CASH_ONLY: DeliveryMethod[] = ["2"];
+const CAMBODIA_METHODS: DeliveryMethod[] = ["1", "2", "13", "37"];
 
 export const countryConfigs: CountryConfig[] = [
   { code: "ARS", countryCode: "AR", countryName: "Argentina", flag: "🇦🇷", availableDeliveryMethods: BOTH },
@@ -19,6 +20,7 @@ export const countryConfigs: CountryConfig[] = [
   { code: "BDT", countryCode: "BD", countryName: "Bangladesh", flag: "🇧🇩", availableDeliveryMethods: BOTH },
   { code: "BOB", countryCode: "BO", countryName: "Bolivia", flag: "🇧🇴", availableDeliveryMethods: BOTH },
   { code: "BRL", countryCode: "BR", countryName: "Brazil", flag: "🇧🇷", availableDeliveryMethods: BOTH },
+  { code: "USD", countryCode: "KH", countryName: "Cambodia", flag: "🇰🇭", availableDeliveryMethods: CAMBODIA_METHODS },
   { code: "CAD", countryCode: "CA", countryName: "Canada", flag: "🇨🇦", availableDeliveryMethods: BOTH },
   { code: "CLP", countryCode: "CL", countryName: "Chile", flag: "🇨🇱", availableDeliveryMethods: BOTH },
   { code: "CNY", countryCode: "CN", countryName: "China", flag: "🇨🇳", availableDeliveryMethods: BOTH },
@@ -74,7 +76,7 @@ export const countryConfigs: CountryConfig[] = [
 ];
 
 export const defaultCountry: CountryConfig =
-  countryConfigs.find((c) => c.code === "USD") ?? countryConfigs[0];
+  countryConfigs.find((c) => c.countryCode === "US") ?? countryConfigs[0];
 
 export interface SupportedCountry {
   code: string;

@@ -40,7 +40,9 @@
       "notice": "公告",
       "press": "新闻"
     },
-    "total": "共"
+    "total": "共",
+    "error_title": "无法加载帖子",
+    "error_description": "请稍后再试。"
   },
   "business": {
     "cta": {
@@ -687,7 +689,13 @@
         "2024_12": "累计海外汇款额突破2.8万亿韩元",
         "2025_03": "面向外国居民保险产品上线",
         "2025_06": "带交通卡功能的借记卡上线",
-        "2025_12": "累计海外汇款额突破3.5万亿韩元"
+        "2025_12": "累计海外汇款额突破3.5万亿韩元",
+        "2017_12": "年度海外汇款额突破100亿韩元",
+        "2018_12": "年度海外汇款额突破4,600亿韩元",
+        "2020_09": "推出GME Pay服务",
+        "2020_12": "年度海外汇款额突破1.0万亿韩元",
+        "2022_12": "年度海外汇款额突破1.7万亿韩元",
+        "2025_04": "获得创新型中小企业(Inno-Biz)认证"
       },
       "title_line1": "不断挑战，",
       "title_line2": "崭新开始"
@@ -729,7 +737,11 @@
       },
       "related_services": "相关服务",
       "subtitle": "全球金融一站式服务",
-      "title": "GME服务"
+      "title": "GME服务",
+      "telecom": {
+        "title": "Telecom",
+        "desc": "月费3,300韩元起的实惠手机套餐"
+      }
     },
     "tabs": {
       "ceo_message": "CEO致辞",
@@ -862,7 +874,11 @@
         "receive_amount": "收款金额",
         "receive_country": "收款国家",
         "send_amount": "汇款金额",
-        "title": "实时汇率计算器"
+        "title": "实时汇率计算器",
+        "mobile_wallet": "移动钱包",
+        "qr_pay": "QR支付",
+        "search_placeholder": "搜索国家",
+        "no_results": "暂无结果"
       },
       "description1": "200多个国家的实时汇率。",
       "description2": "费用透明公开。",
@@ -981,7 +997,8 @@
           "US": "美国",
           "VN": "越南",
           "WS": "萨摩亚",
-          "ZM": "赞比亚"
+          "ZM": "赞比亚",
+          "KH": "柬埔寨"
         },
         "realtime": "实时",
         "subtitle": "支持200多个国家",
@@ -1107,7 +1124,12 @@
         "title": "海外汇款"
       },
       "title1": "了解GME的",
-      "title2": "多样化服务"
+      "title2": "多样化服务",
+      "mobile": {
+        "title": "手机",
+        "desc1": "月费3,300韩元起的",
+        "desc2": "外国人专属实惠手机服务"
+      }
     },
     "customer_feedback": {
       "subtitle": "来自真实客户的使用体验。",
@@ -1123,7 +1145,8 @@
     "cta": {
       "button": "下载APP",
       "description": "通过手机轻松申请，快速获取所需资金。",
-      "title": "立即通过GME APP开始贷款"
+      "title": "立即通过GME APP开始贷款",
+      "inline_notice": "ⓘ 点击下方按钮将连接到GME Finance提供的贷款服务。"
     },
     "details": {
       "contract": {
@@ -1272,6 +1295,20 @@
         "title": "24/7"
       },
       "title": "为什么选择GME贷款"
+    },
+    "disclosure": {
+      "banner": "本页面介绍的贷款产品由GME Finance(独立法人)提供。咨询、审核、合同及售后服务等贷款服务的所有责任由GME Finance承担,GME Remit仅提供产品介绍及连接功能。",
+      "disclaimer": "※ GME Remit不是本贷款产品的销售商或中介。GME Finance与客户之间签订的贷款合同所产生的所有权利和义务均归GME Finance所有。请将相关争议或咨询直接发送至GME Finance。",
+      "label_address": "总部",
+      "label_brand_name": "品牌",
+      "label_business_number": "营业执照号",
+      "label_ceo": "首席执行官",
+      "label_email": "电子邮件",
+      "label_loan_license": "贷款牌照号",
+      "label_phone": "电话",
+      "label_supervisor": "监管机构",
+      "law_notice": "根据电子商务消费者保护法第10条进行的商业身份信息披露。",
+      "provider_heading": "GME Finance"
     }
   },
   "remittance": {

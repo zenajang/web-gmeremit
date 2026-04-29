@@ -40,7 +40,9 @@
       "notice": "Pengumuman",
       "press": "Pers"
     },
-    "total": "Total"
+    "total": "Total",
+    "error_title": "Gagal memuat postingan",
+    "error_description": "Silakan coba lagi nanti."
   },
   "business": {
     "cta": {
@@ -687,7 +689,13 @@
         "2024_12": "Total pengiriman uang luar negeri kumulatif melampaui ₩2,8 triliun",
         "2025_03": "Peluncuran produk asuransi untuk penduduk asing",
         "2025_06": "Peluncuran kartu debit dengan fungsi kartu transportasi",
-        "2025_12": "Total pengiriman uang luar negeri kumulatif melampaui ₩3,5 triliun"
+        "2025_12": "Total pengiriman uang luar negeri kumulatif melampaui ₩3,5 triliun",
+        "2017_12": "Total pengiriman uang tahunan ke luar negeri melebihi KRW 10 miliar",
+        "2018_12": "Total pengiriman uang tahunan ke luar negeri melebihi KRW 460 miliar",
+        "2020_09": "Meluncurkan layanan GME Pay",
+        "2020_12": "Total pengiriman uang tahunan ke luar negeri melebihi KRW 1,0 triliun",
+        "2022_12": "Total pengiriman uang tahunan ke luar negeri melebihi KRW 1,7 triliun",
+        "2025_04": "Disertifikasi sebagai UKM Inovatif (Inno-Biz)"
       },
       "title_line1": "Tantangan Tanpa Henti,",
       "title_line2": "Awal yang Baru"
@@ -729,7 +737,11 @@
       },
       "related_services": "Layanan Terkait",
       "subtitle": "Semua layanan keuangan global dalam satu tempat",
-      "title": "Layanan GME"
+      "title": "Layanan GME",
+      "telecom": {
+        "title": "Telecom",
+        "desc": "Paket seluler hemat mulai dari ₩3.300/bulan"
+      }
     },
     "tabs": {
       "ceo_message": "Pesan CEO",
@@ -862,7 +874,11 @@
         "receive_amount": "Jumlah Diterima",
         "receive_country": "Negara Penerima",
         "send_amount": "Jumlah Kirim",
-        "title": "Kalkulator Kurs Real-Time"
+        "title": "Kalkulator Kurs Real-Time",
+        "mobile_wallet": "Dompet Seluler",
+        "qr_pay": "Pembayaran QR",
+        "search_placeholder": "Cari negara",
+        "no_results": "Tidak ada hasil"
       },
       "description1": "Kurs real-time untuk 200+ negara.",
       "description2": "Biaya transparan.",
@@ -981,7 +997,8 @@
           "US": "Amerika Serikat",
           "VN": "Vietnam",
           "WS": "Samoa",
-          "ZM": "Zambia"
+          "ZM": "Zambia",
+          "KH": "Kamboja"
         },
         "realtime": "Real-Time",
         "subtitle": "Mendukung 200+ negara",
@@ -1107,7 +1124,12 @@
         "title": "Pengiriman Uang Internasional"
       },
       "title1": "Jelajahi",
-      "title2": "Berbagai Layanan GME"
+      "title2": "Berbagai Layanan GME",
+      "mobile": {
+        "title": "Seluler",
+        "desc1": "Paket seluler hemat mulai",
+        "desc2": "dari hanya ₩3.300/bulan"
+      }
     },
     "customer_feedback": {
       "subtitle": "Pengalaman nyata dari pelanggan kami.",
@@ -1123,7 +1145,8 @@
     "cta": {
       "button": "Unduh Aplikasi",
       "description": "Dapatkan pinjaman yang Anda butuhkan dengan cepat melalui pendaftaran mudah di ponsel.",
-      "title": "Mulai Pinjaman dengan Aplikasi GME Hari Ini"
+      "title": "Mulai Pinjaman dengan Aplikasi GME Hari Ini",
+      "inline_notice": "ⓘ Mengklik tombol di bawah akan menghubungkan Anda ke layanan pinjaman yang disediakan oleh GME Finance."
     },
     "details": {
       "contract": {
@@ -1272,6 +1295,20 @@
         "title": "24/7"
       },
       "title": "Mengapa Memilih GME Loan?"
+    },
+    "disclosure": {
+      "banner": "Produk pinjaman yang diperkenalkan di halaman ini disediakan oleh GME Finance (entitas hukum terpisah). GME Finance bertanggung jawab penuh atas semua aspek layanan pinjaman termasuk konsultasi, peninjauan, kontrak, dan layanan purnajual. GME Remit hanya menyediakan informasi produk dan fitur penghubung.",
+      "disclaimer": "* GME Remit bukan penjual atau perantara produk pinjaman ini. Semua hak dan kewajiban yang timbul dari kontrak pinjaman antara GME Finance dan pelanggan sepenuhnya menjadi milik GME Finance. Silakan ajukan sengketa atau pertanyaan terkait langsung ke GME Finance.",
+      "label_address": "Kantor Pusat",
+      "label_brand_name": "Merek",
+      "label_business_number": "No. Registrasi Bisnis",
+      "label_ceo": "CEO",
+      "label_email": "Email",
+      "label_loan_license": "No. Lisensi Pemberian Pinjaman",
+      "label_phone": "Telepon",
+      "label_supervisor": "Otoritas Pengawas",
+      "law_notice": "Pengungkapan identitas bisnis sesuai dengan Pasal 10 Undang-Undang Perlindungan Konsumen dalam Perdagangan Elektronik.",
+      "provider_heading": "GME Finance"
     }
   },
   "remittance": {

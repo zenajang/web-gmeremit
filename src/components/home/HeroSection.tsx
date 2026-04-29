@@ -22,6 +22,8 @@ const parseNumber = (str: string) => str.replace(/,/g, "");
 const DELIVERY_METHODS = [
   { value: "1", key: "calculator.bank_deposit" },
   { value: "2", key: "calculator.cash_payment" },
+  { value: "13", key: "calculator.mobile_wallet" },
+  { value: "37", key: "calculator.qr_pay" },
 ] as const;
 
 export default function HeroSection() {
@@ -29,6 +31,7 @@ export default function HeroSection() {
   const [sendAmount, setSendAmount] = useState("1000000");
   const [selectedCountry, setSelectedCountry] = useState<CountryConfig>(defaultCountry);
   const [isOpen, setIsOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
   const [receiveAmount, setReceiveAmount] = useState("");
   const [exchangeRate, setExchangeRate] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
@@ -157,13 +160,17 @@ export default function HeroSection() {
 
   const handleCountrySelect = (country: CountryConfig) => {
     setSelectedCountry(country);
-    if (!country.availableDeliveryMethods.includes(deliveryMethod as "1" | "2")) {
+    if (!country.availableDeliveryMethods.includes(deliveryMethod as "1" | "2" | "13" | "37")) {
       setDeliveryMethod(country.availableDeliveryMethods[0]);
     }
     setIsOpen(false);
+    setSearchQuery("");
   };
 
-  useClickOutside(dropdownRef, () => setIsOpen(false), isOpen);
+  useClickOutside(dropdownRef, () => {
+    setIsOpen(false);
+    setSearchQuery("");
+  }, isOpen);
 
   return (
     <section id="app" className="relative lg:min-h-[calc(100svh-var(--header-height))] bg-gradient-to-b from-gray-100 to-white py-12 lg:py-24 overflow-hidden snap-section flex items-center">
@@ -289,25 +296,71 @@ export default function HeroSection() {
 
                 {isOpen && (
                   <div
-                    className="absolute z-50 mt-2 w-full bg-white rounded-2xl shadow-xl border border-gray-200/70 py-2 max-h-40 overflow-auto"
+                    className="absolute z-50 mt-2 w-full bg-white rounded-2xl shadow-xl border border-gray-200/70 overflow-hidden"
                     onWheel={(e) => e.stopPropagation()}
                   >
-                    {countryConfigs.map((country) => (
-                      <button
-                        key={country.code}
-                        type="button"
-                        onClick={() => handleCountrySelect(country)}
-                        className={`w-full flex items-center gap-3 px-5 py-3 transition-colors cursor-pointer ${
-                          selectedCountry.code === country.code
-                            ? "bg-red-50 text-primary"
-                            : "hover:bg-slate-50"
-                        }`}
-                      >
-                        <span className="text-xl">{country.flag}</span>
-                        <span className="font-medium flex-1 text-left">{t(`countries.names.${country.countryCode}`, { ns: "home.hero" })}</span>
-                        <span className="text-sm text-neutral-400">{country.code}</span>
-                      </button>
-                    ))}
+                    <div className="p-2 border-b border-gray-100 sticky top-0 bg-white">
+                      <div className="relative">
+                        <svg
+                          className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400 pointer-events-none"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z" />
+                        </svg>
+                        <input
+                          type="text"
+                          autoFocus
+                          value={searchQuery}
+                          onChange={(e) => setSearchQuery(e.target.value)}
+                          placeholder={t("calculator.search_placeholder")}
+                          className="w-full pl-9 pr-3 py-2 text-sm bg-slate-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary"
+                        />
+                      </div>
+                    </div>
+                    <div className="max-h-60 overflow-auto py-2">
+                      {(() => {
+                        const q = searchQuery.trim().toLowerCase();
+                        const filtered = q
+                          ? countryConfigs.filter((c) => {
+                              const name = t(`countries.names.${c.countryCode}`, { ns: "home.hero" }).toLowerCase();
+                              return (
+                                name.includes(q) ||
+                                c.countryName.toLowerCase().includes(q) ||
+                                c.code.toLowerCase().includes(q) ||
+                                c.countryCode.toLowerCase().includes(q)
+                              );
+                            })
+                          : countryConfigs;
+                        if (filtered.length === 0) {
+                          return (
+                            <p className="text-center text-sm text-neutral-400 py-6">
+                              {t("calculator.no_results")}
+                            </p>
+                          );
+                        }
+                        return filtered.map((country) => (
+                          <button
+                            key={country.countryCode}
+                            type="button"
+                            onClick={() => {
+                              handleCountrySelect(country);
+                              setSearchQuery("");
+                            }}
+                            className={`w-full flex items-center gap-3 px-5 py-3 transition-colors cursor-pointer ${
+                              selectedCountry.countryCode === country.countryCode
+                                ? "bg-red-50 text-primary"
+                                : "hover:bg-slate-50"
+                            }`}
+                          >
+                            <span className="text-xl">{country.flag}</span>
+                            <span className="font-medium flex-1 text-left">{t(`countries.names.${country.countryCode}`, { ns: "home.hero" })}</span>
+                            <span className="text-sm text-neutral-400">{country.code}</span>
+                          </button>
+                        ));
+                      })()}
+                    </div>
                   </div>
                 )}
               </div>
