@@ -1483,5 +1483,115 @@
       "branches": "支店",
       "social_channels": "ソーシャルチャンネル"
     }
+  },
+  "telecom": {
+    "hero": {
+      "badge": "GME MOBILE",
+      "title1": "あなたにぴったりの",
+      "title2": "格安モバイル",
+      "description": "LGU+、KTネットワークと同等品質の格安モバイルサービス。月額3,300ウォンからのお手頃プランで通信費を節約。",
+      "cta": "プランを見る"
+    },
+    "features": {
+      "title": "なぜGME Mobile?",
+      "multilang": {
+        "title": "17言語対応",
+        "description": "母国語で便利に利用"
+      },
+      "affordable": {
+        "title": "月額3,300ウォン~",
+        "description": "外国人向け超格安プラン"
+      },
+      "network": {
+        "title": "LGU+、KT同等品質",
+        "description": "全国どこでも安定した通信品質"
+      },
+      "usim": {
+        "title": "USIMセルフ開通",
+        "description": "受け取って5分で開通完了"
+      },
+      "esim": {
+        "title": "eSIM対応",
+        "description": "QRコードをスキャンして即時開通"
+      },
+      "plans": {
+        "title": "豊富なプラン",
+        "description": "月額3,300ウォン~ぴったりのプラン"
+      },
+      "activation": {
+        "title": "5分セルフ開通",
+        "description": "アプリで簡単に自分で開通"
+      },
+      "intl_call": {
+        "title": "国際電話含む",
+        "description": "一部プランで毎日20分の国際電話"
+      }
+    },
+    "plans": {
+      "title": "あなたに合うプラン",
+      "subtitle": "ライフスタイルに合うプランを見つけよう!",
+      "data": "データ",
+      "voice": "通話",
+      "sms": "SMS",
+      "per_month": "月",
+      "currency": "ウォン",
+      "discount": "割引",
+      "unlimited": "無制限",
+      "empty": "表示するプランがありません",
+      "cta": "全プランを見る"
+    },
+    "process": {
+      "title": "複雑な手続きなく",
+      "title2": "簡単にすぐ開通",
+      "subtitle": "USIMもeSIMも簡単にセルフ開通",
+      "steps": {
+        "step1": {
+          "title": "USIM購入",
+          "description": "オンラインでUSIMを注文"
+        },
+        "step2": {
+          "title": "配送確認",
+          "description": "USIM配送状況を確認"
+        },
+        "step3": {
+          "title": "セルフ開通",
+          "description": "アプリで本人認証&開通"
+        },
+        "step4": {
+          "title": "完了!",
+          "description": "5分で開通完了!"
+        }
+      }
+    },
+    "esim_intro": {
+      "badge": "eSIM",
+      "title": "1台で2つの番号",
+      "description": "eSIMで簡単に始めよう! 仕事とプライベートをはっきり分けて、より良いバランスを。",
+      "cta": "eSIM開通",
+      "tag1": "SIM交換不要",
+      "tag2": "配送不要",
+      "tag3": "セルフ即時開通!"
+    },
+    "usim_intro": {
+      "badge": "USIM",
+      "title": "5分で開通完了!",
+      "description": "セルフ開通時間",
+      "time1_label": "番号移動",
+      "time1_value": "午前10:00 ~ 午後8:00",
+      "time1_note": "日曜・元日・旧正月・秋夕を除く",
+      "time2_label": "新規登録",
+      "time2_value": "午前8:00 ~ 午後10:00",
+      "time2_note": "曜日制限なし",
+      "step1": "USIM購入",
+      "step2": "受取",
+      "step3": "開通",
+      "step4": "完了!",
+      "cta": "USIM購入"
+    },
+    "cta": {
+      "title": "GME Mobileを始めよう",
+      "description": "格安プランで通信費を節約、17言語対応。",
+      "button": "GME Mobileへ"
+    }
   }
 }

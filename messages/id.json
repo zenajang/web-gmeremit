@@ -1483,5 +1483,115 @@
       "branches": "Cabang",
       "social_channels": "Saluran Sosial"
     }
+  },
+  "telecom": {
+    "hero": {
+      "badge": "GME MOBILE",
+      "title1": "Paket seluler",
+      "title2": "yang tepat untuk Anda",
+      "description": "Layanan seluler hemat dengan kualitas setara jaringan LGU+ dan KT. Hemat biaya telepon dengan paket mulai dari 3.300 KRW/bulan.",
+      "cta": "Lihat Paket"
+    },
+    "features": {
+      "title": "Mengapa GME Mobile?",
+      "multilang": {
+        "title": "17 Bahasa",
+        "description": "Gunakan dalam bahasa Anda"
+      },
+      "affordable": {
+        "title": "Mulai 3.300 KRW/bln",
+        "description": "Paket super hemat untuk warga asing"
+      },
+      "network": {
+        "title": "Kualitas Setara LGU+, KT",
+        "description": "Jangkauan stabil di seluruh negeri"
+      },
+      "usim": {
+        "title": "Aktivasi Mandiri USIM",
+        "description": "Diantar dan aktifkan dalam 5 menit"
+      },
+      "esim": {
+        "title": "Dukungan eSIM",
+        "description": "Pindai QR code dan aktifkan langsung"
+      },
+      "plans": {
+        "title": "Paket Fleksibel",
+        "description": "Paket cocok mulai 3.300 KRW/bulan"
+      },
+      "activation": {
+        "title": "Aktivasi 5 Menit",
+        "description": "Aktifkan sendiri dengan mudah dari aplikasi"
+      },
+      "intl_call": {
+        "title": "Termasuk Panggilan Internasional",
+        "description": "Beberapa paket termasuk 20 mnt/hari panggilan internasional"
+      }
+    },
+    "plans": {
+      "title": "Paket untuk Anda",
+      "subtitle": "Temukan paket yang sesuai dengan gaya hidup Anda!",
+      "data": "Data",
+      "voice": "Telepon",
+      "sms": "SMS",
+      "per_month": "bulan",
+      "currency": "KRW",
+      "discount": "DISKON",
+      "unlimited": "Tanpa Batas",
+      "empty": "Tidak ada paket untuk ditampilkan",
+      "cta": "Lihat Semua Paket"
+    },
+    "process": {
+      "title": "Tanpa Repot,",
+      "title2": "Aktivasi Langsung",
+      "subtitle": "Aktivasi mandiri sederhana untuk USIM dan eSIM",
+      "steps": {
+        "step1": {
+          "title": "Beli USIM",
+          "description": "Pesan USIM secara online"
+        },
+        "step2": {
+          "title": "Lacak Pengiriman",
+          "description": "Cek status pengiriman USIM"
+        },
+        "step3": {
+          "title": "Aktivasi Mandiri",
+          "description": "Verifikasi identitas dan aktifkan dari aplikasi"
+        },
+        "step4": {
+          "title": "Selesai!",
+          "description": "Aktivasi selesai dalam 5 menit!"
+        }
+      }
+    },
+    "esim_intro": {
+      "badge": "eSIM",
+      "title": "Satu Ponsel, Dua Nomor",
+      "description": "Mulai dengan mudah menggunakan eSIM! Pisahkan pekerjaan dan kehidupan pribadi dengan jelas untuk keseimbangan yang lebih baik.",
+      "cta": "Aktivasi eSIM",
+      "tag1": "Tanpa ganti SIM",
+      "tag2": "Tanpa pengiriman",
+      "tag3": "Aktivasi mandiri langsung!"
+    },
+    "usim_intro": {
+      "badge": "USIM",
+      "title": "Aktivasi dalam 5 Menit!",
+      "description": "Jam aktivasi mandiri",
+      "time1_label": "Port Nomor",
+      "time1_value": "10:00 - 20:00",
+      "time1_note": "Kecuali Minggu, Tahun Baru, Seollal/Chuseok",
+      "time2_label": "Registrasi Baru",
+      "time2_value": "08:00 - 22:00",
+      "time2_note": "Tanpa batasan hari",
+      "step1": "Beli USIM",
+      "step2": "Terima",
+      "step3": "Aktifkan",
+      "step4": "Selesai!",
+      "cta": "Beli USIM"
+    },
+    "cta": {
+      "title": "Mulai dengan GME Mobile",
+      "description": "Hemat biaya telepon dengan paket terjangkau, tersedia dalam 17 bahasa.",
+      "button": "Ke GME Mobile"
+    }
   }
 }

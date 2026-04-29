@@ -1483,5 +1483,115 @@
       "branches": "分行",
       "social_channels": "社交频道"
     }
+  },
+  "telecom": {
+    "hero": {
+      "badge": "GME MOBILE",
+      "title1": "为您量身定制的",
+      "title2": "实惠手机套餐",
+      "description": "与LGU+、KT网络同等品质的实惠手机服务。月费仅需3,300韩元起,节省话费。",
+      "cta": "查看套餐"
+    },
+    "features": {
+      "title": "为什么选择GME Mobile?",
+      "multilang": {
+        "title": "支持17种语言",
+        "description": "用母语轻松使用"
+      },
+      "affordable": {
+        "title": "月费3,300韩元起",
+        "description": "外国人专属超低价套餐"
+      },
+      "network": {
+        "title": "LGU+、KT同等品质",
+        "description": "全国稳定的通话品质"
+      },
+      "usim": {
+        "title": "USIM自助开通",
+        "description": "收到后5分钟内完成开通"
+      },
+      "esim": {
+        "title": "支持eSIM",
+        "description": "扫描二维码即可立即激活"
+      },
+      "plans": {
+        "title": "多样套餐",
+        "description": "月费3,300韩元起的合适套餐"
+      },
+      "activation": {
+        "title": "5分钟自助开通",
+        "description": "在App内轻松自助开通"
+      },
+      "intl_call": {
+        "title": "包含国际电话",
+        "description": "部分套餐每日20分钟国际通话"
+      }
+    },
+    "plans": {
+      "title": "适合您的套餐",
+      "subtitle": "找到适合您生活的套餐!",
+      "data": "数据",
+      "voice": "通话",
+      "sms": "短信",
+      "per_month": "月",
+      "currency": "韩元",
+      "discount": "优惠",
+      "unlimited": "无限",
+      "empty": "暂无可显示的套餐",
+      "cta": "查看全部套餐"
+    },
+    "process": {
+      "title": "无需复杂手续",
+      "title2": "轻松即时开通",
+      "subtitle": "USIM和eSIM都可轻松自助开通",
+      "steps": {
+        "step1": {
+          "title": "购买USIM",
+          "description": "在线订购USIM"
+        },
+        "step2": {
+          "title": "查看配送",
+          "description": "查询USIM配送状态"
+        },
+        "step3": {
+          "title": "自助开通",
+          "description": "在App内身份验证并开通"
+        },
+        "step4": {
+          "title": "完成!",
+          "description": "5分钟开通完成!"
+        }
+      }
+    },
+    "esim_intro": {
+      "badge": "eSIM",
+      "title": "一部手机两个号码",
+      "description": "用eSIM轻松开始! 清晰区分工作与生活,享受更好的生活平衡。",
+      "cta": "开通eSIM",
+      "tag1": "无需换卡",
+      "tag2": "无需配送",
+      "tag3": "自助即时开通!"
+    },
+    "usim_intro": {
+      "badge": "USIM",
+      "title": "5分钟完成开通!",
+      "description": "自助开通时间",
+      "time1_label": "携号转网",
+      "time1_value": "上午10:00 - 下午8:00",
+      "time1_note": "除周日、元旦、春节、中秋节外",
+      "time2_label": "新号注册",
+      "time2_value": "上午8:00 - 下午10:00",
+      "time2_note": "无星期限制",
+      "step1": "购买USIM",
+      "step2": "收货",
+      "step3": "开通",
+      "step4": "完成!",
+      "cta": "购买USIM"
+    },
+    "cta": {
+      "title": "开始使用GME Mobile",
+      "description": "用实惠套餐节省话费,支持17种语言。",
+      "button": "前往GME Mobile"
+    }
   }
 }

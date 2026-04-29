@@ -1457,5 +1457,115 @@
       "branches": "Filiallar",
       "social_channels": "Ijtimoiy kanallar"
     }
+  },
+  "telecom": {
+    "hero": {
+      "badge": "GME MOBILE",
+      "title1": "Siz uchun mukammal",
+      "title2": "Mobil tarif",
+      "description": "LGU+ va KT tarmoqlari bilan bir xil sifatga ega arzon mobil xizmati. Atigi 3 300 KRW/oydan boshlanadigan tariflar bilan telefon hisoblarini tejang.",
+      "cta": "Tariflarni ko'rish"
+    },
+    "features": {
+      "title": "Nima uchun GME Mobile?",
+      "multilang": {
+        "title": "17 ta til",
+        "description": "O'z ona tilingizda foydalaning"
+      },
+      "affordable": {
+        "title": "3 300 KRW/oydan",
+        "description": "Chet elliklar uchun juda arzon tariflar"
+      },
+      "network": {
+        "title": "LGU+, KT bilan bir xil sifat",
+        "description": "Butun mamlakatda ishonchli qoplama"
+      },
+      "usim": {
+        "title": "USIM mustaqil faollashtirish",
+        "description": "Yetkazib berilib, 5 daqiqada faollashtiriladi"
+      },
+      "esim": {
+        "title": "eSIM qo'llab-quvvatlash",
+        "description": "QR kodni skanerlang va darhol faollashtiring"
+      },
+      "plans": {
+        "title": "Moslashuvchan tariflar",
+        "description": "3 300 KRW/oydan boshlanadigan tariflar"
+      },
+      "activation": {
+        "title": "5 daqiqalik faollashtirish",
+        "description": "Ilovadan oson o'zingiz faollashtiring"
+      },
+      "intl_call": {
+        "title": "Xalqaro qo'ng'iroqlar bilan",
+        "description": "Ba'zi tariflarda 20 daq/kun xalqaro qo'ng'iroq"
+      }
+    },
+    "plans": {
+      "title": "Siz uchun tariflar",
+      "subtitle": "Hayot tarzingizga mos tarifni toping!",
+      "data": "Ma'lumot",
+      "voice": "Ovoz",
+      "sms": "SMS",
+      "per_month": "oy",
+      "currency": "KRW",
+      "discount": "CHEGIRMA",
+      "unlimited": "Cheksiz",
+      "empty": "Ko'rsatish uchun tariflar yo'q",
+      "cta": "Barcha tariflarni ko'rish"
+    },
+    "process": {
+      "title": "Hech qanday qiyinchiliksiz,",
+      "title2": "Darhol faollashtirish",
+      "subtitle": "USIM va eSIM uchun oddiy mustaqil faollashtirish",
+      "steps": {
+        "step1": {
+          "title": "USIM sotib olish",
+          "description": "Onlayn USIM buyurtma qiling"
+        },
+        "step2": {
+          "title": "Yetkazishni kuzating",
+          "description": "USIM yetkazib berish holatini tekshiring"
+        },
+        "step3": {
+          "title": "Mustaqil faollashtirish",
+          "description": "Shaxsingizni tasdiqlang va ilovadan faollashtiring"
+        },
+        "step4": {
+          "title": "Tayyor!",
+          "description": "5 daqiqada faollashtirish tugadi!"
+        }
+      }
+    },
+    "esim_intro": {
+      "badge": "eSIM",
+      "title": "Bir telefon, ikkita raqam",
+      "description": "eSIM bilan osongina boshlang! Yaxshiroq muvozanat uchun ish va shaxsiy hayotni aniq ajrating.",
+      "cta": "eSIM-ni faollashtirish",
+      "tag1": "SIM almashtirish shart emas",
+      "tag2": "Yetkazib berish kerak emas",
+      "tag3": "Darhol o'zingiz faollashtiring!"
+    },
+    "usim_intro": {
+      "badge": "USIM",
+      "title": "5 daqiqada faollashtirildi!",
+      "description": "Mustaqil faollashtirish vaqtlari",
+      "time1_label": "Raqam ko'chirish",
+      "time1_value": "10:00 - 20:00",
+      "time1_note": "Yakshanba, Yangi yil, Seollal/Chuseokdan tashqari",
+      "time2_label": "Yangi ro'yxat",
+      "time2_value": "08:00 - 22:00",
+      "time2_note": "Kun chegarasi yo'q",
+      "step1": "USIM sotib olish",
+      "step2": "Qabul qilish",
+      "step3": "Faollashtirish",
+      "step4": "Tayyor!",
+      "cta": "USIM sotib olish"
+    },
+    "cta": {
+      "title": "GME Mobile bilan boshlang",
+      "description": "Arzon tariflar bilan telefon hisoblarini tejang, 17 tilda mavjud.",
+      "button": "GME Mobile ga o'tish"
+    }
   }
 }

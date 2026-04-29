@@ -1483,5 +1483,115 @@
       "branches": "Chi nhánh",
       "social_channels": "Kênh mạng xã hội"
     }
+  },
+  "telecom": {
+    "hero": {
+      "badge": "GME MOBILE",
+      "title1": "Gói cước di động",
+      "title2": "phù hợp với bạn",
+      "description": "Dịch vụ di động giá rẻ với chất lượng tương đương mạng LGU+ và KT. Tiết kiệm cước phí với gói cước chỉ từ 3.300 KRW/tháng.",
+      "cta": "Xem gói cước"
+    },
+    "features": {
+      "title": "Tại sao chọn GME Mobile?",
+      "multilang": {
+        "title": "Hỗ trợ 17 ngôn ngữ",
+        "description": "Sử dụng bằng tiếng mẹ đẻ"
+      },
+      "affordable": {
+        "title": "Từ 3.300 KRW/tháng",
+        "description": "Gói cước siêu rẻ cho người nước ngoài"
+      },
+      "network": {
+        "title": "Chất lượng tương đương LGU+, KT",
+        "description": "Phủ sóng ổn định toàn quốc"
+      },
+      "usim": {
+        "title": "Tự kích hoạt USIM",
+        "description": "Giao hàng và kích hoạt trong 5 phút"
+      },
+      "esim": {
+        "title": "Hỗ trợ eSIM",
+        "description": "Quét mã QR và kích hoạt ngay"
+      },
+      "plans": {
+        "title": "Gói cước đa dạng",
+        "description": "Gói cước phù hợp từ 3.300 KRW/tháng"
+      },
+      "activation": {
+        "title": "Kích hoạt 5 phút",
+        "description": "Tự kích hoạt dễ dàng từ ứng dụng"
+      },
+      "intl_call": {
+        "title": "Bao gồm gọi quốc tế",
+        "description": "Một số gói có 20 phút gọi quốc tế/ngày"
+      }
+    },
+    "plans": {
+      "title": "Gói cước cho bạn",
+      "subtitle": "Tìm gói cước phù hợp với cuộc sống của bạn!",
+      "data": "Dữ liệu",
+      "voice": "Thoại",
+      "sms": "SMS",
+      "per_month": "tháng",
+      "currency": "KRW",
+      "discount": "GIẢM",
+      "unlimited": "Không giới hạn",
+      "empty": "Không có gói cước để hiển thị",
+      "cta": "Xem tất cả gói cước"
+    },
+    "process": {
+      "title": "Không phức tạp,",
+      "title2": "Kích hoạt ngay lập tức",
+      "subtitle": "Tự kích hoạt đơn giản cho cả USIM và eSIM",
+      "steps": {
+        "step1": {
+          "title": "Mua USIM",
+          "description": "Đặt USIM trực tuyến"
+        },
+        "step2": {
+          "title": "Theo dõi giao hàng",
+          "description": "Kiểm tra trạng thái giao USIM"
+        },
+        "step3": {
+          "title": "Tự kích hoạt",
+          "description": "Xác minh danh tính và kích hoạt từ ứng dụng"
+        },
+        "step4": {
+          "title": "Hoàn tất!",
+          "description": "Kích hoạt hoàn tất trong 5 phút!"
+        }
+      }
+    },
+    "esim_intro": {
+      "badge": "eSIM",
+      "title": "Một điện thoại, hai số",
+      "description": "Bắt đầu dễ dàng với eSIM! Tách biệt công việc và cuộc sống cá nhân để có sự cân bằng tốt hơn.",
+      "cta": "Kích hoạt eSIM",
+      "tag1": "Không đổi SIM",
+      "tag2": "Không giao hàng",
+      "tag3": "Tự kích hoạt ngay!"
+    },
+    "usim_intro": {
+      "badge": "USIM",
+      "title": "Kích hoạt trong 5 phút!",
+      "description": "Giờ tự kích hoạt",
+      "time1_label": "Chuyển mạng giữ số",
+      "time1_value": "10:00 - 20:00",
+      "time1_note": "Trừ Chủ nhật, Tết Dương lịch, Tết Âm lịch, Trung thu",
+      "time2_label": "Đăng ký mới",
+      "time2_value": "08:00 - 22:00",
+      "time2_note": "Không giới hạn ngày",
+      "step1": "Mua USIM",
+      "step2": "Nhận hàng",
+      "step3": "Kích hoạt",
+      "step4": "Hoàn tất!",
+      "cta": "Mua USIM"
+    },
+    "cta": {
+      "title": "Bắt đầu với GME Mobile",
+      "description": "Tiết kiệm cước phí với gói cước giá rẻ, hỗ trợ 17 ngôn ngữ.",
+      "button": "Đến GME Mobile"
+    }
   }
 }

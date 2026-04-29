@@ -1483,5 +1483,115 @@
       "branches": "Mga Branch",
       "social_channels": "Social Channels"
     }
+  },
+  "telecom": {
+    "hero": {
+      "badge": "GME MOBILE",
+      "title1": "Ang Perpektong",
+      "title2": "Mobile Plan para sa Iyo",
+      "description": "Murang mobile service na may kalidad na katumbas ng LGU+ at KT networks. Tipid sa phone bills na nagsisimula sa ₩3,300/buwan.",
+      "cta": "Tingnan ang Plans"
+    },
+    "features": {
+      "title": "Bakit GME Mobile?",
+      "multilang": {
+        "title": "17 Wika",
+        "description": "Gamitin sa inyong wikang katutubo"
+      },
+      "affordable": {
+        "title": "Mula ₩3,300/buwan",
+        "description": "Sobrang murang plans para sa dayuhan"
+      },
+      "network": {
+        "title": "Kapareho ng LGU+, KT",
+        "description": "Maaasahang coverage sa buong bansa"
+      },
+      "usim": {
+        "title": "USIM Self-Activation",
+        "description": "Ipinadadala at i-activate sa 5 minuto"
+      },
+      "esim": {
+        "title": "May Suportang eSIM",
+        "description": "I-scan ang QR code at i-activate agad"
+      },
+      "plans": {
+        "title": "Maraming Plans",
+        "description": "Plans na mula ₩3,300/buwan"
+      },
+      "activation": {
+        "title": "5-Min Activation",
+        "description": "Madaling i-activate mula sa app"
+      },
+      "intl_call": {
+        "title": "Kasama ang Intl. Calls",
+        "description": "Ilang plans may 20 min/araw intl. calls"
+      }
+    },
+    "plans": {
+      "title": "Plans para sa Iyo",
+      "subtitle": "Maghanap ng plan na bagay sa inyong lifestyle!",
+      "data": "Data",
+      "voice": "Voice",
+      "sms": "SMS",
+      "per_month": "buwan",
+      "currency": "KRW",
+      "discount": "OFF",
+      "unlimited": "Walang Limit",
+      "empty": "Walang plans na maipakita",
+      "cta": "Tingnan Lahat ng Plans"
+    },
+    "process": {
+      "title": "Walang Hassle,",
+      "title2": "I-activate Agad",
+      "subtitle": "Simpleng self-activation para sa USIM at eSIM",
+      "steps": {
+        "step1": {
+          "title": "Bumili ng USIM",
+          "description": "Mag-order ng USIM online"
+        },
+        "step2": {
+          "title": "I-track ang Delivery",
+          "description": "Tingnan ang status ng delivery"
+        },
+        "step3": {
+          "title": "Self-Activate",
+          "description": "I-verify ang identity at i-activate"
+        },
+        "step4": {
+          "title": "Tapos Na!",
+          "description": "Activation tapos sa 5 minuto!"
+        }
+      }
+    },
+    "esim_intro": {
+      "badge": "eSIM",
+      "title": "Isang Phone, Dalawang Number",
+      "description": "Madaling magsimula sa eSIM! Hatiin nang malinaw ang trabaho at personal na buhay para sa mas magandang balanse.",
+      "cta": "I-activate ang eSIM",
+      "tag1": "Walang SIM swap",
+      "tag2": "Walang delivery",
+      "tag3": "Self-activate agad!"
+    },
+    "usim_intro": {
+      "badge": "USIM",
+      "title": "Activated sa 5 Minuto!",
+      "description": "Self-activation hours",
+      "time1_label": "Number Porting",
+      "time1_value": "10:00 AM - 8:00 PM",
+      "time1_note": "Maliban sa Linggo, Bagong Taon, Seollal/Chuseok",
+      "time2_label": "Bagong Registration",
+      "time2_value": "8:00 AM - 10:00 PM",
+      "time2_note": "Walang day restrictions",
+      "step1": "Bumili ng USIM",
+      "step2": "Tanggapin",
+      "step3": "I-activate",
+      "step4": "Tapos!",
+      "cta": "Bumili ng USIM"
+    },
+    "cta": {
+      "title": "Simulan sa GME Mobile",
+      "description": "Tipid sa phone bills sa mga affordable plans, available sa 17 wika.",
+      "button": "Punta sa GME Mobile"
+    }
   }
 }
