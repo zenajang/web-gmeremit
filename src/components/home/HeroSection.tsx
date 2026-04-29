@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { useTranslation } from "@/hooks/useTranslation";
 import { useClickOutside } from "@/hooks/useClickOutside";
-import { countryConfigs, CountryConfig } from "@/data/countries";
+import { countryConfigs, defaultCountry, CountryConfig } from "@/data/countries";
 
 interface ExRateResponse {
   errorCode: string;
@@ -27,14 +27,18 @@ const DELIVERY_METHODS = [
 export default function HeroSection() {
   const { t } = useTranslation("home.exchange");
   const [sendAmount, setSendAmount] = useState("1000000");
-  const [selectedCountry, setSelectedCountry] = useState(countryConfigs[0]);
+  const [selectedCountry, setSelectedCountry] = useState<CountryConfig>(defaultCountry);
   const [isOpen, setIsOpen] = useState(false);
   const [receiveAmount, setReceiveAmount] = useState("");
   const [exchangeRate, setExchangeRate] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
   const [hasError, setHasError] = useState(false);
   const [errorMsg, setErrorMsg] = useState("");
-  const [deliveryMethod, setDeliveryMethod] = useState("1");
+  const [deliveryMethod, setDeliveryMethod] = useState<string>(defaultCountry.availableDeliveryMethods[0]);
+
+  const availableDeliveryMethods = DELIVERY_METHODS.filter((m) =>
+    selectedCountry.availableDeliveryMethods.includes(m.value)
+  );
   const debounceRef = useRef<ReturnType<typeof setTimeout>>(undefined);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
@@ -153,6 +157,9 @@ export default function HeroSection() {
 
   const handleCountrySelect = (country: CountryConfig) => {
     setSelectedCountry(country);
+    if (!country.availableDeliveryMethods.includes(deliveryMethod as "1" | "2")) {
+      setDeliveryMethod(country.availableDeliveryMethods[0]);
+    }
     setIsOpen(false);
   };
 
@@ -246,7 +253,7 @@ export default function HeroSection() {
               <div className="space-y-2 mb-5">
                 <label className="text-[13px] font-medium text-neutral-500">{t("calculator.delivery_method")}</label>
                 <div className="flex bg-gray-100 rounded-xl p-1">
-                  {DELIVERY_METHODS.map((method) => (
+                  {availableDeliveryMethods.map((method) => (
                     <button
                       key={method.value}
                       type="button"
