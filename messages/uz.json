@@ -839,7 +839,9 @@
         "error_unavailable_method": "Tanlangan toʻlov usuli hozircha mavjud emas. Iltimos, boshqa variantni tanlang.",
         "fee": "Oʻtkazma toʻlovi",
         "rate": "Real vaqt kursi",
-        "error_max_amount": "Yuborish mumkin boʻlgan eng katta miqdor: {{amount}} KRW"
+        "error_max_amount": "Yuborish mumkin boʻlgan eng katta miqdor: {{amount}} KRW",
+        "search_placeholder": "Mamlakat yoki valyuta boʻyicha qidirish",
+        "no_results": "Natija topilmadi"
       },
       "description1": "200+ mamlakat uchun real vaqt kurslari.",
       "description2": "Komissiyalarni ochiq ko'rsatish.",

@@ -874,7 +874,9 @@
         "error_unavailable_method": "This payment method is currently unavailable. Please choose another option.",
         "fee": "Transfer fee",
         "rate": "Real-time rate",
-        "error_max_amount": "Maximum sending amount: {{amount}} KRW"
+        "error_max_amount": "Maximum sending amount: {{amount}} KRW",
+        "search_placeholder": "Search by country or currency",
+        "no_results": "No results found"
       },
       "description1": "Real-time exchange rates for 200+ countries.",
       "description2": "Transparent fee disclosure.",

@@ -865,7 +865,9 @@
         "error_unavailable_method": "Hindi available ang napiling paraan ng pagbabayad. Pumili ng ibang opsyon.",
         "fee": "Bayad sa paglilipat",
         "rate": "Real-time na palitan",
-        "error_max_amount": "Pinakamataas na halaga: {{amount}} KRW"
+        "error_max_amount": "Pinakamataas na halaga: {{amount}} KRW",
+        "search_placeholder": "Maghanap ayon sa bansa o pera",
+        "no_results": "Walang resulta"
       },
       "description1": "Real-time exchange rate para sa 200+ na bansa.",
       "description2": "Transparent na pagsisiwalat ng bayarin.",

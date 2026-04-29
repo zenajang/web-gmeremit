@@ -865,7 +865,9 @@
         "error_unavailable_method": "現在選択された支払方法はご利用いただけません。他の方法をお選びください。",
         "fee": "送金手数料",
         "rate": "リアルタイム為替レート",
-        "error_max_amount": "最大送金可能額：{{amount}} KRW"
+        "error_max_amount": "最大送金可能額：{{amount}} KRW",
+        "search_placeholder": "国名または通貨で検索",
+        "no_results": "該当する結果がありません"
       },
       "description1": "200以上の国のリアルタイム為替レート。",
       "description2": "透明な手数料開示。",

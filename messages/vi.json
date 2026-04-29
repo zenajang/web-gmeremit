@@ -865,7 +865,9 @@
         "error_unavailable_method": "Phương thức thanh toán này hiện không khả dụng. Vui lòng chọn phương thức khác.",
         "fee": "Phí chuyển tiền",
         "rate": "Tỷ giá thời gian thực",
-        "error_max_amount": "Số tiền tối đa có thể gửi: {{amount}} KRW"
+        "error_max_amount": "Số tiền tối đa có thể gửi: {{amount}} KRW",
+        "search_placeholder": "Tìm theo quốc gia hoặc tiền tệ",
+        "no_results": "Không có kết quả"
       },
       "description1": "Tỷ giá thời gian thực cho hơn 200 quốc gia.",
       "description2": "Công khai phí minh bạch.",

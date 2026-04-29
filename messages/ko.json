@@ -872,7 +872,9 @@
         "error_unavailable_method": "현재 선택하신 결제수단을 이용할 수 없습니다. 다른 수단을 선택해주세요.",
         "fee": "송금 수수료",
         "rate": "실시간 환율",
-        "error_max_amount": "송금 가능 최대 금액: {{amount}} KRW"
+        "error_max_amount": "송금 가능 최대 금액: {{amount}} KRW",
+        "search_placeholder": "국가명 또는 통화 검색",
+        "no_results": "검색 결과가 없습니다"
       },
       "description1": "200개국 이상 실시간 환율 조회.",
       "description2": "수수료 확인을 투명하게.",

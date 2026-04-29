@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import { useTranslation } from "@/hooks/useTranslation";
 import { useClickOutside } from "@/hooks/useClickOutside";
 import { countryConfigs, defaultCountry, CountryConfig } from "@/data/countries";
@@ -33,10 +33,34 @@ export default function HeroSection() {
   const [errorMsg, setErrorMsg] = useState("");
   const [errorParams, setErrorParams] = useState<Record<string, string>>({});
   const [deliveryMethod, setDeliveryMethod] = useState<string>(defaultCountry.payoutMethods[0].key);
+  const [searchQuery, setSearchQuery] = useState("");
 
   const payoutMethods = selectedCountry.payoutMethods;
   const debounceRef = useRef<ReturnType<typeof setTimeout>>(undefined);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const searchInputRef = useRef<HTMLInputElement>(null);
+
+  const filteredCountries = useMemo(() => {
+    const q = searchQuery.trim().toLowerCase();
+    if (!q) return countryConfigs;
+    return countryConfigs.filter((c) => {
+      const localized = t(`countries.names.${c.countryCode}`, { ns: "home.hero" });
+      return (
+        c.countryCode.toLowerCase().includes(q) ||
+        c.code.toLowerCase().includes(q) ||
+        c.countryName.toLowerCase().includes(q) ||
+        localized.toLowerCase().includes(q)
+      );
+    });
+  }, [searchQuery, t]);
+
+  useEffect(() => {
+    if (isOpen) {
+      const id = requestAnimationFrame(() => searchInputRef.current?.focus());
+      return () => cancelAnimationFrame(id);
+    }
+    setSearchQuery("");
+  }, [isOpen]);
 
   // 포맷 변경 후 커서 위치 보정
   const restoreCursor = (input: HTMLInputElement, rawValue: string, prevFormatted: string, cursorPos: number) => {
@@ -297,25 +321,61 @@ export default function HeroSection() {
 
                 {isOpen && (
                   <div
-                    className="absolute z-50 mt-2 w-full bg-white rounded-2xl shadow-xl border border-gray-200/70 py-2 max-h-40 overflow-auto"
+                    className="absolute z-50 mt-2 w-full bg-white rounded-2xl shadow-xl border border-gray-200/70 overflow-hidden"
                     onWheel={(e) => e.stopPropagation()}
                   >
-                    {countryConfigs.map((country) => (
-                      <button
-                        key={country.code}
-                        type="button"
-                        onClick={() => handleCountrySelect(country)}
-                        className={`w-full flex items-center gap-3 px-5 py-3 transition-colors cursor-pointer ${
-                          selectedCountry.code === country.code
-                            ? "bg-red-50 text-primary"
-                            : "hover:bg-slate-50"
-                        }`}
-                      >
-                        <span className="text-xl">{country.flag}</span>
-                        <span className="font-medium flex-1 text-left">{t(`countries.names.${country.countryCode}`, { ns: "home.hero" })}</span>
-                        <span className="text-sm text-neutral-400">{country.code}</span>
-                      </button>
-                    ))}
+                    <div className="px-3 py-2 border-b border-gray-100">
+                      <div className="flex items-center gap-2 bg-gray-50 rounded-xl px-3 py-2">
+                        <svg className="w-4 h-4 text-neutral-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z" />
+                        </svg>
+                        <input
+                          ref={searchInputRef}
+                          type="text"
+                          value={searchQuery}
+                          onChange={(e) => setSearchQuery(e.target.value)}
+                          placeholder={t("calculator.search_placeholder")}
+                          className="flex-1 min-w-0 bg-transparent text-sm text-dark outline-none placeholder-neutral-400"
+                        />
+                        {searchQuery && (
+                          <button
+                            type="button"
+                            onClick={() => {
+                              setSearchQuery("");
+                              searchInputRef.current?.focus();
+                            }}
+                            className="text-neutral-400 hover:text-neutral-600 cursor-pointer"
+                            aria-label="clear"
+                          >
+                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                          </button>
+                        )}
+                      </div>
+                    </div>
+                    <div className="py-2 max-h-56 overflow-auto">
+                      {filteredCountries.length === 0 ? (
+                        <p className="px-5 py-4 text-sm text-neutral-400 text-center">{t("calculator.no_results")}</p>
+                      ) : (
+                        filteredCountries.map((country) => (
+                          <button
+                            key={country.code + country.countryCode}
+                            type="button"
+                            onClick={() => handleCountrySelect(country)}
+                            className={`w-full flex items-center gap-3 px-5 py-3 transition-colors cursor-pointer ${
+                              selectedCountry.code === country.code
+                                ? "bg-red-50 text-primary"
+                                : "hover:bg-slate-50"
+                            }`}
+                          >
+                            <span className="text-xl">{country.flag}</span>
+                            <span className="font-medium flex-1 text-left">{t(`countries.names.${country.countryCode}`, { ns: "home.hero" })}</span>
+                            <span className="text-sm text-neutral-400">{country.code}</span>
+                          </button>
+                        ))
+                      )}
+                    </div>
                   </div>
                 )}
               </div>

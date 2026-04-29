@@ -865,7 +865,9 @@
         "error_unavailable_method": "当前所选支付方式暂不可用，请选择其他方式。",
         "fee": "转账手续费",
         "rate": "实时汇率",
-        "error_max_amount": "最大可发送金额：{{amount}} KRW"
+        "error_max_amount": "最大可发送金额：{{amount}} KRW",
+        "search_placeholder": "搜索国家或货币",
+        "no_results": "未找到结果"
       },
       "description1": "200多个国家的实时汇率。",
       "description2": "费用透明公开。",

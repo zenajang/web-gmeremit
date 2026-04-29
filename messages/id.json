@@ -865,7 +865,9 @@
         "error_unavailable_method": "Metode pembayaran ini sedang tidak tersedia. Silakan pilih opsi lain.",
         "fee": "Biaya transfer",
         "rate": "Kurs real-time",
-        "error_max_amount": "Jumlah maksimum yang dapat dikirim: {{amount}} KRW"
+        "error_max_amount": "Jumlah maksimum yang dapat dikirim: {{amount}} KRW",
+        "search_placeholder": "Cari berdasarkan negara atau mata uang",
+        "no_results": "Tidak ada hasil"
       },
       "description1": "Kurs real-time untuk 200+ negara.",
       "description2": "Biaya transparan.",
