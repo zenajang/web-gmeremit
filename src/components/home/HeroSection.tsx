@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import { useTranslation } from "@/hooks/useTranslation";
 import { useClickOutside } from "@/hooks/useClickOutside";
-import { countryConfigs, defaultCountry, CountryConfig } from "@/data/countries";
+import { countryConfigs, defaultCountry, CountryConfig, CurrencyConfig } from "@/data/countries";
 
 interface ExRateResponse {
   errorCode: string;
@@ -23,6 +23,7 @@ export default function HeroSection() {
   const { t } = useTranslation("home.exchange");
   const [sendAmount, setSendAmount] = useState("1000000");
   const [selectedCountry, setSelectedCountry] = useState<CountryConfig>(defaultCountry);
+  const [selectedCurrency, setSelectedCurrency] = useState<CurrencyConfig>(defaultCountry.currencies[0]);
   const [isOpen, setIsOpen] = useState(false);
   const [receiveAmount, setReceiveAmount] = useState("");
   const [exchangeRate, setExchangeRate] = useState(0);
@@ -32,10 +33,11 @@ export default function HeroSection() {
   const [hasError, setHasError] = useState(false);
   const [errorMsg, setErrorMsg] = useState("");
   const [errorParams, setErrorParams] = useState<Record<string, string>>({});
-  const [deliveryMethod, setDeliveryMethod] = useState<string>(defaultCountry.payoutMethods[0].key);
+  const [deliveryMethod, setDeliveryMethod] = useState<string>(defaultCountry.currencies[0].payoutMethods[0].key);
   const [searchQuery, setSearchQuery] = useState("");
 
-  const payoutMethods = selectedCountry.payoutMethods;
+  const payoutMethods = selectedCurrency.payoutMethods;
+  const hasMultipleCurrencies = selectedCountry.currencies.length > 1;
   const debounceRef = useRef<ReturnType<typeof setTimeout>>(undefined);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const searchInputRef = useRef<HTMLInputElement>(null);
@@ -47,7 +49,7 @@ export default function HeroSection() {
       const localized = t(`countries.names.${c.countryCode}`, { ns: "home.hero" });
       return (
         c.countryCode.toLowerCase().includes(q) ||
-        c.code.toLowerCase().includes(q) ||
+        c.currencies.some((cur) => cur.code.toLowerCase().includes(q)) ||
         c.countryName.toLowerCase().includes(q) ||
         localized.toLowerCase().includes(q)
       );
@@ -79,7 +81,7 @@ export default function HeroSection() {
     });
   };
 
-  const fetchExRate = useCallback(async (country: CountryConfig, amount: string, direction: "C" | "P") => {
+  const fetchExRate = useCallback(async (country: CountryConfig, currency: CurrencyConfig, amount: string, direction: "C" | "P") => {
     if (!amount || amount === "0") {
       if (direction === "C") setReceiveAmount("");
       else setSendAmount("");
@@ -95,7 +97,7 @@ export default function HeroSection() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          pCurr: country.code,
+          pCurr: currency.code,
           pCountryName: country.countryName,
           cAmt: direction === "C" ? amount : "",
           pAmt: direction === "P" ? amount : "",
@@ -149,11 +151,11 @@ export default function HeroSection() {
     }
   }, [deliveryMethod]);
 
-  // 초기 로드 + 국가/송금방식 변경 시 호출
+  // 초기 로드 + 국가/통화/송금방식 변경 시 호출
   useEffect(() => {
-    fetchExRate(selectedCountry, sendAmount, "C");
+    fetchExRate(selectedCountry, selectedCurrency, sendAmount, "C");
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedCountry, deliveryMethod]);
+  }, [selectedCountry, selectedCurrency, deliveryMethod]);
 
   // 송금액 변경 시 디바운스 호출
   const handleSendAmountChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -166,7 +168,7 @@ export default function HeroSection() {
       setSendAmount(value);
       if (debounceRef.current) clearTimeout(debounceRef.current);
       debounceRef.current = setTimeout(() => {
-        fetchExRate(selectedCountry, value, "C");
+        fetchExRate(selectedCountry, selectedCurrency, value, "C");
       }, 500);
     }
   };
@@ -182,17 +184,26 @@ export default function HeroSection() {
       setReceiveAmount(value);
       if (debounceRef.current) clearTimeout(debounceRef.current);
       debounceRef.current = setTimeout(() => {
-        fetchExRate(selectedCountry, value, "P");
+        fetchExRate(selectedCountry, selectedCurrency, value, "P");
       }, 500);
     }
   };
 
   const handleCountrySelect = (country: CountryConfig) => {
     setSelectedCountry(country);
-    if (!country.payoutMethods.some((m) => m.key === deliveryMethod)) {
-      setDeliveryMethod(country.payoutMethods[0].key);
+    const nextCurrency = country.currencies[0];
+    setSelectedCurrency(nextCurrency);
+    if (!nextCurrency.payoutMethods.some((m) => m.key === deliveryMethod)) {
+      setDeliveryMethod(nextCurrency.payoutMethods[0].key);
     }
     setIsOpen(false);
+  };
+
+  const handleCurrencySelect = (currency: CurrencyConfig) => {
+    setSelectedCurrency(currency);
+    if (!currency.payoutMethods.some((m) => m.key === deliveryMethod)) {
+      setDeliveryMethod(currency.payoutMethods[0].key);
+    }
   };
 
   useClickOutside(dropdownRef, () => setIsOpen(false), isOpen);
@@ -312,12 +323,34 @@ export default function HeroSection() {
                   <span className="text-lg lg:text-2xl">{selectedCountry.flag}</span>
                   <div className="flex-1 text-left min-w-0 truncate">
                     <span className="text-sm lg:text-base font-semibold text-dark">{t(`countries.names.${selectedCountry.countryCode}`, { ns: "home.hero" })}</span>
-                    <span className="text-xs lg:text-base text-neutral-500 ml-1.5 lg:ml-2">{selectedCountry.code}</span>
+                    <span className="text-xs lg:text-base text-neutral-500 ml-1.5 lg:ml-2">{selectedCurrency.code}</span>
                   </div>
                   <svg className={`w-5 h-5 text-neutral-400 transition-transform ${isOpen ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </button>
+
+                {hasMultipleCurrencies && (
+                  <div className="mt-2 flex items-center gap-1.5 flex-wrap">
+                    {selectedCountry.currencies.map((currency) => {
+                      const active = selectedCurrency.code === currency.code;
+                      return (
+                        <button
+                          key={currency.code}
+                          type="button"
+                          onClick={() => handleCurrencySelect(currency)}
+                          className={`text-xs font-semibold px-3 py-1.5 rounded-full border transition-colors cursor-pointer ${
+                            active
+                              ? "bg-primary text-white border-primary"
+                              : "bg-white text-neutral-600 border-gray-200 hover:bg-slate-50"
+                          }`}
+                        >
+                          {currency.code}
+                        </button>
+                      );
+                    })}
+                  </div>
+                )}
 
                 {isOpen && (
                   <div
@@ -360,18 +393,18 @@ export default function HeroSection() {
                       ) : (
                         filteredCountries.map((country) => (
                           <button
-                            key={country.code + country.countryCode}
+                            key={country.countryCode}
                             type="button"
                             onClick={() => handleCountrySelect(country)}
                             className={`w-full flex items-center gap-3 px-5 py-3 transition-colors cursor-pointer ${
-                              selectedCountry.code === country.code
+                              selectedCountry.countryCode === country.countryCode
                                 ? "bg-red-50 text-primary"
                                 : "hover:bg-slate-50"
                             }`}
                           >
                             <span className="text-xl">{country.flag}</span>
                             <span className="font-medium flex-1 text-left">{t(`countries.names.${country.countryCode}`, { ns: "home.hero" })}</span>
-                            <span className="text-sm text-neutral-400">{country.code}</span>
+                            <span className="text-sm text-neutral-400">{country.currencies.map((c) => c.code).join(" / ")}</span>
                           </button>
                         ))
                       )}
@@ -385,7 +418,7 @@ export default function HeroSection() {
                 <div className="flex-1 h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent" />
                 <span className="text-xs font-semibold text-gray bg-gray-100 px-3 py-1 rounded-full tabular-nums whitespace-nowrap">
                   {exchangeRate > 0
-                    ? `1 ${selectedCountry.code} = ₩${(1 / exchangeRate).toLocaleString(undefined, { maximumFractionDigits: 2 })}`
+                    ? `1 ${selectedCurrency.code} = ₩${(1 / exchangeRate).toLocaleString(undefined, { maximumFractionDigits: 2 })}`
                     : "---"
                   }
                 </span>
@@ -409,7 +442,7 @@ export default function HeroSection() {
                   />
                   <div className="relative flex items-center gap-2 pl-4 border-l border-white/20 shrink-0">
                     <span className="text-lg">{selectedCountry.flag}</span>
-                    <span className="text-sm font-semibold text-white">{selectedCountry.code}</span>
+                    <span className="text-sm font-semibold text-white">{selectedCurrency.code}</span>
                   </div>
                 </div>
                 {!hasError && exchangeRate > 0 && (
