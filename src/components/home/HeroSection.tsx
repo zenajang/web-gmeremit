@@ -35,11 +35,13 @@ export default function HeroSection() {
   const [errorParams, setErrorParams] = useState<Record<string, string>>({});
   const [deliveryMethod, setDeliveryMethod] = useState<string>(defaultCountry.currencies[0].payoutMethods[0].key);
   const [searchQuery, setSearchQuery] = useState("");
+  const [isPayoutOpen, setIsPayoutOpen] = useState(false);
 
   const payoutMethods = selectedCurrency.payoutMethods;
   const hasMultipleCurrencies = selectedCountry.currencies.length > 1;
   const debounceRef = useRef<ReturnType<typeof setTimeout>>(undefined);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const payoutDropdownRef = useRef<HTMLDivElement>(null);
   const searchInputRef = useRef<HTMLInputElement>(null);
 
   const filteredCountries = useMemo(() => {
@@ -207,6 +209,7 @@ export default function HeroSection() {
   };
 
   useClickOutside(dropdownRef, () => setIsOpen(false), isOpen);
+  useClickOutside(payoutDropdownRef, () => setIsPayoutOpen(false), isPayoutOpen);
 
   return (
     <section id="app" className="relative lg:min-h-[calc(100svh-var(--header-height))] bg-gradient-to-b from-gray-100 to-white py-12 lg:py-24 overflow-hidden snap-section flex items-center">
@@ -293,24 +296,48 @@ export default function HeroSection() {
                 )}
               </div>
               {/* Delivery Method */}
-              <div className="space-y-2 mb-5">
+              <div ref={payoutDropdownRef} className="space-y-2 mb-5 relative">
                 <label className="text-[13px] font-medium text-neutral-500">{t("calculator.delivery_method")}</label>
-                <div className="relative">
-                  <select
-                    value={deliveryMethod}
-                    onChange={(e) => setDeliveryMethod(e.target.value)}
-                    className="w-full appearance-none bg-white rounded-2xl px-4 py-3 lg:px-5 lg:py-4 pr-10 border border-gray-200/80 text-sm lg:text-base font-semibold text-dark cursor-pointer hover:bg-slate-50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary/15"
-                  >
-                    {payoutMethods.map((method) => (
-                      <option key={method.key} value={method.key}>
-                        {t(`calculator.payout_methods.${method.key}`)}
-                      </option>
-                    ))}
-                  </select>
-                  <svg className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <button
+                  type="button"
+                  onClick={() => setIsPayoutOpen(!isPayoutOpen)}
+                  className="w-full flex items-center gap-2 lg:gap-3 bg-white rounded-2xl px-3 py-2.5 lg:px-5 lg:py-4 border border-gray-200/80 hover:bg-slate-50 transition-colors cursor-pointer"
+                >
+                  <span className="flex-1 text-left text-sm lg:text-base font-semibold text-dark truncate">
+                    {t(`calculator.payout_methods.${deliveryMethod}`)}
+                  </span>
+                  <svg className={`w-5 h-5 text-neutral-400 transition-transform ${isPayoutOpen ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
-                </div>
+                </button>
+
+                {isPayoutOpen && (
+                  <div
+                    className="absolute z-50 top-full left-0 right-0 w-full bg-white rounded-2xl shadow-xl border border-gray-200/70 overflow-hidden"
+                    style={{ marginTop: 0 }}
+                    onWheel={(e) => e.stopPropagation()}
+                  >
+                    <div className="py-2 max-h-56 overflow-auto">
+                      {payoutMethods.map((method) => (
+                        <button
+                          key={method.key}
+                          type="button"
+                          onClick={() => {
+                            setDeliveryMethod(method.key);
+                            setIsPayoutOpen(false);
+                          }}
+                          className={`w-full flex items-center gap-3 px-5 py-3 transition-colors cursor-pointer ${
+                            deliveryMethod === method.key
+                              ? "bg-red-50 text-primary"
+                              : "hover:bg-slate-50"
+                          }`}
+                        >
+                          <span className="font-medium flex-1 text-left">{t(`calculator.payout_methods.${method.key}`)}</span>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
               {/* Country Select */}
               <div ref={dropdownRef} className="space-y-2 mb-5 relative">
@@ -354,7 +381,8 @@ export default function HeroSection() {
 
                 {isOpen && (
                   <div
-                    className="absolute z-50 mt-2 w-full bg-white rounded-2xl shadow-xl border border-gray-200/70 overflow-hidden"
+                    className="absolute z-50 top-full left-0 right-0 w-full bg-white rounded-2xl shadow-xl border border-gray-200/70 overflow-hidden"
+                    style={{ marginTop: 0 }}
                     onWheel={(e) => e.stopPropagation()}
                   >
                     <div className="px-3 py-2 border-b border-gray-100">
