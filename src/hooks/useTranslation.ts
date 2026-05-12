@@ -21,6 +21,9 @@ import my from "@messages/my.json";
 import mn from "@messages/mn.json";
 import uz from "@messages/uz.json";
 import si from "@messages/si.json";
+import fr from "@messages/fr.json";
+import ar from "@messages/ar.json";
+import es from "@messages/es.json";
 
 type TranslationValue = string | string[] | Record<string, unknown>;
 type Translations = Record<string, unknown>;
@@ -43,6 +46,9 @@ const translations: Record<string, Translations> = {
   mn,
   uz,
   si,
+  fr,
+  ar,
+  es,
 };
 
 /**

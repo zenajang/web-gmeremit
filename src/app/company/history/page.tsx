@@ -27,7 +27,11 @@ export default function HistoryPage() {
     document.body.scrollTop = 0;
   }, [pathname]);
 
-  useLenis([pathname]);
+  useLenis([pathname], {
+    wheelMultiplier: 0.28,
+    lerp: 0.06,
+    duration: 1.4,
+  });
 
   // history-snap 클래스 관리
   useEffect(() => {
@@ -274,7 +278,7 @@ export default function HistoryPage() {
                             <div
                               key={eventIndex}
                               ref={(el) => { eventRefs.current[eventKey] = el; }}
-                              className={`flex items-start gap-3 sm:gap-5 py-3 sm:py-4 transition-all duration-300 origin-left snap-center ${
+                              className={`flex items-start gap-3 sm:gap-5 py-4 sm:py-5 transition-all duration-300 origin-left snap-center ${
                                 isActive ? 'scale-[1.02]' : ''
                               }`}
                             >

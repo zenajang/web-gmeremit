@@ -1,0 +1,1787 @@
+{
+  "board": {
+    "badge": {
+      "blog": "Blog",
+      "notice": "Avis",
+      "press": "Presse"
+    },
+    "count_suffix": " articles",
+    "detail": {
+      "attachment": "Pièce jointe",
+      "attachment_file": "Pièce jointe",
+      "back": "Retour",
+      "back_to_list": "Retour à la liste",
+      "not_found": "Article introuvable"
+    },
+    "load_more": "Charger plus",
+    "no_image": "Aucune image",
+    "no_results": "Aucun résultat trouvé.",
+    "redirect": {
+      "notice": "Redirection vers la page Avis...",
+      "press": "Redirection vers la page Presse..."
+    },
+    "search": {
+      "all": "Tous",
+      "button": "Rechercher",
+      "content": "Contenu",
+      "placeholder": "Entrez un mot-clé",
+      "title": "Titre"
+    },
+    "subtitle": "Découvrez les dernières actualités de GME Remit",
+    "table": {
+      "attachment": "Fichier",
+      "attachment_file": "Pièce jointe",
+      "date": "Date",
+      "title": "Titre",
+      "type": "Type"
+    },
+    "tabs": {
+      "blog": "Blog",
+      "notice": "Avis",
+      "press": "Presse"
+    },
+    "total": "Total",
+    "error_title": "Échec du chargement des articles",
+    "error_description": "Veuillez réessayer plus tard."
+  },
+  "business": {
+    "cta": {
+      "description": "Développez votre entreprise avec des solutions de paiement mondiales. Nos gestionnaires dédiés vous proposeront la solution optimale.",
+      "email": "corporate@gmeremit.com",
+      "title": "Commencez avec GME Payments"
+    },
+    "features": {
+      "accounting": {
+        "description": "Rapprochement facile pour simplifier votre comptabilité. Même les règlements complexes sont gérés proprement.",
+        "title": "Comptabilité"
+      },
+      "dynamic": {
+        "description": "Choisissez votre mode de paiement, suivez les transactions en temps réel et obtenez des reçus instantanés.",
+        "title": "Dynamique"
+      },
+      "flexibility": {
+        "description": "Échangez et payez simultanément, ou gérez votre propre FX. Opérez à votre manière.",
+        "title": "Flexibilité"
+      },
+      "label": "Caractéristiques du service",
+      "netout": {
+        "description": "Réduisez vos coûts avec l'effet de levier de financement. Pas de commissions cachées.",
+        "title": "Netout"
+      },
+      "pob": {
+        "description": "Haut niveau de transparence et efficacité maximale pour les paiements par procuration.",
+        "title": "Paiement pour le compte de"
+      },
+      "technology": {
+        "description": "Architecture microservices avec AML et vérification intégrés pour un système robuste et fiable.",
+        "title": "Technologie"
+      },
+      "title": "Caractéristiques du service GME Payment"
+    },
+    "hero": {
+      "badge": "RÉDUISEZ LES COÛTS DES TRANSFERTS COMMERCIAUX",
+      "cta_contact": "Contacter les ventes",
+      "cta_docs": "Voir la documentation API",
+      "description": "Créer de la valeur ensemble en transformant les paiements grâce à la collaboration. Réduisez les coûts des transferts commerciaux et développez votre activité mondiale.",
+      "title1": "GME pour PME &",
+      "title2": "Marchands E-Commerce"
+    },
+    "partners": {
+      "label": "Partenaires",
+      "list": [
+        "Hana Bank",
+        "Alipay",
+        "Skyee",
+        "PayerMax",
+        "Xe",
+        "Veem",
+        "Sandman",
+        "colognes",
+        "BaoFuGlobal",
+        "Ripple",
+        "PingPong",
+        "Tazapay",
+        "LianLian Pay",
+        "Terrapin",
+        "Ria",
+        "Thunes"
+      ],
+      "title": "Approuvé et partenaire de"
+    },
+    "process": {
+      "label": "Comment ça marche",
+      "step1": {
+        "description": "SPS pour les versements transfrontaliers, VAS pour les encaissements et comptes virtuels. Les deux fournis dans le cadre du service.",
+        "title": "SPS + VAS"
+      },
+      "step2": {
+        "description": "Connectez votre système avec notre documentation API sur developers.gmeremit.com.",
+        "title": "Intégration API"
+      },
+      "step3": {
+        "description": "Gérez votre propre FX ou échangez et payez simultanément. Suivez chaque transaction en temps réel.",
+        "title": "Contrôle FX & Paiement"
+      },
+      "step4": {
+        "description": "Rapprochement facile pour les règlements, reçus instantanés et historique complet des transactions.",
+        "title": "Rapprochement & Rapports"
+      },
+      "title": "Comment fonctionne GME Payments"
+    },
+    "solutions": {
+      "description": "Deux solutions puissantes — SPS et VAS — pour gérer tous les aspects des paiements transfrontaliers.",
+      "label": "Solutions principales",
+      "sps": {
+        "description": "Solution de paiement transfrontalier en masse 24/7. Gérez le FX, vérifiez les destinataires et traitez les paiements en masse en un seul endroit.",
+        "features": [
+          "Paiement 24/7",
+          "Contrôle FX",
+          "Paiements en masse",
+          "Statut en temps réel",
+          "Paiements instantanés",
+          "Vérification en temps réel"
+        ],
+        "subtitle": "Solution de paiement fluide",
+        "title": "SPS"
+      },
+      "title": "Solutions de paiement conçues pour votre entreprise",
+      "vas": {
+        "description": "De l'émission de comptes virtuels aux encaissements pour le compte de tiers. Toutes les fonctionnalités supplémentaires dont vous avez besoin pour vos opérations de paiement.",
+        "features": [
+          "Notifications en temps réel",
+          "Encaissement local à faible coût",
+          "Attribuer des V/A",
+          "Comptes virtuels en plusieurs formats",
+          "Encaissements pour compte de tiers (COBO)",
+          "Aucune restriction sur les bénéficiaires & déposants",
+          "Émission V/A instantanée via API ou portail"
+        ],
+        "subtitle": "Service de compte virtuel",
+        "title": "VAS"
+      }
+    }
+  },
+  "button": {
+    "app_download": "Télécharger l'application"
+  },
+  "card": {
+    "cards": {
+      "black": {
+        "cta": "En savoir plus",
+        "description": "Le choix premium. Un design noir élégant avec des avantages améliorés pour ceux qui veulent plus.",
+        "details": {
+          "autoPayment": {
+            "desc": "Lorsque votre solde GME Pay est insuffisant pour un paiement par carte, le déficit sera automatiquement débité de votre compte de prélèvement automatique lié.",
+            "title": "Paiement automatique"
+          },
+          "cautions": {
+            "items": [
+              "Si un paiement par carte GME est annulé, le remboursement sera retourné dans votre GME Wallet. Les remboursements vers d'autres comptes ne sont pas disponibles.",
+              "La carte GME est une carte de débit prépayée. Les paiements échelonnés ne sont pas disponibles.",
+              "Vous pouvez toujours utiliser l'application GME même si votre carte est annulée. Cependant, si vous annulez votre abonnement dans l'application GME, votre carte sera automatiquement annulée.",
+              "Vous êtes entièrement responsable de la perte de votre téléphone ou de votre carte. GME ne saurait être tenu responsable dans de tels cas.",
+              "Les affiliés internationaux suivent les politiques et normes de MasterCard."
+            ],
+            "title": "Précautions"
+          },
+          "delivery": {
+            "methods": [
+              "Livraison à domicile",
+              "Retrait en agence GME"
+            ],
+            "title": "Modes de livraison de la carte"
+          },
+          "foreignPayment": {
+            "items": [
+              "Pour les paiements chez les marchands à l'étranger, les devises autres que l'USD sont converties en USD selon les taux de change Mastercard, traitées à la date d'approbation du paiement (transactions approuvées) ou à la date à laquelle GME reçoit les informations de facturation (transactions non approuvées). Le montant facturé en KRW, incluant des frais à l'étranger de 1,25 %, est ajouté au montant en KRW basé sur le taux USD de GME et déduit de GME Pay.",
+              "Montant facturé = (Montant du paiement × Taux de change) + Frais à l'étranger (Frais de marque internationale² + Frais de paiement à l'étranger³)",
+              "Le taux de change est le taux USD de paiement par carte GME, mis à jour toutes les 15 minutes, appliqué au moment de l'approbation du paiement (ou lorsque GME reçoit les informations de facturation).",
+              "Frais de marque internationale² = (Montant du paiement × Taux de change) × Taux de frais Mastercard (1,0 %)",
+              "Frais de paiement à l'étranger³ = (Montant du paiement × Taux de change) × Taux de frais de carte GME (0,25 %)",
+              "Lors du paiement en KRW chez les marchands à l'étranger, des frais DCC supplémentaires (environ 3-15 %) peuvent s'appliquer. Bloquer les paiements en KRW à l'étranger et payer en monnaie locale est plus économique.",
+              "Vous pouvez définir les restrictions de paiement KRW à l'étranger (DCC) dans l'application GME. Allez à : Carte > Gestion de la carte > Paramètre « Restriction de paiement KRW à l'étranger » (Par défaut : « Restreint »)",
+              "Pour plus de détails, veuillez contacter le centre client (1588-6864) ou visitez www.gmeremit.com."
+            ],
+            "title": "Paiements internationaux & Autres informations"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "3 % de remise sur les achats à l'étranger",
+                "title": "3 % de remise à l'étranger"
+              },
+              {
+                "desc": "Remise dans les magasins partenaires sélectionnés",
+                "title": "Remise saisonnière"
+              },
+              {
+                "desc": "Payez librement au pays comme à l'étranger",
+                "title": "Payez partout dans le monde"
+              },
+              {
+                "desc": "Payez librement pour shopping et divertissement, en ligne et hors ligne",
+                "title": "Shopping en ligne & hors ligne"
+              },
+              {
+                "desc": "Payez bus, métro, train et tous transports publics.",
+                "title": "Transports publics"
+              }
+            ],
+            "title": "Avantages clés"
+          },
+          "userGuide": {
+            "annualFee": "Frais annuels 15 000 ₩ (par an)",
+            "chargeMethod": "Vous pouvez recharger GME Pay via GME Wallet ou un compte bancaire.",
+            "contact": {
+              "center": "Centre client GME : 1811-2961",
+              "website": "Site web : gmeremit.com"
+            },
+            "limit": "Jusqu'à 2 000 000 ₩ par transaction",
+            "qualification": "Membres GME Pay (17 ans et plus)",
+            "title": "Guide utilisateur"
+          }
+        },
+        "features": [
+          "Récompenses cashback premium",
+          "Frais de transaction étrangère réduits",
+          "Centre client dédié",
+          "Paiements en ligne et hors ligne"
+        ],
+        "name": "Black Card",
+        "subtitle": "GME Black Mastercard"
+      },
+      "easyG0": {
+        "cta": "Demander maintenant",
+        "description": "Rendez chaque moment plus pratique. Profitez d'avantages saisonniers, du transport au shopping.",
+        "details": {
+          "autoPayment": {
+            "desc": "Lorsque votre solde GME Pay est insuffisant pour un paiement par carte, le déficit sera automatiquement débité de votre compte de prélèvement automatique lié.",
+            "title": "Paiement automatique"
+          },
+          "cardStatus": {
+            "items": [
+              {
+                "desc": "La fonction carte de transport reste disponible.",
+                "status": "Suspendue temporairement"
+              },
+              {
+                "desc": "La carte sera suspendue dans les 2 jours. La fonction carte de transport sera suspendue 2 jours après le signalement.",
+                "status": "Déclaration de perte"
+              },
+              {
+                "desc": "La carte peut être réutilisée après 2 à 3 jours.",
+                "status": "Annulation de perte"
+              },
+              {
+                "desc": "La fonction carte de transport sera annulée 10 jours après la réémission.",
+                "status": "Réémission"
+              }
+            ],
+            "title": "Utilisation transport selon le statut de la carte"
+          },
+          "cautions": {
+            "items": [
+              "Si un paiement par carte GME est annulé, le remboursement sera retourné dans votre GME Wallet. Les remboursements vers d'autres comptes ne sont pas disponibles.",
+              "La carte GME est une carte de débit prépayée. Les paiements échelonnés ne sont pas disponibles.",
+              "Vous pouvez toujours utiliser l'application GME même si votre carte est annulée. Cependant, si vous annulez votre abonnement dans l'application GME, votre carte sera automatiquement annulée.",
+              "Vous êtes entièrement responsable de la perte de votre téléphone ou de votre carte. GME ne saurait être tenu responsable dans de tels cas.",
+              "Les affiliés internationaux suivent les politiques et normes de MasterCard.",
+              "Si la carte est annulée dans les 3 mois suivant l'émission, des frais d'annulation de 10 000 ₩ seront facturés pour couvrir les coûts de traitement."
+            ],
+            "title": "Précautions"
+          },
+          "delivery": {
+            "methods": [
+              "Livraison à domicile",
+              "Retrait en agence GME"
+            ],
+            "title": "Modes de livraison de la carte"
+          },
+          "foreignPayment": {
+            "items": [
+              "Pour les paiements chez les marchands à l'étranger, les devises autres que l'USD sont converties en USD selon les taux de change Mastercard, traitées à la date d'approbation du paiement (transactions approuvées) ou à la date à laquelle GME reçoit les informations de facturation (transactions non approuvées). Le montant facturé en KRW, incluant des frais à l'étranger de 1,25 %, est ajouté au montant en KRW basé sur le taux USD de GME et déduit de GME Pay.",
+              "Montant facturé = (Montant du paiement × Taux de change) + Frais à l'étranger (Frais de marque internationale² + Frais de paiement à l'étranger²)",
+              "Le taux de change est le taux USD de paiement par carte GME, mis à jour toutes les 15 minutes, appliqué au moment de l'approbation du paiement (ou lorsque GME reçoit les informations de facturation).",
+              "Frais de marque internationale² = (Montant du paiement × Taux de change) × Taux de frais Mastercard (1,0 %)",
+              "Frais de paiement à l'étranger² = (Montant du paiement × Taux de change) × Taux de frais de carte GME (0,25 %)",
+              "Lors du paiement en KRW chez les marchands à l'étranger, des frais DCC supplémentaires (environ 3-15 %) peuvent s'appliquer. Bloquer les paiements en KRW à l'étranger et payer en monnaie locale est plus économique.",
+              "Vous pouvez définir les restrictions de paiement KRW à l'étranger (DCC) dans l'application GME. Allez à : Carte > Gestion de la carte > Paramètre « Restriction de paiement KRW à l'étranger » (Par défaut : « Restreint »)",
+              "Pour plus de détails, veuillez contacter le centre client (1588-6864) ou visitez www.gmeremit.com."
+            ],
+            "title": "Paiements internationaux & Autres informations"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "Pas besoin de recharger pour bus et métro",
+                "title": "Carte transport post-payée"
+              },
+              {
+                "desc": "Remise dans les magasins partenaires sélectionnés",
+                "title": "Remise saisonnière"
+              },
+              {
+                "desc": "Payez librement au pays comme à l'étranger",
+                "title": "Payez partout dans le monde"
+              },
+              {
+                "desc": "Payez librement pour shopping et divertissement, en ligne et hors ligne",
+                "title": "Shopping en ligne & hors ligne"
+              },
+              {
+                "desc": "Utilisez le transport post-payé pour un trajet plus pratique. Touchez et roulez sans vérifier votre solde, puis payez tout en une fois plus tard.",
+                "title": "Carte transport post-payée"
+              }
+            ],
+            "title": "Avantages clés"
+          },
+          "transitCard": {
+            "availability": "Disponible dans les métros et bus urbains. Pour taxis, bus express/aéroport et trains, utilisez la carte (puce IC et lecteur MS) pour payer.",
+            "limit": "Limite de 10 000 ₩ par trajet",
+            "paymentTime": "Les frais d'utilisation doivent être payés sous 1-2 jours.",
+            "title": "Carte transport post-payée"
+          },
+          "userGuide": {
+            "contact": {
+              "center": "Centre client GME : 1811-2961",
+              "website": "Site web : gmeremit.com"
+            },
+            "limit": "Jusqu'à 2 000 000 ₩ par transaction",
+            "monthlyFee": "Frais mensuels 1 000 ₩ (facturés le 1er de chaque mois)",
+            "qualification": "Membres GME Pay (17 ans et plus)",
+            "title": "Guide utilisateur"
+          }
+        },
+        "features": [
+          "Carte transport post-payée",
+          "Remise saisonnière",
+          "Shopping en ligne & hors ligne",
+          "Payez partout dans le monde"
+        ],
+        "name": "EasyGo Card",
+        "subtitle": "GME EasyGo Mastercard"
+      },
+      "red": {
+        "cta": "Demander maintenant",
+        "description": "La carte signature de GME. Payez chez tout marchand Mastercard dans le monde et profitez de remises exclusives et de récompenses cashback.",
+        "details": {
+          "autoPayment": {
+            "desc": "Lorsque votre solde GME Pay est insuffisant pour un paiement par carte, le déficit sera automatiquement débité de votre compte de prélèvement automatique lié.",
+            "title": "Paiement automatique"
+          },
+          "cautions": {
+            "items": [
+              "Si un paiement par carte GME est annulé, le remboursement sera retourné dans votre GME Wallet. Les remboursements vers d'autres comptes ne sont pas disponibles.",
+              "La carte GME est une carte de débit prépayée. Les paiements échelonnés ne sont pas disponibles.",
+              "Vous pouvez toujours utiliser l'application GME même si votre carte est annulée. Cependant, si vous annulez votre abonnement dans l'application GME, votre carte sera automatiquement annulée.",
+              "Vous êtes entièrement responsable de la perte de votre téléphone ou de votre carte. GME ne saurait être tenu responsable dans de tels cas.",
+              "Les affiliés internationaux suivent les politiques et normes de MasterCard."
+            ],
+            "title": "Précautions"
+          },
+          "delivery": {
+            "methods": [
+              "Livraison à domicile",
+              "Retrait en agence GME"
+            ],
+            "title": "Modes de livraison de la carte"
+          },
+          "foreignPayment": {
+            "items": [
+              "Pour les paiements chez les marchands à l'étranger, les devises autres que l'USD sont converties en USD selon les taux de change Mastercard, traitées à la date d'approbation du paiement (transactions approuvées) ou à la date à laquelle GME reçoit les informations de facturation (transactions non approuvées). Le montant facturé en KRW, incluant des frais à l'étranger de 1,25 %, est ajouté au montant en KRW basé sur le taux USD de GME et déduit de GME Pay.",
+              "Montant facturé = (Montant du paiement × Taux de change) + Frais à l'étranger (Frais de marque internationale² + Frais de paiement à l'étranger²)",
+              "Le taux de change est le taux USD de paiement par carte GME, mis à jour toutes les 15 minutes, appliqué au moment de l'approbation du paiement (ou lorsque GME reçoit les informations de facturation).",
+              "Frais de marque internationale² = (Montant du paiement × Taux de change) × Taux de frais Mastercard (1,0 %)",
+              "Frais de paiement à l'étranger² = (Montant du paiement × Taux de change) × Taux de frais de carte GME (0,25 %)",
+              "Lors du paiement en KRW chez les marchands à l'étranger, des frais DCC supplémentaires (environ 3-15 %) peuvent s'appliquer. Bloquer les paiements en KRW à l'étranger et payer en monnaie locale est plus économique.",
+              "Vous pouvez définir les restrictions de paiement KRW à l'étranger (DCC) dans l'application GME. Allez à : Carte > Gestion de la carte > Paramètre « Restriction de paiement KRW à l'étranger » (Par défaut : « Restreint »)",
+              "Pour plus de détails, veuillez contacter le centre client (1588-6864) ou visitez www.gmeremit.com."
+            ],
+            "title": "Paiements internationaux & Autres informations"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "Remise dans les magasins partenaires sélectionnés",
+                "title": "Remise saisonnière"
+              },
+              {
+                "desc": "Payez librement au pays comme à l'étranger",
+                "title": "Payez partout dans le monde"
+              },
+              {
+                "desc": "Payez librement pour shopping et divertissement, en ligne et hors ligne",
+                "title": "Shopping en ligne & hors ligne"
+              },
+              {
+                "desc": "Payez bus, métro, train et tous transports publics.",
+                "title": "Transports publics"
+              }
+            ],
+            "title": "Avantages clés"
+          },
+          "userGuide": {
+            "annualFee": "Frais annuels 10 000 ₩ (par an)",
+            "chargeMethod": "Vous pouvez recharger GME Pay via GME Wallet ou un compte bancaire.",
+            "contact": {
+              "center": "Centre client GME : 1811-2961",
+              "website": "Site web : gmeremit.com"
+            },
+            "limit": "Jusqu'à 2 000 000 ₩ par transaction",
+            "qualification": "Membres GME Pay (17 ans et plus)",
+            "title": "Guide utilisateur"
+          }
+        },
+        "features": [
+          "Paiements mondiaux Mastercard",
+          "Jusqu'à 30 % de cashback lors d'événements",
+          "Retrait & dépôt ATM",
+          "Fonction carte transport public"
+        ],
+        "name": "Red Card",
+        "subtitle": "GME Red Mastercard"
+      },
+      "uniq": {
+        "cta": "Demander maintenant",
+        "description": "Une carte au design unique de GME. Exprimez votre personnalité avec cette carte colorée en édition limitée.",
+        "features": [
+          "Design en édition limitée",
+          "Support de paiement mondial",
+          "Avantages événements spéciaux",
+          "Carte transport intégrée"
+        ],
+        "name": "Uniq Card",
+        "subtitle": "GME Uniq Mastercard"
+      },
+      "white": {
+        "cta": "Voir les avantages",
+        "description": "Propre et simple. La White Card offre toutes les fonctionnalités essentielles dont vous avez besoin à un excellent prix.",
+        "details": {
+          "autoPayment": {
+            "desc": "Lorsque votre solde GME Pay est insuffisant pour un paiement par carte, le déficit sera automatiquement débité de votre compte de prélèvement automatique lié.",
+            "title": "Paiement automatique"
+          },
+          "cautions": {
+            "items": [
+              "Si un paiement par carte GME est annulé, le remboursement sera retourné dans votre GME Wallet. Les remboursements vers d'autres comptes ne sont pas disponibles.",
+              "La carte GME est une carte de débit prépayée. Les paiements échelonnés ne sont pas disponibles.",
+              "Vous pouvez toujours utiliser l'application GME même si votre carte est annulée. Cependant, si vous annulez votre abonnement dans l'application GME, votre carte sera automatiquement annulée.",
+              "Vous êtes entièrement responsable de la perte de votre téléphone ou de votre carte. GME ne saurait être tenu responsable dans de tels cas.",
+              "Les affiliés internationaux suivent les politiques et normes de MasterCard."
+            ],
+            "title": "Précautions"
+          },
+          "delivery": {
+            "methods": [
+              "Livraison à domicile",
+              "Retrait en agence GME"
+            ],
+            "title": "Modes de livraison de la carte"
+          },
+          "foreignPayment": {
+            "items": [
+              "Pour les paiements chez les marchands à l'étranger, les devises autres que l'USD sont converties en USD selon les taux de change Mastercard, traitées à la date d'approbation du paiement (transactions approuvées) ou à la date à laquelle GME reçoit les informations de facturation (transactions non approuvées). Le montant facturé en KRW, incluant des frais à l'étranger de 1,25 %, est ajouté au montant en KRW basé sur le taux USD de GME et déduit de GME Pay.",
+              "Montant facturé = (Montant du paiement × Taux de change) + Frais à l'étranger (Frais de marque internationale² + Frais de paiement à l'étranger²)",
+              "Le taux de change est le taux USD de paiement par carte GME, mis à jour toutes les 15 minutes, appliqué au moment de l'approbation du paiement (ou lorsque GME reçoit les informations de facturation).",
+              "Frais de marque internationale² = (Montant du paiement × Taux de change) × Taux de frais Mastercard (1,0 %)",
+              "Frais de paiement à l'étranger² = (Montant du paiement × Taux de change) × Taux de frais de carte GME (0,25 %)",
+              "Lors du paiement en KRW chez les marchands à l'étranger, des frais DCC supplémentaires (environ 3-15 %) peuvent s'appliquer. Bloquer les paiements en KRW à l'étranger et payer en monnaie locale est plus économique.",
+              "Vous pouvez définir les restrictions de paiement KRW à l'étranger (DCC) dans l'application GME. Allez à : Carte > Gestion de la carte > Paramètre « Restriction de paiement KRW à l'étranger » (Par défaut : « Restreint »)",
+              "Pour plus de détails, veuillez contacter le centre client (1588-6864) ou visitez www.gmeremit.com."
+            ],
+            "title": "Paiements internationaux & Autres informations"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "Remise dans les magasins partenaires sélectionnés",
+                "title": "Remise saisonnière"
+              },
+              {
+                "desc": "Payez librement au pays comme à l'étranger",
+                "title": "Payez partout dans le monde"
+              },
+              {
+                "desc": "Payez librement pour shopping et divertissement, en ligne et hors ligne",
+                "title": "Shopping en ligne & hors ligne"
+              },
+              {
+                "desc": "Payez bus, métro, train et tous transports publics.",
+                "title": "Transports publics"
+              }
+            ],
+            "title": "Avantages clés"
+          },
+          "userGuide": {
+            "annualFee": "Frais annuels 10 000 ₩ (par an)",
+            "chargeMethod": "Vous pouvez recharger GME Pay via GME Wallet ou un compte bancaire.",
+            "contact": {
+              "center": "Centre client GME : 1811-2961",
+              "website": "Site web : gmeremit.com"
+            },
+            "limit": "Jusqu'à 2 000 000 ₩ par transaction",
+            "qualification": "Membres GME Pay (17 ans et plus)",
+            "title": "Guide utilisateur"
+          }
+        },
+        "features": [
+          "Remises en supérette & café",
+          "Pass transport public gratuit",
+          "Gestion facile via app mobile",
+          "Accès ATM national"
+        ],
+        "name": "White Card",
+        "subtitle": "GME White Mastercard"
+      }
+    },
+    "cta": {
+      "button": "Demander une carte",
+      "description": "Trouvez la carte qui vous convient et profitez d'avantages exclusifs.",
+      "title": "Commencez avec GME Card aujourd'hui"
+    },
+    "discover": {
+      "description": "Découvrez un monde de possibilités avec la carte GME, propulsée par Mastercard. Profitez de remises exclusives lors d'événements spéciaux dans des lieux sélectionnés, utilisables dans le monde entier et dans les principaux services de transport. Élevez votre expérience d'achat et maximisez vos économies à chaque transaction. Obtenez votre carte GME aujourd'hui !",
+      "title": "Découvrez la carte GME"
+    },
+    "grid": {
+      "detail": "Voir les détails",
+      "subtitle": "Trouvez les avantages qui vous conviennent parmi les différentes cartes GME",
+      "title": "Choisissez vos avantages"
+    },
+    "hero": {
+      "badge": "GME CARD",
+      "cta": "Découvrir les cartes",
+      "description": "Des paiements internationaux aux dépenses quotidiennes, découvrez les cartes GME pleines d'avantages.",
+      "title1": "Trouvez votre",
+      "title2": "Carte GME parfaite"
+    },
+    "labels": {
+      "annual_fee": "Frais annuels",
+      "availability": "Disponibilité",
+      "charge_method": "Méthode de recharge",
+      "limit": "Limite",
+      "monthly_fee": "Frais mensuels",
+      "payment_time": "Délai de paiement",
+      "qualification": "Qualification",
+      "usage_limit": "Limite d'utilisation"
+    },
+    "modal": {
+      "app_guide": "La demande de carte est disponible dans l'application GME",
+      "sold_out_desc": "Merci de votre intérêt. Veuillez consulter nos autres cartes.",
+      "sold_out_title": "Épuisé"
+    },
+    "why": {
+      "atm": {
+        "description": "Accès facile à l'argent liquide aux ATM dans tout le pays",
+        "title": "Retrait & dépôt ATM"
+      },
+      "cashback": {
+        "description": "Gagnez jusqu'à 30 % de cashback dans les magasins partenaires",
+        "title": "Cashback jusqu'à 30 %"
+      },
+      "description": "Découvrez un monde de possibilités avec la carte GME, propulsée par Mastercard. Profitez de remises exclusives lors d'événements spéciaux dans des lieux sélectionnés, utilisables dans le monde entier et dans les principaux services de transport.",
+      "everywhere": {
+        "description": "Achetez en ligne et payez en magasin sans transition",
+        "title": "En ligne & hors ligne"
+      },
+      "global": {
+        "description": "Acceptée partout, au pays comme à l'étranger",
+        "title": "National & international"
+      },
+      "title": "Pourquoi choisir GME Card ?",
+      "transit": {
+        "description": "Utilisez comme carte transport pour tous les transports publics",
+        "title": "Métro, bus, taxi"
+      }
+    }
+  },
+  "careers": {
+    "benefits": {
+      "education": {
+        "description": "Soutien complet pour le développement personnel incluant cours en ligne, certifications, cours de langue et frais de conférence.",
+        "title": "Soutien éducation & croissance"
+      },
+      "health": {
+        "description": "Allocation annuelle de bilan de santé de 300 000 ₩ pour les employés à temps plein.",
+        "title": "Soutien bilan de santé"
+      },
+      "incentive": {
+        "description": "Diverses primes basées sur les performances et récompenses pour l'atteinte des objectifs, nouvelles idées et performances exceptionnelles.",
+        "title": "Primes de performance"
+      },
+      "subtitle": "Soutenir la croissance et le bonheur des membres GME",
+      "team_building": {
+        "description": "Réunions mensuelles, événements d'équipe trimestriels, clubs sportifs et concerts pour grandir ensemble.",
+        "title": "Team building & culture"
+      },
+      "title": "Avantages & privilèges",
+      "vacation": {
+        "description": "Divers programmes de congés spéciaux incluant congé d'anniversaire, congé anniversaire de mariage, événements familiaux et congé parental.",
+        "title": "Congés annuels & spéciaux"
+      }
+    },
+    "cta": {
+      "about": "À propos de l'entreprise",
+      "openings": "Voir les offres",
+      "subtitle": "Consultez nos offres actuelles et postulez aujourd'hui.",
+      "title": "Prêt à rejoindre GME ?"
+    },
+    "header": {
+      "button": "Voir les offres",
+      "description": "Rejoignez notre entreprise fintech mondiale fournissant des services financiers à des clients dans plus de 200 pays.",
+      "title": "Grandissez avec GME"
+    },
+    "why_gme": {
+      "agile": {
+        "description": "Exécutez rapidement dans une organisation plate, apprenez des échecs et grandissez ensemble.",
+        "title": "Prise de décision rapide"
+      },
+      "diversity": {
+        "description": "Travaillez aux côtés de collègues de plus de 14 nationalités et apprenez de perspectives diverses.",
+        "title": "Embrasser la diversité"
+      },
+      "fairness": {
+        "description": "Évalué équitablement sur la base des capacités et performances, indépendamment du genre ou de la nationalité.",
+        "title": "Opportunités équitables"
+      },
+      "title": "Pourquoi GME est spécial"
+    },
+    "staff_stories": {
+      "subtitle": "Histoires réelles de nos collègues",
+      "title": "Histoires d'équipe"
+    }
+  },
+  "company": {
+    "ceo_message": {
+      "paragraph1": "En tant qu'entreprise fintech de premier plan en Corée du Sud, nous investissons dans une technologie de pointe et dans nos collaborateurs, en visant la croissance mutuelle et le succès client.",
+      "paragraph2": "Rejoignez GME alors que nous façonnons l'avenir des services financiers mondiaux, et découvrez des services plus pratiques et innovants."
+    },
+    "history": {
+      "events": {
+        "2016_08": "Création de Global Money Express Co., Ltd.",
+        "2017_12": "Volume annuel de transferts internationaux dépassant 10 milliards KRW",
+        "2017_06": "Lancement du premier service de transfert international en Corée",
+        "2017_08": "Premier enregistrement officiel de petite société de transfert international en Corée",
+        "2018_12": "Volume annuel de transferts internationaux dépassant 460 milliards KRW",
+        "2018_09": "Sélectionné comme prestataire de transfert recommandé par la ville de Séoul",
+        "2018_loan": "Lancement du service de prêt à la consommation pour les étrangers",
+        "2019_03": "Lancement du service de transfert domestique",
+        "2019_06": "Ouverture de 12 agences à travers le pays",
+        "2019_09": "Ouverture de 3 centres à travers le pays",
+        "2020_12": "Volume annuel de transferts internationaux dépassant 1 000 milliards KRW",
+        "2020_05": "Lancement du service de recharge mobile",
+        "2020_08": "Obtention de la licence d'émission et gestion d'instruments de paiement électronique prépayés",
+        "2020_09": "Lancement du service GME Pay",
+        "2021_04": "Volume annuel de transferts internationaux dépassant 1 500 milliards KRW",
+        "2021_07": "Lancement du service de coupons mobiles",
+        "2021_10": "Grand prix aux Hankyung Fintech Awards (catégorie Tech)",
+        "2021_12": "Obtention de la licence de passerelle de paiement (PG)",
+        "2022_03": "Obtention de la licence spécialisée en change",
+        "2022_06": "Lancement du service GME B2B Payments",
+        "2022_12": "Volume annuel de transferts internationaux dépassant 1 700 milliards KRW",
+        "2023_02": "Volume annuel de transferts internationaux dépassant 2 800 milliards KRW",
+        "2023_05": "Lancement du service GME Card en partenariat avec BC Card et Mastercard",
+        "2023_09": "Obtention de la licence de service GME Mobile (MVNO)",
+        "2023_10": "Classé Top 10 Korea Fintech par Forbes 2023",
+        "2023_kibo": "Sélectionné comme société KIBO-Star Valley par KOTEC",
+        "2023_nice": "Certifié comme entreprise de technologie d'excellence par NICE",
+        "2024_03": "Lancement du service GME Mobile (MVNO) en partenariat avec LG U+",
+        "2024_06": "Lancement du service de paiement d'entreprise « GMEBiz »",
+        "2024_12": "Volume annuel de transferts internationaux dépassant 2 800 milliards KRW",
+        "2025_03": "Lancement d'un produit d'assurance pour les résidents étrangers",
+        "2025_04": "Certifié comme PME innovante (Inno-Biz)",
+        "2025_06": "Lancement d'une carte de débit avec fonction transport",
+        "2025_12": "Volume annuel de transferts internationaux dépassant 4 000 milliards KRW"
+      },
+      "title_line1": "Défis sans fin,",
+      "title_line2": "Nouveaux départs"
+    },
+    "services": {
+      "b2b_payments": {
+        "desc": "Versements et encaissements transfrontaliers rapides et à faible coût",
+        "title": "Paiements B2B"
+      },
+      "core_services": "Services principaux",
+      "digital_wallet": {
+        "desc": "Déposez, envoyez et payez en un seul endroit",
+        "title": "Portefeuille numérique"
+      },
+      "easy_loan": {
+        "desc": "Prêt 100 % sans papier avec approbation le jour même",
+        "title": "Prêt facile"
+      },
+      "gift_coupons": {
+        "desc": "Envoyez des coupons cadeaux numériques avec vos points de récompense",
+        "title": "Coupons cadeaux"
+      },
+      "gme_card": {
+        "desc": "Payez, retirez et gérez votre argent dans le monde entier",
+        "title": "GME Card"
+      },
+      "learn_more": "En savoir plus",
+      "mobile_topup": {
+        "desc": "Recharge mobile instantanée dans plus de 150 pays",
+        "title": "Recharge mobile"
+      },
+      "money_exchange": {
+        "desc": "Meilleurs taux de change que les banques traditionnelles",
+        "title": "Change de devises"
+      },
+      "personal_remittance": {
+        "desc": "Envoyez de l'argent localement ou internationalement avec support multilingue",
+        "title": "Transfert"
+      },
+      "telecom": {
+        "desc": "Forfaits mobiles économiques à partir de 3 300 ₩/mois",
+        "title": "Télécom"
+      },
+      "related_services": "Services associés",
+      "subtitle": "Tous vos besoins financiers mondiaux en un seul endroit",
+      "title": "Services GME"
+    },
+    "tabs": {
+      "ceo_message": "Message du PDG",
+      "history": "Histoire",
+      "services": "Services",
+      "title": "À propos"
+    }
+  },
+  "footer": {
+    "company_name": "Global Money Express",
+    "copyright": "© Global Money Express, Tous droits réservés.",
+    "info": {
+      "address": "Adresse : 901~911Ho, B-dong, Saenggak Gongjang Bldg., 150, Yeongdeungpo-ro, Yeongdeungpo-gu, Séoul, Corée 07292",
+      "email_corporate": "Entreprise : corporate@gmeremit.com",
+      "email_support": "Demandes : support@gmeremit.com",
+      "fax": "Fax : (+82) 2 3674 5559",
+      "phone_foreigner": "(+82) 02-1588-6864 (Étrangers)",
+      "phone_general": "02-3673-5559 (Demandes générales)",
+      "phone_korean": "02-1811-2961 (Coréen, demandes de transfert)"
+    },
+    "link": {
+      "company_intro": "Entreprise",
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation"
+    }
+  },
+  "header": {
+    "link": {
+      "careers": "Carrières",
+      "gme_biz": "GME Biz"
+    },
+    "nav": {
+      "blog": "Blog",
+      "branches": "Agences",
+      "card": "Carte",
+      "ceo_message": "Message du PDG",
+      "company": "Entreprise",
+      "history": "Histoire",
+      "loan": "Prêt",
+      "news": "Actualités",
+      "notice": "Avis",
+      "payments": "Paiements (B2B)",
+      "press": "Actualités / Presse",
+      "remittance": "Transfert",
+      "telecom": "Mobile",
+      "services": "Services",
+      "services_menu": "Services",
+      "social_channels": "Réseaux sociaux",
+      "support": "Support"
+    }
+  },
+  "home": {
+    "app_download": {
+      "chips": [
+        "Taux en temps réel",
+        "Montants optimisés",
+        "Authentification sécurisée"
+      ],
+      "description": "L'application GME Remit réunit tous vos services essentiels sur une seule plateforme. Envoyez facilement de l'argent à l'étranger, gérez vos finances, accédez à votre carte GME, restez connecté avec nos services SIM et explorez les solutions B2B pour votre entreprise, le tout dans une application sécurisée et pratique.",
+      "qr_scan": "Scannez le QR code",
+      "subtitle": "APPLICATION GME REMIT",
+      "title1": "Votre solution financière",
+      "title2": "et de connectivité complète"
+    },
+    "cards": {
+      "black": {
+        "cta": "Voir la Black Card",
+        "desc": "Carte premium spécialisée pour les paiements à l'étranger. Profitez des meilleurs avantages cashback où que vous soyez.",
+        "highlights": [
+          "3 % cashback à l'étranger",
+          "Remise saisonnière",
+          "Remises événements spéciaux",
+          "Paiement facile métro · bus · taxi"
+        ]
+      },
+      "easyG0": {
+        "cta": "Voir la EasyGo Card",
+        "desc": "Rendez chaque moment plus pratique. Profitez d'avantages saisonniers, du transport au shopping.",
+        "highlights": [
+          "Carte transport post-payée",
+          "Remise saisonnière",
+          "Payez partout dans le monde",
+          "Shopping en ligne & hors ligne"
+        ]
+      },
+      "image_alt": "Image de carte",
+      "red": {
+        "cta": "Voir la Red Card",
+        "desc": "Carte aux couleurs signature de GME. Rendez chaque paiement élégant.",
+        "highlights": [
+          "Remise saisonnière",
+          "Remises événements spéciaux",
+          "Paiement facile métro · bus · taxi",
+          "Transports publics"
+        ]
+      },
+      "uniq": {
+        "cta": "Voir la Uniq Card",
+        "desc": "Choisissez votre carte parmi plus de 30 designs de 18 pays.",
+        "highlights": [
+          "Remise saisonnière",
+          "Remises événements spéciaux",
+          "18 pays, plus de 30 designs",
+          "Paiement facile métro · bus · taxi"
+        ]
+      },
+      "white": {
+        "cta": "Voir la White Card",
+        "desc": "Carte quotidienne simple et nette. Pratique pour les paiements domestiques et les transports publics.",
+        "highlights": [
+          "Remise saisonnière",
+          "Remises événements spéciaux",
+          "Paiement facile métro · bus · taxi",
+          "Transports publics"
+        ]
+      }
+    },
+    "exchange": {
+      "calculator": {
+        "bank_deposit": "Dépôt bancaire",
+        "cash_payment": "Paiement en espèces",
+        "delivery_method": "Méthode de transfert",
+        "error": "Échec",
+        "error_failed": "Échec de la recherche du taux",
+        "error_limit": "Le montant dépasse la limite de transfert",
+        "error_network": "Erreur réseau",
+        "error_unavailable": "Taux indisponible pour ce montant",
+        "loading": "Chargement...",
+        "realtime": "Temps réel",
+        "receive_amount": "Montant reçu",
+        "receive_country": "Pays destinataire",
+        "send_amount": "Montant envoyé",
+        "title": "Calculateur de change en temps réel",
+        "mobile_wallet": "Portefeuille mobile",
+        "qr_pay": "QR Pay",
+        "search_placeholder": "Rechercher un pays",
+        "no_results": "Aucun résultat",
+        "fee": "Frais",
+        "rate": "Taux de change",
+        "error_unavailable_method": "Cette méthode de transfert n'est pas disponible actuellement",
+        "error_max_amount": "Montant d'envoi maximum : {{amount}} KRW",
+        "payout_methods": {
+          "1": "Paiement en espèces",
+          "2": "Dépôt bancaire",
+          "12": "Livraison à domicile",
+          "13": "Portefeuille mobile",
+          "14": "Paiement par carte",
+          "16": "WeChat Pay",
+          "17": "Alipay",
+          "18": "Visa/Mastercard/UnionPay",
+          "19": "Visa/Mastercard",
+          "24": "UPTION",
+          "25": "UPI",
+          "33": "bKash",
+          "34": "Rocket",
+          "35": "Nagad",
+          "37": "QR Pay"
+        }
+      },
+      "description1": "Taux de change en temps réel pour plus de 200 pays.",
+      "description2": "Divulgation transparente des frais.",
+      "stats": {
+        "countries": "200+",
+        "countries_label": "Pays pris en charge",
+        "service": "24/7",
+        "service_label": "Service en temps réel"
+      },
+      "title1": "Consultez les taux de change",
+      "title2": "dès maintenant"
+    },
+    "global_payments": {
+      "button": {
+        "detail": "En savoir plus sur Payments"
+      },
+      "card": {
+        "status": "Actif",
+        "subtitle": "Solutions entreprise",
+        "title": "Solutions de paiement"
+      },
+      "description": "Transferts de paie, règlements partenaires, paiements e-commerce. Solutions de paiement d'entreprise économiques.",
+      "features": {
+        "smb": "PME",
+        "smb_desc": "Solution e-commerce",
+        "sps": "SPS",
+        "sps_desc": "Solution de paiement B2B",
+        "vas": "VAS",
+        "vas_desc": "Alertes · Rapports · Tableau de bord"
+      },
+      "stats": {
+        "cost_saving": "Économies",
+        "cost_saving_change": "vs traditionnel",
+        "cost_saving_value": "Jusqu'à 70 %",
+        "partners": "Partenaires",
+        "partners_change": "Mondial",
+        "partners_value": "200+",
+        "success_rate": "Taux de réussite",
+        "success_rate_change": "Normal",
+        "success_rate_value": "99,8 %"
+      },
+      "title": "Paiements B2B",
+      "transactions": {
+        "b2b": "Transfert B2B en masse",
+        "completed": "Terminé",
+        "just_now": "À l'instant",
+        "merchant": "Paiement marchand",
+        "mins_ago": "min",
+        "partner": "Règlement partenaire",
+        "processing": "En cours",
+        "title": "Transactions récentes"
+      }
+    },
+    "hero": {
+      "badge": "Excellent service de transfert",
+      "button": {
+        "learn_more": "En savoir plus"
+      },
+      "countries": {
+        "more": "Plus",
+        "names": {
+          "AD": "Andorre",
+          "AE": "Émirats arabes unis",
+          "AG": "Antigua-et-Barbuda",
+          "AI": "Anguilla",
+          "AL": "Albanie",
+          "AM": "Arménie",
+          "AO": "Angola",
+          "AR": "Argentine",
+          "AS": "Samoa américaines",
+          "AT": "Autriche",
+          "AU": "Australie",
+          "AW": "Aruba",
+          "AZ": "Azerbaïdjan",
+          "BA": "Bosnie-Herzégovine",
+          "BB": "Barbade",
+          "BD": "Bangladesh",
+          "BE": "Belgique",
+          "BF": "Burkina Faso",
+          "BG": "Bulgarie",
+          "BH": "Bahreïn",
+          "BI": "Burundi",
+          "BJ": "Bénin",
+          "BL": "Saint-Barthélemy",
+          "BM": "Bermudes",
+          "BN": "Brunei",
+          "BO": "Bolivie",
+          "BR": "Brésil",
+          "BS": "Bahamas",
+          "BT": "Bhoutan",
+          "BW": "Botswana",
+          "BY": "Biélorussie",
+          "BZ": "Belize",
+          "CA": "Canada",
+          "CD": "République démocratique du Congo",
+          "CF": "République centrafricaine",
+          "CG": "République du Congo",
+          "CH": "Suisse",
+          "CI": "Côte d'Ivoire",
+          "CK": "Îles Cook",
+          "CL": "Chili",
+          "CM": "Cameroun",
+          "CN": "Chine",
+          "CO": "Colombie",
+          "CR": "Costa Rica",
+          "CU": "Cuba",
+          "CV": "Cap-Vert",
+          "CY": "Chypre",
+          "CZ": "République tchèque",
+          "DE": "Allemagne",
+          "DJ": "Djibouti",
+          "DK": "Danemark",
+          "DM": "Dominique",
+          "DO": "République dominicaine",
+          "DZ": "Algérie",
+          "EC": "Équateur",
+          "EE": "Estonie",
+          "EG": "Égypte",
+          "ER": "Érythrée",
+          "ES": "Espagne",
+          "ET": "Éthiopie",
+          "FI": "Finlande",
+          "FJ": "Fidji",
+          "FM": "Micronésie",
+          "FR": "France",
+          "GA": "Gabon",
+          "GB": "Royaume-Uni",
+          "GD": "Grenade",
+          "GE": "Géorgie",
+          "GF": "Guyane française",
+          "GH": "Ghana",
+          "GI": "Gibraltar",
+          "GM": "Gambie",
+          "GN": "Guinée",
+          "GP": "Guadeloupe",
+          "GQ": "Guinée équatoriale",
+          "GR": "Grèce",
+          "GT": "Guatemala",
+          "GU": "Guam",
+          "GW": "Guinée-Bissau",
+          "GY": "Guyana",
+          "HK": "Hong Kong",
+          "HN": "Honduras",
+          "HR": "Croatie",
+          "HT": "Haïti",
+          "HU": "Hongrie",
+          "ID": "Indonésie",
+          "IE": "Irlande",
+          "IL": "Israël",
+          "IN": "Inde",
+          "IS": "Islande",
+          "IT": "Italie",
+          "JM": "Jamaïque",
+          "JO": "Jordanie",
+          "JP": "Japon",
+          "KE": "Kenya",
+          "KG": "Kirghizistan",
+          "KH": "Cambodge",
+          "KM": "Comores",
+          "KN": "Saint-Christophe-et-Niévès",
+          "KW": "Koweït",
+          "KY": "Îles Caïmans",
+          "KZ": "Kazakhstan",
+          "LA": "Laos",
+          "LB": "Liban",
+          "LC": "Sainte-Lucie",
+          "LI": "Liechtenstein",
+          "LK": "Sri Lanka",
+          "LR": "Libéria",
+          "LS": "Lesotho",
+          "LT": "Lituanie",
+          "LU": "Luxembourg",
+          "LV": "Lettonie",
+          "LY": "Libye",
+          "MA": "Maroc",
+          "MC": "Monaco",
+          "MD": "Moldavie",
+          "ME": "Monténégro",
+          "MF": "Saint-Martin (partie française)",
+          "MG": "Madagascar",
+          "MH": "Îles Marshall",
+          "MK": "Macédoine",
+          "ML": "Mali",
+          "MM": "Myanmar",
+          "MN": "Mongolie",
+          "MO": "Macao",
+          "MQ": "Martinique",
+          "MR": "Mauritanie",
+          "MS": "Montserrat",
+          "MT": "Malte",
+          "MU": "Maurice",
+          "MV": "Maldives",
+          "MW": "Malawi",
+          "MX": "Mexique",
+          "MY": "Malaisie",
+          "MZ": "Mozambique",
+          "NA": "Namibie",
+          "NC": "Nouvelle-Calédonie",
+          "NE": "Niger",
+          "NG": "Nigeria",
+          "NI": "Nicaragua",
+          "NL": "Pays-Bas",
+          "NO": "Norvège",
+          "NP": "Népal",
+          "NZ": "Nouvelle-Zélande",
+          "OM": "Oman",
+          "PA": "Panama",
+          "PE": "Pérou",
+          "PF": "Polynésie française",
+          "PG": "Papouasie-Nouvelle-Guinée",
+          "PH": "Philippines",
+          "PK": "Pakistan",
+          "PL": "Pologne",
+          "PR": "Porto Rico",
+          "PS": "Territoires palestiniens",
+          "PT": "Portugal",
+          "PY": "Paraguay",
+          "QA": "Qatar",
+          "RE": "Réunion",
+          "RO": "Roumanie",
+          "RS": "Serbie",
+          "RU": "Fédération de Russie",
+          "RW": "Rwanda",
+          "SA": "Arabie saoudite",
+          "SB": "Îles Salomon",
+          "SC": "Seychelles",
+          "SD": "Soudan",
+          "SE": "Suède",
+          "SG": "Singapour",
+          "SI": "Slovénie",
+          "SK": "Slovaquie",
+          "SL": "Sierra Leone",
+          "SN": "Sénégal",
+          "SR": "Suriname",
+          "SS": "Soudan du Sud",
+          "ST": "Sao Tomé-et-Principe",
+          "SV": "Salvador",
+          "SZ": "Eswatini",
+          "TC": "Îles Turques-et-Caïques",
+          "TD": "Tchad",
+          "TG": "Togo",
+          "TH": "Thaïlande",
+          "TJ": "Tadjikistan",
+          "TL": "Timor oriental",
+          "TM": "Turkménistan",
+          "TN": "Tunisie",
+          "TO": "Tonga",
+          "TR": "Turquie",
+          "TT": "Trinité-et-Tobago",
+          "TV": "Tuvalu",
+          "TZ": "Tanzanie",
+          "UA": "Ukraine",
+          "UG": "Ouganda",
+          "US": "États-Unis",
+          "UY": "Uruguay",
+          "UZ": "Ouzbékistan",
+          "VC": "Saint-Vincent-et-les-Grenadines",
+          "VE": "Venezuela",
+          "VG": "Îles Vierges britanniques",
+          "VI": "Îles Vierges américaines",
+          "VN": "Vietnam",
+          "VU": "Vanuatu",
+          "WS": "Samoa",
+          "XK": "Kosovo",
+          "YE": "Yémen",
+          "YT": "Mayotte",
+          "ZA": "Afrique du Sud",
+          "ZM": "Zambie",
+          "ZW": "Zimbabwe"
+        },
+        "realtime": "Temps réel",
+        "subtitle": "Plus de 200 pays pris en charge",
+        "title": "Pays pris en charge",
+        "view_all": "En savoir plus sur les transferts"
+      },
+      "description1": "Envoyez vers plus de 200 pays et toutes les banques coréennes en temps réel.",
+      "description2": "Sécurité avec 70 partenaires mondiaux et vérification E-KYC.",
+      "rating": "Moyenne App Store · Google Play",
+      "stats": {
+        "avg_time": "Temps moyen de transfert",
+        "seconds": "s",
+        "total_amount": "Transferts annuels 2025",
+        "trillion": "billions KRW"
+      },
+      "title1": "Transfert international",
+      "title2": "rapide et sécurisé"
+    },
+    "loan": {
+      "button": {
+        "apply": "Demander un prêt dans l'app GME",
+        "detail": "En savoir plus sur le prêt"
+      },
+      "card": {
+        "quick_apply": "Demande rapide",
+        "subtitle": "Prêts pour étrangers",
+        "title": "GME Finance"
+      },
+      "description": "Demandez un prêt en quelques minutes avec l'application GME. Vérifiez l'état de traitement et le solde en temps réel, où que vous soyez.",
+      "features": {
+        "countries": {
+          "desc": "Pays",
+          "label": "14+"
+        },
+        "realtime": {
+          "desc": "Suivi",
+          "label": "Temps réel"
+        },
+        "simple": {
+          "desc": "Demande via l'app",
+          "label": "Simple"
+        },
+        "success": {
+          "desc": "Prêts",
+          "label": "1M+"
+        },
+        "support": {
+          "desc": "Support",
+          "label": "24/7"
+        }
+      },
+      "stats": {
+        "desc": "Plus d'1M de prêts réussis · 14 pays",
+        "title": "Performance cumulée des prêts",
+        "value": "500 Md ₩+"
+      },
+      "title": "Prêt en ligne"
+    },
+    "remittance": {
+      "button": {
+        "detail": "En savoir plus sur les transferts"
+      },
+      "description": "Envoyez de l'argent rapidement et en toute sécurité vers plus de 200 pays.",
+      "features": {
+        "fast": {
+          "back_desc": "Envoyez partout dans le monde en quelques tapotements, sans étapes compliquées.",
+          "back_title": "Transfert simple",
+          "desc": "Effectuez un transfert international en quelques clics",
+          "sub": "Quelques clics",
+          "title": "Transfert rapide"
+        },
+        "global": {
+          "back_desc": "Envoyez dans le monde entier avec plus de 200 pays et 70 partenaires mondiaux.",
+          "back_title": "Réseau mondial",
+          "desc": "Plus d'un million d'utilisateurs dans le monde font confiance à GME",
+          "sub": "1M+ utilisateurs",
+          "title": "200+ pays"
+        },
+        "optimized": {
+          "back_desc": "Jusqu'à 90 % de frais en moins par rapport aux banques. Envoyez plus avec des taux en temps réel.",
+          "back_title": "Économies massives",
+          "desc": "90 % de frais en moins et meilleurs taux que les banques",
+          "sub": "90 % d'économies",
+          "title": "Montant optimisé"
+        },
+        "security": {
+          "back_desc": "Envoyez en toute sécurité avec vérification E-KYC et service enregistré auprès de la FSC.",
+          "back_title": "Sécurité approfondie",
+          "desc": "Utilisez l'esprit tranquille grâce à une sécurité renforcée",
+          "sub": "Vérifié",
+          "title": "Facile & sécurisé"
+        }
+      },
+      "title": "Transfert international"
+    },
+    "section_nav": {
+      "app_download": "Télécharger l'app",
+      "exchange": "Calculateur de change",
+      "home": "Accueil",
+      "services": "Services",
+      "customer_feedback": "Avis clients"
+    },
+    "services": {
+      "card": {
+        "desc1": "Carte intelligente connectant transfert et dépenses.",
+        "desc2": "Une nouvelle norme pour les paiements mondiaux.",
+        "title": "GME Card"
+      },
+      "loan": {
+        "desc1": "Approbation rapide et conditions flexibles",
+        "desc2": "Service de prêt numérique",
+        "estimated_limit": "Limite estimée",
+        "title": "Prêt en ligne"
+      },
+      "mobile": {
+        "desc1": "Forfaits mobiles économiques à partir",
+        "desc2": "de seulement 3 300 ₩/mois",
+        "title": "Mobile"
+      },
+      "payments": {
+        "desc1": "Paie, règlements partenaires, paiements e-commerce.",
+        "desc2": "Solutions de paiement d'entreprise économiques.",
+        "title": "Paiements B2B"
+      },
+      "remittance": {
+        "desc1": "Envoyez de l'argent rapidement et en toute sécurité",
+        "desc2": "vers plus de 200 pays.",
+        "title": "Transfert international"
+      },
+      "title1": "Découvrez les",
+      "title2": "divers services GME"
+    },
+    "customer_feedback": {
+      "subtitle": "Expériences réelles de nos clients.",
+      "tags": {
+        "easy_tracking": "Transfert & suivi facile",
+        "fast_process": "Processus rapide",
+        "satisfied": "Service satisfaisant"
+      },
+      "title": "Avis clients"
+    }
+  },
+  "loan": {
+    "cta": {
+      "button": "Télécharger l'app",
+      "description": "Obtenez les fonds dont vous avez besoin rapidement avec une demande mobile facile.",
+      "title": "Commencez votre prêt avec l'app GME aujourd'hui",
+      "inline_notice": "ⓘ Cliquer sur le bouton ci-dessous vous connectera au service de prêt fourni par GME Finance."
+    },
+    "disclosure": {
+      "banner": "Les produits de prêt présentés sur cette page sont fournis par GME Finance (une entité juridique distincte). GME Finance est seul responsable de tous les aspects du service de prêt, y compris consultation, examen, contrat et service après-vente. GME Remit ne fournit que des informations sur le produit et des fonctionnalités de connexion.",
+      "provider_heading": "GME Finance",
+      "label_ceo": "PDG",
+      "label_phone": "Téléphone",
+      "label_email": "E-mail",
+      "label_business_number": "N° d'enregistrement d'entreprise",
+      "label_loan_license": "N° de licence de prêt",
+      "label_supervisor": "Autorité de supervision",
+      "label_address": "Siège social",
+      "label_brand_name": "Marque",
+      "disclaimer": "* GME Remit n'est ni vendeur ni intermédiaire de ce produit de prêt. Tous les droits et obligations découlant des contrats de prêt entre GME Finance et les clients appartiennent exclusivement à GME Finance. Veuillez adresser toute question ou litige connexe à GME Finance.",
+      "law_notice": "Divulgation de l'identité commerciale conformément à l'article 10 de la loi sur la protection des consommateurs en commerce électronique, etc."
+    },
+    "details": {
+      "contract": {
+        "label": "Méthode de signature du contrat",
+        "value": "Contrat numérique"
+      },
+      "duration": {
+        "label": "Durée du prêt",
+        "value": "3 - 45 mois"
+      },
+      "early_settlement": {
+        "label": "Frais de remboursement anticipé",
+        "value": "Gratuit"
+      },
+      "loanable": {
+        "label": "Montant empruntable",
+        "value": "2 M - 35 M"
+      },
+      "max_amount": {
+        "label": "Montant maximum",
+        "value": "Jusqu'à 35 M"
+      },
+      "repayment": {
+        "label": "Méthode de remboursement",
+        "value": "Mensualités"
+      },
+      "title": "Détails du prêt",
+      "visa_period": {
+        "label": "Période de visa restante requise",
+        "value": "7 - 48 mois"
+      },
+      "visa_types": {
+        "label": "Types de visa éligibles",
+        "value": "E9, E7, F2, F5, F6, D8 & tout visa avec contrat de travail légal"
+      }
+    },
+    "faq": {
+      "items": [
+        {
+          "a": "Les titulaires des visas D-2, E-9, E-10, E-7, E-1, E-2, E-3, F-2, F-2R, F-5, F-6, F-4 et G-1 sont éligibles. Les produits disponibles peuvent varier selon votre type de visa.",
+          "q": "Quels titulaires de visa peuvent demander un prêt ?"
+        },
+        {
+          "a": "Seuls trois documents sont nécessaires : carte d'enregistrement d'étranger (ARC), contrat de travail et passeport. Pas de paperasse compliquée — juste un processus simple et fluide.",
+          "q": "Quels documents sont requis ?"
+        },
+        {
+          "a": "Vous pouvez faire la demande facilement via l'application mobile GME Finance. Avec votre smartphone, vous pouvez demander un prêt rapidement et en toute sécurité — n'importe quand, n'importe où.",
+          "q": "Comment demander un prêt ?"
+        },
+        {
+          "a": "GME Finance assure une gestion sécurisée des informations personnelles via un système conçu spécifiquement pour les clients étrangers. Vous pouvez utiliser nos services en toute confiance.",
+          "q": "Mes informations personnelles sont-elles sécurisées ?"
+        }
+      ],
+      "title": "Questions fréquentes"
+    },
+    "hero": {
+      "badge": "GME FINANCE",
+      "cta": "Voir les produits de prêt",
+      "description": "Demandez un prêt facilement avec l'app GME. Nous soutenons votre vie en Corée avec des approbations rapides et des conditions flexibles.",
+      "title1": "Services de prêt",
+      "title2": "pour étrangers"
+    },
+    "process": {
+      "step1": {
+        "desc": "Téléchargez l'app GME sur Google Play Store ou App Store. Inscrivez-vous et demandez un prêt.",
+        "title": "Demander via l'app GME"
+      },
+      "step2": {
+        "desc": "Remplissez vos informations et soumettez les documents requis.",
+        "title": "Soumission des documents"
+      },
+      "step3": {
+        "desc": "Notre équipe vérifiera vos documents et vérifiera votre situation de crédit.",
+        "title": "Vérification"
+      },
+      "step4": {
+        "desc": "Une fois approuvé, la signature du contrat numérique se déroulera.",
+        "title": "Approbation"
+      },
+      "step5": {
+        "desc": "Après la signature du contrat, le montant du prêt sera déposé sur votre compte bancaire.",
+        "title": "Versement"
+      },
+      "subtitle": "Processus de demande en 5 étapes",
+      "title": "Demande de prêt simple"
+    },
+    "products": {
+      "business_loan": {
+        "desc": "Fonds d'exploitation d'entreprise",
+        "name": "Prêt entreprise"
+      },
+      "car_loan": {
+        "desc": "Fonds d'achat de véhicule",
+        "name": "Prêt auto"
+      },
+      "gme_loan": {
+        "desc": "Frais de vie généraux",
+        "name": "Prêt GME"
+      },
+      "house_loan": {
+        "desc": "Caution Jeonse & loyer",
+        "name": "Prêt logement"
+      },
+      "property_loan": {
+        "desc": "Prêt garanti par bien immobilier",
+        "name": "Prêt immobilier"
+      },
+      "student_loan": {
+        "desc": "Frais de scolarité",
+        "name": "Prêt étudiant"
+      },
+      "subtitle": "Comparez et choisissez le produit de prêt qui correspond à vos besoins.",
+      "title": "Produits de prêt",
+      "title2": "Adaptés à vous",
+      "vacation_loan": {
+        "desc": "Fonds de voyage & vacances",
+        "name": "Prêt vacances"
+      }
+    },
+    "why": {
+      "badge": "Propulsé par GME Finance",
+      "countries": {
+        "desc": "Pays desservis",
+        "title": "14+"
+      },
+      "description": "Nous fournissons des services de prêt sur mesure pour les clients étrangers dans plus de 14 pays. Découvrez une confiance éprouvée avec plus d'un million de prêts réussis et plus de 500 milliards KRW de prêts cumulés.",
+      "realtime": {
+        "desc": "Suivi du statut",
+        "title": "Temps réel"
+      },
+      "simple": {
+        "desc": "Via l'app mobile",
+        "title": "Demande facile"
+      },
+      "stats_desc": "1M+ de prêts réussis · 14 pays",
+      "stats_label": "Prêts cumulés",
+      "stats_value": "500 Md ₩+",
+      "success": {
+        "desc": "Prêts réussis",
+        "title": "1M+"
+      },
+      "support": {
+        "desc": "Support client",
+        "title": "24/7"
+      },
+      "title": "Pourquoi choisir le prêt GME ?"
+    }
+  },
+  "telecom": {
+    "hero": {
+      "badge": "GME MOBILE",
+      "title1": "Le forfait mobile",
+      "title2": "parfait pour vous",
+      "description": "Service mobile économique avec la même qualité que les réseaux LGU+ et KT. Économisez sur les factures téléphoniques avec des forfaits à partir de 3 300 ₩/mois.",
+      "cta": "Voir les forfaits"
+    },
+    "features": {
+      "title": "Pourquoi GME Mobile ?",
+      "multilang": {
+        "title": "17 langues",
+        "description": "Utilisez dans votre langue maternelle"
+      },
+      "affordable": {
+        "title": "À partir de 3 300 ₩/mois",
+        "description": "Forfaits ultra-abordables pour étrangers"
+      },
+      "network": {
+        "title": "Même qualité que LGU+, KT",
+        "description": "Couverture fiable dans tout le pays"
+      },
+      "usim": {
+        "title": "Auto-activation USIM",
+        "description": "Livrée chez vous, activée en 5 minutes"
+      },
+      "esim": {
+        "title": "Support eSIM",
+        "description": "Scannez un QR code et activez instantanément"
+      },
+      "plans": {
+        "title": "Forfaits flexibles",
+        "description": "Forfaits à partir de 3 300 ₩/mois"
+      },
+      "activation": {
+        "title": "Activation en 5 min",
+        "description": "Auto-activation facile depuis l'app"
+      },
+      "intl_call": {
+        "title": "Appels intl. inclus",
+        "description": "Certains forfaits incluent 20 min/jour d'appels intl."
+      }
+    },
+    "plans": {
+      "title": "Forfaits pour vous",
+      "subtitle": "Trouvez un forfait adapté à votre style de vie",
+      "data": "Données",
+      "voice": "Voix",
+      "sms": "SMS",
+      "per_month": "mois",
+      "currency": "KRW",
+      "discount": "RÉDUC",
+      "unlimited": "Illimité",
+      "empty": "Aucun forfait à afficher",
+      "cta": "Voir tous les forfaits"
+    },
+    "process": {
+      "title": "Sans tracas,",
+      "title2": "Activez instantanément",
+      "subtitle": "Auto-activation simple pour USIM et eSIM",
+      "steps": {
+        "step1": {
+          "title": "Acheter USIM",
+          "description": "Commandez votre USIM en ligne"
+        },
+        "step2": {
+          "title": "Suivi livraison",
+          "description": "Vérifiez le statut de livraison de votre USIM"
+        },
+        "step3": {
+          "title": "Auto-activer",
+          "description": "Vérifiez votre identité et activez depuis l'app"
+        },
+        "step4": {
+          "title": "Terminé !",
+          "description": "Activation terminée en 5 minutes !"
+        }
+      }
+    },
+    "esim_intro": {
+      "badge": "eSIM",
+      "title": "Un téléphone, deux numéros",
+      "description": "Commencez facilement avec eSIM ! Séparez clairement travail et vie personnelle et trouvez un meilleur équilibre.",
+      "cta": "Activer eSIM",
+      "tag1": "Pas d'échange de SIM",
+      "tag2": "Pas de livraison",
+      "tag3": "Auto-activation instantanée !"
+    },
+    "usim_intro": {
+      "badge": "USIM",
+      "title": "Activée en 5 minutes !",
+      "description": "Horaires d'auto-activation",
+      "time1_label": "Portabilité du numéro",
+      "time1_value": "10h00 - 20h00",
+      "time1_note": "Sauf dimanches, Nouvel An, Seollal/Chuseok",
+      "time2_label": "Nouvelle inscription",
+      "time2_value": "8h00 - 22h00",
+      "time2_note": "Aucune restriction de jour",
+      "step1": "Acheter USIM",
+      "step2": "Recevoir",
+      "step3": "Activer",
+      "step4": "Terminé !",
+      "cta": "Acheter USIM"
+    },
+    "cta": {
+      "title": "Commencez avec GME Mobile",
+      "description": "Économisez sur vos factures avec des forfaits abordables, disponibles en 17 langues.",
+      "button": "Aller à GME Mobile"
+    },
+    "categories": {
+      "recommended": "Recommandé",
+      "postpaid": "Post-payé",
+      "fiveG": "5G/Spécial",
+      "prepaid": "Prépayé"
+    }
+  },
+  "remittance": {
+    "features": {
+      "app": {
+        "desc": "Effectuez un transfert en quelques tapotements",
+        "title": "Transfert via l'app"
+      },
+      "branches": {
+        "desc": "Obtenez du support dans nos agences nationales",
+        "title": "Agences physiques"
+      },
+      "convenient": {
+        "desc": "Flux intuitif utilisable par tous",
+        "title": "Expérience facile"
+      },
+      "multilingual": {
+        "desc": "Utilisez le service en plusieurs langues",
+        "title": "Support multilingue"
+      },
+      "subtitle": "Transférez et suivez tout dans une seule app",
+      "title": "Transferts plus",
+      "title2": "simples et sécurisés"
+    },
+    "hero": {
+      "badge": "GME REMITTANCE",
+      "cta": "Voir le service",
+      "description": "Envoyez de l'argent rapidement et en toute sécurité vers plus de 200 pays.",
+      "title1": "Transferts internationaux",
+      "title2": "rapides et sécurisés"
+    },
+    "process": {
+      "step1": {
+        "desc": "Installez l'app GME et complétez la vérification d'identité.",
+        "title": "Installer & vérifier"
+      },
+      "step2": {
+        "desc": "Sélectionnez le pays, les détails du compte et le montant.",
+        "title": "Saisir le destinataire"
+      },
+      "step3": {
+        "desc": "Payez et suivez le statut du transfert en temps réel.",
+        "title": "Transfert terminé"
+      },
+      "subtitle": "3 étapes de la demande à la finalisation",
+      "title": "Processus de",
+      "title2": "transfert simple"
+    },
+    "regions": {
+      "more": "Et bien d'autres pays pris en charge",
+      "subtitle": "Disponible en Asie, Europe, Amériques et Afrique dans plus de 200 pays.",
+      "title": "Couverture",
+      "title2": "mondiale"
+    },
+    "stats": {
+      "achieved": {
+        "label": "Transferts annuels 2025",
+        "value": "4 000 Md ₩"
+      },
+      "branches": {
+        "label": "Agences en Corée",
+        "value": "10"
+      },
+      "languages": {
+        "label": "Langues prises en charge",
+        "value": "24"
+      },
+      "savings": {
+        "label": "Économies de frais",
+        "value": "90 %"
+      }
+    },
+    "trust": {
+      "desc": "Global Money Express (GME) est une institution financière agréée autorisée par le ministère de l'Économie et des Finances et le Service de supervision financière, offrant des services sûrs et fiables.",
+      "insurance": "Assurance responsabilité du service de transaction financière électronique : 300 millions KRW",
+      "title": "Nous fournissons des services sûrs."
+    },
+    "why": {
+      "items": {
+        "cheapest": {
+          "desc": "Meilleurs frais et taux que les banques traditionnelles.",
+          "title": "Frais compétitifs"
+        },
+        "fastest": {
+          "desc": "Le traitement en temps réel minimise le temps de transfert.",
+          "title": "Transferts rapides"
+        },
+        "secure": {
+          "desc": "Vérification d'identité renforcée et protection sécurisée.",
+          "title": "Vérification sécurisée"
+        }
+      },
+      "subtitle": "Pourquoi le transfert GME",
+      "title": "Un service de transfert mondial de confiance"
+    }
+  },
+  "support": {
+    "branches": {
+      "address": "Adresse",
+      "data": {
+        "1": {
+          "address": "315 Jongno, Jongno-gu, Séoul (Station Dongdaemun Sortie 3)",
+          "hours": "Semaine & week-ends 10h00 - 19h00",
+          "name": "Agence Dongdaemun"
+        },
+        "2": {
+          "address": "1F, 6 Damunhwa-gil, Danwon-gu, Ansan-si, Gyeonggi-do",
+          "hours": "Semaine & week-ends 10h00 - 19h00",
+          "name": "Agence Ansan"
+        },
+        "4": {
+          "address": "1F, 134 Dorim-ro, Yeongdeungpo-gu, Séoul",
+          "hours": "Semaine & week-ends 10h00 - 19h00",
+          "name": "Agence Daerim"
+        },
+        "6": {
+          "address": "2-10 Maesan-ro, Paldal-gu, Suwon-si, Gyeonggi-do",
+          "hours": "Semaine & week-ends 10h00 - 19h00",
+          "name": "Agence Suwon"
+        },
+        "7": {
+          "address": "1F, 1109-3 3·1 Manse-ro, Hyangnam-eup, Hwaseong-si, Gyeonggi-do",
+          "hours": "Ven - Mar 10h00 - 19h00",
+          "name": "Agence Hwaseong"
+        },
+        "8": {
+          "address": "91 Solmoru-ro, Soheul-eup, Pocheon-si, Gyeonggi-do (À côté de NH Bank)",
+          "hours": "Sam - Mer 10h00 - 19h00",
+          "name": "Agence Songuri"
+        },
+        "9": {
+          "address": "16 Gwangjang-ro, Bupyeong-gu, Incheon (Centre commercial de la station Bupyeong)",
+          "hours": "Sam - Mer 10h00 - 19h00",
+          "name": "Agence Bupyeong"
+        },
+        "11": {
+          "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (En face de Top Mart)",
+          "hours": "Semaine & week-ends 10h00 - 19h00",
+          "name": "Agence Gimhae"
+        }
+      },
+      "hours": "Horaires",
+      "phone": "Téléphone"
+    },
+    "hero": {
+      "desc1": "Grâce à nos agences nationales et canaux sociaux mondiaux,",
+      "desc2": "vous pouvez obtenir du support et poser des questions à tout moment.",
+      "desc3": "Trouvez une agence près de chez vous ou connectez-vous avec nous sur les réseaux sociaux.",
+      "title": "GME, toujours proche de vous"
+    },
+    "social_channels": {
+      "contact": "Contact",
+      "countries": {
+        "african-region": "Région africaine",
+        "bangladesh": "Bangladesh",
+        "cambodia": "Cambodge",
+        "china": "Chine",
+        "india": "Inde",
+        "indonesia": "Indonésie",
+        "japan": "Japon",
+        "korea": "Corée",
+        "mongolia": "Mongolie",
+        "myanmar": "Myanmar",
+        "nepal": "Népal",
+        "pakistan": "Pakistan",
+        "philippines": "Philippines",
+        "srilanka": "Sri Lanka",
+        "thailand": "Thaïlande",
+        "uzbekistan-cis": "Ouzbékistan & CEI",
+        "vietnam": "Vietnam",
+        "western": "Occidentale"
+      },
+      "countries_count": "24 langues",
+      "description": "Connectez-vous avec GME via des canaux officiels dans chaque pays",
+      "operating": "Pris en charge",
+      "title": "Canaux sociaux mondiaux"
+    },
+    "stats": {
+      "branches_label": "Agences",
+      "branches_unit": "+",
+      "branches_value": "10",
+      "countries_label": "Pays desservis",
+      "countries_unit": "+",
+      "countries_value": "200",
+      "services_label": "Services",
+      "services_unit": "+",
+      "services_value": "8"
+    },
+    "tabs": {
+      "branches": "Agences",
+      "social_channels": "Canaux sociaux"
+    }
+  }
+}

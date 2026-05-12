@@ -24,6 +24,9 @@ export const languages: Language[] = [
   { code: "my", label: "My", name: "Myanmar", nativeName: "မြန်မာ", color: "#22c55e" },
   { code: "vi", label: "Vi", name: "Vietnamese", nativeName: "Tiếng Việt", color: "#e11d48" },
   { code: "uz", label: "Uz", name: "Uzbek", nativeName: "Oʻzbekcha", color: "#0891b2" },
+  { code: "fr", label: "Fr", name: "French", nativeName: "Français", color: "#2563eb" },
+  { code: "ar", label: "Ar", name: "Arabic", nativeName: "العربية", color: "#65a30d" },
+  { code: "es", label: "Es", name: "Spanish", nativeName: "Español", color: "#be123c" },
 ];
 
 export const LANGUAGE_COOKIE_NAME = "gme-language";

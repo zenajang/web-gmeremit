@@ -102,14 +102,14 @@ export default function HeroMain() {
                 {supportedCountries.slice(0, 11).map((country) => (
                   <div
                     key={country.code}
-                    className="flex flex-col items-center gap-2 p-3 rounded-xl bg-gradient-to-b from-white to-slate-50 border border-gray-100 shadow-[0_2px_8px_rgba(0,0,0,0.06),0_1px_2px_rgba(0,0,0,0.04)] hover:shadow-[0_4px_12px_rgba(0,0,0,0.1),0_2px_4px_rgba(0,0,0,0.06)] hover:-translate-y-0.5 transition-all duration-200"
+                    className="flex flex-col items-center gap-2 p-3 rounded-xl bg-gradient-to-b from-white to-slate-50 border border-gray-100 shadow-[0_2px_8px_rgba(0,0,0,0.06),0_1px_2px_rgba(0,0,0,0.04)]"
                   >
                     <span className="text-2xl">{country.flag}</span>
                     <span className="text-xs font-medium text-cards">{t(`countries.names.${country.code}`)}</span>
                   </div>
                 ))}
                 <div
-                  className="relative flex flex-col items-center justify-center gap-1 p-3 rounded-xl bg-gradient-to-b from-red-50 to-red-100 border border-red-200/40 shadow-[0_2px_8px_rgba(237,28,36,0.08),inset_0_2px_4px_rgba(255,255,255,0.8),inset_0_-1px_2px_rgba(237,28,36,0.05)] hover:shadow-[0_4px_12px_rgba(237,28,36,0.12),inset_0_2px_4px_rgba(255,255,255,0.9)] hover:-translate-y-0.5 transition-all duration-20 overflow-hidden"
+                  className="relative flex flex-col items-center justify-center gap-1 p-3 rounded-xl bg-gradient-to-b from-red-50 to-red-100 border border-red-200/40 shadow-[0_2px_8px_rgba(237,28,36,0.08),inset_0_2px_4px_rgba(255,255,255,0.8),inset_0_-1px_2px_rgba(237,28,36,0.05)] overflow-hidden"
                 >
                   <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-white/70 via-transparent to-primary/5 pointer-events-none" />
                   <div className="absolute top-0 left-3 right-3 h-[1px] rounded-full bg-gradient-to-r from-transparent via-white/80 to-transparent pointer-events-none" />

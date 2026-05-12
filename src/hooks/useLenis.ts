@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import Lenis from "lenis";
+import Lenis, { type LenisOptions } from "lenis";
 
-export function useLenis(deps: unknown[] = []) {
+export function useLenis(deps: unknown[] = [], optionsOverride: Partial<LenisOptions> = {}) {
   const lenisRef = useRef<Lenis | null>(null);
 
   useEffect(() => {
@@ -14,6 +14,7 @@ export function useLenis(deps: unknown[] = []) {
       smoothWheel: true,
       wheelMultiplier: 1.1,
       infinite: false,
+      ...optionsOverride,
     });
     lenisRef.current = lenis;
 

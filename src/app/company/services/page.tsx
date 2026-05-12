@@ -144,23 +144,23 @@ export default function ServicesPage() {
                   };
                   const c = colorMap[color] || colorMap.primary;
                   return (
-                  <div key={key} className={`bg-white border border-gray-200 rounded-full sm:rounded-[20px] pl-3 pr-4 py-2.5 sm:p-8 ${c.border} hover:shadow-lg transition-all duration-300 sm:min-h-[280px] flex items-center sm:items-start gap-3 sm:gap-0 sm:flex-col sm:items-stretch`}>
+                  <Link key={key} href={href} className={`bg-white border border-gray-200 rounded-full sm:rounded-[20px] pl-3 pr-4 py-2.5 sm:p-8 ${c.border} hover:shadow-lg transition-all duration-300 sm:min-h-[280px] flex items-center sm:items-start gap-3 sm:gap-0 sm:flex-col sm:items-stretch`}>
                     <div className={`w-10 h-10 sm:w-16 sm:h-16 ${c.bg} rounded-full sm:rounded-[18px] flex items-center justify-center shrink-0 sm:mb-6`}>
                       {icon}
                     </div>
                     <div className="flex-1 sm:flex sm:flex-col sm:flex-grow min-w-0">
                       <div className="flex items-center sm:items-start justify-between sm:mb-3">
                         <h3 className="services-mobile-title typo-feature-title">{t(`${key}.title`)}</h3>
-                        <Link href={href} className={`sm:hidden text-xs ${c.text} font-semibold shrink-0 ml-2`}>
+                        <span className={`sm:hidden text-xs ${c.text} font-semibold shrink-0 ml-2`}>
                           {t("learn_more")} ›
-                        </Link>
+                        </span>
                       </div>
                       <p className="services-mobile-desc text-gray-500 leading-relaxed text-sm sm:text-base sm:flex-grow">{t(`${key}.desc`)}</p>
-                      <Link href={href} className={`hidden sm:inline-flex items-center ${c.text} font-semibold mt-6`}>
+                      <span className={`hidden sm:inline-flex items-center ${c.text} font-semibold mt-6`}>
                         {t("learn_more")} <span className="ml-1">›</span>
-                      </Link>
+                      </span>
                     </div>
-                  </div>
+                  </Link>
                   );
                 })}
               </div>
