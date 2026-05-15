@@ -19,6 +19,7 @@ export default function HistoryPage() {
   const containerRef = useRef<HTMLDivElement>(null);
   const currentEventIndexRef = useRef(0);
   const scrollRafRef = useRef<number | null>(null);
+  const isProgrammaticScrollRef = useRef(false);
 
   // 경로 변경 시 항상 맨 위로
   useLayoutEffect(() => {
@@ -27,7 +28,7 @@ export default function HistoryPage() {
     document.body.scrollTop = 0;
   }, [pathname]);
 
-  useLenis([pathname], {
+  const lenisRef = useLenis([pathname], {
     wheelMultiplier: 0.28,
     lerp: 0.06,
     duration: 1.4,
@@ -60,6 +61,7 @@ export default function HistoryPage() {
   useEffect(() => {
 
     const updateActiveByScroll = () => {
+      if (isProgrammaticScrollRef.current) return;
       const baseCenter = window.innerHeight * 0.35;
       const scrollBottom = window.innerHeight + window.scrollY;
       const pageHeight = document.documentElement.scrollHeight;
@@ -308,9 +310,35 @@ export default function HistoryPage() {
                                   {t(`events.${event.textKey}`)}
                                 </p>
                                 {hasImages && (
-                                  <span className="shrink-0 mt-1 inline-flex items-center gap-1 rounded-full border border-primary/30 bg-primary/5 px-2 py-0.5 text-[10px] font-semibold tracking-[0.2em] text-primary">
+                                  <button
+                                    type="button"
+                                    onClick={() => {
+                                      const target = eventRefs.current[eventKey];
+                                      if (!target) return;
+                                      const index = allEvents.indexOf(eventKey);
+                                      if (index !== -1) {
+                                        setCurrentEventIndex(index);
+                                        currentEventIndexRef.current = index;
+                                      }
+                                      const elementTop = target.getBoundingClientRect().top + window.scrollY;
+                                      const targetScrollY = elementTop - window.innerHeight * 0.35;
+
+                                      isProgrammaticScrollRef.current = true;
+                                      const reenable = () => {
+                                        isProgrammaticScrollRef.current = false;
+                                      };
+
+                                      if (lenisRef.current) {
+                                        lenisRef.current.scrollTo(targetScrollY, { onComplete: reenable });
+                                      } else {
+                                        window.scrollTo({ top: targetScrollY, behavior: "smooth" });
+                                      }
+                                      window.setTimeout(reenable, 2000);
+                                    }}
+                                    className="shrink-0 mt-1 inline-flex items-center gap-1 rounded-full border border-primary/30 bg-primary/5 px-2 py-0.5 text-[10px] font-semibold tracking-[0.2em] text-primary hover:bg-primary/10 hover:border-primary/50 transition-colors cursor-pointer"
+                                  >
                                     VIEW
-                                  </span>
+                                  </button>
                                 )}
                               </div>
                             </div>

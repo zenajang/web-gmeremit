@@ -739,7 +739,7 @@
       "subtitle": "Tất cả dịch vụ tài chính toàn cầu trong một nơi",
       "title": "Dịch vụ GME",
       "telecom": {
-        "title": "Telecom",
+        "title": "Di động",
         "desc": "Gói cước di động giá rẻ từ ₩3.300/tháng"
       }
     },
@@ -1635,9 +1635,9 @@
           "name": "Chi nhánh Gimhae"
         },
         "12": {
-          "address": "7-2 Gwangsan-ro, Gwangsan-gu, Gwangju",
-          "hours": "Thứ Bảy - Thứ Tư 10:00 - 19:00",
-          "name": "Chi nhánh Gwangju"
+          "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+          "hours": "Weekdays & Weekends 10:00 - 19:00",
+          "name": "Pyeongtaek Branch"
         }
       },
       "hours": "Giờ làm việc",

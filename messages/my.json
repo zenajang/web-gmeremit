@@ -741,7 +741,7 @@
       "subtitle": "သင့်ကမ္ဘာလုံးဆိုင်ရာ ငွေကြေးလိုအပ်ချက်အားလုံးကို တစ်နေရာတည်းမှာ",
       "title": "GME ဝန်ဆောင်မှုများ",
       "telecom": {
-        "title": "Telecom",
+        "title": "မိုဘိုင်း",
         "desc": "လစဉ် ၃,၃၀၀ ဝမ်မှ စတင်သော တန်ဖိုးနည်း မိုဘိုင်း ဝန်ဆောင်မှု"
       }
     },
@@ -1637,9 +1637,9 @@
           "name": "Gimhae စာခွဲ"
         },
         "12": {
-          "address": "7-2 Gwangsan-ro, Gwangsan-gu, Gwangju",
-          "hours": "စနေ - ဗုဒ္ဓဟူး 10:00 - 19:00",
-          "name": "Gwangju စာခွဲ"
+          "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+          "hours": "Weekdays & Weekends 10:00 - 19:00",
+          "name": "Pyeongtaek Branch"
         }
       },
       "hours": "ဖွင့်ချိန်",

@@ -741,7 +741,7 @@
       "subtitle": "Barcha global moliyaviy ehtiyojlaringiz bir joyda",
       "title": "GME xizmatlari",
       "telecom": {
-        "title": "Telecom",
+        "title": "Mobil",
         "desc": "Oyiga 3,300 vondan boshlanadigan arzon mobil tariflar"
       }
     },
@@ -1637,9 +1637,9 @@
           "name": "Gimhae filiali"
         },
         "12": {
-          "address": "7-2 Gwangsan-ro, Gwangsan-gu, Gwangju",
-          "hours": "Shanba - Chorshanba 10:00 - 19:00",
-          "name": "Gwangju filiali"
+          "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+          "hours": "Weekdays & Weekends 10:00 - 19:00",
+          "name": "Pyeongtaek Branch"
         }
       },
       "hours": "Soat",

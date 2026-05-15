@@ -739,7 +739,7 @@
       "subtitle": "全球金融一站式服务",
       "title": "GME服务",
       "telecom": {
-        "title": "Telecom",
+        "title": "手机",
         "desc": "月费3,300韩元起的实惠手机套餐"
       }
     },
@@ -1635,9 +1635,9 @@
           "name": "金海分行"
         },
         "12": {
-          "address": "光州广域市光山区光山路7-2",
-          "hours": "周六～周三 10:00 - 19:00",
-          "name": "光州分行"
+          "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+          "hours": "Weekdays & Weekends 10:00 - 19:00",
+          "name": "Pyeongtaek Branch"
         }
       },
       "hours": "营业时间",

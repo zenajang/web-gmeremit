@@ -71,7 +71,7 @@ export default function MainServices() {
               <div className="relative">
                 <Image
                 src="/images/home/remittance_3d.png"
-                alt="Overseas Remittance"
+                alt="GME Remit"
                 width={400}
                 height={400}
                 className="relative w-40 h-40 sm:w-56 sm:h-56 lg:w-65 lg:h-65 object-contain [filter:drop-shadow(8px_8px_16px_rgba(0,0,0,0.35))]"
@@ -181,7 +181,7 @@ export default function MainServices() {
               <div className="relative">
                 <Image
                   src="/images/home/loan_3d.png"
-                  alt="Online Loan"
+                  alt="GME Finance"
                   width={400}
                   height={400}
                   className="relative w-33 h-33 sm:w-56 sm:h-56 lg:w-65 lg:h-65 object-contain [filter:drop-shadow(8px_8px_16px_rgba(0,0,0,0.35))]"

@@ -739,7 +739,7 @@
       "subtitle": "Lahat ng iyong pangangailangan sa pandaigdigang pananalapi sa isang lugar",
       "title": "Mga Serbisyo ng GME",
       "telecom": {
-        "title": "Telecom",
+        "title": "Mobile",
         "desc": "Mga budget mobile plan simula sa ₩3,300/buwan"
       }
     },
@@ -1635,9 +1635,9 @@
           "name": "Gimhae Branch"
         },
         "12": {
-          "address": "7-2 Gwangsan-ro, Gwangsan-gu, Gwangju",
-          "hours": "Sabado - Miyerkules 10:00 - 19:00",
-          "name": "Gwangju Branch"
+          "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+          "hours": "Weekdays & Weekends 10:00 - 19:00",
+          "name": "Pyeongtaek Branch"
         }
       },
       "hours": "Oras",

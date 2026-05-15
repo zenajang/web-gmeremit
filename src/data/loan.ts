@@ -28,7 +28,7 @@ export interface ProviderInfo {
 
 export const gmeFinanceInfo: ProviderInfo = {
   companyName: "주식회사 지엠이대부",
-  brandName: "GME Loan",
+  brandName: "GME Finance",
   ceo: "성종화",
   address: "서울특별시 영등포구 영등포로 150, 비동 202호, 203호, 204호(당산동1가, 생각공장당산) (우)07292",
   phone: "02-765-5555",
@@ -40,7 +40,7 @@ export const gmeFinanceInfo: ProviderInfo = {
 
 export const gmeFinanceInfoEn: ProviderInfo = {
   companyName: "GME Lending Co., Ltd.",
-  brandName: "GME Loan",
+  brandName: "GME Finance",
   ceo: "Sung Jong-hwa",
   address: "Room 202, 203, 204, Building B, 150 Yeongdeungpo-ro, Yeongdeungpo-gu, Seoul (Dangsan-dong 1-ga, Idea Factory Dangsan) 07292",
   phone: "02-765-5555",

@@ -739,7 +739,7 @@
       "subtitle": "ทุกความต้องการทางการเงิ���ระดับโลกของคุณในที่เดียว",
       "title": "บริการ GME",
       "telecom": {
-        "title": "Telecom",
+        "title": "มือถือ",
         "desc": "แพ็กเกจมือถือราคาประหยัดเริ่มต้น ₩3,300/เดือน"
       }
     },
@@ -1635,9 +1635,9 @@
           "name": "สาขา Gimhae"
         },
         "12": {
-          "address": "7-2 Gwangsan-ro, Gwangsan-gu, Gwangju",
-          "hours": "เสาร์ - พุธ 10:00 - 19:00",
-          "name": "สาขา Gwangju"
+          "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+          "hours": "Weekdays & Weekends 10:00 - 19:00",
+          "name": "Pyeongtaek Branch"
         }
       },
       "hours": "เวลาทำการ",

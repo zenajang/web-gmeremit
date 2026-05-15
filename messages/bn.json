@@ -739,7 +739,7 @@
       "subtitle": "আপনার সমস্ত গ্লোবাল ফাইন্যান্স প্রয়োজন এক জায়গায়",
       "title": "GME সেবা",
       "telecom": {
-        "title": "Telecom",
+        "title": "মোবাইল",
         "desc": "প্রতি মাসে ₩৩,৩০০ থেকে শুরু হওয়া বাজেট মোবাইল প্ল্যান"
       }
     },
@@ -1635,9 +1635,9 @@
           "name": "গিমহে শাখা"
         },
         "12": {
-          "address": "7-2 Gwangsan-ro, Gwangsan-gu, Gwangju",
-          "hours": "শনিবার - বুধবার 10:00 - 19:00",
-          "name": "গোয়াংজু শাখা"
+          "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+          "hours": "Weekdays & Weekends 10:00 - 19:00",
+          "name": "Pyeongtaek Branch"
         }
       },
       "hours": "সময়সূচি",

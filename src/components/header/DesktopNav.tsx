@@ -177,31 +177,35 @@ export default function DesktopNav({
           {menuItems.map((item, index) => {
             const openWidth = 1024;
             const gap = 24;
-            const columnWidth = (openWidth - (gap * 3)) / 4; // 238px
+            const columnWidth = (openWidth - (gap * 3)) / 4;
+            const columnPaddingX = 24;
 
             let leftFromCenter = 0;
+            let isLeftAligned = false;
             if (openMenuIndex === null) {
               // Closed state - calculate centered positions
-              const closedGap = 180; // Spacing between menu items when closed
+              const closedGap = 180;
               const totalItems = menuItems.length;
               const itemSpacing = closedGap;
-              // Position items centered with equal spacing
               const totalSpacing = (totalItems - 1) * itemSpacing;
               const startOffset = -totalSpacing / 2;
               leftFromCenter = startOffset + index * itemSpacing;
             } else {
-              // Open state - positioned in grid columns
-              const columnCenterFromLeft = index * (columnWidth + gap) + columnWidth / 2;
-              leftFromCenter = columnCenterFromLeft - openWidth / 2;
+              const buttonPaddingX = 12;
+              const columnLeftContent = index * (columnWidth + gap) + columnPaddingX - buttonPaddingX;
+              leftFromCenter = columnLeftContent - openWidth / 2;
+              isLeftAligned = true;
             }
 
             return (
               <div
                 key={item.label}
-                className="absolute top-0 flex justify-center"
+                className="absolute top-0 flex justify-start"
                 style={{
                   left: "50%",
-                  transform: `translateX(calc(${leftFromCenter}px - 50%))`,
+                  transform: isLeftAligned
+                    ? `translateX(${leftFromCenter}px)`
+                    : `translateX(calc(${leftFromCenter}px - 50%))`,
                   transition: "transform 400ms cubic-bezier(0.4, 0, 0.2, 1), opacity 200ms ease-out",
                   whiteSpace: "nowrap",
                   opacity: 1,
@@ -268,7 +272,7 @@ export default function DesktopNav({
                         key={child.label}
                         href={child.href}
                         {...(child.href.startsWith("http") && { target: "_blank", rel: "noopener noreferrer" })}
-                        className="block text-base text-center text-gray-600 hover:text-primary transition-colors duration-250 ease-out"
+                        className="block text-base text-left text-gray-600 hover:text-primary transition-colors duration-250 ease-out"
                       >
                         {child.label}
                       </Link>

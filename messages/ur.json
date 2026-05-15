@@ -739,7 +739,7 @@
       "subtitle": "آپ کی تمام عالمی مالیاتی ضروریات ایک جگہ",
       "title": "GME خدمات",
       "telecom": {
-        "title": "Telecom",
+        "title": "موبائل",
         "desc": "₩3,300/ماہ سے شروع ہونے والے سستے موبائل پلانز"
       }
     },
@@ -1635,9 +1635,9 @@
           "name": "گِمہے برانچ"
         },
         "12": {
-          "address": "7-2 Gwangsan-ro, Gwangsan-gu, Gwangju",
-          "hours": "ہفتہ - بدھ 10:00 - 19:00",
-          "name": "گوانگ جو برانچ"
+          "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+          "hours": "Weekdays & Weekends 10:00 - 19:00",
+          "name": "Pyeongtaek Branch"
         }
       },
       "hours": "اوقات",

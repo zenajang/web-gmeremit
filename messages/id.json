@@ -739,7 +739,7 @@
       "subtitle": "Semua layanan keuangan global dalam satu tempat",
       "title": "Layanan GME",
       "telecom": {
-        "title": "Telecom",
+        "title": "Seluler",
         "desc": "Paket seluler hemat mulai dari ₩3.300/bulan"
       }
     },
@@ -1635,9 +1635,9 @@
           "name": "Cabang Gimhae"
         },
         "12": {
-          "address": "7-2 Gwangsan-ro, Gwangsan-gu, Gwangju",
-          "hours": "Sabtu - Rabu 10:00 - 19:00",
-          "name": "Cabang Gwangju"
+          "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+          "hours": "Weekdays & Weekends 10:00 - 19:00",
+          "name": "Pyeongtaek Branch"
         }
       },
       "hours": "Jam Operasional",

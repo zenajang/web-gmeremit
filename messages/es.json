@@ -733,7 +733,7 @@
       },
       "telecom": {
         "desc": "Planes móviles económicos desde 3.300 ₩/mes",
-        "title": "Telecom"
+        "title": "Móvil"
       },
       "related_services": "Servicios relacionados",
       "subtitle": "Todas tus necesidades financieras globales en un solo lugar",
@@ -1730,6 +1730,11 @@
           "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (Frente a Top Mart)",
           "hours": "Entre semana y fines de semana 10:00 - 19:00",
           "name": "Sucursal Gimhae"
+        },
+        "12": {
+          "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+          "hours": "Weekdays & Weekends 10:00 - 19:00",
+          "name": "Pyeongtaek Branch"
         }
       },
       "hours": "Horario",

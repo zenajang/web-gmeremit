@@ -733,7 +733,7 @@
       },
       "telecom": {
         "desc": "خطط جوال اقتصادية تبدأ من 3,300 ₩/شهر",
-        "title": "اتصالات"
+        "title": "الجوال"
       },
       "related_services": "الخدمات ذات الصلة",
       "subtitle": "جميع احتياجاتك المالية العالمية في مكان واحد",
@@ -1730,6 +1730,11 @@
           "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (مقابل Top Mart)",
           "hours": "أيام الأسبوع وعطلات نهاية الأسبوع 10:00 - 19:00",
           "name": "فرع Gimhae"
+        },
+        "12": {
+          "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+          "hours": "Weekdays & Weekends 10:00 - 19:00",
+          "name": "Pyeongtaek Branch"
         }
       },
       "hours": "ساعات العمل",

@@ -79,7 +79,7 @@
       "title": "GME Payment Service Features"
     },
     "hero": {
-      "badge": "REDUCE COST ON BUSINESS TRANSFERS",
+      "badge": "B2B PAYMENTS",
       "cta_contact": "Contact Sales",
       "cta_docs": "View API Docs",
       "description": "Creating value together by reshaping payments with collaboration. Reduce costs on business transfers and grow your global business.",
@@ -162,7 +162,7 @@
     }
   },
   "button": {
-    "app_download": "App Download"
+    "app_download": "Download App"
   },
   "card": {
     "cards": {
@@ -708,7 +708,7 @@
       },
       "easy_loan": {
         "desc": "100% paperless loan with same-day approval",
-        "title": "Easy Loan"
+        "title": "Finance"
       },
       "gift_coupons": {
         "desc": "Send digital gift coupons using reward points",
@@ -716,7 +716,7 @@
       },
       "gme_card": {
         "desc": "Pay, withdraw, and manage your money worldwide",
-        "title": "GME Card"
+        "title": "Card"
       },
       "learn_more": "Learn More",
       "mobile_topup": {
@@ -729,11 +729,11 @@
       },
       "personal_remittance": {
         "desc": "Send money locally or globally with multi-language support",
-        "title": "Remittance"
+        "title": "Remit"
       },
       "telecom": {
         "desc": "Budget mobile plans starting from ₩3,300/month",
-        "title": "Telecom"
+        "title": "Mobile"
       },
       "related_services": "Related Services",
       "subtitle": "All your global finance needs in one place",
@@ -776,12 +776,12 @@
       "ceo_message": "CEO's Message",
       "company": "Company",
       "history": "History",
-      "loan": "Loan",
+      "loan": "Finance",
       "news": "News",
       "notice": "Notice",
-      "payments": "Payments (B2B)",
+      "payments": "B2B Payments",
       "press": "News / Press",
-      "remittance": "Remittance",
+      "remittance": "Remit",
       "telecom": "Mobile",
       "services": "Services",
       "services_menu": "Services",
@@ -950,7 +950,7 @@
       }
     },
     "hero": {
-      "badge": "Excellent Remittance Service",
+      "badge": "Excellent Remit Service",
       "button": {
         "learn_more": "Learn More"
       },
@@ -1169,7 +1169,7 @@
         "realtime": "Real-time",
         "subtitle": "200+ countries supported",
         "title": "Supported Countries",
-        "view_all": "Learn About Remittance"
+        "view_all": "Learn About Remit"
       },
       "description1": "Send to 200+ countries, all Korean banks in real-time.",
       "description2": "Safe with 70 global partners and E-KYC verification.",
@@ -1181,12 +1181,12 @@
         "trillion": "trillion KRW"
       },
       "title1": "Fast and Secure",
-      "title2": "International Remittance"
+      "title2": "International Remit"
     },
     "loan": {
       "button": {
-        "apply": "Apply for Loan in GME App",
-        "detail": "Learn more about Loan"
+        "apply": "Apply for Finance in GME App",
+        "detail": "Learn more about Finance"
       },
       "card": {
         "quick_apply": "Quick Apply",
@@ -1218,14 +1218,14 @@
       },
       "stats": {
         "desc": "1M+ Successful Loans · 14 Countries",
-        "title": "Cumulative Loan Performance",
+        "title": "Cumulative Finance Performance",
         "value": "₩500B+"
       },
-      "title": "Online Loan"
+      "title": "GME Finance"
     },
     "remittance": {
       "button": {
-        "detail": "Learn more about Remittance"
+        "detail": "Learn more about Remit"
       },
       "description": "Send money fast and safely to 200+ countries.",
       "features": {
@@ -1258,10 +1258,10 @@
           "title": "Easy & Secure"
         }
       },
-      "title": "Overseas Remittance"
+      "title": "Overseas Remit"
     },
     "section_nav": {
-      "app_download": "App Download",
+      "app_download": "Download App",
       "exchange": "Exchange Calculator",
       "home": "Home",
       "services": "Services",
@@ -1277,7 +1277,7 @@
         "desc1": "Quick approval and flexible terms",
         "desc2": "Digital loan service",
         "estimated_limit": "Estimated Limit",
-        "title": "Online Loan"
+        "title": "Finance"
       },
       "mobile": {
         "desc1": "Budget mobile plans starting",
@@ -1292,7 +1292,7 @@
       "remittance": {
         "desc1": "Send money fast and safely",
         "desc2": "to 200+ countries.",
-        "title": "Overseas Remittance"
+        "title": "Overseas Remit"
       },
       "title1": "Explore GME's",
       "title2": "Various Services"
@@ -1311,8 +1311,8 @@
     "cta": {
       "button": "Download App",
       "description": "Get the funds you need quickly with easy mobile application.",
-      "title": "Start Your Loan with GME App Today",
-      "inline_notice": "ⓘ Clicking the button below will connect you to the loan service provided by GME Finance."
+      "title": "Start Your Finance with GME App Today",
+      "inline_notice": "ⓘ Clicking the button will direct you to install the GME Remit App, where you can access our loan services."
     },
     "disclosure": {
       "banner": "The loan products introduced on this page are provided by GME Finance (a separate legal entity). GME Finance is solely responsible for all aspects of the loan service including consultation, review, contract, and after-sales service. GME Remit only provides product information and connection features.",
@@ -1386,14 +1386,14 @@
     },
     "hero": {
       "badge": "GME FINANCE",
-      "cta": "View Loan Products",
+      "cta": "View Finance Products",
       "description": "Apply for a loan easily with the GME app. We support your life in Korea with fast approvals and flexible terms.",
-      "title1": "Loan Services",
+      "title1": "Finance Services",
       "title2": "for Foreigners"
     },
     "process": {
       "step1": {
-        "desc": "Download GME App in Google Play Store or App Store. Register and Apply Loan.",
+        "desc": "Download GME App in Google Play Store or App Store. Register and Apply Finance.",
         "title": "Apply Through GME App"
       },
       "step2": {
@@ -1413,7 +1413,7 @@
         "title": "Disbursements"
       },
       "subtitle": "5 Step Applying Process",
-      "title": "Simple Loan Application"
+      "title": "Simple Finance Application"
     },
     "products": {
       "business_loan": {
@@ -1426,7 +1426,7 @@
       },
       "gme_loan": {
         "desc": "General living expenses",
-        "name": "GME Loan"
+        "name": "GME Finance"
       },
       "house_loan": {
         "desc": "Jeonse & rent deposit",
@@ -1441,7 +1441,7 @@
         "name": "Student Loan"
       },
       "subtitle": "Compare and choose the loan product that fits your needs.",
-      "title": "Loan Products",
+      "title": "Finance Products",
       "title2": "Tailored for You",
       "vacation_loan": {
         "desc": "Travel & vacation funds",
@@ -1474,7 +1474,7 @@
         "desc": "Customer Support",
         "title": "24/7"
       },
-      "title": "Why Choose GME Loan?"
+      "title": "Why Choose GME Finance?"
     }
   },
   "telecom": {
@@ -1683,8 +1683,8 @@
           "title": "Secure Verification"
         }
       },
-      "subtitle": "Why GME Remittance",
-      "title": "A Trusted Global Remittance Service"
+      "subtitle": "Why GME Remit",
+      "title": "A Trusted Global Remit Service"
     }
   },
   "support": {
@@ -1730,6 +1730,11 @@
           "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (Across from Top Mart)",
           "hours": "Weekdays & Weekends 10:00 - 19:00",
           "name": "Gimhae Branch"
+        },
+        "12": {
+          "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+          "hours": "Weekdays & Weekends 10:00 - 19:00",
+          "name": "Pyeongtaek Branch"
         }
       },
       "hours": "Hours",

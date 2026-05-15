@@ -57,7 +57,7 @@ export default function LoanPage() {
           </div>
         </section>
 
-        {/* ── Why Choose GME Loan ── */}
+        {/* ── Why Choose GME Finance ── */}
         <section ref={registerSectionRef(0)} className="py-20 lg:py-28 fade-section">
           <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
@@ -168,7 +168,7 @@ export default function LoanPage() {
               {productKeys.map((key) => (
                 <div
                   key={key}
-                  className="bg-loan/[0.08] rounded-2xl p-5 hover:bg-loan/[0.15] hover:border-loan/20 border border-transparent transition-all duration-200 fade-step text-center"
+                  className="bg-loan/[0.08] rounded-2xl p-5 border border-transparent fade-step text-center"
                 >
                   <h3 className="text-[17px] font-bold text-dark mb-1">
                     {t(`products.${key}.name`)}

@@ -15,7 +15,7 @@ export const customerFeedbacks: CustomerFeedback[] = [
   {
     quote: "I was amazed at how simple it was to apply for a loan with GME. Their flexible terms and great customer service made all the difference.",
     name: "Yin Zaw",
-    meta: "GME Loan",
+    meta: "GME Finance",
     tagKey: "satisfied",
   },
   {

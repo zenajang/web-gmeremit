@@ -36,6 +36,7 @@ yarn-error.log*
 # docs
 REFACTORING.md
 /docs/
+CLAUDE.local.md
 
 # vercel
 .vercel

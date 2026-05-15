@@ -79,10 +79,27 @@ function downloadToFile(url, filePath) {
   });
 }
 
+async function waitForQueuedProcess(client, projectId, processId, { timeoutMs = 5 * 60 * 1000, intervalMs = 2000 } = {}) {
+  const start = Date.now();
+  while (true) {
+    const proc = await client.queuedProcesses().get(processId, { project_id: projectId });
+    if (proc.status === "finished") return proc;
+    if (proc.status === "failed" || proc.status === "cancelled") {
+      throw new Error(`Lokalise process ${processId} ${proc.status}: ${proc.message || "no message"}`);
+    }
+    if (Date.now() - start > timeoutMs) {
+      throw new Error(`Lokalise process ${processId} timed out after ${timeoutMs / 1000}s (last status: ${proc.status})`);
+    }
+    process.stdout.write(".");
+    await new Promise((resolve) => setTimeout(resolve, intervalMs));
+  }
+}
+
 async function pull(client, projectId) {
   const tmpZip = path.join(ROOT, ".lokalise-download.zip");
 
-  const process = await client.files().download(projectId, {
+  console.log("⏳ Requesting async export from Lokalise...");
+  const queued = await client.files().async_download(projectId, {
     format: "json",
     original_filenames: true,
     directory_prefix: "messages/",
@@ -91,9 +108,38 @@ async function pull(client, projectId) {
     include_description: false,
   });
 
-  await downloadToFile(process.bundle_url, tmpZip);
+  console.log(`⏳ Waiting for export (process ${queued.process_id})`);
+  const finished = await waitForQueuedProcess(client, projectId, queued.process_id);
+  process.stdout.write("\n");
+
+  const downloadUrl = finished.details?.download_url;
+  if (!downloadUrl) {
+    throw new Error("Lokalise async export finished but no download_url was returned");
+  }
+
+  await downloadToFile(downloadUrl, tmpZip);
   execSync(`unzip -o ${JSON.stringify(tmpZip)} -d ${JSON.stringify(ROOT)}`, { stdio: "inherit" });
   fs.unlinkSync(tmpZip);
+
+  // Lokalise downloads files as %LANG_ISO%.json (e.g. fr_FR.json, ja_JP.json),
+  // but the codebase imports short codes (fr.json, ja.json). Rename to short codes.
+  // Build a reverse map: full lang_iso -> short code.
+  const reverseMap = {};
+  for (const [shortCode, candidates] of Object.entries(LANG_ISO_MAP)) {
+    for (const c of candidates) reverseMap[c] = shortCode;
+  }
+
+  const downloaded = fs.readdirSync(MESSAGES_DIR).filter((f) => f.endsWith(".json"));
+  for (const filename of downloaded) {
+    const langIso = filename.replace(/\.json$/, "");
+    const shortCode = reverseMap[langIso];
+    if (!shortCode || shortCode === langIso) continue;
+    const from = path.join(MESSAGES_DIR, filename);
+    const to = path.join(MESSAGES_DIR, `${shortCode}.json`);
+    fs.renameSync(from, to);
+    console.log(`📝 Renamed ${filename} → ${shortCode}.json`);
+  }
+
   console.log("✅ Pulled translations from Lokalise into messages/*.json");
 }
 

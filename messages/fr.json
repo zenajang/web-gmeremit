@@ -733,7 +733,7 @@
       },
       "telecom": {
         "desc": "Forfaits mobiles économiques à partir de 3 300 ₩/mois",
-        "title": "Télécom"
+        "title": "Mobile"
       },
       "related_services": "Services associés",
       "subtitle": "Tous vos besoins financiers mondiaux en un seul endroit",
@@ -1730,6 +1730,11 @@
           "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (En face de Top Mart)",
           "hours": "Semaine & week-ends 10h00 - 19h00",
           "name": "Agence Gimhae"
+        },
+        "12": {
+          "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+          "hours": "Weekdays & Weekends 10:00 - 19:00",
+          "name": "Pyeongtaek Branch"
         }
       },
       "hours": "Horaires",

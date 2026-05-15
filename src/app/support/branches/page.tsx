@@ -108,8 +108,8 @@ export default function BranchesPage() {
         </div>
 
         {/* 지점 이미지 */}
-        {selectedBranch.image && (
-          <div className="hidden sm:block rounded-2xl overflow-hidden">
+        <div className="hidden sm:block rounded-2xl overflow-hidden">
+          {selectedBranch.image ? (
             <Image
               src={selectedBranch.image}
               alt={selectedBranch.name}
@@ -117,8 +117,19 @@ export default function BranchesPage() {
               height={176}
               className="w-full h-40 lg:h-64 object-cover"
             />
-          </div>
-        )}
+          ) : (
+            <div
+              className="w-full h-40 lg:h-64 flex flex-col items-center justify-center gap-3 bg-gray-100"
+              role="img"
+              aria-label={`${selectedBranch.name} — No image available`}
+            >
+              <HiLocationMarker className="w-16 h-16 lg:w-24 lg:h-24 text-primary/60" />
+              <p className="text-xs lg:text-sm font-semibold text-gray-400 tracking-[0.2em] uppercase">
+                No Image
+              </p>
+            </div>
+          )}
+        </div>
 
         {/* 지점 정보 카드 */}
         <div className="bg-gray-50 rounded-2xl p-5 lg:p-6">

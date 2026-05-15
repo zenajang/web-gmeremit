@@ -18,10 +18,10 @@ export const menuItemDefs: MenuItemDef[] = [
     labelKey: "nav.services_menu",
     children: [
       { labelKey: "nav.remittance", href: "/services/remittance" },
-      { labelKey: "nav.payments", href: "/services/payments" },
-      { labelKey: "nav.card", href: "/services/card" },
-      { labelKey: "nav.telecom", href: "/services/telecom" },
       { labelKey: "nav.loan", href: "/services/loan" },
+      { labelKey: "nav.card", href: "/services/card" },
+      { labelKey: "nav.payments", href: "/services/payments" },
+      { labelKey: "nav.telecom", href: "/services/telecom" },
     ],
   },
   {

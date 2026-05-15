@@ -739,7 +739,7 @@
       "subtitle": "グローバル金融のすべてをワンストップで",
       "title": "GMEサービス",
       "telecom": {
-        "title": "Telecom",
+        "title": "モバイル",
         "desc": "月額3,300ウォンから利用できる格安モバイルサービス"
       }
     },
@@ -1635,9 +1635,9 @@
           "name": "金海支店"
         },
         "12": {
-          "address": "光州広域市光山区光山路7-2",
-          "hours": "土～水 10:00 - 19:00",
-          "name": "光州支店"
+          "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+          "hours": "Weekdays & Weekends 10:00 - 19:00",
+          "name": "Pyeongtaek Branch"
         }
       },
       "hours": "営業時間",

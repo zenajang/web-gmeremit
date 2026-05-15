@@ -741,7 +741,7 @@
       "subtitle": "Таны дэлхийн санхүүгийн хэрэгцээ бүгд нэг дор",
       "title": "GME үйлчилгээ",
       "telecom": {
-        "title": "Telecom",
+        "title": "Мобайл",
         "desc": "Сард 3,300 ваноос эхлэх хямд утасны үйлчилгээ"
       }
     },
@@ -1637,9 +1637,9 @@
           "name": "Gimhae салбар"
         },
         "12": {
-          "address": "7-2 Gwangsan-ro, Gwangsan-gu, Gwangju",
-          "hours": "Бямба - Лхагва 10:00 - 19:00",
-          "name": "Gwangju салбар"
+          "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+          "hours": "Weekdays & Weekends 10:00 - 19:00",
+          "name": "Pyeongtaek Branch"
         }
       },
       "hours": "Цаг",
