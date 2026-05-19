@@ -45,5 +45,8 @@ CLAUDE.local.md
 *.tsbuildinfo
 next-env.d.ts
 
-#md 
+#md
 /AGENTS.md
+
+# claude skills (개인 워크플로우, 커밋 제외)
+.claude/skills/
