@@ -64,7 +64,7 @@ export default function RemittancePage() {
                 style={{ objectPosition: "100% 20%" }}
               />
               {/* Stats overlay */}
-              <div className="absolute inset-0 bg-gradient-to-r from-black/35 via-black/5 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-r from-black/35 via-black/5 via-30% to-transparent to-65%" />
               <div className="absolute bottom-6 left-6 sm:bottom-8 sm:left-8 lg:bottom-10 lg:left-10 flex flex-col gap-4">
                 <div>
                   <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">{t("stats.achieved.value")}</p>
