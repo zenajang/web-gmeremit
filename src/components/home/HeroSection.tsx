@@ -479,7 +479,7 @@ export default function HeroSection() {
                       <span className="w-1.5 h-1.5 rounded-full bg-gray-300 shrink-0" />
                       <span className="text-neutral-500">{t("calculator.fee")}</span>
                       <span className="ml-auto font-semibold text-dark tabular-nums">
-                        {serviceCharge || "0"} KRW
+                        {Number((serviceCharge || "0").replace(/,/g, "")).toLocaleString("ko-KR", { maximumFractionDigits: 0 })} KRW
                       </span>
                     </div>
                     <div className="flex items-center gap-2.5">
