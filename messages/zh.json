@@ -898,7 +898,11 @@
           "33": "bKash",
           "34": "Rocket",
           "35": "Nagad",
-          "37": "QR 支付"
+          "37": "QR 支付",
+          "15": "Bank Deposit (USD)",
+          "26": "UZCARD",
+          "27": "HUMO Card",
+          "38": "Korti Milli"
         }
       },
       "description1": "200多个国家的实时汇率。",

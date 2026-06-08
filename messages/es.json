@@ -894,7 +894,11 @@
           "33": "bKash",
           "34": "Rocket",
           "35": "Nagad",
-          "37": "QR Pay"
+          "37": "QR Pay",
+          "15": "Bank Deposit (USD)",
+          "26": "UZCARD",
+          "27": "HUMO Card",
+          "38": "Korti Milli"
         }
       },
       "description1": "Tipos de cambio en tiempo real para más de 200 países.",

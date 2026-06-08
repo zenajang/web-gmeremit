@@ -898,7 +898,11 @@
           "33": "bKash",
           "34": "Rocket",
           "35": "Nagad",
-          "37": "Pembayaran QR"
+          "37": "Pembayaran QR",
+          "15": "Bank Deposit (USD)",
+          "26": "UZCARD",
+          "27": "HUMO Card",
+          "38": "Korti Milli"
         }
       },
       "description1": "Kurs real-time untuk 200+ negara.",

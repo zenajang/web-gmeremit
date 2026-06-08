@@ -898,7 +898,11 @@
           "33": "bKash",
           "34": "Rocket",
           "35": "Nagad",
-          "37": "Thanh toán QR"
+          "37": "Thanh toán QR",
+          "15": "Bank Deposit (USD)",
+          "26": "UZCARD",
+          "27": "HUMO Card",
+          "38": "Korti Milli"
         }
       },
       "description1": "Tỷ giá thời gian thực cho hơn 200 quốc gia.",
