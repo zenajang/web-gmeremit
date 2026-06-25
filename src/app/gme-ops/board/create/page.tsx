@@ -11,7 +11,7 @@ import {
   buildBoardSubmissionFormData,
   createImagePreview,
 } from '@/lib/board-admin'
-import { createBoardEntryAction } from '@/app/gme-backoffice/board/actions'
+import { createBoardEntryAction } from '@/app/gme-ops/board/actions'
 
 export default function CreateBoardEntryPage() {
   const router = useRouter()
@@ -62,7 +62,7 @@ export default function CreateBoardEntryPage() {
       }
 
       toast.success('게시글이 등록되었습니다.')
-      setTimeout(() => router.push('/gme-backoffice/dashboard'), 800)
+      setTimeout(() => router.push('/gme-ops/dashboard'), 800)
     } catch {
       toast.error('게시글 등록 중 오류가 발생했습니다.')
     } finally {
@@ -74,7 +74,7 @@ export default function CreateBoardEntryPage() {
     <div>
       <div className="mb-8">
         <Link
-          href="/gme-backoffice/dashboard"
+          href="/gme-ops/dashboard"
           className="inline-flex items-center gap-1.5 text-[13px] text-gray-400 hover:text-gray-600 mb-5 transition-colors"
         >
           <HiArrowLeft className="w-4 h-4" />

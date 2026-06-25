@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { useState, useTransition } from 'react'
 import { useToast, useConfirm } from '@/components/ui/Toast'
 import type { BoardCounts, BoardEntry } from '@/types/board'
-import { deleteBoardEntryAction } from '@/app/gme-backoffice/board/actions'
+import { deleteBoardEntryAction } from '@/app/gme-ops/board/actions'
 import {
   HiPlus,
   HiPencil,
@@ -38,7 +38,7 @@ export default function AdminDashboardClient({
   const handleFilterChange = (filter: 'all' | 'notice' | 'press' | 'blog') => {
     startTransition(() => {
       router.push(
-        filter === 'all' ? '/gme-backoffice/dashboard' : `/gme-backoffice/dashboard?filter=${filter}`
+        filter === 'all' ? '/gme-ops/dashboard' : `/gme-ops/dashboard?filter=${filter}`
       )
     })
   }
@@ -162,7 +162,7 @@ export default function AdminDashboardClient({
         </div>
 
         <Link
-          href="/gme-backoffice/board/create"
+          href="/gme-ops/board/create"
           className="flex items-center gap-2 px-5 py-2.5 bg-primary-dark text-white text-[14px] font-semibold rounded-xl hover:bg-primary transition-all shadow-[0_2px_8px_rgba(237,28,36,0.25)]"
         >
           <HiPlus className="w-4 h-4" />
@@ -210,7 +210,7 @@ export default function AdminDashboardClient({
                     <HiEye className="w-4 h-4" />
                   </Link>
                   <Link
-                    href={`/gme-backoffice/board/edit/${entry.id}`}
+                    href={`/gme-ops/board/edit/${entry.id}`}
                     className="p-2 text-gray-400 hover:text-green-500 hover:bg-green-50 rounded-lg transition-all"
                     title="수정"
                   >

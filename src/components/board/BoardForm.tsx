@@ -262,7 +262,7 @@ export default function BoardForm({
           <Button type="submit" disabled={submitting} className="disabled:opacity-50 disabled:cursor-not-allowed shadow-[0_2px_8px_rgba(237,28,36,0.25)]">
             {submitting ? submittingLabel : submitLabel}
           </Button>
-          <Button as="link" href="/gme-backoffice/dashboard" variant="secondary">
+          <Button as="link" href="/gme-ops/dashboard" variant="secondary">
             취소
           </Button>
         </div>

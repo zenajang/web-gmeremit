@@ -19,7 +19,7 @@ export default async function EditBoardEntryPage({
   } = await supabase.auth.getUser()
 
   if (!user) {
-    redirect('/gme-backoffice/login')
+    redirect('/gme-ops/login')
   }
 
   let entry
@@ -27,7 +27,7 @@ export default async function EditBoardEntryPage({
   try {
     entry = await fetchBoardEntryById(supabase, id)
   } catch {
-    redirect('/gme-backoffice/dashboard')
+    redirect('/gme-ops/dashboard')
   }
 
   return (

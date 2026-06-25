@@ -21,18 +21,18 @@ export default function AdminLayout({
   const router = useRouter()
   const pathname = usePathname()
 
-  if (pathname === '/gme-backoffice/login') {
+  if (pathname === '/gme-ops/login') {
     return <ToastProvider>{children}</ToastProvider>
   }
 
   const handleSignOut = async () => {
     await signOut()
-    router.push('/gme-backoffice/login')
+    router.push('/gme-ops/login')
   }
 
   const navItems = [
-    { href: '/gme-backoffice/dashboard', icon: HiOutlineHome, label: '게시글 관리' },
-    { href: '/gme-backoffice/board/create', icon: HiOutlinePlusCircle, label: '새 게시글' },
+    { href: '/gme-ops/dashboard', icon: HiOutlineHome, label: '게시글 관리' },
+    { href: '/gme-ops/board/create', icon: HiOutlinePlusCircle, label: '새 게시글' },
   ]
 
   return (
@@ -53,7 +53,7 @@ export default function AdminLayout({
         {/* Navigation */}
         <nav className="flex-1 px-3 py-4 space-y-1">
           {navItems.map((item) => {
-            const isActive = pathname === item.href || (item.href === '/gme-backoffice/dashboard' && pathname.startsWith('/gme-backoffice/board/edit'))
+            const isActive = pathname === item.href || (item.href === '/gme-ops/dashboard' && pathname.startsWith('/gme-ops/board/edit'))
             return (
               <Link
                 key={item.href}

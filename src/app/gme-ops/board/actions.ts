@@ -51,7 +51,7 @@ async function ensureAuthenticated() {
 }
 
 function revalidateBoardPaths() {
-  revalidatePath('/gme-backoffice/dashboard')
+  revalidatePath('/gme-ops/dashboard')
   revalidatePath('/board')
   revalidatePath('/board/notice')
   revalidatePath('/board/press')

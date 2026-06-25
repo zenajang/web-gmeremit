@@ -22,7 +22,7 @@ export default async function AdminDashboardPage({ searchParams }: DashboardPage
   } = await supabase.auth.getUser()
 
   if (!user) {
-    redirect('/gme-backoffice/login')
+    redirect('/gme-ops/login')
   }
 
   const [entries, totalCounts] = await Promise.all([
