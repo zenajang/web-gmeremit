@@ -115,7 +115,7 @@
         "title": "SPS + VAS"
       },
       "step2": {
-        "description": "developers.gmeremit.com पर हमारे API दस्तावेज़ का उपयोग करके अपना सिस्टम कनेक्ट करें।",
+        "description": "हमारे API दस्तावेज़ का उपयोग करके अपना सिस्टम कनेक्ट करें।",
         "title": "API इंटीग्रेशन"
       },
       "step3": {

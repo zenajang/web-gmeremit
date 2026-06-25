@@ -5,7 +5,7 @@ import { useTranslation } from "@/hooks/useTranslation";
 interface ServiceHeroProps {
   translationKey: string;
   color: "primary" | "loan" | "payments" | "purple";
-  ctaHref: string;
+  ctaHref?: string;
   ctaTextKey?: string;
   isExternal?: boolean;
   gradientVia?: string;
@@ -79,22 +79,24 @@ export default function ServiceHeroSection({
               {t("hero.description")}
             </p>
           </div>
-          <a
-            href={ctaHref}
-            {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
-            className={`inline-flex items-center gap-2 px-5 py-2.5 ${styles.bg} text-white text-sm font-semibold rounded-lg ${styles.hover} transition-colors shrink-0`}
-          >
-            {t(ctaTextKey)}
-            {isExternal ? (
-              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
-              </svg>
-            ) : (
-              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
-              </svg>
-            )}
-          </a>
+          {ctaHref && (
+            <a
+              href={ctaHref}
+              {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
+              className={`inline-flex items-center gap-2 px-5 py-2.5 ${styles.bg} text-white text-sm font-semibold rounded-lg ${styles.hover} transition-colors shrink-0`}
+            >
+              {t(ctaTextKey)}
+              {isExternal ? (
+                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+              ) : (
+                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+                </svg>
+              )}
+            </a>
+          )}
         </div>
       </div>
     </section>
