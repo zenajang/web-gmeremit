@@ -22,8 +22,7 @@ export async function middleware(req: NextRequest) {
   if (!req.nextUrl.pathname.startsWith('/gme-ops')) return NextResponse.next();
 
   if (!isIpAllowed(req)) {
-    return new NextResponse(null, {
-      status: 404,
+    return NextResponse.rewrite(new URL('/404-ip-restricted', req.url), {
       headers: { 'X-Robots-Tag': 'noindex, nofollow' },
     });
   }
