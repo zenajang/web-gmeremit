@@ -755,7 +755,8 @@
       "email_support": "Demandes : support@gmeremit.com",
       "fax": "Fax : (+82) 2 3674 5559",
       "phone_foreigner": "(+82) 02-1588-6864 (Étrangers)",
-      "phone_general": "02-3673-5559 (Demandes générales)",
+      "remittance_inquiry": "Questions sur les transferts d'argent",
+      "phone_general": "Recrutement, Protection des consommateurs, Partenariat/Collaboration : 02-3673-5599",
       "phone_korean": "02-1811-2961 (Coréen, demandes de transfert)"
     },
     "link": {

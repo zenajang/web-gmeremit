@@ -759,7 +759,8 @@
       "email_support": "お問い合わせ：support@gmeremit.com",
       "fax": "FAX：(+82) 2 3674 5559",
       "phone_foreigner": "(+82) 02-1588-6864（外国人向け）",
-      "phone_general": "02-3673-5559（一般のお問い合わせ）",
+      "remittance_inquiry": "送金に関するお問い合わせ",
+      "phone_general": "採用、消費者保護、パートナー/協業のお問い合わせ : 02-3673-5599",
       "phone_korean": "02-1811-2961（韓国語、送金のお問い合わせ）"
     },
     "link": {

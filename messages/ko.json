@@ -753,7 +753,8 @@
       "email_support": "Queries: support@gmeremit.com",
       "fax": "팩스 : (+82) 2 3674 5559",
       "phone_foreigner": "(+82) 02-1588-6864 (Foreigner)",
-      "phone_general": "02-3673-5559 (송금 서비스 외 회사 문의)",
+      "remittance_inquiry": "송금 서비스 관련 문의",
+      "phone_general": "채용, 소비자보호, 파트너/협업 문의 : 02-3673-5599",
       "phone_korean": "02-1811-2961 (Korean, 송금 서비스 관련 문의)"
     },
     "link": {
