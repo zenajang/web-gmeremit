@@ -1,28 +1,51 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const GME_API_URL = "https://online.gmeremit.com/Default.aspx";
+const API_URL =
+  process.env.EXCHANGE_RATE_API_URL ??
+  "https://preprod-online.gmeremit.com/api/v1/calculateExRate";
+
+interface ExRateRequestBody {
+  pCurr: string;
+  pCountryName: string;
+  cAmt?: string;
+  pAmt?: string;
+  deliveryMethod?: string | number;
+  calBy?: string;
+}
 
 export async function POST(request: NextRequest) {
   try {
-    const body = await request.json();
-    const { pCurr, pCountryName, cAmt, pAmt, deliveryMethod = "2", calBy = "C" } = body;
+    const apiKey = process.env.EXCHANGE_RATE_API_KEY;
+    if (!apiKey) {
+      return NextResponse.json(
+        { errorCode: "999", msg: "Exchange rate API key is not configured" },
+        { status: 500 }
+      );
+    }
 
-    const params = new URLSearchParams({
-      method: "GetExRate",
+    const { pCurr, pCountryName, cAmt, pAmt, deliveryMethod, calBy }: ExRateRequestBody =
+      await request.json();
+
+    const by = String(calBy).toLowerCase() === "p" ? "p" : "c";
+    const amount = Number((by === "c" ? cAmt : pAmt)?.toString().replace(/,/g, "") || "0");
+
+    const payload = {
       pCurr,
       pCountryName,
-      collCurr: "KRW", 
-      deliveryMethod,
-      cAmt: cAmt || "",
-      pAmt: pAmt || "",
-      cardOnline: "false",
-      calBy,
-    });
+      collCurr: "KRW",
+      deliveryMethod: Number(deliveryMethod) || 1,
+      cardOnline: false,
+      calBy: by,
+      ...(by === "c" ? { cAmt: amount } : { pAmt: amount }),
+    };
 
-    const res = await fetch(GME_API_URL, {
+    const res = await fetch(API_URL, {
       method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: params.toString(),
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: apiKey,
+      },
+      body: JSON.stringify(payload),
     });
 
     const data = await res.json();
