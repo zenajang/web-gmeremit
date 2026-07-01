@@ -63,7 +63,7 @@ export const countryConfigs: CountryConfig[] = [
     { code: "BHD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "BD", countryName: "Bangladesh", flag: "🇧🇩", currencies: [
-    { code: "BDT", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "1", label: "CASH PAYMENT" }, { key: "33", label: "BKASH" }, { key: "35", label: "NAGAD" }, { key: "34", label: "ROCKET" }] },
+    { code: "BDT", payoutMethods: [{ key: "33", label: "BKASH" }, { key: "35", label: "NAGAD" }, { key: "34", label: "ROCKET" }, { key: "2", label: "BANK DEPOSIT" }, { key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "BB", countryName: "Barbados", flag: "🇧🇧", currencies: [
     { code: "BBD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }] },
@@ -137,7 +137,7 @@ export const countryConfigs: CountryConfig[] = [
     { code: "CLP", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "2", label: "BANK DEPOSIT" }, { key: "19", label: "VISA/MASTERCARD" }] },
   ] },
   { countryCode: "CN", countryName: "China", flag: "🇨🇳", currencies: [
-    { code: "CNY", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "16", label: "WECHAT" }, { key: "17", label: "ALIPAY WALLET" }, { key: "1", label: "CASH PAYMENT" }, { key: "18", label: "VISA/MASTERCARD/UNIONPAY" }] },
+    { code: "CNY", payoutMethods: [{ key: "17", label: "ALIPAY WALLET" }, { key: "16", label: "WECHAT" }, { key: "2", label: "BANK DEPOSIT" }, { key: "1", label: "CASH PAYMENT" }, { key: "18", label: "VISA/MASTERCARD/UNIONPAY" }] },
   ] },
   { countryCode: "CO", countryName: "Colombia", flag: "🇨🇴", currencies: [
     { code: "COP", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "2", label: "BANK DEPOSIT" }, { key: "19", label: "VISA/MASTERCARD" }] },
@@ -186,7 +186,7 @@ export const countryConfigs: CountryConfig[] = [
     { code: "USD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "EG", countryName: "Egypt", flag: "🇪🇬", currencies: [
-    { code: "EGP", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "13", label: "MOBILE WALLET" }] },
+    { code: "EGP", payoutMethods: [{ key: "13", label: "MOBILE WALLET" }, { key: "2", label: "BANK DEPOSIT" }] },
     { code: "USD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "15", label: "BANK DEPOSIT(USD)" }] },
   ] },
   { countryCode: "SV", countryName: "El Salvador", flag: "🇸🇻", currencies: [
@@ -234,7 +234,7 @@ export const countryConfigs: CountryConfig[] = [
     { code: "EUR", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "GH", countryName: "Ghana", flag: "🇬🇭", currencies: [
-    { code: "GHS", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "13", label: "MOBILE WALLET" }, { key: "1", label: "CASH PAYMENT" }] },
+    { code: "GHS", payoutMethods: [{ key: "13", label: "MOBILE WALLET" }, { key: "2", label: "BANK DEPOSIT" }, { key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "GI", countryName: "Gibraltar", flag: "🇬🇮", currencies: [
     { code: "GBP", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }] },
@@ -264,8 +264,8 @@ export const countryConfigs: CountryConfig[] = [
     { code: "GYD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "HT", countryName: "Haiti", flag: "🇭🇹", currencies: [
-    { code: "HTG", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "2", label: "BANK DEPOSIT" }] },
-    { code: "USD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "2", label: "BANK DEPOSIT" }, { key: "19", label: "VISA/MASTERCARD" }] },
+    { code: "HTG", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "1", label: "CASH PAYMENT" }] },
+    { code: "USD", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "1", label: "CASH PAYMENT" }, { key: "19", label: "VISA/MASTERCARD" }] },
   ] },
   { countryCode: "HN", countryName: "Honduras", flag: "🇭🇳", currencies: [
     { code: "HNL", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "19", label: "VISA/MASTERCARD" }] },
@@ -283,7 +283,7 @@ export const countryConfigs: CountryConfig[] = [
     { code: "ISK", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "IN", countryName: "India", flag: "🇮🇳", currencies: [
-    { code: "INR", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "1", label: "CASH PAYMENT" }, { key: "25", label: "UPI" }] },
+    { code: "INR", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "25", label: "UPI" }, { key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "ID", countryName: "Indonesia", flag: "🇮🇩", currencies: [
     { code: "IDR", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "13", label: "MOBILE WALLET" }, { key: "1", label: "CASH PAYMENT" }] },
@@ -328,7 +328,7 @@ export const countryConfigs: CountryConfig[] = [
     { code: "USD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "LA", countryName: "Laos", flag: "🇱🇦", currencies: [
-    { code: "LAK", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "2", label: "BANK DEPOSIT" }] },
+    { code: "LAK", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }] },
     { code: "USD", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }] },
   ] },
   { countryCode: "LV", countryName: "Latvia", flag: "🇱🇻", currencies: [
@@ -341,7 +341,6 @@ export const countryConfigs: CountryConfig[] = [
     { code: "USD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "LR", countryName: "Liberia", flag: "🇱🇷", currencies: [
-    { code: "LRD", payoutMethods: [{ key: "19", label: "VISA/MASTERCARD" }] },
     { code: "USD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "2", label: "BANK DEPOSIT" }, { key: "13", label: "MOBILE WALLET" }] },
   ] },
   { countryCode: "LY", countryName: "Libya", flag: "🇱🇾", currencies: [
@@ -420,19 +419,19 @@ export const countryConfigs: CountryConfig[] = [
     { code: "XCD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "MA", countryName: "Morocco", flag: "🇲🇦", currencies: [
-    { code: "MAD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "2", label: "BANK DEPOSIT" }, { key: "13", label: "MOBILE WALLET" }, { key: "19", label: "VISA/MASTERCARD" }] },
+    { code: "MAD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "2", label: "BANK DEPOSIT" }, { key: "13", label: "MOBILE WALLET" }] },
   ] },
   { countryCode: "MZ", countryName: "Mozambique", flag: "🇲🇿", currencies: [
     { code: "MZN", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "2", label: "BANK DEPOSIT" }] },
   ] },
   { countryCode: "MM", countryName: "Myanmar", flag: "🇲🇲", currencies: [
-    { code: "MMK", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "2", label: "BANK DEPOSIT" }, { key: "13", label: "MOBILE WALLET" }] },
+    { code: "MMK", payoutMethods: [{ key: "13", label: "MOBILE WALLET" }, { key: "2", label: "BANK DEPOSIT" }, { key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "NA", countryName: "Namibia", flag: "🇳🇦", currencies: [
     { code: "USD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "NP", countryName: "Nepal", flag: "🇳🇵", currencies: [
-    { code: "NPR", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "2", label: "BANK DEPOSIT" }, { key: "13", label: "MOBILE WALLET" }] },
+    { code: "NPR", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "1", label: "CASH PAYMENT" }, { key: "13", label: "MOBILE WALLET" }] },
   ] },
   { countryCode: "NL", countryName: "Netherlands", flag: "🇳🇱", currencies: [
     { code: "EUR", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "2", label: "BANK DEPOSIT" }] },
@@ -450,7 +449,7 @@ export const countryConfigs: CountryConfig[] = [
     { code: "XOF", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "NG", countryName: "Nigeria", flag: "🇳🇬", currencies: [
-    { code: "NGN", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "1", label: "CASH PAYMENT" }, { key: "19", label: "VISA/MASTERCARD" }] },
+    { code: "NGN", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "NO", countryName: "Norway", flag: "🇳🇴", currencies: [
     { code: "EUR", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }] },
@@ -478,7 +477,7 @@ export const countryConfigs: CountryConfig[] = [
     { code: "PEN", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "13", label: "MOBILE WALLET" }, { key: "2", label: "BANK DEPOSIT" }, { key: "19", label: "VISA/MASTERCARD" }] },
   ] },
   { countryCode: "PH", countryName: "Philippines", flag: "🇵🇭", currencies: [
-    { code: "PHP", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "2", label: "BANK DEPOSIT" }, { key: "13", label: "MOBILE WALLET" }] },
+    { code: "PHP", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "13", label: "MOBILE WALLET" }, { key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "PL", countryName: "Poland", flag: "🇵🇱", currencies: [
     { code: "EUR", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "1", label: "CASH PAYMENT" }] },
@@ -558,7 +557,7 @@ export const countryConfigs: CountryConfig[] = [
   ] },
   { countryCode: "ZA", countryName: "South Africa", flag: "🇿🇦", currencies: [
     { code: "USD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }] },
-    { code: "ZAR", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "19", label: "VISA/MASTERCARD" }] },
+    { code: "ZAR", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }] },
   ] },
   { countryCode: "SS", countryName: "South Sudan", flag: "🇸🇸", currencies: [
     { code: "USD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }] },
@@ -598,7 +597,7 @@ export const countryConfigs: CountryConfig[] = [
     { code: "THB", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "TL", countryName: "Timor-Leste", flag: "🇹🇱", currencies: [
-    { code: "USD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "2", label: "BANK DEPOSIT" }] },
+    { code: "USD", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "TG", countryName: "Togo", flag: "🇹🇬", currencies: [
     { code: "XOF", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "13", label: "MOBILE WALLET" }, { key: "2", label: "BANK DEPOSIT" }] },
@@ -627,7 +626,7 @@ export const countryConfigs: CountryConfig[] = [
     { code: "AUD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "UG", countryName: "Uganda", flag: "🇺🇬", currencies: [
-    { code: "UGX", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "2", label: "BANK DEPOSIT" }, { key: "13", label: "MOBILE WALLET" }] },
+    { code: "UGX", payoutMethods: [{ key: "13", label: "MOBILE WALLET" }, { key: "2", label: "BANK DEPOSIT" }, { key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "UA", countryName: "Ukraine", flag: "🇺🇦", currencies: [
     { code: "UAH", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }] },
@@ -637,7 +636,7 @@ export const countryConfigs: CountryConfig[] = [
     { code: "AED", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "2", label: "BANK DEPOSIT" }, { key: "19", label: "VISA/MASTERCARD" }] },
   ] },
   { countryCode: "US", countryName: "United States", flag: "🇺🇸", currencies: [
-    { code: "USD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "2", label: "BANK DEPOSIT" }] },
+    { code: "USD", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "GB", countryName: "United kingdom", flag: "🇬🇧", currencies: [
     { code: "GBP", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "2", label: "BANK DEPOSIT" }] },
@@ -647,8 +646,8 @@ export const countryConfigs: CountryConfig[] = [
     { code: "UYU", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "UZ", countryName: "Uzbekistan", flag: "🇺🇿", currencies: [
-    { code: "USD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "19", label: "VISA/MASTERCARD" }] },
-    { code: "UZS", payoutMethods: [{ key: "27", label: "HUMO CARD" }, { key: "26", label: "UZCARD" }] },
+    { code: "USD", payoutMethods: [{ key: "19", label: "VISA/MASTERCARD" }, { key: "1", label: "CASH PAYMENT" }] },
+    { code: "UZS", payoutMethods: [{ key: "26", label: "UZCARD" }, { key: "27", label: "HUMO CARD" }] },
   ] },
   { countryCode: "VU", countryName: "Vanuatu", flag: "🇻🇺", currencies: [
     { code: "VUV", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }] },
@@ -657,8 +656,8 @@ export const countryConfigs: CountryConfig[] = [
     { code: "USD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "VN", countryName: "Vietnam", flag: "🇻🇳", currencies: [
-    { code: "USD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "2", label: "BANK DEPOSIT" }, { key: "12", label: "HOME DELIVERY" }, { key: "14", label: "CARD PAYMENT" }] },
-    { code: "VND", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "2", label: "BANK DEPOSIT" }, { key: "12", label: "HOME DELIVERY" }, { key: "13", label: "MOBILE WALLET" }, { key: "14", label: "CARD PAYMENT" }] },
+    { code: "USD", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "14", label: "CARD PAYMENT" }, { key: "1", label: "CASH PAYMENT" }, { key: "12", label: "HOME DELIVERY" }] },
+    { code: "VND", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "14", label: "CARD PAYMENT" }, { key: "1", label: "CASH PAYMENT" }, { key: "12", label: "HOME DELIVERY" }, { key: "13", label: "MOBILE WALLET" }] },
   ] },
   { countryCode: "VG", countryName: "Virgin Islands, British", flag: "🇻🇬", currencies: [
     { code: "USD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }] },
