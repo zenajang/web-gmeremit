@@ -1,7 +1,28 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
 import type { BoardCounts, BoardEntry, BoardEntryType, BoardFormData } from "@/types/board";
+import { slugify } from "@/utils/slug";
 
 const BOARD_TABLE = "board_entries";
+
+async function generateUniqueSlug(supabase: SupabaseClient, title: string) {
+  const base = slugify(title);
+  let candidate = base;
+
+  for (let attempt = 2; attempt < 100; attempt += 1) {
+    const { data } = await supabase
+      .from(BOARD_TABLE)
+      .select("id")
+      .eq("slug", candidate)
+      .maybeSingle();
+
+    if (!data) {
+      return candidate;
+    }
+    candidate = `${base}-${attempt}`;
+  }
+
+  return `${base}-${Date.now()}`;
+}
 const ATTACHMENT_BUCKET = "board-attachments";
 
 function getImageBucketName(type: BoardEntryType) {
@@ -50,9 +71,11 @@ function buildBoardEntryPayload(
     attachmentUrl?: string;
     attachmentName?: string;
     hasAttachment?: boolean;
+    slug?: string;
   } = {}
 ) {
   return {
+    ...(options.slug ? { slug: options.slug } : {}),
     type: formData.type,
     title: formData.title,
     content: formData.content || null,
@@ -202,12 +225,15 @@ export async function createBoardEntry(
     attachmentName = attachmentFile.name;
   }
 
+  const slug = await generateUniqueSlug(supabase, formData.title);
+
   const { error } = await supabase.from(BOARD_TABLE).insert(
     buildBoardEntryPayload(formData, {
       imageUrl,
       attachmentUrl,
       attachmentName,
       hasAttachment: Boolean(attachmentFile),
+      slug,
     })
   );
 

@@ -60,7 +60,7 @@ export default function BoardTable({ entries }: BoardTableProps) {
           return (
             <Link
               key={entry.id}
-              href={`/board/${entry.id}`}
+              href={`/board/${entry.slug || entry.id}`}
               className="block rounded-lg border border-gray-200 bg-white p-5 hover:bg-gray-50 transition-colors"
             >
               <div className="flex items-start justify-between mb-3">

@@ -2,6 +2,7 @@ export type BoardEntryType = "notice" | "press" | "blog";
 
 export interface BoardEntry {
   id: number;
+  slug?: string | null;
   type: BoardEntryType;
   title: string;
   content?: string | null;
