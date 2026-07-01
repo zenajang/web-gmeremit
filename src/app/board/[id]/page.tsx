@@ -17,8 +17,8 @@ export default function BoardDetailPage() {
   const params = useParams();
   const router = useRouter();
   const idParam = Array.isArray(params.id) ? params.id[0] : params.id;
-  const id = Number(idParam);
-  const hasInvalidId = !idParam || Number.isNaN(id);
+  const isNumericId = typeof idParam === "string" && /^\d+$/.test(idParam);
+  const hasInvalidId = !idParam;
   const supabase = createClient();
   const { t } = useTranslation("board");
 
@@ -35,11 +35,11 @@ export default function BoardDetailPage() {
 
     async function fetchEntry() {
       setLoading(true);
-      const { data, error } = await supabase
-        .from("board_entries")
-        .select("*")
-        .eq("id", id)
-        .maybeSingle();
+      const baseQuery = supabase.from("board_entries").select("*");
+      const { data, error } = await (isNumericId
+        ? baseQuery.eq("id", Number(idParam))
+        : baseQuery.eq("slug", idParam)
+      ).maybeSingle();
 
       if (isCancelled) {
         return;
@@ -59,7 +59,7 @@ export default function BoardDetailPage() {
     return () => {
       isCancelled = true;
     };
-  }, [hasInvalidId, id, supabase]);
+  }, [hasInvalidId, idParam, isNumericId, supabase]);
 
   return (
     <PublicLayout className="bg-[var(--surface-0)]">

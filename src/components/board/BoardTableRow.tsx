@@ -26,7 +26,7 @@ export default function BoardTableRow({ entry }: BoardTableRowProps) {
             <BsPinFill className="w-4 h-4 text-primary flex-shrink-0" title="중요 공지" />
           )}
           <Link
-            href={`/board/${entry.id}`}
+            href={`/board/${entry.slug || entry.id}`}
             className="text-base text-dark font-medium hover:text-primary transition-colors"
           >
             {entry.title}

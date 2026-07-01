@@ -25,7 +25,7 @@ export default function BlogGrid({ entries }: BlogGridProps) {
       {entries.map((entry) => (
         <Link
           key={entry.id}
-          href={`/board/${entry.id}`}
+          href={`/board/${entry.slug || entry.id}`}
           className="group bg-white overflow-hidden hover:opacity-80 transition-all duration-300"
         >
           {/* Image */}
