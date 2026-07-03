@@ -116,9 +116,9 @@ export default function BoardDetailPage() {
                 {entry.title}
               </h1>
               <div className="flex items-center justify-between gap-3">
-                {entry.author ? (
+                {entry.type === "blog" || entry.author ? (
                   <span className="text-base font-semibold text-dark">
-                    {t("by")} {entry.author}
+                    {t("by")} {entry.author || "GME Remittance"}
                   </span>
                 ) : (
                   <span />
@@ -127,6 +127,7 @@ export default function BoardDetailPage() {
                   {entry.date}
                 </time>
               </div>
+
             </header>
 
             {/* Image for Press or Blog */}
