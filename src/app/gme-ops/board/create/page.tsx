@@ -26,6 +26,7 @@ export default function CreateBoardEntryPage() {
     source: '',
     excerpt: '',
     description: '',
+    author: '',
   })
   const [imageFile, setImageFile] = useState<File | null>(null)
   const [attachmentFile, setAttachmentFile] = useState<File | null>(null)

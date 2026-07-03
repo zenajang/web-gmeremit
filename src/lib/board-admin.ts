@@ -88,6 +88,7 @@ function buildBoardEntryPayload(
     excerpt: formData.excerpt || null,
     image_url: options.imageUrl ?? null,
     description: formData.description || null,
+    author: formData.author || null,
   };
 }
 
@@ -118,6 +119,7 @@ export function buildBoardSubmissionFormData(params: {
   payload.set("source", formData.source);
   payload.set("excerpt", formData.excerpt);
   payload.set("description", formData.description);
+  payload.set("author", formData.author);
 
   if (typeof id !== "undefined") {
     payload.set("id", String(id));
@@ -198,6 +200,7 @@ export function toBoardFormData(entry: BoardEntry): BoardFormData {
     source: entry.source || "",
     excerpt: entry.excerpt || "",
     description: entry.description || "",
+    author: entry.author || "",
   };
 }
 

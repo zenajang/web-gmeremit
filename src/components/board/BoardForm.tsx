@@ -224,6 +224,18 @@ export default function BoardForm({
               />
             </div>
             <div>
+              <label htmlFor="author" className={labelClass}>작성자</label>
+              <input
+                id="author"
+                aria-label="작성자"
+                type="text"
+                value={formData.author}
+                onChange={(e) => update({ author: e.target.value })}
+                className={inputClass}
+                placeholder="작성자 이름을 입력하세요"
+              />
+            </div>
+            <div>
               <label className={labelClass}>내용 *</label>
               <TiptapEditor
                 content={formData.content}
