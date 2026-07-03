@@ -115,13 +115,9 @@ export default function BoardDetailPage() {
               <h1 className="text-2xl sm:text-3xl font-bold text-dark mb-4 leading-tight">
                 {entry.title}
               </h1>
-              <div className="flex items-center justify-end gap-4 text-sm text-gray-500">
-                {entry.author && (
-                  <span>
-                    {t("by")} {entry.author}
-                  </span>
-                )}
+              <div className="flex items-center justify-end gap-1.5 text-sm text-gray-500">
                 <time dateTime={entry.date}>{entry.date}</time>
+                {entry.author && <span>· {t("by")} {entry.author}</span>}
               </div>
             </header>
 
