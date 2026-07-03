@@ -34,6 +34,7 @@ function parseBoardFormData(formData: FormData): BoardFormData {
     source: getStringValue(formData, 'source'),
     excerpt: getStringValue(formData, 'excerpt'),
     description: getStringValue(formData, 'description'),
+    author: getStringValue(formData, 'author'),
   }
 }
 

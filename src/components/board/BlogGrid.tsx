@@ -46,7 +46,9 @@ export default function BlogGrid({ entries }: BlogGridProps) {
 
           {/* Content */}
           <div className="space-y-3">
-            <p className="text-lg font-light text-gray-400">{entry.date}</p>
+            <p className="text-lg font-light text-gray-400">
+              {entry.author ? `${t("by")} ${entry.author} · ${entry.date}` : entry.date}
+            </p>
             <h3 className="text-lg lg:text-xl font-bold text-dark leading-snug group-hover:text-primary transition-colors">
               {entry.title}
             </h3>

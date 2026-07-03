@@ -19,6 +19,7 @@ export interface BoardEntry {
   // Blog-specific fields
   image_url?: string | null;
   description?: string | null;
+  author?: string | null;
 
   // Metadata
   created_at?: string;
@@ -34,6 +35,7 @@ export interface BoardFormData {
   source: string;
   excerpt: string;
   description: string;
+  author: string;
 }
 
 export interface BoardCounts {
