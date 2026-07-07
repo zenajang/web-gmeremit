@@ -32,11 +32,16 @@ export async function generateMetadata({
   const images = entry.image_url
     ? [entry.image_url]
     : ["/images/common/GME-LOGO-HD.png"];
+  const canonicalPath = `/board/${entry.slug || entry.id}`;
 
   return {
     title: entry.title,
     description,
+    alternates: {
+      canonical: canonicalPath,
+    },
     openGraph: {
+      url: canonicalPath,
       title: entry.title,
       description,
       images,
