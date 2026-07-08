@@ -13,6 +13,40 @@ import { BoardEntry } from "@/types/board";
 import DOMPurify from "dompurify";
 import { useTranslation } from "@/hooks/useTranslation";
 
+let youtubeHookRegistered = false;
+
+function sanitizeBoardContent(html: string): string {
+  if (typeof window !== "undefined" && !youtubeHookRegistered) {
+    DOMPurify.addHook("uponSanitizeElement", (node, data) => {
+      if (data.tagName === "iframe") {
+        const src = (node as Element).getAttribute("src") || "";
+        const isYoutube =
+          src.startsWith("https://www.youtube-nocookie.com/embed/") ||
+          src.startsWith("https://www.youtube.com/embed/");
+        if (!isYoutube) {
+          (node as Element).remove();
+        }
+      }
+    });
+    youtubeHookRegistered = true;
+  }
+
+  return DOMPurify.sanitize(html, {
+    ADD_TAGS: ["img", "iframe"],
+    ADD_ATTR: [
+      "src",
+      "alt",
+      "class",
+      "allow",
+      "allowfullscreen",
+      "frameborder",
+      "width",
+      "height",
+      "data-youtube-video",
+    ],
+  });
+}
+
 export default function BoardDetailClient() {
   const params = useParams();
   const router = useRouter();
@@ -148,10 +182,7 @@ export default function BoardDetailClient() {
               <div
                 className="text-gray-700 leading-relaxed"
                 dangerouslySetInnerHTML={{
-                  __html: DOMPurify.sanitize(entry.content || '', {
-                    ADD_TAGS: ['img'],
-                    ADD_ATTR: ['src', 'alt', 'class'],
-                  }),
+                  __html: sanitizeBoardContent(entry.content || ''),
                 }}
               />
             </div>
