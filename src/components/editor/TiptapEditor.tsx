@@ -7,6 +7,7 @@ import { Table } from '@tiptap/extension-table'
 import { TableRow } from '@tiptap/extension-table-row'
 import { TableHeader } from '@tiptap/extension-table-header'
 import { TableCell } from '@tiptap/extension-table-cell'
+import Youtube from '@tiptap/extension-youtube'
 import { useCallback, useRef } from 'react'
 import { createClient } from '@/lib/supabase/client'
 import { useToast } from '@/components/ui/Toast'
@@ -17,7 +18,8 @@ import {
   HiQueueList,
   HiPhoto,
   HiCodeBracket,
-  HiTableCells
+  HiTableCells,
+  HiVideoCamera
 } from 'react-icons/hi2'
 
 interface TiptapEditorProps {
@@ -47,6 +49,12 @@ export default function TiptapEditor({ content, onChange, placeholder, bucketNam
       TableRow,
       TableHeader,
       TableCell,
+      Youtube.configure({
+        controls: true,
+        nocookie: true,
+        width: 640,
+        height: 360,
+      }),
     ],
     content,
     onUpdate: ({ editor }) => {
@@ -221,6 +229,20 @@ export default function TiptapEditor({ content, onChange, placeholder, bucketNam
           aria-label="이미지 삽입"
         >
           <HiPhoto className="w-5 h-5" />
+        </button>
+        <button
+          type="button"
+          onClick={() => {
+            const url = prompt('유튜브 영상 URL을 입력하세요')?.trim()
+            if (url) {
+              editor.commands.setYoutubeVideo({ src: url })
+            }
+          }}
+          className="p-2 rounded hover:bg-gray-200 transition-colors"
+          title="Insert YouTube"
+          aria-label="유튜브 영상 삽입"
+        >
+          <HiVideoCamera className="w-5 h-5" />
         </button>
 
         {editor.isActive('image') && (

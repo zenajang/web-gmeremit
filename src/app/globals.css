@@ -658,6 +658,18 @@ body {
   display: inline-block;
 }
 
+.prose div[data-youtube-video] {
+  margin: 1.5em 0;
+}
+
+.prose div[data-youtube-video] iframe {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 0.75rem;
+}
+
 .prose h1,
 .prose h2,
 .prose h3 {
