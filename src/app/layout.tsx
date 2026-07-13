@@ -19,6 +19,7 @@ const pretendard = localFont({
 const SITE_URL = "https://www.gmeremit.com";
 const SITE_NAME = "GME Remit";
 const GOOGLE_ADS_ID = "AW-11054276990";
+const GA4_ID = "G-WX8FCFPFTS";
 const DEFAULT_DESCRIPTION =
   "No.1 Money Transfer Company in South Korea. Save 90% on fees. Best exchange rate. Send money secure to your friends and family 100% online. Beyond Banking, GME Remittance";
 
@@ -109,12 +110,13 @@ export default async function RootLayout({
           src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ADS_ID}`}
           strategy="afterInteractive"
         />
-        <Script id="google-ads" strategy="afterInteractive">
+        <Script id="gtag-init" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', '${GOOGLE_ADS_ID}');
+            gtag('config', '${GA4_ID}');
           `}
         </Script>
       </body>
