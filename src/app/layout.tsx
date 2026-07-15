@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { cookies } from "next/headers";
 import localFont from "next/font/local";
 import { LanguageProvider } from "@/contexts/LanguageContext";
@@ -98,6 +97,24 @@ export default async function RootLayout({
 
   return (
     <html lang={initialLanguage.code} className={pretendard.variable}>
+      <head>
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`}
+        />
+        <script
+          id="gtag-init"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${GOOGLE_ADS_ID}');
+              gtag('config', '${GA4_ID}');
+            `,
+          }}
+        />
+      </head>
       <body className={pretendard.className}>
         <AuthProvider>
           <LanguageProvider initialLanguageCode={initialLanguage.code}>
@@ -106,19 +123,6 @@ export default async function RootLayout({
         </AuthProvider>
         <ScrollToTop />
         <ChannelTalk />
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ADS_ID}`}
-          strategy="afterInteractive"
-        />
-        <Script id="gtag-init" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${GOOGLE_ADS_ID}');
-            gtag('config', '${GA4_ID}');
-          `}
-        </Script>
       </body>
     </html>
   );
