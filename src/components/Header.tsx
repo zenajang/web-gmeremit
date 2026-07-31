@@ -9,11 +9,19 @@ import MobileNav, { MobileLanguageBottomSheet } from "./header/MobileNav";
 import type { MenuItem } from "./header/DesktopNav";
 import { useTranslation } from "@/hooks/useTranslation";
 import { menuItemDefs } from "@/data/headerMenu";
+import { languages } from "@/lib/language";
+import { getCountryLanding } from "@/data/countryLanding";
 
 // ============ Main Header ============
 export default function Header() {
   const { t } = useTranslation("header");
   const pathname = usePathname();
+
+  // 국가 랜딩 페이지(/us, /np 등)에서는 그 나라 언어 + 영어만 노출
+  const countryData = getCountryLanding(pathname.split("/")[1] ?? "");
+  const pageLanguages = countryData
+    ? languages.filter((l) => l.code === "en" || l.code === countryData.locale)
+    : languages;
 
   const menuItems: MenuItem[] = menuItemDefs.map((item) => ({
     label: t(item.labelKey),
@@ -121,7 +129,7 @@ export default function Header() {
 
               {/* Language */}
               <div className="hidden lg:block">
-                <LanguageSelector />
+                <LanguageSelector options={pageLanguages} />
               </div>
 
               {/* Mobile Language Button */}
@@ -171,6 +179,7 @@ export default function Header() {
       <MobileLanguageBottomSheet
         isOpen={isLangOpen}
         onClose={() => setIsLangOpen(false)}
+        options={pageLanguages}
       />
     </header>
   );

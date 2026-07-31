@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { languages } from "@/lib/language";
+import { languages, type Language } from "@/lib/language";
 import { useClickOutside } from "@/hooks/useClickOutside";
 
 // ============ Types ============
@@ -14,7 +14,7 @@ export interface MenuItem {
 }
 
 // ============ Language Selector ============
-export function LanguageSelector() {
+export function LanguageSelector({ options = languages }: { options?: Language[] }) {
   const { currentLanguage, setLanguage } = useLanguage();
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -45,7 +45,7 @@ export function LanguageSelector() {
             className="bg-white rounded-xl shadow-[0_8px_30px_rgba(0,0,0,0.12),0_0_0_1px_rgba(0,0,0,0.04)] py-1.5 min-w-[220px] max-h-[360px] overflow-y-auto overscroll-contain"
             onWheel={(e) => e.stopPropagation()}
           >
-            {languages.map((lang) => {
+            {options.map((lang) => {
               const isSelected = currentLanguage.code === lang.code;
               return (
                 <button

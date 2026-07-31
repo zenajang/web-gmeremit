@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useEffect } from "react";
 import { useTranslation } from "@/hooks/useTranslation";
 import { cards } from "@/data/cards";
+import { APP_STORE_URL, GOOGLE_PLAY_URL } from "@/lib/appLinks";
 
 interface CardDetailModalProps {
   selectedCard: string;
@@ -241,7 +242,7 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
             <p className="text-center text-sm text-gray-500 mb-3">{t("modal.app_guide")}</p>
             <div className="flex gap-3">
               <a
-                href="https://apps.apple.com/us/app/gme-remit/id1439161261?l=ko"
+                href={APP_STORE_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 flex items-center justify-center gap-2 py-3.5 bg-dark text-white font-semibold rounded-xl hover:opacity-90 transition-opacity"
@@ -252,7 +253,7 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
                 App Store
               </a>
               <a
-                href="https://play.google.com/store/apps/details?id=com.gmeremit.online.gmeremittance_native"
+                href={GOOGLE_PLAY_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 flex items-center justify-center gap-2 py-3.5 bg-dark text-white font-semibold rounded-xl hover:opacity-90 transition-opacity"

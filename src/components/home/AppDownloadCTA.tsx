@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useTranslation } from "@/hooks/useTranslation";
+import { APP_STORE_URL, GOOGLE_PLAY_URL } from "@/lib/appLinks";
 
 export default function AppDownloadCTA() {
   const { t, tArray } = useTranslation("home.app_download");
@@ -33,7 +34,7 @@ export default function AppDownloadCTA() {
               </p>
               <div className="mt-8 flex flex-wrap items-center justify-center lg:justify-start gap-3 sm:gap-4">
                 <a
-                  href="https://apps.apple.com/us/app/gme-remit/id1439161261?l=ko"
+                  href={APP_STORE_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-opacity hover:opacity-80"
@@ -47,7 +48,7 @@ export default function AppDownloadCTA() {
                   />
                 </a>
                 <a
-                  href="https://play.google.com/store/apps/details?id=com.gmeremit.online.gmeremittance_native"
+                  href={GOOGLE_PLAY_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-opacity hover:opacity-80"

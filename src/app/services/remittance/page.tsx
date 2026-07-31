@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import PublicLayout from "@/components/layout/PublicLayout";
 import ServiceHeroSection from "@/components/service/ServiceHeroSection";
 import { useLenis } from "@/hooks/useLenis";
@@ -8,6 +9,7 @@ import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
 import { useTranslation } from "@/hooks/useTranslation";
 import { FcDownload,FcConferenceCall,FcExternal } from "react-icons/fc";
 import { remittanceFeatureKeys, remittanceFeatureIconPaths, processStepKeys, remittanceCountries } from "@/data/remittance";
+import { countryLandings } from "@/data/countryLanding";
 import SectionHeader from "@/components/ui/SectionHeader";
 
 export default function RemittancePage() {
@@ -189,6 +191,39 @@ export default function RemittancePage() {
             <p className="text-sm text-gray-400">
               * {t("trust.insurance")}
             </p>
+          </div>
+        </section>
+
+        {/* ── 국가별 송금 소개 ── */}
+        <section id="countries" ref={registerSectionRef(5)} className="py-20 lg:py-28 fade-section">
+          <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12 lg:mb-16">
+              <p className="text-sm font-bold text-primary mb-3 tracking-widest">SEND TO</p>
+              <h2 className="typo-section-title text-dark">국가별 송금 소개</h2>
+              <p className="mt-3 text-gray-500">
+                GME 송금이 닿는 나라들을 만나보세요.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5 max-w-4xl mx-auto">
+              {countryLandings.map((c) => (
+                <Link
+                  key={c.slug}
+                  href={`/${c.slug}`}
+                  className="group flex flex-col items-center gap-3 rounded-2xl bg-white border border-gray-200/80 px-4 py-6 hover:border-primary/40 hover:shadow-[0_10px_30px_rgba(0,0,0,0.07)] hover:-translate-y-1 transition-all duration-300"
+                >
+                  <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-gray-50 text-2xl leading-none transition-transform duration-300 group-hover:scale-110">
+                    {c.flag}
+                  </span>
+                  <div className="text-center">
+                    <p className="font-bold text-dark group-hover:text-primary transition-colors duration-300">
+                      {c.countryNameKo}
+                    </p>
+                    <p className="mt-0.5 text-xs font-medium text-gray-400 tracking-wide">{c.currency}</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
 

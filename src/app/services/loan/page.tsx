@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import PublicLayout from "@/components/layout/PublicLayout";
+import { APP_STORE_URL, GOOGLE_PLAY_URL } from "@/lib/appLinks";
 import ServiceHeroSection from "@/components/service/ServiceHeroSection";
 import { useLenis } from "@/hooks/useLenis";
 import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
@@ -292,7 +293,7 @@ export default function LoanPage() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 justify-center">
                   <a
-                    href="https://apps.apple.com/us/app/gme-remit/id1439161261?l=ko"
+                    href={APP_STORE_URL}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-loan text-dark font-semibold rounded-xl hover:bg-loan-light transition-colors"
@@ -303,7 +304,7 @@ export default function LoanPage() {
                     App Store
                   </a>
                   <a
-                    href="https://play.google.com/store/apps/details?id=com.gmeremit.online.gmeremittance_native"
+                    href={GOOGLE_PLAY_URL}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-white/15 text-white font-semibold rounded-xl hover:border-loan/30 hover:text-loan transition-colors"

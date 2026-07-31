@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { languages } from "@/lib/language";
+import { languages, type Language } from "@/lib/language";
 import type { MenuItem } from "./DesktopNav";
 
 // ============ Icons ============
@@ -27,9 +27,11 @@ function CheckIcon() {
 export function MobileLanguageBottomSheet({
   isOpen,
   onClose,
+  options = languages,
 }: {
   isOpen: boolean;
   onClose: () => void;
+  options?: Language[];
 }) {
   const { currentLanguage, setLanguage } = useLanguage();
 
@@ -62,7 +64,7 @@ export function MobileLanguageBottomSheet({
 
         {/* Language List */}
         <div className="overflow-y-auto max-h-[65vh] pb-8">
-          {languages.map((lang, i) => {
+          {options.map((lang, i) => {
             const isSelected = currentLanguage.code === lang.code;
             return (
               <button

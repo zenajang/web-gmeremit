@@ -9,7 +9,10 @@ import {
 
 interface LanguageContextType {
   currentLanguage: Language;
+  persistedLanguage: Language;
   setLanguage: (lang: Language) => void;
+  // 저장 없이 표시만 바꾸는 페이지 한정 오버라이드 (국가 랜딩 페이지용)
+  setLanguageOverride: (lang: Language | null) => void;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
@@ -21,23 +24,32 @@ export function LanguageProvider({
   children: ReactNode;
   initialLanguageCode?: string;
 }) {
-  const [currentLanguage, setCurrentLanguage] = useState<Language>(() =>
+  const [persistedLanguage, setPersistedLanguage] = useState<Language>(() =>
     getLanguageByCode(initialLanguageCode)
   );
+  const [overrideLanguage, setLanguageOverride] = useState<Language | null>(null);
+
+  const currentLanguage = overrideLanguage ?? persistedLanguage;
 
   useEffect(() => {
     document.documentElement.lang = currentLanguage.code;
-    window.localStorage.setItem("language", currentLanguage.code);
   }, [currentLanguage.code]);
 
+  useEffect(() => {
+    window.localStorage.setItem("language", persistedLanguage.code);
+  }, [persistedLanguage.code]);
+
   const setLanguage = (lang: Language) => {
-    setCurrentLanguage(lang);
+    setPersistedLanguage(lang);
+    setLanguageOverride(null);
     window.localStorage.setItem("language", lang.code);
     document.cookie = `${LANGUAGE_COOKIE_NAME}=${lang.code}; path=/; max-age=31536000; samesite=lax`;
   };
 
   return (
-    <LanguageContext.Provider value={{ currentLanguage, setLanguage }}>
+    <LanguageContext.Provider
+      value={{ currentLanguage, persistedLanguage, setLanguage, setLanguageOverride }}
+    >
       {children}
     </LanguageContext.Provider>
   );
