@@ -19,6 +19,7 @@ const SITE_URL = "https://www.gmeremit.com";
 const SITE_NAME = "GME Remit";
 const GOOGLE_ADS_ID = "AW-11054276990";
 const GA4_ID = "G-WX8FCFPFTS";
+const METRICOOL_HASH = "cf2e6481e66b64d9809131e7d3be30a5";
 const DEFAULT_DESCRIPTION =
   "No.1 Money Transfer Company in South Korea. Save 90% on fees. Best exchange rate. Send money secure to your friends and family 100% online. Beyond Banking, GME Remittance";
 
@@ -111,6 +112,23 @@ export default async function RootLayout({
               gtag('js', new Date());
               gtag('config', '${GOOGLE_ADS_ID}');
               gtag('config', '${GA4_ID}');
+            `,
+          }}
+        />
+        <script
+          id="metricool-init"
+          dangerouslySetInnerHTML={{
+            __html: `
+              function loadScript(a){
+                var b=document.getElementsByTagName("head")[0],
+                    c=document.createElement("script");
+                c.type="text/javascript";
+                c.src="https://tracker.metricool.com/resources/be.js";
+                c.onreadystatechange=a;
+                c.onload=a;
+                b.appendChild(c);
+              }
+              loadScript(function(){ beTracker.t({ hash:"${METRICOOL_HASH}" }); });
             `,
           }}
         />
