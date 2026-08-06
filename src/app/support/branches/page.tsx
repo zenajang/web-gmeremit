@@ -7,7 +7,7 @@ import { HiLocationMarker, HiPhone, HiClock, HiChevronDown } from "react-icons/h
 import { useTranslation } from "@/hooks/useTranslation";
 import { useClickOutside } from "@/hooks/useClickOutside";
 
-const KakaoMap = dynamic(() => import("@/components/KakaoMap"), {
+const BranchMap = dynamic(() => import("@/components/LeafletMap"), {
   ssr: false,
   loading: () => (
     <div className="w-full h-full bg-gray-100 rounded-2xl animate-pulse flex items-center justify-center">
@@ -56,7 +56,7 @@ export default function BranchesPage() {
       {/* 지도 */}
       <div className="lg:col-span-3 h-[180px] sm:h-[220px] lg:h-auto rounded-2xl overflow-hidden">
         <div className="h-full lg:min-h-[500px]">
-          <KakaoMap
+          <BranchMap
             branches={branches.map((b) => ({
               id: b.id,
               name: b.name,
