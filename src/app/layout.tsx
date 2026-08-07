@@ -18,7 +18,7 @@ const pretendard = localFont({
 const SITE_URL = "https://www.gmeremit.com";
 const SITE_NAME = "GME Remit";
 const GOOGLE_ADS_ID = "AW-11054276990";
-const GA4_ID = "G-WX8FCFPFTS";
+const GA4_ID = "G-SVKHS3LXBF";
 const METRICOOL_HASH = "149cc912a157371b0a8c996e58a7ee0a";
 const DEFAULT_DESCRIPTION =
   "No.1 Money Transfer Company in South Korea. Save 90% on fees. Best exchange rate. Send money secure to your friends and family 100% online. Beyond Banking, GME Remittance";
