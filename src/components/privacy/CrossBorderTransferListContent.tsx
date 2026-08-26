@@ -1,4 +1,4 @@
-export default function OverseasTransferListContent() {
+export default function CrossBorderTransferListContent() {
   return (
     <div className="prose prose-gray max-w-none -m-1">
       <div className="overflow-x-auto">

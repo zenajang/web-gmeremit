@@ -1,7 +1,7 @@
 import PublicLayout from "@/components/layout/PublicLayout";
-import OverseasTransferListContent from "@/components/privacy/OverseasTransferListContent";
+import CrossBorderTransferListContent from "@/components/privacy/CrossBorderTransferListContent";
 
-export default function OverseasTransferListPage() {
+export default function CrossBorderTransferListPage() {
   return (
     <PublicLayout className="bg-white">
       {/* Hero Section */}
@@ -24,7 +24,7 @@ export default function OverseasTransferListPage() {
       <section className="pt-6 lg:pt-10 pb-16 lg:pb-24 animate-fadeIn" style={{ animationDelay: '0.1s' }}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-2xl border border-gray-200 shadow-lg p-6 lg:p-10">
-            <OverseasTransferListContent />
+            <CrossBorderTransferListContent />
           </div>
         </div>
       </section>
