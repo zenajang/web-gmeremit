@@ -327,9 +327,8 @@ export default function TreatmentPolicyContent() {
           <div className="mt-3 space-y-2">
             <p>회사는 서비스 이용자로부터 수집한 개인정보를 아래와 같이 국외에 제공하고 있습니다. 국외 이전을 거부하실 경우 해외송금 등의 서비스 이용이 제한됩니다. 국외 이전을 원치 않으실 경우 앱에서 회원탈퇴를 진행하시거나 고객센터(1811-2961)를 통하여 회원탈퇴를 요청하실 수 있습니다.</p>
             <p>개인정보 국외 제공 현황의 경우 아래 링크에서 확인하실 수 있습니다.</p>
-            <p>* 개인정보 국외 제공 업체 목록</p>
+            <Link target="_blank" href="/privacy/overseas-transfer-list" className="underline underline-offset-4 pb-3">* 개인정보 국외 제공 업체 목록</Link>
           </div>
-
         </div>
 
         {/* Article 5 */}
@@ -488,7 +487,7 @@ export default function TreatmentPolicyContent() {
         <div>
           <p>개인정보 처리방침 변경 내역</p>
           <p className="mt-3">– 변경일자:</p>
-          <Link href="/privacy/20241202" type="button" className="underline underline-offset-4 pb-3">2024년 12월 2일 시행</Link> 
+          <Link target="_blank" href="/privacy/20241202" className="underline underline-offset-4 pb-3">2024년 12월 2일 시행</Link> 
           <p className="!mt-2 !mb-0">2023년 4월 19일 시행</p>
           <p className="!my-0">2018년 8월 16일 시행</p>
         </div>
