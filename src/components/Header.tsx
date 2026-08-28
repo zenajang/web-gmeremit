@@ -107,7 +107,7 @@ export default function Header() {
             </Link>
 
             {/* Desktop Navigation - 중앙 */}
-            <DesktopNav menuItems={menuItems} />
+            <DesktopNav menuItems={menuItems} countriesLabel={t("nav.countries")} />
 
             {/* Right Side */}
             <div className="flex items-center gap-4 lg:gap-6 shrink-0">
