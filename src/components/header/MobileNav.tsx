@@ -1,10 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { languages } from "@/lib/language";
 import type { MenuItem } from "./DesktopNav";
+import { useTranslation } from "@/hooks/useTranslation";
+import { servedEntries } from "@/data/servedCountries";
 
 // ============ Icons ============
 function ChevronDownIcon({ className }: { className?: string }) {
@@ -148,17 +150,70 @@ export function MobileAccordion({
   );
 }
 
+// ============ Mobile Countries Accordion ============
+export function MobileCountriesAccordion({ label }: { label: string }) {
+  const { t } = useTranslation("home.hero");
+  const [isExpanded, setIsExpanded] = useState(false);
+  const [selectedCode, setSelectedCode] = useState<string | null>(null);
+
+  const countriesWithNames = useMemo(
+    () =>
+      servedEntries.map((c) => ({
+        ...c,
+        name: c.nameNs === "header" ? t(c.nameKey, { ns: "header" }) : t(c.nameKey),
+      })),
+    [t]
+  );
+
+  return (
+    <div className="border-b border-gray-100">
+      <button
+        type="button"
+        className="w-full flex items-center justify-between px-4 py-3 text-base text-dark hover:bg-gray-50 font-medium cursor-pointer"
+        onClick={() => setIsExpanded(!isExpanded)}
+      >
+        <span>{label}</span>
+        <ChevronDownIcon className={`transition-transform duration-200 ${isExpanded ? "rotate-180" : ""}`} />
+      </button>
+
+      {isExpanded && (
+        <div className="bg-gray-50">
+          {countriesWithNames.map((c) => (
+            <button
+              key={c.code}
+              type="button"
+              onClick={() => setSelectedCode(c.code)}
+              className={`w-full flex items-center gap-2 px-6 py-2.5 text-left text-sm hover:bg-gray-100 cursor-pointer ${
+                selectedCode === c.code ? "text-primary" : "text-dark hover:text-primary"
+              }`}
+            >
+              {c.flagSrc ? (
+                <img src={c.flagSrc} alt="" className="w-5 h-5 rounded-full object-cover shrink-0" />
+              ) : (
+                <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">{c.emoji}</span>
+              )}
+              <span>{c.name}</span>
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 // ============ Mobile Nav ============
 export default function MobileNav({
   isOpen,
   onClose,
   menuItems,
   careersLabel = "Careers",
+  countriesLabel,
 }: {
   isOpen: boolean;
   onClose: () => void;
   menuItems: MenuItem[];
   careersLabel?: string;
+  countriesLabel: string;
 }) {
   return (
     <>
@@ -175,7 +230,15 @@ export default function MobileNav({
         }`}
       >
         <nav className="pb-6">
-          {menuItems.map((item) => (
+          {menuItems.slice(0, 2).map((item) => (
+            <MobileAccordion
+              key={item.label}
+              item={item}
+              onClose={onClose}
+            />
+          ))}
+          <MobileCountriesAccordion label={countriesLabel} />
+          {menuItems.slice(2).map((item) => (
             <MobileAccordion
               key={item.label}
               item={item}

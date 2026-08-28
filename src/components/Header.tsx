@@ -165,6 +165,7 @@ export default function Header() {
         onClose={() => setIsMenuOpen(false)}
         menuItems={menuItems}
         careersLabel={t("link.careers")}
+        countriesLabel={t("nav.countries")}
       />
 
       {/* Mobile Language Bottom Sheet */}
