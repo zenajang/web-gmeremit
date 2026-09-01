@@ -151,7 +151,7 @@ export function MobileAccordion({
 }
 
 // ============ Mobile Countries Accordion ============
-export function MobileCountriesAccordion({ label }: { label: string }) {
+export function MobileCountriesAccordion({ label, onClose }: { label: string; onClose: () => void }) {
   const { t } = useTranslation("home.hero");
   const { setLanguage } = useLanguage();
   const [isExpanded, setIsExpanded] = useState(false);
@@ -165,6 +165,21 @@ export function MobileCountriesAccordion({ label }: { label: string }) {
       })),
     [t]
   );
+
+  const getRenderFlag = (code: string, flagSrc?: string) => {
+    switch (code) {
+      case "AFRICA":
+        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🌍</span>;
+      case "ARAB":
+        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🌐</span>;
+      case "SPANISH_LATAM":
+        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🌎</span>;
+      case "RUSSIA_CIS":
+        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🗺️</span>;
+      default:
+        return <img src={flagSrc} alt="" className="w-5 h-5 rounded-full object-cover shrink-0" />;
+    }
+  };
 
   return (
     <div className="border-b border-gray-100">
@@ -187,16 +202,13 @@ export function MobileCountriesAccordion({ label }: { label: string }) {
                 setSelectedCode(c.code);
                 const matched = languages.find((lang) => lang.code === c.langCode);
                 setLanguage(matched ?? languages.find((lang) => lang.code === "en")!);
+                onClose();
               }}
               className={`w-full flex items-center gap-2 px-6 py-2.5 text-left text-sm hover:bg-gray-100 cursor-pointer ${
                 selectedCode === c.code ? "text-primary" : "text-dark hover:text-primary"
               }`}
             >
-              {c.flagSrc ? (
-                <img src={c.flagSrc} alt="" className="w-5 h-5 rounded-full object-cover shrink-0" />
-              ) : (
-                <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">{c.emoji}</span>
-              )}
+              {getRenderFlag(c.code, c.flagSrc)}
               <span>{c.name}</span>
             </button>
           ))}
@@ -242,7 +254,7 @@ export default function MobileNav({
               onClose={onClose}
             />
           ))}
-          <MobileCountriesAccordion label={countriesLabel} />
+          <MobileCountriesAccordion label={countriesLabel} onClose={onClose} />
           {menuItems.slice(2).map((item) => (
             <MobileAccordion
               key={item.label}

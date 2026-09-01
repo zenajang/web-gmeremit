@@ -101,6 +101,21 @@ export function CountriesDropdown({ label }: { label: string }) {
     [t]
   );
 
+  const getRenderFlag = (code: string, flagSrc?: string) => {
+    switch (code) {
+      case "AFRICA":
+        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🌍</span>;
+      case "ARAB":
+        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🌐</span>;
+      case "SPANISH_LATAM":
+        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🌎</span>;
+      case "RUSSIA_CIS":
+        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🗺️</span>;
+      default:
+        return <img src={flagSrc} alt="" className="w-5 h-5 rounded-full object-cover shrink-0" />;
+    }
+  }
+
   return (
     <div ref={dropdownRef} className="relative">
       <button
@@ -139,11 +154,7 @@ export function CountriesDropdown({ label }: { label: string }) {
                     selectedCode === c.code ? "text-primary" : "text-[#181818] hover:text-primary"
                   }`}
                 >
-                  {c.flagSrc ? (
-                    <img src={c.flagSrc} alt="" className="w-5 h-5 rounded-full object-cover shrink-0" />
-                  ) : (
-                    <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">{c.emoji}</span>
-                  )}
+                  {getRenderFlag(c.code, c.flagSrc)}
                   <span>{c.name}</span>
                 </button>
               ))}
