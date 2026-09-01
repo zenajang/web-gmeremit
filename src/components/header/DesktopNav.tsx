@@ -85,6 +85,7 @@ export function LanguageSelector() {
 // ============ Countries Dropdown ============
 export function CountriesDropdown({ label }: { label: string }) {
   const { t } = useTranslation("home.hero");
+  const { setLanguage } = useLanguage();
   const [isOpen, setIsOpen] = useState(false);
   const [selectedCode, setSelectedCode] = useState<string | null>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -131,6 +132,8 @@ export function CountriesDropdown({ label }: { label: string }) {
                   onClick={() => {
                     setSelectedCode(c.code);
                     setIsOpen(false);
+                    const matched = languages.find((lang) => lang.code === c.langCode);
+                    setLanguage(matched ?? languages.find((lang) => lang.code === "en")!);
                   }}
                   className={`inline-flex items-center gap-1 bg-transparent border-0 p-0 text-[15px] font-medium whitespace-nowrap cursor-pointer transition-colors duration-150 ${
                     selectedCode === c.code ? "text-primary" : "text-[#181818] hover:text-primary"

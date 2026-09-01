@@ -4,42 +4,45 @@ export interface ServedEntry {
   emoji?: string;
   nameKey: string;
   nameNs: "home.hero" | "header";
+  langCode: string;
 }
 
-function country(code: string): ServedEntry {
+function country(code: string, langCode: string): ServedEntry {
   return {
     code,
     flagSrc: `/images/flags/${code.toLowerCase()}.svg`,
     nameKey: `countries.names.${code}`,
     nameNs: "home.hero",
+    langCode,
   };
 }
 
-function region(code: string, emoji: string, nameKey: string): ServedEntry {
-  return { code, emoji, nameKey, nameNs: "header" };
+function region(code: string, emoji: string, nameKey: string, langCode: string): ServedEntry {
+  return { code, emoji, nameKey, nameNs: "header", langCode };
 }
 
 // Order matches the reference GME country selector exactly.
+// langCode: matching site language when selected; "en" when no dedicated language exists.
 export const servedEntries: ServedEntry[] = [
-  country("PH"),
-  country("ID"),
-  region("AFRICA", "🌍", "nav.region_africa"),
-  region("ARAB", "🌐", "nav.region_arab"),
-  country("CN"),
-  region("SPANISH_LATAM", "🌎", "nav.region_spanish_latam"),
-  country("VN"),
-  country("KZ"),
-  country("KH"),
-  country("BD"),
-  country("MN"),
-  country("LA"),
-  region("RUSSIA_CIS", "🗺️", "nav.region_russia_cis"),
-  country("MM"),
-  country("NP"),
-  country("LK"),
-  country("UZ"),
-  country("IN"),
-  country("PK"),
-  country("TH"),
-  country("KG"),
+  country("PH", "tl"),
+  country("ID", "id"),
+  country("AFRICA", "en"),
+  country("ARAB", "ar"),
+  country("CN", "zh"),
+  country("SPANISH_LATAM", "es"),
+  country("VN", "vi"),
+  country("KZ", "ru"),
+  country("KH", "km"),
+  country("BD", "bn"),
+  country("MN", "mn"),
+  country("LA", "lo"),
+  country("RUSSIA_CIS", "ru"),
+  country("MM", "my"),
+  country("NP", "ne"),
+  country("LK", "si"),
+  country("UZ", "uz"),
+  country("IN", "hi"),
+  country("PK", "ur"),
+  country("TH", "th"),
+  country("KG", "ru"),
 ];

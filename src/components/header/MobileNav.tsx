@@ -153,6 +153,7 @@ export function MobileAccordion({
 // ============ Mobile Countries Accordion ============
 export function MobileCountriesAccordion({ label }: { label: string }) {
   const { t } = useTranslation("home.hero");
+  const { setLanguage } = useLanguage();
   const [isExpanded, setIsExpanded] = useState(false);
   const [selectedCode, setSelectedCode] = useState<string | null>(null);
 
@@ -182,7 +183,11 @@ export function MobileCountriesAccordion({ label }: { label: string }) {
             <button
               key={c.code}
               type="button"
-              onClick={() => setSelectedCode(c.code)}
+              onClick={() => {
+                setSelectedCode(c.code);
+                const matched = languages.find((lang) => lang.code === c.langCode);
+                setLanguage(matched ?? languages.find((lang) => lang.code === "en")!);
+              }}
               className={`w-full flex items-center gap-2 px-6 py-2.5 text-left text-sm hover:bg-gray-100 cursor-pointer ${
                 selectedCode === c.code ? "text-primary" : "text-dark hover:text-primary"
               }`}
