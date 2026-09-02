@@ -7,6 +7,7 @@ import { languages } from "@/lib/language";
 import { useClickOutside } from "@/hooks/useClickOutside";
 import { useTranslation } from "@/hooks/useTranslation";
 import { servedEntries } from "@/data/servedCountries";
+import { useRouter } from "next/navigation";
 
 // ============ Types ============
 export interface MenuItem {
@@ -88,6 +89,7 @@ export function CountriesDropdown({ label }: { label: string }) {
   const { setLanguage } = useLanguage();
   const [isOpen, setIsOpen] = useState(false);
   const [selectedCode, setSelectedCode] = useState<string | null>(null);
+  const router = useRouter();
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   useClickOutside(dropdownRef, () => setIsOpen(false));
@@ -114,6 +116,43 @@ export function CountriesDropdown({ label }: { label: string }) {
       default:
         return <img src={flagSrc} alt="" className="w-5 h-5 rounded-full object-cover shrink-0" />;
     }
+  }
+  
+  const CountryNamesEn: Record<string, string> = {
+    PH: "Philippines",
+    ID: "Indonesia",
+    MY: "Malaysia",
+    SG: "Singapore",
+    HK: "Hong Kong",
+    TW: "Taiwan",
+    CN: "China",
+    JP: "Japan",
+    KR: "Korea",
+    TH: "Thailand",
+    VN: "Vietnam",
+    IN: "India",
+    BD: "Bangladesh",
+    PK: "Pakistan",
+    AF: "Afghanistan",
+    BT: "Bhutan",
+    BN: "Brunei",
+    KH: "Cambodia",
+    MM: "Myanmar",
+    LA: "Laos",
+    MN: "Mongolia",
+    NP: "Nepal",
+    KZ: "Kazakhstan",
+    KG: "Kyrgyzstan",
+    LK: "Sri Lanka",
+    UZ: "Uzbekistan",
+  };
+
+  const clickCountry = (code: string, langCode: string) => {
+    setSelectedCode(code);
+    setIsOpen(false);
+    const matched = languages.find((lang) => lang.code === langCode);
+    setLanguage(matched ?? languages.find((lang) => lang.code === "en")!);
+    router.push(`/country/${CountryNamesEn[code]}`);
   }
 
   return (
@@ -144,12 +183,7 @@ export function CountriesDropdown({ label }: { label: string }) {
                 <button
                   key={c.code}
                   type="button"
-                  onClick={() => {
-                    setSelectedCode(c.code);
-                    setIsOpen(false);
-                    const matched = languages.find((lang) => lang.code === c.langCode);
-                    setLanguage(matched ?? languages.find((lang) => lang.code === "en")!);
-                  }}
+                  onClick={() => clickCountry(c.code, c.langCode)}
                   className={`inline-flex items-center gap-1 bg-transparent border-0 p-0 text-[15px] font-medium whitespace-nowrap cursor-pointer transition-colors duration-150 ${
                     selectedCode === c.code ? "text-primary" : "text-[#181818] hover:text-primary"
                   }`}
