@@ -10,7 +10,7 @@ export default function Hero() {
   const backgroundImage = `/images/country/heroImages/hero-${country}-fullwidth.webp`;
 
   return (
-    <div className="relative flex items-center min-h-[480px] sm:min-h-[580px] lg:min-h-[clamp(660px,51vw,980px)]">
+    <section className="relative flex items-center min-h-[480px] sm:min-h-[580px] lg:min-h-[clamp(660px,51vw,980px)]">
       <Image
         src={backgroundImage}
         alt={`${country} hero image`}
@@ -20,6 +20,6 @@ export default function Hero() {
       />
       <HeroContent countryUppercase={countryUppercase} />
       <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-r from-black/70 via-black/30 to-transparent" />
-    </div>
+    </section>
   );
 }
