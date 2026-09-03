@@ -5,12 +5,16 @@ import { countryConfigs } from "@/data/countries";
 import { useTranslation } from "@/hooks/useTranslation";
 import { getExchangeRate } from "@/lib/GetExchangeRate";
 import * as S from "./styles";
+import { usePathname } from "next/navigation";
 
 const formatNumber = (num: string) => num.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 const parseNumber = (str: string) => str.replace(/,/g, "");
 
-const ExchangeRateCalculator = ({ countryName }: { countryName: string }) => {
+const ExchangeRateCalculator = () => {
+  const pathname = usePathname();
+  const countryName = pathname.split("/").pop() ?? "";
   const { t } = useTranslation("home.exchange");
+
   const [sendAmount, setSendAmount] = useState(""); // 보내는 금액 (input에 표시, 콤마 포맷 전 raw 문자열)
   const [receiveAmount, setReceiveAmount] = useState(""); // 받는 금액 (계산 결과, 화면 표시용)
   const [exchangeRateDisplay, setExchangeRateDisplay] = useState(""); // 환율 표시 문자열 (API 응답 exRateDisplay)
