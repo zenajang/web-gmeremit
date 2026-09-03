@@ -1,15 +1,18 @@
 "use client";
 
 import { usePathname } from "next/navigation";
+import CommonButton, { CommonButtonProps } from "@/components/ui/CommonButton";
 
 interface InformationProps {
   sectionTitle: string;
   contentTitle: React.ReactNode;
   description: string;
-  footnote: string;
+  footnote?: string;
+  benefits?: string[];
+  buttonProps?: CommonButtonProps;
 }
 
-const Information = ({ sectionTitle, contentTitle = null, description, footnote }: InformationProps) => {
+const Information = ({ sectionTitle, contentTitle = null, description, footnote, benefits, buttonProps }: InformationProps) => {
   const pathname = usePathname();
   const countryName = pathname.split("/").pop();
   
@@ -21,7 +24,15 @@ const Information = ({ sectionTitle, contentTitle = null, description, footnote 
         {description} {countryName}
       </p>
       {footnote && <p className="text-[14px] text-[#8a8a8a]">{footnote}</p>}
-    </div>
+      {benefits && <div>
+        <ul className="flex flex-wrap gap-x-3 gap-y-1 text-[15px] font-semibold text-[#181818]">
+          {benefits?.map((benefit, index) => (
+            <li key={index} className="before:content-['•'] before:mr-1.5">{benefit}</li>
+          ))}
+        </ul>
+      </div>}
+      {buttonProps && <CommonButton {...buttonProps} />}
+  </div>
   );
 };
 

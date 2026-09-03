@@ -11,7 +11,7 @@ export const CalculatorContainer = css`
 `;
 
 export const CalculatorTitle =
-  "bg-white rounded-xl shadow-[0_12px_32px_rgba(0,0,0,0.06)] p-6 sm:p-8 flex flex-col gap-4 w-full sm:max-w-[460px] lg:max-w-none";
+  "bg-white rounded-xl shadow-[0_12px_32px_rgba(0,0,0,0.06)] p-6 sm:p-8 flex flex-col gap-4 w-full sm:w-[460px]";
 
 export const CalculatorHeaderRow = "flex items-baseline justify-between";
 

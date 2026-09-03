@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-interface CommonButtonProps {
+export interface CommonButtonProps {
   type: "button" | "submit" | "reset";
   as: "button" | "link";
   children: React.ReactNode;
@@ -15,7 +15,7 @@ interface CommonButtonProps {
 const CommonButton = ({ type, as, href, children, className, disabled, onClick }: CommonButtonProps) => {
   if (as === "link" && href) {
     return (
-      <Link href={href} className={className} onClick={onClick}>
+      <Link href={href} className={className}>
         {children}
       </Link>
     )
