@@ -11,7 +11,7 @@ export const CalculatorContainer = css`
 `;
 
 export const CalculatorTitle =
-  "bg-white rounded-xl shadow-[0_12px_32px_rgba(0,0,0,0.06)] p-8 flex flex-col gap-4";
+  "bg-white rounded-xl shadow-[0_12px_32px_rgba(0,0,0,0.06)] p-6 sm:p-8 flex flex-col gap-4 w-full sm:max-w-[460px] lg:max-w-none";
 
 export const CalculatorHeaderRow = "flex items-baseline justify-between";
 
@@ -50,7 +50,7 @@ export const CalculatorResultLabel =
   "text-[12px] font-semibold text-[#d8202f] tracking-[0.08em] uppercase";
 
 export const CalculatorResultValue =
-  "text-[28px] font-extrabold text-[#d8202f] tracking-[-0.01em]";
+  "text-[24px] sm:text-[28px] font-extrabold text-[#d8202f] tracking-[-0.01em]";
 
 export const CalculatorMetaRow = "flex items-center justify-between text-[14px]";
 
