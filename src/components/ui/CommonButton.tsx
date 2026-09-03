@@ -9,7 +9,7 @@ interface CommonButtonProps {
   className?: string;
   href?: string;
   disabled?: boolean;
-  onClick?: () => void;
+  onClick?: (e: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>) => void;
 }
 
 const CommonButton = ({ type, as, href, children, className, disabled, onClick }: CommonButtonProps) => {

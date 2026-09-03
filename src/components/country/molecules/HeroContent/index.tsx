@@ -1,3 +1,5 @@
+"use client";
+
 import CommonButton from "@/components/ui/CommonButton";
 
 interface HeroContentProps {
@@ -5,6 +7,16 @@ interface HeroContentProps {
 }
 
 const HeroContent = ({ countryUppercase }: HeroContentProps) => {
+  const handleScrollToExchangeRate = (e: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>) => {
+    e.preventDefault();
+    const target = document.getElementById("exchange-rate");
+    if (!target) return;
+
+    const headerOffset = window.innerWidth >= 1024 ? 120 : 64; // lg: 유틸리티바(40)+메인네브(80), 모바일: 메인네브(64)
+    const targetPosition = target.getBoundingClientRect().top + window.scrollY - headerOffset;
+    window.scrollTo({ top: targetPosition, behavior: "smooth" });
+  };
+
   return (
     <div className="relative z-2 w-full mx-auto max-w-[1200px] px-5 sm:px-8 lg:px-10 pt-8 pb-6 sm:pt-16 sm:pb-12 lg:pt-24 lg:pb-24">
       <div className="flex flex-col gap-3 sm:gap-4 max-w-[250px] sm:max-w-[410px] lg:max-w-[560px]">
@@ -18,16 +30,16 @@ const HeroContent = ({ countryUppercase }: HeroContentProps) => {
         <div className="flex flex-col items-stretch gap-2 sm:flex-row sm:items-center sm:gap-3 mt-2">
           <CommonButton
             as="link"
-            href="/services/remittance"
+            href="/#app-download"
             type="button"
             className="w-full sm:w-auto flex items-center justify-center font-semibold cursor-pointer px-7 py-3 sm:py-3.5 text-[16px] rounded-full bg-primary text-white shadow-[0_8px_24px_rgba(237,28,36,0.3)] hover:bg-[#c11a28]"
           >
             Send Money Now
           </CommonButton>
           <CommonButton
-            as="link"
-            href="/#app-download"
+            as="button"
             type="button"
+            onClick={handleScrollToExchangeRate}
             className="w-full sm:w-auto flex items-center justify-center font-semibold cursor-pointer px-[27px] py-3 sm:py-[13px] text-[16px] rounded-full border-2 border-white text-white bg-white/14 backdrop-blur-sm"
           >
             Get Started

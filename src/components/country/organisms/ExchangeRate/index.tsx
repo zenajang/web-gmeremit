@@ -5,7 +5,7 @@ import ExchangeRateCalculator from "../ExchangeRateCalculator";
 const ExchangeRate = ({ countryName }: { countryName: string }) => {
 
   return (
-    <section className="bg-[#fafaf9] py-24">
+    <section id="exchange-rate" className="bg-[#fafaf9] py-24">
       <div className="w-full mx-auto max-w-[1200px] px-10">
         <div className="grid grid-cols-[minmax(0,1fr)_minmax(0,460px)] gap-16 items-center">
           <div className="flex flex-col gap-4">

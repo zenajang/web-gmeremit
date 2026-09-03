@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useRef, useState } from "react";
+import { useState } from "react";
 import { countryConfigs } from "@/data/countries";
 import { useTranslation } from "@/hooks/useTranslation";
 import { getExchangeRate } from "@/lib/GetExchangeRate";
@@ -18,7 +18,6 @@ const ExchangeRateCalculator = ({ countryName }: { countryName: string }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [hasError, setHasError] = useState(false);
   const [errorMsg, setErrorMsg] = useState(""); // 사용자에게 보여줄 에러 메시지 (완성된 문자열)
-  const debounceRef = useRef<ReturnType<typeof setTimeout>>(undefined);
 
   const matchedCountry = countryConfigs.find(
     (c) => c.countryName.toLowerCase() === countryName?.toLowerCase()
@@ -26,44 +25,33 @@ const ExchangeRateCalculator = ({ countryName }: { countryName: string }) => {
   const pCurr = matchedCountry?.currencies[0]?.code ?? "";
   const pCountryName = matchedCountry?.countryName ?? countryName;
 
-  const fetchExchangeRate = useCallback(
-    async (amount: string) => {
-      if (!amount || amount === "0" || !pCurr) {
-        setReceiveAmount("");
-        return;
-      }
-
-      setIsLoading(true);
-      setHasError(false);
-      setErrorMsg("");
-
-      const result = await getExchangeRate({ pCurr, pCountryName, amount });
-
-      if (result.success) {
-        setExchangeRateDisplay(result.exchangeRateDisplay);
-        setScCharge(result.scCharge);
-        setReceiveAmount(result.receiveAmount);
-      } else {
-        setReceiveAmount("");
-        setExchangeRateDisplay("");
-        setScCharge("");
-        setHasError(true);
-        setErrorMsg(result.errorMsg);
-      }
-      setIsLoading(false);
-    },
-    [pCurr, pCountryName]
-  );
-
   const handleSendAmountChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = parseNumber(e.target.value);
     if (!/^\d*$/.test(value)) return;
-
     setSendAmount(value);
-    if (debounceRef.current) clearTimeout(debounceRef.current);
-    debounceRef.current = setTimeout(() => {
-      fetchExchangeRate(value);
-    }, 500);
+  };
+
+  const handleSubmit = async () => {
+    if (!sendAmount || sendAmount === "0" || !pCurr) return;
+
+    setIsLoading(true);
+    setHasError(false);
+    setErrorMsg("");
+
+    const result = await getExchangeRate({ pCurr, pCountryName, amount: sendAmount });
+
+    if (result.success) {
+      setExchangeRateDisplay(result.exchangeRateDisplay);
+      setScCharge(result.scCharge);
+      setReceiveAmount(result.receiveAmount);
+    } else {
+      setReceiveAmount("");
+      setExchangeRateDisplay("");
+      setScCharge("");
+      setHasError(true);
+      setErrorMsg(result.errorMsg);
+    }
+    setIsLoading(false);
   };
 
   return (
@@ -135,8 +123,13 @@ const ExchangeRateCalculator = ({ countryName }: { countryName: string }) => {
         </div>
       </div>
 
-      <button type="button" className={S.CalculatorSubmitButton}>
-        Send Money Now
+      <button
+        type="button"
+        onClick={handleSubmit}
+        disabled={isLoading}
+        className={S.CalculatorSubmitButton}
+      >
+        {isLoading ? "Calculating..." : "Send Money Now"}
       </button>
     </div>
   );
