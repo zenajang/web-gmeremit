@@ -5,9 +5,9 @@ import Image from "next/image";
 import HeroContent from "../../molecules/HeroContent";
 
 export default function Hero() {
-  const {country} = useParams();
-  const countryUppercase = (country as string)?.toUpperCase();
-  const backgroundImage = `/images/country/heroImages/hero-${country}-fullwidth.webp`;
+  const {country} = useParams<{country: string}>();
+  const countryUppercase = country?.toUpperCase();
+  const backgroundImage = `/images/country/heroImages/hero-${country?.toLowerCase()}-fullwidth.webp`;
 
   return (
     <section className="relative flex items-center min-h-[480px] sm:min-h-[580px] lg:min-h-[clamp(660px,51vw,980px)]">
