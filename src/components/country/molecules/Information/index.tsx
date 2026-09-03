@@ -1,6 +1,3 @@
-"use client";
-
-import { usePathname } from "next/navigation";
 import CommonButton, { CommonButtonProps } from "@/components/ui/CommonButton";
 
 interface InformationProps {
@@ -13,15 +10,12 @@ interface InformationProps {
 }
 
 const Information = ({ sectionTitle, contentTitle = null, description, footnote, benefits, buttonProps }: InformationProps) => {
-  const pathname = usePathname();
-  const countryName = pathname.split("/").pop();
-  
   return (
     <div className="flex flex-col gap-4">
       <p className="text-[#d8202f] font-bold text-[13px] tracking-[0.08em] uppercase">{sectionTitle}</p>
       {contentTitle}
       <p className="text-[16px] sm:text-[18px] leading-[1.6] text-[#606060] max-w-[42ch]">
-        {description} {countryName}
+        {description}
       </p>
       {footnote && <p className="text-[14px] text-[#8a8a8a]">{footnote}</p>}
       {benefits && <div>
