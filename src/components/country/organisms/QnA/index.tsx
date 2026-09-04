@@ -1,6 +1,7 @@
 const QnA = () => {
   return (
-    <section id="QnA" className="max-w-[1200px] mx-auto px-5 sm:px-8 lg:px-10 py-12 sm:py-16 lg:py-24">
+    <section id="QnA" className="bg-[#fafaf9] py-12 sm:py-16 lg:py-24">
+      <div className="max-w-[1200px] mx-auto px-5 sm:px-8 lg:px-10">
       <h1 className="text-[40px] font-extrabold leading-[1.15] tracking-[-0.01em] text-[#181818] px-5">Frequently Asked Questions About GME Remit</h1>
       <p className="text-[18px] text-[#606060] mt-2 mb-8 px-5">Find answers to common questions about sending money with GME Remit</p>
       <div className="w-full h-[1px] bg-[#e0e0e0]" />
@@ -29,6 +30,7 @@ const QnA = () => {
           <p className="text-[15px] leading-[1.6] text-[#606060]">You can also message us through our official GME Africa social media channels, including Facebook, Instagram, TikTok, and ChannelTalk.</p>
           <p className="text-[15px] leading-[1.6] text-[#606060]">If you prefer in-person assistance, GME Remit also has branches across Korea where our staff can assist you directly.</p>
         </div>
+      </div>
       </div>
     </section>
   )

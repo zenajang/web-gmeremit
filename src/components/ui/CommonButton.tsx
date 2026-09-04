@@ -9,13 +9,14 @@ export interface CommonButtonProps {
   className?: string;
   href?: string;
   disabled?: boolean;
+  target?: string;
   onClick?: (e: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>) => void;
 }
 
-const CommonButton = ({ type, as, href, children, className, disabled, onClick }: CommonButtonProps) => {
+const CommonButton = ({ type, as, href, children, className, disabled, target, onClick }: CommonButtonProps) => {
   if (as === "link" && href) {
     return (
-      <Link href={href} className={className}>
+      <Link href={href} className={className} target={target}>
         {children}
       </Link>
     )

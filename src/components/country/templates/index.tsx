@@ -1,4 +1,4 @@
-import { Hero, SpliteSection, QnA } from "../organisms";
+import { Hero, SpliteSection, QnA, SocialConnect } from "../organisms";
 
 export default function CountryTemplate({ countryName }: { countryName: string }) {
   return (
@@ -6,6 +6,7 @@ export default function CountryTemplate({ countryName }: { countryName: string }
       <Hero />
       <SpliteSection countryName={countryName} />
       <QnA />
+      <SocialConnect countryName={countryName} />
     </main>
   )
 } 
