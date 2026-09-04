@@ -2,9 +2,10 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { languages } from "@/lib/language";
-import type { MenuItem } from "./DesktopNav";
+import { CountryNamesEn, type MenuItem } from "./DesktopNav";
 import { useTranslation } from "@/hooks/useTranslation";
 import { servedEntries } from "@/data/servedCountries";
 
@@ -154,6 +155,7 @@ export function MobileAccordion({
 export function MobileCountriesAccordion({ label, onClose }: { label: string; onClose: () => void }) {
   const { t } = useTranslation("home.hero");
   const { setLanguage } = useLanguage();
+  const router = useRouter();
   const [isExpanded, setIsExpanded] = useState(false);
   const [selectedCode, setSelectedCode] = useState<string | null>(null);
 
@@ -174,7 +176,7 @@ export function MobileCountriesAccordion({ label, onClose }: { label: string; on
         return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🌐</span>;
       case "SPANISH_LATAM":
         return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🌎</span>;
-      case "RUSSIA_CIS":
+      case "RU":
         return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🗺️</span>;
       default:
         return <img src={flagSrc} alt="" className="w-5 h-5 rounded-full object-cover shrink-0" />;
@@ -203,6 +205,7 @@ export function MobileCountriesAccordion({ label, onClose }: { label: string; on
                 const matched = languages.find((lang) => lang.code === c.langCode);
                 setLanguage(matched ?? languages.find((lang) => lang.code === "en")!);
                 onClose();
+                router.push(`/country/${CountryNamesEn[c.code]}`);
               }}
               className={`w-full flex items-center gap-2 px-6 py-2.5 text-left text-sm hover:bg-gray-100 cursor-pointer ${
                 selectedCode === c.code ? "text-primary" : "text-dark hover:text-primary"

@@ -18,7 +18,7 @@ const socialLinks: Record<string, { facebook?: string; tiktok?: string }> = {
   bangladesh: { facebook: "https://www.facebook.com/gmebangladesh", tiktok: "https://www.tiktok.com/@gmeremitbangladesh" },
   mongolia: { facebook: "https://www.facebook.com/gmemongolia", tiktok: "https://www.tiktok.com/@gmemongolia" },
   laos: { facebook: "https://www.facebook.com/people/GME-Remit-Laos-%E0%BB%82%E0%BA%AD%E0%BA%99%E0%BB%80%E0%BA%87%E0%BA%B4%E0%BA%99%E0%BA%88%E0%BA%B2%E0%BA%81%E0%BB%80%E0%BA%81%E0%BA%BB%E0%BA%B2%E0%BA%AB%E0%BA%BC%E0%BA%B5%E0%BB%84%E0%BA%9B%E0%BA%A5%E0%BA%B2%E0%BA%A7/61578138554726/", tiktok: "https://www.tiktok.com/@gmelaos" },
-  "russia-cis": { facebook: "https://www.facebook.com/gmerussia", tiktok: "https://www.tiktok.com/@gme_cis" },
+  russia: { facebook: "https://www.facebook.com/gmerussia", tiktok: "https://www.tiktok.com/@gme_cis" },
   myanmar: { facebook: "https://www.facebook.com/gmemyanmar", tiktok: "https://www.tiktok.com/@gme_remit_myanmar" },
   nepal: { facebook: "https://www.facebook.com/gmenepal", tiktok: "https://www.tiktok.com/@gmeremitnepal" },
   "sri-lanka": { facebook: "https://www.facebook.com/gmeremitsrilanka", tiktok: "https://www.tiktok.com/@gmeremitsrilanka" },
@@ -33,33 +33,33 @@ const SocialConnect = ({ countryName }: SocialConnectProps) => {
   const links = socialLinks[countryName?.toLowerCase()] ?? {};
   
   return (
-    <section id="SocialConnect" className="bg-white py-12 sm:py-16 lg:py-24">
-      <div className="flex flex-wrap justify-between items-center gap-8 max-w-[1200px] mx-auto px-5 sm:px-8 lg:px-10">
+    <section id="SocialConnect" className="bg-white py-12 sm:py-16">
+      <div className="flex flex-col sm:flex-row sm:flex-wrap justify-between items-start sm:items-center gap-8 max-w-[1200px] mx-auto px-5 sm:px-8 lg:px-10">
         <div>
-          <h1 className="text-[28px] font-extrabold tracking-[-0.01em] text-[#181818]">Connect with GME {countryName}</h1>
+          <h1 className="text-[24px] sm:text-[28px] font-extrabold tracking-[-0.01em] text-[#181818]">Connect with GME {countryName}</h1>
           <p className="text-[16px] text-[#606060] mt-1">News, helpful tips, and updates for our community</p>
         </div>
-        <ul className="flex items-center gap-6">
+        <ul className="flex items-center gap-x-4 gap-y-3 sm:gap-6">
           <li className="text-[16px] font-semibold text-[#181818]">
-            <Link href={links.facebook ?? `/country/${countryName}`} target="_blank" className="flex items-center gap-2">
+            <Link href={links.facebook ?? `/country/${countryName}`} target="_blank" className="flex items-center gap-2 text-[15px] font-semibold text-[#181818]">
               <Image src="/images/country/icons/facebook.svg" alt="Facebook" width={20} height={20} />
               Facebook
             </Link>
           </li>
           <li className="text-[16px] font-semibold text-[#181818]">
-            <Link href={`/country/${countryName}`} target="_blank" className="flex items-center gap-2">
+            <Link href={`/country/${countryName}`} target="_blank" className="flex items-center gap-2 text-[15px] font-semibold text-[#181818]">
               <Image src="/images/country/icons/instagram.svg" alt="Instagram" width={20} height={20} />
               Instagram
             </Link>
           </li>
           <li className="text-[16px] font-semibold text-[#181818]">
-            <Link href={links.tiktok ?? `/country/${countryName}`} target="_blank" className="flex items-center gap-2">
+            <Link href={links.tiktok ?? `/country/${countryName}`} target="_blank" className="flex items-center gap-2 text-[15px] font-semibold text-[#181818]">
             <Image src="/images/country/icons/tiktok.svg" alt="TikTok" width={20} height={20} />
             TikTok
             </Link>
           </li>
           <li className="text-[16px] font-semibold text-[#181818]">
-            <Link href={`/country/${countryName}`} target="_blank" className="flex items-center gap-2">
+            <Link href={`/country/${countryName}`} target="_blank" className="flex items-center gap-2 text-[15px] font-semibold text-[#181818]">
               <Image src="/images/country/icons/channeltalk.svg" alt="ChannelTalk" width={20} height={20} />
               ChannelTalk
             </Link>

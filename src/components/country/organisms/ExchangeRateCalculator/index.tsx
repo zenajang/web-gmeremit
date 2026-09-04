@@ -23,8 +23,9 @@ const ExchangeRateCalculator = () => {
   const [hasError, setHasError] = useState(false);
   const [errorMsg, setErrorMsg] = useState(""); // 사용자에게 보여줄 에러 메시지 (완성된 문자열)
 
+  const normalize = (value: string) => value.toLowerCase().replace(/[-\s]+/g, "");
   const matchedCountry = countryConfigs.find(
-    (c) => c.countryName.toLowerCase() === countryName?.toLowerCase()
+    (c) => normalize(c.countryName) === normalize(countryName ?? "")
   );
   const pCurr = matchedCountry?.currencies[0]?.code ?? "";
   const pCountryName = matchedCountry?.countryName ?? countryName;
@@ -90,7 +91,7 @@ const ExchangeRateCalculator = () => {
             type="text"
             inputMode="numeric"
             placeholder="0"
-            value={formatNumber(sendAmount)}
+            value={sendAmount ? Number(sendAmount).toLocaleString("ko-KR") : ""}
             onChange={handleSendAmountChange}
             className={S.CalculatorInput}
           />

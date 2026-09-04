@@ -36,7 +36,7 @@ export const servedEntries: ServedEntry[] = [
   country("BD", "bn"),
   country("MN", "mn"),
   country("LA", "en"),
-  country("RUSSIA_CIS", "en"),
+  country("RU", "ru"),
   country("MM", "my"),
   country("NP", "ne"),
   country("LK", "si"),

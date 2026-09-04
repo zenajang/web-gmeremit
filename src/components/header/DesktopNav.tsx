@@ -16,6 +16,39 @@ export interface MenuItem {
   children?: { label: string; href: string }[];
 }
 
+export const CountryNamesEn: Record<string, string> = {
+  PH: "Philippines",
+  ID: "Indonesia",
+  MY: "Malaysia",
+  SG: "Singapore",
+  HK: "Hong-Kong",
+  TW: "Taiwan",
+  CN: "China",
+  JP: "Japan",
+  KR: "Korea",
+  TH: "Thailand",
+  VN: "Vietnam",
+  IN: "India",
+  BD: "Bangladesh",
+  PK: "Pakistan",
+  AF: "Afghanistan",
+  BT: "Bhutan",
+  BN: "Brunei",
+  KH: "Cambodia",
+  MM: "Myanmar",
+  LA: "Laos",
+  MN: "Mongolia",
+  NP: "Nepal",
+  KZ: "Kazakhstan",
+  KG: "Kyrgyzstan",
+  LK: "Sri-Lanka",
+  UZ: "Uzbekistan",
+  AFRICA: "Africa",
+  ARAB: "Arab",
+  SPANISH_LATAM: "Spanish-Latam",
+  RU: "Russian-Federation",
+};
+
 // ============ Language Selector ============
 export function LanguageSelector() {
   const { currentLanguage, setLanguage } = useLanguage();
@@ -111,46 +144,13 @@ export function CountriesDropdown({ label }: { label: string }) {
         return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🌐</span>;
       case "SPANISH_LATAM":
         return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🌎</span>;
-      case "RUSSIA_CIS":
+      case "RU":
         return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🗺️</span>;
       default:
         return <img src={flagSrc} alt="" className="w-5 h-5 rounded-full object-cover shrink-0" />;
     }
   }
   
-  const CountryNamesEn: Record<string, string> = {
-    PH: "Philippines",
-    ID: "Indonesia",
-    MY: "Malaysia",
-    SG: "Singapore",
-    HK: "Hong Kong",
-    TW: "Taiwan",
-    CN: "China",
-    JP: "Japan",
-    KR: "Korea",
-    TH: "Thailand",
-    VN: "Vietnam",
-    IN: "India",
-    BD: "Bangladesh",
-    PK: "Pakistan",
-    AF: "Afghanistan",
-    BT: "Bhutan",
-    BN: "Brunei",
-    KH: "Cambodia",
-    MM: "Myanmar",
-    LA: "Laos",
-    MN: "Mongolia",
-    NP: "Nepal",
-    KZ: "Kazakhstan",
-    KG: "Kyrgyzstan",
-    LK: "Sri-Lanka",
-    UZ: "Uzbekistan",
-    AFRICA: "Africa",
-    ARAB: "Arab",
-    SPANISH_LATAM: "Spanish-Latam",
-    RUSSIA_CIS: "Russia-CIS",
-  };
-
   const clickCountry = (code: string, langCode: string) => {
     setSelectedCode(code);
     setIsOpen(false);
