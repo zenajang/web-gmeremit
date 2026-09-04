@@ -1,7 +1,11 @@
 import { Information } from "../../molecules";
 import { spliteSectionData } from "./data";
 
-const SpliteSection = ({ countryName }: { countryName: string }) => {
+interface SpliteSectionProps {
+  countryName: string;
+}
+
+const SpliteSection = ({ countryName }: SpliteSectionProps) => {
   return (
     spliteSectionData(countryName).map((item, index) => (
       <section key={item.id} id={item.id} className={`py-12 sm:py-16 lg:py-24 ${index%2 === 0 ? "bg-[#f7f7f6]" : "bg-white"}`}>

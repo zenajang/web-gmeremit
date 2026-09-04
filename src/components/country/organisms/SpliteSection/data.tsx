@@ -24,7 +24,7 @@ export const spliteSectionData = (countryName: string): SpliteSectionData[] => [
     info: {
       sectionTitle: "Exchange Rate",
       contentTitle: <h2 className="text-[26px] sm:text-[32px] lg:text-[40px] leading-[1.15] font-extrabold text-[#181818] tracking-[-0.01em] lg:max-w-[14ch]">
-          Check Today's<br className="hidden lg:inline" /> Exchange Rate
+          Check Today&apos;s<br className="hidden lg:inline" /> Exchange Rate
         </h2>,
       description: `See the latest GME Remit exchange rate before sending money from Korea to ${countryName}`,
       footnote: "Rates may change throughout the day",
@@ -126,6 +126,6 @@ export const spliteSectionData = (countryName: string): SpliteSectionData[] => [
         className: "w-full sm:w-fit flex items-center justify-center font-semibold cursor-pointer px-7 py-3 sm:py-3.5 mt-2 text-[16px] rounded-full bg-primary text-white hover:bg-[#c11a28]"
       }
     },
-    content: <Image src="/images/country/loan-phone.webp" alt="SIM Card" width={1200} height={1200} className="w-full h-auto  max-w-[220px] sm:max-w-[280px] lg:max-w-[320px] mx-auto" />
+    content: <Image src="/images/country/loan-phone.webp" alt="LOAN PHONE" width={1200} height={1200} className="w-full h-auto  max-w-[220px] sm:max-w-[280px] lg:max-w-[320px] mx-auto" />
   }
 ]

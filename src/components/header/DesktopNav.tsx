@@ -143,8 +143,12 @@ export function CountriesDropdown({ label }: { label: string }) {
     NP: "Nepal",
     KZ: "Kazakhstan",
     KG: "Kyrgyzstan",
-    LK: "Sri Lanka",
+    LK: "Sri-Lanka",
     UZ: "Uzbekistan",
+    AFRICA: "Africa",
+    ARAB: "Arab",
+    SPANISH_LATAM: "Spanish-Latam",
+    RUSSIA_CIS: "Russia-CIS",
   };
 
   const clickCountry = (code: string, langCode: string) => {

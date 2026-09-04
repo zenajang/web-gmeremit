@@ -1,4 +1,7 @@
-const QnA = () => {
+interface QnAProps {
+  countryName: string;
+}
+const QnA = ({ countryName }: QnAProps) => {
   return (
     <section id="QnA" className="bg-[#fafaf9] py-12 sm:py-16 lg:py-24">
       <div className="max-w-[1200px] mx-auto px-5 sm:px-8 lg:px-10">
@@ -27,7 +30,7 @@ const QnA = () => {
         <div className="flex flex-col gap-2.5 max-w-[68ch] mt-3 ml-10">
           <p className="text-[15px] leading-[1.6] text-[#606060]">Our customer support team is available from 10:00 to 23:00, Monday to Sunday.</p>
           <p className="text-[15px] leading-[1.6] text-[#606060]">You can contact us by phone at (+82) 02-1588-6864 or through the GME Remit app.</p>
-          <p className="text-[15px] leading-[1.6] text-[#606060]">You can also message us through our official GME Africa social media channels, including Facebook, Instagram, TikTok, and ChannelTalk.</p>
+          <p className="text-[15px] leading-[1.6] text-[#606060]">You can also message us through our official GME {countryName} social media channels, including Facebook, Instagram, TikTok, and ChannelTalk.</p>
           <p className="text-[15px] leading-[1.6] text-[#606060]">If you prefer in-person assistance, GME Remit also has branches across Korea where our staff can assist you directly.</p>
         </div>
       </div>
