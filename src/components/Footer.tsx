@@ -68,7 +68,7 @@ export default function Footer({ variant = "full" }: FooterProps) {
             {/* Company Details */}
             <div className="space-y-1 text-xs text-gray-600 min-h-[200px] lg:min-h-[100px]">
               <p>{t("info.address")}</p>
-              <p>{t("info.email_corporate")} | {t("info.email_support")}</p>
+              <p>{t("info.email_support")}</p>
               <p>
                 <Link
                   href="/support/social-channels"
