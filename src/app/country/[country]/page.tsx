@@ -7,7 +7,7 @@ const CountryPage = async ({params,}: {params: Promise<{ country: string }>;}) =
   return <>
   <Header />
   <CountryTemplate countryName={country} />
-  <Footer variant="minimal" />
+  <Footer/>
   </>;
 };
 
