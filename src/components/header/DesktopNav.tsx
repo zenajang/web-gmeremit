@@ -164,7 +164,7 @@ export function CountriesDropdown({ label }: { label: string }) {
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
-        className="relative flex items-center gap-1.5 text-lg text-dark hover:text-dark font-medium transition-all duration-200 px-3 py-2 cursor-pointer"
+        className="relative flex items-center gap-1.5 text-[15px] xl:text-lg text-dark hover:text-dark font-medium transition-all duration-200 px-1.5 xl:px-3 py-2 whitespace-nowrap cursor-pointer"
         aria-label="Select country"
       >
         <span>{label}</span>
@@ -216,7 +216,7 @@ export function NavDropdown({ item }: { item: MenuItem }) {
     return (
       <Link
         href={item.href ?? "#"}
-        className="relative text-lg text-dark hover:text-dark font-medium transition-all duration-200 px-3 py-2 hover:after:absolute hover:after:-bottom-[28px] hover:after:left-0 hover:after:right-0 hover:after:h-[2px] hover:after:bg-primary"
+        className="relative text-[15px] xl:text-lg text-dark hover:text-dark font-medium transition-all duration-200 px-1.5 xl:px-3 py-2 whitespace-nowrap hover:after:absolute hover:after:-bottom-[28px] hover:after:left-0 hover:after:right-0 hover:after:h-[2px] hover:after:bg-primary"
       >
         {item.label}
       </Link>
@@ -228,7 +228,7 @@ export function NavDropdown({ item }: { item: MenuItem }) {
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
-        className="relative flex items-center gap-1.5 text-lg text-dark hover:text-dark font-medium transition-all duration-200 px-3 py-2 cursor-pointer"
+        className="relative flex items-center gap-1.5 text-[15px] xl:text-lg text-dark hover:text-dark font-medium transition-all duration-200 px-1.5 xl:px-3 py-2 whitespace-nowrap cursor-pointer"
       >
         <span>{item.label}</span>
         <svg
@@ -272,7 +272,7 @@ export default function DesktopNav({
   countriesLabel: string;
 }) {
   return (
-    <div className="hidden lg:flex items-center gap-2 absolute left-1/2 -translate-x-1/2 z-50">
+    <div className="hidden lg:flex flex-1 items-center justify-center gap-0.5 xl:gap-2 min-w-0 z-10">
       {menuItems.slice(0, 2).map((item) => (
         <NavDropdown key={item.label} item={item} />
       ))}

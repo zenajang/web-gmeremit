@@ -1,6 +1,5 @@
 {
   "board": {
-    "by": "By",
     "badge": {
       "blog": "Blog",
       "notice": "Abiso",
@@ -14,7 +13,11 @@
       "back_to_list": "Bumalik sa Listahan",
       "not_found": "Hindi nahanap ang post"
     },
+    "error_description": "Pakisubukang muli mamaya.",
+    "error_title": "Hindi ma-load ang mga post",
     "load_more": "Magpakita Pa",
+    "loading": "",
+    "loading_spinner": "",
     "no_image": "Walang Larawan",
     "no_results": "Walang nahanap na resulta.",
     "redirect": {
@@ -42,8 +45,7 @@
       "press": "Balita"
     },
     "total": "Kabuuan",
-    "error_title": "Hindi ma-load ang mga post",
-    "error_description": "Pakisubukang muli mamaya."
+    "by": "By"
   },
   "business": {
     "cta": {
@@ -116,7 +118,7 @@
         "title": "SPS + VAS"
       },
       "step2": {
-        "description": "Ikonekta ang iyong sistema gamit ang aming API documentation.",
+        "description": "Ikonekta ang iyong sistema gamit ang aming API documentation sa developers.gmeremit.com.",
         "title": "API Integration"
       },
       "step3": {
@@ -632,6 +634,14 @@
       "description": "Sumali sa aming pandaigdigang fintech company na nagbibigay ng serbisyong pinansyal sa mga customer sa 200+ na bansa.",
       "title": "Lumago kasama ang GME"
     },
+    "staff_stories": {
+      "subtitle": "Mga totoong kwento mula sa aming mga kasamahan",
+      "title": "Mga Kwento ng Team"
+    },
+    "testimonials": {
+      "subtitle": "Mga totoong kwento mula sa aming mga kasamahan",
+      "title": "Mga Kwento ng Team"
+    },
     "why_gme": {
       "agile": {
         "description": "Mabilis na pagpapatupad sa flat na organisasyon, matuto mula sa mga pagkabigo, at lumago nang magkasama.",
@@ -646,10 +656,6 @@
         "title": "Patas na Pagkakataon"
       },
       "title": "Bakit Espesyal ang GME"
-    },
-    "staff_stories": {
-      "subtitle": "Mga totoong kwento mula sa aming mga kasamahan",
-      "title": "Mga Kwento ng Team"
     }
   },
   "company": {
@@ -663,15 +669,21 @@
         "2017_03": "Inilunsad ang unang online na serbisyo",
         "2017_06": "Unang service provider sa Korea",
         "2017_08": "Unang kumpanyang nakakuha ng small overseas remittance license sa Korea",
+        "2017_12": "Lumampas sa KRW 10 bilyon ang taunang remittance sa ibang bansa",
         "2018_04": "Lumagpas sa KRW 54 bilyon ang kabuuang overseas remittance",
         "2018_09": "Napili bilang Seoul City recommended remittance provider",
+        "2018_12": "Lumampas sa KRW 460 bilyon ang taunang remittance sa ibang bansa",
         "2018_loan": "Nagsimula ng credit loan service para sa mga dayuhan",
         "2019_03": "Inilunsad ang domestic remittance service",
         "2019_06": "Nagbukas ng 12 branch sa buong bansa",
+        "2019_07": "",
         "2019_09": "Nagbukas ng 3 center sa buong bansa",
+        "2019_12": "",
         "2020_02": "Lumagpas sa KRW 1 trilyon ang kabuuang overseas remittance",
         "2020_05": "Inilunsad ang Mobile Top-up service",
         "2020_08": "Nakakuha ng prepaid electronic payment license",
+        "2020_09": "Inilunsad ang serbisyo ng GME Pay",
+        "2020_12": "Lumampas sa KRW 1.0 trilyon ang taunang remittance sa ibang bansa",
         "2021_04": "Lumagpas sa KRW 1.9 trilyon ang kabuuang overseas remittance",
         "2021_07": "Inilunsad ang Mobile Coupon service",
         "2021_10": "Nanalo ng Grand Prize sa Hankyung Fintech Awards (Tech Category)",
@@ -679,6 +691,7 @@
         "2022_03": "Nakakuha ng foreign exchange business license",
         "2022_06": "Nagsimula ng payment business",
         "2022_11": "Lumagpas sa KRW 2 trilyon ang kabuuang overseas remittance",
+        "2022_12": "Lumampas sa KRW 1.7 trilyon ang taunang remittance sa ibang bansa",
         "2023_02": "Lumagpas sa KRW 2.1 trilyon ang kabuuang overseas remittance",
         "2023_05": "Inilunsad ang GME Card service sa pakikipagtulungan ng BC Card at Mastercard",
         "2023_09": "Nakakuha ng GME Mobile (MVNO) service license",
@@ -689,14 +702,9 @@
         "2024_06": "Inilunsad ang 'GMEBiz' corporate payment service",
         "2024_12": "Lumagpas sa KRW 2.8 trilyon ang kabuuang overseas remittance",
         "2025_03": "Inilunsad ang insurance product para sa mga dayuhang residente",
+        "2025_04": "Sertipikado bilang Innovative SME (Inno-Biz)",
         "2025_06": "Inilunsad ang debit card na may transportation card feature",
-        "2025_12": "Lumagpas sa KRW 3.5 trilyon ang kabuuang overseas remittance",
-        "2017_12": "Lumampas sa KRW 10 bilyon ang taunang remittance sa ibang bansa",
-        "2018_12": "Lumampas sa KRW 460 bilyon ang taunang remittance sa ibang bansa",
-        "2020_09": "Inilunsad ang serbisyo ng GME Pay",
-        "2020_12": "Lumampas sa KRW 1.0 trilyon ang taunang remittance sa ibang bansa",
-        "2022_12": "Lumampas sa KRW 1.7 trilyon ang taunang remittance sa ibang bansa",
-        "2025_04": "Sertipikado bilang Innovative SME (Inno-Biz)"
+        "2025_12": "Lumagpas sa KRW 3.5 trilyon ang kabuuang overseas remittance"
       },
       "title_line1": "Walang Katapusang Hamon,",
       "title_line2": "Mga Bagong Simula"
@@ -738,11 +746,11 @@
       },
       "related_services": "Mga Kaugnay na Serbisyo",
       "subtitle": "Lahat ng iyong pangangailangan sa pandaigdigang pananalapi sa isang lugar",
-      "title": "Mga Serbisyo ng GME",
       "telecom": {
-        "title": "Mobile",
-        "desc": "Mga budget mobile plan simula sa ₩3,300/buwan"
-      }
+        "desc": "Mga budget mobile plan simula sa ₩3,300/buwan",
+        "title": "Telecom"
+      },
+      "title": "Mga Serbisyo ng GME"
     },
     "tabs": {
       "ceo_message": "Mensahe ng CEO",
@@ -760,9 +768,9 @@
       "email_support": "Mga Katanungan: support@gmeremit.com",
       "fax": "Fax: (+82) 2 3674 5559",
       "phone_foreigner": "(+82) 02-1588-6864 (Dayuhan)",
-      "remittance_inquiry": "Mga katanungan sa remittance",
-      "phone_general": "Pagre-recruit, Proteksyon sa Mamimili, Pakikipagsosyo/Kolaborasyon: 02-3673-5599",
-      "phone_korean": "02-1811-2961 (Korean, Katanungan sa Remittance)"
+      "phone_general": "02-3673-5559 (Pangkalahatang katanungan)",
+      "phone_korean": "02-1811-2961 (Korean, Katanungan sa Remittance)",
+      "remittance_inquiry": "Mga katanungan sa remittance"
     },
     "link": {
       "company_intro": "Kumpanya",
@@ -861,6 +869,15 @@
         ]
       }
     },
+    "customer_feedback": {
+      "subtitle": "Mga totoong karanasan mula sa aming mga customer.",
+      "tags": {
+        "easy_tracking": "Madaling Transfer at Pagsubaybay",
+        "fast_process": "Mabilis na Proseso",
+        "satisfied": "Nasiyahang Serbisyo"
+      },
+      "title": "Feedback ng Customer"
+    },
     "exchange": {
       "calculator": {
         "bank_deposit": "Bank Deposit",
@@ -869,22 +886,14 @@
         "error": "Nabigo",
         "error_failed": "Hindi makuha ang exchange rate",
         "error_limit": "Lampas sa limit ng padala",
+        "error_max_amount": "Pinakamataas na halaga ng pagpapadala: %1$s KRW",
         "error_network": "May error sa network",
         "error_unavailable": "Hindi available ang rate para sa halagang ito",
-        "loading": "Naglo-load...",
-        "realtime": "Real-time",
-        "receive_amount": "Halagang Matatanggap",
-        "receive_country": "Bansang Tatanggap",
-        "send_amount": "Halagang Ipapadala",
-        "title": "Real-time Exchange Calculator",
-        "mobile_wallet": "Mobile Wallet",
-        "qr_pay": "QR Pay",
-        "search_placeholder": "Maghanap ng bansa",
-        "no_results": "Walang resulta",
-        "fee": "Bayad",
-        "rate": "Palitan",
         "error_unavailable_method": "Hindi available ang paraan ng paghahatid na ito sa ngayon",
-        "error_max_amount": "Pinakamataas na halaga ng pagpapadala: {{amount}} KRW",
+        "fee": "Bayad",
+        "loading": "Naglo-load...",
+        "mobile_wallet": "Mobile Wallet",
+        "no_results": "Walang resulta",
         "payout_methods": {
           "1": "Cash Payment",
           "2": "Bank Deposit",
@@ -905,7 +914,15 @@
           "26": "UZCARD",
           "27": "HUMO Card",
           "38": "Korti Milli"
-        }
+        },
+        "qr_pay": "QR Pay",
+        "rate": "Palitan",
+        "realtime": "Real-time",
+        "receive_amount": "Halagang Matatanggap",
+        "receive_country": "Bansang Tatanggap",
+        "search_placeholder": "Maghanap ng bansa",
+        "send_amount": "Halagang Ipapadala",
+        "title": "Real-time Exchange Calculator"
       },
       "description1": "Real-time exchange rate para sa 200+ na bansa.",
       "description2": "Transparent na pagsisiwalat ng bayarin.",
@@ -1127,7 +1144,7 @@
           "RE": "Réunion",
           "RO": "Romania",
           "RS": "Serbia",
-          "RU": "Russian Federation",
+          "RU": "Russia",
           "RW": "Rwanda",
           "SA": "Saudi Arabia",
           "SB": "Solomon Islands",
@@ -1272,10 +1289,11 @@
     },
     "section_nav": {
       "app_download": "I-download ang App",
+      "customer_feedback": "Feedback ng Customer",
       "exchange": "Exchange Calculator",
       "home": "Home",
       "services": "Mga Serbisyo",
-      "customer_feedback": "Feedback ng Customer"
+      "testimonials": "Mga Testimonial"
     },
     "services": {
       "card": {
@@ -1289,6 +1307,11 @@
         "estimated_limit": "Tinatayang Limitasyon",
         "title": "Online Loan"
       },
+      "mobile": {
+        "desc1": "Mga budget mobile plan simula sa",
+        "desc2": "₩3,300/buwan para sa mga dayuhan",
+        "title": "Mobile"
+      },
       "payments": {
         "desc1": "Bulk payment, settlement, partner transfer.",
         "desc2": "Mabilis at ligtas na daloy ng corporate payment.",
@@ -1300,29 +1323,24 @@
         "title": "Overseas Remittance"
       },
       "title1": "Tuklasin ang",
-      "title2": "Iba't ibang Serbisyo ng GME",
-      "mobile": {
-        "title": "Mobile",
-        "desc1": "Mga budget mobile plan simula sa",
-        "desc2": "₩3,300/buwan para sa mga dayuhan"
-      }
+      "title2": "Iba't ibang Serbisyo ng GME"
     },
-    "customer_feedback": {
+    "testimonials": {
       "subtitle": "Mga totoong karanasan mula sa aming mga customer.",
       "tags": {
         "easy_tracking": "Madaling Transfer at Pagsubaybay",
         "fast_process": "Mabilis na Proseso",
         "satisfied": "Nasiyahang Serbisyo"
       },
-      "title": "Feedback ng Customer"
+      "title": "Mga Testimonial"
     }
   },
   "loan": {
     "cta": {
       "button": "I-download ang App",
       "description": "Makuha ang pondo na kailangan mo nang mabilis gamit ang madaling mobile application.",
-      "title": "Simulan ang Iyong Loan sa GME App Ngayon",
-      "inline_notice": "ⓘ Ang pag-click sa button sa ibaba ay magkokonekta sa iyo sa serbisyo ng pautang na ibinibigay ng GME Finance."
+      "inline_notice": "ⓘ Ang pag-click sa button sa ibaba ay magkokonekta sa iyo sa serbisyo ng pautang na ibinibigay ng GME Finance.",
+      "title": "Simulan ang Iyong Loan sa GME App Ngayon"
     },
     "details": {
       "contract": {
@@ -1358,6 +1376,20 @@
         "label": "Mga Kwalipikadong Uri ng Visa",
         "value": "E9, E7, F2, F5, F6, D8 & anumang visa na may Legal Work Contract"
       }
+    },
+    "disclosure": {
+      "banner": "Ang mga produkto ng pautang na ipinakilala sa pahinang ito ay ibinibigay ng GME Finance (isang hiwalay na legal na entity). Ang GME Finance ay tanging responsable para sa lahat ng aspeto ng serbisyo ng pautang kabilang ang konsultasyon, pagsusuri, kontrata, at after-sales service. Ang GME Remit ay nagbibigay lamang ng impormasyon ng produkto at mga tampok ng koneksyon.",
+      "disclaimer": "※ Ang GME Remit ay hindi nagbebenta o tagapamagitan ng produktong ito ng pautang. Ang lahat ng karapatan at obligasyon na nagmumula sa mga kontrata ng pautang sa pagitan ng GME Finance at mga customer ay nabibilang lamang sa GME Finance. Mangyaring iruta ang anumang kaugnay na hindi pagkakaunawaan o tanong nang direkta sa GME Finance.",
+      "label_address": "Punong Tanggapan",
+      "label_brand_name": "Brand",
+      "label_business_number": "Business Registration No.",
+      "label_ceo": "CEO",
+      "label_email": "Email",
+      "label_loan_license": "Lending License No.",
+      "label_phone": "Telepono",
+      "label_supervisor": "Supervisory Authority",
+      "law_notice": "Pagsisiwalat ng pagkakakilanlan ng negosyo alinsunod sa Artikulo 10 ng Batas sa Proteksyon ng Mamimili sa Electronic Commerce.",
+      "provider_heading": "GME Finance"
     },
     "faq": {
       "items": [
@@ -1471,20 +1503,6 @@
         "title": "24/7"
       },
       "title": "Bakit Pumili ng GME Loan?"
-    },
-    "disclosure": {
-      "banner": "Ang mga produkto ng pautang na ipinakilala sa pahinang ito ay ibinibigay ng GME Finance (isang hiwalay na legal na entity). Ang GME Finance ay tanging responsable para sa lahat ng aspeto ng serbisyo ng pautang kabilang ang konsultasyon, pagsusuri, kontrata, at after-sales service. Ang GME Remit ay nagbibigay lamang ng impormasyon ng produkto at mga tampok ng koneksyon.",
-      "disclaimer": "※ Ang GME Remit ay hindi nagbebenta o tagapamagitan ng produktong ito ng pautang. Ang lahat ng karapatan at obligasyon na nagmumula sa mga kontrata ng pautang sa pagitan ng GME Finance at mga customer ay nabibilang lamang sa GME Finance. Mangyaring iruta ang anumang kaugnay na hindi pagkakaunawaan o tanong nang direkta sa GME Finance.",
-      "label_address": "Punong Tanggapan",
-      "label_brand_name": "Brand",
-      "label_business_number": "Business Registration No.",
-      "label_ceo": "CEO",
-      "label_email": "Email",
-      "label_loan_license": "Lending License No.",
-      "label_phone": "Telepono",
-      "label_supervisor": "Supervisory Authority",
-      "law_notice": "Pagsisiwalat ng pagkakakilanlan ng negosyo alinsunod sa Artikulo 10 ng Batas sa Proteksyon ng Mamimili sa Electronic Commerce.",
-      "provider_heading": "GME Finance"
     }
   },
   "remittance": {
@@ -1559,7 +1577,11 @@
     },
     "trust": {
       "desc": "Ang Global Money Express (GME) ay isang lisensyadong institusyong pinansyal na awtorisado ng Ministry of Economy and Finance at ng Financial Supervisory Service, na nagbibigay ng ligtas at maaasahang serbisyo.",
+      "efb": "",
+      "fss": "",
       "insurance": "Electronic Financial Transaction Service Liability Insurance: KRW 300 milyon",
+      "moef": "",
+      "partner": "",
       "title": "Nagbibigay kami ng ligtas na serbisyo."
     },
     "why": {
@@ -1641,9 +1663,9 @@
           "name": "Gimhae Branch"
         },
         "12": {
-          "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
-          "hours": "Weekdays & Weekends 10:00 - 19:00",
-          "name": "Pyeongtaek Branch"
+          "address": "7-2 Gwangsan-ro, Gwangsan-gu, Gwangju",
+          "hours": "Sabado - Miyerkules 10:00 - 19:00",
+          "name": "Gwangju Branch"
         }
       },
       "hours": "Oras",
@@ -1699,119 +1721,119 @@
     }
   },
   "telecom": {
-    "hero": {
-      "badge": "GME MOBILE",
-      "title1": "Ang Perpektong",
-      "title2": "Mobile Plan para sa Iyo",
-      "description": "Murang mobile service na may kalidad na katumbas ng LGU+ at KT networks. Tipid sa phone bills na nagsisimula sa ₩3,300/buwan.",
-      "cta": "Tingnan ang Plans"
+    "categories": {
+      "fiveG": "5G/Special",
+      "postpaid": "Postpaid",
+      "prepaid": "Prepaid",
+      "recommended": "Rekomendado"
     },
-    "features": {
-      "title": "Bakit GME Mobile?",
-      "multilang": {
-        "title": "17 Wika",
-        "description": "Gamitin sa inyong wikang katutubo"
-      },
-      "affordable": {
-        "title": "Mula ₩3,300/buwan",
-        "description": "Sobrang murang plans para sa dayuhan"
-      },
-      "network": {
-        "title": "Kapareho ng LGU+, KT",
-        "description": "Maaasahang coverage sa buong bansa"
-      },
-      "usim": {
-        "title": "USIM Self-Activation",
-        "description": "Ipinadadala at i-activate sa 5 minuto"
-      },
-      "esim": {
-        "title": "May Suportang eSIM",
-        "description": "I-scan ang QR code at i-activate agad"
-      },
-      "plans": {
-        "title": "Maraming Plans",
-        "description": "Plans na mula ₩3,300/buwan"
-      },
-      "activation": {
-        "title": "5-Min Activation",
-        "description": "Madaling i-activate mula sa app"
-      },
-      "intl_call": {
-        "title": "Kasama ang Intl. Calls",
-        "description": "Ilang plans may 20 min/araw intl. calls"
-      }
-    },
-    "plans": {
-      "title": "Plans para sa Iyo",
-      "subtitle": "Maghanap ng plan na bagay sa inyong lifestyle!",
-      "data": "Data",
-      "voice": "Voice",
-      "sms": "SMS",
-      "per_month": "buwan",
-      "currency": "KRW",
-      "discount": "OFF",
-      "unlimited": "Walang Limit",
-      "empty": "Walang plans na maipakita",
-      "cta": "Tingnan Lahat ng Plans"
-    },
-    "process": {
-      "title": "Walang Hassle,",
-      "title2": "I-activate Agad",
-      "subtitle": "Simpleng self-activation para sa USIM at eSIM",
-      "steps": {
-        "step1": {
-          "title": "Bumili ng USIM",
-          "description": "Mag-order ng USIM online"
-        },
-        "step2": {
-          "title": "I-track ang Delivery",
-          "description": "Tingnan ang status ng delivery"
-        },
-        "step3": {
-          "title": "Self-Activate",
-          "description": "I-verify ang identity at i-activate"
-        },
-        "step4": {
-          "title": "Tapos Na!",
-          "description": "Activation tapos sa 5 minuto!"
-        }
-      }
+    "cta": {
+      "button": "Punta sa GME Mobile",
+      "description": "Tipid sa phone bills sa mga affordable plans, available sa 17 wika.",
+      "title": "Simulan sa GME Mobile"
     },
     "esim_intro": {
       "badge": "eSIM",
-      "title": "Isang Phone, Dalawang Number",
-      "description": "Madaling magsimula sa eSIM! Hatiin nang malinaw ang trabaho at personal na buhay para sa mas magandang balanse.",
       "cta": "I-activate ang eSIM",
+      "description": "Madaling magsimula sa eSIM! Hatiin nang malinaw ang trabaho at personal na buhay para sa mas magandang balanse.",
       "tag1": "Walang SIM swap",
       "tag2": "Walang delivery",
-      "tag3": "Self-activate agad!"
+      "tag3": "Self-activate agad!",
+      "title": "Isang Phone, Dalawang Number"
+    },
+    "features": {
+      "activation": {
+        "description": "Madaling i-activate mula sa app",
+        "title": "5-Min Activation"
+      },
+      "affordable": {
+        "description": "Sobrang murang plans para sa dayuhan",
+        "title": "Mula ₩3,300/buwan"
+      },
+      "esim": {
+        "description": "I-scan ang QR code at i-activate agad",
+        "title": "May Suportang eSIM"
+      },
+      "intl_call": {
+        "description": "Ilang plans may 20 min/araw intl. calls",
+        "title": "Kasama ang Intl. Calls"
+      },
+      "multilang": {
+        "description": "Gamitin sa inyong wikang katutubo",
+        "title": "17 Wika"
+      },
+      "network": {
+        "description": "Maaasahang coverage sa buong bansa",
+        "title": "Kapareho ng LGU+, KT"
+      },
+      "plans": {
+        "description": "Plans na mula ₩3,300/buwan",
+        "title": "Maraming Plans"
+      },
+      "title": "Bakit GME Mobile?",
+      "usim": {
+        "description": "Ipinadadala at i-activate sa 5 minuto",
+        "title": "USIM Self-Activation"
+      }
+    },
+    "hero": {
+      "badge": "GME MOBILE",
+      "cta": "Tingnan ang Plans",
+      "description": "Murang mobile service na may kalidad na katumbas ng LGU+ at KT networks. Tipid sa phone bills na nagsisimula sa ₩3,300/buwan.",
+      "title1": "Ang Perpektong",
+      "title2": "Mobile Plan para sa Iyo"
+    },
+    "plans": {
+      "cta": "Tingnan Lahat ng Plans",
+      "currency": "KRW",
+      "data": "Data",
+      "discount": "OFF",
+      "empty": "Walang plans na maipakita",
+      "per_month": "buwan",
+      "sms": "SMS",
+      "subtitle": "Maghanap ng plan na bagay sa inyong lifestyle!",
+      "title": "Plans para sa Iyo",
+      "unlimited": "Walang Limit",
+      "voice": "Voice"
+    },
+    "process": {
+      "steps": {
+        "step1": {
+          "description": "Mag-order ng USIM online",
+          "title": "Bumili ng USIM"
+        },
+        "step2": {
+          "description": "Tingnan ang status ng delivery",
+          "title": "I-track ang Delivery"
+        },
+        "step3": {
+          "description": "I-verify ang identity at i-activate",
+          "title": "Self-Activate"
+        },
+        "step4": {
+          "description": "Activation tapos sa 5 minuto!",
+          "title": "Tapos Na!"
+        }
+      },
+      "subtitle": "Simpleng self-activation para sa USIM at eSIM",
+      "title": "Walang Hassle,",
+      "title2": "I-activate Agad"
     },
     "usim_intro": {
       "badge": "USIM",
-      "title": "Activated sa 5 Minuto!",
+      "cta": "Bumili ng USIM",
       "description": "Self-activation hours",
-      "time1_label": "Number Porting",
-      "time1_value": "10:00 AM - 8:00 PM",
-      "time1_note": "Maliban sa Linggo, Bagong Taon, Seollal/Chuseok",
-      "time2_label": "Bagong Registration",
-      "time2_value": "8:00 AM - 10:00 PM",
-      "time2_note": "Walang day restrictions",
       "step1": "Bumili ng USIM",
       "step2": "Tanggapin",
       "step3": "I-activate",
       "step4": "Tapos!",
-      "cta": "Bumili ng USIM"
-    },
-    "cta": {
-      "title": "Simulan sa GME Mobile",
-      "description": "Tipid sa phone bills sa mga affordable plans, available sa 17 wika.",
-      "button": "Punta sa GME Mobile"
-    },
-    "categories": {
-      "recommended": "Rekomendado",
-      "postpaid": "Postpaid",
-      "fiveG": "5G/Special",
-      "prepaid": "Prepaid"
+      "time1_label": "Number Porting",
+      "time1_note": "Maliban sa Linggo, Bagong Taon, Seollal/Chuseok",
+      "time1_value": "10:00 AM - 8:00 PM",
+      "time2_label": "Bagong Registration",
+      "time2_note": "Walang day restrictions",
+      "time2_value": "8:00 AM - 10:00 PM",
+      "title": "Activated sa 5 Minuto!"
     }
   }
 }

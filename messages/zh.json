@@ -1,6 +1,5 @@
 {
   "board": {
-    "by": "By",
     "badge": {
       "blog": "博客",
       "notice": "公告",
@@ -14,7 +13,11 @@
       "back_to_list": "返回列表",
       "not_found": "未找到该文章"
     },
+    "error_description": "请稍后再试。",
+    "error_title": "无法加载帖子",
     "load_more": "加载更多",
+    "loading": "",
+    "loading_spinner": "",
     "no_image": "无图片",
     "no_results": "未找到搜索结果。",
     "redirect": {
@@ -42,8 +45,7 @@
       "press": "新闻"
     },
     "total": "共",
-    "error_title": "无法加载帖子",
-    "error_description": "请稍后再试。"
+    "by": "By"
   },
   "business": {
     "cta": {
@@ -116,7 +118,7 @@
         "title": "SPS + VAS"
       },
       "step2": {
-        "description": "通过我们的API文档连接您的系统。",
+        "description": "通过developers.gmeremit.com的API文档连接您的系统。",
         "title": "API对接"
       },
       "step3": {
@@ -632,6 +634,14 @@
       "description": "加入为200多个国家和地区客户提供金融服务的全球金融科技公司。",
       "title": "与GME一起成长"
     },
+    "staff_stories": {
+      "subtitle": "同事们的真实故事",
+      "title": "团队故事"
+    },
+    "testimonials": {
+      "subtitle": "同事们的真实故事",
+      "title": "团队故事"
+    },
     "why_gme": {
       "agile": {
         "description": "扁平化组织快速执行，从失败中学习，共同成长。",
@@ -646,10 +656,6 @@
         "title": "公平机会"
       },
       "title": "GME的独特之处"
-    },
-    "staff_stories": {
-      "subtitle": "同事们的真实故事",
-      "title": "团队故事"
     }
   },
   "company": {
@@ -663,15 +669,21 @@
         "2017_03": "首个线上服务上线",
         "2017_06": "韩国首家服务提供商",
         "2017_08": "韩国首家获得小额海外汇款牌照",
+        "2017_12": "年度海外汇款额突破100亿韩元",
         "2018_04": "累计海外汇款额突破540亿韩元",
         "2018_09": "入选首尔市推荐汇款服务商",
+        "2018_12": "年度海外汇款额突破4,600亿韩元",
         "2018_loan": "面向外国人信用贷款服务上线",
         "2019_03": "国内汇款服务上线",
         "2019_06": "全国12家分行开业",
+        "2019_07": "",
         "2019_09": "全国3个中心开设",
+        "2019_12": "",
         "2020_02": "累计海外汇款额突破1万亿韩元",
         "2020_05": "手机话费充值服务上线",
         "2020_08": "获得预付电子支付牌照",
+        "2020_09": "推出GME Pay服务",
+        "2020_12": "年度海外汇款额突破1.0万亿韩元",
         "2021_04": "累计海外汇款额突破1.9万亿韩元",
         "2021_07": "手机优惠券服务上线",
         "2021_10": "荣获韩国经济金融科技大奖（技术类）",
@@ -679,6 +691,7 @@
         "2022_03": "获得外汇业务牌照",
         "2022_06": "支付业务上线",
         "2022_11": "累计海外汇款额突破2万亿韩元",
+        "2022_12": "年度海外汇款额突破1.7万亿韩元",
         "2023_02": "累计海外汇款额突破2.1万亿韩元",
         "2023_05": "与BC卡·Mastercard合作推出GME Card服务",
         "2023_09": "获得GME移动（MVNO）服务牌照",
@@ -689,14 +702,9 @@
         "2024_06": "企业支付服务「GMEBiz」上线",
         "2024_12": "累计海外汇款额突破2.8万亿韩元",
         "2025_03": "面向外国居民保险产品上线",
+        "2025_04": "获得创新型中小企业(Inno-Biz)认证",
         "2025_06": "带交通卡功能的借记卡上线",
-        "2025_12": "累计海外汇款额突破3.5万亿韩元",
-        "2017_12": "年度海外汇款额突破100亿韩元",
-        "2018_12": "年度海外汇款额突破4,600亿韩元",
-        "2020_09": "推出GME Pay服务",
-        "2020_12": "年度海外汇款额突破1.0万亿韩元",
-        "2022_12": "年度海外汇款额突破1.7万亿韩元",
-        "2025_04": "获得创新型中小企业(Inno-Biz)认证"
+        "2025_12": "累计海外汇款额突破3.5万亿韩元"
       },
       "title_line1": "不断挑战，",
       "title_line2": "崭新开始"
@@ -738,11 +746,11 @@
       },
       "related_services": "相关服务",
       "subtitle": "全球金融一站式服务",
-      "title": "GME服务",
       "telecom": {
-        "title": "手机",
-        "desc": "月费3,300韩元起的实惠手机套餐"
-      }
+        "desc": "月费3,300韩元起的实惠手机套餐",
+        "title": "Telecom"
+      },
+      "title": "GME服务"
     },
     "tabs": {
       "ceo_message": "CEO致辞",
@@ -760,9 +768,9 @@
       "email_support": "客户支持：support@gmeremit.com",
       "fax": "传真：(+82) 2 3674 5559",
       "phone_foreigner": "(+82) 02-1588-6864（外国人专线）",
-      "remittance_inquiry": "汇款相关咨询",
-      "phone_general": "招聘、消费者保护、合作伙伴/协作咨询：02-3673-5599",
-      "phone_korean": "02-1811-2961（韩语、汇款咨询）"
+      "phone_general": "02-3673-5559（一般咨询）",
+      "phone_korean": "02-1811-2961（韩语、汇款咨询）",
+      "remittance_inquiry": "汇款相关咨询"
     },
     "link": {
       "company_intro": "公司介绍",
@@ -861,6 +869,15 @@
         ]
       }
     },
+    "customer_feedback": {
+      "subtitle": "来自真实客户的使用体验。",
+      "tags": {
+        "easy_tracking": "便捷汇款·追踪",
+        "fast_process": "快速处理",
+        "satisfied": "满意的服务"
+      },
+      "title": "用户评价"
+    },
     "exchange": {
       "calculator": {
         "bank_deposit": "银行转账",
@@ -869,22 +886,14 @@
         "error": "查询失败",
         "error_failed": "汇率查询失败",
         "error_limit": "超出汇款金额限制",
+        "error_max_amount": "最大汇款金额：%1$s 韩元",
         "error_network": "网络错误",
         "error_unavailable": "该金额无法查询",
-        "loading": "查询中...",
-        "realtime": "实时",
-        "receive_amount": "收款金额",
-        "receive_country": "收款国家",
-        "send_amount": "汇款金额",
-        "title": "实时汇率计算器",
-        "mobile_wallet": "移动钱包",
-        "qr_pay": "QR支付",
-        "search_placeholder": "搜索国家",
-        "no_results": "暂无结果",
-        "fee": "手续费",
-        "rate": "汇率",
         "error_unavailable_method": "当前不支持此汇款方式",
-        "error_max_amount": "最大汇款金额：{{amount}} 韩元",
+        "fee": "手续费",
+        "loading": "查询中...",
+        "mobile_wallet": "移动钱包",
+        "no_results": "暂无结果",
         "payout_methods": {
           "1": "现金领取",
           "2": "银行转账",
@@ -905,7 +914,15 @@
           "26": "UZCARD",
           "27": "HUMO Card",
           "38": "Korti Milli"
-        }
+        },
+        "qr_pay": "QR支付",
+        "rate": "汇率",
+        "realtime": "实时",
+        "receive_amount": "收款金额",
+        "receive_country": "收款国家",
+        "search_placeholder": "搜索国家",
+        "send_amount": "汇款金额",
+        "title": "实时汇率计算器"
       },
       "description1": "200多个国家的实时汇率。",
       "description2": "费用透明公开。",
@@ -1127,7 +1144,7 @@
           "RE": "Réunion",
           "RO": "罗马尼亚",
           "RS": "Serbia",
-          "RU": "Russian Federation",
+          "RU": "俄罗斯",
           "RW": "卢旺达",
           "SA": "沙特阿拉伯",
           "SB": "Solomon Islands",
@@ -1272,10 +1289,11 @@
     },
     "section_nav": {
       "app_download": "下载APP",
+      "customer_feedback": "用户评价",
       "exchange": "汇率计算器",
       "home": "首页",
       "services": "服务",
-      "customer_feedback": "用户评价"
+      "testimonials": "用户评价"
     },
     "services": {
       "card": {
@@ -1289,6 +1307,11 @@
         "estimated_limit": "预估额度",
         "title": "在线贷款"
       },
+      "mobile": {
+        "desc1": "月费3,300韩元起的",
+        "desc2": "外国人专属实惠手机服务",
+        "title": "手机"
+      },
       "payments": {
         "desc1": "批量支付、结算、合作伙伴汇款。",
         "desc2": "快速安全的企业支付流程。",
@@ -1300,14 +1323,9 @@
         "title": "海外汇款"
       },
       "title1": "了解GME的",
-      "title2": "多样化服务",
-      "mobile": {
-        "title": "手机",
-        "desc1": "月费3,300韩元起的",
-        "desc2": "外国人专属实惠手机服务"
-      }
+      "title2": "多样化服务"
     },
-    "customer_feedback": {
+    "testimonials": {
       "subtitle": "来自真实客户的使用体验。",
       "tags": {
         "easy_tracking": "便捷汇款·追踪",
@@ -1321,8 +1339,8 @@
     "cta": {
       "button": "下载APP",
       "description": "通过手机轻松申请，快速获取所需资金。",
-      "title": "立即通过GME APP开始贷款",
-      "inline_notice": "ⓘ 点击下方按钮将连接到GME Finance提供的贷款服务。"
+      "inline_notice": "ⓘ 点击下方按钮将连接到GME Finance提供的贷款服务。",
+      "title": "立即通过GME APP开始贷款"
     },
     "details": {
       "contract": {
@@ -1358,6 +1376,20 @@
         "label": "可申请签证类型",
         "value": "E9, E7, F2, F5, F6, D8及所有拥有合法劳动合同的签证"
       }
+    },
+    "disclosure": {
+      "banner": "本页面介绍的贷款产品由GME Finance(独立法人)提供。咨询、审核、合同及售后服务等贷款服务的所有责任由GME Finance承担,GME Remit仅提供产品介绍及连接功能。",
+      "disclaimer": "※ GME Remit不是本贷款产品的销售商或中介。GME Finance与客户之间签订的贷款合同所产生的所有权利和义务均归GME Finance所有。请将相关争议或咨询直接发送至GME Finance。",
+      "label_address": "总部",
+      "label_brand_name": "品牌",
+      "label_business_number": "营业执照号",
+      "label_ceo": "首席执行官",
+      "label_email": "电子邮件",
+      "label_loan_license": "贷款牌照号",
+      "label_phone": "电话",
+      "label_supervisor": "监管机构",
+      "law_notice": "根据电子商务消费者保护法第10条进行的商业身份信息披露。",
+      "provider_heading": "GME Finance"
     },
     "faq": {
       "items": [
@@ -1471,20 +1503,6 @@
         "title": "24/7"
       },
       "title": "为什么选择GME贷款"
-    },
-    "disclosure": {
-      "banner": "本页面介绍的贷款产品由GME Finance(独立法人)提供。咨询、审核、合同及售后服务等贷款服务的所有责任由GME Finance承担,GME Remit仅提供产品介绍及连接功能。",
-      "disclaimer": "※ GME Remit不是本贷款产品的销售商或中介。GME Finance与客户之间签订的贷款合同所产生的所有权利和义务均归GME Finance所有。请将相关争议或咨询直接发送至GME Finance。",
-      "label_address": "总部",
-      "label_brand_name": "品牌",
-      "label_business_number": "营业执照号",
-      "label_ceo": "首席执行官",
-      "label_email": "电子邮件",
-      "label_loan_license": "贷款牌照号",
-      "label_phone": "电话",
-      "label_supervisor": "监管机构",
-      "law_notice": "根据电子商务消费者保护法第10条进行的商业身份信息披露。",
-      "provider_heading": "GME Finance"
     }
   },
   "remittance": {
@@ -1559,7 +1577,11 @@
     },
     "trust": {
       "desc": "Global Money Express（GME）是经韩国经济产业部和金融监督院许可的金融机构，提供安全可靠的服务。",
+      "efb": "",
+      "fss": "",
       "insurance": "电子金融交易服务赔偿责任保险：3亿韩元",
+      "moef": "",
+      "partner": "",
       "title": "我们提供安全的服务。"
     },
     "why": {
@@ -1641,9 +1663,9 @@
           "name": "金海分行"
         },
         "12": {
-          "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
-          "hours": "Weekdays & Weekends 10:00 - 19:00",
-          "name": "Pyeongtaek Branch"
+          "address": "光州广域市光山区光山路7-2",
+          "hours": "周六～周三 10:00 - 19:00",
+          "name": "光州分行"
         }
       },
       "hours": "营业时间",
@@ -1699,119 +1721,119 @@
     }
   },
   "telecom": {
-    "hero": {
-      "badge": "GME MOBILE",
-      "title1": "为您量身定制的",
-      "title2": "实惠手机套餐",
-      "description": "与LGU+、KT网络同等品质的实惠手机服务。月费仅需3,300韩元起,节省话费。",
-      "cta": "查看套餐"
+    "categories": {
+      "fiveG": "5G/特殊",
+      "postpaid": "后付",
+      "prepaid": "预付",
+      "recommended": "推荐"
     },
-    "features": {
-      "title": "为什么选择GME Mobile?",
-      "multilang": {
-        "title": "支持17种语言",
-        "description": "用母语轻松使用"
-      },
-      "affordable": {
-        "title": "月费3,300韩元起",
-        "description": "外国人专属超低价套餐"
-      },
-      "network": {
-        "title": "LGU+、KT同等品质",
-        "description": "全国稳定的通话品质"
-      },
-      "usim": {
-        "title": "USIM自助开通",
-        "description": "收到后5分钟内完成开通"
-      },
-      "esim": {
-        "title": "支持eSIM",
-        "description": "扫描二维码即可立即激活"
-      },
-      "plans": {
-        "title": "多样套餐",
-        "description": "月费3,300韩元起的合适套餐"
-      },
-      "activation": {
-        "title": "5分钟自助开通",
-        "description": "在App内轻松自助开通"
-      },
-      "intl_call": {
-        "title": "包含国际电话",
-        "description": "部分套餐每日20分钟国际通话"
-      }
-    },
-    "plans": {
-      "title": "适合您的套餐",
-      "subtitle": "找到适合您生活的套餐!",
-      "data": "数据",
-      "voice": "通话",
-      "sms": "短信",
-      "per_month": "月",
-      "currency": "韩元",
-      "discount": "优惠",
-      "unlimited": "无限",
-      "empty": "暂无可显示的套餐",
-      "cta": "查看全部套餐"
-    },
-    "process": {
-      "title": "无需复杂手续",
-      "title2": "轻松即时开通",
-      "subtitle": "USIM和eSIM都可轻松自助开通",
-      "steps": {
-        "step1": {
-          "title": "购买USIM",
-          "description": "在线订购USIM"
-        },
-        "step2": {
-          "title": "查看配送",
-          "description": "查询USIM配送状态"
-        },
-        "step3": {
-          "title": "自助开通",
-          "description": "在App内身份验证并开通"
-        },
-        "step4": {
-          "title": "完成!",
-          "description": "5分钟开通完成!"
-        }
-      }
+    "cta": {
+      "button": "前往GME Mobile",
+      "description": "用实惠套餐节省话费,支持17种语言。",
+      "title": "开始使用GME Mobile"
     },
     "esim_intro": {
       "badge": "eSIM",
-      "title": "一部手机两个号码",
-      "description": "用eSIM轻松开始! 清晰区分工作与生活,享受更好的生活平衡。",
       "cta": "开通eSIM",
+      "description": "用eSIM轻松开始! 清晰区分工作与生活,享受更好的生活平衡。",
       "tag1": "无需换卡",
       "tag2": "无需配送",
-      "tag3": "自助即时开通!"
+      "tag3": "自助即时开通!",
+      "title": "一部手机两个号码"
+    },
+    "features": {
+      "activation": {
+        "description": "在App内轻松自助开通",
+        "title": "5分钟自助开通"
+      },
+      "affordable": {
+        "description": "外国人专属超低价套餐",
+        "title": "月费3,300韩元起"
+      },
+      "esim": {
+        "description": "扫描二维码即可立即激活",
+        "title": "支持eSIM"
+      },
+      "intl_call": {
+        "description": "部分套餐每日20分钟国际通话",
+        "title": "包含国际电话"
+      },
+      "multilang": {
+        "description": "用母语轻松使用",
+        "title": "支持17种语言"
+      },
+      "network": {
+        "description": "全国稳定的通话品质",
+        "title": "LGU+、KT同等品质"
+      },
+      "plans": {
+        "description": "月费3,300韩元起的合适套餐",
+        "title": "多样套餐"
+      },
+      "title": "为什么选择GME Mobile?",
+      "usim": {
+        "description": "收到后5分钟内完成开通",
+        "title": "USIM自助开通"
+      }
+    },
+    "hero": {
+      "badge": "GME MOBILE",
+      "cta": "查看套餐",
+      "description": "与LGU+、KT网络同等品质的实惠手机服务。月费仅需3,300韩元起,节省话费。",
+      "title1": "为您量身定制的",
+      "title2": "实惠手机套餐"
+    },
+    "plans": {
+      "cta": "查看全部套餐",
+      "currency": "韩元",
+      "data": "数据",
+      "discount": "优惠",
+      "empty": "暂无可显示的套餐",
+      "per_month": "月",
+      "sms": "短信",
+      "subtitle": "找到适合您生活的套餐!",
+      "title": "适合您的套餐",
+      "unlimited": "无限",
+      "voice": "通话"
+    },
+    "process": {
+      "steps": {
+        "step1": {
+          "description": "在线订购USIM",
+          "title": "购买USIM"
+        },
+        "step2": {
+          "description": "查询USIM配送状态",
+          "title": "查看配送"
+        },
+        "step3": {
+          "description": "在App内身份验证并开通",
+          "title": "自助开通"
+        },
+        "step4": {
+          "description": "5分钟开通完成!",
+          "title": "完成!"
+        }
+      },
+      "subtitle": "USIM和eSIM都可轻松自助开通",
+      "title": "无需复杂手续",
+      "title2": "轻松即时开通"
     },
     "usim_intro": {
       "badge": "USIM",
-      "title": "5分钟完成开通!",
+      "cta": "购买USIM",
       "description": "自助开通时间",
-      "time1_label": "携号转网",
-      "time1_value": "上午10:00 - 下午8:00",
-      "time1_note": "除周日、元旦、春节、中秋节外",
-      "time2_label": "新号注册",
-      "time2_value": "上午8:00 - 下午10:00",
-      "time2_note": "无星期限制",
       "step1": "购买USIM",
       "step2": "收货",
       "step3": "开通",
       "step4": "完成!",
-      "cta": "购买USIM"
-    },
-    "cta": {
-      "title": "开始使用GME Mobile",
-      "description": "用实惠套餐节省话费,支持17种语言。",
-      "button": "前往GME Mobile"
-    },
-    "categories": {
-      "recommended": "推荐",
-      "postpaid": "后付",
-      "fiveG": "5G/特殊",
-      "prepaid": "预付"
+      "time1_label": "携号转网",
+      "time1_note": "除周日、元旦、春节、中秋节外",
+      "time1_value": "上午10:00 - 下午8:00",
+      "time2_label": "新号注册",
+      "time2_note": "无星期限制",
+      "time2_value": "上午8:00 - 下午10:00",
+      "title": "5分钟完成开通!"
     }
   }
 }

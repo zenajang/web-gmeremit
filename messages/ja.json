@@ -1,6 +1,5 @@
 {
   "board": {
-    "by": "By",
     "badge": {
       "blog": "ブログ",
       "notice": "お知らせ",
@@ -14,7 +13,11 @@
       "back_to_list": "一覧に戻る",
       "not_found": "記事が見つかりません"
     },
+    "error_description": "後ほど再度お試しください。",
+    "error_title": "投稿を読み込めませんでした",
     "load_more": "もっと見る",
+    "loading": "",
+    "loading_spinner": "",
     "no_image": "画像なし",
     "no_results": "検索結果がありません。",
     "redirect": {
@@ -42,8 +45,7 @@
       "press": "プレスリリース"
     },
     "total": "合計",
-    "error_title": "投稿を読み込めませんでした",
-    "error_description": "後ほど再度お試しください。"
+    "by": "By"
   },
   "business": {
     "cta": {
@@ -116,7 +118,7 @@
         "title": "SPS + VAS"
       },
       "step2": {
-        "description": "弊社のAPIドキュメントでシステムを連携してください。",
+        "description": "developers.gmeremit.comのAPIドキュメントでシステムを連携してください。",
         "title": "API連携"
       },
       "step3": {
@@ -632,6 +634,14 @@
       "description": "200以上の国と地域のお客様に金融サービスを提供するグローバルフィンテック企業に参加しませんか。",
       "title": "GMEと共に成長しよう"
     },
+    "staff_stories": {
+      "subtitle": "仲間たちのリアルなストーリー",
+      "title": "チームストーリー"
+    },
+    "testimonials": {
+      "subtitle": "仲間たちのリアルなストーリー",
+      "title": "チームストーリー"
+    },
     "why_gme": {
       "agile": {
         "description": "フラットな組織で迅速に実行し、失敗から学び、共に成長します。",
@@ -646,10 +656,6 @@
         "title": "公正な機会"
       },
       "title": "GMEが特別な理由"
-    },
-    "staff_stories": {
-      "subtitle": "仲間たちのリアルなストーリー",
-      "title": "チームストーリー"
     }
   },
   "company": {
@@ -663,15 +669,21 @@
         "2017_03": "初のオンラインサービス開始",
         "2017_06": "韓国初のサービスプロバイダー",
         "2017_08": "韓国初の小額海外送金ライセンス取得",
+        "2017_12": "年間海外送金額100億ウォンを達成",
         "2018_04": "累計海外送金額540億ウォン突破",
         "2018_09": "ソウル市推薦送金事業者に選定",
+        "2018_12": "年間海外送金額4,600億ウォンを達成",
         "2018_loan": "外国人向け信用ローンサービス開始",
         "2019_03": "国内送金サービス開始",
         "2019_06": "全国12支店開設",
+        "2019_07": "",
         "2019_09": "全国3センター開設",
+        "2019_12": "",
         "2020_02": "累計海外送金額1兆ウォン突破",
         "2020_05": "モバイルトップアップサービス開始",
         "2020_08": "前払い式電子決済ライセンス取得",
+        "2020_09": "GME Payサービス開始",
+        "2020_12": "年間海外送金額1.0兆ウォンを達成",
         "2021_04": "累計海外送金額1.9兆ウォン突破",
         "2021_07": "モバイルクーポンサービス開始",
         "2021_10": "韓国経済フィンテック大賞受賞（テクノロジー部門）",
@@ -679,6 +691,7 @@
         "2022_03": "外国為替業務ライセンス取得",
         "2022_06": "決済事業開始",
         "2022_11": "累計海外送金額2兆ウォン突破",
+        "2022_12": "年間海外送金額1.7兆ウォンを達成",
         "2023_02": "累計海外送金額2.1兆ウォン突破",
         "2023_05": "BCカード・Mastercardと提携しGME Cardサービス開始",
         "2023_09": "GMEモバイル（MVNO）サービスライセンス取得",
@@ -689,14 +702,9 @@
         "2024_06": "法人決済サービス「GMEBiz」開始",
         "2024_12": "累計海外送金額2.8兆ウォン突破",
         "2025_03": "外国人居住者向け保険商品を開始",
+        "2025_04": "技術革新型中小企業(Inno-Biz)認証取得",
         "2025_06": "交通カード機能付きデビットカードを開始",
-        "2025_12": "累計海外送金額3.5兆ウォン突破",
-        "2017_12": "年間海外送金額100億ウォンを達成",
-        "2018_12": "年間海外送金額4,600億ウォンを達成",
-        "2020_09": "GME Payサービス開始",
-        "2020_12": "年間海外送金額1.0兆ウォンを達成",
-        "2022_12": "年間海外送金額1.7兆ウォンを達成",
-        "2025_04": "技術革新型中小企業(Inno-Biz)認証取得"
+        "2025_12": "累計海外送金額3.5兆ウォン突破"
       },
       "title_line1": "終わりなき挑戦、",
       "title_line2": "新たな始まり"
@@ -738,11 +746,11 @@
       },
       "related_services": "関連サービス",
       "subtitle": "グローバル金融のすべてをワンストップで",
-      "title": "GMEサービス",
       "telecom": {
-        "title": "モバイル",
-        "desc": "月額3,300ウォンから利用できる格安モバイルサービス"
-      }
+        "desc": "月額3,300ウォンから利用できる格安モバイルサービス",
+        "title": "Telecom"
+      },
+      "title": "GMEサービス"
     },
     "tabs": {
       "ceo_message": "代表メッセージ",
@@ -760,9 +768,9 @@
       "email_support": "お問い合わせ：support@gmeremit.com",
       "fax": "FAX：(+82) 2 3674 5559",
       "phone_foreigner": "(+82) 02-1588-6864（外国人向け）",
-      "remittance_inquiry": "送金に関するお問い合わせ",
-      "phone_general": "採用、消費者保護、パートナー/協業のお問い合わせ : 02-3673-5599",
-      "phone_korean": "02-1811-2961（韓国語、送金のお問い合わせ）"
+      "phone_general": "02-3673-5559（一般のお問い合わせ）",
+      "phone_korean": "02-1811-2961（韓国語、送金のお問い合わせ）",
+      "remittance_inquiry": "送金に関するお問い合わせ"
     },
     "link": {
       "company_intro": "会社紹介",
@@ -861,6 +869,15 @@
         ]
       }
     },
+    "customer_feedback": {
+      "subtitle": "お客様の実際の体験談をご紹介します。",
+      "tags": {
+        "easy_tracking": "簡単な送金・追跡",
+        "fast_process": "迅速な処理",
+        "satisfied": "満足のサービス"
+      },
+      "title": "お客様の声"
+    },
     "exchange": {
       "calculator": {
         "bank_deposit": "銀行振込",
@@ -869,22 +886,14 @@
         "error": "照会失敗",
         "error_failed": "為替レートの照会に失敗しました",
         "error_limit": "送金可能金額の範囲を超えています",
+        "error_max_amount": "最大送金可能額: %1$s KRW",
         "error_network": "ネットワークエラーが発生しました",
         "error_unavailable": "この金額は照会できません",
-        "loading": "照会中...",
-        "realtime": "リアルタイム",
-        "receive_amount": "受取金額",
-        "receive_country": "受取国",
-        "send_amount": "送金金額",
-        "title": "リアルタイム為替計算機",
-        "mobile_wallet": "モバイルウォレット",
-        "qr_pay": "QR決済",
-        "search_placeholder": "国を検索",
-        "no_results": "結果がありません",
-        "fee": "手数料",
-        "rate": "為替レート",
         "error_unavailable_method": "現在この送金方法はご利用いただけません",
-        "error_max_amount": "最大送金可能額: {{amount}} KRW",
+        "fee": "手数料",
+        "loading": "照会中...",
+        "mobile_wallet": "モバイルウォレット",
+        "no_results": "結果がありません",
         "payout_methods": {
           "1": "現金受取",
           "2": "銀行振込",
@@ -905,7 +914,15 @@
           "26": "UZCARD",
           "27": "HUMO Card",
           "38": "Korti Milli"
-        }
+        },
+        "qr_pay": "QR決済",
+        "rate": "為替レート",
+        "realtime": "リアルタイム",
+        "receive_amount": "受取金額",
+        "receive_country": "受取国",
+        "search_placeholder": "国を検索",
+        "send_amount": "送金金額",
+        "title": "リアルタイム為替計算機"
       },
       "description1": "200以上の国のリアルタイム為替レート。",
       "description2": "透明な手数料開示。",
@@ -1127,7 +1144,7 @@
           "RE": "Réunion",
           "RO": "ルーマニア",
           "RS": "Serbia",
-          "RU": "Russian Federation",
+          "RU": "ロシア",
           "RW": "ルワンダ",
           "SA": "サウジアラビア",
           "SB": "Solomon Islands",
@@ -1272,10 +1289,11 @@
     },
     "section_nav": {
       "app_download": "アプリダウンロード",
+      "customer_feedback": "お客様の声",
       "exchange": "為替計算機",
       "home": "ホーム",
       "services": "サービス",
-      "customer_feedback": "お客様の声"
+      "testimonials": "お客様の声"
     },
     "services": {
       "card": {
@@ -1289,6 +1307,11 @@
         "estimated_limit": "推定限度額",
         "title": "オンラインローン"
       },
+      "mobile": {
+        "desc1": "月額3,300ウォンから利用できる",
+        "desc2": "外国人向け格安モバイルサービス",
+        "title": "モバイル"
+      },
       "payments": {
         "desc1": "一括決済、精算、パートナー送金。",
         "desc2": "迅速で安全な法人決済フロー。",
@@ -1300,14 +1323,9 @@
         "title": "海外送金"
       },
       "title1": "GMEの",
-      "title2": "さまざまなサービス",
-      "mobile": {
-        "title": "モバイル",
-        "desc1": "月額3,300ウォンから利用できる",
-        "desc2": "外国人向け格安モバイルサービス"
-      }
+      "title2": "さまざまなサービス"
     },
-    "customer_feedback": {
+    "testimonials": {
       "subtitle": "お客様の実際の体験談をご紹介します。",
       "tags": {
         "easy_tracking": "簡単な送金・追跡",
@@ -1321,8 +1339,8 @@
     "cta": {
       "button": "アプリをダウンロード",
       "description": "モバイルで簡単に申請して、必要な資金を迅速に確保しましょう。",
-      "title": "今すぐGMEアプリでローンを始めましょう",
-      "inline_notice": "ⓘ 下のボタンを押すと、GME Financeが提供するローンサービスに移動します。"
+      "inline_notice": "ⓘ 下のボタンを押すと、GME Financeが提供するローンサービスに移動します。",
+      "title": "今すぐGMEアプリでローンを始めましょう"
     },
     "details": {
       "contract": {
@@ -1358,6 +1376,20 @@
         "label": "対象ビザの種類",
         "value": "E9, E7, F2, F5, F6, D8 および合法的な労働契約のあるすべてのビザ"
       }
+    },
+    "disclosure": {
+      "banner": "本ページで紹介するローン商品はGME Finance(別法人)が提供します。相談・審査・契約・アフターサービスなど、ローンサービスのすべての責任はGME Financeにあり、GME Remitは商品紹介および接続機能のみを提供します。",
+      "disclaimer": "※ GME Remitは本ローン商品の販売業者または仲介業者ではありません。GME Financeと顧客の間で締結されるローン契約から生じる権利・義務はすべてGME Financeに帰属し、関連する紛争およびお問い合わせはGME Financeにご連絡ください。",
+      "label_address": "本社",
+      "label_brand_name": "ブランド名",
+      "label_business_number": "事業者登録番号",
+      "label_ceo": "代表者",
+      "label_email": "メール",
+      "label_loan_license": "貸金業登録番号",
+      "label_phone": "代表電話",
+      "label_supervisor": "監督機関",
+      "law_notice": "電子商取引等における消費者保護に関する法律第10条による事業者身元情報の告知",
+      "provider_heading": "GME Finance"
     },
     "faq": {
       "items": [
@@ -1471,20 +1503,6 @@
         "title": "24/7"
       },
       "title": "GMEローンが選ばれる理由"
-    },
-    "disclosure": {
-      "banner": "本ページで紹介するローン商品はGME Finance(別法人)が提供します。相談・審査・契約・アフターサービスなど、ローンサービスのすべての責任はGME Financeにあり、GME Remitは商品紹介および接続機能のみを提供します。",
-      "disclaimer": "※ GME Remitは本ローン商品の販売業者または仲介業者ではありません。GME Financeと顧客の間で締結されるローン契約から生じる権利・義務はすべてGME Financeに帰属し、関連する紛争およびお問い合わせはGME Financeにご連絡ください。",
-      "label_address": "本社",
-      "label_brand_name": "ブランド名",
-      "label_business_number": "事業者登録番号",
-      "label_ceo": "代表者",
-      "label_email": "メール",
-      "label_loan_license": "貸金業登録番号",
-      "label_phone": "代表電話",
-      "label_supervisor": "監督機関",
-      "law_notice": "電子商取引等における消費者保護に関する法律第10条による事業者身元情報の告知",
-      "provider_heading": "GME Finance"
     }
   },
   "remittance": {
@@ -1559,7 +1577,11 @@
     },
     "trust": {
       "desc": "Global Money Express（GME）は、経済産業省および金融監督院の認可を受けた金融機関であり、安全で信頼性の高いサービスを提供しています。",
+      "efb": "",
+      "fss": "",
       "insurance": "電子金融取引サービス賠償責任保険：3億ウォン",
+      "moef": "",
+      "partner": "",
       "title": "安全なサービスを提供しています。"
     },
     "why": {
@@ -1641,9 +1663,9 @@
           "name": "金海支店"
         },
         "12": {
-          "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
-          "hours": "Weekdays & Weekends 10:00 - 19:00",
-          "name": "Pyeongtaek Branch"
+          "address": "光州広域市光山区光山路7-2",
+          "hours": "土～水 10:00 - 19:00",
+          "name": "光州支店"
         }
       },
       "hours": "営業時間",
@@ -1699,119 +1721,119 @@
     }
   },
   "telecom": {
-    "hero": {
-      "badge": "GME MOBILE",
-      "title1": "あなたにぴったりの",
-      "title2": "格安モバイル",
-      "description": "LGU+、KTネットワークと同等品質の格安モバイルサービス。月額3,300ウォンからのお手頃プランで通信費を節約。",
-      "cta": "プランを見る"
+    "categories": {
+      "fiveG": "5G/特殊",
+      "postpaid": "後払い",
+      "prepaid": "前払い",
+      "recommended": "おすすめ"
     },
-    "features": {
-      "title": "なぜGME Mobile?",
-      "multilang": {
-        "title": "17言語対応",
-        "description": "母国語で便利に利用"
-      },
-      "affordable": {
-        "title": "月額3,300ウォン~",
-        "description": "外国人向け超格安プラン"
-      },
-      "network": {
-        "title": "LGU+、KT同等品質",
-        "description": "全国どこでも安定した通信品質"
-      },
-      "usim": {
-        "title": "USIMセルフ開通",
-        "description": "受け取って5分で開通完了"
-      },
-      "esim": {
-        "title": "eSIM対応",
-        "description": "QRコードをスキャンして即時開通"
-      },
-      "plans": {
-        "title": "豊富なプラン",
-        "description": "月額3,300ウォン~ぴったりのプラン"
-      },
-      "activation": {
-        "title": "5分セルフ開通",
-        "description": "アプリで簡単に自分で開通"
-      },
-      "intl_call": {
-        "title": "国際電話含む",
-        "description": "一部プランで毎日20分の国際電話"
-      }
-    },
-    "plans": {
-      "title": "あなたに合うプラン",
-      "subtitle": "ライフスタイルに合うプランを見つけよう!",
-      "data": "データ",
-      "voice": "通話",
-      "sms": "SMS",
-      "per_month": "月",
-      "currency": "ウォン",
-      "discount": "割引",
-      "unlimited": "無制限",
-      "empty": "表示するプランがありません",
-      "cta": "全プランを見る"
-    },
-    "process": {
-      "title": "複雑な手続きなく",
-      "title2": "簡単にすぐ開通",
-      "subtitle": "USIMもeSIMも簡単にセルフ開通",
-      "steps": {
-        "step1": {
-          "title": "USIM購入",
-          "description": "オンラインでUSIMを注文"
-        },
-        "step2": {
-          "title": "配送確認",
-          "description": "USIM配送状況を確認"
-        },
-        "step3": {
-          "title": "セルフ開通",
-          "description": "アプリで本人認証&開通"
-        },
-        "step4": {
-          "title": "完了!",
-          "description": "5分で開通完了!"
-        }
-      }
+    "cta": {
+      "button": "GME Mobileへ",
+      "description": "格安プランで通信費を節約、17言語対応。",
+      "title": "GME Mobileを始めよう"
     },
     "esim_intro": {
       "badge": "eSIM",
-      "title": "1台で2つの番号",
-      "description": "eSIMで簡単に始めよう! 仕事とプライベートをはっきり分けて、より良いバランスを。",
       "cta": "eSIM開通",
+      "description": "eSIMで簡単に始めよう! 仕事とプライベートをはっきり分けて、より良いバランスを。",
       "tag1": "SIM交換不要",
       "tag2": "配送不要",
-      "tag3": "セルフ即時開通!"
+      "tag3": "セルフ即時開通!",
+      "title": "1台で2つの番号"
+    },
+    "features": {
+      "activation": {
+        "description": "アプリで簡単に自分で開通",
+        "title": "5分セルフ開通"
+      },
+      "affordable": {
+        "description": "外国人向け超格安プラン",
+        "title": "月額3,300ウォン~"
+      },
+      "esim": {
+        "description": "QRコードをスキャンして即時開通",
+        "title": "eSIM対応"
+      },
+      "intl_call": {
+        "description": "一部プランで毎日20分の国際電話",
+        "title": "国際電話含む"
+      },
+      "multilang": {
+        "description": "母国語で便利に利用",
+        "title": "17言語対応"
+      },
+      "network": {
+        "description": "全国どこでも安定した通信品質",
+        "title": "LGU+、KT同等品質"
+      },
+      "plans": {
+        "description": "月額3,300ウォン~ぴったりのプラン",
+        "title": "豊富なプラン"
+      },
+      "title": "なぜGME Mobile?",
+      "usim": {
+        "description": "受け取って5分で開通完了",
+        "title": "USIMセルフ開通"
+      }
+    },
+    "hero": {
+      "badge": "GME MOBILE",
+      "cta": "プランを見る",
+      "description": "LGU+、KTネットワークと同等品質の格安モバイルサービス。月額3,300ウォンからのお手頃プランで通信費を節約。",
+      "title1": "あなたにぴったりの",
+      "title2": "格安モバイル"
+    },
+    "plans": {
+      "cta": "全プランを見る",
+      "currency": "ウォン",
+      "data": "データ",
+      "discount": "割引",
+      "empty": "表示するプランがありません",
+      "per_month": "月",
+      "sms": "SMS",
+      "subtitle": "ライフスタイルに合うプランを見つけよう!",
+      "title": "あなたに合うプラン",
+      "unlimited": "無制限",
+      "voice": "通話"
+    },
+    "process": {
+      "steps": {
+        "step1": {
+          "description": "オンラインでUSIMを注文",
+          "title": "USIM購入"
+        },
+        "step2": {
+          "description": "USIM配送状況を確認",
+          "title": "配送確認"
+        },
+        "step3": {
+          "description": "アプリで本人認証&開通",
+          "title": "セルフ開通"
+        },
+        "step4": {
+          "description": "5分で開通完了!",
+          "title": "完了!"
+        }
+      },
+      "subtitle": "USIMもeSIMも簡単にセルフ開通",
+      "title": "複雑な手続きなく",
+      "title2": "簡単にすぐ開通"
     },
     "usim_intro": {
       "badge": "USIM",
-      "title": "5分で開通完了!",
+      "cta": "USIM購入",
       "description": "セルフ開通時間",
-      "time1_label": "番号移動",
-      "time1_value": "午前10:00 ~ 午後8:00",
-      "time1_note": "日曜・元日・旧正月・秋夕を除く",
-      "time2_label": "新規登録",
-      "time2_value": "午前8:00 ~ 午後10:00",
-      "time2_note": "曜日制限なし",
       "step1": "USIM購入",
       "step2": "受取",
       "step3": "開通",
       "step4": "完了!",
-      "cta": "USIM購入"
-    },
-    "cta": {
-      "title": "GME Mobileを始めよう",
-      "description": "格安プランで通信費を節約、17言語対応。",
-      "button": "GME Mobileへ"
-    },
-    "categories": {
-      "recommended": "おすすめ",
-      "postpaid": "後払い",
-      "fiveG": "5G/特殊",
-      "prepaid": "前払い"
+      "time1_label": "番号移動",
+      "time1_note": "日曜・元日・旧正月・秋夕を除く",
+      "time1_value": "午前10:00 ~ 午後8:00",
+      "time2_label": "新規登録",
+      "time2_note": "曜日制限なし",
+      "time2_value": "午前8:00 ~ 午後10:00",
+      "title": "5分で開通完了!"
     }
   }
 }
