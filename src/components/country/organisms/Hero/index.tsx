@@ -3,10 +3,11 @@
 import { useParams } from "next/navigation";
 import Image from "next/image";
 import HeroContent from "../../molecules/HeroContent";
+import { useCountryTranslation } from "@/hooks/useCountryTranslation";
 
 export default function Hero() {
   const {country} = useParams<{country: string}>();
-  const countryUppercase = country?.toUpperCase();
+  const { t, tArray } = useCountryTranslation(country ?? "");
   const backgroundImage = `/images/country/heroImages/hero-${country?.toLowerCase()}-fullwidth.webp`;
 
   return (
@@ -29,7 +30,13 @@ export default function Hero() {
         priority
         className="absolute top-0 left-0 right-0 bottom-0 w-full h-full object-cover text-transparent object-[var(--hero-pos-mobile-x)_var(--hero-pos-mobile-y)] sm:object-[var(--hero-pos-tablet-x)_var(--hero-pos-tablet-y)] lg:object-[var(--hero-pos-desktop-x)_top]"
       />
-      <HeroContent countryUppercase={countryUppercase} />
+      <HeroContent
+        eyebrow={t("hero.eyebrow")}
+        headingLines={tArray("hero.headingLines")}
+        subheading={t("hero.subheading")}
+        ctaPrimaryLabel={t("hero.ctaPrimaryLabel")}
+        ctaSecondaryLabel={t("hero.ctaSecondaryLabel")}
+      />
       <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-r from-black/70 via-black/30 to-transparent" />
     </section>
   );

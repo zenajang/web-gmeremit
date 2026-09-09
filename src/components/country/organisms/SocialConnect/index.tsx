@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useCountryTranslation } from "@/hooks/useCountryTranslation";
 
 interface SocialConnectProps {
   countryName: string
@@ -31,39 +34,40 @@ const socialLinks: Record<string, { facebook?: string; tiktok?: string }> = {
 
 const SocialConnect = ({ countryName }: SocialConnectProps) => {
   const links = socialLinks[countryName?.toLowerCase()] ?? {};
-  
+  const { t } = useCountryTranslation(countryName);
+
   return (
     <section id="SocialConnect" className="bg-white py-12 sm:py-16">
       <div className="flex flex-col sm:flex-row sm:flex-wrap justify-between items-start sm:items-center gap-8 max-w-[1200px] mx-auto px-5 sm:px-8 lg:px-10">
         <div>
-          <h1 className="text-[24px] sm:text-[28px] font-extrabold tracking-[-0.01em] text-[#181818]">Connect with GME {countryName}</h1>
-          <p className="text-[16px] text-[#606060] mt-1">News, helpful tips, and updates for our community</p>
+          <h1 className="text-[24px] sm:text-[28px] font-extrabold tracking-[-0.01 em] text-[#181818]">{t("social.heading")}</h1>
+          <p className="text-[16px] text-[#606060] mt-1">{t("social.subheading")}</p>
         </div>
         <ul className="flex items-center gap-x-4 gap-y-3 sm:gap-6">
           <li className="text-[16px] font-semibold text-[#181818]">
             <Link href={links.facebook ?? `/country/${countryName}`} target="_blank" className="flex items-center gap-2 text-[15px] font-semibold text-[#181818]">
               <Image src="/images/country/icons/facebook.svg" alt="Facebook" width={20} height={20} />
-              Facebook
+              {t("social.links.facebook")}
             </Link>
           </li>
-          <li className="text-[16px] font-semibold text-[#181818]">
+          {/* <li className="text-[16px] font-semibold text-[#181818]">
             <Link href={`/country/${countryName}`} target="_blank" className="flex items-center gap-2 text-[15px] font-semibold text-[#181818]">
               <Image src="/images/country/icons/instagram.svg" alt="Instagram" width={20} height={20} />
               Instagram
             </Link>
-          </li>
+          </li> */}
           <li className="text-[16px] font-semibold text-[#181818]">
             <Link href={links.tiktok ?? `/country/${countryName}`} target="_blank" className="flex items-center gap-2 text-[15px] font-semibold text-[#181818]">
             <Image src="/images/country/icons/tiktok.svg" alt="TikTok" width={20} height={20} />
-            TikTok
+            {t("social.links.tiktok")}
             </Link>
           </li>
-          <li className="text-[16px] font-semibold text-[#181818]">
+          {/* <li className="text-[16px] font-semibold text-[#181818]">
             <Link href={`/country/${countryName}`} target="_blank" className="flex items-center gap-2 text-[15px] font-semibold text-[#181818]">
               <Image src="/images/country/icons/channeltalk.svg" alt="ChannelTalk" width={20} height={20} />
               ChannelTalk
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </section>

@@ -17,64 +17,62 @@ interface SpliteSectionData {
   image?: string;
 }
 
-export const spliteSectionData = (countryName: string): SpliteSectionData[] => [
+interface SpliteSectionTranslate {
+  t: (key: string, params?: Record<string, string>) => string;
+  tArray: (key: string) => string[];
+}
+
+const sectionHeading = (text: string) => (
+  <h2 className="text-[26px] sm:text-[32px] lg:text-[40px] leading-[1.15] font-extrabold text-[#181818] tracking-[-0.01em] lg:max-w-[14ch]">
+    {text}
+  </h2>
+);
+
+export const spliteSectionData = (
+  { t, tArray }: SpliteSectionTranslate
+): SpliteSectionData[] => [
   {
     id: "exchange-rate",
     direction: "row",
     info: {
-      sectionTitle: "Exchange Rate",
-      contentTitle: <h2 className="text-[26px] sm:text-[32px] lg:text-[40px] leading-[1.15] font-extrabold text-[#181818] tracking-[-0.01em] lg:max-w-[14ch]">
-          Check Today&apos;s<br className="hidden lg:inline" /> Exchange Rate
-        </h2>,
-      description: `See the latest GME Remit exchange rate before sending money from Korea to ${countryName}`,
-      footnote: "Rates may change throughout the day",
+      sectionTitle: t("exchangeRate.eyebrow"),
+      contentTitle: sectionHeading(t("exchangeRate.heading")),
+      description: t("exchangeRate.description"),
+      footnote: t("exchangeRate.note"),
     },
     content: <ExchangeRateCalculator />
   },
   {
-  id: "international-remittance",
-  direction: "row",
-  info: {
-    sectionTitle: "International Remittance",
-    contentTitle: <h2 className="text-[26px] sm:text-[32px] lg:text-[40px] leading-[1.15] font-extrabold text-[#181818] tracking-[-0.01em] lg:max-w-[14ch]">
-      Send Money to the <br className="hidden lg:inline" /> Philippines</h2>,
-    description: "A simple, secure way to support the people who matter most—made for life between Korea and the Philippines",
-    benefits: [
-      "Competitive exchange rates",
-      "Fast and reliable transfers",
-      "Transparent fees",
-      "Support when you need it"
-    ],
-    buttonProps: {
-      as: "link",
-      href: "/#app-download",
-      type: "button",
-      children: "Send Money Now",
-      className: "w-full sm:w-fit flex items-center justify-center font-semibold cursor-pointer px-7 py-3 sm:py-3.5 mt-2 text-[16px] rounded-full bg-primary text-white hover:bg-[#c11a28]"
-    }
-  },
-  content: <Image src="/images/country/international-remittance.png" alt="International Remittance" width={1200} height={1200} className="w-full h-auto mx-auto max-w-[240px] sm:max-w-[300px] lg:max-w-[361px]" />
+    id: "international-remittance",
+    direction: "row",
+    info: {
+      sectionTitle: t("remittance.eyebrow"),
+      contentTitle: sectionHeading(t("remittance.heading")),
+      description: t("remittance.description"),
+      benefits: tArray("remittance.features"),
+      buttonProps: {
+        as: "link",
+        href: "/#app-download",
+        type: "button",
+        children: t("remittance.ctaLabel"),
+        className: "w-full sm:w-fit flex items-center justify-center font-semibold cursor-pointer px-7 py-3 sm:py-3.5 mt-2 text-[16px] rounded-full bg-primary text-white hover:bg-[#c11a28]"
+      }
+    },
+    content: <Image src="/images/country/international-remittance.png" alt="International Remittance" width={1200} height={1200} className="w-full h-auto mx-auto max-w-[240px] sm:max-w-[300px] lg:max-w-[361px]" />
   },
   {
     id: "card",
     direction: "row-reverse",
     info: {
-      sectionTitle: "GME CARD",
-      contentTitle: <h2 className="text-[26px] sm:text-[32px] lg:text-[40px] leading-[1.15] font-extrabold text-[#181818] tracking-[-0.01em] lg:max-w-[14ch]">
-        One Card for<br className="hidden lg:inline" /> Everything</h2>,
-      description: "Simple payments for everyday life in Korea and overseas.",
-      benefits: [
-        "Pay Worldwide",
-        "Shopping",
-        "Transportation",
-        "Cashback",
-        "EasyCare Benefits"
-      ],
+      sectionTitle: t("card.eyebrow"),
+      contentTitle: sectionHeading(t("card.heading")),
+      description: t("card.description"),
+      benefits: tArray("card.features"),
       buttonProps: {
         as: "link",
         href: "/services/card",
         type: "button",
-        children: "Explore GME Cards",
+        children: t("card.ctaLabel"),
         className: "w-full sm:w-fit flex items-center justify-center font-semibold cursor-pointer px-7 py-3 sm:py-3.5 mt-2 text-[16px] rounded-full bg-primary text-white hover:bg-[#c11a28]"
       }
     },
@@ -84,22 +82,15 @@ export const spliteSectionData = (countryName: string): SpliteSectionData[] => [
     id: "sim-card",
     direction: "row",
     info: {
-      sectionTitle: "GME SIM Card",
-      contentTitle: <h2 className="text-[26px] sm:text-[32px] lg:text-[40px] leading-[1.15] font-extrabold text-[#181818] tracking-[-0.01em] lg:max-w-[14ch]">
-        Stay Connected in<br className="hidden lg:inline" /> Korea</h2>,
-      description: "Stay close to what matters with mobile plans designed to make life in Korea more straightforward",
-      benefits: [
-        "Pay Worldwide",
-        "Shopping",
-        "Transportation",
-        "Cashback",
-        "EasyCare Benefits"
-      ],
+      sectionTitle: t("simCard.eyebrow"),
+      contentTitle: sectionHeading(t("simCard.heading")),
+      description: t("simCard.description"),
+      benefits: tArray("simCard.features"),
       buttonProps: {
         as: "link",
         href: "/services/telecom",
         type: "button",
-        children: "View SIM Plans",
+        children: t("simCard.ctaLabel"),
         className: "w-full sm:w-fit flex items-center justify-center font-semibold cursor-pointer px-7 py-3 sm:py-3.5 mt-2 text-[16px] rounded-full bg-primary text-white hover:bg-[#c11a28]"
       }
     },
@@ -109,23 +100,18 @@ export const spliteSectionData = (countryName: string): SpliteSectionData[] => [
     id: "loan",
     direction: "row-reverse",
     info: {
-      sectionTitle: "GME Loan",
-      contentTitle: <h2 className="text-[26px] sm:text-[32px] lg:text-[40px] leading-[1.15] font-extrabold text-[#181818] tracking-[-0.01em] lg:max-w-[14ch]">
-        Your Digital Finance<br className="hidden lg:inline" /> Partner</h2>,
-      description: "Experience the future of foreigner loans. Apply with ease using the GME app. A simple digital loan experience designed for foreigners living in Korea.",
-      benefits: [
-        "Paperless Loan Application",
-        "Real-time Loan Status Checking",
-        "Real-time Loan Balance Checking",
-      ],
+      sectionTitle: t("loan.eyebrow"),
+      contentTitle: sectionHeading(t("loan.heading")),
+      description: t("loan.description"),
+      benefits: tArray("loan.features"),
       buttonProps: {
         as: "link",
         href: "/services/loan",
         type: "button",
-        children: "Apply Now",
+        children: t("loan.ctaLabel"),
         className: "w-full sm:w-fit flex items-center justify-center font-semibold cursor-pointer px-7 py-3 sm:py-3.5 mt-2 text-[16px] rounded-full bg-primary text-white hover:bg-[#c11a28]"
       }
     },
-    content: <Image src="/images/country/loan-phone.webp" alt="LOAN PHONE" width={1200} height={1200} className="w-full h-auto  max-w-[220px] sm:max-w-[280px] lg:max-w-[320px] mx-auto" />
+    content: <Image src="/images/country/loan-phone.webp" alt="Loan" width={1200} height={1200} className="w-full h-auto  max-w-[220px] sm:max-w-[280px] lg:max-w-[320px] mx-auto" />
   }
 ]

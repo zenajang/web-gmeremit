@@ -1,0 +1,155 @@
+{
+  "_meta": {
+    "country": "Uzbekistan",
+    "locale": "uz",
+    "language": "O‘zbekcha",
+    "source": "Approved GME English country landing-page content",
+    "integrationNote": "Customer-facing translation handoff for GME IT. Preserve GME/GME Remit/GME Card/GME SIM Card/GME Loan brand names and currency codes.",
+    "reviewStatus": "Full translation completed; final native corridor review recommended before production."
+  },
+  "header": {
+    "navItems": {
+      "company": "Kompaniya",
+      "services": "Xizmatlar",
+      "countries": "Mamlakatlar",
+      "news": "Yangiliklar",
+      "support": "Yordam"
+    },
+    "downloadAppLabel": "Ilovani yuklab olish"
+  },
+  "hero": {
+    "eyebrow": "GME Uzbekistan",
+    "headingLines": [
+      "Uyga pul yuboring.",
+      "Aloqada bo‘ling.",
+      "Oson sarflang."
+    ],
+    "subheading": "Koreyada yashayotgan o‘zbekistonliklar uchun ishonchli xizmatlar",
+    "ctaPrimaryLabel": "Hozir pul yuborish",
+    "ctaSecondaryLabel": "Boshlash"
+  },
+  "exchangeRate": {
+    "eyebrow": "Valyuta kursi",
+    "heading": "Bugungi valyuta kursini tekshiring",
+    "description": "Koreyadan O‘zbekistonga pul yuborishdan oldin eng so‘nggi GME Remit valyuta kursini tekshiring",
+    "note": "Valyuta kurslari kun davomida o‘zgarishi mumkin",
+    "cardTitle": "GME Remit kalkulyatori",
+    "sampleTag": "Namuna qiymatlar",
+    "sendAmountLabel": "Yuboriladigan summa",
+    "sendAmountPlaceholder": "00,000",
+    "sendCurrencyLabel": "KRW",
+    "recipientCountryLabel": "Qabul qiluvchi mamlakat",
+    "recipientCountryOption": "Uzbekistan",
+    "receiveCurrencyLabel": "UZS",
+    "receiverGetsLabel": "Qabul qiluvchi oladi",
+    "transferFeeLabel": "O‘tkazma to‘lovi",
+    "exchangeRateLabel": "Valyuta kursi",
+    "submitLabel": "Hozir pul yuborish"
+  },
+  "remittance": {
+    "eyebrow": "GME Remit",
+    "heading": "O‘zbekistonga pul yuborish",
+    "description": "Koreyadan O‘zbekistondagi oila va yaqinlaringizga yordam berishning oddiy va xavfsiz usuli.",
+    "features": [
+      "Raqobatbardosh valyuta kurslari",
+      "Tez va ishonchli o‘tkazmalar",
+      "Shaffof to‘lovlar",
+      "Kerak bo‘lganda yordam"
+    ],
+    "ctaLabel": "Hozir pul yuborish"
+  },
+  "card": {
+    "eyebrow": "GME Card",
+    "heading": "Barcha ehtiyojlar uchun bitta karta",
+    "description": "Koreya va xorijda kundalik hayot uchun qulay to‘lovlar.",
+    "features": [
+      "Butun dunyo bo‘ylab to‘lov",
+      "Xaridlar",
+      "Transport",
+      "Cashback",
+      "EasyCare imtiyozlari"
+    ],
+    "ctaLabel": "GME Cards bilan tanishing"
+  },
+  "simCard": {
+    "eyebrow": "GME SIM Card",
+    "heading": "Koreyada aloqada bo‘ling",
+    "description": "Koreyadagi hayotni osonlashtirish uchun yaratilgan mobil tariflar bilan muhim insonlar bilan aloqada bo‘ling.",
+    "features": [
+      "Ishonchli aloqa",
+      "Moslashuvchan SIM tariflari",
+      "Oson sozlash",
+      "Samimiy mahalliy yordam"
+    ],
+    "ctaLabel": "SIM tariflarini ko‘rish"
+  },
+  "loan": {
+    "eyebrow": "GME Loan",
+    "heading": "Sizning raqamli moliyaviy hamkoringiz",
+    "description": "Koreyada yashovchi chet elliklar uchun raqamli kredit xizmati. GME ilovasi orqali oson ariza topshiring.",
+    "features": [
+      "Qog‘ozsiz kredit arizasi",
+      "Kredit holatini real vaqtda tekshirish",
+      "Kredit qoldig‘ini real vaqtda tekshirish"
+    ],
+    "ctaLabel": "Hozir ariza topshirish"
+  },
+  "faq": {
+    "heading": "GME Remit haqida ko‘p so‘raladigan savollar",
+    "subheading": "GME Remit orqali pul yuborish haqidagi keng tarqalgan savollarga javob toping",
+    "items": [
+      {
+        "question": "GME Remit orqali pul yuborish qancha vaqt oladi?",
+        "answer": [
+          "GME Remit o‘tkazmalari odatda taxminan 10 soniyada yakunlanadi. Amaldagi vaqt qabul qiluvchi mamlakat, bank yoki pulni olish usuliga qarab farq qilishi mumkin."
+        ]
+      },
+      {
+        "question": "GME Remit’dan foydalanish xavfsizmi?",
+        "answer": [
+          "Ha. GME Remit Koreyada litsenziyaga ega pul o‘tkazmalari xizmati bo‘lib, tegishli moliyaviy organlar nazorati ostida ishlaydi. Xavfsiz mijozni tasdiqlash va tranzaksiya jarayonlaridan foydalaniladi."
+        ]
+      },
+      {
+        "question": "GME Remit hisobini qanday ochaman?",
+        "answer": [
+          "GME Remit ilovasini yuklab oling, hisob yarating va talab etilgan shaxsni tasdiqlash jarayonini yakunlang. Shundan so‘ng xizmatlardan foydalanishingiz mumkin."
+        ]
+      },
+      {
+        "question": "GME Remit orqali qaysi mamlakatlarga pul yuborish mumkin?",
+        "answer": [
+          "GME Remit ko‘plab mamlakatlarga xalqaro pul o‘tkazmalarini qo‘llab-quvvatlaydi. Mavjud yo‘nalishlar va pul olish usullarini ilovada tekshiring."
+        ]
+      },
+      {
+        "question": "O‘tkazmamda muammo bo‘lsa nima qilishim kerak?",
+        "answer": [
+          "Mijozlarni qo‘llab-quvvatlash jamoasi dushanbadan yakshanbagacha 10:00–23:00 ishlaydi. {SUPPORT_PHONE_NUMBER}, GME Remit ilovasi, rasmiy ijtimoiy tarmoqlar yoki Koreyadagi GME Remit filiallari orqali bog‘lanishingiz mumkin."
+        ]
+      }
+    ]
+  },
+  "social": {
+    "heading": "GME Uzbekistan bilan bog‘laning",
+    "subheading": "Hamjamiyatimiz uchun yangiliklar, foydali maslahatlar va yangilanishlar",
+    "links": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "channelTalk": "ChannelTalk"
+    }
+  },
+  "appDownload": {
+    "heading": "GME ilovasini yuklab olish",
+    "buttons": {
+      "googlePlay": "Google Play",
+      "appleAppStore": "Apple App Store"
+    }
+  },
+  "footer": {
+    "logoText": "GME",
+    "tagline": "Financial services made for Uzbekistanis in Korea.",
+    "copyrightSuffix": "GME. Barcha huquqlar himoyalangan."
+  }
+}

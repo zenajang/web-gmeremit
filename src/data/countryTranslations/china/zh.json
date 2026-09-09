@@ -1,0 +1,158 @@
+{
+  "_meta": {
+    "country": "China",
+    "locale": "zh",
+    "language": "简体中文",
+    "source": "Approved GME English country landing-page content",
+    "integrationNote": "Customer-facing translation handoff for GME IT. Preserve GME/GME Remit/GME Card/GME SIM Card/GME Loan brand names and currency codes.",
+    "reviewStatus": "Native corridor-team review recommended before production, especially financial/legal terminology."
+  },
+  "header": {
+    "navItems": {
+      "company": "公司",
+      "services": "服务",
+      "countries": "国家/地区",
+      "news": "新闻",
+      "support": "客服支持"
+    },
+    "downloadAppLabel": "下载应用"
+  },
+  "hero": {
+    "eyebrow": "GME China",
+    "headingLines": [
+      "汇款回家。",
+      "保持联系。",
+      "轻松消费。"
+    ],
+    "subheading": "为在韩华人提供值得信赖的服务",
+    "ctaPrimaryLabel": "立即汇款",
+    "ctaSecondaryLabel": "立即开始"
+  },
+  "exchangeRate": {
+    "eyebrow": "汇率",
+    "heading": "查看今日汇率",
+    "description": "从韩国向China汇款前，请查看最新的 GME Remit 汇率",
+    "note": "汇率可能会在一天内发生变化",
+    "cardTitle": "GME Remit 汇款计算器",
+    "sampleTag": "示例金额",
+    "sendAmountLabel": "汇款金额",
+    "sendAmountPlaceholder": "00,000",
+    "sendCurrencyLabel": "KRW",
+    "recipientCountryLabel": "收款国家/地区",
+    "recipientCountryOption": "China",
+    "receiveCurrencyLabel": "CNY",
+    "receiverGetsLabel": "收款人实收",
+    "transferFeeLabel": "汇款手续费",
+    "exchangeRateLabel": "汇率",
+    "submitLabel": "立即汇款"
+  },
+  "remittance": {
+    "eyebrow": "GME Remit",
+    "heading": "汇款至China",
+    "description": "从韩国支持您在China的家人和亲友，简单又安全。",
+    "features": [
+      "有竞争力的汇率",
+      "快速可靠的汇款",
+      "费用透明",
+      "需要时提供支持"
+    ],
+    "ctaLabel": "立即汇款"
+  },
+  "card": {
+    "eyebrow": "GME Card",
+    "heading": "一卡满足多种需求",
+    "description": "轻松支付，满足您在韩国及海外的日常生活需求。",
+    "features": [
+      "全球支付",
+      "购物",
+      "交通",
+      "现金返还",
+      "EasyCare 福利"
+    ],
+    "ctaLabel": "了解 GME Card"
+  },
+  "simCard": {
+    "eyebrow": "GME SIM Card",
+    "heading": "在韩国保持畅联",
+    "description": "通过为在韩生活而设计的移动通信套餐，与重要的人和事保持联系。",
+    "features": [
+      "稳定连接",
+      "灵活的 SIM 套餐",
+      "简单开通",
+      "友好的本地支持"
+    ],
+    "ctaLabel": "查看 SIM 套餐"
+  },
+  "loan": {
+    "eyebrow": "GME Loan",
+    "heading": "您的数字金融伙伴",
+    "description": "体验面向在韩外国人的数字贷款服务。通过 GME App 轻松申请，流程简单便捷。",
+    "features": [
+      "无纸化贷款申请",
+      "实时查询贷款状态",
+      "实时查询贷款余额"
+    ],
+    "ctaLabel": "立即申请"
+  },
+  "faq": {
+    "heading": "GME Remit 常见问题",
+    "subheading": "查看使用 GME Remit 汇款时的常见问题解答",
+    "items": [
+      {
+        "question": "使用 GME Remit 汇款需要多长时间？",
+        "answer": [
+          "GME Remit 汇款通常可在约 10 秒内完成，但实际到账时间可能因收款国家/地区、银行或收款方式而有所不同。"
+        ]
+      },
+      {
+        "question": "GME Remit 使用安全吗？",
+        "answer": [
+          "是的。GME Remit 是在韩国获得许可的汇款服务，并接受韩国相关金融监管机构的监督。我们采用安全的客户身份验证和交易流程，以帮助保护客户及其交易安全。"
+        ]
+      },
+      {
+        "question": "如何注册 GME Remit 账户？",
+        "answer": [
+          "下载 GME Remit App，创建账户并完成所需的身份验证。注册和验证完成后，即可开始使用 GME Remit 服务。"
+        ]
+      },
+      {
+        "question": "可以通过 GME Remit 向哪些国家汇款？",
+        "answer": [
+          "GME Remit 支持向全球多个国家和地区进行国际汇款。可汇款目的地及收款方式请直接在 GME Remit App 中查看。"
+        ]
+      },
+      {
+        "question": "如果汇款出现问题怎么办？",
+        "answer": [
+          "我们的客服团队周一至周日 10:00–23:00 提供服务。",
+          "您可以致电 {SUPPORT_PHONE_NUMBER}，或通过 GME Remit App 联系我们。",
+          "您也可以通过 GME China 的官方社交媒体渠道联系我们，包括 Facebook、Instagram、TikTok 和 ChannelTalk。",
+          "如需面对面协助，GME Remit 在韩国多地设有分行，工作人员可为您提供帮助。"
+        ]
+      }
+    ]
+  },
+  "social": {
+    "heading": "关注 GME China",
+    "subheading": "获取新闻、实用提示和社区最新动态",
+    "links": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "channelTalk": "ChannelTalk"
+    }
+  },
+  "appDownload": {
+    "heading": "下载 GME App",
+    "buttons": {
+      "googlePlay": "Google Play",
+      "appleAppStore": "Apple App Store"
+    }
+  },
+  "footer": {
+    "logoText": "GME",
+    "tagline": "为在韩华人提供的金融服务。",
+    "copyrightSuffix": "GME. 版权所有。"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "_meta": {
+    "country": "Mongolia",
+    "locale": "mn",
+    "language": "Монгол",
+    "source": "Approved GME English country landing-page content",
+    "integrationNote": "Customer-facing translation handoff for GME IT. Preserve GME/GME Remit/GME Card/GME SIM Card/GME Loan brand names and currency codes.",
+    "reviewStatus": "Full translation completed; final native corridor review recommended before production."
+  },
+  "header": {
+    "navItems": {
+      "company": "Компани",
+      "services": "Үйлчилгээ",
+      "countries": "Улсууд",
+      "news": "Мэдээ",
+      "support": "Тусламж"
+    },
+    "downloadAppLabel": "Апп татах"
+  },
+  "hero": {
+    "eyebrow": "GME Mongolia",
+    "headingLines": [
+      "Гэр рүүгээ мөнгө илгээгээрэй.",
+      "Холбоотой байгаарай.",
+      "Хялбар зарцуулаарай."
+    ],
+    "subheading": "Солонгост амьдарч буй монголчуудад зориулсан найдвартай үйлчилгээ",
+    "ctaPrimaryLabel": "Одоо мөнгө илгээх",
+    "ctaSecondaryLabel": "Эхлэх"
+  },
+  "exchangeRate": {
+    "eyebrow": "Валютын ханш",
+    "heading": "Өнөөдрийн ханшийг шалгах",
+    "description": "Кореяас Монгол руу мөнгө илгээхээс өмнө хамгийн сүүлийн GME Remit ханшийг шалгаарай",
+    "note": "Валютын ханш өдрийн турш өөрчлөгдөж болно",
+    "cardTitle": "GME Remit тооцоолуур",
+    "sampleTag": "Жишиг утга",
+    "sendAmountLabel": "Илгээх дүн",
+    "sendAmountPlaceholder": "00,000",
+    "sendCurrencyLabel": "KRW",
+    "recipientCountryLabel": "Хүлээн авагч улс",
+    "recipientCountryOption": "Mongolia",
+    "receiveCurrencyLabel": "MNT",
+    "receiverGetsLabel": "Хүлээн авагчийн авах дүн",
+    "transferFeeLabel": "Шилжүүлгийн шимтгэл",
+    "exchangeRateLabel": "Валютын ханш",
+    "submitLabel": "Одоо мөнгө илгээх"
+  },
+  "remittance": {
+    "eyebrow": "GME Remit",
+    "heading": "Монгол руу мөнгө илгээх",
+    "description": "Кореяас Монгол дахь гэр бүл, хайртай хүмүүсээ дэмжих хялбар бөгөөд аюулгүй арга.",
+    "features": [
+      "Өрсөлдөхүйц валютын ханш",
+      "Хурдан, найдвартай шилжүүлэг",
+      "Ил тод шимтгэл",
+      "Хэрэгтэй үед тань тусламж"
+    ],
+    "ctaLabel": "Одоо мөнгө илгээх"
+  },
+  "card": {
+    "eyebrow": "GME Card",
+    "heading": "Бүх хэрэгцээнд нэг карт",
+    "description": "Солонгос болон гадаадад өдөр тутмын амьдралд зориулсан хялбар төлбөр.",
+    "features": [
+      "Дэлхий даяар төлбөр хийх",
+      "Худалдан авалт",
+      "Тээвэр",
+      "Cashback",
+      "EasyCare давуу тал"
+    ],
+    "ctaLabel": "GME Cards-тай танилцах"
+  },
+  "simCard": {
+    "eyebrow": "GME SIM Card",
+    "heading": "Солонгост холбоотой байгаарай",
+    "description": "Солонгос дахь амьдралыг хялбар болгоход зориулсан мобайл багцаар чухал хүмүүстэйгээ холбоотой байгаарай.",
+    "features": [
+      "Найдвартай холболт",
+      "Уян хатан SIM багц",
+      "Хялбар тохиргоо",
+      "Найрсаг орон нутгийн дэмжлэг"
+    ],
+    "ctaLabel": "SIM багцуудыг харах"
+  },
+  "loan": {
+    "eyebrow": "GME Loan",
+    "heading": "Таны дижитал санхүүгийн түнш",
+    "description": "Солонгост амьдарч буй гадаадын иргэдэд зориулсан дижитал зээлийн үйлчилгээ. GME апп-аар хялбархан хүсэлт гаргаарай.",
+    "features": [
+      "Цаасгүй зээлийн хүсэлт",
+      "Зээлийн төлөвийг бодит цагт шалгах",
+      "Зээлийн үлдэгдлийг бодит цагт шалгах"
+    ],
+    "ctaLabel": "Одоо хүсэлт гаргах"
+  },
+  "faq": {
+    "heading": "GME Remit-ийн түгээмэл асуултууд",
+    "subheading": "GME Remit-ээр мөнгө илгээхтэй холбоотой түгээмэл асуултын хариуг олоорой",
+    "items": [
+      {
+        "question": "GME Remit-ээр мөнгө илгээхэд хэр хугацаа шаардагдах вэ?",
+        "answer": [
+          "GME Remit шилжүүлэг ихэвчлэн ойролцоогоор 10 секундэд хийгддэг. Бодит хугацаа нь хүлээн авагч улс, банк эсвэл мөнгө хүлээн авах аргаас шалтгаалан өөр байж болно."
+        ]
+      },
+      {
+        "question": "GME Remit ашиглахад аюулгүй юу?",
+        "answer": [
+          "Тийм. GME Remit нь Солонгост тусгай зөвшөөрөлтэй мөнгөн гуйвуулгын үйлчилгээ бөгөөд холбогдох санхүүгийн байгууллагуудын хяналтад ажилладаг. Аюулгүй баталгаажуулалт, гүйлгээний процессыг ашигладаг."
+        ]
+      },
+      {
+        "question": "GME Remit данс хэрхэн бүртгүүлэх вэ?",
+        "answer": [
+          "GME Remit аппыг татаж, бүртгэл үүсгэн шаардлагатай хувийн мэдээллийн баталгаажуулалтыг хийнэ үү. Дараа нь үйлчилгээг ашиглаж болно."
+        ]
+      },
+      {
+        "question": "GME Remit-ээр аль улс руу мөнгө илгээж болох вэ?",
+        "answer": [
+          "GME Remit нь олон улс руу олон улсын мөнгөн гуйвуулга хийх боломжийг олгодог. Боломжтой улс болон мөнгө хүлээн авах сонголтыг апп-аас шалгана уу."
+        ]
+      },
+      {
+        "question": "Шилжүүлэгт асуудал гарвал яах вэ?",
+        "answer": [
+          "Хэрэглэгчийн үйлчилгээ Даваагаас Ням гараг хүртэл 10:00–23:00 ажиллана. {SUPPORT_PHONE_NUMBER}, GME Remit апп, албан ёсны сошиал сувгууд эсвэл Солонгос дахь салбараар холбогдоно уу."
+        ]
+      }
+    ]
+  },
+  "social": {
+    "heading": "GME Mongolia-тай холбогдох",
+    "subheading": "Манай нийгэмлэгт зориулсан мэдээ, хэрэгтэй зөвлөгөө, шинэ мэдээлэл",
+    "links": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "channelTalk": "ChannelTalk"
+    }
+  },
+  "appDownload": {
+    "heading": "GME апп татах",
+    "buttons": {
+      "googlePlay": "Google Play",
+      "appleAppStore": "Apple App Store"
+    }
+  },
+  "footer": {
+    "logoText": "GME",
+    "tagline": "Кореад амьдардаг монголчуудад зориулсан санхүүгийн үйлчилгээ.",
+    "copyrightSuffix": "GME. Бүх эрх хуулиар хамгаалагдсан."
+  }
+}

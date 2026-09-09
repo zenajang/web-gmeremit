@@ -8,11 +8,15 @@ import DesktopNav, { LanguageSelector } from "./header/DesktopNav";
 import MobileNav, { MobileLanguageBottomSheet } from "./header/MobileNav";
 import type { MenuItem } from "./header/DesktopNav";
 import { useTranslation } from "@/hooks/useTranslation";
+import { useLanguage } from "@/contexts/LanguageContext";
 import { menuItemDefs } from "@/data/headerMenu";
+import { getCountriesNavLabel } from "@/data/countryTranslations";
 
 // ============ Main Header ============
 export default function Header() {
   const { t } = useTranslation("header");
+  const { currentLanguage } = useLanguage();
+  const countriesLabel = getCountriesNavLabel(currentLanguage.code);
   const pathname = usePathname();
 
   const menuItems: MenuItem[] = menuItemDefs.map((item) => ({
@@ -107,7 +111,7 @@ export default function Header() {
             </Link>
 
             {/* Desktop Navigation - 중앙 */}
-            <DesktopNav menuItems={menuItems} countriesLabel={t("nav.countries")} />
+            <DesktopNav menuItems={menuItems} countriesLabel={countriesLabel} />
 
             {/* Right Side */}
             <div className="flex items-center gap-4 lg:gap-6 shrink-0">
@@ -165,7 +169,7 @@ export default function Header() {
         onClose={() => setIsMenuOpen(false)}
         menuItems={menuItems}
         careersLabel={t("link.careers")}
-        countriesLabel={t("nav.countries")}
+        countriesLabel={countriesLabel}
       />
 
       {/* Mobile Language Bottom Sheet */}

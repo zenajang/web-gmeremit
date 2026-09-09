@@ -30,7 +30,7 @@ export const CalculatorStatusDotSuccess = "bg-success";
 export const CalculatorFieldWrapper = "flex flex-col gap-2";
 
 export const CalculatorFieldLabel =
-  "text-[12px] font-semibold text-[#666666] tracking-[0.08em] uppercase";
+  "flex align-center items-center justify-between gap-2 text-[12px] font-semibold text-[#666666] tracking-[0.08em] uppercase";
 
 export const CalculatorInputRow =
   "flex items-center justify-between border border-[#202020] rounded-lg px-4 py-3.5";
