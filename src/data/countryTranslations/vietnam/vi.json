@@ -31,7 +31,7 @@
   "exchangeRate": {
     "eyebrow": "Tỷ giá",
     "heading": "Kiểm tra tỷ giá hôm nay",
-    "description": "Xem tỷ giá GME Remit mới nhất trước khi gửi tiền từ Hàn Quốc đến Vietnam",
+    "description": "Xem tỷ giá GME Remit mới nhất trước khi gửi tiền từ Hàn Quốc đến Việt Nam",
     "note": "Tỷ giá có thể thay đổi trong ngày",
     "cardTitle": "Công cụ tính GME Remit",
     "sampleTag": "Giá trị mẫu",
@@ -48,8 +48,8 @@
   },
   "remittance": {
     "eyebrow": "GME Remit",
-    "heading": "Gửi tiền đến Vietnam",
-    "description": "Một cách đơn giản và an toàn để hỗ trợ gia đình và người thân tại Vietnam từ Hàn Quốc.",
+    "heading": "Gửi tiền đến Việt Nam",
+    "description": "Một cách đơn giản và an toàn để hỗ trợ gia đình và người thân tại Việt Nam từ Hàn Quốc.",
     "features": [
       "Tỷ giá cạnh tranh",
       "Chuyển tiền nhanh chóng và đáng tin cậy",

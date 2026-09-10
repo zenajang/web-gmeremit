@@ -31,7 +31,7 @@
   "exchangeRate": {
     "eyebrow": "汇率",
     "heading": "查看今日汇率",
-    "description": "从韩国向China汇款前，请查看最新的 GME Remit 汇率",
+    "description": "从韩国向中国汇款前，请查看最新的 GME Remit 汇率",
     "note": "汇率可能会在一天内发生变化",
     "cardTitle": "GME Remit 汇款计算器",
     "sampleTag": "示例金额",
@@ -48,8 +48,8 @@
   },
   "remittance": {
     "eyebrow": "GME Remit",
-    "heading": "汇款至China",
-    "description": "从韩国支持您在China的家人和亲友，简单又安全。",
+    "heading": "汇款至中国",
+    "description": "从韩国支持您在中国的家人和亲友，简单又安全。",
     "features": [
       "有竞争力的汇率",
       "快速可靠的汇款",
