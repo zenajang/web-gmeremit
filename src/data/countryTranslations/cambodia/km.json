@@ -1,0 +1,155 @@
+{
+  "_meta": {
+    "country": "Cambodia",
+    "locale": "km",
+    "language": "ខ្មែរ",
+    "source": "Approved GME English country landing-page content",
+    "integrationNote": "Customer-facing translation handoff for GME IT. Preserve GME/GME Remit/GME Card/GME SIM Card/GME Loan brand names and currency codes.",
+    "reviewStatus": "Full translation completed; final native corridor review recommended before production."
+  },
+  "header": {
+    "navItems": {
+      "company": "ក្រុមហ៊ុន",
+      "services": "សេវាកម្ម",
+      "countries": "ប្រទេស",
+      "news": "ព័ត៌មាន",
+      "support": "ជំនួយ"
+    },
+    "downloadAppLabel": "ទាញយកកម្មវិធី"
+  },
+  "hero": {
+    "eyebrow": "GME Cambodia",
+    "headingLines": [
+      "ផ្ញើប្រាក់ទៅផ្ទះ។",
+      "រក្សាទំនាក់ទំនង។",
+      "ចំណាយបានងាយស្រួល។"
+    ],
+    "subheading": "សេវាកម្មដែលអាចទុកចិត្តបានសម្រាប់ជនជាតិកម្ពុជាដែលរស់នៅកូរ៉េ",
+    "ctaPrimaryLabel": "ផ្ញើប្រាក់ឥឡូវនេះ",
+    "ctaSecondaryLabel": "ចាប់ផ្តើម"
+  },
+  "exchangeRate": {
+    "eyebrow": "អត្រាប្តូរប្រាក់",
+    "heading": "ពិនិត្យអត្រាប្តូរប្រាក់ថ្ងៃនេះ",
+    "description": "ពិនិត្យអត្រាប្តូរប្រាក់ GME Remit ចុងក្រោយបំផុត មុននឹងផ្ញើប្រាក់ពីកូរ៉េទៅកម្ពុជា",
+    "note": "អត្រាប្តូរប្រាក់អាចផ្លាស់ប្តូរនៅក្នុងមួយថ្ងៃ",
+    "cardTitle": "ម៉ាស៊ីនគណនា GME Remit",
+    "sampleTag": "តម្លៃគំរូ",
+    "sendAmountLabel": "ចំនួនប្រាក់ផ្ញើ",
+    "sendAmountPlaceholder": "00,000",
+    "sendCurrencyLabel": "KRW",
+    "recipientCountryLabel": "ប្រទេសអ្នកទទួល",
+    "recipientCountryOption": "Cambodia",
+    "receiveCurrencyLabel": "KHR",
+    "receiverGetsLabel": "អ្នកទទួលនឹងទទួលបាន",
+    "transferFeeLabel": "ថ្លៃផ្ទេរ",
+    "exchangeRateLabel": "អត្រាប្តូរប្រាក់",
+    "submitLabel": "ផ្ញើប្រាក់ឥឡូវនេះ"
+  },
+  "remittance": {
+    "eyebrow": "GME Remit",
+    "heading": "ផ្ញើប្រាក់ទៅកម្ពុជា",
+    "description": "វិធីសាមញ្ញ និងសុវត្ថិភាពក្នុងការជួយគ្រួសារ និងមនុស្សជាទីស្រឡាញ់របស់អ្នកនៅកម្ពុជា ពីកូរ៉េ។",
+    "features": [
+      "អត្រាប្តូរប្រាក់ប្រកួតប្រជែង",
+      "ការផ្ទេររហ័ស និងអាចទុកចិត្តបាន",
+      "ថ្លៃសេវាច្បាស់លាស់",
+      "ជំនួយនៅពេលអ្នកត្រូវការ"
+    ],
+    "ctaLabel": "ផ្ញើប្រាក់ឥឡូវនេះ"
+  },
+  "card": {
+    "eyebrow": "GME Card",
+    "heading": "កាតមួយសម្រាប់គ្រប់តម្រូវការ",
+    "description": "ការទូទាត់ងាយស្រួលសម្រាប់ជីវិតប្រចាំថ្ងៃនៅកូរ៉េ និងក្រៅប្រទេស។",
+    "features": [
+      "ទូទាត់ទូទាំងពិភពលោក",
+      "ទិញទំនិញ",
+      "ការធ្វើដំណើរ",
+      "Cashback",
+      "អត្ថប្រយោជន៍ EasyCare"
+    ],
+    "ctaLabel": "មើល GME Cards"
+  },
+  "simCard": {
+    "eyebrow": "GME SIM Card",
+    "heading": "រក្សាទំនាក់ទំនងនៅកូរ៉េ",
+    "description": "រក្សាទំនាក់ទំនងជាមួយអ្វីដែលសំខាន់ តាមរយៈគម្រោងទូរស័ព្ទដែលធ្វើឱ្យជីវិតនៅកូរ៉េកាន់តែងាយស្រួល។",
+    "features": [
+      "ការតភ្ជាប់ដែលអាចទុកចិត្តបាន",
+      "គម្រោង SIM បត់បែន",
+      "រៀបចំងាយស្រួល",
+      "ជំនួយក្នុងស្រុកប្រកបដោយភាពរួសរាយ"
+    ],
+    "ctaLabel": "មើលគម្រោង SIM"
+  },
+  "loan": {
+    "eyebrow": "GME Loan",
+    "heading": "ដៃគូហិរញ្ញវត្ថុឌីជីថលរបស់អ្នក",
+    "description": "សេវាកម្ចីឌីជីថលសម្រាប់ជនបរទេសដែលរស់នៅកូរ៉េ។ ដាក់ពាក្យបានងាយតាមកម្មវិធី GME។",
+    "features": [
+      "ដាក់ពាក្យកម្ចីដោយមិនប្រើក្រដាស",
+      "ពិនិត្យស្ថានភាពកម្ចីភ្លាមៗ",
+      "ពិនិត្យសមតុល្យកម្ចីភ្លាមៗ"
+    ],
+    "ctaLabel": "ដាក់ពាក្យឥឡូវនេះ"
+  },
+  "faq": {
+    "heading": "សំណួរដែលសួរញឹកញាប់អំពី GME Remit",
+    "subheading": "ស្វែងរកចម្លើយសម្រាប់សំណួរទូទៅអំពីការផ្ញើប្រាក់ជាមួយ GME Remit",
+    "items": [
+      {
+        "question": "ការផ្ញើប្រាក់ជាមួយ GME Remit ត្រូវចំណាយពេលប៉ុន្មាន?",
+        "answer": [
+          "ការផ្ទេរប្រាក់តាម GME Remit ជាទូទៅបញ្ចប់ក្នុងប្រហែល 10 វិនាទី។ ពេលវេលាជាក់ស្តែងអាចខុសគ្នាតាមប្រទេសអ្នកទទួល ធនាគារ ឬវិធីទទួលប្រាក់។"
+        ]
+      },
+      {
+        "question": "តើ GME Remit មានសុវត្ថិភាពក្នុងការប្រើប្រាស់ទេ?",
+        "answer": [
+          "បាទ/ចាស។ GME Remit គឺជាសេវាផ្ទេរប្រាក់ដែលមានអាជ្ញាបណ្ណនៅកូរ៉េ និងស្ថិតក្រោមការត្រួតពិនិត្យរបស់អាជ្ញាធរហិរញ្ញវត្ថុដែលពាក់ព័ន្ធ។ យើងប្រើដំណើរការផ្ទៀងផ្ទាត់ និងប្រតិបត្តិការដែលមានសុវត្ថិភាព។"
+        ]
+      },
+      {
+        "question": "តើខ្ញុំចុះឈ្មោះគណនី GME Remit ដោយរបៀបណា?",
+        "answer": [
+          "ទាញយកកម្មវិធី GME Remit បង្កើតគណនី និងបំពេញការផ្ទៀងផ្ទាត់អត្តសញ្ញាណ។ បន្ទាប់មកអ្នកអាចចាប់ផ្តើមប្រើសេវា GME Remit។"
+        ]
+      },
+      {
+        "question": "តើខ្ញុំអាចផ្ញើប្រាក់ទៅប្រទេសណាខ្លះតាម GME Remit?",
+        "answer": [
+          "GME Remit គាំទ្រការផ្ទេរប្រាក់អន្តរជាតិទៅប្រទេសជាច្រើន។ ពិនិត្យប្រទេសគោលដៅ និងជម្រើសទទួលប្រាក់នៅក្នុងកម្មវិធី GME Remit។"
+        ]
+      },
+      {
+        "question": "តើខ្ញុំគួរធ្វើអ្វី ប្រសិនបើមានបញ្ហាជាមួយការផ្ទេរប្រាក់?",
+        "answer": [
+          "ក្រុមជំនួយបម្រើ 10:00–23:00 ពីថ្ងៃចន្ទដល់ថ្ងៃអាទិត្យ។ អ្នកអាចទាក់ទងតាម {SUPPORT_PHONE_NUMBER}, កម្មវិធី GME Remit, បណ្តាញសង្គមផ្លូវការ ឬសាខា GME Remit នៅកូរ៉េ។"
+        ]
+      }
+    ]
+  },
+  "social": {
+    "heading": "ភ្ជាប់ទំនាក់ទំនងជាមួយ GME Cambodia",
+    "subheading": "ព័ត៌មាន គន្លឹះមានប្រយោជន៍ និងបច្ចុប្បន្នភាពសម្រាប់សហគមន៍របស់យើង",
+    "links": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "channelTalk": "ChannelTalk"
+    }
+  },
+  "appDownload": {
+    "heading": "ទាញយកកម្មវិធី GME",
+    "buttons": {
+      "googlePlay": "Google Play",
+      "appleAppStore": "Apple App Store"
+    }
+  },
+  "footer": {
+    "logoText": "GME",
+    "tagline": "សេវាកម្មហិរញ្ញវត្ថុសម្រាប់ជនជាតិកម្ពុជានៅកូរ៉េ។",
+    "copyrightSuffix": "GME. រក្សាសិទ្ធិគ្រប់យ៉ាង។"
+  }
+}

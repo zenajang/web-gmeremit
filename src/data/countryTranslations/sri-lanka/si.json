@@ -1,0 +1,155 @@
+{
+  "_meta": {
+    "country": "Sri Lanka",
+    "locale": "si",
+    "language": "සිංහල",
+    "source": "Approved GME English country landing-page content",
+    "integrationNote": "Customer-facing translation handoff for GME IT. Preserve GME/GME Remit/GME Card/GME SIM Card/GME Loan brand names and currency codes.",
+    "reviewStatus": "Full translation completed; final native corridor review recommended before production."
+  },
+  "header": {
+    "navItems": {
+      "company": "සමාගම",
+      "services": "සේවා",
+      "countries": "රටවල්",
+      "news": "පුවත්",
+      "support": "සහාය"
+    },
+    "downloadAppLabel": "යෙදුම බාගන්න"
+  },
+  "hero": {
+    "eyebrow": "GME Sri Lanka",
+    "headingLines": [
+      "ගෙදරට මුදල් යවන්න.",
+      "සම්බන්ධව සිටින්න.",
+      "පහසුවෙන් වියදම් කරන්න."
+    ],
+    "subheading": "කොරියාවේ ජීවත් වන ශ්‍රී ලාංකිකයන් සඳහා විශ්වාසදායක සේවා",
+    "ctaPrimaryLabel": "දැන් මුදල් යවන්න",
+    "ctaSecondaryLabel": "ආරම්භ කරන්න"
+  },
+  "exchangeRate": {
+    "eyebrow": "විනිමය අනුපාතය",
+    "heading": "අද විනිමය අනුපාතය බලන්න",
+    "description": "කොරියාවේ සිට ශ්‍රී ලංකාවට මුදල් යැවීමට පෙර නවතම GME Remit විනිමය අනුපාතය බලන්න",
+    "note": "විනිමය අනුපාත දවස පුරා වෙනස් විය හැක",
+    "cardTitle": "GME Remit ගණකය",
+    "sampleTag": "උදාහරණ අගයන්",
+    "sendAmountLabel": "යවන මුදල",
+    "sendAmountPlaceholder": "00,000",
+    "sendCurrencyLabel": "KRW",
+    "recipientCountryLabel": "ලබන්නාගේ රට",
+    "recipientCountryOption": "Sri Lanka",
+    "receiveCurrencyLabel": "LKR",
+    "receiverGetsLabel": "ලබන්නාට ලැබෙන මුදල",
+    "transferFeeLabel": "හුවමාරු ගාස්තුව",
+    "exchangeRateLabel": "විනිමය අනුපාතය",
+    "submitLabel": "දැන් මුදල් යවන්න"
+  },
+  "remittance": {
+    "eyebrow": "GME Remit",
+    "heading": "ශ්‍රී ලංකාවට මුදල් යවන්න",
+    "description": "කොරියාවේ සිට ශ්‍රී ලංකාවේ ඔබේ පවුලට සහ ආදරණීයයන්ට සහාය වීමට සරල හා ආරක්ෂිත ක්‍රමයක්.",
+    "features": [
+      "තරඟකාරී විනිමය අනුපාත",
+      "වේගවත් සහ විශ්වාසදායක හුවමාරු",
+      "පැහැදිලි ගාස්තු",
+      "අවශ්‍ය විට සහාය"
+    ],
+    "ctaLabel": "දැන් මුදල් යවන්න"
+  },
+  "card": {
+    "eyebrow": "GME Card",
+    "heading": "සෑම අවශ්‍යතාවකටම එකම කාඩ්පතක්",
+    "description": "කොරියාවේ සහ විදේශයේ දෛනික ජීවිතයට පහසු ගෙවීම්.",
+    "features": [
+      "ලොව පුරා ගෙවීම්",
+      "සාප්පු සවාරි",
+      "ප්‍රවාහනය",
+      "Cashback",
+      "EasyCare ප්‍රතිලාභ"
+    ],
+    "ctaLabel": "GME Cards බලන්න"
+  },
+  "simCard": {
+    "eyebrow": "GME SIM Card",
+    "heading": "කොරියාවේ සම්බන්ධව සිටින්න",
+    "description": "කොරියාවේ ජීවිතය පහසු කිරීමට නිර්මාණය කළ ජංගම සැලසුම් සමඟ වැදගත් අය සමඟ සම්බන්ධව සිටින්න.",
+    "features": [
+      "විශ්වාසදායක සම්බන්ධතාව",
+      "නම්‍යශීලී SIM සැලසුම්",
+      "පහසු සැකසුම",
+      "හිතවත් දේශීය සහාය"
+    ],
+    "ctaLabel": "SIM සැලසුම් බලන්න"
+  },
+  "loan": {
+    "eyebrow": "GME Loan",
+    "heading": "ඔබගේ ඩිජිටල් මූල්‍ය සහකරු",
+    "description": "කොරියාවේ ජීවත් වන විදේශිකයන් සඳහා ඩිජිටල් ණය සේවාවක්. GME යෙදුම හරහා පහසුවෙන් අයදුම් කරන්න.",
+    "features": [
+      "කඩදාසි රහිත ණය අයදුම්පත",
+      "තත්‍ය කාලීන ණය තත්ත්ව පරීක්ෂාව",
+      "තත්‍ය කාලීන ණය ශේෂ පරීක්ෂාව"
+    ],
+    "ctaLabel": "දැන් අයදුම් කරන්න"
+  },
+  "faq": {
+    "heading": "GME Remit පිළිබඳ නිතර අසන ප්‍රශ්න",
+    "subheading": "GME Remit මඟින් මුදල් යැවීම පිළිබඳ පොදු ප්‍රශ්නවලට පිළිතුරු සොයන්න",
+    "items": [
+      {
+        "question": "GME Remit මඟින් මුදල් යැවීමට කොපමණ කාලයක් ගතවේද?",
+        "answer": [
+          "GME Remit මුදල් හුවමාරු සාමාන්‍යයෙන් තත්පර 10ක් පමණ තුළ සම්පූර්ණ වේ. සැබෑ කාලය ලබන්නාගේ රට, බැංකුව හෝ මුදල් ලබාගැනීමේ ක්‍රමය අනුව වෙනස් විය හැක."
+        ]
+      },
+      {
+        "question": "GME Remit භාවිතය ආරක්ෂිතද?",
+        "answer": [
+          "ඔව්. GME Remit යනු කොරියාවේ බලපත්‍රලාභී මුදල් හුවමාරු සේවාවක් වන අතර අදාළ මූල්‍ය අධිකාරීන්ගේ අධීක්ෂණයට යටත් වේ. ආරක්ෂිත පාරිභෝගික සත්‍යාපන සහ ගනුදෙනු ක්‍රියාවලි භාවිතා කරයි."
+        ]
+      },
+      {
+        "question": "GME Remit ගිණුමක් විවෘත කරන්නේ කෙසේද?",
+        "answer": [
+          "GME Remit යෙදුම බාගත කර ගිණුමක් සාදා අවශ්‍ය අනන්‍යතා සත්‍යාපනය සම්පූර්ණ කරන්න. ඉන්පසු සේවා භාවිතා කළ හැක."
+        ]
+      },
+      {
+        "question": "GME Remit මඟින් කුමන රටවලට මුදල් යැවිය හැකිද?",
+        "answer": [
+          "GME Remit බොහෝ රටවලට ජාත්‍යන්තර මුදල් හුවමාරු සඳහා සහාය දක්වයි. ලබාගත හැකි ගමනාන්ත සහ මුදල් ලබාගැනීමේ විකල්ප යෙදුමෙන් බලන්න."
+        ]
+      },
+      {
+        "question": "මගේ හුවමාරුවේ ගැටලුවක් ඇතිවුවහොත් කුමක් කළ යුතුද?",
+        "answer": [
+          "පාරිභෝගික සහාය සඳුදා සිට ඉරිදා දක්වා 10:00–23:00 ලබා ගත හැක. {SUPPORT_PHONE_NUMBER}, GME Remit යෙදුම, නිල සමාජ මාධ්‍ය හෝ කොරියාවේ GME Remit ශාඛා හරහා සම්බන්ධ විය හැක."
+        ]
+      }
+    ]
+  },
+  "social": {
+    "heading": "GME Sri Lanka සමඟ සම්බන්ධ වන්න",
+    "subheading": "අපගේ ප්‍රජාව සඳහා පුවත්, ප්‍රයෝජනවත් උපදෙස් සහ යාවත්කාලීන කිරීම්",
+    "links": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "channelTalk": "ChannelTalk"
+    }
+  },
+  "appDownload": {
+    "heading": "GME යෙදුම බාගන්න",
+    "buttons": {
+      "googlePlay": "Google Play",
+      "appleAppStore": "Apple App Store"
+    }
+  },
+  "footer": {
+    "logoText": "GME",
+    "tagline": "කොරියාවේ ශ්‍රී ලාංකිකයන් සඳහා මූල්‍ය සේවා.",
+    "copyrightSuffix": "GME. සියලු හිමිකම් ඇවිරිණි."
+  }
+}

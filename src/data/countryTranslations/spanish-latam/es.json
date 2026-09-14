@@ -1,0 +1,158 @@
+{
+  "_meta": {
+    "country": "Spanish / Latam",
+    "locale": "es",
+    "language": "Español",
+    "source": "Approved GME English country landing-page content",
+    "integrationNote": "Customer-facing translation handoff for GME IT. Preserve GME/GME Remit/GME Card/GME SIM Card/GME Loan brand names and currency codes.",
+    "reviewStatus": "Native corridor-team review recommended before production, especially financial/legal terminology."
+  },
+  "header": {
+    "navItems": {
+      "company": "Empresa",
+      "services": "Servicios",
+      "countries": "Países",
+      "news": "Noticias",
+      "support": "Soporte"
+    },
+    "downloadAppLabel": "Descargar la app"
+  },
+  "hero": {
+    "eyebrow": "GME Spanish / Latam",
+    "headingLines": [
+      "Envía dinero a casa.",
+      "Mantente conectado.",
+      "Paga con facilidad."
+    ],
+    "subheading": "Servicios confiables para latinoamericanos que viven en Corea",
+    "ctaPrimaryLabel": "Enviar dinero ahora",
+    "ctaSecondaryLabel": "Comenzar"
+  },
+  "exchangeRate": {
+    "eyebrow": "Tipo de cambio",
+    "heading": "Consulta el tipo de cambio de hoy",
+    "description": "Consulta el tipo de cambio más reciente de GME Remit antes de enviar dinero desde Corea a Latin America",
+    "note": "Los tipos de cambio pueden variar durante el día",
+    "cardTitle": "Calculadora de GME Remit",
+    "sampleTag": "Valores de ejemplo",
+    "sendAmountLabel": "Monto a enviar",
+    "sendAmountPlaceholder": "00,000",
+    "sendCurrencyLabel": "KRW",
+    "recipientCountryLabel": "País de destino",
+    "recipientCountryOption": "Spanish / Latam",
+    "receiveCurrencyLabel": "TBD",
+    "receiverGetsLabel": "El destinatario recibe",
+    "transferFeeLabel": "Comisión de transferencia",
+    "exchangeRateLabel": "Tipo de cambio",
+    "submitLabel": "Enviar dinero ahora"
+  },
+  "remittance": {
+    "eyebrow": "GME Remit",
+    "heading": "Envía dinero a Latin America",
+    "description": "Una forma sencilla y segura de apoyar desde Corea a tu familia y seres queridos en Latin America.",
+    "features": [
+      "Tipos de cambio competitivos",
+      "Transferencias rápidas y confiables",
+      "Comisiones transparentes",
+      "Soporte cuando lo necesites"
+    ],
+    "ctaLabel": "Enviar dinero ahora"
+  },
+  "card": {
+    "eyebrow": "GME Card",
+    "heading": "Una tarjeta para todo",
+    "description": "Pagos sencillos para tu vida diaria en Corea y en el extranjero.",
+    "features": [
+      "Paga en todo el mundo",
+      "Compras",
+      "Transporte",
+      "Cashback",
+      "Beneficios EasyCare"
+    ],
+    "ctaLabel": "Conoce las tarjetas GME"
+  },
+  "simCard": {
+    "eyebrow": "GME SIM Card",
+    "heading": "Mantente conectado en Corea",
+    "description": "Mantente cerca de lo que más importa con planes móviles pensados para hacer tu vida en Corea más sencilla.",
+    "features": [
+      "Conexión confiable",
+      "Planes SIM flexibles",
+      "Configuración sencilla",
+      "Atención local amable"
+    ],
+    "ctaLabel": "Ver planes SIM"
+  },
+  "loan": {
+    "eyebrow": "GME Loan",
+    "heading": "Tu socio financiero digital",
+    "description": "Descubre una experiencia de préstamo digital para extranjeros que viven en Corea. Solicita fácilmente desde la app de GME.",
+    "features": [
+      "Solicitud de préstamo sin papel",
+      "Consulta del estado del préstamo en tiempo real",
+      "Consulta del saldo del préstamo en tiempo real"
+    ],
+    "ctaLabel": "Solicitar ahora"
+  },
+  "faq": {
+    "heading": "Preguntas frecuentes sobre GME Remit",
+    "subheading": "Encuentra respuestas a preguntas comunes sobre el envío de dinero con GME Remit",
+    "items": [
+      {
+        "question": "¿Cuánto tarda un envío de dinero con GME Remit?",
+        "answer": [
+          "Las transferencias de GME Remit suelen completarse en unos 10 segundos, aunque el tiempo real puede variar según el país de destino, el banco o el método de pago."
+        ]
+      },
+      {
+        "question": "¿Es seguro usar GME Remit?",
+        "answer": [
+          "Sí. GME Remit es un servicio de remesas autorizado en Corea y supervisado por las autoridades financieras coreanas correspondientes. Utilizamos procesos seguros de verificación de clientes y transacciones para ayudar a proteger a nuestros clientes y sus operaciones."
+        ]
+      },
+      {
+        "question": "¿Cómo me registro para obtener una cuenta de GME Remit?",
+        "answer": [
+          "Descarga la app de GME Remit, crea tu cuenta y completa la verificación de identidad requerida. Una vez finalizados el registro y la verificación, podrás comenzar a utilizar los servicios de GME Remit."
+        ]
+      },
+      {
+        "question": "¿A qué países puedo enviar dinero con GME Remit?",
+        "answer": [
+          "GME Remit permite realizar transferencias internacionales a numerosos países. Puedes consultar los destinos y métodos de pago disponibles directamente en la app de GME Remit."
+        ]
+      },
+      {
+        "question": "¿Qué hago si tengo un problema con mi transferencia?",
+        "answer": [
+          "Nuestro equipo de atención al cliente está disponible de 10:00 a 23:00, de lunes a domingo.",
+          "Puedes llamarnos al {SUPPORT_PHONE_NUMBER} o contactarnos a través de la app de GME Remit.",
+          "También puedes escribirnos a través de los canales oficiales de redes sociales de GME Spanish / Latam, incluidos Facebook, Instagram, TikTok y ChannelTalk.",
+          "Si prefieres atención presencial, GME Remit también cuenta con sucursales en Corea donde nuestro personal puede ayudarte directamente."
+        ]
+      }
+    ]
+  },
+  "social": {
+    "heading": "Conecta con GME Spanish / Latam",
+    "subheading": "Noticias, consejos útiles y novedades para nuestra comunidad",
+    "links": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "channelTalk": "ChannelTalk"
+    }
+  },
+  "appDownload": {
+    "heading": "Descargar la app de GME",
+    "buttons": {
+      "googlePlay": "Google Play",
+      "appleAppStore": "Apple App Store"
+    }
+  },
+  "footer": {
+    "logoText": "GME",
+    "tagline": "Servicios financieros para latinoamericanos en Corea.",
+    "copyrightSuffix": "GME. Todos los derechos reservados."
+  }
+}

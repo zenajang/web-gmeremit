@@ -1,10 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { languages } from "@/lib/language";
-import type { MenuItem } from "./DesktopNav";
+import { CountryNamesEn, type MenuItem } from "./DesktopNav";
+import { useTranslation } from "@/hooks/useTranslation";
+import { servedEntries } from "@/data/servedCountries";
 
 // ============ Icons ============
 function ChevronDownIcon({ className }: { className?: string }) {
@@ -148,17 +151,89 @@ export function MobileAccordion({
   );
 }
 
+// ============ Mobile Countries Accordion ============
+export function MobileCountriesAccordion({ label, onClose }: { label: string; onClose: () => void }) {
+  const { t } = useTranslation("home.hero");
+  const { setLanguage } = useLanguage();
+  const router = useRouter();
+  const [isExpanded, setIsExpanded] = useState(false);
+  const [selectedCode, setSelectedCode] = useState<string | null>(null);
+
+  const countriesWithNames = useMemo(
+    () =>
+      servedEntries.map((c) => ({
+        ...c,
+        name: c.nameNs === "header" ? t(c.nameKey, { ns: "header" }) : t(c.nameKey),
+      })),
+    [t]
+  );
+
+  const getRenderFlag = (code: string, flagSrc?: string) => {
+    switch (code) {
+      case "AFRICA":
+        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🌍</span>;
+      case "ARAB":
+        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🌐</span>;
+      case "SPANISH_LATAM":
+        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🌎</span>;
+      case "RU":
+        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🗺️</span>;
+      default:
+        return <img src={flagSrc} alt="" className="w-5 h-5 rounded-full object-cover shrink-0" />;
+    }
+  };
+
+  return (
+    <div className="border-b border-gray-100">
+      <button
+        type="button"
+        className="w-full flex items-center justify-between px-4 py-3 text-base text-dark hover:bg-gray-50 font-medium cursor-pointer"
+        onClick={() => setIsExpanded(!isExpanded)}
+      >
+        <span>{label}</span>
+        <ChevronDownIcon className={`transition-transform duration-200 ${isExpanded ? "rotate-180" : ""}`} />
+      </button>
+
+      {isExpanded && (
+        <div className="bg-gray-50">
+          {countriesWithNames.map((c) => (
+            <button
+              key={c.code}
+              type="button"
+              onClick={() => {
+                setSelectedCode(c.code);
+                const matched = languages.find((lang) => lang.code === c.langCode);
+                setLanguage(matched ?? languages.find((lang) => lang.code === "en")!);
+                onClose();
+                router.push(`/country/${CountryNamesEn[c.code]}`);
+              }}
+              className={`w-full flex items-center gap-2 px-6 py-2.5 text-left text-sm hover:bg-gray-100 cursor-pointer ${
+                selectedCode === c.code ? "text-primary" : "text-dark hover:text-primary"
+              }`}
+            >
+              {getRenderFlag(c.code, c.flagSrc)}
+              <span>{c.name}</span>
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 // ============ Mobile Nav ============
 export default function MobileNav({
   isOpen,
   onClose,
   menuItems,
   careersLabel = "Careers",
+  countriesLabel,
 }: {
   isOpen: boolean;
   onClose: () => void;
   menuItems: MenuItem[];
   careersLabel?: string;
+  countriesLabel: string;
 }) {
   return (
     <>
@@ -175,7 +250,15 @@ export default function MobileNav({
         }`}
       >
         <nav className="pb-6">
-          {menuItems.map((item) => (
+          {menuItems.slice(0, 2).map((item) => (
+            <MobileAccordion
+              key={item.label}
+              item={item}
+              onClose={onClose}
+            />
+          ))}
+          <MobileCountriesAccordion label={countriesLabel} onClose={onClose} />
+          {menuItems.slice(2).map((item) => (
             <MobileAccordion
               key={item.label}
               item={item}
