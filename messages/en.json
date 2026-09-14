@@ -818,26 +818,43 @@
     },
     "cards": {
       "black": {
-        "cta": "View The Black Card",
-        "desc": "Premium card specialized for overseas payments. Enjoy the best cashback benefits wherever you are.",
+        "cta": "View Premium Card",
+        "desc": "Premium card that rewards your global spending.",
         "highlights": [
-          "3% Cashback on Overseas",
-          "Seasonal Cashback",
-          "Special Event Discounts",
-          "Metro · Bus · Taxi Easy Pay"
+          "3% Overseas Cashback",
+          "Pay Anywhere Worldwide",
+          "Online & Offline Shopping",
+          "Public Transportation"
+        ]
+      },
+      "easyCare": {
+        "cta": "View EasyCare Card",
+        "desc": "EasyCare Card details coming soon.",
+        "highlights": [
+          "Details coming soon"
         ]
       },
       "easyG0": {
         "cta": "View EasyGo Card",
-        "desc": "Make every moment more convenient. Enjoy seasonal benefits from transit to shopping.",
+        "desc": "Make everyday life more convenient. Enjoy seasonal benefits from transportation to shopping.",
         "highlights": [
-          "Postpaid Transit Card",
-          "Seasonal Cashback",
+          "Postpaid Transportation Card",
+          "Seasonal and Special Store Cashback",
           "Pay Anywhere Worldwide",
           "Online & Offline Shopping"
         ]
       },
       "image_alt": "Card Image",
+      "pay": {
+        "cta": "View Pay Card",
+        "desc": "An all-in-one payment card for your everyday spending.",
+        "highlights": [
+          "Seasonal and Special Store Cashback",
+          "Pay Anywhere Worldwide",
+          "Online & Offline Shopping",
+          "Public Transportation"
+        ]
+      },
       "red": {
         "cta": "View The Red Card",
         "desc": "Card with GME's signature color. Make every payment stylish.",
@@ -849,10 +866,10 @@
         ]
       },
       "uniq": {
-        "cta": "View The Uniq Card",
+        "cta": "View UniQ Card",
         "desc": "Choose your own card from 30+ designs across 18 countries.",
         "highlights": [
-          "Seasonal Cashback",
+          "Seasonal and Special Store Cashback",
           "Special Event Discounts",
           "18 Countries 30+ Designs",
           "Metro · Bus · Taxi Easy Pay"

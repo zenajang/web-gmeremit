@@ -24,8 +24,6 @@ import si from "@messages/si.json";
 import fr from "@messages/fr.json";
 import ar from "@messages/ar.json";
 import es from "@messages/es.json";
-import ru from "@messages/ru.json";
-import lo from "@messages/lo.json";
 
 type TranslationValue = string | string[] | Record<string, unknown>;
 type Translations = Record<string, unknown>;
@@ -51,8 +49,6 @@ const translations: Record<string, Translations> = {
   fr,
   ar,
   es,
-  ru,
-  lo,
 };
 
 /**

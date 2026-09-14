@@ -16,6 +16,9 @@ export default function CardsShowcase() {
   const { t, tArray } = useTranslation("home.cards");
   const [activeIndex, setActiveIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
+  // 카드가 바뀌면 디자인 선택은 첫 번째로 돌아간다
+  const [selectedDesign, setSelectedDesign] = useState({ card: 0, index: 0 });
+  const designIndex = selectedDesign.card === activeIndex ? selectedDesign.index : 0;
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(min-width: 768px)");
@@ -80,9 +83,35 @@ export default function CardsShowcase() {
     <div className="grid gap-6 sm:gap-16 lg:min-h-[640px] lg:gap-32 lg:grid-cols-[1.05fr_0.95fr] lg:items-stretch">
       {!isMobile && (
         <div className="flex h-full max-w-xl flex-col lg:justify-between">
-          <p className="typo-eyebrow text-gray-400">{activeDef.eyebrow}</p>
+          <div className="flex items-center gap-2">
+            <p className="typo-eyebrow text-gray-400">{activeDef.eyebrow}</p>
+            {activeDef.isNew && (
+              <span className="px-2 py-0.5 rounded-full bg-primary text-white text-[11px] font-bold tracking-wide">
+                New
+              </span>
+            )}
+          </div>
           <h3 className="typo-section-title">{activeDef.title}</h3>
         <p className="typo-section-subtitle text-gray-600">{t(`${activeDef.id}.desc`)}</p>
+
+          {activeDef.designs && (
+            <div className="flex items-center gap-2 mt-3">
+              {activeDef.designs.map((design, i) => (
+                <button
+                  key={design.key}
+                  type="button"
+                  onClick={() => setSelectedDesign({ card: activeIndex, index: i })}
+                  className={`px-3.5 py-1.5 rounded-full text-xs font-semibold border transition-colors cursor-pointer ${
+                    i === designIndex
+                      ? "border-primary bg-primary text-white"
+                      : "border-[var(--border-soft)] bg-white text-gray-600 hover:border-primary/50"
+                  }`}
+                >
+                  {design.label}
+                </button>
+              ))}
+            </div>
+          )}
 
           <div className="grid gap-3 mt-3">
             {highlights.map((text: string, i: number) => (
@@ -113,9 +142,35 @@ export default function CardsShowcase() {
 
       {isMobile && (
         <div className="flex h-full max-w-xl flex-col items-left text-left">
-          <p className="typo-eyebrow text-gray-400 mb-2">{activeDef.eyebrow}</p>
+          <div className="flex items-center gap-2 mb-2">
+            <p className="typo-eyebrow text-gray-400">{activeDef.eyebrow}</p>
+            {activeDef.isNew && (
+              <span className="px-2 py-0.5 rounded-full bg-primary text-white text-[11px] font-bold tracking-wide">
+                New
+              </span>
+            )}
+          </div>
           <h3 className="typo-section-title mb-5">{activeDef.title}</h3>
           <p className="typo-section-subtitle text-gray-600">{t(`${activeDef.id}.desc`)}</p>
+
+          {activeDef.designs && (
+            <div className="flex items-center gap-2 mt-3">
+              {activeDef.designs.map((design, i) => (
+                <button
+                  key={design.key}
+                  type="button"
+                  onClick={() => setSelectedDesign({ card: activeIndex, index: i })}
+                  className={`px-3.5 py-1.5 rounded-full text-xs font-semibold border transition-colors cursor-pointer ${
+                    i === designIndex
+                      ? "border-primary bg-primary text-white"
+                      : "border-[var(--border-soft)] bg-white text-gray-600 hover:border-primary/50"
+                  }`}
+                >
+                  {design.label}
+                </button>
+              ))}
+            </div>
+          )}
         </div>
       )}
 
@@ -136,6 +191,7 @@ export default function CardsShowcase() {
           const rotation = offset === 0 ? 0 : Math.sign(offset) * (3 + absOffset * 1.5);
           const zIndex = 30 - absOffset;
           const imageProps = isActive ? { priority: true } : { loading: "lazy" as const };
+          const displayImage = isActive && card.designs ? card.designs[designIndex].image : card.image;
 
           return (
             <div
@@ -151,7 +207,7 @@ export default function CardsShowcase() {
                 }}
               >
                 <Image
-                  src={card.image}
+                  src={displayImage}
                   alt={`${card.title} ${t("image_alt")}`}
                   width={360}
                   height={480}
@@ -173,6 +229,7 @@ export default function CardsShowcase() {
               aria-label={`Show ${card.title}`}
             />
           ))}
+          
         </div>
       </div>
 
