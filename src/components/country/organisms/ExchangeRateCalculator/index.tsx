@@ -78,13 +78,6 @@ const ExchangeRateCalculator = () => {
     setSelectedRecipientCountry(currency);
   };
 
-  useEffect(() => {
-    const isPairValid = payoutMethods.find((method) => method.key === deliveryMethod);
-    if(sendAmount && isPairValid) {
-      handleSubmit();
-    }
-  }, [selectedRecipientCountry, deliveryMethod]);
-
   return (
     <div className={S.CalculatorTitle}>
       <div className={S.CalculatorHeaderRow}>
