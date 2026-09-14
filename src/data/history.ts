@@ -11,6 +11,12 @@ export interface HistoryYear {
 
 export const historyData: HistoryYear[] = [
   {
+    year: "2026",
+    events: [
+      { month: "09", textKey: "2026_09" },
+    ],
+  },
+  {
     year: "2025",
     events: [
       { month: "12", textKey: "2025_12" },
@@ -30,9 +36,9 @@ export const historyData: HistoryYear[] = [
   {
     year: "2023",
     events: [
+      { month: "12", textKey: "2023_05" },
       { month: "10", textKey: "2023_10" },
       { month: "10", textKey: "2023_09", images: ["/images/company/history/2023-mvno.png"] },
-      { month: "05", textKey: "2023_05" },
       { month: "02", textKey: "2023_02" },
       { month: "02", textKey: "2023_kibo", images: ["/images/company/history/2023-kibo.jpg"] },
       { month: "01", textKey: "2023_nice", images: ["/images/company/history/2023-nice.png"] },
