@@ -313,10 +313,10 @@ export default function PaymentsPage() {
               {t("cta.description")}
             </p>
 
-            <div className="inline-flex items-center gap-3 px-7 py-3.5 rounded-xl bg-white/[0.05] border border-white/[0.08] backdrop-blur-sm">
+            {/* <div className="inline-flex items-center gap-3 px-7 py-3.5 rounded-xl bg-white/[0.05] border border-white/[0.08] backdrop-blur-sm">
               <span className="w-1.5 h-1.5 rounded-full bg-[#ed1c24]/60" />
               <span className="text-sm text-gray-400">{t("cta.email")}</span>
-            </div>
+            </div> */}
           </div>
         </section>
     </PublicLayout>
