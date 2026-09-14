@@ -27,6 +27,8 @@ const LANG_ISO_MAP = {
   fr: ["fr_FR", "fr"],
   ar: ["ar_SA", "ar_AE", "ar"],
   es: ["es_ES", "es_MX", "es"],
+  ru: ["ru_RU", "ru"],
+  lo: ["lo_LA", "lo"],
 };
 
 function langCandidates(code) {

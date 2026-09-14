@@ -311,8 +311,8 @@ export const countryConfigs: CountryConfig[] = [
     { code: "JOD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "2", label: "BANK DEPOSIT" }, { key: "13", label: "MOBILE WALLET" }] },
   ] },
   { countryCode: "KZ", countryName: "Kazakhstan", flag: "🇰🇿", currencies: [
-    { code: "KZT", payoutMethods: [{ key: "14", label: "CARD PAYMENT" }] },
-    { code: "USD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "14", label: "CARD PAYMENT" }] },
+    { code: "KZT", payoutMethods: [{ key: "19", label: "VISA/MASTERCARD" }] },
+    { code: "USD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "19", label: "VISA/MASTERCARD" }] },
   ] },
   { countryCode: "KE", countryName: "Kenya", flag: "🇰🇪", currencies: [
     { code: "KES", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }, { key: "2", label: "BANK DEPOSIT" }, { key: "13", label: "MOBILE WALLET" }] },
@@ -324,7 +324,7 @@ export const countryConfigs: CountryConfig[] = [
     { code: "KWD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "KG", countryName: "Kyrgyzstan", flag: "🇰🇬", currencies: [
-    { code: "KGS", payoutMethods: [{ key: "14", label: "CARD PAYMENT" }, { key: "13", label: "MOBILE WALLET" }] },
+    { code: "KGS", payoutMethods: [{ key: "19", label: "VISA/MASTERCARD" }, { key: "13", label: "MOBILE WALLET" }] },
     { code: "USD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "LA", countryName: "Laos", flag: "🇱🇦", currencies: [
@@ -646,8 +646,8 @@ export const countryConfigs: CountryConfig[] = [
     { code: "UYU", payoutMethods: [{ key: "2", label: "BANK DEPOSIT" }, { key: "1", label: "CASH PAYMENT" }] },
   ] },
   { countryCode: "UZ", countryName: "Uzbekistan", flag: "🇺🇿", currencies: [
-    { code: "USD", payoutMethods: [{ key: "19", label: "VISA/MASTERCARD" }, { key: "1", label: "CASH PAYMENT" }] },
-    { code: "UZS", payoutMethods: [{ key: "26", label: "UZCARD" }, { key: "27", label: "HUMO CARD" }] },
+    { code: "USD", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }] },
+    { code: "UZS", payoutMethods: [{ key: "26", label: "UZCARD" }, { key: "27", label: "HUMO CARD" }, { key: "19", label: "VISA/MASTERCARD" }] },
   ] },
   { countryCode: "VU", countryName: "Vanuatu", flag: "🇻🇺", currencies: [
     { code: "VUV", payoutMethods: [{ key: "1", label: "CASH PAYMENT" }] },

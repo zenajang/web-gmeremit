@@ -1,10 +1,13 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useMemo } from "react";
 import Link from "next/link";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { languages } from "@/lib/language";
 import { useClickOutside } from "@/hooks/useClickOutside";
+import { useTranslation } from "@/hooks/useTranslation";
+import { servedEntries } from "@/data/servedCountries";
+import { useRouter } from "next/navigation";
 
 // ============ Types ============
 export interface MenuItem {
@@ -12,6 +15,39 @@ export interface MenuItem {
   href?: string;
   children?: { label: string; href: string }[];
 }
+
+export const CountryNamesEn: Record<string, string> = {
+  PH: "Philippines",
+  ID: "Indonesia",
+  MY: "Malaysia",
+  SG: "Singapore",
+  HK: "Hong-Kong",
+  TW: "Taiwan",
+  CN: "China",
+  JP: "Japan",
+  KR: "Korea",
+  TH: "Thailand",
+  VN: "Vietnam",
+  IN: "India",
+  BD: "Bangladesh",
+  PK: "Pakistan",
+  AF: "Afghanistan",
+  BT: "Bhutan",
+  BN: "Brunei",
+  KH: "Cambodia",
+  MM: "Myanmar",
+  LA: "Laos",
+  MN: "Mongolia",
+  NP: "Nepal",
+  KZ: "Kazakhstan",
+  KG: "Kyrgyzstan",
+  LK: "Sri-Lanka",
+  UZ: "Uzbekistan",
+  AFRICA: "Africa",
+  ARAB: "Arab",
+  SPANISH_LATAM: "Spanish-Latam",
+  RU: "Russian-Federation",
+};
 
 // ============ Language Selector ============
 export function LanguageSelector() {
@@ -80,23 +116,107 @@ export function LanguageSelector() {
   );
 }
 
-// ============ Desktop Dropdown ============
-export function DesktopDropdown({
-  item,
-  isOpen,
-  onMouseEnter,
-}: {
-  item: MenuItem;
-  isOpen: boolean;
-  onMouseEnter: () => void;
-}) {
+// ============ Countries Dropdown ============
+export function CountriesDropdown({ label }: { label: string }) {
+  const { t } = useTranslation("home.hero");
+  const { setLanguage } = useLanguage();
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectedCode, setSelectedCode] = useState<string | null>(null);
+  const router = useRouter();
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  useClickOutside(dropdownRef, () => setIsOpen(false));
+
+  const countriesWithNames = useMemo(
+    () =>
+      servedEntries.map((c) => ({
+        ...c,
+        name: c.nameNs === "header" ? t(c.nameKey, { ns: "header" }) : t(c.nameKey),
+      })),
+    [t]
+  );
+
+  const getRenderFlag = (code: string, flagSrc?: string) => {
+    switch (code) {
+      case "AFRICA":
+        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🌍</span>;
+      case "ARAB":
+        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🌐</span>;
+      case "SPANISH_LATAM":
+        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🌎</span>;
+      case "RU":
+        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🗺️</span>;
+      default:
+        return <img src={flagSrc} alt="" className="w-5 h-5 rounded-full object-cover shrink-0" />;
+    }
+  }
+  
+  const clickCountry = (code: string, langCode: string) => {
+    setSelectedCode(code);
+    setIsOpen(false);
+    const matched = languages.find((lang) => lang.code === langCode);
+    setLanguage(matched ?? languages.find((lang) => lang.code === "en")!);
+    router.push(`/country/${CountryNamesEn[code]}`);
+  }
+
+  return (
+    <div ref={dropdownRef} className="relative">
+      <button
+        type="button"
+        onClick={() => setIsOpen(!isOpen)}
+        className="relative flex items-center gap-1.5 text-[15px] xl:text-lg text-dark hover:text-dark font-medium transition-all duration-200 px-1.5 xl:px-3 py-2 whitespace-nowrap cursor-pointer"
+        aria-label="Select country"
+      >
+        <span>{label}</span>
+        <svg
+          className={`w-4 h-4 text-neutral-400 transition-transform ${isOpen ? "rotate-180" : ""}`}
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          strokeWidth={2}
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+
+      {isOpen && (
+        <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 z-50 w-fit">
+          <div className="bg-white rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.12),0_0_0_1px_rgba(0,0,0,0.04)] p-8">
+            <div className="grid grid-cols-[auto_auto] gap-x-10 gap-y-5">
+              {countriesWithNames.map((c) => (
+                <button
+                  key={c.code}
+                  type="button"
+                  onClick={() => clickCountry(c.code, c.langCode)}
+                  className={`inline-flex items-center gap-1 bg-transparent border-0 p-0 text-[15px] font-medium whitespace-nowrap cursor-pointer transition-colors duration-150 ${
+                    selectedCode === c.code ? "text-primary" : "text-[#181818] hover:text-primary"
+                  }`}
+                >
+                  {getRenderFlag(c.code, c.flagSrc)}
+                  <span>{c.name}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ============ Nav Item Dropdown (Company / Services / News / Support) ============
+export function NavDropdown({ item }: { item: MenuItem }) {
+  const [isOpen, setIsOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  useClickOutside(dropdownRef, () => setIsOpen(false));
+
   // Simple link without dropdown
   if (!item.children) {
     return (
       <Link
         href={item.href ?? "#"}
-        className="relative text-lg text-dark hover:text-dark font-medium transition-all duration-200 px-3 py-2 hover:after:absolute hover:after:-bottom-[28px] hover:after:left-0 hover:after:right-0 hover:after:h-[2px] hover:after:bg-primary"
-        onMouseEnter={onMouseEnter}
+        className="relative text-[15px] xl:text-lg text-dark hover:text-dark font-medium transition-all duration-200 px-1.5 xl:px-3 py-2 whitespace-nowrap hover:after:absolute hover:after:-bottom-[28px] hover:after:left-0 hover:after:right-0 hover:after:h-[2px] hover:after:bg-primary"
       >
         {item.label}
       </Link>
@@ -104,15 +224,41 @@ export function DesktopDropdown({
   }
 
   return (
-    <div className="relative group" onMouseEnter={onMouseEnter}>
+    <div ref={dropdownRef} className="relative">
       <button
         type="button"
-        className={`relative flex items-center gap-1.5 text-lg font-medium transition-all duration-300 ease-out px-3 py-2 cursor-pointer ${
-          isOpen ? "text-primary" : "text-dark hover:text-dark"
-        }`}
+        onClick={() => setIsOpen(!isOpen)}
+        className="relative flex items-center gap-1.5 text-[15px] xl:text-lg text-dark hover:text-dark font-medium transition-all duration-200 px-1.5 xl:px-3 py-2 whitespace-nowrap cursor-pointer"
       >
-        {item.label}
+        <span>{item.label}</span>
+        <svg
+          className={`w-4 h-4 text-neutral-400 transition-transform ${isOpen ? "rotate-180" : ""}`}
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          strokeWidth={2}
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
       </button>
+
+      {isOpen && (
+        <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 z-50">
+          <div className="bg-white rounded-xl shadow-[0_8px_30px_rgba(0,0,0,0.12),0_0_0_1px_rgba(0,0,0,0.04)] flex flex-col gap-4 p-6 min-w-[200px]">
+            {item.children.map((child) => (
+              <Link
+                key={child.label}
+                href={child.href}
+                onClick={() => setIsOpen(false)}
+                {...(child.href.startsWith("http") && { target: "_blank", rel: "noopener noreferrer" })}
+                className="inline-flex items-center gap-1 bg-transparent border-0 p-0 text-[15px] font-medium text-[#181818] whitespace-nowrap cursor-pointer transition-colors duration-150 hover:text-primary"
+              >
+                {child.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
@@ -120,170 +266,20 @@ export function DesktopDropdown({
 // ============ Desktop Nav ============
 export default function DesktopNav({
   menuItems,
+  countriesLabel,
 }: {
   menuItems: MenuItem[];
+  countriesLabel: string;
 }) {
-  const [openMenuIndex, setOpenMenuIndex] = useState<number | null>(null);
-  const [hoveredColumnIndex, setHoveredColumnIndex] = useState<number | null>(null);
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
-
-  const handleMouseEnter = (index: number) => {
-    if (timeoutRef.current) clearTimeout(timeoutRef.current);
-    setOpenMenuIndex(index);
-  };
-  const handleMouseLeave = () => {
-    timeoutRef.current = setTimeout(() => setOpenMenuIndex(null), 300);
-  };
-
-  useEffect(() => {
-    return () => {
-      if (timeoutRef.current) clearTimeout(timeoutRef.current);
-    };
-  }, []);
-
-  // Helper function: 각 메뉴 아이템의 서브메뉴 가져오기
-  const getSubMenuItems = (item: MenuItem) => {
-    if (item.children) {
-      return item.children;
-    }
-    return [];
-  };
-
-  // 모든 메뉴의 서브메뉴 컬럼들
-  const dropdownColumnsAll = menuItems.map((item) => ({
-    title: item.label,
-    items: getSubMenuItems(item)
-  }));
-
-  const hasDropdownContent = dropdownColumnsAll.some(column => column.items.length > 0);
-
-  // 어떤 컬럼을 하이라이트할지 결정
-  const activeColumnIndex = hoveredColumnIndex !== null ? hoveredColumnIndex : openMenuIndex;
-
   return (
-    <>
-      <div
-        className="hidden lg:block absolute left-1/2 -translate-x-1/2 z-50"
-        style={{
-          width: openMenuIndex !== null ? "1024px" : "auto",
-          transition: "width 350ms cubic-bezier(0.34, 1.56, 0.64, 1)",
-        }}
-        onMouseEnter={() => {
-          if (timeoutRef.current) clearTimeout(timeoutRef.current);
-        }}
-        onMouseLeave={handleMouseLeave}
-      >
-        <nav className="relative w-full" style={{ minHeight: "40px" }}>
-          {menuItems.map((item, index) => {
-            const openWidth = 1024;
-            const gap = 24;
-            const columnWidth = (openWidth - (gap * 3)) / 4;
-            const columnPaddingX = 24;
-
-            let leftFromCenter = 0;
-            let isLeftAligned = false;
-            if (openMenuIndex === null) {
-              // Closed state - calculate centered positions
-              const closedGap = 180;
-              const totalItems = menuItems.length;
-              const itemSpacing = closedGap;
-              const totalSpacing = (totalItems - 1) * itemSpacing;
-              const startOffset = -totalSpacing / 2;
-              leftFromCenter = startOffset + index * itemSpacing;
-            } else {
-              const buttonPaddingX = 12;
-              const columnLeftContent = index * (columnWidth + gap) + columnPaddingX - buttonPaddingX;
-              leftFromCenter = columnLeftContent - openWidth / 2;
-              isLeftAligned = true;
-            }
-
-            return (
-              <div
-                key={item.label}
-                className="absolute top-0 flex justify-start"
-                style={{
-                  left: "50%",
-                  transform: isLeftAligned
-                    ? `translateX(${leftFromCenter}px)`
-                    : `translateX(calc(${leftFromCenter}px - 50%))`,
-                  transition: "transform 400ms cubic-bezier(0.4, 0, 0.2, 1), opacity 200ms ease-out",
-                  whiteSpace: "nowrap",
-                  opacity: 1,
-                }}
-              >
-                <DesktopDropdown
-                  item={item}
-                  isOpen={openMenuIndex === index}
-                  onMouseEnter={() => handleMouseEnter(index)}
-                />
-              </div>
-            );
-          })}
-        </nav>
-      </div>
-
-      {/* Backdrop Overlay */}
-      {hasDropdownContent && (
-        <div
-          className="fixed inset-0 bg-black/40 z-30 transition-opacity duration-400 ease-out pointer-events-none"
-          style={{
-            top: "120px",
-            opacity: openMenuIndex !== null ? 1 : 0
-          }}
-          onMouseEnter={handleMouseLeave}
-        />
-      )}
-
-      {/* Full-width Dropdown Panel */}
-      {hasDropdownContent && (
-        <div
-          className="absolute left-0 right-0 top-full bg-white border-t border-gray-200 z-40 transition-all duration-400 ease-out"
-          style={{
-            marginTop: "-2px",
-            opacity: openMenuIndex !== null ? 1 : 0,
-            transform: openMenuIndex !== null ? "translateY(0)" : "translateY(-10px)",
-            pointerEvents: openMenuIndex !== null ? "auto" : "none"
-          }}
-          onMouseEnter={() => {
-            if (timeoutRef.current) clearTimeout(timeoutRef.current);
-          }}
-          onMouseLeave={() => {
-            handleMouseLeave();
-            setHoveredColumnIndex(null);
-          }}
-        >
-          <div className="max-w-5xl mx-auto">
-            {/* 서브메뉴 컬럼들 - 전체 너비에 균등 분배 */}
-            <div className="grid grid-cols-4 gap-6">
-              {dropdownColumnsAll.map((column, idx) => (
-                <div
-                  key={column.title}
-                  className={`py-8 px-6 transition-all duration-300 ease-out ${
-                    activeColumnIndex === idx
-                      ? "bg-gray-100 border-t-2 border-t-primary"
-                      : "bg-white border-t-2 border-t-transparent"
-                  }`}
-                  onMouseEnter={() => setHoveredColumnIndex(idx)}
-                  onMouseLeave={() => setHoveredColumnIndex(null)}
-                >
-                  <div className="space-y-7">
-                    {column.items.map((child) => (
-                      <Link
-                        key={child.label}
-                        href={child.href}
-                        {...(child.href.startsWith("http") && { target: "_blank", rel: "noopener noreferrer" })}
-                        className="block text-base text-left text-gray-600 hover:text-primary transition-colors duration-250 ease-out"
-                      >
-                        {child.label}
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      )}
-    </>
+    <div className="hidden lg:flex flex-1 items-center justify-center gap-0.5 xl:gap-2 min-w-0 z-10">
+      {menuItems.slice(0, 2).map((item) => (
+        <NavDropdown key={item.label} item={item} />
+      ))}
+      <CountriesDropdown label={countriesLabel} />
+      {menuItems.slice(2).map((item) => (
+        <NavDropdown key={item.label} item={item} />
+      ))}
+    </div>
   );
 }

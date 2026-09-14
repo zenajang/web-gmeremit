@@ -1,6 +1,5 @@
 {
   "board": {
-    "by": "By",
     "badge": {
       "blog": "Blog",
       "notice": "Notice",
@@ -14,7 +13,11 @@
       "back_to_list": "Back to List",
       "not_found": "Post not found"
     },
+    "error_description": "Please try again later.",
+    "error_title": "Failed to load posts",
     "load_more": "Load More",
+    "loading": "Loading...",
+    "loading_spinner": "Loading...",
     "no_image": "No Image",
     "no_results": "No results found.",
     "redirect": {
@@ -42,8 +45,7 @@
       "press": "Press"
     },
     "total": "Total",
-    "error_title": "Failed to load posts",
-    "error_description": "Please try again later."
+    "by": "By"
   },
   "business": {
     "cta": {
@@ -80,7 +82,7 @@
       "title": "GME Payment Service Features"
     },
     "hero": {
-      "badge": "B2B PAYMENTS",
+      "badge": "REDUCE COST ON BUSINESS TRANSFERS",
       "cta_contact": "Contact Sales",
       "cta_docs": "View API Docs",
       "description": "Creating value together by reshaping payments with collaboration. Reduce costs on business transfers and grow your global business.",
@@ -116,7 +118,7 @@
         "title": "SPS + VAS"
       },
       "step2": {
-        "description": "Connect your system using our API documentation.",
+        "description": "Connect your system using our API documentation at developers.gmeremit.com.",
         "title": "API Integration"
       },
       "step3": {
@@ -163,7 +165,7 @@
     }
   },
   "button": {
-    "app_download": "Download App"
+    "app_download": "App Download"
   },
   "card": {
     "cards": {
@@ -632,6 +634,14 @@
       "description": "Join our global fintech company providing financial services to customers in 200+ countries.",
       "title": "Grow with GME"
     },
+    "staff_stories": {
+      "subtitle": "Real stories from our colleagues",
+      "title": "Team Stories"
+    },
+    "testimonials": {
+      "subtitle": "Real stories from our colleagues",
+      "title": "Team Stories"
+    },
     "why_gme": {
       "agile": {
         "description": "Execute quickly in a flat organization, learn from failures, and grow together.",
@@ -646,10 +656,6 @@
         "title": "Fair Opportunities"
       },
       "title": "Why GME is Special"
-    },
-    "staff_stories": {
-      "subtitle": "Real stories from our colleagues",
-      "title": "Team Stories"
     }
   },
   "company": {
@@ -660,25 +666,31 @@
     "history": {
       "events": {
         "2016_08": "Global Money Express Co., Ltd. established",
-        "2017_12": "Annual overseas remittance exceeded KRW 10 billion",
+        "2017_03": "Launched first online service",
         "2017_06": "Launched Korea's first overseas remittance service",
         "2017_08": "Korea's first small overseas remittance business registration",
-        "2018_12": "Annual overseas remittance exceeded KRW 460 billion",
+        "2017_12": "Annual overseas remittance exceeded KRW 10 billion",
+        "2018_04": "Cumulative overseas remittance exceeded KRW 54 billion",
         "2018_09": "Selected as Seoul City recommended remittance provider",
+        "2018_12": "Annual overseas remittance exceeded KRW 460 billion",
         "2018_loan": "Started credit loan service for foreigners",
         "2019_03": "Launched domestic remittance service",
         "2019_06": "Opened 12 branches nationwide",
+        "2019_07": "",
         "2019_09": "Opened 3 centers nationwide",
-        "2020_12": "Annual overseas remittance exceeded KRW 1.0 trillion",
+        "2019_12": "",
+        "2020_02": "Cumulative overseas remittance exceeded KRW 1 trillion",
         "2020_05": "Launched Mobile Top-up service",
         "2020_08": "Obtained prepaid electronic payment instrument issuance and management license",
         "2020_09": "Launched GME Pay service",
+        "2020_12": "Annual overseas remittance exceeded KRW 1.0 trillion",
         "2021_04": "Annual overseas remittance exceeded KRW 1.5 trillion",
         "2021_07": "Launched Mobile Coupon service",
         "2021_10": "Won Grand Prize at Hankyung Fintech Awards (Tech Category)",
         "2021_12": "Obtained Payment Gateway (PG) business license",
         "2022_03": "Obtained specialized foreign exchange business license",
         "2022_06": "Launched GME B2B Payments service",
+        "2022_11": "Cumulative overseas remittance exceeded KRW 2 trillion",
         "2022_12": "Annual overseas remittance exceeded KRW 1.7 trillion",
         "2023_02": "Annual overseas remittance exceeded KRW 2.8 trillion",
         "2023_05": "Launched GME Card service in partnership with BC Card and Mastercard",
@@ -709,7 +721,7 @@
       },
       "easy_loan": {
         "desc": "100% paperless loan with same-day approval",
-        "title": "Finance"
+        "title": "Easy Loan"
       },
       "gift_coupons": {
         "desc": "Send digital gift coupons using reward points",
@@ -717,7 +729,7 @@
       },
       "gme_card": {
         "desc": "Pay, withdraw, and manage your money worldwide",
-        "title": "Card"
+        "title": "GME Card"
       },
       "learn_more": "Learn More",
       "mobile_topup": {
@@ -730,14 +742,14 @@
       },
       "personal_remittance": {
         "desc": "Send money locally or globally with multi-language support",
-        "title": "Remit"
-      },
-      "telecom": {
-        "desc": "Budget mobile plans starting from ₩3,300/month",
-        "title": "Mobile"
+        "title": "Remittance"
       },
       "related_services": "Related Services",
       "subtitle": "All your global finance needs in one place",
+      "telecom": {
+        "desc": "Budget mobile plans starting from ₩3,300/month",
+        "title": "Telecom"
+      },
       "title": "GME Services"
     },
     "tabs": {
@@ -756,9 +768,9 @@
       "email_support": "Queries: support@gmeremit.com",
       "fax": "Fax: (+82) 2 3674 5559",
       "phone_foreigner": "(+82) 02-1588-6864 (Foreigner)",
-      "remittance_inquiry": "Remittance inquiries",
-      "phone_general": "Recruitment, Consumer Protection, Partnership inquiries: 02-3673-5559",
-      "phone_korean": "02-1811-2961 (Korean, Remittance inquiries)"
+      "phone_general": "02-3673-5559 (General inquiries)",
+      "phone_korean": "02-1811-2961 (Korean, Remittance inquiries)",
+      "remittance_inquiry": "Remittance inquiries"
     },
     "link": {
       "company_intro": "Company",
@@ -778,17 +790,17 @@
       "ceo_message": "CEO's Message",
       "company": "Company",
       "history": "History",
-      "loan": "Finance",
+      "loan": "Loan",
       "news": "News",
       "notice": "Notice",
-      "payments": "B2B Payments",
+      "payments": "Payments (B2B)",
       "press": "News / Press",
-      "remittance": "Remit",
-      "telecom": "Mobile",
+      "remittance": "Remittance",
       "services": "Services",
       "services_menu": "Services",
       "social_channels": "Social Channels",
-      "support": "Support"
+      "support": "Support",
+      "telecom": "Mobile"
     }
   },
   "home": {
@@ -857,6 +869,15 @@
         ]
       }
     },
+    "customer_feedback": {
+      "subtitle": "Real experiences from our customers.",
+      "tags": {
+        "easy_tracking": "Easy Transfer & Tracking",
+        "fast_process": "Fast Process",
+        "satisfied": "Satisfied Service"
+      },
+      "title": "Customer Feedback"
+    },
     "exchange": {
       "calculator": {
         "bank_deposit": "Bank Deposit",
@@ -865,22 +886,14 @@
         "error": "Failed",
         "error_failed": "Exchange rate lookup failed",
         "error_limit": "Amount exceeds transfer limit",
+        "error_max_amount": "Maximum sending amount: %1$s KRW",
         "error_network": "Network error occurred",
         "error_unavailable": "Rate unavailable for this amount",
-        "loading": "Loading...",
-        "realtime": "Real-time",
-        "receive_amount": "Receive Amount",
-        "receive_country": "Recipient Country",
-        "send_amount": "Send Amount",
-        "title": "Real-time Exchange Calculator",
-        "mobile_wallet": "Mobile Wallet",
-        "qr_pay": "QR Pay",
-        "search_placeholder": "Search country",
-        "no_results": "No results",
-        "fee": "Fee",
-        "rate": "Exchange Rate",
         "error_unavailable_method": "This delivery method is currently unavailable",
-        "error_max_amount": "Maximum sending amount: {{amount}} KRW",
+        "fee": "Fee",
+        "loading": "Loading...",
+        "mobile_wallet": "Mobile Wallet",
+        "no_results": "No results",
         "payout_methods": {
           "1": "Cash Payment",
           "2": "Bank Deposit",
@@ -901,7 +914,15 @@
           "26": "UZCARD",
           "27": "HUMO Card",
           "38": "Korti Milli"
-        }
+        },
+        "qr_pay": "QR Pay",
+        "rate": "Exchange Rate",
+        "realtime": "Real-time",
+        "receive_amount": "Receive Amount",
+        "receive_country": "Recipient Country",
+        "search_placeholder": "Search country",
+        "send_amount": "Send Amount",
+        "title": "Real-time Exchange Calculator"
       },
       "description1": "Real-time exchange rates for 200+ countries.",
       "description2": "Transparent fee disclosure.",
@@ -956,7 +977,7 @@
       }
     },
     "hero": {
-      "badge": "Excellent Remit Service",
+      "badge": "Excellent Remittance Service",
       "button": {
         "learn_more": "Learn More"
       },
@@ -1123,7 +1144,7 @@
           "RE": "Réunion",
           "RO": "Romania",
           "RS": "Serbia",
-          "RU": "Russian Federation",
+          "RU": "Russia",
           "RW": "Rwanda",
           "SA": "Saudi Arabia",
           "SB": "Solomon Islands",
@@ -1175,7 +1196,7 @@
         "realtime": "Real-time",
         "subtitle": "200+ countries supported",
         "title": "Supported Countries",
-        "view_all": "Learn About Remit"
+        "view_all": "Learn About Remittance"
       },
       "description1": "Send to 200+ countries, all Korean banks in real-time.",
       "description2": "Safe with 70 global partners and E-KYC verification.",
@@ -1187,12 +1208,12 @@
         "trillion": "trillion KRW"
       },
       "title1": "Fast and Secure",
-      "title2": "International Remit"
+      "title2": "International Remittance"
     },
     "loan": {
       "button": {
-        "apply": "Apply for Finance in GME App",
-        "detail": "Learn more about Finance"
+        "apply": "Apply for Loan in GME App",
+        "detail": "Learn more about Loan"
       },
       "card": {
         "quick_apply": "Quick Apply",
@@ -1224,14 +1245,14 @@
       },
       "stats": {
         "desc": "1M+ Successful Loans · 14 Countries",
-        "title": "Cumulative Finance Performance",
+        "title": "Cumulative Loan Performance",
         "value": "₩500B+"
       },
-      "title": "GME Finance"
+      "title": "Online Loan"
     },
     "remittance": {
       "button": {
-        "detail": "Learn more about Remit"
+        "detail": "Learn more about Remittance"
       },
       "description": "Send money fast and safely to 200+ countries.",
       "features": {
@@ -1264,14 +1285,15 @@
           "title": "Easy & Secure"
         }
       },
-      "title": "Overseas Remit"
+      "title": "Overseas Remittance"
     },
     "section_nav": {
-      "app_download": "Download App",
+      "app_download": "App Download",
+      "customer_feedback": "Customer Feedback",
       "exchange": "Exchange Calculator",
       "home": "Home",
       "services": "Services",
-      "customer_feedback": "Customer Feedback"
+      "testimonials": "Testimonials"
     },
     "services": {
       "card": {
@@ -1283,7 +1305,7 @@
         "desc1": "Quick approval and flexible terms",
         "desc2": "Digital loan service",
         "estimated_limit": "Estimated Limit",
-        "title": "Finance"
+        "title": "Online Loan"
       },
       "mobile": {
         "desc1": "Budget mobile plans starting",
@@ -1298,41 +1320,27 @@
       "remittance": {
         "desc1": "Send money fast and safely",
         "desc2": "to 200+ countries.",
-        "title": "Overseas Remit"
+        "title": "Overseas Remittance"
       },
       "title1": "Explore GME's",
       "title2": "Various Services"
     },
-    "customer_feedback": {
+    "testimonials": {
       "subtitle": "Real experiences from our customers.",
       "tags": {
         "easy_tracking": "Easy Transfer & Tracking",
         "fast_process": "Fast Process",
         "satisfied": "Satisfied Service"
       },
-      "title": "Customer Feedback"
+      "title": "Testimonials"
     }
   },
   "loan": {
     "cta": {
       "button": "Download App",
       "description": "Get the funds you need quickly with easy mobile application.",
-      "title": "Start Your Finance with GME App Today",
-      "inline_notice": "ⓘ Clicking the button will direct you to install the GME Remit App, where you can access our loan services."
-    },
-    "disclosure": {
-      "banner": "The loan products introduced on this page are provided by GME Finance (a separate legal entity). GME Finance is solely responsible for all aspects of the loan service including consultation, review, contract, and after-sales service. GME Remit only provides product information and connection features.",
-      "provider_heading": "GME Finance",
-      "label_ceo": "CEO",
-      "label_phone": "Phone",
-      "label_email": "Email",
-      "label_business_number": "Business Registration No.",
-      "label_loan_license": "Lending License No.",
-      "label_supervisor": "Supervisory Authority",
-      "label_address": "Head Office",
-      "label_brand_name": "Brand",
-      "disclaimer": "* GME Remit is not a seller or intermediary of this loan product. All rights and obligations arising from loan contracts between GME Finance and customers belong solely to GME Finance. Please direct any related disputes or inquiries to GME Finance.",
-      "law_notice": "Business identity disclosure in accordance with Article 10 of the Act on the Consumer Protection in Electronic Commerce, etc."
+      "inline_notice": "ⓘ Clicking the button below will connect you to the loan service provided by GME Finance.",
+      "title": "Start Your Loan with GME App Today"
     },
     "details": {
       "contract": {
@@ -1369,6 +1377,20 @@
         "value": "E9, E7, F2, F5, F6, D8 & any visa with Legal Work Contract"
       }
     },
+    "disclosure": {
+      "banner": "The loan products introduced on this page are provided by GME Finance (a separate legal entity). GME Finance is solely responsible for all aspects of the loan service including consultation, review, contract, and after-sales service. GME Remit only provides product information and connection features.",
+      "disclaimer": "* GME Remit is not a seller or intermediary of this loan product. All rights and obligations arising from loan contracts between GME Finance and customers belong solely to GME Finance. Please direct any related disputes or inquiries to GME Finance.",
+      "label_address": "Head Office",
+      "label_brand_name": "Brand",
+      "label_business_number": "Business Registration No.",
+      "label_ceo": "CEO",
+      "label_email": "Email",
+      "label_loan_license": "Lending License No.",
+      "label_phone": "Phone",
+      "label_supervisor": "Supervisory Authority",
+      "law_notice": "Business identity disclosure in accordance with Article 10 of the Act on the Consumer Protection in Electronic Commerce, etc.",
+      "provider_heading": "GME Finance"
+    },
     "faq": {
       "items": [
         {
@@ -1392,14 +1414,14 @@
     },
     "hero": {
       "badge": "GME FINANCE",
-      "cta": "View Finance Products",
+      "cta": "View Loan Products",
       "description": "Apply for a loan easily with the GME app. We support your life in Korea with fast approvals and flexible terms.",
-      "title1": "Finance Services",
+      "title1": "Loan Services",
       "title2": "for Foreigners"
     },
     "process": {
       "step1": {
-        "desc": "Download GME App in Google Play Store or App Store. Register and Apply Finance.",
+        "desc": "Download GME App in Google Play Store or App Store. Register and Apply Loan.",
         "title": "Apply Through GME App"
       },
       "step2": {
@@ -1419,7 +1441,7 @@
         "title": "Disbursements"
       },
       "subtitle": "5 Step Applying Process",
-      "title": "Simple Finance Application"
+      "title": "Simple Loan Application"
     },
     "products": {
       "business_loan": {
@@ -1432,7 +1454,7 @@
       },
       "gme_loan": {
         "desc": "General living expenses",
-        "name": "GME Finance"
+        "name": "GME Loan"
       },
       "house_loan": {
         "desc": "Jeonse & rent deposit",
@@ -1447,7 +1469,7 @@
         "name": "Student Loan"
       },
       "subtitle": "Compare and choose the loan product that fits your needs.",
-      "title": "Finance Products",
+      "title": "Loan Products",
       "title2": "Tailored for You",
       "vacation_loan": {
         "desc": "Travel & vacation funds",
@@ -1480,123 +1502,7 @@
         "desc": "Customer Support",
         "title": "24/7"
       },
-      "title": "Why Choose GME Finance?"
-    }
-  },
-  "telecom": {
-    "hero": {
-      "badge": "GME MOBILE",
-      "title1": "The Perfect Mobile",
-      "title2": "Plan for You",
-      "description": "Budget mobile service with the same quality as LGU+ and KT networks. Save on phone bills with plans starting from just ₩3,300/month.",
-      "cta": "View Plans"
-    },
-    "features": {
-      "title": "Why GME Mobile?",
-      "multilang": {
-        "title": "17 Languages",
-        "description": "Use in your native language"
-      },
-      "affordable": {
-        "title": "From ₩3,300/mo",
-        "description": "Ultra-affordable plans for foreigners"
-      },
-      "network": {
-        "title": "Same Quality as LGU+, KT",
-        "description": "Reliable coverage nationwide"
-      },
-      "usim": {
-        "title": "USIM Self-Activation",
-        "description": "Delivered to you, activated in 5 minutes"
-      },
-      "esim": {
-        "title": "eSIM Support",
-        "description": "Scan a QR code and activate instantly"
-      },
-      "plans": {
-        "title": "Flexible Plans",
-        "description": "Plans starting from just ₩3,300/month"
-      },
-      "activation": {
-        "title": "5-Min Activation",
-        "description": "Self-activate easily from the app"
-      },
-      "intl_call": {
-        "title": "Intl. Calls Included",
-        "description": "Some plans include 20 min/day intl. calls"
-      }
-    },
-    "plans": {
-      "title": "Plans for You",
-      "subtitle": "Find a plan that fits your lifestyle",
-      "data": "Data",
-      "voice": "Voice",
-      "sms": "SMS",
-      "per_month": "month",
-      "currency": "KRW",
-      "discount": "OFF",
-      "unlimited": "Unlimited",
-      "empty": "No plans to display",
-      "cta": "View All Plans"
-    },
-    "process": {
-      "title": "No Hassle,",
-      "title2": "Activate Instantly",
-      "subtitle": "Simple self-activation for both USIM and eSIM",
-      "steps": {
-        "step1": {
-          "title": "Buy USIM",
-          "description": "Order your USIM online"
-        },
-        "step2": {
-          "title": "Track Delivery",
-          "description": "Check your USIM delivery status"
-        },
-        "step3": {
-          "title": "Self-Activate",
-          "description": "Verify identity and activate from the app"
-        },
-        "step4": {
-          "title": "All Done!",
-          "description": "Activation complete in 5 minutes!"
-        }
-      }
-    },
-    "esim_intro": {
-      "badge": "eSIM",
-      "title": "One Phone, Two Numbers",
-      "description": "Get started easily with eSIM! Separate work and personal life clearly and find a better lifestyle balance.",
-      "cta": "Activate eSIM",
-      "tag1": "No SIM swap",
-      "tag2": "No delivery",
-      "tag3": "Self-activate instantly!"
-    },
-    "usim_intro": {
-      "badge": "USIM",
-      "title": "Activated in 5 Minutes!",
-      "description": "Self-activation hours",
-      "time1_label": "Number Porting",
-      "time1_value": "10:00 AM - 8:00 PM",
-      "time1_note": "Except Sundays, New Year's, Seollal/Chuseok",
-      "time2_label": "New Registration",
-      "time2_value": "8:00 AM - 10:00 PM",
-      "time2_note": "No day restrictions",
-      "step1": "Buy USIM",
-      "step2": "Receive",
-      "step3": "Activate",
-      "step4": "Done!",
-      "cta": "Buy USIM"
-    },
-    "cta": {
-      "title": "Get Started with GME Mobile",
-      "description": "Save on phone bills with affordable plans, available in 17 languages.",
-      "button": "Go to GME Mobile"
-    },
-    "categories": {
-      "recommended": "Recommended",
-      "postpaid": "Postpaid",
-      "fiveG": "5G/Special",
-      "prepaid": "Prepaid"
+      "title": "Why Choose GME Loan?"
     }
   },
   "remittance": {
@@ -1671,7 +1577,11 @@
     },
     "trust": {
       "desc": "Global Money Express (GME) is a licensed financial institution authorized by the Ministry of Economy and Finance and the Financial Supervisory Service, providing safe and reliable services.",
+      "efb": "E-Finance Registered",
+      "fss": "Regulatory Compliance",
       "insurance": "Electronic Financial Transaction Service Liability Insurance: KRW 300 million",
+      "moef": "MOEF Registered",
+      "partner": "Global Partners",
       "title": "We provide safe services."
     },
     "why": {
@@ -1689,8 +1599,8 @@
           "title": "Secure Verification"
         }
       },
-      "subtitle": "Why GME Remit",
-      "title": "A Trusted Global Remit Service"
+      "subtitle": "Why GME Remittance",
+      "title": "A Trusted Global Remittance Service"
     }
   },
   "support": {
@@ -1707,10 +1617,20 @@
           "hours": "Weekdays & Weekends 10:00 - 19:00",
           "name": "Ansan Branch"
         },
+        "3": {
+          "address": "3F, 12 Euljiro 44-gil, Jung-gu, Seoul (Mongolia Town)",
+          "hours": "Weekdays & Weekends 10:00 - 19:00",
+          "name": "Mongolia Town Branch"
+        },
         "4": {
           "address": "1F, 134 Dorim-ro, Yeongdeungpo-gu, Seoul",
           "hours": "Weekdays & Weekends 10:00 - 19:00",
           "name": "Daerim Branch"
+        },
+        "5": {
+          "address": "36 Usadan-ro 10-gil, Yongsan-gu, Seoul",
+          "hours": "Weekdays & Weekends 10:00 - 19:00",
+          "name": "Itaewon Branch"
         },
         "6": {
           "address": "2-10 Maesan-ro, Paldal-gu, Suwon-si, Gyeonggi-do",
@@ -1732,15 +1652,20 @@
           "hours": "Sat - Wed 10:00 - 19:00",
           "name": "Bupyeong Branch"
         },
+        "10": {
+          "address": "1F, 64 Seongseo-ro 69-gil, Dalseo-gu, Daegu",
+          "hours": "Weekdays 10:00 - 18:00, Weekends 10:00 - 19:00",
+          "name": "Daegu Branch"
+        },
         "11": {
           "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (Across from Top Mart)",
           "hours": "Weekdays & Weekends 10:00 - 19:00",
           "name": "Gimhae Branch"
         },
         "12": {
-          "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
-          "hours": "Weekdays & Weekends 10:00 - 19:00",
-          "name": "Pyeongtaek Branch"
+          "address": "7-2 Gwangsan-ro, Gwangsan-gu, Gwangju",
+          "hours": "Sat - Wed 10:00 - 19:00",
+          "name": "Gwangju Branch"
         }
       },
       "hours": "Hours",
@@ -1793,6 +1718,122 @@
     "tabs": {
       "branches": "Branches",
       "social_channels": "Social Channels"
+    }
+  },
+  "telecom": {
+    "categories": {
+      "fiveG": "5G/Special",
+      "postpaid": "Postpaid",
+      "prepaid": "Prepaid",
+      "recommended": "Recommended"
+    },
+    "cta": {
+      "button": "Go to GME Mobile",
+      "description": "Save on phone bills with affordable plans, available in 17 languages.",
+      "title": "Get Started with GME Mobile"
+    },
+    "esim_intro": {
+      "badge": "eSIM",
+      "cta": "Activate eSIM",
+      "description": "Get started easily with eSIM! Separate work and personal life clearly and find a better lifestyle balance.",
+      "tag1": "No SIM swap",
+      "tag2": "No delivery",
+      "tag3": "Self-activate instantly!",
+      "title": "One Phone, Two Numbers"
+    },
+    "features": {
+      "activation": {
+        "description": "Self-activate easily from the app",
+        "title": "5-Min Activation"
+      },
+      "affordable": {
+        "description": "Ultra-affordable plans for foreigners",
+        "title": "From ₩3,300/mo"
+      },
+      "esim": {
+        "description": "Scan a QR code and activate instantly",
+        "title": "eSIM Support"
+      },
+      "intl_call": {
+        "description": "Some plans include 20 min/day intl. calls",
+        "title": "Intl. Calls Included"
+      },
+      "multilang": {
+        "description": "Use in your native language",
+        "title": "17 Languages"
+      },
+      "network": {
+        "description": "Reliable coverage nationwide",
+        "title": "Same Quality as LGU+, KT"
+      },
+      "plans": {
+        "description": "Plans starting from just ₩3,300/month",
+        "title": "Flexible Plans"
+      },
+      "title": "Why GME Mobile?",
+      "usim": {
+        "description": "Delivered to you, activated in 5 minutes",
+        "title": "USIM Self-Activation"
+      }
+    },
+    "hero": {
+      "badge": "GME MOBILE",
+      "cta": "View Plans",
+      "description": "Budget mobile service with the same quality as LGU+ and KT networks. Save on phone bills with plans starting from just ₩3,300/month.",
+      "title1": "The Perfect Mobile",
+      "title2": "Plan for You"
+    },
+    "plans": {
+      "cta": "View All Plans",
+      "currency": "KRW",
+      "data": "Data",
+      "discount": "OFF",
+      "empty": "No plans to display",
+      "per_month": "month",
+      "sms": "SMS",
+      "subtitle": "Find a plan that fits your lifestyle",
+      "title": "Plans for You",
+      "unlimited": "Unlimited",
+      "voice": "Voice"
+    },
+    "process": {
+      "steps": {
+        "step1": {
+          "description": "Order your USIM online",
+          "title": "Buy USIM"
+        },
+        "step2": {
+          "description": "Check your USIM delivery status",
+          "title": "Track Delivery"
+        },
+        "step3": {
+          "description": "Verify identity and activate from the app",
+          "title": "Self-Activate"
+        },
+        "step4": {
+          "description": "Activation complete in 5 minutes!",
+          "title": "All Done!"
+        }
+      },
+      "subtitle": "Simple self-activation for both USIM and eSIM",
+      "title": "No Hassle,",
+      "title2": "Activate Instantly"
+    },
+    "usim_intro": {
+      "badge": "USIM",
+      "cta": "Buy USIM",
+      "description": "Self-activation hours",
+      "step1": "Buy USIM",
+      "step2": "Receive",
+      "step3": "Activate",
+      "step4": "Done!",
+      "time1_label": "Number Porting",
+      "time1_note": "Except Sundays, New Year's, Seollal/Chuseok",
+      "time1_value": "10:00 AM - 8:00 PM",
+      "time2_label": "New Registration",
+      "time2_note": "No day restrictions",
+      "time2_value": "8:00 AM - 10:00 PM",
+      "title": "Activated in 5 Minutes!"
     }
   }
 }

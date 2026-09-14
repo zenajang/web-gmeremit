@@ -1,6 +1,5 @@
 {
   "board": {
-    "by": "By",
     "badge": {
       "blog": "Blog",
       "notice": "E'lon",
@@ -14,7 +13,11 @@
       "back_to_list": "Ro'yxatga qaytish",
       "not_found": "Post topilmadi"
     },
+    "error_description": "Iltimos, keyinroq qayta urinib ko'ring.",
+    "error_title": "Postlarni yuklab bo'lmadi",
     "load_more": "Yana ko'rsatish",
+    "loading": "",
+    "loading_spinner": "",
     "no_image": "Rasm yo'q",
     "no_results": "Natija topilmadi.",
     "redirect": {
@@ -42,8 +45,7 @@
       "press": "Matbuot"
     },
     "total": "Jami",
-    "error_title": "Postlarni yuklab bo'lmadi",
-    "error_description": "Iltimos, keyinroq qayta urinib ko'ring."
+    "by": "By"
   },
   "business": {
     "cta": {
@@ -81,19 +83,42 @@
     },
     "hero": {
       "badge": "GME PAYMENTS",
+      "cta_contact": "Bog'lanish",
+      "cta_docs": "API hujjatlarini ko'rish",
       "description": "Global to'lov yechimlari bilan biznesingizni kuchaytiring.",
       "title1": "Global",
-      "title2": "To'lovlar",
-      "cta_contact": "Bog'lanish",
-      "cta_docs": "API hujjatlarini ko'rish"
+      "title2": "To'lovlar"
+    },
+    "partners": {
+      "label": "Hamkorlar",
+      "list": [
+        "Hana Bank",
+        "Alipay",
+        "Skyee",
+        "PayerMax",
+        "Xe",
+        "Veem",
+        "Sandman",
+        "colognes",
+        "BaoFuGlobal",
+        "Ripple",
+        "PingPong",
+        "Tazapay",
+        "LianLian Pay",
+        "Terrapin",
+        "Ria",
+        "Thunes"
+      ],
+      "title": "Ishonchli global hamkorlar"
     },
     "process": {
+      "label": "Qanday ishlaydi",
       "step1": {
         "description": "SPS — transchegaraviy to'lovlar uchun, VAS — yig'ish va virtual hisoblar uchun. Ikkalasi ham xizmat sifatida taqdim etiladi.",
         "title": "SPS + VAS"
       },
       "step2": {
-        "description": "API hujjatlarimiz orqali tizimingizni ulang.",
+        "description": "developers.gmeremit.com dagi API hujjatlari orqali tizimingizni ulang.",
         "title": "API ulash"
       },
       "step3": {
@@ -104,8 +129,7 @@
         "description": "Hisoblarni moslashtirish oson, to'lov kvitansiyalari va tranzaksiya tarixi darhol olinadi.",
         "title": "Moslashtirish + hisobot"
       },
-      "title": "GME Payments jarayoni",
-      "label": "Qanday ishlaydi"
+      "title": "GME Payments jarayoni"
     },
     "solutions": {
       "description": "SPS va VAS yechimlari bilan transchegaraviy to'lovlarning barcha qismlarini qamrab oling.",
@@ -138,28 +162,6 @@
         "subtitle": "Virtual hisob xizmati",
         "title": "VAS"
       }
-    },
-    "partners": {
-      "label": "Hamkorlar",
-      "title": "Ishonchli global hamkorlar",
-      "list": [
-        "Hana Bank",
-        "Alipay",
-        "Skyee",
-        "PayerMax",
-        "Xe",
-        "Veem",
-        "Sandman",
-        "colognes",
-        "BaoFuGlobal",
-        "Ripple",
-        "PingPong",
-        "Tazapay",
-        "LianLian Pay",
-        "Terrapin",
-        "Ria",
-        "Thunes"
-      ]
     }
   },
   "button": {
@@ -632,6 +634,14 @@
       "description": "200+ mamlakatdagi mijozlarga xizmat ko'rsatuvchi global fintech kompaniyasiga qo'shiling.",
       "title": "GME bilan o'sing"
     },
+    "staff_stories": {
+      "subtitle": "Hamkasblarimizdan haqiqiy hikoyalar",
+      "title": "Jamoa hikoyalari"
+    },
+    "testimonials": {
+      "subtitle": "Hamkasblarimizdan haqiqiy hikoyalar",
+      "title": "Jamoa hikoyalari"
+    },
     "why_gme": {
       "agile": {
         "description": "Yassi tashkilotda tez qarorlar qabul qilamiz, xatolardan o'rganamiz va birga o'samiz.",
@@ -646,10 +656,6 @@
         "title": "Adolatli imkoniyat"
       },
       "title": "Nega GME alohida?"
-    },
-    "staff_stories": {
-      "subtitle": "Hamkasblarimizdan haqiqiy hikoyalar",
-      "title": "Jamoa hikoyalari"
     }
   },
   "company": {
@@ -663,15 +669,21 @@
         "2017_03": "Birinchi onlayn xizmat ishga tushirildi",
         "2017_06": "Koreyada birinchi xizmat ko'rsatuvchi",
         "2017_08": "Koreyada kichik miqdordagi xalqaro pul o'tkazmalari litsenziyasini olgan birinchi kompaniya",
+        "2017_12": "Yillik xorijiy pul o'tkazmalari 10 milliard vondan oshdi",
         "2018_04": "Xalqaro o'tkazmalar jami KRW 54 mlrd dan oshdi",
         "2018_09": "Seul shahri tavsiya qilgan pul o'tkazma provayderi sifatida tanlandi",
+        "2018_12": "Yillik xorijiy pul o'tkazmalari 460 milliard vondan oshdi",
         "2018_loan": "Chet elliklar uchun kredit xizmati boshlandi",
         "2019_03": "Ichki pul o'tkazma xizmati ishga tushdi",
+        "2019_06": "Butun mamlakat bo'ylab 12 ta filial ochildi",
         "2019_07": "Koreyada №1 xalqaro pul o'tkazma kompaniyasi (yakunlangan o'tkazmalar)",
+        "2019_09": "Butun mamlakat bo'ylab 3 ta markaz ochildi",
         "2019_12": "Valyuta ayirboshlash litsenziyasi olindi",
         "2020_02": "Xalqaro o'tkazmalar jami KRW 1 trln dan oshdi",
         "2020_05": "Mobile Top-up xizmati ishga tushdi",
         "2020_08": "Oldindan elektron to'lov litsenziyasi olindi",
+        "2020_09": "GME Pay xizmati ishga tushirildi",
+        "2020_12": "Yillik xorijiy pul o'tkazmalari 1.0 trillion vondan oshdi",
         "2021_04": "Xalqaro o'tkazmalar jami KRW 1.9 trln dan oshdi",
         "2021_07": "Mobile Coupon xizmati ishga tushdi",
         "2021_10": "Hankyung Fintech Awards (Tech Category) da bosh mukofot",
@@ -679,6 +691,7 @@
         "2022_03": "Valyuta biznesi litsenziyasi olindi",
         "2022_06": "To'lov biznesi boshlandi",
         "2022_11": "Xalqaro o'tkazmalar jami KRW 2 trln dan oshdi",
+        "2022_12": "Yillik xorijiy pul o'tkazmalari 1.7 trillion vondan oshdi",
         "2023_02": "Xalqaro o'tkazmalar jami KRW 2.1 trln dan oshdi",
         "2023_05": "BC Card va Mastercard bilan GME Card xizmati ishga tushdi",
         "2023_09": "GME Mobile (MVNO) xizmat litsenziyasi olindi",
@@ -689,16 +702,9 @@
         "2024_06": "'GMEBiz' korporativ to'lov xizmati ishga tushdi",
         "2024_12": "Xalqaro o'tkazmalar jami KRW 2.8 trln dan oshdi",
         "2025_03": "Chet elliklar uchun sug'urta mahsuloti ishga tushdi",
+        "2025_04": "Innovatsion KO'B (Inno-Biz) sertifikatini oldi",
         "2025_06": "Transport kartasi funksiyali debit karta ishga tushdi",
-        "2025_12": "Xalqaro o'tkazmalar jami KRW 3.5 trln dan oshdi",
-        "2017_12": "Yillik xorijiy pul o'tkazmalari 10 milliard vondan oshdi",
-        "2018_12": "Yillik xorijiy pul o'tkazmalari 460 milliard vondan oshdi",
-        "2019_06": "Butun mamlakat bo'ylab 12 ta filial ochildi",
-        "2019_09": "Butun mamlakat bo'ylab 3 ta markaz ochildi",
-        "2020_09": "GME Pay xizmati ishga tushirildi",
-        "2020_12": "Yillik xorijiy pul o'tkazmalari 1.0 trillion vondan oshdi",
-        "2022_12": "Yillik xorijiy pul o'tkazmalari 1.7 trillion vondan oshdi",
-        "2025_04": "Innovatsion KO'B (Inno-Biz) sertifikatini oldi"
+        "2025_12": "Xalqaro o'tkazmalar jami KRW 3.5 trln dan oshdi"
       },
       "title_line1": "Cheksiz sinovlar,",
       "title_line2": "Yangi boshlanishlar"
@@ -740,11 +746,11 @@
       },
       "related_services": "Bog'liq xizmatlar",
       "subtitle": "Barcha global moliyaviy ehtiyojlaringiz bir joyda",
-      "title": "GME xizmatlari",
       "telecom": {
-        "title": "Mobil",
-        "desc": "Oyiga 3,300 vondan boshlanadigan arzon mobil tariflar"
-      }
+        "desc": "Oyiga 3,300 vondan boshlanadigan arzon mobil tariflar",
+        "title": "Telecom"
+      },
+      "title": "GME xizmatlari"
     },
     "tabs": {
       "ceo_message": "CEO xabari",
@@ -762,9 +768,9 @@
       "email_support": "Savollar: support@gmeremit.com",
       "fax": "Faks: (+82) 2 3674 5559",
       "phone_foreigner": "(+82) 02-1588-6864 (Chet elliklar)",
-      "remittance_inquiry": "Pul o'tkazmalari bo'yicha so'rovlar",
-      "phone_general": "Ishga qabul, Isteʼmolchilarni himoya qilish, Hamkorlik: 02-3673-5559",
-      "phone_korean": "02-1811-2961 (Koreyslar, pul o'tkazma savollari)"
+      "phone_general": "02-3673-5559 (Umumiy so'rovlar)",
+      "phone_korean": "02-1811-2961 (Koreyslar, pul o'tkazma savollari)",
+      "remittance_inquiry": "Pul o'tkazmalari bo'yicha so'rovlar"
     },
     "link": {
       "company_intro": "Kompaniya",
@@ -863,6 +869,15 @@
         ]
       }
     },
+    "customer_feedback": {
+      "subtitle": "Mijozlarimizning haqiqiy tajribalari.",
+      "tags": {
+        "easy_tracking": "Oson o'tkazma & kuzatuv",
+        "fast_process": "Tez jarayon",
+        "satisfied": "Qoniqarli xizmat"
+      },
+      "title": "Fikrlar"
+    },
     "exchange": {
       "calculator": {
         "bank_deposit": "Bank o'tkazmasi",
@@ -871,22 +886,14 @@
         "error": "Xatolik",
         "error_failed": "Valyuta kursini olishda xatolik",
         "error_limit": "O'tkazma chegarasidan oshdi",
+        "error_max_amount": "Maksimal yuborish summasi: %1$s KRW",
         "error_network": "Tarmoq xatosi",
         "error_unavailable": "Bu summa uchun kurs mavjud emas",
-        "loading": "Yuklanmoqda...",
-        "realtime": "Real vaqt",
-        "receive_amount": "Olinadigan miqdor",
-        "receive_country": "Qabul qiluvchi mamlakat",
-        "send_amount": "Yuboriladigan miqdor",
-        "title": "Real vaqt valyuta kalkulyatori",
-        "mobile_wallet": "Mobil hamyon",
-        "qr_pay": "QR to'lov",
-        "search_placeholder": "Davlat qidirish",
-        "no_results": "Natija yo'q",
-        "fee": "Komissiya",
-        "rate": "Valyuta kursi",
         "error_unavailable_method": "Bu pul oʻtkazish usuli hozir mavjud emas",
-        "error_max_amount": "Maksimal yuborish summasi: {{amount}} KRW",
+        "fee": "Komissiya",
+        "loading": "Yuklanmoqda...",
+        "mobile_wallet": "Mobil hamyon",
+        "no_results": "Natija yo'q",
         "payout_methods": {
           "1": "Naqd toʻlov",
           "2": "Bank oʻtkazmasi",
@@ -907,7 +914,15 @@
           "26": "UZCARD",
           "27": "HUMO Card",
           "38": "Korti Milli"
-        }
+        },
+        "qr_pay": "QR to'lov",
+        "rate": "Valyuta kursi",
+        "realtime": "Real vaqt",
+        "receive_amount": "Olinadigan miqdor",
+        "receive_country": "Qabul qiluvchi mamlakat",
+        "search_placeholder": "Davlat qidirish",
+        "send_amount": "Yuboriladigan miqdor",
+        "title": "Real vaqt valyuta kalkulyatori"
       },
       "description1": "200+ mamlakat uchun real vaqt kurslari.",
       "description2": "Komissiyalarni ochiq ko'rsatish.",
@@ -1129,7 +1144,7 @@
           "RE": "Réunion",
           "RO": "Ruminiya",
           "RS": "Serbia",
-          "RU": "Russian Federation",
+          "RU": "Rossiya",
           "RW": "Ruanda",
           "SA": "Saudiya Arabistoni",
           "SB": "Solomon Islands",
@@ -1274,10 +1289,11 @@
     },
     "section_nav": {
       "app_download": "Ilovani yuklab oling",
+      "customer_feedback": "Fikrlar",
       "exchange": "Valyuta kalkulyatori",
       "home": "Bosh sahifa",
       "services": "Xizmatlar",
-      "customer_feedback": "Fikrlar"
+      "testimonials": "Fikrlar"
     },
     "services": {
       "card": {
@@ -1291,6 +1307,11 @@
         "estimated_limit": "Taxminiy limit",
         "title": "Onlayn kredit"
       },
+      "mobile": {
+        "desc1": "Oyiga 3,300 vondan boshlanadigan",
+        "desc2": "chet elliklar uchun arzon mobil xizmat",
+        "title": "Mobil"
+      },
       "payments": {
         "desc1": "Ommaviy to'lovlar, hisob-kitoblar, hamkor transferlari",
         "desc2": "Tez va xavfsiz korporativ to'lov oqimlari.",
@@ -1302,14 +1323,9 @@
         "title": "Xalqaro pul o'tkazma"
       },
       "title1": "GME ning",
-      "title2": "xizmatlarini kashf eting",
-      "mobile": {
-        "title": "Mobil",
-        "desc1": "Oyiga 3,300 vondan boshlanadigan",
-        "desc2": "chet elliklar uchun arzon mobil xizmat"
-      }
+      "title2": "xizmatlarini kashf eting"
     },
-    "customer_feedback": {
+    "testimonials": {
       "subtitle": "Mijozlarimizning haqiqiy tajribalari.",
       "tags": {
         "easy_tracking": "Oson o'tkazma & kuzatuv",
@@ -1323,8 +1339,8 @@
     "cta": {
       "button": "Ilovani yuklab oling",
       "description": "Kerakli mablag'ni tez olish uchun mobil ilova orqali oson ariza bering.",
-      "title": "Bugun GME ilovasi bilan kredit boshlang",
-      "inline_notice": "ⓘ Quyidagi tugmani bosish sizni GME Finance tomonidan taqdim etilgan kredit xizmatiga ulaydi."
+      "inline_notice": "ⓘ Quyidagi tugmani bosish sizni GME Finance tomonidan taqdim etilgan kredit xizmatiga ulaydi.",
+      "title": "Bugun GME ilovasi bilan kredit boshlang"
     },
     "details": {
       "contract": {
@@ -1360,6 +1376,20 @@
         "label": "Mos visa turlari",
         "value": "E9, E7, F2, F5, F6, D8 va qonuniy mehnat shartnomasi bo'lgan boshqa vizalar"
       }
+    },
+    "disclosure": {
+      "banner": "Ushbu sahifada taqdim etilgan kredit mahsulotlari GME Finance (alohida yuridik shaxs) tomonidan beriladi. Maslahat, ko'rib chiqish, shartnoma va sotuvdan keyingi xizmat ko'rsatishni o'z ichiga olgan kredit xizmatining barcha jihatlari uchun GME Finance to'liq javobgardir. GME Remit faqat mahsulot ma'lumotlari va ulanish funksiyalarini taqdim etadi.",
+      "disclaimer": "※ GME Remit ushbu kredit mahsulotining sotuvchisi yoki vositachisi emas. GME Finance va mijozlar o'rtasidagi kredit shartnomalaridan kelib chiqadigan barcha huquqlar va majburiyatlar faqat GME Finance ga tegishli. Tegishli nizolar yoki so'rovlarni to'g'ridan-to'g'ri GME Finance ga yuboring.",
+      "label_address": "Bosh ofis",
+      "label_brand_name": "Brend",
+      "label_business_number": "Biznes ro'yxat raqami",
+      "label_ceo": "Bosh direktor",
+      "label_email": "Elektron pochta",
+      "label_loan_license": "Kreditlash litsenziya raqami",
+      "label_phone": "Telefon",
+      "label_supervisor": "Nazorat organi",
+      "law_notice": "Elektron tijoratda iste'molchilarni himoya qilish to'g'risidagi qonunning 10-moddasi bo'yicha biznes identifikatsiyasini oshkor qilish.",
+      "provider_heading": "GME Finance"
     },
     "faq": {
       "items": [
@@ -1473,20 +1503,6 @@
         "title": "24/7"
       },
       "title": "Nega GME Loanni tanlash kerak?"
-    },
-    "disclosure": {
-      "banner": "Ushbu sahifada taqdim etilgan kredit mahsulotlari GME Finance (alohida yuridik shaxs) tomonidan beriladi. Maslahat, ko'rib chiqish, shartnoma va sotuvdan keyingi xizmat ko'rsatishni o'z ichiga olgan kredit xizmatining barcha jihatlari uchun GME Finance to'liq javobgardir. GME Remit faqat mahsulot ma'lumotlari va ulanish funksiyalarini taqdim etadi.",
-      "disclaimer": "※ GME Remit ushbu kredit mahsulotining sotuvchisi yoki vositachisi emas. GME Finance va mijozlar o'rtasidagi kredit shartnomalaridan kelib chiqadigan barcha huquqlar va majburiyatlar faqat GME Finance ga tegishli. Tegishli nizolar yoki so'rovlarni to'g'ridan-to'g'ri GME Finance ga yuboring.",
-      "label_address": "Bosh ofis",
-      "label_brand_name": "Brend",
-      "label_business_number": "Biznes ro'yxat raqami",
-      "label_ceo": "Bosh direktor",
-      "label_email": "Elektron pochta",
-      "label_loan_license": "Kreditlash litsenziya raqami",
-      "label_phone": "Telefon",
-      "label_supervisor": "Nazorat organi",
-      "law_notice": "Elektron tijoratda iste'molchilarni himoya qilish to'g'risidagi qonunning 10-moddasi bo'yicha biznes identifikatsiyasini oshkor qilish.",
-      "provider_heading": "GME Finance"
     }
   },
   "remittance": {
@@ -1561,7 +1577,11 @@
     },
     "trust": {
       "desc": "Global Money Express (GME) — Iqtisodiyot va Moliya vazirligi hamda Moliyaviy nazorat xizmati tomonidan tasdiqlangan litsenziyaga ega moliyaviy institut bo'lib, xavfsiz va ishonchli xizmat ko'rsatadi.",
+      "efb": "",
+      "fss": "",
       "insurance": "Elektron moliyaviy operatsiyalar javobgarlik sug'urtasi: KRW 300 mln",
+      "moef": "",
+      "partner": "",
       "title": "Biz xavfsiz xizmat ko'rsatamiz."
     },
     "why": {
@@ -1643,9 +1663,9 @@
           "name": "Gimhae filiali"
         },
         "12": {
-          "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
-          "hours": "Weekdays & Weekends 10:00 - 19:00",
-          "name": "Pyeongtaek Branch"
+          "address": "7-2 Gwangsan-ro, Gwangsan-gu, Gwangju",
+          "hours": "Shanba - Chorshanba 10:00 - 19:00",
+          "name": "Gwangju filiali"
         }
       },
       "hours": "Soat",
@@ -1701,119 +1721,119 @@
     }
   },
   "telecom": {
-    "hero": {
-      "badge": "GME MOBILE",
-      "title1": "Siz uchun mukammal",
-      "title2": "Mobil tarif",
-      "description": "LGU+ va KT tarmoqlari bilan bir xil sifatga ega arzon mobil xizmati. Atigi 3 300 KRW/oydan boshlanadigan tariflar bilan telefon hisoblarini tejang.",
-      "cta": "Tariflarni ko'rish"
+    "categories": {
+      "fiveG": "5G/Maxsus",
+      "postpaid": "Postpaid",
+      "prepaid": "Prepaid",
+      "recommended": "Tavsiya"
     },
-    "features": {
-      "title": "Nima uchun GME Mobile?",
-      "multilang": {
-        "title": "17 ta til",
-        "description": "O'z ona tilingizda foydalaning"
-      },
-      "affordable": {
-        "title": "3 300 KRW/oydan",
-        "description": "Chet elliklar uchun juda arzon tariflar"
-      },
-      "network": {
-        "title": "LGU+, KT bilan bir xil sifat",
-        "description": "Butun mamlakatda ishonchli qoplama"
-      },
-      "usim": {
-        "title": "USIM mustaqil faollashtirish",
-        "description": "Yetkazib berilib, 5 daqiqada faollashtiriladi"
-      },
-      "esim": {
-        "title": "eSIM qo'llab-quvvatlash",
-        "description": "QR kodni skanerlang va darhol faollashtiring"
-      },
-      "plans": {
-        "title": "Moslashuvchan tariflar",
-        "description": "3 300 KRW/oydan boshlanadigan tariflar"
-      },
-      "activation": {
-        "title": "5 daqiqalik faollashtirish",
-        "description": "Ilovadan oson o'zingiz faollashtiring"
-      },
-      "intl_call": {
-        "title": "Xalqaro qo'ng'iroqlar bilan",
-        "description": "Ba'zi tariflarda 20 daq/kun xalqaro qo'ng'iroq"
-      }
-    },
-    "plans": {
-      "title": "Siz uchun tariflar",
-      "subtitle": "Hayot tarzingizga mos tarifni toping!",
-      "data": "Ma'lumot",
-      "voice": "Ovoz",
-      "sms": "SMS",
-      "per_month": "oy",
-      "currency": "KRW",
-      "discount": "CHEGIRMA",
-      "unlimited": "Cheksiz",
-      "empty": "Ko'rsatish uchun tariflar yo'q",
-      "cta": "Barcha tariflarni ko'rish"
-    },
-    "process": {
-      "title": "Hech qanday qiyinchiliksiz,",
-      "title2": "Darhol faollashtirish",
-      "subtitle": "USIM va eSIM uchun oddiy mustaqil faollashtirish",
-      "steps": {
-        "step1": {
-          "title": "USIM sotib olish",
-          "description": "Onlayn USIM buyurtma qiling"
-        },
-        "step2": {
-          "title": "Yetkazishni kuzating",
-          "description": "USIM yetkazib berish holatini tekshiring"
-        },
-        "step3": {
-          "title": "Mustaqil faollashtirish",
-          "description": "Shaxsingizni tasdiqlang va ilovadan faollashtiring"
-        },
-        "step4": {
-          "title": "Tayyor!",
-          "description": "5 daqiqada faollashtirish tugadi!"
-        }
-      }
+    "cta": {
+      "button": "GME Mobile ga o'tish",
+      "description": "Arzon tariflar bilan telefon hisoblarini tejang, 17 tilda mavjud.",
+      "title": "GME Mobile bilan boshlang"
     },
     "esim_intro": {
       "badge": "eSIM",
-      "title": "Bir telefon, ikkita raqam",
-      "description": "eSIM bilan osongina boshlang! Yaxshiroq muvozanat uchun ish va shaxsiy hayotni aniq ajrating.",
       "cta": "eSIM-ni faollashtirish",
+      "description": "eSIM bilan osongina boshlang! Yaxshiroq muvozanat uchun ish va shaxsiy hayotni aniq ajrating.",
       "tag1": "SIM almashtirish shart emas",
       "tag2": "Yetkazib berish kerak emas",
-      "tag3": "Darhol o'zingiz faollashtiring!"
+      "tag3": "Darhol o'zingiz faollashtiring!",
+      "title": "Bir telefon, ikkita raqam"
+    },
+    "features": {
+      "activation": {
+        "description": "Ilovadan oson o'zingiz faollashtiring",
+        "title": "5 daqiqalik faollashtirish"
+      },
+      "affordable": {
+        "description": "Chet elliklar uchun juda arzon tariflar",
+        "title": "3 300 KRW/oydan"
+      },
+      "esim": {
+        "description": "QR kodni skanerlang va darhol faollashtiring",
+        "title": "eSIM qo'llab-quvvatlash"
+      },
+      "intl_call": {
+        "description": "Ba'zi tariflarda 20 daq/kun xalqaro qo'ng'iroq",
+        "title": "Xalqaro qo'ng'iroqlar bilan"
+      },
+      "multilang": {
+        "description": "O'z ona tilingizda foydalaning",
+        "title": "17 ta til"
+      },
+      "network": {
+        "description": "Butun mamlakatda ishonchli qoplama",
+        "title": "LGU+, KT bilan bir xil sifat"
+      },
+      "plans": {
+        "description": "3 300 KRW/oydan boshlanadigan tariflar",
+        "title": "Moslashuvchan tariflar"
+      },
+      "title": "Nima uchun GME Mobile?",
+      "usim": {
+        "description": "Yetkazib berilib, 5 daqiqada faollashtiriladi",
+        "title": "USIM mustaqil faollashtirish"
+      }
+    },
+    "hero": {
+      "badge": "GME MOBILE",
+      "cta": "Tariflarni ko'rish",
+      "description": "LGU+ va KT tarmoqlari bilan bir xil sifatga ega arzon mobil xizmati. Atigi 3 300 KRW/oydan boshlanadigan tariflar bilan telefon hisoblarini tejang.",
+      "title1": "Siz uchun mukammal",
+      "title2": "Mobil tarif"
+    },
+    "plans": {
+      "cta": "Barcha tariflarni ko'rish",
+      "currency": "KRW",
+      "data": "Ma'lumot",
+      "discount": "CHEGIRMA",
+      "empty": "Ko'rsatish uchun tariflar yo'q",
+      "per_month": "oy",
+      "sms": "SMS",
+      "subtitle": "Hayot tarzingizga mos tarifni toping!",
+      "title": "Siz uchun tariflar",
+      "unlimited": "Cheksiz",
+      "voice": "Ovoz"
+    },
+    "process": {
+      "steps": {
+        "step1": {
+          "description": "Onlayn USIM buyurtma qiling",
+          "title": "USIM sotib olish"
+        },
+        "step2": {
+          "description": "USIM yetkazib berish holatini tekshiring",
+          "title": "Yetkazishni kuzating"
+        },
+        "step3": {
+          "description": "Shaxsingizni tasdiqlang va ilovadan faollashtiring",
+          "title": "Mustaqil faollashtirish"
+        },
+        "step4": {
+          "description": "5 daqiqada faollashtirish tugadi!",
+          "title": "Tayyor!"
+        }
+      },
+      "subtitle": "USIM va eSIM uchun oddiy mustaqil faollashtirish",
+      "title": "Hech qanday qiyinchiliksiz,",
+      "title2": "Darhol faollashtirish"
     },
     "usim_intro": {
       "badge": "USIM",
-      "title": "5 daqiqada faollashtirildi!",
+      "cta": "USIM sotib olish",
       "description": "Mustaqil faollashtirish vaqtlari",
-      "time1_label": "Raqam ko'chirish",
-      "time1_value": "10:00 - 20:00",
-      "time1_note": "Yakshanba, Yangi yil, Seollal/Chuseokdan tashqari",
-      "time2_label": "Yangi ro'yxat",
-      "time2_value": "08:00 - 22:00",
-      "time2_note": "Kun chegarasi yo'q",
       "step1": "USIM sotib olish",
       "step2": "Qabul qilish",
       "step3": "Faollashtirish",
       "step4": "Tayyor!",
-      "cta": "USIM sotib olish"
-    },
-    "cta": {
-      "title": "GME Mobile bilan boshlang",
-      "description": "Arzon tariflar bilan telefon hisoblarini tejang, 17 tilda mavjud.",
-      "button": "GME Mobile ga o'tish"
-    },
-    "categories": {
-      "recommended": "Tavsiya",
-      "postpaid": "Postpaid",
-      "fiveG": "5G/Maxsus",
-      "prepaid": "Prepaid"
+      "time1_label": "Raqam ko'chirish",
+      "time1_note": "Yakshanba, Yangi yil, Seollal/Chuseokdan tashqari",
+      "time1_value": "10:00 - 20:00",
+      "time2_label": "Yangi ro'yxat",
+      "time2_note": "Kun chegarasi yo'q",
+      "time2_value": "08:00 - 22:00",
+      "title": "5 daqiqada faollashtirildi!"
     }
   }
 }
