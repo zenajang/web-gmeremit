@@ -44,7 +44,7 @@ const ExchangeRateCalculator = () => {
 
   useEffect(() => {
     setDeliveryMethod(payoutMethods[0]?.key ?? "");
-  }, [payoutMethods[0]?.key]);
+  }, [selectedRecipientCountry]);
 
   const handleSendAmountChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = parseNumber(e.target.value);
