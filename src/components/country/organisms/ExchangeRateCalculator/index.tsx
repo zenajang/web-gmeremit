@@ -32,6 +32,7 @@ const ExchangeRateCalculator = () => {
   const [selectedRecipientCountry, setSelectedRecipientCountry] = useState(matchedCountry?.currencies[0]?.code ?? "");
   const [deliveryMethod, setDeliveryMethod] = useState("");
   const [isPayoutOpen, setIsPayoutOpen] = useState(false);
+  const [reslutRecipientCountry, setReslutRecipientCountry] = useState(matchedCountry?.currencies[0]?.code ?? "");
   const payoutDropdownRef = useRef<HTMLDivElement>(null);
 
   useClickOutside(payoutDropdownRef, () => setIsPayoutOpen(false));
@@ -64,6 +65,7 @@ const ExchangeRateCalculator = () => {
       setExchangeRateDisplay(result.exchangeRateDisplay);
       setScCharge(result.scCharge);
       setReceiveAmount(result.receiveAmount);
+      setReslutRecipientCountry(selectedRecipientCountry);
     } else {
       setReceiveAmount("");
       setExchangeRateDisplay("");
@@ -199,7 +201,7 @@ const ExchangeRateCalculator = () => {
       <div className={S.CalculatorResultBox}>
         <span className={S.CalculatorResultLabel}>{tCountry("exchangeRate.receiverGetsLabel")}</span>
         <span className={S.CalculatorResultValue}>
-          {isLoading ? "..." : `${selectedRecipientCountry} ${formatNumber(receiveAmount || "0")}`}
+          {isLoading ? "..." : `${reslutRecipientCountry} ${formatNumber(receiveAmount || "0")}`}
         </span>
       </div>
 
