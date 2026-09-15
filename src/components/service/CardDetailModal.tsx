@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "@/hooks/useTranslation";
 import { cards } from "@/data/cards";
 
@@ -12,6 +12,7 @@ interface CardDetailModalProps {
 
 export default function CardDetailModal({ selectedCard, onClose }: CardDetailModalProps) {
   const { t, tArray, tObject } = useTranslation("card");
+  const [designIndex, setDesignIndex] = useState(0);
 
   // Prevent body scroll when modal is open
   useEffect(() => {
@@ -25,6 +26,17 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
 
   const card = cards.find(c => c.key === selectedCard);
   if (!card) return null;
+
+  const activeDesign = card.designs?.[designIndex];
+
+  // 번역이 아직 없는 카드는 tObject가 빈 객체를 돌려주므로 배열일 때만 렌더한다
+  const toList = <T,>(value: unknown): T[] => (Array.isArray(value) ? (value as T[]) : []);
+  const mainBenefits = toList<{ title: string; desc: string }>(
+    tObject(`cards.${selectedCard}.details.mainBenefits.items`)
+  );
+  const cardStatusItems = toList<{ status: string; desc: string }>(
+    tObject("cards.easyG0.details.cardStatus.items")
+  );
 
   return (
     <div
@@ -54,8 +66,8 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
           <div className="flex flex-col items-center">
             <div className="w-full max-w-[180px] mb-3">
               <Image
-                src={card.image}
-                alt={`GME ${selectedCard} Card`}
+                src={activeDesign?.image ?? card.image}
+                alt={`GME ${card.displayName}`}
                 width={450}
                 height={280}
                 className="w-full h-auto object-contain drop-shadow-2xl"
@@ -67,13 +79,27 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
             <h2 className="typo-feature-title text-center mb-1">
               {card.displayName}
             </h2>
+            {/* 디자인이 여러 개면 디자인명을, 아니면 카드 부제를 노출 */}
             <p className="text-xs text-gray-500 text-center">
-              {t(`cards.${selectedCard}.subtitle`)}
+              {activeDesign ? activeDesign.label : t(`cards.${selectedCard}.subtitle`)}
             </p>
-            {selectedCard === "black" && (
-              <span className="mt-3 inline-flex items-center gap-1.5 px-4 py-1.5 bg-gray-900 text-white text-xs font-bold rounded-full tracking-wide">
-                SOLD OUT
-              </span>
+            {card.designs && (
+              <div className="flex items-center gap-2 mt-3">
+                {card.designs.map((design, i) => (
+                  <button
+                    key={design.key}
+                    type="button"
+                    onClick={() => setDesignIndex(i)}
+                    className={`px-3 py-1 rounded-full text-xs font-semibold border transition-colors cursor-pointer ${
+                      i === designIndex
+                        ? "border-primary bg-primary text-white"
+                        : "border-gray-200 bg-white text-gray-600 hover:border-primary/50"
+                    }`}
+                  >
+                    {design.label}
+                  </button>
+                ))}
+              </div>
             )}
           </div>
         </div>
@@ -88,7 +114,7 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
               {t(`cards.${selectedCard}.details.mainBenefits.title`)}
             </h3>
             <div className="grid gap-4">
-              {tObject<{ title: string; desc: string }[]>(`cards.${selectedCard}.details.mainBenefits.items`).map((item, idx) => (
+              {mainBenefits.map((item, idx) => (
                 <div key={idx} className="bg-gray-50 rounded-xl p-4">
                   <h4 className="font-semibold text-dark mb-1">{item.title}</h4>
                   <p className="text-sm text-gray-600">{item.desc}</p>
@@ -97,17 +123,37 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
             </div>
           </section>
 
+          {/* Transit Card - easyG0 only (Key Benefits 바로 다음) */}
+          {selectedCard === "easyG0" && (
+            <section>
+              <h3 className="typo-feature-title mb-4">
+                {t("cards.easyG0.details.transitCard.title")}
+              </h3>
+              <div className="space-y-2 bg-gray-50 rounded-xl p-4">
+                <p className="text-sm text-gray-600">
+                  <span className="font-semibold text-dark">{t("labels.limit")}: </span>
+                  {t("cards.easyG0.details.transitCard.limit")}
+                </p>
+                <p className="text-sm text-gray-600">
+                  <span className="font-semibold text-dark">{t("labels.payment_time")}: </span>
+                  {t("cards.easyG0.details.transitCard.paymentTime")}
+                </p>
+                <p className="text-sm text-gray-600">
+                  <span className="font-semibold text-dark">{t("labels.availability")}: </span>
+                  {t("cards.easyG0.details.transitCard.availability")}
+                </p>
+              </div>
+            </section>
+          )}
+
           {/* User Guide */}
           <section>
             <h3 className="typo-feature-title mb-4">
               {t(`cards.${selectedCard}.details.userGuide.title`)}
             </h3>
             <div className="space-y-3 bg-gray-50 rounded-xl p-4">
-              <div>
-                <span className="font-semibold text-dark">{t("labels.qualification")}: </span>
-                <span className="text-gray-600">{t(`cards.${selectedCard}.details.userGuide.qualification`)}</span>
-              </div>
-              {selectedCard === "easyG0" ? (
+              {/* 후불 교통카드(EasyGo·EasyCare)는 월 이용료, 나머지는 연회비 */}
+              {["easyG0", "easyCare"].includes(selectedCard) ? (
                 <div>
                   <span className="font-semibold text-dark">{t("labels.monthly_fee")}: </span>
                   <span className="text-gray-600">{t(`cards.${selectedCard}.details.userGuide.monthlyFee`)}</span>
@@ -124,6 +170,11 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
                   </div>
                 </>
               )}
+              {/* 입금 방식 바로 다음에 자동이체 안내 */}
+              <div>
+                <span className="font-semibold text-dark">{t(`cards.${selectedCard}.details.autoPayment.title`)}: </span>
+                <span className="text-gray-600">{t(`cards.${selectedCard}.details.autoPayment.desc`)}</span>
+              </div>
               <div>
                 <span className="font-semibold text-dark">{t("labels.usage_limit")}: </span>
                 <span className="text-gray-600">{t(`cards.${selectedCard}.details.userGuide.limit`)}</span>
@@ -179,39 +230,6 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
             </ul>
           </section>
 
-          {/* Auto Payment */}
-          <section>
-            <h3 className="typo-feature-title mb-4">
-              {t(`cards.${selectedCard}.details.autoPayment.title`)}
-            </h3>
-            <p className="text-sm text-gray-600">
-              {t(`cards.${selectedCard}.details.autoPayment.desc`)}
-            </p>
-          </section>
-
-          {/* Transit Card - easyG0 only */}
-          {selectedCard === "easyG0" && (
-            <section>
-              <h3 className="typo-feature-title mb-4">
-                {t("cards.easyG0.details.transitCard.title")}
-              </h3>
-              <div className="space-y-2 bg-gray-50 rounded-xl p-4">
-                <p className="text-sm text-gray-600">
-                  <span className="font-semibold text-dark">{t("labels.limit")}: </span>
-                  {t("cards.easyG0.details.transitCard.limit")}
-                </p>
-                <p className="text-sm text-gray-600">
-                  <span className="font-semibold text-dark">{t("labels.payment_time")}: </span>
-                  {t("cards.easyG0.details.transitCard.paymentTime")}
-                </p>
-                <p className="text-sm text-gray-600">
-                  <span className="font-semibold text-dark">{t("labels.availability")}: </span>
-                  {t("cards.easyG0.details.transitCard.availability")}
-                </p>
-              </div>
-            </section>
-          )}
-
           {/* Card Status - easyG0 only */}
           {selectedCard === "easyG0" && (
             <section>
@@ -219,7 +237,7 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
                 {t("cards.easyG0.details.cardStatus.title")}
               </h3>
               <div className="space-y-3">
-                {tObject<{ status: string; desc: string }[]>("cards.easyG0.details.cardStatus.items").map((item, idx) => (
+                {cardStatusItems.map((item, idx) => (
                   <div key={idx} className="border border-gray-200 rounded-lg p-3">
                     <h4 className="font-semibold text-dark mb-1">{item.status}</h4>
                     <p className="text-sm text-gray-600">{item.desc}</p>
@@ -231,13 +249,6 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
 
           {/* App Download CTA */}
           <div className="pt-4">
-            {selectedCard === "black" ? (
-              <div className="text-center py-6 bg-gray-50 rounded-xl">
-                <p className="typo-card-title mb-1">{t("modal.sold_out_title")}</p>
-                <p className="text-sm text-gray-500">{t("modal.sold_out_desc")}</p>
-              </div>
-            ) : (
-            <>
             <p className="text-center text-sm text-gray-500 mb-3">{t("modal.app_guide")}</p>
             <div className="flex gap-3">
               <a
@@ -263,8 +274,6 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
                 Google Play
               </a>
             </div>
-            </>
-            )}
           </div>
         </div>
       </div>

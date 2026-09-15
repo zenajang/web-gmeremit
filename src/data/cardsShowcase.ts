@@ -1,8 +1,4 @@
-export interface CardDesign {
-  key: string;
-  label: string;
-  image: string;
-}
+import type { CardDesign } from "@/data/cards";
 
 export interface CardDef {
   id: string;

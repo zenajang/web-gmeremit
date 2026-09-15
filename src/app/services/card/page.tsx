@@ -23,6 +23,7 @@ const benefitIcons: Record<string, React.ReactNode> = {
 export default function CardPage() {
   const { t, tArray } = useTranslation("card");
   const [selectedCard, setSelectedCard] = useState<string | null>(null);
+  const [designByCard, setDesignByCard] = useState<Record<string, number>>({});
   useLenis();
   const { registerSectionRef } = useScrollFadeIn();
 
@@ -125,6 +126,8 @@ export default function CardPage() {
               {cards.map((card, idx) => {
                 const featureList = tArray(`cards.${card.key}.features`);
                 const highlightFeatures = Array.isArray(featureList) ? featureList.slice(0, 3) : [];
+                const designIndex = designByCard[card.key] ?? 0;
+                const activeDesign = card.designs?.[designIndex];
 
                 return (
                   <div
@@ -137,16 +140,18 @@ export default function CardPage() {
                         <h3 className="typo-card-title mb-0.5">
                           {card.displayName}
                         </h3>
-                        <p className="text-sm text-gray-500">
-                          {t(`cards.${card.key}.subtitle`)}
-                        </p>
+                        {!card.designs && (
+                          <p className="text-sm text-gray-500">
+                            {t(`cards.${card.key}.subtitle`)}
+                          </p>
+                        )}
                       </div>
-                      {card.key === "uniq" && (
-                        <span className="px-3 py-1 bg-primary-dark text-white text-xs font-bold rounded-full">
-                          Coming Soon
+                      {card.isNew && (
+                        <span className="px-3 py-1 bg-primary text-white text-xs font-bold rounded-full">
+                          New
                         </span>
                       )}
-                      {card.key === "black" && (
+                      {card.soldOut && (
                         <span className="px-3 py-1 bg-gray-900 text-white text-xs font-bold rounded-full">
                           Sold Out
                         </span>
@@ -161,22 +166,44 @@ export default function CardPage() {
                       </div>
                       {/* 카드 이미지 */}
                       <Image
-                        src={card.image}
-                        alt={`GME ${card.key} Card`}
+                        src={activeDesign?.image ?? card.image}
+                        alt={`GME ${card.displayName}`}
                         width={450}
                         height={280}
-                        className={`relative z-10 w-auto h-44 object-contain ${card.key === "uniq" ? "blur-[0.5px] opacity-80" : ""}`}
+                        className={`relative z-10 w-auto h-44 object-contain ${card.soldOut ? "blur-[0.5px] opacity-80" : ""}`}
                         priority={idx === 0}
                       />
-                      {/* Coming Soon 블러 오버레이 */}
-                      {card.key === "uniq" && (
+                      {/* Sold Out 블러 오버레이 */}
+                      {card.soldOut && (
                         <div className="absolute inset-0 z-20 flex items-center justify-center">
                           <span className="text-xl font-extrabold uppercase tracking-[0.2em] text-dark/30 drop-shadow-sm">
-                            Coming Soon
+                            Sold Out
                           </span>
                         </div>
                       )}
                     </div>
+
+                    {/* 디자인 선택 (Pay: Red/White, EasyCare: Black/Wine) */}
+                    {card.designs && (
+                      <div className="flex items-center justify-center gap-2 mb-4">
+                        {card.designs.map((design, dIdx) => (
+                          <button
+                            key={design.key}
+                            type="button"
+                            onClick={() =>
+                              setDesignByCard((prev) => ({ ...prev, [card.key]: dIdx }))
+                            }
+                            className={`px-3 py-1 rounded-full text-xs font-semibold border transition-colors cursor-pointer ${
+                              dIdx === designIndex
+                                ? "border-primary bg-primary text-white"
+                                : "border-gray-200 bg-white text-gray-600 hover:border-primary/50"
+                            }`}
+                          >
+                            {design.label}
+                          </button>
+                        ))}
+                      </div>
+                    )}
 
                     {/* Benefits */}
                     <div className="space-y-1.5 mb-4">
@@ -189,12 +216,12 @@ export default function CardPage() {
                     </div>
 
                     {/* CTA Button */}
-                    {card.key === "uniq" ? (
+                    {card.soldOut ? (
                       <button
                         disabled
                         className="w-full py-2.5 text-xs font-semibold rounded-lg bg-gray-200 text-gray-400 cursor-not-allowed"
                       >
-                        Coming Soon
+                        Sold Out
                       </button>
                     ) : (
                       <button
@@ -211,7 +238,7 @@ export default function CardPage() {
           </div>
         </section>
       {/* Card Detail Modal */}
-      {selectedCard && ["red", "black", "white", "easyG0"].includes(selectedCard) && (
+      {selectedCard && ["red", "black", "easyG0", "easyCare"].includes(selectedCard) && (
         <CardDetailModal selectedCard={selectedCard} onClose={() => setSelectedCard(null)} />
       )}
 
