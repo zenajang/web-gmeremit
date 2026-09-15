@@ -139,7 +139,7 @@ export default function LoanPage() {
           </div>
         </section>
 
-        {/* ── Loan Products ── */}
+        {/* ── Loan Products ──
         <section id="products" ref={registerSectionRef(1)} className="py-20 lg:py-32 fade-section">
           <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
             <SectionHeader
@@ -149,7 +149,7 @@ export default function LoanPage() {
               colorClass="text-loan"
             />
 
-            {/* Common Loan Conditions — Tags */}
+            Common Loan Conditions — Tags
             <div className="flex flex-wrap items-center justify-center gap-2.5 mb-10">
               {commonTags.map((key) => (
                 <span
@@ -163,7 +163,7 @@ export default function LoanPage() {
               ))}
             </div>
 
-            {/* Product Cards Grid */}
+            Product Cards Grid
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
               {productKeys.map((key) => (
                 <div
@@ -180,7 +180,7 @@ export default function LoanPage() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* ── Application Process ── */}
         <section ref={registerSectionRef(2)} className="py-16 lg:py-24 fade-section">
