@@ -478,5 +478,12 @@
         ]
       }
     }
+  },
+  "company": {
+    "history": {
+      "events": {
+        "2026_09": "Inilunsad ang EasyCare Card, na nag-aalok ng benepisyong insurance at membership sa pakikipagtulungan sa DB Insurance."
+      }
+    }
   }
 }

@@ -481,5 +481,12 @@
         ]
       }
     }
+  },
+  "company": {
+    "history": {
+      "events": {
+        "2026_09": "Launched the EasyCare Card, offering insurance and membership benefits in partnership with DB Insurance."
+      }
+    }
   }
 }

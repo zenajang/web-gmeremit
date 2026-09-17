@@ -478,5 +478,12 @@
         ]
       }
     }
+  },
+  "company": {
+    "history": {
+      "events": {
+        "2026_09": "Meluncurkan EasyCare Card, yang menawarkan manfaat asuransi dan dukungan keanggotaan bekerja sama dengan DB Insurance."
+      }
+    }
   }
 }
