@@ -38,7 +38,7 @@ export const cardDefs: CardDef[] = [
     image: "/images/card/Premium_front.png",
   },
   {
-    id: "red",
+    id: "pay",
     eyebrow: "PAY CARD",
     title: "Pay Card",
     ctaHref: "/services/card",

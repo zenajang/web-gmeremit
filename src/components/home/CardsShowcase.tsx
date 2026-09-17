@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { useTranslation } from "@/hooks/useTranslation";
+import { useCardTranslation } from "@/hooks/useCardTranslation";
 import { cardDefs, type CardDef } from "@/data/cardsShowcase";
 import CTAButton from "@/components/ui/CTAButton";
 
@@ -13,7 +13,7 @@ function mod(n: number, m: number) {
 }
 
 export default function CardsShowcase() {
-  const { t, tArray } = useTranslation("home.cards");
+  const { t, tArray } = useCardTranslation("home.cards");
   const [activeIndex, setActiveIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
   // 카드가 바뀌면 디자인 선택은 첫 번째로 돌아간다

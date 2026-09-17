@@ -51,7 +51,7 @@ export const cards: CardProduct[] = [
   },
   {
     // 기존 번역 키(red)를 그대로 유지한다 — 표시명만 Pay Card로 변경
-    key: "red",
+    key: "pay",
     displayName: "Pay Card",
     image: "/images/card/Pay_Red_front.png",
     color: "#ed1c24",
