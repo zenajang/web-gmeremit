@@ -1,0 +1,327 @@
+{
+  "_meta": {
+    "country": "Philippines",
+    "locale": "tl",
+    "language": "Filipino",
+    "scope": "Home card section + /services/card only. Untouched strings fall back to messages/*.json",
+    "source": "GME Card Web correction request (PPT, Sept 2026) + card spec sheet",
+    "reviewStatus": "Native corridor-team review recommended before production"
+  },
+  "card": {
+    "why": {
+      "cashback": {
+        "title": "Cashback Pana-panahon at sa mga Espesyal na Tindahan"
+      },
+      "description": "Ginagawang simple ng GME Card ang pang-araw-araw na pagbabayad — kung ikaw man ay nagko-commute, namimili, o naglalakbay sa ibang bansa. Magbayad online at offline, gamitin ang transportasyon nang madali, at tamasahin ang tuluy-tuloy na karanasan saan ka man magpunta."
+    },
+    "grid": {
+      "subtitle": "Ikumpara ang mga benepisyo ng iba't ibang GME card at piliin ang pinakaangkop para sa iyo"
+    },
+    "labels": {
+      "charge_method": "Paraan ng Pag-deposit"
+    },
+    "cards": {
+      "black": {
+        "name": "Premium Card",
+        "subtitle": "GME Premium Card",
+        "features": [
+          "Debit card na may prepaid na transportasyon",
+          "3% Cashback sa mga Pagbili sa Ibang Bansa",
+          "Eksklusibong pag-withdraw at pag-deposit sa ATM"
+        ],
+        "details": {
+          "mainBenefits": {
+            "items": [
+              null,
+              {
+                "title": "Cashback Pana-panahon at sa mga Espesyal na Tindahan",
+                "desc": "Tamasahin ang mga reward sa mga piling partner store sa panahon ng mga espesyal na promosyon"
+              },
+              null,
+              null,
+              {
+                "title": "Pampublikong Transportasyon",
+                "desc": "Gamitin ang iyong card sa mga bus, subway, at tren nang madali"
+              }
+            ]
+          },
+          "userGuide": {
+            "annualFee": "₩15,000 (bawat taon)",
+            "chargeMethod": "Maaari kang mag-deposit ng pera sa pamamagitan ng ATM at bank transfer."
+          },
+          "cautions": {
+            "items": [
+              null,
+              null,
+              null,
+              "Ikaw ang mananagot nang buo kung mawawala ang iyong mobile phone o card. Hindi mananagot ang GME sa mga ganitong pagkakataon.",
+              "Sinusunod ng mga internasyonal na affiliate ang mga patakaran at pamantayan ng Mastercard."
+            ]
+          },
+          "autoPayment": {
+            "title": "Auto Debit"
+          }
+        }
+      },
+      "easyG0": {
+        "subtitle": "GME EasyGo Card",
+        "features": [
+          "Debit card na may postpaid na transportasyon",
+          "Cashback Pana-panahon at sa mga Espesyal na Tindahan",
+          "Eksklusibong pag-withdraw at pag-deposit sa ATM"
+        ],
+        "details": {
+          "mainBenefits": {
+            "items": [
+              {
+                "title": "Postpaid na Transportation Card",
+                "desc": "Sa auto recharge, hindi mo na kailangang mag-top up kapag sumasakay ng bus at subway."
+              },
+              {
+                "title": "Cashback Pana-panahon at sa mga Espesyal na Tindahan",
+                "desc": "Tamasahin ang mga reward sa mga piling partner store sa panahon ng mga espesyal na promosyon"
+              }
+            ]
+          },
+          "transitCard": {
+            "title": "Postpaid na Transportation Card"
+          },
+          "userGuide": {
+            "monthlyFee": "₩1,000 (sisingilin tuwing ika-1 ng buwan)"
+          },
+          "cautions": {
+            "items": [
+              null,
+              null,
+              null,
+              "Ikaw ang mananagot nang buo kung mawawala ang iyong mobile phone o card. Hindi mananagot ang GME sa mga ganitong pagkakataon.",
+              "Sinusunod ng mga internasyonal na affiliate ang mga patakaran at pamantayan ng Mastercard."
+            ]
+          },
+          "autoPayment": {
+            "title": "Auto Debit"
+          }
+        }
+      },
+      "uniq": {
+        "name": "UniQ Card",
+        "subtitle": "GME UniQ Card",
+        "features": [
+          "Debit card na may prepaid na transportasyon",
+          "Cashback Pana-panahon at sa mga Espesyal na Tindahan",
+          "Eksklusibong pag-withdraw at pag-deposit sa ATM"
+        ]
+      },
+      "pay": {
+        "cta": "Mag-apply Ngayon",
+        "description": "Ang signature card ng GME. Magbayad sa alinmang Mastercard merchant sa buong mundo at tamasahin ang eksklusibong diskwento sa event at cashback rewards.",
+        "details": {
+          "autoPayment": {
+            "desc": "Kapag hindi sapat ang balanse ng iyong GME Pay para sa pagbabayad gamit ang card, awtomatikong ide-debit ang kulang mula sa iyong naka-link na auto-debit account.",
+            "title": "Auto Debit"
+          },
+          "cautions": {
+            "items": [
+              "Kung ma-cancel ang isang pagbabayad gamit ang GME card, ang refund ay ibabalik sa iyong GME Wallet. Hindi available ang refund sa ibang account.",
+              "Ang GME Card ay isang prepaid debit card. Hindi available ang installment payments.",
+              "Magagamit mo pa rin ang GME app kahit na-cancel na ang iyong card. Gayunpaman, kung i-cancel mo ang iyong subscription sa GME app, awtomatikong ma-ca-cancel din ang iyong card.",
+              "Ikaw ang mananagot nang buo kung mawawala ang iyong mobile phone o card. Hindi mananagot ang GME sa mga ganitong pagkakataon.",
+              "Sinusunod ng mga internasyonal na affiliate ang mga patakaran at pamantayan ng Mastercard."
+            ],
+            "title": "Mga Paalala"
+          },
+          "delivery": {
+            "methods": [
+              "Paghahatid sa Bahay",
+              "Pickup sa GME branch"
+            ],
+            "title": "Mga Paraan ng Paghahatid ng Card"
+          },
+          "foreignPayment": {
+            "items": [
+              "Para sa mga pagbabayad sa overseas merchant, ang mga currency na hindi USD ay iko-convert sa USD batay sa exchange rate ng Mastercard, na iprinoseso sa petsa ng pag-apruba ng bayad (para sa mga approved na transaksyon) o sa petsa na natanggap ng GME ang billing information (para sa mga unapproved na transaksyon). Ang halagang sisingilin sa KRW, kabilang ang 1.25% na overseas fee, ay idadagdag sa halaga sa KRW batay sa USD exchange rate ng GME at ibabawas mula sa GME Pay.",
+              "Billing Amount = (Halaga ng Bayad × Exchange Rate) + Overseas Fees (International Brand Fee² + Overseas Payment Fee²)",
+              "Ang exchange rate ay ang USD rate ng GME para sa pagbabayad gamit ang card, na ina-update tuwing 15 minuto at ina-apply sa oras ng pag-apruba ng bayad (o kapag natanggap ng GME ang billing information).",
+              "International Brand Fee² = (Halaga ng Bayad × Exchange Rate) × Mastercard Fee Rate (1.0%)",
+              "Overseas Payment Fee² = (Halaga ng Bayad × Exchange Rate) × GME Card Fee Rate (0.25%)",
+              "Kapag nagbayad gamit ang KRW sa mga overseas merchant, maaaring maningil ng karagdagang DCC fee (humigit-kumulang 3-15%). Mas makatitipid kung babawalan ang overseas KRW payments at magbabayad sa local currency.",
+              "Maaari kang mag-set ng overseas KRW payment (DCC) restrictions sa GME app. Pumunta sa: Card > Card Management > setting na \"Overseas KRW Payment Restriction\" (Default: \"Restricted\")",
+              "Para sa karagdagang detalye, mangyaring makipag-ugnayan sa Customer Center (1588-6864) o bisitahin ang www.gmeremit.com."
+            ],
+            "title": "Mga Pagbabayad Internasyonal at Iba Pang Impormasyon"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "Tamasahin ang mga reward sa mga piling partner store sa panahon ng mga espesyal na promosyon",
+                "title": "Cashback Pana-panahon at sa mga Espesyal na Tindahan"
+              },
+              {
+                "desc": "Magbayad nang malaya sa loob at labas ng bansa",
+                "title": "Magbayad Kahit Saan sa Buong Mundo"
+              },
+              {
+                "desc": "Malayang magbayad para sa pamimili at libangan, online man o offline",
+                "title": "Online & Offline na Pamimili"
+              },
+              {
+                "desc": "Gamitin ang iyong card sa mga bus, subway, at tren nang madali",
+                "title": "Pampublikong Transportasyon"
+              }
+            ],
+            "title": "Mga Pangunahing Benepisyo"
+          },
+          "userGuide": {
+            "annualFee": "₩10,000 (bawat taon)",
+            "chargeMethod": "Maaari kang mag-deposit ng pera sa pamamagitan ng ATM at bank transfer.",
+            "contact": {
+              "center": "GME Customer Center: 1811-2961",
+              "website": "Website: gmeremit.com"
+            },
+            "limit": "Hanggang ₩2,000,000 kada transaksyon",
+            "title": "Gabay sa Paggamit"
+          }
+        },
+        "features": [
+          "Debit card na may prepaid na transportasyon",
+          "Cashback Pana-panahon at sa mga Espesyal na Tindahan",
+          "Eksklusibong pag-withdraw at pag-deposit sa ATM"
+        ],
+        "name": "Pay Card"
+      },
+      "easyCare": {
+        "cta": "Mag-apply Ngayon",
+        "description": "Made to Care. Isang postpaid transportation card na may benepisyong insurance at membership support.",
+        "details": {
+          "autoPayment": {
+            "desc": "I-link ang anumang bank account para sa auto-debit at i-update ito anumang oras nang madali.",
+            "title": "Auto Debit"
+          },
+          "cautions": {
+            "items": [
+              "Kung ma-cancel ang isang pagbabayad gamit ang GME card, ang refund ay ibabalik sa iyong GME Wallet. Hindi available ang refund sa ibang account.",
+              "Ang GME Card ay isang prepaid debit card. Hindi available ang installment payments.",
+              "Magagamit mo pa rin ang GME app kahit na-cancel na ang iyong card. Gayunpaman, kung i-cancel mo ang iyong subscription sa GME app, awtomatikong ma-ca-cancel din ang iyong card.",
+              "Ikaw ang mananagot nang buo kung mawawala ang iyong mobile phone o card. Hindi mananagot ang GME sa mga ganitong pagkakataon.",
+              "Sinusunod ng mga internasyonal na affiliate ang mga patakaran at pamantayan ng Mastercard.",
+              "Kung ma-cancel sa loob ng 3 buwan mula sa petsa ng pag-issue, sisingilin ang ₩10,000 cancellation fee para masakop ang processing costs."
+            ],
+            "title": "Mga Paalala"
+          },
+          "delivery": {
+            "methods": [
+              "Paghahatid sa Bahay",
+              "Pickup sa GME branch"
+            ],
+            "title": "Mga Paraan ng Paghahatid ng Card"
+          },
+          "foreignPayment": {
+            "items": [
+              "Para sa mga pagbabayad sa overseas merchant, ang mga currency na hindi USD ay iko-convert sa USD batay sa exchange rate ng Mastercard, na iprinoseso sa petsa ng pag-apruba ng bayad (para sa mga approved na transaksyon) o sa petsa na natanggap ng GME ang billing information (para sa mga unapproved na transaksyon). Ang halagang sisingilin sa KRW, kabilang ang 1.25% na overseas fee, ay idadagdag sa halaga sa KRW batay sa USD exchange rate ng GME at ibabawas mula sa GME Pay.",
+              "Billing Amount = (Halaga ng Bayad × Exchange Rate) + Overseas Fees (International Brand Fee² + Overseas Payment Fee²)",
+              "Ang exchange rate ay ang USD rate ng GME para sa pagbabayad gamit ang card, na ina-update tuwing 15 minuto at ina-apply sa oras ng pag-apruba ng bayad (o kapag natanggap ng GME ang billing information).",
+              "International Brand Fee² = (Halaga ng Bayad × Exchange Rate) × Mastercard Fee Rate (1.0%)",
+              "Overseas Payment Fee² = (Halaga ng Bayad × Exchange Rate) × GME Card Fee Rate (0.25%)",
+              "Kapag nagbayad gamit ang KRW sa mga overseas merchant, maaaring maningil ng karagdagang DCC fee (humigit-kumulang 3-15%). Mas makatitipid kung babawalan ang overseas KRW payments at magbabayad sa local currency.",
+              "Maaari kang mag-set ng overseas KRW payment (DCC) restrictions sa GME app. Pumunta sa: Card > Card Management > setting na \"Overseas KRW Payment Restriction\" (Default: \"Restricted\")",
+              "Para sa karagdagang detalye, mangyaring makipag-ugnayan sa Customer Center (1588-6864) o bisitahin ang www.gmeremit.com."
+            ],
+            "title": "Mga Pagbabayad Internasyonal at Iba Pang Impormasyon"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "Hanggang KRW 30 Million ang ibibigay sa itinalagang miyembro ng pamilya kung sakaling mamatay dahil sa aksidente, at hanggang KRW 30 Million kung sakaling magkaroon ng disability dahil sa aksidente.",
+                "title": "Benepisyo sa Suporta ng Insurance"
+              },
+              {
+                "desc": "Hanggang KRW 1 Million para sa hospitalization na higit sa 30 araw, hanggang KRW 50,000 para sa emergency room visit, at tulong sa pag-apply ng tax refund.",
+                "title": "Benepisyo sa Suporta ng Membership"
+              },
+              {
+                "desc": "Sa auto recharge, hindi mo na kailangang mag-top up kapag sumasakay ng bus at subway.",
+                "title": "Postpaid na Transportation Card"
+              },
+              {
+                "desc": "Tamasahin ang mga reward sa mga piling partner store sa panahon ng mga espesyal na promosyon",
+                "title": "Cashback Pana-panahon at sa mga Espesyal na Tindahan"
+              },
+              {
+                "desc": "Magbayad sa buong mundo, sa loob man o labas ng bansa, kung saan man tinatanggap ang Mastercard.",
+                "title": "Magbayad Kahit Saan sa Buong Mundo"
+              },
+              {
+                "desc": "Magbayad anumang oras, kahit saan — online o sa loob ng tindahan — para sa pamimili, libangan, at marami pang iba",
+                "title": "Online & Offline na Pamimili"
+              }
+            ],
+            "title": "Mga Pangunahing Benepisyo"
+          },
+          "userGuide": {
+            "contact": {
+              "center": "GME Customer Center: 1811-2961",
+              "website": "Website: gmeremit.com"
+            },
+            "limit": "Hanggang ₩2,000,000 kada transaksyon",
+            "monthlyFee": "₩6,990 (sisingilin tuwing ika-1 ng buwan)",
+            "title": "Gabay sa Paggamit"
+          }
+        },
+        "features": [
+          "Debit card na may postpaid na transportasyon",
+          "Mga benepisyong insurance at membership support",
+          "Cashback Pana-panahon at sa mga Espesyal na Tindahan"
+        ],
+        "name": "EasyCare Card",
+        "subtitle": "GME EasyCare Card"
+      }
+    }
+  },
+  "home": {
+    "cards": {
+      "black": {
+        "cta": "Tingnan ang Premium Card",
+        "desc": "Premium card na nagbibigay ng reward sa iyong global spending.",
+        "highlights": [
+          "3% Cashback sa Ibang Bansa",
+          "Magbayad Kahit Saan sa Buong Mundo",
+          "Online & Offline na Pamimili",
+          "Pampublikong Transportasyon"
+        ]
+      },
+      "easyG0": {
+        "desc": "Gawing mas maginhawa ang iyong araw-araw na buhay. Tamasahin ang mga pana-panahong benepisyo mula sa transportasyon hanggang pamimili.",
+        "highlights": [
+          "Postpaid na Transportation Card",
+          "Cashback Pana-panahon at sa mga Espesyal na Tindahan"
+        ]
+      },
+      "uniq": {
+        "cta": "Tingnan ang UniQ Card",
+        "highlights": [
+          "Cashback Pana-panahon at sa mga Espesyal na Tindahan"
+        ]
+      },
+      "pay": {
+        "cta": "Tingnan ang Pay Card",
+        "desc": "Isang all-in-one na payment card para sa iyong pang-araw-araw na gastusin.",
+        "highlights": [
+          "Cashback Pana-panahon at sa mga Espesyal na Tindahan",
+          "Magbayad Kahit Saan sa Buong Mundo",
+          "Online & Offline na Pamimili",
+          "Pampublikong Transportasyon"
+        ]
+      },
+      "easyCare": {
+        "cta": "Tingnan ang EasyCare Card",
+        "desc": "Made to Care. Isang postpaid transportation card na may benepisyong insurance at membership support.",
+        "highlights": [
+          "Mga benepisyong insurance at membership support",
+          "Postpaid na Transportation Card",
+          "Cashback Pana-panahon at sa mga Espesyal na Tindahan",
+          "Magbayad Kahit Saan sa Buong Mundo"
+        ]
+      }
+    }
+  }
+}

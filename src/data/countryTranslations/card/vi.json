@@ -1,0 +1,327 @@
+{
+  "_meta": {
+    "country": "Vietnam",
+    "locale": "vi",
+    "language": "Vietnamese",
+    "scope": "Home card section + /services/card only. Untouched strings fall back to messages/*.json",
+    "source": "GME Card Web correction request (PPT, Sept 2026) + card spec sheet",
+    "reviewStatus": "Native corridor-team review recommended before production"
+  },
+  "card": {
+    "why": {
+      "cashback": {
+        "title": "Hoàn tiền theo mùa và tại cửa hàng đặc biệt"
+      },
+      "description": "Thẻ GME giúp việc thanh toán hàng ngày trở nên đơn giản hơn — dù bạn đang di chuyển, mua sắm hay du lịch nước ngoài. Thanh toán trực tuyến và trực tiếp, sử dụng phương tiện công cộng dễ dàng, và tận hưởng trải nghiệm liền mạch ở bất cứ đâu bạn đến."
+    },
+    "grid": {
+      "subtitle": "So sánh quyền lợi giữa các loại thẻ GME và chọn thẻ phù hợp nhất với bạn"
+    },
+    "labels": {
+      "charge_method": "Phương thức nạp tiền"
+    },
+    "cards": {
+      "black": {
+        "name": "Premium Card",
+        "subtitle": "GME Premium Card",
+        "features": [
+          "Thẻ ghi nợ có chức năng giao thông trả trước",
+          "Hoàn tiền 3% cho giao dịch ở nước ngoài",
+          "Rút tiền và nạp tiền tại ATM chuyên dụng"
+        ],
+        "details": {
+          "mainBenefits": {
+            "items": [
+              null,
+              {
+                "title": "Hoàn tiền theo mùa và tại cửa hàng đặc biệt",
+                "desc": "Nhận ưu đãi tại các cửa hàng đối tác được chọn trong thời gian khuyến mãi đặc biệt"
+              },
+              null,
+              null,
+              {
+                "title": "Phương tiện công cộng",
+                "desc": "Sử dụng thẻ dễ dàng khi đi xe buýt, tàu điện ngầm và tàu hỏa"
+              }
+            ]
+          },
+          "userGuide": {
+            "annualFee": "₩15,000 (mỗi năm)",
+            "chargeMethod": "Bạn có thể nạp tiền qua ATM hoặc chuyển khoản ngân hàng."
+          },
+          "cautions": {
+            "items": [
+              null,
+              null,
+              null,
+              "Bạn sẽ chịu hoàn toàn trách nhiệm nếu làm mất điện thoại hoặc thẻ. GME sẽ không chịu bất kỳ trách nhiệm nào trong trường hợp này.",
+              "Các đơn vị liên kết quốc tế tuân theo chính sách và tiêu chuẩn của Mastercard."
+            ]
+          },
+          "autoPayment": {
+            "title": "Trích nợ tự động"
+          }
+        }
+      },
+      "easyG0": {
+        "subtitle": "GME EasyGo Card",
+        "features": [
+          "Thẻ ghi nợ có chức năng giao thông trả sau",
+          "Hoàn tiền theo mùa và tại cửa hàng đặc biệt",
+          "Rút tiền và nạp tiền tại ATM chuyên dụng"
+        ],
+        "details": {
+          "mainBenefits": {
+            "items": [
+              {
+                "title": "Thẻ giao thông trả sau",
+                "desc": "Với tính năng tự động nạp tiền, bạn không cần nạp tiền thủ công khi đi xe buýt và tàu điện ngầm."
+              },
+              {
+                "title": "Hoàn tiền theo mùa và tại cửa hàng đặc biệt",
+                "desc": "Nhận ưu đãi tại các cửa hàng đối tác được chọn trong thời gian khuyến mãi đặc biệt"
+              }
+            ]
+          },
+          "transitCard": {
+            "title": "Thẻ giao thông trả sau"
+          },
+          "userGuide": {
+            "monthlyFee": "₩1,000 (thu vào ngày 1 hàng tháng)"
+          },
+          "cautions": {
+            "items": [
+              null,
+              null,
+              null,
+              "Bạn sẽ chịu hoàn toàn trách nhiệm nếu làm mất điện thoại hoặc thẻ. GME sẽ không chịu bất kỳ trách nhiệm nào trong trường hợp này.",
+              "Các đơn vị liên kết quốc tế tuân theo chính sách và tiêu chuẩn của Mastercard."
+            ]
+          },
+          "autoPayment": {
+            "title": "Trích nợ tự động"
+          }
+        }
+      },
+      "uniq": {
+        "name": "UniQ Card",
+        "subtitle": "GME UniQ Card",
+        "features": [
+          "Thẻ ghi nợ có chức năng giao thông trả trước",
+          "Hoàn tiền theo mùa và tại cửa hàng đặc biệt",
+          "Rút tiền và nạp tiền tại ATM chuyên dụng"
+        ]
+      },
+      "pay": {
+        "cta": "Đăng ký ngay",
+        "description": "Thẻ đặc trưng của GME. Thanh toán tại bất kỳ cửa hàng chấp nhận Mastercard nào trên toàn thế giới và tận hưởng ưu đãi giảm giá sự kiện cùng hoàn tiền hấp dẫn.",
+        "details": {
+          "autoPayment": {
+            "desc": "Khi số dư GME Pay không đủ để thanh toán bằng thẻ, phần còn thiếu sẽ được tự động trích từ tài khoản trích nợ tự động đã liên kết của bạn.",
+            "title": "Trích nợ tự động"
+          },
+          "cautions": {
+            "items": [
+              "Nếu giao dịch thanh toán bằng thẻ GME bị hủy, khoản hoàn tiền sẽ được trả về ví GME Wallet của bạn. Không hỗ trợ hoàn tiền vào tài khoản khác.",
+              "Thẻ GME là thẻ ghi nợ trả trước. Không hỗ trợ thanh toán trả góp.",
+              "Bạn vẫn có thể sử dụng ứng dụng GME ngay cả khi thẻ của bạn đã bị hủy. Tuy nhiên, nếu bạn hủy gói đăng ký trong ứng dụng GME, thẻ của bạn sẽ tự động bị hủy.",
+              "Bạn sẽ chịu hoàn toàn trách nhiệm nếu làm mất điện thoại hoặc thẻ. GME sẽ không chịu bất kỳ trách nhiệm nào trong trường hợp này.",
+              "Các đơn vị liên kết quốc tế tuân theo chính sách và tiêu chuẩn của Mastercard."
+            ],
+            "title": "Lưu ý"
+          },
+          "delivery": {
+            "methods": [
+              "Giao hàng tận nhà",
+              "Nhận tại chi nhánh GME"
+            ],
+            "title": "Phương thức nhận thẻ"
+          },
+          "foreignPayment": {
+            "items": [
+              "Đối với giao dịch tại cửa hàng nước ngoài, các loại tiền tệ không phải USD sẽ được quy đổi sang USD theo tỷ giá của Mastercard, tính theo ngày giao dịch được phê duyệt (đối với giao dịch đã phê duyệt) hoặc ngày GME nhận được thông tin thanh toán (đối với giao dịch chưa phê duyệt). Số tiền quy đổi ra KRW, bao gồm phí giao dịch nước ngoài 1.25%, sẽ được cộng vào số tiền KRW theo tỷ giá USD của GME và trừ từ GME Pay.",
+              "Số tiền thanh toán = (Số tiền giao dịch × Tỷ giá) + Phí giao dịch nước ngoài (Phí thương hiệu quốc tế² + Phí thanh toán nước ngoài²)",
+              "Tỷ giá áp dụng là tỷ giá USD thanh toán thẻ của GME, được cập nhật mỗi 15 phút và áp dụng tại thời điểm giao dịch được phê duyệt (hoặc khi GME nhận được thông tin thanh toán).",
+              "Phí thương hiệu quốc tế² = (Số tiền giao dịch × Tỷ giá) × Tỷ lệ phí Mastercard (1.0%)",
+              "Phí thanh toán nước ngoài² = (Số tiền giao dịch × Tỷ giá) × Tỷ lệ phí thẻ GME (0.25%)",
+              "Khi thanh toán bằng KRW tại cửa hàng nước ngoài, một khoản phí DCC bổ sung (khoảng 3-15%) có thể được áp dụng. Việc chặn thanh toán KRW ở nước ngoài và thanh toán bằng đồng tiền địa phương sẽ tiết kiệm chi phí hơn.",
+              "Bạn có thể thiết lập giới hạn thanh toán KRW ở nước ngoài (DCC) trong ứng dụng GME. Vào: Thẻ > Quản lý thẻ > cài đặt \"Giới hạn thanh toán KRW ở nước ngoài\" (Mặc định: \"Bị giới hạn\")",
+              "Để biết thêm chi tiết, vui lòng liên hệ Trung tâm Chăm sóc Khách hàng (1588-6864) hoặc truy cập www.gmeremit.com."
+            ],
+            "title": "Thanh toán quốc tế & Thông tin khác"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "Nhận ưu đãi tại các cửa hàng đối tác được chọn trong thời gian khuyến mãi đặc biệt",
+                "title": "Hoàn tiền theo mùa và tại cửa hàng đặc biệt"
+              },
+              {
+                "desc": "Thanh toán tự do cả trong và ngoài nước",
+                "title": "Thanh toán mọi nơi trên thế giới"
+              },
+              {
+                "desc": "Thoải mái thanh toán cho mua sắm và giải trí, cả trực tuyến lẫn trực tiếp",
+                "title": "Mua sắm trực tuyến & trực tiếp"
+              },
+              {
+                "desc": "Sử dụng thẻ dễ dàng khi đi xe buýt, tàu điện ngầm và tàu hỏa",
+                "title": "Phương tiện công cộng"
+              }
+            ],
+            "title": "Quyền lợi chính"
+          },
+          "userGuide": {
+            "annualFee": "₩10,000 (mỗi năm)",
+            "chargeMethod": "Bạn có thể nạp tiền qua ATM hoặc chuyển khoản ngân hàng.",
+            "contact": {
+              "center": "Trung tâm Chăm sóc Khách hàng GME: 1811-2961",
+              "website": "Trang web: gmeremit.com"
+            },
+            "limit": "Tối đa ₩2,000,000 mỗi giao dịch",
+            "title": "Hướng dẫn sử dụng"
+          }
+        },
+        "features": [
+          "Thẻ ghi nợ có chức năng giao thông trả trước",
+          "Hoàn tiền theo mùa và tại cửa hàng đặc biệt",
+          "Rút tiền và nạp tiền tại ATM chuyên dụng"
+        ],
+        "name": "Pay Card"
+      },
+      "easyCare": {
+        "cta": "Đăng ký ngay",
+        "description": "Made to Care — được tạo ra để chăm sóc bạn. Thẻ giao thông trả sau với quyền lợi bảo hiểm và hỗ trợ thành viên.",
+        "details": {
+          "autoPayment": {
+            "desc": "Liên kết bất kỳ tài khoản ngân hàng nào để trích nợ tự động và cập nhật dễ dàng bất cứ lúc nào.",
+            "title": "Trích nợ tự động"
+          },
+          "cautions": {
+            "items": [
+              "Nếu giao dịch thanh toán bằng thẻ GME bị hủy, khoản hoàn tiền sẽ được trả về ví GME Wallet của bạn. Không hỗ trợ hoàn tiền vào tài khoản khác.",
+              "Thẻ GME là thẻ ghi nợ trả trước. Không hỗ trợ thanh toán trả góp.",
+              "Bạn vẫn có thể sử dụng ứng dụng GME ngay cả khi thẻ của bạn đã bị hủy. Tuy nhiên, nếu bạn hủy gói đăng ký trong ứng dụng GME, thẻ của bạn sẽ tự động bị hủy.",
+              "Bạn sẽ chịu hoàn toàn trách nhiệm nếu làm mất điện thoại hoặc thẻ. GME sẽ không chịu bất kỳ trách nhiệm nào trong trường hợp này.",
+              "Các đơn vị liên kết quốc tế tuân theo chính sách và tiêu chuẩn của Mastercard.",
+              "Nếu hủy trong vòng 3 tháng kể từ ngày phát hành, phí hủy ₩10,000 sẽ được thu để trang trải chi phí xử lý."
+            ],
+            "title": "Lưu ý"
+          },
+          "delivery": {
+            "methods": [
+              "Giao hàng tận nhà",
+              "Nhận tại chi nhánh GME"
+            ],
+            "title": "Phương thức nhận thẻ"
+          },
+          "foreignPayment": {
+            "items": [
+              "Đối với giao dịch tại cửa hàng nước ngoài, các loại tiền tệ không phải USD sẽ được quy đổi sang USD theo tỷ giá của Mastercard, tính theo ngày giao dịch được phê duyệt (đối với giao dịch đã phê duyệt) hoặc ngày GME nhận được thông tin thanh toán (đối với giao dịch chưa phê duyệt). Số tiền quy đổi ra KRW, bao gồm phí giao dịch nước ngoài 1.25%, sẽ được cộng vào số tiền KRW theo tỷ giá USD của GME và trừ từ GME Pay.",
+              "Số tiền thanh toán = (Số tiền giao dịch × Tỷ giá) + Phí giao dịch nước ngoài (Phí thương hiệu quốc tế² + Phí thanh toán nước ngoài²)",
+              "Tỷ giá áp dụng là tỷ giá USD thanh toán thẻ của GME, được cập nhật mỗi 15 phút và áp dụng tại thời điểm giao dịch được phê duyệt (hoặc khi GME nhận được thông tin thanh toán).",
+              "Phí thương hiệu quốc tế² = (Số tiền giao dịch × Tỷ giá) × Tỷ lệ phí Mastercard (1.0%)",
+              "Phí thanh toán nước ngoài² = (Số tiền giao dịch × Tỷ giá) × Tỷ lệ phí thẻ GME (0.25%)",
+              "Khi thanh toán bằng KRW tại cửa hàng nước ngoài, một khoản phí DCC bổ sung (khoảng 3-15%) có thể được áp dụng. Việc chặn thanh toán KRW ở nước ngoài và thanh toán bằng đồng tiền địa phương sẽ tiết kiệm chi phí hơn.",
+              "Bạn có thể thiết lập giới hạn thanh toán KRW ở nước ngoài (DCC) trong ứng dụng GME. Vào: Thẻ > Quản lý thẻ > cài đặt \"Giới hạn thanh toán KRW ở nước ngoài\" (Mặc định: \"Bị giới hạn\")",
+              "Để biết thêm chi tiết, vui lòng liên hệ Trung tâm Chăm sóc Khách hàng (1588-6864) hoặc truy cập www.gmeremit.com."
+            ],
+            "title": "Thanh toán quốc tế & Thông tin khác"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "Tối đa KRW 30 Million được chi trả cho người thân được chỉ định trong trường hợp tử vong do tai nạn, và tối đa KRW 30 Million trong trường hợp thương tật do tai nạn.",
+                "title": "Quyền lợi hỗ trợ bảo hiểm"
+              },
+              {
+                "desc": "Tối đa KRW 1 Million cho trường hợp nhập viện trên 30 ngày, tối đa KRW 50,000 cho lần khám cấp cứu, và hỗ trợ thủ tục hoàn thuế.",
+                "title": "Quyền lợi hỗ trợ thành viên"
+              },
+              {
+                "desc": "Với tính năng tự động nạp tiền, bạn không cần nạp tiền thủ công khi đi xe buýt và tàu điện ngầm.",
+                "title": "Thẻ giao thông trả sau"
+              },
+              {
+                "desc": "Nhận ưu đãi tại các cửa hàng đối tác được chọn trong thời gian khuyến mãi đặc biệt",
+                "title": "Hoàn tiền theo mùa và tại cửa hàng đặc biệt"
+              },
+              {
+                "desc": "Thanh toán trên toàn thế giới, cả trong và ngoài nước, ở bất cứ nơi nào chấp nhận Mastercard.",
+                "title": "Thanh toán mọi nơi trên thế giới"
+              },
+              {
+                "desc": "Thanh toán mọi lúc, mọi nơi — trực tuyến hoặc tại cửa hàng — cho mua sắm, giải trí và nhiều hơn nữa",
+                "title": "Mua sắm trực tuyến & trực tiếp"
+              }
+            ],
+            "title": "Quyền lợi chính"
+          },
+          "userGuide": {
+            "contact": {
+              "center": "Trung tâm Chăm sóc Khách hàng GME: 1811-2961",
+              "website": "Trang web: gmeremit.com"
+            },
+            "limit": "Tối đa ₩2,000,000 mỗi giao dịch",
+            "monthlyFee": "₩6,990 (thu vào ngày 1 hàng tháng)",
+            "title": "Hướng dẫn sử dụng"
+          }
+        },
+        "features": [
+          "Thẻ ghi nợ có chức năng giao thông trả sau",
+          "Quyền lợi hỗ trợ bảo hiểm và thành viên",
+          "Hoàn tiền theo mùa và tại cửa hàng đặc biệt"
+        ],
+        "name": "EasyCare Card",
+        "subtitle": "GME EasyCare Card"
+      }
+    }
+  },
+  "home": {
+    "cards": {
+      "black": {
+        "cta": "Xem Premium Card",
+        "desc": "Thẻ cao cấp mang lại ưu đãi cho chi tiêu quốc tế của bạn.",
+        "highlights": [
+          "Hoàn tiền 3% khi chi tiêu ở nước ngoài",
+          "Thanh toán mọi nơi trên thế giới",
+          "Mua sắm trực tuyến & trực tiếp",
+          "Phương tiện công cộng"
+        ]
+      },
+      "easyG0": {
+        "desc": "Giúp cuộc sống hàng ngày thêm tiện lợi. Tận hưởng các ưu đãi theo mùa, từ giao thông đến mua sắm.",
+        "highlights": [
+          "Thẻ giao thông trả sau",
+          "Hoàn tiền theo mùa và tại cửa hàng đặc biệt"
+        ]
+      },
+      "uniq": {
+        "cta": "Xem UniQ Card",
+        "highlights": [
+          "Hoàn tiền theo mùa và tại cửa hàng đặc biệt"
+        ]
+      },
+      "pay": {
+        "cta": "Xem Pay Card",
+        "desc": "Thẻ thanh toán đa năng cho chi tiêu hàng ngày của bạn.",
+        "highlights": [
+          "Hoàn tiền theo mùa và tại cửa hàng đặc biệt",
+          "Thanh toán mọi nơi trên thế giới",
+          "Mua sắm trực tuyến & trực tiếp",
+          "Phương tiện công cộng"
+        ]
+      },
+      "easyCare": {
+        "cta": "Xem EasyCare Card",
+        "desc": "Made to Care — được tạo ra để chăm sóc bạn. Thẻ giao thông trả sau với quyền lợi bảo hiểm và hỗ trợ thành viên.",
+        "highlights": [
+          "Quyền lợi hỗ trợ bảo hiểm và thành viên",
+          "Thẻ giao thông trả sau",
+          "Hoàn tiền theo mùa và tại cửa hàng đặc biệt",
+          "Thanh toán mọi nơi trên thế giới"
+        ]
+      }
+    }
+  }
+}

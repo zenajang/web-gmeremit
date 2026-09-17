@@ -1,0 +1,127 @@
+"use client";
+
+import { useCallback, useMemo } from "react";
+import { useLanguage } from "@/contexts/LanguageContext";
+import { translations } from "@/hooks/useTranslation";
+
+import ar from "@/data/countryTranslations/card/ar.json";
+import bn from "@/data/countryTranslations/card/bn.json";
+import en from "@/data/countryTranslations/card/en.json";
+import es from "@/data/countryTranslations/card/es.json";
+import fr from "@/data/countryTranslations/card/fr.json";
+import hi from "@/data/countryTranslations/card/hi.json";
+import id from "@/data/countryTranslations/card/id.json";
+import ja from "@/data/countryTranslations/card/ja.json";
+import km from "@/data/countryTranslations/card/km.json";
+import ko from "@/data/countryTranslations/card/ko.json";
+import mn from "@/data/countryTranslations/card/mn.json";
+import my from "@/data/countryTranslations/card/my.json";
+import ne from "@/data/countryTranslations/card/ne.json";
+import si from "@/data/countryTranslations/card/si.json";
+import th from "@/data/countryTranslations/card/th.json";
+import tl from "@/data/countryTranslations/card/tl.json";
+import ur from "@/data/countryTranslations/card/ur.json";
+import uz from "@/data/countryTranslations/card/uz.json";
+import vi from "@/data/countryTranslations/card/vi.json";
+import zh from "@/data/countryTranslations/card/zh.json";
+
+type Json = Record<string, unknown>;
+
+/** PPT 수정분만 담긴 카드 전용 번역. 나머지 문구는 messages/*.json 을 그대로 쓴다. */
+const cardOverrides: Record<string, Json> = {
+  ar, bn, en, es, fr, hi, id, ja, km, ko, mn, my, ne, si, th, tl, ur, uz, vi, zh,
+};
+
+/** override 의 값만 덮어쓴다. null 은 "번역 없음"이라 base 값을 유지한다. */
+function mergeOverride(base: unknown, override: unknown): unknown {
+  if (override === null || override === undefined) return base;
+
+  if (Array.isArray(override)) {
+    const baseArray = Array.isArray(base) ? base : [];
+    const length = Math.max(baseArray.length, override.length);
+    return Array.from({ length }, (_, i) => mergeOverride(baseArray[i], override[i]));
+  }
+
+  if (typeof override === "object") {
+    const baseObject = (base && typeof base === "object" && !Array.isArray(base) ? base : {}) as Json;
+    const merged: Json = { ...baseObject };
+    for (const [key, value] of Object.entries(override as Json)) {
+      merged[key] = mergeOverride(baseObject[key], value);
+    }
+    return merged;
+  }
+
+  return override;
+}
+
+const mergedCache = new Map<string, Json>();
+
+function getMerged(langCode: string): Json {
+  const cached = mergedCache.get(langCode);
+  if (cached) return cached;
+
+  const base = (translations[langCode] ?? translations.ko) as Json;
+  const override = cardOverrides[langCode];
+  const merged = (override ? mergeOverride(base, { card: override.card, home: override.home }) : base) as Json;
+
+  mergedCache.set(langCode, merged);
+  return merged;
+}
+
+function getNestedValue(obj: Json, path: string): unknown {
+  return path.split(".").reduce<unknown>((acc, key) => {
+    if (acc && typeof acc === "object" && key in acc) {
+      return (acc as Json)[key];
+    }
+    return undefined;
+  }, obj);
+}
+
+/**
+ * 홈 카드 섹션과 /services/card 전용 번역 훅.
+ * countryTranslations/card 의 PPT 수정분이 messages 값을 덮어쓰고,
+ * 양쪽 모두 없으면 키 경로를 그대로 노출한다.
+ */
+export function useCardTranslation(namespace?: string) {
+  const { currentLanguage } = useLanguage();
+  const data = useMemo(() => getMerged(currentLanguage.code), [currentLanguage.code]);
+
+  const resolve = useCallback(
+    (key: string) => {
+      const fullPath = namespace ? `${namespace}.${key}` : key;
+      return { fullPath, value: getNestedValue(data, fullPath) };
+    },
+    [data, namespace]
+  );
+
+  const t = useCallback(
+    (key: string, params?: Record<string, string | number>): string => {
+      const { fullPath, value } = resolve(key);
+      if (typeof value !== "string") return fullPath;
+      if (!params) return value;
+      return Object.entries(params).reduce(
+        (acc, [paramKey, paramValue]) => acc.replaceAll(`{{${paramKey}}}`, String(paramValue)),
+        value
+      );
+    },
+    [resolve]
+  );
+
+  const tArray = useCallback(
+    (key: string): string[] => {
+      const { value } = resolve(key);
+      return Array.isArray(value) ? value.filter((item): item is string => typeof item === "string") : [];
+    },
+    [resolve]
+  );
+
+  const tObject = useCallback(
+    <T = Record<string, unknown>>(key: string): T => {
+      const { value } = resolve(key);
+      return (typeof value === "object" && value !== null ? value : {}) as T;
+    },
+    [resolve]
+  );
+
+  return { t, tArray, tObject };
+}

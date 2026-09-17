@@ -28,7 +28,7 @@ import es from "@messages/es.json";
 type TranslationValue = string | string[] | Record<string, unknown>;
 type Translations = Record<string, unknown>;
 
-const translations: Record<string, Translations> = {
+export const translations: Record<string, Translations> = {
   en,
   ko,
   zh,
