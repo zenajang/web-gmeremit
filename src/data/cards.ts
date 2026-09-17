@@ -1,3 +1,5 @@
+import type { ReactNode } from "react";
+
 export interface CardDesign {
   key: string;
   label: string;
@@ -14,12 +16,6 @@ export interface CardProduct {
   designs?: CardDesign[];
   isNew?: boolean;
   soldOut?: boolean;
-}
-
-export interface CardBenefit {
-  key: string;
-  iconPath: string;
-  color: string;
 }
 
 export const cards: CardProduct[] = [
@@ -72,3 +68,10 @@ export const cards: CardProduct[] = [
 ];
 
 export const cardBenefitKeys = ["global", "everywhere", "cashback", "transit", "atm"] as const;
+
+export type CardBenefitKey = (typeof cardBenefitKeys)[number];
+
+export interface CardBenefit {
+  key: CardBenefitKey;
+  icon: ReactNode;
+}

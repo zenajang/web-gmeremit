@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { useTranslation } from "@/hooks/useTranslation";
+import { useCardTranslation } from "@/hooks/useCardTranslation";
 import { cards } from "@/data/cards";
 
 interface CardDetailModalProps {
@@ -11,10 +11,9 @@ interface CardDetailModalProps {
 }
 
 export default function CardDetailModal({ selectedCard, onClose }: CardDetailModalProps) {
-  const { t, tArray, tObject } = useTranslation("card");
+  const { t, tArray, tObject } = useCardTranslation("card");
   const [designIndex, setDesignIndex] = useState(0);
 
-  // Prevent body scroll when modal is open
   useEffect(() => {
     document.body.style.overflow = 'hidden';
     document.documentElement.style.overflow = 'hidden';
@@ -29,7 +28,6 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
 
   const activeDesign = card.designs?.[designIndex];
 
-  // 번역이 아직 없는 카드는 tObject가 빈 객체를 돌려주므로 배열일 때만 렌더한다
   const toList = <T,>(value: unknown): T[] => (Array.isArray(value) ? (value as T[]) : []);
   const mainBenefits = toList<{ title: string; desc: string }>(
     tObject(`cards.${selectedCard}.details.mainBenefits.items`)
@@ -48,7 +46,6 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
         onClick={(e) => e.stopPropagation()}
         data-lenis-prevent
       >
-        {/* Modal Header with Close Button */}
         <div className="sticky top-0 bg-white z-10 px-6 pt-6 pb-4 flex justify-end rounded-t-2xl">
           <button
             onClick={onClose}
@@ -61,7 +58,6 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
           </button>
         </div>
 
-        {/* Card Image Section */}
         <div className="px-6 pb-4">
           <div className="flex flex-col items-center">
             <div className="w-full max-w-[180px] mb-3">
@@ -79,7 +75,6 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
             <h2 className="typo-feature-title text-center mb-1">
               {card.displayName}
             </h2>
-            {/* 디자인이 여러 개면 디자인명을, 아니면 카드 부제를 노출 */}
             <p className="text-xs text-gray-500 text-center">
               {activeDesign ? activeDesign.label : t(`cards.${selectedCard}.subtitle`)}
             </p>
@@ -106,9 +101,7 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
 
         <div className="h-px bg-gray-200 mx-6"></div>
 
-        {/* Modal Content */}
         <div className="p-6 space-y-8">
-          {/* Main Benefits */}
           <section>
             <h3 className="typo-feature-title mb-4">
               {t(`cards.${selectedCard}.details.mainBenefits.title`)}
@@ -123,7 +116,6 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
             </div>
           </section>
 
-          {/* Transit Card - easyG0 only (Key Benefits 바로 다음) */}
           {selectedCard === "easyG0" && (
             <section>
               <h3 className="typo-feature-title mb-4">
@@ -146,13 +138,11 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
             </section>
           )}
 
-          {/* User Guide */}
           <section>
             <h3 className="typo-feature-title mb-4">
               {t(`cards.${selectedCard}.details.userGuide.title`)}
             </h3>
             <div className="space-y-3 bg-gray-50 rounded-xl p-4">
-              {/* 후불 교통카드(EasyGo·EasyCare)는 월 이용료, 나머지는 연회비 */}
               {["easyG0", "easyCare"].includes(selectedCard) ? (
                 <div>
                   <span className="font-semibold text-dark">{t("labels.monthly_fee")}: </span>
@@ -170,7 +160,6 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
                   </div>
                 </>
               )}
-              {/* 입금 방식 바로 다음에 자동이체 안내 */}
               <div>
                 <span className="font-semibold text-dark">{t(`cards.${selectedCard}.details.autoPayment.title`)}: </span>
                 <span className="text-gray-600">{t(`cards.${selectedCard}.details.autoPayment.desc`)}</span>
@@ -186,7 +175,6 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
             </div>
           </section>
 
-          {/* Delivery */}
           <section>
             <h3 className="typo-feature-title mb-4">
               {t(`cards.${selectedCard}.details.delivery.title`)}
@@ -200,7 +188,6 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
             </div>
           </section>
 
-          {/* Cautions */}
           <section>
             <h3 className="typo-feature-title mb-4">
               {t(`cards.${selectedCard}.details.cautions.title`)}
@@ -215,7 +202,6 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
             </ul>
           </section>
 
-          {/* Foreign Payment */}
           <section>
             <h3 className="typo-feature-title mb-4">
               {t(`cards.${selectedCard}.details.foreignPayment.title`)}
@@ -230,7 +216,6 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
             </ul>
           </section>
 
-          {/* Card Status - easyG0 only */}
           {selectedCard === "easyG0" && (
             <section>
               <h3 className="typo-feature-title mb-4">
@@ -247,7 +232,6 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
             </section>
           )}
 
-          {/* App Download CTA */}
           <div className="pt-4">
             <p className="text-center text-sm text-gray-500 mb-3">{t("modal.app_guide")}</p>
             <div className="flex gap-3">
