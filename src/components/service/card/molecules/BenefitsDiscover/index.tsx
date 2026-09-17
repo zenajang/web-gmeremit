@@ -3,14 +3,14 @@
 import { CardBenefit } from "@/data/cards";
 import SectionHeader from "@/components/ui/SectionHeader"
 import Image from "next/image"
-import { useCardTranslation } from "@/hooks/useCardTranslation";
+import { usePendingTranslation } from "@/hooks/usePendingTranslation";
 
 interface BenefitsDiscoverProps {
   benefits: CardBenefit[];
 }
 
 const BenefitsDiscover = ({benefits} : BenefitsDiscoverProps) => {
-  const { t } = useCardTranslation("card");
+  const { t } = usePendingTranslation("card");
 
   return (
     <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">

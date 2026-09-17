@@ -1,9 +1,9 @@
 "use client";
 
-import { useCardTranslation } from "@/hooks/useCardTranslation";
+import { usePendingTranslation } from "@/hooks/usePendingTranslation";
 
 const CardGridTitle = () => {
-  const { t } = useCardTranslation("card");
+  const { t } = usePendingTranslation("card");
   return (
     <div className="relative text-center mb-10 lg:mb-12 overflow-visible">
       <div className="pointer-events-none absolute inset-0">

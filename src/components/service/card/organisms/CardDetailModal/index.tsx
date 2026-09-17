@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { useCardTranslation } from "@/hooks/useCardTranslation";
+import { usePendingTranslation } from "@/hooks/usePendingTranslation";
 import { cards } from "@/data/cards";
 
 interface CardDetailModalProps {
@@ -11,7 +11,7 @@ interface CardDetailModalProps {
 }
 
 export default function CardDetailModal({ selectedCard, onClose }: CardDetailModalProps) {
-  const { t, tArray, tObject } = useCardTranslation("card");
+  const { t, tArray, tObject } = usePendingTranslation("card");
   const [designIndex, setDesignIndex] = useState(0);
 
   useEffect(() => {

@@ -1,5 +1,5 @@
 "use client"
-import { useCardTranslation } from "@/hooks/useCardTranslation";
+import { usePendingTranslation } from "@/hooks/usePendingTranslation";
 
 interface CardGridItemDetailButtonProps {
   cardKey: string;
@@ -9,7 +9,7 @@ interface CardGridItemDetailButtonProps {
 }
 
 const CardGridItemDetailButton = ({cardKey, isSoldOut = false, setSelectedCard}: CardGridItemDetailButtonProps) => {
-  const { t } = useCardTranslation("card");
+  const { t } = usePendingTranslation("card");
 
   if(isSoldOut) {
     const soldOutCss = "w-full py-2.5 text-xs font-semibold rounded-lg bg-gray-200 text-gray-400 cursor-not-allowed"

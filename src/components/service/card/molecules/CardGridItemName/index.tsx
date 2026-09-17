@@ -1,13 +1,13 @@
 "use client";
 
 import { CardProduct } from "@/data/cards"
-import { useCardTranslation } from "@/hooks/useCardTranslation";
+import { usePendingTranslation } from "@/hooks/usePendingTranslation";
 
 
 
 const CardGridItemName = ({ card }: { card: CardProduct }) => {
   const { displayName, designs, key, isNew, soldOut } = card;
-  const { t } = useCardTranslation("card");
+  const { t } = usePendingTranslation("card");
     
   return (
     <div className="flex items-start justify-between mb-4">

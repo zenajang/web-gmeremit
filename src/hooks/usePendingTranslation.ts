@@ -62,7 +62,7 @@ function getMerged(langCode: string): Json {
 
   const base = (translations[langCode] ?? translations.ko) as Json;
   const override = cardOverrides[langCode];
-  const merged = (override ? mergeOverride(base, { card: override.card, home: override.home }) : base) as Json;
+  const merged = (override ? mergeOverride(base, { card: override.card, home: override.home, company: override.company }) : base) as Json;
 
   mergedCache.set(langCode, merged);
   return merged;
@@ -82,7 +82,7 @@ function getNestedValue(obj: Json, path: string): unknown {
  * countryTranslations/card 의 PPT 수정분이 messages 값을 덮어쓰고,
  * 양쪽 모두 없으면 키 경로를 그대로 노출한다.
  */
-export function useCardTranslation(namespace?: string) {
+export function usePendingTranslation(namespace?: string) {
   const { currentLanguage } = useLanguage();
   const data = useMemo(() => getMerged(currentLanguage.code), [currentLanguage.code]);
 

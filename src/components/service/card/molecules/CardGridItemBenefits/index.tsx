@@ -1,10 +1,10 @@
 "use client";
 
 import { CardProduct } from "@/data/cards"
-import { useCardTranslation } from "@/hooks/useCardTranslation";
+import { usePendingTranslation } from "@/hooks/usePendingTranslation";
 
 const CardGridItemBenefits = ({card}: {card: CardProduct}) => {
-  const { tArray } = useCardTranslation("card");
+  const { tArray } = usePendingTranslation("card");
 
   const featureList = tArray(`cards.${card.key}.features`);
   const highlightFeatures = Array.isArray(featureList) ? featureList.slice(0, 3) : [];

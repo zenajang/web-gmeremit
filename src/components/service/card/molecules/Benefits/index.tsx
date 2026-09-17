@@ -1,7 +1,7 @@
 "use client";
 
 import { CardBenefit } from "@/data/cards";
-import { useCardTranslation } from "@/hooks/useCardTranslation";
+import { usePendingTranslation } from "@/hooks/usePendingTranslation";
 
 
 interface BenefitsProps {
@@ -9,7 +9,7 @@ interface BenefitsProps {
 }
 
 const Benefits = ({benefits} : BenefitsProps) => {
-  const { t } = useCardTranslation("card");
+  const { t } = usePendingTranslation("card");
 
   return (
     <div className="mt-16 lg:mt-24">
