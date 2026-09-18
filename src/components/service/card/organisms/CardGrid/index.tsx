@@ -13,6 +13,7 @@ const CardGrid = () => {
   const [selectedCard, setSelectedCard] = useState<string | null>(null);
 
   return (
+    <>
     <section id="cards" ref={registerSectionRef(0)} className="py-16 lg:py-24 fade-section">
       <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
         <CardGridTitle />
@@ -24,10 +25,12 @@ const CardGrid = () => {
         </div>
       </div>
 
+    </section>
+
       {selectedCard && ["pay", "black", "easyG0", "easyCare"].includes(selectedCard) && (
         <CardDetailModal selectedCard={selectedCard} onClose={() => setSelectedCard(null)} />
       )}
-    </section>
+    </>
   )
 }
 
