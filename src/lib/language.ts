@@ -1,32 +1,32 @@
 export interface Language {
   code: string;
-  label: string;
   name: string;
   nativeName: string;
-  color: string;
+  /** public/images/flags 의 파일명 */
+  flagCode: string;
 }
 
 export const languages: Language[] = [
-  { code: "en", label: "En", name: "English", nativeName: "English", color: "#ed1c24" },
-  { code: "ko", label: "Ko", name: "Korean", nativeName: "한국어", color: "#3b82f6" },
-  { code: "id", label: "Id", name: "Indonesian", nativeName: "Bahasa Indonesia", color: "#f59e0b" },
-  { code: "mn", label: "Mn", name: "Mongolian", nativeName: "Монгол", color: "#06b6d4" },
-  { code: "km", label: "Km", name: "Khmer", nativeName: "ភាសាខ្មែរ", color: "#8b5cf6" },
-  { code: "bn", label: "Bn", name: "Bengali", nativeName: "বাংলা", color: "#10b981" },
-  { code: "th", label: "Th", name: "Thai", nativeName: "ไทย", color: "#ec4899" },
-  { code: "ur", label: "Ur", name: "Urdu", nativeName: "اردو", color: "#14b8a6" },
-  { code: "zh", label: "Zh", name: "Chinese", nativeName: "中文", color: "#ef4444" },
-  { code: "ja", label: "Ja", name: "Japanese", nativeName: "日本語", color: "#6366f1" },
-  { code: "ne", label: "Ne", name: "Nepali", nativeName: "नेपाली", color: "#f97316" },
-  { code: "si", label: "Si", name: "Sinhala", nativeName: "සිංහල", color: "#0ea5e9" },
-  { code: "tl", label: "Tl", name: "Filipino", nativeName: "Filipino", color: "#a855f7" },
-  { code: "hi", label: "Hi", name: "Hindi", nativeName: "हिन्दी", color: "#eab308" },
-  { code: "my", label: "My", name: "Myanmar", nativeName: "မြန်မာ", color: "#22c55e" },
-  { code: "vi", label: "Vi", name: "Vietnamese", nativeName: "Tiếng Việt", color: "#e11d48" },
-  { code: "uz", label: "Uz", name: "Uzbek", nativeName: "Oʻzbekcha", color: "#0891b2" },
-  { code: "fr", label: "Fr", name: "French", nativeName: "Français", color: "#2563eb" },
-  { code: "ar", label: "Ar", name: "Arabic", nativeName: "العربية", color: "#65a30d" },
-  { code: "es", label: "Es", name: "Spanish", nativeName: "Español", color: "#be123c" },
+  { code: "en", name: "English", nativeName: "English", flagCode: "us" },
+  { code: "ko", name: "Korean", nativeName: "한국어", flagCode: "kr" },
+  { code: "id", name: "Indonesian", nativeName: "Bahasa Indonesia", flagCode: "id" },
+  { code: "mn", name: "Mongolian", nativeName: "Монгол", flagCode: "mn" },
+  { code: "km", name: "Khmer", nativeName: "ភាសាខ្មែរ", flagCode: "kh" },
+  { code: "bn", name: "Bengali", nativeName: "বাংলা", flagCode: "bd" },
+  { code: "th", name: "Thai", nativeName: "ไทย", flagCode: "th" },
+  { code: "ur", name: "Urdu", nativeName: "اردو", flagCode: "pk" },
+  { code: "zh", name: "Chinese", nativeName: "中文", flagCode: "cn" },
+  { code: "ja", name: "Japanese", nativeName: "日本語", flagCode: "jp" },
+  { code: "ne", name: "Nepali", nativeName: "नेपाली", flagCode: "np" },
+  { code: "si", name: "Sinhala", nativeName: "සිංහල", flagCode: "lk" },
+  { code: "tl", name: "Filipino", nativeName: "Filipino", flagCode: "ph" },
+  { code: "hi", name: "Hindi", nativeName: "हिन्दी", flagCode: "in" },
+  { code: "my", name: "Myanmar", nativeName: "မြန်မာ", flagCode: "mm" },
+  { code: "vi", name: "Vietnamese", nativeName: "Tiếng Việt", flagCode: "vn" },
+  { code: "uz", name: "Uzbek", nativeName: "Oʻzbekcha", flagCode: "uz" },
+  { code: "fr", name: "French", nativeName: "Français", flagCode: "fr" },
+  { code: "ar", name: "Arabic", nativeName: "العربية", flagCode: "arab" },
+  { code: "es", name: "Spanish", nativeName: "Español", flagCode: "es" },
 ];
 
 export const LANGUAGE_COOKIE_NAME = "gme-language";

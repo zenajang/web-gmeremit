@@ -97,11 +97,12 @@ export function LanguageSelector() {
                       : "hover:bg-gray-50"
                   }`}
                 >
-                  <span
-                    className="text-[13px] font-bold w-7 h-7 shrink-0 flex items-center justify-center rounded-md transition-colors duration-150 group-hover:bg-white group-hover:shadow-[0_1px_3px_rgba(0,0,0,0.1)]"
-                    style={{ color: lang.color }}
-                  >
-                    {lang.label}
+                  <span className="w-7 h-7 shrink-0 flex items-center justify-center rounded-md transition-colors duration-150">
+                    <img
+                      src={`/images/flags/${lang.flagCode}.svg`}
+                      alt=""
+                      className="w-6 h-5 object-cover"
+                    />
                   </span>
                   <span className={`text-[14px] ${isSelected ? "text-dark font-semibold" : "text-gray-700 font-medium"}`}>
                     {lang.nativeName}
