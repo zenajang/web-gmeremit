@@ -54,11 +54,8 @@ function mergeOverride(base: unknown, override: unknown): unknown {
   return override;
 }
 
-/**
- * 카드 번역이 아직 없는 사이트 언어. 이 영역만 영어로 대체한다.
- * 연혁(company)처럼 messages 에 번역이 있는 영역은 해당 언어를 그대로 쓴다.
- */
-const CARD_FALLBACK_LANGS = new Set(["ja", "fr"]);
+const ENGLISH_FALLBACK_LANGS = new Set(["ja", "fr"]);
+const ENGLISH_FALLBACK_NAMESPACES = ["card", "home.cards"];
 const FALLBACK_LANG = "en";
 
 const mergedCache = new Map<string, Json>();
@@ -93,8 +90,8 @@ export function usePendingTranslation(namespace?: string) {
   const { currentLanguage } = useLanguage();
 
   const sourceLang = useMemo(() => {
-    const isCardArea = !namespace?.startsWith("company");
-    return isCardArea && CARD_FALLBACK_LANGS.has(currentLanguage.code)
+    const needsEnglish = ENGLISH_FALLBACK_NAMESPACES.some((ns) => namespace?.startsWith(ns));
+    return needsEnglish && ENGLISH_FALLBACK_LANGS.has(currentLanguage.code)
       ? FALLBACK_LANG
       : currentLanguage.code;
   }, [currentLanguage.code, namespace]);
