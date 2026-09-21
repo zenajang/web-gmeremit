@@ -240,15 +240,13 @@
               "website": "Website: gmeremit.com"
             },
             "limit": "Tối đa ₩2.000.000 mỗi giao dịch",
-            "qualification": "Thành viên GME Pay (từ 17 tuổi trở lên)",
             "title": "Hướng dẫn sử dụng"
           }
         },
         "features": [
           "Hoàn tiền cao cấp",
           "Giảm phí giao dịch nước ngoài",
-          "Trung tâm khách hàng chuyên biệt",
-          "Thanh toán trực tuyến & ngoại tuyến"
+          "Trung tâm khách hàng chuyên biệt"
         ],
         "name": "Black Card",
         "subtitle": "GME Black Mastercard"
@@ -330,10 +328,6 @@
               {
                 "desc": "Thanh toán tự do cho mua sắm và giải trí, cả trực tuyến và ngoại tuyến",
                 "title": "Mua sắm trực tuyến & ngoại tuyến"
-              },
-              {
-                "desc": "Sử dụng thẻ giao thông trả sau để đi lại tiện lợi. Chỉ cần chạm và đi, thanh toán tất cả sau.",
-                "title": "Thẻ giao thông trả sau"
               }
             ],
             "title": "Quyền lợi chính"
@@ -351,15 +345,13 @@
             },
             "limit": "Tối đa ₩2.000.000 mỗi giao dịch",
             "monthlyFee": "Phí hàng tháng ₩1.000 (tính vào ngày 1 mỗi tháng)",
-            "qualification": "Thành viên GME Pay (từ 17 tuổi trở lên)",
             "title": "Hướng dẫn sử dụng"
           }
         },
         "features": [
           "Thẻ giao thông trả sau",
           "Hoàn tiền theo mùa",
-          "Mua sắm trực tuyến & ngoại tuyến",
-          "Thanh toán toàn cầu"
+          "Mua sắm trực tuyến & ngoại tuyến"
         ],
         "name": "EasyGo Card",
         "subtitle": "GME EasyGo Mastercard"
@@ -431,15 +423,13 @@
               "website": "Website: gmeremit.com"
             },
             "limit": "Tối đa ₩2.000.000 mỗi giao dịch",
-            "qualification": "Thành viên GME Pay (từ 17 tuổi trở lên)",
             "title": "Hướng dẫn sử dụng"
           }
         },
         "features": [
           "Thanh toán toàn cầu Mastercard",
           "Hoàn tiền lên đến 30% trong sự kiện",
-          "Rút và nạp tiền tại ATM",
-          "Chức năng thẻ giao thông công cộng"
+          "Rút và nạp tiền tại ATM"
         ],
         "name": "Red Card",
         "subtitle": "GME Red Mastercard"
@@ -450,8 +440,7 @@
         "features": [
           "Thiết kế phiên bản giới hạn",
           "Hỗ trợ thanh toán toàn cầu",
-          "Ưu đãi sự kiện đặc biệt",
-          "Thẻ giao thông tích hợp"
+          "Ưu đãi sự kiện đặc biệt"
         ],
         "name": "Uniq Card",
         "subtitle": "GME Uniq Mastercard"

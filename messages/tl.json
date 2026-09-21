@@ -240,15 +240,13 @@
               "website": "Website: gmeremit.com"
             },
             "limit": "Hanggang ₩2,000,000 bawat transaksyon",
-            "qualification": "Mga miyembro ng GME Pay (edad 17+)",
             "title": "Gabay sa Paggamit"
           }
         },
         "features": [
           "Premium cashback reward",
           "Binawasang foreign transaction fee",
-          "Dedicated customer center",
-          "On at offline na pagbabayad"
+          "Dedicated customer center"
         ],
         "name": "Black Card",
         "subtitle": "GME Black Mastercard"
@@ -330,10 +328,6 @@
               {
                 "desc": "Magbayad nang malaya para sa shopping at libangan, online man o offline",
                 "title": "Online at Offline Shopping"
-              },
-              {
-                "desc": "Gumamit ng postpaid transit para sa mas maginhawang biyahe. I-tap lang at sumakay nang hindi tinitingnan ang balanse, tapos bayaran lahat mamaya.",
-                "title": "Postpaid Transit Card"
               }
             ],
             "title": "Mga Pangunahing Benepisyo"
@@ -351,15 +345,13 @@
             },
             "limit": "Hanggang ₩2,000,000 bawat transaksyon",
             "monthlyFee": "Buwanang bayad ₩1,000 (sinisingil tuwing ika-1 ng bawat buwan)",
-            "qualification": "Mga miyembro ng GME Pay (edad 17+)",
             "title": "Gabay sa Paggamit"
           }
         },
         "features": [
           "Postpaid transit card",
           "Seasonal cashback",
-          "Online at offline shopping",
-          "Magbayad kahit saan sa mundo"
+          "Online at offline shopping"
         ],
         "name": "EasyGo Card",
         "subtitle": "GME EasyGo Mastercard"
@@ -431,15 +423,13 @@
               "website": "Website: gmeremit.com"
             },
             "limit": "Hanggang ₩2,000,000 bawat transaksyon",
-            "qualification": "Mga miyembro ng GME Pay (edad 17+)",
             "title": "Gabay sa Paggamit"
           }
         },
         "features": [
           "Mastercard global payment",
           "Hanggang 30% cashback sa mga event",
-          "ATM withdrawal at deposit",
-          "Public transit card function"
+          "ATM withdrawal at deposit"
         ],
         "name": "Red Card",
         "subtitle": "GME Red Mastercard"
@@ -450,8 +440,7 @@
         "features": [
           "Limited edition na disenyo",
           "Global payment support",
-          "Espesyal na event na benepisyo",
-          "Built-in transit card"
+          "Espesyal na event na benepisyo"
         ],
         "name": "Uniq Card",
         "subtitle": "GME Uniq Mastercard"

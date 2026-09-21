@@ -240,15 +240,13 @@
               "website": "Website: gmeremit.com"
             },
             "limit": "Hingga ₩2.000.000 per transaksi",
-            "qualification": "Anggota GME Pay (usia 17+)",
             "title": "Panduan Pengguna"
           }
         },
         "features": [
           "Cashback premium",
           "Biaya transaksi luar negeri lebih rendah",
-          "Pusat layanan khusus",
-          "Pembayaran online & offline"
+          "Pusat layanan khusus"
         ],
         "name": "Black Card",
         "subtitle": "GME Black Mastercard"
@@ -330,10 +328,6 @@
               {
                 "desc": "Bayar bebas untuk belanja dan hiburan, online maupun offline",
                 "title": "Belanja Online & Offline"
-              },
-              {
-                "desc": "Gunakan kartu transportasi pascabayar untuk perjalanan lebih nyaman. Cukup tap dan naik, bayar sekaligus nanti.",
-                "title": "Kartu Transportasi Pascabayar"
               }
             ],
             "title": "Manfaat Utama"
@@ -351,15 +345,13 @@
             },
             "limit": "Hingga ₩2.000.000 per transaksi",
             "monthlyFee": "Biaya bulanan ₩1.000 (ditagih setiap tanggal 1)",
-            "qualification": "Anggota GME Pay (usia 17+)",
             "title": "Panduan Pengguna"
           }
         },
         "features": [
           "Kartu transportasi pascabayar",
           "Cashback musiman",
-          "Belanja online & offline",
-          "Bayar di seluruh dunia"
+          "Belanja online & offline"
         ],
         "name": "EasyGo Card",
         "subtitle": "GME EasyGo Mastercard"
@@ -431,15 +423,13 @@
               "website": "Website: gmeremit.com"
             },
             "limit": "Hingga ₩2.000.000 per transaksi",
-            "qualification": "Anggota GME Pay (usia 17+)",
             "title": "Panduan Pengguna"
           }
         },
         "features": [
           "Pembayaran global Mastercard",
           "Cashback hingga 30% saat event",
-          "Penarikan & setoran ATM",
-          "Fungsi kartu transportasi umum"
+          "Penarikan & setoran ATM"
         ],
         "name": "Red Card",
         "subtitle": "GME Red Mastercard"
@@ -450,8 +440,7 @@
         "features": [
           "Desain edisi terbatas",
           "Dukungan pembayaran global",
-          "Manfaat event khusus",
-          "Kartu transportasi bawaan"
+          "Manfaat event khusus"
         ],
         "name": "Uniq Card",
         "subtitle": "GME Uniq Mastercard"

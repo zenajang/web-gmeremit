@@ -240,15 +240,13 @@
               "website": "Veb-sayt: gmeremit.com"
             },
             "limit": "Bir operatsiya uchun ₩2,000,000 gacha",
-            "qualification": "GME Pay a'zolari (17+)",
             "title": "Foydalanuvchi qo'llanmasi"
           }
         },
         "features": [
           "Premium cashback mukofotlari",
           "Chet el to'lovlari bo'yicha past komissiya",
-          "Maxsus mijozlar markazi",
-          "Onlayn va oflayn to'lovlar"
+          "Maxsus mijozlar markazi"
         ],
         "name": "Black Card",
         "subtitle": "GME Black Mastercard"
@@ -330,10 +328,6 @@
               {
                 "desc": "Onlayn va oflayn xaridlar uchun erkin to'lov",
                 "title": "Onlayn & Oflayn xarid"
-              },
-              {
-                "desc": "Balansni tekshirmasdan tegizing va boring — keyin bir yo'la to'lang.",
-                "title": "Keyin to'lovli transport kartasi"
               }
             ],
             "title": "Asosiy afzalliklar"
@@ -351,15 +345,13 @@
             },
             "limit": "Bir operatsiya uchun ₩2,000,000 gacha",
             "monthlyFee": "Oylik to'lov ₩1,000 (har oy 1-kuni yechiladi)",
-            "qualification": "GME Pay a'zolari (17+)",
             "title": "Foydalanuvchi qo'llanmasi"
           }
         },
         "features": [
           "Keyin to'lovli transport kartasi",
           "Mavsumiy cashback",
-          "Onlayn va oflayn xarid",
-          "Dunyo bo'ylab to'lov"
+          "Onlayn va oflayn xarid"
         ],
         "name": "EasyGo Card",
         "subtitle": "GME EasyGo Mastercard"
@@ -431,15 +423,13 @@
               "website": "Veb-sayt: gmeremit.com"
             },
             "limit": "Bir operatsiya uchun ₩2,000,000 gacha",
-            "qualification": "GME Pay a'zolari (17+)",
             "title": "Foydalanuvchi qo'llanmasi"
           }
         },
         "features": [
           "Mastercard global to'lovlar",
           "30% gacha cashback",
-          "ATM orqali yechish/kiritish",
-          "Jamoat transporti kartasi"
+          "ATM orqali yechish/kiritish"
         ],
         "name": "Red Card",
         "subtitle": "GME Red Mastercard"
@@ -450,8 +440,7 @@
         "features": [
           "Cheklangan dizayn",
           "Global to'lov qo'llovi",
-          "Maxsus tadbir imtiyozlari",
-          "Jamoat transporti kartasi funksiyasi"
+          "Maxsus tadbir imtiyozlari"
         ],
         "name": "Uniq Card",
         "subtitle": "GME Uniq Mastercard"
