@@ -3,6 +3,7 @@
 import { useCallback, useMemo } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { getCountryTranslation } from "@/data/countryTranslations";
+import { languages } from "@/lib/language";
 
 function getNestedValue(obj: Record<string, unknown>, path: string): unknown {
   return path.split(".").reduce<unknown>((acc, key) => {
@@ -13,19 +14,37 @@ function getNestedValue(obj: Record<string, unknown>, path: string): unknown {
   }, obj);
 }
 
+const FALLBACK_LANG = "en";
+
+const isSiteLanguage = (code: string) => languages.some((language) => language.code === code);
+
 /**
  * 국가 랜딩페이지 전용 번역 훅.
- * 진입 시엔 그 나라 고유 언어(nativeLangCode)로 보여주고,
- * 사이트 언어를 바꾸면 해당 언어 파일이 있는 경우에만 그걸로 전환됨(없으면 고유 언어 유지).
+ * 고유 언어가 사이트 언어에 없는 나라(키르기스스탄·카자흐스탄·라오스·러시아)는
+ * 진입 직후에만 고유 언어로 보여준다. 사이트에서 고를 수 없는 언어라 랜딩에서만 읽을 수 있기 때문이다.
+ * 그 외에는 사이트 언어 → 영어 → 고유 언어 순으로 찾는다.
  */
 export function useCountryTranslation(countryName: string) {
-  const { currentLanguage } = useLanguage();
+  const { currentLanguage, isAutoLanguage } = useLanguage();
   const entry = useMemo(() => getCountryTranslation(countryName), [countryName]);
 
   const activeData = useMemo(() => {
     if (!entry) return {};
-    return entry.files[currentLanguage.code] ?? entry.files[entry.nativeLangCode] ?? {};
-  }, [entry, currentLanguage.code]);
+
+    // 사이트에서 고를 수 없는 언어의 나라는 진입 직후 고유 언어로 보여준다.
+    // 사용자가 언어를 직접 고르면 그 언어를 따른다.
+    const nativeOnly = !isSiteLanguage(entry.nativeLangCode);
+    if (nativeOnly && isAutoLanguage && entry.files[entry.nativeLangCode]) {
+      return entry.files[entry.nativeLangCode];
+    }
+
+    return (
+      entry.files[currentLanguage.code] ??
+      entry.files[FALLBACK_LANG] ??
+      entry.files[entry.nativeLangCode] ??
+      {}
+    );
+  }, [entry, currentLanguage.code, isAutoLanguage]);
 
   const t = useCallback(
     (key: string, params?: Record<string, string>): string => {

@@ -203,7 +203,7 @@ export function MobileCountriesAccordion({ label, onClose }: { label: string; on
               onClick={() => {
                 setSelectedCode(c.code);
                 const matched = languages.find((lang) => lang.code === c.langCode);
-                setLanguage(matched ?? languages.find((lang) => lang.code === "en")!);
+                setLanguage(matched ?? languages.find((lang) => lang.code === "en")!, { auto: true });
                 onClose();
                 router.push(`/country/${CountryNamesEn[c.code]}`);
               }}

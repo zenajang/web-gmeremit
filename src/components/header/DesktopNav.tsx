@@ -155,7 +155,7 @@ export function CountriesDropdown({ label }: { label: string }) {
     setSelectedCode(code);
     setIsOpen(false);
     const matched = languages.find((lang) => lang.code === langCode);
-    setLanguage(matched ?? languages.find((lang) => lang.code === "en")!);
+    setLanguage(matched ?? languages.find((lang) => lang.code === "en")!, { auto: true });
     router.push(`/country/${CountryNamesEn[code]}`);
   }
 
