@@ -28,23 +28,26 @@ export function useCountryTranslation(countryName: string) {
   const { currentLanguage, isAutoLanguage } = useLanguage();
   const entry = useMemo(() => getCountryTranslation(countryName), [countryName]);
 
-  const activeData = useMemo(() => {
-    if (!entry) return {};
+  /** 랜딩이 실제로 렌더되는 언어. 랜딩 안의 다른 번역도 이 언어를 따라야 한다 */
+  const activeLangCode = useMemo(() => {
+    if (!entry) return currentLanguage.code;
 
     // 사이트에서 고를 수 없는 언어의 나라는 진입 직후 고유 언어로 보여준다.
     // 사용자가 언어를 직접 고르면 그 언어를 따른다.
     const nativeOnly = !isSiteLanguage(entry.nativeLangCode);
     if (nativeOnly && isAutoLanguage && entry.files[entry.nativeLangCode]) {
-      return entry.files[entry.nativeLangCode];
+      return entry.nativeLangCode;
     }
 
-    return (
-      entry.files[currentLanguage.code] ??
-      entry.files[FALLBACK_LANG] ??
-      entry.files[entry.nativeLangCode] ??
-      {}
-    );
+    if (entry.files[currentLanguage.code]) return currentLanguage.code;
+    if (entry.files[FALLBACK_LANG]) return FALLBACK_LANG;
+    return entry.nativeLangCode;
   }, [entry, currentLanguage.code, isAutoLanguage]);
+
+  const activeData = useMemo(
+    () => entry?.files[activeLangCode] ?? {},
+    [entry, activeLangCode]
+  );
 
   const t = useCallback(
     (key: string, params?: Record<string, string>): string => {
@@ -75,5 +78,5 @@ export function useCountryTranslation(countryName: string) {
     [activeData]
   );
 
-  return { t, tArray, tObject };
+  return { t, tArray, tObject, activeLangCode };
 }

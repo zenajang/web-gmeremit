@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { countryConfigs } from "@/data/countries";
-import { useTranslation } from "@/hooks/useTranslation";
+import { useTranslation, translations } from "@/hooks/useTranslation";
 import { useCountryTranslation } from "@/hooks/useCountryTranslation";
 import { useClickOutside } from "@/hooks/useClickOutside";
 import { getExchangeRate } from "@/lib/GetExchangeRate";
@@ -12,11 +12,17 @@ import { usePathname } from "next/navigation";
 const formatNumber = (num: string) => num.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 const parseNumber = (str: string) => str.replace(/,/g, "");
 
+/** messages 에 파일이 있는 언어만 쓰고, 없으면 영어로 떨어뜨린다 */
+const resolveMessagesLang = (langCode: string) =>
+  langCode in translations ? langCode : "en";
+
 const ExchangeRateCalculator = () => {
-  const { t } = useTranslation("home.exchange");
   const pathname = usePathname();
   const countryName = pathname.split("/").pop() ?? "";
-  const { t: tCountry } = useCountryTranslation(countryName);
+  const { t: tCountry, activeLangCode } = useCountryTranslation(countryName);
+  // 계산기는 랜딩 안에 있으므로 랜딩 언어를 따른다.
+  // 단 messages 에 없는 언어(카자흐어·키르기스어·라오어·러시아어)는 영어로 둔다.
+  const { t } = useTranslation("home.exchange", resolveMessagesLang(activeLangCode));
   const normalize = (value: string) => value.toLowerCase().replace(/[-\s]+/g, "");
   const matchedCountry = countryConfigs.find(
     (c) => normalize(c.countryName) === normalize(countryName ?? "")

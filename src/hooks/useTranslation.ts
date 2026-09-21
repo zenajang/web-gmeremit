@@ -78,12 +78,13 @@ function getNestedValue(obj: Translations, path: string): TranslationValue {
  * @param namespace - The namespace to use (e.g., "home.hero")
  * @returns Translation function
  */
-export function useTranslation(namespace?: string) {
+export function useTranslation(namespace?: string, langCodeOverride?: string) {
   const { currentLanguage } = useLanguage();
+  const langCode = langCodeOverride ?? currentLanguage.code;
 
   const currentTranslations = useMemo(() => {
-    return translations[currentLanguage.code] || translations.ko;
-  }, [currentLanguage.code]);
+    return translations[langCode] || translations.ko;
+  }, [langCode]);
 
   /**
    * Get a translated string
