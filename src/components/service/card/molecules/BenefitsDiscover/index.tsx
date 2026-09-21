@@ -18,8 +18,8 @@ const BenefitsDiscover = ({benefits} : BenefitsDiscoverProps) => {
         <Image
           src="/images/card/cards_all.png"
           alt="GME Cards Collection"
-          width={1069}
-          height={540}
+          width={1406}
+          height={1124}
           className="w-full h-auto object-contain"
           priority
         />

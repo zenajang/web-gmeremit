@@ -22,7 +22,7 @@ const CardBenefits = () => {
   }));
 
   return (
-    <section ref={registerSectionRef(0)} className="py-20 lg:py-28 fade-section">
+    <section ref={registerSectionRef(0)} className="py-20 fade-section">
       <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
         <BenefitsDiscover benefits={benefits} />
         <Benefits benefits={benefits} />
