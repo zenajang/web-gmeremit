@@ -1,57 +1,86 @@
-import africa from "@messages/pending/en.json";
-import arab from "@messages/pending/ar.json";
-import bangladesh from "@messages/pending/bn.json";
-import cambodia from "@messages/pending/km.json";
-import china from "@messages/pending/zh.json";
-import india from "@messages/pending/hi.json";
-import indonesia from "@messages/pending/id.json";
-import kazakhstan from "@messages/pending/kk.json";
-import kyrgyzstan from "@messages/pending/ky.json";
-import laos from "@messages/pending/lo.json";
-import mongolia from "@messages/pending/mn.json";
-import myanmar from "@messages/pending/my.json";
-import nepal from "@messages/pending/ne.json";
-import pakistan from "@messages/pending/ur.json";
-import philippines from "@messages/pending/tl.json";
-import russia from "@messages/pending/ru.json";
-import spanishLatam from "@messages/pending/es.json";
-import sriLanka from "@messages/pending/si.json";
-import thailand from "@messages/pending/th.json";
-import uzbekistan from "@messages/pending/uz.json";
-import vietnam from "@messages/pending/vi.json";
+import ar from "@messages/pending/ar.json";
+import bn from "@messages/pending/bn.json";
+import en from "@messages/pending/en.json";
+import es from "@messages/pending/es.json";
+import fr from "@messages/pending/fr.json";
+import hi from "@messages/pending/hi.json";
+import id from "@messages/pending/id.json";
+import ja from "@messages/pending/ja.json";
+import kk from "@messages/pending/kk.json";
+import km from "@messages/pending/km.json";
+import ko from "@messages/pending/ko.json";
+import ky from "@messages/pending/ky.json";
+import lo from "@messages/pending/lo.json";
+import mn from "@messages/pending/mn.json";
+import my from "@messages/pending/my.json";
+import ne from "@messages/pending/ne.json";
+import ru from "@messages/pending/ru.json";
+import si from "@messages/pending/si.json";
+import th from "@messages/pending/th.json";
+import tl from "@messages/pending/tl.json";
+import ur from "@messages/pending/ur.json";
+import uz from "@messages/pending/uz.json";
+import vi from "@messages/pending/vi.json";
+import zh from "@messages/pending/zh.json";
 
 export interface CountryTranslationEntry {
   nativeLangCode: string;
   files: Record<string, Record<string, unknown>>;
 }
 
+interface PendingFile {
+  landing?: Record<string, Record<string, unknown>>;
+  [namespace: string]: unknown;
+}
+
 const normalize = (value: string) => value.toLowerCase().replace(/[-\s]+/g, "");
 
-const manifest: Record<string, CountryTranslationEntry> = {
-  [normalize("africa")]: { nativeLangCode: "en", files: { en: africa.landing } },
-  [normalize("arab")]: { nativeLangCode: "ar", files: { ar: arab.landing } },
-  [normalize("bangladesh")]: { nativeLangCode: "bn", files: { bn: bangladesh.landing } },
-  [normalize("cambodia")]: { nativeLangCode: "km", files: { km: cambodia.landing } },
-  [normalize("china")]: { nativeLangCode: "zh", files: { zh: china.landing } },
-  [normalize("india")]: { nativeLangCode: "hi", files: { hi: india.landing } },
-  [normalize("indonesia")]: { nativeLangCode: "id", files: { id: indonesia.landing } },
-  [normalize("kazakhstan")]: { nativeLangCode: "kk", files: { kk: kazakhstan.landing } },
-  [normalize("kyrgyzstan")]: { nativeLangCode: "ky", files: { ky: kyrgyzstan.landing } },
-  [normalize("laos")]: { nativeLangCode: "lo", files: { lo: laos.landing } },
-  [normalize("mongolia")]: { nativeLangCode: "mn", files: { mn: mongolia.landing } },
-  [normalize("myanmar")]: { nativeLangCode: "my", files: { my: myanmar.landing } },
-  [normalize("nepal")]: { nativeLangCode: "ne", files: { ne: nepal.landing } },
-  [normalize("pakistan")]: { nativeLangCode: "ur", files: { ur: pakistan.landing } },
-  [normalize("philippines")]: { nativeLangCode: "tl", files: { tl: philippines.landing } },
-  [normalize("russia")]: { nativeLangCode: "ru", files: { ru: russia.landing } },
-  [normalize("spanish-latam")]: { nativeLangCode: "es", files: { es: spanishLatam.landing } },
-  [normalize("sri-lanka")]: { nativeLangCode: "si", files: { si: sriLanka.landing } },
-  [normalize("thailand")]: { nativeLangCode: "th", files: { th: thailand.landing } },
-  [normalize("uzbekistan")]: { nativeLangCode: "uz", files: { uz: uzbekistan.landing } },
-  [normalize("vietnam")]: { nativeLangCode: "vi", files: { vi: vietnam.landing } },
+/** 언어코드 → 그 언어로 작성된 랜딩 번역 파일 */
+const pendingByLang: Record<string, PendingFile> = {
+  ar, bn, en, es, fr, hi, id, ja, kk, km, ko, ky, lo, mn, my, ne, ru, si, th, tl, ur, uz, vi, zh,
 };
 
-// 헤더 국가 라우팅에서 실제 슬러그와 번역 폴더명이 다른 경우만 여기서 매핑
+/** 국가별 고유 언어. 랜딩 번역이 그 언어로만 있을 때의 기본값 */
+const nativeLangByCountry: Record<string, string> = {
+  africa: "en",
+  arab: "ar",
+  bangladesh: "bn",
+  cambodia: "km",
+  china: "zh",
+  india: "hi",
+  indonesia: "id",
+  kazakhstan: "kk",
+  kyrgyzstan: "ky",
+  laos: "lo",
+  mongolia: "mn",
+  myanmar: "my",
+  nepal: "ne",
+  pakistan: "ur",
+  philippines: "tl",
+  russia: "ru",
+  "spanish-latam": "es",
+  "sri-lanka": "si",
+  thailand: "th",
+  uzbekistan: "uz",
+  vietnam: "vi",
+};
+
+// 각 언어 파일의 landing 아래 국가 키를 훑어 국가별로 언어를 모은다.
+// 같은 국가에 언어 파일이 늘어나면 자동으로 선택지가 늘어난다.
+const manifest: Record<string, CountryTranslationEntry> = {};
+
+for (const [country, nativeLangCode] of Object.entries(nativeLangByCountry)) {
+  const files: Record<string, Record<string, unknown>> = {};
+
+  for (const [langCode, data] of Object.entries(pendingByLang)) {
+    const landing = data.landing?.[country];
+    if (landing) files[langCode] = landing;
+  }
+
+  manifest[normalize(country)] = { nativeLangCode, files };
+}
+
+// 헤더 국가 라우팅에서 실제 슬러그와 번역 키가 다른 경우만 여기서 매핑
 const slugAliases: Record<string, string> = {
   [normalize("Russian-Federation")]: normalize("russia"),
 };

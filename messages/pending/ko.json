@@ -1,4 +1,3108 @@
 {
+  "landing": {
+    "africa": {
+      "header": {
+        "navItems": {
+          "company": "회사소개",
+          "services": "서비스",
+          "countries": "국가",
+          "news": "소식",
+          "support": "고객지원"
+        },
+        "downloadAppLabel": "앱 다운로드"
+      },
+      "hero": {
+        "eyebrow": "GME Africa",
+        "headingLines": [
+          "고향으로 송금하세요.",
+          "소중한 사람과 연결되세요.",
+          "간편하게 결제하세요."
+        ],
+        "subheading": "한국에 거주하는 아프리카 출신 여러분을 위한 믿을 수 있는 서비스",
+        "ctaPrimaryLabel": "지금 송금하기",
+        "ctaSecondaryLabel": "시작하기"
+      },
+      "exchangeRate": {
+        "eyebrow": "환율",
+        "heading": "오늘의 환율 확인하기",
+        "description": "한국에서 아프리카로 송금하기 전에 GME Remit의 최신 환율을 확인하세요",
+        "note": "환율은 하루 중에도 변동될 수 있습니다",
+        "cardTitle": "GME Remit 계산기",
+        "sampleTag": "예시 금액",
+        "sendAmountLabel": "보낼 금액",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "받는 국가",
+        "recipientCountryOption": "Africa",
+        "receiveCurrencyLabel": "TBD",
+        "receiverGetsLabel": "받는 금액",
+        "transferFeeLabel": "송금 수수료",
+        "exchangeRateLabel": "환율",
+        "submitLabel": "지금 송금하기"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "아프리카로 송금하기",
+        "description": "한국에서 아프리카의 가족과 소중한 사람들을 간편하고 안전하게 지원하는 방법입니다.",
+        "features": [
+          "경쟁력 있는 환율",
+          "빠르고 안정적인 송금",
+          "투명한 수수료",
+          "필요할 때 받는 고객지원"
+        ],
+        "ctaLabel": "지금 송금하기"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "카드 하나로 충분합니다",
+        "description": "한국에서의 일상부터 해외까지, 간편하게 결제하세요.",
+        "features": [
+          "전 세계 어디서나 결제",
+          "쇼핑",
+          "대중교통",
+          "캐시백",
+          "EasyCare 혜택"
+        ],
+        "ctaLabel": "GME 카드 살펴보기"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "한국에서도 끊김 없이",
+        "description": "한국 생활을 더 편하게 만들어 주는 요금제로 소중한 사람들과 가까이 지내세요",
+        "features": [
+          "안정적인 통신 품질",
+          "유연한 요금제",
+          "간편한 개통",
+          "친절한 현지 지원"
+        ],
+        "ctaLabel": "요금제 보기"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "당신의 디지털 금융 파트너",
+        "description": "외국인 대출의 새로운 기준을 경험하세요. GME 앱으로 간편하게 신청할 수 있습니다. 한국에 거주하는 외국인을 위한 간편한 디지털 대출 서비스입니다.",
+        "features": [
+          "서류 없는 대출 신청",
+          "실시간 대출 진행 상황 조회",
+          "실시간 대출 잔액 조회"
+        ],
+        "ctaLabel": "지금 신청하기"
+      },
+      "faq": {
+        "heading": "GME Remit 자주 묻는 질문",
+        "subheading": "GME Remit으로 송금할 때 자주 묻는 질문의 답변을 확인하세요",
+        "items": [
+          {
+            "question": "GME Remit으로 송금하면 얼마나 걸리나요?",
+            "answer": [
+              "GME Remit 송금은 보통 10초 내외로 완료됩니다. 다만 실제 소요 시간은 받는 국가, 은행, 지급 방식에 따라 달라질 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit은 안전한가요?",
+            "answer": [
+              "네. GME Remit은 한국에서 인가를 받은 송금 서비스로 관련 금융 당국의 감독을 받습니다. 고객과 거래를 보호하기 위해 안전한 본인 확인 및 거래 처리 절차를 운영하고 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit 계정은 어떻게 만드나요?",
+            "answer": [
+              "GME Remit 앱을 내려받아 계정을 만들고 필요한 신원 확인을 완료하세요. 가입과 인증이 끝나면 바로 GME Remit 서비스를 이용하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit으로 어느 나라에 송금할 수 있나요?",
+            "answer": [
+              "GME Remit은 전 세계 여러 국가로의 해외 송금을 지원합니다. 송금 가능 국가와 수령 방식은 GME Remit 앱에서 바로 확인하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "송금에 문제가 생기면 어떻게 하나요?",
+            "answer": [
+              "고객지원팀은 월요일부터 일요일까지 10:00~23:00에 운영됩니다.",
+              "{SUPPORT_PHONE_NUMBER}으로 전화하시거나 GME Remit 앱을 통해 문의하실 수 있습니다.",
+              "Facebook, Instagram, TikTok, ChannelTalk 등 GME 아프리카 공식 소셜 미디어 채널로도 메시지를 보내실 수 있습니다.",
+              "직접 상담을 원하시면 한국 곳곳의 GME Remit 지점에서 직원이 도와드립니다."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "GME 아프리카와 소통하세요",
+        "subheading": "우리 커뮤니티를 위한 소식과 유용한 정보를 전해드립니다",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "GME 앱 다운로드",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "한국에 거주하는 아프리카 출신을 위한 금융 서비스입니다.",
+        "copyrightSuffix": "GME. All rights reserved."
+      }
+    },
+    "arab": {
+      "header": {
+        "navItems": {
+          "company": "회사소개",
+          "services": "서비스",
+          "countries": "국가",
+          "news": "소식",
+          "support": "고객지원"
+        },
+        "downloadAppLabel": "앱 다운로드"
+      },
+      "hero": {
+        "eyebrow": "GME Arab",
+        "headingLines": [
+          "고향으로 송금하세요.",
+          "소중한 사람과 연결되세요.",
+          "간편하게 결제하세요."
+        ],
+        "subheading": "한국에 거주하는 아랍 출신 여러분을 위한 믿을 수 있는 서비스",
+        "ctaPrimaryLabel": "지금 송금하기",
+        "ctaSecondaryLabel": "시작하기"
+      },
+      "exchangeRate": {
+        "eyebrow": "환율",
+        "heading": "오늘의 환율 확인하기",
+        "description": "한국에서 아랍으로 송금하기 전에 GME Remit의 최신 환율을 확인하세요",
+        "note": "환율은 하루 중에도 변동될 수 있습니다",
+        "cardTitle": "GME Remit 계산기",
+        "sampleTag": "예시 금액",
+        "sendAmountLabel": "보낼 금액",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "받는 국가",
+        "recipientCountryOption": "Arab",
+        "receiveCurrencyLabel": "TBD",
+        "receiverGetsLabel": "받는 금액",
+        "transferFeeLabel": "송금 수수료",
+        "exchangeRateLabel": "환율",
+        "submitLabel": "지금 송금하기"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "아랍으로 송금하기",
+        "description": "한국에서 아랍의 가족과 소중한 사람들을 간편하고 안전하게 지원하는 방법입니다.",
+        "features": [
+          "경쟁력 있는 환율",
+          "빠르고 안정적인 송금",
+          "투명한 수수료",
+          "필요할 때 받는 고객지원"
+        ],
+        "ctaLabel": "지금 송금하기"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "카드 하나로 충분합니다",
+        "description": "한국에서의 일상부터 해외까지, 간편하게 결제하세요.",
+        "features": [
+          "전 세계 어디서나 결제",
+          "쇼핑",
+          "대중교통",
+          "캐시백",
+          "EasyCare 혜택"
+        ],
+        "ctaLabel": "GME 카드 살펴보기"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "한국에서도 끊김 없이",
+        "description": "한국 생활을 더 편하게 만들어 주는 요금제로 소중한 사람들과 가까이 지내세요",
+        "features": [
+          "안정적인 통신 품질",
+          "유연한 요금제",
+          "간편한 개통",
+          "친절한 현지 지원"
+        ],
+        "ctaLabel": "요금제 보기"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "당신의 디지털 금융 파트너",
+        "description": "외국인 대출의 새로운 기준을 경험하세요. GME 앱으로 간편하게 신청할 수 있습니다. 한국에 거주하는 외국인을 위한 간편한 디지털 대출 서비스입니다.",
+        "features": [
+          "서류 없는 대출 신청",
+          "실시간 대출 진행 상황 조회",
+          "실시간 대출 잔액 조회"
+        ],
+        "ctaLabel": "지금 신청하기"
+      },
+      "faq": {
+        "heading": "GME Remit 자주 묻는 질문",
+        "subheading": "GME Remit으로 송금할 때 자주 묻는 질문의 답변을 확인하세요",
+        "items": [
+          {
+            "question": "GME Remit으로 송금하면 얼마나 걸리나요?",
+            "answer": [
+              "GME Remit 송금은 보통 10초 내외로 완료됩니다. 다만 실제 소요 시간은 받는 국가, 은행, 지급 방식에 따라 달라질 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit은 안전한가요?",
+            "answer": [
+              "네. GME Remit은 한국에서 인가를 받은 송금 서비스로 관련 금융 당국의 감독을 받습니다. 고객과 거래를 보호하기 위해 안전한 본인 확인 및 거래 처리 절차를 운영하고 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit 계정은 어떻게 만드나요?",
+            "answer": [
+              "GME Remit 앱을 내려받아 계정을 만들고 필요한 신원 확인을 완료하세요. 가입과 인증이 끝나면 바로 GME Remit 서비스를 이용하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit으로 어느 나라에 송금할 수 있나요?",
+            "answer": [
+              "GME Remit은 전 세계 여러 국가로의 해외 송금을 지원합니다. 송금 가능 국가와 수령 방식은 GME Remit 앱에서 바로 확인하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "송금에 문제가 생기면 어떻게 하나요?",
+            "answer": [
+              "고객지원팀은 월요일부터 일요일까지 10:00~23:00에 운영됩니다. {SUPPORT_PHONE_NUMBER}으로 전화하시거나 GME Remit 앱 또는 GME 공식 소셜 미디어 채널로 문의하실 수 있으며, 한국 내 GME Remit 지점을 방문하시면 직접 도움을 받으실 수 있습니다."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "GME 아랍과 소통하세요",
+        "subheading": "우리 커뮤니티를 위한 소식과 유용한 정보를 전해드립니다",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "GME 앱 다운로드",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "한국에 거주하는 아랍 출신을 위한 금융 서비스입니다.",
+        "copyrightSuffix": "GME. All rights reserved."
+      }
+    },
+    "bangladesh": {
+      "header": {
+        "navItems": {
+          "company": "회사소개",
+          "services": "서비스",
+          "countries": "국가",
+          "news": "소식",
+          "support": "고객지원"
+        },
+        "downloadAppLabel": "앱 다운로드"
+      },
+      "hero": {
+        "eyebrow": "GME Bangladesh",
+        "headingLines": [
+          "고향으로 송금하세요.",
+          "소중한 사람과 연결되세요.",
+          "간편하게 결제하세요."
+        ],
+        "subheading": "한국에 거주하는 방글라데시 출신 여러분을 위한 믿을 수 있는 서비스",
+        "ctaPrimaryLabel": "지금 송금하기",
+        "ctaSecondaryLabel": "시작하기"
+      },
+      "exchangeRate": {
+        "eyebrow": "환율",
+        "heading": "오늘의 환율 확인하기",
+        "description": "한국에서 방글라데시로 송금하기 전에 GME Remit의 최신 환율을 확인하세요",
+        "note": "환율은 하루 중에도 변동될 수 있습니다",
+        "cardTitle": "GME Remit 계산기",
+        "sampleTag": "예시 금액",
+        "sendAmountLabel": "보낼 금액",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "받는 국가",
+        "recipientCountryOption": "Bangladesh",
+        "receiveCurrencyLabel": "BDT",
+        "receiverGetsLabel": "받는 금액",
+        "transferFeeLabel": "송금 수수료",
+        "exchangeRateLabel": "환율",
+        "submitLabel": "지금 송금하기"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "방글라데시로 송금하기",
+        "description": "한국에서 방글라데시의 가족과 소중한 사람들을 간편하고 안전하게 지원하는 방법입니다.",
+        "features": [
+          "경쟁력 있는 환율",
+          "빠르고 안정적인 송금",
+          "투명한 수수료",
+          "필요할 때 받는 고객지원"
+        ],
+        "ctaLabel": "지금 송금하기"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "카드 하나로 충분합니다",
+        "description": "한국에서의 일상부터 해외까지, 간편하게 결제하세요.",
+        "features": [
+          "전 세계 어디서나 결제",
+          "쇼핑",
+          "대중교통",
+          "캐시백",
+          "EasyCare 혜택"
+        ],
+        "ctaLabel": "GME 카드 살펴보기"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "한국에서도 끊김 없이",
+        "description": "한국 생활을 더 편하게 만들어 주는 요금제로 소중한 사람들과 가까이 지내세요",
+        "features": [
+          "안정적인 통신 품질",
+          "유연한 요금제",
+          "간편한 개통",
+          "친절한 현지 지원"
+        ],
+        "ctaLabel": "요금제 보기"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "당신의 디지털 금융 파트너",
+        "description": "외국인 대출의 새로운 기준을 경험하세요. GME 앱으로 간편하게 신청할 수 있습니다. 한국에 거주하는 외국인을 위한 간편한 디지털 대출 서비스입니다.",
+        "features": [
+          "서류 없는 대출 신청",
+          "실시간 대출 진행 상황 조회",
+          "실시간 대출 잔액 조회"
+        ],
+        "ctaLabel": "지금 신청하기"
+      },
+      "faq": {
+        "heading": "GME Remit 자주 묻는 질문",
+        "subheading": "GME Remit으로 송금할 때 자주 묻는 질문의 답변을 확인하세요",
+        "items": [
+          {
+            "question": "GME Remit으로 송금하면 얼마나 걸리나요?",
+            "answer": [
+              "GME Remit 송금은 보통 10초 내외로 완료됩니다. 다만 실제 소요 시간은 받는 국가, 은행, 지급 방식에 따라 달라질 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit은 안전한가요?",
+            "answer": [
+              "네. GME Remit은 한국에서 인가를 받은 송금 서비스로 관련 금융 당국의 감독을 받습니다. 고객과 거래를 보호하기 위해 안전한 본인 확인 및 거래 처리 절차를 운영하고 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit 계정은 어떻게 만드나요?",
+            "answer": [
+              "GME Remit 앱을 내려받아 계정을 만들고 필요한 신원 확인을 완료하세요. 가입과 인증이 끝나면 바로 GME Remit 서비스를 이용하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit으로 어느 나라에 송금할 수 있나요?",
+            "answer": [
+              "GME Remit은 전 세계 여러 국가로의 해외 송금을 지원합니다. 송금 가능 국가와 수령 방식은 GME Remit 앱에서 바로 확인하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "송금에 문제가 생기면 어떻게 하나요?",
+            "answer": [
+              "고객지원팀은 월요일부터 일요일까지 10:00~23:00에 운영됩니다. {SUPPORT_PHONE_NUMBER}으로 전화하시거나 GME Remit 앱 또는 GME 공식 소셜 미디어 채널로 문의하실 수 있으며, 한국 내 GME Remit 지점을 방문하시면 직접 도움을 받으실 수 있습니다."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "GME 방글라데시와 소통하세요",
+        "subheading": "우리 커뮤니티를 위한 소식과 유용한 정보를 전해드립니다",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "GME 앱 다운로드",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "한국에 거주하는 방글라데시 출신을 위한 금융 서비스입니다.",
+        "copyrightSuffix": "GME. All rights reserved."
+      }
+    },
+    "cambodia": {
+      "header": {
+        "navItems": {
+          "company": "회사소개",
+          "services": "서비스",
+          "countries": "국가",
+          "news": "소식",
+          "support": "고객지원"
+        },
+        "downloadAppLabel": "앱 다운로드"
+      },
+      "hero": {
+        "eyebrow": "GME Cambodia",
+        "headingLines": [
+          "고향으로 송금하세요.",
+          "소중한 사람과 연결되세요.",
+          "간편하게 결제하세요."
+        ],
+        "subheading": "한국에 거주하는 캄보디아 출신 여러분을 위한 믿을 수 있는 서비스",
+        "ctaPrimaryLabel": "지금 송금하기",
+        "ctaSecondaryLabel": "시작하기"
+      },
+      "exchangeRate": {
+        "eyebrow": "환율",
+        "heading": "오늘의 환율 확인하기",
+        "description": "한국에서 캄보디아로 송금하기 전에 GME Remit의 최신 환율을 확인하세요",
+        "note": "환율은 하루 중에도 변동될 수 있습니다",
+        "cardTitle": "GME Remit 계산기",
+        "sampleTag": "예시 금액",
+        "sendAmountLabel": "보낼 금액",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "받는 국가",
+        "recipientCountryOption": "Cambodia",
+        "receiveCurrencyLabel": "KHR",
+        "receiverGetsLabel": "받는 금액",
+        "transferFeeLabel": "송금 수수료",
+        "exchangeRateLabel": "환율",
+        "submitLabel": "지금 송금하기"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "캄보디아로 송금하기",
+        "description": "한국에서 캄보디아의 가족과 소중한 사람들을 간편하고 안전하게 지원하는 방법입니다.",
+        "features": [
+          "경쟁력 있는 환율",
+          "빠르고 안정적인 송금",
+          "투명한 수수료",
+          "필요할 때 받는 고객지원"
+        ],
+        "ctaLabel": "지금 송금하기"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "카드 하나로 충분합니다",
+        "description": "한국에서의 일상부터 해외까지, 간편하게 결제하세요.",
+        "features": [
+          "전 세계 어디서나 결제",
+          "쇼핑",
+          "대중교통",
+          "캐시백",
+          "EasyCare 혜택"
+        ],
+        "ctaLabel": "GME 카드 살펴보기"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "한국에서도 끊김 없이",
+        "description": "한국 생활을 더 편하게 만들어 주는 요금제로 소중한 사람들과 가까이 지내세요",
+        "features": [
+          "안정적인 통신 품질",
+          "유연한 요금제",
+          "간편한 개통",
+          "친절한 현지 지원"
+        ],
+        "ctaLabel": "요금제 보기"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "당신의 디지털 금융 파트너",
+        "description": "외국인 대출의 새로운 기준을 경험하세요. GME 앱으로 간편하게 신청할 수 있습니다. 한국에 거주하는 외국인을 위한 간편한 디지털 대출 서비스입니다.",
+        "features": [
+          "서류 없는 대출 신청",
+          "실시간 대출 진행 상황 조회",
+          "실시간 대출 잔액 조회"
+        ],
+        "ctaLabel": "지금 신청하기"
+      },
+      "faq": {
+        "heading": "GME Remit 자주 묻는 질문",
+        "subheading": "GME Remit으로 송금할 때 자주 묻는 질문의 답변을 확인하세요",
+        "items": [
+          {
+            "question": "GME Remit으로 송금하면 얼마나 걸리나요?",
+            "answer": [
+              "GME Remit 송금은 보통 10초 내외로 완료됩니다. 다만 실제 소요 시간은 받는 국가, 은행, 지급 방식에 따라 달라질 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit은 안전한가요?",
+            "answer": [
+              "네. GME Remit은 한국에서 인가를 받은 송금 서비스로 관련 금융 당국의 감독을 받습니다. 고객과 거래를 보호하기 위해 안전한 본인 확인 및 거래 처리 절차를 운영하고 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit 계정은 어떻게 만드나요?",
+            "answer": [
+              "GME Remit 앱을 내려받아 계정을 만들고 필요한 신원 확인을 완료하세요. 가입과 인증이 끝나면 바로 GME Remit 서비스를 이용하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit으로 어느 나라에 송금할 수 있나요?",
+            "answer": [
+              "GME Remit은 전 세계 여러 국가로의 해외 송금을 지원합니다. 송금 가능 국가와 수령 방식은 GME Remit 앱에서 바로 확인하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "송금에 문제가 생기면 어떻게 하나요?",
+            "answer": [
+              "고객지원팀은 월요일부터 일요일까지 10:00~23:00에 운영됩니다. {SUPPORT_PHONE_NUMBER}으로 전화하시거나 GME Remit 앱 또는 GME 공식 소셜 미디어 채널로 문의하실 수 있으며, 한국 내 GME Remit 지점을 방문하시면 직접 도움을 받으실 수 있습니다."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "GME 캄보디아와 소통하세요",
+        "subheading": "우리 커뮤니티를 위한 소식과 유용한 정보를 전해드립니다",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "GME 앱 다운로드",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "한국에 거주하는 캄보디아 출신을 위한 금융 서비스입니다.",
+        "copyrightSuffix": "GME. All rights reserved."
+      }
+    },
+    "china": {
+      "header": {
+        "navItems": {
+          "company": "회사소개",
+          "services": "서비스",
+          "countries": "국가",
+          "news": "소식",
+          "support": "고객지원"
+        },
+        "downloadAppLabel": "앱 다운로드"
+      },
+      "hero": {
+        "eyebrow": "GME China",
+        "headingLines": [
+          "고향으로 송금하세요.",
+          "소중한 사람과 연결되세요.",
+          "간편하게 결제하세요."
+        ],
+        "subheading": "한국에 거주하는 중국 출신 여러분을 위한 믿을 수 있는 서비스",
+        "ctaPrimaryLabel": "지금 송금하기",
+        "ctaSecondaryLabel": "시작하기"
+      },
+      "exchangeRate": {
+        "eyebrow": "환율",
+        "heading": "오늘의 환율 확인하기",
+        "description": "한국에서 중국으로 송금하기 전에 GME Remit의 최신 환율을 확인하세요",
+        "note": "환율은 하루 중에도 변동될 수 있습니다",
+        "cardTitle": "GME Remit 계산기",
+        "sampleTag": "예시 금액",
+        "sendAmountLabel": "보낼 금액",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "받는 국가",
+        "recipientCountryOption": "China",
+        "receiveCurrencyLabel": "CNY",
+        "receiverGetsLabel": "받는 금액",
+        "transferFeeLabel": "송금 수수료",
+        "exchangeRateLabel": "환율",
+        "submitLabel": "지금 송금하기"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "중국으로 송금하기",
+        "description": "한국에서 중국의 가족과 소중한 사람들을 간편하고 안전하게 지원하는 방법입니다.",
+        "features": [
+          "경쟁력 있는 환율",
+          "빠르고 안정적인 송금",
+          "투명한 수수료",
+          "필요할 때 받는 고객지원"
+        ],
+        "ctaLabel": "지금 송금하기"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "카드 하나로 충분합니다",
+        "description": "한국에서의 일상부터 해외까지, 간편하게 결제하세요.",
+        "features": [
+          "전 세계 어디서나 결제",
+          "쇼핑",
+          "대중교통",
+          "캐시백",
+          "EasyCare 혜택"
+        ],
+        "ctaLabel": "GME 카드 살펴보기"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "한국에서도 끊김 없이",
+        "description": "한국 생활을 더 편하게 만들어 주는 요금제로 소중한 사람들과 가까이 지내세요",
+        "features": [
+          "안정적인 통신 품질",
+          "유연한 요금제",
+          "간편한 개통",
+          "친절한 현지 지원"
+        ],
+        "ctaLabel": "요금제 보기"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "당신의 디지털 금융 파트너",
+        "description": "외국인 대출의 새로운 기준을 경험하세요. GME 앱으로 간편하게 신청할 수 있습니다. 한국에 거주하는 외국인을 위한 간편한 디지털 대출 서비스입니다.",
+        "features": [
+          "서류 없는 대출 신청",
+          "실시간 대출 진행 상황 조회",
+          "실시간 대출 잔액 조회"
+        ],
+        "ctaLabel": "지금 신청하기"
+      },
+      "faq": {
+        "heading": "GME Remit 자주 묻는 질문",
+        "subheading": "GME Remit으로 송금할 때 자주 묻는 질문의 답변을 확인하세요",
+        "items": [
+          {
+            "question": "GME Remit으로 송금하면 얼마나 걸리나요?",
+            "answer": [
+              "GME Remit 송금은 보통 10초 내외로 완료됩니다. 다만 실제 소요 시간은 받는 국가, 은행, 지급 방식에 따라 달라질 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit은 안전한가요?",
+            "answer": [
+              "네. GME Remit은 한국에서 인가를 받은 송금 서비스로 관련 금융 당국의 감독을 받습니다. 고객과 거래를 보호하기 위해 안전한 본인 확인 및 거래 처리 절차를 운영하고 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit 계정은 어떻게 만드나요?",
+            "answer": [
+              "GME Remit 앱을 내려받아 계정을 만들고 필요한 신원 확인을 완료하세요. 가입과 인증이 끝나면 바로 GME Remit 서비스를 이용하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit으로 어느 나라에 송금할 수 있나요?",
+            "answer": [
+              "GME Remit은 전 세계 여러 국가로의 해외 송금을 지원합니다. 송금 가능 국가와 수령 방식은 GME Remit 앱에서 바로 확인하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "송금에 문제가 생기면 어떻게 하나요?",
+            "answer": [
+              "고객지원팀은 월요일부터 일요일까지 10:00~23:00에 운영됩니다.",
+              "{SUPPORT_PHONE_NUMBER}으로 전화하시거나 GME Remit 앱을 통해 문의하실 수 있습니다.",
+              "Facebook, Instagram, TikTok, ChannelTalk 등 GME 중국 공식 소셜 미디어 채널로도 메시지를 보내실 수 있습니다.",
+              "직접 상담을 원하시면 한국 곳곳의 GME Remit 지점에서 직원이 도와드립니다."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "GME 중국과 소통하세요",
+        "subheading": "우리 커뮤니티를 위한 소식과 유용한 정보를 전해드립니다",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "GME 앱 다운로드",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "한국에 거주하는 중국 출신을 위한 금융 서비스입니다.",
+        "copyrightSuffix": "GME. All rights reserved."
+      }
+    },
+    "india": {
+      "header": {
+        "navItems": {
+          "company": "회사소개",
+          "services": "서비스",
+          "countries": "국가",
+          "news": "소식",
+          "support": "고객지원"
+        },
+        "downloadAppLabel": "앱 다운로드"
+      },
+      "hero": {
+        "eyebrow": "GME India",
+        "headingLines": [
+          "고향으로 송금하세요.",
+          "소중한 사람과 연결되세요.",
+          "간편하게 결제하세요."
+        ],
+        "subheading": "한국에 거주하는 인도 출신 여러분을 위한 믿을 수 있는 서비스",
+        "ctaPrimaryLabel": "지금 송금하기",
+        "ctaSecondaryLabel": "시작하기"
+      },
+      "exchangeRate": {
+        "eyebrow": "환율",
+        "heading": "오늘의 환율 확인하기",
+        "description": "한국에서 인도로 송금하기 전에 GME Remit의 최신 환율을 확인하세요",
+        "note": "환율은 하루 중에도 변동될 수 있습니다",
+        "cardTitle": "GME Remit 계산기",
+        "sampleTag": "예시 금액",
+        "sendAmountLabel": "보낼 금액",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "받는 국가",
+        "recipientCountryOption": "India",
+        "receiveCurrencyLabel": "INR",
+        "receiverGetsLabel": "받는 금액",
+        "transferFeeLabel": "송금 수수료",
+        "exchangeRateLabel": "환율",
+        "submitLabel": "지금 송금하기"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "인도로 송금하기",
+        "description": "한국에서 인도의 가족과 소중한 사람들을 간편하고 안전하게 지원하는 방법입니다.",
+        "features": [
+          "경쟁력 있는 환율",
+          "빠르고 안정적인 송금",
+          "투명한 수수료",
+          "필요할 때 받는 고객지원"
+        ],
+        "ctaLabel": "지금 송금하기"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "카드 하나로 충분합니다",
+        "description": "한국에서의 일상부터 해외까지, 간편하게 결제하세요.",
+        "features": [
+          "전 세계 어디서나 결제",
+          "쇼핑",
+          "대중교통",
+          "캐시백",
+          "EasyCare 혜택"
+        ],
+        "ctaLabel": "GME 카드 살펴보기"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "한국에서도 끊김 없이",
+        "description": "한국 생활을 더 편하게 만들어 주는 요금제로 소중한 사람들과 가까이 지내세요",
+        "features": [
+          "안정적인 통신 품질",
+          "유연한 요금제",
+          "간편한 개통",
+          "친절한 현지 지원"
+        ],
+        "ctaLabel": "요금제 보기"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "당신의 디지털 금융 파트너",
+        "description": "외국인 대출의 새로운 기준을 경험하세요. GME 앱으로 간편하게 신청할 수 있습니다. 한국에 거주하는 외국인을 위한 간편한 디지털 대출 서비스입니다.",
+        "features": [
+          "서류 없는 대출 신청",
+          "실시간 대출 진행 상황 조회",
+          "실시간 대출 잔액 조회"
+        ],
+        "ctaLabel": "지금 신청하기"
+      },
+      "faq": {
+        "heading": "GME Remit 자주 묻는 질문",
+        "subheading": "GME Remit으로 송금할 때 자주 묻는 질문의 답변을 확인하세요",
+        "items": [
+          {
+            "question": "GME Remit으로 송금하면 얼마나 걸리나요?",
+            "answer": [
+              "GME Remit 송금은 보통 10초 내외로 완료됩니다. 다만 실제 소요 시간은 받는 국가, 은행, 지급 방식에 따라 달라질 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit은 안전한가요?",
+            "answer": [
+              "네. GME Remit은 한국에서 인가를 받은 송금 서비스로 관련 금융 당국의 감독을 받습니다. 고객과 거래를 보호하기 위해 안전한 본인 확인 및 거래 처리 절차를 운영하고 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit 계정은 어떻게 만드나요?",
+            "answer": [
+              "GME Remit 앱을 내려받아 계정을 만들고 필요한 신원 확인을 완료하세요. 가입과 인증이 끝나면 바로 GME Remit 서비스를 이용하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit으로 어느 나라에 송금할 수 있나요?",
+            "answer": [
+              "GME Remit은 전 세계 여러 국가로의 해외 송금을 지원합니다. 송금 가능 국가와 수령 방식은 GME Remit 앱에서 바로 확인하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "송금에 문제가 생기면 어떻게 하나요?",
+            "answer": [
+              "고객지원팀은 월요일부터 일요일까지 10:00~23:00에 운영됩니다. {SUPPORT_PHONE_NUMBER}으로 전화하시거나 GME Remit 앱 또는 GME 공식 소셜 미디어 채널로 문의하실 수 있으며, 한국 내 GME Remit 지점을 방문하시면 직접 도움을 받으실 수 있습니다."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "GME 인도와 소통하세요",
+        "subheading": "우리 커뮤니티를 위한 소식과 유용한 정보를 전해드립니다",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "GME 앱 다운로드",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "한국에 거주하는 인도 출신을 위한 금융 서비스입니다.",
+        "copyrightSuffix": "GME. All rights reserved."
+      }
+    },
+    "indonesia": {
+      "header": {
+        "navItems": {
+          "company": "회사소개",
+          "services": "서비스",
+          "countries": "국가",
+          "news": "소식",
+          "support": "고객지원"
+        },
+        "downloadAppLabel": "앱 다운로드"
+      },
+      "hero": {
+        "eyebrow": "GME Indonesia",
+        "headingLines": [
+          "고향으로 송금하세요.",
+          "소중한 사람과 연결되세요.",
+          "간편하게 결제하세요."
+        ],
+        "subheading": "한국에 거주하는 인도네시아 출신 여러분을 위한 믿을 수 있는 서비스",
+        "ctaPrimaryLabel": "지금 송금하기",
+        "ctaSecondaryLabel": "시작하기"
+      },
+      "exchangeRate": {
+        "eyebrow": "환율",
+        "heading": "오늘의 환율 확인하기",
+        "description": "한국에서 인도네시아로 송금하기 전에 GME Remit의 최신 환율을 확인하세요",
+        "note": "환율은 하루 중에도 변동될 수 있습니다",
+        "cardTitle": "GME Remit 계산기",
+        "sampleTag": "예시 금액",
+        "sendAmountLabel": "보낼 금액",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "받는 국가",
+        "recipientCountryOption": "Indonesia",
+        "receiveCurrencyLabel": "IDR",
+        "receiverGetsLabel": "받는 금액",
+        "transferFeeLabel": "송금 수수료",
+        "exchangeRateLabel": "환율",
+        "submitLabel": "지금 송금하기"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "인도네시아로 송금하기",
+        "description": "한국에서 인도네시아의 가족과 소중한 사람들을 간편하고 안전하게 지원하는 방법입니다.",
+        "features": [
+          "경쟁력 있는 환율",
+          "빠르고 안정적인 송금",
+          "투명한 수수료",
+          "필요할 때 받는 고객지원"
+        ],
+        "ctaLabel": "지금 송금하기"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "카드 하나로 충분합니다",
+        "description": "한국에서의 일상부터 해외까지, 간편하게 결제하세요.",
+        "features": [
+          "전 세계 어디서나 결제",
+          "쇼핑",
+          "대중교통",
+          "캐시백",
+          "EasyCare 혜택"
+        ],
+        "ctaLabel": "GME 카드 살펴보기"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "한국에서도 끊김 없이",
+        "description": "한국 생활을 더 편하게 만들어 주는 요금제로 소중한 사람들과 가까이 지내세요",
+        "features": [
+          "안정적인 통신 품질",
+          "유연한 요금제",
+          "간편한 개통",
+          "친절한 현지 지원"
+        ],
+        "ctaLabel": "요금제 보기"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "당신의 디지털 금융 파트너",
+        "description": "외국인 대출의 새로운 기준을 경험하세요. GME 앱으로 간편하게 신청할 수 있습니다. 한국에 거주하는 외국인을 위한 간편한 디지털 대출 서비스입니다.",
+        "features": [
+          "서류 없는 대출 신청",
+          "실시간 대출 진행 상황 조회",
+          "실시간 대출 잔액 조회"
+        ],
+        "ctaLabel": "지금 신청하기"
+      },
+      "faq": {
+        "heading": "GME Remit 자주 묻는 질문",
+        "subheading": "GME Remit으로 송금할 때 자주 묻는 질문의 답변을 확인하세요",
+        "items": [
+          {
+            "question": "GME Remit으로 송금하면 얼마나 걸리나요?",
+            "answer": [
+              "GME Remit 송금은 보통 10초 내외로 완료됩니다. 다만 실제 소요 시간은 받는 국가, 은행, 지급 방식에 따라 달라질 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit은 안전한가요?",
+            "answer": [
+              "네. GME Remit은 한국에서 인가를 받은 송금 서비스로 관련 금융 당국의 감독을 받습니다. 고객과 거래를 보호하기 위해 안전한 본인 확인 및 거래 처리 절차를 운영하고 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit 계정은 어떻게 만드나요?",
+            "answer": [
+              "GME Remit 앱을 내려받아 계정을 만들고 필요한 신원 확인을 완료하세요. 가입과 인증이 끝나면 바로 GME Remit 서비스를 이용하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit으로 어느 나라에 송금할 수 있나요?",
+            "answer": [
+              "GME Remit은 전 세계 여러 국가로의 해외 송금을 지원합니다. 송금 가능 국가와 수령 방식은 GME Remit 앱에서 바로 확인하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "송금에 문제가 생기면 어떻게 하나요?",
+            "answer": [
+              "고객지원팀은 월요일부터 일요일까지 10:00~23:00에 운영됩니다. {SUPPORT_PHONE_NUMBER}으로 전화하시거나 GME Remit 앱 또는 GME 공식 소셜 미디어 채널로 문의하실 수 있으며, 한국 내 GME Remit 지점을 방문하시면 직접 도움을 받으실 수 있습니다."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "GME 인도네시아와 소통하세요",
+        "subheading": "우리 커뮤니티를 위한 소식과 유용한 정보를 전해드립니다",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "GME 앱 다운로드",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "한국에 거주하는 인도네시아 출신을 위한 금융 서비스입니다.",
+        "copyrightSuffix": "GME. All rights reserved."
+      }
+    },
+    "kazakhstan": {
+      "header": {
+        "navItems": {
+          "company": "회사소개",
+          "services": "서비스",
+          "countries": "국가",
+          "news": "소식",
+          "support": "고객지원"
+        },
+        "downloadAppLabel": "앱 다운로드"
+      },
+      "hero": {
+        "eyebrow": "GME Kazakhstan",
+        "headingLines": [
+          "고향으로 송금하세요.",
+          "소중한 사람과 연결되세요.",
+          "간편하게 결제하세요."
+        ],
+        "subheading": "한국에 거주하는 카자흐스탄 출신 여러분을 위한 믿을 수 있는 서비스",
+        "ctaPrimaryLabel": "지금 송금하기",
+        "ctaSecondaryLabel": "시작하기"
+      },
+      "exchangeRate": {
+        "eyebrow": "환율",
+        "heading": "오늘의 환율 확인하기",
+        "description": "한국에서 카자흐스탄으로 송금하기 전에 GME Remit의 최신 환율을 확인하세요",
+        "note": "환율은 하루 중에도 변동될 수 있습니다",
+        "cardTitle": "GME Remit 계산기",
+        "sampleTag": "예시 금액",
+        "sendAmountLabel": "보낼 금액",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "받는 국가",
+        "recipientCountryOption": "Kazakhstan",
+        "receiveCurrencyLabel": "KZT",
+        "receiverGetsLabel": "받는 금액",
+        "transferFeeLabel": "송금 수수료",
+        "exchangeRateLabel": "환율",
+        "submitLabel": "지금 송금하기"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "카자흐스탄으로 송금하기",
+        "description": "한국에서 카자흐스탄의 가족과 소중한 사람들을 간편하고 안전하게 지원하는 방법입니다.",
+        "features": [
+          "경쟁력 있는 환율",
+          "빠르고 안정적인 송금",
+          "투명한 수수료",
+          "필요할 때 받는 고객지원"
+        ],
+        "ctaLabel": "지금 송금하기"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "카드 하나로 충분합니다",
+        "description": "한국에서의 일상부터 해외까지, 간편하게 결제하세요.",
+        "features": [
+          "전 세계 어디서나 결제",
+          "쇼핑",
+          "대중교통",
+          "캐시백",
+          "EasyCare 혜택"
+        ],
+        "ctaLabel": "GME 카드 살펴보기"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "한국에서도 끊김 없이",
+        "description": "한국 생활을 더 편하게 만들어 주는 요금제로 소중한 사람들과 가까이 지내세요",
+        "features": [
+          "안정적인 통신 품질",
+          "유연한 요금제",
+          "간편한 개통",
+          "친절한 현지 지원"
+        ],
+        "ctaLabel": "요금제 보기"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "당신의 디지털 금융 파트너",
+        "description": "외국인 대출의 새로운 기준을 경험하세요. GME 앱으로 간편하게 신청할 수 있습니다. 한국에 거주하는 외국인을 위한 간편한 디지털 대출 서비스입니다.",
+        "features": [
+          "서류 없는 대출 신청",
+          "실시간 대출 진행 상황 조회",
+          "실시간 대출 잔액 조회"
+        ],
+        "ctaLabel": "지금 신청하기"
+      },
+      "faq": {
+        "heading": "GME Remit 자주 묻는 질문",
+        "subheading": "GME Remit으로 송금할 때 자주 묻는 질문의 답변을 확인하세요",
+        "items": [
+          {
+            "question": "GME Remit으로 송금하면 얼마나 걸리나요?",
+            "answer": [
+              "GME Remit 송금은 보통 10초 내외로 완료됩니다. 다만 실제 소요 시간은 받는 국가, 은행, 지급 방식에 따라 달라질 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit은 안전한가요?",
+            "answer": [
+              "네. GME Remit은 한국에서 인가를 받은 송금 서비스로 관련 금융 당국의 감독을 받습니다. 고객과 거래를 보호하기 위해 안전한 본인 확인 및 거래 처리 절차를 운영하고 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit 계정은 어떻게 만드나요?",
+            "answer": [
+              "GME Remit 앱을 내려받아 계정을 만들고 필요한 신원 확인을 완료하세요. 가입과 인증이 끝나면 바로 GME Remit 서비스를 이용하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit으로 어느 나라에 송금할 수 있나요?",
+            "answer": [
+              "GME Remit은 전 세계 여러 국가로의 해외 송금을 지원합니다. 송금 가능 국가와 수령 방식은 GME Remit 앱에서 바로 확인하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "송금에 문제가 생기면 어떻게 하나요?",
+            "answer": [
+              "고객지원팀은 월요일부터 일요일까지 10:00~23:00에 운영됩니다. {SUPPORT_PHONE_NUMBER}으로 전화하시거나 GME Remit 앱 또는 GME 공식 소셜 미디어 채널로 문의하실 수 있으며, 한국 내 GME Remit 지점을 방문하시면 직접 도움을 받으실 수 있습니다."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "GME 카자흐스탄과 소통하세요",
+        "subheading": "우리 커뮤니티를 위한 소식과 유용한 정보를 전해드립니다",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "GME 앱 다운로드",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "한국에 거주하는 카자흐스탄 출신을 위한 금융 서비스입니다.",
+        "copyrightSuffix": "GME. All rights reserved."
+      }
+    },
+    "kyrgyzstan": {
+      "header": {
+        "navItems": {
+          "company": "회사소개",
+          "services": "서비스",
+          "countries": "국가",
+          "news": "소식",
+          "support": "고객지원"
+        },
+        "downloadAppLabel": "앱 다운로드"
+      },
+      "hero": {
+        "eyebrow": "GME Kyrgyzstan",
+        "headingLines": [
+          "고향으로 송금하세요.",
+          "소중한 사람과 연결되세요.",
+          "간편하게 결제하세요."
+        ],
+        "subheading": "한국에 거주하는 키르기스스탄 출신 여러분을 위한 믿을 수 있는 서비스",
+        "ctaPrimaryLabel": "지금 송금하기",
+        "ctaSecondaryLabel": "시작하기"
+      },
+      "exchangeRate": {
+        "eyebrow": "환율",
+        "heading": "오늘의 환율 확인하기",
+        "description": "한국에서 키르기스스탄으로 송금하기 전에 GME Remit의 최신 환율을 확인하세요",
+        "note": "환율은 하루 중에도 변동될 수 있습니다",
+        "cardTitle": "GME Remit 계산기",
+        "sampleTag": "예시 금액",
+        "sendAmountLabel": "보낼 금액",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "받는 국가",
+        "recipientCountryOption": "Kyrgyzstan",
+        "receiveCurrencyLabel": "KGS",
+        "receiverGetsLabel": "받는 금액",
+        "transferFeeLabel": "송금 수수료",
+        "exchangeRateLabel": "환율",
+        "submitLabel": "지금 송금하기"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "키르기스스탄으로 송금하기",
+        "description": "한국에서 키르기스스탄의 가족과 소중한 사람들을 간편하고 안전하게 지원하는 방법입니다.",
+        "features": [
+          "경쟁력 있는 환율",
+          "빠르고 안정적인 송금",
+          "투명한 수수료",
+          "필요할 때 받는 고객지원"
+        ],
+        "ctaLabel": "지금 송금하기"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "카드 하나로 충분합니다",
+        "description": "한국에서의 일상부터 해외까지, 간편하게 결제하세요.",
+        "features": [
+          "전 세계 어디서나 결제",
+          "쇼핑",
+          "대중교통",
+          "캐시백",
+          "EasyCare 혜택"
+        ],
+        "ctaLabel": "GME 카드 살펴보기"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "한국에서도 끊김 없이",
+        "description": "한국 생활을 더 편하게 만들어 주는 요금제로 소중한 사람들과 가까이 지내세요",
+        "features": [
+          "안정적인 통신 품질",
+          "유연한 요금제",
+          "간편한 개통",
+          "친절한 현지 지원"
+        ],
+        "ctaLabel": "요금제 보기"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "당신의 디지털 금융 파트너",
+        "description": "외국인 대출의 새로운 기준을 경험하세요. GME 앱으로 간편하게 신청할 수 있습니다. 한국에 거주하는 외국인을 위한 간편한 디지털 대출 서비스입니다.",
+        "features": [
+          "서류 없는 대출 신청",
+          "실시간 대출 진행 상황 조회",
+          "실시간 대출 잔액 조회"
+        ],
+        "ctaLabel": "지금 신청하기"
+      },
+      "faq": {
+        "heading": "GME Remit 자주 묻는 질문",
+        "subheading": "GME Remit으로 송금할 때 자주 묻는 질문의 답변을 확인하세요",
+        "items": [
+          {
+            "question": "GME Remit으로 송금하면 얼마나 걸리나요?",
+            "answer": [
+              "GME Remit 송금은 보통 10초 내외로 완료됩니다. 다만 실제 소요 시간은 받는 국가, 은행, 지급 방식에 따라 달라질 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit은 안전한가요?",
+            "answer": [
+              "네. GME Remit은 한국에서 인가를 받은 송금 서비스로 관련 금융 당국의 감독을 받습니다. 고객과 거래를 보호하기 위해 안전한 본인 확인 및 거래 처리 절차를 운영하고 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit 계정은 어떻게 만드나요?",
+            "answer": [
+              "GME Remit 앱을 내려받아 계정을 만들고 필요한 신원 확인을 완료하세요. 가입과 인증이 끝나면 바로 GME Remit 서비스를 이용하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit으로 어느 나라에 송금할 수 있나요?",
+            "answer": [
+              "GME Remit은 전 세계 여러 국가로의 해외 송금을 지원합니다. 송금 가능 국가와 수령 방식은 GME Remit 앱에서 바로 확인하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "송금에 문제가 생기면 어떻게 하나요?",
+            "answer": [
+              "고객지원팀은 월요일부터 일요일까지 10:00~23:00에 운영됩니다. {SUPPORT_PHONE_NUMBER}으로 전화하시거나 GME Remit 앱 또는 GME 공식 소셜 미디어 채널로 문의하실 수 있으며, 한국 내 GME Remit 지점을 방문하시면 직접 도움을 받으실 수 있습니다."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "GME 키르기스스탄과 소통하세요",
+        "subheading": "우리 커뮤니티를 위한 소식과 유용한 정보를 전해드립니다",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "GME 앱 다운로드",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "한국에 거주하는 키르기스스탄 출신을 위한 금융 서비스입니다.",
+        "copyrightSuffix": "GME. All rights reserved."
+      }
+    },
+    "laos": {
+      "header": {
+        "navItems": {
+          "company": "회사소개",
+          "services": "서비스",
+          "countries": "국가",
+          "news": "소식",
+          "support": "고객지원"
+        },
+        "downloadAppLabel": "앱 다운로드"
+      },
+      "hero": {
+        "eyebrow": "GME Laos",
+        "headingLines": [
+          "고향으로 송금하세요.",
+          "소중한 사람과 연결되세요.",
+          "간편하게 결제하세요."
+        ],
+        "subheading": "한국에 거주하는 라오스 출신 여러분을 위한 믿을 수 있는 서비스",
+        "ctaPrimaryLabel": "지금 송금하기",
+        "ctaSecondaryLabel": "시작하기"
+      },
+      "exchangeRate": {
+        "eyebrow": "환율",
+        "heading": "오늘의 환율 확인하기",
+        "description": "한국에서 라오스로 송금하기 전에 GME Remit의 최신 환율을 확인하세요",
+        "note": "환율은 하루 중에도 변동될 수 있습니다",
+        "cardTitle": "GME Remit 계산기",
+        "sampleTag": "예시 금액",
+        "sendAmountLabel": "보낼 금액",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "받는 국가",
+        "recipientCountryOption": "Laos",
+        "receiveCurrencyLabel": "LAK",
+        "receiverGetsLabel": "받는 금액",
+        "transferFeeLabel": "송금 수수료",
+        "exchangeRateLabel": "환율",
+        "submitLabel": "지금 송금하기"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "라오스로 송금하기",
+        "description": "한국에서 라오스의 가족과 소중한 사람들을 간편하고 안전하게 지원하는 방법입니다.",
+        "features": [
+          "경쟁력 있는 환율",
+          "빠르고 안정적인 송금",
+          "투명한 수수료",
+          "필요할 때 받는 고객지원"
+        ],
+        "ctaLabel": "지금 송금하기"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "카드 하나로 충분합니다",
+        "description": "한국에서의 일상부터 해외까지, 간편하게 결제하세요.",
+        "features": [
+          "전 세계 어디서나 결제",
+          "쇼핑",
+          "대중교통",
+          "캐시백",
+          "EasyCare 혜택"
+        ],
+        "ctaLabel": "GME 카드 살펴보기"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "한국에서도 끊김 없이",
+        "description": "한국 생활을 더 편하게 만들어 주는 요금제로 소중한 사람들과 가까이 지내세요",
+        "features": [
+          "안정적인 통신 품질",
+          "유연한 요금제",
+          "간편한 개통",
+          "친절한 현지 지원"
+        ],
+        "ctaLabel": "요금제 보기"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "당신의 디지털 금융 파트너",
+        "description": "외국인 대출의 새로운 기준을 경험하세요. GME 앱으로 간편하게 신청할 수 있습니다. 한국에 거주하는 외국인을 위한 간편한 디지털 대출 서비스입니다.",
+        "features": [
+          "서류 없는 대출 신청",
+          "실시간 대출 진행 상황 조회",
+          "실시간 대출 잔액 조회"
+        ],
+        "ctaLabel": "지금 신청하기"
+      },
+      "faq": {
+        "heading": "GME Remit 자주 묻는 질문",
+        "subheading": "GME Remit으로 송금할 때 자주 묻는 질문의 답변을 확인하세요",
+        "items": [
+          {
+            "question": "GME Remit으로 송금하면 얼마나 걸리나요?",
+            "answer": [
+              "GME Remit 송금은 보통 10초 내외로 완료됩니다. 다만 실제 소요 시간은 받는 국가, 은행, 지급 방식에 따라 달라질 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit은 안전한가요?",
+            "answer": [
+              "네. GME Remit은 한국에서 인가를 받은 송금 서비스로 관련 금융 당국의 감독을 받습니다. 고객과 거래를 보호하기 위해 안전한 본인 확인 및 거래 처리 절차를 운영하고 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit 계정은 어떻게 만드나요?",
+            "answer": [
+              "GME Remit 앱을 내려받아 계정을 만들고 필요한 신원 확인을 완료하세요. 가입과 인증이 끝나면 바로 GME Remit 서비스를 이용하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit으로 어느 나라에 송금할 수 있나요?",
+            "answer": [
+              "GME Remit은 전 세계 여러 국가로의 해외 송금을 지원합니다. 송금 가능 국가와 수령 방식은 GME Remit 앱에서 바로 확인하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "송금에 문제가 생기면 어떻게 하나요?",
+            "answer": [
+              "고객지원팀은 월요일부터 일요일까지 10:00~23:00에 운영됩니다. {SUPPORT_PHONE_NUMBER}으로 전화하시거나 GME Remit 앱 또는 GME 공식 소셜 미디어 채널로 문의하실 수 있으며, 한국 내 GME Remit 지점을 방문하시면 직접 도움을 받으실 수 있습니다."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "GME 라오스와 소통하세요",
+        "subheading": "우리 커뮤니티를 위한 소식과 유용한 정보를 전해드립니다",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "GME 앱 다운로드",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "한국에 거주하는 라오스 출신을 위한 금융 서비스입니다.",
+        "copyrightSuffix": "GME. All rights reserved."
+      }
+    },
+    "mongolia": {
+      "header": {
+        "navItems": {
+          "company": "회사소개",
+          "services": "서비스",
+          "countries": "국가",
+          "news": "소식",
+          "support": "고객지원"
+        },
+        "downloadAppLabel": "앱 다운로드"
+      },
+      "hero": {
+        "eyebrow": "GME Mongolia",
+        "headingLines": [
+          "고향으로 송금하세요.",
+          "소중한 사람과 연결되세요.",
+          "간편하게 결제하세요."
+        ],
+        "subheading": "한국에 거주하는 몽골 출신 여러분을 위한 믿을 수 있는 서비스",
+        "ctaPrimaryLabel": "지금 송금하기",
+        "ctaSecondaryLabel": "시작하기"
+      },
+      "exchangeRate": {
+        "eyebrow": "환율",
+        "heading": "오늘의 환율 확인하기",
+        "description": "한국에서 몽골으로 송금하기 전에 GME Remit의 최신 환율을 확인하세요",
+        "note": "환율은 하루 중에도 변동될 수 있습니다",
+        "cardTitle": "GME Remit 계산기",
+        "sampleTag": "예시 금액",
+        "sendAmountLabel": "보낼 금액",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "받는 국가",
+        "recipientCountryOption": "Mongolia",
+        "receiveCurrencyLabel": "MNT",
+        "receiverGetsLabel": "받는 금액",
+        "transferFeeLabel": "송금 수수료",
+        "exchangeRateLabel": "환율",
+        "submitLabel": "지금 송금하기"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "몽골으로 송금하기",
+        "description": "한국에서 몽골의 가족과 소중한 사람들을 간편하고 안전하게 지원하는 방법입니다.",
+        "features": [
+          "경쟁력 있는 환율",
+          "빠르고 안정적인 송금",
+          "투명한 수수료",
+          "필요할 때 받는 고객지원"
+        ],
+        "ctaLabel": "지금 송금하기"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "카드 하나로 충분합니다",
+        "description": "한국에서의 일상부터 해외까지, 간편하게 결제하세요.",
+        "features": [
+          "전 세계 어디서나 결제",
+          "쇼핑",
+          "대중교통",
+          "캐시백",
+          "EasyCare 혜택"
+        ],
+        "ctaLabel": "GME 카드 살펴보기"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "한국에서도 끊김 없이",
+        "description": "한국 생활을 더 편하게 만들어 주는 요금제로 소중한 사람들과 가까이 지내세요",
+        "features": [
+          "안정적인 통신 품질",
+          "유연한 요금제",
+          "간편한 개통",
+          "친절한 현지 지원"
+        ],
+        "ctaLabel": "요금제 보기"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "당신의 디지털 금융 파트너",
+        "description": "외국인 대출의 새로운 기준을 경험하세요. GME 앱으로 간편하게 신청할 수 있습니다. 한국에 거주하는 외국인을 위한 간편한 디지털 대출 서비스입니다.",
+        "features": [
+          "서류 없는 대출 신청",
+          "실시간 대출 진행 상황 조회",
+          "실시간 대출 잔액 조회"
+        ],
+        "ctaLabel": "지금 신청하기"
+      },
+      "faq": {
+        "heading": "GME Remit 자주 묻는 질문",
+        "subheading": "GME Remit으로 송금할 때 자주 묻는 질문의 답변을 확인하세요",
+        "items": [
+          {
+            "question": "GME Remit으로 송금하면 얼마나 걸리나요?",
+            "answer": [
+              "GME Remit 송금은 보통 10초 내외로 완료됩니다. 다만 실제 소요 시간은 받는 국가, 은행, 지급 방식에 따라 달라질 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit은 안전한가요?",
+            "answer": [
+              "네. GME Remit은 한국에서 인가를 받은 송금 서비스로 관련 금융 당국의 감독을 받습니다. 고객과 거래를 보호하기 위해 안전한 본인 확인 및 거래 처리 절차를 운영하고 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit 계정은 어떻게 만드나요?",
+            "answer": [
+              "GME Remit 앱을 내려받아 계정을 만들고 필요한 신원 확인을 완료하세요. 가입과 인증이 끝나면 바로 GME Remit 서비스를 이용하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit으로 어느 나라에 송금할 수 있나요?",
+            "answer": [
+              "GME Remit은 전 세계 여러 국가로의 해외 송금을 지원합니다. 송금 가능 국가와 수령 방식은 GME Remit 앱에서 바로 확인하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "송금에 문제가 생기면 어떻게 하나요?",
+            "answer": [
+              "고객지원팀은 월요일부터 일요일까지 10:00~23:00에 운영됩니다. {SUPPORT_PHONE_NUMBER}으로 전화하시거나 GME Remit 앱 또는 GME 공식 소셜 미디어 채널로 문의하실 수 있으며, 한국 내 GME Remit 지점을 방문하시면 직접 도움을 받으실 수 있습니다."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "GME 몽골과 소통하세요",
+        "subheading": "우리 커뮤니티를 위한 소식과 유용한 정보를 전해드립니다",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "GME 앱 다운로드",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "한국에 거주하는 몽골 출신을 위한 금융 서비스입니다.",
+        "copyrightSuffix": "GME. All rights reserved."
+      }
+    },
+    "myanmar": {
+      "header": {
+        "navItems": {
+          "company": "회사소개",
+          "services": "서비스",
+          "countries": "국가",
+          "news": "소식",
+          "support": "고객지원"
+        },
+        "downloadAppLabel": "앱 다운로드"
+      },
+      "hero": {
+        "eyebrow": "GME Myanmar",
+        "headingLines": [
+          "고향으로 송금하세요.",
+          "소중한 사람과 연결되세요.",
+          "간편하게 결제하세요."
+        ],
+        "subheading": "한국에 거주하는 미얀마 출신 여러분을 위한 믿을 수 있는 서비스",
+        "ctaPrimaryLabel": "지금 송금하기",
+        "ctaSecondaryLabel": "시작하기"
+      },
+      "exchangeRate": {
+        "eyebrow": "환율",
+        "heading": "오늘의 환율 확인하기",
+        "description": "한국에서 미얀마로 송금하기 전에 GME Remit의 최신 환율을 확인하세요",
+        "note": "환율은 하루 중에도 변동될 수 있습니다",
+        "cardTitle": "GME Remit 계산기",
+        "sampleTag": "예시 금액",
+        "sendAmountLabel": "보낼 금액",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "받는 국가",
+        "recipientCountryOption": "Myanmar",
+        "receiveCurrencyLabel": "MMK",
+        "receiverGetsLabel": "받는 금액",
+        "transferFeeLabel": "송금 수수료",
+        "exchangeRateLabel": "환율",
+        "submitLabel": "지금 송금하기"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "미얀마로 송금하기",
+        "description": "한국에서 미얀마의 가족과 소중한 사람들을 간편하고 안전하게 지원하는 방법입니다.",
+        "features": [
+          "경쟁력 있는 환율",
+          "빠르고 안정적인 송금",
+          "투명한 수수료",
+          "필요할 때 받는 고객지원"
+        ],
+        "ctaLabel": "지금 송금하기"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "카드 하나로 충분합니다",
+        "description": "한국에서의 일상부터 해외까지, 간편하게 결제하세요.",
+        "features": [
+          "전 세계 어디서나 결제",
+          "쇼핑",
+          "대중교통",
+          "캐시백",
+          "EasyCare 혜택"
+        ],
+        "ctaLabel": "GME 카드 살펴보기"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "한국에서도 끊김 없이",
+        "description": "한국 생활을 더 편하게 만들어 주는 요금제로 소중한 사람들과 가까이 지내세요",
+        "features": [
+          "안정적인 통신 품질",
+          "유연한 요금제",
+          "간편한 개통",
+          "친절한 현지 지원"
+        ],
+        "ctaLabel": "요금제 보기"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "당신의 디지털 금융 파트너",
+        "description": "외국인 대출의 새로운 기준을 경험하세요. GME 앱으로 간편하게 신청할 수 있습니다. 한국에 거주하는 외국인을 위한 간편한 디지털 대출 서비스입니다.",
+        "features": [
+          "서류 없는 대출 신청",
+          "실시간 대출 진행 상황 조회",
+          "실시간 대출 잔액 조회"
+        ],
+        "ctaLabel": "지금 신청하기"
+      },
+      "faq": {
+        "heading": "GME Remit 자주 묻는 질문",
+        "subheading": "GME Remit으로 송금할 때 자주 묻는 질문의 답변을 확인하세요",
+        "items": [
+          {
+            "question": "GME Remit으로 송금하면 얼마나 걸리나요?",
+            "answer": [
+              "GME Remit 송금은 보통 10초 내외로 완료됩니다. 다만 실제 소요 시간은 받는 국가, 은행, 지급 방식에 따라 달라질 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit은 안전한가요?",
+            "answer": [
+              "네. GME Remit은 한국에서 인가를 받은 송금 서비스로 관련 금융 당국의 감독을 받습니다. 고객과 거래를 보호하기 위해 안전한 본인 확인 및 거래 처리 절차를 운영하고 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit 계정은 어떻게 만드나요?",
+            "answer": [
+              "GME Remit 앱을 내려받아 계정을 만들고 필요한 신원 확인을 완료하세요. 가입과 인증이 끝나면 바로 GME Remit 서비스를 이용하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit으로 어느 나라에 송금할 수 있나요?",
+            "answer": [
+              "GME Remit은 전 세계 여러 국가로의 해외 송금을 지원합니다. 송금 가능 국가와 수령 방식은 GME Remit 앱에서 바로 확인하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "송금에 문제가 생기면 어떻게 하나요?",
+            "answer": [
+              "고객지원팀은 월요일부터 일요일까지 10:00~23:00에 운영됩니다. {SUPPORT_PHONE_NUMBER}으로 전화하시거나 GME Remit 앱 또는 GME 공식 소셜 미디어 채널로 문의하실 수 있으며, 한국 내 GME Remit 지점을 방문하시면 직접 도움을 받으실 수 있습니다."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "GME 미얀마와 소통하세요",
+        "subheading": "우리 커뮤니티를 위한 소식과 유용한 정보를 전해드립니다",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "GME 앱 다운로드",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "한국에 거주하는 미얀마 출신을 위한 금융 서비스입니다.",
+        "copyrightSuffix": "GME. All rights reserved."
+      }
+    },
+    "nepal": {
+      "header": {
+        "navItems": {
+          "company": "회사소개",
+          "services": "서비스",
+          "countries": "국가",
+          "news": "소식",
+          "support": "고객지원"
+        },
+        "downloadAppLabel": "앱 다운로드"
+      },
+      "hero": {
+        "eyebrow": "GME Nepal",
+        "headingLines": [
+          "고향으로 송금하세요.",
+          "소중한 사람과 연결되세요.",
+          "간편하게 결제하세요."
+        ],
+        "subheading": "한국에 거주하는 네팔 출신 여러분을 위한 믿을 수 있는 서비스",
+        "ctaPrimaryLabel": "지금 송금하기",
+        "ctaSecondaryLabel": "시작하기"
+      },
+      "exchangeRate": {
+        "eyebrow": "환율",
+        "heading": "오늘의 환율 확인하기",
+        "description": "한국에서 네팔으로 송금하기 전에 GME Remit의 최신 환율을 확인하세요",
+        "note": "환율은 하루 중에도 변동될 수 있습니다",
+        "cardTitle": "GME Remit 계산기",
+        "sampleTag": "예시 금액",
+        "sendAmountLabel": "보낼 금액",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "받는 국가",
+        "recipientCountryOption": "Nepal",
+        "receiveCurrencyLabel": "NPR",
+        "receiverGetsLabel": "받는 금액",
+        "transferFeeLabel": "송금 수수료",
+        "exchangeRateLabel": "환율",
+        "submitLabel": "지금 송금하기"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "네팔으로 송금하기",
+        "description": "한국에서 네팔의 가족과 소중한 사람들을 간편하고 안전하게 지원하는 방법입니다.",
+        "features": [
+          "경쟁력 있는 환율",
+          "빠르고 안정적인 송금",
+          "투명한 수수료",
+          "필요할 때 받는 고객지원"
+        ],
+        "ctaLabel": "지금 송금하기"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "카드 하나로 충분합니다",
+        "description": "한국에서의 일상부터 해외까지, 간편하게 결제하세요.",
+        "features": [
+          "전 세계 어디서나 결제",
+          "쇼핑",
+          "대중교통",
+          "캐시백",
+          "EasyCare 혜택"
+        ],
+        "ctaLabel": "GME 카드 살펴보기"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "한국에서도 끊김 없이",
+        "description": "한국 생활을 더 편하게 만들어 주는 요금제로 소중한 사람들과 가까이 지내세요",
+        "features": [
+          "안정적인 통신 품질",
+          "유연한 요금제",
+          "간편한 개통",
+          "친절한 현지 지원"
+        ],
+        "ctaLabel": "요금제 보기"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "당신의 디지털 금융 파트너",
+        "description": "외국인 대출의 새로운 기준을 경험하세요. GME 앱으로 간편하게 신청할 수 있습니다. 한국에 거주하는 외국인을 위한 간편한 디지털 대출 서비스입니다.",
+        "features": [
+          "서류 없는 대출 신청",
+          "실시간 대출 진행 상황 조회",
+          "실시간 대출 잔액 조회"
+        ],
+        "ctaLabel": "지금 신청하기"
+      },
+      "faq": {
+        "heading": "GME Remit 자주 묻는 질문",
+        "subheading": "GME Remit으로 송금할 때 자주 묻는 질문의 답변을 확인하세요",
+        "items": [
+          {
+            "question": "GME Remit으로 송금하면 얼마나 걸리나요?",
+            "answer": [
+              "GME Remit 송금은 보통 10초 내외로 완료됩니다. 다만 실제 소요 시간은 받는 국가, 은행, 지급 방식에 따라 달라질 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit은 안전한가요?",
+            "answer": [
+              "네. GME Remit은 한국에서 인가를 받은 송금 서비스로 관련 금융 당국의 감독을 받습니다. 고객과 거래를 보호하기 위해 안전한 본인 확인 및 거래 처리 절차를 운영하고 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit 계정은 어떻게 만드나요?",
+            "answer": [
+              "GME Remit 앱을 내려받아 계정을 만들고 필요한 신원 확인을 완료하세요. 가입과 인증이 끝나면 바로 GME Remit 서비스를 이용하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit으로 어느 나라에 송금할 수 있나요?",
+            "answer": [
+              "GME Remit은 전 세계 여러 국가로의 해외 송금을 지원합니다. 송금 가능 국가와 수령 방식은 GME Remit 앱에서 바로 확인하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "송금에 문제가 생기면 어떻게 하나요?",
+            "answer": [
+              "고객지원팀은 월요일부터 일요일까지 10:00~23:00에 운영됩니다. {SUPPORT_PHONE_NUMBER}으로 전화하시거나 GME Remit 앱 또는 GME 공식 소셜 미디어 채널로 문의하실 수 있으며, 한국 내 GME Remit 지점을 방문하시면 직접 도움을 받으실 수 있습니다."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "GME 네팔과 소통하세요",
+        "subheading": "우리 커뮤니티를 위한 소식과 유용한 정보를 전해드립니다",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "GME 앱 다운로드",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "한국에 거주하는 네팔 출신을 위한 금융 서비스입니다.",
+        "copyrightSuffix": "GME. All rights reserved."
+      }
+    },
+    "pakistan": {
+      "header": {
+        "navItems": {
+          "company": "회사소개",
+          "services": "서비스",
+          "countries": "국가",
+          "news": "소식",
+          "support": "고객지원"
+        },
+        "downloadAppLabel": "앱 다운로드"
+      },
+      "hero": {
+        "eyebrow": "GME Pakistan",
+        "headingLines": [
+          "고향으로 송금하세요.",
+          "소중한 사람과 연결되세요.",
+          "간편하게 결제하세요."
+        ],
+        "subheading": "한국에 거주하는 파키스탄 출신 여러분을 위한 믿을 수 있는 서비스",
+        "ctaPrimaryLabel": "지금 송금하기",
+        "ctaSecondaryLabel": "시작하기"
+      },
+      "exchangeRate": {
+        "eyebrow": "환율",
+        "heading": "오늘의 환율 확인하기",
+        "description": "한국에서 파키스탄으로 송금하기 전에 GME Remit의 최신 환율을 확인하세요",
+        "note": "환율은 하루 중에도 변동될 수 있습니다",
+        "cardTitle": "GME Remit 계산기",
+        "sampleTag": "예시 금액",
+        "sendAmountLabel": "보낼 금액",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "받는 국가",
+        "recipientCountryOption": "Pakistan",
+        "receiveCurrencyLabel": "PKR",
+        "receiverGetsLabel": "받는 금액",
+        "transferFeeLabel": "송금 수수료",
+        "exchangeRateLabel": "환율",
+        "submitLabel": "지금 송금하기"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "파키스탄으로 송금하기",
+        "description": "한국에서 파키스탄의 가족과 소중한 사람들을 간편하고 안전하게 지원하는 방법입니다.",
+        "features": [
+          "경쟁력 있는 환율",
+          "빠르고 안정적인 송금",
+          "투명한 수수료",
+          "필요할 때 받는 고객지원"
+        ],
+        "ctaLabel": "지금 송금하기"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "카드 하나로 충분합니다",
+        "description": "한국에서의 일상부터 해외까지, 간편하게 결제하세요.",
+        "features": [
+          "전 세계 어디서나 결제",
+          "쇼핑",
+          "대중교통",
+          "캐시백",
+          "EasyCare 혜택"
+        ],
+        "ctaLabel": "GME 카드 살펴보기"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "한국에서도 끊김 없이",
+        "description": "한국 생활을 더 편하게 만들어 주는 요금제로 소중한 사람들과 가까이 지내세요",
+        "features": [
+          "안정적인 통신 품질",
+          "유연한 요금제",
+          "간편한 개통",
+          "친절한 현지 지원"
+        ],
+        "ctaLabel": "요금제 보기"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "당신의 디지털 금융 파트너",
+        "description": "외국인 대출의 새로운 기준을 경험하세요. GME 앱으로 간편하게 신청할 수 있습니다. 한국에 거주하는 외국인을 위한 간편한 디지털 대출 서비스입니다.",
+        "features": [
+          "서류 없는 대출 신청",
+          "실시간 대출 진행 상황 조회",
+          "실시간 대출 잔액 조회"
+        ],
+        "ctaLabel": "지금 신청하기"
+      },
+      "faq": {
+        "heading": "GME Remit 자주 묻는 질문",
+        "subheading": "GME Remit으로 송금할 때 자주 묻는 질문의 답변을 확인하세요",
+        "items": [
+          {
+            "question": "GME Remit으로 송금하면 얼마나 걸리나요?",
+            "answer": [
+              "GME Remit 송금은 보통 10초 내외로 완료됩니다. 다만 실제 소요 시간은 받는 국가, 은행, 지급 방식에 따라 달라질 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit은 안전한가요?",
+            "answer": [
+              "네. GME Remit은 한국에서 인가를 받은 송금 서비스로 관련 금융 당국의 감독을 받습니다. 고객과 거래를 보호하기 위해 안전한 본인 확인 및 거래 처리 절차를 운영하고 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit 계정은 어떻게 만드나요?",
+            "answer": [
+              "GME Remit 앱을 내려받아 계정을 만들고 필요한 신원 확인을 완료하세요. 가입과 인증이 끝나면 바로 GME Remit 서비스를 이용하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit으로 어느 나라에 송금할 수 있나요?",
+            "answer": [
+              "GME Remit은 전 세계 여러 국가로의 해외 송금을 지원합니다. 송금 가능 국가와 수령 방식은 GME Remit 앱에서 바로 확인하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "송금에 문제가 생기면 어떻게 하나요?",
+            "answer": [
+              "고객지원팀은 월요일부터 일요일까지 10:00~23:00에 운영됩니다. {SUPPORT_PHONE_NUMBER}으로 전화하시거나 GME Remit 앱 또는 GME 공식 소셜 미디어 채널로 문의하실 수 있으며, 한국 내 GME Remit 지점을 방문하시면 직접 도움을 받으실 수 있습니다."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "GME 파키스탄과 소통하세요",
+        "subheading": "우리 커뮤니티를 위한 소식과 유용한 정보를 전해드립니다",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "GME 앱 다운로드",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "한국에 거주하는 파키스탄 출신을 위한 금융 서비스입니다.",
+        "copyrightSuffix": "GME. All rights reserved."
+      }
+    },
+    "philippines": {
+      "header": {
+        "navItems": {
+          "company": "회사소개",
+          "services": "서비스",
+          "countries": "국가",
+          "news": "소식",
+          "support": "고객지원"
+        },
+        "downloadAppLabel": "앱 다운로드"
+      },
+      "hero": {
+        "eyebrow": "GME Philippines",
+        "headingLines": [
+          "고향으로 송금하세요.",
+          "소중한 사람과 연결되세요.",
+          "간편하게 결제하세요."
+        ],
+        "subheading": "한국에 거주하는 필리핀 출신 여러분을 위한 믿을 수 있는 서비스",
+        "ctaPrimaryLabel": "지금 송금하기",
+        "ctaSecondaryLabel": "시작하기"
+      },
+      "exchangeRate": {
+        "eyebrow": "환율",
+        "heading": "오늘의 환율 확인하기",
+        "description": "한국에서 필리핀으로 송금하기 전에 GME Remit의 최신 환율을 확인하세요",
+        "note": "환율은 하루 중에도 변동될 수 있습니다",
+        "cardTitle": "GME Remit 계산기",
+        "sampleTag": "예시 금액",
+        "sendAmountLabel": "보낼 금액",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "받는 국가",
+        "recipientCountryOption": "Philippines",
+        "receiveCurrencyLabel": "PHP",
+        "receiverGetsLabel": "받는 금액",
+        "transferFeeLabel": "송금 수수료",
+        "exchangeRateLabel": "환율",
+        "submitLabel": "지금 송금하기"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "필리핀으로 송금하기",
+        "description": "한국에서 필리핀의 가족과 소중한 사람들을 간편하고 안전하게 지원하는 방법입니다.",
+        "features": [
+          "경쟁력 있는 환율",
+          "빠르고 안정적인 송금",
+          "투명한 수수료",
+          "필요할 때 받는 고객지원"
+        ],
+        "ctaLabel": "지금 송금하기"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "카드 하나로 충분합니다",
+        "description": "한국에서의 일상부터 해외까지, 간편하게 결제하세요.",
+        "features": [
+          "전 세계 어디서나 결제",
+          "쇼핑",
+          "대중교통",
+          "캐시백",
+          "EasyCare 혜택"
+        ],
+        "ctaLabel": "GME 카드 살펴보기"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "한국에서도 끊김 없이",
+        "description": "한국 생활을 더 편하게 만들어 주는 요금제로 소중한 사람들과 가까이 지내세요",
+        "features": [
+          "안정적인 통신 품질",
+          "유연한 요금제",
+          "간편한 개통",
+          "친절한 현지 지원"
+        ],
+        "ctaLabel": "요금제 보기"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "당신의 디지털 금융 파트너",
+        "description": "외국인 대출의 새로운 기준을 경험하세요. GME 앱으로 간편하게 신청할 수 있습니다. 한국에 거주하는 외국인을 위한 간편한 디지털 대출 서비스입니다.",
+        "features": [
+          "서류 없는 대출 신청",
+          "실시간 대출 진행 상황 조회",
+          "실시간 대출 잔액 조회"
+        ],
+        "ctaLabel": "지금 신청하기"
+      },
+      "faq": {
+        "heading": "GME Remit 자주 묻는 질문",
+        "subheading": "GME Remit으로 송금할 때 자주 묻는 질문의 답변을 확인하세요",
+        "items": [
+          {
+            "question": "GME Remit으로 송금하면 얼마나 걸리나요?",
+            "answer": [
+              "GME Remit 송금은 보통 10초 내외로 완료됩니다. 다만 실제 소요 시간은 받는 국가, 은행, 지급 방식에 따라 달라질 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit은 안전한가요?",
+            "answer": [
+              "네. GME Remit은 한국에서 인가를 받은 송금 서비스로 관련 금융 당국의 감독을 받습니다. 고객과 거래를 보호하기 위해 안전한 본인 확인 및 거래 처리 절차를 운영하고 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit 계정은 어떻게 만드나요?",
+            "answer": [
+              "GME Remit 앱을 내려받아 계정을 만들고 필요한 신원 확인을 완료하세요. 가입과 인증이 끝나면 바로 GME Remit 서비스를 이용하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit으로 어느 나라에 송금할 수 있나요?",
+            "answer": [
+              "GME Remit은 전 세계 여러 국가로의 해외 송금을 지원합니다. 송금 가능 국가와 수령 방식은 GME Remit 앱에서 바로 확인하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "송금에 문제가 생기면 어떻게 하나요?",
+            "answer": [
+              "고객지원팀은 월요일부터 일요일까지 10:00~23:00에 운영됩니다. {SUPPORT_PHONE_NUMBER}으로 전화하시거나 GME Remit 앱 또는 GME 공식 소셜 미디어 채널로 문의하실 수 있으며, 한국 내 GME Remit 지점을 방문하시면 직접 도움을 받으실 수 있습니다."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "GME 필리핀과 소통하세요",
+        "subheading": "우리 커뮤니티를 위한 소식과 유용한 정보를 전해드립니다",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "GME 앱 다운로드",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "한국에 거주하는 필리핀 출신을 위한 금융 서비스입니다.",
+        "copyrightSuffix": "GME. All rights reserved."
+      }
+    },
+    "russia": {
+      "header": {
+        "navItems": {
+          "company": "회사소개",
+          "services": "서비스",
+          "countries": "국가",
+          "news": "소식",
+          "support": "고객지원"
+        },
+        "downloadAppLabel": "앱 다운로드"
+      },
+      "hero": {
+        "eyebrow": "GME Russia",
+        "headingLines": [
+          "고향으로 송금하세요.",
+          "소중한 사람과 연결되세요.",
+          "간편하게 결제하세요."
+        ],
+        "subheading": "한국에 거주하는 러시아 출신 여러분을 위한 믿을 수 있는 서비스",
+        "ctaPrimaryLabel": "지금 송금하기",
+        "ctaSecondaryLabel": "시작하기"
+      },
+      "exchangeRate": {
+        "eyebrow": "환율",
+        "heading": "오늘의 환율 확인하기",
+        "description": "한국에서 러시아로 송금하기 전에 GME Remit의 최신 환율을 확인하세요",
+        "note": "환율은 하루 중에도 변동될 수 있습니다",
+        "cardTitle": "GME Remit 계산기",
+        "sampleTag": "예시 금액",
+        "sendAmountLabel": "보낼 금액",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "받는 국가",
+        "recipientCountryOption": "Russia",
+        "receiveCurrencyLabel": "RUB",
+        "receiverGetsLabel": "받는 금액",
+        "transferFeeLabel": "송금 수수료",
+        "exchangeRateLabel": "환율",
+        "submitLabel": "지금 송금하기"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "러시아로 송금하기",
+        "description": "한국에서 러시아의 가족과 소중한 사람들을 간편하고 안전하게 지원하는 방법입니다.",
+        "features": [
+          "경쟁력 있는 환율",
+          "빠르고 안정적인 송금",
+          "투명한 수수료",
+          "필요할 때 받는 고객지원"
+        ],
+        "ctaLabel": "지금 송금하기"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "카드 하나로 충분합니다",
+        "description": "한국에서의 일상부터 해외까지, 간편하게 결제하세요.",
+        "features": [
+          "전 세계 어디서나 결제",
+          "쇼핑",
+          "대중교통",
+          "캐시백",
+          "EasyCare 혜택"
+        ],
+        "ctaLabel": "GME 카드 살펴보기"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "한국에서도 끊김 없이",
+        "description": "한국 생활을 더 편하게 만들어 주는 요금제로 소중한 사람들과 가까이 지내세요",
+        "features": [
+          "안정적인 통신 품질",
+          "유연한 요금제",
+          "간편한 개통",
+          "친절한 현지 지원"
+        ],
+        "ctaLabel": "요금제 보기"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "당신의 디지털 금융 파트너",
+        "description": "외국인 대출의 새로운 기준을 경험하세요. GME 앱으로 간편하게 신청할 수 있습니다. 한국에 거주하는 외국인을 위한 간편한 디지털 대출 서비스입니다.",
+        "features": [
+          "서류 없는 대출 신청",
+          "실시간 대출 진행 상황 조회",
+          "실시간 대출 잔액 조회"
+        ],
+        "ctaLabel": "지금 신청하기"
+      },
+      "faq": {
+        "heading": "GME Remit 자주 묻는 질문",
+        "subheading": "GME Remit으로 송금할 때 자주 묻는 질문의 답변을 확인하세요",
+        "items": [
+          {
+            "question": "GME Remit으로 송금하면 얼마나 걸리나요?",
+            "answer": [
+              "GME Remit 송금은 보통 10초 내외로 완료됩니다. 다만 실제 소요 시간은 받는 국가, 은행, 지급 방식에 따라 달라질 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit은 안전한가요?",
+            "answer": [
+              "네. GME Remit은 한국에서 인가를 받은 송금 서비스로 관련 금융 당국의 감독을 받습니다. 고객과 거래를 보호하기 위해 안전한 본인 확인 및 거래 처리 절차를 운영하고 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit 계정은 어떻게 만드나요?",
+            "answer": [
+              "GME Remit 앱을 내려받아 계정을 만들고 필요한 신원 확인을 완료하세요. 가입과 인증이 끝나면 바로 GME Remit 서비스를 이용하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit으로 어느 나라에 송금할 수 있나요?",
+            "answer": [
+              "GME Remit은 전 세계 여러 국가로의 해외 송금을 지원합니다. 송금 가능 국가와 수령 방식은 GME Remit 앱에서 바로 확인하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "송금에 문제가 생기면 어떻게 하나요?",
+            "answer": [
+              "고객지원팀은 월요일부터 일요일까지 10:00~23:00에 운영됩니다.",
+              "{SUPPORT_PHONE_NUMBER}으로 전화하시거나 GME Remit 앱을 통해 문의하실 수 있습니다.",
+              "Facebook, Instagram, TikTok, ChannelTalk 등 GME 러시아 공식 소셜 미디어 채널로도 메시지를 보내실 수 있습니다.",
+              "직접 상담을 원하시면 한국 곳곳의 GME Remit 지점에서 직원이 도와드립니다."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "GME 러시아와 소통하세요",
+        "subheading": "우리 커뮤니티를 위한 소식과 유용한 정보를 전해드립니다",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "GME 앱 다운로드",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "한국에 거주하는 러시아 출신을 위한 금융 서비스입니다.",
+        "copyrightSuffix": "GME. All rights reserved."
+      }
+    },
+    "spanish-latam": {
+      "header": {
+        "navItems": {
+          "company": "회사소개",
+          "services": "서비스",
+          "countries": "국가",
+          "news": "소식",
+          "support": "고객지원"
+        },
+        "downloadAppLabel": "앱 다운로드"
+      },
+      "hero": {
+        "eyebrow": "GME Spanish / Latam",
+        "headingLines": [
+          "고향으로 송금하세요.",
+          "소중한 사람과 연결되세요.",
+          "간편하게 결제하세요."
+        ],
+        "subheading": "한국에 거주하는 중남미 출신 여러분을 위한 믿을 수 있는 서비스",
+        "ctaPrimaryLabel": "지금 송금하기",
+        "ctaSecondaryLabel": "시작하기"
+      },
+      "exchangeRate": {
+        "eyebrow": "환율",
+        "heading": "오늘의 환율 확인하기",
+        "description": "한국에서 중남미로 송금하기 전에 GME Remit의 최신 환율을 확인하세요",
+        "note": "환율은 하루 중에도 변동될 수 있습니다",
+        "cardTitle": "GME Remit 계산기",
+        "sampleTag": "예시 금액",
+        "sendAmountLabel": "보낼 금액",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "받는 국가",
+        "recipientCountryOption": "Spanish / Latam",
+        "receiveCurrencyLabel": "TBD",
+        "receiverGetsLabel": "받는 금액",
+        "transferFeeLabel": "송금 수수료",
+        "exchangeRateLabel": "환율",
+        "submitLabel": "지금 송금하기"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "중남미로 송금하기",
+        "description": "한국에서 중남미의 가족과 소중한 사람들을 간편하고 안전하게 지원하는 방법입니다.",
+        "features": [
+          "경쟁력 있는 환율",
+          "빠르고 안정적인 송금",
+          "투명한 수수료",
+          "필요할 때 받는 고객지원"
+        ],
+        "ctaLabel": "지금 송금하기"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "카드 하나로 충분합니다",
+        "description": "한국에서의 일상부터 해외까지, 간편하게 결제하세요.",
+        "features": [
+          "전 세계 어디서나 결제",
+          "쇼핑",
+          "대중교통",
+          "캐시백",
+          "EasyCare 혜택"
+        ],
+        "ctaLabel": "GME 카드 살펴보기"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "한국에서도 끊김 없이",
+        "description": "한국 생활을 더 편하게 만들어 주는 요금제로 소중한 사람들과 가까이 지내세요",
+        "features": [
+          "안정적인 통신 품질",
+          "유연한 요금제",
+          "간편한 개통",
+          "친절한 현지 지원"
+        ],
+        "ctaLabel": "요금제 보기"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "당신의 디지털 금융 파트너",
+        "description": "외국인 대출의 새로운 기준을 경험하세요. GME 앱으로 간편하게 신청할 수 있습니다. 한국에 거주하는 외국인을 위한 간편한 디지털 대출 서비스입니다.",
+        "features": [
+          "서류 없는 대출 신청",
+          "실시간 대출 진행 상황 조회",
+          "실시간 대출 잔액 조회"
+        ],
+        "ctaLabel": "지금 신청하기"
+      },
+      "faq": {
+        "heading": "GME Remit 자주 묻는 질문",
+        "subheading": "GME Remit으로 송금할 때 자주 묻는 질문의 답변을 확인하세요",
+        "items": [
+          {
+            "question": "GME Remit으로 송금하면 얼마나 걸리나요?",
+            "answer": [
+              "GME Remit 송금은 보통 10초 내외로 완료됩니다. 다만 실제 소요 시간은 받는 국가, 은행, 지급 방식에 따라 달라질 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit은 안전한가요?",
+            "answer": [
+              "네. GME Remit은 한국에서 인가를 받은 송금 서비스로 관련 금융 당국의 감독을 받습니다. 고객과 거래를 보호하기 위해 안전한 본인 확인 및 거래 처리 절차를 운영하고 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit 계정은 어떻게 만드나요?",
+            "answer": [
+              "GME Remit 앱을 내려받아 계정을 만들고 필요한 신원 확인을 완료하세요. 가입과 인증이 끝나면 바로 GME Remit 서비스를 이용하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit으로 어느 나라에 송금할 수 있나요?",
+            "answer": [
+              "GME Remit은 전 세계 여러 국가로의 해외 송금을 지원합니다. 송금 가능 국가와 수령 방식은 GME Remit 앱에서 바로 확인하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "송금에 문제가 생기면 어떻게 하나요?",
+            "answer": [
+              "고객지원팀은 월요일부터 일요일까지 10:00~23:00에 운영됩니다.",
+              "{SUPPORT_PHONE_NUMBER}으로 전화하시거나 GME Remit 앱을 통해 문의하실 수 있습니다.",
+              "Facebook, Instagram, TikTok, ChannelTalk 등 GME 중남미 공식 소셜 미디어 채널로도 메시지를 보내실 수 있습니다.",
+              "직접 상담을 원하시면 한국 곳곳의 GME Remit 지점에서 직원이 도와드립니다."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "GME 중남미와 소통하세요",
+        "subheading": "우리 커뮤니티를 위한 소식과 유용한 정보를 전해드립니다",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "GME 앱 다운로드",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "한국에 거주하는 중남미 출신을 위한 금융 서비스입니다.",
+        "copyrightSuffix": "GME. All rights reserved."
+      }
+    },
+    "sri-lanka": {
+      "header": {
+        "navItems": {
+          "company": "회사소개",
+          "services": "서비스",
+          "countries": "국가",
+          "news": "소식",
+          "support": "고객지원"
+        },
+        "downloadAppLabel": "앱 다운로드"
+      },
+      "hero": {
+        "eyebrow": "GME Sri Lanka",
+        "headingLines": [
+          "고향으로 송금하세요.",
+          "소중한 사람과 연결되세요.",
+          "간편하게 결제하세요."
+        ],
+        "subheading": "한국에 거주하는 스리랑카 출신 여러분을 위한 믿을 수 있는 서비스",
+        "ctaPrimaryLabel": "지금 송금하기",
+        "ctaSecondaryLabel": "시작하기"
+      },
+      "exchangeRate": {
+        "eyebrow": "환율",
+        "heading": "오늘의 환율 확인하기",
+        "description": "한국에서 스리랑카로 송금하기 전에 GME Remit의 최신 환율을 확인하세요",
+        "note": "환율은 하루 중에도 변동될 수 있습니다",
+        "cardTitle": "GME Remit 계산기",
+        "sampleTag": "예시 금액",
+        "sendAmountLabel": "보낼 금액",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "받는 국가",
+        "recipientCountryOption": "Sri Lanka",
+        "receiveCurrencyLabel": "LKR",
+        "receiverGetsLabel": "받는 금액",
+        "transferFeeLabel": "송금 수수료",
+        "exchangeRateLabel": "환율",
+        "submitLabel": "지금 송금하기"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "스리랑카로 송금하기",
+        "description": "한국에서 스리랑카의 가족과 소중한 사람들을 간편하고 안전하게 지원하는 방법입니다.",
+        "features": [
+          "경쟁력 있는 환율",
+          "빠르고 안정적인 송금",
+          "투명한 수수료",
+          "필요할 때 받는 고객지원"
+        ],
+        "ctaLabel": "지금 송금하기"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "카드 하나로 충분합니다",
+        "description": "한국에서의 일상부터 해외까지, 간편하게 결제하세요.",
+        "features": [
+          "전 세계 어디서나 결제",
+          "쇼핑",
+          "대중교통",
+          "캐시백",
+          "EasyCare 혜택"
+        ],
+        "ctaLabel": "GME 카드 살펴보기"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "한국에서도 끊김 없이",
+        "description": "한국 생활을 더 편하게 만들어 주는 요금제로 소중한 사람들과 가까이 지내세요",
+        "features": [
+          "안정적인 통신 품질",
+          "유연한 요금제",
+          "간편한 개통",
+          "친절한 현지 지원"
+        ],
+        "ctaLabel": "요금제 보기"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "당신의 디지털 금융 파트너",
+        "description": "외국인 대출의 새로운 기준을 경험하세요. GME 앱으로 간편하게 신청할 수 있습니다. 한국에 거주하는 외국인을 위한 간편한 디지털 대출 서비스입니다.",
+        "features": [
+          "서류 없는 대출 신청",
+          "실시간 대출 진행 상황 조회",
+          "실시간 대출 잔액 조회"
+        ],
+        "ctaLabel": "지금 신청하기"
+      },
+      "faq": {
+        "heading": "GME Remit 자주 묻는 질문",
+        "subheading": "GME Remit으로 송금할 때 자주 묻는 질문의 답변을 확인하세요",
+        "items": [
+          {
+            "question": "GME Remit으로 송금하면 얼마나 걸리나요?",
+            "answer": [
+              "GME Remit 송금은 보통 10초 내외로 완료됩니다. 다만 실제 소요 시간은 받는 국가, 은행, 지급 방식에 따라 달라질 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit은 안전한가요?",
+            "answer": [
+              "네. GME Remit은 한국에서 인가를 받은 송금 서비스로 관련 금융 당국의 감독을 받습니다. 고객과 거래를 보호하기 위해 안전한 본인 확인 및 거래 처리 절차를 운영하고 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit 계정은 어떻게 만드나요?",
+            "answer": [
+              "GME Remit 앱을 내려받아 계정을 만들고 필요한 신원 확인을 완료하세요. 가입과 인증이 끝나면 바로 GME Remit 서비스를 이용하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit으로 어느 나라에 송금할 수 있나요?",
+            "answer": [
+              "GME Remit은 전 세계 여러 국가로의 해외 송금을 지원합니다. 송금 가능 국가와 수령 방식은 GME Remit 앱에서 바로 확인하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "송금에 문제가 생기면 어떻게 하나요?",
+            "answer": [
+              "고객지원팀은 월요일부터 일요일까지 10:00~23:00에 운영됩니다. {SUPPORT_PHONE_NUMBER}으로 전화하시거나 GME Remit 앱 또는 GME 공식 소셜 미디어 채널로 문의하실 수 있으며, 한국 내 GME Remit 지점을 방문하시면 직접 도움을 받으실 수 있습니다."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "GME 스리랑카와 소통하세요",
+        "subheading": "우리 커뮤니티를 위한 소식과 유용한 정보를 전해드립니다",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "GME 앱 다운로드",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "한국에 거주하는 스리랑카 출신을 위한 금융 서비스입니다.",
+        "copyrightSuffix": "GME. All rights reserved."
+      }
+    },
+    "thailand": {
+      "header": {
+        "navItems": {
+          "company": "회사소개",
+          "services": "서비스",
+          "countries": "국가",
+          "news": "소식",
+          "support": "고객지원"
+        },
+        "downloadAppLabel": "앱 다운로드"
+      },
+      "hero": {
+        "eyebrow": "GME Thailand",
+        "headingLines": [
+          "고향으로 송금하세요.",
+          "소중한 사람과 연결되세요.",
+          "간편하게 결제하세요."
+        ],
+        "subheading": "한국에 거주하는 태국 출신 여러분을 위한 믿을 수 있는 서비스",
+        "ctaPrimaryLabel": "지금 송금하기",
+        "ctaSecondaryLabel": "시작하기"
+      },
+      "exchangeRate": {
+        "eyebrow": "환율",
+        "heading": "오늘의 환율 확인하기",
+        "description": "한국에서 태국으로 송금하기 전에 GME Remit의 최신 환율을 확인하세요",
+        "note": "환율은 하루 중에도 변동될 수 있습니다",
+        "cardTitle": "GME Remit 계산기",
+        "sampleTag": "예시 금액",
+        "sendAmountLabel": "보낼 금액",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "받는 국가",
+        "recipientCountryOption": "Thailand",
+        "receiveCurrencyLabel": "THB",
+        "receiverGetsLabel": "받는 금액",
+        "transferFeeLabel": "송금 수수료",
+        "exchangeRateLabel": "환율",
+        "submitLabel": "지금 송금하기"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "태국으로 송금하기",
+        "description": "한국에서 태국의 가족과 소중한 사람들을 간편하고 안전하게 지원하는 방법입니다.",
+        "features": [
+          "경쟁력 있는 환율",
+          "빠르고 안정적인 송금",
+          "투명한 수수료",
+          "필요할 때 받는 고객지원"
+        ],
+        "ctaLabel": "지금 송금하기"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "카드 하나로 충분합니다",
+        "description": "한국에서의 일상부터 해외까지, 간편하게 결제하세요.",
+        "features": [
+          "전 세계 어디서나 결제",
+          "쇼핑",
+          "대중교통",
+          "캐시백",
+          "EasyCare 혜택"
+        ],
+        "ctaLabel": "GME 카드 살펴보기"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "한국에서도 끊김 없이",
+        "description": "한국 생활을 더 편하게 만들어 주는 요금제로 소중한 사람들과 가까이 지내세요",
+        "features": [
+          "안정적인 통신 품질",
+          "유연한 요금제",
+          "간편한 개통",
+          "친절한 현지 지원"
+        ],
+        "ctaLabel": "요금제 보기"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "당신의 디지털 금융 파트너",
+        "description": "외국인 대출의 새로운 기준을 경험하세요. GME 앱으로 간편하게 신청할 수 있습니다. 한국에 거주하는 외국인을 위한 간편한 디지털 대출 서비스입니다.",
+        "features": [
+          "서류 없는 대출 신청",
+          "실시간 대출 진행 상황 조회",
+          "실시간 대출 잔액 조회"
+        ],
+        "ctaLabel": "지금 신청하기"
+      },
+      "faq": {
+        "heading": "GME Remit 자주 묻는 질문",
+        "subheading": "GME Remit으로 송금할 때 자주 묻는 질문의 답변을 확인하세요",
+        "items": [
+          {
+            "question": "GME Remit으로 송금하면 얼마나 걸리나요?",
+            "answer": [
+              "GME Remit 송금은 보통 10초 내외로 완료됩니다. 다만 실제 소요 시간은 받는 국가, 은행, 지급 방식에 따라 달라질 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit은 안전한가요?",
+            "answer": [
+              "네. GME Remit은 한국에서 인가를 받은 송금 서비스로 관련 금융 당국의 감독을 받습니다. 고객과 거래를 보호하기 위해 안전한 본인 확인 및 거래 처리 절차를 운영하고 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit 계정은 어떻게 만드나요?",
+            "answer": [
+              "GME Remit 앱을 내려받아 계정을 만들고 필요한 신원 확인을 완료하세요. 가입과 인증이 끝나면 바로 GME Remit 서비스를 이용하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit으로 어느 나라에 송금할 수 있나요?",
+            "answer": [
+              "GME Remit은 전 세계 여러 국가로의 해외 송금을 지원합니다. 송금 가능 국가와 수령 방식은 GME Remit 앱에서 바로 확인하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "송금에 문제가 생기면 어떻게 하나요?",
+            "answer": [
+              "고객지원팀은 월요일부터 일요일까지 10:00~23:00에 운영됩니다. {SUPPORT_PHONE_NUMBER}으로 전화하시거나 GME Remit 앱 또는 GME 공식 소셜 미디어 채널로 문의하실 수 있으며, 한국 내 GME Remit 지점을 방문하시면 직접 도움을 받으실 수 있습니다."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "GME 태국과 소통하세요",
+        "subheading": "우리 커뮤니티를 위한 소식과 유용한 정보를 전해드립니다",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "GME 앱 다운로드",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "한국에 거주하는 태국 출신을 위한 금융 서비스입니다.",
+        "copyrightSuffix": "GME. All rights reserved."
+      }
+    },
+    "uzbekistan": {
+      "header": {
+        "navItems": {
+          "company": "회사소개",
+          "services": "서비스",
+          "countries": "국가",
+          "news": "소식",
+          "support": "고객지원"
+        },
+        "downloadAppLabel": "앱 다운로드"
+      },
+      "hero": {
+        "eyebrow": "GME Uzbekistan",
+        "headingLines": [
+          "고향으로 송금하세요.",
+          "소중한 사람과 연결되세요.",
+          "간편하게 결제하세요."
+        ],
+        "subheading": "한국에 거주하는 우즈베키스탄 출신 여러분을 위한 믿을 수 있는 서비스",
+        "ctaPrimaryLabel": "지금 송금하기",
+        "ctaSecondaryLabel": "시작하기"
+      },
+      "exchangeRate": {
+        "eyebrow": "환율",
+        "heading": "오늘의 환율 확인하기",
+        "description": "한국에서 우즈베키스탄으로 송금하기 전에 GME Remit의 최신 환율을 확인하세요",
+        "note": "환율은 하루 중에도 변동될 수 있습니다",
+        "cardTitle": "GME Remit 계산기",
+        "sampleTag": "예시 금액",
+        "sendAmountLabel": "보낼 금액",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "받는 국가",
+        "recipientCountryOption": "Uzbekistan",
+        "receiveCurrencyLabel": "UZS",
+        "receiverGetsLabel": "받는 금액",
+        "transferFeeLabel": "송금 수수료",
+        "exchangeRateLabel": "환율",
+        "submitLabel": "지금 송금하기"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "우즈베키스탄으로 송금하기",
+        "description": "한국에서 우즈베키스탄의 가족과 소중한 사람들을 간편하고 안전하게 지원하는 방법입니다.",
+        "features": [
+          "경쟁력 있는 환율",
+          "빠르고 안정적인 송금",
+          "투명한 수수료",
+          "필요할 때 받는 고객지원"
+        ],
+        "ctaLabel": "지금 송금하기"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "카드 하나로 충분합니다",
+        "description": "한국에서의 일상부터 해외까지, 간편하게 결제하세요.",
+        "features": [
+          "전 세계 어디서나 결제",
+          "쇼핑",
+          "대중교통",
+          "캐시백",
+          "EasyCare 혜택"
+        ],
+        "ctaLabel": "GME 카드 살펴보기"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "한국에서도 끊김 없이",
+        "description": "한국 생활을 더 편하게 만들어 주는 요금제로 소중한 사람들과 가까이 지내세요",
+        "features": [
+          "안정적인 통신 품질",
+          "유연한 요금제",
+          "간편한 개통",
+          "친절한 현지 지원"
+        ],
+        "ctaLabel": "요금제 보기"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "당신의 디지털 금융 파트너",
+        "description": "외국인 대출의 새로운 기준을 경험하세요. GME 앱으로 간편하게 신청할 수 있습니다. 한국에 거주하는 외국인을 위한 간편한 디지털 대출 서비스입니다.",
+        "features": [
+          "서류 없는 대출 신청",
+          "실시간 대출 진행 상황 조회",
+          "실시간 대출 잔액 조회"
+        ],
+        "ctaLabel": "지금 신청하기"
+      },
+      "faq": {
+        "heading": "GME Remit 자주 묻는 질문",
+        "subheading": "GME Remit으로 송금할 때 자주 묻는 질문의 답변을 확인하세요",
+        "items": [
+          {
+            "question": "GME Remit으로 송금하면 얼마나 걸리나요?",
+            "answer": [
+              "GME Remit 송금은 보통 10초 내외로 완료됩니다. 다만 실제 소요 시간은 받는 국가, 은행, 지급 방식에 따라 달라질 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit은 안전한가요?",
+            "answer": [
+              "네. GME Remit은 한국에서 인가를 받은 송금 서비스로 관련 금융 당국의 감독을 받습니다. 고객과 거래를 보호하기 위해 안전한 본인 확인 및 거래 처리 절차를 운영하고 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit 계정은 어떻게 만드나요?",
+            "answer": [
+              "GME Remit 앱을 내려받아 계정을 만들고 필요한 신원 확인을 완료하세요. 가입과 인증이 끝나면 바로 GME Remit 서비스를 이용하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit으로 어느 나라에 송금할 수 있나요?",
+            "answer": [
+              "GME Remit은 전 세계 여러 국가로의 해외 송금을 지원합니다. 송금 가능 국가와 수령 방식은 GME Remit 앱에서 바로 확인하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "송금에 문제가 생기면 어떻게 하나요?",
+            "answer": [
+              "고객지원팀은 월요일부터 일요일까지 10:00~23:00에 운영됩니다. {SUPPORT_PHONE_NUMBER}으로 전화하시거나 GME Remit 앱 또는 GME 공식 소셜 미디어 채널로 문의하실 수 있으며, 한국 내 GME Remit 지점을 방문하시면 직접 도움을 받으실 수 있습니다."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "GME 우즈베키스탄과 소통하세요",
+        "subheading": "우리 커뮤니티를 위한 소식과 유용한 정보를 전해드립니다",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "GME 앱 다운로드",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "한국에 거주하는 우즈베키스탄 출신을 위한 금융 서비스입니다.",
+        "copyrightSuffix": "GME. All rights reserved."
+      }
+    },
+    "vietnam": {
+      "header": {
+        "navItems": {
+          "company": "회사소개",
+          "services": "서비스",
+          "countries": "국가",
+          "news": "소식",
+          "support": "고객지원"
+        },
+        "downloadAppLabel": "앱 다운로드"
+      },
+      "hero": {
+        "eyebrow": "GME Vietnam",
+        "headingLines": [
+          "고향으로 송금하세요.",
+          "소중한 사람과 연결되세요.",
+          "간편하게 결제하세요."
+        ],
+        "subheading": "한국에 거주하는 베트남 출신 여러분을 위한 믿을 수 있는 서비스",
+        "ctaPrimaryLabel": "지금 송금하기",
+        "ctaSecondaryLabel": "시작하기"
+      },
+      "exchangeRate": {
+        "eyebrow": "환율",
+        "heading": "오늘의 환율 확인하기",
+        "description": "한국에서 베트남으로 송금하기 전에 GME Remit의 최신 환율을 확인하세요",
+        "note": "환율은 하루 중에도 변동될 수 있습니다",
+        "cardTitle": "GME Remit 계산기",
+        "sampleTag": "예시 금액",
+        "sendAmountLabel": "보낼 금액",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "받는 국가",
+        "recipientCountryOption": "Vietnam",
+        "receiveCurrencyLabel": "VND",
+        "receiverGetsLabel": "받는 금액",
+        "transferFeeLabel": "송금 수수료",
+        "exchangeRateLabel": "환율",
+        "submitLabel": "지금 송금하기"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "베트남으로 송금하기",
+        "description": "한국에서 베트남의 가족과 소중한 사람들을 간편하고 안전하게 지원하는 방법입니다.",
+        "features": [
+          "경쟁력 있는 환율",
+          "빠르고 안정적인 송금",
+          "투명한 수수료",
+          "필요할 때 받는 고객지원"
+        ],
+        "ctaLabel": "지금 송금하기"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "카드 하나로 충분합니다",
+        "description": "한국에서의 일상부터 해외까지, 간편하게 결제하세요.",
+        "features": [
+          "전 세계 어디서나 결제",
+          "쇼핑",
+          "대중교통",
+          "캐시백",
+          "EasyCare 혜택"
+        ],
+        "ctaLabel": "GME 카드 살펴보기"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "한국에서도 끊김 없이",
+        "description": "한국 생활을 더 편하게 만들어 주는 요금제로 소중한 사람들과 가까이 지내세요",
+        "features": [
+          "안정적인 통신 품질",
+          "유연한 요금제",
+          "간편한 개통",
+          "친절한 현지 지원"
+        ],
+        "ctaLabel": "요금제 보기"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "당신의 디지털 금융 파트너",
+        "description": "외국인 대출의 새로운 기준을 경험하세요. GME 앱으로 간편하게 신청할 수 있습니다. 한국에 거주하는 외국인을 위한 간편한 디지털 대출 서비스입니다.",
+        "features": [
+          "서류 없는 대출 신청",
+          "실시간 대출 진행 상황 조회",
+          "실시간 대출 잔액 조회"
+        ],
+        "ctaLabel": "지금 신청하기"
+      },
+      "faq": {
+        "heading": "GME Remit 자주 묻는 질문",
+        "subheading": "GME Remit으로 송금할 때 자주 묻는 질문의 답변을 확인하세요",
+        "items": [
+          {
+            "question": "GME Remit으로 송금하면 얼마나 걸리나요?",
+            "answer": [
+              "GME Remit 송금은 보통 10초 내외로 완료됩니다. 다만 실제 소요 시간은 받는 국가, 은행, 지급 방식에 따라 달라질 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit은 안전한가요?",
+            "answer": [
+              "네. GME Remit은 한국에서 인가를 받은 송금 서비스로 관련 금융 당국의 감독을 받습니다. 고객과 거래를 보호하기 위해 안전한 본인 확인 및 거래 처리 절차를 운영하고 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit 계정은 어떻게 만드나요?",
+            "answer": [
+              "GME Remit 앱을 내려받아 계정을 만들고 필요한 신원 확인을 완료하세요. 가입과 인증이 끝나면 바로 GME Remit 서비스를 이용하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "GME Remit으로 어느 나라에 송금할 수 있나요?",
+            "answer": [
+              "GME Remit은 전 세계 여러 국가로의 해외 송금을 지원합니다. 송금 가능 국가와 수령 방식은 GME Remit 앱에서 바로 확인하실 수 있습니다."
+            ]
+          },
+          {
+            "question": "송금에 문제가 생기면 어떻게 하나요?",
+            "answer": [
+              "고객지원팀은 월요일부터 일요일까지 10:00~23:00에 운영됩니다.",
+              "{SUPPORT_PHONE_NUMBER}으로 전화하시거나 GME Remit 앱을 통해 문의하실 수 있습니다.",
+              "Facebook, Instagram, TikTok, ChannelTalk 등 GME 베트남 공식 소셜 미디어 채널로도 메시지를 보내실 수 있습니다.",
+              "직접 상담을 원하시면 한국 곳곳의 GME Remit 지점에서 직원이 도와드립니다."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "GME 베트남과 소통하세요",
+        "subheading": "우리 커뮤니티를 위한 소식과 유용한 정보를 전해드립니다",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "GME 앱 다운로드",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "한국에 거주하는 베트남 출신을 위한 금융 서비스입니다.",
+        "copyrightSuffix": "GME. All rights reserved."
+      }
+    }
+  },
   "card": {
     "_meta": {
       "country": "Korea",

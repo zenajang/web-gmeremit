@@ -1,160 +1,3154 @@
 {
   "landing": {
-    "_meta": {
-      "country": "Vietnam",
-      "locale": "vi",
-      "language": "Tiếng Việt",
-      "source": "Approved GME English country landing-page content",
-      "integrationNote": "Customer-facing translation handoff for GME IT. Preserve GME/GME Remit/GME Card/GME SIM Card/GME Loan brand names and currency codes.",
-      "reviewStatus": "Native corridor-team review recommended before production, especially financial/legal terminology."
-    },
-    "header": {
-      "navItems": {
-        "company": "Công ty",
-        "services": "Dịch vụ",
-        "countries": "Quốc gia",
-        "news": "Tin tức",
-        "support": "Hỗ trợ"
+    "africa": {
+      "header": {
+        "navItems": {
+          "company": "Công ty",
+          "services": "Dịch vụ",
+          "countries": "Quốc gia",
+          "news": "Tin tức",
+          "support": "Hỗ trợ"
+        },
+        "downloadAppLabel": "Tải ứng dụng"
       },
-      "downloadAppLabel": "Tải ứng dụng"
-    },
-    "hero": {
-      "eyebrow": "GME Vietnam",
-      "headingLines": [
-        "Gửi tiền về quê nhà.",
-        "Luôn kết nối.",
-        "Chi tiêu dễ dàng."
-      ],
-      "subheading": "Dịch vụ đáng tin cậy dành cho người Việt đang sinh sống tại Hàn Quốc",
-      "ctaPrimaryLabel": "Gửi tiền ngay",
-      "ctaSecondaryLabel": "Bắt đầu"
-    },
-    "exchangeRate": {
-      "eyebrow": "Tỷ giá",
-      "heading": "Kiểm tra tỷ giá hôm nay",
-      "description": "Xem tỷ giá GME Remit mới nhất trước khi gửi tiền từ Hàn Quốc đến Việt Nam",
-      "note": "Tỷ giá có thể thay đổi trong ngày",
-      "cardTitle": "Công cụ tính GME Remit",
-      "sampleTag": "Giá trị mẫu",
-      "sendAmountLabel": "Số tiền gửi",
-      "sendAmountPlaceholder": "00,000",
-      "sendCurrencyLabel": "KRW",
-      "recipientCountryLabel": "Quốc gia nhận",
-      "recipientCountryOption": "Vietnam",
-      "receiveCurrencyLabel": "VND",
-      "receiverGetsLabel": "Người nhận nhận được",
-      "transferFeeLabel": "Phí chuyển tiền",
-      "exchangeRateLabel": "Tỷ giá",
-      "submitLabel": "Gửi tiền ngay"
-    },
-    "remittance": {
-      "eyebrow": "GME Remit",
-      "heading": "Gửi tiền đến Việt Nam",
-      "description": "Một cách đơn giản và an toàn để hỗ trợ gia đình và người thân tại Việt Nam từ Hàn Quốc.",
-      "features": [
-        "Tỷ giá cạnh tranh",
-        "Chuyển tiền nhanh chóng và đáng tin cậy",
-        "Phí minh bạch",
-        "Hỗ trợ khi bạn cần"
-      ],
-      "ctaLabel": "Gửi tiền ngay"
-    },
-    "card": {
-      "eyebrow": "GME Card",
-      "heading": "Một thẻ cho mọi nhu cầu",
-      "description": "Thanh toán đơn giản cho cuộc sống hằng ngày tại Hàn Quốc và ở nước ngoài.",
-      "features": [
-        "Thanh toán toàn cầu",
-        "Mua sắm",
-        "Giao thông",
-        "Hoàn tiền",
-        "Quyền lợi EasyCare"
-      ],
-      "ctaLabel": "Khám phá thẻ GME"
-    },
-    "simCard": {
-      "eyebrow": "GME SIM Card",
-      "heading": "Luôn kết nối tại Hàn Quốc",
-      "description": "Giữ kết nối với những điều quan trọng bằng các gói di động giúp cuộc sống tại Hàn Quốc thuận tiện hơn.",
-      "features": [
-        "Kết nối ổn định",
-        "Gói SIM linh hoạt",
-        "Thiết lập đơn giản",
-        "Hỗ trợ địa phương thân thiện"
-      ],
-      "ctaLabel": "Xem các gói SIM"
-    },
-    "loan": {
-      "eyebrow": "GME Loan",
-      "heading": "Đối tác tài chính số của bạn",
-      "description": "Trải nghiệm dịch vụ vay kỹ thuật số dành cho người nước ngoài sống tại Hàn Quốc. Đăng ký dễ dàng qua ứng dụng GME.",
-      "features": [
-        "Đăng ký khoản vay không giấy tờ",
-        "Kiểm tra trạng thái khoản vay theo thời gian thực",
-        "Kiểm tra dư nợ theo thời gian thực"
-      ],
-      "ctaLabel": "Đăng ký ngay"
-    },
-    "faq": {
-      "heading": "Câu hỏi thường gặp về GME Remit",
-      "subheading": "Tìm câu trả lời cho những câu hỏi thường gặp khi gửi tiền bằng GME Remit",
-      "items": [
-        {
-          "question": "Gửi tiền bằng GME Remit mất bao lâu?",
-          "answer": [
-            "Giao dịch GME Remit thường được hoàn tất trong khoảng 10 giây, tuy nhiên thời gian thực tế có thể thay đổi tùy theo quốc gia nhận, ngân hàng hoặc phương thức nhận tiền."
-          ]
-        },
-        {
-          "question": "Sử dụng GME Remit có an toàn không?",
-          "answer": [
-            "Có. GME Remit là dịch vụ chuyển tiền được cấp phép tại Hàn Quốc và chịu sự giám sát của các cơ quan tài chính Hàn Quốc có liên quan. Chúng tôi sử dụng quy trình xác minh khách hàng và giao dịch an toàn nhằm góp phần bảo vệ khách hàng và giao dịch của họ."
-          ]
-        },
-        {
-          "question": "Làm thế nào để đăng ký tài khoản GME Remit?",
-          "answer": [
-            "Tải ứng dụng GME Remit, tạo tài khoản và hoàn tất xác minh danh tính theo yêu cầu. Sau khi đăng ký và xác minh hoàn tất, bạn có thể bắt đầu sử dụng các dịch vụ GME Remit."
-          ]
-        },
-        {
-          "question": "Tôi có thể gửi tiền đến những quốc gia nào bằng GME Remit?",
-          "answer": [
-            "GME Remit hỗ trợ chuyển tiền quốc tế đến nhiều quốc gia trên thế giới. Bạn có thể kiểm tra trực tiếp các điểm đến và phương thức nhận tiền hiện có trong ứng dụng GME Remit."
-          ]
-        },
-        {
-          "question": "Tôi nên làm gì nếu gặp vấn đề với giao dịch chuyển tiền?",
-          "answer": [
-            "Đội ngũ hỗ trợ khách hàng của chúng tôi làm việc từ 10:00 đến 23:00, từ Thứ Hai đến Chủ Nhật.",
-            "Bạn có thể gọi cho chúng tôi theo số {SUPPORT_PHONE_NUMBER} hoặc liên hệ qua ứng dụng GME Remit.",
-            "Bạn cũng có thể nhắn tin qua các kênh mạng xã hội chính thức của GME Vietnam, bao gồm Facebook, Instagram, TikTok và ChannelTalk.",
-            "Nếu muốn được hỗ trợ trực tiếp, GME Remit cũng có các chi nhánh tại Hàn Quốc, nơi nhân viên của chúng tôi có thể hỗ trợ bạn."
-          ]
+      "hero": {
+        "eyebrow": "GME Africa",
+        "headingLines": [
+          "Gửi tiền về quê nhà.",
+          "Luôn kết nối.",
+          "Chi tiêu dễ dàng."
+        ],
+        "subheading": "D ị ch v ụ đá ng tin c ậ y d à nh cho Africans đ ang sinh s ố ng t ạ i H à n Qu ố c",
+        "ctaPrimaryLabel": "Gửi tiền ngay",
+        "ctaSecondaryLabel": "Bắt đầu"
+      },
+      "exchangeRate": {
+        "eyebrow": "Tỷ giá",
+        "heading": "Kiểm tra tỷ giá hôm nay",
+        "description": "Xem t ỷ gi á GME Remit m ớ i nh ấ t tr ướ c khi g ử i ti ề n t ừ H à n Qu ố c đế n Africa",
+        "note": "Tỷ giá có thể thay đổi trong ngày",
+        "cardTitle": "Công cụ tính GME Remit",
+        "sampleTag": "Giá trị mẫu",
+        "sendAmountLabel": "Số tiền gửi",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "Quốc gia nhận",
+        "recipientCountryOption": "Africa",
+        "receiveCurrencyLabel": "TBD",
+        "receiverGetsLabel": "Người nhận nhận được",
+        "transferFeeLabel": "Phí chuyển tiền",
+        "exchangeRateLabel": "Tỷ giá",
+        "submitLabel": "Gửi tiền ngay"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "G ử i ti ề n đế n Africa",
+        "description": "M ộ t c á ch đơ n gi ả n v à an to à n để h ỗ tr ợ gia đì nh v à ng ườ i th â n t ạ i Africa t ừ H à n Qu ố c.",
+        "features": [
+          "Tỷ giá cạnh tranh",
+          "Chuyển tiền nhanh chóng và đáng tin cậy",
+          "Phí minh bạch",
+          "Hỗ trợ khi bạn cần"
+        ],
+        "ctaLabel": "Gửi tiền ngay"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "Một thẻ cho mọi nhu cầu",
+        "description": "Thanh toán đơn giản cho cuộc sống hằng ngày tại Hàn Quốc và ở nước ngoài.",
+        "features": [
+          "Thanh toán toàn cầu",
+          "Mua sắm",
+          "Giao thông",
+          "Hoàn tiền",
+          "Quyền lợi EasyCare"
+        ],
+        "ctaLabel": "Khám phá thẻ GME"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "Luôn kết nối tại Hàn Quốc",
+        "description": "Giữ kết nối với những điều quan trọng bằng các gói di động giúp cuộc sống tại Hàn Quốc thuận tiện hơn.",
+        "features": [
+          "Kết nối ổn định",
+          "Gói SIM linh hoạt",
+          "Thiết lập đơn giản",
+          "Hỗ trợ địa phương thân thiện"
+        ],
+        "ctaLabel": "Xem các gói SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "Đối tác tài chính số của bạn",
+        "description": "Trải nghiệm dịch vụ vay kỹ thuật số dành cho người nước ngoài sống tại Hàn Quốc. Đăng ký dễ dàng qua ứng dụng GME.",
+        "features": [
+          "Đăng ký khoản vay không giấy tờ",
+          "Kiểm tra trạng thái khoản vay theo thời gian thực",
+          "Kiểm tra dư nợ theo thời gian thực"
+        ],
+        "ctaLabel": "Đăng ký ngay"
+      },
+      "faq": {
+        "heading": "Câu hỏi thường gặp về GME Remit",
+        "subheading": "Tìm câu trả lời cho những câu hỏi thường gặp khi gửi tiền bằng GME Remit",
+        "items": [
+          {
+            "question": "Gửi tiền bằng GME Remit mất bao lâu?",
+            "answer": [
+              "Giao dịch GME Remit thường được hoàn tất trong khoảng 10 giây, tuy nhiên thời gian thực tế có thể thay đổi tùy theo quốc gia nhận, ngân hàng hoặc phương thức nhận tiền."
+            ]
+          },
+          {
+            "question": "Sử dụng GME Remit có an toàn không?",
+            "answer": [
+              "Có. GME Remit là dịch vụ chuyển tiền được cấp phép tại Hàn Quốc và chịu sự giám sát của các cơ quan tài chính Hàn Quốc có liên quan. Chúng tôi sử dụng quy trình xác minh khách hàng và giao dịch an toàn nhằm góp phần bảo vệ khách hàng và giao dịch của họ."
+            ]
+          },
+          {
+            "question": "Làm thế nào để đăng ký tài khoản GME Remit?",
+            "answer": [
+              "Tải ứng dụng GME Remit, tạo tài khoản và hoàn tất xác minh danh tính theo yêu cầu. Sau khi đăng ký và xác minh hoàn tất, bạn có thể bắt đầu sử dụng các dịch vụ GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi có thể gửi tiền đến những quốc gia nào bằng GME Remit?",
+            "answer": [
+              "GME Remit hỗ trợ chuyển tiền quốc tế đến nhiều quốc gia trên thế giới. Bạn có thể kiểm tra trực tiếp các điểm đến và phương thức nhận tiền hiện có trong ứng dụng GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi nên làm gì nếu gặp vấn đề với giao dịch chuyển tiền?",
+            "answer": [
+              "Độ i ng ũ h ỗ tr ợ kh á ch h à ng c ủ a ch ú ng t ô i l à m vi ệ c t ừ 10:00 đế n 23:00, t ừ Th ứ Hai đế n Ch ủ Nh ậ t.",
+              "B ạ n c ó th ể g ọ i cho ch ú ng t ô i theo s ố {SUPPORT_PHONE_NUMBER} ho ặ c li ê n h ệ qua ứ ng d ụ ng GME Remit.",
+              "B ạ n c ũ ng c ó th ể nh ắ n tin qua c á c k ê nh m ạ ng x ã h ộ i ch í nh th ứ c c ủ a GME Africa, bao g ồ m Facebook, Instagram, TikTok v à ChannelTalk.",
+              "N ế u mu ố n đượ c h ỗ tr ợ tr ự c ti ế p, GME Remit c ũ ng c ó c á c chi nh á nh t ạ i H à n Qu ố c, n ơ i nh â n vi ê n c ủ a ch ú ng t ô i c ó th ể h ỗ tr ợ b ạ n."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "K ế t n ố i v ớ i GME Africa",
+        "subheading": "Tin tức, mẹo hữu ích và cập nhật dành cho cộng đồng",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
         }
-      ]
-    },
-    "social": {
-      "heading": "Kết nối với GME Vietnam",
-      "subheading": "Tin tức, mẹo hữu ích và cập nhật dành cho cộng đồng",
-      "links": {
-        "facebook": "Facebook",
-        "instagram": "Instagram",
-        "tiktok": "TikTok",
-        "channelTalk": "ChannelTalk"
+      },
+      "appDownload": {
+        "heading": "Tải ứng dụng GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "D ị ch v ụ t à i ch í nh d à nh cho Africans t ạ i H à n Qu ố c.",
+        "copyrightSuffix": "GME. Bảo lưu mọi quyền."
       }
     },
-    "appDownload": {
-      "heading": "Tải ứng dụng GME",
-      "buttons": {
-        "googlePlay": "Google Play",
-        "appleAppStore": "Apple App Store"
+    "arab": {
+      "header": {
+        "navItems": {
+          "company": "Công ty",
+          "services": "Dịch vụ",
+          "countries": "Quốc gia",
+          "news": "Tin tức",
+          "support": "Hỗ trợ"
+        },
+        "downloadAppLabel": "Tải ứng dụng"
+      },
+      "hero": {
+        "eyebrow": "GME Arab",
+        "headingLines": [
+          "Gửi tiền về quê nhà.",
+          "Luôn kết nối.",
+          "Chi tiêu dễ dàng."
+        ],
+        "subheading": "D ị ch v ụ đá ng tin c ậ y d à nh cho the Arab community đ ang sinh s ố ng t ạ i H à n Qu ố c",
+        "ctaPrimaryLabel": "Gửi tiền ngay",
+        "ctaSecondaryLabel": "Bắt đầu"
+      },
+      "exchangeRate": {
+        "eyebrow": "Tỷ giá",
+        "heading": "Kiểm tra tỷ giá hôm nay",
+        "description": "Xem t ỷ gi á GME Remit m ớ i nh ấ t tr ướ c khi g ử i ti ề n t ừ H à n Qu ố c đế n Arab",
+        "note": "Tỷ giá có thể thay đổi trong ngày",
+        "cardTitle": "Công cụ tính GME Remit",
+        "sampleTag": "Giá trị mẫu",
+        "sendAmountLabel": "Số tiền gửi",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "Quốc gia nhận",
+        "recipientCountryOption": "Arab",
+        "receiveCurrencyLabel": "TBD",
+        "receiverGetsLabel": "Người nhận nhận được",
+        "transferFeeLabel": "Phí chuyển tiền",
+        "exchangeRateLabel": "Tỷ giá",
+        "submitLabel": "Gửi tiền ngay"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "G ử i ti ề n đế n Arab",
+        "description": "M ộ t c á ch đơ n gi ả n v à an to à n để h ỗ tr ợ gia đì nh v à ng ườ i th â n t ạ i Arab t ừ H à n Qu ố c.",
+        "features": [
+          "Tỷ giá cạnh tranh",
+          "Chuyển tiền nhanh chóng và đáng tin cậy",
+          "Phí minh bạch",
+          "Hỗ trợ khi bạn cần"
+        ],
+        "ctaLabel": "Gửi tiền ngay"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "Một thẻ cho mọi nhu cầu",
+        "description": "Thanh toán đơn giản cho cuộc sống hằng ngày tại Hàn Quốc và ở nước ngoài.",
+        "features": [
+          "Thanh toán toàn cầu",
+          "Mua sắm",
+          "Giao thông",
+          "Hoàn tiền",
+          "Quyền lợi EasyCare"
+        ],
+        "ctaLabel": "Khám phá thẻ GME"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "Luôn kết nối tại Hàn Quốc",
+        "description": "Giữ kết nối với những điều quan trọng bằng các gói di động giúp cuộc sống tại Hàn Quốc thuận tiện hơn.",
+        "features": [
+          "Kết nối ổn định",
+          "Gói SIM linh hoạt",
+          "Thiết lập đơn giản",
+          "Hỗ trợ địa phương thân thiện"
+        ],
+        "ctaLabel": "Xem các gói SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "Đối tác tài chính số của bạn",
+        "description": "Trải nghiệm dịch vụ vay kỹ thuật số dành cho người nước ngoài sống tại Hàn Quốc. Đăng ký dễ dàng qua ứng dụng GME.",
+        "features": [
+          "Đăng ký khoản vay không giấy tờ",
+          "Kiểm tra trạng thái khoản vay theo thời gian thực",
+          "Kiểm tra dư nợ theo thời gian thực"
+        ],
+        "ctaLabel": "Đăng ký ngay"
+      },
+      "faq": {
+        "heading": "Câu hỏi thường gặp về GME Remit",
+        "subheading": "Tìm câu trả lời cho những câu hỏi thường gặp khi gửi tiền bằng GME Remit",
+        "items": [
+          {
+            "question": "Gửi tiền bằng GME Remit mất bao lâu?",
+            "answer": [
+              "Giao dịch GME Remit thường được hoàn tất trong khoảng 10 giây, tuy nhiên thời gian thực tế có thể thay đổi tùy theo quốc gia nhận, ngân hàng hoặc phương thức nhận tiền."
+            ]
+          },
+          {
+            "question": "Sử dụng GME Remit có an toàn không?",
+            "answer": [
+              "Có. GME Remit là dịch vụ chuyển tiền được cấp phép tại Hàn Quốc và chịu sự giám sát của các cơ quan tài chính Hàn Quốc có liên quan. Chúng tôi sử dụng quy trình xác minh khách hàng và giao dịch an toàn nhằm góp phần bảo vệ khách hàng và giao dịch của họ."
+            ]
+          },
+          {
+            "question": "Làm thế nào để đăng ký tài khoản GME Remit?",
+            "answer": [
+              "Tải ứng dụng GME Remit, tạo tài khoản và hoàn tất xác minh danh tính theo yêu cầu. Sau khi đăng ký và xác minh hoàn tất, bạn có thể bắt đầu sử dụng các dịch vụ GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi có thể gửi tiền đến những quốc gia nào bằng GME Remit?",
+            "answer": [
+              "GME Remit hỗ trợ chuyển tiền quốc tế đến nhiều quốc gia trên thế giới. Bạn có thể kiểm tra trực tiếp các điểm đến và phương thức nhận tiền hiện có trong ứng dụng GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi nên làm gì nếu gặp vấn đề với giao dịch chuyển tiền?",
+            "answer": [
+              "Độ i ng ũ h ỗ tr ợ kh á ch h à ng c ủ a ch ú ng t ô i l à m vi ệ c t ừ 10:00 đế n 23:00, t ừ Th ứ Hai đế n Ch ủ Nh ậ t.",
+              "B ạ n c ó th ể g ọ i cho ch ú ng t ô i theo s ố {SUPPORT_PHONE_NUMBER} ho ặ c li ê n h ệ qua ứ ng d ụ ng GME Remit.",
+              "B ạ n c ũ ng c ó th ể nh ắ n tin qua c á c k ê nh m ạ ng x ã h ộ i ch í nh th ứ c c ủ a GME Arab, bao g ồ m Facebook, Instagram, TikTok v à ChannelTalk.",
+              "N ế u mu ố n đượ c h ỗ tr ợ tr ự c ti ế p, GME Remit c ũ ng c ó c á c chi nh á nh t ạ i H à n Qu ố c, n ơ i nh â n vi ê n c ủ a ch ú ng t ô i c ó th ể h ỗ tr ợ b ạ n."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "K ế t n ố i v ớ i GME Arab",
+        "subheading": "Tin tức, mẹo hữu ích và cập nhật dành cho cộng đồng",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "Tải ứng dụng GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "D ị ch v ụ t à i ch í nh d à nh cho the Arab community t ạ i H à n Qu ố c.",
+        "copyrightSuffix": "GME. Bảo lưu mọi quyền."
       }
     },
-    "footer": {
-      "logoText": "GME",
-      "tagline": "Dịch vụ tài chính dành cho người Việt tại Hàn Quốc.",
-      "copyrightSuffix": "GME. Bảo lưu mọi quyền."
+    "bangladesh": {
+      "header": {
+        "navItems": {
+          "company": "Công ty",
+          "services": "Dịch vụ",
+          "countries": "Quốc gia",
+          "news": "Tin tức",
+          "support": "Hỗ trợ"
+        },
+        "downloadAppLabel": "Tải ứng dụng"
+      },
+      "hero": {
+        "eyebrow": "GME Bangladesh",
+        "headingLines": [
+          "Gửi tiền về quê nhà.",
+          "Luôn kết nối.",
+          "Chi tiêu dễ dàng."
+        ],
+        "subheading": "D ị ch v ụ đá ng tin c ậ y d à nh cho Bangladeshis đ ang sinh s ố ng t ạ i H à n Qu ố c",
+        "ctaPrimaryLabel": "Gửi tiền ngay",
+        "ctaSecondaryLabel": "Bắt đầu"
+      },
+      "exchangeRate": {
+        "eyebrow": "Tỷ giá",
+        "heading": "Kiểm tra tỷ giá hôm nay",
+        "description": "Xem t ỷ gi á GME Remit m ớ i nh ấ t tr ướ c khi g ử i ti ề n t ừ H à n Qu ố c đế n Bangladesh",
+        "note": "Tỷ giá có thể thay đổi trong ngày",
+        "cardTitle": "Công cụ tính GME Remit",
+        "sampleTag": "Giá trị mẫu",
+        "sendAmountLabel": "Số tiền gửi",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "Quốc gia nhận",
+        "recipientCountryOption": "Bangladesh",
+        "receiveCurrencyLabel": "BDT",
+        "receiverGetsLabel": "Người nhận nhận được",
+        "transferFeeLabel": "Phí chuyển tiền",
+        "exchangeRateLabel": "Tỷ giá",
+        "submitLabel": "Gửi tiền ngay"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "G ử i ti ề n đế n Bangladesh",
+        "description": "M ộ t c á ch đơ n gi ả n v à an to à n để h ỗ tr ợ gia đì nh v à ng ườ i th â n t ạ i Bangladesh t ừ H à n Qu ố c.",
+        "features": [
+          "Tỷ giá cạnh tranh",
+          "Chuyển tiền nhanh chóng và đáng tin cậy",
+          "Phí minh bạch",
+          "Hỗ trợ khi bạn cần"
+        ],
+        "ctaLabel": "Gửi tiền ngay"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "Một thẻ cho mọi nhu cầu",
+        "description": "Thanh toán đơn giản cho cuộc sống hằng ngày tại Hàn Quốc và ở nước ngoài.",
+        "features": [
+          "Thanh toán toàn cầu",
+          "Mua sắm",
+          "Giao thông",
+          "Hoàn tiền",
+          "Quyền lợi EasyCare"
+        ],
+        "ctaLabel": "Khám phá thẻ GME"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "Luôn kết nối tại Hàn Quốc",
+        "description": "Giữ kết nối với những điều quan trọng bằng các gói di động giúp cuộc sống tại Hàn Quốc thuận tiện hơn.",
+        "features": [
+          "Kết nối ổn định",
+          "Gói SIM linh hoạt",
+          "Thiết lập đơn giản",
+          "Hỗ trợ địa phương thân thiện"
+        ],
+        "ctaLabel": "Xem các gói SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "Đối tác tài chính số của bạn",
+        "description": "Trải nghiệm dịch vụ vay kỹ thuật số dành cho người nước ngoài sống tại Hàn Quốc. Đăng ký dễ dàng qua ứng dụng GME.",
+        "features": [
+          "Đăng ký khoản vay không giấy tờ",
+          "Kiểm tra trạng thái khoản vay theo thời gian thực",
+          "Kiểm tra dư nợ theo thời gian thực"
+        ],
+        "ctaLabel": "Đăng ký ngay"
+      },
+      "faq": {
+        "heading": "Câu hỏi thường gặp về GME Remit",
+        "subheading": "Tìm câu trả lời cho những câu hỏi thường gặp khi gửi tiền bằng GME Remit",
+        "items": [
+          {
+            "question": "Gửi tiền bằng GME Remit mất bao lâu?",
+            "answer": [
+              "Giao dịch GME Remit thường được hoàn tất trong khoảng 10 giây, tuy nhiên thời gian thực tế có thể thay đổi tùy theo quốc gia nhận, ngân hàng hoặc phương thức nhận tiền."
+            ]
+          },
+          {
+            "question": "Sử dụng GME Remit có an toàn không?",
+            "answer": [
+              "Có. GME Remit là dịch vụ chuyển tiền được cấp phép tại Hàn Quốc và chịu sự giám sát của các cơ quan tài chính Hàn Quốc có liên quan. Chúng tôi sử dụng quy trình xác minh khách hàng và giao dịch an toàn nhằm góp phần bảo vệ khách hàng và giao dịch của họ."
+            ]
+          },
+          {
+            "question": "Làm thế nào để đăng ký tài khoản GME Remit?",
+            "answer": [
+              "Tải ứng dụng GME Remit, tạo tài khoản và hoàn tất xác minh danh tính theo yêu cầu. Sau khi đăng ký và xác minh hoàn tất, bạn có thể bắt đầu sử dụng các dịch vụ GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi có thể gửi tiền đến những quốc gia nào bằng GME Remit?",
+            "answer": [
+              "GME Remit hỗ trợ chuyển tiền quốc tế đến nhiều quốc gia trên thế giới. Bạn có thể kiểm tra trực tiếp các điểm đến và phương thức nhận tiền hiện có trong ứng dụng GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi nên làm gì nếu gặp vấn đề với giao dịch chuyển tiền?",
+            "answer": [
+              "Độ i ng ũ h ỗ tr ợ kh á ch h à ng c ủ a ch ú ng t ô i l à m vi ệ c t ừ 10:00 đế n 23:00, t ừ Th ứ Hai đế n Ch ủ Nh ậ t.",
+              "B ạ n c ó th ể g ọ i cho ch ú ng t ô i theo s ố {SUPPORT_PHONE_NUMBER} ho ặ c li ê n h ệ qua ứ ng d ụ ng GME Remit.",
+              "B ạ n c ũ ng c ó th ể nh ắ n tin qua c á c k ê nh m ạ ng x ã h ộ i ch í nh th ứ c c ủ a GME Bangladesh, bao g ồ m Facebook, Instagram, TikTok v à ChannelTalk.",
+              "N ế u mu ố n đượ c h ỗ tr ợ tr ự c ti ế p, GME Remit c ũ ng c ó c á c chi nh á nh t ạ i H à n Qu ố c, n ơ i nh â n vi ê n c ủ a ch ú ng t ô i c ó th ể h ỗ tr ợ b ạ n."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "K ế t n ố i v ớ i GME Bangladesh",
+        "subheading": "Tin tức, mẹo hữu ích và cập nhật dành cho cộng đồng",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "Tải ứng dụng GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "D ị ch v ụ t à i ch í nh d à nh cho Bangladeshis t ạ i H à n Qu ố c.",
+        "copyrightSuffix": "GME. Bảo lưu mọi quyền."
+      }
+    },
+    "cambodia": {
+      "header": {
+        "navItems": {
+          "company": "Công ty",
+          "services": "Dịch vụ",
+          "countries": "Quốc gia",
+          "news": "Tin tức",
+          "support": "Hỗ trợ"
+        },
+        "downloadAppLabel": "Tải ứng dụng"
+      },
+      "hero": {
+        "eyebrow": "GME Cambodia",
+        "headingLines": [
+          "Gửi tiền về quê nhà.",
+          "Luôn kết nối.",
+          "Chi tiêu dễ dàng."
+        ],
+        "subheading": "D ị ch v ụ đá ng tin c ậ y d à nh cho Cambodians đ ang sinh s ố ng t ạ i H à n Qu ố c",
+        "ctaPrimaryLabel": "Gửi tiền ngay",
+        "ctaSecondaryLabel": "Bắt đầu"
+      },
+      "exchangeRate": {
+        "eyebrow": "Tỷ giá",
+        "heading": "Kiểm tra tỷ giá hôm nay",
+        "description": "Xem t ỷ gi á GME Remit m ớ i nh ấ t tr ướ c khi g ử i ti ề n t ừ H à n Qu ố c đế n Cambodia",
+        "note": "Tỷ giá có thể thay đổi trong ngày",
+        "cardTitle": "Công cụ tính GME Remit",
+        "sampleTag": "Giá trị mẫu",
+        "sendAmountLabel": "Số tiền gửi",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "Quốc gia nhận",
+        "recipientCountryOption": "Cambodia",
+        "receiveCurrencyLabel": "KHR",
+        "receiverGetsLabel": "Người nhận nhận được",
+        "transferFeeLabel": "Phí chuyển tiền",
+        "exchangeRateLabel": "Tỷ giá",
+        "submitLabel": "Gửi tiền ngay"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "G ử i ti ề n đế n Cambodia",
+        "description": "M ộ t c á ch đơ n gi ả n v à an to à n để h ỗ tr ợ gia đì nh v à ng ườ i th â n t ạ i Cambodia t ừ H à n Qu ố c.",
+        "features": [
+          "Tỷ giá cạnh tranh",
+          "Chuyển tiền nhanh chóng và đáng tin cậy",
+          "Phí minh bạch",
+          "Hỗ trợ khi bạn cần"
+        ],
+        "ctaLabel": "Gửi tiền ngay"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "Một thẻ cho mọi nhu cầu",
+        "description": "Thanh toán đơn giản cho cuộc sống hằng ngày tại Hàn Quốc và ở nước ngoài.",
+        "features": [
+          "Thanh toán toàn cầu",
+          "Mua sắm",
+          "Giao thông",
+          "Hoàn tiền",
+          "Quyền lợi EasyCare"
+        ],
+        "ctaLabel": "Khám phá thẻ GME"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "Luôn kết nối tại Hàn Quốc",
+        "description": "Giữ kết nối với những điều quan trọng bằng các gói di động giúp cuộc sống tại Hàn Quốc thuận tiện hơn.",
+        "features": [
+          "Kết nối ổn định",
+          "Gói SIM linh hoạt",
+          "Thiết lập đơn giản",
+          "Hỗ trợ địa phương thân thiện"
+        ],
+        "ctaLabel": "Xem các gói SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "Đối tác tài chính số của bạn",
+        "description": "Trải nghiệm dịch vụ vay kỹ thuật số dành cho người nước ngoài sống tại Hàn Quốc. Đăng ký dễ dàng qua ứng dụng GME.",
+        "features": [
+          "Đăng ký khoản vay không giấy tờ",
+          "Kiểm tra trạng thái khoản vay theo thời gian thực",
+          "Kiểm tra dư nợ theo thời gian thực"
+        ],
+        "ctaLabel": "Đăng ký ngay"
+      },
+      "faq": {
+        "heading": "Câu hỏi thường gặp về GME Remit",
+        "subheading": "Tìm câu trả lời cho những câu hỏi thường gặp khi gửi tiền bằng GME Remit",
+        "items": [
+          {
+            "question": "Gửi tiền bằng GME Remit mất bao lâu?",
+            "answer": [
+              "Giao dịch GME Remit thường được hoàn tất trong khoảng 10 giây, tuy nhiên thời gian thực tế có thể thay đổi tùy theo quốc gia nhận, ngân hàng hoặc phương thức nhận tiền."
+            ]
+          },
+          {
+            "question": "Sử dụng GME Remit có an toàn không?",
+            "answer": [
+              "Có. GME Remit là dịch vụ chuyển tiền được cấp phép tại Hàn Quốc và chịu sự giám sát của các cơ quan tài chính Hàn Quốc có liên quan. Chúng tôi sử dụng quy trình xác minh khách hàng và giao dịch an toàn nhằm góp phần bảo vệ khách hàng và giao dịch của họ."
+            ]
+          },
+          {
+            "question": "Làm thế nào để đăng ký tài khoản GME Remit?",
+            "answer": [
+              "Tải ứng dụng GME Remit, tạo tài khoản và hoàn tất xác minh danh tính theo yêu cầu. Sau khi đăng ký và xác minh hoàn tất, bạn có thể bắt đầu sử dụng các dịch vụ GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi có thể gửi tiền đến những quốc gia nào bằng GME Remit?",
+            "answer": [
+              "GME Remit hỗ trợ chuyển tiền quốc tế đến nhiều quốc gia trên thế giới. Bạn có thể kiểm tra trực tiếp các điểm đến và phương thức nhận tiền hiện có trong ứng dụng GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi nên làm gì nếu gặp vấn đề với giao dịch chuyển tiền?",
+            "answer": [
+              "Độ i ng ũ h ỗ tr ợ kh á ch h à ng c ủ a ch ú ng t ô i l à m vi ệ c t ừ 10:00 đế n 23:00, t ừ Th ứ Hai đế n Ch ủ Nh ậ t.",
+              "B ạ n c ó th ể g ọ i cho ch ú ng t ô i theo s ố {SUPPORT_PHONE_NUMBER} ho ặ c li ê n h ệ qua ứ ng d ụ ng GME Remit.",
+              "B ạ n c ũ ng c ó th ể nh ắ n tin qua c á c k ê nh m ạ ng x ã h ộ i ch í nh th ứ c c ủ a GME Cambodia, bao g ồ m Facebook, Instagram, TikTok v à ChannelTalk.",
+              "N ế u mu ố n đượ c h ỗ tr ợ tr ự c ti ế p, GME Remit c ũ ng c ó c á c chi nh á nh t ạ i H à n Qu ố c, n ơ i nh â n vi ê n c ủ a ch ú ng t ô i c ó th ể h ỗ tr ợ b ạ n."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "K ế t n ố i v ớ i GME Cambodia",
+        "subheading": "Tin tức, mẹo hữu ích và cập nhật dành cho cộng đồng",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "Tải ứng dụng GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "D ị ch v ụ t à i ch í nh d à nh cho Cambodians t ạ i H à n Qu ố c.",
+        "copyrightSuffix": "GME. Bảo lưu mọi quyền."
+      }
+    },
+    "china": {
+      "header": {
+        "navItems": {
+          "company": "Công ty",
+          "services": "Dịch vụ",
+          "countries": "Quốc gia",
+          "news": "Tin tức",
+          "support": "Hỗ trợ"
+        },
+        "downloadAppLabel": "Tải ứng dụng"
+      },
+      "hero": {
+        "eyebrow": "GME China",
+        "headingLines": [
+          "Gửi tiền về quê nhà.",
+          "Luôn kết nối.",
+          "Chi tiêu dễ dàng."
+        ],
+        "subheading": "D ị ch v ụ đá ng tin c ậ y d à nh cho Chinese nationals đ ang sinh s ố ng t ạ i H à n Qu ố c",
+        "ctaPrimaryLabel": "Gửi tiền ngay",
+        "ctaSecondaryLabel": "Bắt đầu"
+      },
+      "exchangeRate": {
+        "eyebrow": "Tỷ giá",
+        "heading": "Kiểm tra tỷ giá hôm nay",
+        "description": "Xem t ỷ gi á GME Remit m ớ i nh ấ t tr ướ c khi g ử i ti ề n t ừ H à n Qu ố c đế n China",
+        "note": "Tỷ giá có thể thay đổi trong ngày",
+        "cardTitle": "Công cụ tính GME Remit",
+        "sampleTag": "Giá trị mẫu",
+        "sendAmountLabel": "Số tiền gửi",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "Quốc gia nhận",
+        "recipientCountryOption": "China",
+        "receiveCurrencyLabel": "CNY",
+        "receiverGetsLabel": "Người nhận nhận được",
+        "transferFeeLabel": "Phí chuyển tiền",
+        "exchangeRateLabel": "Tỷ giá",
+        "submitLabel": "Gửi tiền ngay"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "G ử i ti ề n đế n China",
+        "description": "M ộ t c á ch đơ n gi ả n v à an to à n để h ỗ tr ợ gia đì nh v à ng ườ i th â n t ạ i China t ừ H à n Qu ố c.",
+        "features": [
+          "Tỷ giá cạnh tranh",
+          "Chuyển tiền nhanh chóng và đáng tin cậy",
+          "Phí minh bạch",
+          "Hỗ trợ khi bạn cần"
+        ],
+        "ctaLabel": "Gửi tiền ngay"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "Một thẻ cho mọi nhu cầu",
+        "description": "Thanh toán đơn giản cho cuộc sống hằng ngày tại Hàn Quốc và ở nước ngoài.",
+        "features": [
+          "Thanh toán toàn cầu",
+          "Mua sắm",
+          "Giao thông",
+          "Hoàn tiền",
+          "Quyền lợi EasyCare"
+        ],
+        "ctaLabel": "Khám phá thẻ GME"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "Luôn kết nối tại Hàn Quốc",
+        "description": "Giữ kết nối với những điều quan trọng bằng các gói di động giúp cuộc sống tại Hàn Quốc thuận tiện hơn.",
+        "features": [
+          "Kết nối ổn định",
+          "Gói SIM linh hoạt",
+          "Thiết lập đơn giản",
+          "Hỗ trợ địa phương thân thiện"
+        ],
+        "ctaLabel": "Xem các gói SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "Đối tác tài chính số của bạn",
+        "description": "Trải nghiệm dịch vụ vay kỹ thuật số dành cho người nước ngoài sống tại Hàn Quốc. Đăng ký dễ dàng qua ứng dụng GME.",
+        "features": [
+          "Đăng ký khoản vay không giấy tờ",
+          "Kiểm tra trạng thái khoản vay theo thời gian thực",
+          "Kiểm tra dư nợ theo thời gian thực"
+        ],
+        "ctaLabel": "Đăng ký ngay"
+      },
+      "faq": {
+        "heading": "Câu hỏi thường gặp về GME Remit",
+        "subheading": "Tìm câu trả lời cho những câu hỏi thường gặp khi gửi tiền bằng GME Remit",
+        "items": [
+          {
+            "question": "Gửi tiền bằng GME Remit mất bao lâu?",
+            "answer": [
+              "Giao dịch GME Remit thường được hoàn tất trong khoảng 10 giây, tuy nhiên thời gian thực tế có thể thay đổi tùy theo quốc gia nhận, ngân hàng hoặc phương thức nhận tiền."
+            ]
+          },
+          {
+            "question": "Sử dụng GME Remit có an toàn không?",
+            "answer": [
+              "Có. GME Remit là dịch vụ chuyển tiền được cấp phép tại Hàn Quốc và chịu sự giám sát của các cơ quan tài chính Hàn Quốc có liên quan. Chúng tôi sử dụng quy trình xác minh khách hàng và giao dịch an toàn nhằm góp phần bảo vệ khách hàng và giao dịch của họ."
+            ]
+          },
+          {
+            "question": "Làm thế nào để đăng ký tài khoản GME Remit?",
+            "answer": [
+              "Tải ứng dụng GME Remit, tạo tài khoản và hoàn tất xác minh danh tính theo yêu cầu. Sau khi đăng ký và xác minh hoàn tất, bạn có thể bắt đầu sử dụng các dịch vụ GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi có thể gửi tiền đến những quốc gia nào bằng GME Remit?",
+            "answer": [
+              "GME Remit hỗ trợ chuyển tiền quốc tế đến nhiều quốc gia trên thế giới. Bạn có thể kiểm tra trực tiếp các điểm đến và phương thức nhận tiền hiện có trong ứng dụng GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi nên làm gì nếu gặp vấn đề với giao dịch chuyển tiền?",
+            "answer": [
+              "Độ i ng ũ h ỗ tr ợ kh á ch h à ng c ủ a ch ú ng t ô i l à m vi ệ c t ừ 10:00 đế n 23:00, t ừ Th ứ Hai đế n Ch ủ Nh ậ t.",
+              "B ạ n c ó th ể g ọ i cho ch ú ng t ô i theo s ố {SUPPORT_PHONE_NUMBER} ho ặ c li ê n h ệ qua ứ ng d ụ ng GME Remit.",
+              "B ạ n c ũ ng c ó th ể nh ắ n tin qua c á c k ê nh m ạ ng x ã h ộ i ch í nh th ứ c c ủ a GME China, bao g ồ m Facebook, Instagram, TikTok v à ChannelTalk.",
+              "N ế u mu ố n đượ c h ỗ tr ợ tr ự c ti ế p, GME Remit c ũ ng c ó c á c chi nh á nh t ạ i H à n Qu ố c, n ơ i nh â n vi ê n c ủ a ch ú ng t ô i c ó th ể h ỗ tr ợ b ạ n."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "K ế t n ố i v ớ i GME China",
+        "subheading": "Tin tức, mẹo hữu ích và cập nhật dành cho cộng đồng",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "Tải ứng dụng GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "D ị ch v ụ t à i ch í nh d à nh cho Chinese nationals t ạ i H à n Qu ố c.",
+        "copyrightSuffix": "GME. Bảo lưu mọi quyền."
+      }
+    },
+    "india": {
+      "header": {
+        "navItems": {
+          "company": "Công ty",
+          "services": "Dịch vụ",
+          "countries": "Quốc gia",
+          "news": "Tin tức",
+          "support": "Hỗ trợ"
+        },
+        "downloadAppLabel": "Tải ứng dụng"
+      },
+      "hero": {
+        "eyebrow": "GME India",
+        "headingLines": [
+          "Gửi tiền về quê nhà.",
+          "Luôn kết nối.",
+          "Chi tiêu dễ dàng."
+        ],
+        "subheading": "D ị ch v ụ đá ng tin c ậ y d à nh cho Indians đ ang sinh s ố ng t ạ i H à n Qu ố c",
+        "ctaPrimaryLabel": "Gửi tiền ngay",
+        "ctaSecondaryLabel": "Bắt đầu"
+      },
+      "exchangeRate": {
+        "eyebrow": "Tỷ giá",
+        "heading": "Kiểm tra tỷ giá hôm nay",
+        "description": "Xem t ỷ gi á GME Remit m ớ i nh ấ t tr ướ c khi g ử i ti ề n t ừ H à n Qu ố c đế n India",
+        "note": "Tỷ giá có thể thay đổi trong ngày",
+        "cardTitle": "Công cụ tính GME Remit",
+        "sampleTag": "Giá trị mẫu",
+        "sendAmountLabel": "Số tiền gửi",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "Quốc gia nhận",
+        "recipientCountryOption": "India",
+        "receiveCurrencyLabel": "INR",
+        "receiverGetsLabel": "Người nhận nhận được",
+        "transferFeeLabel": "Phí chuyển tiền",
+        "exchangeRateLabel": "Tỷ giá",
+        "submitLabel": "Gửi tiền ngay"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "G ử i ti ề n đế n India",
+        "description": "M ộ t c á ch đơ n gi ả n v à an to à n để h ỗ tr ợ gia đì nh v à ng ườ i th â n t ạ i India t ừ H à n Qu ố c.",
+        "features": [
+          "Tỷ giá cạnh tranh",
+          "Chuyển tiền nhanh chóng và đáng tin cậy",
+          "Phí minh bạch",
+          "Hỗ trợ khi bạn cần"
+        ],
+        "ctaLabel": "Gửi tiền ngay"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "Một thẻ cho mọi nhu cầu",
+        "description": "Thanh toán đơn giản cho cuộc sống hằng ngày tại Hàn Quốc và ở nước ngoài.",
+        "features": [
+          "Thanh toán toàn cầu",
+          "Mua sắm",
+          "Giao thông",
+          "Hoàn tiền",
+          "Quyền lợi EasyCare"
+        ],
+        "ctaLabel": "Khám phá thẻ GME"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "Luôn kết nối tại Hàn Quốc",
+        "description": "Giữ kết nối với những điều quan trọng bằng các gói di động giúp cuộc sống tại Hàn Quốc thuận tiện hơn.",
+        "features": [
+          "Kết nối ổn định",
+          "Gói SIM linh hoạt",
+          "Thiết lập đơn giản",
+          "Hỗ trợ địa phương thân thiện"
+        ],
+        "ctaLabel": "Xem các gói SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "Đối tác tài chính số của bạn",
+        "description": "Trải nghiệm dịch vụ vay kỹ thuật số dành cho người nước ngoài sống tại Hàn Quốc. Đăng ký dễ dàng qua ứng dụng GME.",
+        "features": [
+          "Đăng ký khoản vay không giấy tờ",
+          "Kiểm tra trạng thái khoản vay theo thời gian thực",
+          "Kiểm tra dư nợ theo thời gian thực"
+        ],
+        "ctaLabel": "Đăng ký ngay"
+      },
+      "faq": {
+        "heading": "Câu hỏi thường gặp về GME Remit",
+        "subheading": "Tìm câu trả lời cho những câu hỏi thường gặp khi gửi tiền bằng GME Remit",
+        "items": [
+          {
+            "question": "Gửi tiền bằng GME Remit mất bao lâu?",
+            "answer": [
+              "Giao dịch GME Remit thường được hoàn tất trong khoảng 10 giây, tuy nhiên thời gian thực tế có thể thay đổi tùy theo quốc gia nhận, ngân hàng hoặc phương thức nhận tiền."
+            ]
+          },
+          {
+            "question": "Sử dụng GME Remit có an toàn không?",
+            "answer": [
+              "Có. GME Remit là dịch vụ chuyển tiền được cấp phép tại Hàn Quốc và chịu sự giám sát của các cơ quan tài chính Hàn Quốc có liên quan. Chúng tôi sử dụng quy trình xác minh khách hàng và giao dịch an toàn nhằm góp phần bảo vệ khách hàng và giao dịch của họ."
+            ]
+          },
+          {
+            "question": "Làm thế nào để đăng ký tài khoản GME Remit?",
+            "answer": [
+              "Tải ứng dụng GME Remit, tạo tài khoản và hoàn tất xác minh danh tính theo yêu cầu. Sau khi đăng ký và xác minh hoàn tất, bạn có thể bắt đầu sử dụng các dịch vụ GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi có thể gửi tiền đến những quốc gia nào bằng GME Remit?",
+            "answer": [
+              "GME Remit hỗ trợ chuyển tiền quốc tế đến nhiều quốc gia trên thế giới. Bạn có thể kiểm tra trực tiếp các điểm đến và phương thức nhận tiền hiện có trong ứng dụng GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi nên làm gì nếu gặp vấn đề với giao dịch chuyển tiền?",
+            "answer": [
+              "Độ i ng ũ h ỗ tr ợ kh á ch h à ng c ủ a ch ú ng t ô i l à m vi ệ c t ừ 10:00 đế n 23:00, t ừ Th ứ Hai đế n Ch ủ Nh ậ t.",
+              "B ạ n c ó th ể g ọ i cho ch ú ng t ô i theo s ố {SUPPORT_PHONE_NUMBER} ho ặ c li ê n h ệ qua ứ ng d ụ ng GME Remit.",
+              "B ạ n c ũ ng c ó th ể nh ắ n tin qua c á c k ê nh m ạ ng x ã h ộ i ch í nh th ứ c c ủ a GME India, bao g ồ m Facebook, Instagram, TikTok v à ChannelTalk.",
+              "N ế u mu ố n đượ c h ỗ tr ợ tr ự c ti ế p, GME Remit c ũ ng c ó c á c chi nh á nh t ạ i H à n Qu ố c, n ơ i nh â n vi ê n c ủ a ch ú ng t ô i c ó th ể h ỗ tr ợ b ạ n."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "K ế t n ố i v ớ i GME India",
+        "subheading": "Tin tức, mẹo hữu ích và cập nhật dành cho cộng đồng",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "Tải ứng dụng GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "D ị ch v ụ t à i ch í nh d à nh cho Indians t ạ i H à n Qu ố c.",
+        "copyrightSuffix": "GME. Bảo lưu mọi quyền."
+      }
+    },
+    "indonesia": {
+      "header": {
+        "navItems": {
+          "company": "Công ty",
+          "services": "Dịch vụ",
+          "countries": "Quốc gia",
+          "news": "Tin tức",
+          "support": "Hỗ trợ"
+        },
+        "downloadAppLabel": "Tải ứng dụng"
+      },
+      "hero": {
+        "eyebrow": "GME Indonesia",
+        "headingLines": [
+          "Gửi tiền về quê nhà.",
+          "Luôn kết nối.",
+          "Chi tiêu dễ dàng."
+        ],
+        "subheading": "D ị ch v ụ đá ng tin c ậ y d à nh cho Indonesians đ ang sinh s ố ng t ạ i H à n Qu ố c",
+        "ctaPrimaryLabel": "Gửi tiền ngay",
+        "ctaSecondaryLabel": "Bắt đầu"
+      },
+      "exchangeRate": {
+        "eyebrow": "Tỷ giá",
+        "heading": "Kiểm tra tỷ giá hôm nay",
+        "description": "Xem t ỷ gi á GME Remit m ớ i nh ấ t tr ướ c khi g ử i ti ề n t ừ H à n Qu ố c đế n Indonesia",
+        "note": "Tỷ giá có thể thay đổi trong ngày",
+        "cardTitle": "Công cụ tính GME Remit",
+        "sampleTag": "Giá trị mẫu",
+        "sendAmountLabel": "Số tiền gửi",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "Quốc gia nhận",
+        "recipientCountryOption": "Indonesia",
+        "receiveCurrencyLabel": "IDR",
+        "receiverGetsLabel": "Người nhận nhận được",
+        "transferFeeLabel": "Phí chuyển tiền",
+        "exchangeRateLabel": "Tỷ giá",
+        "submitLabel": "Gửi tiền ngay"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "G ử i ti ề n đế n Indonesia",
+        "description": "M ộ t c á ch đơ n gi ả n v à an to à n để h ỗ tr ợ gia đì nh v à ng ườ i th â n t ạ i Indonesia t ừ H à n Qu ố c.",
+        "features": [
+          "Tỷ giá cạnh tranh",
+          "Chuyển tiền nhanh chóng và đáng tin cậy",
+          "Phí minh bạch",
+          "Hỗ trợ khi bạn cần"
+        ],
+        "ctaLabel": "Gửi tiền ngay"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "Một thẻ cho mọi nhu cầu",
+        "description": "Thanh toán đơn giản cho cuộc sống hằng ngày tại Hàn Quốc và ở nước ngoài.",
+        "features": [
+          "Thanh toán toàn cầu",
+          "Mua sắm",
+          "Giao thông",
+          "Hoàn tiền",
+          "Quyền lợi EasyCare"
+        ],
+        "ctaLabel": "Khám phá thẻ GME"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "Luôn kết nối tại Hàn Quốc",
+        "description": "Giữ kết nối với những điều quan trọng bằng các gói di động giúp cuộc sống tại Hàn Quốc thuận tiện hơn.",
+        "features": [
+          "Kết nối ổn định",
+          "Gói SIM linh hoạt",
+          "Thiết lập đơn giản",
+          "Hỗ trợ địa phương thân thiện"
+        ],
+        "ctaLabel": "Xem các gói SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "Đối tác tài chính số của bạn",
+        "description": "Trải nghiệm dịch vụ vay kỹ thuật số dành cho người nước ngoài sống tại Hàn Quốc. Đăng ký dễ dàng qua ứng dụng GME.",
+        "features": [
+          "Đăng ký khoản vay không giấy tờ",
+          "Kiểm tra trạng thái khoản vay theo thời gian thực",
+          "Kiểm tra dư nợ theo thời gian thực"
+        ],
+        "ctaLabel": "Đăng ký ngay"
+      },
+      "faq": {
+        "heading": "Câu hỏi thường gặp về GME Remit",
+        "subheading": "Tìm câu trả lời cho những câu hỏi thường gặp khi gửi tiền bằng GME Remit",
+        "items": [
+          {
+            "question": "Gửi tiền bằng GME Remit mất bao lâu?",
+            "answer": [
+              "Giao dịch GME Remit thường được hoàn tất trong khoảng 10 giây, tuy nhiên thời gian thực tế có thể thay đổi tùy theo quốc gia nhận, ngân hàng hoặc phương thức nhận tiền."
+            ]
+          },
+          {
+            "question": "Sử dụng GME Remit có an toàn không?",
+            "answer": [
+              "Có. GME Remit là dịch vụ chuyển tiền được cấp phép tại Hàn Quốc và chịu sự giám sát của các cơ quan tài chính Hàn Quốc có liên quan. Chúng tôi sử dụng quy trình xác minh khách hàng và giao dịch an toàn nhằm góp phần bảo vệ khách hàng và giao dịch của họ."
+            ]
+          },
+          {
+            "question": "Làm thế nào để đăng ký tài khoản GME Remit?",
+            "answer": [
+              "Tải ứng dụng GME Remit, tạo tài khoản và hoàn tất xác minh danh tính theo yêu cầu. Sau khi đăng ký và xác minh hoàn tất, bạn có thể bắt đầu sử dụng các dịch vụ GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi có thể gửi tiền đến những quốc gia nào bằng GME Remit?",
+            "answer": [
+              "GME Remit hỗ trợ chuyển tiền quốc tế đến nhiều quốc gia trên thế giới. Bạn có thể kiểm tra trực tiếp các điểm đến và phương thức nhận tiền hiện có trong ứng dụng GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi nên làm gì nếu gặp vấn đề với giao dịch chuyển tiền?",
+            "answer": [
+              "Độ i ng ũ h ỗ tr ợ kh á ch h à ng c ủ a ch ú ng t ô i l à m vi ệ c t ừ 10:00 đế n 23:00, t ừ Th ứ Hai đế n Ch ủ Nh ậ t.",
+              "B ạ n c ó th ể g ọ i cho ch ú ng t ô i theo s ố {SUPPORT_PHONE_NUMBER} ho ặ c li ê n h ệ qua ứ ng d ụ ng GME Remit.",
+              "B ạ n c ũ ng c ó th ể nh ắ n tin qua c á c k ê nh m ạ ng x ã h ộ i ch í nh th ứ c c ủ a GME Indonesia, bao g ồ m Facebook, Instagram, TikTok v à ChannelTalk.",
+              "N ế u mu ố n đượ c h ỗ tr ợ tr ự c ti ế p, GME Remit c ũ ng c ó c á c chi nh á nh t ạ i H à n Qu ố c, n ơ i nh â n vi ê n c ủ a ch ú ng t ô i c ó th ể h ỗ tr ợ b ạ n."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "K ế t n ố i v ớ i GME Indonesia",
+        "subheading": "Tin tức, mẹo hữu ích và cập nhật dành cho cộng đồng",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "Tải ứng dụng GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "D ị ch v ụ t à i ch í nh d à nh cho Indonesians t ạ i H à n Qu ố c.",
+        "copyrightSuffix": "GME. Bảo lưu mọi quyền."
+      }
+    },
+    "kazakhstan": {
+      "header": {
+        "navItems": {
+          "company": "Công ty",
+          "services": "Dịch vụ",
+          "countries": "Quốc gia",
+          "news": "Tin tức",
+          "support": "Hỗ trợ"
+        },
+        "downloadAppLabel": "Tải ứng dụng"
+      },
+      "hero": {
+        "eyebrow": "GME Kazakhstan",
+        "headingLines": [
+          "Gửi tiền về quê nhà.",
+          "Luôn kết nối.",
+          "Chi tiêu dễ dàng."
+        ],
+        "subheading": "D ị ch v ụ đá ng tin c ậ y d à nh cho Kazakhstanis đ ang sinh s ố ng t ạ i H à n Qu ố c",
+        "ctaPrimaryLabel": "Gửi tiền ngay",
+        "ctaSecondaryLabel": "Bắt đầu"
+      },
+      "exchangeRate": {
+        "eyebrow": "Tỷ giá",
+        "heading": "Kiểm tra tỷ giá hôm nay",
+        "description": "Xem t ỷ gi á GME Remit m ớ i nh ấ t tr ướ c khi g ử i ti ề n t ừ H à n Qu ố c đế n Kazakhstan",
+        "note": "Tỷ giá có thể thay đổi trong ngày",
+        "cardTitle": "Công cụ tính GME Remit",
+        "sampleTag": "Giá trị mẫu",
+        "sendAmountLabel": "Số tiền gửi",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "Quốc gia nhận",
+        "recipientCountryOption": "Kazakhstan",
+        "receiveCurrencyLabel": "KZT",
+        "receiverGetsLabel": "Người nhận nhận được",
+        "transferFeeLabel": "Phí chuyển tiền",
+        "exchangeRateLabel": "Tỷ giá",
+        "submitLabel": "Gửi tiền ngay"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "G ử i ti ề n đế n Kazakhstan",
+        "description": "M ộ t c á ch đơ n gi ả n v à an to à n để h ỗ tr ợ gia đì nh v à ng ườ i th â n t ạ i Kazakhstan t ừ H à n Qu ố c.",
+        "features": [
+          "Tỷ giá cạnh tranh",
+          "Chuyển tiền nhanh chóng và đáng tin cậy",
+          "Phí minh bạch",
+          "Hỗ trợ khi bạn cần"
+        ],
+        "ctaLabel": "Gửi tiền ngay"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "Một thẻ cho mọi nhu cầu",
+        "description": "Thanh toán đơn giản cho cuộc sống hằng ngày tại Hàn Quốc và ở nước ngoài.",
+        "features": [
+          "Thanh toán toàn cầu",
+          "Mua sắm",
+          "Giao thông",
+          "Hoàn tiền",
+          "Quyền lợi EasyCare"
+        ],
+        "ctaLabel": "Khám phá thẻ GME"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "Luôn kết nối tại Hàn Quốc",
+        "description": "Giữ kết nối với những điều quan trọng bằng các gói di động giúp cuộc sống tại Hàn Quốc thuận tiện hơn.",
+        "features": [
+          "Kết nối ổn định",
+          "Gói SIM linh hoạt",
+          "Thiết lập đơn giản",
+          "Hỗ trợ địa phương thân thiện"
+        ],
+        "ctaLabel": "Xem các gói SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "Đối tác tài chính số của bạn",
+        "description": "Trải nghiệm dịch vụ vay kỹ thuật số dành cho người nước ngoài sống tại Hàn Quốc. Đăng ký dễ dàng qua ứng dụng GME.",
+        "features": [
+          "Đăng ký khoản vay không giấy tờ",
+          "Kiểm tra trạng thái khoản vay theo thời gian thực",
+          "Kiểm tra dư nợ theo thời gian thực"
+        ],
+        "ctaLabel": "Đăng ký ngay"
+      },
+      "faq": {
+        "heading": "Câu hỏi thường gặp về GME Remit",
+        "subheading": "Tìm câu trả lời cho những câu hỏi thường gặp khi gửi tiền bằng GME Remit",
+        "items": [
+          {
+            "question": "Gửi tiền bằng GME Remit mất bao lâu?",
+            "answer": [
+              "Giao dịch GME Remit thường được hoàn tất trong khoảng 10 giây, tuy nhiên thời gian thực tế có thể thay đổi tùy theo quốc gia nhận, ngân hàng hoặc phương thức nhận tiền."
+            ]
+          },
+          {
+            "question": "Sử dụng GME Remit có an toàn không?",
+            "answer": [
+              "Có. GME Remit là dịch vụ chuyển tiền được cấp phép tại Hàn Quốc và chịu sự giám sát của các cơ quan tài chính Hàn Quốc có liên quan. Chúng tôi sử dụng quy trình xác minh khách hàng và giao dịch an toàn nhằm góp phần bảo vệ khách hàng và giao dịch của họ."
+            ]
+          },
+          {
+            "question": "Làm thế nào để đăng ký tài khoản GME Remit?",
+            "answer": [
+              "Tải ứng dụng GME Remit, tạo tài khoản và hoàn tất xác minh danh tính theo yêu cầu. Sau khi đăng ký và xác minh hoàn tất, bạn có thể bắt đầu sử dụng các dịch vụ GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi có thể gửi tiền đến những quốc gia nào bằng GME Remit?",
+            "answer": [
+              "GME Remit hỗ trợ chuyển tiền quốc tế đến nhiều quốc gia trên thế giới. Bạn có thể kiểm tra trực tiếp các điểm đến và phương thức nhận tiền hiện có trong ứng dụng GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi nên làm gì nếu gặp vấn đề với giao dịch chuyển tiền?",
+            "answer": [
+              "Độ i ng ũ h ỗ tr ợ kh á ch h à ng c ủ a ch ú ng t ô i l à m vi ệ c t ừ 10:00 đế n 23:00, t ừ Th ứ Hai đế n Ch ủ Nh ậ t.",
+              "B ạ n c ó th ể g ọ i cho ch ú ng t ô i theo s ố {SUPPORT_PHONE_NUMBER} ho ặ c li ê n h ệ qua ứ ng d ụ ng GME Remit.",
+              "B ạ n c ũ ng c ó th ể nh ắ n tin qua c á c k ê nh m ạ ng x ã h ộ i ch í nh th ứ c c ủ a GME Kazakhstan, bao g ồ m Facebook, Instagram, TikTok v à ChannelTalk.",
+              "N ế u mu ố n đượ c h ỗ tr ợ tr ự c ti ế p, GME Remit c ũ ng c ó c á c chi nh á nh t ạ i H à n Qu ố c, n ơ i nh â n vi ê n c ủ a ch ú ng t ô i c ó th ể h ỗ tr ợ b ạ n."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "K ế t n ố i v ớ i GME Kazakhstan",
+        "subheading": "Tin tức, mẹo hữu ích và cập nhật dành cho cộng đồng",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "Tải ứng dụng GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "D ị ch v ụ t à i ch í nh d à nh cho Kazakhstanis t ạ i H à n Qu ố c.",
+        "copyrightSuffix": "GME. Bảo lưu mọi quyền."
+      }
+    },
+    "kyrgyzstan": {
+      "header": {
+        "navItems": {
+          "company": "Công ty",
+          "services": "Dịch vụ",
+          "countries": "Quốc gia",
+          "news": "Tin tức",
+          "support": "Hỗ trợ"
+        },
+        "downloadAppLabel": "Tải ứng dụng"
+      },
+      "hero": {
+        "eyebrow": "GME Kyrgyzstan",
+        "headingLines": [
+          "Gửi tiền về quê nhà.",
+          "Luôn kết nối.",
+          "Chi tiêu dễ dàng."
+        ],
+        "subheading": "D ị ch v ụ đá ng tin c ậ y d à nh cho Kyrgyzstanis đ ang sinh s ố ng t ạ i H à n Qu ố c",
+        "ctaPrimaryLabel": "Gửi tiền ngay",
+        "ctaSecondaryLabel": "Bắt đầu"
+      },
+      "exchangeRate": {
+        "eyebrow": "Tỷ giá",
+        "heading": "Kiểm tra tỷ giá hôm nay",
+        "description": "Xem t ỷ gi á GME Remit m ớ i nh ấ t tr ướ c khi g ử i ti ề n t ừ H à n Qu ố c đế n Kyrgyzstan",
+        "note": "Tỷ giá có thể thay đổi trong ngày",
+        "cardTitle": "Công cụ tính GME Remit",
+        "sampleTag": "Giá trị mẫu",
+        "sendAmountLabel": "Số tiền gửi",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "Quốc gia nhận",
+        "recipientCountryOption": "Kyrgyzstan",
+        "receiveCurrencyLabel": "KGS",
+        "receiverGetsLabel": "Người nhận nhận được",
+        "transferFeeLabel": "Phí chuyển tiền",
+        "exchangeRateLabel": "Tỷ giá",
+        "submitLabel": "Gửi tiền ngay"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "G ử i ti ề n đế n Kyrgyzstan",
+        "description": "M ộ t c á ch đơ n gi ả n v à an to à n để h ỗ tr ợ gia đì nh v à ng ườ i th â n t ạ i Kyrgyzstan t ừ H à n Qu ố c.",
+        "features": [
+          "Tỷ giá cạnh tranh",
+          "Chuyển tiền nhanh chóng và đáng tin cậy",
+          "Phí minh bạch",
+          "Hỗ trợ khi bạn cần"
+        ],
+        "ctaLabel": "Gửi tiền ngay"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "Một thẻ cho mọi nhu cầu",
+        "description": "Thanh toán đơn giản cho cuộc sống hằng ngày tại Hàn Quốc và ở nước ngoài.",
+        "features": [
+          "Thanh toán toàn cầu",
+          "Mua sắm",
+          "Giao thông",
+          "Hoàn tiền",
+          "Quyền lợi EasyCare"
+        ],
+        "ctaLabel": "Khám phá thẻ GME"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "Luôn kết nối tại Hàn Quốc",
+        "description": "Giữ kết nối với những điều quan trọng bằng các gói di động giúp cuộc sống tại Hàn Quốc thuận tiện hơn.",
+        "features": [
+          "Kết nối ổn định",
+          "Gói SIM linh hoạt",
+          "Thiết lập đơn giản",
+          "Hỗ trợ địa phương thân thiện"
+        ],
+        "ctaLabel": "Xem các gói SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "Đối tác tài chính số của bạn",
+        "description": "Trải nghiệm dịch vụ vay kỹ thuật số dành cho người nước ngoài sống tại Hàn Quốc. Đăng ký dễ dàng qua ứng dụng GME.",
+        "features": [
+          "Đăng ký khoản vay không giấy tờ",
+          "Kiểm tra trạng thái khoản vay theo thời gian thực",
+          "Kiểm tra dư nợ theo thời gian thực"
+        ],
+        "ctaLabel": "Đăng ký ngay"
+      },
+      "faq": {
+        "heading": "Câu hỏi thường gặp về GME Remit",
+        "subheading": "Tìm câu trả lời cho những câu hỏi thường gặp khi gửi tiền bằng GME Remit",
+        "items": [
+          {
+            "question": "Gửi tiền bằng GME Remit mất bao lâu?",
+            "answer": [
+              "Giao dịch GME Remit thường được hoàn tất trong khoảng 10 giây, tuy nhiên thời gian thực tế có thể thay đổi tùy theo quốc gia nhận, ngân hàng hoặc phương thức nhận tiền."
+            ]
+          },
+          {
+            "question": "Sử dụng GME Remit có an toàn không?",
+            "answer": [
+              "Có. GME Remit là dịch vụ chuyển tiền được cấp phép tại Hàn Quốc và chịu sự giám sát của các cơ quan tài chính Hàn Quốc có liên quan. Chúng tôi sử dụng quy trình xác minh khách hàng và giao dịch an toàn nhằm góp phần bảo vệ khách hàng và giao dịch của họ."
+            ]
+          },
+          {
+            "question": "Làm thế nào để đăng ký tài khoản GME Remit?",
+            "answer": [
+              "Tải ứng dụng GME Remit, tạo tài khoản và hoàn tất xác minh danh tính theo yêu cầu. Sau khi đăng ký và xác minh hoàn tất, bạn có thể bắt đầu sử dụng các dịch vụ GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi có thể gửi tiền đến những quốc gia nào bằng GME Remit?",
+            "answer": [
+              "GME Remit hỗ trợ chuyển tiền quốc tế đến nhiều quốc gia trên thế giới. Bạn có thể kiểm tra trực tiếp các điểm đến và phương thức nhận tiền hiện có trong ứng dụng GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi nên làm gì nếu gặp vấn đề với giao dịch chuyển tiền?",
+            "answer": [
+              "Độ i ng ũ h ỗ tr ợ kh á ch h à ng c ủ a ch ú ng t ô i l à m vi ệ c t ừ 10:00 đế n 23:00, t ừ Th ứ Hai đế n Ch ủ Nh ậ t.",
+              "B ạ n c ó th ể g ọ i cho ch ú ng t ô i theo s ố {SUPPORT_PHONE_NUMBER} ho ặ c li ê n h ệ qua ứ ng d ụ ng GME Remit.",
+              "B ạ n c ũ ng c ó th ể nh ắ n tin qua c á c k ê nh m ạ ng x ã h ộ i ch í nh th ứ c c ủ a GME Kyrgyzstan, bao g ồ m Facebook, Instagram, TikTok v à ChannelTalk.",
+              "N ế u mu ố n đượ c h ỗ tr ợ tr ự c ti ế p, GME Remit c ũ ng c ó c á c chi nh á nh t ạ i H à n Qu ố c, n ơ i nh â n vi ê n c ủ a ch ú ng t ô i c ó th ể h ỗ tr ợ b ạ n."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "K ế t n ố i v ớ i GME Kyrgyzstan",
+        "subheading": "Tin tức, mẹo hữu ích và cập nhật dành cho cộng đồng",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "Tải ứng dụng GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "D ị ch v ụ t à i ch í nh d à nh cho Kyrgyzstanis t ạ i H à n Qu ố c.",
+        "copyrightSuffix": "GME. Bảo lưu mọi quyền."
+      }
+    },
+    "laos": {
+      "header": {
+        "navItems": {
+          "company": "Công ty",
+          "services": "Dịch vụ",
+          "countries": "Quốc gia",
+          "news": "Tin tức",
+          "support": "Hỗ trợ"
+        },
+        "downloadAppLabel": "Tải ứng dụng"
+      },
+      "hero": {
+        "eyebrow": "GME Laos",
+        "headingLines": [
+          "Gửi tiền về quê nhà.",
+          "Luôn kết nối.",
+          "Chi tiêu dễ dàng."
+        ],
+        "subheading": "D ị ch v ụ đá ng tin c ậ y d à nh cho Laotians đ ang sinh s ố ng t ạ i H à n Qu ố c",
+        "ctaPrimaryLabel": "Gửi tiền ngay",
+        "ctaSecondaryLabel": "Bắt đầu"
+      },
+      "exchangeRate": {
+        "eyebrow": "Tỷ giá",
+        "heading": "Kiểm tra tỷ giá hôm nay",
+        "description": "Xem t ỷ gi á GME Remit m ớ i nh ấ t tr ướ c khi g ử i ti ề n t ừ H à n Qu ố c đế n Laos",
+        "note": "Tỷ giá có thể thay đổi trong ngày",
+        "cardTitle": "Công cụ tính GME Remit",
+        "sampleTag": "Giá trị mẫu",
+        "sendAmountLabel": "Số tiền gửi",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "Quốc gia nhận",
+        "recipientCountryOption": "Laos",
+        "receiveCurrencyLabel": "LAK",
+        "receiverGetsLabel": "Người nhận nhận được",
+        "transferFeeLabel": "Phí chuyển tiền",
+        "exchangeRateLabel": "Tỷ giá",
+        "submitLabel": "Gửi tiền ngay"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "G ử i ti ề n đế n Laos",
+        "description": "M ộ t c á ch đơ n gi ả n v à an to à n để h ỗ tr ợ gia đì nh v à ng ườ i th â n t ạ i Laos t ừ H à n Qu ố c.",
+        "features": [
+          "Tỷ giá cạnh tranh",
+          "Chuyển tiền nhanh chóng và đáng tin cậy",
+          "Phí minh bạch",
+          "Hỗ trợ khi bạn cần"
+        ],
+        "ctaLabel": "Gửi tiền ngay"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "Một thẻ cho mọi nhu cầu",
+        "description": "Thanh toán đơn giản cho cuộc sống hằng ngày tại Hàn Quốc và ở nước ngoài.",
+        "features": [
+          "Thanh toán toàn cầu",
+          "Mua sắm",
+          "Giao thông",
+          "Hoàn tiền",
+          "Quyền lợi EasyCare"
+        ],
+        "ctaLabel": "Khám phá thẻ GME"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "Luôn kết nối tại Hàn Quốc",
+        "description": "Giữ kết nối với những điều quan trọng bằng các gói di động giúp cuộc sống tại Hàn Quốc thuận tiện hơn.",
+        "features": [
+          "Kết nối ổn định",
+          "Gói SIM linh hoạt",
+          "Thiết lập đơn giản",
+          "Hỗ trợ địa phương thân thiện"
+        ],
+        "ctaLabel": "Xem các gói SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "Đối tác tài chính số của bạn",
+        "description": "Trải nghiệm dịch vụ vay kỹ thuật số dành cho người nước ngoài sống tại Hàn Quốc. Đăng ký dễ dàng qua ứng dụng GME.",
+        "features": [
+          "Đăng ký khoản vay không giấy tờ",
+          "Kiểm tra trạng thái khoản vay theo thời gian thực",
+          "Kiểm tra dư nợ theo thời gian thực"
+        ],
+        "ctaLabel": "Đăng ký ngay"
+      },
+      "faq": {
+        "heading": "Câu hỏi thường gặp về GME Remit",
+        "subheading": "Tìm câu trả lời cho những câu hỏi thường gặp khi gửi tiền bằng GME Remit",
+        "items": [
+          {
+            "question": "Gửi tiền bằng GME Remit mất bao lâu?",
+            "answer": [
+              "Giao dịch GME Remit thường được hoàn tất trong khoảng 10 giây, tuy nhiên thời gian thực tế có thể thay đổi tùy theo quốc gia nhận, ngân hàng hoặc phương thức nhận tiền."
+            ]
+          },
+          {
+            "question": "Sử dụng GME Remit có an toàn không?",
+            "answer": [
+              "Có. GME Remit là dịch vụ chuyển tiền được cấp phép tại Hàn Quốc và chịu sự giám sát của các cơ quan tài chính Hàn Quốc có liên quan. Chúng tôi sử dụng quy trình xác minh khách hàng và giao dịch an toàn nhằm góp phần bảo vệ khách hàng và giao dịch của họ."
+            ]
+          },
+          {
+            "question": "Làm thế nào để đăng ký tài khoản GME Remit?",
+            "answer": [
+              "Tải ứng dụng GME Remit, tạo tài khoản và hoàn tất xác minh danh tính theo yêu cầu. Sau khi đăng ký và xác minh hoàn tất, bạn có thể bắt đầu sử dụng các dịch vụ GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi có thể gửi tiền đến những quốc gia nào bằng GME Remit?",
+            "answer": [
+              "GME Remit hỗ trợ chuyển tiền quốc tế đến nhiều quốc gia trên thế giới. Bạn có thể kiểm tra trực tiếp các điểm đến và phương thức nhận tiền hiện có trong ứng dụng GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi nên làm gì nếu gặp vấn đề với giao dịch chuyển tiền?",
+            "answer": [
+              "Độ i ng ũ h ỗ tr ợ kh á ch h à ng c ủ a ch ú ng t ô i l à m vi ệ c t ừ 10:00 đế n 23:00, t ừ Th ứ Hai đế n Ch ủ Nh ậ t.",
+              "B ạ n c ó th ể g ọ i cho ch ú ng t ô i theo s ố {SUPPORT_PHONE_NUMBER} ho ặ c li ê n h ệ qua ứ ng d ụ ng GME Remit.",
+              "B ạ n c ũ ng c ó th ể nh ắ n tin qua c á c k ê nh m ạ ng x ã h ộ i ch í nh th ứ c c ủ a GME Laos, bao g ồ m Facebook, Instagram, TikTok v à ChannelTalk.",
+              "N ế u mu ố n đượ c h ỗ tr ợ tr ự c ti ế p, GME Remit c ũ ng c ó c á c chi nh á nh t ạ i H à n Qu ố c, n ơ i nh â n vi ê n c ủ a ch ú ng t ô i c ó th ể h ỗ tr ợ b ạ n."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "K ế t n ố i v ớ i GME Laos",
+        "subheading": "Tin tức, mẹo hữu ích và cập nhật dành cho cộng đồng",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "Tải ứng dụng GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "D ị ch v ụ t à i ch í nh d à nh cho Laotians t ạ i H à n Qu ố c.",
+        "copyrightSuffix": "GME. Bảo lưu mọi quyền."
+      }
+    },
+    "mongolia": {
+      "header": {
+        "navItems": {
+          "company": "Công ty",
+          "services": "Dịch vụ",
+          "countries": "Quốc gia",
+          "news": "Tin tức",
+          "support": "Hỗ trợ"
+        },
+        "downloadAppLabel": "Tải ứng dụng"
+      },
+      "hero": {
+        "eyebrow": "GME Mongolia",
+        "headingLines": [
+          "Gửi tiền về quê nhà.",
+          "Luôn kết nối.",
+          "Chi tiêu dễ dàng."
+        ],
+        "subheading": "D ị ch v ụ đá ng tin c ậ y d à nh cho Mongolians đ ang sinh s ố ng t ạ i H à n Qu ố c",
+        "ctaPrimaryLabel": "Gửi tiền ngay",
+        "ctaSecondaryLabel": "Bắt đầu"
+      },
+      "exchangeRate": {
+        "eyebrow": "Tỷ giá",
+        "heading": "Kiểm tra tỷ giá hôm nay",
+        "description": "Xem t ỷ gi á GME Remit m ớ i nh ấ t tr ướ c khi g ử i ti ề n t ừ H à n Qu ố c đế n Mongolia",
+        "note": "Tỷ giá có thể thay đổi trong ngày",
+        "cardTitle": "Công cụ tính GME Remit",
+        "sampleTag": "Giá trị mẫu",
+        "sendAmountLabel": "Số tiền gửi",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "Quốc gia nhận",
+        "recipientCountryOption": "Mongolia",
+        "receiveCurrencyLabel": "MNT",
+        "receiverGetsLabel": "Người nhận nhận được",
+        "transferFeeLabel": "Phí chuyển tiền",
+        "exchangeRateLabel": "Tỷ giá",
+        "submitLabel": "Gửi tiền ngay"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "G ử i ti ề n đế n Mongolia",
+        "description": "M ộ t c á ch đơ n gi ả n v à an to à n để h ỗ tr ợ gia đì nh v à ng ườ i th â n t ạ i Mongolia t ừ H à n Qu ố c.",
+        "features": [
+          "Tỷ giá cạnh tranh",
+          "Chuyển tiền nhanh chóng và đáng tin cậy",
+          "Phí minh bạch",
+          "Hỗ trợ khi bạn cần"
+        ],
+        "ctaLabel": "Gửi tiền ngay"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "Một thẻ cho mọi nhu cầu",
+        "description": "Thanh toán đơn giản cho cuộc sống hằng ngày tại Hàn Quốc và ở nước ngoài.",
+        "features": [
+          "Thanh toán toàn cầu",
+          "Mua sắm",
+          "Giao thông",
+          "Hoàn tiền",
+          "Quyền lợi EasyCare"
+        ],
+        "ctaLabel": "Khám phá thẻ GME"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "Luôn kết nối tại Hàn Quốc",
+        "description": "Giữ kết nối với những điều quan trọng bằng các gói di động giúp cuộc sống tại Hàn Quốc thuận tiện hơn.",
+        "features": [
+          "Kết nối ổn định",
+          "Gói SIM linh hoạt",
+          "Thiết lập đơn giản",
+          "Hỗ trợ địa phương thân thiện"
+        ],
+        "ctaLabel": "Xem các gói SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "Đối tác tài chính số của bạn",
+        "description": "Trải nghiệm dịch vụ vay kỹ thuật số dành cho người nước ngoài sống tại Hàn Quốc. Đăng ký dễ dàng qua ứng dụng GME.",
+        "features": [
+          "Đăng ký khoản vay không giấy tờ",
+          "Kiểm tra trạng thái khoản vay theo thời gian thực",
+          "Kiểm tra dư nợ theo thời gian thực"
+        ],
+        "ctaLabel": "Đăng ký ngay"
+      },
+      "faq": {
+        "heading": "Câu hỏi thường gặp về GME Remit",
+        "subheading": "Tìm câu trả lời cho những câu hỏi thường gặp khi gửi tiền bằng GME Remit",
+        "items": [
+          {
+            "question": "Gửi tiền bằng GME Remit mất bao lâu?",
+            "answer": [
+              "Giao dịch GME Remit thường được hoàn tất trong khoảng 10 giây, tuy nhiên thời gian thực tế có thể thay đổi tùy theo quốc gia nhận, ngân hàng hoặc phương thức nhận tiền."
+            ]
+          },
+          {
+            "question": "Sử dụng GME Remit có an toàn không?",
+            "answer": [
+              "Có. GME Remit là dịch vụ chuyển tiền được cấp phép tại Hàn Quốc và chịu sự giám sát của các cơ quan tài chính Hàn Quốc có liên quan. Chúng tôi sử dụng quy trình xác minh khách hàng và giao dịch an toàn nhằm góp phần bảo vệ khách hàng và giao dịch của họ."
+            ]
+          },
+          {
+            "question": "Làm thế nào để đăng ký tài khoản GME Remit?",
+            "answer": [
+              "Tải ứng dụng GME Remit, tạo tài khoản và hoàn tất xác minh danh tính theo yêu cầu. Sau khi đăng ký và xác minh hoàn tất, bạn có thể bắt đầu sử dụng các dịch vụ GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi có thể gửi tiền đến những quốc gia nào bằng GME Remit?",
+            "answer": [
+              "GME Remit hỗ trợ chuyển tiền quốc tế đến nhiều quốc gia trên thế giới. Bạn có thể kiểm tra trực tiếp các điểm đến và phương thức nhận tiền hiện có trong ứng dụng GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi nên làm gì nếu gặp vấn đề với giao dịch chuyển tiền?",
+            "answer": [
+              "Độ i ng ũ h ỗ tr ợ kh á ch h à ng c ủ a ch ú ng t ô i l à m vi ệ c t ừ 10:00 đế n 23:00, t ừ Th ứ Hai đế n Ch ủ Nh ậ t.",
+              "B ạ n c ó th ể g ọ i cho ch ú ng t ô i theo s ố {SUPPORT_PHONE_NUMBER} ho ặ c li ê n h ệ qua ứ ng d ụ ng GME Remit.",
+              "B ạ n c ũ ng c ó th ể nh ắ n tin qua c á c k ê nh m ạ ng x ã h ộ i ch í nh th ứ c c ủ a GME Mongolia, bao g ồ m Facebook, Instagram, TikTok v à ChannelTalk.",
+              "N ế u mu ố n đượ c h ỗ tr ợ tr ự c ti ế p, GME Remit c ũ ng c ó c á c chi nh á nh t ạ i H à n Qu ố c, n ơ i nh â n vi ê n c ủ a ch ú ng t ô i c ó th ể h ỗ tr ợ b ạ n."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "K ế t n ố i v ớ i GME Mongolia",
+        "subheading": "Tin tức, mẹo hữu ích và cập nhật dành cho cộng đồng",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "Tải ứng dụng GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "D ị ch v ụ t à i ch í nh d à nh cho Mongolians t ạ i H à n Qu ố c.",
+        "copyrightSuffix": "GME. Bảo lưu mọi quyền."
+      }
+    },
+    "myanmar": {
+      "header": {
+        "navItems": {
+          "company": "Công ty",
+          "services": "Dịch vụ",
+          "countries": "Quốc gia",
+          "news": "Tin tức",
+          "support": "Hỗ trợ"
+        },
+        "downloadAppLabel": "Tải ứng dụng"
+      },
+      "hero": {
+        "eyebrow": "GME Myanmar",
+        "headingLines": [
+          "Gửi tiền về quê nhà.",
+          "Luôn kết nối.",
+          "Chi tiêu dễ dàng."
+        ],
+        "subheading": "D ị ch v ụ đá ng tin c ậ y d à nh cho Myanmar nationals đ ang sinh s ố ng t ạ i H à n Qu ố c",
+        "ctaPrimaryLabel": "Gửi tiền ngay",
+        "ctaSecondaryLabel": "Bắt đầu"
+      },
+      "exchangeRate": {
+        "eyebrow": "Tỷ giá",
+        "heading": "Kiểm tra tỷ giá hôm nay",
+        "description": "Xem t ỷ gi á GME Remit m ớ i nh ấ t tr ướ c khi g ử i ti ề n t ừ H à n Qu ố c đế n Myanmar",
+        "note": "Tỷ giá có thể thay đổi trong ngày",
+        "cardTitle": "Công cụ tính GME Remit",
+        "sampleTag": "Giá trị mẫu",
+        "sendAmountLabel": "Số tiền gửi",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "Quốc gia nhận",
+        "recipientCountryOption": "Myanmar",
+        "receiveCurrencyLabel": "MMK",
+        "receiverGetsLabel": "Người nhận nhận được",
+        "transferFeeLabel": "Phí chuyển tiền",
+        "exchangeRateLabel": "Tỷ giá",
+        "submitLabel": "Gửi tiền ngay"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "G ử i ti ề n đế n Myanmar",
+        "description": "M ộ t c á ch đơ n gi ả n v à an to à n để h ỗ tr ợ gia đì nh v à ng ườ i th â n t ạ i Myanmar t ừ H à n Qu ố c.",
+        "features": [
+          "Tỷ giá cạnh tranh",
+          "Chuyển tiền nhanh chóng và đáng tin cậy",
+          "Phí minh bạch",
+          "Hỗ trợ khi bạn cần"
+        ],
+        "ctaLabel": "Gửi tiền ngay"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "Một thẻ cho mọi nhu cầu",
+        "description": "Thanh toán đơn giản cho cuộc sống hằng ngày tại Hàn Quốc và ở nước ngoài.",
+        "features": [
+          "Thanh toán toàn cầu",
+          "Mua sắm",
+          "Giao thông",
+          "Hoàn tiền",
+          "Quyền lợi EasyCare"
+        ],
+        "ctaLabel": "Khám phá thẻ GME"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "Luôn kết nối tại Hàn Quốc",
+        "description": "Giữ kết nối với những điều quan trọng bằng các gói di động giúp cuộc sống tại Hàn Quốc thuận tiện hơn.",
+        "features": [
+          "Kết nối ổn định",
+          "Gói SIM linh hoạt",
+          "Thiết lập đơn giản",
+          "Hỗ trợ địa phương thân thiện"
+        ],
+        "ctaLabel": "Xem các gói SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "Đối tác tài chính số của bạn",
+        "description": "Trải nghiệm dịch vụ vay kỹ thuật số dành cho người nước ngoài sống tại Hàn Quốc. Đăng ký dễ dàng qua ứng dụng GME.",
+        "features": [
+          "Đăng ký khoản vay không giấy tờ",
+          "Kiểm tra trạng thái khoản vay theo thời gian thực",
+          "Kiểm tra dư nợ theo thời gian thực"
+        ],
+        "ctaLabel": "Đăng ký ngay"
+      },
+      "faq": {
+        "heading": "Câu hỏi thường gặp về GME Remit",
+        "subheading": "Tìm câu trả lời cho những câu hỏi thường gặp khi gửi tiền bằng GME Remit",
+        "items": [
+          {
+            "question": "Gửi tiền bằng GME Remit mất bao lâu?",
+            "answer": [
+              "Giao dịch GME Remit thường được hoàn tất trong khoảng 10 giây, tuy nhiên thời gian thực tế có thể thay đổi tùy theo quốc gia nhận, ngân hàng hoặc phương thức nhận tiền."
+            ]
+          },
+          {
+            "question": "Sử dụng GME Remit có an toàn không?",
+            "answer": [
+              "Có. GME Remit là dịch vụ chuyển tiền được cấp phép tại Hàn Quốc và chịu sự giám sát của các cơ quan tài chính Hàn Quốc có liên quan. Chúng tôi sử dụng quy trình xác minh khách hàng và giao dịch an toàn nhằm góp phần bảo vệ khách hàng và giao dịch của họ."
+            ]
+          },
+          {
+            "question": "Làm thế nào để đăng ký tài khoản GME Remit?",
+            "answer": [
+              "Tải ứng dụng GME Remit, tạo tài khoản và hoàn tất xác minh danh tính theo yêu cầu. Sau khi đăng ký và xác minh hoàn tất, bạn có thể bắt đầu sử dụng các dịch vụ GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi có thể gửi tiền đến những quốc gia nào bằng GME Remit?",
+            "answer": [
+              "GME Remit hỗ trợ chuyển tiền quốc tế đến nhiều quốc gia trên thế giới. Bạn có thể kiểm tra trực tiếp các điểm đến và phương thức nhận tiền hiện có trong ứng dụng GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi nên làm gì nếu gặp vấn đề với giao dịch chuyển tiền?",
+            "answer": [
+              "Độ i ng ũ h ỗ tr ợ kh á ch h à ng c ủ a ch ú ng t ô i l à m vi ệ c t ừ 10:00 đế n 23:00, t ừ Th ứ Hai đế n Ch ủ Nh ậ t.",
+              "B ạ n c ó th ể g ọ i cho ch ú ng t ô i theo s ố {SUPPORT_PHONE_NUMBER} ho ặ c li ê n h ệ qua ứ ng d ụ ng GME Remit.",
+              "B ạ n c ũ ng c ó th ể nh ắ n tin qua c á c k ê nh m ạ ng x ã h ộ i ch í nh th ứ c c ủ a GME Myanmar, bao g ồ m Facebook, Instagram, TikTok v à ChannelTalk.",
+              "N ế u mu ố n đượ c h ỗ tr ợ tr ự c ti ế p, GME Remit c ũ ng c ó c á c chi nh á nh t ạ i H à n Qu ố c, n ơ i nh â n vi ê n c ủ a ch ú ng t ô i c ó th ể h ỗ tr ợ b ạ n."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "K ế t n ố i v ớ i GME Myanmar",
+        "subheading": "Tin tức, mẹo hữu ích và cập nhật dành cho cộng đồng",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "Tải ứng dụng GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "D ị ch v ụ t à i ch í nh d à nh cho Myanmar nationals t ạ i H à n Qu ố c.",
+        "copyrightSuffix": "GME. Bảo lưu mọi quyền."
+      }
+    },
+    "nepal": {
+      "header": {
+        "navItems": {
+          "company": "Công ty",
+          "services": "Dịch vụ",
+          "countries": "Quốc gia",
+          "news": "Tin tức",
+          "support": "Hỗ trợ"
+        },
+        "downloadAppLabel": "Tải ứng dụng"
+      },
+      "hero": {
+        "eyebrow": "GME Nepal",
+        "headingLines": [
+          "Gửi tiền về quê nhà.",
+          "Luôn kết nối.",
+          "Chi tiêu dễ dàng."
+        ],
+        "subheading": "D ị ch v ụ đá ng tin c ậ y d à nh cho Nepalis đ ang sinh s ố ng t ạ i H à n Qu ố c",
+        "ctaPrimaryLabel": "Gửi tiền ngay",
+        "ctaSecondaryLabel": "Bắt đầu"
+      },
+      "exchangeRate": {
+        "eyebrow": "Tỷ giá",
+        "heading": "Kiểm tra tỷ giá hôm nay",
+        "description": "Xem t ỷ gi á GME Remit m ớ i nh ấ t tr ướ c khi g ử i ti ề n t ừ H à n Qu ố c đế n Nepal",
+        "note": "Tỷ giá có thể thay đổi trong ngày",
+        "cardTitle": "Công cụ tính GME Remit",
+        "sampleTag": "Giá trị mẫu",
+        "sendAmountLabel": "Số tiền gửi",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "Quốc gia nhận",
+        "recipientCountryOption": "Nepal",
+        "receiveCurrencyLabel": "NPR",
+        "receiverGetsLabel": "Người nhận nhận được",
+        "transferFeeLabel": "Phí chuyển tiền",
+        "exchangeRateLabel": "Tỷ giá",
+        "submitLabel": "Gửi tiền ngay"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "G ử i ti ề n đế n Nepal",
+        "description": "M ộ t c á ch đơ n gi ả n v à an to à n để h ỗ tr ợ gia đì nh v à ng ườ i th â n t ạ i Nepal t ừ H à n Qu ố c.",
+        "features": [
+          "Tỷ giá cạnh tranh",
+          "Chuyển tiền nhanh chóng và đáng tin cậy",
+          "Phí minh bạch",
+          "Hỗ trợ khi bạn cần"
+        ],
+        "ctaLabel": "Gửi tiền ngay"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "Một thẻ cho mọi nhu cầu",
+        "description": "Thanh toán đơn giản cho cuộc sống hằng ngày tại Hàn Quốc và ở nước ngoài.",
+        "features": [
+          "Thanh toán toàn cầu",
+          "Mua sắm",
+          "Giao thông",
+          "Hoàn tiền",
+          "Quyền lợi EasyCare"
+        ],
+        "ctaLabel": "Khám phá thẻ GME"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "Luôn kết nối tại Hàn Quốc",
+        "description": "Giữ kết nối với những điều quan trọng bằng các gói di động giúp cuộc sống tại Hàn Quốc thuận tiện hơn.",
+        "features": [
+          "Kết nối ổn định",
+          "Gói SIM linh hoạt",
+          "Thiết lập đơn giản",
+          "Hỗ trợ địa phương thân thiện"
+        ],
+        "ctaLabel": "Xem các gói SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "Đối tác tài chính số của bạn",
+        "description": "Trải nghiệm dịch vụ vay kỹ thuật số dành cho người nước ngoài sống tại Hàn Quốc. Đăng ký dễ dàng qua ứng dụng GME.",
+        "features": [
+          "Đăng ký khoản vay không giấy tờ",
+          "Kiểm tra trạng thái khoản vay theo thời gian thực",
+          "Kiểm tra dư nợ theo thời gian thực"
+        ],
+        "ctaLabel": "Đăng ký ngay"
+      },
+      "faq": {
+        "heading": "Câu hỏi thường gặp về GME Remit",
+        "subheading": "Tìm câu trả lời cho những câu hỏi thường gặp khi gửi tiền bằng GME Remit",
+        "items": [
+          {
+            "question": "Gửi tiền bằng GME Remit mất bao lâu?",
+            "answer": [
+              "Giao dịch GME Remit thường được hoàn tất trong khoảng 10 giây, tuy nhiên thời gian thực tế có thể thay đổi tùy theo quốc gia nhận, ngân hàng hoặc phương thức nhận tiền."
+            ]
+          },
+          {
+            "question": "Sử dụng GME Remit có an toàn không?",
+            "answer": [
+              "Có. GME Remit là dịch vụ chuyển tiền được cấp phép tại Hàn Quốc và chịu sự giám sát của các cơ quan tài chính Hàn Quốc có liên quan. Chúng tôi sử dụng quy trình xác minh khách hàng và giao dịch an toàn nhằm góp phần bảo vệ khách hàng và giao dịch của họ."
+            ]
+          },
+          {
+            "question": "Làm thế nào để đăng ký tài khoản GME Remit?",
+            "answer": [
+              "Tải ứng dụng GME Remit, tạo tài khoản và hoàn tất xác minh danh tính theo yêu cầu. Sau khi đăng ký và xác minh hoàn tất, bạn có thể bắt đầu sử dụng các dịch vụ GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi có thể gửi tiền đến những quốc gia nào bằng GME Remit?",
+            "answer": [
+              "GME Remit hỗ trợ chuyển tiền quốc tế đến nhiều quốc gia trên thế giới. Bạn có thể kiểm tra trực tiếp các điểm đến và phương thức nhận tiền hiện có trong ứng dụng GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi nên làm gì nếu gặp vấn đề với giao dịch chuyển tiền?",
+            "answer": [
+              "Độ i ng ũ h ỗ tr ợ kh á ch h à ng c ủ a ch ú ng t ô i l à m vi ệ c t ừ 10:00 đế n 23:00, t ừ Th ứ Hai đế n Ch ủ Nh ậ t.",
+              "B ạ n c ó th ể g ọ i cho ch ú ng t ô i theo s ố {SUPPORT_PHONE_NUMBER} ho ặ c li ê n h ệ qua ứ ng d ụ ng GME Remit.",
+              "B ạ n c ũ ng c ó th ể nh ắ n tin qua c á c k ê nh m ạ ng x ã h ộ i ch í nh th ứ c c ủ a GME Nepal, bao g ồ m Facebook, Instagram, TikTok v à ChannelTalk.",
+              "N ế u mu ố n đượ c h ỗ tr ợ tr ự c ti ế p, GME Remit c ũ ng c ó c á c chi nh á nh t ạ i H à n Qu ố c, n ơ i nh â n vi ê n c ủ a ch ú ng t ô i c ó th ể h ỗ tr ợ b ạ n."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "K ế t n ố i v ớ i GME Nepal",
+        "subheading": "Tin tức, mẹo hữu ích và cập nhật dành cho cộng đồng",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "Tải ứng dụng GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "D ị ch v ụ t à i ch í nh d à nh cho Nepalis t ạ i H à n Qu ố c.",
+        "copyrightSuffix": "GME. Bảo lưu mọi quyền."
+      }
+    },
+    "pakistan": {
+      "header": {
+        "navItems": {
+          "company": "Công ty",
+          "services": "Dịch vụ",
+          "countries": "Quốc gia",
+          "news": "Tin tức",
+          "support": "Hỗ trợ"
+        },
+        "downloadAppLabel": "Tải ứng dụng"
+      },
+      "hero": {
+        "eyebrow": "GME Pakistan",
+        "headingLines": [
+          "Gửi tiền về quê nhà.",
+          "Luôn kết nối.",
+          "Chi tiêu dễ dàng."
+        ],
+        "subheading": "D ị ch v ụ đá ng tin c ậ y d à nh cho Pakistanis đ ang sinh s ố ng t ạ i H à n Qu ố c",
+        "ctaPrimaryLabel": "Gửi tiền ngay",
+        "ctaSecondaryLabel": "Bắt đầu"
+      },
+      "exchangeRate": {
+        "eyebrow": "Tỷ giá",
+        "heading": "Kiểm tra tỷ giá hôm nay",
+        "description": "Xem t ỷ gi á GME Remit m ớ i nh ấ t tr ướ c khi g ử i ti ề n t ừ H à n Qu ố c đế n Pakistan",
+        "note": "Tỷ giá có thể thay đổi trong ngày",
+        "cardTitle": "Công cụ tính GME Remit",
+        "sampleTag": "Giá trị mẫu",
+        "sendAmountLabel": "Số tiền gửi",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "Quốc gia nhận",
+        "recipientCountryOption": "Pakistan",
+        "receiveCurrencyLabel": "PKR",
+        "receiverGetsLabel": "Người nhận nhận được",
+        "transferFeeLabel": "Phí chuyển tiền",
+        "exchangeRateLabel": "Tỷ giá",
+        "submitLabel": "Gửi tiền ngay"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "G ử i ti ề n đế n Pakistan",
+        "description": "M ộ t c á ch đơ n gi ả n v à an to à n để h ỗ tr ợ gia đì nh v à ng ườ i th â n t ạ i Pakistan t ừ H à n Qu ố c.",
+        "features": [
+          "Tỷ giá cạnh tranh",
+          "Chuyển tiền nhanh chóng và đáng tin cậy",
+          "Phí minh bạch",
+          "Hỗ trợ khi bạn cần"
+        ],
+        "ctaLabel": "Gửi tiền ngay"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "Một thẻ cho mọi nhu cầu",
+        "description": "Thanh toán đơn giản cho cuộc sống hằng ngày tại Hàn Quốc và ở nước ngoài.",
+        "features": [
+          "Thanh toán toàn cầu",
+          "Mua sắm",
+          "Giao thông",
+          "Hoàn tiền",
+          "Quyền lợi EasyCare"
+        ],
+        "ctaLabel": "Khám phá thẻ GME"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "Luôn kết nối tại Hàn Quốc",
+        "description": "Giữ kết nối với những điều quan trọng bằng các gói di động giúp cuộc sống tại Hàn Quốc thuận tiện hơn.",
+        "features": [
+          "Kết nối ổn định",
+          "Gói SIM linh hoạt",
+          "Thiết lập đơn giản",
+          "Hỗ trợ địa phương thân thiện"
+        ],
+        "ctaLabel": "Xem các gói SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "Đối tác tài chính số của bạn",
+        "description": "Trải nghiệm dịch vụ vay kỹ thuật số dành cho người nước ngoài sống tại Hàn Quốc. Đăng ký dễ dàng qua ứng dụng GME.",
+        "features": [
+          "Đăng ký khoản vay không giấy tờ",
+          "Kiểm tra trạng thái khoản vay theo thời gian thực",
+          "Kiểm tra dư nợ theo thời gian thực"
+        ],
+        "ctaLabel": "Đăng ký ngay"
+      },
+      "faq": {
+        "heading": "Câu hỏi thường gặp về GME Remit",
+        "subheading": "Tìm câu trả lời cho những câu hỏi thường gặp khi gửi tiền bằng GME Remit",
+        "items": [
+          {
+            "question": "Gửi tiền bằng GME Remit mất bao lâu?",
+            "answer": [
+              "Giao dịch GME Remit thường được hoàn tất trong khoảng 10 giây, tuy nhiên thời gian thực tế có thể thay đổi tùy theo quốc gia nhận, ngân hàng hoặc phương thức nhận tiền."
+            ]
+          },
+          {
+            "question": "Sử dụng GME Remit có an toàn không?",
+            "answer": [
+              "Có. GME Remit là dịch vụ chuyển tiền được cấp phép tại Hàn Quốc và chịu sự giám sát của các cơ quan tài chính Hàn Quốc có liên quan. Chúng tôi sử dụng quy trình xác minh khách hàng và giao dịch an toàn nhằm góp phần bảo vệ khách hàng và giao dịch của họ."
+            ]
+          },
+          {
+            "question": "Làm thế nào để đăng ký tài khoản GME Remit?",
+            "answer": [
+              "Tải ứng dụng GME Remit, tạo tài khoản và hoàn tất xác minh danh tính theo yêu cầu. Sau khi đăng ký và xác minh hoàn tất, bạn có thể bắt đầu sử dụng các dịch vụ GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi có thể gửi tiền đến những quốc gia nào bằng GME Remit?",
+            "answer": [
+              "GME Remit hỗ trợ chuyển tiền quốc tế đến nhiều quốc gia trên thế giới. Bạn có thể kiểm tra trực tiếp các điểm đến và phương thức nhận tiền hiện có trong ứng dụng GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi nên làm gì nếu gặp vấn đề với giao dịch chuyển tiền?",
+            "answer": [
+              "Độ i ng ũ h ỗ tr ợ kh á ch h à ng c ủ a ch ú ng t ô i l à m vi ệ c t ừ 10:00 đế n 23:00, t ừ Th ứ Hai đế n Ch ủ Nh ậ t.",
+              "B ạ n c ó th ể g ọ i cho ch ú ng t ô i theo s ố {SUPPORT_PHONE_NUMBER} ho ặ c li ê n h ệ qua ứ ng d ụ ng GME Remit.",
+              "B ạ n c ũ ng c ó th ể nh ắ n tin qua c á c k ê nh m ạ ng x ã h ộ i ch í nh th ứ c c ủ a GME Pakistan, bao g ồ m Facebook, Instagram, TikTok v à ChannelTalk.",
+              "N ế u mu ố n đượ c h ỗ tr ợ tr ự c ti ế p, GME Remit c ũ ng c ó c á c chi nh á nh t ạ i H à n Qu ố c, n ơ i nh â n vi ê n c ủ a ch ú ng t ô i c ó th ể h ỗ tr ợ b ạ n."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "K ế t n ố i v ớ i GME Pakistan",
+        "subheading": "Tin tức, mẹo hữu ích và cập nhật dành cho cộng đồng",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "Tải ứng dụng GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "D ị ch v ụ t à i ch í nh d à nh cho Pakistanis t ạ i H à n Qu ố c.",
+        "copyrightSuffix": "GME. Bảo lưu mọi quyền."
+      }
+    },
+    "philippines": {
+      "header": {
+        "navItems": {
+          "company": "Công ty",
+          "services": "Dịch vụ",
+          "countries": "Quốc gia",
+          "news": "Tin tức",
+          "support": "Hỗ trợ"
+        },
+        "downloadAppLabel": "Tải ứng dụng"
+      },
+      "hero": {
+        "eyebrow": "GME Philippines",
+        "headingLines": [
+          "Gửi tiền về quê nhà.",
+          "Luôn kết nối.",
+          "Chi tiêu dễ dàng."
+        ],
+        "subheading": "D ị ch v ụ đá ng tin c ậ y d à nh cho Filipinos đ ang sinh s ố ng t ạ i H à n Qu ố c",
+        "ctaPrimaryLabel": "Gửi tiền ngay",
+        "ctaSecondaryLabel": "Bắt đầu"
+      },
+      "exchangeRate": {
+        "eyebrow": "Tỷ giá",
+        "heading": "Kiểm tra tỷ giá hôm nay",
+        "description": "Xem t ỷ gi á GME Remit m ớ i nh ấ t tr ướ c khi g ử i ti ề n t ừ H à n Qu ố c đế n Philippines",
+        "note": "Tỷ giá có thể thay đổi trong ngày",
+        "cardTitle": "Công cụ tính GME Remit",
+        "sampleTag": "Giá trị mẫu",
+        "sendAmountLabel": "Số tiền gửi",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "Quốc gia nhận",
+        "recipientCountryOption": "Philippines",
+        "receiveCurrencyLabel": "PHP",
+        "receiverGetsLabel": "Người nhận nhận được",
+        "transferFeeLabel": "Phí chuyển tiền",
+        "exchangeRateLabel": "Tỷ giá",
+        "submitLabel": "Gửi tiền ngay"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "G ử i ti ề n đế n Philippines",
+        "description": "M ộ t c á ch đơ n gi ả n v à an to à n để h ỗ tr ợ gia đì nh v à ng ườ i th â n t ạ i Philippines t ừ H à n Qu ố c.",
+        "features": [
+          "Tỷ giá cạnh tranh",
+          "Chuyển tiền nhanh chóng và đáng tin cậy",
+          "Phí minh bạch",
+          "Hỗ trợ khi bạn cần"
+        ],
+        "ctaLabel": "Gửi tiền ngay"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "Một thẻ cho mọi nhu cầu",
+        "description": "Thanh toán đơn giản cho cuộc sống hằng ngày tại Hàn Quốc và ở nước ngoài.",
+        "features": [
+          "Thanh toán toàn cầu",
+          "Mua sắm",
+          "Giao thông",
+          "Hoàn tiền",
+          "Quyền lợi EasyCare"
+        ],
+        "ctaLabel": "Khám phá thẻ GME"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "Luôn kết nối tại Hàn Quốc",
+        "description": "Giữ kết nối với những điều quan trọng bằng các gói di động giúp cuộc sống tại Hàn Quốc thuận tiện hơn.",
+        "features": [
+          "Kết nối ổn định",
+          "Gói SIM linh hoạt",
+          "Thiết lập đơn giản",
+          "Hỗ trợ địa phương thân thiện"
+        ],
+        "ctaLabel": "Xem các gói SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "Đối tác tài chính số của bạn",
+        "description": "Trải nghiệm dịch vụ vay kỹ thuật số dành cho người nước ngoài sống tại Hàn Quốc. Đăng ký dễ dàng qua ứng dụng GME.",
+        "features": [
+          "Đăng ký khoản vay không giấy tờ",
+          "Kiểm tra trạng thái khoản vay theo thời gian thực",
+          "Kiểm tra dư nợ theo thời gian thực"
+        ],
+        "ctaLabel": "Đăng ký ngay"
+      },
+      "faq": {
+        "heading": "Câu hỏi thường gặp về GME Remit",
+        "subheading": "Tìm câu trả lời cho những câu hỏi thường gặp khi gửi tiền bằng GME Remit",
+        "items": [
+          {
+            "question": "Gửi tiền bằng GME Remit mất bao lâu?",
+            "answer": [
+              "Giao dịch GME Remit thường được hoàn tất trong khoảng 10 giây, tuy nhiên thời gian thực tế có thể thay đổi tùy theo quốc gia nhận, ngân hàng hoặc phương thức nhận tiền."
+            ]
+          },
+          {
+            "question": "Sử dụng GME Remit có an toàn không?",
+            "answer": [
+              "Có. GME Remit là dịch vụ chuyển tiền được cấp phép tại Hàn Quốc và chịu sự giám sát của các cơ quan tài chính Hàn Quốc có liên quan. Chúng tôi sử dụng quy trình xác minh khách hàng và giao dịch an toàn nhằm góp phần bảo vệ khách hàng và giao dịch của họ."
+            ]
+          },
+          {
+            "question": "Làm thế nào để đăng ký tài khoản GME Remit?",
+            "answer": [
+              "Tải ứng dụng GME Remit, tạo tài khoản và hoàn tất xác minh danh tính theo yêu cầu. Sau khi đăng ký và xác minh hoàn tất, bạn có thể bắt đầu sử dụng các dịch vụ GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi có thể gửi tiền đến những quốc gia nào bằng GME Remit?",
+            "answer": [
+              "GME Remit hỗ trợ chuyển tiền quốc tế đến nhiều quốc gia trên thế giới. Bạn có thể kiểm tra trực tiếp các điểm đến và phương thức nhận tiền hiện có trong ứng dụng GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi nên làm gì nếu gặp vấn đề với giao dịch chuyển tiền?",
+            "answer": [
+              "Độ i ng ũ h ỗ tr ợ kh á ch h à ng c ủ a ch ú ng t ô i l à m vi ệ c t ừ 10:00 đế n 23:00, t ừ Th ứ Hai đế n Ch ủ Nh ậ t.",
+              "B ạ n c ó th ể g ọ i cho ch ú ng t ô i theo s ố {SUPPORT_PHONE_NUMBER} ho ặ c li ê n h ệ qua ứ ng d ụ ng GME Remit.",
+              "B ạ n c ũ ng c ó th ể nh ắ n tin qua c á c k ê nh m ạ ng x ã h ộ i ch í nh th ứ c c ủ a GME Philippines, bao g ồ m Facebook, Instagram, TikTok v à ChannelTalk.",
+              "N ế u mu ố n đượ c h ỗ tr ợ tr ự c ti ế p, GME Remit c ũ ng c ó c á c chi nh á nh t ạ i H à n Qu ố c, n ơ i nh â n vi ê n c ủ a ch ú ng t ô i c ó th ể h ỗ tr ợ b ạ n."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "K ế t n ố i v ớ i GME Philippines",
+        "subheading": "Tin tức, mẹo hữu ích và cập nhật dành cho cộng đồng",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "Tải ứng dụng GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "D ị ch v ụ t à i ch í nh d à nh cho Filipinos t ạ i H à n Qu ố c.",
+        "copyrightSuffix": "GME. Bảo lưu mọi quyền."
+      }
+    },
+    "russia": {
+      "header": {
+        "navItems": {
+          "company": "Công ty",
+          "services": "Dịch vụ",
+          "countries": "Quốc gia",
+          "news": "Tin tức",
+          "support": "Hỗ trợ"
+        },
+        "downloadAppLabel": "Tải ứng dụng"
+      },
+      "hero": {
+        "eyebrow": "GME Russia",
+        "headingLines": [
+          "Gửi tiền về quê nhà.",
+          "Luôn kết nối.",
+          "Chi tiêu dễ dàng."
+        ],
+        "subheading": "D ị ch v ụ đá ng tin c ậ y d à nh cho Russians đ ang sinh s ố ng t ạ i H à n Qu ố c",
+        "ctaPrimaryLabel": "Gửi tiền ngay",
+        "ctaSecondaryLabel": "Bắt đầu"
+      },
+      "exchangeRate": {
+        "eyebrow": "Tỷ giá",
+        "heading": "Kiểm tra tỷ giá hôm nay",
+        "description": "Xem t ỷ gi á GME Remit m ớ i nh ấ t tr ướ c khi g ử i ti ề n t ừ H à n Qu ố c đế n Russia",
+        "note": "Tỷ giá có thể thay đổi trong ngày",
+        "cardTitle": "Công cụ tính GME Remit",
+        "sampleTag": "Giá trị mẫu",
+        "sendAmountLabel": "Số tiền gửi",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "Quốc gia nhận",
+        "recipientCountryOption": "Russia",
+        "receiveCurrencyLabel": "RUB",
+        "receiverGetsLabel": "Người nhận nhận được",
+        "transferFeeLabel": "Phí chuyển tiền",
+        "exchangeRateLabel": "Tỷ giá",
+        "submitLabel": "Gửi tiền ngay"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "G ử i ti ề n đế n Russia",
+        "description": "M ộ t c á ch đơ n gi ả n v à an to à n để h ỗ tr ợ gia đì nh v à ng ườ i th â n t ạ i Russia t ừ H à n Qu ố c.",
+        "features": [
+          "Tỷ giá cạnh tranh",
+          "Chuyển tiền nhanh chóng và đáng tin cậy",
+          "Phí minh bạch",
+          "Hỗ trợ khi bạn cần"
+        ],
+        "ctaLabel": "Gửi tiền ngay"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "Một thẻ cho mọi nhu cầu",
+        "description": "Thanh toán đơn giản cho cuộc sống hằng ngày tại Hàn Quốc và ở nước ngoài.",
+        "features": [
+          "Thanh toán toàn cầu",
+          "Mua sắm",
+          "Giao thông",
+          "Hoàn tiền",
+          "Quyền lợi EasyCare"
+        ],
+        "ctaLabel": "Khám phá thẻ GME"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "Luôn kết nối tại Hàn Quốc",
+        "description": "Giữ kết nối với những điều quan trọng bằng các gói di động giúp cuộc sống tại Hàn Quốc thuận tiện hơn.",
+        "features": [
+          "Kết nối ổn định",
+          "Gói SIM linh hoạt",
+          "Thiết lập đơn giản",
+          "Hỗ trợ địa phương thân thiện"
+        ],
+        "ctaLabel": "Xem các gói SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "Đối tác tài chính số của bạn",
+        "description": "Trải nghiệm dịch vụ vay kỹ thuật số dành cho người nước ngoài sống tại Hàn Quốc. Đăng ký dễ dàng qua ứng dụng GME.",
+        "features": [
+          "Đăng ký khoản vay không giấy tờ",
+          "Kiểm tra trạng thái khoản vay theo thời gian thực",
+          "Kiểm tra dư nợ theo thời gian thực"
+        ],
+        "ctaLabel": "Đăng ký ngay"
+      },
+      "faq": {
+        "heading": "Câu hỏi thường gặp về GME Remit",
+        "subheading": "Tìm câu trả lời cho những câu hỏi thường gặp khi gửi tiền bằng GME Remit",
+        "items": [
+          {
+            "question": "Gửi tiền bằng GME Remit mất bao lâu?",
+            "answer": [
+              "Giao dịch GME Remit thường được hoàn tất trong khoảng 10 giây, tuy nhiên thời gian thực tế có thể thay đổi tùy theo quốc gia nhận, ngân hàng hoặc phương thức nhận tiền."
+            ]
+          },
+          {
+            "question": "Sử dụng GME Remit có an toàn không?",
+            "answer": [
+              "Có. GME Remit là dịch vụ chuyển tiền được cấp phép tại Hàn Quốc và chịu sự giám sát của các cơ quan tài chính Hàn Quốc có liên quan. Chúng tôi sử dụng quy trình xác minh khách hàng và giao dịch an toàn nhằm góp phần bảo vệ khách hàng và giao dịch của họ."
+            ]
+          },
+          {
+            "question": "Làm thế nào để đăng ký tài khoản GME Remit?",
+            "answer": [
+              "Tải ứng dụng GME Remit, tạo tài khoản và hoàn tất xác minh danh tính theo yêu cầu. Sau khi đăng ký và xác minh hoàn tất, bạn có thể bắt đầu sử dụng các dịch vụ GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi có thể gửi tiền đến những quốc gia nào bằng GME Remit?",
+            "answer": [
+              "GME Remit hỗ trợ chuyển tiền quốc tế đến nhiều quốc gia trên thế giới. Bạn có thể kiểm tra trực tiếp các điểm đến và phương thức nhận tiền hiện có trong ứng dụng GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi nên làm gì nếu gặp vấn đề với giao dịch chuyển tiền?",
+            "answer": [
+              "Độ i ng ũ h ỗ tr ợ kh á ch h à ng c ủ a ch ú ng t ô i l à m vi ệ c t ừ 10:00 đế n 23:00, t ừ Th ứ Hai đế n Ch ủ Nh ậ t.",
+              "B ạ n c ó th ể g ọ i cho ch ú ng t ô i theo s ố {SUPPORT_PHONE_NUMBER} ho ặ c li ê n h ệ qua ứ ng d ụ ng GME Remit.",
+              "B ạ n c ũ ng c ó th ể nh ắ n tin qua c á c k ê nh m ạ ng x ã h ộ i ch í nh th ứ c c ủ a GME Russia, bao g ồ m Facebook, Instagram, TikTok v à ChannelTalk.",
+              "N ế u mu ố n đượ c h ỗ tr ợ tr ự c ti ế p, GME Remit c ũ ng c ó c á c chi nh á nh t ạ i H à n Qu ố c, n ơ i nh â n vi ê n c ủ a ch ú ng t ô i c ó th ể h ỗ tr ợ b ạ n."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "K ế t n ố i v ớ i GME Russia",
+        "subheading": "Tin tức, mẹo hữu ích và cập nhật dành cho cộng đồng",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "Tải ứng dụng GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "D ị ch v ụ t à i ch í nh d à nh cho Russians t ạ i H à n Qu ố c.",
+        "copyrightSuffix": "GME. Bảo lưu mọi quyền."
+      }
+    },
+    "spanish-latam": {
+      "header": {
+        "navItems": {
+          "company": "Công ty",
+          "services": "Dịch vụ",
+          "countries": "Quốc gia",
+          "news": "Tin tức",
+          "support": "Hỗ trợ"
+        },
+        "downloadAppLabel": "Tải ứng dụng"
+      },
+      "hero": {
+        "eyebrow": "GME Spanish / Latam",
+        "headingLines": [
+          "Gửi tiền về quê nhà.",
+          "Luôn kết nối.",
+          "Chi tiêu dễ dàng."
+        ],
+        "subheading": "D ị ch v ụ đá ng tin c ậ y d à nh cho the Spanish-speaking and Latam community đ ang sinh s ố ng t ạ i H à n Qu ố c",
+        "ctaPrimaryLabel": "Gửi tiền ngay",
+        "ctaSecondaryLabel": "Bắt đầu"
+      },
+      "exchangeRate": {
+        "eyebrow": "Tỷ giá",
+        "heading": "Kiểm tra tỷ giá hôm nay",
+        "description": "Xem t ỷ gi á GME Remit m ớ i nh ấ t tr ướ c khi g ử i ti ề n t ừ H à n Qu ố c đế n Spanish / Latam",
+        "note": "Tỷ giá có thể thay đổi trong ngày",
+        "cardTitle": "Công cụ tính GME Remit",
+        "sampleTag": "Giá trị mẫu",
+        "sendAmountLabel": "Số tiền gửi",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "Quốc gia nhận",
+        "recipientCountryOption": "Spanish / Latam",
+        "receiveCurrencyLabel": "TBD",
+        "receiverGetsLabel": "Người nhận nhận được",
+        "transferFeeLabel": "Phí chuyển tiền",
+        "exchangeRateLabel": "Tỷ giá",
+        "submitLabel": "Gửi tiền ngay"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "G ử i ti ề n đế n Spanish / Latam",
+        "description": "M ộ t c á ch đơ n gi ả n v à an to à n để h ỗ tr ợ gia đì nh v à ng ườ i th â n t ạ i Spanish / Latam t ừ H à n Qu ố c.",
+        "features": [
+          "Tỷ giá cạnh tranh",
+          "Chuyển tiền nhanh chóng và đáng tin cậy",
+          "Phí minh bạch",
+          "Hỗ trợ khi bạn cần"
+        ],
+        "ctaLabel": "Gửi tiền ngay"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "Một thẻ cho mọi nhu cầu",
+        "description": "Thanh toán đơn giản cho cuộc sống hằng ngày tại Hàn Quốc và ở nước ngoài.",
+        "features": [
+          "Thanh toán toàn cầu",
+          "Mua sắm",
+          "Giao thông",
+          "Hoàn tiền",
+          "Quyền lợi EasyCare"
+        ],
+        "ctaLabel": "Khám phá thẻ GME"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "Luôn kết nối tại Hàn Quốc",
+        "description": "Giữ kết nối với những điều quan trọng bằng các gói di động giúp cuộc sống tại Hàn Quốc thuận tiện hơn.",
+        "features": [
+          "Kết nối ổn định",
+          "Gói SIM linh hoạt",
+          "Thiết lập đơn giản",
+          "Hỗ trợ địa phương thân thiện"
+        ],
+        "ctaLabel": "Xem các gói SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "Đối tác tài chính số của bạn",
+        "description": "Trải nghiệm dịch vụ vay kỹ thuật số dành cho người nước ngoài sống tại Hàn Quốc. Đăng ký dễ dàng qua ứng dụng GME.",
+        "features": [
+          "Đăng ký khoản vay không giấy tờ",
+          "Kiểm tra trạng thái khoản vay theo thời gian thực",
+          "Kiểm tra dư nợ theo thời gian thực"
+        ],
+        "ctaLabel": "Đăng ký ngay"
+      },
+      "faq": {
+        "heading": "Câu hỏi thường gặp về GME Remit",
+        "subheading": "Tìm câu trả lời cho những câu hỏi thường gặp khi gửi tiền bằng GME Remit",
+        "items": [
+          {
+            "question": "Gửi tiền bằng GME Remit mất bao lâu?",
+            "answer": [
+              "Giao dịch GME Remit thường được hoàn tất trong khoảng 10 giây, tuy nhiên thời gian thực tế có thể thay đổi tùy theo quốc gia nhận, ngân hàng hoặc phương thức nhận tiền."
+            ]
+          },
+          {
+            "question": "Sử dụng GME Remit có an toàn không?",
+            "answer": [
+              "Có. GME Remit là dịch vụ chuyển tiền được cấp phép tại Hàn Quốc và chịu sự giám sát của các cơ quan tài chính Hàn Quốc có liên quan. Chúng tôi sử dụng quy trình xác minh khách hàng và giao dịch an toàn nhằm góp phần bảo vệ khách hàng và giao dịch của họ."
+            ]
+          },
+          {
+            "question": "Làm thế nào để đăng ký tài khoản GME Remit?",
+            "answer": [
+              "Tải ứng dụng GME Remit, tạo tài khoản và hoàn tất xác minh danh tính theo yêu cầu. Sau khi đăng ký và xác minh hoàn tất, bạn có thể bắt đầu sử dụng các dịch vụ GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi có thể gửi tiền đến những quốc gia nào bằng GME Remit?",
+            "answer": [
+              "GME Remit hỗ trợ chuyển tiền quốc tế đến nhiều quốc gia trên thế giới. Bạn có thể kiểm tra trực tiếp các điểm đến và phương thức nhận tiền hiện có trong ứng dụng GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi nên làm gì nếu gặp vấn đề với giao dịch chuyển tiền?",
+            "answer": [
+              "Độ i ng ũ h ỗ tr ợ kh á ch h à ng c ủ a ch ú ng t ô i l à m vi ệ c t ừ 10:00 đế n 23:00, t ừ Th ứ Hai đế n Ch ủ Nh ậ t.",
+              "B ạ n c ó th ể g ọ i cho ch ú ng t ô i theo s ố {SUPPORT_PHONE_NUMBER} ho ặ c li ê n h ệ qua ứ ng d ụ ng GME Remit.",
+              "B ạ n c ũ ng c ó th ể nh ắ n tin qua c á c k ê nh m ạ ng x ã h ộ i ch í nh th ứ c c ủ a GME Spanish / Latam, bao g ồ m Facebook, Instagram, TikTok v à ChannelTalk.",
+              "N ế u mu ố n đượ c h ỗ tr ợ tr ự c ti ế p, GME Remit c ũ ng c ó c á c chi nh á nh t ạ i H à n Qu ố c, n ơ i nh â n vi ê n c ủ a ch ú ng t ô i c ó th ể h ỗ tr ợ b ạ n."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "K ế t n ố i v ớ i GME Spanish / Latam",
+        "subheading": "Tin tức, mẹo hữu ích và cập nhật dành cho cộng đồng",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "Tải ứng dụng GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "D ị ch v ụ t à i ch í nh d à nh cho the Spanish-speaking and Latam community t ạ i H à n Qu ố c.",
+        "copyrightSuffix": "GME. Bảo lưu mọi quyền."
+      }
+    },
+    "sri-lanka": {
+      "header": {
+        "navItems": {
+          "company": "Công ty",
+          "services": "Dịch vụ",
+          "countries": "Quốc gia",
+          "news": "Tin tức",
+          "support": "Hỗ trợ"
+        },
+        "downloadAppLabel": "Tải ứng dụng"
+      },
+      "hero": {
+        "eyebrow": "GME Sri Lanka",
+        "headingLines": [
+          "Gửi tiền về quê nhà.",
+          "Luôn kết nối.",
+          "Chi tiêu dễ dàng."
+        ],
+        "subheading": "D ị ch v ụ đá ng tin c ậ y d à nh cho Sri Lankans đ ang sinh s ố ng t ạ i H à n Qu ố c",
+        "ctaPrimaryLabel": "Gửi tiền ngay",
+        "ctaSecondaryLabel": "Bắt đầu"
+      },
+      "exchangeRate": {
+        "eyebrow": "Tỷ giá",
+        "heading": "Kiểm tra tỷ giá hôm nay",
+        "description": "Xem t ỷ gi á GME Remit m ớ i nh ấ t tr ướ c khi g ử i ti ề n t ừ H à n Qu ố c đế n Sri Lanka",
+        "note": "Tỷ giá có thể thay đổi trong ngày",
+        "cardTitle": "Công cụ tính GME Remit",
+        "sampleTag": "Giá trị mẫu",
+        "sendAmountLabel": "Số tiền gửi",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "Quốc gia nhận",
+        "recipientCountryOption": "Sri Lanka",
+        "receiveCurrencyLabel": "LKR",
+        "receiverGetsLabel": "Người nhận nhận được",
+        "transferFeeLabel": "Phí chuyển tiền",
+        "exchangeRateLabel": "Tỷ giá",
+        "submitLabel": "Gửi tiền ngay"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "G ử i ti ề n đế n Sri Lanka",
+        "description": "M ộ t c á ch đơ n gi ả n v à an to à n để h ỗ tr ợ gia đì nh v à ng ườ i th â n t ạ i Sri Lanka t ừ H à n Qu ố c.",
+        "features": [
+          "Tỷ giá cạnh tranh",
+          "Chuyển tiền nhanh chóng và đáng tin cậy",
+          "Phí minh bạch",
+          "Hỗ trợ khi bạn cần"
+        ],
+        "ctaLabel": "Gửi tiền ngay"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "Một thẻ cho mọi nhu cầu",
+        "description": "Thanh toán đơn giản cho cuộc sống hằng ngày tại Hàn Quốc và ở nước ngoài.",
+        "features": [
+          "Thanh toán toàn cầu",
+          "Mua sắm",
+          "Giao thông",
+          "Hoàn tiền",
+          "Quyền lợi EasyCare"
+        ],
+        "ctaLabel": "Khám phá thẻ GME"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "Luôn kết nối tại Hàn Quốc",
+        "description": "Giữ kết nối với những điều quan trọng bằng các gói di động giúp cuộc sống tại Hàn Quốc thuận tiện hơn.",
+        "features": [
+          "Kết nối ổn định",
+          "Gói SIM linh hoạt",
+          "Thiết lập đơn giản",
+          "Hỗ trợ địa phương thân thiện"
+        ],
+        "ctaLabel": "Xem các gói SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "Đối tác tài chính số của bạn",
+        "description": "Trải nghiệm dịch vụ vay kỹ thuật số dành cho người nước ngoài sống tại Hàn Quốc. Đăng ký dễ dàng qua ứng dụng GME.",
+        "features": [
+          "Đăng ký khoản vay không giấy tờ",
+          "Kiểm tra trạng thái khoản vay theo thời gian thực",
+          "Kiểm tra dư nợ theo thời gian thực"
+        ],
+        "ctaLabel": "Đăng ký ngay"
+      },
+      "faq": {
+        "heading": "Câu hỏi thường gặp về GME Remit",
+        "subheading": "Tìm câu trả lời cho những câu hỏi thường gặp khi gửi tiền bằng GME Remit",
+        "items": [
+          {
+            "question": "Gửi tiền bằng GME Remit mất bao lâu?",
+            "answer": [
+              "Giao dịch GME Remit thường được hoàn tất trong khoảng 10 giây, tuy nhiên thời gian thực tế có thể thay đổi tùy theo quốc gia nhận, ngân hàng hoặc phương thức nhận tiền."
+            ]
+          },
+          {
+            "question": "Sử dụng GME Remit có an toàn không?",
+            "answer": [
+              "Có. GME Remit là dịch vụ chuyển tiền được cấp phép tại Hàn Quốc và chịu sự giám sát của các cơ quan tài chính Hàn Quốc có liên quan. Chúng tôi sử dụng quy trình xác minh khách hàng và giao dịch an toàn nhằm góp phần bảo vệ khách hàng và giao dịch của họ."
+            ]
+          },
+          {
+            "question": "Làm thế nào để đăng ký tài khoản GME Remit?",
+            "answer": [
+              "Tải ứng dụng GME Remit, tạo tài khoản và hoàn tất xác minh danh tính theo yêu cầu. Sau khi đăng ký và xác minh hoàn tất, bạn có thể bắt đầu sử dụng các dịch vụ GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi có thể gửi tiền đến những quốc gia nào bằng GME Remit?",
+            "answer": [
+              "GME Remit hỗ trợ chuyển tiền quốc tế đến nhiều quốc gia trên thế giới. Bạn có thể kiểm tra trực tiếp các điểm đến và phương thức nhận tiền hiện có trong ứng dụng GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi nên làm gì nếu gặp vấn đề với giao dịch chuyển tiền?",
+            "answer": [
+              "Độ i ng ũ h ỗ tr ợ kh á ch h à ng c ủ a ch ú ng t ô i l à m vi ệ c t ừ 10:00 đế n 23:00, t ừ Th ứ Hai đế n Ch ủ Nh ậ t.",
+              "B ạ n c ó th ể g ọ i cho ch ú ng t ô i theo s ố {SUPPORT_PHONE_NUMBER} ho ặ c li ê n h ệ qua ứ ng d ụ ng GME Remit.",
+              "B ạ n c ũ ng c ó th ể nh ắ n tin qua c á c k ê nh m ạ ng x ã h ộ i ch í nh th ứ c c ủ a GME Sri Lanka, bao g ồ m Facebook, Instagram, TikTok v à ChannelTalk.",
+              "N ế u mu ố n đượ c h ỗ tr ợ tr ự c ti ế p, GME Remit c ũ ng c ó c á c chi nh á nh t ạ i H à n Qu ố c, n ơ i nh â n vi ê n c ủ a ch ú ng t ô i c ó th ể h ỗ tr ợ b ạ n."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "K ế t n ố i v ớ i GME Sri Lanka",
+        "subheading": "Tin tức, mẹo hữu ích và cập nhật dành cho cộng đồng",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "Tải ứng dụng GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "D ị ch v ụ t à i ch í nh d à nh cho Sri Lankans t ạ i H à n Qu ố c.",
+        "copyrightSuffix": "GME. Bảo lưu mọi quyền."
+      }
+    },
+    "thailand": {
+      "header": {
+        "navItems": {
+          "company": "Công ty",
+          "services": "Dịch vụ",
+          "countries": "Quốc gia",
+          "news": "Tin tức",
+          "support": "Hỗ trợ"
+        },
+        "downloadAppLabel": "Tải ứng dụng"
+      },
+      "hero": {
+        "eyebrow": "GME Thailand",
+        "headingLines": [
+          "Gửi tiền về quê nhà.",
+          "Luôn kết nối.",
+          "Chi tiêu dễ dàng."
+        ],
+        "subheading": "D ị ch v ụ đá ng tin c ậ y d à nh cho Thais đ ang sinh s ố ng t ạ i H à n Qu ố c",
+        "ctaPrimaryLabel": "Gửi tiền ngay",
+        "ctaSecondaryLabel": "Bắt đầu"
+      },
+      "exchangeRate": {
+        "eyebrow": "Tỷ giá",
+        "heading": "Kiểm tra tỷ giá hôm nay",
+        "description": "Xem t ỷ gi á GME Remit m ớ i nh ấ t tr ướ c khi g ử i ti ề n t ừ H à n Qu ố c đế n Thailand",
+        "note": "Tỷ giá có thể thay đổi trong ngày",
+        "cardTitle": "Công cụ tính GME Remit",
+        "sampleTag": "Giá trị mẫu",
+        "sendAmountLabel": "Số tiền gửi",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "Quốc gia nhận",
+        "recipientCountryOption": "Thailand",
+        "receiveCurrencyLabel": "THB",
+        "receiverGetsLabel": "Người nhận nhận được",
+        "transferFeeLabel": "Phí chuyển tiền",
+        "exchangeRateLabel": "Tỷ giá",
+        "submitLabel": "Gửi tiền ngay"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "G ử i ti ề n đế n Thailand",
+        "description": "M ộ t c á ch đơ n gi ả n v à an to à n để h ỗ tr ợ gia đì nh v à ng ườ i th â n t ạ i Thailand t ừ H à n Qu ố c.",
+        "features": [
+          "Tỷ giá cạnh tranh",
+          "Chuyển tiền nhanh chóng và đáng tin cậy",
+          "Phí minh bạch",
+          "Hỗ trợ khi bạn cần"
+        ],
+        "ctaLabel": "Gửi tiền ngay"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "Một thẻ cho mọi nhu cầu",
+        "description": "Thanh toán đơn giản cho cuộc sống hằng ngày tại Hàn Quốc và ở nước ngoài.",
+        "features": [
+          "Thanh toán toàn cầu",
+          "Mua sắm",
+          "Giao thông",
+          "Hoàn tiền",
+          "Quyền lợi EasyCare"
+        ],
+        "ctaLabel": "Khám phá thẻ GME"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "Luôn kết nối tại Hàn Quốc",
+        "description": "Giữ kết nối với những điều quan trọng bằng các gói di động giúp cuộc sống tại Hàn Quốc thuận tiện hơn.",
+        "features": [
+          "Kết nối ổn định",
+          "Gói SIM linh hoạt",
+          "Thiết lập đơn giản",
+          "Hỗ trợ địa phương thân thiện"
+        ],
+        "ctaLabel": "Xem các gói SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "Đối tác tài chính số của bạn",
+        "description": "Trải nghiệm dịch vụ vay kỹ thuật số dành cho người nước ngoài sống tại Hàn Quốc. Đăng ký dễ dàng qua ứng dụng GME.",
+        "features": [
+          "Đăng ký khoản vay không giấy tờ",
+          "Kiểm tra trạng thái khoản vay theo thời gian thực",
+          "Kiểm tra dư nợ theo thời gian thực"
+        ],
+        "ctaLabel": "Đăng ký ngay"
+      },
+      "faq": {
+        "heading": "Câu hỏi thường gặp về GME Remit",
+        "subheading": "Tìm câu trả lời cho những câu hỏi thường gặp khi gửi tiền bằng GME Remit",
+        "items": [
+          {
+            "question": "Gửi tiền bằng GME Remit mất bao lâu?",
+            "answer": [
+              "Giao dịch GME Remit thường được hoàn tất trong khoảng 10 giây, tuy nhiên thời gian thực tế có thể thay đổi tùy theo quốc gia nhận, ngân hàng hoặc phương thức nhận tiền."
+            ]
+          },
+          {
+            "question": "Sử dụng GME Remit có an toàn không?",
+            "answer": [
+              "Có. GME Remit là dịch vụ chuyển tiền được cấp phép tại Hàn Quốc và chịu sự giám sát của các cơ quan tài chính Hàn Quốc có liên quan. Chúng tôi sử dụng quy trình xác minh khách hàng và giao dịch an toàn nhằm góp phần bảo vệ khách hàng và giao dịch của họ."
+            ]
+          },
+          {
+            "question": "Làm thế nào để đăng ký tài khoản GME Remit?",
+            "answer": [
+              "Tải ứng dụng GME Remit, tạo tài khoản và hoàn tất xác minh danh tính theo yêu cầu. Sau khi đăng ký và xác minh hoàn tất, bạn có thể bắt đầu sử dụng các dịch vụ GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi có thể gửi tiền đến những quốc gia nào bằng GME Remit?",
+            "answer": [
+              "GME Remit hỗ trợ chuyển tiền quốc tế đến nhiều quốc gia trên thế giới. Bạn có thể kiểm tra trực tiếp các điểm đến và phương thức nhận tiền hiện có trong ứng dụng GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi nên làm gì nếu gặp vấn đề với giao dịch chuyển tiền?",
+            "answer": [
+              "Độ i ng ũ h ỗ tr ợ kh á ch h à ng c ủ a ch ú ng t ô i l à m vi ệ c t ừ 10:00 đế n 23:00, t ừ Th ứ Hai đế n Ch ủ Nh ậ t.",
+              "B ạ n c ó th ể g ọ i cho ch ú ng t ô i theo s ố {SUPPORT_PHONE_NUMBER} ho ặ c li ê n h ệ qua ứ ng d ụ ng GME Remit.",
+              "B ạ n c ũ ng c ó th ể nh ắ n tin qua c á c k ê nh m ạ ng x ã h ộ i ch í nh th ứ c c ủ a GME Thailand, bao g ồ m Facebook, Instagram, TikTok v à ChannelTalk.",
+              "N ế u mu ố n đượ c h ỗ tr ợ tr ự c ti ế p, GME Remit c ũ ng c ó c á c chi nh á nh t ạ i H à n Qu ố c, n ơ i nh â n vi ê n c ủ a ch ú ng t ô i c ó th ể h ỗ tr ợ b ạ n."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "K ế t n ố i v ớ i GME Thailand",
+        "subheading": "Tin tức, mẹo hữu ích và cập nhật dành cho cộng đồng",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "Tải ứng dụng GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "D ị ch v ụ t à i ch í nh d à nh cho Thais t ạ i H à n Qu ố c.",
+        "copyrightSuffix": "GME. Bảo lưu mọi quyền."
+      }
+    },
+    "uzbekistan": {
+      "header": {
+        "navItems": {
+          "company": "Công ty",
+          "services": "Dịch vụ",
+          "countries": "Quốc gia",
+          "news": "Tin tức",
+          "support": "Hỗ trợ"
+        },
+        "downloadAppLabel": "Tải ứng dụng"
+      },
+      "hero": {
+        "eyebrow": "GME Uzbekistan",
+        "headingLines": [
+          "Gửi tiền về quê nhà.",
+          "Luôn kết nối.",
+          "Chi tiêu dễ dàng."
+        ],
+        "subheading": "D ị ch v ụ đá ng tin c ậ y d à nh cho Uzbeks đ ang sinh s ố ng t ạ i H à n Qu ố c",
+        "ctaPrimaryLabel": "Gửi tiền ngay",
+        "ctaSecondaryLabel": "Bắt đầu"
+      },
+      "exchangeRate": {
+        "eyebrow": "Tỷ giá",
+        "heading": "Kiểm tra tỷ giá hôm nay",
+        "description": "Xem t ỷ gi á GME Remit m ớ i nh ấ t tr ướ c khi g ử i ti ề n t ừ H à n Qu ố c đế n Uzbekistan",
+        "note": "Tỷ giá có thể thay đổi trong ngày",
+        "cardTitle": "Công cụ tính GME Remit",
+        "sampleTag": "Giá trị mẫu",
+        "sendAmountLabel": "Số tiền gửi",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "Quốc gia nhận",
+        "recipientCountryOption": "Uzbekistan",
+        "receiveCurrencyLabel": "UZS",
+        "receiverGetsLabel": "Người nhận nhận được",
+        "transferFeeLabel": "Phí chuyển tiền",
+        "exchangeRateLabel": "Tỷ giá",
+        "submitLabel": "Gửi tiền ngay"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "G ử i ti ề n đế n Uzbekistan",
+        "description": "M ộ t c á ch đơ n gi ả n v à an to à n để h ỗ tr ợ gia đì nh v à ng ườ i th â n t ạ i Uzbekistan t ừ H à n Qu ố c.",
+        "features": [
+          "Tỷ giá cạnh tranh",
+          "Chuyển tiền nhanh chóng và đáng tin cậy",
+          "Phí minh bạch",
+          "Hỗ trợ khi bạn cần"
+        ],
+        "ctaLabel": "Gửi tiền ngay"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "Một thẻ cho mọi nhu cầu",
+        "description": "Thanh toán đơn giản cho cuộc sống hằng ngày tại Hàn Quốc và ở nước ngoài.",
+        "features": [
+          "Thanh toán toàn cầu",
+          "Mua sắm",
+          "Giao thông",
+          "Hoàn tiền",
+          "Quyền lợi EasyCare"
+        ],
+        "ctaLabel": "Khám phá thẻ GME"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "Luôn kết nối tại Hàn Quốc",
+        "description": "Giữ kết nối với những điều quan trọng bằng các gói di động giúp cuộc sống tại Hàn Quốc thuận tiện hơn.",
+        "features": [
+          "Kết nối ổn định",
+          "Gói SIM linh hoạt",
+          "Thiết lập đơn giản",
+          "Hỗ trợ địa phương thân thiện"
+        ],
+        "ctaLabel": "Xem các gói SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "Đối tác tài chính số của bạn",
+        "description": "Trải nghiệm dịch vụ vay kỹ thuật số dành cho người nước ngoài sống tại Hàn Quốc. Đăng ký dễ dàng qua ứng dụng GME.",
+        "features": [
+          "Đăng ký khoản vay không giấy tờ",
+          "Kiểm tra trạng thái khoản vay theo thời gian thực",
+          "Kiểm tra dư nợ theo thời gian thực"
+        ],
+        "ctaLabel": "Đăng ký ngay"
+      },
+      "faq": {
+        "heading": "Câu hỏi thường gặp về GME Remit",
+        "subheading": "Tìm câu trả lời cho những câu hỏi thường gặp khi gửi tiền bằng GME Remit",
+        "items": [
+          {
+            "question": "Gửi tiền bằng GME Remit mất bao lâu?",
+            "answer": [
+              "Giao dịch GME Remit thường được hoàn tất trong khoảng 10 giây, tuy nhiên thời gian thực tế có thể thay đổi tùy theo quốc gia nhận, ngân hàng hoặc phương thức nhận tiền."
+            ]
+          },
+          {
+            "question": "Sử dụng GME Remit có an toàn không?",
+            "answer": [
+              "Có. GME Remit là dịch vụ chuyển tiền được cấp phép tại Hàn Quốc và chịu sự giám sát của các cơ quan tài chính Hàn Quốc có liên quan. Chúng tôi sử dụng quy trình xác minh khách hàng và giao dịch an toàn nhằm góp phần bảo vệ khách hàng và giao dịch của họ."
+            ]
+          },
+          {
+            "question": "Làm thế nào để đăng ký tài khoản GME Remit?",
+            "answer": [
+              "Tải ứng dụng GME Remit, tạo tài khoản và hoàn tất xác minh danh tính theo yêu cầu. Sau khi đăng ký và xác minh hoàn tất, bạn có thể bắt đầu sử dụng các dịch vụ GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi có thể gửi tiền đến những quốc gia nào bằng GME Remit?",
+            "answer": [
+              "GME Remit hỗ trợ chuyển tiền quốc tế đến nhiều quốc gia trên thế giới. Bạn có thể kiểm tra trực tiếp các điểm đến và phương thức nhận tiền hiện có trong ứng dụng GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi nên làm gì nếu gặp vấn đề với giao dịch chuyển tiền?",
+            "answer": [
+              "Độ i ng ũ h ỗ tr ợ kh á ch h à ng c ủ a ch ú ng t ô i l à m vi ệ c t ừ 10:00 đế n 23:00, t ừ Th ứ Hai đế n Ch ủ Nh ậ t.",
+              "B ạ n c ó th ể g ọ i cho ch ú ng t ô i theo s ố {SUPPORT_PHONE_NUMBER} ho ặ c li ê n h ệ qua ứ ng d ụ ng GME Remit.",
+              "B ạ n c ũ ng c ó th ể nh ắ n tin qua c á c k ê nh m ạ ng x ã h ộ i ch í nh th ứ c c ủ a GME Uzbekistan, bao g ồ m Facebook, Instagram, TikTok v à ChannelTalk.",
+              "N ế u mu ố n đượ c h ỗ tr ợ tr ự c ti ế p, GME Remit c ũ ng c ó c á c chi nh á nh t ạ i H à n Qu ố c, n ơ i nh â n vi ê n c ủ a ch ú ng t ô i c ó th ể h ỗ tr ợ b ạ n."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "K ế t n ố i v ớ i GME Uzbekistan",
+        "subheading": "Tin tức, mẹo hữu ích và cập nhật dành cho cộng đồng",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "Tải ứng dụng GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "D ị ch v ụ t à i ch í nh d à nh cho Uzbeks t ạ i H à n Qu ố c.",
+        "copyrightSuffix": "GME. Bảo lưu mọi quyền."
+      }
+    },
+    "vietnam": {
+      "header": {
+        "navItems": {
+          "company": "Công ty",
+          "services": "Dịch vụ",
+          "countries": "Quốc gia",
+          "news": "Tin tức",
+          "support": "Hỗ trợ"
+        },
+        "downloadAppLabel": "Tải ứng dụng"
+      },
+      "hero": {
+        "eyebrow": "GME Vietnam",
+        "headingLines": [
+          "Gửi tiền về quê nhà.",
+          "Luôn kết nối.",
+          "Chi tiêu dễ dàng."
+        ],
+        "subheading": "Dịch vụ đáng tin cậy dành cho người Việt đang sinh sống tại Hàn Quốc",
+        "ctaPrimaryLabel": "Gửi tiền ngay",
+        "ctaSecondaryLabel": "Bắt đầu"
+      },
+      "exchangeRate": {
+        "eyebrow": "Tỷ giá",
+        "heading": "Kiểm tra tỷ giá hôm nay",
+        "description": "Xem tỷ giá GME Remit mới nhất trước khi gửi tiền từ Hàn Quốc đến Việt Nam",
+        "note": "Tỷ giá có thể thay đổi trong ngày",
+        "cardTitle": "Công cụ tính GME Remit",
+        "sampleTag": "Giá trị mẫu",
+        "sendAmountLabel": "Số tiền gửi",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "Quốc gia nhận",
+        "recipientCountryOption": "Vietnam",
+        "receiveCurrencyLabel": "VND",
+        "receiverGetsLabel": "Người nhận nhận được",
+        "transferFeeLabel": "Phí chuyển tiền",
+        "exchangeRateLabel": "Tỷ giá",
+        "submitLabel": "Gửi tiền ngay"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "Gửi tiền đến Việt Nam",
+        "description": "Một cách đơn giản và an toàn để hỗ trợ gia đình và người thân tại Việt Nam từ Hàn Quốc.",
+        "features": [
+          "Tỷ giá cạnh tranh",
+          "Chuyển tiền nhanh chóng và đáng tin cậy",
+          "Phí minh bạch",
+          "Hỗ trợ khi bạn cần"
+        ],
+        "ctaLabel": "Gửi tiền ngay"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "Một thẻ cho mọi nhu cầu",
+        "description": "Thanh toán đơn giản cho cuộc sống hằng ngày tại Hàn Quốc và ở nước ngoài.",
+        "features": [
+          "Thanh toán toàn cầu",
+          "Mua sắm",
+          "Giao thông",
+          "Hoàn tiền",
+          "Quyền lợi EasyCare"
+        ],
+        "ctaLabel": "Khám phá thẻ GME"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "Luôn kết nối tại Hàn Quốc",
+        "description": "Giữ kết nối với những điều quan trọng bằng các gói di động giúp cuộc sống tại Hàn Quốc thuận tiện hơn.",
+        "features": [
+          "Kết nối ổn định",
+          "Gói SIM linh hoạt",
+          "Thiết lập đơn giản",
+          "Hỗ trợ địa phương thân thiện"
+        ],
+        "ctaLabel": "Xem các gói SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "Đối tác tài chính số của bạn",
+        "description": "Trải nghiệm dịch vụ vay kỹ thuật số dành cho người nước ngoài sống tại Hàn Quốc. Đăng ký dễ dàng qua ứng dụng GME.",
+        "features": [
+          "Đăng ký khoản vay không giấy tờ",
+          "Kiểm tra trạng thái khoản vay theo thời gian thực",
+          "Kiểm tra dư nợ theo thời gian thực"
+        ],
+        "ctaLabel": "Đăng ký ngay"
+      },
+      "faq": {
+        "heading": "Câu hỏi thường gặp về GME Remit",
+        "subheading": "Tìm câu trả lời cho những câu hỏi thường gặp khi gửi tiền bằng GME Remit",
+        "items": [
+          {
+            "question": "Gửi tiền bằng GME Remit mất bao lâu?",
+            "answer": [
+              "Giao dịch GME Remit thường được hoàn tất trong khoảng 10 giây, tuy nhiên thời gian thực tế có thể thay đổi tùy theo quốc gia nhận, ngân hàng hoặc phương thức nhận tiền."
+            ]
+          },
+          {
+            "question": "Sử dụng GME Remit có an toàn không?",
+            "answer": [
+              "Có. GME Remit là dịch vụ chuyển tiền được cấp phép tại Hàn Quốc và chịu sự giám sát của các cơ quan tài chính Hàn Quốc có liên quan. Chúng tôi sử dụng quy trình xác minh khách hàng và giao dịch an toàn nhằm góp phần bảo vệ khách hàng và giao dịch của họ."
+            ]
+          },
+          {
+            "question": "Làm thế nào để đăng ký tài khoản GME Remit?",
+            "answer": [
+              "Tải ứng dụng GME Remit, tạo tài khoản và hoàn tất xác minh danh tính theo yêu cầu. Sau khi đăng ký và xác minh hoàn tất, bạn có thể bắt đầu sử dụng các dịch vụ GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi có thể gửi tiền đến những quốc gia nào bằng GME Remit?",
+            "answer": [
+              "GME Remit hỗ trợ chuyển tiền quốc tế đến nhiều quốc gia trên thế giới. Bạn có thể kiểm tra trực tiếp các điểm đến và phương thức nhận tiền hiện có trong ứng dụng GME Remit."
+            ]
+          },
+          {
+            "question": "Tôi nên làm gì nếu gặp vấn đề với giao dịch chuyển tiền?",
+            "answer": [
+              "Đội ngũ hỗ trợ khách hàng của chúng tôi làm việc từ 10:00 đến 23:00, từ Thứ Hai đến Chủ Nhật.",
+              "Bạn có thể gọi cho chúng tôi theo số {SUPPORT_PHONE_NUMBER} hoặc liên hệ qua ứng dụng GME Remit.",
+              "Bạn cũng có thể nhắn tin qua các kênh mạng xã hội chính thức của GME Vietnam, bao gồm Facebook, Instagram, TikTok và ChannelTalk.",
+              "Nếu muốn được hỗ trợ trực tiếp, GME Remit cũng có các chi nhánh tại Hàn Quốc, nơi nhân viên của chúng tôi có thể hỗ trợ bạn."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "Kết nối với GME Vietnam",
+        "subheading": "Tin tức, mẹo hữu ích và cập nhật dành cho cộng đồng",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "Tải ứng dụng GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "Dịch vụ tài chính dành cho người Việt tại Hàn Quốc.",
+        "copyrightSuffix": "GME. Bảo lưu mọi quyền."
+      }
     }
   },
   "card": {
