@@ -23,7 +23,7 @@ interface SpliteSectionTranslate {
 }
 
 const sectionHeading = (text: string) => (
-  <h2 className="text-[26px] sm:text-[32px] lg:text-[40px] leading-[1.15] font-extrabold text-[#181818] tracking-[-0.01em] lg:max-w-[14ch]">
+  <h2 className="text-[26px] sm:text-[32px] lg:text-[40px] leading-[1.15] font-extrabold text-[#181818] tracking-[-0.01em] lg:max-w-[15ch]">
     {text}
   </h2>
 );
