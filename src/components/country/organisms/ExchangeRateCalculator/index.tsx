@@ -12,7 +12,6 @@ import { usePathname } from "next/navigation";
 const formatNumber = (num: string) => num.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 const parseNumber = (str: string) => str.replace(/,/g, "");
 
-/** messages 에 파일이 있는 언어만 쓰고, 없으면 영어로 떨어뜨린다 */
 const resolveMessagesLang = (langCode: string) =>
   langCode in translations ? langCode : "en";
 
@@ -20,8 +19,6 @@ const ExchangeRateCalculator = () => {
   const pathname = usePathname();
   const countryName = pathname.split("/").pop() ?? "";
   const { t: tCountry, activeLangCode } = useCountryTranslation(countryName);
-  // 계산기는 랜딩 안에 있으므로 랜딩 언어를 따른다.
-  // 단 messages 에 없는 언어(카자흐어·키르기스어·라오어·러시아어)는 영어로 둔다.
   const { t } = useTranslation("home.exchange", resolveMessagesLang(activeLangCode));
   const normalize = (value: string) => value.toLowerCase().replace(/[-\s]+/g, "");
   const matchedCountry = countryConfigs.find(
@@ -38,7 +35,7 @@ const ExchangeRateCalculator = () => {
   const [selectedRecipientCountry, setSelectedRecipientCountry] = useState(matchedCountry?.currencies[0]?.code ?? "");
   const [deliveryMethod, setDeliveryMethod] = useState("");
   const [isPayoutOpen, setIsPayoutOpen] = useState(false);
-  const [reslutRecipientCountry, setReslutRecipientCountry] = useState(matchedCountry?.currencies[0]?.code ?? "");
+  const [resultRecipientCountry, setResultRecipientCountry] = useState(matchedCountry?.currencies[0]?.code ?? "");
   const payoutDropdownRef = useRef<HTMLDivElement>(null);
 
   useClickOutside(payoutDropdownRef, () => setIsPayoutOpen(false));
@@ -71,7 +68,7 @@ const ExchangeRateCalculator = () => {
       setExchangeRateDisplay(result.exchangeRateDisplay);
       setScCharge(result.scCharge);
       setReceiveAmount(result.receiveAmount);
-      setReslutRecipientCountry(selectedRecipientCountry);
+      setResultRecipientCountry(selectedRecipientCountry);
     } else {
       setReceiveAmount("");
       setExchangeRateDisplay("");
@@ -207,7 +204,7 @@ const ExchangeRateCalculator = () => {
       <div className={S.CalculatorResultBox}>
         <span className={S.CalculatorResultLabel}>{tCountry("exchangeRate.receiverGetsLabel")}</span>
         <span className={S.CalculatorResultValue}>
-          {isLoading ? "..." : `${reslutRecipientCountry} ${formatNumber(receiveAmount || "0")}`}
+          {isLoading ? "..." : `${resultRecipientCountry} ${formatNumber(receiveAmount || "0")}`}
         </span>
       </div>
 
