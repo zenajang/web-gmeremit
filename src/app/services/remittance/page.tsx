@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import PublicLayout from "@/components/layout/PublicLayout";
-import ServiceHeroSection from "@/components/service/ServiceHeroSection";
+import ServiceHeroSection from "@/components/service/common/organisms/ServiceHeroSection";
 import { useLenis } from "@/hooks/useLenis";
 import { useScrollFadeIn } from "@/hooks/useScrollFadeIn";
 import { useTranslation } from "@/hooks/useTranslation";

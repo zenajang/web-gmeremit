@@ -240,15 +240,13 @@
               "website": "ウェブサイト：gmeremit.com"
             },
             "limit": "1回あたり最大 ₩2,000,000",
-            "qualification": "GME Pay会員（17歳以上）",
             "title": "ご利用ガイド"
           }
         },
         "features": [
           "プレミアムキャッシュバック",
           "海外取引手数料優遇",
-          "専用カスタマーセンター",
-          "オンライン・オフライン決済"
+          "専用カスタマーセンター"
         ],
         "name": "Black Card",
         "subtitle": "GME Black Mastercard"
@@ -330,10 +328,6 @@
               {
                 "desc": "オンラインでもオフラインでもショッピングやエンターテインメントに自由に支払い",
                 "title": "オンライン・オフラインショッピング"
-              },
-              {
-                "desc": "後払い交通カードで残高を気にせず乗車。タップするだけで乗車し、後でまとめて支払い。",
-                "title": "後払い交通カード"
               }
             ],
             "title": "主な特典"
@@ -351,15 +345,13 @@
             },
             "limit": "1回あたり最大 ₩2,000,000",
             "monthlyFee": "月額 ₩1,000（毎月1日に引き落とし）",
-            "qualification": "GME Pay会員（17歳以上）",
             "title": "ご利用ガイド"
           }
         },
         "features": [
           "後払い交通カード",
           "シーズンキャッシュバック",
-          "オンライン・オフラインショッピング",
-          "世界中で利用可能"
+          "オンライン・オフラインショッピング"
         ],
         "name": "EasyGo Card",
         "subtitle": "GME EasyGo Mastercard"
@@ -431,15 +423,13 @@
               "website": "ウェブサイト：gmeremit.com"
             },
             "limit": "1回あたり最大 ₩2,000,000",
-            "qualification": "GME Pay会員（17歳以上）",
             "title": "ご利用ガイド"
           }
         },
         "features": [
           "Mastercardグローバル決済",
           "イベント最大30%キャッシュバック",
-          "ATM入出金",
-          "公共交通カード機能"
+          "ATM入出金"
         ],
         "name": "Red Card",
         "subtitle": "GME Red Mastercard"
@@ -450,8 +440,7 @@
         "features": [
           "限定版デザイン",
           "グローバル決済対応",
-          "特別イベント特典",
-          "交通カード内蔵"
+          "特別イベント特典"
         ],
         "name": "Uniq Card",
         "subtitle": "GME Uniq Mastercard"

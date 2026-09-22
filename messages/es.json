@@ -240,15 +240,13 @@
               "website": "Sitio web: gmeremit.com"
             },
             "limit": "Hasta 2.000.000 ₩ por transacción",
-            "qualification": "Miembros de GME Pay (17 años o más)",
             "title": "Guía del usuario"
           }
         },
         "features": [
           "Recompensas de reembolso premium",
           "Comisiones de transacción extranjera reducidas",
-          "Centro de atención dedicado",
-          "Pagos en línea y fuera de línea"
+          "Centro de atención dedicado"
         ],
         "name": "Black Card",
         "subtitle": "GME Black Mastercard"
@@ -330,10 +328,6 @@
               {
                 "desc": "Paga libremente para compras y entretenimiento, en línea y fuera de línea",
                 "title": "Compras en línea y fuera de línea"
-              },
-              {
-                "desc": "Usa el transporte pospago para un viaje más cómodo.",
-                "title": "Tarjeta de transporte pospago"
               }
             ],
             "title": "Beneficios clave"
@@ -351,15 +345,13 @@
             },
             "limit": "Hasta 2.000.000 ₩ por transacción",
             "monthlyFee": "Cuota mensual 1.000 ₩ (cobrada el 1.º de cada mes)",
-            "qualification": "Miembros de GME Pay (17 años o más)",
             "title": "Guía del usuario"
           }
         },
         "features": [
           "Tarjeta de transporte pospago",
           "Reembolso estacional",
-          "Compras en línea y fuera de línea",
-          "Paga en cualquier parte del mundo"
+          "Compras en línea y fuera de línea"
         ],
         "name": "EasyGo Card",
         "subtitle": "GME EasyGo Mastercard"
@@ -431,15 +423,13 @@
               "website": "Sitio web: gmeremit.com"
             },
             "limit": "Hasta 2.000.000 ₩ por transacción",
-            "qualification": "Miembros de GME Pay (17 años o más)",
             "title": "Guía del usuario"
           }
         },
         "features": [
           "Pagos globales Mastercard",
           "Hasta 30% de reembolso en eventos",
-          "Retiro y depósito en cajeros",
-          "Función de tarjeta de transporte público"
+          "Retiro y depósito en cajeros"
         ],
         "name": "Red Card",
         "subtitle": "GME Red Mastercard"
@@ -450,8 +440,7 @@
         "features": [
           "Diseño de edición limitada",
           "Soporte de pago global",
-          "Beneficios en eventos especiales",
-          "Tarjeta de transporte integrada"
+          "Beneficios en eventos especiales"
         ],
         "name": "Uniq Card",
         "subtitle": "GME Uniq Mastercard"

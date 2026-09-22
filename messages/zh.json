@@ -240,15 +240,13 @@
               "website": "网站：gmeremit.com"
             },
             "limit": "每笔最高 ₩2,000,000",
-            "qualification": "GME Pay会员（17岁以上）",
             "title": "使用指南"
           }
         },
         "features": [
           "高额返现优惠",
           "降低海外交易费",
-          "专属客服中心",
-          "线上线下支付"
+          "专属客服中心"
         ],
         "name": "Black Card",
         "subtitle": "GME Black Mastercard"
@@ -330,10 +328,6 @@
               {
                 "desc": "线上线下自由消费购物娱乐",
                 "title": "线上线下购物"
-              },
-              {
-                "desc": "使用后付费交通卡，免查余额轻松出行，后续统一结算。",
-                "title": "后付费交通卡"
               }
             ],
             "title": "主要优惠"
@@ -351,15 +345,13 @@
             },
             "limit": "每笔最高 ₩2,000,000",
             "monthlyFee": "月费 ₩1,000（每月1日扣除）",
-            "qualification": "GME Pay会员（17岁以上）",
             "title": "使用指南"
           }
         },
         "features": [
           "后付费交通卡",
           "季节性返现",
-          "线上线下购物",
-          "全球通用"
+          "线上线下购物"
         ],
         "name": "EasyGo Card",
         "subtitle": "GME EasyGo Mastercard"
@@ -431,15 +423,13 @@
               "website": "网站：gmeremit.com"
             },
             "limit": "每笔最高 ₩2,000,000",
-            "qualification": "GME Pay会员（17岁以上）",
             "title": "使用指南"
           }
         },
         "features": [
           "Mastercard全球支付",
           "活动期间最高30%返现",
-          "ATM存取款",
-          "公共交通卡功能"
+          "ATM存取款"
         ],
         "name": "Red Card",
         "subtitle": "GME Red Mastercard"
@@ -450,8 +440,7 @@
         "features": [
           "限量版设计",
           "全球支付",
-          "专属活动优惠",
-          "内置交通卡"
+          "专属活动优惠"
         ],
         "name": "Uniq Card",
         "subtitle": "GME Uniq Mastercard"

@@ -97,11 +97,16 @@ export function LanguageSelector() {
                       : "hover:bg-gray-50"
                   }`}
                 >
-                  <span
-                    className="text-[13px] font-bold w-7 h-7 shrink-0 flex items-center justify-center rounded-md transition-colors duration-150 group-hover:bg-white group-hover:shadow-[0_1px_3px_rgba(0,0,0,0.1)]"
-                    style={{ color: lang.color }}
-                  >
-                    {lang.label}
+                  <span className="w-7 h-7 shrink-0 flex items-center justify-center rounded-md transition-colors duration-150">
+                    <img
+                      src={`/images/flags/${lang.flagCode}.svg`}
+                      alt=""
+                      width={24}
+                      height={20}
+                      loading="lazy"
+                      decoding="async"
+                      className="w-5 h-5 object-cover rounded-full"
+                    />
                   </span>
                   <span className={`text-[14px] ${isSelected ? "text-dark font-semibold" : "text-gray-700 font-medium"}`}>
                     {lang.nativeName}
@@ -136,26 +141,12 @@ export function CountriesDropdown({ label }: { label: string }) {
     [t]
   );
 
-  const getRenderFlag = (code: string, flagSrc?: string) => {
-    switch (code) {
-      case "AFRICA":
-        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🌍</span>;
-      case "ARAB":
-        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🌐</span>;
-      case "SPANISH_LATAM":
-        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🌎</span>;
-      case "RU":
-        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🗺️</span>;
-      default:
-        return <img src={flagSrc} alt="" className="w-5 h-5 rounded-full object-cover shrink-0" />;
-    }
-  }
   
   const clickCountry = (code: string, langCode: string) => {
     setSelectedCode(code);
     setIsOpen(false);
     const matched = languages.find((lang) => lang.code === langCode);
-    setLanguage(matched ?? languages.find((lang) => lang.code === "en")!);
+    setLanguage(matched ?? languages.find((lang) => lang.code === "en")!, { auto: true });
     router.push(`/country/${CountryNamesEn[code]}`);
   }
 
@@ -192,7 +183,15 @@ export function CountriesDropdown({ label }: { label: string }) {
                     selectedCode === c.code ? "text-primary" : "text-[#181818] hover:text-primary"
                   }`}
                 >
-                  {getRenderFlag(c.code, c.flagSrc)}
+                  <img
+                    src={c.flagSrc}
+                    alt=""
+                    width={20}
+                    height={20}
+                    loading="lazy"
+                    decoding="async"
+                    className="w-5 h-5 rounded-full object-cover shrink-0"
+                  />
                   <span>{c.name}</span>
                 </button>
               ))}

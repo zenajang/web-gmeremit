@@ -6,11 +6,11 @@ import CompanyTabs from "@/components/CompanyTabs";
 import { useEffect, useLayoutEffect, useRef, useState, useMemo } from "react";
 import { usePathname } from "next/navigation";
 import { useLenis } from "@/hooks/useLenis";
-import { useTranslation } from "@/hooks/useTranslation";
+import { usePendingTranslation } from "@/hooks/usePendingTranslation";
 import { historyData } from "@/data/history";
 
 export default function HistoryPage() {
-  const { t } = useTranslation("company.history");
+  const { t } = usePendingTranslation("company.history");
   const [currentEventIndex, setCurrentEventIndex] = useState(0);
   const [modalImageSrc, setModalImageSrc] = useState<string | null>(null);
   const pathname = usePathname();

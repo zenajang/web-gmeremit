@@ -1,0 +1,3486 @@
+{
+  "landing": {
+    "africa": {
+      "header": {
+        "navItems": {
+          "company": "公司",
+          "services": "服务",
+          "countries": "国家/地区",
+          "news": "新闻",
+          "support": "客服支持"
+        },
+        "downloadAppLabel": "下载应用"
+      },
+      "hero": {
+        "eyebrow": "GME Africa",
+        "headingLines": [
+          "汇款回家。",
+          "保持联系。",
+          "轻松消费。"
+        ],
+        "subheading": "为在韩 Africans 提供值得信赖的服务",
+        "ctaPrimaryLabel": "立即汇款",
+        "ctaSecondaryLabel": "立即开始"
+      },
+      "exchangeRate": {
+        "eyebrow": "汇率",
+        "heading": "查看今日汇率",
+        "description": "从韩国向 Africa 汇款前，请查看最新的 GME Remit 汇率",
+        "note": "汇率可能会在一天内发生变化",
+        "cardTitle": "GME Remit 汇款计算器",
+        "sampleTag": "示例金额",
+        "sendAmountLabel": "汇款金额",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "收款国家/地区",
+        "recipientCountryOption": "Africa",
+        "receiveCurrencyLabel": "TBD",
+        "receiverGetsLabel": "收款人实收",
+        "transferFeeLabel": "汇款手续费",
+        "exchangeRateLabel": "汇率",
+        "submitLabel": "立即汇款"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "汇款至 Africa",
+        "description": "从韩国支持您在 Africa 的家人和亲友，简单又安全。",
+        "features": [
+          "有竞争力的汇率",
+          "快速可靠的汇款",
+          "费用透明",
+          "需要时提供支持"
+        ],
+        "ctaLabel": "立即汇款"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "一卡满足多种需求",
+        "description": "轻松支付，满足您在韩国及海外的日常生活需求。",
+        "features": [
+          "全球支付",
+          "购物",
+          "交通",
+          "现金返还",
+          "EasyCare 福利"
+        ],
+        "ctaLabel": "了解 GME Card"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "在韩国保持畅联",
+        "description": "通过为在韩生活而设计的移动通信套餐，与重要的人和事保持联系。",
+        "features": [
+          "稳定连接",
+          "灵活的 SIM 套餐",
+          "简单开通",
+          "友好的本地支持"
+        ],
+        "ctaLabel": "查看 SIM 套餐"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "您的数字金融伙伴",
+        "description": "体验面向在韩外国人的数字贷款服务。通过 GME App 轻松申请，流程简单便捷。",
+        "features": [
+          "无纸化贷款申请",
+          "实时查询贷款状态",
+          "实时查询贷款余额"
+        ],
+        "ctaLabel": "立即申请"
+      },
+      "faq": {
+        "heading": "GME Remit 常见问题",
+        "subheading": "查看使用 GME Remit 汇款时的常见问题解答",
+        "items": [
+          {
+            "question": "使用 GME Remit 汇款需要多长时间？",
+            "answer": [
+              "GME Remit 汇款通常可在约 10 秒内完成，但实际到账时间可能因收款国家/地区、银行或收款方式而有所不同。"
+            ]
+          },
+          {
+            "question": "GME Remit 使用安全吗？",
+            "answer": [
+              "是的。GME Remit 是在韩国获得许可的汇款服务，并接受韩国相关金融监管机构的监督。我们采用安全的客户身份验证和交易流程，以帮助保护客户及其交易安全。"
+            ]
+          },
+          {
+            "question": "如何注册 GME Remit 账户？",
+            "answer": [
+              "下载 GME Remit App，创建账户并完成所需的身份验证。注册和验证完成后，即可开始使用 GME Remit 服务。"
+            ]
+          },
+          {
+            "question": "可以通过 GME Remit 向哪些国家汇款？",
+            "answer": [
+              "GME Remit 支持向全球多个国家和地区进行国际汇款。可汇款目的地及收款方式请直接在 GME Remit App 中查看。"
+            ]
+          },
+          {
+            "question": "如果汇款出现问题怎么办？",
+            "answer": [
+              "我们的客服团队周一至周日 10:00–23:00 提供服务。",
+              "您可以致电 {SUPPORT_PHONE_NUMBER}，或通过 GME Remit App 联系我们。",
+              "您也可以通过 GME Africa 的官方社交媒体渠道联系我们，包括 Facebook、 Instagram、 TikTok 和 ChannelTalk。",
+              "如需面对面协助， GME Remit 在韩国多地设有分行，工作人员可为您提供帮助。"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "关注 GME Africa",
+        "subheading": "获取新闻、实用提示和社区最新动态",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "下载 GME App",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "为在韩 Africans 提供的金融服务。",
+        "copyrightSuffix": "GME. 版权所有。"
+      }
+    },
+    "arab": {
+      "header": {
+        "navItems": {
+          "company": "公司",
+          "services": "服务",
+          "countries": "国家/地区",
+          "news": "新闻",
+          "support": "客服支持"
+        },
+        "downloadAppLabel": "下载应用"
+      },
+      "hero": {
+        "eyebrow": "GME Arab",
+        "headingLines": [
+          "汇款回家。",
+          "保持联系。",
+          "轻松消费。"
+        ],
+        "subheading": "为在韩 the Arab community 提供值得信赖的服务",
+        "ctaPrimaryLabel": "立即汇款",
+        "ctaSecondaryLabel": "立即开始"
+      },
+      "exchangeRate": {
+        "eyebrow": "汇率",
+        "heading": "查看今日汇率",
+        "description": "从韩国向 Arab 汇款前，请查看最新的 GME Remit 汇率",
+        "note": "汇率可能会在一天内发生变化",
+        "cardTitle": "GME Remit 汇款计算器",
+        "sampleTag": "示例金额",
+        "sendAmountLabel": "汇款金额",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "收款国家/地区",
+        "recipientCountryOption": "Arab",
+        "receiveCurrencyLabel": "TBD",
+        "receiverGetsLabel": "收款人实收",
+        "transferFeeLabel": "汇款手续费",
+        "exchangeRateLabel": "汇率",
+        "submitLabel": "立即汇款"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "汇款至 Arab",
+        "description": "从韩国支持您在 Arab 的家人和亲友，简单又安全。",
+        "features": [
+          "有竞争力的汇率",
+          "快速可靠的汇款",
+          "费用透明",
+          "需要时提供支持"
+        ],
+        "ctaLabel": "立即汇款"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "一卡满足多种需求",
+        "description": "轻松支付，满足您在韩国及海外的日常生活需求。",
+        "features": [
+          "全球支付",
+          "购物",
+          "交通",
+          "现金返还",
+          "EasyCare 福利"
+        ],
+        "ctaLabel": "了解 GME Card"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "在韩国保持畅联",
+        "description": "通过为在韩生活而设计的移动通信套餐，与重要的人和事保持联系。",
+        "features": [
+          "稳定连接",
+          "灵活的 SIM 套餐",
+          "简单开通",
+          "友好的本地支持"
+        ],
+        "ctaLabel": "查看 SIM 套餐"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "您的数字金融伙伴",
+        "description": "体验面向在韩外国人的数字贷款服务。通过 GME App 轻松申请，流程简单便捷。",
+        "features": [
+          "无纸化贷款申请",
+          "实时查询贷款状态",
+          "实时查询贷款余额"
+        ],
+        "ctaLabel": "立即申请"
+      },
+      "faq": {
+        "heading": "GME Remit 常见问题",
+        "subheading": "查看使用 GME Remit 汇款时的常见问题解答",
+        "items": [
+          {
+            "question": "使用 GME Remit 汇款需要多长时间？",
+            "answer": [
+              "GME Remit 汇款通常可在约 10 秒内完成，但实际到账时间可能因收款国家/地区、银行或收款方式而有所不同。"
+            ]
+          },
+          {
+            "question": "GME Remit 使用安全吗？",
+            "answer": [
+              "是的。GME Remit 是在韩国获得许可的汇款服务，并接受韩国相关金融监管机构的监督。我们采用安全的客户身份验证和交易流程，以帮助保护客户及其交易安全。"
+            ]
+          },
+          {
+            "question": "如何注册 GME Remit 账户？",
+            "answer": [
+              "下载 GME Remit App，创建账户并完成所需的身份验证。注册和验证完成后，即可开始使用 GME Remit 服务。"
+            ]
+          },
+          {
+            "question": "可以通过 GME Remit 向哪些国家汇款？",
+            "answer": [
+              "GME Remit 支持向全球多个国家和地区进行国际汇款。可汇款目的地及收款方式请直接在 GME Remit App 中查看。"
+            ]
+          },
+          {
+            "question": "如果汇款出现问题怎么办？",
+            "answer": [
+              "我们的客服团队周一至周日 10:00–23:00 提供服务。",
+              "您可以致电 {SUPPORT_PHONE_NUMBER}，或通过 GME Remit App 联系我们。",
+              "您也可以通过 GME Arab 的官方社交媒体渠道联系我们，包括 Facebook、 Instagram、 TikTok 和 ChannelTalk。",
+              "如需面对面协助， GME Remit 在韩国多地设有分行，工作人员可为您提供帮助。"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "关注 GME Arab",
+        "subheading": "获取新闻、实用提示和社区最新动态",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "下载 GME App",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "为在韩 the Arab community 提供的金融服务。",
+        "copyrightSuffix": "GME. 版权所有。"
+      }
+    },
+    "bangladesh": {
+      "header": {
+        "navItems": {
+          "company": "公司",
+          "services": "服务",
+          "countries": "国家/地区",
+          "news": "新闻",
+          "support": "客服支持"
+        },
+        "downloadAppLabel": "下载应用"
+      },
+      "hero": {
+        "eyebrow": "GME Bangladesh",
+        "headingLines": [
+          "汇款回家。",
+          "保持联系。",
+          "轻松消费。"
+        ],
+        "subheading": "为在韩 Bangladeshis 提供值得信赖的服务",
+        "ctaPrimaryLabel": "立即汇款",
+        "ctaSecondaryLabel": "立即开始"
+      },
+      "exchangeRate": {
+        "eyebrow": "汇率",
+        "heading": "查看今日汇率",
+        "description": "从韩国向 Bangladesh 汇款前，请查看最新的 GME Remit 汇率",
+        "note": "汇率可能会在一天内发生变化",
+        "cardTitle": "GME Remit 汇款计算器",
+        "sampleTag": "示例金额",
+        "sendAmountLabel": "汇款金额",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "收款国家/地区",
+        "recipientCountryOption": "Bangladesh",
+        "receiveCurrencyLabel": "BDT",
+        "receiverGetsLabel": "收款人实收",
+        "transferFeeLabel": "汇款手续费",
+        "exchangeRateLabel": "汇率",
+        "submitLabel": "立即汇款"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "汇款至 Bangladesh",
+        "description": "从韩国支持您在 Bangladesh 的家人和亲友，简单又安全。",
+        "features": [
+          "有竞争力的汇率",
+          "快速可靠的汇款",
+          "费用透明",
+          "需要时提供支持"
+        ],
+        "ctaLabel": "立即汇款"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "一卡满足多种需求",
+        "description": "轻松支付，满足您在韩国及海外的日常生活需求。",
+        "features": [
+          "全球支付",
+          "购物",
+          "交通",
+          "现金返还",
+          "EasyCare 福利"
+        ],
+        "ctaLabel": "了解 GME Card"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "在韩国保持畅联",
+        "description": "通过为在韩生活而设计的移动通信套餐，与重要的人和事保持联系。",
+        "features": [
+          "稳定连接",
+          "灵活的 SIM 套餐",
+          "简单开通",
+          "友好的本地支持"
+        ],
+        "ctaLabel": "查看 SIM 套餐"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "您的数字金融伙伴",
+        "description": "体验面向在韩外国人的数字贷款服务。通过 GME App 轻松申请，流程简单便捷。",
+        "features": [
+          "无纸化贷款申请",
+          "实时查询贷款状态",
+          "实时查询贷款余额"
+        ],
+        "ctaLabel": "立即申请"
+      },
+      "faq": {
+        "heading": "GME Remit 常见问题",
+        "subheading": "查看使用 GME Remit 汇款时的常见问题解答",
+        "items": [
+          {
+            "question": "使用 GME Remit 汇款需要多长时间？",
+            "answer": [
+              "GME Remit 汇款通常可在约 10 秒内完成，但实际到账时间可能因收款国家/地区、银行或收款方式而有所不同。"
+            ]
+          },
+          {
+            "question": "GME Remit 使用安全吗？",
+            "answer": [
+              "是的。GME Remit 是在韩国获得许可的汇款服务，并接受韩国相关金融监管机构的监督。我们采用安全的客户身份验证和交易流程，以帮助保护客户及其交易安全。"
+            ]
+          },
+          {
+            "question": "如何注册 GME Remit 账户？",
+            "answer": [
+              "下载 GME Remit App，创建账户并完成所需的身份验证。注册和验证完成后，即可开始使用 GME Remit 服务。"
+            ]
+          },
+          {
+            "question": "可以通过 GME Remit 向哪些国家汇款？",
+            "answer": [
+              "GME Remit 支持向全球多个国家和地区进行国际汇款。可汇款目的地及收款方式请直接在 GME Remit App 中查看。"
+            ]
+          },
+          {
+            "question": "如果汇款出现问题怎么办？",
+            "answer": [
+              "我们的客服团队周一至周日 10:00–23:00 提供服务。",
+              "您可以致电 {SUPPORT_PHONE_NUMBER}，或通过 GME Remit App 联系我们。",
+              "您也可以通过 GME Bangladesh 的官方社交媒体渠道联系我们，包括 Facebook、 Instagram、 TikTok 和 ChannelTalk。",
+              "如需面对面协助， GME Remit 在韩国多地设有分行，工作人员可为您提供帮助。"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "关注 GME Bangladesh",
+        "subheading": "获取新闻、实用提示和社区最新动态",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "下载 GME App",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "为在韩 Bangladeshis 提供的金融服务。",
+        "copyrightSuffix": "GME. 版权所有。"
+      }
+    },
+    "cambodia": {
+      "header": {
+        "navItems": {
+          "company": "公司",
+          "services": "服务",
+          "countries": "国家/地区",
+          "news": "新闻",
+          "support": "客服支持"
+        },
+        "downloadAppLabel": "下载应用"
+      },
+      "hero": {
+        "eyebrow": "GME Cambodia",
+        "headingLines": [
+          "汇款回家。",
+          "保持联系。",
+          "轻松消费。"
+        ],
+        "subheading": "为在韩 Cambodians 提供值得信赖的服务",
+        "ctaPrimaryLabel": "立即汇款",
+        "ctaSecondaryLabel": "立即开始"
+      },
+      "exchangeRate": {
+        "eyebrow": "汇率",
+        "heading": "查看今日汇率",
+        "description": "从韩国向 Cambodia 汇款前，请查看最新的 GME Remit 汇率",
+        "note": "汇率可能会在一天内发生变化",
+        "cardTitle": "GME Remit 汇款计算器",
+        "sampleTag": "示例金额",
+        "sendAmountLabel": "汇款金额",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "收款国家/地区",
+        "recipientCountryOption": "Cambodia",
+        "receiveCurrencyLabel": "KHR",
+        "receiverGetsLabel": "收款人实收",
+        "transferFeeLabel": "汇款手续费",
+        "exchangeRateLabel": "汇率",
+        "submitLabel": "立即汇款"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "汇款至 Cambodia",
+        "description": "从韩国支持您在 Cambodia 的家人和亲友，简单又安全。",
+        "features": [
+          "有竞争力的汇率",
+          "快速可靠的汇款",
+          "费用透明",
+          "需要时提供支持"
+        ],
+        "ctaLabel": "立即汇款"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "一卡满足多种需求",
+        "description": "轻松支付，满足您在韩国及海外的日常生活需求。",
+        "features": [
+          "全球支付",
+          "购物",
+          "交通",
+          "现金返还",
+          "EasyCare 福利"
+        ],
+        "ctaLabel": "了解 GME Card"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "在韩国保持畅联",
+        "description": "通过为在韩生活而设计的移动通信套餐，与重要的人和事保持联系。",
+        "features": [
+          "稳定连接",
+          "灵活的 SIM 套餐",
+          "简单开通",
+          "友好的本地支持"
+        ],
+        "ctaLabel": "查看 SIM 套餐"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "您的数字金融伙伴",
+        "description": "体验面向在韩外国人的数字贷款服务。通过 GME App 轻松申请，流程简单便捷。",
+        "features": [
+          "无纸化贷款申请",
+          "实时查询贷款状态",
+          "实时查询贷款余额"
+        ],
+        "ctaLabel": "立即申请"
+      },
+      "faq": {
+        "heading": "GME Remit 常见问题",
+        "subheading": "查看使用 GME Remit 汇款时的常见问题解答",
+        "items": [
+          {
+            "question": "使用 GME Remit 汇款需要多长时间？",
+            "answer": [
+              "GME Remit 汇款通常可在约 10 秒内完成，但实际到账时间可能因收款国家/地区、银行或收款方式而有所不同。"
+            ]
+          },
+          {
+            "question": "GME Remit 使用安全吗？",
+            "answer": [
+              "是的。GME Remit 是在韩国获得许可的汇款服务，并接受韩国相关金融监管机构的监督。我们采用安全的客户身份验证和交易流程，以帮助保护客户及其交易安全。"
+            ]
+          },
+          {
+            "question": "如何注册 GME Remit 账户？",
+            "answer": [
+              "下载 GME Remit App，创建账户并完成所需的身份验证。注册和验证完成后，即可开始使用 GME Remit 服务。"
+            ]
+          },
+          {
+            "question": "可以通过 GME Remit 向哪些国家汇款？",
+            "answer": [
+              "GME Remit 支持向全球多个国家和地区进行国际汇款。可汇款目的地及收款方式请直接在 GME Remit App 中查看。"
+            ]
+          },
+          {
+            "question": "如果汇款出现问题怎么办？",
+            "answer": [
+              "我们的客服团队周一至周日 10:00–23:00 提供服务。",
+              "您可以致电 {SUPPORT_PHONE_NUMBER}，或通过 GME Remit App 联系我们。",
+              "您也可以通过 GME Cambodia 的官方社交媒体渠道联系我们，包括 Facebook、 Instagram、 TikTok 和 ChannelTalk。",
+              "如需面对面协助， GME Remit 在韩国多地设有分行，工作人员可为您提供帮助。"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "关注 GME Cambodia",
+        "subheading": "获取新闻、实用提示和社区最新动态",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "下载 GME App",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "为在韩 Cambodians 提供的金融服务。",
+        "copyrightSuffix": "GME. 版权所有。"
+      }
+    },
+    "china": {
+      "header": {
+        "navItems": {
+          "company": "公司",
+          "services": "服务",
+          "countries": "国家/地区",
+          "news": "新闻",
+          "support": "客服支持"
+        },
+        "downloadAppLabel": "下载应用"
+      },
+      "hero": {
+        "eyebrow": "GME China",
+        "headingLines": [
+          "汇款回家。",
+          "保持联系。",
+          "轻松消费。"
+        ],
+        "subheading": "为在韩华人提供值得信赖的服务",
+        "ctaPrimaryLabel": "立即汇款",
+        "ctaSecondaryLabel": "立即开始"
+      },
+      "exchangeRate": {
+        "eyebrow": "汇率",
+        "heading": "查看今日汇率",
+        "description": "从韩国向中国汇款前，请查看最新的 GME Remit 汇率",
+        "note": "汇率可能会在一天内发生变化",
+        "cardTitle": "GME Remit 汇款计算器",
+        "sampleTag": "示例金额",
+        "sendAmountLabel": "汇款金额",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "收款国家/地区",
+        "recipientCountryOption": "China",
+        "receiveCurrencyLabel": "CNY",
+        "receiverGetsLabel": "收款人实收",
+        "transferFeeLabel": "汇款手续费",
+        "exchangeRateLabel": "汇率",
+        "submitLabel": "立即汇款"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "汇款至中国",
+        "description": "从韩国支持您在中国的家人和亲友，简单又安全。",
+        "features": [
+          "有竞争力的汇率",
+          "快速可靠的汇款",
+          "费用透明",
+          "需要时提供支持"
+        ],
+        "ctaLabel": "立即汇款"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "一卡满足多种需求",
+        "description": "轻松支付，满足您在韩国及海外的日常生活需求。",
+        "features": [
+          "全球支付",
+          "购物",
+          "交通",
+          "现金返还",
+          "EasyCare 福利"
+        ],
+        "ctaLabel": "了解 GME Card"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "在韩国保持畅联",
+        "description": "通过为在韩生活而设计的移动通信套餐，与重要的人和事保持联系。",
+        "features": [
+          "稳定连接",
+          "灵活的 SIM 套餐",
+          "简单开通",
+          "友好的本地支持"
+        ],
+        "ctaLabel": "查看 SIM 套餐"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "您的数字金融伙伴",
+        "description": "体验面向在韩外国人的数字贷款服务。通过 GME App 轻松申请，流程简单便捷。",
+        "features": [
+          "无纸化贷款申请",
+          "实时查询贷款状态",
+          "实时查询贷款余额"
+        ],
+        "ctaLabel": "立即申请"
+      },
+      "faq": {
+        "heading": "GME Remit 常见问题",
+        "subheading": "查看使用 GME Remit 汇款时的常见问题解答",
+        "items": [
+          {
+            "question": "使用 GME Remit 汇款需要多长时间？",
+            "answer": [
+              "GME Remit 汇款通常可在约 10 秒内完成，但实际到账时间可能因收款国家/地区、银行或收款方式而有所不同。"
+            ]
+          },
+          {
+            "question": "GME Remit 使用安全吗？",
+            "answer": [
+              "是的。GME Remit 是在韩国获得许可的汇款服务，并接受韩国相关金融监管机构的监督。我们采用安全的客户身份验证和交易流程，以帮助保护客户及其交易安全。"
+            ]
+          },
+          {
+            "question": "如何注册 GME Remit 账户？",
+            "answer": [
+              "下载 GME Remit App，创建账户并完成所需的身份验证。注册和验证完成后，即可开始使用 GME Remit 服务。"
+            ]
+          },
+          {
+            "question": "可以通过 GME Remit 向哪些国家汇款？",
+            "answer": [
+              "GME Remit 支持向全球多个国家和地区进行国际汇款。可汇款目的地及收款方式请直接在 GME Remit App 中查看。"
+            ]
+          },
+          {
+            "question": "如果汇款出现问题怎么办？",
+            "answer": [
+              "我们的客服团队周一至周日 10:00–23:00 提供服务。",
+              "您可以致电 {SUPPORT_PHONE_NUMBER}，或通过 GME Remit App 联系我们。",
+              "您也可以通过 GME China 的官方社交媒体渠道联系我们，包括 Facebook、Instagram、TikTok 和 ChannelTalk。",
+              "如需面对面协助，GME Remit 在韩国多地设有分行，工作人员可为您提供帮助。"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "关注 GME China",
+        "subheading": "获取新闻、实用提示和社区最新动态",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "下载 GME App",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "为在韩华人提供的金融服务。",
+        "copyrightSuffix": "GME. 版权所有。"
+      }
+    },
+    "india": {
+      "header": {
+        "navItems": {
+          "company": "公司",
+          "services": "服务",
+          "countries": "国家/地区",
+          "news": "新闻",
+          "support": "客服支持"
+        },
+        "downloadAppLabel": "下载应用"
+      },
+      "hero": {
+        "eyebrow": "GME India",
+        "headingLines": [
+          "汇款回家。",
+          "保持联系。",
+          "轻松消费。"
+        ],
+        "subheading": "为在韩 Indians 提供值得信赖的服务",
+        "ctaPrimaryLabel": "立即汇款",
+        "ctaSecondaryLabel": "立即开始"
+      },
+      "exchangeRate": {
+        "eyebrow": "汇率",
+        "heading": "查看今日汇率",
+        "description": "从韩国向 India 汇款前，请查看最新的 GME Remit 汇率",
+        "note": "汇率可能会在一天内发生变化",
+        "cardTitle": "GME Remit 汇款计算器",
+        "sampleTag": "示例金额",
+        "sendAmountLabel": "汇款金额",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "收款国家/地区",
+        "recipientCountryOption": "India",
+        "receiveCurrencyLabel": "INR",
+        "receiverGetsLabel": "收款人实收",
+        "transferFeeLabel": "汇款手续费",
+        "exchangeRateLabel": "汇率",
+        "submitLabel": "立即汇款"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "汇款至 India",
+        "description": "从韩国支持您在 India 的家人和亲友，简单又安全。",
+        "features": [
+          "有竞争力的汇率",
+          "快速可靠的汇款",
+          "费用透明",
+          "需要时提供支持"
+        ],
+        "ctaLabel": "立即汇款"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "一卡满足多种需求",
+        "description": "轻松支付，满足您在韩国及海外的日常生活需求。",
+        "features": [
+          "全球支付",
+          "购物",
+          "交通",
+          "现金返还",
+          "EasyCare 福利"
+        ],
+        "ctaLabel": "了解 GME Card"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "在韩国保持畅联",
+        "description": "通过为在韩生活而设计的移动通信套餐，与重要的人和事保持联系。",
+        "features": [
+          "稳定连接",
+          "灵活的 SIM 套餐",
+          "简单开通",
+          "友好的本地支持"
+        ],
+        "ctaLabel": "查看 SIM 套餐"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "您的数字金融伙伴",
+        "description": "体验面向在韩外国人的数字贷款服务。通过 GME App 轻松申请，流程简单便捷。",
+        "features": [
+          "无纸化贷款申请",
+          "实时查询贷款状态",
+          "实时查询贷款余额"
+        ],
+        "ctaLabel": "立即申请"
+      },
+      "faq": {
+        "heading": "GME Remit 常见问题",
+        "subheading": "查看使用 GME Remit 汇款时的常见问题解答",
+        "items": [
+          {
+            "question": "使用 GME Remit 汇款需要多长时间？",
+            "answer": [
+              "GME Remit 汇款通常可在约 10 秒内完成，但实际到账时间可能因收款国家/地区、银行或收款方式而有所不同。"
+            ]
+          },
+          {
+            "question": "GME Remit 使用安全吗？",
+            "answer": [
+              "是的。GME Remit 是在韩国获得许可的汇款服务，并接受韩国相关金融监管机构的监督。我们采用安全的客户身份验证和交易流程，以帮助保护客户及其交易安全。"
+            ]
+          },
+          {
+            "question": "如何注册 GME Remit 账户？",
+            "answer": [
+              "下载 GME Remit App，创建账户并完成所需的身份验证。注册和验证完成后，即可开始使用 GME Remit 服务。"
+            ]
+          },
+          {
+            "question": "可以通过 GME Remit 向哪些国家汇款？",
+            "answer": [
+              "GME Remit 支持向全球多个国家和地区进行国际汇款。可汇款目的地及收款方式请直接在 GME Remit App 中查看。"
+            ]
+          },
+          {
+            "question": "如果汇款出现问题怎么办？",
+            "answer": [
+              "我们的客服团队周一至周日 10:00–23:00 提供服务。",
+              "您可以致电 {SUPPORT_PHONE_NUMBER}，或通过 GME Remit App 联系我们。",
+              "您也可以通过 GME India 的官方社交媒体渠道联系我们，包括 Facebook、 Instagram、 TikTok 和 ChannelTalk。",
+              "如需面对面协助， GME Remit 在韩国多地设有分行，工作人员可为您提供帮助。"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "关注 GME India",
+        "subheading": "获取新闻、实用提示和社区最新动态",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "下载 GME App",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "为在韩 Indians 提供的金融服务。",
+        "copyrightSuffix": "GME. 版权所有。"
+      }
+    },
+    "indonesia": {
+      "header": {
+        "navItems": {
+          "company": "公司",
+          "services": "服务",
+          "countries": "国家/地区",
+          "news": "新闻",
+          "support": "客服支持"
+        },
+        "downloadAppLabel": "下载应用"
+      },
+      "hero": {
+        "eyebrow": "GME Indonesia",
+        "headingLines": [
+          "汇款回家。",
+          "保持联系。",
+          "轻松消费。"
+        ],
+        "subheading": "为在韩 Indonesians 提供值得信赖的服务",
+        "ctaPrimaryLabel": "立即汇款",
+        "ctaSecondaryLabel": "立即开始"
+      },
+      "exchangeRate": {
+        "eyebrow": "汇率",
+        "heading": "查看今日汇率",
+        "description": "从韩国向 Indonesia 汇款前，请查看最新的 GME Remit 汇率",
+        "note": "汇率可能会在一天内发生变化",
+        "cardTitle": "GME Remit 汇款计算器",
+        "sampleTag": "示例金额",
+        "sendAmountLabel": "汇款金额",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "收款国家/地区",
+        "recipientCountryOption": "Indonesia",
+        "receiveCurrencyLabel": "IDR",
+        "receiverGetsLabel": "收款人实收",
+        "transferFeeLabel": "汇款手续费",
+        "exchangeRateLabel": "汇率",
+        "submitLabel": "立即汇款"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "汇款至 Indonesia",
+        "description": "从韩国支持您在 Indonesia 的家人和亲友，简单又安全。",
+        "features": [
+          "有竞争力的汇率",
+          "快速可靠的汇款",
+          "费用透明",
+          "需要时提供支持"
+        ],
+        "ctaLabel": "立即汇款"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "一卡满足多种需求",
+        "description": "轻松支付，满足您在韩国及海外的日常生活需求。",
+        "features": [
+          "全球支付",
+          "购物",
+          "交通",
+          "现金返还",
+          "EasyCare 福利"
+        ],
+        "ctaLabel": "了解 GME Card"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "在韩国保持畅联",
+        "description": "通过为在韩生活而设计的移动通信套餐，与重要的人和事保持联系。",
+        "features": [
+          "稳定连接",
+          "灵活的 SIM 套餐",
+          "简单开通",
+          "友好的本地支持"
+        ],
+        "ctaLabel": "查看 SIM 套餐"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "您的数字金融伙伴",
+        "description": "体验面向在韩外国人的数字贷款服务。通过 GME App 轻松申请，流程简单便捷。",
+        "features": [
+          "无纸化贷款申请",
+          "实时查询贷款状态",
+          "实时查询贷款余额"
+        ],
+        "ctaLabel": "立即申请"
+      },
+      "faq": {
+        "heading": "GME Remit 常见问题",
+        "subheading": "查看使用 GME Remit 汇款时的常见问题解答",
+        "items": [
+          {
+            "question": "使用 GME Remit 汇款需要多长时间？",
+            "answer": [
+              "GME Remit 汇款通常可在约 10 秒内完成，但实际到账时间可能因收款国家/地区、银行或收款方式而有所不同。"
+            ]
+          },
+          {
+            "question": "GME Remit 使用安全吗？",
+            "answer": [
+              "是的。GME Remit 是在韩国获得许可的汇款服务，并接受韩国相关金融监管机构的监督。我们采用安全的客户身份验证和交易流程，以帮助保护客户及其交易安全。"
+            ]
+          },
+          {
+            "question": "如何注册 GME Remit 账户？",
+            "answer": [
+              "下载 GME Remit App，创建账户并完成所需的身份验证。注册和验证完成后，即可开始使用 GME Remit 服务。"
+            ]
+          },
+          {
+            "question": "可以通过 GME Remit 向哪些国家汇款？",
+            "answer": [
+              "GME Remit 支持向全球多个国家和地区进行国际汇款。可汇款目的地及收款方式请直接在 GME Remit App 中查看。"
+            ]
+          },
+          {
+            "question": "如果汇款出现问题怎么办？",
+            "answer": [
+              "我们的客服团队周一至周日 10:00–23:00 提供服务。",
+              "您可以致电 {SUPPORT_PHONE_NUMBER}，或通过 GME Remit App 联系我们。",
+              "您也可以通过 GME Indonesia 的官方社交媒体渠道联系我们，包括 Facebook、 Instagram、 TikTok 和 ChannelTalk。",
+              "如需面对面协助， GME Remit 在韩国多地设有分行，工作人员可为您提供帮助。"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "关注 GME Indonesia",
+        "subheading": "获取新闻、实用提示和社区最新动态",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "下载 GME App",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "为在韩 Indonesians 提供的金融服务。",
+        "copyrightSuffix": "GME. 版权所有。"
+      }
+    },
+    "kazakhstan": {
+      "header": {
+        "navItems": {
+          "company": "公司",
+          "services": "服务",
+          "countries": "国家/地区",
+          "news": "新闻",
+          "support": "客服支持"
+        },
+        "downloadAppLabel": "下载应用"
+      },
+      "hero": {
+        "eyebrow": "GME Kazakhstan",
+        "headingLines": [
+          "汇款回家。",
+          "保持联系。",
+          "轻松消费。"
+        ],
+        "subheading": "为在韩 Kazakhstanis 提供值得信赖的服务",
+        "ctaPrimaryLabel": "立即汇款",
+        "ctaSecondaryLabel": "立即开始"
+      },
+      "exchangeRate": {
+        "eyebrow": "汇率",
+        "heading": "查看今日汇率",
+        "description": "从韩国向 Kazakhstan 汇款前，请查看最新的 GME Remit 汇率",
+        "note": "汇率可能会在一天内发生变化",
+        "cardTitle": "GME Remit 汇款计算器",
+        "sampleTag": "示例金额",
+        "sendAmountLabel": "汇款金额",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "收款国家/地区",
+        "recipientCountryOption": "Kazakhstan",
+        "receiveCurrencyLabel": "KZT",
+        "receiverGetsLabel": "收款人实收",
+        "transferFeeLabel": "汇款手续费",
+        "exchangeRateLabel": "汇率",
+        "submitLabel": "立即汇款"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "汇款至 Kazakhstan",
+        "description": "从韩国支持您在 Kazakhstan 的家人和亲友，简单又安全。",
+        "features": [
+          "有竞争力的汇率",
+          "快速可靠的汇款",
+          "费用透明",
+          "需要时提供支持"
+        ],
+        "ctaLabel": "立即汇款"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "一卡满足多种需求",
+        "description": "轻松支付，满足您在韩国及海外的日常生活需求。",
+        "features": [
+          "全球支付",
+          "购物",
+          "交通",
+          "现金返还",
+          "EasyCare 福利"
+        ],
+        "ctaLabel": "了解 GME Card"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "在韩国保持畅联",
+        "description": "通过为在韩生活而设计的移动通信套餐，与重要的人和事保持联系。",
+        "features": [
+          "稳定连接",
+          "灵活的 SIM 套餐",
+          "简单开通",
+          "友好的本地支持"
+        ],
+        "ctaLabel": "查看 SIM 套餐"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "您的数字金融伙伴",
+        "description": "体验面向在韩外国人的数字贷款服务。通过 GME App 轻松申请，流程简单便捷。",
+        "features": [
+          "无纸化贷款申请",
+          "实时查询贷款状态",
+          "实时查询贷款余额"
+        ],
+        "ctaLabel": "立即申请"
+      },
+      "faq": {
+        "heading": "GME Remit 常见问题",
+        "subheading": "查看使用 GME Remit 汇款时的常见问题解答",
+        "items": [
+          {
+            "question": "使用 GME Remit 汇款需要多长时间？",
+            "answer": [
+              "GME Remit 汇款通常可在约 10 秒内完成，但实际到账时间可能因收款国家/地区、银行或收款方式而有所不同。"
+            ]
+          },
+          {
+            "question": "GME Remit 使用安全吗？",
+            "answer": [
+              "是的。GME Remit 是在韩国获得许可的汇款服务，并接受韩国相关金融监管机构的监督。我们采用安全的客户身份验证和交易流程，以帮助保护客户及其交易安全。"
+            ]
+          },
+          {
+            "question": "如何注册 GME Remit 账户？",
+            "answer": [
+              "下载 GME Remit App，创建账户并完成所需的身份验证。注册和验证完成后，即可开始使用 GME Remit 服务。"
+            ]
+          },
+          {
+            "question": "可以通过 GME Remit 向哪些国家汇款？",
+            "answer": [
+              "GME Remit 支持向全球多个国家和地区进行国际汇款。可汇款目的地及收款方式请直接在 GME Remit App 中查看。"
+            ]
+          },
+          {
+            "question": "如果汇款出现问题怎么办？",
+            "answer": [
+              "我们的客服团队周一至周日 10:00–23:00 提供服务。",
+              "您可以致电 {SUPPORT_PHONE_NUMBER}，或通过 GME Remit App 联系我们。",
+              "您也可以通过 GME Kazakhstan 的官方社交媒体渠道联系我们，包括 Facebook、 Instagram、 TikTok 和 ChannelTalk。",
+              "如需面对面协助， GME Remit 在韩国多地设有分行，工作人员可为您提供帮助。"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "关注 GME Kazakhstan",
+        "subheading": "获取新闻、实用提示和社区最新动态",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "下载 GME App",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "为在韩 Kazakhstanis 提供的金融服务。",
+        "copyrightSuffix": "GME. 版权所有。"
+      }
+    },
+    "kyrgyzstan": {
+      "header": {
+        "navItems": {
+          "company": "公司",
+          "services": "服务",
+          "countries": "国家/地区",
+          "news": "新闻",
+          "support": "客服支持"
+        },
+        "downloadAppLabel": "下载应用"
+      },
+      "hero": {
+        "eyebrow": "GME Kyrgyzstan",
+        "headingLines": [
+          "汇款回家。",
+          "保持联系。",
+          "轻松消费。"
+        ],
+        "subheading": "为在韩 Kyrgyzstanis 提供值得信赖的服务",
+        "ctaPrimaryLabel": "立即汇款",
+        "ctaSecondaryLabel": "立即开始"
+      },
+      "exchangeRate": {
+        "eyebrow": "汇率",
+        "heading": "查看今日汇率",
+        "description": "从韩国向 Kyrgyzstan 汇款前，请查看最新的 GME Remit 汇率",
+        "note": "汇率可能会在一天内发生变化",
+        "cardTitle": "GME Remit 汇款计算器",
+        "sampleTag": "示例金额",
+        "sendAmountLabel": "汇款金额",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "收款国家/地区",
+        "recipientCountryOption": "Kyrgyzstan",
+        "receiveCurrencyLabel": "KGS",
+        "receiverGetsLabel": "收款人实收",
+        "transferFeeLabel": "汇款手续费",
+        "exchangeRateLabel": "汇率",
+        "submitLabel": "立即汇款"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "汇款至 Kyrgyzstan",
+        "description": "从韩国支持您在 Kyrgyzstan 的家人和亲友，简单又安全。",
+        "features": [
+          "有竞争力的汇率",
+          "快速可靠的汇款",
+          "费用透明",
+          "需要时提供支持"
+        ],
+        "ctaLabel": "立即汇款"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "一卡满足多种需求",
+        "description": "轻松支付，满足您在韩国及海外的日常生活需求。",
+        "features": [
+          "全球支付",
+          "购物",
+          "交通",
+          "现金返还",
+          "EasyCare 福利"
+        ],
+        "ctaLabel": "了解 GME Card"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "在韩国保持畅联",
+        "description": "通过为在韩生活而设计的移动通信套餐，与重要的人和事保持联系。",
+        "features": [
+          "稳定连接",
+          "灵活的 SIM 套餐",
+          "简单开通",
+          "友好的本地支持"
+        ],
+        "ctaLabel": "查看 SIM 套餐"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "您的数字金融伙伴",
+        "description": "体验面向在韩外国人的数字贷款服务。通过 GME App 轻松申请，流程简单便捷。",
+        "features": [
+          "无纸化贷款申请",
+          "实时查询贷款状态",
+          "实时查询贷款余额"
+        ],
+        "ctaLabel": "立即申请"
+      },
+      "faq": {
+        "heading": "GME Remit 常见问题",
+        "subheading": "查看使用 GME Remit 汇款时的常见问题解答",
+        "items": [
+          {
+            "question": "使用 GME Remit 汇款需要多长时间？",
+            "answer": [
+              "GME Remit 汇款通常可在约 10 秒内完成，但实际到账时间可能因收款国家/地区、银行或收款方式而有所不同。"
+            ]
+          },
+          {
+            "question": "GME Remit 使用安全吗？",
+            "answer": [
+              "是的。GME Remit 是在韩国获得许可的汇款服务，并接受韩国相关金融监管机构的监督。我们采用安全的客户身份验证和交易流程，以帮助保护客户及其交易安全。"
+            ]
+          },
+          {
+            "question": "如何注册 GME Remit 账户？",
+            "answer": [
+              "下载 GME Remit App，创建账户并完成所需的身份验证。注册和验证完成后，即可开始使用 GME Remit 服务。"
+            ]
+          },
+          {
+            "question": "可以通过 GME Remit 向哪些国家汇款？",
+            "answer": [
+              "GME Remit 支持向全球多个国家和地区进行国际汇款。可汇款目的地及收款方式请直接在 GME Remit App 中查看。"
+            ]
+          },
+          {
+            "question": "如果汇款出现问题怎么办？",
+            "answer": [
+              "我们的客服团队周一至周日 10:00–23:00 提供服务。",
+              "您可以致电 {SUPPORT_PHONE_NUMBER}，或通过 GME Remit App 联系我们。",
+              "您也可以通过 GME Kyrgyzstan 的官方社交媒体渠道联系我们，包括 Facebook、 Instagram、 TikTok 和 ChannelTalk。",
+              "如需面对面协助， GME Remit 在韩国多地设有分行，工作人员可为您提供帮助。"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "关注 GME Kyrgyzstan",
+        "subheading": "获取新闻、实用提示和社区最新动态",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "下载 GME App",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "为在韩 Kyrgyzstanis 提供的金融服务。",
+        "copyrightSuffix": "GME. 版权所有。"
+      }
+    },
+    "laos": {
+      "header": {
+        "navItems": {
+          "company": "公司",
+          "services": "服务",
+          "countries": "国家/地区",
+          "news": "新闻",
+          "support": "客服支持"
+        },
+        "downloadAppLabel": "下载应用"
+      },
+      "hero": {
+        "eyebrow": "GME Laos",
+        "headingLines": [
+          "汇款回家。",
+          "保持联系。",
+          "轻松消费。"
+        ],
+        "subheading": "为在韩 Laotians 提供值得信赖的服务",
+        "ctaPrimaryLabel": "立即汇款",
+        "ctaSecondaryLabel": "立即开始"
+      },
+      "exchangeRate": {
+        "eyebrow": "汇率",
+        "heading": "查看今日汇率",
+        "description": "从韩国向 Laos 汇款前，请查看最新的 GME Remit 汇率",
+        "note": "汇率可能会在一天内发生变化",
+        "cardTitle": "GME Remit 汇款计算器",
+        "sampleTag": "示例金额",
+        "sendAmountLabel": "汇款金额",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "收款国家/地区",
+        "recipientCountryOption": "Laos",
+        "receiveCurrencyLabel": "LAK",
+        "receiverGetsLabel": "收款人实收",
+        "transferFeeLabel": "汇款手续费",
+        "exchangeRateLabel": "汇率",
+        "submitLabel": "立即汇款"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "汇款至 Laos",
+        "description": "从韩国支持您在 Laos 的家人和亲友，简单又安全。",
+        "features": [
+          "有竞争力的汇率",
+          "快速可靠的汇款",
+          "费用透明",
+          "需要时提供支持"
+        ],
+        "ctaLabel": "立即汇款"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "一卡满足多种需求",
+        "description": "轻松支付，满足您在韩国及海外的日常生活需求。",
+        "features": [
+          "全球支付",
+          "购物",
+          "交通",
+          "现金返还",
+          "EasyCare 福利"
+        ],
+        "ctaLabel": "了解 GME Card"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "在韩国保持畅联",
+        "description": "通过为在韩生活而设计的移动通信套餐，与重要的人和事保持联系。",
+        "features": [
+          "稳定连接",
+          "灵活的 SIM 套餐",
+          "简单开通",
+          "友好的本地支持"
+        ],
+        "ctaLabel": "查看 SIM 套餐"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "您的数字金融伙伴",
+        "description": "体验面向在韩外国人的数字贷款服务。通过 GME App 轻松申请，流程简单便捷。",
+        "features": [
+          "无纸化贷款申请",
+          "实时查询贷款状态",
+          "实时查询贷款余额"
+        ],
+        "ctaLabel": "立即申请"
+      },
+      "faq": {
+        "heading": "GME Remit 常见问题",
+        "subheading": "查看使用 GME Remit 汇款时的常见问题解答",
+        "items": [
+          {
+            "question": "使用 GME Remit 汇款需要多长时间？",
+            "answer": [
+              "GME Remit 汇款通常可在约 10 秒内完成，但实际到账时间可能因收款国家/地区、银行或收款方式而有所不同。"
+            ]
+          },
+          {
+            "question": "GME Remit 使用安全吗？",
+            "answer": [
+              "是的。GME Remit 是在韩国获得许可的汇款服务，并接受韩国相关金融监管机构的监督。我们采用安全的客户身份验证和交易流程，以帮助保护客户及其交易安全。"
+            ]
+          },
+          {
+            "question": "如何注册 GME Remit 账户？",
+            "answer": [
+              "下载 GME Remit App，创建账户并完成所需的身份验证。注册和验证完成后，即可开始使用 GME Remit 服务。"
+            ]
+          },
+          {
+            "question": "可以通过 GME Remit 向哪些国家汇款？",
+            "answer": [
+              "GME Remit 支持向全球多个国家和地区进行国际汇款。可汇款目的地及收款方式请直接在 GME Remit App 中查看。"
+            ]
+          },
+          {
+            "question": "如果汇款出现问题怎么办？",
+            "answer": [
+              "我们的客服团队周一至周日 10:00–23:00 提供服务。",
+              "您可以致电 {SUPPORT_PHONE_NUMBER}，或通过 GME Remit App 联系我们。",
+              "您也可以通过 GME Laos 的官方社交媒体渠道联系我们，包括 Facebook、 Instagram、 TikTok 和 ChannelTalk。",
+              "如需面对面协助， GME Remit 在韩国多地设有分行，工作人员可为您提供帮助。"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "关注 GME Laos",
+        "subheading": "获取新闻、实用提示和社区最新动态",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "下载 GME App",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "为在韩 Laotians 提供的金融服务。",
+        "copyrightSuffix": "GME. 版权所有。"
+      }
+    },
+    "mongolia": {
+      "header": {
+        "navItems": {
+          "company": "公司",
+          "services": "服务",
+          "countries": "国家/地区",
+          "news": "新闻",
+          "support": "客服支持"
+        },
+        "downloadAppLabel": "下载应用"
+      },
+      "hero": {
+        "eyebrow": "GME Mongolia",
+        "headingLines": [
+          "汇款回家。",
+          "保持联系。",
+          "轻松消费。"
+        ],
+        "subheading": "为在韩 Mongolians 提供值得信赖的服务",
+        "ctaPrimaryLabel": "立即汇款",
+        "ctaSecondaryLabel": "立即开始"
+      },
+      "exchangeRate": {
+        "eyebrow": "汇率",
+        "heading": "查看今日汇率",
+        "description": "从韩国向 Mongolia 汇款前，请查看最新的 GME Remit 汇率",
+        "note": "汇率可能会在一天内发生变化",
+        "cardTitle": "GME Remit 汇款计算器",
+        "sampleTag": "示例金额",
+        "sendAmountLabel": "汇款金额",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "收款国家/地区",
+        "recipientCountryOption": "Mongolia",
+        "receiveCurrencyLabel": "MNT",
+        "receiverGetsLabel": "收款人实收",
+        "transferFeeLabel": "汇款手续费",
+        "exchangeRateLabel": "汇率",
+        "submitLabel": "立即汇款"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "汇款至 Mongolia",
+        "description": "从韩国支持您在 Mongolia 的家人和亲友，简单又安全。",
+        "features": [
+          "有竞争力的汇率",
+          "快速可靠的汇款",
+          "费用透明",
+          "需要时提供支持"
+        ],
+        "ctaLabel": "立即汇款"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "一卡满足多种需求",
+        "description": "轻松支付，满足您在韩国及海外的日常生活需求。",
+        "features": [
+          "全球支付",
+          "购物",
+          "交通",
+          "现金返还",
+          "EasyCare 福利"
+        ],
+        "ctaLabel": "了解 GME Card"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "在韩国保持畅联",
+        "description": "通过为在韩生活而设计的移动通信套餐，与重要的人和事保持联系。",
+        "features": [
+          "稳定连接",
+          "灵活的 SIM 套餐",
+          "简单开通",
+          "友好的本地支持"
+        ],
+        "ctaLabel": "查看 SIM 套餐"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "您的数字金融伙伴",
+        "description": "体验面向在韩外国人的数字贷款服务。通过 GME App 轻松申请，流程简单便捷。",
+        "features": [
+          "无纸化贷款申请",
+          "实时查询贷款状态",
+          "实时查询贷款余额"
+        ],
+        "ctaLabel": "立即申请"
+      },
+      "faq": {
+        "heading": "GME Remit 常见问题",
+        "subheading": "查看使用 GME Remit 汇款时的常见问题解答",
+        "items": [
+          {
+            "question": "使用 GME Remit 汇款需要多长时间？",
+            "answer": [
+              "GME Remit 汇款通常可在约 10 秒内完成，但实际到账时间可能因收款国家/地区、银行或收款方式而有所不同。"
+            ]
+          },
+          {
+            "question": "GME Remit 使用安全吗？",
+            "answer": [
+              "是的。GME Remit 是在韩国获得许可的汇款服务，并接受韩国相关金融监管机构的监督。我们采用安全的客户身份验证和交易流程，以帮助保护客户及其交易安全。"
+            ]
+          },
+          {
+            "question": "如何注册 GME Remit 账户？",
+            "answer": [
+              "下载 GME Remit App，创建账户并完成所需的身份验证。注册和验证完成后，即可开始使用 GME Remit 服务。"
+            ]
+          },
+          {
+            "question": "可以通过 GME Remit 向哪些国家汇款？",
+            "answer": [
+              "GME Remit 支持向全球多个国家和地区进行国际汇款。可汇款目的地及收款方式请直接在 GME Remit App 中查看。"
+            ]
+          },
+          {
+            "question": "如果汇款出现问题怎么办？",
+            "answer": [
+              "我们的客服团队周一至周日 10:00–23:00 提供服务。",
+              "您可以致电 {SUPPORT_PHONE_NUMBER}，或通过 GME Remit App 联系我们。",
+              "您也可以通过 GME Mongolia 的官方社交媒体渠道联系我们，包括 Facebook、 Instagram、 TikTok 和 ChannelTalk。",
+              "如需面对面协助， GME Remit 在韩国多地设有分行，工作人员可为您提供帮助。"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "关注 GME Mongolia",
+        "subheading": "获取新闻、实用提示和社区最新动态",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "下载 GME App",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "为在韩 Mongolians 提供的金融服务。",
+        "copyrightSuffix": "GME. 版权所有。"
+      }
+    },
+    "myanmar": {
+      "header": {
+        "navItems": {
+          "company": "公司",
+          "services": "服务",
+          "countries": "国家/地区",
+          "news": "新闻",
+          "support": "客服支持"
+        },
+        "downloadAppLabel": "下载应用"
+      },
+      "hero": {
+        "eyebrow": "GME Myanmar",
+        "headingLines": [
+          "汇款回家。",
+          "保持联系。",
+          "轻松消费。"
+        ],
+        "subheading": "为在韩 Myanmar nationals 提供值得信赖的服务",
+        "ctaPrimaryLabel": "立即汇款",
+        "ctaSecondaryLabel": "立即开始"
+      },
+      "exchangeRate": {
+        "eyebrow": "汇率",
+        "heading": "查看今日汇率",
+        "description": "从韩国向 Myanmar 汇款前，请查看最新的 GME Remit 汇率",
+        "note": "汇率可能会在一天内发生变化",
+        "cardTitle": "GME Remit 汇款计算器",
+        "sampleTag": "示例金额",
+        "sendAmountLabel": "汇款金额",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "收款国家/地区",
+        "recipientCountryOption": "Myanmar",
+        "receiveCurrencyLabel": "MMK",
+        "receiverGetsLabel": "收款人实收",
+        "transferFeeLabel": "汇款手续费",
+        "exchangeRateLabel": "汇率",
+        "submitLabel": "立即汇款"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "汇款至 Myanmar",
+        "description": "从韩国支持您在 Myanmar 的家人和亲友，简单又安全。",
+        "features": [
+          "有竞争力的汇率",
+          "快速可靠的汇款",
+          "费用透明",
+          "需要时提供支持"
+        ],
+        "ctaLabel": "立即汇款"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "一卡满足多种需求",
+        "description": "轻松支付，满足您在韩国及海外的日常生活需求。",
+        "features": [
+          "全球支付",
+          "购物",
+          "交通",
+          "现金返还",
+          "EasyCare 福利"
+        ],
+        "ctaLabel": "了解 GME Card"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "在韩国保持畅联",
+        "description": "通过为在韩生活而设计的移动通信套餐，与重要的人和事保持联系。",
+        "features": [
+          "稳定连接",
+          "灵活的 SIM 套餐",
+          "简单开通",
+          "友好的本地支持"
+        ],
+        "ctaLabel": "查看 SIM 套餐"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "您的数字金融伙伴",
+        "description": "体验面向在韩外国人的数字贷款服务。通过 GME App 轻松申请，流程简单便捷。",
+        "features": [
+          "无纸化贷款申请",
+          "实时查询贷款状态",
+          "实时查询贷款余额"
+        ],
+        "ctaLabel": "立即申请"
+      },
+      "faq": {
+        "heading": "GME Remit 常见问题",
+        "subheading": "查看使用 GME Remit 汇款时的常见问题解答",
+        "items": [
+          {
+            "question": "使用 GME Remit 汇款需要多长时间？",
+            "answer": [
+              "GME Remit 汇款通常可在约 10 秒内完成，但实际到账时间可能因收款国家/地区、银行或收款方式而有所不同。"
+            ]
+          },
+          {
+            "question": "GME Remit 使用安全吗？",
+            "answer": [
+              "是的。GME Remit 是在韩国获得许可的汇款服务，并接受韩国相关金融监管机构的监督。我们采用安全的客户身份验证和交易流程，以帮助保护客户及其交易安全。"
+            ]
+          },
+          {
+            "question": "如何注册 GME Remit 账户？",
+            "answer": [
+              "下载 GME Remit App，创建账户并完成所需的身份验证。注册和验证完成后，即可开始使用 GME Remit 服务。"
+            ]
+          },
+          {
+            "question": "可以通过 GME Remit 向哪些国家汇款？",
+            "answer": [
+              "GME Remit 支持向全球多个国家和地区进行国际汇款。可汇款目的地及收款方式请直接在 GME Remit App 中查看。"
+            ]
+          },
+          {
+            "question": "如果汇款出现问题怎么办？",
+            "answer": [
+              "我们的客服团队周一至周日 10:00–23:00 提供服务。",
+              "您可以致电 {SUPPORT_PHONE_NUMBER}，或通过 GME Remit App 联系我们。",
+              "您也可以通过 GME Myanmar 的官方社交媒体渠道联系我们，包括 Facebook、 Instagram、 TikTok 和 ChannelTalk。",
+              "如需面对面协助， GME Remit 在韩国多地设有分行，工作人员可为您提供帮助。"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "关注 GME Myanmar",
+        "subheading": "获取新闻、实用提示和社区最新动态",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "下载 GME App",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "为在韩 Myanmar nationals 提供的金融服务。",
+        "copyrightSuffix": "GME. 版权所有。"
+      }
+    },
+    "nepal": {
+      "header": {
+        "navItems": {
+          "company": "公司",
+          "services": "服务",
+          "countries": "国家/地区",
+          "news": "新闻",
+          "support": "客服支持"
+        },
+        "downloadAppLabel": "下载应用"
+      },
+      "hero": {
+        "eyebrow": "GME Nepal",
+        "headingLines": [
+          "汇款回家。",
+          "保持联系。",
+          "轻松消费。"
+        ],
+        "subheading": "为在韩 Nepalis 提供值得信赖的服务",
+        "ctaPrimaryLabel": "立即汇款",
+        "ctaSecondaryLabel": "立即开始"
+      },
+      "exchangeRate": {
+        "eyebrow": "汇率",
+        "heading": "查看今日汇率",
+        "description": "从韩国向 Nepal 汇款前，请查看最新的 GME Remit 汇率",
+        "note": "汇率可能会在一天内发生变化",
+        "cardTitle": "GME Remit 汇款计算器",
+        "sampleTag": "示例金额",
+        "sendAmountLabel": "汇款金额",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "收款国家/地区",
+        "recipientCountryOption": "Nepal",
+        "receiveCurrencyLabel": "NPR",
+        "receiverGetsLabel": "收款人实收",
+        "transferFeeLabel": "汇款手续费",
+        "exchangeRateLabel": "汇率",
+        "submitLabel": "立即汇款"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "汇款至 Nepal",
+        "description": "从韩国支持您在 Nepal 的家人和亲友，简单又安全。",
+        "features": [
+          "有竞争力的汇率",
+          "快速可靠的汇款",
+          "费用透明",
+          "需要时提供支持"
+        ],
+        "ctaLabel": "立即汇款"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "一卡满足多种需求",
+        "description": "轻松支付，满足您在韩国及海外的日常生活需求。",
+        "features": [
+          "全球支付",
+          "购物",
+          "交通",
+          "现金返还",
+          "EasyCare 福利"
+        ],
+        "ctaLabel": "了解 GME Card"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "在韩国保持畅联",
+        "description": "通过为在韩生活而设计的移动通信套餐，与重要的人和事保持联系。",
+        "features": [
+          "稳定连接",
+          "灵活的 SIM 套餐",
+          "简单开通",
+          "友好的本地支持"
+        ],
+        "ctaLabel": "查看 SIM 套餐"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "您的数字金融伙伴",
+        "description": "体验面向在韩外国人的数字贷款服务。通过 GME App 轻松申请，流程简单便捷。",
+        "features": [
+          "无纸化贷款申请",
+          "实时查询贷款状态",
+          "实时查询贷款余额"
+        ],
+        "ctaLabel": "立即申请"
+      },
+      "faq": {
+        "heading": "GME Remit 常见问题",
+        "subheading": "查看使用 GME Remit 汇款时的常见问题解答",
+        "items": [
+          {
+            "question": "使用 GME Remit 汇款需要多长时间？",
+            "answer": [
+              "GME Remit 汇款通常可在约 10 秒内完成，但实际到账时间可能因收款国家/地区、银行或收款方式而有所不同。"
+            ]
+          },
+          {
+            "question": "GME Remit 使用安全吗？",
+            "answer": [
+              "是的。GME Remit 是在韩国获得许可的汇款服务，并接受韩国相关金融监管机构的监督。我们采用安全的客户身份验证和交易流程，以帮助保护客户及其交易安全。"
+            ]
+          },
+          {
+            "question": "如何注册 GME Remit 账户？",
+            "answer": [
+              "下载 GME Remit App，创建账户并完成所需的身份验证。注册和验证完成后，即可开始使用 GME Remit 服务。"
+            ]
+          },
+          {
+            "question": "可以通过 GME Remit 向哪些国家汇款？",
+            "answer": [
+              "GME Remit 支持向全球多个国家和地区进行国际汇款。可汇款目的地及收款方式请直接在 GME Remit App 中查看。"
+            ]
+          },
+          {
+            "question": "如果汇款出现问题怎么办？",
+            "answer": [
+              "我们的客服团队周一至周日 10:00–23:00 提供服务。",
+              "您可以致电 {SUPPORT_PHONE_NUMBER}，或通过 GME Remit App 联系我们。",
+              "您也可以通过 GME Nepal 的官方社交媒体渠道联系我们，包括 Facebook、 Instagram、 TikTok 和 ChannelTalk。",
+              "如需面对面协助， GME Remit 在韩国多地设有分行，工作人员可为您提供帮助。"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "关注 GME Nepal",
+        "subheading": "获取新闻、实用提示和社区最新动态",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "下载 GME App",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "为在韩 Nepalis 提供的金融服务。",
+        "copyrightSuffix": "GME. 版权所有。"
+      }
+    },
+    "pakistan": {
+      "header": {
+        "navItems": {
+          "company": "公司",
+          "services": "服务",
+          "countries": "国家/地区",
+          "news": "新闻",
+          "support": "客服支持"
+        },
+        "downloadAppLabel": "下载应用"
+      },
+      "hero": {
+        "eyebrow": "GME Pakistan",
+        "headingLines": [
+          "汇款回家。",
+          "保持联系。",
+          "轻松消费。"
+        ],
+        "subheading": "为在韩 Pakistanis 提供值得信赖的服务",
+        "ctaPrimaryLabel": "立即汇款",
+        "ctaSecondaryLabel": "立即开始"
+      },
+      "exchangeRate": {
+        "eyebrow": "汇率",
+        "heading": "查看今日汇率",
+        "description": "从韩国向 Pakistan 汇款前，请查看最新的 GME Remit 汇率",
+        "note": "汇率可能会在一天内发生变化",
+        "cardTitle": "GME Remit 汇款计算器",
+        "sampleTag": "示例金额",
+        "sendAmountLabel": "汇款金额",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "收款国家/地区",
+        "recipientCountryOption": "Pakistan",
+        "receiveCurrencyLabel": "PKR",
+        "receiverGetsLabel": "收款人实收",
+        "transferFeeLabel": "汇款手续费",
+        "exchangeRateLabel": "汇率",
+        "submitLabel": "立即汇款"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "汇款至 Pakistan",
+        "description": "从韩国支持您在 Pakistan 的家人和亲友，简单又安全。",
+        "features": [
+          "有竞争力的汇率",
+          "快速可靠的汇款",
+          "费用透明",
+          "需要时提供支持"
+        ],
+        "ctaLabel": "立即汇款"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "一卡满足多种需求",
+        "description": "轻松支付，满足您在韩国及海外的日常生活需求。",
+        "features": [
+          "全球支付",
+          "购物",
+          "交通",
+          "现金返还",
+          "EasyCare 福利"
+        ],
+        "ctaLabel": "了解 GME Card"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "在韩国保持畅联",
+        "description": "通过为在韩生活而设计的移动通信套餐，与重要的人和事保持联系。",
+        "features": [
+          "稳定连接",
+          "灵活的 SIM 套餐",
+          "简单开通",
+          "友好的本地支持"
+        ],
+        "ctaLabel": "查看 SIM 套餐"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "您的数字金融伙伴",
+        "description": "体验面向在韩外国人的数字贷款服务。通过 GME App 轻松申请，流程简单便捷。",
+        "features": [
+          "无纸化贷款申请",
+          "实时查询贷款状态",
+          "实时查询贷款余额"
+        ],
+        "ctaLabel": "立即申请"
+      },
+      "faq": {
+        "heading": "GME Remit 常见问题",
+        "subheading": "查看使用 GME Remit 汇款时的常见问题解答",
+        "items": [
+          {
+            "question": "使用 GME Remit 汇款需要多长时间？",
+            "answer": [
+              "GME Remit 汇款通常可在约 10 秒内完成，但实际到账时间可能因收款国家/地区、银行或收款方式而有所不同。"
+            ]
+          },
+          {
+            "question": "GME Remit 使用安全吗？",
+            "answer": [
+              "是的。GME Remit 是在韩国获得许可的汇款服务，并接受韩国相关金融监管机构的监督。我们采用安全的客户身份验证和交易流程，以帮助保护客户及其交易安全。"
+            ]
+          },
+          {
+            "question": "如何注册 GME Remit 账户？",
+            "answer": [
+              "下载 GME Remit App，创建账户并完成所需的身份验证。注册和验证完成后，即可开始使用 GME Remit 服务。"
+            ]
+          },
+          {
+            "question": "可以通过 GME Remit 向哪些国家汇款？",
+            "answer": [
+              "GME Remit 支持向全球多个国家和地区进行国际汇款。可汇款目的地及收款方式请直接在 GME Remit App 中查看。"
+            ]
+          },
+          {
+            "question": "如果汇款出现问题怎么办？",
+            "answer": [
+              "我们的客服团队周一至周日 10:00–23:00 提供服务。",
+              "您可以致电 {SUPPORT_PHONE_NUMBER}，或通过 GME Remit App 联系我们。",
+              "您也可以通过 GME Pakistan 的官方社交媒体渠道联系我们，包括 Facebook、 Instagram、 TikTok 和 ChannelTalk。",
+              "如需面对面协助， GME Remit 在韩国多地设有分行，工作人员可为您提供帮助。"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "关注 GME Pakistan",
+        "subheading": "获取新闻、实用提示和社区最新动态",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "下载 GME App",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "为在韩 Pakistanis 提供的金融服务。",
+        "copyrightSuffix": "GME. 版权所有。"
+      }
+    },
+    "philippines": {
+      "header": {
+        "navItems": {
+          "company": "公司",
+          "services": "服务",
+          "countries": "国家/地区",
+          "news": "新闻",
+          "support": "客服支持"
+        },
+        "downloadAppLabel": "下载应用"
+      },
+      "hero": {
+        "eyebrow": "GME Philippines",
+        "headingLines": [
+          "汇款回家。",
+          "保持联系。",
+          "轻松消费。"
+        ],
+        "subheading": "为在韩 Filipinos 提供值得信赖的服务",
+        "ctaPrimaryLabel": "立即汇款",
+        "ctaSecondaryLabel": "立即开始"
+      },
+      "exchangeRate": {
+        "eyebrow": "汇率",
+        "heading": "查看今日汇率",
+        "description": "从韩国向 Philippines 汇款前，请查看最新的 GME Remit 汇率",
+        "note": "汇率可能会在一天内发生变化",
+        "cardTitle": "GME Remit 汇款计算器",
+        "sampleTag": "示例金额",
+        "sendAmountLabel": "汇款金额",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "收款国家/地区",
+        "recipientCountryOption": "Philippines",
+        "receiveCurrencyLabel": "PHP",
+        "receiverGetsLabel": "收款人实收",
+        "transferFeeLabel": "汇款手续费",
+        "exchangeRateLabel": "汇率",
+        "submitLabel": "立即汇款"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "汇款至 Philippines",
+        "description": "从韩国支持您在 Philippines 的家人和亲友，简单又安全。",
+        "features": [
+          "有竞争力的汇率",
+          "快速可靠的汇款",
+          "费用透明",
+          "需要时提供支持"
+        ],
+        "ctaLabel": "立即汇款"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "一卡满足多种需求",
+        "description": "轻松支付，满足您在韩国及海外的日常生活需求。",
+        "features": [
+          "全球支付",
+          "购物",
+          "交通",
+          "现金返还",
+          "EasyCare 福利"
+        ],
+        "ctaLabel": "了解 GME Card"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "在韩国保持畅联",
+        "description": "通过为在韩生活而设计的移动通信套餐，与重要的人和事保持联系。",
+        "features": [
+          "稳定连接",
+          "灵活的 SIM 套餐",
+          "简单开通",
+          "友好的本地支持"
+        ],
+        "ctaLabel": "查看 SIM 套餐"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "您的数字金融伙伴",
+        "description": "体验面向在韩外国人的数字贷款服务。通过 GME App 轻松申请，流程简单便捷。",
+        "features": [
+          "无纸化贷款申请",
+          "实时查询贷款状态",
+          "实时查询贷款余额"
+        ],
+        "ctaLabel": "立即申请"
+      },
+      "faq": {
+        "heading": "GME Remit 常见问题",
+        "subheading": "查看使用 GME Remit 汇款时的常见问题解答",
+        "items": [
+          {
+            "question": "使用 GME Remit 汇款需要多长时间？",
+            "answer": [
+              "GME Remit 汇款通常可在约 10 秒内完成，但实际到账时间可能因收款国家/地区、银行或收款方式而有所不同。"
+            ]
+          },
+          {
+            "question": "GME Remit 使用安全吗？",
+            "answer": [
+              "是的。GME Remit 是在韩国获得许可的汇款服务，并接受韩国相关金融监管机构的监督。我们采用安全的客户身份验证和交易流程，以帮助保护客户及其交易安全。"
+            ]
+          },
+          {
+            "question": "如何注册 GME Remit 账户？",
+            "answer": [
+              "下载 GME Remit App，创建账户并完成所需的身份验证。注册和验证完成后，即可开始使用 GME Remit 服务。"
+            ]
+          },
+          {
+            "question": "可以通过 GME Remit 向哪些国家汇款？",
+            "answer": [
+              "GME Remit 支持向全球多个国家和地区进行国际汇款。可汇款目的地及收款方式请直接在 GME Remit App 中查看。"
+            ]
+          },
+          {
+            "question": "如果汇款出现问题怎么办？",
+            "answer": [
+              "我们的客服团队周一至周日 10:00–23:00 提供服务。",
+              "您可以致电 {SUPPORT_PHONE_NUMBER}，或通过 GME Remit App 联系我们。",
+              "您也可以通过 GME Philippines 的官方社交媒体渠道联系我们，包括 Facebook、 Instagram、 TikTok 和 ChannelTalk。",
+              "如需面对面协助， GME Remit 在韩国多地设有分行，工作人员可为您提供帮助。"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "关注 GME Philippines",
+        "subheading": "获取新闻、实用提示和社区最新动态",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "下载 GME App",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "为在韩 Filipinos 提供的金融服务。",
+        "copyrightSuffix": "GME. 版权所有。"
+      }
+    },
+    "russia": {
+      "header": {
+        "navItems": {
+          "company": "公司",
+          "services": "服务",
+          "countries": "国家/地区",
+          "news": "新闻",
+          "support": "客服支持"
+        },
+        "downloadAppLabel": "下载应用"
+      },
+      "hero": {
+        "eyebrow": "GME Russia",
+        "headingLines": [
+          "汇款回家。",
+          "保持联系。",
+          "轻松消费。"
+        ],
+        "subheading": "为在韩 Russians 提供值得信赖的服务",
+        "ctaPrimaryLabel": "立即汇款",
+        "ctaSecondaryLabel": "立即开始"
+      },
+      "exchangeRate": {
+        "eyebrow": "汇率",
+        "heading": "查看今日汇率",
+        "description": "从韩国向 Russia 汇款前，请查看最新的 GME Remit 汇率",
+        "note": "汇率可能会在一天内发生变化",
+        "cardTitle": "GME Remit 汇款计算器",
+        "sampleTag": "示例金额",
+        "sendAmountLabel": "汇款金额",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "收款国家/地区",
+        "recipientCountryOption": "Russia",
+        "receiveCurrencyLabel": "RUB",
+        "receiverGetsLabel": "收款人实收",
+        "transferFeeLabel": "汇款手续费",
+        "exchangeRateLabel": "汇率",
+        "submitLabel": "立即汇款"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "汇款至 Russia",
+        "description": "从韩国支持您在 Russia 的家人和亲友，简单又安全。",
+        "features": [
+          "有竞争力的汇率",
+          "快速可靠的汇款",
+          "费用透明",
+          "需要时提供支持"
+        ],
+        "ctaLabel": "立即汇款"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "一卡满足多种需求",
+        "description": "轻松支付，满足您在韩国及海外的日常生活需求。",
+        "features": [
+          "全球支付",
+          "购物",
+          "交通",
+          "现金返还",
+          "EasyCare 福利"
+        ],
+        "ctaLabel": "了解 GME Card"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "在韩国保持畅联",
+        "description": "通过为在韩生活而设计的移动通信套餐，与重要的人和事保持联系。",
+        "features": [
+          "稳定连接",
+          "灵活的 SIM 套餐",
+          "简单开通",
+          "友好的本地支持"
+        ],
+        "ctaLabel": "查看 SIM 套餐"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "您的数字金融伙伴",
+        "description": "体验面向在韩外国人的数字贷款服务。通过 GME App 轻松申请，流程简单便捷。",
+        "features": [
+          "无纸化贷款申请",
+          "实时查询贷款状态",
+          "实时查询贷款余额"
+        ],
+        "ctaLabel": "立即申请"
+      },
+      "faq": {
+        "heading": "GME Remit 常见问题",
+        "subheading": "查看使用 GME Remit 汇款时的常见问题解答",
+        "items": [
+          {
+            "question": "使用 GME Remit 汇款需要多长时间？",
+            "answer": [
+              "GME Remit 汇款通常可在约 10 秒内完成，但实际到账时间可能因收款国家/地区、银行或收款方式而有所不同。"
+            ]
+          },
+          {
+            "question": "GME Remit 使用安全吗？",
+            "answer": [
+              "是的。GME Remit 是在韩国获得许可的汇款服务，并接受韩国相关金融监管机构的监督。我们采用安全的客户身份验证和交易流程，以帮助保护客户及其交易安全。"
+            ]
+          },
+          {
+            "question": "如何注册 GME Remit 账户？",
+            "answer": [
+              "下载 GME Remit App，创建账户并完成所需的身份验证。注册和验证完成后，即可开始使用 GME Remit 服务。"
+            ]
+          },
+          {
+            "question": "可以通过 GME Remit 向哪些国家汇款？",
+            "answer": [
+              "GME Remit 支持向全球多个国家和地区进行国际汇款。可汇款目的地及收款方式请直接在 GME Remit App 中查看。"
+            ]
+          },
+          {
+            "question": "如果汇款出现问题怎么办？",
+            "answer": [
+              "我们的客服团队周一至周日 10:00–23:00 提供服务。",
+              "您可以致电 {SUPPORT_PHONE_NUMBER}，或通过 GME Remit App 联系我们。",
+              "您也可以通过 GME Russia 的官方社交媒体渠道联系我们，包括 Facebook、 Instagram、 TikTok 和 ChannelTalk。",
+              "如需面对面协助， GME Remit 在韩国多地设有分行，工作人员可为您提供帮助。"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "关注 GME Russia",
+        "subheading": "获取新闻、实用提示和社区最新动态",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "下载 GME App",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "为在韩 Russians 提供的金融服务。",
+        "copyrightSuffix": "GME. 版权所有。"
+      }
+    },
+    "spanish-latam": {
+      "header": {
+        "navItems": {
+          "company": "公司",
+          "services": "服务",
+          "countries": "国家/地区",
+          "news": "新闻",
+          "support": "客服支持"
+        },
+        "downloadAppLabel": "下载应用"
+      },
+      "hero": {
+        "eyebrow": "GME Spanish / Latam",
+        "headingLines": [
+          "汇款回家。",
+          "保持联系。",
+          "轻松消费。"
+        ],
+        "subheading": "为在韩 the Spanish-speaking and Latam community 提供值得信赖的服务",
+        "ctaPrimaryLabel": "立即汇款",
+        "ctaSecondaryLabel": "立即开始"
+      },
+      "exchangeRate": {
+        "eyebrow": "汇率",
+        "heading": "查看今日汇率",
+        "description": "从韩国向 Spanish / Latam 汇款前，请查看最新的 GME Remit 汇率",
+        "note": "汇率可能会在一天内发生变化",
+        "cardTitle": "GME Remit 汇款计算器",
+        "sampleTag": "示例金额",
+        "sendAmountLabel": "汇款金额",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "收款国家/地区",
+        "recipientCountryOption": "Spanish / Latam",
+        "receiveCurrencyLabel": "TBD",
+        "receiverGetsLabel": "收款人实收",
+        "transferFeeLabel": "汇款手续费",
+        "exchangeRateLabel": "汇率",
+        "submitLabel": "立即汇款"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "汇款至 Spanish / Latam",
+        "description": "从韩国支持您在 Spanish / Latam 的家人和亲友，简单又安全。",
+        "features": [
+          "有竞争力的汇率",
+          "快速可靠的汇款",
+          "费用透明",
+          "需要时提供支持"
+        ],
+        "ctaLabel": "立即汇款"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "一卡满足多种需求",
+        "description": "轻松支付，满足您在韩国及海外的日常生活需求。",
+        "features": [
+          "全球支付",
+          "购物",
+          "交通",
+          "现金返还",
+          "EasyCare 福利"
+        ],
+        "ctaLabel": "了解 GME Card"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "在韩国保持畅联",
+        "description": "通过为在韩生活而设计的移动通信套餐，与重要的人和事保持联系。",
+        "features": [
+          "稳定连接",
+          "灵活的 SIM 套餐",
+          "简单开通",
+          "友好的本地支持"
+        ],
+        "ctaLabel": "查看 SIM 套餐"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "您的数字金融伙伴",
+        "description": "体验面向在韩外国人的数字贷款服务。通过 GME App 轻松申请，流程简单便捷。",
+        "features": [
+          "无纸化贷款申请",
+          "实时查询贷款状态",
+          "实时查询贷款余额"
+        ],
+        "ctaLabel": "立即申请"
+      },
+      "faq": {
+        "heading": "GME Remit 常见问题",
+        "subheading": "查看使用 GME Remit 汇款时的常见问题解答",
+        "items": [
+          {
+            "question": "使用 GME Remit 汇款需要多长时间？",
+            "answer": [
+              "GME Remit 汇款通常可在约 10 秒内完成，但实际到账时间可能因收款国家/地区、银行或收款方式而有所不同。"
+            ]
+          },
+          {
+            "question": "GME Remit 使用安全吗？",
+            "answer": [
+              "是的。GME Remit 是在韩国获得许可的汇款服务，并接受韩国相关金融监管机构的监督。我们采用安全的客户身份验证和交易流程，以帮助保护客户及其交易安全。"
+            ]
+          },
+          {
+            "question": "如何注册 GME Remit 账户？",
+            "answer": [
+              "下载 GME Remit App，创建账户并完成所需的身份验证。注册和验证完成后，即可开始使用 GME Remit 服务。"
+            ]
+          },
+          {
+            "question": "可以通过 GME Remit 向哪些国家汇款？",
+            "answer": [
+              "GME Remit 支持向全球多个国家和地区进行国际汇款。可汇款目的地及收款方式请直接在 GME Remit App 中查看。"
+            ]
+          },
+          {
+            "question": "如果汇款出现问题怎么办？",
+            "answer": [
+              "我们的客服团队周一至周日 10:00–23:00 提供服务。",
+              "您可以致电 {SUPPORT_PHONE_NUMBER}，或通过 GME Remit App 联系我们。",
+              "您也可以通过 GME Spanish / Latam 的官方社交媒体渠道联系我们，包括 Facebook、 Instagram、 TikTok 和 ChannelTalk。",
+              "如需面对面协助， GME Remit 在韩国多地设有分行，工作人员可为您提供帮助。"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "关注 GME Spanish / Latam",
+        "subheading": "获取新闻、实用提示和社区最新动态",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "下载 GME App",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "为在韩 the Spanish-speaking and Latam community 提供的金融服务。",
+        "copyrightSuffix": "GME. 版权所有。"
+      }
+    },
+    "sri-lanka": {
+      "header": {
+        "navItems": {
+          "company": "公司",
+          "services": "服务",
+          "countries": "国家/地区",
+          "news": "新闻",
+          "support": "客服支持"
+        },
+        "downloadAppLabel": "下载应用"
+      },
+      "hero": {
+        "eyebrow": "GME Sri Lanka",
+        "headingLines": [
+          "汇款回家。",
+          "保持联系。",
+          "轻松消费。"
+        ],
+        "subheading": "为在韩 Sri Lankans 提供值得信赖的服务",
+        "ctaPrimaryLabel": "立即汇款",
+        "ctaSecondaryLabel": "立即开始"
+      },
+      "exchangeRate": {
+        "eyebrow": "汇率",
+        "heading": "查看今日汇率",
+        "description": "从韩国向 Sri Lanka 汇款前，请查看最新的 GME Remit 汇率",
+        "note": "汇率可能会在一天内发生变化",
+        "cardTitle": "GME Remit 汇款计算器",
+        "sampleTag": "示例金额",
+        "sendAmountLabel": "汇款金额",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "收款国家/地区",
+        "recipientCountryOption": "Sri Lanka",
+        "receiveCurrencyLabel": "LKR",
+        "receiverGetsLabel": "收款人实收",
+        "transferFeeLabel": "汇款手续费",
+        "exchangeRateLabel": "汇率",
+        "submitLabel": "立即汇款"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "汇款至 Sri Lanka",
+        "description": "从韩国支持您在 Sri Lanka 的家人和亲友，简单又安全。",
+        "features": [
+          "有竞争力的汇率",
+          "快速可靠的汇款",
+          "费用透明",
+          "需要时提供支持"
+        ],
+        "ctaLabel": "立即汇款"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "一卡满足多种需求",
+        "description": "轻松支付，满足您在韩国及海外的日常生活需求。",
+        "features": [
+          "全球支付",
+          "购物",
+          "交通",
+          "现金返还",
+          "EasyCare 福利"
+        ],
+        "ctaLabel": "了解 GME Card"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "在韩国保持畅联",
+        "description": "通过为在韩生活而设计的移动通信套餐，与重要的人和事保持联系。",
+        "features": [
+          "稳定连接",
+          "灵活的 SIM 套餐",
+          "简单开通",
+          "友好的本地支持"
+        ],
+        "ctaLabel": "查看 SIM 套餐"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "您的数字金融伙伴",
+        "description": "体验面向在韩外国人的数字贷款服务。通过 GME App 轻松申请，流程简单便捷。",
+        "features": [
+          "无纸化贷款申请",
+          "实时查询贷款状态",
+          "实时查询贷款余额"
+        ],
+        "ctaLabel": "立即申请"
+      },
+      "faq": {
+        "heading": "GME Remit 常见问题",
+        "subheading": "查看使用 GME Remit 汇款时的常见问题解答",
+        "items": [
+          {
+            "question": "使用 GME Remit 汇款需要多长时间？",
+            "answer": [
+              "GME Remit 汇款通常可在约 10 秒内完成，但实际到账时间可能因收款国家/地区、银行或收款方式而有所不同。"
+            ]
+          },
+          {
+            "question": "GME Remit 使用安全吗？",
+            "answer": [
+              "是的。GME Remit 是在韩国获得许可的汇款服务，并接受韩国相关金融监管机构的监督。我们采用安全的客户身份验证和交易流程，以帮助保护客户及其交易安全。"
+            ]
+          },
+          {
+            "question": "如何注册 GME Remit 账户？",
+            "answer": [
+              "下载 GME Remit App，创建账户并完成所需的身份验证。注册和验证完成后，即可开始使用 GME Remit 服务。"
+            ]
+          },
+          {
+            "question": "可以通过 GME Remit 向哪些国家汇款？",
+            "answer": [
+              "GME Remit 支持向全球多个国家和地区进行国际汇款。可汇款目的地及收款方式请直接在 GME Remit App 中查看。"
+            ]
+          },
+          {
+            "question": "如果汇款出现问题怎么办？",
+            "answer": [
+              "我们的客服团队周一至周日 10:00–23:00 提供服务。",
+              "您可以致电 {SUPPORT_PHONE_NUMBER}，或通过 GME Remit App 联系我们。",
+              "您也可以通过 GME Sri Lanka 的官方社交媒体渠道联系我们，包括 Facebook、 Instagram、 TikTok 和 ChannelTalk。",
+              "如需面对面协助， GME Remit 在韩国多地设有分行，工作人员可为您提供帮助。"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "关注 GME Sri Lanka",
+        "subheading": "获取新闻、实用提示和社区最新动态",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "下载 GME App",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "为在韩 Sri Lankans 提供的金融服务。",
+        "copyrightSuffix": "GME. 版权所有。"
+      }
+    },
+    "thailand": {
+      "header": {
+        "navItems": {
+          "company": "公司",
+          "services": "服务",
+          "countries": "国家/地区",
+          "news": "新闻",
+          "support": "客服支持"
+        },
+        "downloadAppLabel": "下载应用"
+      },
+      "hero": {
+        "eyebrow": "GME Thailand",
+        "headingLines": [
+          "汇款回家。",
+          "保持联系。",
+          "轻松消费。"
+        ],
+        "subheading": "为在韩 Thais 提供值得信赖的服务",
+        "ctaPrimaryLabel": "立即汇款",
+        "ctaSecondaryLabel": "立即开始"
+      },
+      "exchangeRate": {
+        "eyebrow": "汇率",
+        "heading": "查看今日汇率",
+        "description": "从韩国向 Thailand 汇款前，请查看最新的 GME Remit 汇率",
+        "note": "汇率可能会在一天内发生变化",
+        "cardTitle": "GME Remit 汇款计算器",
+        "sampleTag": "示例金额",
+        "sendAmountLabel": "汇款金额",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "收款国家/地区",
+        "recipientCountryOption": "Thailand",
+        "receiveCurrencyLabel": "THB",
+        "receiverGetsLabel": "收款人实收",
+        "transferFeeLabel": "汇款手续费",
+        "exchangeRateLabel": "汇率",
+        "submitLabel": "立即汇款"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "汇款至 Thailand",
+        "description": "从韩国支持您在 Thailand 的家人和亲友，简单又安全。",
+        "features": [
+          "有竞争力的汇率",
+          "快速可靠的汇款",
+          "费用透明",
+          "需要时提供支持"
+        ],
+        "ctaLabel": "立即汇款"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "一卡满足多种需求",
+        "description": "轻松支付，满足您在韩国及海外的日常生活需求。",
+        "features": [
+          "全球支付",
+          "购物",
+          "交通",
+          "现金返还",
+          "EasyCare 福利"
+        ],
+        "ctaLabel": "了解 GME Card"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "在韩国保持畅联",
+        "description": "通过为在韩生活而设计的移动通信套餐，与重要的人和事保持联系。",
+        "features": [
+          "稳定连接",
+          "灵活的 SIM 套餐",
+          "简单开通",
+          "友好的本地支持"
+        ],
+        "ctaLabel": "查看 SIM 套餐"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "您的数字金融伙伴",
+        "description": "体验面向在韩外国人的数字贷款服务。通过 GME App 轻松申请，流程简单便捷。",
+        "features": [
+          "无纸化贷款申请",
+          "实时查询贷款状态",
+          "实时查询贷款余额"
+        ],
+        "ctaLabel": "立即申请"
+      },
+      "faq": {
+        "heading": "GME Remit 常见问题",
+        "subheading": "查看使用 GME Remit 汇款时的常见问题解答",
+        "items": [
+          {
+            "question": "使用 GME Remit 汇款需要多长时间？",
+            "answer": [
+              "GME Remit 汇款通常可在约 10 秒内完成，但实际到账时间可能因收款国家/地区、银行或收款方式而有所不同。"
+            ]
+          },
+          {
+            "question": "GME Remit 使用安全吗？",
+            "answer": [
+              "是的。GME Remit 是在韩国获得许可的汇款服务，并接受韩国相关金融监管机构的监督。我们采用安全的客户身份验证和交易流程，以帮助保护客户及其交易安全。"
+            ]
+          },
+          {
+            "question": "如何注册 GME Remit 账户？",
+            "answer": [
+              "下载 GME Remit App，创建账户并完成所需的身份验证。注册和验证完成后，即可开始使用 GME Remit 服务。"
+            ]
+          },
+          {
+            "question": "可以通过 GME Remit 向哪些国家汇款？",
+            "answer": [
+              "GME Remit 支持向全球多个国家和地区进行国际汇款。可汇款目的地及收款方式请直接在 GME Remit App 中查看。"
+            ]
+          },
+          {
+            "question": "如果汇款出现问题怎么办？",
+            "answer": [
+              "我们的客服团队周一至周日 10:00–23:00 提供服务。",
+              "您可以致电 {SUPPORT_PHONE_NUMBER}，或通过 GME Remit App 联系我们。",
+              "您也可以通过 GME Thailand 的官方社交媒体渠道联系我们，包括 Facebook、 Instagram、 TikTok 和 ChannelTalk。",
+              "如需面对面协助， GME Remit 在韩国多地设有分行，工作人员可为您提供帮助。"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "关注 GME Thailand",
+        "subheading": "获取新闻、实用提示和社区最新动态",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "下载 GME App",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "为在韩 Thais 提供的金融服务。",
+        "copyrightSuffix": "GME. 版权所有。"
+      }
+    },
+    "uzbekistan": {
+      "header": {
+        "navItems": {
+          "company": "公司",
+          "services": "服务",
+          "countries": "国家/地区",
+          "news": "新闻",
+          "support": "客服支持"
+        },
+        "downloadAppLabel": "下载应用"
+      },
+      "hero": {
+        "eyebrow": "GME Uzbekistan",
+        "headingLines": [
+          "汇款回家。",
+          "保持联系。",
+          "轻松消费。"
+        ],
+        "subheading": "为在韩 Uzbeks 提供值得信赖的服务",
+        "ctaPrimaryLabel": "立即汇款",
+        "ctaSecondaryLabel": "立即开始"
+      },
+      "exchangeRate": {
+        "eyebrow": "汇率",
+        "heading": "查看今日汇率",
+        "description": "从韩国向 Uzbekistan 汇款前，请查看最新的 GME Remit 汇率",
+        "note": "汇率可能会在一天内发生变化",
+        "cardTitle": "GME Remit 汇款计算器",
+        "sampleTag": "示例金额",
+        "sendAmountLabel": "汇款金额",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "收款国家/地区",
+        "recipientCountryOption": "Uzbekistan",
+        "receiveCurrencyLabel": "UZS",
+        "receiverGetsLabel": "收款人实收",
+        "transferFeeLabel": "汇款手续费",
+        "exchangeRateLabel": "汇率",
+        "submitLabel": "立即汇款"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "汇款至 Uzbekistan",
+        "description": "从韩国支持您在 Uzbekistan 的家人和亲友，简单又安全。",
+        "features": [
+          "有竞争力的汇率",
+          "快速可靠的汇款",
+          "费用透明",
+          "需要时提供支持"
+        ],
+        "ctaLabel": "立即汇款"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "一卡满足多种需求",
+        "description": "轻松支付，满足您在韩国及海外的日常生活需求。",
+        "features": [
+          "全球支付",
+          "购物",
+          "交通",
+          "现金返还",
+          "EasyCare 福利"
+        ],
+        "ctaLabel": "了解 GME Card"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "在韩国保持畅联",
+        "description": "通过为在韩生活而设计的移动通信套餐，与重要的人和事保持联系。",
+        "features": [
+          "稳定连接",
+          "灵活的 SIM 套餐",
+          "简单开通",
+          "友好的本地支持"
+        ],
+        "ctaLabel": "查看 SIM 套餐"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "您的数字金融伙伴",
+        "description": "体验面向在韩外国人的数字贷款服务。通过 GME App 轻松申请，流程简单便捷。",
+        "features": [
+          "无纸化贷款申请",
+          "实时查询贷款状态",
+          "实时查询贷款余额"
+        ],
+        "ctaLabel": "立即申请"
+      },
+      "faq": {
+        "heading": "GME Remit 常见问题",
+        "subheading": "查看使用 GME Remit 汇款时的常见问题解答",
+        "items": [
+          {
+            "question": "使用 GME Remit 汇款需要多长时间？",
+            "answer": [
+              "GME Remit 汇款通常可在约 10 秒内完成，但实际到账时间可能因收款国家/地区、银行或收款方式而有所不同。"
+            ]
+          },
+          {
+            "question": "GME Remit 使用安全吗？",
+            "answer": [
+              "是的。GME Remit 是在韩国获得许可的汇款服务，并接受韩国相关金融监管机构的监督。我们采用安全的客户身份验证和交易流程，以帮助保护客户及其交易安全。"
+            ]
+          },
+          {
+            "question": "如何注册 GME Remit 账户？",
+            "answer": [
+              "下载 GME Remit App，创建账户并完成所需的身份验证。注册和验证完成后，即可开始使用 GME Remit 服务。"
+            ]
+          },
+          {
+            "question": "可以通过 GME Remit 向哪些国家汇款？",
+            "answer": [
+              "GME Remit 支持向全球多个国家和地区进行国际汇款。可汇款目的地及收款方式请直接在 GME Remit App 中查看。"
+            ]
+          },
+          {
+            "question": "如果汇款出现问题怎么办？",
+            "answer": [
+              "我们的客服团队周一至周日 10:00–23:00 提供服务。",
+              "您可以致电 {SUPPORT_PHONE_NUMBER}，或通过 GME Remit App 联系我们。",
+              "您也可以通过 GME Uzbekistan 的官方社交媒体渠道联系我们，包括 Facebook、 Instagram、 TikTok 和 ChannelTalk。",
+              "如需面对面协助， GME Remit 在韩国多地设有分行，工作人员可为您提供帮助。"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "关注 GME Uzbekistan",
+        "subheading": "获取新闻、实用提示和社区最新动态",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "下载 GME App",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "为在韩 Uzbeks 提供的金融服务。",
+        "copyrightSuffix": "GME. 版权所有。"
+      }
+    },
+    "vietnam": {
+      "header": {
+        "navItems": {
+          "company": "公司",
+          "services": "服务",
+          "countries": "国家/地区",
+          "news": "新闻",
+          "support": "客服支持"
+        },
+        "downloadAppLabel": "下载应用"
+      },
+      "hero": {
+        "eyebrow": "GME Vietnam",
+        "headingLines": [
+          "汇款回家。",
+          "保持联系。",
+          "轻松消费。"
+        ],
+        "subheading": "为在韩 Vietnamese 提供值得信赖的服务",
+        "ctaPrimaryLabel": "立即汇款",
+        "ctaSecondaryLabel": "立即开始"
+      },
+      "exchangeRate": {
+        "eyebrow": "汇率",
+        "heading": "查看今日汇率",
+        "description": "从韩国向 Vietnam 汇款前，请查看最新的 GME Remit 汇率",
+        "note": "汇率可能会在一天内发生变化",
+        "cardTitle": "GME Remit 汇款计算器",
+        "sampleTag": "示例金额",
+        "sendAmountLabel": "汇款金额",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "收款国家/地区",
+        "recipientCountryOption": "Vietnam",
+        "receiveCurrencyLabel": "VND",
+        "receiverGetsLabel": "收款人实收",
+        "transferFeeLabel": "汇款手续费",
+        "exchangeRateLabel": "汇率",
+        "submitLabel": "立即汇款"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "汇款至 Vietnam",
+        "description": "从韩国支持您在 Vietnam 的家人和亲友，简单又安全。",
+        "features": [
+          "有竞争力的汇率",
+          "快速可靠的汇款",
+          "费用透明",
+          "需要时提供支持"
+        ],
+        "ctaLabel": "立即汇款"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "一卡满足多种需求",
+        "description": "轻松支付，满足您在韩国及海外的日常生活需求。",
+        "features": [
+          "全球支付",
+          "购物",
+          "交通",
+          "现金返还",
+          "EasyCare 福利"
+        ],
+        "ctaLabel": "了解 GME Card"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "在韩国保持畅联",
+        "description": "通过为在韩生活而设计的移动通信套餐，与重要的人和事保持联系。",
+        "features": [
+          "稳定连接",
+          "灵活的 SIM 套餐",
+          "简单开通",
+          "友好的本地支持"
+        ],
+        "ctaLabel": "查看 SIM 套餐"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "您的数字金融伙伴",
+        "description": "体验面向在韩外国人的数字贷款服务。通过 GME App 轻松申请，流程简单便捷。",
+        "features": [
+          "无纸化贷款申请",
+          "实时查询贷款状态",
+          "实时查询贷款余额"
+        ],
+        "ctaLabel": "立即申请"
+      },
+      "faq": {
+        "heading": "GME Remit 常见问题",
+        "subheading": "查看使用 GME Remit 汇款时的常见问题解答",
+        "items": [
+          {
+            "question": "使用 GME Remit 汇款需要多长时间？",
+            "answer": [
+              "GME Remit 汇款通常可在约 10 秒内完成，但实际到账时间可能因收款国家/地区、银行或收款方式而有所不同。"
+            ]
+          },
+          {
+            "question": "GME Remit 使用安全吗？",
+            "answer": [
+              "是的。GME Remit 是在韩国获得许可的汇款服务，并接受韩国相关金融监管机构的监督。我们采用安全的客户身份验证和交易流程，以帮助保护客户及其交易安全。"
+            ]
+          },
+          {
+            "question": "如何注册 GME Remit 账户？",
+            "answer": [
+              "下载 GME Remit App，创建账户并完成所需的身份验证。注册和验证完成后，即可开始使用 GME Remit 服务。"
+            ]
+          },
+          {
+            "question": "可以通过 GME Remit 向哪些国家汇款？",
+            "answer": [
+              "GME Remit 支持向全球多个国家和地区进行国际汇款。可汇款目的地及收款方式请直接在 GME Remit App 中查看。"
+            ]
+          },
+          {
+            "question": "如果汇款出现问题怎么办？",
+            "answer": [
+              "我们的客服团队周一至周日 10:00–23:00 提供服务。",
+              "您可以致电 {SUPPORT_PHONE_NUMBER}，或通过 GME Remit App 联系我们。",
+              "您也可以通过 GME Vietnam 的官方社交媒体渠道联系我们，包括 Facebook、 Instagram、 TikTok 和 ChannelTalk。",
+              "如需面对面协助， GME Remit 在韩国多地设有分行，工作人员可为您提供帮助。"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "关注 GME Vietnam",
+        "subheading": "获取新闻、实用提示和社区最新动态",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "下载 GME App",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "为在韩 Vietnamese 提供的金融服务。",
+        "copyrightSuffix": "GME. 版权所有。"
+      }
+    }
+  },
+  "card": {
+    "_meta": {
+      "country": "China",
+      "locale": "zh",
+      "language": "Chinese",
+      "scope": "Home card section + /services/card only. Untouched strings fall back to messages/*.json",
+      "source": "GME Card Web correction request (PPT, Sept 2026) + card spec sheet",
+      "reviewStatus": "Native corridor-team review recommended before production"
+    },
+    "why": {
+      "cashback": {
+        "title": "季节性及特约商户返现"
+      },
+      "description": "GME卡让您的日常支付更加便捷——无论是通勤、购物还是出境旅行皆可轻松应对。线上线下均可支付,轻松搭乘公共交通,随时随地享受流畅便捷的支付体验。"
+    },
+    "grid": {
+      "subtitle": "比较各款GME卡的权益,选择最适合您的卡片"
+    },
+    "labels": {
+      "charge_method": "充值方式"
+    },
+    "cards": {
+      "black": {
+        "name": "Premium Card",
+        "subtitle": "GME Premium Card",
+        "features": [
+          "预付交通功能借记卡",
+          "境外消费3%返现",
+          "专属ATM存取款"
+        ],
+        "details": {
+          "mainBenefits": {
+            "items": [
+              null,
+              {
+                "title": "季节性及特约商户返现",
+                "desc": "在特别促销期间于指定合作商户享受专属奖励"
+              },
+              null,
+              null,
+              {
+                "title": "公共交通",
+                "desc": "轻松使用本卡搭乘公交车、地铁和火车"
+              }
+            ]
+          },
+          "userGuide": {
+            "annualFee": "₩15,000(每年)",
+            "chargeMethod": "您可以通过ATM机或银行转账进行充值。"
+          },
+          "cautions": {
+            "items": [
+              null,
+              null,
+              null,
+              "如手机或卡片遗失,由您本人承担全部责任,GME对此不承担任何责任。",
+              "境外合作商户遵循Mastercard的相关政策与标准。"
+            ]
+          },
+          "autoPayment": {
+            "title": "自动扣款"
+          }
+        }
+      },
+      "easyG0": {
+        "subtitle": "GME EasyGo Card",
+        "features": [
+          "后付交通功能借记卡",
+          "季节性及特约商户返现",
+          "专属ATM存取款"
+        ],
+        "details": {
+          "mainBenefits": {
+            "items": [
+              {
+                "title": "后付交通卡",
+                "desc": "开启自动充值后,乘坐公交车和地铁时无需再手动充值。"
+              },
+              {
+                "title": "季节性及特约商户返现",
+                "desc": "在特别促销期间于指定合作商户享受专属奖励"
+              }
+            ]
+          },
+          "transitCard": {
+            "title": "后付交通卡"
+          },
+          "userGuide": {
+            "monthlyFee": "₩1,000(每月1日收取)"
+          },
+          "cautions": {
+            "items": [
+              null,
+              null,
+              null,
+              "如手机或卡片遗失,由您本人承担全部责任,GME对此不承担任何责任。",
+              "境外合作商户遵循Mastercard的相关政策与标准。"
+            ]
+          },
+          "autoPayment": {
+            "title": "自动扣款"
+          }
+        }
+      },
+      "uniq": {
+        "name": "UniQ Card",
+        "subtitle": "GME UniQ Card",
+        "features": [
+          "预付交通功能借记卡",
+          "季节性及特约商户返现",
+          "专属ATM存取款"
+        ]
+      },
+      "pay": {
+        "cta": "立即申请",
+        "description": "GME旗舰卡片。可在全球任意Mastercard特约商户消费,尽享专属活动折扣与返现奖励。",
+        "details": {
+          "autoPayment": {
+            "desc": "当您的GME Pay余额不足以支付卡片消费时,差额将自动从您绑定的自动扣款账户中扣除。",
+            "title": "自动扣款"
+          },
+          "cautions": {
+            "items": [
+              "若GME卡支付被取消,退款将退回至您的GME Wallet,暂不支持退至其他账户。",
+              "GME Card为预付借记卡,不支持分期付款。",
+              "即使卡片被注销,您仍可继续使用GME应用。但如果您在GME应用中取消订阅,卡片也将被自动注销。",
+              "如手机或卡片遗失,由您本人承担全部责任,GME对此不承担任何责任。",
+              "境外合作商户遵循Mastercard的相关政策与标准。"
+            ],
+            "title": "注意事项"
+          },
+          "delivery": {
+            "methods": [
+              "送货上门",
+              "前往GME网点领取"
+            ],
+            "title": "卡片领取方式"
+          },
+          "foreignPayment": {
+            "items": [
+              "境外商户消费时,非美元币种将按Mastercard汇率折算为美元,折算日期以付款批准日(已批准交易)或GME收到账单信息之日(未批准交易)为准。含1.25%境外手续费在内的韩元入账金额,将按GME美元汇率折算为韩元,并从GME Pay中扣除。",
+              "入账金额 = (支付金额 × 汇率) + 境外手续费(国际品牌手续费² + 境外交易手续费²)",
+              "汇率为GME卡片支付美元汇率,每15分钟更新一次,以付款批准时点(或GME收到账单信息时点)的汇率为准。",
+              "国际品牌手续费² = (支付金额 × 汇率) × Mastercard手续费率(1.0%)",
+              "境外交易手续费² = (支付金额 × 汇率) × GME卡手续费率(0.25%)",
+              "在境外商户以韩元(KRW)结算时,可能会产生额外的DCC手续费(约3-15%)。建议关闭境外韩元结算功能,改用当地货币支付更为划算。",
+              "您可在GME应用中设置境外韩元支付(DCC)限制。路径:卡片 > 卡片管理 > \"境外韩元支付限制\"设置(默认:\"限制\")",
+              "如需了解更多详情,请联系客服中心(1588-6864)或访问 www.gmeremit.com。"
+            ],
+            "title": "境外支付及其他信息"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "在特别促销期间于指定合作商户享受专属奖励",
+                "title": "季节性及特约商户返现"
+              },
+              {
+                "desc": "境内境外均可自由支付",
+                "title": "全球畅行无忧支付"
+              },
+              {
+                "desc": "尽享线上线下购物与娱乐消费的自由支付",
+                "title": "线上线下购物"
+              },
+              {
+                "desc": "轻松使用本卡搭乘公交车、地铁和火车",
+                "title": "公共交通"
+              }
+            ],
+            "title": "主要权益"
+          },
+          "userGuide": {
+            "annualFee": "₩10,000(每年)",
+            "chargeMethod": "您可以通过ATM机或银行转账进行充值。",
+            "contact": {
+              "center": "GME客服中心:1811-2961",
+              "website": "官网:gmeremit.com"
+            },
+            "limit": "单笔最高₩2,000,000",
+            "title": "使用指南"
+          }
+        },
+        "features": [
+          "预付交通功能借记卡",
+          "季节性及特约商户返现",
+          "专属ATM存取款"
+        ],
+        "name": "Pay Card"
+      },
+      "easyCare": {
+        "cta": "立即申请",
+        "description": "用心守护,Made to Care。提供保险及会员支持权益的后付交通卡。",
+        "details": {
+          "autoPayment": {
+            "desc": "可绑定任意银行账户用于自动扣款,并可随时轻松更改。",
+            "title": "自动扣款"
+          },
+          "cautions": {
+            "items": [
+              "若GME卡支付被取消,退款将退回至您的GME Wallet,暂不支持退至其他账户。",
+              "GME Card为预付借记卡,不支持分期付款。",
+              "即使卡片被注销,您仍可继续使用GME应用。但如果您在GME应用中取消订阅,卡片也将被自动注销。",
+              "如手机或卡片遗失,由您本人承担全部责任,GME对此不承担任何责任。",
+              "境外合作商户遵循Mastercard的相关政策与标准。",
+              "若在发卡后3个月内注销,将收取₩10,000的注销手续费,用于支付处理成本。"
+            ],
+            "title": "注意事项"
+          },
+          "delivery": {
+            "methods": [
+              "送货上门",
+              "前往GME网点领取"
+            ],
+            "title": "卡片领取方式"
+          },
+          "foreignPayment": {
+            "items": [
+              "境外商户消费时,非美元币种将按Mastercard汇率折算为美元,折算日期以付款批准日(已批准交易)或GME收到账单信息之日(未批准交易)为准。含1.25%境外手续费在内的韩元入账金额,将按GME美元汇率折算为韩元,并从GME Pay中扣除。",
+              "入账金额 = (支付金额 × 汇率) + 境外手续费(国际品牌手续费² + 境外交易手续费²)",
+              "汇率为GME卡片支付美元汇率,每15分钟更新一次,以付款批准时点(或GME收到账单信息时点)的汇率为准。",
+              "国际品牌手续费² = (支付金额 × 汇率) × Mastercard手续费率(1.0%)",
+              "境外交易手续费² = (支付金额 × 汇率) × GME卡手续费率(0.25%)",
+              "在境外商户以韩元(KRW)结算时,可能会产生额外的DCC手续费(约3-15%)。建议关闭境外韩元结算功能,改用当地货币支付更为划算。",
+              "您可在GME应用中设置境外韩元支付(DCC)限制。路径:卡片 > 卡片管理 > \"境外韩元支付限制\"设置(默认:\"限制\")",
+              "如需了解更多详情,请联系客服中心(1588-6864)或访问 www.gmeremit.com。"
+            ],
+            "title": "境外支付及其他信息"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "因意外身故,最高可为指定家属提供KRW 30 Million保障;因意外伤残,最高可提供KRW 30 Million保障。",
+                "title": "保险支持权益"
+              },
+              {
+                "desc": "住院30天以上最高可获KRW 1 Million,急诊就诊最高可获KRW 50,000,并提供退税申请协助。",
+                "title": "会员支持权益"
+              },
+              {
+                "desc": "开启自动充值后,乘坐公交车和地铁时无需再手动充值。",
+                "title": "后付交通卡"
+              },
+              {
+                "desc": "在特别促销期间于指定合作商户享受专属奖励",
+                "title": "季节性及特约商户返现"
+              },
+              {
+                "desc": "只要是Mastercard特约商户,无论境内境外,均可在全球范围内使用本卡支付。",
+                "title": "全球畅行无忧支付"
+              },
+              {
+                "desc": "随时随地,线上线下皆可用于购物、娱乐等多种消费场景",
+                "title": "线上线下购物"
+              }
+            ],
+            "title": "主要权益"
+          },
+          "userGuide": {
+            "contact": {
+              "center": "GME客服中心:1811-2961",
+              "website": "官网:gmeremit.com"
+            },
+            "limit": "单笔最高₩2,000,000",
+            "monthlyFee": "₩6,990(每月1日收取)",
+            "title": "使用指南"
+          }
+        },
+        "features": [
+          "后付交通功能借记卡",
+          "保险及会员支持权益",
+          "季节性及特约商户返现"
+        ],
+        "name": "EasyCare Card",
+        "subtitle": "GME EasyCare Card"
+      }
+    }
+  },
+  "home": {
+    "cards": {
+      "black": {
+        "cta": "查看Premium Card",
+        "desc": "为您的境外消费提供丰厚回馈的高端卡片。",
+        "highlights": [
+          "境外消费3%返现",
+          "全球畅行无忧支付",
+          "线上线下购物",
+          "公共交通"
+        ]
+      },
+      "easyG0": {
+        "desc": "让日常生活更加便利。从交通出行到购物消费,尽享季节性专属优惠。",
+        "highlights": [
+          "后付交通卡",
+          "季节性及特约商户返现"
+        ]
+      },
+      "uniq": {
+        "cta": "查看UniQ Card",
+        "highlights": [
+          "季节性及特约商户返现"
+        ]
+      },
+      "pay": {
+        "cta": "查看Pay Card",
+        "desc": "满足您日常消费所需的多合一支付卡。",
+        "highlights": [
+          "季节性及特约商户返现",
+          "全球畅行无忧支付",
+          "线上线下购物",
+          "公共交通"
+        ]
+      },
+      "easyCare": {
+        "cta": "查看EasyCare Card",
+        "desc": "用心守护,Made to Care。提供保险及会员支持权益的后付交通卡。",
+        "highlights": [
+          "保险及会员支持权益",
+          "后付交通卡",
+          "季节性及特约商户返现",
+          "全球畅行无忧支付"
+        ]
+      }
+    }
+  },
+  "company": {
+    "history": {
+      "events": {
+        "2026_09": "与DB损害保险合作推出EasyCare Card,提供保险及会员支持权益。"
+      }
+    }
+  }
+}

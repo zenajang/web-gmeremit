@@ -24,13 +24,11 @@ import si from "@messages/si.json";
 import fr from "@messages/fr.json";
 import ar from "@messages/ar.json";
 import es from "@messages/es.json";
-import ru from "@messages/ru.json";
-import lo from "@messages/lo.json";
 
 type TranslationValue = string | string[] | Record<string, unknown>;
 type Translations = Record<string, unknown>;
 
-const translations: Record<string, Translations> = {
+export const translations: Record<string, Translations> = {
   en,
   ko,
   zh,
@@ -51,8 +49,6 @@ const translations: Record<string, Translations> = {
   fr,
   ar,
   es,
-  ru,
-  lo,
 };
 
 /**
@@ -82,12 +78,13 @@ function getNestedValue(obj: Translations, path: string): TranslationValue {
  * @param namespace - The namespace to use (e.g., "home.hero")
  * @returns Translation function
  */
-export function useTranslation(namespace?: string) {
+export function useTranslation(namespace?: string, langCodeOverride?: string) {
   const { currentLanguage } = useLanguage();
+  const langCode = langCodeOverride ?? currentLanguage.code;
 
   const currentTranslations = useMemo(() => {
-    return translations[currentLanguage.code] || translations.ko;
-  }, [currentLanguage.code]);
+    return translations[langCode] || translations.ko;
+  }, [langCode]);
 
   /**
    * Get a translated string

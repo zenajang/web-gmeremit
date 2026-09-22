@@ -1,59 +1,86 @@
-import africaEn from "./africa/en.json";
-import arabAr from "./arab/ar.json";
-import bangladeshBn from "./bangladesh/bn.json";
-import cambodiaKm from "./cambodia/km.json";
-import chinaZh from "./china/zh.json";
-import indiaHi from "./india/hi.json";
-import indonesiaId from "./indonesia/id.json";
-import kazakhstanKk from "./kazakhstan/kk.json";
-import kyrgyzstanKy from "./kyrgyzstan/ky.json";
-import kyrgyzstanRu from "./kyrgyzstan/ru.json";
-import laosLo from "./laos/lo.json";
-import mongoliaMn from "./mongolia/mn.json";
-import myanmarMy from "./myanmar/my.json";
-import nepalNe from "./nepal/ne.json";
-import pakistanUr from "./pakistan/ur.json";
-import philippinesFil from "./philippines/fil.json";
-import russiaRu from "./russia/ru.json";
-import spanishLatamEs from "./spanish-latam/es.json";
-import sriLankaSi from "./sri-lanka/si.json";
-import sriLankaTa from "./sri-lanka/ta.json";
-import thailandTh from "./thailand/th.json";
-import uzbekistanUz from "./uzbekistan/uz.json";
-import vietnamVi from "./vietnam/vi.json";
+import ar from "@messages/pending/ar.json";
+import bn from "@messages/pending/bn.json";
+import en from "@messages/pending/en.json";
+import es from "@messages/pending/es.json";
+import fr from "@messages/pending/fr.json";
+import hi from "@messages/pending/hi.json";
+import id from "@messages/pending/id.json";
+import ja from "@messages/pending/ja.json";
+import kk from "@messages/pending/kk.json";
+import km from "@messages/pending/km.json";
+import ko from "@messages/pending/ko.json";
+import ky from "@messages/pending/ky.json";
+import lo from "@messages/pending/lo.json";
+import mn from "@messages/pending/mn.json";
+import my from "@messages/pending/my.json";
+import ne from "@messages/pending/ne.json";
+import ru from "@messages/pending/ru.json";
+import si from "@messages/pending/si.json";
+import th from "@messages/pending/th.json";
+import tl from "@messages/pending/tl.json";
+import ur from "@messages/pending/ur.json";
+import uz from "@messages/pending/uz.json";
+import vi from "@messages/pending/vi.json";
+import zh from "@messages/pending/zh.json";
 
 export interface CountryTranslationEntry {
   nativeLangCode: string;
   files: Record<string, Record<string, unknown>>;
 }
 
+interface PendingFile {
+  landing?: Record<string, Record<string, unknown>>;
+  [namespace: string]: unknown;
+}
+
 const normalize = (value: string) => value.toLowerCase().replace(/[-\s]+/g, "");
 
-const manifest: Record<string, CountryTranslationEntry> = {
-  [normalize("africa")]: { nativeLangCode: "en", files: { en: africaEn } },
-  [normalize("arab")]: { nativeLangCode: "ar", files: { ar: arabAr } },
-  [normalize("bangladesh")]: { nativeLangCode: "bn", files: { bn: bangladeshBn } },
-  [normalize("cambodia")]: { nativeLangCode: "km", files: { km: cambodiaKm } },
-  [normalize("china")]: { nativeLangCode: "zh", files: { zh: chinaZh } },
-  [normalize("india")]: { nativeLangCode: "hi", files: { hi: indiaHi } },
-  [normalize("indonesia")]: { nativeLangCode: "id", files: { id: indonesiaId } },
-  [normalize("kazakhstan")]: { nativeLangCode: "kk", files: { kk: kazakhstanKk } },
-  [normalize("kyrgyzstan")]: { nativeLangCode: "ky", files: { ky: kyrgyzstanKy, ru: kyrgyzstanRu } },
-  [normalize("laos")]: { nativeLangCode: "lo", files: { lo: laosLo } },
-  [normalize("mongolia")]: { nativeLangCode: "mn", files: { mn: mongoliaMn } },
-  [normalize("myanmar")]: { nativeLangCode: "my", files: { my: myanmarMy } },
-  [normalize("nepal")]: { nativeLangCode: "ne", files: { ne: nepalNe } },
-  [normalize("pakistan")]: { nativeLangCode: "ur", files: { ur: pakistanUr } },
-  [normalize("philippines")]: { nativeLangCode: "fil", files: { fil: philippinesFil } },
-  [normalize("russia")]: { nativeLangCode: "ru", files: { ru: russiaRu } },
-  [normalize("spanish-latam")]: { nativeLangCode: "es", files: { es: spanishLatamEs } },
-  [normalize("sri-lanka")]: { nativeLangCode: "si", files: { si: sriLankaSi, ta: sriLankaTa } },
-  [normalize("thailand")]: { nativeLangCode: "th", files: { th: thailandTh } },
-  [normalize("uzbekistan")]: { nativeLangCode: "uz", files: { uz: uzbekistanUz } },
-  [normalize("vietnam")]: { nativeLangCode: "vi", files: { vi: vietnamVi } },
+/** 언어코드 → 그 언어로 작성된 랜딩 번역 파일 */
+const pendingByLang: Record<string, PendingFile> = {
+  ar, bn, en, es, fr, hi, id, ja, kk, km, ko, ky, lo, mn, my, ne, ru, si, th, tl, ur, uz, vi, zh,
 };
 
-// 헤더 국가 라우팅에서 실제 슬러그와 번역 폴더명이 다른 경우만 여기서 매핑
+/** 국가별 고유 언어. 랜딩 번역이 그 언어로만 있을 때의 기본값 */
+const nativeLangByCountry: Record<string, string> = {
+  africa: "en",
+  arab: "ar",
+  bangladesh: "bn",
+  cambodia: "km",
+  china: "zh",
+  india: "hi",
+  indonesia: "id",
+  kazakhstan: "kk",
+  kyrgyzstan: "ky",
+  laos: "lo",
+  mongolia: "mn",
+  myanmar: "my",
+  nepal: "ne",
+  pakistan: "ur",
+  philippines: "tl",
+  russia: "ru",
+  "spanish-latam": "es",
+  "sri-lanka": "si",
+  thailand: "th",
+  uzbekistan: "uz",
+  vietnam: "vi",
+};
+
+// 각 언어 파일의 landing 아래 국가 키를 훑어 국가별로 언어를 모은다.
+// 같은 국가에 언어 파일이 늘어나면 자동으로 선택지가 늘어난다.
+const manifest: Record<string, CountryTranslationEntry> = {};
+
+for (const [country, nativeLangCode] of Object.entries(nativeLangByCountry)) {
+  const files: Record<string, Record<string, unknown>> = {};
+
+  for (const [langCode, data] of Object.entries(pendingByLang)) {
+    const landing = data.landing?.[country];
+    if (landing) files[langCode] = landing;
+  }
+
+  manifest[normalize(country)] = { nativeLangCode, files };
+}
+
+// 헤더 국가 라우팅에서 실제 슬러그와 번역 키가 다른 경우만 여기서 매핑
 const slugAliases: Record<string, string> = {
   [normalize("Russian-Federation")]: normalize("russia"),
 };
@@ -72,13 +99,9 @@ for (const entry of Object.values(manifest)) {
   }
 }
 
-// 사이트 언어 코드가 국가 번역 파일의 언어코드와 다르게 표기되는 경우
-const navLabelLangAliases: Record<string, string> = { tl: "fil" };
-
 // 국가 번역 파일이 아예 없는 사이트 언어(한국어/일본어/프랑스어)용 수동 보완
 const navLabelManualOverrides: Record<string, string> = { ko: "국가", ja: "国", fr: "Pays" };
 
 export function getCountriesNavLabel(langCode: string): string {
-  const code = navLabelLangAliases[langCode] ?? langCode;
-  return navCountriesLabelByLang[code] ?? navLabelManualOverrides[langCode] ?? "Countries";
+  return navCountriesLabelByLang[langCode] ?? navLabelManualOverrides[langCode] ?? "Countries";
 }

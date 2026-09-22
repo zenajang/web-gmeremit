@@ -1,7 +1,7 @@
 "use client";
 
 import PublicLayout from "@/components/layout/PublicLayout";
-import ServiceHeroSection from "@/components/service/ServiceHeroSection";
+import ServiceHeroSection from "@/components/service/common/organisms/ServiceHeroSection";
 import SectionHeader from "@/components/ui/SectionHeader";
 import DotLoader from "@/components/ui/DotLoader";
 import { useLenis } from "@/hooks/useLenis";

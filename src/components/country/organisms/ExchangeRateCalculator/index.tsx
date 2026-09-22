@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { countryConfigs } from "@/data/countries";
-import { useTranslation } from "@/hooks/useTranslation";
+import { useTranslation, translations } from "@/hooks/useTranslation";
 import { useCountryTranslation } from "@/hooks/useCountryTranslation";
 import { useClickOutside } from "@/hooks/useClickOutside";
 import { getExchangeRate } from "@/lib/GetExchangeRate";
@@ -12,11 +12,14 @@ import { usePathname } from "next/navigation";
 const formatNumber = (num: string) => num.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 const parseNumber = (str: string) => str.replace(/,/g, "");
 
+const resolveMessagesLang = (langCode: string) =>
+  langCode in translations ? langCode : "en";
+
 const ExchangeRateCalculator = () => {
-  const { t } = useTranslation("home.exchange");
   const pathname = usePathname();
   const countryName = pathname.split("/").pop() ?? "";
-  const { t: tCountry } = useCountryTranslation(countryName);
+  const { t: tCountry, activeLangCode } = useCountryTranslation(countryName);
+  const { t } = useTranslation("home.exchange", resolveMessagesLang(activeLangCode));
   const normalize = (value: string) => value.toLowerCase().replace(/[-\s]+/g, "");
   const matchedCountry = countryConfigs.find(
     (c) => normalize(c.countryName) === normalize(countryName ?? "")
@@ -32,7 +35,7 @@ const ExchangeRateCalculator = () => {
   const [selectedRecipientCountry, setSelectedRecipientCountry] = useState(matchedCountry?.currencies[0]?.code ?? "");
   const [deliveryMethod, setDeliveryMethod] = useState("");
   const [isPayoutOpen, setIsPayoutOpen] = useState(false);
-  const [reslutRecipientCountry, setReslutRecipientCountry] = useState(matchedCountry?.currencies[0]?.code ?? "");
+  const [resultRecipientCountry, setResultRecipientCountry] = useState(matchedCountry?.currencies[0]?.code ?? "");
   const payoutDropdownRef = useRef<HTMLDivElement>(null);
 
   useClickOutside(payoutDropdownRef, () => setIsPayoutOpen(false));
@@ -65,7 +68,7 @@ const ExchangeRateCalculator = () => {
       setExchangeRateDisplay(result.exchangeRateDisplay);
       setScCharge(result.scCharge);
       setReceiveAmount(result.receiveAmount);
-      setReslutRecipientCountry(selectedRecipientCountry);
+      setResultRecipientCountry(selectedRecipientCountry);
     } else {
       setReceiveAmount("");
       setExchangeRateDisplay("");
@@ -201,7 +204,7 @@ const ExchangeRateCalculator = () => {
       <div className={S.CalculatorResultBox}>
         <span className={S.CalculatorResultLabel}>{tCountry("exchangeRate.receiverGetsLabel")}</span>
         <span className={S.CalculatorResultValue}>
-          {isLoading ? "..." : `${reslutRecipientCountry} ${formatNumber(receiveAmount || "0")}`}
+          {isLoading ? "..." : `${resultRecipientCountry} ${formatNumber(receiveAmount || "0")}`}
         </span>
       </div>
 

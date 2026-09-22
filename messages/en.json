@@ -240,15 +240,13 @@
               "website": "Website: gmeremit.com"
             },
             "limit": "Up to ₩2,000,000 per transaction",
-            "qualification": "GME Pay members (age 17+)",
             "title": "User Guide"
           }
         },
         "features": [
           "Premium cashback rewards",
           "Reduced foreign transaction fees",
-          "Dedicated customer center",
-          "On & offline payments"
+          "Dedicated customer center"
         ],
         "name": "Black Card",
         "subtitle": "GME Black Mastercard"
@@ -330,10 +328,6 @@
               {
                 "desc": "Pay freely for shopping and entertainment, both online and offline",
                 "title": "Online & Offline Shopping"
-              },
-              {
-                "desc": "Use postpaid transit for a more convenient commute. Just tap and ride without checking your balance, then pay all at once later.",
-                "title": "Postpaid Transit Card"
               }
             ],
             "title": "Key Benefits"
@@ -351,15 +345,13 @@
             },
             "limit": "Up to ₩2,000,000 per transaction",
             "monthlyFee": "Monthly fee ₩1,000 (charged on the 1st of each month)",
-            "qualification": "GME Pay members (age 17+)",
             "title": "User Guide"
           }
         },
         "features": [
           "Postpaid transit card",
           "Seasonal cashback",
-          "Online & offline shopping",
-          "Pay anywhere in the world"
+          "Online & offline shopping"
         ],
         "name": "EasyGo Card",
         "subtitle": "GME EasyGo Mastercard"
@@ -431,15 +423,13 @@
               "website": "Website: gmeremit.com"
             },
             "limit": "Up to ₩2,000,000 per transaction",
-            "qualification": "GME Pay members (age 17+)",
             "title": "User Guide"
           }
         },
         "features": [
           "Mastercard global payments",
           "Up to 30% cashback on events",
-          "ATM withdrawal & deposit",
-          "Public transit card function"
+          "ATM withdrawal & deposit"
         ],
         "name": "Red Card",
         "subtitle": "GME Red Mastercard"
@@ -450,8 +440,7 @@
         "features": [
           "Limited edition design",
           "Global payment support",
-          "Special event benefits",
-          "Built-in transit card"
+          "Special event benefits"
         ],
         "name": "Uniq Card",
         "subtitle": "GME Uniq Mastercard"

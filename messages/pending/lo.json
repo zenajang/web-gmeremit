@@ -1,0 +1,3423 @@
+{
+  "landing": {
+    "africa": {
+      "header": {
+        "navItems": {
+          "company": "ບໍລິສັດ",
+          "services": "ບໍລິການ",
+          "countries": "ປະເທດ",
+          "news": "ຂ່າວ",
+          "support": "ຊ່ວຍເຫຼືອ"
+        },
+        "downloadAppLabel": "ດາວໂຫຼດແອັບ"
+      },
+      "hero": {
+        "eyebrow": "GME Africa",
+        "headingLines": [
+          "ສົ່ງເງິນກັບບ້ານ.",
+          "ຕິດຕໍ່ກັນສະເໝີ.",
+          "ໃຊ້ຈ່າຍໄດ້ງ່າຍ."
+        ],
+        "subheading": "ບໍລິການທີ່ໄວ້ວາງໃຈໄດ້ສຳລັບ Africans ທີ່ອາໄສຢູ່ເກົາຫຼີ",
+        "ctaPrimaryLabel": "ສົ່ງເງິນດຽວນີ້",
+        "ctaSecondaryLabel": "ເລີ່ມຕົ້ນ"
+      },
+      "exchangeRate": {
+        "eyebrow": "ອັດຕາແລກປ່ຽນ",
+        "heading": "ກວດອັດຕາແລກປ່ຽນມື້ນີ້",
+        "description": "ກວດອັດຕາແລກປ່ຽນ GME Remit ຫຼ້າສຸດກ່ອນສົ່ງເງິນຈາກເກົາຫຼີໄປ Africa",
+        "note": "ອັດຕາແລກປ່ຽນອາດປ່ຽນແປງໃນລະຫວ່າງມື້",
+        "cardTitle": "ເຄື່ອງຄິດໄລ່ GME Remit",
+        "sampleTag": "ຄ່າຕົວຢ່າງ",
+        "sendAmountLabel": "ຈຳນວນເງິນທີ່ສົ່ງ",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "ປະເທດຜູ້ຮັບ",
+        "recipientCountryOption": "Africa",
+        "receiveCurrencyLabel": "TBD",
+        "receiverGetsLabel": "ຜູ້ຮັບຈະໄດ້ຮັບ",
+        "transferFeeLabel": "ຄ່າທຳນຽມໂອນ",
+        "exchangeRateLabel": "ອັດຕາແລກປ່ຽນ",
+        "submitLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "ສົ່ງເງິນໄປ Africa",
+        "description": "ວິທີທີ່ງ່າຍ ແລະ ປອດໄພໃນການຊ່ວຍເຫຼືອຄອບຄົວ ແລະ ຄົນຮັກຂອງທ່ານໃນ Africa ຈາກເກົາຫຼີ.",
+        "features": [
+          "ອັດຕາແລກປ່ຽນທີ່ແຂ່ງຂັນໄດ້",
+          "ການໂອນທີ່ໄວ ແລະ ເຊື່ອຖືໄດ້",
+          "ຄ່າທຳນຽມຊັດເຈນ",
+          "ການຊ່ວຍເຫຼືອເມື່ອທ່ານຕ້ອງການ"
+        ],
+        "ctaLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "ບັດດຽວສຳລັບທຸກຢ່າງ",
+        "description": "ການຊຳລະທີ່ງ່າຍສຳລັບຊີວິດປະຈຳວັນໃນເກົາຫຼີ ແລະ ຕ່າງປະເທດ.",
+        "features": [
+          "ຊຳລະໄດ້ທົ່ວໂລກ",
+          "ຊື້ເຄື່ອງ",
+          "ການເດີນທາງ",
+          "Cashback",
+          "ສິດປະໂຫຍດ EasyCare"
+        ],
+        "ctaLabel": "ເບິ່ງ GME Cards"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "ຕິດຕໍ່ກັນສະເໝີໃນເກົາຫຼີ",
+        "description": "ຕິດຕໍ່ກັບສິ່ງສຳຄັນດ້ວຍແຜນມືຖືທີ່ອອກແບບໃຫ້ຊີວິດໃນເກົາຫຼີງ່າຍຂຶ້ນ.",
+        "features": [
+          "ການເຊື່ອມຕໍ່ທີ່ເຊື່ອຖືໄດ້",
+          "ແຜນ SIM ທີ່ຍືດຫຍຸ່ນ",
+          "ຕັ້ງຄ່າງ່າຍ",
+          "ການຊ່ວຍເຫຼືອໃນທ້ອງຖິ່ນທີ່ເປັນມິດ"
+        ],
+        "ctaLabel": "ເບິ່ງແຜນ SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "ຄູ່ຮ່ວມການເງິນດິຈິຕອນຂອງທ່ານ",
+        "description": "ບໍລິການສິນເຊື່ອດິຈິຕອນສຳລັບຊາວຕ່າງປະເທດທີ່ອາໄສຢູ່ເກົາຫຼີ. ສະໝັກໄດ້ງ່າຍຜ່ານແອັບ GME.",
+        "features": [
+          "ສະໝັກສິນເຊື່ອແບບບໍ່ໃຊ້ເຈ້ຍ",
+          "ກວດສະຖານະສິນເຊື່ອແບບ real-time",
+          "ກວດຍອດສິນເຊື່ອແບບ real-time"
+        ],
+        "ctaLabel": "ສະໝັກດຽວນີ້"
+      },
+      "faq": {
+        "heading": "ຄຳຖາມທີ່ພົບເລື້ອຍກ່ຽວກັບ GME Remit",
+        "subheading": "ຊອກຫາຄຳຕອບສຳລັບຄຳຖາມທົ່ວໄປກ່ຽວກັບການສົ່ງເງິນດ້ວຍ GME Remit",
+        "items": [
+          {
+            "question": "ການສົ່ງເງິນດ້ວຍ GME Remit ໃຊ້ເວລາດົນປານໃດ?",
+            "answer": [
+              "ການໂອນເງິນຜ່ານ GME Remit ໂດຍທົ່ວໄປສຳເລັດປະມານ 10 ວິນາທີ. ເວລາຈິງອາດແຕກຕ່າງຕາມປະເທດຜູ້ຮັບ, ທະນາຄານ ຫຼື ວິທີຮັບເງິນ."
+            ]
+          },
+          {
+            "question": "GME Remit ປອດໄພບໍ?",
+            "answer": [
+              "ແມ່ນ. GME Remit ເປັນບໍລິການໂອນເງິນທີ່ໄດ້ຮັບອະນຸຍາດໃນເກົາຫຼີ ແລະ ຢູ່ພາຍໃຕ້ການກຳກັບຂອງໜ່ວຍງານການເງິນທີ່ກ່ຽວຂ້ອງ. ມີຂັ້ນຕອນຢືນຢັນ ແລະ ທຸລະກຳທີ່ປອດໄພ."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍຈະລົງທະບຽນບັນຊີ GME Remit ແນວໃດ?",
+            "answer": [
+              "ດາວໂຫຼດແອັບ GME Remit, ສ້າງບັນຊີ ແລະ ສຳເລັດການຢືນຢັນຕົວຕົນ. ຫຼັງຈາກນັ້ນສາມາດໃຊ້ບໍລິການໄດ້."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍສາມາດສົ່ງເງິນໄປປະເທດໃດໄດ້ແດ່ຜ່ານ GME Remit?",
+            "answer": [
+              "GME Remit ຮອງຮັບການໂອນເງິນໄປຫຼາຍປະເທດ. ກວດປະເທດປາຍທາງ ແລະ ທາງເລືອກຮັບເງິນໃນແອັບ GME Remit."
+            ]
+          },
+          {
+            "question": "ຖ້າການໂອນເງິນມີບັນຫາ ຂ້ອຍຄວນເຮັດແນວໃດ?",
+            "answer": [
+              "ທີມຊ່ວຍເຫຼືອໃຫ້ບໍລິການ 10:00–23:00 ວັນຈັນຫາວັນອາທິດ. ຕິດຕໍ່ຜ່ານ {SUPPORT_PHONE_NUMBER}, ແອັບ GME Remit, ສື່ສັງຄົມທາງການ ຫຼື ສາຂາໃນເກົາຫຼີ."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "ເຊື່ອມຕໍ່ກັບ GME Africa",
+        "subheading": "ຂ່າວ, ຄຳແນະນຳທີ່ເປັນປະໂຫຍດ ແລະ ຂໍ້ມູນໃໝ່ສຳລັບຊຸມຊົນ",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "ດາວໂຫຼດແອັບ GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "Financial services made for Africans in Korea.",
+        "copyrightSuffix": "GME. ສະຫງວນລິຂະສິດ."
+      }
+    },
+    "arab": {
+      "header": {
+        "navItems": {
+          "company": "ບໍລິສັດ",
+          "services": "ບໍລິການ",
+          "countries": "ປະເທດ",
+          "news": "ຂ່າວ",
+          "support": "ຊ່ວຍເຫຼືອ"
+        },
+        "downloadAppLabel": "ດາວໂຫຼດແອັບ"
+      },
+      "hero": {
+        "eyebrow": "GME Arab",
+        "headingLines": [
+          "ສົ່ງເງິນກັບບ້ານ.",
+          "ຕິດຕໍ່ກັນສະເໝີ.",
+          "ໃຊ້ຈ່າຍໄດ້ງ່າຍ."
+        ],
+        "subheading": "ບໍລິການທີ່ໄວ້ວາງໃຈໄດ້ສຳລັບ the Arab community ທີ່ອາໄສຢູ່ເກົາຫຼີ",
+        "ctaPrimaryLabel": "ສົ່ງເງິນດຽວນີ້",
+        "ctaSecondaryLabel": "ເລີ່ມຕົ້ນ"
+      },
+      "exchangeRate": {
+        "eyebrow": "ອັດຕາແລກປ່ຽນ",
+        "heading": "ກວດອັດຕາແລກປ່ຽນມື້ນີ້",
+        "description": "ກວດອັດຕາແລກປ່ຽນ GME Remit ຫຼ້າສຸດກ່ອນສົ່ງເງິນຈາກເກົາຫຼີໄປ Arab",
+        "note": "ອັດຕາແລກປ່ຽນອາດປ່ຽນແປງໃນລະຫວ່າງມື້",
+        "cardTitle": "ເຄື່ອງຄິດໄລ່ GME Remit",
+        "sampleTag": "ຄ່າຕົວຢ່າງ",
+        "sendAmountLabel": "ຈຳນວນເງິນທີ່ສົ່ງ",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "ປະເທດຜູ້ຮັບ",
+        "recipientCountryOption": "Arab",
+        "receiveCurrencyLabel": "TBD",
+        "receiverGetsLabel": "ຜູ້ຮັບຈະໄດ້ຮັບ",
+        "transferFeeLabel": "ຄ່າທຳນຽມໂອນ",
+        "exchangeRateLabel": "ອັດຕາແລກປ່ຽນ",
+        "submitLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "ສົ່ງເງິນໄປ Arab",
+        "description": "ວິທີທີ່ງ່າຍ ແລະ ປອດໄພໃນການຊ່ວຍເຫຼືອຄອບຄົວ ແລະ ຄົນຮັກຂອງທ່ານໃນ Arab ຈາກເກົາຫຼີ.",
+        "features": [
+          "ອັດຕາແລກປ່ຽນທີ່ແຂ່ງຂັນໄດ້",
+          "ການໂອນທີ່ໄວ ແລະ ເຊື່ອຖືໄດ້",
+          "ຄ່າທຳນຽມຊັດເຈນ",
+          "ການຊ່ວຍເຫຼືອເມື່ອທ່ານຕ້ອງການ"
+        ],
+        "ctaLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "ບັດດຽວສຳລັບທຸກຢ່າງ",
+        "description": "ການຊຳລະທີ່ງ່າຍສຳລັບຊີວິດປະຈຳວັນໃນເກົາຫຼີ ແລະ ຕ່າງປະເທດ.",
+        "features": [
+          "ຊຳລະໄດ້ທົ່ວໂລກ",
+          "ຊື້ເຄື່ອງ",
+          "ການເດີນທາງ",
+          "Cashback",
+          "ສິດປະໂຫຍດ EasyCare"
+        ],
+        "ctaLabel": "ເບິ່ງ GME Cards"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "ຕິດຕໍ່ກັນສະເໝີໃນເກົາຫຼີ",
+        "description": "ຕິດຕໍ່ກັບສິ່ງສຳຄັນດ້ວຍແຜນມືຖືທີ່ອອກແບບໃຫ້ຊີວິດໃນເກົາຫຼີງ່າຍຂຶ້ນ.",
+        "features": [
+          "ການເຊື່ອມຕໍ່ທີ່ເຊື່ອຖືໄດ້",
+          "ແຜນ SIM ທີ່ຍືດຫຍຸ່ນ",
+          "ຕັ້ງຄ່າງ່າຍ",
+          "ການຊ່ວຍເຫຼືອໃນທ້ອງຖິ່ນທີ່ເປັນມິດ"
+        ],
+        "ctaLabel": "ເບິ່ງແຜນ SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "ຄູ່ຮ່ວມການເງິນດິຈິຕອນຂອງທ່ານ",
+        "description": "ບໍລິການສິນເຊື່ອດິຈິຕອນສຳລັບຊາວຕ່າງປະເທດທີ່ອາໄສຢູ່ເກົາຫຼີ. ສະໝັກໄດ້ງ່າຍຜ່ານແອັບ GME.",
+        "features": [
+          "ສະໝັກສິນເຊື່ອແບບບໍ່ໃຊ້ເຈ້ຍ",
+          "ກວດສະຖານະສິນເຊື່ອແບບ real-time",
+          "ກວດຍອດສິນເຊື່ອແບບ real-time"
+        ],
+        "ctaLabel": "ສະໝັກດຽວນີ້"
+      },
+      "faq": {
+        "heading": "ຄຳຖາມທີ່ພົບເລື້ອຍກ່ຽວກັບ GME Remit",
+        "subheading": "ຊອກຫາຄຳຕອບສຳລັບຄຳຖາມທົ່ວໄປກ່ຽວກັບການສົ່ງເງິນດ້ວຍ GME Remit",
+        "items": [
+          {
+            "question": "ການສົ່ງເງິນດ້ວຍ GME Remit ໃຊ້ເວລາດົນປານໃດ?",
+            "answer": [
+              "ການໂອນເງິນຜ່ານ GME Remit ໂດຍທົ່ວໄປສຳເລັດປະມານ 10 ວິນາທີ. ເວລາຈິງອາດແຕກຕ່າງຕາມປະເທດຜູ້ຮັບ, ທະນາຄານ ຫຼື ວິທີຮັບເງິນ."
+            ]
+          },
+          {
+            "question": "GME Remit ປອດໄພບໍ?",
+            "answer": [
+              "ແມ່ນ. GME Remit ເປັນບໍລິການໂອນເງິນທີ່ໄດ້ຮັບອະນຸຍາດໃນເກົາຫຼີ ແລະ ຢູ່ພາຍໃຕ້ການກຳກັບຂອງໜ່ວຍງານການເງິນທີ່ກ່ຽວຂ້ອງ. ມີຂັ້ນຕອນຢືນຢັນ ແລະ ທຸລະກຳທີ່ປອດໄພ."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍຈະລົງທະບຽນບັນຊີ GME Remit ແນວໃດ?",
+            "answer": [
+              "ດາວໂຫຼດແອັບ GME Remit, ສ້າງບັນຊີ ແລະ ສຳເລັດການຢືນຢັນຕົວຕົນ. ຫຼັງຈາກນັ້ນສາມາດໃຊ້ບໍລິການໄດ້."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍສາມາດສົ່ງເງິນໄປປະເທດໃດໄດ້ແດ່ຜ່ານ GME Remit?",
+            "answer": [
+              "GME Remit ຮອງຮັບການໂອນເງິນໄປຫຼາຍປະເທດ. ກວດປະເທດປາຍທາງ ແລະ ທາງເລືອກຮັບເງິນໃນແອັບ GME Remit."
+            ]
+          },
+          {
+            "question": "ຖ້າການໂອນເງິນມີບັນຫາ ຂ້ອຍຄວນເຮັດແນວໃດ?",
+            "answer": [
+              "ທີມຊ່ວຍເຫຼືອໃຫ້ບໍລິການ 10:00–23:00 ວັນຈັນຫາວັນອາທິດ. ຕິດຕໍ່ຜ່ານ {SUPPORT_PHONE_NUMBER}, ແອັບ GME Remit, ສື່ສັງຄົມທາງການ ຫຼື ສາຂາໃນເກົາຫຼີ."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "ເຊື່ອມຕໍ່ກັບ GME Arab",
+        "subheading": "ຂ່າວ, ຄຳແນະນຳທີ່ເປັນປະໂຫຍດ ແລະ ຂໍ້ມູນໃໝ່ສຳລັບຊຸມຊົນ",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "ດາວໂຫຼດແອັບ GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "Financial services made for the Arab community in Korea.",
+        "copyrightSuffix": "GME. ສະຫງວນລິຂະສິດ."
+      }
+    },
+    "bangladesh": {
+      "header": {
+        "navItems": {
+          "company": "ບໍລິສັດ",
+          "services": "ບໍລິການ",
+          "countries": "ປະເທດ",
+          "news": "ຂ່າວ",
+          "support": "ຊ່ວຍເຫຼືອ"
+        },
+        "downloadAppLabel": "ດາວໂຫຼດແອັບ"
+      },
+      "hero": {
+        "eyebrow": "GME Bangladesh",
+        "headingLines": [
+          "ສົ່ງເງິນກັບບ້ານ.",
+          "ຕິດຕໍ່ກັນສະເໝີ.",
+          "ໃຊ້ຈ່າຍໄດ້ງ່າຍ."
+        ],
+        "subheading": "ບໍລິການທີ່ໄວ້ວາງໃຈໄດ້ສຳລັບ Bangladeshis ທີ່ອາໄສຢູ່ເກົາຫຼີ",
+        "ctaPrimaryLabel": "ສົ່ງເງິນດຽວນີ້",
+        "ctaSecondaryLabel": "ເລີ່ມຕົ້ນ"
+      },
+      "exchangeRate": {
+        "eyebrow": "ອັດຕາແລກປ່ຽນ",
+        "heading": "ກວດອັດຕາແລກປ່ຽນມື້ນີ້",
+        "description": "ກວດອັດຕາແລກປ່ຽນ GME Remit ຫຼ້າສຸດກ່ອນສົ່ງເງິນຈາກເກົາຫຼີໄປ Bangladesh",
+        "note": "ອັດຕາແລກປ່ຽນອາດປ່ຽນແປງໃນລະຫວ່າງມື້",
+        "cardTitle": "ເຄື່ອງຄິດໄລ່ GME Remit",
+        "sampleTag": "ຄ່າຕົວຢ່າງ",
+        "sendAmountLabel": "ຈຳນວນເງິນທີ່ສົ່ງ",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "ປະເທດຜູ້ຮັບ",
+        "recipientCountryOption": "Bangladesh",
+        "receiveCurrencyLabel": "BDT",
+        "receiverGetsLabel": "ຜູ້ຮັບຈະໄດ້ຮັບ",
+        "transferFeeLabel": "ຄ່າທຳນຽມໂອນ",
+        "exchangeRateLabel": "ອັດຕາແລກປ່ຽນ",
+        "submitLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "ສົ່ງເງິນໄປ Bangladesh",
+        "description": "ວິທີທີ່ງ່າຍ ແລະ ປອດໄພໃນການຊ່ວຍເຫຼືອຄອບຄົວ ແລະ ຄົນຮັກຂອງທ່ານໃນ Bangladesh ຈາກເກົາຫຼີ.",
+        "features": [
+          "ອັດຕາແລກປ່ຽນທີ່ແຂ່ງຂັນໄດ້",
+          "ການໂອນທີ່ໄວ ແລະ ເຊື່ອຖືໄດ້",
+          "ຄ່າທຳນຽມຊັດເຈນ",
+          "ການຊ່ວຍເຫຼືອເມື່ອທ່ານຕ້ອງການ"
+        ],
+        "ctaLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "ບັດດຽວສຳລັບທຸກຢ່າງ",
+        "description": "ການຊຳລະທີ່ງ່າຍສຳລັບຊີວິດປະຈຳວັນໃນເກົາຫຼີ ແລະ ຕ່າງປະເທດ.",
+        "features": [
+          "ຊຳລະໄດ້ທົ່ວໂລກ",
+          "ຊື້ເຄື່ອງ",
+          "ການເດີນທາງ",
+          "Cashback",
+          "ສິດປະໂຫຍດ EasyCare"
+        ],
+        "ctaLabel": "ເບິ່ງ GME Cards"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "ຕິດຕໍ່ກັນສະເໝີໃນເກົາຫຼີ",
+        "description": "ຕິດຕໍ່ກັບສິ່ງສຳຄັນດ້ວຍແຜນມືຖືທີ່ອອກແບບໃຫ້ຊີວິດໃນເກົາຫຼີງ່າຍຂຶ້ນ.",
+        "features": [
+          "ການເຊື່ອມຕໍ່ທີ່ເຊື່ອຖືໄດ້",
+          "ແຜນ SIM ທີ່ຍືດຫຍຸ່ນ",
+          "ຕັ້ງຄ່າງ່າຍ",
+          "ການຊ່ວຍເຫຼືອໃນທ້ອງຖິ່ນທີ່ເປັນມິດ"
+        ],
+        "ctaLabel": "ເບິ່ງແຜນ SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "ຄູ່ຮ່ວມການເງິນດິຈິຕອນຂອງທ່ານ",
+        "description": "ບໍລິການສິນເຊື່ອດິຈິຕອນສຳລັບຊາວຕ່າງປະເທດທີ່ອາໄສຢູ່ເກົາຫຼີ. ສະໝັກໄດ້ງ່າຍຜ່ານແອັບ GME.",
+        "features": [
+          "ສະໝັກສິນເຊື່ອແບບບໍ່ໃຊ້ເຈ້ຍ",
+          "ກວດສະຖານະສິນເຊື່ອແບບ real-time",
+          "ກວດຍອດສິນເຊື່ອແບບ real-time"
+        ],
+        "ctaLabel": "ສະໝັກດຽວນີ້"
+      },
+      "faq": {
+        "heading": "ຄຳຖາມທີ່ພົບເລື້ອຍກ່ຽວກັບ GME Remit",
+        "subheading": "ຊອກຫາຄຳຕອບສຳລັບຄຳຖາມທົ່ວໄປກ່ຽວກັບການສົ່ງເງິນດ້ວຍ GME Remit",
+        "items": [
+          {
+            "question": "ການສົ່ງເງິນດ້ວຍ GME Remit ໃຊ້ເວລາດົນປານໃດ?",
+            "answer": [
+              "ການໂອນເງິນຜ່ານ GME Remit ໂດຍທົ່ວໄປສຳເລັດປະມານ 10 ວິນາທີ. ເວລາຈິງອາດແຕກຕ່າງຕາມປະເທດຜູ້ຮັບ, ທະນາຄານ ຫຼື ວິທີຮັບເງິນ."
+            ]
+          },
+          {
+            "question": "GME Remit ປອດໄພບໍ?",
+            "answer": [
+              "ແມ່ນ. GME Remit ເປັນບໍລິການໂອນເງິນທີ່ໄດ້ຮັບອະນຸຍາດໃນເກົາຫຼີ ແລະ ຢູ່ພາຍໃຕ້ການກຳກັບຂອງໜ່ວຍງານການເງິນທີ່ກ່ຽວຂ້ອງ. ມີຂັ້ນຕອນຢືນຢັນ ແລະ ທຸລະກຳທີ່ປອດໄພ."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍຈະລົງທະບຽນບັນຊີ GME Remit ແນວໃດ?",
+            "answer": [
+              "ດາວໂຫຼດແອັບ GME Remit, ສ້າງບັນຊີ ແລະ ສຳເລັດການຢືນຢັນຕົວຕົນ. ຫຼັງຈາກນັ້ນສາມາດໃຊ້ບໍລິການໄດ້."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍສາມາດສົ່ງເງິນໄປປະເທດໃດໄດ້ແດ່ຜ່ານ GME Remit?",
+            "answer": [
+              "GME Remit ຮອງຮັບການໂອນເງິນໄປຫຼາຍປະເທດ. ກວດປະເທດປາຍທາງ ແລະ ທາງເລືອກຮັບເງິນໃນແອັບ GME Remit."
+            ]
+          },
+          {
+            "question": "ຖ້າການໂອນເງິນມີບັນຫາ ຂ້ອຍຄວນເຮັດແນວໃດ?",
+            "answer": [
+              "ທີມຊ່ວຍເຫຼືອໃຫ້ບໍລິການ 10:00–23:00 ວັນຈັນຫາວັນອາທິດ. ຕິດຕໍ່ຜ່ານ {SUPPORT_PHONE_NUMBER}, ແອັບ GME Remit, ສື່ສັງຄົມທາງການ ຫຼື ສາຂາໃນເກົາຫຼີ."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "ເຊື່ອມຕໍ່ກັບ GME Bangladesh",
+        "subheading": "ຂ່າວ, ຄຳແນະນຳທີ່ເປັນປະໂຫຍດ ແລະ ຂໍ້ມູນໃໝ່ສຳລັບຊຸມຊົນ",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "ດາວໂຫຼດແອັບ GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "Financial services made for Bangladeshis in Korea.",
+        "copyrightSuffix": "GME. ສະຫງວນລິຂະສິດ."
+      }
+    },
+    "cambodia": {
+      "header": {
+        "navItems": {
+          "company": "ບໍລິສັດ",
+          "services": "ບໍລິການ",
+          "countries": "ປະເທດ",
+          "news": "ຂ່າວ",
+          "support": "ຊ່ວຍເຫຼືອ"
+        },
+        "downloadAppLabel": "ດາວໂຫຼດແອັບ"
+      },
+      "hero": {
+        "eyebrow": "GME Cambodia",
+        "headingLines": [
+          "ສົ່ງເງິນກັບບ້ານ.",
+          "ຕິດຕໍ່ກັນສະເໝີ.",
+          "ໃຊ້ຈ່າຍໄດ້ງ່າຍ."
+        ],
+        "subheading": "ບໍລິການທີ່ໄວ້ວາງໃຈໄດ້ສຳລັບ Cambodians ທີ່ອາໄສຢູ່ເກົາຫຼີ",
+        "ctaPrimaryLabel": "ສົ່ງເງິນດຽວນີ້",
+        "ctaSecondaryLabel": "ເລີ່ມຕົ້ນ"
+      },
+      "exchangeRate": {
+        "eyebrow": "ອັດຕາແລກປ່ຽນ",
+        "heading": "ກວດອັດຕາແລກປ່ຽນມື້ນີ້",
+        "description": "ກວດອັດຕາແລກປ່ຽນ GME Remit ຫຼ້າສຸດກ່ອນສົ່ງເງິນຈາກເກົາຫຼີໄປ Cambodia",
+        "note": "ອັດຕາແລກປ່ຽນອາດປ່ຽນແປງໃນລະຫວ່າງມື້",
+        "cardTitle": "ເຄື່ອງຄິດໄລ່ GME Remit",
+        "sampleTag": "ຄ່າຕົວຢ່າງ",
+        "sendAmountLabel": "ຈຳນວນເງິນທີ່ສົ່ງ",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "ປະເທດຜູ້ຮັບ",
+        "recipientCountryOption": "Cambodia",
+        "receiveCurrencyLabel": "KHR",
+        "receiverGetsLabel": "ຜູ້ຮັບຈະໄດ້ຮັບ",
+        "transferFeeLabel": "ຄ່າທຳນຽມໂອນ",
+        "exchangeRateLabel": "ອັດຕາແລກປ່ຽນ",
+        "submitLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "ສົ່ງເງິນໄປ Cambodia",
+        "description": "ວິທີທີ່ງ່າຍ ແລະ ປອດໄພໃນການຊ່ວຍເຫຼືອຄອບຄົວ ແລະ ຄົນຮັກຂອງທ່ານໃນ Cambodia ຈາກເກົາຫຼີ.",
+        "features": [
+          "ອັດຕາແລກປ່ຽນທີ່ແຂ່ງຂັນໄດ້",
+          "ການໂອນທີ່ໄວ ແລະ ເຊື່ອຖືໄດ້",
+          "ຄ່າທຳນຽມຊັດເຈນ",
+          "ການຊ່ວຍເຫຼືອເມື່ອທ່ານຕ້ອງການ"
+        ],
+        "ctaLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "ບັດດຽວສຳລັບທຸກຢ່າງ",
+        "description": "ການຊຳລະທີ່ງ່າຍສຳລັບຊີວິດປະຈຳວັນໃນເກົາຫຼີ ແລະ ຕ່າງປະເທດ.",
+        "features": [
+          "ຊຳລະໄດ້ທົ່ວໂລກ",
+          "ຊື້ເຄື່ອງ",
+          "ການເດີນທາງ",
+          "Cashback",
+          "ສິດປະໂຫຍດ EasyCare"
+        ],
+        "ctaLabel": "ເບິ່ງ GME Cards"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "ຕິດຕໍ່ກັນສະເໝີໃນເກົາຫຼີ",
+        "description": "ຕິດຕໍ່ກັບສິ່ງສຳຄັນດ້ວຍແຜນມືຖືທີ່ອອກແບບໃຫ້ຊີວິດໃນເກົາຫຼີງ່າຍຂຶ້ນ.",
+        "features": [
+          "ການເຊື່ອມຕໍ່ທີ່ເຊື່ອຖືໄດ້",
+          "ແຜນ SIM ທີ່ຍືດຫຍຸ່ນ",
+          "ຕັ້ງຄ່າງ່າຍ",
+          "ການຊ່ວຍເຫຼືອໃນທ້ອງຖິ່ນທີ່ເປັນມິດ"
+        ],
+        "ctaLabel": "ເບິ່ງແຜນ SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "ຄູ່ຮ່ວມການເງິນດິຈິຕອນຂອງທ່ານ",
+        "description": "ບໍລິການສິນເຊື່ອດິຈິຕອນສຳລັບຊາວຕ່າງປະເທດທີ່ອາໄສຢູ່ເກົາຫຼີ. ສະໝັກໄດ້ງ່າຍຜ່ານແອັບ GME.",
+        "features": [
+          "ສະໝັກສິນເຊື່ອແບບບໍ່ໃຊ້ເຈ້ຍ",
+          "ກວດສະຖານະສິນເຊື່ອແບບ real-time",
+          "ກວດຍອດສິນເຊື່ອແບບ real-time"
+        ],
+        "ctaLabel": "ສະໝັກດຽວນີ້"
+      },
+      "faq": {
+        "heading": "ຄຳຖາມທີ່ພົບເລື້ອຍກ່ຽວກັບ GME Remit",
+        "subheading": "ຊອກຫາຄຳຕອບສຳລັບຄຳຖາມທົ່ວໄປກ່ຽວກັບການສົ່ງເງິນດ້ວຍ GME Remit",
+        "items": [
+          {
+            "question": "ການສົ່ງເງິນດ້ວຍ GME Remit ໃຊ້ເວລາດົນປານໃດ?",
+            "answer": [
+              "ການໂອນເງິນຜ່ານ GME Remit ໂດຍທົ່ວໄປສຳເລັດປະມານ 10 ວິນາທີ. ເວລາຈິງອາດແຕກຕ່າງຕາມປະເທດຜູ້ຮັບ, ທະນາຄານ ຫຼື ວິທີຮັບເງິນ."
+            ]
+          },
+          {
+            "question": "GME Remit ປອດໄພບໍ?",
+            "answer": [
+              "ແມ່ນ. GME Remit ເປັນບໍລິການໂອນເງິນທີ່ໄດ້ຮັບອະນຸຍາດໃນເກົາຫຼີ ແລະ ຢູ່ພາຍໃຕ້ການກຳກັບຂອງໜ່ວຍງານການເງິນທີ່ກ່ຽວຂ້ອງ. ມີຂັ້ນຕອນຢືນຢັນ ແລະ ທຸລະກຳທີ່ປອດໄພ."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍຈະລົງທະບຽນບັນຊີ GME Remit ແນວໃດ?",
+            "answer": [
+              "ດາວໂຫຼດແອັບ GME Remit, ສ້າງບັນຊີ ແລະ ສຳເລັດການຢືນຢັນຕົວຕົນ. ຫຼັງຈາກນັ້ນສາມາດໃຊ້ບໍລິການໄດ້."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍສາມາດສົ່ງເງິນໄປປະເທດໃດໄດ້ແດ່ຜ່ານ GME Remit?",
+            "answer": [
+              "GME Remit ຮອງຮັບການໂອນເງິນໄປຫຼາຍປະເທດ. ກວດປະເທດປາຍທາງ ແລະ ທາງເລືອກຮັບເງິນໃນແອັບ GME Remit."
+            ]
+          },
+          {
+            "question": "ຖ້າການໂອນເງິນມີບັນຫາ ຂ້ອຍຄວນເຮັດແນວໃດ?",
+            "answer": [
+              "ທີມຊ່ວຍເຫຼືອໃຫ້ບໍລິການ 10:00–23:00 ວັນຈັນຫາວັນອາທິດ. ຕິດຕໍ່ຜ່ານ {SUPPORT_PHONE_NUMBER}, ແອັບ GME Remit, ສື່ສັງຄົມທາງການ ຫຼື ສາຂາໃນເກົາຫຼີ."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "ເຊື່ອມຕໍ່ກັບ GME Cambodia",
+        "subheading": "ຂ່າວ, ຄຳແນະນຳທີ່ເປັນປະໂຫຍດ ແລະ ຂໍ້ມູນໃໝ່ສຳລັບຊຸມຊົນ",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "ດາວໂຫຼດແອັບ GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "Financial services made for Cambodians in Korea.",
+        "copyrightSuffix": "GME. ສະຫງວນລິຂະສິດ."
+      }
+    },
+    "china": {
+      "header": {
+        "navItems": {
+          "company": "ບໍລິສັດ",
+          "services": "ບໍລິການ",
+          "countries": "ປະເທດ",
+          "news": "ຂ່າວ",
+          "support": "ຊ່ວຍເຫຼືອ"
+        },
+        "downloadAppLabel": "ດາວໂຫຼດແອັບ"
+      },
+      "hero": {
+        "eyebrow": "GME China",
+        "headingLines": [
+          "ສົ່ງເງິນກັບບ້ານ.",
+          "ຕິດຕໍ່ກັນສະເໝີ.",
+          "ໃຊ້ຈ່າຍໄດ້ງ່າຍ."
+        ],
+        "subheading": "ບໍລິການທີ່ໄວ້ວາງໃຈໄດ້ສຳລັບ Chinese nationals ທີ່ອາໄສຢູ່ເກົາຫຼີ",
+        "ctaPrimaryLabel": "ສົ່ງເງິນດຽວນີ້",
+        "ctaSecondaryLabel": "ເລີ່ມຕົ້ນ"
+      },
+      "exchangeRate": {
+        "eyebrow": "ອັດຕາແລກປ່ຽນ",
+        "heading": "ກວດອັດຕາແລກປ່ຽນມື້ນີ້",
+        "description": "ກວດອັດຕາແລກປ່ຽນ GME Remit ຫຼ້າສຸດກ່ອນສົ່ງເງິນຈາກເກົາຫຼີໄປ China",
+        "note": "ອັດຕາແລກປ່ຽນອາດປ່ຽນແປງໃນລະຫວ່າງມື້",
+        "cardTitle": "ເຄື່ອງຄິດໄລ່ GME Remit",
+        "sampleTag": "ຄ່າຕົວຢ່າງ",
+        "sendAmountLabel": "ຈຳນວນເງິນທີ່ສົ່ງ",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "ປະເທດຜູ້ຮັບ",
+        "recipientCountryOption": "China",
+        "receiveCurrencyLabel": "CNY",
+        "receiverGetsLabel": "ຜູ້ຮັບຈະໄດ້ຮັບ",
+        "transferFeeLabel": "ຄ່າທຳນຽມໂອນ",
+        "exchangeRateLabel": "ອັດຕາແລກປ່ຽນ",
+        "submitLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "ສົ່ງເງິນໄປ China",
+        "description": "ວິທີທີ່ງ່າຍ ແລະ ປອດໄພໃນການຊ່ວຍເຫຼືອຄອບຄົວ ແລະ ຄົນຮັກຂອງທ່ານໃນ China ຈາກເກົາຫຼີ.",
+        "features": [
+          "ອັດຕາແລກປ່ຽນທີ່ແຂ່ງຂັນໄດ້",
+          "ການໂອນທີ່ໄວ ແລະ ເຊື່ອຖືໄດ້",
+          "ຄ່າທຳນຽມຊັດເຈນ",
+          "ການຊ່ວຍເຫຼືອເມື່ອທ່ານຕ້ອງການ"
+        ],
+        "ctaLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "ບັດດຽວສຳລັບທຸກຢ່າງ",
+        "description": "ການຊຳລະທີ່ງ່າຍສຳລັບຊີວິດປະຈຳວັນໃນເກົາຫຼີ ແລະ ຕ່າງປະເທດ.",
+        "features": [
+          "ຊຳລະໄດ້ທົ່ວໂລກ",
+          "ຊື້ເຄື່ອງ",
+          "ການເດີນທາງ",
+          "Cashback",
+          "ສິດປະໂຫຍດ EasyCare"
+        ],
+        "ctaLabel": "ເບິ່ງ GME Cards"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "ຕິດຕໍ່ກັນສະເໝີໃນເກົາຫຼີ",
+        "description": "ຕິດຕໍ່ກັບສິ່ງສຳຄັນດ້ວຍແຜນມືຖືທີ່ອອກແບບໃຫ້ຊີວິດໃນເກົາຫຼີງ່າຍຂຶ້ນ.",
+        "features": [
+          "ການເຊື່ອມຕໍ່ທີ່ເຊື່ອຖືໄດ້",
+          "ແຜນ SIM ທີ່ຍືດຫຍຸ່ນ",
+          "ຕັ້ງຄ່າງ່າຍ",
+          "ການຊ່ວຍເຫຼືອໃນທ້ອງຖິ່ນທີ່ເປັນມິດ"
+        ],
+        "ctaLabel": "ເບິ່ງແຜນ SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "ຄູ່ຮ່ວມການເງິນດິຈິຕອນຂອງທ່ານ",
+        "description": "ບໍລິການສິນເຊື່ອດິຈິຕອນສຳລັບຊາວຕ່າງປະເທດທີ່ອາໄສຢູ່ເກົາຫຼີ. ສະໝັກໄດ້ງ່າຍຜ່ານແອັບ GME.",
+        "features": [
+          "ສະໝັກສິນເຊື່ອແບບບໍ່ໃຊ້ເຈ້ຍ",
+          "ກວດສະຖານະສິນເຊື່ອແບບ real-time",
+          "ກວດຍອດສິນເຊື່ອແບບ real-time"
+        ],
+        "ctaLabel": "ສະໝັກດຽວນີ້"
+      },
+      "faq": {
+        "heading": "ຄຳຖາມທີ່ພົບເລື້ອຍກ່ຽວກັບ GME Remit",
+        "subheading": "ຊອກຫາຄຳຕອບສຳລັບຄຳຖາມທົ່ວໄປກ່ຽວກັບການສົ່ງເງິນດ້ວຍ GME Remit",
+        "items": [
+          {
+            "question": "ການສົ່ງເງິນດ້ວຍ GME Remit ໃຊ້ເວລາດົນປານໃດ?",
+            "answer": [
+              "ການໂອນເງິນຜ່ານ GME Remit ໂດຍທົ່ວໄປສຳເລັດປະມານ 10 ວິນາທີ. ເວລາຈິງອາດແຕກຕ່າງຕາມປະເທດຜູ້ຮັບ, ທະນາຄານ ຫຼື ວິທີຮັບເງິນ."
+            ]
+          },
+          {
+            "question": "GME Remit ປອດໄພບໍ?",
+            "answer": [
+              "ແມ່ນ. GME Remit ເປັນບໍລິການໂອນເງິນທີ່ໄດ້ຮັບອະນຸຍາດໃນເກົາຫຼີ ແລະ ຢູ່ພາຍໃຕ້ການກຳກັບຂອງໜ່ວຍງານການເງິນທີ່ກ່ຽວຂ້ອງ. ມີຂັ້ນຕອນຢືນຢັນ ແລະ ທຸລະກຳທີ່ປອດໄພ."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍຈະລົງທະບຽນບັນຊີ GME Remit ແນວໃດ?",
+            "answer": [
+              "ດາວໂຫຼດແອັບ GME Remit, ສ້າງບັນຊີ ແລະ ສຳເລັດການຢືນຢັນຕົວຕົນ. ຫຼັງຈາກນັ້ນສາມາດໃຊ້ບໍລິການໄດ້."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍສາມາດສົ່ງເງິນໄປປະເທດໃດໄດ້ແດ່ຜ່ານ GME Remit?",
+            "answer": [
+              "GME Remit ຮອງຮັບການໂອນເງິນໄປຫຼາຍປະເທດ. ກວດປະເທດປາຍທາງ ແລະ ທາງເລືອກຮັບເງິນໃນແອັບ GME Remit."
+            ]
+          },
+          {
+            "question": "ຖ້າການໂອນເງິນມີບັນຫາ ຂ້ອຍຄວນເຮັດແນວໃດ?",
+            "answer": [
+              "ທີມຊ່ວຍເຫຼືອໃຫ້ບໍລິການ 10:00–23:00 ວັນຈັນຫາວັນອາທິດ. ຕິດຕໍ່ຜ່ານ {SUPPORT_PHONE_NUMBER}, ແອັບ GME Remit, ສື່ສັງຄົມທາງການ ຫຼື ສາຂາໃນເກົາຫຼີ."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "ເຊື່ອມຕໍ່ກັບ GME China",
+        "subheading": "ຂ່າວ, ຄຳແນະນຳທີ່ເປັນປະໂຫຍດ ແລະ ຂໍ້ມູນໃໝ່ສຳລັບຊຸມຊົນ",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "ດາວໂຫຼດແອັບ GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "Financial services made for Chinese nationals in Korea.",
+        "copyrightSuffix": "GME. ສະຫງວນລິຂະສິດ."
+      }
+    },
+    "india": {
+      "header": {
+        "navItems": {
+          "company": "ບໍລິສັດ",
+          "services": "ບໍລິການ",
+          "countries": "ປະເທດ",
+          "news": "ຂ່າວ",
+          "support": "ຊ່ວຍເຫຼືອ"
+        },
+        "downloadAppLabel": "ດາວໂຫຼດແອັບ"
+      },
+      "hero": {
+        "eyebrow": "GME India",
+        "headingLines": [
+          "ສົ່ງເງິນກັບບ້ານ.",
+          "ຕິດຕໍ່ກັນສະເໝີ.",
+          "ໃຊ້ຈ່າຍໄດ້ງ່າຍ."
+        ],
+        "subheading": "ບໍລິການທີ່ໄວ້ວາງໃຈໄດ້ສຳລັບ Indians ທີ່ອາໄສຢູ່ເກົາຫຼີ",
+        "ctaPrimaryLabel": "ສົ່ງເງິນດຽວນີ້",
+        "ctaSecondaryLabel": "ເລີ່ມຕົ້ນ"
+      },
+      "exchangeRate": {
+        "eyebrow": "ອັດຕາແລກປ່ຽນ",
+        "heading": "ກວດອັດຕາແລກປ່ຽນມື້ນີ້",
+        "description": "ກວດອັດຕາແລກປ່ຽນ GME Remit ຫຼ້າສຸດກ່ອນສົ່ງເງິນຈາກເກົາຫຼີໄປ India",
+        "note": "ອັດຕາແລກປ່ຽນອາດປ່ຽນແປງໃນລະຫວ່າງມື້",
+        "cardTitle": "ເຄື່ອງຄິດໄລ່ GME Remit",
+        "sampleTag": "ຄ່າຕົວຢ່າງ",
+        "sendAmountLabel": "ຈຳນວນເງິນທີ່ສົ່ງ",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "ປະເທດຜູ້ຮັບ",
+        "recipientCountryOption": "India",
+        "receiveCurrencyLabel": "INR",
+        "receiverGetsLabel": "ຜູ້ຮັບຈະໄດ້ຮັບ",
+        "transferFeeLabel": "ຄ່າທຳນຽມໂອນ",
+        "exchangeRateLabel": "ອັດຕາແລກປ່ຽນ",
+        "submitLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "ສົ່ງເງິນໄປ India",
+        "description": "ວິທີທີ່ງ່າຍ ແລະ ປອດໄພໃນການຊ່ວຍເຫຼືອຄອບຄົວ ແລະ ຄົນຮັກຂອງທ່ານໃນ India ຈາກເກົາຫຼີ.",
+        "features": [
+          "ອັດຕາແລກປ່ຽນທີ່ແຂ່ງຂັນໄດ້",
+          "ການໂອນທີ່ໄວ ແລະ ເຊື່ອຖືໄດ້",
+          "ຄ່າທຳນຽມຊັດເຈນ",
+          "ການຊ່ວຍເຫຼືອເມື່ອທ່ານຕ້ອງການ"
+        ],
+        "ctaLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "ບັດດຽວສຳລັບທຸກຢ່າງ",
+        "description": "ການຊຳລະທີ່ງ່າຍສຳລັບຊີວິດປະຈຳວັນໃນເກົາຫຼີ ແລະ ຕ່າງປະເທດ.",
+        "features": [
+          "ຊຳລະໄດ້ທົ່ວໂລກ",
+          "ຊື້ເຄື່ອງ",
+          "ການເດີນທາງ",
+          "Cashback",
+          "ສິດປະໂຫຍດ EasyCare"
+        ],
+        "ctaLabel": "ເບິ່ງ GME Cards"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "ຕິດຕໍ່ກັນສະເໝີໃນເກົາຫຼີ",
+        "description": "ຕິດຕໍ່ກັບສິ່ງສຳຄັນດ້ວຍແຜນມືຖືທີ່ອອກແບບໃຫ້ຊີວິດໃນເກົາຫຼີງ່າຍຂຶ້ນ.",
+        "features": [
+          "ການເຊື່ອມຕໍ່ທີ່ເຊື່ອຖືໄດ້",
+          "ແຜນ SIM ທີ່ຍືດຫຍຸ່ນ",
+          "ຕັ້ງຄ່າງ່າຍ",
+          "ການຊ່ວຍເຫຼືອໃນທ້ອງຖິ່ນທີ່ເປັນມິດ"
+        ],
+        "ctaLabel": "ເບິ່ງແຜນ SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "ຄູ່ຮ່ວມການເງິນດິຈິຕອນຂອງທ່ານ",
+        "description": "ບໍລິການສິນເຊື່ອດິຈິຕອນສຳລັບຊາວຕ່າງປະເທດທີ່ອາໄສຢູ່ເກົາຫຼີ. ສະໝັກໄດ້ງ່າຍຜ່ານແອັບ GME.",
+        "features": [
+          "ສະໝັກສິນເຊື່ອແບບບໍ່ໃຊ້ເຈ້ຍ",
+          "ກວດສະຖານະສິນເຊື່ອແບບ real-time",
+          "ກວດຍອດສິນເຊື່ອແບບ real-time"
+        ],
+        "ctaLabel": "ສະໝັກດຽວນີ້"
+      },
+      "faq": {
+        "heading": "ຄຳຖາມທີ່ພົບເລື້ອຍກ່ຽວກັບ GME Remit",
+        "subheading": "ຊອກຫາຄຳຕອບສຳລັບຄຳຖາມທົ່ວໄປກ່ຽວກັບການສົ່ງເງິນດ້ວຍ GME Remit",
+        "items": [
+          {
+            "question": "ການສົ່ງເງິນດ້ວຍ GME Remit ໃຊ້ເວລາດົນປານໃດ?",
+            "answer": [
+              "ການໂອນເງິນຜ່ານ GME Remit ໂດຍທົ່ວໄປສຳເລັດປະມານ 10 ວິນາທີ. ເວລາຈິງອາດແຕກຕ່າງຕາມປະເທດຜູ້ຮັບ, ທະນາຄານ ຫຼື ວິທີຮັບເງິນ."
+            ]
+          },
+          {
+            "question": "GME Remit ປອດໄພບໍ?",
+            "answer": [
+              "ແມ່ນ. GME Remit ເປັນບໍລິການໂອນເງິນທີ່ໄດ້ຮັບອະນຸຍາດໃນເກົາຫຼີ ແລະ ຢູ່ພາຍໃຕ້ການກຳກັບຂອງໜ່ວຍງານການເງິນທີ່ກ່ຽວຂ້ອງ. ມີຂັ້ນຕອນຢືນຢັນ ແລະ ທຸລະກຳທີ່ປອດໄພ."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍຈະລົງທະບຽນບັນຊີ GME Remit ແນວໃດ?",
+            "answer": [
+              "ດາວໂຫຼດແອັບ GME Remit, ສ້າງບັນຊີ ແລະ ສຳເລັດການຢືນຢັນຕົວຕົນ. ຫຼັງຈາກນັ້ນສາມາດໃຊ້ບໍລິການໄດ້."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍສາມາດສົ່ງເງິນໄປປະເທດໃດໄດ້ແດ່ຜ່ານ GME Remit?",
+            "answer": [
+              "GME Remit ຮອງຮັບການໂອນເງິນໄປຫຼາຍປະເທດ. ກວດປະເທດປາຍທາງ ແລະ ທາງເລືອກຮັບເງິນໃນແອັບ GME Remit."
+            ]
+          },
+          {
+            "question": "ຖ້າການໂອນເງິນມີບັນຫາ ຂ້ອຍຄວນເຮັດແນວໃດ?",
+            "answer": [
+              "ທີມຊ່ວຍເຫຼືອໃຫ້ບໍລິການ 10:00–23:00 ວັນຈັນຫາວັນອາທິດ. ຕິດຕໍ່ຜ່ານ {SUPPORT_PHONE_NUMBER}, ແອັບ GME Remit, ສື່ສັງຄົມທາງການ ຫຼື ສາຂາໃນເກົາຫຼີ."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "ເຊື່ອມຕໍ່ກັບ GME India",
+        "subheading": "ຂ່າວ, ຄຳແນະນຳທີ່ເປັນປະໂຫຍດ ແລະ ຂໍ້ມູນໃໝ່ສຳລັບຊຸມຊົນ",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "ດາວໂຫຼດແອັບ GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "Financial services made for Indians in Korea.",
+        "copyrightSuffix": "GME. ສະຫງວນລິຂະສິດ."
+      }
+    },
+    "indonesia": {
+      "header": {
+        "navItems": {
+          "company": "ບໍລິສັດ",
+          "services": "ບໍລິການ",
+          "countries": "ປະເທດ",
+          "news": "ຂ່າວ",
+          "support": "ຊ່ວຍເຫຼືອ"
+        },
+        "downloadAppLabel": "ດາວໂຫຼດແອັບ"
+      },
+      "hero": {
+        "eyebrow": "GME Indonesia",
+        "headingLines": [
+          "ສົ່ງເງິນກັບບ້ານ.",
+          "ຕິດຕໍ່ກັນສະເໝີ.",
+          "ໃຊ້ຈ່າຍໄດ້ງ່າຍ."
+        ],
+        "subheading": "ບໍລິການທີ່ໄວ້ວາງໃຈໄດ້ສຳລັບ Indonesians ທີ່ອາໄສຢູ່ເກົາຫຼີ",
+        "ctaPrimaryLabel": "ສົ່ງເງິນດຽວນີ້",
+        "ctaSecondaryLabel": "ເລີ່ມຕົ້ນ"
+      },
+      "exchangeRate": {
+        "eyebrow": "ອັດຕາແລກປ່ຽນ",
+        "heading": "ກວດອັດຕາແລກປ່ຽນມື້ນີ້",
+        "description": "ກວດອັດຕາແລກປ່ຽນ GME Remit ຫຼ້າສຸດກ່ອນສົ່ງເງິນຈາກເກົາຫຼີໄປ Indonesia",
+        "note": "ອັດຕາແລກປ່ຽນອາດປ່ຽນແປງໃນລະຫວ່າງມື້",
+        "cardTitle": "ເຄື່ອງຄິດໄລ່ GME Remit",
+        "sampleTag": "ຄ່າຕົວຢ່າງ",
+        "sendAmountLabel": "ຈຳນວນເງິນທີ່ສົ່ງ",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "ປະເທດຜູ້ຮັບ",
+        "recipientCountryOption": "Indonesia",
+        "receiveCurrencyLabel": "IDR",
+        "receiverGetsLabel": "ຜູ້ຮັບຈະໄດ້ຮັບ",
+        "transferFeeLabel": "ຄ່າທຳນຽມໂອນ",
+        "exchangeRateLabel": "ອັດຕາແລກປ່ຽນ",
+        "submitLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "ສົ່ງເງິນໄປ Indonesia",
+        "description": "ວິທີທີ່ງ່າຍ ແລະ ປອດໄພໃນການຊ່ວຍເຫຼືອຄອບຄົວ ແລະ ຄົນຮັກຂອງທ່ານໃນ Indonesia ຈາກເກົາຫຼີ.",
+        "features": [
+          "ອັດຕາແລກປ່ຽນທີ່ແຂ່ງຂັນໄດ້",
+          "ການໂອນທີ່ໄວ ແລະ ເຊື່ອຖືໄດ້",
+          "ຄ່າທຳນຽມຊັດເຈນ",
+          "ການຊ່ວຍເຫຼືອເມື່ອທ່ານຕ້ອງການ"
+        ],
+        "ctaLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "ບັດດຽວສຳລັບທຸກຢ່າງ",
+        "description": "ການຊຳລະທີ່ງ່າຍສຳລັບຊີວິດປະຈຳວັນໃນເກົາຫຼີ ແລະ ຕ່າງປະເທດ.",
+        "features": [
+          "ຊຳລະໄດ້ທົ່ວໂລກ",
+          "ຊື້ເຄື່ອງ",
+          "ການເດີນທາງ",
+          "Cashback",
+          "ສິດປະໂຫຍດ EasyCare"
+        ],
+        "ctaLabel": "ເບິ່ງ GME Cards"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "ຕິດຕໍ່ກັນສະເໝີໃນເກົາຫຼີ",
+        "description": "ຕິດຕໍ່ກັບສິ່ງສຳຄັນດ້ວຍແຜນມືຖືທີ່ອອກແບບໃຫ້ຊີວິດໃນເກົາຫຼີງ່າຍຂຶ້ນ.",
+        "features": [
+          "ການເຊື່ອມຕໍ່ທີ່ເຊື່ອຖືໄດ້",
+          "ແຜນ SIM ທີ່ຍືດຫຍຸ່ນ",
+          "ຕັ້ງຄ່າງ່າຍ",
+          "ການຊ່ວຍເຫຼືອໃນທ້ອງຖິ່ນທີ່ເປັນມິດ"
+        ],
+        "ctaLabel": "ເບິ່ງແຜນ SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "ຄູ່ຮ່ວມການເງິນດິຈິຕອນຂອງທ່ານ",
+        "description": "ບໍລິການສິນເຊື່ອດິຈິຕອນສຳລັບຊາວຕ່າງປະເທດທີ່ອາໄສຢູ່ເກົາຫຼີ. ສະໝັກໄດ້ງ່າຍຜ່ານແອັບ GME.",
+        "features": [
+          "ສະໝັກສິນເຊື່ອແບບບໍ່ໃຊ້ເຈ້ຍ",
+          "ກວດສະຖານະສິນເຊື່ອແບບ real-time",
+          "ກວດຍອດສິນເຊື່ອແບບ real-time"
+        ],
+        "ctaLabel": "ສະໝັກດຽວນີ້"
+      },
+      "faq": {
+        "heading": "ຄຳຖາມທີ່ພົບເລື້ອຍກ່ຽວກັບ GME Remit",
+        "subheading": "ຊອກຫາຄຳຕອບສຳລັບຄຳຖາມທົ່ວໄປກ່ຽວກັບການສົ່ງເງິນດ້ວຍ GME Remit",
+        "items": [
+          {
+            "question": "ການສົ່ງເງິນດ້ວຍ GME Remit ໃຊ້ເວລາດົນປານໃດ?",
+            "answer": [
+              "ການໂອນເງິນຜ່ານ GME Remit ໂດຍທົ່ວໄປສຳເລັດປະມານ 10 ວິນາທີ. ເວລາຈິງອາດແຕກຕ່າງຕາມປະເທດຜູ້ຮັບ, ທະນາຄານ ຫຼື ວິທີຮັບເງິນ."
+            ]
+          },
+          {
+            "question": "GME Remit ປອດໄພບໍ?",
+            "answer": [
+              "ແມ່ນ. GME Remit ເປັນບໍລິການໂອນເງິນທີ່ໄດ້ຮັບອະນຸຍາດໃນເກົາຫຼີ ແລະ ຢູ່ພາຍໃຕ້ການກຳກັບຂອງໜ່ວຍງານການເງິນທີ່ກ່ຽວຂ້ອງ. ມີຂັ້ນຕອນຢືນຢັນ ແລະ ທຸລະກຳທີ່ປອດໄພ."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍຈະລົງທະບຽນບັນຊີ GME Remit ແນວໃດ?",
+            "answer": [
+              "ດາວໂຫຼດແອັບ GME Remit, ສ້າງບັນຊີ ແລະ ສຳເລັດການຢືນຢັນຕົວຕົນ. ຫຼັງຈາກນັ້ນສາມາດໃຊ້ບໍລິການໄດ້."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍສາມາດສົ່ງເງິນໄປປະເທດໃດໄດ້ແດ່ຜ່ານ GME Remit?",
+            "answer": [
+              "GME Remit ຮອງຮັບການໂອນເງິນໄປຫຼາຍປະເທດ. ກວດປະເທດປາຍທາງ ແລະ ທາງເລືອກຮັບເງິນໃນແອັບ GME Remit."
+            ]
+          },
+          {
+            "question": "ຖ້າການໂອນເງິນມີບັນຫາ ຂ້ອຍຄວນເຮັດແນວໃດ?",
+            "answer": [
+              "ທີມຊ່ວຍເຫຼືອໃຫ້ບໍລິການ 10:00–23:00 ວັນຈັນຫາວັນອາທິດ. ຕິດຕໍ່ຜ່ານ {SUPPORT_PHONE_NUMBER}, ແອັບ GME Remit, ສື່ສັງຄົມທາງການ ຫຼື ສາຂາໃນເກົາຫຼີ."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "ເຊື່ອມຕໍ່ກັບ GME Indonesia",
+        "subheading": "ຂ່າວ, ຄຳແນະນຳທີ່ເປັນປະໂຫຍດ ແລະ ຂໍ້ມູນໃໝ່ສຳລັບຊຸມຊົນ",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "ດາວໂຫຼດແອັບ GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "Financial services made for Indonesians in Korea.",
+        "copyrightSuffix": "GME. ສະຫງວນລິຂະສິດ."
+      }
+    },
+    "kazakhstan": {
+      "header": {
+        "navItems": {
+          "company": "ບໍລິສັດ",
+          "services": "ບໍລິການ",
+          "countries": "ປະເທດ",
+          "news": "ຂ່າວ",
+          "support": "ຊ່ວຍເຫຼືອ"
+        },
+        "downloadAppLabel": "ດາວໂຫຼດແອັບ"
+      },
+      "hero": {
+        "eyebrow": "GME Kazakhstan",
+        "headingLines": [
+          "ສົ່ງເງິນກັບບ້ານ.",
+          "ຕິດຕໍ່ກັນສະເໝີ.",
+          "ໃຊ້ຈ່າຍໄດ້ງ່າຍ."
+        ],
+        "subheading": "ບໍລິການທີ່ໄວ້ວາງໃຈໄດ້ສຳລັບ Kazakhstanis ທີ່ອາໄສຢູ່ເກົາຫຼີ",
+        "ctaPrimaryLabel": "ສົ່ງເງິນດຽວນີ້",
+        "ctaSecondaryLabel": "ເລີ່ມຕົ້ນ"
+      },
+      "exchangeRate": {
+        "eyebrow": "ອັດຕາແລກປ່ຽນ",
+        "heading": "ກວດອັດຕາແລກປ່ຽນມື້ນີ້",
+        "description": "ກວດອັດຕາແລກປ່ຽນ GME Remit ຫຼ້າສຸດກ່ອນສົ່ງເງິນຈາກເກົາຫຼີໄປ Kazakhstan",
+        "note": "ອັດຕາແລກປ່ຽນອາດປ່ຽນແປງໃນລະຫວ່າງມື້",
+        "cardTitle": "ເຄື່ອງຄິດໄລ່ GME Remit",
+        "sampleTag": "ຄ່າຕົວຢ່າງ",
+        "sendAmountLabel": "ຈຳນວນເງິນທີ່ສົ່ງ",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "ປະເທດຜູ້ຮັບ",
+        "recipientCountryOption": "Kazakhstan",
+        "receiveCurrencyLabel": "KZT",
+        "receiverGetsLabel": "ຜູ້ຮັບຈະໄດ້ຮັບ",
+        "transferFeeLabel": "ຄ່າທຳນຽມໂອນ",
+        "exchangeRateLabel": "ອັດຕາແລກປ່ຽນ",
+        "submitLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "ສົ່ງເງິນໄປ Kazakhstan",
+        "description": "ວິທີທີ່ງ່າຍ ແລະ ປອດໄພໃນການຊ່ວຍເຫຼືອຄອບຄົວ ແລະ ຄົນຮັກຂອງທ່ານໃນ Kazakhstan ຈາກເກົາຫຼີ.",
+        "features": [
+          "ອັດຕາແລກປ່ຽນທີ່ແຂ່ງຂັນໄດ້",
+          "ການໂອນທີ່ໄວ ແລະ ເຊື່ອຖືໄດ້",
+          "ຄ່າທຳນຽມຊັດເຈນ",
+          "ການຊ່ວຍເຫຼືອເມື່ອທ່ານຕ້ອງການ"
+        ],
+        "ctaLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "ບັດດຽວສຳລັບທຸກຢ່າງ",
+        "description": "ການຊຳລະທີ່ງ່າຍສຳລັບຊີວິດປະຈຳວັນໃນເກົາຫຼີ ແລະ ຕ່າງປະເທດ.",
+        "features": [
+          "ຊຳລະໄດ້ທົ່ວໂລກ",
+          "ຊື້ເຄື່ອງ",
+          "ການເດີນທາງ",
+          "Cashback",
+          "ສິດປະໂຫຍດ EasyCare"
+        ],
+        "ctaLabel": "ເບິ່ງ GME Cards"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "ຕິດຕໍ່ກັນສະເໝີໃນເກົາຫຼີ",
+        "description": "ຕິດຕໍ່ກັບສິ່ງສຳຄັນດ້ວຍແຜນມືຖືທີ່ອອກແບບໃຫ້ຊີວິດໃນເກົາຫຼີງ່າຍຂຶ້ນ.",
+        "features": [
+          "ການເຊື່ອມຕໍ່ທີ່ເຊື່ອຖືໄດ້",
+          "ແຜນ SIM ທີ່ຍືດຫຍຸ່ນ",
+          "ຕັ້ງຄ່າງ່າຍ",
+          "ການຊ່ວຍເຫຼືອໃນທ້ອງຖິ່ນທີ່ເປັນມິດ"
+        ],
+        "ctaLabel": "ເບິ່ງແຜນ SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "ຄູ່ຮ່ວມການເງິນດິຈິຕອນຂອງທ່ານ",
+        "description": "ບໍລິການສິນເຊື່ອດິຈິຕອນສຳລັບຊາວຕ່າງປະເທດທີ່ອາໄສຢູ່ເກົາຫຼີ. ສະໝັກໄດ້ງ່າຍຜ່ານແອັບ GME.",
+        "features": [
+          "ສະໝັກສິນເຊື່ອແບບບໍ່ໃຊ້ເຈ້ຍ",
+          "ກວດສະຖານະສິນເຊື່ອແບບ real-time",
+          "ກວດຍອດສິນເຊື່ອແບບ real-time"
+        ],
+        "ctaLabel": "ສະໝັກດຽວນີ້"
+      },
+      "faq": {
+        "heading": "ຄຳຖາມທີ່ພົບເລື້ອຍກ່ຽວກັບ GME Remit",
+        "subheading": "ຊອກຫາຄຳຕອບສຳລັບຄຳຖາມທົ່ວໄປກ່ຽວກັບການສົ່ງເງິນດ້ວຍ GME Remit",
+        "items": [
+          {
+            "question": "ການສົ່ງເງິນດ້ວຍ GME Remit ໃຊ້ເວລາດົນປານໃດ?",
+            "answer": [
+              "ການໂອນເງິນຜ່ານ GME Remit ໂດຍທົ່ວໄປສຳເລັດປະມານ 10 ວິນາທີ. ເວລາຈິງອາດແຕກຕ່າງຕາມປະເທດຜູ້ຮັບ, ທະນາຄານ ຫຼື ວິທີຮັບເງິນ."
+            ]
+          },
+          {
+            "question": "GME Remit ປອດໄພບໍ?",
+            "answer": [
+              "ແມ່ນ. GME Remit ເປັນບໍລິການໂອນເງິນທີ່ໄດ້ຮັບອະນຸຍາດໃນເກົາຫຼີ ແລະ ຢູ່ພາຍໃຕ້ການກຳກັບຂອງໜ່ວຍງານການເງິນທີ່ກ່ຽວຂ້ອງ. ມີຂັ້ນຕອນຢືນຢັນ ແລະ ທຸລະກຳທີ່ປອດໄພ."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍຈະລົງທະບຽນບັນຊີ GME Remit ແນວໃດ?",
+            "answer": [
+              "ດາວໂຫຼດແອັບ GME Remit, ສ້າງບັນຊີ ແລະ ສຳເລັດການຢືນຢັນຕົວຕົນ. ຫຼັງຈາກນັ້ນສາມາດໃຊ້ບໍລິການໄດ້."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍສາມາດສົ່ງເງິນໄປປະເທດໃດໄດ້ແດ່ຜ່ານ GME Remit?",
+            "answer": [
+              "GME Remit ຮອງຮັບການໂອນເງິນໄປຫຼາຍປະເທດ. ກວດປະເທດປາຍທາງ ແລະ ທາງເລືອກຮັບເງິນໃນແອັບ GME Remit."
+            ]
+          },
+          {
+            "question": "ຖ້າການໂອນເງິນມີບັນຫາ ຂ້ອຍຄວນເຮັດແນວໃດ?",
+            "answer": [
+              "ທີມຊ່ວຍເຫຼືອໃຫ້ບໍລິການ 10:00–23:00 ວັນຈັນຫາວັນອາທິດ. ຕິດຕໍ່ຜ່ານ {SUPPORT_PHONE_NUMBER}, ແອັບ GME Remit, ສື່ສັງຄົມທາງການ ຫຼື ສາຂາໃນເກົາຫຼີ."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "ເຊື່ອມຕໍ່ກັບ GME Kazakhstan",
+        "subheading": "ຂ່າວ, ຄຳແນະນຳທີ່ເປັນປະໂຫຍດ ແລະ ຂໍ້ມູນໃໝ່ສຳລັບຊຸມຊົນ",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "ດາວໂຫຼດແອັບ GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "Financial services made for Kazakhstanis in Korea.",
+        "copyrightSuffix": "GME. ສະຫງວນລິຂະສິດ."
+      }
+    },
+    "kyrgyzstan": {
+      "header": {
+        "navItems": {
+          "company": "ບໍລິສັດ",
+          "services": "ບໍລິການ",
+          "countries": "ປະເທດ",
+          "news": "ຂ່າວ",
+          "support": "ຊ່ວຍເຫຼືອ"
+        },
+        "downloadAppLabel": "ດາວໂຫຼດແອັບ"
+      },
+      "hero": {
+        "eyebrow": "GME Kyrgyzstan",
+        "headingLines": [
+          "ສົ່ງເງິນກັບບ້ານ.",
+          "ຕິດຕໍ່ກັນສະເໝີ.",
+          "ໃຊ້ຈ່າຍໄດ້ງ່າຍ."
+        ],
+        "subheading": "ບໍລິການທີ່ໄວ້ວາງໃຈໄດ້ສຳລັບ Kyrgyzstanis ທີ່ອາໄສຢູ່ເກົາຫຼີ",
+        "ctaPrimaryLabel": "ສົ່ງເງິນດຽວນີ້",
+        "ctaSecondaryLabel": "ເລີ່ມຕົ້ນ"
+      },
+      "exchangeRate": {
+        "eyebrow": "ອັດຕາແລກປ່ຽນ",
+        "heading": "ກວດອັດຕາແລກປ່ຽນມື້ນີ້",
+        "description": "ກວດອັດຕາແລກປ່ຽນ GME Remit ຫຼ້າສຸດກ່ອນສົ່ງເງິນຈາກເກົາຫຼີໄປ Kyrgyzstan",
+        "note": "ອັດຕາແລກປ່ຽນອາດປ່ຽນແປງໃນລະຫວ່າງມື້",
+        "cardTitle": "ເຄື່ອງຄິດໄລ່ GME Remit",
+        "sampleTag": "ຄ່າຕົວຢ່າງ",
+        "sendAmountLabel": "ຈຳນວນເງິນທີ່ສົ່ງ",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "ປະເທດຜູ້ຮັບ",
+        "recipientCountryOption": "Kyrgyzstan",
+        "receiveCurrencyLabel": "KGS",
+        "receiverGetsLabel": "ຜູ້ຮັບຈະໄດ້ຮັບ",
+        "transferFeeLabel": "ຄ່າທຳນຽມໂອນ",
+        "exchangeRateLabel": "ອັດຕາແລກປ່ຽນ",
+        "submitLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "ສົ່ງເງິນໄປ Kyrgyzstan",
+        "description": "ວິທີທີ່ງ່າຍ ແລະ ປອດໄພໃນການຊ່ວຍເຫຼືອຄອບຄົວ ແລະ ຄົນຮັກຂອງທ່ານໃນ Kyrgyzstan ຈາກເກົາຫຼີ.",
+        "features": [
+          "ອັດຕາແລກປ່ຽນທີ່ແຂ່ງຂັນໄດ້",
+          "ການໂອນທີ່ໄວ ແລະ ເຊື່ອຖືໄດ້",
+          "ຄ່າທຳນຽມຊັດເຈນ",
+          "ການຊ່ວຍເຫຼືອເມື່ອທ່ານຕ້ອງການ"
+        ],
+        "ctaLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "ບັດດຽວສຳລັບທຸກຢ່າງ",
+        "description": "ການຊຳລະທີ່ງ່າຍສຳລັບຊີວິດປະຈຳວັນໃນເກົາຫຼີ ແລະ ຕ່າງປະເທດ.",
+        "features": [
+          "ຊຳລະໄດ້ທົ່ວໂລກ",
+          "ຊື້ເຄື່ອງ",
+          "ການເດີນທາງ",
+          "Cashback",
+          "ສິດປະໂຫຍດ EasyCare"
+        ],
+        "ctaLabel": "ເບິ່ງ GME Cards"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "ຕິດຕໍ່ກັນສະເໝີໃນເກົາຫຼີ",
+        "description": "ຕິດຕໍ່ກັບສິ່ງສຳຄັນດ້ວຍແຜນມືຖືທີ່ອອກແບບໃຫ້ຊີວິດໃນເກົາຫຼີງ່າຍຂຶ້ນ.",
+        "features": [
+          "ການເຊື່ອມຕໍ່ທີ່ເຊື່ອຖືໄດ້",
+          "ແຜນ SIM ທີ່ຍືດຫຍຸ່ນ",
+          "ຕັ້ງຄ່າງ່າຍ",
+          "ການຊ່ວຍເຫຼືອໃນທ້ອງຖິ່ນທີ່ເປັນມິດ"
+        ],
+        "ctaLabel": "ເບິ່ງແຜນ SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "ຄູ່ຮ່ວມການເງິນດິຈິຕອນຂອງທ່ານ",
+        "description": "ບໍລິການສິນເຊື່ອດິຈິຕອນສຳລັບຊາວຕ່າງປະເທດທີ່ອາໄສຢູ່ເກົາຫຼີ. ສະໝັກໄດ້ງ່າຍຜ່ານແອັບ GME.",
+        "features": [
+          "ສະໝັກສິນເຊື່ອແບບບໍ່ໃຊ້ເຈ້ຍ",
+          "ກວດສະຖານະສິນເຊື່ອແບບ real-time",
+          "ກວດຍອດສິນເຊື່ອແບບ real-time"
+        ],
+        "ctaLabel": "ສະໝັກດຽວນີ້"
+      },
+      "faq": {
+        "heading": "ຄຳຖາມທີ່ພົບເລື້ອຍກ່ຽວກັບ GME Remit",
+        "subheading": "ຊອກຫາຄຳຕອບສຳລັບຄຳຖາມທົ່ວໄປກ່ຽວກັບການສົ່ງເງິນດ້ວຍ GME Remit",
+        "items": [
+          {
+            "question": "ການສົ່ງເງິນດ້ວຍ GME Remit ໃຊ້ເວລາດົນປານໃດ?",
+            "answer": [
+              "ການໂອນເງິນຜ່ານ GME Remit ໂດຍທົ່ວໄປສຳເລັດປະມານ 10 ວິນາທີ. ເວລາຈິງອາດແຕກຕ່າງຕາມປະເທດຜູ້ຮັບ, ທະນາຄານ ຫຼື ວິທີຮັບເງິນ."
+            ]
+          },
+          {
+            "question": "GME Remit ປອດໄພບໍ?",
+            "answer": [
+              "ແມ່ນ. GME Remit ເປັນບໍລິການໂອນເງິນທີ່ໄດ້ຮັບອະນຸຍາດໃນເກົາຫຼີ ແລະ ຢູ່ພາຍໃຕ້ການກຳກັບຂອງໜ່ວຍງານການເງິນທີ່ກ່ຽວຂ້ອງ. ມີຂັ້ນຕອນຢືນຢັນ ແລະ ທຸລະກຳທີ່ປອດໄພ."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍຈະລົງທະບຽນບັນຊີ GME Remit ແນວໃດ?",
+            "answer": [
+              "ດາວໂຫຼດແອັບ GME Remit, ສ້າງບັນຊີ ແລະ ສຳເລັດການຢືນຢັນຕົວຕົນ. ຫຼັງຈາກນັ້ນສາມາດໃຊ້ບໍລິການໄດ້."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍສາມາດສົ່ງເງິນໄປປະເທດໃດໄດ້ແດ່ຜ່ານ GME Remit?",
+            "answer": [
+              "GME Remit ຮອງຮັບການໂອນເງິນໄປຫຼາຍປະເທດ. ກວດປະເທດປາຍທາງ ແລະ ທາງເລືອກຮັບເງິນໃນແອັບ GME Remit."
+            ]
+          },
+          {
+            "question": "ຖ້າການໂອນເງິນມີບັນຫາ ຂ້ອຍຄວນເຮັດແນວໃດ?",
+            "answer": [
+              "ທີມຊ່ວຍເຫຼືອໃຫ້ບໍລິການ 10:00–23:00 ວັນຈັນຫາວັນອາທິດ. ຕິດຕໍ່ຜ່ານ {SUPPORT_PHONE_NUMBER}, ແອັບ GME Remit, ສື່ສັງຄົມທາງການ ຫຼື ສາຂາໃນເກົາຫຼີ."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "ເຊື່ອມຕໍ່ກັບ GME Kyrgyzstan",
+        "subheading": "ຂ່າວ, ຄຳແນະນຳທີ່ເປັນປະໂຫຍດ ແລະ ຂໍ້ມູນໃໝ່ສຳລັບຊຸມຊົນ",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "ດາວໂຫຼດແອັບ GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "Financial services made for Kyrgyzstanis in Korea.",
+        "copyrightSuffix": "GME. ສະຫງວນລິຂະສິດ."
+      }
+    },
+    "laos": {
+      "header": {
+        "navItems": {
+          "company": "ບໍລິສັດ",
+          "services": "ບໍລິການ",
+          "countries": "ປະເທດ",
+          "news": "ຂ່າວ",
+          "support": "ຊ່ວຍເຫຼືອ"
+        },
+        "downloadAppLabel": "ດາວໂຫຼດແອັບ"
+      },
+      "hero": {
+        "eyebrow": "GME Laos",
+        "headingLines": [
+          "ສົ່ງເງິນກັບບ້ານ.",
+          "ຕິດຕໍ່ກັນສະເໝີ.",
+          "ໃຊ້ຈ່າຍໄດ້ງ່າຍ."
+        ],
+        "subheading": "ບໍລິການທີ່ໄວ້ວາງໃຈໄດ້ສຳລັບຄົນລາວທີ່ອາໄສຢູ່ເກົາຫຼີ",
+        "ctaPrimaryLabel": "ສົ່ງເງິນດຽວນີ້",
+        "ctaSecondaryLabel": "ເລີ່ມຕົ້ນ"
+      },
+      "exchangeRate": {
+        "eyebrow": "ອັດຕາແລກປ່ຽນ",
+        "heading": "ກວດອັດຕາແລກປ່ຽນມື້ນີ້",
+        "description": "ກວດອັດຕາແລກປ່ຽນ GME Remit ຫຼ້າສຸດກ່ອນສົ່ງເງິນຈາກເກົາຫຼີໄປລາວ",
+        "note": "ອັດຕາແລກປ່ຽນອາດປ່ຽນແປງໃນລະຫວ່າງມື້",
+        "cardTitle": "ເຄື່ອງຄິດໄລ່ GME Remit",
+        "sampleTag": "ຄ່າຕົວຢ່າງ",
+        "sendAmountLabel": "ຈຳນວນເງິນທີ່ສົ່ງ",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "ປະເທດຜູ້ຮັບ",
+        "recipientCountryOption": "Laos",
+        "receiveCurrencyLabel": "LAK",
+        "receiverGetsLabel": "ຜູ້ຮັບຈະໄດ້ຮັບ",
+        "transferFeeLabel": "ຄ່າທຳນຽມໂອນ",
+        "exchangeRateLabel": "ອັດຕາແລກປ່ຽນ",
+        "submitLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "ສົ່ງເງິນໄປລາວ",
+        "description": "ວິທີທີ່ງ່າຍ ແລະ ປອດໄພໃນການຊ່ວຍເຫຼືອຄອບຄົວ ແລະ ຄົນຮັກຂອງທ່ານໃນລາວຈາກເກົາຫຼີ.",
+        "features": [
+          "ອັດຕາແລກປ່ຽນທີ່ແຂ່ງຂັນໄດ້",
+          "ການໂອນທີ່ໄວ ແລະ ເຊື່ອຖືໄດ້",
+          "ຄ່າທຳນຽມຊັດເຈນ",
+          "ການຊ່ວຍເຫຼືອເມື່ອທ່ານຕ້ອງການ"
+        ],
+        "ctaLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "ບັດດຽວສຳລັບທຸກຢ່າງ",
+        "description": "ການຊຳລະທີ່ງ່າຍສຳລັບຊີວິດປະຈຳວັນໃນເກົາຫຼີ ແລະ ຕ່າງປະເທດ.",
+        "features": [
+          "ຊຳລະໄດ້ທົ່ວໂລກ",
+          "ຊື້ເຄື່ອງ",
+          "ການເດີນທາງ",
+          "Cashback",
+          "ສິດປະໂຫຍດ EasyCare"
+        ],
+        "ctaLabel": "ເບິ່ງ GME Cards"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "ຕິດຕໍ່ກັນສະເໝີໃນເກົາຫຼີ",
+        "description": "ຕິດຕໍ່ກັບສິ່ງສຳຄັນດ້ວຍແຜນມືຖືທີ່ອອກແບບໃຫ້ຊີວິດໃນເກົາຫຼີງ່າຍຂຶ້ນ.",
+        "features": [
+          "ການເຊື່ອມຕໍ່ທີ່ເຊື່ອຖືໄດ້",
+          "ແຜນ SIM ທີ່ຍືດຫຍຸ່ນ",
+          "ຕັ້ງຄ່າງ່າຍ",
+          "ການຊ່ວຍເຫຼືອໃນທ້ອງຖິ່ນທີ່ເປັນມິດ"
+        ],
+        "ctaLabel": "ເບິ່ງແຜນ SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "ຄູ່ຮ່ວມການເງິນດິຈິຕອນຂອງທ່ານ",
+        "description": "ບໍລິການສິນເຊື່ອດິຈິຕອນສຳລັບຊາວຕ່າງປະເທດທີ່ອາໄສຢູ່ເກົາຫຼີ. ສະໝັກໄດ້ງ່າຍຜ່ານແອັບ GME.",
+        "features": [
+          "ສະໝັກສິນເຊື່ອແບບບໍ່ໃຊ້ເຈ້ຍ",
+          "ກວດສະຖານະສິນເຊື່ອແບບ real-time",
+          "ກວດຍອດສິນເຊື່ອແບບ real-time"
+        ],
+        "ctaLabel": "ສະໝັກດຽວນີ້"
+      },
+      "faq": {
+        "heading": "ຄຳຖາມທີ່ພົບເລື້ອຍກ່ຽວກັບ GME Remit",
+        "subheading": "ຊອກຫາຄຳຕອບສຳລັບຄຳຖາມທົ່ວໄປກ່ຽວກັບການສົ່ງເງິນດ້ວຍ GME Remit",
+        "items": [
+          {
+            "question": "ການສົ່ງເງິນດ້ວຍ GME Remit ໃຊ້ເວລາດົນປານໃດ?",
+            "answer": [
+              "ການໂອນເງິນຜ່ານ GME Remit ໂດຍທົ່ວໄປສຳເລັດປະມານ 10 ວິນາທີ. ເວລາຈິງອາດແຕກຕ່າງຕາມປະເທດຜູ້ຮັບ, ທະນາຄານ ຫຼື ວິທີຮັບເງິນ."
+            ]
+          },
+          {
+            "question": "GME Remit ປອດໄພບໍ?",
+            "answer": [
+              "ແມ່ນ. GME Remit ເປັນບໍລິການໂອນເງິນທີ່ໄດ້ຮັບອະນຸຍາດໃນເກົາຫຼີ ແລະ ຢູ່ພາຍໃຕ້ການກຳກັບຂອງໜ່ວຍງານການເງິນທີ່ກ່ຽວຂ້ອງ. ມີຂັ້ນຕອນຢືນຢັນ ແລະ ທຸລະກຳທີ່ປອດໄພ."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍຈະລົງທະບຽນບັນຊີ GME Remit ແນວໃດ?",
+            "answer": [
+              "ດາວໂຫຼດແອັບ GME Remit, ສ້າງບັນຊີ ແລະ ສຳເລັດການຢືນຢັນຕົວຕົນ. ຫຼັງຈາກນັ້ນສາມາດໃຊ້ບໍລິການໄດ້."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍສາມາດສົ່ງເງິນໄປປະເທດໃດໄດ້ແດ່ຜ່ານ GME Remit?",
+            "answer": [
+              "GME Remit ຮອງຮັບການໂອນເງິນໄປຫຼາຍປະເທດ. ກວດປະເທດປາຍທາງ ແລະ ທາງເລືອກຮັບເງິນໃນແອັບ GME Remit."
+            ]
+          },
+          {
+            "question": "ຖ້າການໂອນເງິນມີບັນຫາ ຂ້ອຍຄວນເຮັດແນວໃດ?",
+            "answer": [
+              "ທີມຊ່ວຍເຫຼືອໃຫ້ບໍລິການ 10:00–23:00 ວັນຈັນຫາວັນອາທິດ. ຕິດຕໍ່ຜ່ານ {SUPPORT_PHONE_NUMBER}, ແອັບ GME Remit, ສື່ສັງຄົມທາງການ ຫຼື ສາຂາໃນເກົາຫຼີ."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "ເຊື່ອມຕໍ່ກັບ GME Laos",
+        "subheading": "ຂ່າວ, ຄຳແນະນຳທີ່ເປັນປະໂຫຍດ ແລະ ຂໍ້ມູນໃໝ່ສຳລັບຊຸມຊົນ",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "ດາວໂຫຼດແອັບ GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "Financial services made for Laotians in Korea.",
+        "copyrightSuffix": "GME. ສະຫງວນລິຂະສິດ."
+      }
+    },
+    "mongolia": {
+      "header": {
+        "navItems": {
+          "company": "ບໍລິສັດ",
+          "services": "ບໍລິການ",
+          "countries": "ປະເທດ",
+          "news": "ຂ່າວ",
+          "support": "ຊ່ວຍເຫຼືອ"
+        },
+        "downloadAppLabel": "ດາວໂຫຼດແອັບ"
+      },
+      "hero": {
+        "eyebrow": "GME Mongolia",
+        "headingLines": [
+          "ສົ່ງເງິນກັບບ້ານ.",
+          "ຕິດຕໍ່ກັນສະເໝີ.",
+          "ໃຊ້ຈ່າຍໄດ້ງ່າຍ."
+        ],
+        "subheading": "ບໍລິການທີ່ໄວ້ວາງໃຈໄດ້ສຳລັບ Mongolians ທີ່ອາໄສຢູ່ເກົາຫຼີ",
+        "ctaPrimaryLabel": "ສົ່ງເງິນດຽວນີ້",
+        "ctaSecondaryLabel": "ເລີ່ມຕົ້ນ"
+      },
+      "exchangeRate": {
+        "eyebrow": "ອັດຕາແລກປ່ຽນ",
+        "heading": "ກວດອັດຕາແລກປ່ຽນມື້ນີ້",
+        "description": "ກວດອັດຕາແລກປ່ຽນ GME Remit ຫຼ້າສຸດກ່ອນສົ່ງເງິນຈາກເກົາຫຼີໄປ Mongolia",
+        "note": "ອັດຕາແລກປ່ຽນອາດປ່ຽນແປງໃນລະຫວ່າງມື້",
+        "cardTitle": "ເຄື່ອງຄິດໄລ່ GME Remit",
+        "sampleTag": "ຄ່າຕົວຢ່າງ",
+        "sendAmountLabel": "ຈຳນວນເງິນທີ່ສົ່ງ",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "ປະເທດຜູ້ຮັບ",
+        "recipientCountryOption": "Mongolia",
+        "receiveCurrencyLabel": "MNT",
+        "receiverGetsLabel": "ຜູ້ຮັບຈະໄດ້ຮັບ",
+        "transferFeeLabel": "ຄ່າທຳນຽມໂອນ",
+        "exchangeRateLabel": "ອັດຕາແລກປ່ຽນ",
+        "submitLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "ສົ່ງເງິນໄປ Mongolia",
+        "description": "ວິທີທີ່ງ່າຍ ແລະ ປອດໄພໃນການຊ່ວຍເຫຼືອຄອບຄົວ ແລະ ຄົນຮັກຂອງທ່ານໃນ Mongolia ຈາກເກົາຫຼີ.",
+        "features": [
+          "ອັດຕາແລກປ່ຽນທີ່ແຂ່ງຂັນໄດ້",
+          "ການໂອນທີ່ໄວ ແລະ ເຊື່ອຖືໄດ້",
+          "ຄ່າທຳນຽມຊັດເຈນ",
+          "ການຊ່ວຍເຫຼືອເມື່ອທ່ານຕ້ອງການ"
+        ],
+        "ctaLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "ບັດດຽວສຳລັບທຸກຢ່າງ",
+        "description": "ການຊຳລະທີ່ງ່າຍສຳລັບຊີວິດປະຈຳວັນໃນເກົາຫຼີ ແລະ ຕ່າງປະເທດ.",
+        "features": [
+          "ຊຳລະໄດ້ທົ່ວໂລກ",
+          "ຊື້ເຄື່ອງ",
+          "ການເດີນທາງ",
+          "Cashback",
+          "ສິດປະໂຫຍດ EasyCare"
+        ],
+        "ctaLabel": "ເບິ່ງ GME Cards"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "ຕິດຕໍ່ກັນສະເໝີໃນເກົາຫຼີ",
+        "description": "ຕິດຕໍ່ກັບສິ່ງສຳຄັນດ້ວຍແຜນມືຖືທີ່ອອກແບບໃຫ້ຊີວິດໃນເກົາຫຼີງ່າຍຂຶ້ນ.",
+        "features": [
+          "ການເຊື່ອມຕໍ່ທີ່ເຊື່ອຖືໄດ້",
+          "ແຜນ SIM ທີ່ຍືດຫຍຸ່ນ",
+          "ຕັ້ງຄ່າງ່າຍ",
+          "ການຊ່ວຍເຫຼືອໃນທ້ອງຖິ່ນທີ່ເປັນມິດ"
+        ],
+        "ctaLabel": "ເບິ່ງແຜນ SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "ຄູ່ຮ່ວມການເງິນດິຈິຕອນຂອງທ່ານ",
+        "description": "ບໍລິການສິນເຊື່ອດິຈິຕອນສຳລັບຊາວຕ່າງປະເທດທີ່ອາໄສຢູ່ເກົາຫຼີ. ສະໝັກໄດ້ງ່າຍຜ່ານແອັບ GME.",
+        "features": [
+          "ສະໝັກສິນເຊື່ອແບບບໍ່ໃຊ້ເຈ້ຍ",
+          "ກວດສະຖານະສິນເຊື່ອແບບ real-time",
+          "ກວດຍອດສິນເຊື່ອແບບ real-time"
+        ],
+        "ctaLabel": "ສະໝັກດຽວນີ້"
+      },
+      "faq": {
+        "heading": "ຄຳຖາມທີ່ພົບເລື້ອຍກ່ຽວກັບ GME Remit",
+        "subheading": "ຊອກຫາຄຳຕອບສຳລັບຄຳຖາມທົ່ວໄປກ່ຽວກັບການສົ່ງເງິນດ້ວຍ GME Remit",
+        "items": [
+          {
+            "question": "ການສົ່ງເງິນດ້ວຍ GME Remit ໃຊ້ເວລາດົນປານໃດ?",
+            "answer": [
+              "ການໂອນເງິນຜ່ານ GME Remit ໂດຍທົ່ວໄປສຳເລັດປະມານ 10 ວິນາທີ. ເວລາຈິງອາດແຕກຕ່າງຕາມປະເທດຜູ້ຮັບ, ທະນາຄານ ຫຼື ວິທີຮັບເງິນ."
+            ]
+          },
+          {
+            "question": "GME Remit ປອດໄພບໍ?",
+            "answer": [
+              "ແມ່ນ. GME Remit ເປັນບໍລິການໂອນເງິນທີ່ໄດ້ຮັບອະນຸຍາດໃນເກົາຫຼີ ແລະ ຢູ່ພາຍໃຕ້ການກຳກັບຂອງໜ່ວຍງານການເງິນທີ່ກ່ຽວຂ້ອງ. ມີຂັ້ນຕອນຢືນຢັນ ແລະ ທຸລະກຳທີ່ປອດໄພ."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍຈະລົງທະບຽນບັນຊີ GME Remit ແນວໃດ?",
+            "answer": [
+              "ດາວໂຫຼດແອັບ GME Remit, ສ້າງບັນຊີ ແລະ ສຳເລັດການຢືນຢັນຕົວຕົນ. ຫຼັງຈາກນັ້ນສາມາດໃຊ້ບໍລິການໄດ້."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍສາມາດສົ່ງເງິນໄປປະເທດໃດໄດ້ແດ່ຜ່ານ GME Remit?",
+            "answer": [
+              "GME Remit ຮອງຮັບການໂອນເງິນໄປຫຼາຍປະເທດ. ກວດປະເທດປາຍທາງ ແລະ ທາງເລືອກຮັບເງິນໃນແອັບ GME Remit."
+            ]
+          },
+          {
+            "question": "ຖ້າການໂອນເງິນມີບັນຫາ ຂ້ອຍຄວນເຮັດແນວໃດ?",
+            "answer": [
+              "ທີມຊ່ວຍເຫຼືອໃຫ້ບໍລິການ 10:00–23:00 ວັນຈັນຫາວັນອາທິດ. ຕິດຕໍ່ຜ່ານ {SUPPORT_PHONE_NUMBER}, ແອັບ GME Remit, ສື່ສັງຄົມທາງການ ຫຼື ສາຂາໃນເກົາຫຼີ."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "ເຊື່ອມຕໍ່ກັບ GME Mongolia",
+        "subheading": "ຂ່າວ, ຄຳແນະນຳທີ່ເປັນປະໂຫຍດ ແລະ ຂໍ້ມູນໃໝ່ສຳລັບຊຸມຊົນ",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "ດາວໂຫຼດແອັບ GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "Financial services made for Mongolians in Korea.",
+        "copyrightSuffix": "GME. ສະຫງວນລິຂະສິດ."
+      }
+    },
+    "myanmar": {
+      "header": {
+        "navItems": {
+          "company": "ບໍລິສັດ",
+          "services": "ບໍລິການ",
+          "countries": "ປະເທດ",
+          "news": "ຂ່າວ",
+          "support": "ຊ່ວຍເຫຼືອ"
+        },
+        "downloadAppLabel": "ດາວໂຫຼດແອັບ"
+      },
+      "hero": {
+        "eyebrow": "GME Myanmar",
+        "headingLines": [
+          "ສົ່ງເງິນກັບບ້ານ.",
+          "ຕິດຕໍ່ກັນສະເໝີ.",
+          "ໃຊ້ຈ່າຍໄດ້ງ່າຍ."
+        ],
+        "subheading": "ບໍລິການທີ່ໄວ້ວາງໃຈໄດ້ສຳລັບ Myanmar nationals ທີ່ອາໄສຢູ່ເກົາຫຼີ",
+        "ctaPrimaryLabel": "ສົ່ງເງິນດຽວນີ້",
+        "ctaSecondaryLabel": "ເລີ່ມຕົ້ນ"
+      },
+      "exchangeRate": {
+        "eyebrow": "ອັດຕາແລກປ່ຽນ",
+        "heading": "ກວດອັດຕາແລກປ່ຽນມື້ນີ້",
+        "description": "ກວດອັດຕາແລກປ່ຽນ GME Remit ຫຼ້າສຸດກ່ອນສົ່ງເງິນຈາກເກົາຫຼີໄປ Myanmar",
+        "note": "ອັດຕາແລກປ່ຽນອາດປ່ຽນແປງໃນລະຫວ່າງມື້",
+        "cardTitle": "ເຄື່ອງຄິດໄລ່ GME Remit",
+        "sampleTag": "ຄ່າຕົວຢ່າງ",
+        "sendAmountLabel": "ຈຳນວນເງິນທີ່ສົ່ງ",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "ປະເທດຜູ້ຮັບ",
+        "recipientCountryOption": "Myanmar",
+        "receiveCurrencyLabel": "MMK",
+        "receiverGetsLabel": "ຜູ້ຮັບຈະໄດ້ຮັບ",
+        "transferFeeLabel": "ຄ່າທຳນຽມໂອນ",
+        "exchangeRateLabel": "ອັດຕາແລກປ່ຽນ",
+        "submitLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "ສົ່ງເງິນໄປ Myanmar",
+        "description": "ວິທີທີ່ງ່າຍ ແລະ ປອດໄພໃນການຊ່ວຍເຫຼືອຄອບຄົວ ແລະ ຄົນຮັກຂອງທ່ານໃນ Myanmar ຈາກເກົາຫຼີ.",
+        "features": [
+          "ອັດຕາແລກປ່ຽນທີ່ແຂ່ງຂັນໄດ້",
+          "ການໂອນທີ່ໄວ ແລະ ເຊື່ອຖືໄດ້",
+          "ຄ່າທຳນຽມຊັດເຈນ",
+          "ການຊ່ວຍເຫຼືອເມື່ອທ່ານຕ້ອງການ"
+        ],
+        "ctaLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "ບັດດຽວສຳລັບທຸກຢ່າງ",
+        "description": "ການຊຳລະທີ່ງ່າຍສຳລັບຊີວິດປະຈຳວັນໃນເກົາຫຼີ ແລະ ຕ່າງປະເທດ.",
+        "features": [
+          "ຊຳລະໄດ້ທົ່ວໂລກ",
+          "ຊື້ເຄື່ອງ",
+          "ການເດີນທາງ",
+          "Cashback",
+          "ສິດປະໂຫຍດ EasyCare"
+        ],
+        "ctaLabel": "ເບິ່ງ GME Cards"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "ຕິດຕໍ່ກັນສະເໝີໃນເກົາຫຼີ",
+        "description": "ຕິດຕໍ່ກັບສິ່ງສຳຄັນດ້ວຍແຜນມືຖືທີ່ອອກແບບໃຫ້ຊີວິດໃນເກົາຫຼີງ່າຍຂຶ້ນ.",
+        "features": [
+          "ການເຊື່ອມຕໍ່ທີ່ເຊື່ອຖືໄດ້",
+          "ແຜນ SIM ທີ່ຍືດຫຍຸ່ນ",
+          "ຕັ້ງຄ່າງ່າຍ",
+          "ການຊ່ວຍເຫຼືອໃນທ້ອງຖິ່ນທີ່ເປັນມິດ"
+        ],
+        "ctaLabel": "ເບິ່ງແຜນ SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "ຄູ່ຮ່ວມການເງິນດິຈິຕອນຂອງທ່ານ",
+        "description": "ບໍລິການສິນເຊື່ອດິຈິຕອນສຳລັບຊາວຕ່າງປະເທດທີ່ອາໄສຢູ່ເກົາຫຼີ. ສະໝັກໄດ້ງ່າຍຜ່ານແອັບ GME.",
+        "features": [
+          "ສະໝັກສິນເຊື່ອແບບບໍ່ໃຊ້ເຈ້ຍ",
+          "ກວດສະຖານະສິນເຊື່ອແບບ real-time",
+          "ກວດຍອດສິນເຊື່ອແບບ real-time"
+        ],
+        "ctaLabel": "ສະໝັກດຽວນີ້"
+      },
+      "faq": {
+        "heading": "ຄຳຖາມທີ່ພົບເລື້ອຍກ່ຽວກັບ GME Remit",
+        "subheading": "ຊອກຫາຄຳຕອບສຳລັບຄຳຖາມທົ່ວໄປກ່ຽວກັບການສົ່ງເງິນດ້ວຍ GME Remit",
+        "items": [
+          {
+            "question": "ການສົ່ງເງິນດ້ວຍ GME Remit ໃຊ້ເວລາດົນປານໃດ?",
+            "answer": [
+              "ການໂອນເງິນຜ່ານ GME Remit ໂດຍທົ່ວໄປສຳເລັດປະມານ 10 ວິນາທີ. ເວລາຈິງອາດແຕກຕ່າງຕາມປະເທດຜູ້ຮັບ, ທະນາຄານ ຫຼື ວິທີຮັບເງິນ."
+            ]
+          },
+          {
+            "question": "GME Remit ປອດໄພບໍ?",
+            "answer": [
+              "ແມ່ນ. GME Remit ເປັນບໍລິການໂອນເງິນທີ່ໄດ້ຮັບອະນຸຍາດໃນເກົາຫຼີ ແລະ ຢູ່ພາຍໃຕ້ການກຳກັບຂອງໜ່ວຍງານການເງິນທີ່ກ່ຽວຂ້ອງ. ມີຂັ້ນຕອນຢືນຢັນ ແລະ ທຸລະກຳທີ່ປອດໄພ."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍຈະລົງທະບຽນບັນຊີ GME Remit ແນວໃດ?",
+            "answer": [
+              "ດາວໂຫຼດແອັບ GME Remit, ສ້າງບັນຊີ ແລະ ສຳເລັດການຢືນຢັນຕົວຕົນ. ຫຼັງຈາກນັ້ນສາມາດໃຊ້ບໍລິການໄດ້."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍສາມາດສົ່ງເງິນໄປປະເທດໃດໄດ້ແດ່ຜ່ານ GME Remit?",
+            "answer": [
+              "GME Remit ຮອງຮັບການໂອນເງິນໄປຫຼາຍປະເທດ. ກວດປະເທດປາຍທາງ ແລະ ທາງເລືອກຮັບເງິນໃນແອັບ GME Remit."
+            ]
+          },
+          {
+            "question": "ຖ້າການໂອນເງິນມີບັນຫາ ຂ້ອຍຄວນເຮັດແນວໃດ?",
+            "answer": [
+              "ທີມຊ່ວຍເຫຼືອໃຫ້ບໍລິການ 10:00–23:00 ວັນຈັນຫາວັນອາທິດ. ຕິດຕໍ່ຜ່ານ {SUPPORT_PHONE_NUMBER}, ແອັບ GME Remit, ສື່ສັງຄົມທາງການ ຫຼື ສາຂາໃນເກົາຫຼີ."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "ເຊື່ອມຕໍ່ກັບ GME Myanmar",
+        "subheading": "ຂ່າວ, ຄຳແນະນຳທີ່ເປັນປະໂຫຍດ ແລະ ຂໍ້ມູນໃໝ່ສຳລັບຊຸມຊົນ",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "ດາວໂຫຼດແອັບ GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "Financial services made for Myanmar nationals in Korea.",
+        "copyrightSuffix": "GME. ສະຫງວນລິຂະສິດ."
+      }
+    },
+    "nepal": {
+      "header": {
+        "navItems": {
+          "company": "ບໍລິສັດ",
+          "services": "ບໍລິການ",
+          "countries": "ປະເທດ",
+          "news": "ຂ່າວ",
+          "support": "ຊ່ວຍເຫຼືອ"
+        },
+        "downloadAppLabel": "ດາວໂຫຼດແອັບ"
+      },
+      "hero": {
+        "eyebrow": "GME Nepal",
+        "headingLines": [
+          "ສົ່ງເງິນກັບບ້ານ.",
+          "ຕິດຕໍ່ກັນສະເໝີ.",
+          "ໃຊ້ຈ່າຍໄດ້ງ່າຍ."
+        ],
+        "subheading": "ບໍລິການທີ່ໄວ້ວາງໃຈໄດ້ສຳລັບ Nepalis ທີ່ອາໄສຢູ່ເກົາຫຼີ",
+        "ctaPrimaryLabel": "ສົ່ງເງິນດຽວນີ້",
+        "ctaSecondaryLabel": "ເລີ່ມຕົ້ນ"
+      },
+      "exchangeRate": {
+        "eyebrow": "ອັດຕາແລກປ່ຽນ",
+        "heading": "ກວດອັດຕາແລກປ່ຽນມື້ນີ້",
+        "description": "ກວດອັດຕາແລກປ່ຽນ GME Remit ຫຼ້າສຸດກ່ອນສົ່ງເງິນຈາກເກົາຫຼີໄປ Nepal",
+        "note": "ອັດຕາແລກປ່ຽນອາດປ່ຽນແປງໃນລະຫວ່າງມື້",
+        "cardTitle": "ເຄື່ອງຄິດໄລ່ GME Remit",
+        "sampleTag": "ຄ່າຕົວຢ່າງ",
+        "sendAmountLabel": "ຈຳນວນເງິນທີ່ສົ່ງ",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "ປະເທດຜູ້ຮັບ",
+        "recipientCountryOption": "Nepal",
+        "receiveCurrencyLabel": "NPR",
+        "receiverGetsLabel": "ຜູ້ຮັບຈະໄດ້ຮັບ",
+        "transferFeeLabel": "ຄ່າທຳນຽມໂອນ",
+        "exchangeRateLabel": "ອັດຕາແລກປ່ຽນ",
+        "submitLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "ສົ່ງເງິນໄປ Nepal",
+        "description": "ວິທີທີ່ງ່າຍ ແລະ ປອດໄພໃນການຊ່ວຍເຫຼືອຄອບຄົວ ແລະ ຄົນຮັກຂອງທ່ານໃນ Nepal ຈາກເກົາຫຼີ.",
+        "features": [
+          "ອັດຕາແລກປ່ຽນທີ່ແຂ່ງຂັນໄດ້",
+          "ການໂອນທີ່ໄວ ແລະ ເຊື່ອຖືໄດ້",
+          "ຄ່າທຳນຽມຊັດເຈນ",
+          "ການຊ່ວຍເຫຼືອເມື່ອທ່ານຕ້ອງການ"
+        ],
+        "ctaLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "ບັດດຽວສຳລັບທຸກຢ່າງ",
+        "description": "ການຊຳລະທີ່ງ່າຍສຳລັບຊີວິດປະຈຳວັນໃນເກົາຫຼີ ແລະ ຕ່າງປະເທດ.",
+        "features": [
+          "ຊຳລະໄດ້ທົ່ວໂລກ",
+          "ຊື້ເຄື່ອງ",
+          "ການເດີນທາງ",
+          "Cashback",
+          "ສິດປະໂຫຍດ EasyCare"
+        ],
+        "ctaLabel": "ເບິ່ງ GME Cards"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "ຕິດຕໍ່ກັນສະເໝີໃນເກົາຫຼີ",
+        "description": "ຕິດຕໍ່ກັບສິ່ງສຳຄັນດ້ວຍແຜນມືຖືທີ່ອອກແບບໃຫ້ຊີວິດໃນເກົາຫຼີງ່າຍຂຶ້ນ.",
+        "features": [
+          "ການເຊື່ອມຕໍ່ທີ່ເຊື່ອຖືໄດ້",
+          "ແຜນ SIM ທີ່ຍືດຫຍຸ່ນ",
+          "ຕັ້ງຄ່າງ່າຍ",
+          "ການຊ່ວຍເຫຼືອໃນທ້ອງຖິ່ນທີ່ເປັນມິດ"
+        ],
+        "ctaLabel": "ເບິ່ງແຜນ SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "ຄູ່ຮ່ວມການເງິນດິຈິຕອນຂອງທ່ານ",
+        "description": "ບໍລິການສິນເຊື່ອດິຈິຕອນສຳລັບຊາວຕ່າງປະເທດທີ່ອາໄສຢູ່ເກົາຫຼີ. ສະໝັກໄດ້ງ່າຍຜ່ານແອັບ GME.",
+        "features": [
+          "ສະໝັກສິນເຊື່ອແບບບໍ່ໃຊ້ເຈ້ຍ",
+          "ກວດສະຖານະສິນເຊື່ອແບບ real-time",
+          "ກວດຍອດສິນເຊື່ອແບບ real-time"
+        ],
+        "ctaLabel": "ສະໝັກດຽວນີ້"
+      },
+      "faq": {
+        "heading": "ຄຳຖາມທີ່ພົບເລື້ອຍກ່ຽວກັບ GME Remit",
+        "subheading": "ຊອກຫາຄຳຕອບສຳລັບຄຳຖາມທົ່ວໄປກ່ຽວກັບການສົ່ງເງິນດ້ວຍ GME Remit",
+        "items": [
+          {
+            "question": "ການສົ່ງເງິນດ້ວຍ GME Remit ໃຊ້ເວລາດົນປານໃດ?",
+            "answer": [
+              "ການໂອນເງິນຜ່ານ GME Remit ໂດຍທົ່ວໄປສຳເລັດປະມານ 10 ວິນາທີ. ເວລາຈິງອາດແຕກຕ່າງຕາມປະເທດຜູ້ຮັບ, ທະນາຄານ ຫຼື ວິທີຮັບເງິນ."
+            ]
+          },
+          {
+            "question": "GME Remit ປອດໄພບໍ?",
+            "answer": [
+              "ແມ່ນ. GME Remit ເປັນບໍລິການໂອນເງິນທີ່ໄດ້ຮັບອະນຸຍາດໃນເກົາຫຼີ ແລະ ຢູ່ພາຍໃຕ້ການກຳກັບຂອງໜ່ວຍງານການເງິນທີ່ກ່ຽວຂ້ອງ. ມີຂັ້ນຕອນຢືນຢັນ ແລະ ທຸລະກຳທີ່ປອດໄພ."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍຈະລົງທະບຽນບັນຊີ GME Remit ແນວໃດ?",
+            "answer": [
+              "ດາວໂຫຼດແອັບ GME Remit, ສ້າງບັນຊີ ແລະ ສຳເລັດການຢືນຢັນຕົວຕົນ. ຫຼັງຈາກນັ້ນສາມາດໃຊ້ບໍລິການໄດ້."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍສາມາດສົ່ງເງິນໄປປະເທດໃດໄດ້ແດ່ຜ່ານ GME Remit?",
+            "answer": [
+              "GME Remit ຮອງຮັບການໂອນເງິນໄປຫຼາຍປະເທດ. ກວດປະເທດປາຍທາງ ແລະ ທາງເລືອກຮັບເງິນໃນແອັບ GME Remit."
+            ]
+          },
+          {
+            "question": "ຖ້າການໂອນເງິນມີບັນຫາ ຂ້ອຍຄວນເຮັດແນວໃດ?",
+            "answer": [
+              "ທີມຊ່ວຍເຫຼືອໃຫ້ບໍລິການ 10:00–23:00 ວັນຈັນຫາວັນອາທິດ. ຕິດຕໍ່ຜ່ານ {SUPPORT_PHONE_NUMBER}, ແອັບ GME Remit, ສື່ສັງຄົມທາງການ ຫຼື ສາຂາໃນເກົາຫຼີ."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "ເຊື່ອມຕໍ່ກັບ GME Nepal",
+        "subheading": "ຂ່າວ, ຄຳແນະນຳທີ່ເປັນປະໂຫຍດ ແລະ ຂໍ້ມູນໃໝ່ສຳລັບຊຸມຊົນ",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "ດາວໂຫຼດແອັບ GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "Financial services made for Nepalis in Korea.",
+        "copyrightSuffix": "GME. ສະຫງວນລິຂະສິດ."
+      }
+    },
+    "pakistan": {
+      "header": {
+        "navItems": {
+          "company": "ບໍລິສັດ",
+          "services": "ບໍລິການ",
+          "countries": "ປະເທດ",
+          "news": "ຂ່າວ",
+          "support": "ຊ່ວຍເຫຼືອ"
+        },
+        "downloadAppLabel": "ດາວໂຫຼດແອັບ"
+      },
+      "hero": {
+        "eyebrow": "GME Pakistan",
+        "headingLines": [
+          "ສົ່ງເງິນກັບບ້ານ.",
+          "ຕິດຕໍ່ກັນສະເໝີ.",
+          "ໃຊ້ຈ່າຍໄດ້ງ່າຍ."
+        ],
+        "subheading": "ບໍລິການທີ່ໄວ້ວາງໃຈໄດ້ສຳລັບ Pakistanis ທີ່ອາໄສຢູ່ເກົາຫຼີ",
+        "ctaPrimaryLabel": "ສົ່ງເງິນດຽວນີ້",
+        "ctaSecondaryLabel": "ເລີ່ມຕົ້ນ"
+      },
+      "exchangeRate": {
+        "eyebrow": "ອັດຕາແລກປ່ຽນ",
+        "heading": "ກວດອັດຕາແລກປ່ຽນມື້ນີ້",
+        "description": "ກວດອັດຕາແລກປ່ຽນ GME Remit ຫຼ້າສຸດກ່ອນສົ່ງເງິນຈາກເກົາຫຼີໄປ Pakistan",
+        "note": "ອັດຕາແລກປ່ຽນອາດປ່ຽນແປງໃນລະຫວ່າງມື້",
+        "cardTitle": "ເຄື່ອງຄິດໄລ່ GME Remit",
+        "sampleTag": "ຄ່າຕົວຢ່າງ",
+        "sendAmountLabel": "ຈຳນວນເງິນທີ່ສົ່ງ",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "ປະເທດຜູ້ຮັບ",
+        "recipientCountryOption": "Pakistan",
+        "receiveCurrencyLabel": "PKR",
+        "receiverGetsLabel": "ຜູ້ຮັບຈະໄດ້ຮັບ",
+        "transferFeeLabel": "ຄ່າທຳນຽມໂອນ",
+        "exchangeRateLabel": "ອັດຕາແລກປ່ຽນ",
+        "submitLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "ສົ່ງເງິນໄປ Pakistan",
+        "description": "ວິທີທີ່ງ່າຍ ແລະ ປອດໄພໃນການຊ່ວຍເຫຼືອຄອບຄົວ ແລະ ຄົນຮັກຂອງທ່ານໃນ Pakistan ຈາກເກົາຫຼີ.",
+        "features": [
+          "ອັດຕາແລກປ່ຽນທີ່ແຂ່ງຂັນໄດ້",
+          "ການໂອນທີ່ໄວ ແລະ ເຊື່ອຖືໄດ້",
+          "ຄ່າທຳນຽມຊັດເຈນ",
+          "ການຊ່ວຍເຫຼືອເມື່ອທ່ານຕ້ອງການ"
+        ],
+        "ctaLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "ບັດດຽວສຳລັບທຸກຢ່າງ",
+        "description": "ການຊຳລະທີ່ງ່າຍສຳລັບຊີວິດປະຈຳວັນໃນເກົາຫຼີ ແລະ ຕ່າງປະເທດ.",
+        "features": [
+          "ຊຳລະໄດ້ທົ່ວໂລກ",
+          "ຊື້ເຄື່ອງ",
+          "ການເດີນທາງ",
+          "Cashback",
+          "ສິດປະໂຫຍດ EasyCare"
+        ],
+        "ctaLabel": "ເບິ່ງ GME Cards"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "ຕິດຕໍ່ກັນສະເໝີໃນເກົາຫຼີ",
+        "description": "ຕິດຕໍ່ກັບສິ່ງສຳຄັນດ້ວຍແຜນມືຖືທີ່ອອກແບບໃຫ້ຊີວິດໃນເກົາຫຼີງ່າຍຂຶ້ນ.",
+        "features": [
+          "ການເຊື່ອມຕໍ່ທີ່ເຊື່ອຖືໄດ້",
+          "ແຜນ SIM ທີ່ຍືດຫຍຸ່ນ",
+          "ຕັ້ງຄ່າງ່າຍ",
+          "ການຊ່ວຍເຫຼືອໃນທ້ອງຖິ່ນທີ່ເປັນມິດ"
+        ],
+        "ctaLabel": "ເບິ່ງແຜນ SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "ຄູ່ຮ່ວມການເງິນດິຈິຕອນຂອງທ່ານ",
+        "description": "ບໍລິການສິນເຊື່ອດິຈິຕອນສຳລັບຊາວຕ່າງປະເທດທີ່ອາໄສຢູ່ເກົາຫຼີ. ສະໝັກໄດ້ງ່າຍຜ່ານແອັບ GME.",
+        "features": [
+          "ສະໝັກສິນເຊື່ອແບບບໍ່ໃຊ້ເຈ້ຍ",
+          "ກວດສະຖານະສິນເຊື່ອແບບ real-time",
+          "ກວດຍອດສິນເຊື່ອແບບ real-time"
+        ],
+        "ctaLabel": "ສະໝັກດຽວນີ້"
+      },
+      "faq": {
+        "heading": "ຄຳຖາມທີ່ພົບເລື້ອຍກ່ຽວກັບ GME Remit",
+        "subheading": "ຊອກຫາຄຳຕອບສຳລັບຄຳຖາມທົ່ວໄປກ່ຽວກັບການສົ່ງເງິນດ້ວຍ GME Remit",
+        "items": [
+          {
+            "question": "ການສົ່ງເງິນດ້ວຍ GME Remit ໃຊ້ເວລາດົນປານໃດ?",
+            "answer": [
+              "ການໂອນເງິນຜ່ານ GME Remit ໂດຍທົ່ວໄປສຳເລັດປະມານ 10 ວິນາທີ. ເວລາຈິງອາດແຕກຕ່າງຕາມປະເທດຜູ້ຮັບ, ທະນາຄານ ຫຼື ວິທີຮັບເງິນ."
+            ]
+          },
+          {
+            "question": "GME Remit ປອດໄພບໍ?",
+            "answer": [
+              "ແມ່ນ. GME Remit ເປັນບໍລິການໂອນເງິນທີ່ໄດ້ຮັບອະນຸຍາດໃນເກົາຫຼີ ແລະ ຢູ່ພາຍໃຕ້ການກຳກັບຂອງໜ່ວຍງານການເງິນທີ່ກ່ຽວຂ້ອງ. ມີຂັ້ນຕອນຢືນຢັນ ແລະ ທຸລະກຳທີ່ປອດໄພ."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍຈະລົງທະບຽນບັນຊີ GME Remit ແນວໃດ?",
+            "answer": [
+              "ດາວໂຫຼດແອັບ GME Remit, ສ້າງບັນຊີ ແລະ ສຳເລັດການຢືນຢັນຕົວຕົນ. ຫຼັງຈາກນັ້ນສາມາດໃຊ້ບໍລິການໄດ້."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍສາມາດສົ່ງເງິນໄປປະເທດໃດໄດ້ແດ່ຜ່ານ GME Remit?",
+            "answer": [
+              "GME Remit ຮອງຮັບການໂອນເງິນໄປຫຼາຍປະເທດ. ກວດປະເທດປາຍທາງ ແລະ ທາງເລືອກຮັບເງິນໃນແອັບ GME Remit."
+            ]
+          },
+          {
+            "question": "ຖ້າການໂອນເງິນມີບັນຫາ ຂ້ອຍຄວນເຮັດແນວໃດ?",
+            "answer": [
+              "ທີມຊ່ວຍເຫຼືອໃຫ້ບໍລິການ 10:00–23:00 ວັນຈັນຫາວັນອາທິດ. ຕິດຕໍ່ຜ່ານ {SUPPORT_PHONE_NUMBER}, ແອັບ GME Remit, ສື່ສັງຄົມທາງການ ຫຼື ສາຂາໃນເກົາຫຼີ."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "ເຊື່ອມຕໍ່ກັບ GME Pakistan",
+        "subheading": "ຂ່າວ, ຄຳແນະນຳທີ່ເປັນປະໂຫຍດ ແລະ ຂໍ້ມູນໃໝ່ສຳລັບຊຸມຊົນ",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "ດາວໂຫຼດແອັບ GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "Financial services made for Pakistanis in Korea.",
+        "copyrightSuffix": "GME. ສະຫງວນລິຂະສິດ."
+      }
+    },
+    "philippines": {
+      "header": {
+        "navItems": {
+          "company": "ບໍລິສັດ",
+          "services": "ບໍລິການ",
+          "countries": "ປະເທດ",
+          "news": "ຂ່າວ",
+          "support": "ຊ່ວຍເຫຼືອ"
+        },
+        "downloadAppLabel": "ດາວໂຫຼດແອັບ"
+      },
+      "hero": {
+        "eyebrow": "GME Philippines",
+        "headingLines": [
+          "ສົ່ງເງິນກັບບ້ານ.",
+          "ຕິດຕໍ່ກັນສະເໝີ.",
+          "ໃຊ້ຈ່າຍໄດ້ງ່າຍ."
+        ],
+        "subheading": "ບໍລິການທີ່ໄວ້ວາງໃຈໄດ້ສຳລັບ Filipinos ທີ່ອາໄສຢູ່ເກົາຫຼີ",
+        "ctaPrimaryLabel": "ສົ່ງເງິນດຽວນີ້",
+        "ctaSecondaryLabel": "ເລີ່ມຕົ້ນ"
+      },
+      "exchangeRate": {
+        "eyebrow": "ອັດຕາແລກປ່ຽນ",
+        "heading": "ກວດອັດຕາແລກປ່ຽນມື້ນີ້",
+        "description": "ກວດອັດຕາແລກປ່ຽນ GME Remit ຫຼ້າສຸດກ່ອນສົ່ງເງິນຈາກເກົາຫຼີໄປ Philippines",
+        "note": "ອັດຕາແລກປ່ຽນອາດປ່ຽນແປງໃນລະຫວ່າງມື້",
+        "cardTitle": "ເຄື່ອງຄິດໄລ່ GME Remit",
+        "sampleTag": "ຄ່າຕົວຢ່າງ",
+        "sendAmountLabel": "ຈຳນວນເງິນທີ່ສົ່ງ",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "ປະເທດຜູ້ຮັບ",
+        "recipientCountryOption": "Philippines",
+        "receiveCurrencyLabel": "PHP",
+        "receiverGetsLabel": "ຜູ້ຮັບຈະໄດ້ຮັບ",
+        "transferFeeLabel": "ຄ່າທຳນຽມໂອນ",
+        "exchangeRateLabel": "ອັດຕາແລກປ່ຽນ",
+        "submitLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "ສົ່ງເງິນໄປ Philippines",
+        "description": "ວິທີທີ່ງ່າຍ ແລະ ປອດໄພໃນການຊ່ວຍເຫຼືອຄອບຄົວ ແລະ ຄົນຮັກຂອງທ່ານໃນ Philippines ຈາກເກົາຫຼີ.",
+        "features": [
+          "ອັດຕາແລກປ່ຽນທີ່ແຂ່ງຂັນໄດ້",
+          "ການໂອນທີ່ໄວ ແລະ ເຊື່ອຖືໄດ້",
+          "ຄ່າທຳນຽມຊັດເຈນ",
+          "ການຊ່ວຍເຫຼືອເມື່ອທ່ານຕ້ອງການ"
+        ],
+        "ctaLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "ບັດດຽວສຳລັບທຸກຢ່າງ",
+        "description": "ການຊຳລະທີ່ງ່າຍສຳລັບຊີວິດປະຈຳວັນໃນເກົາຫຼີ ແລະ ຕ່າງປະເທດ.",
+        "features": [
+          "ຊຳລະໄດ້ທົ່ວໂລກ",
+          "ຊື້ເຄື່ອງ",
+          "ການເດີນທາງ",
+          "Cashback",
+          "ສິດປະໂຫຍດ EasyCare"
+        ],
+        "ctaLabel": "ເບິ່ງ GME Cards"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "ຕິດຕໍ່ກັນສະເໝີໃນເກົາຫຼີ",
+        "description": "ຕິດຕໍ່ກັບສິ່ງສຳຄັນດ້ວຍແຜນມືຖືທີ່ອອກແບບໃຫ້ຊີວິດໃນເກົາຫຼີງ່າຍຂຶ້ນ.",
+        "features": [
+          "ການເຊື່ອມຕໍ່ທີ່ເຊື່ອຖືໄດ້",
+          "ແຜນ SIM ທີ່ຍືດຫຍຸ່ນ",
+          "ຕັ້ງຄ່າງ່າຍ",
+          "ການຊ່ວຍເຫຼືອໃນທ້ອງຖິ່ນທີ່ເປັນມິດ"
+        ],
+        "ctaLabel": "ເບິ່ງແຜນ SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "ຄູ່ຮ່ວມການເງິນດິຈິຕອນຂອງທ່ານ",
+        "description": "ບໍລິການສິນເຊື່ອດິຈິຕອນສຳລັບຊາວຕ່າງປະເທດທີ່ອາໄສຢູ່ເກົາຫຼີ. ສະໝັກໄດ້ງ່າຍຜ່ານແອັບ GME.",
+        "features": [
+          "ສະໝັກສິນເຊື່ອແບບບໍ່ໃຊ້ເຈ້ຍ",
+          "ກວດສະຖານະສິນເຊື່ອແບບ real-time",
+          "ກວດຍອດສິນເຊື່ອແບບ real-time"
+        ],
+        "ctaLabel": "ສະໝັກດຽວນີ້"
+      },
+      "faq": {
+        "heading": "ຄຳຖາມທີ່ພົບເລື້ອຍກ່ຽວກັບ GME Remit",
+        "subheading": "ຊອກຫາຄຳຕອບສຳລັບຄຳຖາມທົ່ວໄປກ່ຽວກັບການສົ່ງເງິນດ້ວຍ GME Remit",
+        "items": [
+          {
+            "question": "ການສົ່ງເງິນດ້ວຍ GME Remit ໃຊ້ເວລາດົນປານໃດ?",
+            "answer": [
+              "ການໂອນເງິນຜ່ານ GME Remit ໂດຍທົ່ວໄປສຳເລັດປະມານ 10 ວິນາທີ. ເວລາຈິງອາດແຕກຕ່າງຕາມປະເທດຜູ້ຮັບ, ທະນາຄານ ຫຼື ວິທີຮັບເງິນ."
+            ]
+          },
+          {
+            "question": "GME Remit ປອດໄພບໍ?",
+            "answer": [
+              "ແມ່ນ. GME Remit ເປັນບໍລິການໂອນເງິນທີ່ໄດ້ຮັບອະນຸຍາດໃນເກົາຫຼີ ແລະ ຢູ່ພາຍໃຕ້ການກຳກັບຂອງໜ່ວຍງານການເງິນທີ່ກ່ຽວຂ້ອງ. ມີຂັ້ນຕອນຢືນຢັນ ແລະ ທຸລະກຳທີ່ປອດໄພ."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍຈະລົງທະບຽນບັນຊີ GME Remit ແນວໃດ?",
+            "answer": [
+              "ດາວໂຫຼດແອັບ GME Remit, ສ້າງບັນຊີ ແລະ ສຳເລັດການຢືນຢັນຕົວຕົນ. ຫຼັງຈາກນັ້ນສາມາດໃຊ້ບໍລິການໄດ້."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍສາມາດສົ່ງເງິນໄປປະເທດໃດໄດ້ແດ່ຜ່ານ GME Remit?",
+            "answer": [
+              "GME Remit ຮອງຮັບການໂອນເງິນໄປຫຼາຍປະເທດ. ກວດປະເທດປາຍທາງ ແລະ ທາງເລືອກຮັບເງິນໃນແອັບ GME Remit."
+            ]
+          },
+          {
+            "question": "ຖ້າການໂອນເງິນມີບັນຫາ ຂ້ອຍຄວນເຮັດແນວໃດ?",
+            "answer": [
+              "ທີມຊ່ວຍເຫຼືອໃຫ້ບໍລິການ 10:00–23:00 ວັນຈັນຫາວັນອາທິດ. ຕິດຕໍ່ຜ່ານ {SUPPORT_PHONE_NUMBER}, ແອັບ GME Remit, ສື່ສັງຄົມທາງການ ຫຼື ສາຂາໃນເກົາຫຼີ."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "ເຊື່ອມຕໍ່ກັບ GME Philippines",
+        "subheading": "ຂ່າວ, ຄຳແນະນຳທີ່ເປັນປະໂຫຍດ ແລະ ຂໍ້ມູນໃໝ່ສຳລັບຊຸມຊົນ",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "ດາວໂຫຼດແອັບ GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "Financial services made for Filipinos in Korea.",
+        "copyrightSuffix": "GME. ສະຫງວນລິຂະສິດ."
+      }
+    },
+    "russia": {
+      "header": {
+        "navItems": {
+          "company": "ບໍລິສັດ",
+          "services": "ບໍລິການ",
+          "countries": "ປະເທດ",
+          "news": "ຂ່າວ",
+          "support": "ຊ່ວຍເຫຼືອ"
+        },
+        "downloadAppLabel": "ດາວໂຫຼດແອັບ"
+      },
+      "hero": {
+        "eyebrow": "GME Russia",
+        "headingLines": [
+          "ສົ່ງເງິນກັບບ້ານ.",
+          "ຕິດຕໍ່ກັນສະເໝີ.",
+          "ໃຊ້ຈ່າຍໄດ້ງ່າຍ."
+        ],
+        "subheading": "ບໍລິການທີ່ໄວ້ວາງໃຈໄດ້ສຳລັບ Russians ທີ່ອາໄສຢູ່ເກົາຫຼີ",
+        "ctaPrimaryLabel": "ສົ່ງເງິນດຽວນີ້",
+        "ctaSecondaryLabel": "ເລີ່ມຕົ້ນ"
+      },
+      "exchangeRate": {
+        "eyebrow": "ອັດຕາແລກປ່ຽນ",
+        "heading": "ກວດອັດຕາແລກປ່ຽນມື້ນີ້",
+        "description": "ກວດອັດຕາແລກປ່ຽນ GME Remit ຫຼ້າສຸດກ່ອນສົ່ງເງິນຈາກເກົາຫຼີໄປ Russia",
+        "note": "ອັດຕາແລກປ່ຽນອາດປ່ຽນແປງໃນລະຫວ່າງມື້",
+        "cardTitle": "ເຄື່ອງຄິດໄລ່ GME Remit",
+        "sampleTag": "ຄ່າຕົວຢ່າງ",
+        "sendAmountLabel": "ຈຳນວນເງິນທີ່ສົ່ງ",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "ປະເທດຜູ້ຮັບ",
+        "recipientCountryOption": "Russia",
+        "receiveCurrencyLabel": "RUB",
+        "receiverGetsLabel": "ຜູ້ຮັບຈະໄດ້ຮັບ",
+        "transferFeeLabel": "ຄ່າທຳນຽມໂອນ",
+        "exchangeRateLabel": "ອັດຕາແລກປ່ຽນ",
+        "submitLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "ສົ່ງເງິນໄປ Russia",
+        "description": "ວິທີທີ່ງ່າຍ ແລະ ປອດໄພໃນການຊ່ວຍເຫຼືອຄອບຄົວ ແລະ ຄົນຮັກຂອງທ່ານໃນ Russia ຈາກເກົາຫຼີ.",
+        "features": [
+          "ອັດຕາແລກປ່ຽນທີ່ແຂ່ງຂັນໄດ້",
+          "ການໂອນທີ່ໄວ ແລະ ເຊື່ອຖືໄດ້",
+          "ຄ່າທຳນຽມຊັດເຈນ",
+          "ການຊ່ວຍເຫຼືອເມື່ອທ່ານຕ້ອງການ"
+        ],
+        "ctaLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "ບັດດຽວສຳລັບທຸກຢ່າງ",
+        "description": "ການຊຳລະທີ່ງ່າຍສຳລັບຊີວິດປະຈຳວັນໃນເກົາຫຼີ ແລະ ຕ່າງປະເທດ.",
+        "features": [
+          "ຊຳລະໄດ້ທົ່ວໂລກ",
+          "ຊື້ເຄື່ອງ",
+          "ການເດີນທາງ",
+          "Cashback",
+          "ສິດປະໂຫຍດ EasyCare"
+        ],
+        "ctaLabel": "ເບິ່ງ GME Cards"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "ຕິດຕໍ່ກັນສະເໝີໃນເກົາຫຼີ",
+        "description": "ຕິດຕໍ່ກັບສິ່ງສຳຄັນດ້ວຍແຜນມືຖືທີ່ອອກແບບໃຫ້ຊີວິດໃນເກົາຫຼີງ່າຍຂຶ້ນ.",
+        "features": [
+          "ການເຊື່ອມຕໍ່ທີ່ເຊື່ອຖືໄດ້",
+          "ແຜນ SIM ທີ່ຍືດຫຍຸ່ນ",
+          "ຕັ້ງຄ່າງ່າຍ",
+          "ການຊ່ວຍເຫຼືອໃນທ້ອງຖິ່ນທີ່ເປັນມິດ"
+        ],
+        "ctaLabel": "ເບິ່ງແຜນ SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "ຄູ່ຮ່ວມການເງິນດິຈິຕອນຂອງທ່ານ",
+        "description": "ບໍລິການສິນເຊື່ອດິຈິຕອນສຳລັບຊາວຕ່າງປະເທດທີ່ອາໄສຢູ່ເກົາຫຼີ. ສະໝັກໄດ້ງ່າຍຜ່ານແອັບ GME.",
+        "features": [
+          "ສະໝັກສິນເຊື່ອແບບບໍ່ໃຊ້ເຈ້ຍ",
+          "ກວດສະຖານະສິນເຊື່ອແບບ real-time",
+          "ກວດຍອດສິນເຊື່ອແບບ real-time"
+        ],
+        "ctaLabel": "ສະໝັກດຽວນີ້"
+      },
+      "faq": {
+        "heading": "ຄຳຖາມທີ່ພົບເລື້ອຍກ່ຽວກັບ GME Remit",
+        "subheading": "ຊອກຫາຄຳຕອບສຳລັບຄຳຖາມທົ່ວໄປກ່ຽວກັບການສົ່ງເງິນດ້ວຍ GME Remit",
+        "items": [
+          {
+            "question": "ການສົ່ງເງິນດ້ວຍ GME Remit ໃຊ້ເວລາດົນປານໃດ?",
+            "answer": [
+              "ການໂອນເງິນຜ່ານ GME Remit ໂດຍທົ່ວໄປສຳເລັດປະມານ 10 ວິນາທີ. ເວລາຈິງອາດແຕກຕ່າງຕາມປະເທດຜູ້ຮັບ, ທະນາຄານ ຫຼື ວິທີຮັບເງິນ."
+            ]
+          },
+          {
+            "question": "GME Remit ປອດໄພບໍ?",
+            "answer": [
+              "ແມ່ນ. GME Remit ເປັນບໍລິການໂອນເງິນທີ່ໄດ້ຮັບອະນຸຍາດໃນເກົາຫຼີ ແລະ ຢູ່ພາຍໃຕ້ການກຳກັບຂອງໜ່ວຍງານການເງິນທີ່ກ່ຽວຂ້ອງ. ມີຂັ້ນຕອນຢືນຢັນ ແລະ ທຸລະກຳທີ່ປອດໄພ."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍຈະລົງທະບຽນບັນຊີ GME Remit ແນວໃດ?",
+            "answer": [
+              "ດາວໂຫຼດແອັບ GME Remit, ສ້າງບັນຊີ ແລະ ສຳເລັດການຢືນຢັນຕົວຕົນ. ຫຼັງຈາກນັ້ນສາມາດໃຊ້ບໍລິການໄດ້."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍສາມາດສົ່ງເງິນໄປປະເທດໃດໄດ້ແດ່ຜ່ານ GME Remit?",
+            "answer": [
+              "GME Remit ຮອງຮັບການໂອນເງິນໄປຫຼາຍປະເທດ. ກວດປະເທດປາຍທາງ ແລະ ທາງເລືອກຮັບເງິນໃນແອັບ GME Remit."
+            ]
+          },
+          {
+            "question": "ຖ້າການໂອນເງິນມີບັນຫາ ຂ້ອຍຄວນເຮັດແນວໃດ?",
+            "answer": [
+              "ທີມຊ່ວຍເຫຼືອໃຫ້ບໍລິການ 10:00–23:00 ວັນຈັນຫາວັນອາທິດ. ຕິດຕໍ່ຜ່ານ {SUPPORT_PHONE_NUMBER}, ແອັບ GME Remit, ສື່ສັງຄົມທາງການ ຫຼື ສາຂາໃນເກົາຫຼີ."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "ເຊື່ອມຕໍ່ກັບ GME Russia",
+        "subheading": "ຂ່າວ, ຄຳແນະນຳທີ່ເປັນປະໂຫຍດ ແລະ ຂໍ້ມູນໃໝ່ສຳລັບຊຸມຊົນ",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "ດາວໂຫຼດແອັບ GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "Financial services made for Russians in Korea.",
+        "copyrightSuffix": "GME. ສະຫງວນລິຂະສິດ."
+      }
+    },
+    "spanish-latam": {
+      "header": {
+        "navItems": {
+          "company": "ບໍລິສັດ",
+          "services": "ບໍລິການ",
+          "countries": "ປະເທດ",
+          "news": "ຂ່າວ",
+          "support": "ຊ່ວຍເຫຼືອ"
+        },
+        "downloadAppLabel": "ດາວໂຫຼດແອັບ"
+      },
+      "hero": {
+        "eyebrow": "GME Spanish / Latam",
+        "headingLines": [
+          "ສົ່ງເງິນກັບບ້ານ.",
+          "ຕິດຕໍ່ກັນສະເໝີ.",
+          "ໃຊ້ຈ່າຍໄດ້ງ່າຍ."
+        ],
+        "subheading": "ບໍລິການທີ່ໄວ້ວາງໃຈໄດ້ສຳລັບ the Spanish-speaking and Latam community ທີ່ອາໄສຢູ່ເກົາຫຼີ",
+        "ctaPrimaryLabel": "ສົ່ງເງິນດຽວນີ້",
+        "ctaSecondaryLabel": "ເລີ່ມຕົ້ນ"
+      },
+      "exchangeRate": {
+        "eyebrow": "ອັດຕາແລກປ່ຽນ",
+        "heading": "ກວດອັດຕາແລກປ່ຽນມື້ນີ້",
+        "description": "ກວດອັດຕາແລກປ່ຽນ GME Remit ຫຼ້າສຸດກ່ອນສົ່ງເງິນຈາກເກົາຫຼີໄປ Spanish / Latam",
+        "note": "ອັດຕາແລກປ່ຽນອາດປ່ຽນແປງໃນລະຫວ່າງມື້",
+        "cardTitle": "ເຄື່ອງຄິດໄລ່ GME Remit",
+        "sampleTag": "ຄ່າຕົວຢ່າງ",
+        "sendAmountLabel": "ຈຳນວນເງິນທີ່ສົ່ງ",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "ປະເທດຜູ້ຮັບ",
+        "recipientCountryOption": "Spanish / Latam",
+        "receiveCurrencyLabel": "TBD",
+        "receiverGetsLabel": "ຜູ້ຮັບຈະໄດ້ຮັບ",
+        "transferFeeLabel": "ຄ່າທຳນຽມໂອນ",
+        "exchangeRateLabel": "ອັດຕາແລກປ່ຽນ",
+        "submitLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "ສົ່ງເງິນໄປ Spanish / Latam",
+        "description": "ວິທີທີ່ງ່າຍ ແລະ ປອດໄພໃນການຊ່ວຍເຫຼືອຄອບຄົວ ແລະ ຄົນຮັກຂອງທ່ານໃນ Spanish / Latam ຈາກເກົາຫຼີ.",
+        "features": [
+          "ອັດຕາແລກປ່ຽນທີ່ແຂ່ງຂັນໄດ້",
+          "ການໂອນທີ່ໄວ ແລະ ເຊື່ອຖືໄດ້",
+          "ຄ່າທຳນຽມຊັດເຈນ",
+          "ການຊ່ວຍເຫຼືອເມື່ອທ່ານຕ້ອງການ"
+        ],
+        "ctaLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "ບັດດຽວສຳລັບທຸກຢ່າງ",
+        "description": "ການຊຳລະທີ່ງ່າຍສຳລັບຊີວິດປະຈຳວັນໃນເກົາຫຼີ ແລະ ຕ່າງປະເທດ.",
+        "features": [
+          "ຊຳລະໄດ້ທົ່ວໂລກ",
+          "ຊື້ເຄື່ອງ",
+          "ການເດີນທາງ",
+          "Cashback",
+          "ສິດປະໂຫຍດ EasyCare"
+        ],
+        "ctaLabel": "ເບິ່ງ GME Cards"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "ຕິດຕໍ່ກັນສະເໝີໃນເກົາຫຼີ",
+        "description": "ຕິດຕໍ່ກັບສິ່ງສຳຄັນດ້ວຍແຜນມືຖືທີ່ອອກແບບໃຫ້ຊີວິດໃນເກົາຫຼີງ່າຍຂຶ້ນ.",
+        "features": [
+          "ການເຊື່ອມຕໍ່ທີ່ເຊື່ອຖືໄດ້",
+          "ແຜນ SIM ທີ່ຍືດຫຍຸ່ນ",
+          "ຕັ້ງຄ່າງ່າຍ",
+          "ການຊ່ວຍເຫຼືອໃນທ້ອງຖິ່ນທີ່ເປັນມິດ"
+        ],
+        "ctaLabel": "ເບິ່ງແຜນ SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "ຄູ່ຮ່ວມການເງິນດິຈິຕອນຂອງທ່ານ",
+        "description": "ບໍລິການສິນເຊື່ອດິຈິຕອນສຳລັບຊາວຕ່າງປະເທດທີ່ອາໄສຢູ່ເກົາຫຼີ. ສະໝັກໄດ້ງ່າຍຜ່ານແອັບ GME.",
+        "features": [
+          "ສະໝັກສິນເຊື່ອແບບບໍ່ໃຊ້ເຈ້ຍ",
+          "ກວດສະຖານະສິນເຊື່ອແບບ real-time",
+          "ກວດຍອດສິນເຊື່ອແບບ real-time"
+        ],
+        "ctaLabel": "ສະໝັກດຽວນີ້"
+      },
+      "faq": {
+        "heading": "ຄຳຖາມທີ່ພົບເລື້ອຍກ່ຽວກັບ GME Remit",
+        "subheading": "ຊອກຫາຄຳຕອບສຳລັບຄຳຖາມທົ່ວໄປກ່ຽວກັບການສົ່ງເງິນດ້ວຍ GME Remit",
+        "items": [
+          {
+            "question": "ການສົ່ງເງິນດ້ວຍ GME Remit ໃຊ້ເວລາດົນປານໃດ?",
+            "answer": [
+              "ການໂອນເງິນຜ່ານ GME Remit ໂດຍທົ່ວໄປສຳເລັດປະມານ 10 ວິນາທີ. ເວລາຈິງອາດແຕກຕ່າງຕາມປະເທດຜູ້ຮັບ, ທະນາຄານ ຫຼື ວິທີຮັບເງິນ."
+            ]
+          },
+          {
+            "question": "GME Remit ປອດໄພບໍ?",
+            "answer": [
+              "ແມ່ນ. GME Remit ເປັນບໍລິການໂອນເງິນທີ່ໄດ້ຮັບອະນຸຍາດໃນເກົາຫຼີ ແລະ ຢູ່ພາຍໃຕ້ການກຳກັບຂອງໜ່ວຍງານການເງິນທີ່ກ່ຽວຂ້ອງ. ມີຂັ້ນຕອນຢືນຢັນ ແລະ ທຸລະກຳທີ່ປອດໄພ."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍຈະລົງທະບຽນບັນຊີ GME Remit ແນວໃດ?",
+            "answer": [
+              "ດາວໂຫຼດແອັບ GME Remit, ສ້າງບັນຊີ ແລະ ສຳເລັດການຢືນຢັນຕົວຕົນ. ຫຼັງຈາກນັ້ນສາມາດໃຊ້ບໍລິການໄດ້."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍສາມາດສົ່ງເງິນໄປປະເທດໃດໄດ້ແດ່ຜ່ານ GME Remit?",
+            "answer": [
+              "GME Remit ຮອງຮັບການໂອນເງິນໄປຫຼາຍປະເທດ. ກວດປະເທດປາຍທາງ ແລະ ທາງເລືອກຮັບເງິນໃນແອັບ GME Remit."
+            ]
+          },
+          {
+            "question": "ຖ້າການໂອນເງິນມີບັນຫາ ຂ້ອຍຄວນເຮັດແນວໃດ?",
+            "answer": [
+              "ທີມຊ່ວຍເຫຼືອໃຫ້ບໍລິການ 10:00–23:00 ວັນຈັນຫາວັນອາທິດ. ຕິດຕໍ່ຜ່ານ {SUPPORT_PHONE_NUMBER}, ແອັບ GME Remit, ສື່ສັງຄົມທາງການ ຫຼື ສາຂາໃນເກົາຫຼີ."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "ເຊື່ອມຕໍ່ກັບ GME Spanish / Latam",
+        "subheading": "ຂ່າວ, ຄຳແນະນຳທີ່ເປັນປະໂຫຍດ ແລະ ຂໍ້ມູນໃໝ່ສຳລັບຊຸມຊົນ",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "ດາວໂຫຼດແອັບ GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "Financial services made for the Spanish-speaking and Latam community in Korea.",
+        "copyrightSuffix": "GME. ສະຫງວນລິຂະສິດ."
+      }
+    },
+    "sri-lanka": {
+      "header": {
+        "navItems": {
+          "company": "ບໍລິສັດ",
+          "services": "ບໍລິການ",
+          "countries": "ປະເທດ",
+          "news": "ຂ່າວ",
+          "support": "ຊ່ວຍເຫຼືອ"
+        },
+        "downloadAppLabel": "ດາວໂຫຼດແອັບ"
+      },
+      "hero": {
+        "eyebrow": "GME Sri Lanka",
+        "headingLines": [
+          "ສົ່ງເງິນກັບບ້ານ.",
+          "ຕິດຕໍ່ກັນສະເໝີ.",
+          "ໃຊ້ຈ່າຍໄດ້ງ່າຍ."
+        ],
+        "subheading": "ບໍລິການທີ່ໄວ້ວາງໃຈໄດ້ສຳລັບ Sri Lankans ທີ່ອາໄສຢູ່ເກົາຫຼີ",
+        "ctaPrimaryLabel": "ສົ່ງເງິນດຽວນີ້",
+        "ctaSecondaryLabel": "ເລີ່ມຕົ້ນ"
+      },
+      "exchangeRate": {
+        "eyebrow": "ອັດຕາແລກປ່ຽນ",
+        "heading": "ກວດອັດຕາແລກປ່ຽນມື້ນີ້",
+        "description": "ກວດອັດຕາແລກປ່ຽນ GME Remit ຫຼ້າສຸດກ່ອນສົ່ງເງິນຈາກເກົາຫຼີໄປ Sri Lanka",
+        "note": "ອັດຕາແລກປ່ຽນອາດປ່ຽນແປງໃນລະຫວ່າງມື້",
+        "cardTitle": "ເຄື່ອງຄິດໄລ່ GME Remit",
+        "sampleTag": "ຄ່າຕົວຢ່າງ",
+        "sendAmountLabel": "ຈຳນວນເງິນທີ່ສົ່ງ",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "ປະເທດຜູ້ຮັບ",
+        "recipientCountryOption": "Sri Lanka",
+        "receiveCurrencyLabel": "LKR",
+        "receiverGetsLabel": "ຜູ້ຮັບຈະໄດ້ຮັບ",
+        "transferFeeLabel": "ຄ່າທຳນຽມໂອນ",
+        "exchangeRateLabel": "ອັດຕາແລກປ່ຽນ",
+        "submitLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "ສົ່ງເງິນໄປ Sri Lanka",
+        "description": "ວິທີທີ່ງ່າຍ ແລະ ປອດໄພໃນການຊ່ວຍເຫຼືອຄອບຄົວ ແລະ ຄົນຮັກຂອງທ່ານໃນ Sri Lanka ຈາກເກົາຫຼີ.",
+        "features": [
+          "ອັດຕາແລກປ່ຽນທີ່ແຂ່ງຂັນໄດ້",
+          "ການໂອນທີ່ໄວ ແລະ ເຊື່ອຖືໄດ້",
+          "ຄ່າທຳນຽມຊັດເຈນ",
+          "ການຊ່ວຍເຫຼືອເມື່ອທ່ານຕ້ອງການ"
+        ],
+        "ctaLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "ບັດດຽວສຳລັບທຸກຢ່າງ",
+        "description": "ການຊຳລະທີ່ງ່າຍສຳລັບຊີວິດປະຈຳວັນໃນເກົາຫຼີ ແລະ ຕ່າງປະເທດ.",
+        "features": [
+          "ຊຳລະໄດ້ທົ່ວໂລກ",
+          "ຊື້ເຄື່ອງ",
+          "ການເດີນທາງ",
+          "Cashback",
+          "ສິດປະໂຫຍດ EasyCare"
+        ],
+        "ctaLabel": "ເບິ່ງ GME Cards"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "ຕິດຕໍ່ກັນສະເໝີໃນເກົາຫຼີ",
+        "description": "ຕິດຕໍ່ກັບສິ່ງສຳຄັນດ້ວຍແຜນມືຖືທີ່ອອກແບບໃຫ້ຊີວິດໃນເກົາຫຼີງ່າຍຂຶ້ນ.",
+        "features": [
+          "ການເຊື່ອມຕໍ່ທີ່ເຊື່ອຖືໄດ້",
+          "ແຜນ SIM ທີ່ຍືດຫຍຸ່ນ",
+          "ຕັ້ງຄ່າງ່າຍ",
+          "ການຊ່ວຍເຫຼືອໃນທ້ອງຖິ່ນທີ່ເປັນມິດ"
+        ],
+        "ctaLabel": "ເບິ່ງແຜນ SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "ຄູ່ຮ່ວມການເງິນດິຈິຕອນຂອງທ່ານ",
+        "description": "ບໍລິການສິນເຊື່ອດິຈິຕອນສຳລັບຊາວຕ່າງປະເທດທີ່ອາໄສຢູ່ເກົາຫຼີ. ສະໝັກໄດ້ງ່າຍຜ່ານແອັບ GME.",
+        "features": [
+          "ສະໝັກສິນເຊື່ອແບບບໍ່ໃຊ້ເຈ້ຍ",
+          "ກວດສະຖານະສິນເຊື່ອແບບ real-time",
+          "ກວດຍອດສິນເຊື່ອແບບ real-time"
+        ],
+        "ctaLabel": "ສະໝັກດຽວນີ້"
+      },
+      "faq": {
+        "heading": "ຄຳຖາມທີ່ພົບເລື້ອຍກ່ຽວກັບ GME Remit",
+        "subheading": "ຊອກຫາຄຳຕອບສຳລັບຄຳຖາມທົ່ວໄປກ່ຽວກັບການສົ່ງເງິນດ້ວຍ GME Remit",
+        "items": [
+          {
+            "question": "ການສົ່ງເງິນດ້ວຍ GME Remit ໃຊ້ເວລາດົນປານໃດ?",
+            "answer": [
+              "ການໂອນເງິນຜ່ານ GME Remit ໂດຍທົ່ວໄປສຳເລັດປະມານ 10 ວິນາທີ. ເວລາຈິງອາດແຕກຕ່າງຕາມປະເທດຜູ້ຮັບ, ທະນາຄານ ຫຼື ວິທີຮັບເງິນ."
+            ]
+          },
+          {
+            "question": "GME Remit ປອດໄພບໍ?",
+            "answer": [
+              "ແມ່ນ. GME Remit ເປັນບໍລິການໂອນເງິນທີ່ໄດ້ຮັບອະນຸຍາດໃນເກົາຫຼີ ແລະ ຢູ່ພາຍໃຕ້ການກຳກັບຂອງໜ່ວຍງານການເງິນທີ່ກ່ຽວຂ້ອງ. ມີຂັ້ນຕອນຢືນຢັນ ແລະ ທຸລະກຳທີ່ປອດໄພ."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍຈະລົງທະບຽນບັນຊີ GME Remit ແນວໃດ?",
+            "answer": [
+              "ດາວໂຫຼດແອັບ GME Remit, ສ້າງບັນຊີ ແລະ ສຳເລັດການຢືນຢັນຕົວຕົນ. ຫຼັງຈາກນັ້ນສາມາດໃຊ້ບໍລິການໄດ້."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍສາມາດສົ່ງເງິນໄປປະເທດໃດໄດ້ແດ່ຜ່ານ GME Remit?",
+            "answer": [
+              "GME Remit ຮອງຮັບການໂອນເງິນໄປຫຼາຍປະເທດ. ກວດປະເທດປາຍທາງ ແລະ ທາງເລືອກຮັບເງິນໃນແອັບ GME Remit."
+            ]
+          },
+          {
+            "question": "ຖ້າການໂອນເງິນມີບັນຫາ ຂ້ອຍຄວນເຮັດແນວໃດ?",
+            "answer": [
+              "ທີມຊ່ວຍເຫຼືອໃຫ້ບໍລິການ 10:00–23:00 ວັນຈັນຫາວັນອາທິດ. ຕິດຕໍ່ຜ່ານ {SUPPORT_PHONE_NUMBER}, ແອັບ GME Remit, ສື່ສັງຄົມທາງການ ຫຼື ສາຂາໃນເກົາຫຼີ."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "ເຊື່ອມຕໍ່ກັບ GME Sri Lanka",
+        "subheading": "ຂ່າວ, ຄຳແນະນຳທີ່ເປັນປະໂຫຍດ ແລະ ຂໍ້ມູນໃໝ່ສຳລັບຊຸມຊົນ",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "ດາວໂຫຼດແອັບ GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "Financial services made for Sri Lankans in Korea.",
+        "copyrightSuffix": "GME. ສະຫງວນລິຂະສິດ."
+      }
+    },
+    "thailand": {
+      "header": {
+        "navItems": {
+          "company": "ບໍລິສັດ",
+          "services": "ບໍລິການ",
+          "countries": "ປະເທດ",
+          "news": "ຂ່າວ",
+          "support": "ຊ່ວຍເຫຼືອ"
+        },
+        "downloadAppLabel": "ດາວໂຫຼດແອັບ"
+      },
+      "hero": {
+        "eyebrow": "GME Thailand",
+        "headingLines": [
+          "ສົ່ງເງິນກັບບ້ານ.",
+          "ຕິດຕໍ່ກັນສະເໝີ.",
+          "ໃຊ້ຈ່າຍໄດ້ງ່າຍ."
+        ],
+        "subheading": "ບໍລິການທີ່ໄວ້ວາງໃຈໄດ້ສຳລັບ Thais ທີ່ອາໄສຢູ່ເກົາຫຼີ",
+        "ctaPrimaryLabel": "ສົ່ງເງິນດຽວນີ້",
+        "ctaSecondaryLabel": "ເລີ່ມຕົ້ນ"
+      },
+      "exchangeRate": {
+        "eyebrow": "ອັດຕາແລກປ່ຽນ",
+        "heading": "ກວດອັດຕາແລກປ່ຽນມື້ນີ້",
+        "description": "ກວດອັດຕາແລກປ່ຽນ GME Remit ຫຼ້າສຸດກ່ອນສົ່ງເງິນຈາກເກົາຫຼີໄປ Thailand",
+        "note": "ອັດຕາແລກປ່ຽນອາດປ່ຽນແປງໃນລະຫວ່າງມື້",
+        "cardTitle": "ເຄື່ອງຄິດໄລ່ GME Remit",
+        "sampleTag": "ຄ່າຕົວຢ່າງ",
+        "sendAmountLabel": "ຈຳນວນເງິນທີ່ສົ່ງ",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "ປະເທດຜູ້ຮັບ",
+        "recipientCountryOption": "Thailand",
+        "receiveCurrencyLabel": "THB",
+        "receiverGetsLabel": "ຜູ້ຮັບຈະໄດ້ຮັບ",
+        "transferFeeLabel": "ຄ່າທຳນຽມໂອນ",
+        "exchangeRateLabel": "ອັດຕາແລກປ່ຽນ",
+        "submitLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "ສົ່ງເງິນໄປ Thailand",
+        "description": "ວິທີທີ່ງ່າຍ ແລະ ປອດໄພໃນການຊ່ວຍເຫຼືອຄອບຄົວ ແລະ ຄົນຮັກຂອງທ່ານໃນ Thailand ຈາກເກົາຫຼີ.",
+        "features": [
+          "ອັດຕາແລກປ່ຽນທີ່ແຂ່ງຂັນໄດ້",
+          "ການໂອນທີ່ໄວ ແລະ ເຊື່ອຖືໄດ້",
+          "ຄ່າທຳນຽມຊັດເຈນ",
+          "ການຊ່ວຍເຫຼືອເມື່ອທ່ານຕ້ອງການ"
+        ],
+        "ctaLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "ບັດດຽວສຳລັບທຸກຢ່າງ",
+        "description": "ການຊຳລະທີ່ງ່າຍສຳລັບຊີວິດປະຈຳວັນໃນເກົາຫຼີ ແລະ ຕ່າງປະເທດ.",
+        "features": [
+          "ຊຳລະໄດ້ທົ່ວໂລກ",
+          "ຊື້ເຄື່ອງ",
+          "ການເດີນທາງ",
+          "Cashback",
+          "ສິດປະໂຫຍດ EasyCare"
+        ],
+        "ctaLabel": "ເບິ່ງ GME Cards"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "ຕິດຕໍ່ກັນສະເໝີໃນເກົາຫຼີ",
+        "description": "ຕິດຕໍ່ກັບສິ່ງສຳຄັນດ້ວຍແຜນມືຖືທີ່ອອກແບບໃຫ້ຊີວິດໃນເກົາຫຼີງ່າຍຂຶ້ນ.",
+        "features": [
+          "ການເຊື່ອມຕໍ່ທີ່ເຊື່ອຖືໄດ້",
+          "ແຜນ SIM ທີ່ຍືດຫຍຸ່ນ",
+          "ຕັ້ງຄ່າງ່າຍ",
+          "ການຊ່ວຍເຫຼືອໃນທ້ອງຖິ່ນທີ່ເປັນມິດ"
+        ],
+        "ctaLabel": "ເບິ່ງແຜນ SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "ຄູ່ຮ່ວມການເງິນດິຈິຕອນຂອງທ່ານ",
+        "description": "ບໍລິການສິນເຊື່ອດິຈິຕອນສຳລັບຊາວຕ່າງປະເທດທີ່ອາໄສຢູ່ເກົາຫຼີ. ສະໝັກໄດ້ງ່າຍຜ່ານແອັບ GME.",
+        "features": [
+          "ສະໝັກສິນເຊື່ອແບບບໍ່ໃຊ້ເຈ້ຍ",
+          "ກວດສະຖານະສິນເຊື່ອແບບ real-time",
+          "ກວດຍອດສິນເຊື່ອແບບ real-time"
+        ],
+        "ctaLabel": "ສະໝັກດຽວນີ້"
+      },
+      "faq": {
+        "heading": "ຄຳຖາມທີ່ພົບເລື້ອຍກ່ຽວກັບ GME Remit",
+        "subheading": "ຊອກຫາຄຳຕອບສຳລັບຄຳຖາມທົ່ວໄປກ່ຽວກັບການສົ່ງເງິນດ້ວຍ GME Remit",
+        "items": [
+          {
+            "question": "ການສົ່ງເງິນດ້ວຍ GME Remit ໃຊ້ເວລາດົນປານໃດ?",
+            "answer": [
+              "ການໂອນເງິນຜ່ານ GME Remit ໂດຍທົ່ວໄປສຳເລັດປະມານ 10 ວິນາທີ. ເວລາຈິງອາດແຕກຕ່າງຕາມປະເທດຜູ້ຮັບ, ທະນາຄານ ຫຼື ວິທີຮັບເງິນ."
+            ]
+          },
+          {
+            "question": "GME Remit ປອດໄພບໍ?",
+            "answer": [
+              "ແມ່ນ. GME Remit ເປັນບໍລິການໂອນເງິນທີ່ໄດ້ຮັບອະນຸຍາດໃນເກົາຫຼີ ແລະ ຢູ່ພາຍໃຕ້ການກຳກັບຂອງໜ່ວຍງານການເງິນທີ່ກ່ຽວຂ້ອງ. ມີຂັ້ນຕອນຢືນຢັນ ແລະ ທຸລະກຳທີ່ປອດໄພ."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍຈະລົງທະບຽນບັນຊີ GME Remit ແນວໃດ?",
+            "answer": [
+              "ດາວໂຫຼດແອັບ GME Remit, ສ້າງບັນຊີ ແລະ ສຳເລັດການຢືນຢັນຕົວຕົນ. ຫຼັງຈາກນັ້ນສາມາດໃຊ້ບໍລິການໄດ້."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍສາມາດສົ່ງເງິນໄປປະເທດໃດໄດ້ແດ່ຜ່ານ GME Remit?",
+            "answer": [
+              "GME Remit ຮອງຮັບການໂອນເງິນໄປຫຼາຍປະເທດ. ກວດປະເທດປາຍທາງ ແລະ ທາງເລືອກຮັບເງິນໃນແອັບ GME Remit."
+            ]
+          },
+          {
+            "question": "ຖ້າການໂອນເງິນມີບັນຫາ ຂ້ອຍຄວນເຮັດແນວໃດ?",
+            "answer": [
+              "ທີມຊ່ວຍເຫຼືອໃຫ້ບໍລິການ 10:00–23:00 ວັນຈັນຫາວັນອາທິດ. ຕິດຕໍ່ຜ່ານ {SUPPORT_PHONE_NUMBER}, ແອັບ GME Remit, ສື່ສັງຄົມທາງການ ຫຼື ສາຂາໃນເກົາຫຼີ."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "ເຊື່ອມຕໍ່ກັບ GME Thailand",
+        "subheading": "ຂ່າວ, ຄຳແນະນຳທີ່ເປັນປະໂຫຍດ ແລະ ຂໍ້ມູນໃໝ່ສຳລັບຊຸມຊົນ",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "ດາວໂຫຼດແອັບ GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "Financial services made for Thais in Korea.",
+        "copyrightSuffix": "GME. ສະຫງວນລິຂະສິດ."
+      }
+    },
+    "uzbekistan": {
+      "header": {
+        "navItems": {
+          "company": "ບໍລິສັດ",
+          "services": "ບໍລິການ",
+          "countries": "ປະເທດ",
+          "news": "ຂ່າວ",
+          "support": "ຊ່ວຍເຫຼືອ"
+        },
+        "downloadAppLabel": "ດາວໂຫຼດແອັບ"
+      },
+      "hero": {
+        "eyebrow": "GME Uzbekistan",
+        "headingLines": [
+          "ສົ່ງເງິນກັບບ້ານ.",
+          "ຕິດຕໍ່ກັນສະເໝີ.",
+          "ໃຊ້ຈ່າຍໄດ້ງ່າຍ."
+        ],
+        "subheading": "ບໍລິການທີ່ໄວ້ວາງໃຈໄດ້ສຳລັບ Uzbeks ທີ່ອາໄສຢູ່ເກົາຫຼີ",
+        "ctaPrimaryLabel": "ສົ່ງເງິນດຽວນີ້",
+        "ctaSecondaryLabel": "ເລີ່ມຕົ້ນ"
+      },
+      "exchangeRate": {
+        "eyebrow": "ອັດຕາແລກປ່ຽນ",
+        "heading": "ກວດອັດຕາແລກປ່ຽນມື້ນີ້",
+        "description": "ກວດອັດຕາແລກປ່ຽນ GME Remit ຫຼ້າສຸດກ່ອນສົ່ງເງິນຈາກເກົາຫຼີໄປ Uzbekistan",
+        "note": "ອັດຕາແລກປ່ຽນອາດປ່ຽນແປງໃນລະຫວ່າງມື້",
+        "cardTitle": "ເຄື່ອງຄິດໄລ່ GME Remit",
+        "sampleTag": "ຄ່າຕົວຢ່າງ",
+        "sendAmountLabel": "ຈຳນວນເງິນທີ່ສົ່ງ",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "ປະເທດຜູ້ຮັບ",
+        "recipientCountryOption": "Uzbekistan",
+        "receiveCurrencyLabel": "UZS",
+        "receiverGetsLabel": "ຜູ້ຮັບຈະໄດ້ຮັບ",
+        "transferFeeLabel": "ຄ່າທຳນຽມໂອນ",
+        "exchangeRateLabel": "ອັດຕາແລກປ່ຽນ",
+        "submitLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "ສົ່ງເງິນໄປ Uzbekistan",
+        "description": "ວິທີທີ່ງ່າຍ ແລະ ປອດໄພໃນການຊ່ວຍເຫຼືອຄອບຄົວ ແລະ ຄົນຮັກຂອງທ່ານໃນ Uzbekistan ຈາກເກົາຫຼີ.",
+        "features": [
+          "ອັດຕາແລກປ່ຽນທີ່ແຂ່ງຂັນໄດ້",
+          "ການໂອນທີ່ໄວ ແລະ ເຊື່ອຖືໄດ້",
+          "ຄ່າທຳນຽມຊັດເຈນ",
+          "ການຊ່ວຍເຫຼືອເມື່ອທ່ານຕ້ອງການ"
+        ],
+        "ctaLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "ບັດດຽວສຳລັບທຸກຢ່າງ",
+        "description": "ການຊຳລະທີ່ງ່າຍສຳລັບຊີວິດປະຈຳວັນໃນເກົາຫຼີ ແລະ ຕ່າງປະເທດ.",
+        "features": [
+          "ຊຳລະໄດ້ທົ່ວໂລກ",
+          "ຊື້ເຄື່ອງ",
+          "ການເດີນທາງ",
+          "Cashback",
+          "ສິດປະໂຫຍດ EasyCare"
+        ],
+        "ctaLabel": "ເບິ່ງ GME Cards"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "ຕິດຕໍ່ກັນສະເໝີໃນເກົາຫຼີ",
+        "description": "ຕິດຕໍ່ກັບສິ່ງສຳຄັນດ້ວຍແຜນມືຖືທີ່ອອກແບບໃຫ້ຊີວິດໃນເກົາຫຼີງ່າຍຂຶ້ນ.",
+        "features": [
+          "ການເຊື່ອມຕໍ່ທີ່ເຊື່ອຖືໄດ້",
+          "ແຜນ SIM ທີ່ຍືດຫຍຸ່ນ",
+          "ຕັ້ງຄ່າງ່າຍ",
+          "ການຊ່ວຍເຫຼືອໃນທ້ອງຖິ່ນທີ່ເປັນມິດ"
+        ],
+        "ctaLabel": "ເບິ່ງແຜນ SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "ຄູ່ຮ່ວມການເງິນດິຈິຕອນຂອງທ່ານ",
+        "description": "ບໍລິການສິນເຊື່ອດິຈິຕອນສຳລັບຊາວຕ່າງປະເທດທີ່ອາໄສຢູ່ເກົາຫຼີ. ສະໝັກໄດ້ງ່າຍຜ່ານແອັບ GME.",
+        "features": [
+          "ສະໝັກສິນເຊື່ອແບບບໍ່ໃຊ້ເຈ້ຍ",
+          "ກວດສະຖານະສິນເຊື່ອແບບ real-time",
+          "ກວດຍອດສິນເຊື່ອແບບ real-time"
+        ],
+        "ctaLabel": "ສະໝັກດຽວນີ້"
+      },
+      "faq": {
+        "heading": "ຄຳຖາມທີ່ພົບເລື້ອຍກ່ຽວກັບ GME Remit",
+        "subheading": "ຊອກຫາຄຳຕອບສຳລັບຄຳຖາມທົ່ວໄປກ່ຽວກັບການສົ່ງເງິນດ້ວຍ GME Remit",
+        "items": [
+          {
+            "question": "ການສົ່ງເງິນດ້ວຍ GME Remit ໃຊ້ເວລາດົນປານໃດ?",
+            "answer": [
+              "ການໂອນເງິນຜ່ານ GME Remit ໂດຍທົ່ວໄປສຳເລັດປະມານ 10 ວິນາທີ. ເວລາຈິງອາດແຕກຕ່າງຕາມປະເທດຜູ້ຮັບ, ທະນາຄານ ຫຼື ວິທີຮັບເງິນ."
+            ]
+          },
+          {
+            "question": "GME Remit ປອດໄພບໍ?",
+            "answer": [
+              "ແມ່ນ. GME Remit ເປັນບໍລິການໂອນເງິນທີ່ໄດ້ຮັບອະນຸຍາດໃນເກົາຫຼີ ແລະ ຢູ່ພາຍໃຕ້ການກຳກັບຂອງໜ່ວຍງານການເງິນທີ່ກ່ຽວຂ້ອງ. ມີຂັ້ນຕອນຢືນຢັນ ແລະ ທຸລະກຳທີ່ປອດໄພ."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍຈະລົງທະບຽນບັນຊີ GME Remit ແນວໃດ?",
+            "answer": [
+              "ດາວໂຫຼດແອັບ GME Remit, ສ້າງບັນຊີ ແລະ ສຳເລັດການຢືນຢັນຕົວຕົນ. ຫຼັງຈາກນັ້ນສາມາດໃຊ້ບໍລິການໄດ້."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍສາມາດສົ່ງເງິນໄປປະເທດໃດໄດ້ແດ່ຜ່ານ GME Remit?",
+            "answer": [
+              "GME Remit ຮອງຮັບການໂອນເງິນໄປຫຼາຍປະເທດ. ກວດປະເທດປາຍທາງ ແລະ ທາງເລືອກຮັບເງິນໃນແອັບ GME Remit."
+            ]
+          },
+          {
+            "question": "ຖ້າການໂອນເງິນມີບັນຫາ ຂ້ອຍຄວນເຮັດແນວໃດ?",
+            "answer": [
+              "ທີມຊ່ວຍເຫຼືອໃຫ້ບໍລິການ 10:00–23:00 ວັນຈັນຫາວັນອາທິດ. ຕິດຕໍ່ຜ່ານ {SUPPORT_PHONE_NUMBER}, ແອັບ GME Remit, ສື່ສັງຄົມທາງການ ຫຼື ສາຂາໃນເກົາຫຼີ."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "ເຊື່ອມຕໍ່ກັບ GME Uzbekistan",
+        "subheading": "ຂ່າວ, ຄຳແນະນຳທີ່ເປັນປະໂຫຍດ ແລະ ຂໍ້ມູນໃໝ່ສຳລັບຊຸມຊົນ",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "ດາວໂຫຼດແອັບ GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "Financial services made for Uzbeks in Korea.",
+        "copyrightSuffix": "GME. ສະຫງວນລິຂະສິດ."
+      }
+    },
+    "vietnam": {
+      "header": {
+        "navItems": {
+          "company": "ບໍລິສັດ",
+          "services": "ບໍລິການ",
+          "countries": "ປະເທດ",
+          "news": "ຂ່າວ",
+          "support": "ຊ່ວຍເຫຼືອ"
+        },
+        "downloadAppLabel": "ດາວໂຫຼດແອັບ"
+      },
+      "hero": {
+        "eyebrow": "GME Vietnam",
+        "headingLines": [
+          "ສົ່ງເງິນກັບບ້ານ.",
+          "ຕິດຕໍ່ກັນສະເໝີ.",
+          "ໃຊ້ຈ່າຍໄດ້ງ່າຍ."
+        ],
+        "subheading": "ບໍລິການທີ່ໄວ້ວາງໃຈໄດ້ສຳລັບ Vietnamese ທີ່ອາໄສຢູ່ເກົາຫຼີ",
+        "ctaPrimaryLabel": "ສົ່ງເງິນດຽວນີ້",
+        "ctaSecondaryLabel": "ເລີ່ມຕົ້ນ"
+      },
+      "exchangeRate": {
+        "eyebrow": "ອັດຕາແລກປ່ຽນ",
+        "heading": "ກວດອັດຕາແລກປ່ຽນມື້ນີ້",
+        "description": "ກວດອັດຕາແລກປ່ຽນ GME Remit ຫຼ້າສຸດກ່ອນສົ່ງເງິນຈາກເກົາຫຼີໄປ Vietnam",
+        "note": "ອັດຕາແລກປ່ຽນອາດປ່ຽນແປງໃນລະຫວ່າງມື້",
+        "cardTitle": "ເຄື່ອງຄິດໄລ່ GME Remit",
+        "sampleTag": "ຄ່າຕົວຢ່າງ",
+        "sendAmountLabel": "ຈຳນວນເງິນທີ່ສົ່ງ",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "recipientCountryLabel": "ປະເທດຜູ້ຮັບ",
+        "recipientCountryOption": "Vietnam",
+        "receiveCurrencyLabel": "VND",
+        "receiverGetsLabel": "ຜູ້ຮັບຈະໄດ້ຮັບ",
+        "transferFeeLabel": "ຄ່າທຳນຽມໂອນ",
+        "exchangeRateLabel": "ອັດຕາແລກປ່ຽນ",
+        "submitLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "remittance": {
+        "eyebrow": "GME Remit",
+        "heading": "ສົ່ງເງິນໄປ Vietnam",
+        "description": "ວິທີທີ່ງ່າຍ ແລະ ປອດໄພໃນການຊ່ວຍເຫຼືອຄອບຄົວ ແລະ ຄົນຮັກຂອງທ່ານໃນ Vietnam ຈາກເກົາຫຼີ.",
+        "features": [
+          "ອັດຕາແລກປ່ຽນທີ່ແຂ່ງຂັນໄດ້",
+          "ການໂອນທີ່ໄວ ແລະ ເຊື່ອຖືໄດ້",
+          "ຄ່າທຳນຽມຊັດເຈນ",
+          "ການຊ່ວຍເຫຼືອເມື່ອທ່ານຕ້ອງການ"
+        ],
+        "ctaLabel": "ສົ່ງເງິນດຽວນີ້"
+      },
+      "card": {
+        "eyebrow": "GME Card",
+        "heading": "ບັດດຽວສຳລັບທຸກຢ່າງ",
+        "description": "ການຊຳລະທີ່ງ່າຍສຳລັບຊີວິດປະຈຳວັນໃນເກົາຫຼີ ແລະ ຕ່າງປະເທດ.",
+        "features": [
+          "ຊຳລະໄດ້ທົ່ວໂລກ",
+          "ຊື້ເຄື່ອງ",
+          "ການເດີນທາງ",
+          "Cashback",
+          "ສິດປະໂຫຍດ EasyCare"
+        ],
+        "ctaLabel": "ເບິ່ງ GME Cards"
+      },
+      "simCard": {
+        "eyebrow": "GME SIM Card",
+        "heading": "ຕິດຕໍ່ກັນສະເໝີໃນເກົາຫຼີ",
+        "description": "ຕິດຕໍ່ກັບສິ່ງສຳຄັນດ້ວຍແຜນມືຖືທີ່ອອກແບບໃຫ້ຊີວິດໃນເກົາຫຼີງ່າຍຂຶ້ນ.",
+        "features": [
+          "ການເຊື່ອມຕໍ່ທີ່ເຊື່ອຖືໄດ້",
+          "ແຜນ SIM ທີ່ຍືດຫຍຸ່ນ",
+          "ຕັ້ງຄ່າງ່າຍ",
+          "ການຊ່ວຍເຫຼືອໃນທ້ອງຖິ່ນທີ່ເປັນມິດ"
+        ],
+        "ctaLabel": "ເບິ່ງແຜນ SIM"
+      },
+      "loan": {
+        "eyebrow": "GME Loan",
+        "heading": "ຄູ່ຮ່ວມການເງິນດິຈິຕອນຂອງທ່ານ",
+        "description": "ບໍລິການສິນເຊື່ອດິຈິຕອນສຳລັບຊາວຕ່າງປະເທດທີ່ອາໄສຢູ່ເກົາຫຼີ. ສະໝັກໄດ້ງ່າຍຜ່ານແອັບ GME.",
+        "features": [
+          "ສະໝັກສິນເຊື່ອແບບບໍ່ໃຊ້ເຈ້ຍ",
+          "ກວດສະຖານະສິນເຊື່ອແບບ real-time",
+          "ກວດຍອດສິນເຊື່ອແບບ real-time"
+        ],
+        "ctaLabel": "ສະໝັກດຽວນີ້"
+      },
+      "faq": {
+        "heading": "ຄຳຖາມທີ່ພົບເລື້ອຍກ່ຽວກັບ GME Remit",
+        "subheading": "ຊອກຫາຄຳຕອບສຳລັບຄຳຖາມທົ່ວໄປກ່ຽວກັບການສົ່ງເງິນດ້ວຍ GME Remit",
+        "items": [
+          {
+            "question": "ການສົ່ງເງິນດ້ວຍ GME Remit ໃຊ້ເວລາດົນປານໃດ?",
+            "answer": [
+              "ການໂອນເງິນຜ່ານ GME Remit ໂດຍທົ່ວໄປສຳເລັດປະມານ 10 ວິນາທີ. ເວລາຈິງອາດແຕກຕ່າງຕາມປະເທດຜູ້ຮັບ, ທະນາຄານ ຫຼື ວິທີຮັບເງິນ."
+            ]
+          },
+          {
+            "question": "GME Remit ປອດໄພບໍ?",
+            "answer": [
+              "ແມ່ນ. GME Remit ເປັນບໍລິການໂອນເງິນທີ່ໄດ້ຮັບອະນຸຍາດໃນເກົາຫຼີ ແລະ ຢູ່ພາຍໃຕ້ການກຳກັບຂອງໜ່ວຍງານການເງິນທີ່ກ່ຽວຂ້ອງ. ມີຂັ້ນຕອນຢືນຢັນ ແລະ ທຸລະກຳທີ່ປອດໄພ."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍຈະລົງທະບຽນບັນຊີ GME Remit ແນວໃດ?",
+            "answer": [
+              "ດາວໂຫຼດແອັບ GME Remit, ສ້າງບັນຊີ ແລະ ສຳເລັດການຢືນຢັນຕົວຕົນ. ຫຼັງຈາກນັ້ນສາມາດໃຊ້ບໍລິການໄດ້."
+            ]
+          },
+          {
+            "question": "ຂ້ອຍສາມາດສົ່ງເງິນໄປປະເທດໃດໄດ້ແດ່ຜ່ານ GME Remit?",
+            "answer": [
+              "GME Remit ຮອງຮັບການໂອນເງິນໄປຫຼາຍປະເທດ. ກວດປະເທດປາຍທາງ ແລະ ທາງເລືອກຮັບເງິນໃນແອັບ GME Remit."
+            ]
+          },
+          {
+            "question": "ຖ້າການໂອນເງິນມີບັນຫາ ຂ້ອຍຄວນເຮັດແນວໃດ?",
+            "answer": [
+              "ທີມຊ່ວຍເຫຼືອໃຫ້ບໍລິການ 10:00–23:00 ວັນຈັນຫາວັນອາທິດ. ຕິດຕໍ່ຜ່ານ {SUPPORT_PHONE_NUMBER}, ແອັບ GME Remit, ສື່ສັງຄົມທາງການ ຫຼື ສາຂາໃນເກົາຫຼີ."
+            ]
+          }
+        ]
+      },
+      "social": {
+        "heading": "ເຊື່ອມຕໍ່ກັບ GME Vietnam",
+        "subheading": "ຂ່າວ, ຄຳແນະນຳທີ່ເປັນປະໂຫຍດ ແລະ ຂໍ້ມູນໃໝ່ສຳລັບຊຸມຊົນ",
+        "links": {
+          "facebook": "Facebook",
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "channelTalk": "ChannelTalk"
+        }
+      },
+      "appDownload": {
+        "heading": "ດາວໂຫຼດແອັບ GME",
+        "buttons": {
+          "googlePlay": "Google Play",
+          "appleAppStore": "Apple App Store"
+        }
+      },
+      "footer": {
+        "logoText": "GME",
+        "tagline": "Financial services made for Vietnamese in Korea.",
+        "copyrightSuffix": "GME. ສະຫງວນລິຂະສິດ."
+      }
+    }
+  },
+  "card": {
+    "_meta": {
+      "country": "Laos",
+      "locale": "lo",
+      "language": "Lao",
+      "scope": "Home card section + /services/card only. Untouched strings fall back to messages/*.json",
+      "source": "GME Card Web correction request (PPT, Sept 2026) + card spec sheet",
+      "reviewStatus": "Native corridor-team review recommended before production"
+    },
+    "why": {
+      "cashback": {
+        "title": "ເງິນຄືນຕາມລະດູການ ແລະ ຮ້ານຄ້າພິເສດ"
+      },
+      "description": "ບັດ GME ເຮັດໃຫ້ການຊຳລະເງິນປະຈຳວັນຂອງທ່ານງ່າຍຂຶ້ນ — ບໍ່ວ່າທ່ານຈະເດີນທາງໄປເຮັດວຽກ, ຊື້ເຄື່ອງ, ຫຼືເດີນທາງໄປຕ່າງປະເທດ. ຊຳລະເງິນທາງອອນລາຍ ແລະ ອອບລາຍ, ໃຊ້ລົດຂົນສົ່ງມະຫາຊົນຢ່າງສະດວກ, ແລະ ຮັບປະສົບການທີ່ລຽບງ່າຍໃນທຸກບ່ອນທີ່ທ່ານໄປ."
+    },
+    "grid": {
+      "subtitle": "ປຽບທຽບຜົນປະໂຫຍດລະຫວ່າງບັດ GME ແລະ ເລືອກບັດທີ່ເໝາະສົມກັບທ່ານທີ່ສຸດ"
+    },
+    "labels": {
+      "charge_method": "ວິທີການເຕີມເງິນ"
+    },
+    "cards": {
+      "black": {
+        "name": "Premium Card",
+        "subtitle": "GME Premium Card",
+        "features": [
+          "ບັດເດບິດທີ່ມີຟັງຊັນການຂົນສົ່ງແບບຈ່າຍລ່ວງໜ້າ",
+          "ເງິນຄືນ 3% ສຳລັບການຊື້ເຄື່ອງຕ່າງປະເທດ",
+          "ການຖອນ ແລະ ຝາກເງິນຜ່ານຕູ້ ATM ສະເພາະ"
+        ],
+        "details": {
+          "mainBenefits": {
+            "items": [
+              null,
+              {
+                "title": "ເງິນຄືນຕາມລະດູການ ແລະ ຮ້ານຄ້າພິເສດ",
+                "desc": "ຮັບລາງວັນຢູ່ຮ້ານຄ້າຄູ່ຮ່ວມງານທີ່ເລືອກໄວ້ໃນລະຫວ່າງໂປຣໂມຊັນພິເສດ"
+              },
+              null,
+              null,
+              {
+                "title": "ລົດຂົນສົ່ງມະຫາຊົນ",
+                "desc": "ໃຊ້ບັດຂອງທ່ານຢ່າງສະດວກສະບາຍໃນລົດເມ, ລົດໄຟໃຕ້ດິນ, ແລະ ລົດໄຟ"
+              }
+            ]
+          },
+          "userGuide": {
+            "annualFee": "₩15,000 (ຕໍ່ປີ)",
+            "chargeMethod": "ທ່ານສາມາດເຕີມເງິນຜ່ານຕູ້ ATM ຫຼື ການໂອນເງິນຜ່ານທະນາຄານໄດ້."
+          },
+          "cautions": {
+            "items": [
+              null,
+              null,
+              null,
+              "ທ່ານຈະຮັບຜິດຊອບເຕັມທີ່ຫາກໂທລະສັບມືຖື ຫຼື ບັດຂອງທ່ານເສຍຫາຍ ຫຼື ເສຍໄປ. GME ຈະບໍ່ຮັບຜິດຊອບໃດໆໃນກໍລະນີດັ່ງກ່າວ.",
+              "ບັນດາຮ້ານຄ້າຮ່ວມມືສາກົນປະຕິບັດຕາມນະໂຍບາຍ ແລະ ມາດຕະຖານຂອງ Mastercard."
+            ]
+          },
+          "autoPayment": {
+            "title": "ການຫັກເງິນອັດຕະໂນມັດ"
+          }
+        }
+      },
+      "easyG0": {
+        "subtitle": "GME EasyGo Card",
+        "features": [
+          "ບັດເດບິດທີ່ມີຟັງຊັນການຂົນສົ່ງແບບຈ່າຍພາຍຫຼັງ",
+          "ເງິນຄືນຕາມລະດູການ ແລະ ຮ້ານຄ້າພິເສດ",
+          "ການຖອນ ແລະ ຝາກເງິນຜ່ານຕູ້ ATM ສະເພາະ"
+        ],
+        "details": {
+          "mainBenefits": {
+            "items": [
+              {
+                "title": "ບັດຂົນສົ່ງແບບຈ່າຍພາຍຫຼັງ",
+                "desc": "ດ້ວຍການເຕີມເງິນອັດຕະໂນມັດ, ທ່ານບໍ່ຈຳເປັນຕ້ອງເຕີມເງິນເອງເມື່ອຂຶ້ນລົດເມ ແລະ ລົດໄຟໃຕ້ດິນ."
+              },
+              {
+                "title": "ເງິນຄືນຕາມລະດູການ ແລະ ຮ້ານຄ້າພິເສດ",
+                "desc": "ຮັບລາງວັນຢູ່ຮ້ານຄ້າຄູ່ຮ່ວມງານທີ່ເລືອກໄວ້ໃນລະຫວ່າງໂປຣໂມຊັນພິເສດ"
+              }
+            ]
+          },
+          "transitCard": {
+            "title": "ບັດຂົນສົ່ງແບບຈ່າຍພາຍຫຼັງ"
+          },
+          "userGuide": {
+            "monthlyFee": "₩1,000 (ຄິດຄ່າທຳນຽມໃນວັນທີ 1 ຂອງທຸກເດືອນ)"
+          },
+          "cautions": {
+            "items": [
+              null,
+              null,
+              null,
+              "ທ່ານຈະຮັບຜິດຊອບເຕັມທີ່ຫາກໂທລະສັບມືຖື ຫຼື ບັດຂອງທ່ານເສຍຫາຍ ຫຼື ເສຍໄປ. GME ຈະບໍ່ຮັບຜິດຊອບໃດໆໃນກໍລະນີດັ່ງກ່າວ.",
+              "ບັນດາຮ້ານຄ້າຮ່ວມມືສາກົນປະຕິບັດຕາມນະໂຍບາຍ ແລະ ມາດຕະຖານຂອງ Mastercard."
+            ]
+          },
+          "autoPayment": {
+            "title": "ການຫັກເງິນອັດຕະໂນມັດ"
+          }
+        }
+      },
+      "uniq": {
+        "name": "UniQ Card",
+        "subtitle": "GME UniQ Card",
+        "features": [
+          "ບັດເດບິດທີ່ມີຟັງຊັນການຂົນສົ່ງແບບຈ່າຍລ່ວງໜ້າ",
+          "ເງິນຄືນຕາມລະດູການ ແລະ ຮ້ານຄ້າພິເສດ",
+          "ການຖອນ ແລະ ຝາກເງິນຜ່ານຕູ້ ATM ສະເພາະ"
+        ]
+      },
+      "pay": {
+        "cta": "ສະໝັກດຽວນີ້",
+        "description": "ບັດຕົວແທນຂອງ GME. ຊຳລະເງິນຢູ່ຮ້ານຄ້າ Mastercard ໃດກໍໄດ້ທົ່ວໂລກ ແລະ ຮັບສ່ວນຫຼຸດງານພິເສດ ພ້ອມທັງລາງວັນເງິນຄືນ.",
+        "details": {
+          "autoPayment": {
+            "desc": "ຫາກຍອດເງິນ GME Pay ຂອງທ່ານບໍ່ພຽງພໍສຳລັບການຊຳລະເງິນດ້ວຍບັດ, ຈຳນວນທີ່ຂາດຈະຖືກຫັກອັດຕະໂນມັດຈາກບັນຊີຫັກເງິນອັດຕະໂນມັດທີ່ເຊື່ອມຕໍ່ຂອງທ່ານ.",
+            "title": "ການຫັກເງິນອັດຕະໂນມັດ"
+          },
+          "cautions": {
+            "items": [
+              "ຫາກການຊຳລະເງິນດ້ວຍບັດ GME ຖືກຍົກເລີກ, ເງິນຄືນຈະຖືກສົ່ງກັບໄປຫາ GME Wallet ຂອງທ່ານ. ການຄືນເງິນໄປຫາບັນຊີອື່ນບໍ່ສາມາດເຮັດໄດ້.",
+              "GME Card ແມ່ນບັດເດບິດແບບຈ່າຍລ່ວງໜ້າ. ບໍ່ສາມາດຊຳລະເງິນແບບຜ່ອນຊຳລະໄດ້.",
+              "ທ່ານຍັງສາມາດໃຊ້ແອັບ GME ໄດ້ເຖິງແມ່ນວ່າບັດຂອງທ່ານຈະຖືກຍົກເລີກ. ແນວໃດກໍຕາມ, ຫາກທ່ານຍົກເລີກການສະໝັກສະມາຊິກໃນແອັບ GME, ບັດຂອງທ່ານກໍຈະຖືກຍົກເລີກອັດຕະໂນມັດ.",
+              "ທ່ານຈະຮັບຜິດຊອບເຕັມທີ່ຫາກໂທລະສັບມືຖື ຫຼື ບັດຂອງທ່ານເສຍຫາຍ ຫຼື ເສຍໄປ. GME ຈະບໍ່ຮັບຜິດຊອບໃດໆໃນກໍລະນີດັ່ງກ່າວ.",
+              "ບັນດາຮ້ານຄ້າຮ່ວມມືສາກົນປະຕິບັດຕາມນະໂຍບາຍ ແລະ ມາດຕະຖານຂອງ Mastercard."
+            ],
+            "title": "ຂໍ້ຄວນລະວັງ"
+          },
+          "delivery": {
+            "methods": [
+              "ການຈັດສົ່ງເຖິງບ້ານ",
+              "ຮັບທີ່ສາຂາ GME"
+            ],
+            "title": "ວິທີການຮັບບັດ"
+          },
+          "foreignPayment": {
+            "items": [
+              "ສຳລັບການຊຳລະເງິນຢູ່ຮ້ານຄ້າຕ່າງປະເທດ, ສະກຸນເງິນທີ່ບໍ່ແມ່ນ USD ຈະຖືກແປງເປັນ USD ໂດຍອີງໃສ່ອັດຕາແລກປ່ຽນຂອງ Mastercard, ຊຶ່ງຈະຖືກປະມວນຜົນຕາມວັນທີອະນຸມັດການຊຳລະເງິນ (ທຸລະກຳທີ່ໄດ້ຮັບອະນຸມັດ) ຫຼື ວັນທີ GME ໄດ້ຮັບຂໍ້ມູນການອອກໃບບິນ (ທຸລະກຳທີ່ຍັງບໍ່ໄດ້ຮັບອະນຸມັດ). ຈຳນວນເງິນອອກໃບບິນເປັນວອນ, ລວມທັງຄ່າທຳນຽມຕ່າງປະເທດ 1.25%, ຈະຖືກບວກເຂົ້າໃນຈຳນວນວອນໂດຍອີງໃສ່ອັດຕາແລກປ່ຽນ USD ຂອງ GME ແລະ ຖືກຫັກຈາກ GME Pay.",
+              "ຈຳນວນເງິນອອກໃບບິນ = (ຈຳນວນເງິນຊຳລະ × ອັດຕາແລກປ່ຽນ) + ຄ່າທຳນຽມຕ່າງປະເທດ (ຄ່າທຳນຽມແບຣນສາກົນ² + ຄ່າທຳນຽມການຊຳລະເງິນຕ່າງປະເທດ²)",
+              "ອັດຕາແລກປ່ຽນທີ່ໃຊ້ແມ່ນອັດຕາ USD ສຳລັບການຊຳລະເງິນດ້ວຍບັດຂອງ GME, ຊຶ່ງຈະຖືກອັບເດດທຸກໆ 15 ນາທີ ແລະ ຈະຖືກນຳໃຊ້ໃນເວລາທີ່ການຊຳລະເງິນໄດ້ຮັບອະນຸມັດ (ຫຼື ເມື່ອ GME ໄດ້ຮັບຂໍ້ມູນການອອກໃບບິນ).",
+              "ຄ່າທຳນຽມແບຣນສາກົນ² = (ຈຳນວນເງິນຊຳລະ × ອັດຕາແລກປ່ຽນ) × ອັດຕາຄ່າທຳນຽມ Mastercard (1.0%)",
+              "ຄ່າທຳນຽມການຊຳລະເງິນຕ່າງປະເທດ² = (ຈຳນວນເງິນຊຳລະ × ອັດຕາແລກປ່ຽນ) × ອັດຕາຄ່າທຳນຽມບັດ GME (0.25%)",
+              "ເມື່ອຊຳລະເງິນເປັນວອນຢູ່ຮ້ານຄ້າຕ່າງປະເທດ, ອາດຈະມີຄ່າທຳນຽມ DCC ເພີ່ມເຕີມ (ປະມານ 3-15%). ການບລັອກການຊຳລະເງິນວອນຢູ່ຕ່າງປະເທດ ແລະ ຊຳລະເປັນສະກຸນເງິນທ້ອງຖິ່ນຈະປະຫຍັດກວ່າ.",
+              "ທ່ານສາມາດຕັ້ງຄ່າຂໍ້ຈຳກັດການຊຳລະເງິນວອນຢູ່ຕ່າງປະເທດ (DCC) ໄດ້ໃນແອັບ GME. ໄປທີ່: ບັດ > ການຈັດການບັດ > ການຕັ້ງຄ່າ \"ຂໍ້ຈຳກັດການຊຳລະເງິນວອນຢູ່ຕ່າງປະເທດ\" (ຄ່າເລີ່ມຕົ້ນ: \"ຈຳກັດ\")",
+              "ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ, ກະລຸນາຕິດຕໍ່ສູນບໍລິການລູກຄ້າ (1588-6864) ຫຼື ເຂົ້າເບິ່ງ www.gmeremit.com."
+            ],
+            "title": "ການຊຳລະເງິນສາກົນ ແລະ ຂໍ້ມູນອື່ນໆ"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "ຮັບລາງວັນຢູ່ຮ້ານຄ້າຄູ່ຮ່ວມງານທີ່ເລືອກໄວ້ໃນລະຫວ່າງໂປຣໂມຊັນພິເສດ",
+                "title": "ເງິນຄືນຕາມລະດູການ ແລະ ຮ້ານຄ້າພິເສດ"
+              },
+              {
+                "desc": "ຊຳລະເງິນໄດ້ຢ່າງອິດສະຫຼະທັງພາຍໃນ ແລະ ຕ່າງປະເທດ",
+                "title": "ຊຳລະເງິນໄດ້ທຸກບ່ອນທົ່ວໂລກ"
+              },
+              {
+                "desc": "ຊຳລະເງິນຢ່າງອິດສະຫຼະສຳລັບການຊື້ເຄື່ອງ ແລະ ຄວາມບັນເທີງ, ທັງອອນລາຍ ແລະ ອອບລາຍ",
+                "title": "ການຊື້ເຄື່ອງອອນລາຍ ແລະ ອອບລາຍ"
+              },
+              {
+                "desc": "ໃຊ້ບັດຂອງທ່ານຢ່າງສະດວກສະບາຍໃນລົດເມ, ລົດໄຟໃຕ້ດິນ, ແລະ ລົດໄຟ",
+                "title": "ລົດຂົນສົ່ງມະຫາຊົນ"
+              }
+            ],
+            "title": "ຜົນປະໂຫຍດຫຼັກ"
+          },
+          "userGuide": {
+            "annualFee": "₩10,000 (ຕໍ່ປີ)",
+            "chargeMethod": "ທ່ານສາມາດເຕີມເງິນຜ່ານຕູ້ ATM ຫຼື ການໂອນເງິນຜ່ານທະນາຄານໄດ້.",
+            "contact": {
+              "center": "ສູນບໍລິການລູກຄ້າ GME: 1811-2961",
+              "website": "ເວັບໄຊທ໌: gmeremit.com"
+            },
+            "limit": "ສູງສຸດ ₩2,000,000 ຕໍ່ທຸລະກຳ",
+            "title": "ຄູ່ມືການໃຊ້ງານ"
+          }
+        },
+        "features": [
+          "ບັດເດບິດທີ່ມີຟັງຊັນການຂົນສົ່ງແບບຈ່າຍລ່ວງໜ້າ",
+          "ເງິນຄືນຕາມລະດູການ ແລະ ຮ້ານຄ້າພິເສດ",
+          "ການຖອນ ແລະ ຝາກເງິນຜ່ານຕູ້ ATM ສະເພາະ"
+        ],
+        "name": "Pay Card"
+      },
+      "easyCare": {
+        "cta": "ສະໝັກດຽວນີ້",
+        "description": "ສ້າງຂຶ້ນເພື່ອດູແລເອົາໃຈໃສ່, Made to Care. ບັດຂົນສົ່ງແບບຈ່າຍພາຍຫຼັງທີ່ມີຜົນປະໂຫຍດການສະໜັບສະໜູນປະກັນໄພ ແລະ ສະມາຊິກ.",
+        "details": {
+          "autoPayment": {
+            "desc": "ເຊື່ອມຕໍ່ບັນຊີທະນາຄານໃດກໍໄດ້ສຳລັບການຫັກເງິນອັດຕະໂນມັດ ແລະ ອັບເດດໄດ້ຢ່າງງ່າຍດາຍທຸກເວລາ.",
+            "title": "ການຫັກເງິນອັດຕະໂນມັດ"
+          },
+          "cautions": {
+            "items": [
+              "ຫາກການຊຳລະເງິນດ້ວຍບັດ GME ຖືກຍົກເລີກ, ເງິນຄືນຈະຖືກສົ່ງກັບໄປຫາ GME Wallet ຂອງທ່ານ. ການຄືນເງິນໄປຫາບັນຊີອື່ນບໍ່ສາມາດເຮັດໄດ້.",
+              "GME Card ແມ່ນບັດເດບິດແບບຈ່າຍລ່ວງໜ້າ. ບໍ່ສາມາດຊຳລະເງິນແບບຜ່ອນຊຳລະໄດ້.",
+              "ທ່ານຍັງສາມາດໃຊ້ແອັບ GME ໄດ້ເຖິງແມ່ນວ່າບັດຂອງທ່ານຈະຖືກຍົກເລີກ. ແນວໃດກໍຕາມ, ຫາກທ່ານຍົກເລີກການສະໝັກສະມາຊິກໃນແອັບ GME, ບັດຂອງທ່ານກໍຈະຖືກຍົກເລີກອັດຕະໂນມັດ.",
+              "ທ່ານຈະຮັບຜິດຊອບເຕັມທີ່ຫາກໂທລະສັບມືຖື ຫຼື ບັດຂອງທ່ານເສຍຫາຍ ຫຼື ເສຍໄປ. GME ຈະບໍ່ຮັບຜິດຊອບໃດໆໃນກໍລະນີດັ່ງກ່າວ.",
+              "ບັນດາຮ້ານຄ້າຮ່ວມມືສາກົນປະຕິບັດຕາມນະໂຍບາຍ ແລະ ມາດຕະຖານຂອງ Mastercard.",
+              "ຫາກຍົກເລີກພາຍໃນ 3 ເດືອນນັບຈາກວັນອອກບັດ, ຈະຖືກເກັບຄ່າທຳນຽມການຍົກເລີກ ₩10,000 ເພື່ອຄອບຄຸມຄ່າໃຊ້ຈ່າຍໃນການດຳເນີນການ."
+            ],
+            "title": "ຂໍ້ຄວນລະວັງ"
+          },
+          "delivery": {
+            "methods": [
+              "ການຈັດສົ່ງເຖິງບ້ານ",
+              "ຮັບທີ່ສາຂາ GME"
+            ],
+            "title": "ວິທີການຮັບບັດ"
+          },
+          "foreignPayment": {
+            "items": [
+              "ສຳລັບການຊຳລະເງິນຢູ່ຮ້ານຄ້າຕ່າງປະເທດ, ສະກຸນເງິນທີ່ບໍ່ແມ່ນ USD ຈະຖືກແປງເປັນ USD ໂດຍອີງໃສ່ອັດຕາແລກປ່ຽນຂອງ Mastercard, ຊຶ່ງຈະຖືກປະມວນຜົນຕາມວັນທີອະນຸມັດການຊຳລະເງິນ (ທຸລະກຳທີ່ໄດ້ຮັບອະນຸມັດ) ຫຼື ວັນທີ GME ໄດ້ຮັບຂໍ້ມູນການອອກໃບບິນ (ທຸລະກຳທີ່ຍັງບໍ່ໄດ້ຮັບອະນຸມັດ). ຈຳນວນເງິນອອກໃບບິນເປັນວອນ, ລວມທັງຄ່າທຳນຽມຕ່າງປະເທດ 1.25%, ຈະຖືກບວກເຂົ້າໃນຈຳນວນວອນໂດຍອີງໃສ່ອັດຕາແລກປ່ຽນ USD ຂອງ GME ແລະ ຖືກຫັກຈາກ GME Pay.",
+              "ຈຳນວນເງິນອອກໃບບິນ = (ຈຳນວນເງິນຊຳລະ × ອັດຕາແລກປ່ຽນ) + ຄ່າທຳນຽມຕ່າງປະເທດ (ຄ່າທຳນຽມແບຣນສາກົນ² + ຄ່າທຳນຽມການຊຳລະເງິນຕ່າງປະເທດ²)",
+              "ອັດຕາແລກປ່ຽນທີ່ໃຊ້ແມ່ນອັດຕາ USD ສຳລັບການຊຳລະເງິນດ້ວຍບັດຂອງ GME, ຊຶ່ງຈະຖືກອັບເດດທຸກໆ 15 ນາທີ ແລະ ຈະຖືກນຳໃຊ້ໃນເວລາທີ່ການຊຳລະເງິນໄດ້ຮັບອະນຸມັດ (ຫຼື ເມື່ອ GME ໄດ້ຮັບຂໍ້ມູນການອອກໃບບິນ).",
+              "ຄ່າທຳນຽມແບຣນສາກົນ² = (ຈຳນວນເງິນຊຳລະ × ອັດຕາແລກປ່ຽນ) × ອັດຕາຄ່າທຳນຽມ Mastercard (1.0%)",
+              "ຄ່າທຳນຽມການຊຳລະເງິນຕ່າງປະເທດ² = (ຈຳນວນເງິນຊຳລະ × ອັດຕາແລກປ່ຽນ) × ອັດຕາຄ່າທຳນຽມບັດ GME (0.25%)",
+              "ເມື່ອຊຳລະເງິນເປັນວອນຢູ່ຮ້ານຄ້າຕ່າງປະເທດ, ອາດຈະມີຄ່າທຳນຽມ DCC ເພີ່ມເຕີມ (ປະມານ 3-15%). ການບລັອກການຊຳລະເງິນວອນຢູ່ຕ່າງປະເທດ ແລະ ຊຳລະເປັນສະກຸນເງິນທ້ອງຖິ່ນຈະປະຫຍັດກວ່າ.",
+              "ທ່ານສາມາດຕັ້ງຄ່າຂໍ້ຈຳກັດການຊຳລະເງິນວອນຢູ່ຕ່າງປະເທດ (DCC) ໄດ້ໃນແອັບ GME. ໄປທີ່: ບັດ > ການຈັດການບັດ > ການຕັ້ງຄ່າ \"ຂໍ້ຈຳກັດການຊຳລະເງິນວອນຢູ່ຕ່າງປະເທດ\" (ຄ່າເລີ່ມຕົ້ນ: \"ຈຳກັດ\")",
+              "ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ, ກະລຸນາຕິດຕໍ່ສູນບໍລິການລູກຄ້າ (1588-6864) ຫຼື ເຂົ້າເບິ່ງ www.gmeremit.com."
+            ],
+            "title": "ການຊຳລະເງິນສາກົນ ແລະ ຂໍ້ມູນອື່ນໆ"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "ຈະຈ່າຍສູງສຸດ KRW 30 Million ໃຫ້ສະມາຊິກຄອບຄົວທີ່ໄດ້ກຳນົດໄວ້ໃນກໍລະນີເສຍຊີວິດຍ້ອນອຸປະຕິເຫດ, ແລະ ສູງສຸດ KRW 30 Million ໃນກໍລະນີພິການຍ້ອນອຸປະຕິເຫດ.",
+                "title": "ຜົນປະໂຫຍດການສະໜັບສະໜູນປະກັນໄພ"
+              },
+              {
+                "desc": "ສູງສຸດ KRW 1 Million ສຳລັບການນອນໂຮງໝໍເກີນ 30 ວັນ, ສູງສຸດ KRW 50,000 ສຳລັບການເຂົ້າຫ້ອງສຸກເສີນ, ແລະ ການຊ່ວຍເຫຼືອໃນການຍື່ນຂໍຄືນພາສີ.",
+                "title": "ຜົນປະໂຫຍດການສະໜັບສະໜູນສະມາຊິກ"
+              },
+              {
+                "desc": "ດ້ວຍການເຕີມເງິນອັດຕະໂນມັດ, ທ່ານບໍ່ຈຳເປັນຕ້ອງເຕີມເງິນເອງເມື່ອຂຶ້ນລົດເມ ແລະ ລົດໄຟໃຕ້ດິນ.",
+                "title": "ບັດຂົນສົ່ງແບບຈ່າຍພາຍຫຼັງ"
+              },
+              {
+                "desc": "ຮັບລາງວັນຢູ່ຮ້ານຄ້າຄູ່ຮ່ວມງານທີ່ເລືອກໄວ້ໃນລະຫວ່າງໂປຣໂມຊັນພິເສດ",
+                "title": "ເງິນຄືນຕາມລະດູການ ແລະ ຮ້ານຄ້າພິເສດ"
+              },
+              {
+                "desc": "ຊຳລະເງິນທົ່ວໂລກ, ທັງພາຍໃນ ແລະ ຕ່າງປະເທດ, ໃນທຸກບ່ອນທີ່ຮັບ Mastercard.",
+                "title": "ຊຳລະເງິນໄດ້ທຸກບ່ອນທົ່ວໂລກ"
+              },
+              {
+                "desc": "ຊຳລະເງິນໄດ້ທຸກເວລາ, ທຸກບ່ອນ — ອອນລາຍ ຫຼື ຢູ່ຮ້ານ — ສຳລັບການຊື້ເຄື່ອງ, ຄວາມບັນເທີງ ແລະ ອື່ນໆອີກ",
+                "title": "ການຊື້ເຄື່ອງອອນລາຍ ແລະ ອອບລາຍ"
+              }
+            ],
+            "title": "ຜົນປະໂຫຍດຫຼັກ"
+          },
+          "userGuide": {
+            "contact": {
+              "center": "ສູນບໍລິການລູກຄ້າ GME: 1811-2961",
+              "website": "ເວັບໄຊທ໌: gmeremit.com"
+            },
+            "limit": "ສູງສຸດ ₩2,000,000 ຕໍ່ທຸລະກຳ",
+            "monthlyFee": "₩6,990 (ຄິດຄ່າທຳນຽມໃນວັນທີ 1 ຂອງທຸກເດືອນ)",
+            "title": "ຄູ່ມືການໃຊ້ງານ"
+          }
+        },
+        "features": [
+          "ບັດເດບິດທີ່ມີຟັງຊັນການຂົນສົ່ງແບບຈ່າຍພາຍຫຼັງ",
+          "ຜົນປະໂຫຍດການສະໜັບສະໜູນປະກັນໄພ ແລະ ສະມາຊິກ",
+          "ເງິນຄືນຕາມລະດູການ ແລະ ຮ້ານຄ້າພິເສດ"
+        ],
+        "name": "EasyCare Card",
+        "subtitle": "GME EasyCare Card"
+      }
+    }
+  },
+  "home": {
+    "cards": {
+      "black": {
+        "cta": "ເບິ່ງ Premium Card",
+        "desc": "ບັດພຣີມຽມທີ່ໃຫ້ລາງວັນສຳລັບການໃຊ້ຈ່າຍທົ່ວໂລກຂອງທ່ານ.",
+        "highlights": [
+          "ເງິນຄືນ 3% ຢູ່ຕ່າງປະເທດ",
+          "ຊຳລະເງິນໄດ້ທຸກບ່ອນທົ່ວໂລກ",
+          "ການຊື້ເຄື່ອງອອນລາຍ ແລະ ອອບລາຍ",
+          "ລົດຂົນສົ່ງມະຫາຊົນ"
+        ]
+      },
+      "easyG0": {
+        "desc": "ເຮັດໃຫ້ຊີວິດປະຈຳວັນສະດວກສະບາຍຂຶ້ນ. ຮັບຜົນປະໂຫຍດຕາມລະດູການ ຕັ້ງແຕ່ການຂົນສົ່ງຈົນເຖິງການຊື້ເຄື່ອງ.",
+        "highlights": [
+          "ບັດຂົນສົ່ງແບບຈ່າຍພາຍຫຼັງ",
+          "ເງິນຄືນຕາມລະດູການ ແລະ ຮ້ານຄ້າພິເສດ"
+        ]
+      },
+      "uniq": {
+        "cta": "ເບິ່ງ UniQ Card",
+        "highlights": [
+          "ເງິນຄືນຕາມລະດູການ ແລະ ຮ້ານຄ້າພິເສດ"
+        ]
+      },
+      "pay": {
+        "cta": "ເບິ່ງ Pay Card",
+        "desc": "ບັດຊຳລະເງິນແບບຄົບວົງຈອນສຳລັບການໃຊ້ຈ່າຍປະຈຳວັນຂອງທ່ານ.",
+        "highlights": [
+          "ເງິນຄືນຕາມລະດູການ ແລະ ຮ້ານຄ້າພິເສດ",
+          "ຊຳລະເງິນໄດ້ທຸກບ່ອນທົ່ວໂລກ",
+          "ການຊື້ເຄື່ອງອອນລາຍ ແລະ ອອບລາຍ",
+          "ລົດຂົນສົ່ງມະຫາຊົນ"
+        ]
+      },
+      "easyCare": {
+        "cta": "ເບິ່ງ EasyCare Card",
+        "desc": "ສ້າງຂຶ້ນເພື່ອດູແລເອົາໃຈໃສ່, Made to Care. ບັດຂົນສົ່ງແບບຈ່າຍພາຍຫຼັງທີ່ມີຜົນປະໂຫຍດການສະໜັບສະໜູນປະກັນໄພ ແລະ ສະມາຊິກ.",
+        "highlights": [
+          "ຜົນປະໂຫຍດການສະໜັບສະໜູນປະກັນໄພ ແລະ ສະມາຊິກ",
+          "ບັດຂົນສົ່ງແບບຈ່າຍພາຍຫຼັງ",
+          "ເງິນຄືນຕາມລະດູການ ແລະ ຮ້ານຄ້າພິເສດ",
+          "ຊຳລະເງິນໄດ້ທຸກບ່ອນທົ່ວໂລກ"
+        ]
+      }
+    }
+  },
+  "company": {
+    "history": {
+      "events": {
+        "2026_09": "ໄດ້ເປີດຕົວບັດ EasyCare Card ເຊິ່ງໃຫ້ຜົນປະໂຫຍດດ້ານປະກັນໄພ ແລະ ການສະໜັບສະໜູນສະມາຊິກ ໂດຍຮ່ວມມືກັບ DB Insurance."
+      }
+    }
+  }
+}

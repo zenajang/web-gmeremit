@@ -79,13 +79,24 @@ export function MobileLanguageBottomSheet({
                   isSelected ? "bg-gray-50" : "hover:bg-gray-50"
                 } ${i !== 0 ? "border-t border-gray-100" : ""}`}
               >
-                <div className="flex flex-col items-start gap-0.5">
-                  <span className={`text-[15px] leading-snug ${isSelected ? "font-semibold text-primary" : "font-medium text-dark"}`}>
-                    {lang.nativeName}
-                  </span>
-                  {lang.nativeName !== lang.name && (
-                    <span className="text-xs text-gray-400">{lang.name}</span>
-                  )}
+                <div className="flex items-center gap-3">
+                  <img
+                    src={`/images/flags/${lang.flagCode}.svg`}
+                    alt=""
+                    width={24}
+                    height={24}
+                    loading="lazy"
+                    decoding="async"
+                    className="w-6 h-6 shrink-0 object-cover rounded-full"
+                  />
+                  <div className="flex flex-col items-start gap-0.5">
+                    <span className={`text-[15px] leading-snug ${isSelected ? "font-semibold text-primary" : "font-medium text-dark"}`}>
+                      {lang.nativeName}
+                    </span>
+                    {lang.nativeName !== lang.name && (
+                      <span className="text-xs text-gray-400">{lang.name}</span>
+                    )}
+                  </div>
                 </div>
                 {isSelected && <CheckIcon />}
               </button>
@@ -168,20 +179,6 @@ export function MobileCountriesAccordion({ label, onClose }: { label: string; on
     [t]
   );
 
-  const getRenderFlag = (code: string, flagSrc?: string) => {
-    switch (code) {
-      case "AFRICA":
-        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🌍</span>;
-      case "ARAB":
-        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🌐</span>;
-      case "SPANISH_LATAM":
-        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🌎</span>;
-      case "RU":
-        return <span className="w-5 h-5 flex items-center justify-center text-base shrink-0">🗺️</span>;
-      default:
-        return <img src={flagSrc} alt="" className="w-5 h-5 rounded-full object-cover shrink-0" />;
-    }
-  };
 
   return (
     <div className="border-b border-gray-100">
@@ -203,7 +200,7 @@ export function MobileCountriesAccordion({ label, onClose }: { label: string; on
               onClick={() => {
                 setSelectedCode(c.code);
                 const matched = languages.find((lang) => lang.code === c.langCode);
-                setLanguage(matched ?? languages.find((lang) => lang.code === "en")!);
+                setLanguage(matched ?? languages.find((lang) => lang.code === "en")!, { auto: true });
                 onClose();
                 router.push(`/country/${CountryNamesEn[c.code]}`);
               }}
@@ -211,7 +208,15 @@ export function MobileCountriesAccordion({ label, onClose }: { label: string; on
                 selectedCode === c.code ? "text-primary" : "text-dark hover:text-primary"
               }`}
             >
-              {getRenderFlag(c.code, c.flagSrc)}
+              <img
+                src={c.flagSrc}
+                alt=""
+                width={20}
+                height={20}
+                loading="lazy"
+                decoding="async"
+                className="w-5 h-5 rounded-full object-cover shrink-0"
+              />
               <span>{c.name}</span>
             </button>
           ))}
