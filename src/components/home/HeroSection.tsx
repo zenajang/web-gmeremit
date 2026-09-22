@@ -34,6 +34,7 @@ export default function HeroSection() {
   const [hasError, setHasError] = useState(false);
   const [errorMsg, setErrorMsg] = useState("");
   const [errorParams, setErrorParams] = useState<Record<string, string>>({});
+  const [errorRaw, setErrorRaw] = useState<string | undefined>(undefined); // 분류 못 한 서버 원문
   const [deliveryMethod, setDeliveryMethod] = useState<string>(defaultCountry.currencies[0].payoutMethods[0].key);
   const [searchQuery, setSearchQuery] = useState("");
   const [isPayoutOpen, setIsPayoutOpen] = useState(false);
@@ -95,6 +96,7 @@ export default function HeroSection() {
     setHasError(false);
     setErrorMsg("");
     setErrorParams({});
+    setErrorRaw(undefined);
     try {
       const res = await fetch("/api/exchange-rate", {
         method: "POST",
@@ -127,9 +129,10 @@ export default function HeroSection() {
         setExchangeRateDisplay("");
         setServiceCharge("");
         setHasError(true);
-        const { key, params } = classifyExchangeRateError(data.msg || "");
-        setErrorMsg(key);
+        const { key, params, raw } = classifyExchangeRateError(data.msg || "");
+        setErrorMsg(key || "error_failed");
         setErrorParams(params);
+        setErrorRaw(raw);
       }
     } catch {
       if (direction === "C") setReceiveAmount("");
@@ -138,6 +141,7 @@ export default function HeroSection() {
       setServiceCharge("");
       setHasError(true);
       setErrorMsg("error_network");
+      setErrorRaw(undefined);
     } finally {
       setIsLoading(false);
     }
@@ -282,7 +286,9 @@ export default function HeroSection() {
                   </div>
                 </div>
                 {hasError && errorMsg && (
-                  <p className="text-xs text-red-500 mt-1.5 ml-1">{t(`calculator.${errorMsg}`, errorParams)}</p>
+                  <p className="text-xs text-red-500 mt-1.5 ml-1">
+                    {errorRaw ?? t(`calculator.${errorMsg}`, errorParams)}
+                  </p>
                 )}
               </div>
               {/* Delivery Method */}

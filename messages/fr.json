@@ -877,6 +877,7 @@
         "error_failed": "Échec de la recherche du taux",
         "error_limit": "Le montant dépasse la limite de transfert",
         "error_max_amount": "Montant d'envoi maximum : %1$s KRW",
+        "error_min_amount": "Montant d'envoi minimum : %1$s KRW",
         "error_network": "Erreur réseau",
         "error_unavailable": "Taux indisponible pour ce montant",
         "error_unavailable_method": "Cette méthode de transfert n'est pas disponible actuellement",

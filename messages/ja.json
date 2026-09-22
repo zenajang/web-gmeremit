@@ -877,6 +877,7 @@
         "error_failed": "為替レートの照会に失敗しました",
         "error_limit": "送金可能金額の範囲を超えています",
         "error_max_amount": "最大送金可能額: %1$s KRW",
+        "error_min_amount": "最小送金可能額: %1$s KRW",
         "error_network": "ネットワークエラーが発生しました",
         "error_unavailable": "この金額は照会できません",
         "error_unavailable_method": "現在この送金方法はご利用いただけません",

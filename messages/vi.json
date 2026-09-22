@@ -877,6 +877,7 @@
         "error_failed": "Không thể tra cứu tỷ giá",
         "error_limit": "Vượt quá hạn mức chuyển tiền",
         "error_max_amount": "Số tiền chuyển tối đa: %1$s KRW",
+        "error_min_amount": "Số tiền chuyển tối thiểu: %1$s KRW",
         "error_network": "Lỗi mạng",
         "error_unavailable": "Không thể tra cứu số tiền này",
         "error_unavailable_method": "Phương thức chuyển tiền này hiện không khả dụng",

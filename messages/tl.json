@@ -877,6 +877,7 @@
         "error_failed": "Hindi makuha ang exchange rate",
         "error_limit": "Lampas sa limit ng padala",
         "error_max_amount": "Pinakamataas na halaga ng pagpapadala: %1$s KRW",
+        "error_min_amount": "Pinakamababang halaga ng pagpapadala: %1$s KRW",
         "error_network": "May error sa network",
         "error_unavailable": "Hindi available ang rate para sa halagang ito",
         "error_unavailable_method": "Hindi available ang paraan ng paghahatid na ito sa ngayon",

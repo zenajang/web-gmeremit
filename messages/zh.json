@@ -877,6 +877,7 @@
         "error_failed": "汇率查询失败",
         "error_limit": "超出汇款金额限制",
         "error_max_amount": "最大汇款金额：%1$s 韩元",
+        "error_min_amount": "最小汇款金额：%1$s 韩元",
         "error_network": "网络错误",
         "error_unavailable": "该金额无法查询",
         "error_unavailable_method": "当前不支持此汇款方式",

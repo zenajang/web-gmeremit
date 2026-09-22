@@ -877,6 +877,7 @@
         "error_failed": "Valyuta kursini olishda xatolik",
         "error_limit": "O'tkazma chegarasidan oshdi",
         "error_max_amount": "Maksimal yuborish summasi: %1$s KRW",
+        "error_min_amount": "Minimal yuborish summasi: %1$s KRW",
         "error_network": "Tarmoq xatosi",
         "error_unavailable": "Bu summa uchun kurs mavjud emas",
         "error_unavailable_method": "Bu pul oʻtkazish usuli hozir mavjud emas",

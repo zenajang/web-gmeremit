@@ -877,6 +877,7 @@
         "error_failed": "විනිමය අනුපාතය ලබා ගැනීමට අසමත් විය",
         "error_limit": "මුදල් යැවීමේ සීමාව ඉක්මවා ඇත",
         "error_max_amount": "උපරිම යැවිය හැකි මුදල: %1$s KRW",
+        "error_min_amount": "අවම යැවිය හැකි මුදල: %1$s KRW",
         "error_network": "ජාල දෝෂයක්",
         "error_unavailable": "මෙම මුදලට අනුපාතය නොමැත",
         "error_unavailable_method": "මෙම ප්‍රේෂණ ක්‍රමය දැනට ලබා ගත නොහැක",

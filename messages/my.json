@@ -877,6 +877,7 @@
         "error_failed": "လဲလှယ်နှုန်း ရယူ၍မရပါ",
         "error_limit": "ပို့ဆောင်မှုကန့်သတ်ချက် ကျော်လွန်သည်",
         "error_max_amount": "အများဆုံး ပို့ငွေပမာဏ: %1$s KRW",
+        "error_min_amount": "အနည်းဆုံး ပို့ငွေပမာဏ: %1$s KRW",
         "error_network": "ကွန်ရက်အမှား",
         "error_unavailable": "ဤပမာဏအတွက် နှုန်းမရရှိနိုင်ပါ",
         "error_unavailable_method": "ဤပို့ဆောင်နည်းကို ယခု အသုံးပြု၍မရပါ",

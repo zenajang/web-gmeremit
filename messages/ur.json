@@ -877,6 +877,7 @@
         "error_failed": "شرح مبادلہ حاصل کرنے میں ناکام",
         "error_limit": "بھیجنے کی حد سے زیادہ",
         "error_max_amount": "زیادہ سے زیادہ بھیجنے کی رقم: %1$s KRW",
+        "error_min_amount": "کم سے کم بھیجنے کی رقم: %1$s KRW",
         "error_network": "نیٹ ورک خرابی",
         "error_unavailable": "اس رقم کے لیے شرح دستیاب نہیں",
         "error_unavailable_method": "یہ ترسیل کا طریقہ فی الحال دستیاب نہیں ہے",

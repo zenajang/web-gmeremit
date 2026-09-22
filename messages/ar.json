@@ -877,6 +877,7 @@
         "error_failed": "فشل البحث عن سعر الصرف",
         "error_limit": "المبلغ يتجاوز حد التحويل",
         "error_max_amount": "الحد الأقصى للإرسال: %1$s وون كوري",
+        "error_min_amount": "الحد الأدنى للإرسال: %1$s وون كوري",
         "error_network": "حدث خطأ في الشبكة",
         "error_unavailable": "السعر غير متوفر لهذا المبلغ",
         "error_unavailable_method": "طريقة التحويل هذه غير متوفرة حاليًا",

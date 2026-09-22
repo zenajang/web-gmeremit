@@ -877,6 +877,7 @@
         "error_failed": "Gagal mengambil kurs",
         "error_limit": "Melebihi batas transfer",
         "error_max_amount": "Jumlah maksimum pengiriman: %1$s KRW",
+        "error_min_amount": "Jumlah minimum pengiriman: %1$s KRW",
         "error_network": "Kesalahan jaringan",
         "error_unavailable": "Kurs tidak tersedia untuk jumlah ini",
         "error_unavailable_method": "Metode pengiriman ini saat ini tidak tersedia",

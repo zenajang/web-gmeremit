@@ -877,6 +877,7 @@
         "error_failed": "Exchange rate lookup failed",
         "error_limit": "Amount exceeds transfer limit",
         "error_max_amount": "Maximum sending amount: %1$s KRW",
+        "error_min_amount": "Minimum sending amount: %1$s KRW",
         "error_network": "Network error occurred",
         "error_unavailable": "Rate unavailable for this amount",
         "error_unavailable_method": "This delivery method is currently unavailable",

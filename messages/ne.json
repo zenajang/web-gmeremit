@@ -877,6 +877,7 @@
         "error_failed": "विनिमय दर प्राप्त गर्न असफल",
         "error_limit": "पठाउने सीमा भन्दा बढी",
         "error_max_amount": "अधिकतम पठाउन सकिने रकम: %1$s KRW",
+        "error_min_amount": "न्यूनतम पठाउन सकिने रकम: %1$s KRW",
         "error_network": "नेटवर्क त्रुटि",
         "error_unavailable": "यो रकमको लागि दर उपलब्ध छैन",
         "error_unavailable_method": "यो प्रेषण विधि हाल उपलब्ध छैन",

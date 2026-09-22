@@ -877,6 +877,7 @@
         "error_failed": "বিনিময় হার পাওয়া যায়নি",
         "error_limit": "পাঠানোর সীমা অতিক্রম",
         "error_max_amount": "সর্বোচ্চ প্রেরণযোগ্য পরিমাণ: %1$s KRW",
+        "error_min_amount": "সর্বনিম্ন প্রেরণযোগ্য পরিমাণ: %1$s KRW",
         "error_network": "নেটওয়ার্ক ত্রুটি",
         "error_unavailable": "এই পরিমাণের জন্য হার পাওয়া যায়নি",
         "error_unavailable_method": "এই প্রেরণ পদ্ধতি বর্তমানে উপলব্ধ নয়",

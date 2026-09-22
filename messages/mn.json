@@ -877,6 +877,7 @@
         "error_failed": "Ханшийн мэдээлэл авахад алдаа гарлаа",
         "error_limit": "Шилжүүлгийн хязгаараас хэтэрсэн",
         "error_max_amount": "Илгээх дээд хэмжээ: %1$s KRW",
+        "error_min_amount": "Илгээх доод хэмжээ: %1$s KRW",
         "error_network": "Сүлжээний алдаа",
         "error_unavailable": "Энэ дүнгийн ханш боломжгүй",
         "error_unavailable_method": "Энэ илгээх аргыг одоогоор ашиглах боломжгүй",

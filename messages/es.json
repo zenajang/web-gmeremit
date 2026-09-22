@@ -877,6 +877,7 @@
         "error_failed": "Error al consultar el tipo de cambio",
         "error_limit": "El monto excede el límite de transferencia",
         "error_max_amount": "Monto máximo de envío: %1$s KRW",
+        "error_min_amount": "Monto mínimo de envío: %1$s KRW",
         "error_network": "Error de red",
         "error_unavailable": "Tipo no disponible para este monto",
         "error_unavailable_method": "Este método de transferencia no está disponible actualmente",

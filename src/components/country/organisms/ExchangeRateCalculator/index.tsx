@@ -122,7 +122,9 @@ const ExchangeRateCalculator = () => {
           <span className={S.CalculatorCurrencyTag}>{tCountry("exchangeRate.sendCurrencyLabel")}</span>
         </div>
         {hasError && error && (
-          <p className={S.CalculatorErrorMessage}>{t(`calculator.${error.key}`, error.params)}</p>
+          <p className={S.CalculatorErrorMessage}>
+            {error.raw ?? t(`calculator.${error.key}`, error.params)}
+          </p>
         )}
       </div>
 
