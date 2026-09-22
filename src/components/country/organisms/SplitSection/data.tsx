@@ -2,7 +2,7 @@ import { CommonButtonProps } from "@/components/ui/CommonButton";
 import { ExchangeRateCalculator } from "..";
 import Image from "next/image";
 
-interface SpliteSectionData {
+interface SplitSectionData {
   id: string;
   direction: "row" | "row-reverse";
   info: {
@@ -17,7 +17,7 @@ interface SpliteSectionData {
   image?: string;
 }
 
-interface SpliteSectionTranslate {
+interface SplitSectionTranslate {
   t: (key: string, params?: Record<string, string>) => string;
   tArray: (key: string) => string[];
 }
@@ -28,9 +28,9 @@ const sectionHeading = (text: string) => (
   </h2>
 );
 
-export const spliteSectionData = (
-  { t, tArray }: SpliteSectionTranslate
-): SpliteSectionData[] => [
+export const splitSectionData = (
+  { t, tArray }: SplitSectionTranslate
+): SplitSectionData[] => [
   {
     id: "exchange-rate",
     direction: "row",
