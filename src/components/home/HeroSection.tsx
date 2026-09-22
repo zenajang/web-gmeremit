@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import { useTranslation } from "@/hooks/useTranslation";
 import { useClickOutside } from "@/hooks/useClickOutside";
 import { countryConfigs, defaultCountry, CountryConfig, CurrencyConfig } from "@/data/countries";
+import { classifyExchangeRateError } from "@/lib/GetExchangeRate";
 
 interface ExRateResponse {
   errorCode: string;
@@ -126,20 +127,9 @@ export default function HeroSection() {
         setExchangeRateDisplay("");
         setServiceCharge("");
         setHasError(true);
-        const msg = data.msg || "";
-        const maxAmtMatch = msg.match(/Maximum sending amount\s+([\d,]+)\s*KRW/i);
-        if (msg.includes("Thirdparty") || msg.includes("Service is currently not available")) {
-          setErrorMsg("error_unavailable_method");
-        } else if (maxAmtMatch) {
-          setErrorMsg("error_max_amount");
-          setErrorParams({ amount: maxAmtMatch[1] });
-        } else if (msg.includes("limit") || msg.includes("exceeds")) {
-          setErrorMsg("error_limit");
-        } else if (msg.includes("Exchange rate not defined") || msg.includes("charge not defined")) {
-          setErrorMsg("error_unavailable");
-        } else {
-          setErrorMsg("error_failed");
-        }
+        const { key, params } = classifyExchangeRateError(data.msg || "");
+        setErrorMsg(key);
+        setErrorParams(params);
       }
     } catch {
       if (direction === "C") setReceiveAmount("");

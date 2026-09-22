@@ -15,29 +15,40 @@ export interface GetExchangeRateParams {
   calBy?: string;
 }
 
+export interface ExchangeRateError {
+  /** home.exchange.calculator 아래 번역 키 */
+  key: string;
+  params: Record<string, string>;
+}
+
 export interface GetExchangeRateResult {
   success: boolean;
   exchangeRateDisplay: string;
   scCharge: string;
   receiveAmount: string;
-  errorMsg: string;
+  error: ExchangeRateError | null;
 }
 
-function parseErrorMsg(msg: string): string {
+/**
+ * 서버가 주는 영어 msg 를 번역 키로 바꾼다.
+ * 메인 계산기와 국가 랜딩 계산기가 같은 분기를 쓰도록 여기 한 곳에 둔다.
+ */
+export function classifyExchangeRateError(msg: string): ExchangeRateError {
   const maxAmtMatch = msg.match(/Maximum sending amount\s+([\d,]+)\s*KRW/i);
+
   if (msg.includes("Thirdparty") || msg.includes("Service is currently not available")) {
-    return "This payout method isn't available right now.";
+    return { key: "error_unavailable_method", params: {} };
   }
   if (maxAmtMatch) {
-    return `Maximum sending amount is ${maxAmtMatch[1]} KRW.`;
+    return { key: "error_max_amount", params: { amount: maxAmtMatch[1] } };
   }
   if (msg.includes("limit") || msg.includes("exceeds")) {
-    return "This amount exceeds the sending limit.";
+    return { key: "error_limit", params: {} };
   }
   if (msg.includes("Exchange rate not defined") || msg.includes("charge not defined")) {
-    return "Exchange rate isn't available for this corridor.";
+    return { key: "error_unavailable", params: {} };
   }
-  return msg || "Failed to calculate exchange rate.";
+  return { key: "error_failed", params: {} };
 }
 
 export async function getExchangeRate({
@@ -61,7 +72,7 @@ export async function getExchangeRate({
         exchangeRateDisplay: data.exRateDisplay || data.exRate,
         scCharge: data.scCharge || "",
         receiveAmount: Math.floor(Number(data.pAmt.replace(/,/g, ""))).toString(),
-        errorMsg: "",
+        error: null,
       };
     }
 
@@ -70,7 +81,7 @@ export async function getExchangeRate({
       exchangeRateDisplay: "",
       scCharge: "",
       receiveAmount: "",
-      errorMsg: parseErrorMsg(data.msg || ""),
+      error: classifyExchangeRateError(data.msg || ""),
     };
   } catch {
     return {
@@ -78,7 +89,7 @@ export async function getExchangeRate({
       exchangeRateDisplay: "",
       scCharge: "",
       receiveAmount: "",
-      errorMsg: "Network error. Please try again.",
+      error: { key: "error_network", params: {} },
     };
   }
 }

@@ -5,7 +5,7 @@ import { countryConfigs } from "@/data/countries";
 import { useTranslation, translations } from "@/hooks/useTranslation";
 import { useCountryTranslation } from "@/hooks/useCountryTranslation";
 import { useClickOutside } from "@/hooks/useClickOutside";
-import { getExchangeRate } from "@/lib/GetExchangeRate";
+import { getExchangeRate, type ExchangeRateError } from "@/lib/GetExchangeRate";
 import * as S from "./styles";
 import { usePathname } from "next/navigation";
 
@@ -31,7 +31,7 @@ const ExchangeRateCalculator = () => {
   const [scCharge, setScCharge] = useState(""); // Service Charge — 송금 수수료
   const [isLoading, setIsLoading] = useState(false);
   const [hasError, setHasError] = useState(false);
-  const [errorMsg, setErrorMsg] = useState(""); // 사용자에게 보여줄 에러 메시지 (완성된 문자열)
+  const [error, setError] = useState<ExchangeRateError | null>(null); // 사용자에게 보여줄 에러 (번역 키 + 파라미터)
   const [selectedRecipientCountry, setSelectedRecipientCountry] = useState(matchedCountry?.currencies[0]?.code ?? "");
   const [deliveryMethod, setDeliveryMethod] = useState("");
   const [isPayoutOpen, setIsPayoutOpen] = useState(false);
@@ -60,7 +60,7 @@ const ExchangeRateCalculator = () => {
 
     setIsLoading(true);
     setHasError(false);
-    setErrorMsg("");
+    setError(null);
 
     const result = await getExchangeRate({ pCurr: selectedRecipientCountry, pCountryName, amount: sendAmount, deliveryMethod });
 
@@ -74,7 +74,7 @@ const ExchangeRateCalculator = () => {
       setExchangeRateDisplay("");
       setScCharge("");
       setHasError(true);
-      setErrorMsg(result.errorMsg);
+      setError(result.error);
     }
     setIsLoading(false);
   };
@@ -121,7 +121,9 @@ const ExchangeRateCalculator = () => {
           />
           <span className={S.CalculatorCurrencyTag}>{tCountry("exchangeRate.sendCurrencyLabel")}</span>
         </div>
-        {hasError && errorMsg && <p className={S.CalculatorErrorMessage}>{errorMsg}</p>}
+        {hasError && error && (
+          <p className={S.CalculatorErrorMessage}>{t(`calculator.${error.key}`, error.params)}</p>
+        )}
       </div>
 
       <div ref={payoutDropdownRef} className={`${S.CalculatorFieldWrapper} relative`}>
