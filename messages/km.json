@@ -72,7 +72,7 @@
         "title": "Netout"
       },
       "pob": {
-        "description": "កម្រិតខ org ្ពស់នៃតម្លាភាព និងប្រសិទ org្ org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org org",
+        "description": "កម្រិតខ្ពស់នៃតម្លាភាព និងប្រសិទ្ធភាពអតិបរមាសម្រាប់ការទូទាត់ជំនួស។",
         "title": "ការទូទាត់ជំនួស"
       },
       "technology": {
@@ -693,7 +693,8 @@
         "2025_03": "ដាក់ឲ្យប្រើផលិតផលធានារ៉ាប់រងសម្រាប់ជនបរទេស",
         "2025_04": "ទទួលបានការទទួលស្គាល់ Inno-Biz (សហគ្រាសច្នៃប្រឌិតបច្ចេកវិទ្យា)",
         "2025_06": "ដាក់ឲ្យប្រើកាតឥណពន្ធដែលមានមុខងារកាតធ្វើដំណើរ",
-        "2025_12": "ប្រាក់ផ្ញើក្រៅប្រទេសសរុបលើស KRW 3.5 ពាន់លាន"
+        "2025_12": "ប្រាក់ផ្ញើក្រៅប្រទេសសរុបលើស KRW 3.5 ពាន់លាន",
+        "2026_09": "បានចាប់ផ្តើមកាត EasyCare Card ដែលផ្តល់អត្ថប្រយោជន៍ធានារ៉ាប់រង និងការគាំទ្រសមាជិកភាព ដោយសហការជាមួយ DB Insurance។"
       },
       "title_line1": "ការប៉ុនប៉ងគ្មានទីបញ្ចប់,",
       "title_line2": "ការចាប់ផ្តើមថ្មី"
@@ -879,7 +880,7 @@
         "error_network": "កំហុសបណ្តាញ",
         "error_unavailable": "មិនអាចសាកសួរចំនួនទឹកប្រាក់នេះបានទេ",
         "error_unavailable_method": "មិនអាចប្រើវិធីផ្ញើនេះបានទេនៅពេលនេះ",
-        "fee": "ថ្លៃសេវា",
+        "fee": "រួមបញ្ចូលថ្លៃសេវា",
         "loading": "កំពុងផ្ទុក...",
         "mobile_wallet": "កាបូបទូរសព្ទចល័ត",
         "no_results": "មិនមានលទ្ធផល",

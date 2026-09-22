@@ -693,7 +693,8 @@
         "2025_03": "Inilunsad ang insurance product para sa mga dayuhang residente",
         "2025_04": "Sertipikado bilang Innovative SME (Inno-Biz)",
         "2025_06": "Inilunsad ang debit card na may transportation card feature",
-        "2025_12": "Lumagpas sa KRW 3.5 trilyon ang kabuuang overseas remittance"
+        "2025_12": "Lumagpas sa KRW 3.5 trilyon ang kabuuang overseas remittance",
+        "2026_09": "Inilunsad ang EasyCare Card, na nag-aalok ng benepisyong insurance at membership sa pakikipagtulungan sa DB Insurance."
       },
       "title_line1": "Walang Katapusang Hamon,",
       "title_line2": "Mga Bagong Simula"
@@ -879,7 +880,7 @@
         "error_network": "May error sa network",
         "error_unavailable": "Hindi available ang rate para sa halagang ito",
         "error_unavailable_method": "Hindi available ang paraan ng paghahatid na ito sa ngayon",
-        "fee": "Bayad",
+        "fee": "Kasama ang bayad",
         "loading": "Naglo-load...",
         "mobile_wallet": "Mobile Wallet",
         "no_results": "Walang resulta",

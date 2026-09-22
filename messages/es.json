@@ -693,7 +693,8 @@
         "2025_03": "Lanzamiento de producto de seguro para residentes extranjeros",
         "2025_04": "Certificada como PYME Innovadora (Inno-Biz)",
         "2025_06": "Lanzamiento de tarjeta de débito con función de transporte",
-        "2025_12": "Volumen anual de remesas al extranjero superando los 4 billones de KRW"
+        "2025_12": "Volumen anual de remesas al extranjero superando los 4 billones de KRW",
+        "2026_09": "Se lanzó la EasyCare Card, que ofrece beneficios de seguro y apoyo de membresía en colaboración con DB Insurance."
       },
       "title_line1": "Desafíos sin fin,",
       "title_line2": "Nuevos comienzos"
@@ -879,7 +880,7 @@
         "error_network": "Error de red",
         "error_unavailable": "Tipo no disponible para este monto",
         "error_unavailable_method": "Este método de transferencia no está disponible actualmente",
-        "fee": "Comisión",
+        "fee": "Comisión incluida",
         "loading": "Cargando...",
         "mobile_wallet": "Cartera móvil",
         "no_results": "Sin resultados",

@@ -693,7 +693,8 @@
         "2025_03": "外国人居住者向け保険商品を開始",
         "2025_04": "技術革新型中小企業(Inno-Biz)認証取得",
         "2025_06": "交通カード機能付きデビットカードを開始",
-        "2025_12": "累計海外送金額3.5兆ウォン突破"
+        "2025_12": "累計海外送金額3.5兆ウォン突破",
+        "2026_09": "Launched the EasyCare Card, offering insurance and membership benefits in partnership with DB Insurance."
       },
       "title_line1": "終わりなき挑戦、",
       "title_line2": "新たな始まり"
@@ -879,7 +880,7 @@
         "error_network": "ネットワークエラーが発生しました",
         "error_unavailable": "この金額は照会できません",
         "error_unavailable_method": "現在この送金方法はご利用いただけません",
-        "fee": "手数料",
+        "fee": "手数料込み",
         "loading": "照会中...",
         "mobile_wallet": "モバイルウォレット",
         "no_results": "結果がありません",

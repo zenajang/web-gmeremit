@@ -693,7 +693,8 @@
         "2025_03": "Launched insurance product for foreign residents",
         "2025_04": "Certified as Innovative SME (Inno-Biz)",
         "2025_06": "Launched debit card with transportation card feature",
-        "2025_12": "Annual overseas remittance exceeded KRW 4 trillion"
+        "2025_12": "Annual overseas remittance exceeded KRW 4 trillion",
+        "2026_09": "Launched the EasyCare Card, offering insurance and membership benefits in partnership with DB Insurance."
       },
       "title_line1": "Endless Challenges,",
       "title_line2": "New Beginnings"
@@ -879,7 +880,7 @@
         "error_network": "Network error occurred",
         "error_unavailable": "Rate unavailable for this amount",
         "error_unavailable_method": "This delivery method is currently unavailable",
-        "fee": "Fee",
+        "fee": "Fee Included",
         "loading": "Loading...",
         "mobile_wallet": "Mobile Wallet",
         "no_results": "No results",

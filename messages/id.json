@@ -693,7 +693,8 @@
         "2025_03": "Peluncuran produk asuransi untuk penduduk asing",
         "2025_04": "Disertifikasi sebagai UKM Inovatif (Inno-Biz)",
         "2025_06": "Peluncuran kartu debit dengan fungsi kartu transportasi",
-        "2025_12": "Total pengiriman uang luar negeri kumulatif melampaui ₩3,5 triliun"
+        "2025_12": "Total pengiriman uang luar negeri kumulatif melampaui ₩3,5 triliun",
+        "2026_09": "Meluncurkan EasyCare Card, yang menawarkan manfaat asuransi dan dukungan keanggotaan bekerja sama dengan DB Insurance."
       },
       "title_line1": "Tantangan Tanpa Henti,",
       "title_line2": "Awal yang Baru"
@@ -879,7 +880,7 @@
         "error_network": "Kesalahan jaringan",
         "error_unavailable": "Kurs tidak tersedia untuk jumlah ini",
         "error_unavailable_method": "Metode pengiriman ini saat ini tidak tersedia",
-        "fee": "Biaya",
+        "fee": "Termasuk biaya",
         "loading": "Memuat...",
         "mobile_wallet": "Dompet Seluler",
         "no_results": "Tidak ada hasil",

@@ -693,7 +693,8 @@
         "2025_03": "Chet elliklar uchun sug'urta mahsuloti ishga tushdi",
         "2025_04": "Innovatsion KO'B (Inno-Biz) sertifikatini oldi",
         "2025_06": "Transport kartasi funksiyali debit karta ishga tushdi",
-        "2025_12": "Xalqaro o'tkazmalar jami KRW 3.5 trln dan oshdi"
+        "2025_12": "Xalqaro o'tkazmalar jami KRW 3.5 trln dan oshdi",
+        "2026_09": "DB Insurance bilan hamkorlikda sugʻurta va aʼzolik yordamini taqdim etuvchi EasyCare Card ishga tushirildi."
       },
       "title_line1": "Cheksiz sinovlar,",
       "title_line2": "Yangi boshlanishlar"
@@ -879,7 +880,7 @@
         "error_network": "Tarmoq xatosi",
         "error_unavailable": "Bu summa uchun kurs mavjud emas",
         "error_unavailable_method": "Bu pul oʻtkazish usuli hozir mavjud emas",
-        "fee": "Komissiya",
+        "fee": "Komissiya kiritilgan",
         "loading": "Yuklanmoqda...",
         "mobile_wallet": "Mobil hamyon",
         "no_results": "Natija yo'q",
