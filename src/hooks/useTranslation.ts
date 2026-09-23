@@ -105,14 +105,15 @@ export function useTranslation(namespace?: string, langCodeOverride?: string) {
       }
 
       // Handle string interpolation (exclude 'ns' from interpolation)
+      // 앱과 같은 키를 쓰는 문구는 Lokalise 에 %1$s 형태로 들어와 있어 자리 번호로도 받는다
       if (typeof value === "string" && params) {
-        Object.entries(params).forEach(([paramKey, paramValue]) => {
-          if (paramKey === "ns") return;
-          value = (value as string).replace(
-            new RegExp(`{{${paramKey}}}`, "g"),
-            String(paramValue)
-          );
-        });
+        Object.entries(params)
+          .filter(([paramKey]) => paramKey !== "ns")
+          .forEach(([paramKey, paramValue], index) => {
+            value = (value as string)
+              .replace(new RegExp(`\\{\\{${paramKey}\\}\\}`, "g"), String(paramValue))
+              .replace(new RegExp(`%${index + 1}\\$[sd]`, "g"), String(paramValue));
+          });
       }
 
       return value as string;

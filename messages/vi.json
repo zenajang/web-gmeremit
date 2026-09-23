@@ -693,7 +693,8 @@
         "2025_03": "Ra mắt sản phẩm bảo hiểm cho cư dân nước ngoài",
         "2025_04": "Được chứng nhận là SME đổi mới sáng tạo (Inno-Biz)",
         "2025_06": "Ra mắt thẻ ghi nợ tích hợp thẻ giao thông",
-        "2025_12": "Tổng chuyển tiền nước ngoài lũy kế vượt 3,5 nghìn tỷ Won"
+        "2025_12": "Tổng chuyển tiền nước ngoài lũy kế vượt 3,5 nghìn tỷ Won",
+        "2026_09": "Ra mắt EasyCare Card, cung cấp quyền lợi bảo hiểm và hỗ trợ thành viên hợp tác cùng DB Insurance."
       },
       "title_line1": "Thử thách không ngừng,",
       "title_line2": "Khởi đầu mới"
@@ -876,10 +877,11 @@
         "error_failed": "Không thể tra cứu tỷ giá",
         "error_limit": "Vượt quá hạn mức chuyển tiền",
         "error_max_amount": "Số tiền chuyển tối đa: %1$s KRW",
+        "error_min_amount": "Số tiền chuyển tối thiểu: %1$s KRW",
         "error_network": "Lỗi mạng",
         "error_unavailable": "Không thể tra cứu số tiền này",
         "error_unavailable_method": "Phương thức chuyển tiền này hiện không khả dụng",
-        "fee": "Phí",
+        "fee": "Đã bao gồm phí",
         "loading": "Đang tải...",
         "mobile_wallet": "Ví di động",
         "no_results": "Không có kết quả",

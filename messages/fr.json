@@ -693,7 +693,8 @@
         "2025_03": "Lancement d'un produit d'assurance pour les résidents étrangers",
         "2025_04": "Certifié comme PME innovante (Inno-Biz)",
         "2025_06": "Lancement d'une carte de débit avec fonction transport",
-        "2025_12": "Volume annuel de transferts internationaux dépassant 4 000 milliards KRW"
+        "2025_12": "Volume annuel de transferts internationaux dépassant 4 000 milliards KRW",
+        "2026_09": "Launched the EasyCare Card, offering insurance and membership benefits in partnership with DB Insurance."
       },
       "title_line1": "Défis sans fin,",
       "title_line2": "Nouveaux départs"
@@ -876,10 +877,11 @@
         "error_failed": "Échec de la recherche du taux",
         "error_limit": "Le montant dépasse la limite de transfert",
         "error_max_amount": "Montant d'envoi maximum : %1$s KRW",
+        "error_min_amount": "Montant d'envoi minimum : %1$s KRW",
         "error_network": "Erreur réseau",
         "error_unavailable": "Taux indisponible pour ce montant",
         "error_unavailable_method": "Cette méthode de transfert n'est pas disponible actuellement",
-        "fee": "Frais",
+        "fee": "Frais inclus",
         "loading": "Chargement...",
         "mobile_wallet": "Portefeuille mobile",
         "no_results": "Aucun résultat",

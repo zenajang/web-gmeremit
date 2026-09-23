@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import { useTranslation } from "@/hooks/useTranslation";
 import { useClickOutside } from "@/hooks/useClickOutside";
 import { countryConfigs, defaultCountry, CountryConfig, CurrencyConfig } from "@/data/countries";
+import { classifyExchangeRateError } from "@/lib/GetExchangeRate";
 
 interface ExRateResponse {
   errorCode: string;
@@ -33,6 +34,7 @@ export default function HeroSection() {
   const [hasError, setHasError] = useState(false);
   const [errorMsg, setErrorMsg] = useState("");
   const [errorParams, setErrorParams] = useState<Record<string, string>>({});
+  const [errorRaw, setErrorRaw] = useState<string | undefined>(undefined); // 분류 못 한 서버 원문
   const [deliveryMethod, setDeliveryMethod] = useState<string>(defaultCountry.currencies[0].payoutMethods[0].key);
   const [searchQuery, setSearchQuery] = useState("");
   const [isPayoutOpen, setIsPayoutOpen] = useState(false);
@@ -94,6 +96,7 @@ export default function HeroSection() {
     setHasError(false);
     setErrorMsg("");
     setErrorParams({});
+    setErrorRaw(undefined);
     try {
       const res = await fetch("/api/exchange-rate", {
         method: "POST",
@@ -126,20 +129,10 @@ export default function HeroSection() {
         setExchangeRateDisplay("");
         setServiceCharge("");
         setHasError(true);
-        const msg = data.msg || "";
-        const maxAmtMatch = msg.match(/Maximum sending amount\s+([\d,]+)\s*KRW/i);
-        if (msg.includes("Thirdparty") || msg.includes("Service is currently not available")) {
-          setErrorMsg("error_unavailable_method");
-        } else if (maxAmtMatch) {
-          setErrorMsg("error_max_amount");
-          setErrorParams({ amount: maxAmtMatch[1] });
-        } else if (msg.includes("limit") || msg.includes("exceeds")) {
-          setErrorMsg("error_limit");
-        } else if (msg.includes("Exchange rate not defined") || msg.includes("charge not defined")) {
-          setErrorMsg("error_unavailable");
-        } else {
-          setErrorMsg("error_failed");
-        }
+        const { key, params, raw } = classifyExchangeRateError(data.msg || "");
+        setErrorMsg(key || "error_failed");
+        setErrorParams(params);
+        setErrorRaw(raw);
       }
     } catch {
       if (direction === "C") setReceiveAmount("");
@@ -148,6 +141,7 @@ export default function HeroSection() {
       setServiceCharge("");
       setHasError(true);
       setErrorMsg("error_network");
+      setErrorRaw(undefined);
     } finally {
       setIsLoading(false);
     }
@@ -292,7 +286,9 @@ export default function HeroSection() {
                   </div>
                 </div>
                 {hasError && errorMsg && (
-                  <p className="text-xs text-red-500 mt-1.5 ml-1">{t(`calculator.${errorMsg}`, errorParams)}</p>
+                  <p className="text-xs text-red-500 mt-1.5 ml-1">
+                    {errorRaw ?? t(`calculator.${errorMsg}`, errorParams)}
+                  </p>
                 )}
               </div>
               {/* Delivery Method */}
