@@ -4,5 +4,4 @@ export { default as CategoryCard } from "./CategoryCard";
 export { default as FieldLabel } from "./FieldLabel";
 export { default as FormField } from "./FormField";
 export { default as TextAreaField } from "./TextAreaField";
-export { default as ConsentCheckbox } from "./ConsentCheckbox";
 export { default as ActionButtons } from "./ActionButtons";

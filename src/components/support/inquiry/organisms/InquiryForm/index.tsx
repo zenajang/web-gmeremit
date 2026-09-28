@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ActionButtons, ConsentCheckbox, FormField, TextAreaField } from "../../molecules";
+import { ActionButtons, FormField, TextAreaField } from "../../molecules";
 import { EMPTY_FORM } from "../../constants";
 import type { InquiryCategory, InquiryFormValues } from "../../types";
 
@@ -13,7 +13,6 @@ interface InquiryFormProps {
 
 const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
   const [form, setForm] = useState<InquiryFormValues>(EMPTY_FORM);
-  const [agreed, setAgreed] = useState(false);
   const [error, setError] = useState("");
 
   const updateField = (key: keyof InquiryFormValues) => (value: string) =>
@@ -26,11 +25,6 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
       setError("필수 항목을 모두 입력해 주세요.");
       return;
     }
-    if (!agreed) {
-      setError("개인정보 수집·이용에 동의해 주세요.");
-      return;
-    }
-
     setError("");
     // TODO: 메일 발송 API 연동. 지금은 화면만 완료 상태로 넘어간다
     onSubmitted();
@@ -87,8 +81,6 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
         onChange={updateField("content")}
         placeholder="문의하실 내용을 자세히 적어 주시면 정확한 답변에 도움이 됩니다."
       />
-
-      <ConsentCheckbox checked={agreed} onChange={setAgreed} />
 
       {error && (
         <p role="alert" className="mb-4 text-sm text-primary">
