@@ -19,7 +19,6 @@ interface BootOption {
   language?: string;
   memberHash?: string;
   memberId?: string;
-  page?: string;
   pluginKey: string;
   profile?: Profile;
   trackDefaultEvent?: boolean;
@@ -129,22 +128,6 @@ class ChannelService {
 
   hideChannelButton() {
     window.ChannelIO?.("hideChannelButton");
-  }
-
-  /**
-   * 채널톡이 "현재 페이지" 로 쓸 값을 덮어쓴다.
-   * 상담사 화면의 현재 페이지, 이벤트 트래킹, 지원봇·마케팅의 URL 조건 매칭에 쓰인다.
-   *
-   * 빈 문자열이나 null 을 넘기면 "페이지 정보 없음" 이 되지 기본값으로 돌아가지 않는다.
-   * 해제는 resetPage 로 한다.
-   */
-  setPage(page: string) {
-    window.ChannelIO?.("setPage", page);
-  }
-
-  /** setPage 로 덮어쓴 값을 해제하고 실제 주소(document.location.href)로 되돌린다 */
-  resetPage() {
-    window.ChannelIO?.("resetPage");
   }
 
   setAppearance(appearance: Appearance) {
