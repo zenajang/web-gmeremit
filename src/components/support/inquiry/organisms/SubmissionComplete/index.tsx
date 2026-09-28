@@ -12,8 +12,6 @@ const SubmissionComplete = ({ onReset }: SubmissionCompleteProps) => (
     <h2 className="mb-2.5 text-[22px] font-bold text-dark">문의가 접수되었습니다</h2>
     <p className="mb-6 text-gray-600">
       입력하신 이메일로 접수 확인 메일이 발송되었습니다.
-      <br />
-      영업일 기준 3일 이내 회신드리겠습니다.
     </p>
     <ActionButtons primaryLabel="처음으로" onPrimary={onReset} align="center" />
   </div>

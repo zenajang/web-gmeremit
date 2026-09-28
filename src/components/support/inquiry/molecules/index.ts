@@ -6,3 +6,4 @@ export { default as FormField } from "./FormField";
 export { default as TextAreaField } from "./TextAreaField";
 export { default as ActionButtons } from "./ActionButtons";
 export { default as HoneypotField } from "./HoneypotField";
+export { default as TurnstileField } from "./TurnstileField";

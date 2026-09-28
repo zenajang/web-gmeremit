@@ -55,3 +55,14 @@ export const EMPTY_FORM: InquiryFormValues = {
 /** 입력 요소 공통 스타일. FormField · TextAreaField · CaptchaField 가 함께 쓴다 */
 export const FIELD_CLASS =
   "w-full rounded-[10px] border border-gray-200 bg-white px-4 py-3 text-[15px] text-dark placeholder:text-gray-400 transition-colors focus:border-primary focus:outline-none focus:ring-[3px] focus:ring-primary/10";
+
+/**
+ * Turnstile 사이트 키. 배포 환경에서는 NEXT_PUBLIC_TURNSTILE_SITE_KEY 로 넣는다.
+ *
+ * 로컬에서는 Cloudflare 가 주는 "항상 통과" 테스트 키로 떨어진다.
+ * 운영에서 키가 비어 있으면 위젯이 렌더되지 않아 제출이 막힌다 — 통과가 아니라
+ * 차단으로 떨어지는 쪽이 안전하다.
+ */
+export const TURNSTILE_SITE_KEY =
+  process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ??
+  (process.env.NODE_ENV === "production" ? "" : "1x00000000000000000000AA");

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ActionButtons, FormField, HoneypotField, TextAreaField } from "../../molecules";
+import { ActionButtons, FormField, HoneypotField, TextAreaField, TurnstileField } from "../../molecules";
 import { EMPTY_FORM } from "../../constants";
 import type { InquiryCategory, InquiryFormValues } from "../../types";
 
@@ -14,6 +14,7 @@ interface InquiryFormProps {
 const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
   const [form, setForm] = useState<InquiryFormValues>(EMPTY_FORM);
   const [honeypot, setHoneypot] = useState("");
+  const [turnstileToken, setTurnstileToken] = useState("");
   const [error, setError] = useState("");
 
   const updateField = (key: keyof InquiryFormValues) => (value: string) =>
@@ -31,6 +32,11 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
       setError("필수 항목을 모두 입력해 주세요.");
       return;
     }
+    if (!turnstileToken) {
+      setError("보안 확인을 완료해 주세요.");
+      return;
+    }
+
     setError("");
     onSubmitted();
   };
@@ -89,13 +95,18 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
         placeholder="문의하실 내용을 자세히 적어 주시면 정확한 답변에 도움이 됩니다."
       />
 
+
+
+      <TurnstileField onTokenChange={setTurnstileToken} />
+
       {error && (
         <p role="alert" className="mb-4 text-sm text-primary">
-          {error}
+          * {error}
         </p>
       )}
 
       <ActionButtons
+        align="center"
         primaryLabel="문의 접수하기"
         primaryType="submit"
         secondaryLabel="유형 다시 선택"
