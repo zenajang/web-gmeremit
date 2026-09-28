@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Backdrop, StepIndicator } from "../molecules";
 import { CategorySelector, GuidePanel, InquiryForm, SubmissionComplete } from "../organisms";
 import { CHAT_GUIDE } from "../constants";
+import ChannelService from "@/components/channel-talk/ChannelService";
 import type { InquiryCategory } from "../types";
 
 const InquiryTemplate = () => {
@@ -38,15 +39,14 @@ const InquiryTemplate = () => {
               description={CHAT_GUIDE.description}
               items={CHAT_GUIDE.items}
               actionLabel="채팅 상담 시작하기"
-              // TODO: 채팅 위젯 연동
-              onAction={() => {}}
+              onAction={() => ChannelService.showMessenger()}
               onReset={reset}
             />
           )}
 
           {selected?.kind === "ext" && (
             <GuidePanel
-              title={`${selected.site} 문의 페이지로 이동합니다`}
+              title={`${selected.site} 로 이동합니다`}
               description={`해당 문의는 ${selected.site} 홈페이지에서 접수됩니다.`}
               items={selected.items}
               actionLabel="문의 페이지로 이동"
