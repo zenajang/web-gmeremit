@@ -1,8 +1,10 @@
+import PublicLayout from "@/components/layout/PublicLayout"
+
 const InquiryPage = () => {
   return (
-    <>
-    InquiryPage
-    </>
+    <PublicLayout>
+      InquiryPage
+    </PublicLayout>
   )
 }
 

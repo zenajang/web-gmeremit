@@ -37,6 +37,7 @@ export const menuItemDefs: MenuItemDef[] = [
     children: [
       { labelKey: "nav.branches", href: "/support/branches" },
       { labelKey: "nav.social_channels", href: "/support/social-channels" },
+      { labelKey: "nav.inquiry", href: "/support/inquiry" },
     ],
   },
 ];
