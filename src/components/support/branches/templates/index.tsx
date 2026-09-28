@@ -23,7 +23,8 @@ interface Branch extends BranchData {
   hours: string;
 }
 
-export default function BranchesPage() {
+
+const BranchedTemplate = () => {
   const { t } = useTranslation("support.branches");
 
   const branches: Branch[] = useMemo(() => {
@@ -175,5 +176,7 @@ export default function BranchesPage() {
         </div>
       </div>
     </div>
-  );
+  )
 }
+
+export default BranchedTemplate

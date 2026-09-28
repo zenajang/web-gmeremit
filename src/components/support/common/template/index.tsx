@@ -7,12 +7,13 @@ import { useLenis } from "@/hooks/useLenis";
 import { useTranslation } from "@/hooks/useTranslation";
 import Image from "next/image";
 import { supportTabs, supportStats, networkLines, networkNodes } from "@/data/support";
+import { ReactNode } from "react";
 
-export default function SupportLayout({
+const SupportHeroTemplate = ({
   children,
 }: {
-  children: React.ReactNode;
-}) {
+  children: ReactNode;
+}) => {
   const pathname = usePathname();
   const { t } = useTranslation("support");
 
@@ -21,7 +22,7 @@ export default function SupportLayout({
   return (
     <PublicLayout className="bg-gradient-to-b from-gray-50 via-white to-gray-50 relative overflow-x-hidden">
         {/* 전체 배경 패턴 */}
-        <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute inset-0 pointer-events-none overflow-hidden">
           {/* 도트 패턴 */}
           <div
             className="absolute inset-0 opacity-[0.03]"
@@ -131,4 +132,6 @@ export default function SupportLayout({
         </section>
     </PublicLayout>
   );
-}
+};
+
+export default SupportHeroTemplate;
