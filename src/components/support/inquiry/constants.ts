@@ -13,12 +13,11 @@ export const CATEGORIES: InquiryCategory[] = [
   },
   {
     no: 3,
-    kind: "ext",
+    kind: "chat",
     name: "대출 관련 문의",
     sub: "신청 자격 · 한도 · 상환",
-    url: "https://gmefinance.com/",
-    site: "GME Finance",
-    items: ["대출 신청 자격 및 필요 서류", "한도 · 금리 조건", "상환 방법 및 중도상환", "심사 진행 상황 확인"],
+    // Finance 는 같은 채널톡 키를 쓴다. 페이지만 바꿔 해당 창구 봇으로 연결한다
+    chatPage: "https://gmefinance.com/",
   },
   { no: 4, kind: "mail", name: "협업 · 파트너십 문의", sub: "제휴 · 사업 제안", dept: "담당 부서" },
   { no: 5, kind: "mail", name: "취업 · 채용 문의", sub: "입사 지원 · 채용 절차", dept: "인사 담당 부서" },

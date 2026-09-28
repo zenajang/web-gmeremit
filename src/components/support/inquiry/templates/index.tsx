@@ -14,6 +14,19 @@ const InquiryTemplate = () => {
   const reset = () => {
     setSelected(null);
     setIsSubmitted(false);
+    ChannelService.resetPage();
+  };
+
+  const openChat = (chatPage?: string) => {
+    if (!chatPage) {
+      ChannelService.resetPage();
+      ChannelService.showMessenger();
+      return;
+    }
+
+    ChannelService.setPage(chatPage);
+    ChannelService.onChatCreated(() => ChannelService.resetPage());
+    ChannelService.showMessenger();
   };
 
   return (
@@ -39,7 +52,7 @@ const InquiryTemplate = () => {
               description={CHAT_GUIDE.description}
               items={CHAT_GUIDE.items}
               actionLabel="채팅 상담 시작하기"
-              onAction={() => ChannelService.showMessenger()}
+              onAction={() => openChat(selected.chatPage)}
               onReset={reset}
             />
           )}

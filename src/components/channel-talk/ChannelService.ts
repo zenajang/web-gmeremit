@@ -130,6 +130,27 @@ class ChannelService {
     window.ChannelIO?.("hideChannelButton");
   }
 
+  /**
+   * 채널톡이 "현재 페이지" 로 쓸 값을 덮어쓴다.
+   * 지원봇이 페이지 URL 조건으로 갈리므로 어느 창구의 봇을 띄울지 이 값으로 정한다.
+   *
+   * 빈 문자열이나 null 을 넘기면 "페이지 정보 없음" 이 되지 기본값으로 돌아가지 않는다.
+   * 해제는 resetPage 로 한다.
+   */
+  setPage(page: string) {
+    window.ChannelIO?.("setPage", page);
+  }
+
+  /** 새 대화가 만들어질 때 불린다. 다시 부르면 이전 콜백을 덮어쓴다 */
+  onChatCreated(callback: () => void) {
+    window.ChannelIO?.("onChatCreated", callback);
+  }
+
+  /** setPage 로 덮어쓴 값을 해제하고 실제 주소(document.location.href)로 되돌린다 */
+  resetPage() {
+    window.ChannelIO?.("resetPage");
+  }
+
   setAppearance(appearance: Appearance) {
     window.ChannelIO?.("setAppearance", appearance);
   }
