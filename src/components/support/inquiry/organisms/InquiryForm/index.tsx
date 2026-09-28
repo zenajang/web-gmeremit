@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ActionButtons, FormField, TextAreaField } from "../../molecules";
+import { ActionButtons, FormField, HoneypotField, TextAreaField } from "../../molecules";
 import { EMPTY_FORM } from "../../constants";
 import type { InquiryCategory, InquiryFormValues } from "../../types";
 
@@ -13,6 +13,7 @@ interface InquiryFormProps {
 
 const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
   const [form, setForm] = useState<InquiryFormValues>(EMPTY_FORM);
+  const [honeypot, setHoneypot] = useState("");
   const [error, setError] = useState("");
 
   const updateField = (key: keyof InquiryFormValues) => (value: string) =>
@@ -21,21 +22,27 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
+    if (honeypot) {
+      onSubmitted();
+      return;
+    }
+
     if (!form.name.trim() || !form.email.trim() || !form.title.trim() || !form.content.trim()) {
       setError("필수 항목을 모두 입력해 주세요.");
       return;
     }
     setError("");
-    // TODO: 메일 발송 API 연동. 지금은 화면만 완료 상태로 넘어간다
     onSubmitted();
   };
 
   return (
-    <form onSubmit={handleSubmit} noValidate>
+    <form onSubmit={handleSubmit} noValidate className="relative">
+      <HoneypotField value={honeypot} onChange={setHoneypot} />
+
       <div className="mb-6 rounded-lg border-l-[3px] border-primary bg-surface-warm px-4.5 py-3.5 text-sm">
         <b className="text-dark">{category.name}</b>
         <span className="mt-1 block text-[13px] text-gray">
-          {category.dept}에서 확인 후 답변드립니다. 영업일 기준 3일 이내 회신을 원칙으로 합니다.
+          {category.dept}에서 확인 후 답변드립니다.
         </span>
       </div>
 
