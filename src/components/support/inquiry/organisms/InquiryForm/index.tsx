@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import * as S from "./styles";
 import { ActionButtons, FormField, HoneypotField, TextAreaField, TurnstileField } from "../../molecules";
 import { EMPTY_FORM } from "../../constants";
 import type { InquiryCategory, InquiryFormValues } from "../../types";
@@ -16,12 +17,14 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
   const [honeypot, setHoneypot] = useState("");
   const [turnstileToken, setTurnstileToken] = useState("");
   const [error, setError] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const updateField = (key: keyof InquiryFormValues) => (value: string) =>
+  const updateFormValue = (key: keyof InquiryFormValues) => (value: string) =>
     setForm((prev) => ({ ...prev, [key]: value }));
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const sendInquiryEmail = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (isSubmitting) return;
 
     if (honeypot) {
       onSubmitted();
@@ -38,34 +41,66 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
     }
 
     setError("");
-    onSubmitted();
+    setIsSubmitting(true);
+
+    try {
+      const verified = await fetch("/api/turnstile", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ token: turnstileToken }),
+      });
+      const { success }: { success?: boolean } = await verified.json().catch(() => ({}));
+
+      if (!success) {
+        setError("보안 확인에 실패했습니다. 다시 시도해 주세요.");
+        return;
+      }
+
+      const sent = await fetch("/api/inquiry", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ categoryNo: category.no, ...form }),
+      });
+
+      if (!sent.ok) {
+        const { message }: { message?: string } = await sent.json().catch(() => ({}));
+        setError(message ?? "문의 접수에 실패했습니다. 잠시 후 다시 시도해 주세요.");
+        return;
+      }
+
+      onSubmitted();
+    } catch {
+      setError("문의 접수에 실패했습니다. 잠시 후 다시 시도해 주세요.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
-    <form onSubmit={handleSubmit} noValidate className="relative">
+    <form onSubmit={sendInquiryEmail} noValidate className={S.InquiryFormRoot}>
       <HoneypotField value={honeypot} onChange={setHoneypot} />
 
-      <div className="mb-6 rounded-lg border-l-[3px] border-primary bg-surface-warm px-4.5 py-3.5 text-sm">
-        <b className="text-dark">{category.name}</b>
-        <span className="mt-1 block text-[13px] text-gray">
-          {category.dept}에서 확인 후 답변드립니다.
+      <div className={S.InquiryFormDeptBox}>
+        <b className={S.InquiryFormDeptName}>{category.name}</b>
+        <span className={S.InquiryFormDeptDescription}>
+          {category.dept}에서 확인 후 답변드립니다. 영업일 기준 3일 이내 회신을 원칙으로 합니다.
         </span>
       </div>
 
-      <div className="grid gap-3.5 sm:grid-cols-2">
+      <div className={S.InquiryFormNameRow}>
         <FormField
           id="inquiry-name"
           label="성명"
           required
           value={form.name}
-          onChange={updateField("name")}
+          onChange={updateFormValue("name")}
           placeholder="홍길동"
         />
         <FormField
           id="inquiry-phone"
           label="연락처"
           value={form.phone}
-          onChange={updateField("phone")}
+          onChange={updateFormValue("phone")}
           placeholder="010-0000-0000"
         />
       </div>
@@ -75,7 +110,7 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
         required
         type="email"
         value={form.email}
-        onChange={updateField("email")}
+        onChange={updateFormValue("email")}
         placeholder="name@example.com"
       />
       <FormField
@@ -83,7 +118,7 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
         label="제목"
         required
         value={form.title}
-        onChange={updateField("title")}
+        onChange={updateFormValue("title")}
         placeholder="문의 제목을 입력해 주세요"
       />
       <TextAreaField
@@ -91,23 +126,20 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
         label="문의 내용"
         required
         value={form.content}
-        onChange={updateField("content")}
+        onChange={updateFormValue("content")}
         placeholder="문의하실 내용을 자세히 적어 주시면 정확한 답변에 도움이 됩니다."
       />
-
-
 
       <TurnstileField onTokenChange={setTurnstileToken} />
 
       {error && (
-        <p role="alert" className="mb-4 text-sm text-primary">
-          * {error}
+        <p role="alert" className={S.InquiryFormError}>
+          {error}
         </p>
       )}
 
       <ActionButtons
-        align="center"
-        primaryLabel="문의 접수하기"
+        primaryLabel={isSubmitting ? "접수 중..." : "문의 접수하기"}
         primaryType="submit"
         secondaryLabel="유형 다시 선택"
         onSecondary={onReset}

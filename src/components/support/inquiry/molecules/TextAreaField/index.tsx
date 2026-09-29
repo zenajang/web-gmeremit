@@ -1,5 +1,5 @@
+import * as S from "./styles";
 import FieldLabel from "../FieldLabel";
-import { FIELD_CLASS } from "../../constants";
 
 interface TextAreaFieldProps {
   id: string;
@@ -11,7 +11,7 @@ interface TextAreaFieldProps {
 }
 
 const TextAreaField = ({ id, label, value, onChange, placeholder, required }: TextAreaFieldProps) => (
-  <div className="mb-5">
+  <div className={S.InquiryTextAreaFieldWrapper}>
     <FieldLabel htmlFor={id} required={required}>
       {label}
     </FieldLabel>
@@ -20,7 +20,7 @@ const TextAreaField = ({ id, label, value, onChange, placeholder, required }: Te
       value={value}
       onChange={(e) => onChange(e.target.value)}
       placeholder={placeholder}
-      className={`${FIELD_CLASS} min-h-[150px] resize-y`}
+      className={S.InquiryTextAreaFieldInput}
     />
   </div>
 );

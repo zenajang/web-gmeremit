@@ -1,5 +1,5 @@
+import * as S from "./styles";
 import FieldLabel from "../FieldLabel";
-import { FIELD_CLASS } from "../../constants";
 
 interface FormFieldProps {
   id: string;
@@ -12,7 +12,7 @@ interface FormFieldProps {
 }
 
 const FormField = ({ id, label, value, onChange, placeholder, type = "text", required }: FormFieldProps) => (
-  <div className="mb-5">
+  <div className={S.InquiryFormFieldWrapper}>
     <FieldLabel htmlFor={id} required={required}>
       {label}
     </FieldLabel>
@@ -22,7 +22,7 @@ const FormField = ({ id, label, value, onChange, placeholder, type = "text", req
       value={value}
       onChange={(e) => onChange(e.target.value)}
       placeholder={placeholder}
-      className={FIELD_CLASS}
+      className={S.InquiryFormFieldInput}
     />
   </div>
 );

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import * as S from "./styles";
 import { Backdrop, StepIndicator } from "../molecules";
 import { CategorySelector, GuidePanel, InquiryForm, SubmissionComplete } from "../organisms";
 import { CHAT_GUIDE } from "../constants";
@@ -11,13 +12,21 @@ const InquiryTemplate = () => {
   const [selected, setSelected] = useState<InquiryCategory | null>(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const reset = () => {
+  const resetInquiryFlow = () => {
     setSelected(null);
     setIsSubmitted(false);
+    // 덮어쓴 페이지를 남겨두면 다음에 새로 시작하는 상담까지 그 창구로 흘러간다
     ChannelService.resetPage();
   };
 
-  const openChat = (chatPage?: string) => {
+  /**
+   * 채팅 상담을 연다.
+   * chatPage 가 있으면 그 주소를 현재 페이지로 알려 해당 창구의 봇이 뜨게 한다.
+   *
+   * 되돌리는 시점은 대화가 만들어진 뒤다. 그 전에 되돌리면 봇 매칭이 어긋나고,
+   * 안 되돌리면 다음에 시작하는 상담까지 그 창구로 흘러간다.
+   */
+  const openChannelTalk = (chatPage?: string) => {
     if (!chatPage) {
       ChannelService.resetPage();
       ChannelService.showMessenger();
@@ -30,19 +39,17 @@ const InquiryTemplate = () => {
   };
 
   return (
-    <div className="relative overflow-x-clip bg-gradient-to-b from-gray-50 via-white to-gray-50">
+    <div className={S.InquiryTemplatePage}>
       <Backdrop />
 
-      <section className="relative z-10 px-4 pt-10 pb-6 text-center lg:pt-20 lg:pb-10">
-        <h1 className="typo-page-title">무엇을 도와드릴까요</h1>
-        <p className="mt-3 text-sm text-gray-700 lg:text-lg">
-          문의 유형을 선택하시면 담당 창구로 안내해 드립니다.
-        </p>
+      <section className={S.InquiryTemplateHeroSection}>
+        <h1 className={S.InquiryTemplateHeroTitle}>무엇을 도와드릴까요</h1>
+        <p className={S.InquiryTemplateHeroDescription}>문의 유형을 선택하시면 담당 창구로 안내해 드립니다.</p>
       </section>
 
-      <div className="relative z-10 mx-auto max-w-[940px] px-4 pb-14 sm:px-6 lg:px-8 lg:pb-20">
-        <div className="rounded-xl border border-gray-200 bg-white/90 p-5 shadow-sm backdrop-blur-sm sm:p-8">
-          <StepIndicator step={selected ? 2 : 1} onStepBack={reset} />
+      <div className={S.InquiryTemplateContainer}>
+        <div className={S.InquiryTemplateCard}>
+          <StepIndicator step={selected ? 2 : 1} onStepBack={resetInquiryFlow} />
 
           {!selected && <CategorySelector onSelect={setSelected} />}
 
@@ -52,8 +59,8 @@ const InquiryTemplate = () => {
               description={CHAT_GUIDE.description}
               items={CHAT_GUIDE.items}
               actionLabel="채팅 상담 시작하기"
-              onAction={() => openChat(selected.chatPage)}
-              onReset={reset}
+              onAction={() => openChannelTalk(selected.chatPage)}
+              onReset={resetInquiryFlow}
             />
           )}
 
@@ -64,15 +71,23 @@ const InquiryTemplate = () => {
               items={selected.items}
               actionLabel="문의 페이지로 이동"
               onAction={() => window.open(selected.url, "_blank", "noopener,noreferrer")}
-              onReset={reset}
+              onReset={resetInquiryFlow}
             />
           )}
 
           {selected?.kind === "mail" && !isSubmitted && (
-            <InquiryForm category={selected} onSubmitted={() => setIsSubmitted(true)} onReset={reset} />
+            <InquiryForm
+              category={selected}
+              onSubmitted={() => setIsSubmitted(true)}
+              onReset={resetInquiryFlow}
+            />
           )}
 
-          {isSubmitted && <SubmissionComplete onReset={reset} />}
+          {isSubmitted && <SubmissionComplete onReset={resetInquiryFlow} />}
+
+          <p className={S.InquiryTemplateNote}>
+            ※ 본 화면은 시안입니다. 실제 접수 및 채팅 연동은 개발 반영 후 동작합니다.
+          </p>
         </div>
       </div>
     </div>

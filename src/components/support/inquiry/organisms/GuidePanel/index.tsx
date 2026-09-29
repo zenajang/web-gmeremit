@@ -1,3 +1,4 @@
+import * as S from "./styles";
 import { ActionButtons } from "../../molecules";
 
 interface GuidePanelProps {
@@ -10,18 +11,18 @@ interface GuidePanelProps {
 }
 
 const GuidePanel = ({ title, description, items, actionLabel, onAction, onReset }: GuidePanelProps) => (
-  <div className="rounded-xl border border-gray-200 bg-surface-1 p-6 text-center sm:p-8">
-    <h2 className="mb-2 text-[21px] font-bold text-dark">{title}</h2>
-    <p className="text-[14.5px] text-gray-600">{description}</p>
-    <ul className="mx-auto mt-5 max-w-[420px] text-left text-sm text-gray-700">
+  <div className={S.InquiryGuidePanel}>
+    <h2 className={S.InquiryGuidePanelTitle}>{title}</h2>
+    <p className={S.InquiryGuidePanelDescription}>{description}</p>
+    <ul className={S.InquiryGuidePanelList}>
       {items.map((item) => (
-        <li key={item} className="relative py-1.5 pl-5">
-          <span className="absolute left-1 top-3.5 h-[5px] w-[5px] rounded-full bg-primary" />
+        <li key={item} className={S.InquiryGuidePanelItem}>
+          <span className={S.InquiryGuidePanelBullet} />
           {item}
         </li>
       ))}
     </ul>
-    <div className="mt-6">
+    <div className={S.InquiryGuidePanelActions}>
       <ActionButtons
         primaryLabel={actionLabel}
         onPrimary={onAction}

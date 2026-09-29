@@ -2,6 +2,7 @@
 
 import Script from "next/script";
 import { useCallback, useEffect, useRef, useState } from "react";
+import * as S from "./styles";
 import { TURNSTILE_SITE_KEY } from "../../constants";
 
 interface TurnstileRenderOptions {
@@ -32,7 +33,7 @@ const TurnstileField = ({ onTokenChange }: TurnstileFieldProps) => {
   const widgetIdRef = useRef<string | null>(null);
   const [isScriptReady, setIsScriptReady] = useState(false);
 
-  const handleToken = useCallback((token: string) => onTokenChange(token), [onTokenChange]);
+  const updateTurnstileToken = useCallback((token: string) => onTokenChange(token), [onTokenChange]);
 
   useEffect(() => {
     if (!isScriptReady || !containerRef.current || !window.turnstile) return;
@@ -41,9 +42,9 @@ const TurnstileField = ({ onTokenChange }: TurnstileFieldProps) => {
     widgetIdRef.current = window.turnstile.render(containerRef.current, {
       sitekey: TURNSTILE_SITE_KEY,
       theme: "light",
-      callback: handleToken,
-      "expired-callback": () => handleToken(""),
-      "error-callback": () => handleToken(""),
+      callback: updateTurnstileToken,
+      "expired-callback": () => updateTurnstileToken(""),
+      "error-callback": () => updateTurnstileToken(""),
     });
 
     return () => {
@@ -52,12 +53,12 @@ const TurnstileField = ({ onTokenChange }: TurnstileFieldProps) => {
         widgetIdRef.current = null;
       }
     };
-  }, [isScriptReady, handleToken]);
+  }, [isScriptReady, updateTurnstileToken]);
 
   if (!TURNSTILE_SITE_KEY) return null;
 
   return (
-    <div className="mb-5">
+    <div className={S.InquiryTurnstileFieldWrapper}>
       <Script
         src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
         strategy="lazyOnload"

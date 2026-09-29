@@ -1,10 +1,12 @@
+import * as S from "./styles";
+
 interface HoneypotFieldProps {
   value: string;
   onChange: (value: string) => void;
 }
 
 const HoneypotField = ({ value, onChange }: HoneypotFieldProps) => (
-  <div aria-hidden className="absolute left-[-9999px]">
+  <div aria-hidden className={S.InquiryHoneypotFieldWrapper}>
     <label htmlFor="inquiry-address-url">주소</label>
     <input
       id="inquiry-address-url"

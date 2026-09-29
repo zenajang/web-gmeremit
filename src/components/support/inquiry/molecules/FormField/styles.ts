@@ -1,0 +1,5 @@
+import { InquiryFieldInput } from "../../styles";
+
+export const InquiryFormFieldWrapper = "mb-5";
+
+export const InquiryFormFieldInput = InquiryFieldInput;

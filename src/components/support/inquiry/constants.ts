@@ -51,9 +51,6 @@ export const EMPTY_FORM: InquiryFormValues = {
   content: "",
 };
 
-/** 입력 요소 공통 스타일. FormField · TextAreaField · CaptchaField 가 함께 쓴다 */
-export const FIELD_CLASS =
-  "w-full rounded-[10px] border border-gray-200 bg-white px-4 py-3 text-[15px] text-dark placeholder:text-gray-400 transition-colors focus:border-primary focus:outline-none focus:ring-[3px] focus:ring-primary/10";
 
 /**
  * Turnstile 사이트 키. 배포 환경에서는 NEXT_PUBLIC_TURNSTILE_SITE_KEY 로 넣는다.
