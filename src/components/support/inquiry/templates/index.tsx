@@ -76,10 +76,6 @@ const InquiryTemplate = () => {
           )}
 
           {isSubmitted && <SubmissionComplete onReset={resetInquiryFlow} />}
-
-          <p className={S.InquiryTemplateNote}>
-            ※ 본 화면은 시안입니다. 실제 접수 및 채팅 연동은 개발 반영 후 동작합니다.
-          </p>
         </div>
       </div>
     </div>

@@ -9,5 +9,3 @@ export const InquiryTemplateHeroDescription = "mt-3 text-sm text-gray-700 lg:tex
 export const InquiryTemplateContainer = "relative z-10 mx-auto max-w-[940px] px-4 pb-14 sm:px-6 lg:px-8 lg:pb-20";
 
 export const InquiryTemplateCard = "rounded-xl border border-gray-200 bg-white/90 p-5 shadow-sm backdrop-blur-sm sm:p-8";
-
-export const InquiryTemplateNote = "mt-7 border-t border-gray-100 pt-4.5 text-[12.5px] text-gray-400";
