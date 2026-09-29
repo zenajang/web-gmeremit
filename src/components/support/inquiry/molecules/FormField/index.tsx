@@ -9,9 +9,10 @@ interface FormFieldProps {
   placeholder?: string;
   type?: string;
   required?: boolean;
+  maxLength?: number;
 }
 
-const FormField = ({ id, label, value, onChange, placeholder, type = "text", required }: FormFieldProps) => (
+const FormField = ({ id, label, value, onChange, placeholder, type = "text", required, maxLength }: FormFieldProps) => (
   <div className={S.InquiryFormFieldWrapper}>
     <FieldLabel htmlFor={id} required={required}>
       {label}
@@ -22,6 +23,7 @@ const FormField = ({ id, label, value, onChange, placeholder, type = "text", req
       value={value}
       onChange={(e) => onChange(e.target.value)}
       placeholder={placeholder}
+      maxLength={maxLength}
       className={S.InquiryFormFieldInput}
     />
   </div>

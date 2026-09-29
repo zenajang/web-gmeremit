@@ -9,4 +9,4 @@ export const InquiryFormDeptDescription = "mt-1 block text-[13px] text-gray";
 
 export const InquiryFormNameRow = "grid gap-3.5 sm:grid-cols-2";
 
-export const InquiryFormError = "mb-4 text-sm text-primary";
+export const InquiryFormError = "mb-4 min-h-5 text-sm text-primary";

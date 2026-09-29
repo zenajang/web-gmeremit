@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import { ActionButtons, FormField, HoneypotField, TextAreaField, TurnstileField } from "@/components/support/inquiry/molecules";
-import { EMPTY_FORM } from "@/components/support/inquiry/constants";
-import { sendInquiryEmail, verifyTurnstileToken } from "@/components/support/inquiry/api";
+import { EMAIL_PATTERN, EMPTY_FORM, FIELD_MAX_LENGTH, MIN_SUBMIT_LOADING_MS, PHONE_PATTERN } from "@/components/support/inquiry/constants";
+import { sendInquiryEmail } from "@/components/support/inquiry/api";
 import type { InquiryCategory, InquiryFormValues } from "@/components/support/inquiry/types";
 import * as S from "./styles";
 
@@ -28,6 +28,14 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
       setError("필수 항목을 모두 입력해 주세요.");
       return true
     }
+    if (form.phone.trim() && !PHONE_PATTERN.test(form.phone.trim())) {
+      setError("연락처를 확인해 주세요.");
+      return true
+    }
+    if (!EMAIL_PATTERN.test(form.email)) {
+      setError("이메일 주소를 확인해 주세요.");
+      return true
+    }
     if (!turnstileToken) {
       setError("보안 확인을 완료해 주세요.");
       return true
@@ -35,20 +43,18 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
     return false;
   }
 
-  const getVerifyTurnstileToken = async () => {
-    const {success} = await verifyTurnstileToken(turnstileToken);
-      if (!success) {
-        setError("보안 확인에 실패했습니다. 다시 시도해 주세요.");
-      }
-      return success
-  }
-
   const postSendInquiryEmail = async () => {
-    const {success, message} = await sendInquiryEmail({ categoryNo: category.no, ...form });
+    const {success, message} = await sendInquiryEmail({ categoryNo: category.no, turnstileToken, ...form });
     if (!success) {
       setError(message);
     }
     return success
+  }
+
+  const holdMinimumLoading = async (startedAt: number) => {
+    const elapsed = Date.now() - startedAt;
+    if (elapsed >= MIN_SUBMIT_LOADING_MS) return;
+    await new Promise((resolve) => setTimeout(resolve, MIN_SUBMIT_LOADING_MS - elapsed));
   }
 
   const submitInquiryForm = async (e: React.FormEvent) => {
@@ -60,16 +66,16 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
     
     setError("");
     setIsSubmitting(true);
+    const startedAt = Date.now();
 
     try {
-      const isHuman: boolean = await getVerifyTurnstileToken()
-      if(!isHuman) return
-
       const isSuccessSend = await postSendInquiryEmail()
+      await holdMinimumLoading(startedAt)
       if(!isSuccessSend) return
 
       onSubmitted();
     } catch {
+      await holdMinimumLoading(startedAt)
       setError("문의 접수에 실패했습니다. 잠시 후 다시 시도해 주세요.");
     } finally {
       setIsSubmitting(false);
@@ -95,6 +101,7 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
           value={form.name}
           onChange={updateFormValue("name")}
           placeholder="홍길동"
+          maxLength={FIELD_MAX_LENGTH.name}
         />
         <FormField
           id="inquiry-phone"
@@ -102,6 +109,7 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
           value={form.phone}
           onChange={updateFormValue("phone")}
           placeholder="010-0000-0000"
+          maxLength={FIELD_MAX_LENGTH.phone}
         />
       </div>
       <FormField
@@ -112,6 +120,7 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
         value={form.email}
         onChange={updateFormValue("email")}
         placeholder="name@example.com"
+        maxLength={FIELD_MAX_LENGTH.email}
       />
       <FormField
         id="inquiry-title"
@@ -120,6 +129,7 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
         value={form.title}
         onChange={updateFormValue("title")}
         placeholder="문의 제목을 입력해 주세요"
+        maxLength={FIELD_MAX_LENGTH.title}
       />
       <TextAreaField
         id="inquiry-content"
@@ -128,19 +138,19 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
         value={form.content}
         onChange={updateFormValue("content")}
         placeholder="문의하실 내용을 자세히 적어 주시면 정확한 답변에 도움이 됩니다."
+        maxLength={FIELD_MAX_LENGTH.content}
       />
 
       <TurnstileField onTokenChange={setTurnstileToken} />
 
-      {error && (
-        <p role="alert" className={S.InquiryFormError}>
-          {error}
-        </p>
-      )}
+      <p role="alert" className={S.InquiryFormError}>
+        {error}
+      </p>
 
       <ActionButtons
         align="center"
-        primaryLabel={isSubmitting ? "접수 중..." : "문의 접수하기"}
+        primaryLabel="문의 접수하기"
+        isLoading={isSubmitting}
         primaryType="submit"
         secondaryLabel="유형 다시 선택"
         onSecondary={onReset}
