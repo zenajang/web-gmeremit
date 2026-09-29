@@ -1,5 +1,5 @@
 import * as S from "./styles";
-import type { InquiryCategory } from "../../types";
+import type { InquiryCategory } from "@/components/support/inquiry/types";
 
 interface CategoryCardProps {
   category: InquiryCategory;

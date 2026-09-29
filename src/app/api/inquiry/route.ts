@@ -78,13 +78,13 @@ export async function POST(request: NextRequest) {
     });
 
     if (!response.ok) {
-      console.error("Resend send failed", response.status, await response.text());
-      return NextResponse.json({ message: "문의 접수에 실패했습니다." }, { status: 502 });
+      console.error('Resend send failed', response.status, await response.text());
+      return NextResponse.json({ message: '문의 접수에 실패했습니다.' }, { status: 502 });
     }
   } catch (error) {
     console.error("Resend send threw", error);
-    return NextResponse.json({ message: "문의 접수에 실패했습니다." }, { status: 502 });
+    return NextResponse.json({ message: '문의 접수에 실패했습니다.' }, { status: 502 });
   }
 
-  return NextResponse.json({ ok: true });
+  return NextResponse.json({ ok: true, message: '' });
 }

@@ -2,7 +2,6 @@ import * as S from "./styles";
 
 interface FieldLabelProps {
   children: React.ReactNode;
-  /** 연결할 입력 요소의 id. 없으면 label 이 아닌 일반 텍스트로 렌더한다 */
   htmlFor?: string;
   required?: boolean;
 }

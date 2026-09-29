@@ -2,11 +2,11 @@
 
 import { useState } from "react";
 import * as S from "./styles";
-import { Backdrop, StepIndicator } from "../molecules";
-import { CategorySelector, GuidePanel, InquiryForm, SubmissionComplete } from "../organisms";
-import { CHAT_GUIDE } from "../constants";
+import { Backdrop, StepIndicator } from "@/components/support/inquiry/molecules";
+import { CategorySelector, GuidePanel, InquiryForm, SubmissionComplete } from "@/components/support/inquiry/organisms";
+import { CHAT_GUIDE } from "@/components/support/inquiry/constants";
 import ChannelService from "@/components/channel-talk/ChannelService";
-import type { InquiryCategory } from "../types";
+import type { InquiryCategory } from "@/components/support/inquiry/types";
 
 const InquiryTemplate = () => {
   const [selected, setSelected] = useState<InquiryCategory | null>(null);
@@ -15,17 +15,9 @@ const InquiryTemplate = () => {
   const resetInquiryFlow = () => {
     setSelected(null);
     setIsSubmitted(false);
-    // 덮어쓴 페이지를 남겨두면 다음에 새로 시작하는 상담까지 그 창구로 흘러간다
     ChannelService.resetPage();
   };
 
-  /**
-   * 채팅 상담을 연다.
-   * chatPage 가 있으면 그 주소를 현재 페이지로 알려 해당 창구의 봇이 뜨게 한다.
-   *
-   * 되돌리는 시점은 대화가 만들어진 뒤다. 그 전에 되돌리면 봇 매칭이 어긋나고,
-   * 안 되돌리면 다음에 시작하는 상담까지 그 창구로 흘러간다.
-   */
   const openChannelTalk = (chatPage?: string) => {
     if (!chatPage) {
       ChannelService.resetPage();

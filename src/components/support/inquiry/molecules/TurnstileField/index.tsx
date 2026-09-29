@@ -3,7 +3,7 @@
 import Script from "next/script";
 import { useCallback, useEffect, useRef, useState } from "react";
 import * as S from "./styles";
-import { TURNSTILE_SITE_KEY } from "../../constants";
+import { TURNSTILE_SITE_KEY } from "@/components/support/inquiry/constants";
 
 interface TurnstileRenderOptions {
   sitekey: string;

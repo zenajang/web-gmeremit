@@ -1,10 +1,11 @@
 "use client";
 
 import { useState } from "react";
+import { ActionButtons, FormField, HoneypotField, TextAreaField, TurnstileField } from "@/components/support/inquiry/molecules";
+import { EMPTY_FORM } from "@/components/support/inquiry/constants";
+import { sendInquiryEmail, verifyTurnstileToken } from "@/components/support/inquiry/api";
+import type { InquiryCategory, InquiryFormValues } from "@/components/support/inquiry/types";
 import * as S from "./styles";
-import { ActionButtons, FormField, HoneypotField, TextAreaField, TurnstileField } from "../../molecules";
-import { EMPTY_FORM } from "../../constants";
-import type { InquiryCategory, InquiryFormValues } from "../../types";
 
 interface InquiryFormProps {
   category: Extract<InquiryCategory, { kind: "mail" }>;
@@ -22,51 +23,50 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
   const updateFormValue = (key: keyof InquiryFormValues) => (value: string) =>
     setForm((prev) => ({ ...prev, [key]: value }));
 
-  const sendInquiryEmail = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (isSubmitting) return;
-
-    if (honeypot) {
-      onSubmitted();
-      return;
-    }
-
+  const hasValidationError = () => { 
     if (!form.name.trim() || !form.email.trim() || !form.title.trim() || !form.content.trim()) {
       setError("필수 항목을 모두 입력해 주세요.");
-      return;
+      return true
     }
     if (!turnstileToken) {
       setError("보안 확인을 완료해 주세요.");
-      return;
+      return true
     }
+    return false;
+  }
 
+  const getVerifyTurnstileToken = async () => {
+    const {success} = await verifyTurnstileToken(turnstileToken);
+      if (!success) {
+        setError("보안 확인에 실패했습니다. 다시 시도해 주세요.");
+      }
+      return success
+  }
+
+  const postSendInquiryEmail = async () => {
+    const {success, message} = await sendInquiryEmail({ categoryNo: category.no, ...form });
+    if (!success) {
+      setError(message);
+    }
+    return success
+  }
+
+  const submitInquiryForm = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    if (isSubmitting) return;
+    if (honeypot) { return onSubmitted() };
+    if(hasValidationError()) return
+    
     setError("");
     setIsSubmitting(true);
 
     try {
-      const verified = await fetch("/api/turnstile", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ token: turnstileToken }),
-      });
-      const { success }: { success?: boolean } = await verified.json().catch(() => ({}));
+      const isHuman: boolean = await getVerifyTurnstileToken()
+      if(!isHuman) return
 
-      if (!success) {
-        setError("보안 확인에 실패했습니다. 다시 시도해 주세요.");
-        return;
-      }
-
-      const sent = await fetch("/api/inquiry", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ categoryNo: category.no, ...form }),
-      });
-
-      if (!sent.ok) {
-        const { message }: { message?: string } = await sent.json().catch(() => ({}));
-        setError(message ?? "문의 접수에 실패했습니다. 잠시 후 다시 시도해 주세요.");
-        return;
-      }
+      const isSuccessSend = await postSendInquiryEmail()
+      if(!isSuccessSend) return
 
       onSubmitted();
     } catch {
@@ -77,7 +77,7 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
   };
 
   return (
-    <form onSubmit={sendInquiryEmail} noValidate className={S.InquiryFormRoot}>
+    <form onSubmit={submitInquiryForm} noValidate className={S.InquiryFormRoot}>
       <HoneypotField value={honeypot} onChange={setHoneypot} />
 
       <div className={S.InquiryFormDeptBox}>
@@ -139,6 +139,7 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
       )}
 
       <ActionButtons
+        align="center"
         primaryLabel={isSubmitting ? "접수 중..." : "문의 접수하기"}
         primaryType="submit"
         secondaryLabel="유형 다시 선택"

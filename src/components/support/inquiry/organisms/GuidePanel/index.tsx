@@ -1,5 +1,5 @@
 import * as S from "./styles";
-import { ActionButtons } from "../../molecules";
+import { ActionButtons } from "@/components/support/inquiry/molecules";
 
 interface GuidePanelProps {
   title: string;

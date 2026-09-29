@@ -1,7 +1,7 @@
 import * as S from "./styles";
-import { CategoryCard, FieldLabel } from "../../molecules";
-import { CATEGORIES } from "../../constants";
-import type { InquiryCategory } from "../../types";
+import { CategoryCard, FieldLabel } from "@/components/support/inquiry/molecules";
+import { CATEGORIES } from "@/components/support/inquiry/constants";
+import type { InquiryCategory } from "@/components/support/inquiry/types";
 
 interface CategorySelectorProps {
   onSelect: (category: InquiryCategory) => void;

@@ -1,16 +1,10 @@
 import * as S from "./styles";
 
 interface StepIndicatorProps {
-  /** 현재 단계 (1 또는 2) */
   step: 1 | 2;
-  /** 1단계로 되돌린다. 2단계에서만 쓰인다 */
   onStepBack: () => void;
 }
 
-/**
- * 1단계는 2단계에서 눌러 되돌아갈 수 있다.
- * 2단계는 유형을 고르기 전에는 보여줄 내용이 없어 누를 수 없다.
- */
 const StepIndicator = ({ step, onStepBack }: StepIndicatorProps) => (
   <div className={S.InquiryStepIndicatorRow}>
     {step === 1 ? (

@@ -2,7 +2,6 @@ import * as S from "./styles";
 
 interface ActionButtonsProps {
   primaryLabel: string;
-  /** submit 버튼이면 onPrimary 없이 type 만 넘긴다 */
   onPrimary?: () => void;
   primaryType?: "button" | "submit";
   secondaryLabel?: string;

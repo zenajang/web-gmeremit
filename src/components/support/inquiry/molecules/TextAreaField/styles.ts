@@ -1,4 +1,4 @@
-import { InquiryFieldInput } from "../../styles";
+import { InquiryFieldInput } from "@/components/support/inquiry/molecules/styles";
 
 export const InquiryTextAreaFieldWrapper = "mb-5";
 

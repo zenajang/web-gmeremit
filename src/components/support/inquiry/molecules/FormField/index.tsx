@@ -1,5 +1,5 @@
 import * as S from "./styles";
-import FieldLabel from "../FieldLabel";
+import FieldLabel from "@/components/support/inquiry/molecules/FieldLabel";
 
 interface FormFieldProps {
   id: string;

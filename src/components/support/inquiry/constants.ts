@@ -16,7 +16,6 @@ export const CATEGORIES: InquiryCategory[] = [
     kind: "chat",
     name: "대출 관련 문의",
     sub: "신청 자격 · 한도 · 상환",
-    // Finance 는 같은 채널톡 키를 쓴다. 페이지만 바꿔 해당 창구 봇으로 연결한다
     chatPage: "https://gmefinance.com/",
   },
   { no: 4, kind: "mail", name: "협업 · 파트너십 문의", sub: "제휴 · 사업 제안", dept: "담당 부서" },
@@ -51,14 +50,6 @@ export const EMPTY_FORM: InquiryFormValues = {
   content: "",
 };
 
-
-/**
- * Turnstile 사이트 키. 배포 환경에서는 NEXT_PUBLIC_TURNSTILE_SITE_KEY 로 넣는다.
- *
- * 로컬에서는 Cloudflare 가 주는 "항상 통과" 테스트 키로 떨어진다.
- * 운영에서 키가 비어 있으면 위젯이 렌더되지 않아 제출이 막힌다 — 통과가 아니라
- * 차단으로 떨어지는 쪽이 안전하다.
- */
 export const TURNSTILE_SITE_KEY =
   process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ??
   (process.env.NODE_ENV === "production" ? "" : "1x00000000000000000000AA");
