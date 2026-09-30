@@ -1,0 +1,32 @@
+{
+  "hero": { "title": "有什么可以帮您", "description": "选择咨询类型，我们将为您转接至相应窗口。" },
+  "steps": { "select": "1. 选择咨询类型", "connect": "2. 咨询连接 · 受理" },
+  "selector": { "question": "请问您要咨询什么?" },
+  "categories": {
+    "1": { "name": "个人汇款咨询", "sub": "个人汇款 · 汇率 · 收款" },
+    "2": { "name": "企业汇款 (Biz) 咨询", "sub": "法人 · 贸易货款 · B2B",
+      "items": ["法人注册及审核", "贸易货款·服务费汇款", "手续费及汇率条件", "API 对接及结算"] },
+    "3": { "name": "贷款咨询", "sub": "申请资格 · 额度 · 还款" },
+    "4": { "name": "合作·伙伴关系咨询", "sub": "合作 · 业务提案", "dept": "相关部门" },
+    "5": { "name": "招聘咨询", "sub": "应聘 · 招聘流程", "dept": "人事部门" },
+    "6": { "name": "消费者保护·投诉", "sub": "纠纷 · 使用限制 · 举报", "dept": "消费者保护部门" },
+    "7": { "name": "移动通信咨询", "sub": "资费 · 开通 · USIM",
+      "items": ["资费及账单查询", "开通·携号转网·解约", "USIM 配送及更换", "数据·通话质量"] }
+  },
+  "chat": { "title": "将为您连接实时在线咨询",
+    "description": "客服人员将实时为您解答。非工作时间由聊天机器人引导并受理回电申请。",
+    "items": ["工作日 09:00 ~ 18:00 · 人工客服", "其他时间 · 机器人引导后受理回电", "支持 12 种语言 (尼泊尔语·越南语·泰语等)"],
+    "action": "开始在线咨询" },
+  "external": { "title": "将前往 {{site}}", "description": "该类咨询由 {{site}} 官网受理。", "action": "前往咨询页面" },
+  "common": { "reset": "重新选择类型" },
+  "form": { "notice": "{{dept}}确认后将为您答复。原则上在 3 个工作日内回复。",
+    "nameLabel": "姓名", "namePlaceholder": "张三",
+    "phoneLabel": "联系电话", "phonePlaceholder": "010-0000-0000",
+    "emailLabel": "电子邮箱", "emailPlaceholder": "name@example.com",
+    "titleLabel": "标题", "titlePlaceholder": "请输入咨询标题",
+    "contentLabel": "咨询内容", "contentPlaceholder": "描述越详细，我们越能准确答复。",
+    "submit": "提交咨询", "honeypot": "地址" },
+  "errors": { "required": "请填写所有必填项。", "email": "请检查电子邮箱地址。", "phone": "请检查联系电话。",
+    "turnstile": "请完成安全验证。", "failed": "咨询提交失败，请稍后重试。" },
+  "complete": { "title": "咨询已受理", "description": "相关部门确认后将通过您填写的邮箱答复。", "reset": "返回首页" }
+}

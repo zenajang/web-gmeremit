@@ -30,7 +30,8 @@ type sendInquiryEmailResponse = {
  * @param params.turnstileToken - Turnstile 위젯이 발급한 토큰. 1회용이라 이 호출로 소진된다
  * @returns `success` 가 `true` 면 발송 완료이고 `message` 는 빈 문자열이다.
  *          `false` 면 `message` 에 사용자에게 보여줄 문구가 담긴다.
- *          토큰이 만료·재사용됐거나 봇으로 판정된 경우도 `false` 다
+ *          토큰이 만료·재사용됐거나 봇으로 판정된 경우도 `false` 다.
+ *          `message` 가 비어 있으면 호출부가 사이트 언어에 맞는 기본 문구를 쓴다
  *
  * @example
  * const { success, message } = await sendInquiryEmail({ categoryNo: category.no, turnstileToken, ...form });
@@ -44,7 +45,7 @@ export const sendInquiryEmail = async (params: SendInquiryEmailParams): Promise<
   });
 
   if (!response.ok) {
-    return {success: false, message: "문의 접수에 실패했습니다. 잠시 후 다시 시도해 주세요."}
+    return {success: false, message: ""}
   };
 
   const data = await response.json()

@@ -1,13 +1,7 @@
 export type InquiryCategory =
-  | {
-      no: number;
-      kind: "chat";
-      name: string;
-      sub: string;
-      chatPage?: string;
-    }
-  | { no: number; kind: "ext"; name: string; sub: string; url: string; site: string; items: string[] }
-  | { no: number; kind: "mail"; name: string; sub: string; dept: string };
+  | { no: number; kind: "chat"; chatPage?: string }
+  | { no: number; kind: "ext"; url: string; site: string }
+  | { no: number; kind: "mail" };
 
 export interface InquiryFormValues {
   name: string;
