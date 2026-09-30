@@ -7,10 +7,9 @@ import { RiCustomerService2Fill } from "react-icons/ri";
 import { useTranslation } from "@/hooks/useTranslation";
 import { countries } from "@/data/socialChannels";
 
-export default function SocialChannelsPage() {
+const SocialChannelsTemplate = () => {
   const [expandedId, setExpandedId] = useState<string | null>(null);
   const { t } = useTranslation("support.social_channels");
-
   return (
     <div>
       {/* 헤더 섹션 */}
@@ -134,3 +133,5 @@ export default function SocialChannelsPage() {
     </div>
   );
 }
+
+export default SocialChannelsTemplate

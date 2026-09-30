@@ -4,39 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { useTranslation } from "@/hooks/useTranslation";
 
-interface FooterProps {
-  variant?: "full" | "minimal";
-}
-
-export default function Footer({ variant = "full" }: FooterProps) {
+export default function Footer() {
   const { t } = useTranslation("footer");
-
-  if (variant === "minimal") {
-    return (
-      <footer className="bg-white border-t border-gray-200">
-        <div className="max-w-[1540px] mx-auto px-4 sm:px-6 lg:px-8 py-7 lg:py-9">
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
-            <div className="flex items-center gap-2">
-              <Image src="/images/favicon.png" alt="GME Logo" width={24} height={24} className="w-6 h-6" />
-              <span className="text-sm font-semibold text-gray-700">{t("company_name")}</span>
-            </div>
-            <div className="flex items-center gap-3 text-xs text-gray-500">
-              <Link href="/terms" className="hover:text-primary transition-colors">
-                {t("link.terms")}
-              </Link>
-              <span className="text-gray-300">|</span>
-              <Link href="/privacy" className="hover:text-primary transition-colors">
-                {t("link.privacy")}
-              </Link>
-              <span className="text-gray-300">|</span>
-              <span>{t("copyright")}</span>
-            </div>
-          </div>
-        </div>
-      </footer>
-    );
-  }
-
   return (
     <footer className="bg-white border-t border-gray-200">
       <div className="max-w-[1540px] mx-auto px-4 lg:pt-10 sm:px-6 lg:px-8 py-12 lg:py-6 min-h-[420px] lg:min-h-[320px]">

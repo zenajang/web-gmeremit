@@ -1,5 +1,11 @@
 # Project Instructions
 
+## 규칙
+
+`.claude/rules/` 안의 파일은 Claude Code 가 매 세션 자동으로 읽는다. import 하지 않는다.
+
+- `rules/component-conventions.md` — 컴포넌트 작성 규칙 (폴더 구조, 함수명, 스타일 분리, 단일 책임)
+
 ## Skills
 
 Load custom skills from `.claude/skills/` directory for enhanced capabilities.
