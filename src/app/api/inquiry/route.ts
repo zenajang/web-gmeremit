@@ -6,7 +6,7 @@ const RECIPIENTS: Record<number, string> = {
   6: "compliance@gmeremit.com",
 };
 
-const FROM = "GME 문의하기 <noreply@send.gmeremit.com>";
+const FROM = "GME 문의하기 <noreply@gmeremit.com>";
 const RESEND_URL = "https://api.resend.com/emails";
 const SITEVERIFY_URL = "https://challenges.cloudflare.com/turnstile/v0/siteverify";
 
