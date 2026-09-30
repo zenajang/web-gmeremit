@@ -1,0 +1,32 @@
+{
+  "hero": { "title": "Chúng tôi có thể giúp gì cho bạn?", "description": "Chọn loại yêu cầu, chúng tôi sẽ hướng dẫn bạn đến bộ phận phụ trách." },
+  "steps": { "select": "1. Chọn loại yêu cầu", "connect": "2. Kết nối · Tiếp nhận" },
+  "selector": { "question": "Bạn muốn hỏi về vấn đề gì?" },
+  "categories": {
+    "1": { "name": "Chuyển tiền cá nhân", "sub": "Chuyển tiền · Tỷ giá · Nhận tiền" },
+    "2": { "name": "Chuyển tiền doanh nghiệp (Biz)", "sub": "Pháp nhân · Thanh toán thương mại · B2B",
+      "items": ["Đăng ký và thẩm định pháp nhân", "Thanh toán thương mại và dịch vụ", "Phí và điều kiện tỷ giá", "Tích hợp API và quyết toán"] },
+    "3": { "name": "Vay vốn", "sub": "Điều kiện · Hạn mức · Trả nợ" },
+    "4": { "name": "Hợp tác · Đối tác", "sub": "Liên kết · Đề xuất kinh doanh", "dept": "Bộ phận phụ trách" },
+    "5": { "name": "Tuyển dụng", "sub": "Ứng tuyển · Quy trình tuyển dụng", "dept": "Bộ phận nhân sự" },
+    "6": { "name": "Bảo vệ người tiêu dùng · Khiếu nại", "sub": "Tranh chấp · Hạn chế sử dụng · Tố giác", "dept": "Bộ phận bảo vệ người tiêu dùng" },
+    "7": { "name": "Di động · Viễn thông", "sub": "Gói cước · Kích hoạt · USIM",
+      "items": ["Gói cước và tra cứu hóa đơn", "Kích hoạt, chuyển mạng và hủy", "Giao và đổi USIM", "Chất lượng dữ liệu và cuộc gọi"] }
+  },
+  "chat": { "title": "Bạn sẽ được kết nối với tư vấn trực tuyến",
+    "description": "Tư vấn viên trả lời theo thời gian thực. Ngoài giờ làm việc, chatbot sẽ hướng dẫn và tiếp nhận yêu cầu gọi lại.",
+    "items": ["Thứ Hai - Thứ Sáu 09:00 ~ 18:00 · Tư vấn viên", "Ngoài giờ · Chatbot hướng dẫn và nhận gọi lại", "Hỗ trợ 12 ngôn ngữ (tiếng Nepal, tiếng Việt, tiếng Thái...)"],
+    "action": "Bắt đầu trò chuyện" },
+  "external": { "title": "Chuyển đến {{site}}", "description": "Yêu cầu này được tiếp nhận trên trang {{site}}.", "action": "Đến trang yêu cầu" },
+  "common": { "reset": "Chọn lại loại yêu cầu" },
+  "form": { "notice": "{{dept}} sẽ xem xét và phản hồi. Chúng tôi phản hồi trong vòng 3 ngày làm việc.",
+    "nameLabel": "Họ và tên", "namePlaceholder": "Nguyễn Văn A",
+    "phoneLabel": "Số điện thoại", "phonePlaceholder": "010-0000-0000",
+    "emailLabel": "Email", "emailPlaceholder": "name@example.com",
+    "titleLabel": "Tiêu đề", "titlePlaceholder": "Nhập tiêu đề yêu cầu",
+    "contentLabel": "Nội dung", "contentPlaceholder": "Bạn mô tả càng chi tiết, chúng tôi càng trả lời chính xác.",
+    "submit": "Gửi yêu cầu", "honeypot": "Địa chỉ" },
+  "errors": { "required": "Vui lòng điền đầy đủ các mục bắt buộc.", "email": "Vui lòng kiểm tra địa chỉ email.", "phone": "Vui lòng kiểm tra số điện thoại.",
+    "turnstile": "Vui lòng hoàn tất bước xác minh bảo mật.", "failed": "Không gửi được yêu cầu. Vui lòng thử lại sau." },
+  "complete": { "title": "Đã tiếp nhận yêu cầu của bạn", "description": "Bộ phận phụ trách sẽ xem xét và phản hồi qua email bạn đã cung cấp.", "reset": "Về trang đầu" }
+}

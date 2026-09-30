@@ -1,11 +1,24 @@
 "use client";
 
 import { useState } from "react";
-import { ActionButtons, FormField, HoneypotField, TextAreaField, TurnstileField } from "@/components/support/inquiry/molecules";
-import { EMAIL_PATTERN, EMPTY_FORM, FIELD_MAX_LENGTH, MIN_SUBMIT_LOADING_MS, PHONE_PATTERN } from "@/components/support/inquiry/constants";
-import { sendInquiryEmail } from "@/components/support/inquiry/api";
-import type { InquiryCategory, InquiryFormValues } from "@/components/support/inquiry/types";
 import * as S from "./styles";
+import {
+  ActionButtons,
+  FormField,
+  HoneypotField,
+  TextAreaField,
+  TurnstileField,
+} from "@/components/support/inquiry/molecules";
+import {
+  EMAIL_PATTERN,
+  EMPTY_FORM,
+  FIELD_MAX_LENGTH,
+  MIN_SUBMIT_LOADING_MS,
+  PHONE_PATTERN,
+} from "@/components/support/inquiry/constants";
+import { sendInquiryEmail } from "@/components/support/inquiry/api";
+import { useInquiryTranslation } from "@/hooks/useInquiryTranslation";
+import type { InquiryCategory, InquiryFormValues } from "@/components/support/inquiry/types";
 
 interface InquiryFormProps {
   category: Extract<InquiryCategory, { kind: "mail" }>;
@@ -14,6 +27,7 @@ interface InquiryFormProps {
 }
 
 const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
+  const { t } = useInquiryTranslation();
   const [form, setForm] = useState<InquiryFormValues>(EMPTY_FORM);
   const [honeypot, setHoneypot] = useState("");
   const [turnstileToken, setTurnstileToken] = useState("");
@@ -23,60 +37,64 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
   const updateFormValue = (key: keyof InquiryFormValues) => (value: string) =>
     setForm((prev) => ({ ...prev, [key]: value }));
 
-  const hasValidationError = () => { 
+  const hasValidationError = () => {
     if (!form.name.trim() || !form.email.trim() || !form.title.trim() || !form.content.trim()) {
-      setError("필수 항목을 모두 입력해 주세요.");
-      return true
-    }
-    if (form.phone.trim() && !PHONE_PATTERN.test(form.phone.trim())) {
-      setError("연락처를 확인해 주세요.");
-      return true
+      setError(t("errors.required"));
+      return true;
     }
     if (!EMAIL_PATTERN.test(form.email)) {
-      setError("이메일 주소를 확인해 주세요.");
-      return true
+      setError(t("errors.email"));
+      return true;
+    }
+    if (form.phone.trim() && !PHONE_PATTERN.test(form.phone.trim())) {
+      setError(t("errors.phone"));
+      return true;
     }
     if (!turnstileToken) {
-      setError("보안 확인을 완료해 주세요.");
-      return true
+      setError(t("errors.turnstile"));
+      return true;
     }
     return false;
-  }
+  };
 
   const postSendInquiryEmail = async () => {
-    const {success, message} = await sendInquiryEmail({ categoryNo: category.no, turnstileToken, ...form });
+    const { success, message } = await sendInquiryEmail({
+      categoryNo: category.no,
+      turnstileToken,
+      ...form,
+    });
     if (!success) {
-      setError(message);
+      setError(message || t("errors.failed"));
     }
-    return success
-  }
+    return success;
+  };
 
   const holdMinimumLoading = async (startedAt: number) => {
     const elapsed = Date.now() - startedAt;
     if (elapsed >= MIN_SUBMIT_LOADING_MS) return;
     await new Promise((resolve) => setTimeout(resolve, MIN_SUBMIT_LOADING_MS - elapsed));
-  }
+  };
 
   const submitInquiryForm = async (e: React.FormEvent) => {
     e.preventDefault();
 
     if (isSubmitting) return;
-    if (honeypot) { return onSubmitted() };
-    if(hasValidationError()) return
-    
+    if (honeypot) return onSubmitted();
+    if (hasValidationError()) return;
+
     setError("");
     setIsSubmitting(true);
     const startedAt = Date.now();
 
     try {
-      const isSuccessSend = await postSendInquiryEmail()
-      await holdMinimumLoading(startedAt)
-      if(!isSuccessSend) return
+      const isSuccessSend = await postSendInquiryEmail();
+      await holdMinimumLoading(startedAt);
+      if (!isSuccessSend) return;
 
       onSubmitted();
     } catch {
-      await holdMinimumLoading(startedAt)
-      setError("문의 접수에 실패했습니다. 잠시 후 다시 시도해 주세요.");
+      await holdMinimumLoading(startedAt);
+      setError(t("errors.failed"));
     } finally {
       setIsSubmitting(false);
     }
@@ -87,57 +105,57 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
       <HoneypotField value={honeypot} onChange={setHoneypot} />
 
       <div className={S.InquiryFormDeptBox}>
-        <b className={S.InquiryFormDeptName}>{category.name}</b>
+        <b className={S.InquiryFormDeptName}>{t(`categories.${category.no}.name`)}</b>
         <span className={S.InquiryFormDeptDescription}>
-          {category.dept}에서 확인 후 답변드립니다. 영업일 기준 3일 이내 회신을 원칙으로 합니다.
+          {t("form.notice", { dept: t(`categories.${category.no}.dept`) })}
         </span>
       </div>
 
       <div className={S.InquiryFormNameRow}>
         <FormField
           id="inquiry-name"
-          label="성명"
+          label={t("form.nameLabel")}
           required
           value={form.name}
           onChange={updateFormValue("name")}
-          placeholder="홍길동"
+          placeholder={t("form.namePlaceholder")}
           maxLength={FIELD_MAX_LENGTH.name}
         />
         <FormField
           id="inquiry-phone"
-          label="연락처"
+          label={t("form.phoneLabel")}
           value={form.phone}
           onChange={updateFormValue("phone")}
-          placeholder="010-0000-0000"
+          placeholder={t("form.phonePlaceholder")}
           maxLength={FIELD_MAX_LENGTH.phone}
         />
       </div>
       <FormField
         id="inquiry-email"
-        label="이메일"
+        label={t("form.emailLabel")}
         required
         type="email"
         value={form.email}
         onChange={updateFormValue("email")}
-        placeholder="name@example.com"
+        placeholder={t("form.emailPlaceholder")}
         maxLength={FIELD_MAX_LENGTH.email}
       />
       <FormField
         id="inquiry-title"
-        label="제목"
+        label={t("form.titleLabel")}
         required
         value={form.title}
         onChange={updateFormValue("title")}
-        placeholder="문의 제목을 입력해 주세요"
+        placeholder={t("form.titlePlaceholder")}
         maxLength={FIELD_MAX_LENGTH.title}
       />
       <TextAreaField
         id="inquiry-content"
-        label="문의 내용"
+        label={t("form.contentLabel")}
         required
         value={form.content}
         onChange={updateFormValue("content")}
-        placeholder="문의하실 내용을 자세히 적어 주시면 정확한 답변에 도움이 됩니다."
+        placeholder={t("form.contentPlaceholder")}
         maxLength={FIELD_MAX_LENGTH.content}
       />
 
@@ -149,11 +167,11 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
 
       <ActionButtons
         align="center"
-        primaryLabel="문의 접수하기"
-        isLoading={isSubmitting}
+        primaryLabel={t("form.submit")}
         primaryType="submit"
-        secondaryLabel="유형 다시 선택"
+        secondaryLabel={t("common.reset")}
         onSecondary={onReset}
+        isLoading={isSubmitting}
       />
     </form>
   );

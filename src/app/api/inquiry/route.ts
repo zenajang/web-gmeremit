@@ -74,7 +74,7 @@ async function verifyTurnstileToken(token: string, remoteIp: string | null) {
 
 export async function POST(request: NextRequest) {
   const failed = NextResponse.json(
-    { message: "문의 접수에 실패했습니다. 잠시 후 다시 시도해 주세요." },
+    { message: "Inquiry submission failed." },
     { status: 400 }
   );
 
@@ -99,7 +99,7 @@ export async function POST(request: NextRequest) {
   const apiKey = process.env.RESEND_API_KEY;
   if (!apiKey) {
     console.error("RESEND_API_KEY is not configured");
-    return NextResponse.json({ message: "문의 접수에 실패했습니다." }, { status: 500 });
+    return NextResponse.json({ message: "Inquiry submission failed." }, { status: 500 });
   }
 
   const html = `
@@ -131,11 +131,11 @@ export async function POST(request: NextRequest) {
 
     if (!response.ok) {
       console.error('Resend send failed', response.status, await response.text());
-      return NextResponse.json({ message: '문의 접수에 실패했습니다.' }, { status: 502 });
+      return NextResponse.json({ message: "Inquiry submission failed." }, { status: 502 });
     }
   } catch (error) {
     console.error("Resend send threw", error);
-    return NextResponse.json({ message: '문의 접수에 실패했습니다.' }, { status: 502 });
+    return NextResponse.json({ message: "Inquiry submission failed." }, { status: 502 });
   }
 
   return NextResponse.json({ ok: true, message: '' });
