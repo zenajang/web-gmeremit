@@ -1,5 +1,5 @@
 import { after, NextRequest, NextResponse } from "next/server";
-import { supabaseAdmin } from "@/lib/supabase/admin";
+import { createSupabaseAdmin } from "@/lib/supabase/admin";
 
 const API_URL =
   process.env.EXCHANGE_RATE_API_URL ??
@@ -18,6 +18,12 @@ function logExRateRequest(
   if (process.env.NODE_ENV !== "production") return;
 
   after(async () => {
+    const supabaseAdmin = createSupabaseAdmin();
+    if (!supabaseAdmin) {
+      console.error("SUPABASE_SERVICE_ROLE_KEY is not configured");
+      return;
+    }
+
     const { error } = await supabaseAdmin.from("exrate_request_log").insert({
       ip: request.headers.get("x-forwarded-for"),
       country: request.headers.get("x-vercel-ip-country"),
