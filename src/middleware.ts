@@ -18,8 +18,28 @@ function isIpAllowed(req: NextRequest): boolean {
   return allowList.includes(getClientIp(req));
 }
 
+const VISITOR_COOKIE_NAME = 'vid';
+const VISITOR_COOKIE_MAX_AGE = 60 * 60 * 24 * 30;
+
+/** 페이지를 실제로 연 방문자에게만 익명 ID를 심는다. API 직접 호출에는 발급되지 않는다 */
+function issueVisitorCookie(req: NextRequest, res: NextResponse) {
+  if (req.cookies.has(VISITOR_COOKIE_NAME)) return;
+
+  res.cookies.set(VISITOR_COOKIE_NAME, crypto.randomUUID(), {
+    httpOnly: true,
+    sameSite: 'lax',
+    secure: true,
+    path: '/',
+    maxAge: VISITOR_COOKIE_MAX_AGE,
+  });
+}
+
 export async function middleware(req: NextRequest) {
-  if (!req.nextUrl.pathname.startsWith('/gme-ops')) return NextResponse.next();
+  if (!req.nextUrl.pathname.startsWith('/gme-ops')) {
+    const res = NextResponse.next();
+    issueVisitorCookie(req, res);
+    return res;
+  }
 
   if (!isIpAllowed(req)) {
     return NextResponse.rewrite(new URL('/404-ip-restricted', req.url), {
@@ -57,5 +77,8 @@ export async function middleware(req: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/gme-ops/:path*'],
+  matcher: [
+    // 페이지 요청만 통과시킨다. API, 정적 파일, Next 내부 경로는 제외
+    '/((?!api|_next/static|_next/image|favicon.ico|.*\\.[a-zA-Z0-9]+$).*)',
+  ],
 };
