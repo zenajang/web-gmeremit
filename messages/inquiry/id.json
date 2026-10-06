@@ -74,7 +74,7 @@
     "reset": "Pilih topik lain"
   },
   "form": {
-    "notice": "{{dept}} akan memeriksa dan membalas. Kami menjawab maksimal dalam 3 hari kerja.",
+    "notice": "{{dept}} akan memeriksa dan membalas.",
     "nameLabel": "Nama",
     "namePlaceholder": "Budi Santoso",
     "phoneLabel": "Nomor telepon",

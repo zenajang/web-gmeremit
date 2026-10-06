@@ -11,26 +11,58 @@
     "question": "What is your inquiry about?"
   },
   "categories": {
-    "1": { "name": "Personal remittance", "sub": "Transfers · Exchange rates · Payout" },
+    "1": {
+      "name": "Personal remittance",
+      "sub": "Transfers · Exchange rates · Payout"
+    },
     "2": {
       "name": "Business remittance (Biz)",
       "sub": "Corporate · Trade payments · B2B",
-      "items": ["Corporate sign-up and review", "Trade and service payments", "Fees and exchange rates", "API integration and settlement"]
+      "items": [
+        "Corporate sign-up and review",
+        "Trade and service payments",
+        "Fees and exchange rates",
+        "API integration and settlement"
+      ]
     },
-    "3": { "name": "Loans", "sub": "Eligibility · Limits · Repayment" },
-    "4": { "name": "Partnership", "sub": "Alliances · Business proposals", "dept": "the team in charge" },
-    "5": { "name": "Careers", "sub": "Applications · Hiring process", "dept": "the HR team" },
-    "6": { "name": "Consumer protection", "sub": "Disputes · Restrictions · Reports", "dept": "the consumer protection team" },
+    "3": {
+      "name": "Loans",
+      "sub": "Eligibility · Limits · Repayment"
+    },
+    "4": {
+      "name": "Partnership",
+      "sub": "Alliances · Business proposals",
+      "dept": "The team in charge"
+    },
+    "5": {
+      "name": "Careers",
+      "sub": "Applications · Hiring process",
+      "dept": "The HR team"
+    },
+    "6": {
+      "name": "Consumer protection",
+      "sub": "Disputes · Restrictions · Reports",
+      "dept": "The consumer protection team"
+    },
     "7": {
       "name": "Mobile and telecom",
       "sub": "Plans · Activation · USIM",
-      "items": ["Plans and billing", "Activation, porting and cancellation", "USIM delivery and replacement", "Data and call quality"]
+      "items": [
+        "Plans and billing",
+        "Activation, porting and cancellation",
+        "USIM delivery and replacement",
+        "Data and call quality"
+      ]
     }
   },
   "chat": {
     "title": "You will be connected to live chat",
     "description": "An agent replies in real time. Outside business hours, the chatbot takes your details and we call you back.",
-    "items": ["Weekdays 09:00 - 18:00 · Live agent", "Other hours · Chatbot and callback", "12 languages supported (Nepali, Vietnamese, Thai and more)"],
+    "items": [
+      "Weekdays 09:00 - 18:00 · Live agent",
+      "Other hours · Chatbot and callback",
+      "12 languages supported (Nepali, Vietnamese, Thai and more)"
+    ],
     "action": "Start live chat"
   },
   "external": {
@@ -38,9 +70,11 @@
     "description": "This type of inquiry is handled on the {{site}} website.",
     "action": "Go to the inquiry page"
   },
-  "common": { "reset": "Choose another topic" },
+  "common": {
+    "reset": "Choose another topic"
+  },
   "form": {
-    "notice": "{{dept}} will review your inquiry and reply. We aim to respond within 3 business days.",
+    "notice": "{{dept}} will review your inquiry and reply.",
     "nameLabel": "Name",
     "namePlaceholder": "John Doe",
     "phoneLabel": "Phone",

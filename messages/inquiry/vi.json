@@ -74,7 +74,7 @@
     "reset": "Chọn lại loại yêu cầu"
   },
   "form": {
-    "notice": "{{dept}} sẽ kiểm tra yêu cầu của bạn và phản hồi. Chúng tôi phản hồi trong vòng 3 ngày làm việc.",
+    "notice": "{{dept}} sẽ kiểm tra yêu cầu của bạn và phản hồi.",
     "nameLabel": "Họ và tên",
     "namePlaceholder": "Nguyễn Văn A",
     "phoneLabel": "Số điện thoại",
