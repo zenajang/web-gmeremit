@@ -1,0 +1,103 @@
+{
+  "hero": {
+    "title": "Sizga qanday yordam bera olamiz",
+    "description": "Murojaat turini tanlang, sizni tegishli boʻlimga yoʻnaltiramiz."
+  },
+  "steps": {
+    "select": "1. Turni tanlash",
+    "connect": "2. Ulanish · Qabul"
+  },
+  "selector": {
+    "question": "Murojatingiz nima haqida?"
+  },
+  "categories": {
+    "1": {
+      "name": "Shaxsiy pul oʻtkazmasi",
+      "sub": "Pul joʻnatish · Valyuta kursi · Pul olish"
+    },
+    "2": {
+      "name": "Biznes pul oʻtkazmasi (Biz)",
+      "sub": "Yuridik shaxs · Savdo toʻlovlari · B2B",
+      "items": [
+        "Yuridik shaxsni roʻyxatdan oʻtkazish va tekshirish",
+        "Savdo va xizmat toʻlovlari",
+        "Komissiya va valyuta kursi shartlari",
+        "API integratsiyasi va hisob-kitob"
+      ]
+    },
+    "3": {
+      "name": "Kredit boʻyicha murojaat",
+      "sub": "Shartlar · Limitlar · QAYTA Toʻlash"
+    },
+    "4": {
+      "name": "Hamkorlik QILISH",
+      "sub": "Sheriklik · Biznes taklifi",
+      "dept": "Tegishli boʻlim"
+    },
+    "5": {
+      "name": "Ish · Tanlov",
+      "sub": "Ariza · Tanlov jarayoni",
+      "dept": "Kadrlar boʻlimi"
+    },
+    "6": {
+      "name": "Isteʼmolchi huquqlari · Shikoyat",
+      "sub": "Nizolar · Foydalanish cheklovi · Xabar berish",
+      "dept": "Isteʼmolchi huquqlarini himoya qilish boʻlimi"
+    },
+    "7": {
+      "name": "Mobil · Aloqa",
+      "sub": "Tarif · Ulanish · USIM",
+      "items": [
+        "Tarif va hisob-Tolovlarni  tekshirish",
+        "Ulanish, raqam koʻchirish va bekor qilish",
+        "USIM yetkazib berish va almashtirish",
+        "Maʼlumot va qoʻngʻiroq sifati"
+      ]
+    }
+  },
+  "chat": {
+    "title": "Siz jonli chatga ulanasiz",
+    "description": "Operator real vaqtda javob beradi. Ish vaqtidan tashqari chatbot yoʻl koʻrsatadi va ish vohtida sizga qayta telefon qilinadi",
+    "items": [
+      "Dushanba - Juma 09:00 - 18:00 · Operatorlar ishlaydi",
+      "Boshqa vaqtlarda · Chatbot va qayta qoʻngʻiroq qilinadi",
+      "12 til qoʻllab-quvvatlanadi (UZBEK RUS KASAK KYRGYZ TURK ,  va boshqalar)"
+    ],
+    "action": "Chatni boshlashni bosing"
+  },
+  "external": {
+    "title": "{{jonli suxbat}} saytiga oʻtilmoqda",
+    "description": "Bunday murojaatlar {{jonli suxbat} saytida qabul qilinadi.",
+    "action": "Murojaat sahifasiga oʻtish"
+  },
+  "common": {
+    "reset": "Boshqa turni tanlash"
+  },
+  "form": {
+    "notice": "{{bo'limdagilar }} koʻrib chiqib javob beradi. 3 ish kuni ichida javob berishga harakat qilamiz.",
+    "nameLabel": "Ism",
+    "namePlaceholder": "Aziz Karimov",
+    "phoneLabel": "Telefon raqami",
+    "phonePlaceholder": "010-0000-0000",
+    "emailLabel": "Elektron pochta",
+    "emailPlaceholder": "name@example.com",
+    "titleLabel": "Mavzu",
+    "titlePlaceholder": "Mavzuni kiriting",
+    "contentLabel": "Matn",
+    "contentPlaceholder": "Qanchalik batafsil yozsangiz, shunchalik aniq javob bera olamiz.",
+    "submit": "Murojaat yuborish",
+    "honeypot": "Manzil"
+  },
+  "errors": {
+    "required": "Barcha belgilangan qatorlarini  toʻldiring.",
+    "email": "Elektron pochta manzilini tekshiring.",
+    "phone": "Telefon raqamini tekshiring.",
+    "turnstile": "Xavfsizlik tekshiruvini yakunlang.",
+    "failed": "Murojaat yuborilmadi. Birozdan soʻng qayta urinib koʻring."
+  },
+  "complete": {
+    "title": "Murojaatingiz qabul qilindi",
+    "description": "Tegishli boʻlim koʻrib chiqib, siz kiritgan elektron pochtaga javob yuboradi.",
+    "reset": "Boshiga qaytish"
+  }
+}

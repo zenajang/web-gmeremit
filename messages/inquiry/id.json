@@ -1,0 +1,103 @@
+{
+  "hero": {
+    "title": "Ada yang bisa kami bantu?",
+    "description": "Pilih jenis pertanyaan, kami akan mengarahkan Anda ke bagian yang tepat."
+  },
+  "steps": {
+    "select": "1. Pilih jenis pertanyaan",
+    "connect": "2. Hubungkan · Kirim"
+  },
+  "selector": {
+    "question": "Pertanyaan Anda tentang apa?"
+  },
+  "categories": {
+    "1": {
+      "name": "Kiriman uang pribadi",
+      "sub": "Pengiriman · Kurs · Penerimaan"
+    },
+    "2": {
+      "name": "Kiriman uang bisnis (Biz)",
+      "sub": "Badan usaha · Pembayaran usaha · B2B",
+      "items": [
+        "Pendaftaran dan verifikasi badan usaha",
+        "Pembayaran dagang dan jasa",
+        "Biaya dan ketentuan kurs",
+        "Integrasi API dan penyelesaian"
+      ]
+    },
+    "3": {
+      "name": "Pinjaman",
+      "sub": "Syarat · Limit · Pelunasan"
+    },
+    "4": {
+      "name": "Kerja sama · Kemitraan",
+      "sub": "Kemitraan · Proposal bisnis",
+      "dept": "Bagian terkait"
+    },
+    "5": {
+      "name": "Karier · Rekrutmen",
+      "sub": "Lamaran · Proses rekrutmen",
+      "dept": "Bagian SDM"
+    },
+    "6": {
+      "name": "Perlindungan konsumen · Keluhan",
+      "sub": "Sengketa · Pembatasan · Laporan",
+      "dept": "Bagian perlindungan konsumen"
+    },
+    "7": {
+      "name": "Seluler dan telekomunikasi",
+      "sub": "Paket · Aktivasi · USIM",
+      "items": [
+        "Paket dan tagihan",
+        "Aktivasi, pindah nomor, dan berhenti berlangganan",
+        "Pengiriman dan penggantian USIM",
+        "Kualitas data dan panggilan"
+      ]
+    }
+  },
+  "chat": {
+    "title": "Anda akan terhubung ke obrolan langsung",
+    "description": "Agen kami melayani secara langsung. Di luar jam kerja, chatbot akan mencatat informasi Anda, dan kami akan menghubungi Anda kembali.",
+    "items": [
+      "Senin - Jumat 09.00 - 18.00 · Agen langsung",
+      "Di luar jam operasional · Chatbot dan panggilan balik",
+      "Tersedia 12 bahasa (Nepal, Vietnam, Thailand, dan lainnya)"
+    ],
+    "action": "Mulai obrolan"
+  },
+  "external": {
+    "title": "Menuju {{site}}",
+    "description": "Pertanyaan jenis ini ditangani di situs {{site}}.",
+    "action": "Buka halaman pertanyaan"
+  },
+  "common": {
+    "reset": "Pilih topik lain"
+  },
+  "form": {
+    "notice": "{{dept}} akan memeriksa dan membalas. Kami menjawab maksimal dalam 3 hari kerja.",
+    "nameLabel": "Nama",
+    "namePlaceholder": "Budi Santoso",
+    "phoneLabel": "Nomor telepon",
+    "phonePlaceholder": "010-0000-0000",
+    "emailLabel": "Email",
+    "emailPlaceholder": "name@example.com",
+    "titleLabel": "Judul",
+    "titlePlaceholder": "Masukkan judul pertanyaan",
+    "contentLabel": "Isi pertanyaan",
+    "contentPlaceholder": "Semakin rinci penjelasan Anda, semakin tepat jawaban kami.",
+    "submit": "Kirim pertanyaan",
+    "honeypot": "Alamat"
+  },
+  "errors": {
+    "required": "Mohon isi semua kolom wajib.",
+    "email": "Mohon periksa alamat email Anda.",
+    "phone": "Mohon periksa nomor telepon Anda.",
+    "turnstile": "Mohon selesaikan pemeriksaan keamanan.",
+    "failed": "Pertanyaan gagal dikirim. Silakan coba lagi."
+  },
+  "complete": {
+    "title": "Pertanyaan Anda telah diterima",
+    "description": "Bagian terkait akan memeriksa dan membalas ke email yang Anda isi.",
+    "reset": "Kembali ke awal"
+  }
+}

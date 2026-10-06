@@ -98,12 +98,57 @@ class ChannelService {
     window.ChannelIO?.("shutdown");
   }
 
+  /**
+   * 채팅창을 연다.
+   *
+   * ChannelTalk 은 사용자의 첫 상호작용에서 부팅한다. 버튼 클릭이 그 첫
+   * 상호작용이면 React 핸들러가 window 리스너보다 먼저 돌아 ChannelIO 가
+   * 아직 없다. 그래서 부팅될 때까지 잠깐 기다렸다 다시 시도한다.
+   */
+  showMessenger() {
+    if (window.ChannelIO) {
+      window.ChannelIO("showMessenger");
+      return;
+    }
+
+    const started = Date.now();
+    const timer = setInterval(() => {
+      if (window.ChannelIO) {
+        clearInterval(timer);
+        window.ChannelIO("showMessenger");
+      } else if (Date.now() - started > 5000) {
+        clearInterval(timer);
+      }
+    }, 100);
+  }
+
   showChannelButton() {
     window.ChannelIO?.("showChannelButton");
   }
 
   hideChannelButton() {
     window.ChannelIO?.("hideChannelButton");
+  }
+
+  /**
+   * 채널톡이 "현재 페이지" 로 쓸 값을 덮어쓴다.
+   * 지원봇이 페이지 URL 조건으로 갈리므로 어느 창구의 봇을 띄울지 이 값으로 정한다.
+   *
+   * 빈 문자열이나 null 을 넘기면 "페이지 정보 없음" 이 되지 기본값으로 돌아가지 않는다.
+   * 해제는 resetPage 로 한다.
+   */
+  setPage(page: string) {
+    window.ChannelIO?.("setPage", page);
+  }
+
+  /** 새 대화가 만들어질 때 불린다. 다시 부르면 이전 콜백을 덮어쓴다 */
+  onChatCreated(callback: () => void) {
+    window.ChannelIO?.("onChatCreated", callback);
+  }
+
+  /** setPage 로 덮어쓴 값을 해제하고 실제 주소(document.location.href)로 되돌린다 */
+  resetPage() {
+    window.ChannelIO?.("resetPage");
   }
 
   setAppearance(appearance: Appearance) {
