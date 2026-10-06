@@ -74,7 +74,7 @@
     "reset": "重新选择类型"
   },
   "form": {
-    "notice": "{{dept}}确认后将为您答复。原则上在 3 个工作日内回复。",
+    "notice": "{{dept}}确认后将为您答复。",
     "nameLabel": "姓名",
     "namePlaceholder": "张三",
     "phoneLabel": "联系电话",

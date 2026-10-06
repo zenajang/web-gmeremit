@@ -66,15 +66,15 @@
     "action": "Chatni boshlashni bosing"
   },
   "external": {
-    "title": "{{jonli suxbat}} saytiga oʻtilmoqda",
-    "description": "Bunday murojaatlar {{jonli suxbat} saytida qabul qilinadi.",
+    "title": "{{site}} saytiga oʻtilmoqda",
+    "description": "Bunday murojaatlar {{site}} saytida qabul qilinadi.",
     "action": "Murojaat sahifasiga oʻtish"
   },
   "common": {
     "reset": "Boshqa turni tanlash"
   },
   "form": {
-    "notice": "{{bo'limdagilar }} koʻrib chiqib javob beradi. 3 ish kuni ichida javob berishga harakat qilamiz.",
+    "notice": "{{dept}} koʻrib chiqib javob beradi.",
     "nameLabel": "Ism",
     "namePlaceholder": "Aziz Karimov",
     "phoneLabel": "Telefon raqami",
