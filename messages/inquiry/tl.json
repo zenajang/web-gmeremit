@@ -74,7 +74,7 @@
     "reset": "Pumili ng ibang tema"
   },
   "form": {
-    "notice": "Susuriin ito ng {{dept}} at sasagot. Layunin naming tumugon sa loob ng 3 araw ng trabaho.",
+    "notice": "Susuriin ito ng {{dept}} at sasagot.",
     "nameLabel": "Pangalan",
     "namePlaceholder": "Juan dela Cruz",
     "phoneLabel": "Numero ng telepono",

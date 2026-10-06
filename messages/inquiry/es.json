@@ -74,7 +74,7 @@
     "reset": "Elegir otro tema"
   },
   "form": {
-    "notice": "{{dept}} revisará su consulta y le responderá. Nuestro objetivo es responder en un plazo de 3 días hábiles.",
+    "notice": "{{dept}} revisará su consulta y le responderá.",
     "nameLabel": "Nombre",
     "namePlaceholder": "Juan Pérez",
     "phoneLabel": "Teléfono",

@@ -74,7 +74,7 @@
     "reset": "Choisir un autre sujet"
   },
   "form": {
-    "notice": "{{dept}} examinera votre demande et vous répondra. Nous nous efforçons de répondre sous 3 jours ouvrés.",
+    "notice": "{{dept}} examinera votre demande et vous répondra.",
     "nameLabel": "Nom",
     "namePlaceholder": "Jean Dupont",
     "phoneLabel": "Téléphone",
