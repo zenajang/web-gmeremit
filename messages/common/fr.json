@@ -19,9 +19,9 @@
       "remittance": "Transfert",
       "services": "Services",
       "services_menu": "Services",
-      "social_channels": "Réseaux sociaux",
+      "social_channels": "Nous contacter",
       "support": "Support",
-      "telecom": "Mobile"
+      "telecom": "Telecom"
     }
   },
   "footer": {
@@ -168,17 +168,17 @@
     },
     "support": {
       "hero": {
-        "desc1": "Grâce à nos agences nationales et canaux sociaux mondiaux,",
-        "desc2": "vous pouvez obtenir du support et poser des questions à tout moment.",
-        "desc3": "Trouvez une agence près de chez vous ou connectez-vous avec nous sur les réseaux sociaux.",
-        "title": "GME, toujours proche de vous"
+        "desc1": "Obtenez de l'aide à tout moment dans nos agences",
+        "desc2": "et sur nos réseaux sociaux mondiaux.",
+        "desc3": "Rendez-vous dans une agence proche ou retrouvez-nous sur les réseaux sociaux.",
+        "title": "GME – Toujours à vos côtés"
       }
     },
     "telecom-page-client": {
       "cta": {
-        "button": "Aller à GME Mobile",
-        "description": "Économisez sur vos factures avec des forfaits abordables, disponibles en 17 langues.",
-        "title": "Commencez avec GME Mobile"
+        "button": "Aller à GME Telecom",
+        "description": "Des forfaits mobiles simples et abordables, assistance en 17 langues.",
+        "title": "Commencez avec GME Telecom"
       },
       "features": {
         "activation": {

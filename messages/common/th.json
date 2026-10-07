@@ -6,20 +6,20 @@
     "nav": {
       "blog": "บล็อก",
       "branches": "สาขา",
-      "card": "GME Card",
+      "card": "บัตร",
       "ceo_message": "สารจาก CEO",
       "company": "บริษัท",
       "history": "ประวัติ",
       "inquiry": "สอบถาม",
-      "loan": "GME Loan",
+      "loan": "Finance",
       "news": "ข่าวสาร",
       "notice": "ประกาศ",
-      "payments": "GME Payments (B2B)",
+      "payments": "B2B Payments",
       "press": "ข่าว / สื่อ",
-      "remittance": "โอนเงินผ่านแอป GME",
+      "remittance": "โอนเงิน",
       "services": "บริการ",
       "services_menu": "บริการ",
-      "social_channels": "ช่องทางโซเชียล",
+      "social_channels": "ติดต่อเรา",
       "support": "ช่วยเหลือ",
       "telecom": "มือถือ"
     }
@@ -168,17 +168,17 @@
     },
     "support": {
       "hero": {
-        "desc1": "ผ่านสาขาทั่วประเทศและช่องทางโซเชียลระดับโลก",
-        "desc2": "คุณสามารถรับการสนับสนุนและสอบถามได้ทุกเมื่อ",
-        "desc3": "ค้นหาสาขาใกล้คุณหรือเชื่อมต่อกับเราผ่านโซเชียลมีเดีย",
-        "title": "GME อยู่ใกล้คุณเสมอ"
+        "desc1": "รับการสนับสนุนได้ทุกเมื่อผ่านสาขาทั่วประเทศ",
+        "desc2": "และช่องทางโซเชียลทั่วโลก",
+        "desc3": "แวะที่สาขาใกล้คุณ หรือติดต่อเราผ่านโซเชียลมีเดีย",
+        "title": "GME – อยู่เคียงข้างคุณเสมอ"
       }
     },
     "telecom-page-client": {
       "cta": {
-        "button": "ไปยัง GME Mobile",
-        "description": "ประหยัดค่าโทรศัพท์ด้วยแพ็กเกจราคาประหยัด รองรับ 17 ภาษา",
-        "title": "เริ่มต้นกับ GME Mobile"
+        "button": "ไปยัง GME Telecom",
+        "description": "แพ็กเกจมือถือที่ใช้ง่ายและคุ้มค่า พร้อมบริการ 17 ภาษา",
+        "title": "เริ่มต้นกับ GME Telecom"
       },
       "features": {
         "activation": {

@@ -6,20 +6,20 @@
     "nav": {
       "blog": "ブログ",
       "branches": "支店",
-      "card": "GME Card",
+      "card": "カード",
       "ceo_message": "代表メッセージ",
       "company": "会社紹介",
       "history": "沿革",
       "inquiry": "お問い合わせ",
-      "loan": "GMEローン",
+      "loan": "ローン",
       "news": "ニュース",
       "notice": "お知らせ",
-      "payments": "GME Payments (B2B)",
+      "payments": "B2B Payments",
       "press": "ニュース / プレス",
-      "remittance": "GMEアプリ送金",
+      "remittance": "送金",
       "services": "サービス",
       "services_menu": "サービス",
-      "social_channels": "ソーシャルチャンネル",
+      "social_channels": "お問い合わせ",
       "support": "サポート",
       "telecom": "モバイル"
     }
@@ -168,17 +168,17 @@
     },
     "support": {
       "hero": {
-        "desc1": "全国の支店とグローバルソーシャルチャンネルを通じて、",
-        "desc2": "いつでもサポートを受けたりお問い合わせいただけます。",
-        "desc3": "お近くの支店を見つけるか、ソーシャルメディアでつながりましょう。",
+        "desc1": "全国の支店とグローバルSNSを通じて、",
+        "desc2": "いつでもお問い合わせいただけます。",
+        "desc3": "お近くの支店にお越しいただくか、SNSでつながってください。",
         "title": "GME、いつもあなたのそばに"
       }
     },
     "telecom-page-client": {
       "cta": {
-        "button": "GME Mobileへ",
-        "description": "格安プランで通信費を節約、17言語対応。",
-        "title": "GME Mobileを始めよう"
+        "button": "GME Telecomへ",
+        "description": "17言語対応の、わかりやすくお得な料金プラン。",
+        "title": "GME Telecomを始めよう"
       },
       "features": {
         "activation": {

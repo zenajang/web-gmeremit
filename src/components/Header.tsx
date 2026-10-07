@@ -169,6 +169,7 @@ export default function Header() {
         onClose={() => setIsMenuOpen(false)}
         menuItems={menuItems}
         careersLabel={t("header.link.careers")}
+        appDownloadLabel={t("common.button.app_download")}
         countriesLabel={countriesLabel}
       />
 

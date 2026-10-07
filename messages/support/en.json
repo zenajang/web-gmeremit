@@ -81,7 +81,7 @@
           "sub": "Corporate · Trade payments · B2B"
         },
         "3": {
-          "name": "Loans",
+          "name": "Finance",
           "sub": "Eligibility · Limits · Repayment"
         },
         "4": {
@@ -201,7 +201,7 @@
   "support": {
     "tabs": {
       "branches": "Branches",
-      "social_channels": "Social Channels"
+      "social_channels": "Contact Us"
     },
     "stats": {
       "countries_label": "Service Countries",

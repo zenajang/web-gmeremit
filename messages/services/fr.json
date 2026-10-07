@@ -47,7 +47,7 @@
     },
     "card-grid-title": {
       "subtitle": "Trouvez les avantages qui vous conviennent parmi les différentes cartes GME",
-      "title": "Choisissez vos avantages"
+      "title": "Choisissez celle qui vous convient le mieux"
     },
     "service-hero-section": {
       "cta": "Découvrir les cartes",
@@ -844,7 +844,7 @@
       "title2": "transfert simple"
     },
     "regions": {
-      "subtitle": "Disponible en Asie, Europe, Amériques et Afrique dans plus de 200 pays.",
+      "subtitle": "Disponible dans plus de 200 pays en Asie, en Europe, dans les Amériques et en Afrique.",
       "title": "Couverture",
       "title2": "mondiale",
       "more": "Et bien d'autres pays pris en charge"
@@ -920,7 +920,7 @@
         "title": "Un téléphone, deux numéros"
       },
       "features": {
-        "title": "Pourquoi GME Mobile ?"
+        "title": "Pourquoi GME Telecom ?"
       },
       "plans": {
         "cta": "Voir tous les forfaits",
@@ -982,7 +982,7 @@
       "subtitle": "Auto-activation simple pour USIM et eSIM"
     },
     "service-hero-section": {
-      "badge": "GME MOBILE",
+      "badge": "GME TELECOM",
       "cta": "Voir les forfaits",
       "description": "Service mobile économique avec la même qualité que les réseaux LGU+ et KT. Économisez sur les factures téléphoniques avec des forfaits à partir de 3 300 ₩/mois.",
       "title1": "Le forfait mobile",

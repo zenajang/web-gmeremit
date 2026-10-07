@@ -398,8 +398,8 @@
     },
     "main-services": {
       "card": {
-        "desc1": "Tarjeta inteligente que conecta remesas y gastos.",
-        "desc2": "Un nuevo estándar para pagos globales.",
+        "desc1": "Una tarjeta inteligente para enviar dinero y pagar.",
+        "desc2": "El nuevo estándar de los pagos globales.",
         "title": "GME Card"
       },
       "loan": {
@@ -413,12 +413,12 @@
         "title": "Móvil"
       },
       "payments": {
-        "desc1": "Nómina, liquidaciones de socios, pagos de e-commerce.",
-        "desc2": "Soluciones de pago corporativas rentables.",
+        "desc1": "Nóminas, liquidaciones con socios, pagos de comercio electrónico.",
+        "desc2": "Soluciones de pago rentables para empresas.",
         "title": "Pagos B2B"
       },
       "remittance": {
-        "desc1": "Envía dinero rápida y seguramente",
+        "desc1": "Transferencias de dinero rápidas y seguras",
         "desc2": "a más de 200 países.",
         "title": "Remesas internacionales"
       },
@@ -475,7 +475,7 @@
       "description": "Envía dinero rápida y seguramente a más de 200 países.",
       "features": {
         "fast": {
-          "back_desc": "Envía a cualquier parte del mundo con unos pocos toques, sin pasos complicados.",
+          "back_desc": "Envía dinero a cualquier parte del mundo con unos pocos toques, sin pasos complicados.",
           "back_title": "Transferencia simple",
           "desc": "Completa una transferencia al extranjero en pocos clics",
           "sub": "Pocos clics",
@@ -508,7 +508,7 @@
     "section-nav": {
       "app_download": "Descargar app",
       "customer_feedback": "Opiniones de clientes",
-      "exchange": "Calculadora de cambio",
+      "exchange": "Calculadora de tipo de cambio",
       "home": "Inicio",
       "services": "Servicios"
     },

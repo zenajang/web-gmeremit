@@ -14,9 +14,9 @@ export default function BoardTabs({ activeTab }: BoardTabsProps) {
   const { t } = useTranslation();
 
   const tabs = [
-    { id: "notice" as TabType, labelKey: "notice" },
-    { id: "press" as TabType, labelKey: "press" },
-    { id: "blog" as TabType, labelKey: "blog" },
+    { id: "notice" as TabType, labelKey: "board.tabs.notice" },
+    { id: "press" as TabType, labelKey: "board.tabs.press" },
+    { id: "blog" as TabType, labelKey: "board.tabs.blog" },
   ];
 
   const handleTabClick = (tabId: TabType) => {

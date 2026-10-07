@@ -398,8 +398,8 @@
     },
     "main-services": {
       "card": {
-        "desc1": "Pul o'tkazma va sarfni bog'laydigan aqlli karta.",
-        "desc2": "Global to'lovlar uchun yangi standart.",
+        "desc1": "Pul oʻtkazma va xarid uchun bitta smart karta.",
+        "desc2": "Global toʻlovlarning yangi standarti.",
         "title": "GME Card"
       },
       "loan": {
@@ -413,13 +413,13 @@
         "title": "Mobil"
       },
       "payments": {
-        "desc1": "Ommaviy to'lovlar, hisob-kitoblar, hamkor transferlari",
-        "desc2": "Tez va xavfsiz korporativ to'lov oqimlari.",
+        "desc1": "Ish haqi, hamkor hisob-kitoblari, e-tijorat toʻlovlari.",
+        "desc2": "Biznes uchun tejamkor toʻlov yechimlari.",
         "title": "Global to'lovlar"
       },
       "remittance": {
-        "desc1": "Tez va xavfsiz yuboring",
-        "desc2": "200+ mamlakatga",
+        "desc1": "Tez va xavfsiz pul oʻtkazmalari",
+        "desc2": "200+ davlatga.",
         "title": "Xalqaro pul o'tkazma"
       },
       "title1": "GME ning",
@@ -475,7 +475,7 @@
       "description": "200+ mamlakatga tez va xavfsiz pul o'tkazing.",
       "features": {
         "fast": {
-          "back_desc": "Bir necha marta bosish bilan dunyo bo'ylab yuboring, murakkab bosqichlar shart emas.",
+          "back_desc": "Murakkab bosqichlarsiz bir necha teginish bilan dunyoning istalgan joyiga pul yuboring.",
           "back_title": "Oddiy o'tkazma",
           "desc": "Bir necha bosishda xalqaro o'tkazma",
           "sub": "Bir necha bosish",
@@ -508,7 +508,7 @@
     "section-nav": {
       "app_download": "Ilovani yuklab oling",
       "customer_feedback": "Fikrlar",
-      "exchange": "Valyuta kalkulyatori",
+      "exchange": "Valyuta kursi kalkulyatori",
       "home": "Bosh sahifa",
       "services": "Xizmatlar"
     },

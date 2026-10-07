@@ -47,7 +47,7 @@
     },
     "card-grid-title": {
       "subtitle": "Bandingkan manfaat antar kartu GME dan pilih yang paling sesuai untuk Anda",
-      "title": "Pilih Manfaat Anda"
+      "title": "Pilih yang Paling Sesuai untuk Anda"
     },
     "service-hero-section": {
       "cta": "Tuklasin ang mga Card",
@@ -661,7 +661,7 @@
       },
       "gme_loan": {
         "desc": "Biaya hidup umum",
-        "name": "GME Loan"
+        "name": "GME Finance"
       },
       "house_loan": {
         "desc": "Deposit sewa & jeonse",
@@ -684,8 +684,8 @@
       }
     },
     "service-hero-section": {
-      "cta": "Tingnan ang Mga Produkto ng Loan",
-      "title1": "Mga Serbisyo sa Loan",
+      "cta": "Tingnan ang Mga Produkto ng Finance",
+      "title1": "Mga Serbisyo sa Finance",
       "title2": "para sa mga Dayuhan",
       "description": "Madaling mag-apply ng loan gamit ang GME app. Sinusuportahan namin ang iyong buhay sa Korea sa mabilis na pag-apruba at flexible na tuntunin.",
       "badge": "GME FINANCE"
@@ -716,7 +716,7 @@
         "desc": "Dukungan Pelanggan",
         "title": "24/7"
       },
-      "title": "Mengapa Memilih GME Loan?"
+      "title": "Mengapa Memilih GME Finance?"
     }
   },
   "services-payments": {
@@ -844,7 +844,7 @@
       "title2": "Pengiriman Uang Sederhana"
     },
     "regions": {
-      "subtitle": "Tersedia di Asia, Eropa, Amerika, dan Afrika di 200+ negara.",
+      "subtitle": "Tersedia di 200+ negara di Asia, Eropa, Amerika, dan Afrika.",
       "title": "Jangkauan",
       "title2": "Global",
       "more": "Dan banyak negara lainnya yang didukung"
@@ -920,7 +920,7 @@
         "title": "Satu Ponsel, Dua Nomor"
       },
       "features": {
-        "title": "Mengapa GME Mobile?"
+        "title": "Mengapa GME Telecom?"
       },
       "plans": {
         "cta": "Lihat Semua Paket",
@@ -982,7 +982,7 @@
       "subtitle": "Aktivasi mandiri sederhana untuk USIM dan eSIM"
     },
     "service-hero-section": {
-      "badge": "GME MOBILE",
+      "badge": "GME TELECOM",
       "cta": "Tingnan ang Plans",
       "description": "Murang mobile service na may kalidad na katumbas ng LGU+ at KT networks. Tipid sa phone bills na nagsisimula sa ₩3,300/buwan.",
       "title1": "Ang Perpektong",

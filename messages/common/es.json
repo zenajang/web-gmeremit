@@ -19,7 +19,7 @@
       "remittance": "Remesas",
       "services": "Servicios",
       "services_menu": "Servicios",
-      "social_channels": "Redes sociales",
+      "social_channels": "Contáctanos",
       "support": "Soporte",
       "telecom": "Móvil"
     }
@@ -168,17 +168,17 @@
     },
     "support": {
       "hero": {
-        "desc1": "A través de nuestras sucursales nacionales y canales sociales globales,",
-        "desc2": "puedes obtener soporte y hacer preguntas en cualquier momento.",
-        "desc3": "Encuentra una sucursal cerca de ti o conéctate con nosotros en redes sociales.",
-        "title": "GME, siempre cerca de ti"
+        "desc1": "Obtén ayuda en cualquier momento en nuestras sucursales",
+        "desc2": "y canales sociales globales.",
+        "desc3": "Visita una sucursal cercana o conéctate con nosotros en redes sociales.",
+        "title": "GME – Siempre a tu lado"
       }
     },
     "telecom-page-client": {
       "cta": {
-        "button": "Ir a GME Mobile",
-        "description": "Ahorra en facturas con planes asequibles, disponibles en 17 idiomas.",
-        "title": "Empieza con GME Mobile"
+        "button": "Ir a GME Telecom",
+        "description": "Planes móviles sencillos y asequibles con soporte en 17 idiomas.",
+        "title": "Empieza con GME Telecom"
       },
       "features": {
         "activation": {

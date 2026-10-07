@@ -112,7 +112,7 @@
     },
     "easy_loan": {
       "desc": "100% paperless loan with same-day approval",
-      "title": "Easy Loan"
+      "title": "Easy Finance"
     },
     "gift_coupons": {
       "desc": "Send digital gift coupons using reward points",
@@ -133,7 +133,7 @@
     },
     "personal_remittance": {
       "desc": "Send money locally or globally with multi-language support",
-      "title": "Remittance"
+      "title": "Remit"
     },
     "related_services": "Related Services",
     "subtitle": "All your global finance needs in one place",

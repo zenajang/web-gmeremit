@@ -398,8 +398,8 @@
     },
     "main-services": {
       "card": {
-        "desc1": "Thẻ thông minh kết nối chuyển tiền và chi tiêu.",
-        "desc2": "Tiêu chuẩn mới cho thanh toán toàn cầu.",
+        "desc1": "Một thẻ thông minh cho chuyển tiền và chi tiêu.",
+        "desc2": "Chuẩn mực mới cho thanh toán toàn cầu.",
         "title": "GME Card"
       },
       "loan": {
@@ -413,12 +413,12 @@
         "title": "Di động"
       },
       "payments": {
-        "desc1": "Thanh toán hàng loạt, thanh toán đối tác.",
-        "desc2": "Luồng thanh toán doanh nghiệp nhanh và an toàn.",
+        "desc1": "Trả lương, thanh toán đối tác, thanh toán thương mại điện tử.",
+        "desc2": "Giải pháp thanh toán tiết kiệm cho doanh nghiệp.",
         "title": "Thanh toán toàn cầu"
       },
       "remittance": {
-        "desc1": "Gửi tiền nhanh chóng và an toàn",
+        "desc1": "Chuyển tiền nhanh chóng và an toàn",
         "desc2": "đến hơn 200 quốc gia.",
         "title": "Chuyển tiền quốc tế"
       },
@@ -475,7 +475,7 @@
       "description": "Gửi tiền nhanh chóng và an toàn đến hơn 200 quốc gia.",
       "features": {
         "fast": {
-          "back_desc": "Gửi đến bất kỳ đâu trên thế giới chỉ với vài thao tác, không có bước phức tạp.",
+          "back_desc": "Gửi tiền đến bất kỳ đâu trên thế giới chỉ với vài thao tác, không cần thủ tục phức tạp.",
           "back_title": "Chuyển tiền đơn giản",
           "desc": "Hoàn tất chuyển tiền quốc tế chỉ với vài cú nhấp",
           "sub": "Vài cú nhấp",
@@ -508,7 +508,7 @@
     "section-nav": {
       "app_download": "Tải ứng dụng",
       "customer_feedback": "Đánh giá",
-      "exchange": "Máy tính tỷ giá",
+      "exchange": "Công cụ tính tỷ giá",
       "home": "Trang chủ",
       "services": "Dịch vụ"
     },

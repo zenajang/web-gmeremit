@@ -6,20 +6,20 @@
     "nav": {
       "blog": "බ්ලොග්",
       "branches": "ශාඛා",
-      "card": "GME Card",
+      "card": "කාඩ්පත",
       "ceo_message": "CEO පණිවිඩය",
       "company": "සමාගම",
       "history": "ඉතිහාසය",
       "inquiry": "විමසීම්",
-      "loan": "GME Loan",
+      "loan": "Finance",
       "news": "පුවත්",
       "notice": "නිවේදනය",
-      "payments": "GME Payments (B2B)",
+      "payments": "B2B Payments",
       "press": "පුවත් / පුවත්පත",
-      "remittance": "GME App Remittance",
+      "remittance": "Remit",
       "services": "සේවා",
       "services_menu": "සේවා මෙනුව",
-      "social_channels": "සමාජ නාලිකා",
+      "social_channels": "අප හා සම්බන්ධ වන්න",
       "support": "සහාය",
       "telecom": "ජංගම"
     }
@@ -168,17 +168,17 @@
     },
     "support": {
       "hero": {
-        "desc1": "රටපුරා ශාඛා සහ ගෝලීය සමාජ නාලිකා හරහා",
-        "desc2": "ඔබට ඕනෑම වේලාවක සහාය සහ විමසීම් ලබා ගත හැක.",
-        "desc3": "ඔබට ආසන්න ශාඛාව සොයන්න හෝ සමාජ මාධ්‍ය මඟින් අප සමඟ සම්බන්ධ වන්න.",
-        "title": "GME, සැමවිට ඔබට අසල"
+        "desc1": "රට පුරා ඇති අපගේ ශාඛා හරහා ඕනෑම වේලාවක සහාය ලබා ගන්න",
+        "desc2": "සහ ගෝලීය සමාජ නාලිකා හරහා.",
+        "desc3": "ළඟම ශාඛාවකට පැමිණෙන්න හෝ සමාජ මාධ්‍ය හරහා අප හා සම්බන්ධ වන්න.",
+        "title": "GME – සැමවිටම ඔබ අසල"
       }
     },
     "telecom-page-client": {
       "cta": {
-        "button": "GME Mobile වෙත යන්න",
-        "description": "දැරිය හැකි සැලසුම් සමඟ දුරකථන බිල මත ඉතිරි කර ගන්න, භාෂා 17 කින් ලබා ගත හැක.",
-        "title": "GME Mobile සමඟ ආරම්භ කරන්න"
+        "button": "GME Telecom වෙත යන්න",
+        "description": "භාෂා 17කින් සහාය සහිත පහසු හා දැරිය හැකි ජංගම සැලසුම්.",
+        "title": "GME Telecom සමඟ ආරම්භ කරන්න"
       },
       "features": {
         "activation": {

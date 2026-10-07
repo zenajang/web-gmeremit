@@ -47,7 +47,7 @@
     },
     "card-grid-title": {
       "subtitle": "Compare benefits across GME cards and choose what suits you best",
-      "title": "Choose Your Benefits"
+      "title": "Pick the One That Suits You Most"
     },
     "service-hero-section": {
       "cta": "Explore Cards",
@@ -563,7 +563,7 @@
         "value": "Digital Contract"
       },
       "duration": {
-        "label": "Loan Duration",
+        "label": "Finance Duration",
         "value": "3 - 45 months"
       },
       "early_settlement": {
@@ -575,7 +575,7 @@
         "value": "2 mil - 35 mil"
       },
       "max_amount": {
-        "label": "Maximum Loan Amount",
+        "label": "Maximum Finance Amount",
         "value": "Up to 35 mil"
       },
       "repayment": {
@@ -628,7 +628,7 @@
     },
     "process": {
       "step1": {
-        "desc": "Download GME App in Google Play Store or App Store. Register and Apply Loan.",
+        "desc": "Download GME App in Google Play Store or App Store. Register and Apply Finance.",
         "title": "Apply Through GME App"
       },
       "step2": {
@@ -648,44 +648,44 @@
         "title": "Disbursements"
       },
       "subtitle": "5 Step Applying Process",
-      "title": "Simple Loan Application"
+      "title": "Simple Finance Application"
     },
     "products": {
       "business_loan": {
         "desc": "Business operation funds",
-        "name": "Business Loan"
+        "name": "Business Finance"
       },
       "car_loan": {
         "desc": "Vehicle purchase funds",
-        "name": "Car Loan"
+        "name": "Car Finance"
       },
       "gme_loan": {
         "desc": "General living expenses",
-        "name": "GME Loan"
+        "name": "GME Finance"
       },
       "house_loan": {
         "desc": "Jeonse & rent deposit",
-        "name": "House Loan"
+        "name": "House Finance"
       },
       "property_loan": {
         "desc": "Property-backed loan",
-        "name": "Property Loan"
+        "name": "Property Finance"
       },
       "student_loan": {
         "desc": "Tuition & school fees",
-        "name": "Student Loan"
+        "name": "Student Finance"
       },
       "subtitle": "Compare and choose the loan product that fits your needs.",
-      "title": "Loan Products",
+      "title": "Finance Products",
       "title2": "Tailored for You",
       "vacation_loan": {
         "desc": "Travel & vacation funds",
-        "name": "Vacation Loan"
+        "name": "Vacation Finance"
       }
     },
     "service-hero-section": {
-      "cta": "View Loan Products",
-      "title1": "Loan Services",
+      "cta": "View Finance Products",
+      "title1": "Finance Services",
       "title2": "for Foreigners",
       "description": "Apply for a loan easily with the GME app. We support your life in Korea with fast approvals and flexible terms.",
       "badge": "GME FINANCE"
@@ -705,18 +705,18 @@
         "desc": "Via Mobile App",
         "title": "Easy Apply"
       },
-      "stats_desc": "1M+ Successful Loans · 14 Countries",
-      "stats_label": "Cumulative Loans",
+      "stats_desc": "1M+ Successful Finance · 14 Countries",
+      "stats_label": "Cumulative Finance",
       "stats_value": "₩500B+",
       "success": {
-        "desc": "Successful Loans",
+        "desc": "Successful Finance",
         "title": "1M+"
       },
       "support": {
         "desc": "Customer Support",
         "title": "24/7"
       },
-      "title": "Why Choose GME Loan?"
+      "title": "Why Choose GME Finance?"
     }
   },
   "services-payments": {
@@ -844,7 +844,7 @@
       "title2": "Transfer Process"
     },
     "regions": {
-      "subtitle": "Available across Asia, Europe, Americas, and Africa in 200+ countries.",
+      "subtitle": "Available in 200+ countries across Asia, Europe, the Americas, and Africa.",
       "title": "Global",
       "title2": "Coverage",
       "more": "And many more supported countries"
@@ -920,7 +920,7 @@
         "title": "One Phone, Two Numbers"
       },
       "features": {
-        "title": "Why GME Mobile?"
+        "title": "Why GME Telecom?"
       },
       "plans": {
         "cta": "View All Plans",
@@ -982,7 +982,7 @@
       "subtitle": "Simple self-activation for both USIM and eSIM"
     },
     "service-hero-section": {
-      "badge": "GME MOBILE",
+      "badge": "GME TELECOM",
       "cta": "View Plans",
       "description": "Budget mobile service with the same quality as LGU+ and KT networks. Save on phone bills with plans starting from just ₩3,300/month.",
       "title1": "The Perfect Mobile",

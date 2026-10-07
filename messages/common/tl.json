@@ -6,22 +6,22 @@
     "nav": {
       "blog": "Blog",
       "branches": "Mga Branch",
-      "card": "GME Card",
+      "card": "Card",
       "ceo_message": "Mensahe ng CEO",
       "company": "Kumpanya",
       "history": "Kasaysayan",
       "inquiry": "Katanungan",
-      "loan": "GME Loan",
+      "loan": "Finance",
       "news": "Balita",
       "notice": "Abiso",
-      "payments": "GME Payments (B2B)",
+      "payments": "B2B Payments",
       "press": "Balita / Press",
-      "remittance": "GME App Remittance",
+      "remittance": "Remit",
       "services": "Mga Serbisyo",
       "services_menu": "Mga Serbisyo",
-      "social_channels": "Social Channels",
+      "social_channels": "Makipag-ugnayan",
       "support": "Suporta",
-      "telecom": "Mobile"
+      "telecom": "Telecom"
     }
   },
   "footer": {
@@ -112,7 +112,7 @@
       "cta": {
         "description": "Makuha ang pondo na kailangan mo nang mabilis gamit ang madaling mobile application.",
         "inline_notice": "ⓘ Ang pag-click sa button sa ibaba ay magkokonekta sa iyo sa serbisyo ng pautang na ibinibigay ng GME Finance.",
-        "title": "Simulan ang Iyong Loan sa GME App Ngayon"
+        "title": "Simulan ang Iyong Finance sa GME App Ngayon"
       }
     },
     "mobile-section": {
@@ -168,17 +168,17 @@
     },
     "support": {
       "hero": {
-        "desc1": "Sa pamamagitan ng aming mga branch sa buong bansa at pandaigdigang social channel,",
-        "desc2": "maaari kang makakuha ng suporta at magtanong kahit kailan.",
-        "desc3": "Humanap ng branch na malapit sa iyo o kumonekta sa amin sa social media.",
-        "title": "GME, Laging Malapit sa Iyo"
+        "desc1": "Kumuha ng suporta anumang oras sa aming mga sangay",
+        "desc2": "at global social channels.",
+        "desc3": "Bisitahin ang pinakamalapit na sangay o kumonekta sa amin sa social media.",
+        "title": "GME – Lagi sa Iyong Tabi"
       }
     },
     "telecom-page-client": {
       "cta": {
-        "button": "Punta sa GME Mobile",
-        "description": "Tipid sa phone bills sa mga affordable plans, available sa 17 wika.",
-        "title": "Simulan sa GME Mobile"
+        "button": "Punta sa GME Telecom",
+        "description": "Madali at abot-kayang mobile plans na may suporta sa 17 wika.",
+        "title": "Simulan sa GME Telecom"
       },
       "features": {
         "activation": {

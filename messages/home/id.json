@@ -398,7 +398,7 @@
     },
     "main-services": {
       "card": {
-        "desc1": "Kartu pintar yang menghubungkan pengiriman uang dan pengeluaran.",
+        "desc1": "Satu kartu pintar untuk kirim uang dan belanja.",
         "desc2": "Standar baru untuk pembayaran global.",
         "title": "GME Card"
       },
@@ -413,12 +413,12 @@
         "title": "Seluler"
       },
       "payments": {
-        "desc1": "Pembayaran massal, penyelesaian mitra.",
-        "desc2": "Alur pembayaran korporat yang cepat dan aman.",
+        "desc1": "Penggajian, penyelesaian mitra, pembayaran e-commerce.",
+        "desc2": "Solusi pembayaran hemat biaya untuk bisnis.",
         "title": "Pembayaran Global"
       },
       "remittance": {
-        "desc1": "Kirim uang dengan cepat dan aman",
+        "desc1": "Transfer uang cepat dan aman",
         "desc2": "ke 200+ negara.",
         "title": "Pengiriman Uang Internasional"
       },
@@ -475,7 +475,7 @@
       "description": "Kirim uang dengan cepat dan aman ke 200+ negara.",
       "features": {
         "fast": {
-          "back_desc": "Kirim ke mana saja di dunia hanya dengan beberapa ketukan, tanpa langkah rumit.",
+          "back_desc": "Kirim uang ke mana saja di dunia hanya dengan beberapa ketukan, tanpa langkah rumit.",
           "back_title": "Pengiriman Sederhana",
           "desc": "Selesaikan pengiriman uang internasional hanya dengan beberapa klik",
           "sub": "Beberapa Klik",

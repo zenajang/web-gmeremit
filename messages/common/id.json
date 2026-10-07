@@ -6,20 +6,20 @@
     "nav": {
       "blog": "Blog",
       "branches": "Cabang",
-      "card": "GME Card",
+      "card": "Kartu",
       "ceo_message": "Pesan CEO",
       "company": "Perusahaan",
       "history": "Sejarah",
       "inquiry": "Pertanyaan",
-      "loan": "GME Loan",
+      "loan": "Finance",
       "news": "Berita",
       "notice": "Pengumuman",
-      "payments": "GME Payments (B2B)",
+      "payments": "B2B Payments",
       "press": "Berita / Pers",
-      "remittance": "Kirim Uang via Aplikasi GME",
+      "remittance": "Kirim Uang",
       "services": "Layanan",
       "services_menu": "Layanan",
-      "social_channels": "Saluran Sosial",
+      "social_channels": "Hubungi Kami",
       "support": "Dukungan",
       "telecom": "Seluler"
     }
@@ -168,17 +168,17 @@
     },
     "support": {
       "hero": {
-        "desc1": "Melalui cabang di seluruh negeri dan saluran sosial global,",
-        "desc2": "Anda dapat mendapatkan dukungan dan bertanya kapan saja.",
-        "desc3": "Temukan cabang terdekat atau hubungi kami di media sosial.",
-        "title": "GME, Selalu di Sisi Anda"
+        "desc1": "Dapatkan dukungan kapan saja melalui cabang di seluruh negeri",
+        "desc2": "dan kanal media sosial global.",
+        "desc3": "Kunjungi cabang terdekat atau hubungi kami di media sosial.",
+        "title": "GME – Selalu di Sisi Anda"
       }
     },
     "telecom-page-client": {
       "cta": {
-        "button": "Ke GME Mobile",
-        "description": "Hemat biaya telepon dengan paket terjangkau, tersedia dalam 17 bahasa.",
-        "title": "Mulai dengan GME Mobile"
+        "button": "Ke GME Telecom",
+        "description": "Paket seluler mudah dan terjangkau dengan dukungan 17 bahasa.",
+        "title": "Mulai dengan GME Telecom"
       },
       "features": {
         "activation": {

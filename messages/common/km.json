@@ -6,20 +6,20 @@
     "nav": {
       "blog": "ប្លក់",
       "branches": "សាខា",
-      "card": "GME Card",
+      "card": "កាត",
       "ceo_message": "សារ​របស់ CEO",
       "company": "ក្រុមហ៊ុន",
       "history": "ប្រវត្តិ",
       "inquiry": "ការសាកសួរ",
-      "loan": "GME Loan",
+      "loan": "Finance",
       "news": "ព័ត៌មាន",
       "notice": "សេចក្តីជូនដំណឹង",
-      "payments": "GME Payments (B2B)",
+      "payments": "B2B Payments",
       "press": "ព័ត៌មាន / សារព័ត៌មាន",
-      "remittance": "GME App Remittance",
+      "remittance": "Remit",
       "services": "សេវា",
       "services_menu": "ម៉ឺនុយសេវា",
-      "social_channels": "ឆានែលសង្គម",
+      "social_channels": "ទាក់ទងមកយើង",
       "support": "ការគាំទ្រ",
       "telecom": "ទូរសព្ទ"
     }
@@ -168,17 +168,17 @@
     },
     "support": {
       "hero": {
-        "desc1": "តាមរយៈសាខាជាតិ និងឆានែលសង្គមសកល",
-        "desc2": "អ្នកអាចទទួលការគាំទ្រ និងសួរសំណួរបានគ្រប់ពេល។",
-        "desc3": "ស្វែងរកសាខាជិតអ្នក ឬភ្ជាប់ជាមួយយើងតាមបណ្តាញសង្គម។",
-        "title": "GME, នៅជិតអ្នកជានិច្ច"
+        "desc1": "ទទួលបានជំនួយគ្រប់ពេលតាមរយៈសាខាទូទាំងប្រទេស",
+        "desc2": "និងបណ្តាញសង្គមសកល។",
+        "desc3": "អញ្ជើញទៅសាខាក្បែរអ្នក ឬតភ្ជាប់ជាមួយយើងតាមបណ្តាញសង្គម។",
+        "title": "GME – នៅក្បែរអ្នកជានិច្ច"
       }
     },
     "telecom-page-client": {
       "cta": {
-        "button": "ទៅកាន់ GME Mobile",
-        "description": "សន្សំលើវិក្កយបត្រទូរសព្ទជាមួយផែនការតម្លៃសមរម្យ មានជា 17 ភាសា។",
-        "title": "ចាប់ផ្តើមជាមួយ GME Mobile"
+        "button": "ទៅកាន់ GME Telecom",
+        "description": "គម្រោងទូរស័ព្ទងាយស្រួល និងសមរម្យ ជាមួយការគាំទ្រ ១៧ ភាសា។",
+        "title": "ចាប់ផ្តើមជាមួយ GME Telecom"
       },
       "features": {
         "activation": {

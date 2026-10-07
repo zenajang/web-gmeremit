@@ -6,20 +6,20 @@
     "nav": {
       "blog": "ब्लॉग",
       "branches": "शाखाएं",
-      "card": "GME Card",
+      "card": "कार्ड",
       "ceo_message": "CEO का संदेश",
       "company": "कंपनी",
       "history": "इतिहास",
       "inquiry": "पूछताछ",
-      "loan": "GME ऋण",
+      "loan": "ऋण",
       "news": "समाचार",
       "notice": "सूचना",
-      "payments": "GME Payments (B2B)",
+      "payments": "B2B Payments",
       "press": "समाचार / प्रेस",
-      "remittance": "GME ऐप रेमिटेंस",
+      "remittance": "रेमिटेंस",
       "services": "सेवाएं",
       "services_menu": "सेवाएं",
-      "social_channels": "सोशल चैनल",
+      "social_channels": "संपर्क करें",
       "support": "सहायता",
       "telecom": "मोबाइल"
     }
@@ -168,17 +168,17 @@
     },
     "support": {
       "hero": {
-        "desc1": "हमारी देशव्यापी शाखाओं और वैश्विक सोशल चैनलों के माध्यम से,",
-        "desc2": "आप कभी भी सहायता प्राप्त कर सकते हैं और प्रश्न पूछ सकते हैं।",
-        "desc3": "अपने नज़दीकी शाखा खोजें या सोशल मीडिया पर हमसे जुड़ें।",
-        "title": "GME, हमेशा आपके करीब"
+        "desc1": "देशभर की शाखाओं के माध्यम से कभी भी सहायता पाएं",
+        "desc2": "और ग्लोबल सोशल चैनलों से।",
+        "desc3": "नज़दीकी शाखा पर जाएँ या सोशल मीडिया पर हमसे जुड़ें।",
+        "title": "GME – हमेशा आपके साथ"
       }
     },
     "telecom-page-client": {
       "cta": {
-        "button": "GME Mobile पर जाएँ",
-        "description": "किफायती प्लान्स के साथ फोन बिल पर बचत करें, 17 भाषाओं में उपलब्ध।",
-        "title": "GME Mobile के साथ शुरू करें"
+        "button": "GME Telecom पर जाएँ",
+        "description": "17 भाषाओं में सहायता के साथ आसान और किफ़ायती मोबाइल प्लान।",
+        "title": "GME Telecom के साथ शुरू करें"
       },
       "features": {
         "activation": {

@@ -232,12 +232,14 @@ export default function MobileNav({
   onClose,
   menuItems,
   careersLabel = "Careers",
+  appDownloadLabel,
   countriesLabel,
 }: {
   isOpen: boolean;
   onClose: () => void;
   menuItems: MenuItem[];
   careersLabel?: string;
+  appDownloadLabel: string;
   countriesLabel: string;
 }) {
   return (
@@ -276,7 +278,7 @@ export default function MobileNav({
               className="block w-full bg-primary-dark hover:bg-primary text-white font-semibold px-6 py-3 rounded-full text-center transition-colors duration-200"
               onClick={onClose}
             >
-              Download App
+              {appDownloadLabel}
             </Link>
             <div className="flex items-center justify-center gap-3 mt-4 pb-2">
               <Link

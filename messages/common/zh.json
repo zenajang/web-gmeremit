@@ -6,20 +6,20 @@
     "nav": {
       "blog": "博客",
       "branches": "分行",
-      "card": "GME Card",
+      "card": "卡",
       "ceo_message": "CEO致辞",
       "company": "公司介绍",
       "history": "发展历程",
       "inquiry": "咨询",
-      "loan": "GME贷款",
+      "loan": "贷款",
       "news": "新闻",
       "notice": "公告",
-      "payments": "GME Payments (B2B)",
+      "payments": "B2B Payments",
       "press": "新闻/媒体",
-      "remittance": "GME APP汇款",
+      "remittance": "汇款",
       "services": "服务",
       "services_menu": "服务",
-      "social_channels": "社交频道",
+      "social_channels": "联系我们",
       "support": "客服支持",
       "telecom": "手机"
     }
@@ -168,17 +168,17 @@
     },
     "support": {
       "hero": {
-        "desc1": "通过全国分行和全球社交频道，",
-        "desc2": "随时获取帮助或咨询。",
-        "desc3": "查找附近分行或通过社交媒体联系我们。",
-        "title": "GME，始终在您身边"
+        "desc1": "通过全国分行与全球社交渠道,",
+        "desc2": "您可随时咨询并获得帮助。",
+        "desc3": "就近前往分行,或通过社交媒体联系我们。",
+        "title": "GME,始终在您身边"
       }
     },
     "telecom-page-client": {
       "cta": {
-        "button": "前往GME Mobile",
-        "description": "用实惠套餐节省话费,支持17种语言。",
-        "title": "开始使用GME Mobile"
+        "button": "前往GME Telecom",
+        "description": "简单实惠的手机套餐,支持17种语言。",
+        "title": "开始使用GME Telecom"
       },
       "features": {
         "activation": {

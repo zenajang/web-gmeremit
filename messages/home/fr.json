@@ -398,8 +398,8 @@
     },
     "main-services": {
       "card": {
-        "desc1": "Carte intelligente connectant transfert et dépenses.",
-        "desc2": "Une nouvelle norme pour les paiements mondiaux.",
+        "desc1": "Une carte intelligente pour transférer et dépenser.",
+        "desc2": "La nouvelle référence du paiement mondial.",
         "title": "GME Card"
       },
       "loan": {
@@ -410,15 +410,15 @@
       "mobile": {
         "desc1": "Forfaits mobiles économiques à partir",
         "desc2": "de seulement 3 300 ₩/mois",
-        "title": "Mobile"
+        "title": "Telecom"
       },
       "payments": {
         "desc1": "Paie, règlements partenaires, paiements e-commerce.",
-        "desc2": "Solutions de paiement d'entreprise économiques.",
+        "desc2": "Solutions de paiement économiques pour les entreprises.",
         "title": "Paiements B2B"
       },
       "remittance": {
-        "desc1": "Envoyez de l'argent rapidement et en toute sécurité",
+        "desc1": "Transferts d'argent rapides et sécurisés",
         "desc2": "vers plus de 200 pays.",
         "title": "Transfert international"
       },
@@ -475,7 +475,7 @@
       "description": "Envoyez de l'argent rapidement et en toute sécurité vers plus de 200 pays.",
       "features": {
         "fast": {
-          "back_desc": "Envoyez partout dans le monde en quelques tapotements, sans étapes compliquées.",
+          "back_desc": "Envoyez de l'argent partout dans le monde en quelques touches, sans étapes compliquées.",
           "back_title": "Transfert simple",
           "desc": "Effectuez un transfert international en quelques clics",
           "sub": "Quelques clics",
@@ -508,7 +508,7 @@
     "section-nav": {
       "app_download": "Télécharger l'app",
       "customer_feedback": "Avis clients",
-      "exchange": "Calculateur de change",
+      "exchange": "Calculateur de taux de change",
       "home": "Accueil",
       "services": "Services"
     },

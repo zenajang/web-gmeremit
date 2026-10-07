@@ -47,7 +47,7 @@
     },
     "card-grid-title": {
       "subtitle": "さまざまなGME Cardの中から、あなたに合った特典を見つけてください",
-      "title": "特典を選ぼう"
+      "title": "あなたに合う一枚を選ぼう"
     },
     "service-hero-section": {
       "cta": "カードを見る",
@@ -844,7 +844,7 @@
       "title2": "送金プロセス"
     },
     "regions": {
-      "subtitle": "アジア、ヨーロッパ、アメリカ、アフリカなど200以上の国に対応しています。",
+      "subtitle": "アジア、ヨーロッパ、アメリカ、アフリカの200以上の国でご利用いただけます。",
       "title": "グローバル",
       "title2": "カバレッジ",
       "more": "その他多くの国に対応しています"
@@ -920,7 +920,7 @@
         "title": "1台で2つの番号"
       },
       "features": {
-        "title": "なぜGME Mobile?"
+        "title": "なぜGME Telecom?"
       },
       "plans": {
         "cta": "全プランを見る",
@@ -982,7 +982,7 @@
       "subtitle": "USIMもeSIMも簡単にセルフ開通"
     },
     "service-hero-section": {
-      "badge": "GME MOBILE",
+      "badge": "GME TELECOM",
       "cta": "プランを見る",
       "description": "LGU+、KTネットワークと同等品質の格安モバイルサービス。月額3,300ウォンからのお手頃プランで通信費を節約。",
       "title1": "あなたにぴったりの",

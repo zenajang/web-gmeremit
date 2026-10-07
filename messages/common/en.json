@@ -11,17 +11,17 @@
       "company": "Company",
       "history": "History",
       "inquiry": "Inquiry",
-      "loan": "Loan",
+      "loan": "Finance",
       "news": "News",
       "notice": "Notice",
-      "payments": "Payments (B2B)",
+      "payments": "B2B Payments",
       "press": "News / Press",
-      "remittance": "Remittance",
+      "remittance": "Remit",
       "services": "Services",
       "services_menu": "Services",
-      "social_channels": "Social Channels",
+      "social_channels": "Contact Us",
       "support": "Support",
-      "telecom": "Mobile"
+      "telecom": "Telecom"
     }
   },
   "footer": {
@@ -112,7 +112,7 @@
       "cta": {
         "description": "Get the funds you need quickly with easy mobile application.",
         "inline_notice": "ⓘ Clicking the button below will connect you to the loan service provided by GME Finance.",
-        "title": "Start Your Loan with GME App Today"
+        "title": "Start Your Finance with GME App Today"
       }
     },
     "mobile-section": {
@@ -168,17 +168,17 @@
     },
     "support": {
       "hero": {
-        "desc1": "Through our nationwide branches and global social channels,",
-        "desc2": "you can get support and ask questions anytime.",
-        "desc3": "Find a branch near you or connect with us on social media.",
-        "title": "GME, Always Close to You"
+        "desc1": "Get support anytime through our nationwide branches",
+        "desc2": "and global social channels.",
+        "desc3": "Visit a nearby branch or connect with us on social media.",
+        "title": "GME – Always by Your Side"
       }
     },
     "telecom-page-client": {
       "cta": {
-        "button": "Go to GME Mobile",
-        "description": "Save on phone bills with affordable plans, available in 17 languages.",
-        "title": "Get Started with GME Mobile"
+        "button": "Go to GME Telecom",
+        "description": "Easy and affordable mobile plans with support in 17 languages.",
+        "title": "Get Started with GME Telecom"
       },
       "features": {
         "activation": {

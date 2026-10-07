@@ -19,7 +19,7 @@
       "remittance": "해외송금",
       "services": "사업소개",
       "services_menu": "서비스",
-      "social_channels": "소셜 채널",
+      "social_channels": "문의하기",
       "support": "고객지원",
       "telecom": "모바일"
     }
@@ -168,17 +168,17 @@
     },
     "support": {
       "hero": {
-        "desc1": "전국 주요 지점과 글로벌 소셜채널을 통해",
-        "desc2": "언제든 편리하게 상담하고 문의하실 수 있습니다.",
-        "desc3": "가까운 지점을 찾아보시고, 소셜채널로 소통하세요.",
-        "title": "언제나 가까운 곳에서 만나는 GME"
+        "desc1": "전국 지점과 글로벌 소셜 채널을 통해",
+        "desc2": "언제든 문의하고 도움을 받으실 수 있습니다.",
+        "desc3": "가까운 지점을 방문하거나 소셜 미디어로 연결하세요.",
+        "title": "GME, 언제나 당신 곁에"
       }
     },
     "telecom-page-client": {
       "cta": {
-        "button": "GME Mobile 바로가기",
-        "description": "합리적인 요금제로 통신비를 절약하고, 17개 언어로 편리하게 이용하세요.",
-        "title": "지금 GME Mobile을 시작하세요"
+        "button": "GME Telecom 바로가기",
+        "description": "17개 언어로 지원되는 간편하고 저렴한 요금제.",
+        "title": "지금 GME Telecom을 시작하세요"
       },
       "features": {
         "activation": {

@@ -47,7 +47,7 @@
     },
     "card-grid-title": {
       "subtitle": "比较各款GME卡的权益,选择最适合您的卡片",
-      "title": "选择您的优惠"
+      "title": "选择最适合您的一款"
     },
     "service-hero-section": {
       "cta": "查看卡片",
@@ -844,7 +844,7 @@
       "title2": "汇款流程"
     },
     "regions": {
-      "subtitle": "覆盖亚洲、欧洲、美洲、非洲等200多个国家。",
+      "subtitle": "覆盖亚洲、欧洲、美洲和非洲的200多个国家。",
       "title": "全球",
       "title2": "覆盖范围",
       "more": "还支持更多国家"
@@ -920,7 +920,7 @@
         "title": "一部手机两个号码"
       },
       "features": {
-        "title": "为什么选择GME Mobile?"
+        "title": "为什么选择GME Telecom?"
       },
       "plans": {
         "cta": "查看全部套餐",
@@ -982,7 +982,7 @@
       "subtitle": "USIM和eSIM都可轻松自助开通"
     },
     "service-hero-section": {
-      "badge": "GME MOBILE",
+      "badge": "GME TELECOM",
       "cta": "查看套餐",
       "description": "与LGU+、KT网络同等品质的实惠手机服务。月费仅需3,300韩元起,节省话费。",
       "title1": "为您量身定制的",

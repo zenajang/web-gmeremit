@@ -47,7 +47,7 @@
     },
     "card-grid-title": {
       "subtitle": "So sánh quyền lợi giữa các loại thẻ GME và chọn thẻ phù hợp nhất với bạn",
-      "title": "Chọn quyền lợi của bạn"
+      "title": "Chọn thẻ phù hợp nhất với bạn"
     },
     "service-hero-section": {
       "cta": "Xem thẻ",
@@ -661,7 +661,7 @@
       },
       "gme_loan": {
         "desc": "Chi phí sinh hoạt chung",
-        "name": "GME Loan"
+        "name": "GME Finance"
       },
       "house_loan": {
         "desc": "Tiền đặt cọc thuê nhà & jeonse",
@@ -716,7 +716,7 @@
         "desc": "Hỗ trợ khách hàng",
         "title": "24/7"
       },
-      "title": "Tại sao chọn GME Loan?"
+      "title": "Tại sao chọn GME Finance?"
     }
   },
   "services-payments": {
@@ -844,7 +844,7 @@
       "title2": "Chuyển tiền đơn giản"
     },
     "regions": {
-      "subtitle": "Khả dụng tại châu Á, châu Âu, châu Mỹ và châu Phi ở hơn 200 quốc gia.",
+      "subtitle": "Khả dụng tại hơn 200 quốc gia ở châu Á, châu Âu, châu Mỹ và châu Phi.",
       "title": "Phạm vi",
       "title2": "Toàn cầu",
       "more": "Và nhiều quốc gia được hỗ trợ khác"
@@ -920,7 +920,7 @@
         "title": "Một điện thoại, hai số"
       },
       "features": {
-        "title": "Tại sao chọn GME Mobile?"
+        "title": "Tại sao chọn GME Telecom?"
       },
       "plans": {
         "cta": "Xem tất cả gói cước",
@@ -982,7 +982,7 @@
       "subtitle": "Tự kích hoạt đơn giản cho cả USIM và eSIM"
     },
     "service-hero-section": {
-      "badge": "GME MOBILE",
+      "badge": "GME TELECOM",
       "cta": "Xem gói cước",
       "description": "Dịch vụ di động giá rẻ với chất lượng tương đương mạng LGU+ và KT. Tiết kiệm cước phí với gói cước chỉ từ 3.300 KRW/tháng.",
       "title1": "Gói cước di động",

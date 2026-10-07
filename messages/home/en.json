@@ -358,12 +358,12 @@
     },
     "loan-section": {
       "button": {
-        "apply": "Apply for Loan in GME App",
-        "detail": "Learn more about Loan"
+        "apply": "Apply for Finance in GME App",
+        "detail": "Learn more about Finance"
       },
       "card": {
         "quick_apply": "Quick Apply",
-        "subtitle": "Loans for Foreigners",
+        "subtitle": "Finance for Foreigners",
         "title": "GME Finance"
       },
       "description": "Apply for a loan in minutes with the GME app. Check real-time processing status and balance anytime, anywhere.",
@@ -381,7 +381,7 @@
           "label": "Simple"
         },
         "success": {
-          "desc": "Loans",
+          "desc": "Finance",
           "label": "1M+"
         },
         "support": {
@@ -390,35 +390,35 @@
         }
       },
       "stats": {
-        "desc": "1M+ Successful Loans · 14 Countries",
-        "title": "Cumulative Loan Performance",
+        "desc": "1M+ Successful Finance · 14 Countries",
+        "title": "Cumulative Finance Performance",
         "value": "₩500B+"
       },
-      "title": "Online Loan"
+      "title": "Online Finance"
     },
     "main-services": {
       "card": {
-        "desc1": "Smart card connecting remittance and spending.",
-        "desc2": "A new standard for global payments.",
+        "desc1": "One smart card for remittance and spending.",
+        "desc2": "The new standard for global payments.",
         "title": "GME Card"
       },
       "loan": {
         "desc1": "Quick approval and flexible terms",
         "desc2": "Digital loan service",
-        "title": "Online Loan"
+        "title": "Online Finance"
       },
       "mobile": {
         "desc1": "Budget mobile plans starting",
         "desc2": "from just ₩3,300/month",
-        "title": "Mobile"
+        "title": "Telecom"
       },
       "payments": {
         "desc1": "Payroll, partner settlements, e-commerce payments.",
-        "desc2": "Cost-effective corporate payment solutions.",
+        "desc2": "Cost-effective payment solutions for business.",
         "title": "B2B Payments"
       },
       "remittance": {
-        "desc1": "Send money fast and safely",
+        "desc1": "Fast and secure money transfers",
         "desc2": "to 200+ countries.",
         "title": "Overseas Remittance"
       },
@@ -475,7 +475,7 @@
       "description": "Send money fast and safely to 200+ countries.",
       "features": {
         "fast": {
-          "back_desc": "Send anywhere in the world with just a few taps, no complicated steps.",
+          "back_desc": "Send money anywhere in the world in just a few taps, with no complicated steps needed.",
           "back_title": "Simple Transfer",
           "desc": "Complete overseas transfer in just a few clicks",
           "sub": "Few Clicks",
@@ -508,7 +508,7 @@
     "section-nav": {
       "app_download": "App Download",
       "customer_feedback": "Customer Feedback",
-      "exchange": "Exchange Calculator",
+      "exchange": "Exchange Rate Calculator",
       "home": "Home",
       "services": "Services"
     },

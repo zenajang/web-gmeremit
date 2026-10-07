@@ -358,12 +358,12 @@
     },
     "loan-section": {
       "button": {
-        "apply": "Mag-apply para sa Loan sa GME App",
-        "detail": "Alamin pa ang tungkol sa Loan"
+        "apply": "Mag-apply para sa Finance sa GME App",
+        "detail": "Alamin pa ang tungkol sa Finance"
       },
       "card": {
         "quick_apply": "Quick Apply",
-        "subtitle": "Mga Loan para sa Dayuhan",
+        "subtitle": "Mga Finance para sa Dayuhan",
         "title": "GME Finance"
       },
       "description": "Mag-apply para sa loan sa ilang minuto gamit ang GME app. Tingnan ang real-time processing status at balanse kahit kailan, kahit saan.",
@@ -381,7 +381,7 @@
           "label": "Simple"
         },
         "success": {
-          "desc": "Mga Loan",
+          "desc": "Mga Finance",
           "label": "1M+"
         },
         "support": {
@@ -390,35 +390,35 @@
         }
       },
       "stats": {
-        "desc": "1M+ Matagumpay na Loan · 14 na Bansa",
-        "title": "Kabuuang Performance ng Loan",
+        "desc": "1M+ Matagumpay na Finance · 14 na Bansa",
+        "title": "Kabuuang Performance ng Finance",
         "value": "₩500B+"
       },
-      "title": "Online Loan"
+      "title": "Online Finance"
     },
     "main-services": {
       "card": {
-        "desc1": "Smart card na nag-uugnay ng remittance at paggastos.",
-        "desc2": "Isang bagong pamantayan para sa pandaigdigang pagbabayad.",
+        "desc1": "Isang smart card para sa padala at gastos.",
+        "desc2": "Ang bagong pamantayan sa global payments.",
         "title": "GME Card"
       },
       "loan": {
         "desc1": "Mabilis na pag-apruba at flexible na tuntunin",
         "desc2": "Digital loan service",
-        "title": "Online Loan"
+        "title": "Online Finance"
       },
       "mobile": {
         "desc1": "Mga budget mobile plan simula sa",
         "desc2": "₩3,300/buwan para sa mga dayuhan",
-        "title": "Mobile"
+        "title": "Telecom"
       },
       "payments": {
-        "desc1": "Bulk payment, settlement, partner transfer.",
-        "desc2": "Mabilis at ligtas na daloy ng corporate payment.",
+        "desc1": "Payroll, partner settlements, e-commerce payments.",
+        "desc2": "Cost-effective na payment solutions para sa negosyo.",
         "title": "Global Payments"
       },
       "remittance": {
-        "desc1": "Magpadala ng pera nang mabilis at ligtas",
+        "desc1": "Mabilis at ligtas na padala ng pera",
         "desc2": "sa 200+ na bansa.",
         "title": "Overseas Remittance"
       },
@@ -475,7 +475,7 @@
       "description": "Magpadala ng pera nang mabilis at ligtas sa 200+ na bansa.",
       "features": {
         "fast": {
-          "back_desc": "Magpadala kahit saan sa mundo sa ilang tap lang, walang kumplikadong hakbang.",
+          "back_desc": "Magpadala ng pera kahit saan sa mundo sa ilang tap lang, walang komplikadong hakbang.",
           "back_title": "Simpleng Paglilipat",
           "desc": "Kumpletuhin ang overseas transfer sa ilang click lang",
           "sub": "Ilang Click Lang",
@@ -508,7 +508,7 @@
     "section-nav": {
       "app_download": "I-download ang App",
       "customer_feedback": "Feedback ng Customer",
-      "exchange": "Exchange Calculator",
+      "exchange": "Exchange Rate Calculator",
       "home": "Home",
       "services": "Mga Serbisyo"
     },

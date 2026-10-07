@@ -6,20 +6,20 @@
     "nav": {
       "blog": "Блог",
       "branches": "Салбарууд",
-      "card": "GME Card",
+      "card": "Карт",
       "ceo_message": "CEO-н мэндчилгээ",
       "company": "Компани",
       "history": "Түүх",
       "inquiry": "Лавлагаа",
-      "loan": "GME Loan",
+      "loan": "Finance",
       "news": "Мэдээ",
       "notice": "Мэдэгдэл",
-      "payments": "GME Payments (B2B)",
+      "payments": "B2B Payments",
       "press": "Мэдээ / Пресс",
-      "remittance": "GME App Remittance",
+      "remittance": "Remit",
       "services": "Үйлчилгээ",
       "services_menu": "Үйлчилгээний цэс",
-      "social_channels": "Нийгмийн сувгууд",
+      "social_channels": "Холбоо барих",
       "support": "Дэмжлэг",
       "telecom": "Мобайл"
     }
@@ -168,17 +168,17 @@
     },
     "support": {
       "hero": {
-        "desc1": "Улсын хэмжээнд салбарууд болон дэлхийн сошиал сувгуудаар",
-        "desc2": "та хүссэн үедээ дэмжлэг авч, асуулт асууж болно.",
-        "desc3": "Өөрт ойр салбарыг ол эсвэл сошиалаар холбогдоорой.",
-        "title": "GME, үргэлж таны ойролцоо"
+        "desc1": "Улс даяарх салбаруудаараа дамжуулан хэзээ ч тусламж аваарай",
+        "desc2": "мөн дэлхийн сошиал сувгуудаар.",
+        "desc3": "Ойролцоох салбартаа ирэх эсвэл сошиалаар бидэнтэй холбогдоорой.",
+        "title": "GME – Үргэлж таны хажууд"
       }
     },
     "telecom-page-client": {
       "cta": {
-        "button": "GME Mobile руу очих",
-        "description": "Хямд багцаар утасны зардлаа хэмнэ, 17 хэлээр боломжтой.",
-        "title": "GME Mobile-аар эхлээрэй"
+        "button": "GME Telecom руу очих",
+        "description": "17 хэл дээр дэмжлэгтэй, хялбар бөгөөд хэмнэлттэй багцууд.",
+        "title": "GME Telecom-аар эхлээрэй"
       },
       "features": {
         "activation": {

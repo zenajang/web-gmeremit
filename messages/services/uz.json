@@ -47,7 +47,7 @@
     },
     "card-grid-title": {
       "subtitle": "GME kartalari orasidagi imtiyozlarni solishtiring va sizga eng mos keladiganini tanlang",
-      "title": "Imtiyozingizni tanlang"
+      "title": "Sizga eng mosini tanlang"
     },
     "service-hero-section": {
       "cta": "Kartalarni ko'rish",
@@ -661,7 +661,7 @@
       },
       "gme_loan": {
         "desc": "Umumiy yashash xarajatlari",
-        "name": "GME Loan"
+        "name": "GME Finance"
       },
       "house_loan": {
         "desc": "Jeonse va ijara depoziti",
@@ -716,7 +716,7 @@
         "desc": "Yordam",
         "title": "24/7"
       },
-      "title": "Nega GME Loanni tanlash kerak?"
+      "title": "Nega GME Financeni tanlash kerak?"
     }
   },
   "services-payments": {
@@ -844,7 +844,7 @@
       "title2": "o'tkazma jarayoni"
     },
     "regions": {
-      "subtitle": "Osiyo, Yevropa, Amerika va Afrikadagi 200+ mamlakatda mavjud.",
+      "subtitle": "Osiyo, Yevropa, Amerika va Afrikadagi 200+ davlatda mavjud.",
       "title": "Global",
       "title2": "qamrov",
       "more": "va yana ko'plab mamlakatlar"
@@ -920,7 +920,7 @@
         "title": "Bir telefon, ikkita raqam"
       },
       "features": {
-        "title": "Nima uchun GME Mobile?"
+        "title": "Nima uchun GME Telecom?"
       },
       "plans": {
         "cta": "Barcha tariflarni ko'rish",
@@ -982,7 +982,7 @@
       "subtitle": "USIM va eSIM uchun oddiy mustaqil faollashtirish"
     },
     "service-hero-section": {
-      "badge": "GME MOBILE",
+      "badge": "GME TELECOM",
       "cta": "Tariflarni ko'rish",
       "description": "LGU+ va KT tarmoqlari bilan bir xil sifatga ega arzon mobil xizmati. Atigi 3 300 KRW/oydan boshlanadigan tariflar bilan telefon hisoblarini tejang.",
       "title1": "Siz uchun mukammal",

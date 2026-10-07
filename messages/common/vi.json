@@ -6,20 +6,20 @@
     "nav": {
       "blog": "Blog",
       "branches": "Chi nhánh",
-      "card": "GME Card",
+      "card": "Thẻ",
       "ceo_message": "Thông điệp CEO",
       "company": "Công ty",
       "history": "Lịch sử",
       "inquiry": "Liên hệ",
-      "loan": "GME Loan",
+      "loan": "Finance",
       "news": "Tin tức",
       "notice": "Thông báo",
-      "payments": "GME Payments (B2B)",
+      "payments": "B2B Payments",
       "press": "Tin tức / Báo chí",
-      "remittance": "Chuyển tiền qua ứng dụng GME",
+      "remittance": "Chuyển tiền",
       "services": "Dịch vụ",
       "services_menu": "Dịch vụ",
-      "social_channels": "Kênh mạng xã hội",
+      "social_channels": "Liên hệ",
       "support": "Hỗ trợ",
       "telecom": "Di động"
     }
@@ -168,17 +168,17 @@
     },
     "support": {
       "hero": {
-        "desc1": "Thông qua các chi nhánh trên toàn quốc và kênh mạng xã hội toàn cầu,",
-        "desc2": "bạn có thể nhận hỗ trợ và đặt câu hỏi bất cứ lúc nào.",
-        "desc3": "Tìm chi nhánh gần bạn hoặc kết nối với chúng tôi trên mạng xã hội.",
-        "title": "GME, Luôn bên bạn"
+        "desc1": "Nhận hỗ trợ bất cứ lúc nào qua các chi nhánh toàn quốc",
+        "desc2": "và các kênh mạng xã hội toàn cầu.",
+        "desc3": "Ghé chi nhánh gần bạn hoặc kết nối với chúng tôi trên mạng xã hội.",
+        "title": "GME – Luôn bên bạn"
       }
     },
     "telecom-page-client": {
       "cta": {
-        "button": "Đến GME Mobile",
-        "description": "Tiết kiệm cước phí với gói cước giá rẻ, hỗ trợ 17 ngôn ngữ.",
-        "title": "Bắt đầu với GME Mobile"
+        "button": "Đến GME Telecom",
+        "description": "Gói cước di động dễ dùng, giá tốt, hỗ trợ 17 ngôn ngữ.",
+        "title": "Bắt đầu với GME Telecom"
       },
       "features": {
         "activation": {

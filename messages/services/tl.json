@@ -47,7 +47,7 @@
     },
     "card-grid-title": {
       "subtitle": "Ikumpara ang mga benepisyo ng iba't ibang GME card at piliin ang pinakaangkop para sa iyo",
-      "title": "Piliin ang Iyong Benepisyo"
+      "title": "Piliin ang Pinakaangkop sa Iyo"
     },
     "service-hero-section": {
       "cta": "Lihat Kartu",
@@ -563,7 +563,7 @@
         "value": "Digital Contract"
       },
       "duration": {
-        "label": "Tagal ng Loan",
+        "label": "Tagal ng Finance",
         "value": "3 - 45 buwan"
       },
       "early_settlement": {
@@ -575,7 +575,7 @@
         "value": "2 mil - 35 mil"
       },
       "max_amount": {
-        "label": "Maximum na Halaga ng Loan",
+        "label": "Maximum na Halaga ng Finance",
         "value": "Hanggang 35 mil"
       },
       "repayment": {
@@ -628,7 +628,7 @@
     },
     "process": {
       "step1": {
-        "desc": "I-download ang GME App sa Google Play Store o App Store. Mag-register at mag-apply ng Loan.",
+        "desc": "I-download ang GME App sa Google Play Store o App Store. Mag-register at mag-apply ng Finance.",
         "title": "Mag-apply sa GME App"
       },
       "step2": {
@@ -648,39 +648,39 @@
         "title": "Disbursement"
       },
       "subtitle": "5 Hakbang na Proseso ng Pag-apply",
-      "title": "Simpleng Loan Application"
+      "title": "Simpleng Finance Application"
     },
     "products": {
       "business_loan": {
         "desc": "Pondo para sa operasyon ng negosyo",
-        "name": "Business Loan"
+        "name": "Business Finance"
       },
       "car_loan": {
         "desc": "Pondo para sa pagbili ng sasakyan",
-        "name": "Car Loan"
+        "name": "Car Finance"
       },
       "gme_loan": {
         "desc": "Pangkalahatang gastusin sa pamumuhay",
-        "name": "GME Loan"
+        "name": "GME Finance"
       },
       "house_loan": {
         "desc": "Jeonse at deposito sa upa",
-        "name": "House Loan"
+        "name": "House Finance"
       },
       "property_loan": {
-        "desc": "Loan na may garantiyang ari-arian",
-        "name": "Property Loan"
+        "desc": "Finance na may garantiyang ari-arian",
+        "name": "Property Finance"
       },
       "student_loan": {
         "desc": "Matrikula at bayarin sa paaralan",
-        "name": "Student Loan"
+        "name": "Student Finance"
       },
       "subtitle": "Ikumpara at piliin ang produkto ng loan na angkop sa iyong pangangailangan.",
-      "title": "Mga Produkto ng Loan",
+      "title": "Mga Produkto ng Finance",
       "title2": "Angkop para sa Iyo",
       "vacation_loan": {
         "desc": "Pondo para sa biyahe at bakasyon",
-        "name": "Vacation Loan"
+        "name": "Vacation Finance"
       }
     },
     "service-hero-section": {
@@ -705,18 +705,18 @@
         "desc": "Sa Mobile App",
         "title": "Madaling Pag-apply"
       },
-      "stats_desc": "1M+ Matagumpay na Loan · 14 na Bansa",
-      "stats_label": "Kabuuang Loan",
+      "stats_desc": "1M+ Matagumpay na Finance · 14 na Bansa",
+      "stats_label": "Kabuuang Finance",
       "stats_value": "₩500B+",
       "success": {
-        "desc": "Matagumpay na Loan",
+        "desc": "Matagumpay na Finance",
         "title": "1M+"
       },
       "support": {
         "desc": "Customer Support",
         "title": "24/7"
       },
-      "title": "Bakit Pumili ng GME Loan?"
+      "title": "Bakit Pumili ng GME Finance?"
     }
   },
   "services-payments": {
@@ -844,7 +844,7 @@
       "title2": "Proseso ng Transfer"
     },
     "regions": {
-      "subtitle": "Available sa buong Asia, Europe, Americas, at Africa sa 200+ na bansa.",
+      "subtitle": "Available sa 200+ bansa sa Asia, Europe, Americas, at Africa.",
       "title": "Pandaigdigang",
       "title2": "Saklaw",
       "more": "At marami pang suportadong bansa"
@@ -920,7 +920,7 @@
         "title": "Isang Phone, Dalawang Number"
       },
       "features": {
-        "title": "Bakit GME Mobile?"
+        "title": "Bakit GME Telecom?"
       },
       "plans": {
         "cta": "Tingnan Lahat ng Plans",
@@ -982,7 +982,7 @@
       "subtitle": "Simpleng self-activation para sa USIM at eSIM"
     },
     "service-hero-section": {
-      "badge": "GME MOBILE",
+      "badge": "GME TELECOM",
       "cta": "Lihat Paket",
       "description": "Layanan seluler hemat dengan kualitas setara jaringan LGU+ dan KT. Hemat biaya telepon dengan paket mulai dari 3.300 KRW/bulan.",
       "title1": "Paket seluler",

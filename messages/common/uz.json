@@ -6,20 +6,20 @@
     "nav": {
       "blog": "Blog",
       "branches": "Filiallar",
-      "card": "GME Card",
+      "card": "Karta",
       "ceo_message": "CEO xabari",
       "company": "Kompaniya",
       "history": "Tarix",
       "inquiry": "So'rov",
-      "loan": "GME Loan",
+      "loan": "Finance",
       "news": "Yangiliklar",
       "notice": "E'lon",
-      "payments": "GME Payments (B2B)",
+      "payments": "B2B Payments",
       "press": "Yangiliklar / Matbuot",
-      "remittance": "GME App Remittance",
+      "remittance": "Remit",
       "services": "Xizmatlar",
       "services_menu": "Xizmatlar menyusi",
-      "social_channels": "Ijtimoiy tarmoqlar",
+      "social_channels": "Biz bilan bogʻlaning",
       "support": "Yordam",
       "telecom": "Mobil"
     }
@@ -168,17 +168,17 @@
     },
     "support": {
       "hero": {
-        "desc1": "Mamlakat bo'ylab filiallar va global ijtimoiy kanallar orqali",
-        "desc2": "istalgan vaqtda yordam va savollarga javob olishingiz mumkin.",
-        "desc3": "Yaqiningizdagi filialni toping yoki ijtimoiy tarmoqlarda biz bilan bog'laning.",
-        "title": "GME, har doim sizga yaqin"
+        "desc1": "Mamlakat boʻylab filiallarimiz orqali istalgan vaqtda yordam oling",
+        "desc2": "va global ijtimoiy kanallar orqali.",
+        "desc3": "Yaqin filialga tashrif buyuring yoki ijtimoiy tarmoqlarda bogʻlaning.",
+        "title": "GME – Doimo yoningizda"
       }
     },
     "telecom-page-client": {
       "cta": {
-        "button": "GME Mobile ga o'tish",
-        "description": "Arzon tariflar bilan telefon hisoblarini tejang, 17 tilda mavjud.",
-        "title": "GME Mobile bilan boshlang"
+        "button": "GME Telecom ga o'tish",
+        "description": "17 tilda qoʻllab-quvvatlanadigan sodda va arzon mobil tariflar.",
+        "title": "GME Telecom bilan boshlang"
       },
       "features": {
         "activation": {

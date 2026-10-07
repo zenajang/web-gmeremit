@@ -11,9 +11,9 @@ export default function CompanyTabs({ activeTab }: CompanyTabsProps) {
   const { t } = useTranslation();
 
   const tabs = [
-    { id: "ceo-message", labelKey: "ceo_message", href: "/company/ceo-message" },
-    { id: "history", labelKey: "history", href: "/company/history" },
-    { id: "services", labelKey: "services", href: "/company/services" },
+    { id: "ceo-message", labelKey: "header.nav.ceo_message", href: "/company/ceo-message" },
+    { id: "history", labelKey: "header.nav.history", href: "/company/history" },
+    { id: "services", labelKey: "header.nav.services", href: "/company/services" },
   ];
 
   return (
