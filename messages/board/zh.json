@@ -1,0 +1,52 @@
+{
+  "board-detail": {
+    "board-detail-client": {
+      "attachment": "附件",
+      "attachment_file": "附件",
+      "back": "返回",
+      "back_to_list": "返回列表",
+      "not_found": "未找到该文章"
+    }
+  },
+  "board-notice": {
+    "redirect": {
+      "notice": "正在跳转到公告页面..."
+    }
+  },
+  "board-press": {
+    "redirect": {
+      "press": "正在跳转到新闻页面..."
+    }
+  },
+  "board": {
+    "blog-grid": {
+      "no_image": "无图片",
+      "no_results": "未找到搜索结果。"
+    },
+    "board-table": {
+      "attachment": "附件",
+      "attachment_file": "附件",
+      "date": "日期",
+      "title": "标题",
+      "type": "分类"
+    },
+    "count_suffix": " 篇",
+    "pagination": {
+      "load_more": "加载更多"
+    },
+    "search-bar": {
+      "all": "全部",
+      "content": "内容",
+      "placeholder": "请输入搜索关键词",
+      "title": "标题",
+      "button": "搜索"
+    },
+    "subtitle": "查看GME Remit的最新消息",
+    "tabs": {
+      "blog": "博客",
+      "notice": "公告",
+      "press": "新闻"
+    },
+    "total": "共"
+  }
+}

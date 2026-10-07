@@ -1,0 +1,153 @@
+{
+  "company-careers": {
+    "benefits": {
+      "education": {
+        "description": "Dukungan penuh untuk pengembangan diri termasuk kursus online, sertifikasi, pelajaran bahasa, dan biaya konferensi.",
+        "title": "Pendidikan · Pengembangan"
+      },
+      "health": {
+        "description": "Tunjangan pemeriksaan kesehatan ₩300.000/tahun untuk karyawan tetap.",
+        "title": "Dukungan Pemeriksaan Kesehatan"
+      },
+      "incentive": {
+        "description": "Berbagai insentif dan penghargaan berbasis kinerja untuk pencapaian target, ide baru, dan kinerja luar biasa.",
+        "title": "Insentif Kinerja"
+      },
+      "subtitle": "Mendukung pertumbuhan dan kebahagiaan anggota GME",
+      "team_building": {
+        "description": "Town Hall bulanan, acara tim triwulanan, klub olahraga, konser healing, dan banyak lagi.",
+        "title": "Team Building · Budaya"
+      },
+      "title": "Manfaat & Kesejahteraan",
+      "vacation": {
+        "description": "Cuti ulang tahun, hari jadi, acara keluarga, cuti pengasuhan anak, dan berbagai cuti khusus lainnya.",
+        "title": "Cuti Tahunan · Cuti Khusus"
+      }
+    },
+    "header": {
+      "button": "Lihat Lowongan",
+      "description": "Bergabunglah dengan perusahaan fintech global yang melayani pelanggan di lebih dari 200 negara dan wilayah.",
+      "title": "Berkembang Bersama GME"
+    },
+    "staff_stories": {
+      "subtitle": "Kisah nyata dari rekan kerja",
+      "title": "Cerita Tim"
+    },
+    "why_gme": {
+      "agile": {
+        "description": "Organisasi flat, eksekusi cepat, belajar dari kegagalan, dan tumbuh bersama.",
+        "title": "Pengambilan Keputusan Cepat"
+      },
+      "diversity": {
+        "description": "Bekerja dengan rekan dari 14+ kewarganegaraan, belajar dari berbagai perspektif.",
+        "title": "Menghargai Keberagaman"
+      },
+      "fairness": {
+        "description": "Evaluasi adil berdasarkan kemampuan dan kinerja, tanpa memandang gender atau kewarganegaraan.",
+        "title": "Kesempatan yang Adil"
+      },
+      "title": "Yang Membuat GME Istimewa"
+    }
+  },
+  "company-ceo-message": {
+    "paragraph1": "Sebagai perusahaan fintech terkemuka di Korea, kami berinvestasi dalam teknologi mutakhir dan talenta, bertujuan untuk pertumbuhan bersama dan kesuksesan pelanggan.",
+    "paragraph2": "Bersama GME, bangun masa depan layanan keuangan global dan rasakan layanan yang lebih nyaman dan inovatif."
+  },
+  "company-history": {
+    "events": {
+      "2016_08": "Pendirian Global Money Express Co., Ltd.",
+      "2017_03": "Peluncuran layanan online pertama",
+      "2017_06": "Penyedia layanan pertama di Korea",
+      "2017_08": "Lisensi pengiriman uang luar negeri skala kecil pertama di Korea",
+      "2017_12": "Total pengiriman uang tahunan ke luar negeri melebihi KRW 10 miliar",
+      "2018_04": "Total pengiriman uang luar negeri kumulatif melampaui ₩54 miliar",
+      "2018_09": "Terpilih sebagai penyedia layanan pengiriman uang rekomendasi Kota Seoul",
+      "2018_12": "Total pengiriman uang tahunan ke luar negeri melebihi KRW 460 miliar",
+      "2018_loan": "Peluncuran layanan pinjaman kredit untuk warga asing",
+      "2019_03": "Peluncuran layanan pengiriman uang domestik",
+      "2019_06": "Pembukaan 12 cabang nasional",
+      "2019_07": "",
+      "2019_09": "Pembukaan 3 pusat nasional",
+      "2019_12": "",
+      "2020_02": "Total pengiriman uang luar negeri kumulatif melampaui ₩1 triliun",
+      "2020_05": "Peluncuran layanan top-up mobile",
+      "2020_08": "Lisensi pembayaran elektronik prabayar",
+      "2020_09": "Meluncurkan layanan GME Pay",
+      "2020_12": "Total pengiriman uang tahunan ke luar negeri melebihi KRW 1,0 triliun",
+      "2021_04": "Total pengiriman uang luar negeri kumulatif melampaui ₩1,9 triliun",
+      "2021_07": "Peluncuran layanan kupon mobile",
+      "2021_10": "Penghargaan Fintech Korea (Kategori Teknologi)",
+      "2021_12": "Lisensi PG dan izin usaha pembayaran elektronik",
+      "2022_03": "Lisensi bisnis valuta asing",
+      "2022_06": "Peluncuran bisnis pembayaran",
+      "2022_11": "Total pengiriman uang luar negeri kumulatif melampaui ₩2 triliun",
+      "2022_12": "Total pengiriman uang tahunan ke luar negeri melebihi KRW 1,7 triliun",
+      "2023_02": "Total pengiriman uang luar negeri kumulatif melampaui ₩2,1 triliun",
+      "2023_05": "Kerja sama BC Card · Mastercard meluncurkan layanan GME Card",
+      "2023_09": "Lisensi layanan GME Mobile (MVNO)",
+      "2023_10": "Masuk Top 10 Fintech Korea Forbes 2023",
+      "2023_kibo": "Terpilih sebagai perusahaan KIBO-Star Valley oleh KOTEC",
+      "2023_nice": "Sertifikasi perusahaan teknologi unggulan dari NICE",
+      "2024_03": "Kerja sama LG U+ meluncurkan layanan GME Mobile (MVNO)",
+      "2024_06": "Peluncuran layanan pembayaran korporat 'GMEBiz'",
+      "2024_12": "Total pengiriman uang luar negeri kumulatif melampaui ₩2,8 triliun",
+      "2025_03": "Peluncuran produk asuransi untuk penduduk asing",
+      "2025_04": "Disertifikasi sebagai UKM Inovatif (Inno-Biz)",
+      "2025_06": "Peluncuran kartu debit dengan fungsi kartu transportasi",
+      "2025_12": "Total pengiriman uang luar negeri kumulatif melampaui ₩3,5 triliun",
+      "2026_09": "Meluncurkan EasyCare Card, yang menawarkan manfaat asuransi dan dukungan keanggotaan bekerja sama dengan DB Insurance."
+    },
+    "title_line1": "Tantangan Tanpa Henti,",
+    "title_line2": "Awal yang Baru"
+  },
+  "company-services": {
+    "b2b_payments": {
+      "desc": "Pengiriman uang dan penagihan internasional cepat dan murah",
+      "title": "Pembayaran B2B"
+    },
+    "core_services": "Layanan Inti",
+    "digital_wallet": {
+      "desc": "Isi ulang · Kirim uang · Bayar semua dalam satu",
+      "title": "Dompet Digital"
+    },
+    "easy_loan": {
+      "desc": "100% tanpa kertas, persetujuan instan",
+      "title": "Pinjaman Mudah"
+    },
+    "gift_coupons": {
+      "desc": "Kirim kupon hadiah digital dengan poin",
+      "title": "Kupon Hadiah"
+    },
+    "gme_card": {
+      "desc": "Bayar · Tarik · Kelola di seluruh dunia",
+      "title": "GME Card"
+    },
+    "learn_more": "Pelajari Lebih Lanjut",
+    "mobile_topup": {
+      "desc": "Isi ulang mobile instan di 150+ negara",
+      "title": "Top-Up Mobile"
+    },
+    "money_exchange": {
+      "desc": "Kurs lebih baik dari bank tradisional",
+      "title": "Penukaran Uang"
+    },
+    "personal_remittance": {
+      "desc": "Kirim uang domestik & internasional multibahasa",
+      "title": "Pengiriman Uang Pribadi"
+    },
+    "related_services": "Layanan Terkait",
+    "subtitle": "Semua layanan keuangan global dalam satu tempat",
+    "telecom": {
+      "desc": "Paket seluler hemat mulai dari ₩3.300/bulan",
+      "title": "Telecom"
+    },
+    "title": "Layanan GME"
+  },
+  "company": {
+    "tabs": {
+      "ceo_message": "Pesan CEO",
+      "history": "Sejarah",
+      "services": "Layanan"
+    }
+  }
+}

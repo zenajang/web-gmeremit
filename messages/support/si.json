@@ -1,0 +1,218 @@
+{
+  "support-branches": {
+    "address": "ලිපිනය",
+    "data": {
+      "1": {
+        "address": "315 Jongno, Jongno-gu, Seoul (Dongdaemun Station Exit 3)",
+        "hours": "සතියේ දින & සතියේ අග 10:00 - 19:00",
+        "name": "Dongdaemun ශාඛාව"
+      },
+      "2": {
+        "address": "1F, 6 Damunhwa-gil, Danwon-gu, Ansan-si, Gyeonggi-do",
+        "hours": "සතියේ දින & සතියේ අග 10:00 - 19:00",
+        "name": "Ansan ශාඛාව"
+      },
+      "3": {
+        "address": "1F, 134 Dorim-ro, Yeongdeungpo-gu, Seoul",
+        "hours": "සතියේ දින & සතියේ අග 10:00 - 19:00",
+        "name": "Daerim ශාඛාව"
+      },
+      "4": {
+        "address": "2-10 Maesan-ro, Paldal-gu, Suwon-si, Gyeonggi-do",
+        "hours": "සතියේ දින & සතියේ අග 10:00 - 19:00",
+        "name": "Suwon ශාඛාව"
+      },
+      "5": {
+        "address": "1F, 1109-3 3·1 Manse-ro, Hyangnam-eup, Hwaseong-si, Gyeonggi-do",
+        "hours": "සික්කුරාදා - අඟහරුවාදා 10:00 - 19:00",
+        "name": "Hwaseong ශාඛාව"
+      },
+      "6": {
+        "address": "91 Solmoru-ro, Soheul-eup, Pocheon-si, Gyeonggi-do (Next to NH Bank)",
+        "hours": "සෙනසුරාදා - බදාදා 10:00 - 19:00",
+        "name": "Songuri ශාඛාව"
+      },
+      "7": {
+        "address": "16 Gwangjang-ro, Bupyeong-gu, Incheon (Bupyeong Station Shopping Mall)",
+        "hours": "සෙනසුරාදා - බදාදා 10:00 - 19:00",
+        "name": "Bupyeong ශාඛාව"
+      },
+      "8": {
+        "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (Across from Top Mart)",
+        "hours": "සතියේ දින & සතියේ අග 10:00 - 19:00",
+        "name": "Gimhae ශාඛාව"
+      },
+      "9": {
+        "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+        "hours": "සතියේ දින & සතියේ අග 10:00 - 19:00",
+        "name": "Pyeongtaek ශාඛාව"
+      }
+    },
+    "hours": "වේලාවන්",
+    "phone": "දුරකථනය"
+  },
+  "support-inquiry": {
+    "categories": {
+      "2": {
+        "items": [
+          "සමාගම් ලියාපදිංචිය හා සමාලෝචනය",
+          "වෙළඳ හා සේවා ගෙවීම්",
+          "ගාස්තු හා විනිමය අනුපාත",
+          "API ඒකාබද්ධ කිරීම හා පියවීම"
+        ]
+      },
+      "7": {
+        "items": [
+          "පැකේජ හා බිල්පත් විමසීම",
+          "සක්‍රීය කිරීම, අංක මාරුව හා නැවැත්වීම",
+          "USIM බෙදාහැරීම හා හුවමාරුව",
+          "දත්ත හා ඇමතුම් ගුණාත්මකභාවය"
+        ]
+      }
+    },
+    "category-card": {
+      "categories": {
+        "1": {
+          "name": "පෞද්ගලික මුදල් යැවීම",
+          "sub": "මුදල් යැවීම · විනිමය අනුපාතය · මුදල් ලබාගැනීම"
+        },
+        "2": {
+          "name": "ව්‍යාපාරික මුදල් යැවීම (Biz)",
+          "sub": "සමාගම් · වෙළඳ ගෙවීම් · B2B"
+        },
+        "3": {
+          "name": "ණය",
+          "sub": "සුදුසුකම් · සීමාව · ගෙවීම"
+        },
+        "4": {
+          "name": "හවුල්කාරිත්වය",
+          "sub": "හවුල්කාරිත්ව · ව්‍යාපාරික යෝජනා"
+        },
+        "5": {
+          "name": "රැකියා අවස්ථා",
+          "sub": "අයදුම්පත · බඳවාගැනීමේ ක්‍රියාවලිය"
+        },
+        "6": {
+          "name": "පාරිභෝගික ආරක්ෂාව",
+          "sub": "ආරවුල් · භාවිත සීමා · වාර්තා කිරීම"
+        },
+        "7": {
+          "name": "ජංගම සහ ටෙලිකොම් සේවා",
+          "sub": "පැකේජ · සක්‍රීය කිරීම · USIM"
+        }
+      }
+    },
+    "category-selector": {
+      "question": "ඔබේ විමසීම කුමක් පිළිබඳද?"
+    },
+    "chat": {
+      "action": "කතාබහ ආරම්භ කරන්න",
+      "description": "නියෝජිතයෙක් සජීවීව පිළිතුරු දෙයි. කාර්යාල වේලාවෙන් පිටත චැට්බොට් මඟපෙන්වා ආපසු ඇමතීමේ ඉල්ලීම භාරගනී.",
+      "items": [
+        "සතියේ දිනවල 09:00 - 18:00 · සජීවී නියෝජිත",
+        "වෙනත් වේලාවන් · චැට්බොට් හා ආපසු ඇමතුම",
+        "භාෂා 12ක සහාය (නේපාලි, වියට්නාම, තායි සහ තවත් භාෂා)"
+      ]
+    },
+    "external": {
+      "action": "විමසීම් පිටුවට යන්න",
+      "description": "මෙම වර්ගයේ විමසීම් {{site}} වෙබ් අඩවියේ භාරගනු ලැබේ."
+    },
+    "guide-panel": {
+      "common": {
+        "reset": "වෙනත් වර්ගයක් තෝරන්න"
+      }
+    },
+    "honeypot-field": {
+      "form": {
+        "honeypot": "ලිපිනය"
+      }
+    },
+    "inquiry-form": {
+      "categories": {
+        "4": {
+          "dept": "අදාළ අංශය"
+        },
+        "5": {
+          "dept": "මානව සම්පත් අංශය"
+        },
+        "6": {
+          "dept": "පාරිභෝගික ආරක්ෂණ අංශය"
+        }
+      },
+      "contentLabel": "පණිවිඩය",
+      "contentPlaceholder": "ඔබ වැඩි විස්තර ලබාදෙන තරමට, අපට වඩාත් නිවැරදිව පිළිතුරු ලබාදිය හැක.",
+      "emailLabel": "විද්‍යුත් තැපෑල",
+      "emailPlaceholder": "name@example.com",
+      "errors": {
+        "email": "විද්‍යුත් තැපැල් ලිපිනය පරීක්ෂා කරන්න.",
+        "failed": "විමසීම ඉදිරිපත් කිරීමට නොහැකි විය. මදකට පසු නැවත උත්සාහ කරන්න.",
+        "phone": "දුරකථන අංකය පරීක්ෂා කරන්න.",
+        "required": "අවශ්‍ය සියලු කොටස් පුරවන්න.",
+        "turnstile": "ආරක්ෂක පරීක්ෂාව සම්පූර්ණ කරන්න."
+      },
+      "nameLabel": "නම",
+      "namePlaceholder": "සමන් පෙරේරා",
+      "notice": "{{dept}} විසින් පරීක්ෂා කර පිළිතුරු දෙනු ඇත.",
+      "phoneLabel": "දුරකථන අංකය",
+      "phonePlaceholder": "010-0000-0000",
+      "submit": "විමසීම ඉදිරිපත් කරන්න",
+      "titleLabel": "මාතෘකාව",
+      "titlePlaceholder": "මාතෘකාව ඇතුළත් කරන්න"
+    },
+    "step-indicator": {
+      "steps": {
+        "connect": "2. සම්බන්ධ වන්න · ඉදිරිපත් කරන්න",
+        "select": "1. විමසීමේ වර්ගය තෝරන්න"
+      }
+    },
+    "submission-complete": {
+      "description": "අදාළ අංශය පරීක්ෂා කර ඔබ ලබා දුන් විද්‍යුත් තැපෑලට පිළිතුරු දෙනු ඇත.",
+      "reset": "මුලට යන්න"
+    }
+  },
+  "support-social-channels": {
+    "contact": "සම්බන්ධ වන්න",
+    "countries_count": "රට 38",
+    "countries": {
+      "african-region": "අප්‍රිකා ප්‍රදේශය",
+      "bangladesh": "බංග්ලාදේශය",
+      "cambodia": "කැම්බෝජය",
+      "china": "චීනය",
+      "india": "ඉන්දියාව",
+      "indonesia": "ඉන්දුනීසියාව",
+      "japan": "ජපානය",
+      "korea": "කොරියාව",
+      "mongolia": "මංගෝලියාව",
+      "myanmar": "මියන්මාරය",
+      "nepal": "නේපාලය",
+      "pakistan": "පාකිස්ථානය",
+      "philippines": "පිලිපීනය",
+      "srilanka": "ශ්‍රී ලංකාව",
+      "thailand": "තායිලන්තය",
+      "uzbekistan-cis": "උස්බෙකිස්තානය & CIS",
+      "vietnam": "වියට්නාමය",
+      "western": "බටහිර"
+    },
+    "description": "රට අනුව නිල නාලිකා හරහා GME සමඟ සම්බන්ධ වන්න",
+    "operating": "ක්‍රියාත්මක",
+    "title": "ගෝලීය සමාජ නාලිකා"
+  },
+  "support": {
+    "tabs": {
+      "branches": "ශාඛා",
+      "social_channels": "සමාජ නාලිකා"
+    },
+    "stats": {
+      "countries_label": "සේවා රටවල්",
+      "branches_label": "ශාඛා",
+      "branches_unit": "+",
+      "branches_value": "12",
+      "countries_unit": "+",
+      "countries_value": "38",
+      "services_label": "සේවා",
+      "services_unit": "+",
+      "services_value": "8"
+    }
+  }
+}

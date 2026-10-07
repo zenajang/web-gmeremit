@@ -1,0 +1,218 @@
+{
+  "support-branches": {
+    "address": "Хаяг",
+    "data": {
+      "1": {
+        "address": "315 Jongno, Jongno-gu, Seoul (Dongdaemun Station Exit 3)",
+        "hours": "Ажлын өдөр & амралтын өдөр 10:00 - 19:00",
+        "name": "Dongdaemun салбар"
+      },
+      "2": {
+        "address": "1F, 6 Damunhwa-gil, Danwon-gu, Ansan-si, Gyeonggi-do",
+        "hours": "Ажлын өдөр & амралтын өдөр 10:00 - 19:00",
+        "name": "Ansan салбар"
+      },
+      "3": {
+        "address": "1F, 134 Dorim-ro, Yeongdeungpo-gu, Seoul",
+        "hours": "Ажлын өдөр & амралтын өдөр 10:00 - 19:00",
+        "name": "Daerim салбар"
+      },
+      "4": {
+        "address": "2-10 Maesan-ro, Paldal-gu, Suwon-si, Gyeonggi-do",
+        "hours": "Ажлын өдөр & амралтын өдөр 10:00 - 19:00",
+        "name": "Suwon салбар"
+      },
+      "5": {
+        "address": "1F, 1109-3 3·1 Manse-ro, Hyangnam-eup, Hwaseong-si, Gyeonggi-do",
+        "hours": "Баасан - Мягмар 10:00 - 19:00",
+        "name": "Hwaseong салбар"
+      },
+      "6": {
+        "address": "91 Solmoru-ro, Soheul-eup, Pocheon-si, Gyeonggi-do (Next to NH Bank)",
+        "hours": "Бямба - Лхагва 10:00 - 19:00",
+        "name": "Songuri салбар"
+      },
+      "7": {
+        "address": "16 Gwangjang-ro, Bupyeong-gu, Incheon (Bupyeong Station Shopping Mall)",
+        "hours": "Бямба - Лхагва 10:00 - 19:00",
+        "name": "Bupyeong салбар"
+      },
+      "8": {
+        "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (Across from Top Mart)",
+        "hours": "Ажлын өдөр & амралтын өдөр 10:00 - 19:00",
+        "name": "Gimhae салбар"
+      },
+      "9": {
+        "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+        "hours": "Ажлын өдөр & амралтын өдөр 10:00 - 19:00",
+        "name": "Pyeongtaek салбар"
+      }
+    },
+    "hours": "Цаг",
+    "phone": "Утас"
+  },
+  "support-inquiry": {
+    "categories": {
+      "2": {
+        "items": [
+          "Байгууллагын бүртгэл ба хяналт",
+          "Худалдаа, үйлчилгээний төлбөр",
+          "Шимтгэл ба ханшийн нөхцөл",
+          "API холболт ба төлбөр тооцоо"
+        ]
+      },
+      "7": {
+        "items": [
+          "Үйлчилгээний багц ба төлбөр тооцоо",
+          "Идэвхжүүлэх, дугаар шилжүүлэх, цуцлах",
+          "USIM хүргэлт ба солих",
+          "Дата ба дуудлагын чанар"
+        ]
+      }
+    },
+    "category-card": {
+      "categories": {
+        "1": {
+          "name": "Хувь хүний мөнгөн гуйвуулга",
+          "sub": "Мөнгө илгээх · Ханш · Хүлээн авах"
+        },
+        "2": {
+          "name": "Байгууллагын гуйвуулга (Biz)",
+          "sub": "Байгууллага · Худалдааны төлбөр · B2B"
+        },
+        "3": {
+          "name": "Зээлийн үйлчилгээ",
+          "sub": "Тавигдах шаардлага · Лимит · Эргэн төлөлт"
+        },
+        "4": {
+          "name": "Хамтын ажиллагаа",
+          "sub": "Түншлэл · Бизнесийн санал"
+        },
+        "5": {
+          "name": "Ажлын байр · Ажилд авах",
+          "sub": "Ажилд орох хүсэлт · Сонгон шалгаруулалт"
+        },
+        "6": {
+          "name": "Хэрэглэгчийн эрх · Гомдол",
+          "sub": "Маргаан · Хязгаарлалт · Мэдэгдэл"
+        },
+        "7": {
+          "name": "Мобайл · Харилцаа холбоо",
+          "sub": "Багц · Идэвхжүүлэлт · USIM"
+        }
+      }
+    },
+    "category-selector": {
+      "question": "Та юуны талаар лавлах вэ?"
+    },
+    "chat": {
+      "action": "Чат эхлүүлэх",
+      "description": "Ажилтан танд шууд хариу өгнө. Ажлын бус цагаар чатбот таны мэдээллийг хүлээн авч, бид тантай эргэн холбогдоно.",
+      "items": [
+        "Ажлын өдрүүдэд 09:00 - 18:00 · Шууд ажилтантай холбогдох",
+        "Бусад цагт · Чатбот ба эргэн холбогдох үйлчилгээ",
+        "12 хэлээр үйлчилгээ үзүүлнэ (Непал, Вьетнам, Тайланд зэрэг)"
+      ]
+    },
+    "external": {
+      "action": "Лавлах хуудас руу очих",
+      "description": "Энэ төрлийн хүсэлтийг {{site}} вэб сайт дээр хүлээн авна."
+    },
+    "guide-panel": {
+      "common": {
+        "reset": "Өөр төрөл сонгох"
+      }
+    },
+    "honeypot-field": {
+      "form": {
+        "honeypot": "Хаяг"
+      }
+    },
+    "inquiry-form": {
+      "categories": {
+        "4": {
+          "dept": "Хариуцсан баг"
+        },
+        "5": {
+          "dept": "Хүний нөөцийн хэлтэс"
+        },
+        "6": {
+          "dept": "Хэрэглэгчийн эрхийг хамгаалах хэлтэс"
+        }
+      },
+      "contentLabel": "Агуулга",
+      "contentPlaceholder": "Дэлгэрэнгүй бичих тусам илүү оновчтой хариулна.",
+      "emailLabel": "И-мэйл",
+      "emailPlaceholder": "name@example.com",
+      "errors": {
+        "email": "И-мэйл хаягаа шалгана уу.",
+        "failed": "Хүсэлт илгээж чадсангүй. Хэсэг хугацааны дараа дахин оролдоно уу.",
+        "phone": "Утасны дугаараа шалгана уу.",
+        "required": "Шаардлагатай бүх талбарыг бөглөнө үү.",
+        "turnstile": "Аюулгүй байдлын шалгалтыг дуусгана уу."
+      },
+      "nameLabel": "Нэр",
+      "namePlaceholder": "Батбаяр",
+      "notice": "{{dept}} шалгаад хариу өгнө.",
+      "phoneLabel": "Утасны дугаар",
+      "phonePlaceholder": "010-0000-0000",
+      "submit": "Хүсэлт илгээх",
+      "titleLabel": "Гарчиг",
+      "titlePlaceholder": "Гарчиг оруулна уу"
+    },
+    "step-indicator": {
+      "steps": {
+        "connect": "2. Холбогдох · Хүлээн авах",
+        "select": "1. Төрөл сонгох"
+      }
+    },
+    "submission-complete": {
+      "description": "Холбогдох хэлтэс шалгаад таны оруулсан и-мэйл рүү хариу илгээнэ.",
+      "reset": "Эхлэл рүү буцах"
+    }
+  },
+  "support-social-channels": {
+    "contact": "Холбоо барих",
+    "countries_count": "38 улс",
+    "countries": {
+      "african-region": "Африкийн бүс",
+      "bangladesh": "Бангладеш",
+      "cambodia": "Камбож",
+      "china": "Хятад",
+      "india": "Энэтхэг",
+      "indonesia": "Индонез",
+      "japan": "Япон",
+      "korea": "Солонгос",
+      "mongolia": "Монгол",
+      "myanmar": "Мьянмар",
+      "nepal": "Непал",
+      "pakistan": "Пакистан",
+      "philippines": "Филиппин",
+      "srilanka": "Шри Ланка",
+      "thailand": "Тайланд",
+      "uzbekistan-cis": "Узбекистан & CIS",
+      "vietnam": "Вьетнам",
+      "western": "Баруун"
+    },
+    "description": "Улс тус бүрийн албан ёсны сувгаар GME-тай холбогдоорой",
+    "operating": "Ажиллаж байна",
+    "title": "Дэлхийн сошиал сувгууд"
+  },
+  "support": {
+    "tabs": {
+      "branches": "Салбарууд",
+      "social_channels": "Сошиал сувгууд"
+    },
+    "stats": {
+      "countries_label": "Үйлчилгээний улс",
+      "branches_label": "Салбар",
+      "branches_unit": "+",
+      "branches_value": "12",
+      "countries_unit": "+",
+      "countries_value": "38",
+      "services_label": "Үйлчилгээ",
+      "services_unit": "+",
+      "services_value": "8"
+    }
+  }
+}

@@ -1,0 +1,2707 @@
+{
+  "country": {
+    "bangladesh": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "Unduh Aplikasi GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator GME Remit",
+        "exchangeRateLabel": "Nilai Tukar",
+        "receiverGetsLabel": "Jumlah yang Diterima",
+        "recipientCountryLabel": "Negara Penerima",
+        "recipientCountryOption": "Bangladesh",
+        "sendAmountLabel": "Jumlah Kiriman",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Kirim Uang Sekarang",
+        "transferFeeLabel": "Biaya Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "BDT",
+        "sampleTag": "Contoh nilai"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Hak cipta dilindungi.",
+        "logoText": "GME",
+        "tagline": "Layanan keuangan untuk Bangladeshis di Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Unduh Aplikasi",
+        "navItems": {
+          "company": "Perusahaan",
+          "countries": "Negara",
+          "news": "Berita",
+          "services": "Layanan",
+          "support": "Dukungan"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Kirim Uang Sekarang",
+        "ctaSecondaryLabel": "Mulai",
+        "eyebrow": "GME Bangladesh",
+        "headingLines": [
+          "Kirim uang ke keluarga.",
+          "Tetap terhubung.",
+          "Bertransaksi dengan mudah."
+        ],
+        "subheading": "Layanan tepercaya untuk Bangladeshis yang tinggal di Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Pertanyaan Umum tentang GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Transfer GME Remit biasanya selesai dalam waktu sekitar 10 detik, meskipun waktu transfer sebenarnya dapat bervariasi tergantung negara penerima, bank, atau metode pembayaran."
+              ],
+              "question": "Berapa lama waktu yang dibutuhkan untuk mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Ya. GME Remit adalah layanan pengiriman uang berlisensi di Korea dan diawasi oleh otoritas keuangan Korea yang berwenang. Kami menggunakan proses verifikasi pelanggan dan transaksi yang aman untuk melindungi pelanggan kami."
+              ],
+              "question": "Apakah GME Remit aman digunakan?"
+            },
+            {
+              "answer": [
+                "Unduh aplikasi GME Remit, buat akun Anda, dan selesaikan verifikasi identitas yang diperlukan. Setelah pendaftaran dan verifikasi selesai, Anda dapat mulai menggunakan layanan GME Remit."
+              ],
+              "question": "Bagaimana cara mendaftar akun GME Remit?"
+            },
+            {
+              "answer": [
+                "GME Remit mendukung transfer uang internasional ke banyak negara di seluruh dunia. Tujuan dan opsi pembayaran yang tersedia dapat diperiksa langsung di aplikasi GME Remit."
+              ],
+              "question": "Ke negara mana saja saya dapat mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Tim dukungan pelanggan kami tersedia pukul 10.00–23.00, Senin hingga Minggu. Anda dapat menghubungi kami melalui {SUPPORT_PHONE_NUMBER}, aplikasi GME Remit, kanal media sosial resmi GME, atau mengunjungi cabang GME Remit di Korea untuk bantuan langsung."
+              ],
+              "question": "Apa yang harus saya lakukan jika ada masalah dengan transfer saya?"
+            }
+          ],
+          "subheading": "Temukan jawaban atas pertanyaan umum tentang pengiriman uang dengan GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Terhubung dengan GME Bangladesh",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Berita, tips bermanfaat, dan informasi terbaru untuk komunitas kami"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Lihat GME Card",
+          "description": "Pembayaran mudah untuk kebutuhan sehari-hari di Korea maupun di luar negeri.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Bayar di seluruh dunia",
+            "Belanja",
+            "Transportasi",
+            "Cashback",
+            "Manfaat EasyCare"
+          ],
+          "heading": "Satu Kartu untuk Segalanya"
+        },
+        "exchangeRate": {
+          "description": "Lihat nilai tukar GME Remit terbaru sebelum mengirim uang dari Korea ke Bangladesh",
+          "eyebrow": "Nilai Tukar",
+          "heading": "Cek Nilai Tukar Hari Ini",
+          "note": "Nilai tukar dapat berubah sepanjang hari"
+        },
+        "loan": {
+          "ctaLabel": "Ajukan Sekarang",
+          "description": "Nikmati layanan pinjaman digital untuk warga asing. Ajukan dengan mudah melalui aplikasi GME—pengalaman pinjaman digital sederhana bagi warga asing yang tinggal di Korea.",
+          "eyebrow": "GME Loan",
+          "features": [
+            "Pengajuan pinjaman tanpa kertas",
+            "Cek status pinjaman secara real-time",
+            "Cek saldo pinjaman secara real-time"
+          ],
+          "heading": "Mitra Keuangan Digital Anda"
+        },
+        "remittance": {
+          "ctaLabel": "Kirim Uang Sekarang",
+          "description": "Cara yang mudah dan aman untuk mendukung keluarga dan orang-orang terkasih di Bangladesh dari Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Nilai tukar kompetitif",
+            "Transfer cepat dan andal",
+            "Biaya transparan",
+            "Dukungan saat Anda membutuhkannya"
+          ],
+          "heading": "Kirim Uang ke Bangladesh"
+        },
+        "simCard": {
+          "ctaLabel": "Lihat Paket SIM",
+          "description": "Tetap dekat dengan hal-hal yang penting melalui paket seluler yang dirancang untuk mempermudah kehidupan di Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Koneksi andal",
+            "Paket SIM fleksibel",
+            "Pengaturan mudah",
+            "Dukungan lokal yang ramah"
+          ],
+          "heading": "Tetap Terhubung di Korea"
+        }
+      }
+    },
+    "cambodia": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "Unduh Aplikasi GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator GME Remit",
+        "exchangeRateLabel": "Nilai Tukar",
+        "receiverGetsLabel": "Jumlah yang Diterima",
+        "recipientCountryLabel": "Negara Penerima",
+        "recipientCountryOption": "Cambodia",
+        "sendAmountLabel": "Jumlah Kiriman",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Kirim Uang Sekarang",
+        "transferFeeLabel": "Biaya Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "KHR",
+        "sampleTag": "Contoh nilai"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Hak cipta dilindungi.",
+        "logoText": "GME",
+        "tagline": "Layanan keuangan untuk Cambodians di Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Unduh Aplikasi",
+        "navItems": {
+          "company": "Perusahaan",
+          "countries": "Negara",
+          "news": "Berita",
+          "services": "Layanan",
+          "support": "Dukungan"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Kirim Uang Sekarang",
+        "ctaSecondaryLabel": "Mulai",
+        "eyebrow": "GME Cambodia",
+        "headingLines": [
+          "Kirim uang ke keluarga.",
+          "Tetap terhubung.",
+          "Bertransaksi dengan mudah."
+        ],
+        "subheading": "Layanan tepercaya untuk Cambodians yang tinggal di Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Pertanyaan Umum tentang GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Transfer GME Remit biasanya selesai dalam waktu sekitar 10 detik, meskipun waktu transfer sebenarnya dapat bervariasi tergantung negara penerima, bank, atau metode pembayaran."
+              ],
+              "question": "Berapa lama waktu yang dibutuhkan untuk mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Ya. GME Remit adalah layanan pengiriman uang berlisensi di Korea dan diawasi oleh otoritas keuangan Korea yang berwenang. Kami menggunakan proses verifikasi pelanggan dan transaksi yang aman untuk melindungi pelanggan kami."
+              ],
+              "question": "Apakah GME Remit aman digunakan?"
+            },
+            {
+              "answer": [
+                "Unduh aplikasi GME Remit, buat akun Anda, dan selesaikan verifikasi identitas yang diperlukan. Setelah pendaftaran dan verifikasi selesai, Anda dapat mulai menggunakan layanan GME Remit."
+              ],
+              "question": "Bagaimana cara mendaftar akun GME Remit?"
+            },
+            {
+              "answer": [
+                "GME Remit mendukung transfer uang internasional ke banyak negara di seluruh dunia. Tujuan dan opsi pembayaran yang tersedia dapat diperiksa langsung di aplikasi GME Remit."
+              ],
+              "question": "Ke negara mana saja saya dapat mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Tim dukungan pelanggan kami tersedia pukul 10.00–23.00, Senin hingga Minggu. Anda dapat menghubungi kami melalui {SUPPORT_PHONE_NUMBER}, aplikasi GME Remit, kanal media sosial resmi GME, atau mengunjungi cabang GME Remit di Korea untuk bantuan langsung."
+              ],
+              "question": "Apa yang harus saya lakukan jika ada masalah dengan transfer saya?"
+            }
+          ],
+          "subheading": "Temukan jawaban atas pertanyaan umum tentang pengiriman uang dengan GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Terhubung dengan GME Cambodia",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Berita, tips bermanfaat, dan informasi terbaru untuk komunitas kami"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Lihat GME Card",
+          "description": "Pembayaran mudah untuk kebutuhan sehari-hari di Korea maupun di luar negeri.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Bayar di seluruh dunia",
+            "Belanja",
+            "Transportasi",
+            "Cashback",
+            "Manfaat EasyCare"
+          ],
+          "heading": "Satu Kartu untuk Segalanya"
+        },
+        "exchangeRate": {
+          "description": "Lihat nilai tukar GME Remit terbaru sebelum mengirim uang dari Korea ke Cambodia",
+          "eyebrow": "Nilai Tukar",
+          "heading": "Cek Nilai Tukar Hari Ini",
+          "note": "Nilai tukar dapat berubah sepanjang hari"
+        },
+        "loan": {
+          "ctaLabel": "Ajukan Sekarang",
+          "description": "Nikmati layanan pinjaman digital untuk warga asing. Ajukan dengan mudah melalui aplikasi GME—pengalaman pinjaman digital sederhana bagi warga asing yang tinggal di Korea.",
+          "eyebrow": "GME Loan",
+          "features": [
+            "Pengajuan pinjaman tanpa kertas",
+            "Cek status pinjaman secara real-time",
+            "Cek saldo pinjaman secara real-time"
+          ],
+          "heading": "Mitra Keuangan Digital Anda"
+        },
+        "remittance": {
+          "ctaLabel": "Kirim Uang Sekarang",
+          "description": "Cara yang mudah dan aman untuk mendukung keluarga dan orang-orang terkasih di Cambodia dari Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Nilai tukar kompetitif",
+            "Transfer cepat dan andal",
+            "Biaya transparan",
+            "Dukungan saat Anda membutuhkannya"
+          ],
+          "heading": "Kirim Uang ke Cambodia"
+        },
+        "simCard": {
+          "ctaLabel": "Lihat Paket SIM",
+          "description": "Tetap dekat dengan hal-hal yang penting melalui paket seluler yang dirancang untuk mempermudah kehidupan di Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Koneksi andal",
+            "Paket SIM fleksibel",
+            "Pengaturan mudah",
+            "Dukungan lokal yang ramah"
+          ],
+          "heading": "Tetap Terhubung di Korea"
+        }
+      }
+    },
+    "china": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "Unduh Aplikasi GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator GME Remit",
+        "exchangeRateLabel": "Nilai Tukar",
+        "receiverGetsLabel": "Jumlah yang Diterima",
+        "recipientCountryLabel": "Negara Penerima",
+        "recipientCountryOption": "China",
+        "sendAmountLabel": "Jumlah Kiriman",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Kirim Uang Sekarang",
+        "transferFeeLabel": "Biaya Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "CNY",
+        "sampleTag": "Contoh nilai"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Hak cipta dilindungi.",
+        "logoText": "GME",
+        "tagline": "Layanan keuangan untuk Chinese nationals di Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Unduh Aplikasi",
+        "navItems": {
+          "company": "Perusahaan",
+          "countries": "Negara",
+          "news": "Berita",
+          "services": "Layanan",
+          "support": "Dukungan"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Kirim Uang Sekarang",
+        "ctaSecondaryLabel": "Mulai",
+        "eyebrow": "GME China",
+        "headingLines": [
+          "Kirim uang ke keluarga.",
+          "Tetap terhubung.",
+          "Bertransaksi dengan mudah."
+        ],
+        "subheading": "Layanan tepercaya untuk Chinese nationals yang tinggal di Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Pertanyaan Umum tentang GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Transfer GME Remit biasanya selesai dalam waktu sekitar 10 detik, meskipun waktu transfer sebenarnya dapat bervariasi tergantung negara penerima, bank, atau metode pembayaran."
+              ],
+              "question": "Berapa lama waktu yang dibutuhkan untuk mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Ya. GME Remit adalah layanan pengiriman uang berlisensi di Korea dan diawasi oleh otoritas keuangan Korea yang berwenang. Kami menggunakan proses verifikasi pelanggan dan transaksi yang aman untuk melindungi pelanggan kami."
+              ],
+              "question": "Apakah GME Remit aman digunakan?"
+            },
+            {
+              "answer": [
+                "Unduh aplikasi GME Remit, buat akun Anda, dan selesaikan verifikasi identitas yang diperlukan. Setelah pendaftaran dan verifikasi selesai, Anda dapat mulai menggunakan layanan GME Remit."
+              ],
+              "question": "Bagaimana cara mendaftar akun GME Remit?"
+            },
+            {
+              "answer": [
+                "GME Remit mendukung transfer uang internasional ke banyak negara di seluruh dunia. Tujuan dan opsi pembayaran yang tersedia dapat diperiksa langsung di aplikasi GME Remit."
+              ],
+              "question": "Ke negara mana saja saya dapat mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Tim dukungan pelanggan kami tersedia pukul 10.00–23.00, Senin hingga Minggu. Anda dapat menghubungi kami melalui {SUPPORT_PHONE_NUMBER}, aplikasi GME Remit, kanal media sosial resmi GME, atau mengunjungi cabang GME Remit di Korea untuk bantuan langsung."
+              ],
+              "question": "Apa yang harus saya lakukan jika ada masalah dengan transfer saya?"
+            }
+          ],
+          "subheading": "Temukan jawaban atas pertanyaan umum tentang pengiriman uang dengan GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Terhubung dengan GME China",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Berita, tips bermanfaat, dan informasi terbaru untuk komunitas kami"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Lihat GME Card",
+          "description": "Pembayaran mudah untuk kebutuhan sehari-hari di Korea maupun di luar negeri.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Bayar di seluruh dunia",
+            "Belanja",
+            "Transportasi",
+            "Cashback",
+            "Manfaat EasyCare"
+          ],
+          "heading": "Satu Kartu untuk Segalanya"
+        },
+        "exchangeRate": {
+          "description": "Lihat nilai tukar GME Remit terbaru sebelum mengirim uang dari Korea ke China",
+          "eyebrow": "Nilai Tukar",
+          "heading": "Cek Nilai Tukar Hari Ini",
+          "note": "Nilai tukar dapat berubah sepanjang hari"
+        },
+        "loan": {
+          "ctaLabel": "Ajukan Sekarang",
+          "description": "Nikmati layanan pinjaman digital untuk warga asing. Ajukan dengan mudah melalui aplikasi GME—pengalaman pinjaman digital sederhana bagi warga asing yang tinggal di Korea.",
+          "eyebrow": "GME Loan",
+          "features": [
+            "Pengajuan pinjaman tanpa kertas",
+            "Cek status pinjaman secara real-time",
+            "Cek saldo pinjaman secara real-time"
+          ],
+          "heading": "Mitra Keuangan Digital Anda"
+        },
+        "remittance": {
+          "ctaLabel": "Kirim Uang Sekarang",
+          "description": "Cara yang mudah dan aman untuk mendukung keluarga dan orang-orang terkasih di China dari Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Nilai tukar kompetitif",
+            "Transfer cepat dan andal",
+            "Biaya transparan",
+            "Dukungan saat Anda membutuhkannya"
+          ],
+          "heading": "Kirim Uang ke China"
+        },
+        "simCard": {
+          "ctaLabel": "Lihat Paket SIM",
+          "description": "Tetap dekat dengan hal-hal yang penting melalui paket seluler yang dirancang untuk mempermudah kehidupan di Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Koneksi andal",
+            "Paket SIM fleksibel",
+            "Pengaturan mudah",
+            "Dukungan lokal yang ramah"
+          ],
+          "heading": "Tetap Terhubung di Korea"
+        }
+      }
+    },
+    "india": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "Unduh Aplikasi GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator GME Remit",
+        "exchangeRateLabel": "Nilai Tukar",
+        "receiverGetsLabel": "Jumlah yang Diterima",
+        "recipientCountryLabel": "Negara Penerima",
+        "recipientCountryOption": "India",
+        "sendAmountLabel": "Jumlah Kiriman",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Kirim Uang Sekarang",
+        "transferFeeLabel": "Biaya Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "INR",
+        "sampleTag": "Contoh nilai"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Hak cipta dilindungi.",
+        "logoText": "GME",
+        "tagline": "Layanan keuangan untuk Indians di Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Unduh Aplikasi",
+        "navItems": {
+          "company": "Perusahaan",
+          "countries": "Negara",
+          "news": "Berita",
+          "services": "Layanan",
+          "support": "Dukungan"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Kirim Uang Sekarang",
+        "ctaSecondaryLabel": "Mulai",
+        "eyebrow": "GME India",
+        "headingLines": [
+          "Kirim uang ke keluarga.",
+          "Tetap terhubung.",
+          "Bertransaksi dengan mudah."
+        ],
+        "subheading": "Layanan tepercaya untuk Indians yang tinggal di Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Pertanyaan Umum tentang GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Transfer GME Remit biasanya selesai dalam waktu sekitar 10 detik, meskipun waktu transfer sebenarnya dapat bervariasi tergantung negara penerima, bank, atau metode pembayaran."
+              ],
+              "question": "Berapa lama waktu yang dibutuhkan untuk mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Ya. GME Remit adalah layanan pengiriman uang berlisensi di Korea dan diawasi oleh otoritas keuangan Korea yang berwenang. Kami menggunakan proses verifikasi pelanggan dan transaksi yang aman untuk melindungi pelanggan kami."
+              ],
+              "question": "Apakah GME Remit aman digunakan?"
+            },
+            {
+              "answer": [
+                "Unduh aplikasi GME Remit, buat akun Anda, dan selesaikan verifikasi identitas yang diperlukan. Setelah pendaftaran dan verifikasi selesai, Anda dapat mulai menggunakan layanan GME Remit."
+              ],
+              "question": "Bagaimana cara mendaftar akun GME Remit?"
+            },
+            {
+              "answer": [
+                "GME Remit mendukung transfer uang internasional ke banyak negara di seluruh dunia. Tujuan dan opsi pembayaran yang tersedia dapat diperiksa langsung di aplikasi GME Remit."
+              ],
+              "question": "Ke negara mana saja saya dapat mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Tim dukungan pelanggan kami tersedia pukul 10.00–23.00, Senin hingga Minggu. Anda dapat menghubungi kami melalui {SUPPORT_PHONE_NUMBER}, aplikasi GME Remit, kanal media sosial resmi GME, atau mengunjungi cabang GME Remit di Korea untuk bantuan langsung."
+              ],
+              "question": "Apa yang harus saya lakukan jika ada masalah dengan transfer saya?"
+            }
+          ],
+          "subheading": "Temukan jawaban atas pertanyaan umum tentang pengiriman uang dengan GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Terhubung dengan GME India",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Berita, tips bermanfaat, dan informasi terbaru untuk komunitas kami"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Lihat GME Card",
+          "description": "Pembayaran mudah untuk kebutuhan sehari-hari di Korea maupun di luar negeri.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Bayar di seluruh dunia",
+            "Belanja",
+            "Transportasi",
+            "Cashback",
+            "Manfaat EasyCare"
+          ],
+          "heading": "Satu Kartu untuk Segalanya"
+        },
+        "exchangeRate": {
+          "description": "Lihat nilai tukar GME Remit terbaru sebelum mengirim uang dari Korea ke India",
+          "eyebrow": "Nilai Tukar",
+          "heading": "Cek Nilai Tukar Hari Ini",
+          "note": "Nilai tukar dapat berubah sepanjang hari"
+        },
+        "loan": {
+          "ctaLabel": "Ajukan Sekarang",
+          "description": "Nikmati layanan pinjaman digital untuk warga asing. Ajukan dengan mudah melalui aplikasi GME—pengalaman pinjaman digital sederhana bagi warga asing yang tinggal di Korea.",
+          "eyebrow": "GME Loan",
+          "features": [
+            "Pengajuan pinjaman tanpa kertas",
+            "Cek status pinjaman secara real-time",
+            "Cek saldo pinjaman secara real-time"
+          ],
+          "heading": "Mitra Keuangan Digital Anda"
+        },
+        "remittance": {
+          "ctaLabel": "Kirim Uang Sekarang",
+          "description": "Cara yang mudah dan aman untuk mendukung keluarga dan orang-orang terkasih di India dari Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Nilai tukar kompetitif",
+            "Transfer cepat dan andal",
+            "Biaya transparan",
+            "Dukungan saat Anda membutuhkannya"
+          ],
+          "heading": "Kirim Uang ke India"
+        },
+        "simCard": {
+          "ctaLabel": "Lihat Paket SIM",
+          "description": "Tetap dekat dengan hal-hal yang penting melalui paket seluler yang dirancang untuk mempermudah kehidupan di Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Koneksi andal",
+            "Paket SIM fleksibel",
+            "Pengaturan mudah",
+            "Dukungan lokal yang ramah"
+          ],
+          "heading": "Tetap Terhubung di Korea"
+        }
+      }
+    },
+    "indonesia": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "Unduh Aplikasi GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator GME Remit",
+        "exchangeRateLabel": "Nilai Tukar",
+        "receiverGetsLabel": "Jumlah yang Diterima",
+        "recipientCountryLabel": "Negara Penerima",
+        "recipientCountryOption": "Indonesia",
+        "sendAmountLabel": "Jumlah Kiriman",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Kirim Uang Sekarang",
+        "transferFeeLabel": "Biaya Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "IDR",
+        "sampleTag": "Contoh nilai"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Hak cipta dilindungi.",
+        "logoText": "GME",
+        "tagline": "Layanan keuangan untuk warga Indonesia di Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Unduh Aplikasi",
+        "navItems": {
+          "company": "Perusahaan",
+          "countries": "Negara",
+          "news": "Berita",
+          "services": "Layanan",
+          "support": "Dukungan"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Kirim Uang Sekarang",
+        "ctaSecondaryLabel": "Mulai",
+        "eyebrow": "GME Indonesia",
+        "headingLines": [
+          "Kirim uang ke keluarga.",
+          "Tetap terhubung.",
+          "Bertransaksi dengan mudah."
+        ],
+        "subheading": "Layanan tepercaya untuk warga Indonesia yang tinggal di Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Pertanyaan Umum tentang GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Transfer GME Remit biasanya selesai dalam waktu sekitar 10 detik, meskipun waktu transfer sebenarnya dapat bervariasi tergantung negara penerima, bank, atau metode pembayaran."
+              ],
+              "question": "Berapa lama waktu yang dibutuhkan untuk mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Ya. GME Remit adalah layanan pengiriman uang berlisensi di Korea dan diawasi oleh otoritas keuangan Korea yang berwenang. Kami menggunakan proses verifikasi pelanggan dan transaksi yang aman untuk melindungi pelanggan kami."
+              ],
+              "question": "Apakah GME Remit aman digunakan?"
+            },
+            {
+              "answer": [
+                "Unduh aplikasi GME Remit, buat akun Anda, dan selesaikan verifikasi identitas yang diperlukan. Setelah pendaftaran dan verifikasi selesai, Anda dapat mulai menggunakan layanan GME Remit."
+              ],
+              "question": "Bagaimana cara mendaftar akun GME Remit?"
+            },
+            {
+              "answer": [
+                "GME Remit mendukung transfer uang internasional ke banyak negara di seluruh dunia. Tujuan dan opsi pembayaran yang tersedia dapat diperiksa langsung di aplikasi GME Remit."
+              ],
+              "question": "Ke negara mana saja saya dapat mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Tim dukungan pelanggan kami tersedia pukul 10.00–23.00, Senin hingga Minggu. Anda dapat menghubungi kami melalui {SUPPORT_PHONE_NUMBER}, aplikasi GME Remit, kanal media sosial resmi GME, atau mengunjungi cabang GME Remit di Korea untuk bantuan langsung."
+              ],
+              "question": "Apa yang harus saya lakukan jika ada masalah dengan transfer saya?"
+            }
+          ],
+          "subheading": "Temukan jawaban atas pertanyaan umum tentang pengiriman uang dengan GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Terhubung dengan GME Indonesia",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Berita, tips bermanfaat, dan informasi terbaru untuk komunitas kami"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Lihat GME Card",
+          "description": "Pembayaran mudah untuk kebutuhan sehari-hari di Korea maupun di luar negeri.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Bayar di seluruh dunia",
+            "Belanja",
+            "Transportasi",
+            "Cashback",
+            "Manfaat EasyCare"
+          ],
+          "heading": "Satu Kartu untuk Segalanya"
+        },
+        "exchangeRate": {
+          "description": "Lihat nilai tukar GME Remit terbaru sebelum mengirim uang dari Korea ke Indonesia",
+          "eyebrow": "Nilai Tukar",
+          "heading": "Cek Nilai Tukar Hari Ini",
+          "note": "Nilai tukar dapat berubah sepanjang hari"
+        },
+        "loan": {
+          "ctaLabel": "Ajukan Sekarang",
+          "description": "Nikmati layanan pinjaman digital untuk warga asing. Ajukan dengan mudah melalui aplikasi GME—pengalaman pinjaman digital sederhana bagi warga asing yang tinggal di Korea.",
+          "eyebrow": "GME Loan",
+          "features": [
+            "Pengajuan pinjaman tanpa kertas",
+            "Cek status pinjaman secara real-time",
+            "Cek saldo pinjaman secara real-time"
+          ],
+          "heading": "Mitra Keuangan Digital Anda"
+        },
+        "remittance": {
+          "ctaLabel": "Kirim Uang Sekarang",
+          "description": "Cara yang mudah dan aman untuk mendukung keluarga dan orang-orang terkasih di Indonesia dari Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Nilai tukar kompetitif",
+            "Transfer cepat dan andal",
+            "Biaya transparan",
+            "Dukungan saat Anda membutuhkannya"
+          ],
+          "heading": "Kirim Uang ke Indonesia"
+        },
+        "simCard": {
+          "ctaLabel": "Lihat Paket SIM",
+          "description": "Tetap dekat dengan hal-hal yang penting melalui paket seluler yang dirancang untuk mempermudah kehidupan di Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Koneksi andal",
+            "Paket SIM fleksibel",
+            "Pengaturan mudah",
+            "Dukungan lokal yang ramah"
+          ],
+          "heading": "Tetap Terhubung di Korea"
+        }
+      }
+    },
+    "kazakhstan": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "Unduh Aplikasi GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator GME Remit",
+        "exchangeRateLabel": "Nilai Tukar",
+        "receiverGetsLabel": "Jumlah yang Diterima",
+        "recipientCountryLabel": "Negara Penerima",
+        "recipientCountryOption": "Kazakhstan",
+        "sendAmountLabel": "Jumlah Kiriman",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Kirim Uang Sekarang",
+        "transferFeeLabel": "Biaya Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "KZT",
+        "sampleTag": "Contoh nilai"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Hak cipta dilindungi.",
+        "logoText": "GME",
+        "tagline": "Layanan keuangan untuk Kazakhstanis di Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Unduh Aplikasi",
+        "navItems": {
+          "company": "Perusahaan",
+          "countries": "Negara",
+          "news": "Berita",
+          "services": "Layanan",
+          "support": "Dukungan"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Kirim Uang Sekarang",
+        "ctaSecondaryLabel": "Mulai",
+        "eyebrow": "GME Kazakhstan",
+        "headingLines": [
+          "Kirim uang ke keluarga.",
+          "Tetap terhubung.",
+          "Bertransaksi dengan mudah."
+        ],
+        "subheading": "Layanan tepercaya untuk Kazakhstanis yang tinggal di Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Pertanyaan Umum tentang GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Transfer GME Remit biasanya selesai dalam waktu sekitar 10 detik, meskipun waktu transfer sebenarnya dapat bervariasi tergantung negara penerima, bank, atau metode pembayaran."
+              ],
+              "question": "Berapa lama waktu yang dibutuhkan untuk mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Ya. GME Remit adalah layanan pengiriman uang berlisensi di Korea dan diawasi oleh otoritas keuangan Korea yang berwenang. Kami menggunakan proses verifikasi pelanggan dan transaksi yang aman untuk melindungi pelanggan kami."
+              ],
+              "question": "Apakah GME Remit aman digunakan?"
+            },
+            {
+              "answer": [
+                "Unduh aplikasi GME Remit, buat akun Anda, dan selesaikan verifikasi identitas yang diperlukan. Setelah pendaftaran dan verifikasi selesai, Anda dapat mulai menggunakan layanan GME Remit."
+              ],
+              "question": "Bagaimana cara mendaftar akun GME Remit?"
+            },
+            {
+              "answer": [
+                "GME Remit mendukung transfer uang internasional ke banyak negara di seluruh dunia. Tujuan dan opsi pembayaran yang tersedia dapat diperiksa langsung di aplikasi GME Remit."
+              ],
+              "question": "Ke negara mana saja saya dapat mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Tim dukungan pelanggan kami tersedia pukul 10.00–23.00, Senin hingga Minggu. Anda dapat menghubungi kami melalui {SUPPORT_PHONE_NUMBER}, aplikasi GME Remit, kanal media sosial resmi GME, atau mengunjungi cabang GME Remit di Korea untuk bantuan langsung."
+              ],
+              "question": "Apa yang harus saya lakukan jika ada masalah dengan transfer saya?"
+            }
+          ],
+          "subheading": "Temukan jawaban atas pertanyaan umum tentang pengiriman uang dengan GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Terhubung dengan GME Kazakhstan",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Berita, tips bermanfaat, dan informasi terbaru untuk komunitas kami"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Lihat GME Card",
+          "description": "Pembayaran mudah untuk kebutuhan sehari-hari di Korea maupun di luar negeri.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Bayar di seluruh dunia",
+            "Belanja",
+            "Transportasi",
+            "Cashback",
+            "Manfaat EasyCare"
+          ],
+          "heading": "Satu Kartu untuk Segalanya"
+        },
+        "exchangeRate": {
+          "description": "Lihat nilai tukar GME Remit terbaru sebelum mengirim uang dari Korea ke Kazakhstan",
+          "eyebrow": "Nilai Tukar",
+          "heading": "Cek Nilai Tukar Hari Ini",
+          "note": "Nilai tukar dapat berubah sepanjang hari"
+        },
+        "loan": {
+          "ctaLabel": "Ajukan Sekarang",
+          "description": "Nikmati layanan pinjaman digital untuk warga asing. Ajukan dengan mudah melalui aplikasi GME—pengalaman pinjaman digital sederhana bagi warga asing yang tinggal di Korea.",
+          "eyebrow": "GME Loan",
+          "features": [
+            "Pengajuan pinjaman tanpa kertas",
+            "Cek status pinjaman secara real-time",
+            "Cek saldo pinjaman secara real-time"
+          ],
+          "heading": "Mitra Keuangan Digital Anda"
+        },
+        "remittance": {
+          "ctaLabel": "Kirim Uang Sekarang",
+          "description": "Cara yang mudah dan aman untuk mendukung keluarga dan orang-orang terkasih di Kazakhstan dari Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Nilai tukar kompetitif",
+            "Transfer cepat dan andal",
+            "Biaya transparan",
+            "Dukungan saat Anda membutuhkannya"
+          ],
+          "heading": "Kirim Uang ke Kazakhstan"
+        },
+        "simCard": {
+          "ctaLabel": "Lihat Paket SIM",
+          "description": "Tetap dekat dengan hal-hal yang penting melalui paket seluler yang dirancang untuk mempermudah kehidupan di Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Koneksi andal",
+            "Paket SIM fleksibel",
+            "Pengaturan mudah",
+            "Dukungan lokal yang ramah"
+          ],
+          "heading": "Tetap Terhubung di Korea"
+        }
+      }
+    },
+    "kyrgyzstan": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "Unduh Aplikasi GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator GME Remit",
+        "exchangeRateLabel": "Nilai Tukar",
+        "receiverGetsLabel": "Jumlah yang Diterima",
+        "recipientCountryLabel": "Negara Penerima",
+        "recipientCountryOption": "Kyrgyzstan",
+        "sendAmountLabel": "Jumlah Kiriman",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Kirim Uang Sekarang",
+        "transferFeeLabel": "Biaya Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "KGS",
+        "sampleTag": "Contoh nilai"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Hak cipta dilindungi.",
+        "logoText": "GME",
+        "tagline": "Layanan keuangan untuk Kyrgyzstanis di Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Unduh Aplikasi",
+        "navItems": {
+          "company": "Perusahaan",
+          "countries": "Negara",
+          "news": "Berita",
+          "services": "Layanan",
+          "support": "Dukungan"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Kirim Uang Sekarang",
+        "ctaSecondaryLabel": "Mulai",
+        "eyebrow": "GME Kyrgyzstan",
+        "headingLines": [
+          "Kirim uang ke keluarga.",
+          "Tetap terhubung.",
+          "Bertransaksi dengan mudah."
+        ],
+        "subheading": "Layanan tepercaya untuk Kyrgyzstanis yang tinggal di Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Pertanyaan Umum tentang GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Transfer GME Remit biasanya selesai dalam waktu sekitar 10 detik, meskipun waktu transfer sebenarnya dapat bervariasi tergantung negara penerima, bank, atau metode pembayaran."
+              ],
+              "question": "Berapa lama waktu yang dibutuhkan untuk mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Ya. GME Remit adalah layanan pengiriman uang berlisensi di Korea dan diawasi oleh otoritas keuangan Korea yang berwenang. Kami menggunakan proses verifikasi pelanggan dan transaksi yang aman untuk melindungi pelanggan kami."
+              ],
+              "question": "Apakah GME Remit aman digunakan?"
+            },
+            {
+              "answer": [
+                "Unduh aplikasi GME Remit, buat akun Anda, dan selesaikan verifikasi identitas yang diperlukan. Setelah pendaftaran dan verifikasi selesai, Anda dapat mulai menggunakan layanan GME Remit."
+              ],
+              "question": "Bagaimana cara mendaftar akun GME Remit?"
+            },
+            {
+              "answer": [
+                "GME Remit mendukung transfer uang internasional ke banyak negara di seluruh dunia. Tujuan dan opsi pembayaran yang tersedia dapat diperiksa langsung di aplikasi GME Remit."
+              ],
+              "question": "Ke negara mana saja saya dapat mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Tim dukungan pelanggan kami tersedia pukul 10.00–23.00, Senin hingga Minggu. Anda dapat menghubungi kami melalui {SUPPORT_PHONE_NUMBER}, aplikasi GME Remit, kanal media sosial resmi GME, atau mengunjungi cabang GME Remit di Korea untuk bantuan langsung."
+              ],
+              "question": "Apa yang harus saya lakukan jika ada masalah dengan transfer saya?"
+            }
+          ],
+          "subheading": "Temukan jawaban atas pertanyaan umum tentang pengiriman uang dengan GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Terhubung dengan GME Kyrgyzstan",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Berita, tips bermanfaat, dan informasi terbaru untuk komunitas kami"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Lihat GME Card",
+          "description": "Pembayaran mudah untuk kebutuhan sehari-hari di Korea maupun di luar negeri.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Bayar di seluruh dunia",
+            "Belanja",
+            "Transportasi",
+            "Cashback",
+            "Manfaat EasyCare"
+          ],
+          "heading": "Satu Kartu untuk Segalanya"
+        },
+        "exchangeRate": {
+          "description": "Lihat nilai tukar GME Remit terbaru sebelum mengirim uang dari Korea ke Kyrgyzstan",
+          "eyebrow": "Nilai Tukar",
+          "heading": "Cek Nilai Tukar Hari Ini",
+          "note": "Nilai tukar dapat berubah sepanjang hari"
+        },
+        "loan": {
+          "ctaLabel": "Ajukan Sekarang",
+          "description": "Nikmati layanan pinjaman digital untuk warga asing. Ajukan dengan mudah melalui aplikasi GME—pengalaman pinjaman digital sederhana bagi warga asing yang tinggal di Korea.",
+          "eyebrow": "GME Loan",
+          "features": [
+            "Pengajuan pinjaman tanpa kertas",
+            "Cek status pinjaman secara real-time",
+            "Cek saldo pinjaman secara real-time"
+          ],
+          "heading": "Mitra Keuangan Digital Anda"
+        },
+        "remittance": {
+          "ctaLabel": "Kirim Uang Sekarang",
+          "description": "Cara yang mudah dan aman untuk mendukung keluarga dan orang-orang terkasih di Kyrgyzstan dari Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Nilai tukar kompetitif",
+            "Transfer cepat dan andal",
+            "Biaya transparan",
+            "Dukungan saat Anda membutuhkannya"
+          ],
+          "heading": "Kirim Uang ke Kyrgyzstan"
+        },
+        "simCard": {
+          "ctaLabel": "Lihat Paket SIM",
+          "description": "Tetap dekat dengan hal-hal yang penting melalui paket seluler yang dirancang untuk mempermudah kehidupan di Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Koneksi andal",
+            "Paket SIM fleksibel",
+            "Pengaturan mudah",
+            "Dukungan lokal yang ramah"
+          ],
+          "heading": "Tetap Terhubung di Korea"
+        }
+      }
+    },
+    "laos": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "Unduh Aplikasi GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator GME Remit",
+        "exchangeRateLabel": "Nilai Tukar",
+        "receiverGetsLabel": "Jumlah yang Diterima",
+        "recipientCountryLabel": "Negara Penerima",
+        "recipientCountryOption": "Laos",
+        "sendAmountLabel": "Jumlah Kiriman",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Kirim Uang Sekarang",
+        "transferFeeLabel": "Biaya Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "LAK",
+        "sampleTag": "Contoh nilai"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Hak cipta dilindungi.",
+        "logoText": "GME",
+        "tagline": "Layanan keuangan untuk Laotians di Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Unduh Aplikasi",
+        "navItems": {
+          "company": "Perusahaan",
+          "countries": "Negara",
+          "news": "Berita",
+          "services": "Layanan",
+          "support": "Dukungan"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Kirim Uang Sekarang",
+        "ctaSecondaryLabel": "Mulai",
+        "eyebrow": "GME Laos",
+        "headingLines": [
+          "Kirim uang ke keluarga.",
+          "Tetap terhubung.",
+          "Bertransaksi dengan mudah."
+        ],
+        "subheading": "Layanan tepercaya untuk Laotians yang tinggal di Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Pertanyaan Umum tentang GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Transfer GME Remit biasanya selesai dalam waktu sekitar 10 detik, meskipun waktu transfer sebenarnya dapat bervariasi tergantung negara penerima, bank, atau metode pembayaran."
+              ],
+              "question": "Berapa lama waktu yang dibutuhkan untuk mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Ya. GME Remit adalah layanan pengiriman uang berlisensi di Korea dan diawasi oleh otoritas keuangan Korea yang berwenang. Kami menggunakan proses verifikasi pelanggan dan transaksi yang aman untuk melindungi pelanggan kami."
+              ],
+              "question": "Apakah GME Remit aman digunakan?"
+            },
+            {
+              "answer": [
+                "Unduh aplikasi GME Remit, buat akun Anda, dan selesaikan verifikasi identitas yang diperlukan. Setelah pendaftaran dan verifikasi selesai, Anda dapat mulai menggunakan layanan GME Remit."
+              ],
+              "question": "Bagaimana cara mendaftar akun GME Remit?"
+            },
+            {
+              "answer": [
+                "GME Remit mendukung transfer uang internasional ke banyak negara di seluruh dunia. Tujuan dan opsi pembayaran yang tersedia dapat diperiksa langsung di aplikasi GME Remit."
+              ],
+              "question": "Ke negara mana saja saya dapat mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Tim dukungan pelanggan kami tersedia pukul 10.00–23.00, Senin hingga Minggu. Anda dapat menghubungi kami melalui {SUPPORT_PHONE_NUMBER}, aplikasi GME Remit, kanal media sosial resmi GME, atau mengunjungi cabang GME Remit di Korea untuk bantuan langsung."
+              ],
+              "question": "Apa yang harus saya lakukan jika ada masalah dengan transfer saya?"
+            }
+          ],
+          "subheading": "Temukan jawaban atas pertanyaan umum tentang pengiriman uang dengan GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Terhubung dengan GME Laos",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Berita, tips bermanfaat, dan informasi terbaru untuk komunitas kami"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Lihat GME Card",
+          "description": "Pembayaran mudah untuk kebutuhan sehari-hari di Korea maupun di luar negeri.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Bayar di seluruh dunia",
+            "Belanja",
+            "Transportasi",
+            "Cashback",
+            "Manfaat EasyCare"
+          ],
+          "heading": "Satu Kartu untuk Segalanya"
+        },
+        "exchangeRate": {
+          "description": "Lihat nilai tukar GME Remit terbaru sebelum mengirim uang dari Korea ke Laos",
+          "eyebrow": "Nilai Tukar",
+          "heading": "Cek Nilai Tukar Hari Ini",
+          "note": "Nilai tukar dapat berubah sepanjang hari"
+        },
+        "loan": {
+          "ctaLabel": "Ajukan Sekarang",
+          "description": "Nikmati layanan pinjaman digital untuk warga asing. Ajukan dengan mudah melalui aplikasi GME—pengalaman pinjaman digital sederhana bagi warga asing yang tinggal di Korea.",
+          "eyebrow": "GME Loan",
+          "features": [
+            "Pengajuan pinjaman tanpa kertas",
+            "Cek status pinjaman secara real-time",
+            "Cek saldo pinjaman secara real-time"
+          ],
+          "heading": "Mitra Keuangan Digital Anda"
+        },
+        "remittance": {
+          "ctaLabel": "Kirim Uang Sekarang",
+          "description": "Cara yang mudah dan aman untuk mendukung keluarga dan orang-orang terkasih di Laos dari Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Nilai tukar kompetitif",
+            "Transfer cepat dan andal",
+            "Biaya transparan",
+            "Dukungan saat Anda membutuhkannya"
+          ],
+          "heading": "Kirim Uang ke Laos"
+        },
+        "simCard": {
+          "ctaLabel": "Lihat Paket SIM",
+          "description": "Tetap dekat dengan hal-hal yang penting melalui paket seluler yang dirancang untuk mempermudah kehidupan di Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Koneksi andal",
+            "Paket SIM fleksibel",
+            "Pengaturan mudah",
+            "Dukungan lokal yang ramah"
+          ],
+          "heading": "Tetap Terhubung di Korea"
+        }
+      }
+    },
+    "mongolia": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "Unduh Aplikasi GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator GME Remit",
+        "exchangeRateLabel": "Nilai Tukar",
+        "receiverGetsLabel": "Jumlah yang Diterima",
+        "recipientCountryLabel": "Negara Penerima",
+        "recipientCountryOption": "Mongolia",
+        "sendAmountLabel": "Jumlah Kiriman",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Kirim Uang Sekarang",
+        "transferFeeLabel": "Biaya Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "MNT",
+        "sampleTag": "Contoh nilai"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Hak cipta dilindungi.",
+        "logoText": "GME",
+        "tagline": "Layanan keuangan untuk Mongolians di Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Unduh Aplikasi",
+        "navItems": {
+          "company": "Perusahaan",
+          "countries": "Negara",
+          "news": "Berita",
+          "services": "Layanan",
+          "support": "Dukungan"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Kirim Uang Sekarang",
+        "ctaSecondaryLabel": "Mulai",
+        "eyebrow": "GME Mongolia",
+        "headingLines": [
+          "Kirim uang ke keluarga.",
+          "Tetap terhubung.",
+          "Bertransaksi dengan mudah."
+        ],
+        "subheading": "Layanan tepercaya untuk Mongolians yang tinggal di Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Pertanyaan Umum tentang GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Transfer GME Remit biasanya selesai dalam waktu sekitar 10 detik, meskipun waktu transfer sebenarnya dapat bervariasi tergantung negara penerima, bank, atau metode pembayaran."
+              ],
+              "question": "Berapa lama waktu yang dibutuhkan untuk mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Ya. GME Remit adalah layanan pengiriman uang berlisensi di Korea dan diawasi oleh otoritas keuangan Korea yang berwenang. Kami menggunakan proses verifikasi pelanggan dan transaksi yang aman untuk melindungi pelanggan kami."
+              ],
+              "question": "Apakah GME Remit aman digunakan?"
+            },
+            {
+              "answer": [
+                "Unduh aplikasi GME Remit, buat akun Anda, dan selesaikan verifikasi identitas yang diperlukan. Setelah pendaftaran dan verifikasi selesai, Anda dapat mulai menggunakan layanan GME Remit."
+              ],
+              "question": "Bagaimana cara mendaftar akun GME Remit?"
+            },
+            {
+              "answer": [
+                "GME Remit mendukung transfer uang internasional ke banyak negara di seluruh dunia. Tujuan dan opsi pembayaran yang tersedia dapat diperiksa langsung di aplikasi GME Remit."
+              ],
+              "question": "Ke negara mana saja saya dapat mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Tim dukungan pelanggan kami tersedia pukul 10.00–23.00, Senin hingga Minggu. Anda dapat menghubungi kami melalui {SUPPORT_PHONE_NUMBER}, aplikasi GME Remit, kanal media sosial resmi GME, atau mengunjungi cabang GME Remit di Korea untuk bantuan langsung."
+              ],
+              "question": "Apa yang harus saya lakukan jika ada masalah dengan transfer saya?"
+            }
+          ],
+          "subheading": "Temukan jawaban atas pertanyaan umum tentang pengiriman uang dengan GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Terhubung dengan GME Mongolia",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Berita, tips bermanfaat, dan informasi terbaru untuk komunitas kami"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Lihat GME Card",
+          "description": "Pembayaran mudah untuk kebutuhan sehari-hari di Korea maupun di luar negeri.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Bayar di seluruh dunia",
+            "Belanja",
+            "Transportasi",
+            "Cashback",
+            "Manfaat EasyCare"
+          ],
+          "heading": "Satu Kartu untuk Segalanya"
+        },
+        "exchangeRate": {
+          "description": "Lihat nilai tukar GME Remit terbaru sebelum mengirim uang dari Korea ke Mongolia",
+          "eyebrow": "Nilai Tukar",
+          "heading": "Cek Nilai Tukar Hari Ini",
+          "note": "Nilai tukar dapat berubah sepanjang hari"
+        },
+        "loan": {
+          "ctaLabel": "Ajukan Sekarang",
+          "description": "Nikmati layanan pinjaman digital untuk warga asing. Ajukan dengan mudah melalui aplikasi GME—pengalaman pinjaman digital sederhana bagi warga asing yang tinggal di Korea.",
+          "eyebrow": "GME Loan",
+          "features": [
+            "Pengajuan pinjaman tanpa kertas",
+            "Cek status pinjaman secara real-time",
+            "Cek saldo pinjaman secara real-time"
+          ],
+          "heading": "Mitra Keuangan Digital Anda"
+        },
+        "remittance": {
+          "ctaLabel": "Kirim Uang Sekarang",
+          "description": "Cara yang mudah dan aman untuk mendukung keluarga dan orang-orang terkasih di Mongolia dari Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Nilai tukar kompetitif",
+            "Transfer cepat dan andal",
+            "Biaya transparan",
+            "Dukungan saat Anda membutuhkannya"
+          ],
+          "heading": "Kirim Uang ke Mongolia"
+        },
+        "simCard": {
+          "ctaLabel": "Lihat Paket SIM",
+          "description": "Tetap dekat dengan hal-hal yang penting melalui paket seluler yang dirancang untuk mempermudah kehidupan di Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Koneksi andal",
+            "Paket SIM fleksibel",
+            "Pengaturan mudah",
+            "Dukungan lokal yang ramah"
+          ],
+          "heading": "Tetap Terhubung di Korea"
+        }
+      }
+    },
+    "myanmar": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "Unduh Aplikasi GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator GME Remit",
+        "exchangeRateLabel": "Nilai Tukar",
+        "receiverGetsLabel": "Jumlah yang Diterima",
+        "recipientCountryLabel": "Negara Penerima",
+        "recipientCountryOption": "Myanmar",
+        "sendAmountLabel": "Jumlah Kiriman",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Kirim Uang Sekarang",
+        "transferFeeLabel": "Biaya Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "MMK",
+        "sampleTag": "Contoh nilai"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Hak cipta dilindungi.",
+        "logoText": "GME",
+        "tagline": "Layanan keuangan untuk Myanmar nationals di Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Unduh Aplikasi",
+        "navItems": {
+          "company": "Perusahaan",
+          "countries": "Negara",
+          "news": "Berita",
+          "services": "Layanan",
+          "support": "Dukungan"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Kirim Uang Sekarang",
+        "ctaSecondaryLabel": "Mulai",
+        "eyebrow": "GME Myanmar",
+        "headingLines": [
+          "Kirim uang ke keluarga.",
+          "Tetap terhubung.",
+          "Bertransaksi dengan mudah."
+        ],
+        "subheading": "Layanan tepercaya untuk Myanmar nationals yang tinggal di Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Pertanyaan Umum tentang GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Transfer GME Remit biasanya selesai dalam waktu sekitar 10 detik, meskipun waktu transfer sebenarnya dapat bervariasi tergantung negara penerima, bank, atau metode pembayaran."
+              ],
+              "question": "Berapa lama waktu yang dibutuhkan untuk mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Ya. GME Remit adalah layanan pengiriman uang berlisensi di Korea dan diawasi oleh otoritas keuangan Korea yang berwenang. Kami menggunakan proses verifikasi pelanggan dan transaksi yang aman untuk melindungi pelanggan kami."
+              ],
+              "question": "Apakah GME Remit aman digunakan?"
+            },
+            {
+              "answer": [
+                "Unduh aplikasi GME Remit, buat akun Anda, dan selesaikan verifikasi identitas yang diperlukan. Setelah pendaftaran dan verifikasi selesai, Anda dapat mulai menggunakan layanan GME Remit."
+              ],
+              "question": "Bagaimana cara mendaftar akun GME Remit?"
+            },
+            {
+              "answer": [
+                "GME Remit mendukung transfer uang internasional ke banyak negara di seluruh dunia. Tujuan dan opsi pembayaran yang tersedia dapat diperiksa langsung di aplikasi GME Remit."
+              ],
+              "question": "Ke negara mana saja saya dapat mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Tim dukungan pelanggan kami tersedia pukul 10.00–23.00, Senin hingga Minggu. Anda dapat menghubungi kami melalui {SUPPORT_PHONE_NUMBER}, aplikasi GME Remit, kanal media sosial resmi GME, atau mengunjungi cabang GME Remit di Korea untuk bantuan langsung."
+              ],
+              "question": "Apa yang harus saya lakukan jika ada masalah dengan transfer saya?"
+            }
+          ],
+          "subheading": "Temukan jawaban atas pertanyaan umum tentang pengiriman uang dengan GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Terhubung dengan GME Myanmar",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Berita, tips bermanfaat, dan informasi terbaru untuk komunitas kami"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Lihat GME Card",
+          "description": "Pembayaran mudah untuk kebutuhan sehari-hari di Korea maupun di luar negeri.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Bayar di seluruh dunia",
+            "Belanja",
+            "Transportasi",
+            "Cashback",
+            "Manfaat EasyCare"
+          ],
+          "heading": "Satu Kartu untuk Segalanya"
+        },
+        "exchangeRate": {
+          "description": "Lihat nilai tukar GME Remit terbaru sebelum mengirim uang dari Korea ke Myanmar",
+          "eyebrow": "Nilai Tukar",
+          "heading": "Cek Nilai Tukar Hari Ini",
+          "note": "Nilai tukar dapat berubah sepanjang hari"
+        },
+        "loan": {
+          "ctaLabel": "Ajukan Sekarang",
+          "description": "Nikmati layanan pinjaman digital untuk warga asing. Ajukan dengan mudah melalui aplikasi GME—pengalaman pinjaman digital sederhana bagi warga asing yang tinggal di Korea.",
+          "eyebrow": "GME Loan",
+          "features": [
+            "Pengajuan pinjaman tanpa kertas",
+            "Cek status pinjaman secara real-time",
+            "Cek saldo pinjaman secara real-time"
+          ],
+          "heading": "Mitra Keuangan Digital Anda"
+        },
+        "remittance": {
+          "ctaLabel": "Kirim Uang Sekarang",
+          "description": "Cara yang mudah dan aman untuk mendukung keluarga dan orang-orang terkasih di Myanmar dari Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Nilai tukar kompetitif",
+            "Transfer cepat dan andal",
+            "Biaya transparan",
+            "Dukungan saat Anda membutuhkannya"
+          ],
+          "heading": "Kirim Uang ke Myanmar"
+        },
+        "simCard": {
+          "ctaLabel": "Lihat Paket SIM",
+          "description": "Tetap dekat dengan hal-hal yang penting melalui paket seluler yang dirancang untuk mempermudah kehidupan di Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Koneksi andal",
+            "Paket SIM fleksibel",
+            "Pengaturan mudah",
+            "Dukungan lokal yang ramah"
+          ],
+          "heading": "Tetap Terhubung di Korea"
+        }
+      }
+    },
+    "nepal": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "Unduh Aplikasi GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator GME Remit",
+        "exchangeRateLabel": "Nilai Tukar",
+        "receiverGetsLabel": "Jumlah yang Diterima",
+        "recipientCountryLabel": "Negara Penerima",
+        "recipientCountryOption": "Nepal",
+        "sendAmountLabel": "Jumlah Kiriman",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Kirim Uang Sekarang",
+        "transferFeeLabel": "Biaya Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "NPR",
+        "sampleTag": "Contoh nilai"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Hak cipta dilindungi.",
+        "logoText": "GME",
+        "tagline": "Layanan keuangan untuk Nepalis di Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Unduh Aplikasi",
+        "navItems": {
+          "company": "Perusahaan",
+          "countries": "Negara",
+          "news": "Berita",
+          "services": "Layanan",
+          "support": "Dukungan"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Kirim Uang Sekarang",
+        "ctaSecondaryLabel": "Mulai",
+        "eyebrow": "GME Nepal",
+        "headingLines": [
+          "Kirim uang ke keluarga.",
+          "Tetap terhubung.",
+          "Bertransaksi dengan mudah."
+        ],
+        "subheading": "Layanan tepercaya untuk Nepalis yang tinggal di Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Pertanyaan Umum tentang GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Transfer GME Remit biasanya selesai dalam waktu sekitar 10 detik, meskipun waktu transfer sebenarnya dapat bervariasi tergantung negara penerima, bank, atau metode pembayaran."
+              ],
+              "question": "Berapa lama waktu yang dibutuhkan untuk mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Ya. GME Remit adalah layanan pengiriman uang berlisensi di Korea dan diawasi oleh otoritas keuangan Korea yang berwenang. Kami menggunakan proses verifikasi pelanggan dan transaksi yang aman untuk melindungi pelanggan kami."
+              ],
+              "question": "Apakah GME Remit aman digunakan?"
+            },
+            {
+              "answer": [
+                "Unduh aplikasi GME Remit, buat akun Anda, dan selesaikan verifikasi identitas yang diperlukan. Setelah pendaftaran dan verifikasi selesai, Anda dapat mulai menggunakan layanan GME Remit."
+              ],
+              "question": "Bagaimana cara mendaftar akun GME Remit?"
+            },
+            {
+              "answer": [
+                "GME Remit mendukung transfer uang internasional ke banyak negara di seluruh dunia. Tujuan dan opsi pembayaran yang tersedia dapat diperiksa langsung di aplikasi GME Remit."
+              ],
+              "question": "Ke negara mana saja saya dapat mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Tim dukungan pelanggan kami tersedia pukul 10.00–23.00, Senin hingga Minggu. Anda dapat menghubungi kami melalui {SUPPORT_PHONE_NUMBER}, aplikasi GME Remit, kanal media sosial resmi GME, atau mengunjungi cabang GME Remit di Korea untuk bantuan langsung."
+              ],
+              "question": "Apa yang harus saya lakukan jika ada masalah dengan transfer saya?"
+            }
+          ],
+          "subheading": "Temukan jawaban atas pertanyaan umum tentang pengiriman uang dengan GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Terhubung dengan GME Nepal",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Berita, tips bermanfaat, dan informasi terbaru untuk komunitas kami"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Lihat GME Card",
+          "description": "Pembayaran mudah untuk kebutuhan sehari-hari di Korea maupun di luar negeri.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Bayar di seluruh dunia",
+            "Belanja",
+            "Transportasi",
+            "Cashback",
+            "Manfaat EasyCare"
+          ],
+          "heading": "Satu Kartu untuk Segalanya"
+        },
+        "exchangeRate": {
+          "description": "Lihat nilai tukar GME Remit terbaru sebelum mengirim uang dari Korea ke Nepal",
+          "eyebrow": "Nilai Tukar",
+          "heading": "Cek Nilai Tukar Hari Ini",
+          "note": "Nilai tukar dapat berubah sepanjang hari"
+        },
+        "loan": {
+          "ctaLabel": "Ajukan Sekarang",
+          "description": "Nikmati layanan pinjaman digital untuk warga asing. Ajukan dengan mudah melalui aplikasi GME—pengalaman pinjaman digital sederhana bagi warga asing yang tinggal di Korea.",
+          "eyebrow": "GME Loan",
+          "features": [
+            "Pengajuan pinjaman tanpa kertas",
+            "Cek status pinjaman secara real-time",
+            "Cek saldo pinjaman secara real-time"
+          ],
+          "heading": "Mitra Keuangan Digital Anda"
+        },
+        "remittance": {
+          "ctaLabel": "Kirim Uang Sekarang",
+          "description": "Cara yang mudah dan aman untuk mendukung keluarga dan orang-orang terkasih di Nepal dari Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Nilai tukar kompetitif",
+            "Transfer cepat dan andal",
+            "Biaya transparan",
+            "Dukungan saat Anda membutuhkannya"
+          ],
+          "heading": "Kirim Uang ke Nepal"
+        },
+        "simCard": {
+          "ctaLabel": "Lihat Paket SIM",
+          "description": "Tetap dekat dengan hal-hal yang penting melalui paket seluler yang dirancang untuk mempermudah kehidupan di Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Koneksi andal",
+            "Paket SIM fleksibel",
+            "Pengaturan mudah",
+            "Dukungan lokal yang ramah"
+          ],
+          "heading": "Tetap Terhubung di Korea"
+        }
+      }
+    },
+    "pakistan": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "Unduh Aplikasi GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator GME Remit",
+        "exchangeRateLabel": "Nilai Tukar",
+        "receiverGetsLabel": "Jumlah yang Diterima",
+        "recipientCountryLabel": "Negara Penerima",
+        "recipientCountryOption": "Pakistan",
+        "sendAmountLabel": "Jumlah Kiriman",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Kirim Uang Sekarang",
+        "transferFeeLabel": "Biaya Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "PKR",
+        "sampleTag": "Contoh nilai"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Hak cipta dilindungi.",
+        "logoText": "GME",
+        "tagline": "Layanan keuangan untuk Pakistanis di Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Unduh Aplikasi",
+        "navItems": {
+          "company": "Perusahaan",
+          "countries": "Negara",
+          "news": "Berita",
+          "services": "Layanan",
+          "support": "Dukungan"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Kirim Uang Sekarang",
+        "ctaSecondaryLabel": "Mulai",
+        "eyebrow": "GME Pakistan",
+        "headingLines": [
+          "Kirim uang ke keluarga.",
+          "Tetap terhubung.",
+          "Bertransaksi dengan mudah."
+        ],
+        "subheading": "Layanan tepercaya untuk Pakistanis yang tinggal di Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Pertanyaan Umum tentang GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Transfer GME Remit biasanya selesai dalam waktu sekitar 10 detik, meskipun waktu transfer sebenarnya dapat bervariasi tergantung negara penerima, bank, atau metode pembayaran."
+              ],
+              "question": "Berapa lama waktu yang dibutuhkan untuk mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Ya. GME Remit adalah layanan pengiriman uang berlisensi di Korea dan diawasi oleh otoritas keuangan Korea yang berwenang. Kami menggunakan proses verifikasi pelanggan dan transaksi yang aman untuk melindungi pelanggan kami."
+              ],
+              "question": "Apakah GME Remit aman digunakan?"
+            },
+            {
+              "answer": [
+                "Unduh aplikasi GME Remit, buat akun Anda, dan selesaikan verifikasi identitas yang diperlukan. Setelah pendaftaran dan verifikasi selesai, Anda dapat mulai menggunakan layanan GME Remit."
+              ],
+              "question": "Bagaimana cara mendaftar akun GME Remit?"
+            },
+            {
+              "answer": [
+                "GME Remit mendukung transfer uang internasional ke banyak negara di seluruh dunia. Tujuan dan opsi pembayaran yang tersedia dapat diperiksa langsung di aplikasi GME Remit."
+              ],
+              "question": "Ke negara mana saja saya dapat mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Tim dukungan pelanggan kami tersedia pukul 10.00–23.00, Senin hingga Minggu. Anda dapat menghubungi kami melalui {SUPPORT_PHONE_NUMBER}, aplikasi GME Remit, kanal media sosial resmi GME, atau mengunjungi cabang GME Remit di Korea untuk bantuan langsung."
+              ],
+              "question": "Apa yang harus saya lakukan jika ada masalah dengan transfer saya?"
+            }
+          ],
+          "subheading": "Temukan jawaban atas pertanyaan umum tentang pengiriman uang dengan GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Terhubung dengan GME Pakistan",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Berita, tips bermanfaat, dan informasi terbaru untuk komunitas kami"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Lihat GME Card",
+          "description": "Pembayaran mudah untuk kebutuhan sehari-hari di Korea maupun di luar negeri.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Bayar di seluruh dunia",
+            "Belanja",
+            "Transportasi",
+            "Cashback",
+            "Manfaat EasyCare"
+          ],
+          "heading": "Satu Kartu untuk Segalanya"
+        },
+        "exchangeRate": {
+          "description": "Lihat nilai tukar GME Remit terbaru sebelum mengirim uang dari Korea ke Pakistan",
+          "eyebrow": "Nilai Tukar",
+          "heading": "Cek Nilai Tukar Hari Ini",
+          "note": "Nilai tukar dapat berubah sepanjang hari"
+        },
+        "loan": {
+          "ctaLabel": "Ajukan Sekarang",
+          "description": "Nikmati layanan pinjaman digital untuk warga asing. Ajukan dengan mudah melalui aplikasi GME—pengalaman pinjaman digital sederhana bagi warga asing yang tinggal di Korea.",
+          "eyebrow": "GME Loan",
+          "features": [
+            "Pengajuan pinjaman tanpa kertas",
+            "Cek status pinjaman secara real-time",
+            "Cek saldo pinjaman secara real-time"
+          ],
+          "heading": "Mitra Keuangan Digital Anda"
+        },
+        "remittance": {
+          "ctaLabel": "Kirim Uang Sekarang",
+          "description": "Cara yang mudah dan aman untuk mendukung keluarga dan orang-orang terkasih di Pakistan dari Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Nilai tukar kompetitif",
+            "Transfer cepat dan andal",
+            "Biaya transparan",
+            "Dukungan saat Anda membutuhkannya"
+          ],
+          "heading": "Kirim Uang ke Pakistan"
+        },
+        "simCard": {
+          "ctaLabel": "Lihat Paket SIM",
+          "description": "Tetap dekat dengan hal-hal yang penting melalui paket seluler yang dirancang untuk mempermudah kehidupan di Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Koneksi andal",
+            "Paket SIM fleksibel",
+            "Pengaturan mudah",
+            "Dukungan lokal yang ramah"
+          ],
+          "heading": "Tetap Terhubung di Korea"
+        }
+      }
+    },
+    "philippines": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "Unduh Aplikasi GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator GME Remit",
+        "exchangeRateLabel": "Nilai Tukar",
+        "receiverGetsLabel": "Jumlah yang Diterima",
+        "recipientCountryLabel": "Negara Penerima",
+        "recipientCountryOption": "Philippines",
+        "sendAmountLabel": "Jumlah Kiriman",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Kirim Uang Sekarang",
+        "transferFeeLabel": "Biaya Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "PHP",
+        "sampleTag": "Contoh nilai"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Hak cipta dilindungi.",
+        "logoText": "GME",
+        "tagline": "Layanan keuangan untuk Filipinos di Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Unduh Aplikasi",
+        "navItems": {
+          "company": "Perusahaan",
+          "countries": "Negara",
+          "news": "Berita",
+          "services": "Layanan",
+          "support": "Dukungan"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Kirim Uang Sekarang",
+        "ctaSecondaryLabel": "Mulai",
+        "eyebrow": "GME Philippines",
+        "headingLines": [
+          "Kirim uang ke keluarga.",
+          "Tetap terhubung.",
+          "Bertransaksi dengan mudah."
+        ],
+        "subheading": "Layanan tepercaya untuk Filipinos yang tinggal di Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Pertanyaan Umum tentang GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Transfer GME Remit biasanya selesai dalam waktu sekitar 10 detik, meskipun waktu transfer sebenarnya dapat bervariasi tergantung negara penerima, bank, atau metode pembayaran."
+              ],
+              "question": "Berapa lama waktu yang dibutuhkan untuk mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Ya. GME Remit adalah layanan pengiriman uang berlisensi di Korea dan diawasi oleh otoritas keuangan Korea yang berwenang. Kami menggunakan proses verifikasi pelanggan dan transaksi yang aman untuk melindungi pelanggan kami."
+              ],
+              "question": "Apakah GME Remit aman digunakan?"
+            },
+            {
+              "answer": [
+                "Unduh aplikasi GME Remit, buat akun Anda, dan selesaikan verifikasi identitas yang diperlukan. Setelah pendaftaran dan verifikasi selesai, Anda dapat mulai menggunakan layanan GME Remit."
+              ],
+              "question": "Bagaimana cara mendaftar akun GME Remit?"
+            },
+            {
+              "answer": [
+                "GME Remit mendukung transfer uang internasional ke banyak negara di seluruh dunia. Tujuan dan opsi pembayaran yang tersedia dapat diperiksa langsung di aplikasi GME Remit."
+              ],
+              "question": "Ke negara mana saja saya dapat mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Tim dukungan pelanggan kami tersedia pukul 10.00–23.00, Senin hingga Minggu. Anda dapat menghubungi kami melalui {SUPPORT_PHONE_NUMBER}, aplikasi GME Remit, kanal media sosial resmi GME, atau mengunjungi cabang GME Remit di Korea untuk bantuan langsung."
+              ],
+              "question": "Apa yang harus saya lakukan jika ada masalah dengan transfer saya?"
+            }
+          ],
+          "subheading": "Temukan jawaban atas pertanyaan umum tentang pengiriman uang dengan GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Terhubung dengan GME Philippines",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Berita, tips bermanfaat, dan informasi terbaru untuk komunitas kami"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Lihat GME Card",
+          "description": "Pembayaran mudah untuk kebutuhan sehari-hari di Korea maupun di luar negeri.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Bayar di seluruh dunia",
+            "Belanja",
+            "Transportasi",
+            "Cashback",
+            "Manfaat EasyCare"
+          ],
+          "heading": "Satu Kartu untuk Segalanya"
+        },
+        "exchangeRate": {
+          "description": "Lihat nilai tukar GME Remit terbaru sebelum mengirim uang dari Korea ke Philippines",
+          "eyebrow": "Nilai Tukar",
+          "heading": "Cek Nilai Tukar Hari Ini",
+          "note": "Nilai tukar dapat berubah sepanjang hari"
+        },
+        "loan": {
+          "ctaLabel": "Ajukan Sekarang",
+          "description": "Nikmati layanan pinjaman digital untuk warga asing. Ajukan dengan mudah melalui aplikasi GME—pengalaman pinjaman digital sederhana bagi warga asing yang tinggal di Korea.",
+          "eyebrow": "GME Loan",
+          "features": [
+            "Pengajuan pinjaman tanpa kertas",
+            "Cek status pinjaman secara real-time",
+            "Cek saldo pinjaman secara real-time"
+          ],
+          "heading": "Mitra Keuangan Digital Anda"
+        },
+        "remittance": {
+          "ctaLabel": "Kirim Uang Sekarang",
+          "description": "Cara yang mudah dan aman untuk mendukung keluarga dan orang-orang terkasih di Philippines dari Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Nilai tukar kompetitif",
+            "Transfer cepat dan andal",
+            "Biaya transparan",
+            "Dukungan saat Anda membutuhkannya"
+          ],
+          "heading": "Kirim Uang ke Philippines"
+        },
+        "simCard": {
+          "ctaLabel": "Lihat Paket SIM",
+          "description": "Tetap dekat dengan hal-hal yang penting melalui paket seluler yang dirancang untuk mempermudah kehidupan di Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Koneksi andal",
+            "Paket SIM fleksibel",
+            "Pengaturan mudah",
+            "Dukungan lokal yang ramah"
+          ],
+          "heading": "Tetap Terhubung di Korea"
+        }
+      }
+    },
+    "sri-lanka": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "Unduh Aplikasi GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator GME Remit",
+        "exchangeRateLabel": "Nilai Tukar",
+        "receiverGetsLabel": "Jumlah yang Diterima",
+        "recipientCountryLabel": "Negara Penerima",
+        "recipientCountryOption": "Sri Lanka",
+        "sendAmountLabel": "Jumlah Kiriman",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Kirim Uang Sekarang",
+        "transferFeeLabel": "Biaya Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "LKR",
+        "sampleTag": "Contoh nilai"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Hak cipta dilindungi.",
+        "logoText": "GME",
+        "tagline": "Layanan keuangan untuk Sri Lankans di Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Unduh Aplikasi",
+        "navItems": {
+          "company": "Perusahaan",
+          "countries": "Negara",
+          "news": "Berita",
+          "services": "Layanan",
+          "support": "Dukungan"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Kirim Uang Sekarang",
+        "ctaSecondaryLabel": "Mulai",
+        "eyebrow": "GME Sri Lanka",
+        "headingLines": [
+          "Kirim uang ke keluarga.",
+          "Tetap terhubung.",
+          "Bertransaksi dengan mudah."
+        ],
+        "subheading": "Layanan tepercaya untuk Sri Lankans yang tinggal di Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Pertanyaan Umum tentang GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Transfer GME Remit biasanya selesai dalam waktu sekitar 10 detik, meskipun waktu transfer sebenarnya dapat bervariasi tergantung negara penerima, bank, atau metode pembayaran."
+              ],
+              "question": "Berapa lama waktu yang dibutuhkan untuk mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Ya. GME Remit adalah layanan pengiriman uang berlisensi di Korea dan diawasi oleh otoritas keuangan Korea yang berwenang. Kami menggunakan proses verifikasi pelanggan dan transaksi yang aman untuk melindungi pelanggan kami."
+              ],
+              "question": "Apakah GME Remit aman digunakan?"
+            },
+            {
+              "answer": [
+                "Unduh aplikasi GME Remit, buat akun Anda, dan selesaikan verifikasi identitas yang diperlukan. Setelah pendaftaran dan verifikasi selesai, Anda dapat mulai menggunakan layanan GME Remit."
+              ],
+              "question": "Bagaimana cara mendaftar akun GME Remit?"
+            },
+            {
+              "answer": [
+                "GME Remit mendukung transfer uang internasional ke banyak negara di seluruh dunia. Tujuan dan opsi pembayaran yang tersedia dapat diperiksa langsung di aplikasi GME Remit."
+              ],
+              "question": "Ke negara mana saja saya dapat mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Tim dukungan pelanggan kami tersedia pukul 10.00–23.00, Senin hingga Minggu. Anda dapat menghubungi kami melalui {SUPPORT_PHONE_NUMBER}, aplikasi GME Remit, kanal media sosial resmi GME, atau mengunjungi cabang GME Remit di Korea untuk bantuan langsung."
+              ],
+              "question": "Apa yang harus saya lakukan jika ada masalah dengan transfer saya?"
+            }
+          ],
+          "subheading": "Temukan jawaban atas pertanyaan umum tentang pengiriman uang dengan GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Terhubung dengan GME Sri Lanka",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Berita, tips bermanfaat, dan informasi terbaru untuk komunitas kami"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Lihat GME Card",
+          "description": "Pembayaran mudah untuk kebutuhan sehari-hari di Korea maupun di luar negeri.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Bayar di seluruh dunia",
+            "Belanja",
+            "Transportasi",
+            "Cashback",
+            "Manfaat EasyCare"
+          ],
+          "heading": "Satu Kartu untuk Segalanya"
+        },
+        "exchangeRate": {
+          "description": "Lihat nilai tukar GME Remit terbaru sebelum mengirim uang dari Korea ke Sri Lanka",
+          "eyebrow": "Nilai Tukar",
+          "heading": "Cek Nilai Tukar Hari Ini",
+          "note": "Nilai tukar dapat berubah sepanjang hari"
+        },
+        "loan": {
+          "ctaLabel": "Ajukan Sekarang",
+          "description": "Nikmati layanan pinjaman digital untuk warga asing. Ajukan dengan mudah melalui aplikasi GME—pengalaman pinjaman digital sederhana bagi warga asing yang tinggal di Korea.",
+          "eyebrow": "GME Loan",
+          "features": [
+            "Pengajuan pinjaman tanpa kertas",
+            "Cek status pinjaman secara real-time",
+            "Cek saldo pinjaman secara real-time"
+          ],
+          "heading": "Mitra Keuangan Digital Anda"
+        },
+        "remittance": {
+          "ctaLabel": "Kirim Uang Sekarang",
+          "description": "Cara yang mudah dan aman untuk mendukung keluarga dan orang-orang terkasih di Sri Lanka dari Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Nilai tukar kompetitif",
+            "Transfer cepat dan andal",
+            "Biaya transparan",
+            "Dukungan saat Anda membutuhkannya"
+          ],
+          "heading": "Kirim Uang ke Sri Lanka"
+        },
+        "simCard": {
+          "ctaLabel": "Lihat Paket SIM",
+          "description": "Tetap dekat dengan hal-hal yang penting melalui paket seluler yang dirancang untuk mempermudah kehidupan di Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Koneksi andal",
+            "Paket SIM fleksibel",
+            "Pengaturan mudah",
+            "Dukungan lokal yang ramah"
+          ],
+          "heading": "Tetap Terhubung di Korea"
+        }
+      }
+    },
+    "thailand": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "Unduh Aplikasi GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator GME Remit",
+        "exchangeRateLabel": "Nilai Tukar",
+        "receiverGetsLabel": "Jumlah yang Diterima",
+        "recipientCountryLabel": "Negara Penerima",
+        "recipientCountryOption": "Thailand",
+        "sendAmountLabel": "Jumlah Kiriman",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Kirim Uang Sekarang",
+        "transferFeeLabel": "Biaya Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "THB",
+        "sampleTag": "Contoh nilai"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Hak cipta dilindungi.",
+        "logoText": "GME",
+        "tagline": "Layanan keuangan untuk Thais di Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Unduh Aplikasi",
+        "navItems": {
+          "company": "Perusahaan",
+          "countries": "Negara",
+          "news": "Berita",
+          "services": "Layanan",
+          "support": "Dukungan"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Kirim Uang Sekarang",
+        "ctaSecondaryLabel": "Mulai",
+        "eyebrow": "GME Thailand",
+        "headingLines": [
+          "Kirim uang ke keluarga.",
+          "Tetap terhubung.",
+          "Bertransaksi dengan mudah."
+        ],
+        "subheading": "Layanan tepercaya untuk Thais yang tinggal di Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Pertanyaan Umum tentang GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Transfer GME Remit biasanya selesai dalam waktu sekitar 10 detik, meskipun waktu transfer sebenarnya dapat bervariasi tergantung negara penerima, bank, atau metode pembayaran."
+              ],
+              "question": "Berapa lama waktu yang dibutuhkan untuk mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Ya. GME Remit adalah layanan pengiriman uang berlisensi di Korea dan diawasi oleh otoritas keuangan Korea yang berwenang. Kami menggunakan proses verifikasi pelanggan dan transaksi yang aman untuk melindungi pelanggan kami."
+              ],
+              "question": "Apakah GME Remit aman digunakan?"
+            },
+            {
+              "answer": [
+                "Unduh aplikasi GME Remit, buat akun Anda, dan selesaikan verifikasi identitas yang diperlukan. Setelah pendaftaran dan verifikasi selesai, Anda dapat mulai menggunakan layanan GME Remit."
+              ],
+              "question": "Bagaimana cara mendaftar akun GME Remit?"
+            },
+            {
+              "answer": [
+                "GME Remit mendukung transfer uang internasional ke banyak negara di seluruh dunia. Tujuan dan opsi pembayaran yang tersedia dapat diperiksa langsung di aplikasi GME Remit."
+              ],
+              "question": "Ke negara mana saja saya dapat mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Tim dukungan pelanggan kami tersedia pukul 10.00–23.00, Senin hingga Minggu. Anda dapat menghubungi kami melalui {SUPPORT_PHONE_NUMBER}, aplikasi GME Remit, kanal media sosial resmi GME, atau mengunjungi cabang GME Remit di Korea untuk bantuan langsung."
+              ],
+              "question": "Apa yang harus saya lakukan jika ada masalah dengan transfer saya?"
+            }
+          ],
+          "subheading": "Temukan jawaban atas pertanyaan umum tentang pengiriman uang dengan GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Terhubung dengan GME Thailand",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Berita, tips bermanfaat, dan informasi terbaru untuk komunitas kami"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Lihat GME Card",
+          "description": "Pembayaran mudah untuk kebutuhan sehari-hari di Korea maupun di luar negeri.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Bayar di seluruh dunia",
+            "Belanja",
+            "Transportasi",
+            "Cashback",
+            "Manfaat EasyCare"
+          ],
+          "heading": "Satu Kartu untuk Segalanya"
+        },
+        "exchangeRate": {
+          "description": "Lihat nilai tukar GME Remit terbaru sebelum mengirim uang dari Korea ke Thailand",
+          "eyebrow": "Nilai Tukar",
+          "heading": "Cek Nilai Tukar Hari Ini",
+          "note": "Nilai tukar dapat berubah sepanjang hari"
+        },
+        "loan": {
+          "ctaLabel": "Ajukan Sekarang",
+          "description": "Nikmati layanan pinjaman digital untuk warga asing. Ajukan dengan mudah melalui aplikasi GME—pengalaman pinjaman digital sederhana bagi warga asing yang tinggal di Korea.",
+          "eyebrow": "GME Loan",
+          "features": [
+            "Pengajuan pinjaman tanpa kertas",
+            "Cek status pinjaman secara real-time",
+            "Cek saldo pinjaman secara real-time"
+          ],
+          "heading": "Mitra Keuangan Digital Anda"
+        },
+        "remittance": {
+          "ctaLabel": "Kirim Uang Sekarang",
+          "description": "Cara yang mudah dan aman untuk mendukung keluarga dan orang-orang terkasih di Thailand dari Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Nilai tukar kompetitif",
+            "Transfer cepat dan andal",
+            "Biaya transparan",
+            "Dukungan saat Anda membutuhkannya"
+          ],
+          "heading": "Kirim Uang ke Thailand"
+        },
+        "simCard": {
+          "ctaLabel": "Lihat Paket SIM",
+          "description": "Tetap dekat dengan hal-hal yang penting melalui paket seluler yang dirancang untuk mempermudah kehidupan di Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Koneksi andal",
+            "Paket SIM fleksibel",
+            "Pengaturan mudah",
+            "Dukungan lokal yang ramah"
+          ],
+          "heading": "Tetap Terhubung di Korea"
+        }
+      }
+    },
+    "uzbekistan": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "Unduh Aplikasi GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator GME Remit",
+        "exchangeRateLabel": "Nilai Tukar",
+        "receiverGetsLabel": "Jumlah yang Diterima",
+        "recipientCountryLabel": "Negara Penerima",
+        "recipientCountryOption": "Uzbekistan",
+        "sendAmountLabel": "Jumlah Kiriman",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Kirim Uang Sekarang",
+        "transferFeeLabel": "Biaya Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "UZS",
+        "sampleTag": "Contoh nilai"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Hak cipta dilindungi.",
+        "logoText": "GME",
+        "tagline": "Layanan keuangan untuk Uzbeks di Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Unduh Aplikasi",
+        "navItems": {
+          "company": "Perusahaan",
+          "countries": "Negara",
+          "news": "Berita",
+          "services": "Layanan",
+          "support": "Dukungan"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Kirim Uang Sekarang",
+        "ctaSecondaryLabel": "Mulai",
+        "eyebrow": "GME Uzbekistan",
+        "headingLines": [
+          "Kirim uang ke keluarga.",
+          "Tetap terhubung.",
+          "Bertransaksi dengan mudah."
+        ],
+        "subheading": "Layanan tepercaya untuk Uzbeks yang tinggal di Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Pertanyaan Umum tentang GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Transfer GME Remit biasanya selesai dalam waktu sekitar 10 detik, meskipun waktu transfer sebenarnya dapat bervariasi tergantung negara penerima, bank, atau metode pembayaran."
+              ],
+              "question": "Berapa lama waktu yang dibutuhkan untuk mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Ya. GME Remit adalah layanan pengiriman uang berlisensi di Korea dan diawasi oleh otoritas keuangan Korea yang berwenang. Kami menggunakan proses verifikasi pelanggan dan transaksi yang aman untuk melindungi pelanggan kami."
+              ],
+              "question": "Apakah GME Remit aman digunakan?"
+            },
+            {
+              "answer": [
+                "Unduh aplikasi GME Remit, buat akun Anda, dan selesaikan verifikasi identitas yang diperlukan. Setelah pendaftaran dan verifikasi selesai, Anda dapat mulai menggunakan layanan GME Remit."
+              ],
+              "question": "Bagaimana cara mendaftar akun GME Remit?"
+            },
+            {
+              "answer": [
+                "GME Remit mendukung transfer uang internasional ke banyak negara di seluruh dunia. Tujuan dan opsi pembayaran yang tersedia dapat diperiksa langsung di aplikasi GME Remit."
+              ],
+              "question": "Ke negara mana saja saya dapat mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Tim dukungan pelanggan kami tersedia pukul 10.00–23.00, Senin hingga Minggu. Anda dapat menghubungi kami melalui {SUPPORT_PHONE_NUMBER}, aplikasi GME Remit, kanal media sosial resmi GME, atau mengunjungi cabang GME Remit di Korea untuk bantuan langsung."
+              ],
+              "question": "Apa yang harus saya lakukan jika ada masalah dengan transfer saya?"
+            }
+          ],
+          "subheading": "Temukan jawaban atas pertanyaan umum tentang pengiriman uang dengan GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Terhubung dengan GME Uzbekistan",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Berita, tips bermanfaat, dan informasi terbaru untuk komunitas kami"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Lihat GME Card",
+          "description": "Pembayaran mudah untuk kebutuhan sehari-hari di Korea maupun di luar negeri.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Bayar di seluruh dunia",
+            "Belanja",
+            "Transportasi",
+            "Cashback",
+            "Manfaat EasyCare"
+          ],
+          "heading": "Satu Kartu untuk Segalanya"
+        },
+        "exchangeRate": {
+          "description": "Lihat nilai tukar GME Remit terbaru sebelum mengirim uang dari Korea ke Uzbekistan",
+          "eyebrow": "Nilai Tukar",
+          "heading": "Cek Nilai Tukar Hari Ini",
+          "note": "Nilai tukar dapat berubah sepanjang hari"
+        },
+        "loan": {
+          "ctaLabel": "Ajukan Sekarang",
+          "description": "Nikmati layanan pinjaman digital untuk warga asing. Ajukan dengan mudah melalui aplikasi GME—pengalaman pinjaman digital sederhana bagi warga asing yang tinggal di Korea.",
+          "eyebrow": "GME Loan",
+          "features": [
+            "Pengajuan pinjaman tanpa kertas",
+            "Cek status pinjaman secara real-time",
+            "Cek saldo pinjaman secara real-time"
+          ],
+          "heading": "Mitra Keuangan Digital Anda"
+        },
+        "remittance": {
+          "ctaLabel": "Kirim Uang Sekarang",
+          "description": "Cara yang mudah dan aman untuk mendukung keluarga dan orang-orang terkasih di Uzbekistan dari Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Nilai tukar kompetitif",
+            "Transfer cepat dan andal",
+            "Biaya transparan",
+            "Dukungan saat Anda membutuhkannya"
+          ],
+          "heading": "Kirim Uang ke Uzbekistan"
+        },
+        "simCard": {
+          "ctaLabel": "Lihat Paket SIM",
+          "description": "Tetap dekat dengan hal-hal yang penting melalui paket seluler yang dirancang untuk mempermudah kehidupan di Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Koneksi andal",
+            "Paket SIM fleksibel",
+            "Pengaturan mudah",
+            "Dukungan lokal yang ramah"
+          ],
+          "heading": "Tetap Terhubung di Korea"
+        }
+      }
+    },
+    "vietnam": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "Unduh Aplikasi GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator GME Remit",
+        "exchangeRateLabel": "Nilai Tukar",
+        "receiverGetsLabel": "Jumlah yang Diterima",
+        "recipientCountryLabel": "Negara Penerima",
+        "recipientCountryOption": "Vietnam",
+        "sendAmountLabel": "Jumlah Kiriman",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Kirim Uang Sekarang",
+        "transferFeeLabel": "Biaya Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "VND",
+        "sampleTag": "Contoh nilai"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Hak cipta dilindungi.",
+        "logoText": "GME",
+        "tagline": "Layanan keuangan untuk Vietnamese di Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Unduh Aplikasi",
+        "navItems": {
+          "company": "Perusahaan",
+          "countries": "Negara",
+          "news": "Berita",
+          "services": "Layanan",
+          "support": "Dukungan"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Kirim Uang Sekarang",
+        "ctaSecondaryLabel": "Mulai",
+        "eyebrow": "GME Vietnam",
+        "headingLines": [
+          "Kirim uang ke keluarga.",
+          "Tetap terhubung.",
+          "Bertransaksi dengan mudah."
+        ],
+        "subheading": "Layanan tepercaya untuk Vietnamese yang tinggal di Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Pertanyaan Umum tentang GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Transfer GME Remit biasanya selesai dalam waktu sekitar 10 detik, meskipun waktu transfer sebenarnya dapat bervariasi tergantung negara penerima, bank, atau metode pembayaran."
+              ],
+              "question": "Berapa lama waktu yang dibutuhkan untuk mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Ya. GME Remit adalah layanan pengiriman uang berlisensi di Korea dan diawasi oleh otoritas keuangan Korea yang berwenang. Kami menggunakan proses verifikasi pelanggan dan transaksi yang aman untuk melindungi pelanggan kami."
+              ],
+              "question": "Apakah GME Remit aman digunakan?"
+            },
+            {
+              "answer": [
+                "Unduh aplikasi GME Remit, buat akun Anda, dan selesaikan verifikasi identitas yang diperlukan. Setelah pendaftaran dan verifikasi selesai, Anda dapat mulai menggunakan layanan GME Remit."
+              ],
+              "question": "Bagaimana cara mendaftar akun GME Remit?"
+            },
+            {
+              "answer": [
+                "GME Remit mendukung transfer uang internasional ke banyak negara di seluruh dunia. Tujuan dan opsi pembayaran yang tersedia dapat diperiksa langsung di aplikasi GME Remit."
+              ],
+              "question": "Ke negara mana saja saya dapat mengirim uang dengan GME Remit?"
+            },
+            {
+              "answer": [
+                "Tim dukungan pelanggan kami tersedia pukul 10.00–23.00, Senin hingga Minggu. Anda dapat menghubungi kami melalui {SUPPORT_PHONE_NUMBER}, aplikasi GME Remit, kanal media sosial resmi GME, atau mengunjungi cabang GME Remit di Korea untuk bantuan langsung."
+              ],
+              "question": "Apa yang harus saya lakukan jika ada masalah dengan transfer saya?"
+            }
+          ],
+          "subheading": "Temukan jawaban atas pertanyaan umum tentang pengiriman uang dengan GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Terhubung dengan GME Vietnam",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Berita, tips bermanfaat, dan informasi terbaru untuk komunitas kami"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Lihat GME Card",
+          "description": "Pembayaran mudah untuk kebutuhan sehari-hari di Korea maupun di luar negeri.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Bayar di seluruh dunia",
+            "Belanja",
+            "Transportasi",
+            "Cashback",
+            "Manfaat EasyCare"
+          ],
+          "heading": "Satu Kartu untuk Segalanya"
+        },
+        "exchangeRate": {
+          "description": "Lihat nilai tukar GME Remit terbaru sebelum mengirim uang dari Korea ke Vietnam",
+          "eyebrow": "Nilai Tukar",
+          "heading": "Cek Nilai Tukar Hari Ini",
+          "note": "Nilai tukar dapat berubah sepanjang hari"
+        },
+        "loan": {
+          "ctaLabel": "Ajukan Sekarang",
+          "description": "Nikmati layanan pinjaman digital untuk warga asing. Ajukan dengan mudah melalui aplikasi GME—pengalaman pinjaman digital sederhana bagi warga asing yang tinggal di Korea.",
+          "eyebrow": "GME Loan",
+          "features": [
+            "Pengajuan pinjaman tanpa kertas",
+            "Cek status pinjaman secara real-time",
+            "Cek saldo pinjaman secara real-time"
+          ],
+          "heading": "Mitra Keuangan Digital Anda"
+        },
+        "remittance": {
+          "ctaLabel": "Kirim Uang Sekarang",
+          "description": "Cara yang mudah dan aman untuk mendukung keluarga dan orang-orang terkasih di Vietnam dari Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Nilai tukar kompetitif",
+            "Transfer cepat dan andal",
+            "Biaya transparan",
+            "Dukungan saat Anda membutuhkannya"
+          ],
+          "heading": "Kirim Uang ke Vietnam"
+        },
+        "simCard": {
+          "ctaLabel": "Lihat Paket SIM",
+          "description": "Tetap dekat dengan hal-hal yang penting melalui paket seluler yang dirancang untuk mempermudah kehidupan di Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Koneksi andal",
+            "Paket SIM fleksibel",
+            "Pengaturan mudah",
+            "Dukungan lokal yang ramah"
+          ],
+          "heading": "Tetap Terhubung di Korea"
+        }
+      }
+    }
+  }
+}

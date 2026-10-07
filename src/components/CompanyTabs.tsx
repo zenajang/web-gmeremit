@@ -8,7 +8,7 @@ interface CompanyTabsProps {
 }
 
 export default function CompanyTabs({ activeTab }: CompanyTabsProps) {
-  const { t } = useTranslation("company.tabs");
+  const { t } = useTranslation();
 
   const tabs = [
     { id: "ceo-message", labelKey: "ceo_message", href: "/company/ceo-message" },
@@ -27,7 +27,7 @@ export default function CompanyTabs({ activeTab }: CompanyTabsProps) {
           About Us
         </p>
         <h2 className="text-xl sm:text-3xl lg:text-5xl font-bold text-dark tracking-tight relative z-10">
-          {t("title")}
+          {t("common.company.tabs.title")}
         </h2>
       </div>
       <div className="flex gap-1 sm:gap-2 border-b border-gray-200">

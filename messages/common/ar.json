@@ -1,0 +1,227 @@
+{
+  "header": {
+    "link": {
+      "careers": "الوظائف"
+    },
+    "nav": {
+      "blog": "المدونة",
+      "branches": "الفروع",
+      "card": "البطاقة",
+      "ceo_message": "رسالة الرئيس التنفيذي",
+      "company": "الشركة",
+      "history": "التاريخ",
+      "inquiry": "استفسار",
+      "loan": "القرض",
+      "news": "الأخبار",
+      "notice": "إشعار",
+      "payments": "المدفوعات (B2B)",
+      "press": "الأخبار / الصحافة",
+      "remittance": "التحويلات",
+      "services": "الخدمات",
+      "services_menu": "الخدمات",
+      "social_channels": "القنوات الاجتماعية",
+      "support": "الدعم",
+      "telecom": "الجوال"
+    }
+  },
+  "footer": {
+    "company_name": "Global Money Express",
+    "copyright": "© Global Money Express، جميع الحقوق محفوظة.",
+    "info": {
+      "address": "العنوان: 901~911Ho، B-dong، Saenggak Gongjang Bldg.، 150، Yeongdeungpo-ro، Yeongdeungpo-gu، سيول، كوريا 07292",
+      "email_support": "الاستفسارات: support@gmeremit.com",
+      "fax": "فاكس: (+82) 2 3674 5559",
+      "phone_general": "02-3673-5559 (استفسارات عامة)",
+      "remittance_inquiry": "استفسارات التحويلات"
+    },
+    "link": {
+      "privacy": "سياسة الخصوصية",
+      "terms": "شروط الخدمة"
+    }
+  },
+  "common": {
+    "blog-grid": {
+      "board": {
+        "by": "By"
+      }
+    },
+    "board": {
+      "error_description": "يرجى المحاولة مرة أخرى لاحقًا.",
+      "error_title": "فشل تحميل المنشورات"
+    },
+    "careers": {
+      "cta": {
+        "openings": "عرض الوظائف الشاغرة",
+        "subtitle": "اطلع على وظائفنا الحالية وقدم اليوم.",
+        "title": "هل أنت مستعد للانضمام إلى GME؟"
+      }
+    },
+    "exchange-rate-calculator": {
+      "home": {
+        "exchange": {
+          "calculator": {
+            "bank_deposit": "إيداع بنكي",
+            "cash_payment": "دفع نقدي",
+            "delivery_method": "طريقة التحويل",
+            "error": "فشل",
+            "error_failed": "فشل البحث عن سعر الصرف",
+            "error_limit": "المبلغ يتجاوز حد التحويل",
+            "error_max_amount": "الحد الأقصى للإرسال: %1$s وون كوري",
+            "error_min_amount": "الحد الأدنى للإرسال: %1$s وون كوري",
+            "error_network": "حدث خطأ في الشبكة",
+            "error_unavailable": "السعر غير متوفر لهذا المبلغ",
+            "error_unavailable_method": "طريقة التحويل هذه غير متوفرة حاليًا",
+            "fee": "شامل الرسوم",
+            "loading": "جارٍ التحميل...",
+            "mobile_wallet": "محفظة الجوال",
+            "no_results": "لا توجد نتائج",
+            "payout_methods": {
+              "1": "دفع نقدي",
+              "2": "إيداع بنكي",
+              "12": "التوصيل إلى المنزل",
+              "13": "محفظة الجوال",
+              "14": "الدفع بالبطاقة",
+              "15": "Bank Deposit (USD)",
+              "16": "WeChat Pay",
+              "17": "Alipay",
+              "18": "Visa/Mastercard/UnionPay",
+              "19": "Visa/Mastercard",
+              "24": "UPTION",
+              "25": "UPI",
+              "26": "UZCARD",
+              "27": "HUMO Card",
+              "33": "bKash",
+              "34": "Rocket",
+              "35": "Nagad",
+              "37": "QR Pay",
+              "38": "Korti Milli"
+            },
+            "qr_pay": "QR Pay",
+            "rate": "سعر الصرف",
+            "realtime": "فوري",
+            "receive_amount": "مبلغ الاستلام",
+            "receive_country": "دولة المستلم",
+            "search_placeholder": "ابحث عن دولة",
+            "send_amount": "مبلغ الإرسال",
+            "title": "حاسبة صرف العملات الفورية"
+          }
+        }
+      }
+    },
+    "loan": {
+      "cta": {
+        "description": "احصل على الأموال التي تحتاجها بسرعة مع تقديم سهل عبر الجوال.",
+        "inline_notice": "ⓘ بالنقر على الزر أدناه ستتصل بخدمة القرض المقدمة من GME Finance.",
+        "title": "ابدأ قرضك مع تطبيق GME اليوم"
+      }
+    },
+    "mobile-section": {
+      "hero": {
+        "description": "اختر موضوعًا وسنوجّهك إلى القسم المختص."
+      }
+    },
+    "payments": {
+      "business": {
+        "cta": {
+          "description": "نمِّ أعمالك مع حلول الدفع العالمية. سيقترح مديرونا المتخصصون الحل الأمثل لك.",
+          "email": "corporate@gmeremit.com",
+          "title": "ابدأ مع GME Payments"
+        }
+      }
+    },
+    "remittance": {
+      "features": {
+        "app": {
+          "desc": "أكمل التحويل بنقرات قليلة",
+          "title": "تحويل عبر التطبيق"
+        },
+        "branches": {
+          "desc": "احصل على الدعم في فروعنا على مستوى البلاد",
+          "title": "فروع حضورية"
+        },
+        "convenient": {
+          "desc": "تدفق بديهي يمكن لأي شخص استخدامه",
+          "title": "تجربة سهلة"
+        },
+        "multilingual": {
+          "desc": "استخدم الخدمة بلغات متعددة",
+          "title": "دعم متعدد اللغات"
+        },
+        "subtitle": "حوّل وتتبع كل شيء في تطبيق واحد",
+        "title": "تحويلات",
+        "title2": "أبسط وأكثر أمانًا"
+      }
+    },
+    "services": {
+      "chat": {
+        "title": "سيتم تحويلك إلى الدردشة المباشرة"
+      },
+      "complete": {
+        "title": "تم استلام استفسارك"
+      },
+      "external": {
+        "title": "جارٍ الانتقال إلى {{site}}"
+      },
+      "hero": {
+        "title": "كيف يمكننا مساعدتك؟"
+      }
+    },
+    "support": {
+      "hero": {
+        "desc1": "من خلال فروعنا على مستوى البلاد والقنوات الاجتماعية العالمية،",
+        "desc2": "يمكنك الحصول على الدعم وطرح الأسئلة في أي وقت.",
+        "desc3": "اعثر على فرع قريب منك أو تواصل معنا عبر وسائل التواصل الاجتماعي.",
+        "title": "GME، دائمًا قريبة منك"
+      }
+    },
+    "telecom-page-client": {
+      "cta": {
+        "button": "الذهاب إلى GME Mobile",
+        "description": "وفّر في فواتير الهاتف مع خطط ميسورة التكلفة، متوفرة بـ 17 لغة.",
+        "title": "ابدأ مع GME Mobile"
+      },
+      "features": {
+        "activation": {
+          "description": "تفعيل ذاتي سهل من التطبيق",
+          "title": "تفعيل في 5 دقائق"
+        },
+        "affordable": {
+          "description": "خطط فائقة الاقتصادية للأجانب",
+          "title": "من 3,300 ₩/شهر"
+        },
+        "esim": {
+          "description": "امسح رمز QR وفعّل فورًا",
+          "title": "دعم eSIM"
+        },
+        "intl_call": {
+          "description": "بعض الخطط تشمل 20 دقيقة/يوم من المكالمات الدولية",
+          "title": "مكالمات دولية مضمنة"
+        },
+        "multilang": {
+          "description": "استخدم بلغتك الأم",
+          "title": "17 لغة"
+        },
+        "network": {
+          "description": "تغطية موثوقة على مستوى البلاد",
+          "title": "نفس جودة LGU+ و KT"
+        },
+        "plans": {
+          "description": "خطط تبدأ من 3,300 ₩/شهر فقط",
+          "title": "خطط مرنة"
+        },
+        "usim": {
+          "description": "تُسلَّم إليك، تُفعّل في 5 دقائق",
+          "title": "التفعيل الذاتي لـ USIM"
+        }
+      }
+    },
+    "company": {
+      "tabs": {
+        "title": "عن الشركة"
+      }
+    },
+    "button": {
+      "app_download": "تنزيل التطبيق"
+    }
+  }
+}

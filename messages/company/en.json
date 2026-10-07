@@ -1,0 +1,153 @@
+{
+  "company-careers": {
+    "benefits": {
+      "education": {
+        "description": "Full support for self-development including online courses, certifications, language classes, and conference fees.",
+        "title": "Education & Growth Support"
+      },
+      "health": {
+        "description": "Annual health checkup allowance of ₩300,000 for full-time employees to support healthy living.",
+        "title": "Health Checkup Support"
+      },
+      "incentive": {
+        "description": "Various performance-based incentives and rewards for achieving goals, new ideas, and outstanding performance.",
+        "title": "Performance Incentives"
+      },
+      "subtitle": "Supporting the growth and happiness of GME members",
+      "team_building": {
+        "description": "Monthly town halls, quarterly team events, sports clubs, and healing concerts to grow together.",
+        "title": "Team Building & Culture"
+      },
+      "title": "Benefits & Perks",
+      "vacation": {
+        "description": "Various special leave programs including birthday leave, anniversary leave, family events, and parental leave.",
+        "title": "Annual & Special Leave"
+      }
+    },
+    "header": {
+      "button": "View Openings",
+      "description": "Join our global fintech company providing financial services to customers in 200+ countries.",
+      "title": "Grow with GME"
+    },
+    "staff_stories": {
+      "subtitle": "Real stories from our colleagues",
+      "title": "Team Stories"
+    },
+    "why_gme": {
+      "agile": {
+        "description": "Execute quickly in a flat organization, learn from failures, and grow together.",
+        "title": "Fast Decision Making"
+      },
+      "diversity": {
+        "description": "Work alongside colleagues from 14+ nationalities and learn from diverse perspectives.",
+        "title": "Embracing Diversity"
+      },
+      "fairness": {
+        "description": "Evaluated fairly based on ability and performance, regardless of gender or nationality.",
+        "title": "Fair Opportunities"
+      },
+      "title": "Why GME is Special"
+    }
+  },
+  "company-ceo-message": {
+    "paragraph1": "As a leading fintech company in South Korea, we invest in cutting-edge technology and our people, striving for mutual growth and customer success.",
+    "paragraph2": "Join GME as we shape the future of global financial services, and experience more convenient and innovative services."
+  },
+  "company-history": {
+    "events": {
+      "2016_08": "Global Money Express Co., Ltd. established",
+      "2017_03": "Launched first online service",
+      "2017_06": "Launched Korea's first overseas remittance service",
+      "2017_08": "Korea's first small overseas remittance business registration",
+      "2017_12": "Annual overseas remittance exceeded KRW 10 billion",
+      "2018_04": "Cumulative overseas remittance exceeded KRW 54 billion",
+      "2018_09": "Selected as Seoul City recommended remittance provider",
+      "2018_12": "Annual overseas remittance exceeded KRW 460 billion",
+      "2018_loan": "Started credit loan service for foreigners",
+      "2019_03": "Launched domestic remittance service",
+      "2019_06": "Opened 12 branches nationwide",
+      "2019_07": "",
+      "2019_09": "Opened 3 centers nationwide",
+      "2019_12": "",
+      "2020_02": "Cumulative overseas remittance exceeded KRW 1 trillion",
+      "2020_05": "Launched Mobile Top-up service",
+      "2020_08": "Obtained prepaid electronic payment instrument issuance and management license",
+      "2020_09": "Launched GME Pay service",
+      "2020_12": "Annual overseas remittance exceeded KRW 1.0 trillion",
+      "2021_04": "Annual overseas remittance exceeded KRW 1.5 trillion",
+      "2021_07": "Launched Mobile Coupon service",
+      "2021_10": "Won Grand Prize at Hankyung Fintech Awards (Tech Category)",
+      "2021_12": "Obtained Payment Gateway (PG) business license",
+      "2022_03": "Obtained specialized foreign exchange business license",
+      "2022_06": "Launched GME B2B Payments service",
+      "2022_11": "Cumulative overseas remittance exceeded KRW 2 trillion",
+      "2022_12": "Annual overseas remittance exceeded KRW 1.7 trillion",
+      "2023_02": "Annual overseas remittance exceeded KRW 2.8 trillion",
+      "2023_05": "Launched GME Card service in partnership with BC Card and Mastercard",
+      "2023_09": "Obtained GME Mobile (MVNO) service license",
+      "2023_10": "Ranked Top 10 Korea Fintech by Forbes 2023",
+      "2023_kibo": "Selected as KIBO-Star Valley Company by KOTEC",
+      "2023_nice": "Certified as Excellent Technology Company by NICE",
+      "2024_03": "Launched GME Mobile (MVNO) service in partnership with LG U+",
+      "2024_06": "Launched 'GMEBiz' corporate payment service",
+      "2024_12": "Annual overseas remittance exceeded KRW 2.8 trillion",
+      "2025_03": "Launched insurance product for foreign residents",
+      "2025_04": "Certified as Innovative SME (Inno-Biz)",
+      "2025_06": "Launched debit card with transportation card feature",
+      "2025_12": "Annual overseas remittance exceeded KRW 4 trillion",
+      "2026_09": "Launched the EasyCare Card, offering insurance and membership benefits in partnership with DB Insurance."
+    },
+    "title_line1": "Endless Challenges,",
+    "title_line2": "New Beginnings"
+  },
+  "company-services": {
+    "b2b_payments": {
+      "desc": "Fast and low-cost cross-border payouts and collections",
+      "title": "B2B Payments"
+    },
+    "core_services": "Core Services",
+    "digital_wallet": {
+      "desc": "Deposit, send, and pay seamlessly in one place",
+      "title": "Digital Wallet"
+    },
+    "easy_loan": {
+      "desc": "100% paperless loan with same-day approval",
+      "title": "Easy Loan"
+    },
+    "gift_coupons": {
+      "desc": "Send digital gift coupons using reward points",
+      "title": "Gift Coupons"
+    },
+    "gme_card": {
+      "desc": "Pay, withdraw, and manage your money worldwide",
+      "title": "GME Card"
+    },
+    "learn_more": "Learn More",
+    "mobile_topup": {
+      "desc": "Instant mobile recharge in 150+ countries",
+      "title": "Mobile Top-up"
+    },
+    "money_exchange": {
+      "desc": "Better exchange rates than traditional banks",
+      "title": "Money Exchange"
+    },
+    "personal_remittance": {
+      "desc": "Send money locally or globally with multi-language support",
+      "title": "Remittance"
+    },
+    "related_services": "Related Services",
+    "subtitle": "All your global finance needs in one place",
+    "telecom": {
+      "desc": "Budget mobile plans starting from ₩3,300/month",
+      "title": "Telecom"
+    },
+    "title": "GME Services"
+  },
+  "company": {
+    "tabs": {
+      "ceo_message": "CEO's Message",
+      "history": "History",
+      "services": "Services"
+    }
+  }
+}

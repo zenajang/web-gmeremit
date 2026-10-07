@@ -1,0 +1,538 @@
+{
+  "home": {
+    "app-download-cta": {
+      "chips": [
+        "රියල්-ටයිම් අනුපාතිකයන්",
+        "ඔපටයිස් කළ මුදල්",
+        "ආරක්ෂිත සත්‍යාපනය"
+      ],
+      "description": "පහසු සහ ආරක්ෂිත සත්‍යාපනය, ඔපටයිස් කළ මුදල්, වේගවත් මාරු. GME Remit ඇප් සමඟ සියල්ල ආරක්ෂිතව හා පහසු ලෙස කළමනාකරණය කරන්න.",
+      "qr_scan": "QR කේතය ස්කෑන් කරන්න",
+      "subtitle": "GME REMIT APP",
+      "title1": "වේගයෙන් යවන්න,",
+      "title2": "බුද්ධිමත්ව කළමනාකරණය කරන්න"
+    },
+    "cards-showcase": {
+      "black": {
+        "cta": "Premium Card බලන්න",
+        "desc": "ඔබේ ගෝලීය වියදම් සඳහා ත්‍යාග ලබා දෙන ප්‍රිමියම් කාඩ්පතක්.",
+        "highlights": [
+          "විදේශයන්හි 3% මුදල් ආපසු ලබා දීම",
+          "ලොව පුරා ඕනෑම තැනක ගෙවීම් කරන්න",
+          "මාර්ගගත සහ මාර්ගගත නොවන සාප්පු සවාරි",
+          "පොදු ප්‍රවාහනය"
+        ]
+      },
+      "careers": {
+        "cta": {
+          "about": "සමාගම ගැන"
+        }
+      },
+      "cta": {
+        "button": "කාඩ් එකට අයදුම් කරන්න",
+        "description": "ඔබට සුදුසු කාඩ් එක සොයාගනිමින් විශේෂ ප්‍රතිලාභ ලබාගන්න.",
+        "title": "අදම GME Card සමඟ ආරම්භ කරන්න"
+      },
+      "easyCare": {
+        "cta": "EasyCare Card බලන්න",
+        "desc": "සැලකිල්ල සඳහා නිර්මාණය කරන ලද, Made to Care. රක්ෂණ සහ සාමාජිකත්ව ආධාරක ප්‍රතිලාභ සහිත පසුව ගෙවන ප්‍රවාහන කාඩ්පතක්.",
+        "highlights": [
+          "රක්ෂණ සහ සාමාජිකත්ව ආධාරක ප්‍රතිලාභ",
+          "පසුව ගෙවන ප්‍රවාහන කාඩ්පත",
+          "ඍතුමය සහ විශේෂ වෙළඳසැල් මුදල් ආපසු ලබා දීම",
+          "ලොව පුරා ඕනෑම තැනක ගෙවීම් කරන්න"
+        ]
+      },
+      "easyG0": {
+        "cta": "EasyGo Card බලන්න",
+        "desc": "දෛනික ජීවිතය වඩාත් පහසු කරගන්න. ප්‍රවාහනයේ සිට සාප්පු සවාරි දක්වා ඍතුමය ප්‍රතිලාභ භුක්ති විඳින්න.",
+        "highlights": [
+          "පසුව ගෙවන ප්‍රවාහන කාඩ්පත",
+          "ඍතුමය සහ විශේෂ වෙළඳසැල් මුදල් ආපසු ලබා දීම",
+          "ලෝකය පුරා ගෙවීම්",
+          "ඔන්ලයින් & ඔෆ්ලයින් මිලදී ගැනීම්"
+        ]
+      },
+      "image_alt": "කාඩ් රූපය",
+      "loan": {
+        "cta": {
+          "button": "ඇප් බාගන්න"
+        }
+      },
+      "pay": {
+        "cta": "Pay Card බලන්න",
+        "desc": "ඔබේ දෛනික වියදම් සඳහා සියල්ල එකට ඇති ගෙවීම් කාඩ්පතක්.",
+        "highlights": [
+          "ඍතුමය සහ විශේෂ වෙළඳසැල් මුදල් ආපසු ලබා දීම",
+          "ලොව පුරා ඕනෑම තැනක ගෙවීම් කරන්න",
+          "මාර්ගගත සහ මාර්ගගත නොවන සාප්පු සවාරි",
+          "පොදු ප්‍රවාහනය"
+        ]
+      },
+      "red": {
+        "cta": "Red Card බලන්න",
+        "desc": "GME හි සංකේත කාඩ්. සෑම ගෙවීමක්ම සුවිශේෂී කරන්න.",
+        "highlights": [
+          "සෘතුමය Cashback",
+          "විශේෂ උත්සව වට්ටම්",
+          "Metro · Bus · Taxi Easy Pay",
+          "පොදු ප්‍රවාහනය"
+        ]
+      },
+      "uniq": {
+        "cta": "UniQ Card බලන්න",
+        "desc": "රට 18කින් 30+ නිර්මාණ අතරින් ඔබේ කාඩ් එක තෝරන්න.",
+        "highlights": [
+          "ඍතුමය සහ විශේෂ වෙළඳසැල් මුදල් ආපසු ලබා දීම",
+          "විශේෂ උත්සව වට්ටම්",
+          "රට 18 30+ නිර්මාණ",
+          "Metro · Bus · Taxi Easy Pay"
+        ]
+      },
+      "white": {
+        "cta": "White Card බලන්න",
+        "desc": "සරල හා පිරිසිදු දෛනික කාඩ්. දේශීය ගෙවීම් සහ පොදු ප්‍රවාහනය සඳහා පහසුයි.",
+        "highlights": [
+          "සෘතුමය Cashback",
+          "විශේෂ උත්සව වට්ටම්",
+          "Metro · Bus · Taxi Easy Pay",
+          "පොදු ප්‍රවාහනය"
+        ]
+      }
+    },
+    "customer-feedback-section": {
+      "subtitle": "අපගේ පාරිභෝගිකයින්ගේ සැබෑ අත්දැකීම්.",
+      "tags": {
+        "easy_tracking": "පහසු මාරු කිරීම සහ නිරීක්ෂණය",
+        "fast_process": "වේගවත් ක්‍රියාවලිය",
+        "satisfied": "සතුටුදායක සේවාව"
+      },
+      "title": "සාක්ෂි"
+    },
+    "hero-main": {
+      "badge": "උසස් මාරු සේවාව",
+      "button": {
+        "learn_more": "වැඩිදුර"
+      },
+      "countries": {
+        "names": {
+          "AD": "Andorra",
+          "AE": "එක්සත් අරාබි එමිර් රාජ්‍යය",
+          "AG": "Antigua and Barbuda",
+          "AI": "Anguilla",
+          "AL": "Albania",
+          "AM": "Armenia",
+          "AO": "Angola",
+          "AR": "ආර්ජන්ටිනාව",
+          "AS": "American Samoa",
+          "AT": "Austria",
+          "AU": "ඕස්ට්‍රේලියාව",
+          "AW": "Aruba",
+          "AZ": "Azerbaijan",
+          "BA": "Bosnia and Herzegovina",
+          "BB": "Barbados",
+          "BD": "බංග්ලාදේශය",
+          "BE": "Belgium",
+          "BF": "Burkina Faso",
+          "BG": "Bulgaria",
+          "BH": "බහරේන්",
+          "BI": "Burundi",
+          "BJ": "Benin",
+          "BL": "Saint Barthélemy",
+          "BM": "Bermuda",
+          "BN": "Brunei",
+          "BO": "බොලිවියාව",
+          "BR": "බ්‍රසීලය",
+          "BS": "Bahamas",
+          "BT": "Bhutan",
+          "BW": "Botswana",
+          "BY": "Belarus",
+          "BZ": "Belize",
+          "CA": "කැනඩාව",
+          "CD": "Democratic Republic of the Congo",
+          "CF": "Central African Republic",
+          "CG": "Republic of the Congo",
+          "CH": "ස්විට්සර්ලන්තය",
+          "CI": "Ivory Coast",
+          "CK": "Cook Islands",
+          "CL": "චිලී",
+          "CM": "Cameroon",
+          "CN": "චීනය",
+          "CO": "කොලොම්බියාව",
+          "CR": "Costa Rica",
+          "CU": "Cuba",
+          "CV": "Cape Verde",
+          "CY": "Cyprus",
+          "CZ": "චෙක් ජනරජය",
+          "DE": "ජර්මනිය",
+          "DJ": "Djibouti",
+          "DK": "ඩෙන්මාර්කය",
+          "DM": "Dominica",
+          "DO": "ඩොමිනිකන් ජනරජය",
+          "DZ": "Algeria",
+          "EC": "Ecuador",
+          "EE": "Estonia",
+          "EG": "Egypt",
+          "ER": "Eritrea",
+          "ES": "Spain",
+          "ET": "Ethiopia",
+          "FI": "Finland",
+          "FJ": "ෆිජි",
+          "FM": "Micronesia",
+          "FR": "France",
+          "GA": "Gabon",
+          "GB": "එක්සත් රාජධානිය",
+          "GD": "Grenada",
+          "GE": "Georgia",
+          "GF": "French Guiana",
+          "GH": "ඝානාව",
+          "GI": "Gibraltar",
+          "GM": "Gambia",
+          "GN": "Guinea",
+          "GP": "Guadeloupe",
+          "GQ": "Equatorial Guinea",
+          "GR": "Greece",
+          "GT": "ග්වාතමාලාව",
+          "GU": "Guam",
+          "GW": "Guinea-Bissau",
+          "GY": "Guyana",
+          "HK": "හොංකොං",
+          "HN": "හොන්ඩුරාස්",
+          "HR": "Croatia",
+          "HT": "Haiti",
+          "HU": "හංගේරියාව",
+          "ID": "ඉන්දුනීසියාව",
+          "IE": "Ireland",
+          "IL": "ඊශ්‍රායෙලය",
+          "IN": "ඉන්දියාව",
+          "IS": "Iceland",
+          "IT": "Italy",
+          "JM": "Jamaica",
+          "JO": "ජෝර්දානය",
+          "JP": "ජපානය",
+          "KE": "කෙන්යාව",
+          "KG": "Kyrgyzstan",
+          "KH": "කාම්බෝජය",
+          "KM": "Comoros",
+          "KN": "Saint Kitts and Nevis",
+          "KW": "කුවේට්",
+          "KY": "Cayman Islands",
+          "KZ": "Kazakhstan",
+          "LA": "Laos",
+          "LB": "Lebanon",
+          "LC": "Saint Lucia",
+          "LI": "Liechtenstein",
+          "LK": "ශ්‍රී ලංකාව",
+          "LR": "Liberia",
+          "LS": "Lesotho",
+          "LT": "Lithuania",
+          "LU": "Luxembourg",
+          "LV": "Latvia",
+          "LY": "Libya",
+          "MA": "මොරොක්කෝව",
+          "MC": "Monaco",
+          "MD": "Moldova",
+          "ME": "Montenegro",
+          "MF": "Saint Martin (French part)",
+          "MG": "Madagascar",
+          "MH": "Marshall Islands",
+          "MK": "Macedonia",
+          "ML": "Mali",
+          "MM": "මියන්මාරය",
+          "MN": "Mongolia",
+          "MO": "Macao",
+          "MQ": "Martinique",
+          "MR": "Mauritania",
+          "MS": "Montserrat",
+          "MT": "Malta",
+          "MU": "Mauritius",
+          "MV": "Maldives",
+          "MW": "Malawi",
+          "MX": "මෙක්සිකෝව",
+          "MY": "මැලේසියාව",
+          "MZ": "Mozambique",
+          "NA": "Namibia",
+          "NC": "New Caledonia",
+          "NE": "Niger",
+          "NG": "නයිජීරියාව",
+          "NI": "Nicaragua",
+          "NL": "Netherlands",
+          "NO": "නෝර්වේ",
+          "NP": "නේපාලය",
+          "NZ": "නවසීලන්තය",
+          "OM": "ඕමානය",
+          "PA": "Panama",
+          "PE": "පේරු",
+          "PF": "French Polynesia",
+          "PG": "Papua New Guinea",
+          "PH": "පිලිපීනය",
+          "PK": "පාකිස්ථානය",
+          "PL": "පෝලන්තය",
+          "PR": "Puerto Rico",
+          "PS": "Palestinian Territory, Occupied",
+          "PT": "Portugal",
+          "PY": "පැරගුවේ",
+          "QA": "කටාර්",
+          "RE": "Réunion",
+          "RO": "රුමේනියාව",
+          "RS": "Serbia",
+          "RU": "රුසියාව",
+          "RW": "රුවන්ඩාව",
+          "SA": "සවුදි අරාබිය",
+          "SB": "Solomon Islands",
+          "SC": "Seychelles",
+          "SD": "Sudan",
+          "SE": "Sweden",
+          "SG": "සිංගප්පූරුව",
+          "SI": "Slovenia",
+          "SK": "Slovakia",
+          "SL": "Sierra Leone",
+          "SN": "Senegal",
+          "SR": "Suriname",
+          "SS": "South Sudan",
+          "ST": "Sao Tome and Principe",
+          "SV": "El Salvador",
+          "SZ": "Swaziland",
+          "TC": "Turks and Caicos Islands",
+          "TD": "Chad",
+          "TG": "Togo",
+          "TH": "තායිලන්තය",
+          "TJ": "Tajikistan",
+          "TL": "Timor-Leste",
+          "TM": "Turkmenistan",
+          "TN": "Tunisia",
+          "TO": "ටොංගා",
+          "TR": "Turkey",
+          "TT": "Trinidad and Tobago",
+          "TV": "Tuvalu",
+          "TZ": "ටැන්සානියාව",
+          "UA": "Ukraine",
+          "UG": "උගන්ඩාව",
+          "US": "එක්සත් ජනපදය",
+          "UY": "Uruguay",
+          "UZ": "Uzbekistan",
+          "VC": "Saint Vincent and the Grenadines",
+          "VE": "Venezuela",
+          "VG": "Virgin Islands, British",
+          "VI": "Virgin Islands, U.S.",
+          "VN": "වියට්නාමය",
+          "VU": "Vanuatu",
+          "WS": "සැමෝවා",
+          "XK": "Kosovo",
+          "YE": "Yemen",
+          "YT": "Mayotte",
+          "ZA": "South Africa",
+          "ZM": "සැම්බියාව",
+          "ZW": "Zimbabwe"
+        },
+        "realtime": "රියල්-ටයිම්",
+        "subtitle": "200+ රට සපයයි",
+        "title": "සහාය දක්වන රටවල්",
+        "view_all": "මාරු සේවා ගැන"
+      },
+      "description1": "200+ රටකට, කොරියානු බැංකු සියල්ලට රියල්-ටයිම් මාරු කරන්න.",
+      "description2": "ගෝලීය හවුල්කරුවන් 70 සහ E-KYC සත්‍යාපනය සමඟ ආරක්ෂිතයි.",
+      "rating": "App Store · Google Play සාමාන්‍යය",
+      "stats": {
+        "avg_time": "සාමාන්‍ය මාරු කාලය",
+        "seconds": "තත්පර",
+        "total_amount": "මුළු මාරු මුදල",
+        "trillion": "ට්‍රිලියන+"
+      },
+      "title1": "වේගවත් හා ආරක්ෂිත",
+      "title2": "අන්තර්ජාතික මාරු"
+    },
+    "hero-section": {
+      "exchange": {
+        "description1": "200+ රට සඳහා රියල්-ටයිම් අනුපාතිකයන්.",
+        "description2": "ගාස්තු පැහැදිලිව පෙන්වයි.",
+        "stats": {
+          "countries": "200+",
+          "countries_label": "සහාය දක්වන රටවල්",
+          "service": "24/7",
+          "service_label": "රියල්-ටයිම් සේවාව"
+        },
+        "title1": "අනුපාතිකයන්",
+        "title2": "දැන් පරීක්ෂා කරන්න"
+      }
+    },
+    "loan-section": {
+      "button": {
+        "apply": "GME ඇප් එකෙන් ණයට අයදුම් කරන්න",
+        "detail": "ණය ගැන වැඩිදුර"
+      },
+      "card": {
+        "quick_apply": "ඉක්මන් අයදුම්",
+        "subtitle": "විදේශිකයින් සඳහා ණය",
+        "title": "GME Finance"
+      },
+      "description": "GME ඇප් එකෙන් මිනිත්තු කිහිපයකින් ණයට අයදුම් කරන්න. තත්ත්වය සහ ශේෂය රියල්-ටයිම් ලෙස බලන්න.",
+      "features": {
+        "countries": {
+          "desc": "රටවල්",
+          "label": "14+"
+        },
+        "realtime": {
+          "desc": "නිරීක්ෂණය",
+          "label": "රියල්-ටයිම්"
+        },
+        "simple": {
+          "desc": "ඇප් මගින්",
+          "label": "සරල"
+        },
+        "success": {
+          "desc": "ණය",
+          "label": "1M+"
+        },
+        "support": {
+          "desc": "සහාය",
+          "label": "24/7"
+        }
+      },
+      "stats": {
+        "desc": "1M+ සාර්ථක ණය · රට 14",
+        "title": "මුළු ණය කාර්යසාධනය",
+        "value": "₩500B+"
+      },
+      "title": "ඔන්ලයින් ණය"
+    },
+    "main-services": {
+      "card": {
+        "desc1": "මාරු සහ වියදම් සම්බන්ධ කරන බුද්ධිමත් කාඩ්.",
+        "desc2": "ගෝලීය ගෙවීම් සඳහා නව සම්මතය.",
+        "title": "GME Card"
+      },
+      "loan": {
+        "desc1": "වේගවත් අනුමත කිරීම සහ ලච්ඡිලී කොන්දේසි",
+        "desc2": "ඩිජිටල් ණය සේවාව",
+        "title": "ඔන්ලයින් ණය"
+      },
+      "mobile": {
+        "desc1": "මාසයකට ව්‍ය 3,300 සිට ආරම්භ වන",
+        "desc2": "විදේශිකයන් සඳහා අයවැය ජංගම සේවාව",
+        "title": "ජංගම"
+      },
+      "payments": {
+        "desc1": "තොග ගෙවීම්, පියවීම්, හවුල්කාර මාරු",
+        "desc2": "වේගවත් හා ආරක්ෂිත කෝපරේට් ගෙවීම් ප්‍රවාහ.",
+        "title": "ගෝලීය ගෙවීම්"
+      },
+      "remittance": {
+        "desc1": "වේගවත් සහ ආරක්ෂිතව යවන්න",
+        "desc2": "200+ රටට",
+        "title": "විදේශ මාරු"
+      },
+      "title1": "GME හි",
+      "title2": "සේවා සොයන්න"
+    },
+    "payments-section": {
+      "global_payments": {
+        "button": {
+          "detail": "Payments ගැන වැඩිදුර"
+        },
+        "card": {
+          "status": "සක්‍රීය",
+          "subtitle": "කෝපරේට් විසඳුම්",
+          "title": "ගෙවීම් විසඳුම්"
+        },
+        "description": "වැටුප් මාරු, හවුල්කාර ගෙවීම්, e-commerce ගෙවීම්. අඩු වියදම් කෝපරේට් ගෙවීම් විසඳුම්.",
+        "features": {
+          "smb": "SMB",
+          "smb_desc": "E-commerce විසඳුම",
+          "sps": "SPS",
+          "sps_desc": "B2B ගෙවීම් විසඳුම",
+          "vas": "VAS",
+          "vas_desc": "දැනුම්දීම් · වාර්තා · ඩෑෂ්බෝඩ්"
+        },
+        "stats": {
+          "cost_saving": "වියදම් ඉතිරි කිරීම",
+          "cost_saving_change": "ප්‍රචලිත ක්‍රමයට සපුරා",
+          "cost_saving_value": "70% දක්වා",
+          "partners": "හවුල්කරුවන්",
+          "partners_change": "ගෝලීය",
+          "partners_value": "200+",
+          "success_rate": "සාර්ථකත්ව අනුපාතය",
+          "success_rate_change": "සාමාන්‍ය",
+          "success_rate_value": "99.8%"
+        },
+        "title": "ගෝලීය ගෙවීම්",
+        "transactions": {
+          "b2b": "B2B තොග මාරු",
+          "completed": "සම්පූර්ණයි",
+          "just_now": "දැනටමත්",
+          "merchant": "වෙළඳසැල් ගෙවීම",
+          "mins_ago": "මිනිත්තු කිහිපයකට පෙර",
+          "partner": "හවුල්කාර ගෙවීම",
+          "processing": "සකස් කරමින්",
+          "title": "නවතම ගනුදෙනු"
+        }
+      }
+    },
+    "remittance-section": {
+      "button": {
+        "detail": "මාරු සේවාව ගැන වැඩිදුර"
+      },
+      "description": "200+ රටකට වේගයෙන් හා ආරක්ෂිතව මුදල් යවන්න.",
+      "features": {
+        "fast": {
+          "back_desc": "කුඩා පියවර කිහිපයකින් ලොව පුරා යවන්න, සංකීර්ණ ක්‍රියාවලි අවශ්‍ය නැත.",
+          "back_title": "සරල මාරු කිරීම",
+          "desc": "ක්ලික් කිහිපයකින් විදේශ මාරු අවසන්",
+          "sub": "ක්ලික් කිහිපයකින්",
+          "title": "වේගවත් මාරු"
+        },
+        "global": {
+          "back_desc": "200+ රට සහ 70 ගෝලීය හවුල්කරුවන් සමඟ ලොව පුරා යවන්න.",
+          "back_title": "ගෝලීය ජාලය",
+          "desc": "1M+ පරිශීලකයින් GME විශ්වාස කරති",
+          "sub": "1M+ පරිශීලකයින්",
+          "title": "200+ රට"
+        },
+        "optimized": {
+          "back_desc": "බැංකු වලට වඩා ගාස්තු 90% දක්වා අඩුයි. රියල්-ටයිම් අනුපාතිකයන් සමඟ වැඩි මුදලක් යවන්න.",
+          "back_title": "විශාල ඉතිරි කිරීම",
+          "desc": "90% අඩු ගාස්තු සහ හොඳ අනුපාතිකයන්",
+          "sub": "90% ඉතිරි",
+          "title": "ඔපටයිස් කළ මුදල"
+        },
+        "security": {
+          "back_desc": "E-KYC සත්‍යාපනය හා FSC ලියාපදිංචි සේවාව සමඟ ආරක්ෂිතව යවන්න.",
+          "back_title": "ශක්තිමත් ආරක්ෂාව",
+          "desc": "ශක්තිමත් ආරක්ෂාව සමඟ විශ්වාසයෙන් භාවිත කරන්න",
+          "sub": "සත්‍යාපනයෙන් යුතු",
+          "title": "පහසු & ආරක්ෂිත"
+        }
+      },
+      "title": "විදේශ මාරු"
+    },
+    "section-nav": {
+      "app_download": "ඇප් බාගන්න",
+      "customer_feedback": "සාක්ෂි",
+      "exchange": "විනිමය ගණකය",
+      "home": "මුල් පිටුව",
+      "services": "සේවා"
+    },
+    "hero": {
+      "countries": {
+        "more": "තවත්"
+      }
+    },
+    "services": {
+      "loan": {
+        "estimated_limit": "අනුමාන සීමාව"
+      }
+    },
+    "section_nav": {
+      "testimonials": "සාක්ෂි"
+    },
+    "testimonials": {
+      "subtitle": "අපගේ පාරිභෝගිකයින්ගේ සැබෑ අත්දැකීම්.",
+      "tags": {
+        "easy_tracking": "පහසු මාරු කිරීම සහ නිරීක්ෂණය",
+        "fast_process": "වේගවත් ක්‍රියාවලිය",
+        "satisfied": "සතුටුදායක සේවාව"
+      },
+      "title": "සාක්ෂි"
+    }
+  }
+}

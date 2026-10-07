@@ -1,0 +1,52 @@
+{
+  "board-detail": {
+    "board-detail-client": {
+      "attachment": "Attachment",
+      "attachment_file": "Attachment",
+      "back": "Bumalik",
+      "back_to_list": "Bumalik sa Listahan",
+      "not_found": "Hindi nahanap ang post"
+    }
+  },
+  "board-notice": {
+    "redirect": {
+      "notice": "Nagre-redirect sa pahina ng Abiso..."
+    }
+  },
+  "board-press": {
+    "redirect": {
+      "press": "Nagre-redirect sa pahina ng Balita..."
+    }
+  },
+  "board": {
+    "blog-grid": {
+      "no_image": "Walang Larawan",
+      "no_results": "Walang nahanap na resulta."
+    },
+    "board-table": {
+      "attachment": "File",
+      "attachment_file": "Attachment",
+      "date": "Petsa",
+      "title": "Pamagat",
+      "type": "Uri"
+    },
+    "count_suffix": " mga post",
+    "pagination": {
+      "load_more": "Magpakita Pa"
+    },
+    "search-bar": {
+      "all": "Lahat",
+      "content": "Nilalaman",
+      "placeholder": "Maglagay ng keyword sa paghahanap",
+      "title": "Pamagat",
+      "button": "Maghanap"
+    },
+    "subtitle": "Tingnan ang pinakabagong balita mula sa GME Remit",
+    "tabs": {
+      "blog": "Blog",
+      "notice": "Abiso",
+      "press": "Balita"
+    },
+    "total": "Kabuuan"
+  }
+}

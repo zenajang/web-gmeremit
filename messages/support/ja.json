@@ -1,0 +1,218 @@
+{
+  "support-branches": {
+    "address": "住所",
+    "data": {
+      "1": {
+        "address": "ソウル特別市鍾路区鍾路315（東大門駅3番出口）",
+        "hours": "平日・週末 10:00 - 19:00",
+        "name": "東大門支店"
+      },
+      "2": {
+        "address": "京畿道安山市檀園区多文化ギル6 1階",
+        "hours": "平日・週末 10:00 - 19:00",
+        "name": "安山支店"
+      },
+      "3": {
+        "address": "ソウル特別市永登浦区道林路134 1階",
+        "hours": "平日・週末 10:00 - 19:00",
+        "name": "大林支店"
+      },
+      "4": {
+        "address": "京畿道水原市八達区梅山路2-10",
+        "hours": "平日・週末 10:00 - 19:00",
+        "name": "水原支店"
+      },
+      "5": {
+        "address": "京畿道華城市郷南邑3・1万歳路1109-3 1階",
+        "hours": "金～火 10:00 - 19:00",
+        "name": "華城支店"
+      },
+      "6": {
+        "address": "京畿道抱川市蘇屹邑ソルモル路91（農協銀行隣）",
+        "hours": "土～水 10:00 - 19:00",
+        "name": "松内支店"
+      },
+      "7": {
+        "address": "仁川広域市富平区光場路16（富平駅ショッピングモール）",
+        "hours": "土～水 10:00 - 19:00",
+        "name": "富平支店"
+      },
+      "8": {
+        "address": "慶尚南道金海市伽落路84（トップマート向かい）",
+        "hours": "平日・週末 10:00 - 19:00",
+        "name": "金海支店"
+      },
+      "9": {
+        "address": "京畿道平沢市平沢1路16-1",
+        "hours": "平日・週末 10:00 - 19:00",
+        "name": "平沢支店"
+      }
+    },
+    "hours": "営業時間",
+    "phone": "電話番号"
+  },
+  "support-inquiry": {
+    "categories": {
+      "2": {
+        "items": [
+          "法人会員登録および審査",
+          "貿易代金・役務代金の送金",
+          "手数料および為替レート条件",
+          "API連携および精算"
+        ]
+      },
+      "7": {
+        "items": [
+          "料金プランおよび請求内容の確認",
+          "開通・番号ポータビリティ・解約",
+          "USIMの配送および交換",
+          "データ・通話品質"
+        ]
+      }
+    },
+    "category-card": {
+      "categories": {
+        "1": {
+          "name": "個人送金に関するお問い合わせ",
+          "sub": "個人送金 · 為替レート · 受取"
+        },
+        "2": {
+          "name": "法人送金 (Biz) に関するお問い合わせ",
+          "sub": "法人 · 貿易代金 · B2B"
+        },
+        "3": {
+          "name": "ローンに関するお問い合わせ",
+          "sub": "申込資格 · 限度額 · 返済"
+        },
+        "4": {
+          "name": "提携・パートナーシップ",
+          "sub": "提携 · 事業提案"
+        },
+        "5": {
+          "name": "採用に関するお問い合わせ",
+          "sub": "応募 · 採用プロセス"
+        },
+        "6": {
+          "name": "消費者保護・苦情",
+          "sub": "紛争 · 利用制限 · 通報"
+        },
+        "7": {
+          "name": "モバイル・通信のお問い合わせ",
+          "sub": "料金プラン · 開通 · SIM"
+        }
+      }
+    },
+    "category-selector": {
+      "question": "どのようなお問い合わせですか?"
+    },
+    "chat": {
+      "action": "チャット相談を始める",
+      "description": "オペレーターがリアルタイムでお答えします。営業時間外はチャットボットがご案内し、折り返しのご連絡を受け付けます。",
+      "items": [
+        "平日 09:00 ~ 18:00 · オペレーター対応",
+        "それ以外の時間 · チャットボット案内後に折り返し受付",
+        "12言語対応 (ネパール語・ベトナム語・タイ語など)"
+      ]
+    },
+    "external": {
+      "action": "お問い合わせページへ",
+      "description": "このお問い合わせは {{site}} のサイトで受け付けています。"
+    },
+    "guide-panel": {
+      "common": {
+        "reset": "種類を選び直す"
+      }
+    },
+    "honeypot-field": {
+      "form": {
+        "honeypot": "住所"
+      }
+    },
+    "inquiry-form": {
+      "categories": {
+        "4": {
+          "dept": "担当部署"
+        },
+        "5": {
+          "dept": "人事担当部署"
+        },
+        "6": {
+          "dept": "消費者保護担当部署"
+        }
+      },
+      "contentLabel": "お問い合わせ内容",
+      "contentPlaceholder": "詳しくご記入いただくと、より正確にご回答できます。",
+      "emailLabel": "メールアドレス",
+      "emailPlaceholder": "name@example.com",
+      "errors": {
+        "email": "メールアドレスをご確認ください。",
+        "failed": "お問い合わせの送信に失敗しました。しばらくしてからもう一度お試しください。",
+        "phone": "電話番号をご確認ください。",
+        "required": "必須項目をすべてご入力ください。",
+        "turnstile": "セキュリティ確認を完了してください。"
+      },
+      "nameLabel": "お名前",
+      "namePlaceholder": "山田 太郎",
+      "notice": "{{dept}}が確認のうえご回答します。",
+      "phoneLabel": "電話番号",
+      "phonePlaceholder": "010-0000-0000",
+      "submit": "お問い合わせを送信",
+      "titleLabel": "件名",
+      "titlePlaceholder": "件名をご入力ください"
+    },
+    "step-indicator": {
+      "steps": {
+        "connect": "2. 相談・受付",
+        "select": "1. 種類を選択"
+      }
+    },
+    "submission-complete": {
+      "description": "担当部署が確認のうえ、ご入力のメールアドレスへご回答します。",
+      "reset": "最初に戻る"
+    }
+  },
+  "support-social-channels": {
+    "contact": "お問い合わせ",
+    "countries_count": "38ヶ国",
+    "countries": {
+      "african-region": "アフリカ地域",
+      "bangladesh": "バングラデシュ",
+      "cambodia": "カンボジア",
+      "china": "中国",
+      "india": "インド",
+      "indonesia": "インドネシア",
+      "japan": "日本",
+      "korea": "韓国",
+      "mongolia": "モンゴル",
+      "myanmar": "ミャンマー",
+      "nepal": "ネパール",
+      "pakistan": "パキスタン",
+      "philippines": "フィリピン",
+      "srilanka": "スリランカ",
+      "thailand": "タイ",
+      "uzbekistan-cis": "ウズベキスタン・CIS",
+      "vietnam": "ベトナム",
+      "western": "欧米"
+    },
+    "description": "各国のGME公式チャンネルでつながりましょう",
+    "operating": "運営中",
+    "title": "グローバルソーシャルチャンネル"
+  },
+  "support": {
+    "tabs": {
+      "branches": "支店",
+      "social_channels": "ソーシャルチャンネル"
+    },
+    "stats": {
+      "countries_label": "サービス対応国",
+      "branches_label": "支店",
+      "branches_unit": "+",
+      "branches_value": "12",
+      "countries_unit": "+",
+      "countries_value": "38",
+      "services_label": "サービス",
+      "services_unit": "+",
+      "services_value": "8"
+    }
+  }
+}

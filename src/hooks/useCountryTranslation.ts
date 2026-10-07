@@ -25,24 +25,24 @@ const isSiteLanguage = (code: string) => languages.some((language) => language.c
  * 그 외에는 사이트 언어 → 영어 → 고유 언어 순으로 찾는다.
  */
 export function useCountryTranslation(countryName: string) {
-  const { currentLanguage, isAutoLanguage } = useLanguage();
+  const { currentLanguage } = useLanguage();
   const entry = useMemo(() => getCountryTranslation(countryName), [countryName]);
 
   /** 랜딩이 실제로 렌더되는 언어. 랜딩 안의 다른 번역도 이 언어를 따라야 한다 */
   const activeLangCode = useMemo(() => {
     if (!entry) return currentLanguage.code;
 
-    // 사이트에서 고를 수 없는 언어의 나라는 진입 직후 고유 언어로 보여준다.
-    // 사용자가 언어를 직접 고르면 그 언어를 따른다.
+    // 고유 언어가 사이트 언어 목록에 없는 나라(카자흐어·키르기스어·라오어)는
+    // 랜딩 본문만 그 언어로 보여준다. 헤더·푸터는 사이트 언어를 따라가 영어로 나온다.
     const nativeOnly = !isSiteLanguage(entry.nativeLangCode);
-    if (nativeOnly && isAutoLanguage && entry.files[entry.nativeLangCode]) {
+    if (nativeOnly && entry.files[entry.nativeLangCode]) {
       return entry.nativeLangCode;
     }
 
     if (entry.files[currentLanguage.code]) return currentLanguage.code;
     if (entry.files[FALLBACK_LANG]) return FALLBACK_LANG;
     return entry.nativeLangCode;
-  }, [entry, currentLanguage.code, isAutoLanguage]);
+  }, [entry, currentLanguage.code]);
 
   const activeData = useMemo(
     () => entry?.files[activeLangCode] ?? {},

@@ -54,7 +54,7 @@ export default function ServiceHeroSection({
   translationKey,
   color,
   ctaHref,
-  ctaTextKey = "hero.cta",
+  ctaTextKey = "cta",
   isExternal = false,
   gradientVia,
   maxWidth = "max-w-content",
@@ -70,13 +70,13 @@ export default function ServiceHeroSection({
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
           <div>
             <p className={`text-sm font-semibold ${styles.text} tracking-wide uppercase mb-3`}>
-              {t("hero.badge")}
+              {t("badge")}
             </p>
             <h1 className="typo-sub-page-title leading-tight mb-3">
-              {t("hero.title1")} <span className={styles.text}>{t("hero.title2")}</span>
+              {t("title1")} <span className={styles.text}>{t("title2")}</span>
             </h1>
             <p className="text-gray-500 max-w-lg">
-              {t("hero.description")}
+              {t("description")}
             </p>
           </div>
           {ctaHref && (

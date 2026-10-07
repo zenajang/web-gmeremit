@@ -1,0 +1,227 @@
+{
+  "header": {
+    "link": {
+      "careers": "Tuyển dụng"
+    },
+    "nav": {
+      "blog": "Blog",
+      "branches": "Chi nhánh",
+      "card": "GME Card",
+      "ceo_message": "Thông điệp CEO",
+      "company": "Công ty",
+      "history": "Lịch sử",
+      "inquiry": "Liên hệ",
+      "loan": "GME Loan",
+      "news": "Tin tức",
+      "notice": "Thông báo",
+      "payments": "GME Payments (B2B)",
+      "press": "Tin tức / Báo chí",
+      "remittance": "Chuyển tiền qua ứng dụng GME",
+      "services": "Dịch vụ",
+      "services_menu": "Dịch vụ",
+      "social_channels": "Kênh mạng xã hội",
+      "support": "Hỗ trợ",
+      "telecom": "Di động"
+    }
+  },
+  "footer": {
+    "company_name": "Global Money Express",
+    "copyright": "© Global Money Express, All rights reserved.",
+    "info": {
+      "address": "Địa chỉ: 901~911Ho, B-dong, Saenggak Gongjang Bldg., 150, Yeongdeungpo-ro, Yeongdeungpo-gu, Seoul, Korea 07292",
+      "email_support": "Hỗ trợ: support@gmeremit.com",
+      "fax": "Fax: (+82) 2 3674 5559",
+      "phone_general": "02-3673-5559 (Thắc mắc chung)",
+      "remittance_inquiry": "Câu hỏi về chuyển tiền"
+    },
+    "link": {
+      "privacy": "Chính sách bảo mật",
+      "terms": "Điều khoản dịch vụ"
+    }
+  },
+  "common": {
+    "blog-grid": {
+      "board": {
+        "by": "By"
+      }
+    },
+    "board": {
+      "error_description": "Vui lòng thử lại sau.",
+      "error_title": "Không thể tải bài viết"
+    },
+    "careers": {
+      "cta": {
+        "openings": "Xem vị trí tuyển dụng",
+        "subtitle": "Xem các vị trí đang tuyển dụng và ứng tuyển ngay.",
+        "title": "Gia nhập GME"
+      }
+    },
+    "exchange-rate-calculator": {
+      "home": {
+        "exchange": {
+          "calculator": {
+            "bank_deposit": "Chuyển khoản",
+            "cash_payment": "Nhận tiền mặt",
+            "delivery_method": "Hình thức chuyển",
+            "error": "Lỗi",
+            "error_failed": "Không thể tra cứu tỷ giá",
+            "error_limit": "Vượt quá hạn mức chuyển tiền",
+            "error_max_amount": "Số tiền chuyển tối đa: %1$s KRW",
+            "error_min_amount": "Số tiền chuyển tối thiểu: %1$s KRW",
+            "error_network": "Lỗi mạng",
+            "error_unavailable": "Không thể tra cứu số tiền này",
+            "error_unavailable_method": "Phương thức chuyển tiền này hiện không khả dụng",
+            "fee": "Đã bao gồm phí",
+            "loading": "Đang tải...",
+            "mobile_wallet": "Ví di động",
+            "no_results": "Không có kết quả",
+            "payout_methods": {
+              "1": "Nhận tiền mặt",
+              "2": "Chuyển khoản",
+              "12": "Giao tận nơi",
+              "13": "Ví di động",
+              "14": "Thanh toán thẻ",
+              "15": "Bank Deposit (USD)",
+              "16": "WeChat Pay",
+              "17": "Alipay",
+              "18": "Visa/Mastercard/UnionPay",
+              "19": "Visa/Mastercard",
+              "24": "UPTION",
+              "25": "UPI",
+              "26": "UZCARD",
+              "27": "HUMO Card",
+              "33": "bKash",
+              "34": "Rocket",
+              "35": "Nagad",
+              "37": "Thanh toán QR",
+              "38": "Korti Milli"
+            },
+            "qr_pay": "Thanh toán QR",
+            "rate": "Tỷ giá",
+            "realtime": "Thời gian thực",
+            "receive_amount": "Số tiền nhận",
+            "receive_country": "Quốc gia nhận",
+            "search_placeholder": "Tìm kiếm quốc gia",
+            "send_amount": "Số tiền gửi",
+            "title": "Máy tính tỷ giá thời gian thực"
+          }
+        }
+      }
+    },
+    "loan": {
+      "cta": {
+        "description": "Nhận khoản vay bạn cần nhanh chóng với đăng ký dễ dàng trên di động.",
+        "inline_notice": "ⓘ Khi nhấp vào nút bên dưới, bạn sẽ được kết nối đến dịch vụ cho vay do GME Finance cung cấp.",
+        "title": "Bắt đầu vay với ứng dụng GME ngay hôm nay"
+      }
+    },
+    "mobile-section": {
+      "hero": {
+        "description": "Chọn loại yêu cầu, chúng tôi sẽ hướng dẫn bạn đến bộ phận phụ trách."
+      }
+    },
+    "payments": {
+      "business": {
+        "cta": {
+          "description": "Phát triển doanh nghiệp của bạn với giải pháp thanh toán toàn cầu. Quản lý chuyên trách sẽ đề xuất giải pháp tối ưu cho bạn.",
+          "email": "corporate@gmeremit.com",
+          "title": "Bắt đầu với GME Payments"
+        }
+      }
+    },
+    "remittance": {
+      "features": {
+        "app": {
+          "desc": "Hoàn tất chuyển tiền chỉ với vài thao tác",
+          "title": "Chuyển tiền qua ứng dụng"
+        },
+        "branches": {
+          "desc": "Nhận hỗ trợ tại các chi nhánh trên toàn quốc",
+          "title": "Chi nhánh ngoại tuyến"
+        },
+        "convenient": {
+          "desc": "Quy trình trực quan ai cũng có thể sử dụng",
+          "title": "Trải nghiệm dễ dàng"
+        },
+        "multilingual": {
+          "desc": "Sử dụng dịch vụ bằng nhiều ngôn ngữ",
+          "title": "Hỗ trợ đa ngôn ngữ"
+        },
+        "subtitle": "Chuyển tiền và theo dõi mọi thứ trong một ứng dụng",
+        "title": "Đơn giản hơn",
+        "title2": "Chuyển tiền an toàn hơn"
+      }
+    },
+    "services": {
+      "chat": {
+        "title": "Bạn sẽ được kết nối với tư vấn trực tuyến"
+      },
+      "complete": {
+        "title": "Đã tiếp nhận yêu cầu của bạn"
+      },
+      "external": {
+        "title": "Chuyển đến {{site}}"
+      },
+      "hero": {
+        "title": "Chúng tôi có thể giúp gì cho bạn?"
+      }
+    },
+    "support": {
+      "hero": {
+        "desc1": "Thông qua các chi nhánh trên toàn quốc và kênh mạng xã hội toàn cầu,",
+        "desc2": "bạn có thể nhận hỗ trợ và đặt câu hỏi bất cứ lúc nào.",
+        "desc3": "Tìm chi nhánh gần bạn hoặc kết nối với chúng tôi trên mạng xã hội.",
+        "title": "GME, Luôn bên bạn"
+      }
+    },
+    "telecom-page-client": {
+      "cta": {
+        "button": "Đến GME Mobile",
+        "description": "Tiết kiệm cước phí với gói cước giá rẻ, hỗ trợ 17 ngôn ngữ.",
+        "title": "Bắt đầu với GME Mobile"
+      },
+      "features": {
+        "activation": {
+          "description": "Tự kích hoạt dễ dàng từ ứng dụng",
+          "title": "Kích hoạt 5 phút"
+        },
+        "affordable": {
+          "description": "Gói cước siêu rẻ cho người nước ngoài",
+          "title": "Từ 3.300 KRW/tháng"
+        },
+        "esim": {
+          "description": "Quét mã QR và kích hoạt ngay",
+          "title": "Hỗ trợ eSIM"
+        },
+        "intl_call": {
+          "description": "Một số gói có 20 phút gọi quốc tế/ngày",
+          "title": "Bao gồm gọi quốc tế"
+        },
+        "multilang": {
+          "description": "Sử dụng bằng tiếng mẹ đẻ",
+          "title": "Hỗ trợ 17 ngôn ngữ"
+        },
+        "network": {
+          "description": "Phủ sóng ổn định toàn quốc",
+          "title": "Chất lượng tương đương LGU+, KT"
+        },
+        "plans": {
+          "description": "Gói cước phù hợp từ 3.300 KRW/tháng",
+          "title": "Gói cước đa dạng"
+        },
+        "usim": {
+          "description": "Giao hàng và kích hoạt trong 5 phút",
+          "title": "Tự kích hoạt USIM"
+        }
+      }
+    },
+    "company": {
+      "tabs": {
+        "title": "Giới thiệu công ty"
+      }
+    },
+    "button": {
+      "app_download": "Tải ứng dụng"
+    }
+  }
+}

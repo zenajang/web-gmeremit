@@ -11,7 +11,7 @@ import { loanBenefitKeys, loanBenefitImages, productKeys, commonTags, loanSteps,
 import SectionHeader from "@/components/ui/SectionHeader";
 
 export default function LoanPage() {
-  const { t, tObject, currentLanguage } = useTranslation("loan");
+  const { t, tObject, currentLanguage } = useTranslation();
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   useLenis();
   const { registerSectionRef } = useScrollFadeIn();
@@ -36,12 +36,12 @@ export default function LoanPage() {
     </svg>
   ));
 
-  const faqItems = tObject<{ q: string; a: string }[]>("faq.items");
+  const faqItems = tObject<{ q: string; a: string }[]>("services-loan.faq.items");
 
   return (
     <PublicLayout className="bg-gradient-to-b from-white via-white to-amber-50/30">
 
-        <ServiceHeroSection translationKey="loan" color="loan" gradientVia="gray-100" ctaHref="#products" />
+        <ServiceHeroSection translationKey="services-loan.service-hero-section" color="loan" gradientVia="gray-100" ctaHref="#products" />
 
         {/* ── 법적 고지 배너 ── */}
         <section className="bg-amber-50 border-y border-amber-200">
@@ -51,7 +51,7 @@ export default function LoanPage() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
               </svg>
               <p className="text-sm lg:text-base text-amber-900 leading-relaxed">
-                {t("disclosure.banner")}
+                {t("services-loan.disclosure.banner")}
               </p>
             </div>
           </div>
@@ -77,7 +77,7 @@ export default function LoanPage() {
                         </div>
                         <div>
                           <p className="typo-label">GME Finance</p>
-                          <p className="text-[11px] text-gray-400">{t("hero.title1")} {t("hero.title2")}</p>
+                          <p className="text-[11px] text-gray-400">{t("services-loan.service-hero-section.title1")} {t("services-loan.service-hero-section.title2")}</p>
                         </div>
                       </div>
                     </div>
@@ -85,11 +85,11 @@ export default function LoanPage() {
                     {/* Loan Stats */}
                     <div className="rounded-2xl bg-yellow-50 border border-yellow-200 p-5 mb-4">
                       <div className="flex items-center justify-between mb-3">
-                        <span className="text-sm font-semibold text-dark">{t("why.stats_label")}</span>
+                        <span className="text-sm font-semibold text-dark">{t("services-loan.why.stats_label")}</span>
                         <span className="text-[11px] text-gray-400">GME Finance</span>
                       </div>
-                      <p className="text-3xl font-bold text-loan mb-1">{t("why.stats_value")}</p>
-                      <p className="text-xs text-gray-400">{t("why.stats_desc")}</p>
+                      <p className="text-3xl font-bold text-loan mb-1">{t("services-loan.why.stats_value")}</p>
+                      <p className="text-xs text-gray-400">{t("services-loan.why.stats_desc")}</p>
                     </div>
 
                     {/* Mini Feature Icons */}
@@ -104,7 +104,7 @@ export default function LoanPage() {
                             <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg bg-white flex items-center justify-center text-loan mx-auto mb-1 sm:mb-1.5 shadow-sm">
                               <Image src={img.src} alt={img.alt} width={24} height={24} className="w-5 h-5 sm:w-7 sm:h-7 object-contain" />
                             </div>
-                            <p className="text-[9px] sm:text-[11px] font-bold text-dark leading-tight">{t(`why.${key}.title`)}</p>
+                            <p className="text-[9px] sm:text-[11px] font-bold text-dark leading-tight">{t(`services-loan.why.${key}.title`)}</p>
                           </div>
                         );
                       })}
@@ -116,9 +116,9 @@ export default function LoanPage() {
               {/* Text Content */}
               <div className="w-full lg:w-7/12">
                 <SectionHeader
-                  label={t("why.badge")}
-                  title={t("why.title")}
-                  description={t("why.description")}
+                  label={t("services-loan.why.badge")}
+                  title={t("services-loan.why.title")}
+                  description={t("services-loan.why.description")}
                   colorClass="text-loan"
                   align="left"
                   className="mb-8"
@@ -129,8 +129,8 @@ export default function LoanPage() {
                       key={item.key}
                       className="group rounded-xl p-4 bg-white border border-gray-200 shadow-sm hover:shadow-lg hover:border-loan/30 hover:-translate-y-0.5 transition-all duration-300 fade-step"
                     >
-                      <p className="typo-label">{t(`why.${item.key}.title`)}</p>
-                      <p className="text-xs text-gray-400">{t(`why.${item.key}.desc`)}</p>
+                      <p className="typo-label">{t(`services-loan.why.${item.key}.title`)}</p>
+                      <p className="text-xs text-gray-400">{t(`services-loan.why.${item.key}.desc`)}</p>
                     </div>
                   ))}
                 </div>
@@ -143,9 +143,9 @@ export default function LoanPage() {
         <section id="products" ref={registerSectionRef(1)} className="py-20 lg:py-32 fade-section">
           <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
             <SectionHeader
-              title={t("products.title")}
-              title2={t("products.title2")}
-              description={t("products.subtitle")}
+              title={t("services-loan.products.title")}
+              title2={t("services-loan.products.title2")}
+              description={t("services-loan.products.subtitle")}
               colorClass="text-loan"
             />
 
@@ -156,9 +156,9 @@ export default function LoanPage() {
                   key={key}
                   className="inline-flex items-center gap-1.5 px-4 py-2 bg-[#f5f6f7] rounded-full text-sm text-gray-600 fade-step"
                 >
-                  <span className="font-semibold text-dark">{t(`details.${key}.label`)}</span>
+                  <span className="font-semibold text-dark">{t(`services-loan.details.${key}.label`)}</span>
                   <span className="text-gray-400">·</span>
-                  {t(`details.${key}.value`)}
+                  {t(`services-loan.details.${key}.value`)}
                 </span>
               ))}
             </div>
@@ -171,10 +171,10 @@ export default function LoanPage() {
                   className="bg-loan/[0.08] rounded-2xl p-5 border border-transparent fade-step text-center"
                 >
                   <h3 className="text-[17px] font-bold text-dark mb-1">
-                    {t(`products.${key}.name`)}
+                    {t(`services-loan.products.${key}.name`)}
                   </h3>
                   <p className="text-[14px] text-gray-400 leading-relaxed">
-                    {t(`products.${key}.desc`)}
+                    {t(`services-loan.products.${key}.desc`)}
                   </p>
                 </div>
               ))}
@@ -187,10 +187,10 @@ export default function LoanPage() {
           <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="typo-section-title mb-3">
-                {t("process.title")}
+                {t("services-loan.process.title")}
               </h2>
               <p className="max-w-2xl mx-auto text-lg font-semibold text-dark">
-                {t("process.subtitle")}
+                {t("services-loan.process.subtitle")}
               </p>
             </div>
 
@@ -216,10 +216,10 @@ export default function LoanPage() {
                       STEP 0{idx + 1}.
                     </p>
                     <h3 className="typo-card-title mb-1.5">
-                      {t(`process.${step}.title`)}
+                      {t(`services-loan.process.${step}.title`)}
                     </h3>
                     <p className="text-sm text-gray-500 leading-relaxed">
-                      {t(`process.${step}.desc`)}
+                      {t(`services-loan.process.${step}.desc`)}
                     </p>
                   </div>
                 </div>
@@ -233,7 +233,7 @@ export default function LoanPage() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-10">
               <h2 className="typo-section-title mb-3">
-                {t("faq.title")}
+                {t("services-loan.faq.title")}
               </h2>
             </div>
 
@@ -282,13 +282,13 @@ export default function LoanPage() {
 
               <div className="relative text-center py-14 px-6 sm:px-12">
                 <h2 className="text-2xl lg:text-3xl font-bold text-white mb-4">
-                  {t("cta.title")}
+                  {t("common.loan.cta.title")}
                 </h2>
                 <p className="text-gray-400 mb-6 max-w-lg mx-auto">
-                  {t("cta.description")}
+                  {t("common.loan.cta.description")}
                 </p>
                 <p className="text-[12px] text-loan-light/90 mb-5 max-w-lg mx-auto">
-                  {t("cta.inline_notice")}
+                  {t("common.loan.cta.inline_notice")}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 justify-center">
                   <a
@@ -323,7 +323,7 @@ export default function LoanPage() {
         <section className="bg-dark">
           <div className="max-w-[1540px] mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-10">
             <p className="text-xs font-semibold text-gray-300 mb-3">
-              {t("disclosure.provider_heading")}
+              {t("services-loan.disclosure.provider_heading")}
             </p>
 
             <div className="space-y-1 text-xs text-gray-400 leading-relaxed">
@@ -331,40 +331,40 @@ export default function LoanPage() {
                 <p>
                   {providerInfo.companyName && <strong className="text-white font-semibold">{providerInfo.companyName}</strong>}
                   {providerInfo.companyName && providerInfo.brandName && " "}
-                  {providerInfo.brandName && <span className="text-gray-500">({t("disclosure.label_brand_name")}: {providerInfo.brandName})</span>}
+                  {providerInfo.brandName && <span className="text-gray-500">({t("services-loan.disclosure.label_brand_name")}: {providerInfo.brandName})</span>}
                 </p>
               )}
               <p>
-                {providerInfo.ceo && <>{t("disclosure.label_ceo")}: {providerInfo.ceo}</>}
+                {providerInfo.ceo && <>{t("services-loan.disclosure.label_ceo")}: {providerInfo.ceo}</>}
                 {providerInfo.ceo && providerInfo.phone && " | "}
-                {providerInfo.phone && <>{t("disclosure.label_phone")}: {providerInfo.phone}</>}
+                {providerInfo.phone && <>{t("services-loan.disclosure.label_phone")}: {providerInfo.phone}</>}
                 {providerInfo.email && (
                   <>
                     {(providerInfo.ceo || providerInfo.phone) && " | "}
-                    {t("disclosure.label_email")}: {providerInfo.email}
+                    {t("services-loan.disclosure.label_email")}: {providerInfo.email}
                   </>
                 )}
               </p>
               <p>
-                {providerInfo.businessNumber && <>{t("disclosure.label_business_number")}: {providerInfo.businessNumber}</>}
+                {providerInfo.businessNumber && <>{t("services-loan.disclosure.label_business_number")}: {providerInfo.businessNumber}</>}
                 {providerInfo.businessNumber && providerInfo.loanLicense && " | "}
-                {providerInfo.loanLicense && <>{t("disclosure.label_loan_license")}: {providerInfo.loanLicense}</>}
+                {providerInfo.loanLicense && <>{t("services-loan.disclosure.label_loan_license")}: {providerInfo.loanLicense}</>}
                 {providerInfo.supervisor && (
                   <>
                     {(providerInfo.businessNumber || providerInfo.loanLicense) && " | "}
-                    {t("disclosure.label_supervisor")}: {providerInfo.supervisor}
+                    {t("services-loan.disclosure.label_supervisor")}: {providerInfo.supervisor}
                   </>
                 )}
               </p>
-              {providerInfo.address && <p>{t("disclosure.label_address")}: {providerInfo.address}</p>}
+              {providerInfo.address && <p>{t("services-loan.disclosure.label_address")}: {providerInfo.address}</p>}
             </div>
 
             <div className="mt-5 pt-4 border-t border-white/10 space-y-1.5">
               <p className="text-xs text-gray-400 leading-relaxed">
-                {t("disclosure.disclaimer")}
+                {t("services-loan.disclosure.disclaimer")}
               </p>
               <p className="text-[11px] text-gray-500 leading-relaxed">
-                {t("disclosure.law_notice")}
+                {t("services-loan.disclosure.law_notice")}
               </p>
             </div>
           </div>

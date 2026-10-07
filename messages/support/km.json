@@ -1,0 +1,218 @@
+{
+  "support-branches": {
+    "address": "អាសយដ្ឋាន",
+    "data": {
+      "1": {
+        "address": "315 Jongno, Jongno-gu, Seoul (Dongdaemun Station Exit 3)",
+        "hours": "ថ្ងៃធ្វើការ និងចុងសប្តាហ៍ 10:00 - 19:00",
+        "name": "សាខា Dongdaemun"
+      },
+      "2": {
+        "address": "1F, 6 Damunhwa-gil, Danwon-gu, Ansan-si, Gyeonggi-do",
+        "hours": "ថ្ងៃធ្វើការ និងចុងសប្តាហ៍ 10:00 - 19:00",
+        "name": "សាខា Ansan"
+      },
+      "3": {
+        "address": "1F, 134 Dorim-ro, Yeongdeungpo-gu, Seoul",
+        "hours": "ថ្ងៃធ្វើការ និងចុងសប្តាហ៍ 10:00 - 19:00",
+        "name": "សាខា Daerim"
+      },
+      "4": {
+        "address": "2-10 Maesan-ro, Paldal-gu, Suwon-si, Gyeonggi-do",
+        "hours": "ថ្ងៃធ្វើការ និងចុងសប្តាហ៍ 10:00 - 19:00",
+        "name": "សាខា Suwon"
+      },
+      "5": {
+        "address": "1F, 1109-3 3·1 Manse-ro, Hyangnam-eup, Hwaseong-si, Gyeonggi-do",
+        "hours": "Fri - Tue 10:00 - 19:00",
+        "name": "សាខា Hwaseong"
+      },
+      "6": {
+        "address": "91 Solmoru-ro, Soheul-eup, Pocheon-si, Gyeonggi-do (Next to NH Bank)",
+        "hours": "Sat - Wed 10:00 - 19:00",
+        "name": "សាខា Songuri"
+      },
+      "7": {
+        "address": "16 Gwangjang-ro, Bupyeong-gu, Incheon (Bupyeong Station Shopping Mall)",
+        "hours": "Sat - Wed 10:00 - 19:00",
+        "name": "សាខា Bupyeong"
+      },
+      "8": {
+        "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (Across from Top Mart)",
+        "hours": "ថ្ងៃធ្វើការ និងចុងសប្តាហ៍ 10:00 - 19:00",
+        "name": "សាខា Gimhae"
+      },
+      "9": {
+        "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+        "hours": "ថ្ងៃធ្វើការ និងចុងសប្តាហ៍ 10:00 - 19:00",
+        "name": "សាខា Pyeongtaek"
+      }
+    },
+    "hours": "ម៉ោងបើក",
+    "phone": "ទូរស័ព្ទ"
+  },
+  "support-inquiry": {
+    "categories": {
+      "2": {
+        "items": [
+          "ការចុះឈ្មោះ និងពិនិត្យ",
+          "ការទូទាត់ពាណិជ្ជកម្ម និងសេវាកម្ម",
+          "សេវា និងអត្រាប្តូរប្រាក់",
+          "ការតភ្ជាប់ API និងការទូទាត់"
+        ]
+      },
+      "7": {
+        "items": [
+          "គម្រោង និងការទូទាត់វិក្កយបត្រ",
+          "បើកដំណើរការ ផ្ទេរលេខ និងបញ្ឈប់",
+          "ការដឹកជញ្ជូន និងប្តូរ USIM",
+          "ទិន្នន័យ និ គុណភាព"
+        ]
+      }
+    },
+    "category-card": {
+      "categories": {
+        "1": {
+          "name": "ការផ្ញើប្រាក់ផ្ទាល់ខ្លួន",
+          "sub": "ផ្ញើប្រាក់ · អត្រាប្តូរប្រាក់ · ទទួលប្រាក់"
+        },
+        "2": {
+          "name": "ការផ្ញើប្រាក់អាជីវកម្ម (Biz)",
+          "sub": "ក្រុមហ៊ុន · ការទូទាត់ពាណិជ្ជកម្ម · B2B"
+        },
+        "3": {
+          "name": "ប្រាក់កម្ចី",
+          "sub": "លក្ខខណ្ឌ · ការកំណត់ · បង់ជាថ្មី"
+        },
+        "4": {
+          "name": "ដៃគូសហការ",
+          "sub": "ភាពជាដៃគូ · សំណើអាជីវកម្ម"
+        },
+        "5": {
+          "name": "ការងារ · ជ្រើសរើសបុគ្គលិក",
+          "sub": "ដាក់ពាក្យ · ដំណើរការជ្រើសរើស"
+        },
+        "6": {
+          "name": "ការការពារអ្នកប្រើប្រាស់ · ការរាយការណ៍",
+          "sub": "វិវាទ · ការកំណត់ប្រើប្រាស់ · ការរាយការណ៍"
+        },
+        "7": {
+          "name": "ទូរស័ព្ទ · ទូរគមនាគមន៍",
+          "sub": "គម្រោង · បើកដំណើរការ · USIM"
+        }
+      }
+    },
+    "category-selector": {
+      "question": "តើអ្នកចង់សួរអំពីអ្វី?"
+    },
+    "chat": {
+      "action": "ចាប់ផ្តើមជជែក",
+      "description": "បុគ្គលិកឆ្លើយតបភ្លាមៗ។ ក្រៅម៉ោងធ្វើការ ប្រព័ន្ធជជែកស្វ័យប្រវត្តិនឹងណែនាំ និងទទួលសំណើឱ្យទូរស័ព្ទត្រឡប់វិញ។",
+      "items": [
+        "ច័ន្ទ - សុក្រ ០៩:០០ - ១៨:០០ · បុគ្គលិកផ្ទាល់",
+        "ម៉ោងផ្សេង · ប្រព័ន្ធស្វ័យប្រវត្តិ និងការហៅត្រឡប់",
+        "គាំទ្រ ១២ ភាសា (នេប៉ាល់ វៀតណាម ថៃ ។ល។)"
+      ]
+    },
+    "external": {
+      "action": "ទៅទំព័រសំណួរ",
+      "description": "សំណួរប្រភេទនេះត្រូវបានទទួលនៅគេហទំព័រ {{site}}។"
+    },
+    "guide-panel": {
+      "common": {
+        "reset": "ជ្រើសរើសប្រភេទផ្សេង"
+      }
+    },
+    "honeypot-field": {
+      "form": {
+        "honeypot": "អាស័យដ្ឋាន"
+      }
+    },
+    "inquiry-form": {
+      "categories": {
+        "4": {
+          "dept": "ផ្នែកទទួលបន្ទុក"
+        },
+        "5": {
+          "dept": "ផ្នែកធនធានមនុស្ស"
+        },
+        "6": {
+          "dept": "ផ្នែកការពារអ្នកប្រើប្រាស់"
+        }
+      },
+      "contentLabel": "ខ្លឹមសារ",
+      "contentPlaceholder": "ពន្យល់កាន់តែលម្អិត យើងកាន់តែអាចឆ្លើយបានត្រឹមត្រូវ។",
+      "emailLabel": "អ៊ីមែល",
+      "emailPlaceholder": "name@example.com",
+      "errors": {
+        "email": "សូមពិនិត្យអាស័យដ្ឋានអ៊ីមែល។",
+        "failed": "យើងមិនអាចផ្ញើសំណួរបានទេ។ សូមព្យាយាមម្តងទៀតនៅពេលក្រោយ។",
+        "phone": "សូមពិនិត្យលេខទូរស័ព្ទ។",
+        "required": "សូមបំពេញឯកសារទាំងអស់ដែលត្រួវបញ្ចូល។",
+        "turnstile": "សូមបំពេញការពិនិត្យសុវត្ថិភាព។"
+      },
+      "nameLabel": "ឈ្មោះ",
+      "namePlaceholder": "សុខ សុភា",
+      "notice": "{{dept}} នឹងពិនិត្យ ហើយឆ្លើយតប។",
+      "phoneLabel": "លេខទូរស័ព្ទ",
+      "phonePlaceholder": "010-0000-0000",
+      "submit": "ផ្ញើសំណួរ",
+      "titleLabel": "ប្រធានបទ",
+      "titlePlaceholder": "សូមបញ្ចូលប្រធានបទ"
+    },
+    "step-indicator": {
+      "steps": {
+        "connect": "២. ភ្ជាប់ · ទទួល",
+        "select": "១. ជ្រើសរើសប្រធានបទ"
+      }
+    },
+    "submission-complete": {
+      "description": "ផ្នែកទទួលបន្ទុកនឹងពិនិត្យ និងឆ្លើយតបទៅអ៊ីមែលដែលអ្នកបានផ្តល់។",
+      "reset": "ត្រឡប់ទៅកន្លែងដើម"
+    }
+  },
+  "support-social-channels": {
+    "contact": "ទំនាក់ទំនង",
+    "countries_count": "38 ប្រទេស",
+    "countries": {
+      "african-region": "តំបន់អាហ្វ្រិក",
+      "bangladesh": "បង់ក្លាដែស",
+      "cambodia": "កម្ពុជា",
+      "china": "ចិន",
+      "india": "ឥណ្ឌា",
+      "indonesia": "ឥណ្ឌូណេស៊ី",
+      "japan": "ជប៉ុន",
+      "korea": "កូរ៉េ",
+      "mongolia": "ម៉ុងហ្គោលី",
+      "myanmar": "មីយ៉ាន់ម៉ា",
+      "nepal": "នេប៉ាល់",
+      "pakistan": "ប៉ាគីស្ថាន",
+      "philippines": "ហ្វីលីពីន",
+      "srilanka": "ស្រីលង្កា",
+      "thailand": "ថៃ",
+      "uzbekistan-cis": "អ៊ុយបេគីស្ថាន និង CIS",
+      "vietnam": "វៀតណាម",
+      "western": "តំបន់លិច"
+    },
+    "description": "ភ្ជាប់ជាមួយ GME តាមឆានែលផ្លូវការនៃប្រទេសនីមួយៗ",
+    "operating": "ដំណើរការ",
+    "title": "ឆានែលសង្គមសកល"
+  },
+  "support": {
+    "tabs": {
+      "branches": "សាខា",
+      "social_channels": "ឆានែលសង្គម"
+    },
+    "stats": {
+      "countries_label": "ប្រទេសសេវា",
+      "branches_label": "សាខា",
+      "branches_unit": "+",
+      "branches_value": "12",
+      "countries_unit": "+",
+      "countries_value": "38",
+      "services_label": "សេវា",
+      "services_unit": "+",
+      "services_value": "8"
+    }
+  }
+}

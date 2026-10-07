@@ -1,0 +1,227 @@
+{
+  "header": {
+    "link": {
+      "careers": "Careers"
+    },
+    "nav": {
+      "blog": "Blog",
+      "branches": "Branches",
+      "card": "Card",
+      "ceo_message": "CEO's Message",
+      "company": "Company",
+      "history": "History",
+      "inquiry": "Inquiry",
+      "loan": "Loan",
+      "news": "News",
+      "notice": "Notice",
+      "payments": "Payments (B2B)",
+      "press": "News / Press",
+      "remittance": "Remittance",
+      "services": "Services",
+      "services_menu": "Services",
+      "social_channels": "Social Channels",
+      "support": "Support",
+      "telecom": "Mobile"
+    }
+  },
+  "footer": {
+    "company_name": "Global Money Express",
+    "copyright": "© Global Money Express, All rights reserved.",
+    "info": {
+      "address": "Address: 901~911Ho, B-dong, Saenggak Gongjang Bldg., 150, Yeongdeungpo-ro, Yeongdeungpo-gu, Seoul, Korea 07292",
+      "email_support": "Queries: support@gmeremit.com",
+      "fax": "Fax: (+82) 2 3674 5559",
+      "phone_general": "02-3673-5559 (General inquiries)",
+      "remittance_inquiry": "Remittance inquiries"
+    },
+    "link": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  },
+  "common": {
+    "blog-grid": {
+      "board": {
+        "by": "By"
+      }
+    },
+    "board": {
+      "error_description": "Please try again later.",
+      "error_title": "Failed to load posts"
+    },
+    "careers": {
+      "cta": {
+        "openings": "View Openings",
+        "subtitle": "Check out our current openings and apply today.",
+        "title": "Ready to Join GME?"
+      }
+    },
+    "exchange-rate-calculator": {
+      "home": {
+        "exchange": {
+          "calculator": {
+            "bank_deposit": "Bank Deposit",
+            "cash_payment": "Cash Payment",
+            "delivery_method": "Transfer Method",
+            "error": "Failed",
+            "error_failed": "Exchange rate lookup failed",
+            "error_limit": "Amount exceeds transfer limit",
+            "error_max_amount": "Maximum sending amount: %1$s KRW",
+            "error_min_amount": "Minimum sending amount: %1$s KRW",
+            "error_network": "Network error occurred",
+            "error_unavailable": "Rate unavailable for this amount",
+            "error_unavailable_method": "This delivery method is currently unavailable",
+            "fee": "Fee Included",
+            "loading": "Loading...",
+            "mobile_wallet": "Mobile Wallet",
+            "no_results": "No results",
+            "payout_methods": {
+              "1": "Cash Payment",
+              "2": "Bank Deposit",
+              "12": "Home Delivery",
+              "13": "Mobile Wallet",
+              "14": "Card Payment",
+              "15": "Bank Deposit (USD)",
+              "16": "WeChat Pay",
+              "17": "Alipay",
+              "18": "Visa/Mastercard/UnionPay",
+              "19": "Visa/Mastercard",
+              "24": "UPTION",
+              "25": "UPI",
+              "26": "UZCARD",
+              "27": "HUMO Card",
+              "33": "bKash",
+              "34": "Rocket",
+              "35": "Nagad",
+              "37": "QR Pay",
+              "38": "Korti Milli"
+            },
+            "qr_pay": "QR Pay",
+            "rate": "Exchange Rate",
+            "realtime": "Real-time",
+            "receive_amount": "Receive Amount",
+            "receive_country": "Recipient Country",
+            "search_placeholder": "Search country",
+            "send_amount": "Send Amount",
+            "title": "Real-time Exchange Calculator"
+          }
+        }
+      }
+    },
+    "loan": {
+      "cta": {
+        "description": "Get the funds you need quickly with easy mobile application.",
+        "inline_notice": "ⓘ Clicking the button below will connect you to the loan service provided by GME Finance.",
+        "title": "Start Your Loan with GME App Today"
+      }
+    },
+    "mobile-section": {
+      "hero": {
+        "description": "Choose a topic and we will point you to the right desk."
+      }
+    },
+    "payments": {
+      "business": {
+        "cta": {
+          "description": "Grow your business with global payment solutions. Our dedicated managers will propose the optimal solution for you.",
+          "email": "corporate@gmeremit.com",
+          "title": "Get Started with GME Payments"
+        }
+      }
+    },
+    "remittance": {
+      "features": {
+        "app": {
+          "desc": "Complete remittance in a few taps",
+          "title": "App-based Transfer"
+        },
+        "branches": {
+          "desc": "Get support at branches nationwide",
+          "title": "Offline Branches"
+        },
+        "convenient": {
+          "desc": "Intuitive flow anyone can use",
+          "title": "Easy Experience"
+        },
+        "multilingual": {
+          "desc": "Use the service in multiple languages",
+          "title": "Multilingual Support"
+        },
+        "subtitle": "Transfer and track everything in one app",
+        "title": "Simpler",
+        "title2": "Safer Transfers"
+      }
+    },
+    "services": {
+      "chat": {
+        "title": "You will be connected to live chat"
+      },
+      "complete": {
+        "title": "Your inquiry has been received"
+      },
+      "external": {
+        "title": "Going to {{site}}"
+      },
+      "hero": {
+        "title": "How can we help you?"
+      }
+    },
+    "support": {
+      "hero": {
+        "desc1": "Through our nationwide branches and global social channels,",
+        "desc2": "you can get support and ask questions anytime.",
+        "desc3": "Find a branch near you or connect with us on social media.",
+        "title": "GME, Always Close to You"
+      }
+    },
+    "telecom-page-client": {
+      "cta": {
+        "button": "Go to GME Mobile",
+        "description": "Save on phone bills with affordable plans, available in 17 languages.",
+        "title": "Get Started with GME Mobile"
+      },
+      "features": {
+        "activation": {
+          "description": "Self-activate easily from the app",
+          "title": "5-Min Activation"
+        },
+        "affordable": {
+          "description": "Ultra-affordable plans for foreigners",
+          "title": "From ₩3,300/mo"
+        },
+        "esim": {
+          "description": "Scan a QR code and activate instantly",
+          "title": "eSIM Support"
+        },
+        "intl_call": {
+          "description": "Some plans include 20 min/day intl. calls",
+          "title": "Intl. Calls Included"
+        },
+        "multilang": {
+          "description": "Use in your native language",
+          "title": "17 Languages"
+        },
+        "network": {
+          "description": "Reliable coverage nationwide",
+          "title": "Same Quality as LGU+, KT"
+        },
+        "plans": {
+          "description": "Plans starting from just ₩3,300/month",
+          "title": "Flexible Plans"
+        },
+        "usim": {
+          "description": "Delivered to you, activated in 5 minutes",
+          "title": "USIM Self-Activation"
+        }
+      }
+    },
+    "company": {
+      "tabs": {
+        "title": "About Company"
+      }
+    },
+    "button": {
+      "app_download": "App Download"
+    }
+  }
+}

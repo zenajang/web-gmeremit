@@ -7,37 +7,37 @@ export interface MenuItemDef {
 
 export const menuItemDefs: MenuItemDef[] = [
   {
-    labelKey: "nav.company",
+    labelKey: "header.nav.company",
     children: [
-      { labelKey: "nav.ceo_message", href: "/company/ceo-message" },
-      { labelKey: "nav.history", href: "/company/history" },
-      { labelKey: "nav.services", href: "/company/services" },
+      { labelKey: "header.nav.ceo_message", href: "/company/ceo-message" },
+      { labelKey: "header.nav.history", href: "/company/history" },
+      { labelKey: "header.nav.services", href: "/company/services" },
     ],
   },
   {
-    labelKey: "nav.services_menu",
+    labelKey: "header.nav.services_menu",
     children: [
-      { labelKey: "nav.remittance", href: "/services/remittance" },
-      { labelKey: "nav.loan", href: "/services/loan" },
-      { labelKey: "nav.card", href: "/services/card" },
-      { labelKey: "nav.payments", href: "/services/payments" },
-      { labelKey: "nav.telecom", href: "/services/telecom" },
+      { labelKey: "header.nav.remittance", href: "/services/remittance" },
+      { labelKey: "header.nav.loan", href: "/services/loan" },
+      { labelKey: "header.nav.card", href: "/services/card" },
+      { labelKey: "header.nav.payments", href: "/services/payments" },
+      { labelKey: "header.nav.telecom", href: "/services/telecom" },
     ],
   },
   {
-    labelKey: "nav.news",
+    labelKey: "header.nav.news",
     children: [
-      { labelKey: "nav.notice", href: "/board/notice" },
-      { labelKey: "nav.press", href: "/board/press" },
-      { labelKey: "nav.blog", href: "/board/blog" },
+      { labelKey: "header.nav.notice", href: "/board/notice" },
+      { labelKey: "header.nav.press", href: "/board/press" },
+      { labelKey: "header.nav.blog", href: "/board/blog" },
     ],
   },
   {
-    labelKey: "nav.support",
+    labelKey: "header.nav.support",
     children: [
-      { labelKey: "nav.branches", href: "/support/branches" },
-      { labelKey: "nav.social_channels", href: "/support/social-channels" },
-      { labelKey: "nav.inquiry", href: "/support/inquiry" },
+      { labelKey: "header.nav.branches", href: "/support/branches" },
+      { labelKey: "header.nav.social_channels", href: "/support/social-channels" },
+      { labelKey: "header.nav.inquiry", href: "/support/inquiry" },
     ],
   },
 ];

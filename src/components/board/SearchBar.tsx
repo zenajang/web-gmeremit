@@ -8,7 +8,7 @@ interface SearchBarProps {
 }
 
 export default function SearchBar({ onSearch }: SearchBarProps) {
-  const { t } = useTranslation("board.search");
+  const { t } = useTranslation();
   const [searchType, setSearchType] = useState("title");
   const [query, setQuery] = useState("");
 
@@ -36,9 +36,9 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
         }}
         className="shrink-0 pl-3 pr-10 sm:pl-5 sm:pr-16 py-2.5 sm:py-3 border border-[var(--border-soft)] rounded bg-white text-sm sm:text-base text-gray-700 focus:outline-none focus:border-gray-300 appearance-none"
       >
-        <option value="title">{t("title")}</option>
-        <option value="content">{t("content")}</option>
-        <option value="all">{t("all")}</option>
+        <option value="title">{t("board.search-bar.title")}</option>
+        <option value="content">{t("board.search-bar.content")}</option>
+        <option value="all">{t("board.search-bar.all")}</option>
       </select>
 
       {/* Search Input */}
@@ -48,7 +48,7 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         onKeyDown={handleKeyDown}
-        placeholder={t("placeholder")}
+        placeholder={t("board.search-bar.placeholder")}
         className="min-w-0 flex-1 sm:flex-initial sm:w-[280px] px-3 sm:px-5 py-2.5 sm:py-3 border border-[var(--border-soft)] rounded bg-white text-sm sm:text-base text-gray-700 focus:outline-none focus:border-gray-300"
       />
 
@@ -57,7 +57,7 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
         onClick={handleSearch}
         className="shrink-0 px-4 sm:px-6 py-2.5 sm:py-3 bg-[#555] text-white text-sm sm:text-base font-medium rounded hover:bg-[#333] transition-colors cursor-pointer"
       >
-        {t("button")}
+        {t("board.search-bar.button")}
       </button>
     </div>
   );

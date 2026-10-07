@@ -15,7 +15,7 @@ const featureIcons: ReactNode[] = [
 ];
 
 export default function RemittanceSection() {
-  const { t } = useTranslation("home.remittance");
+  const { t } = useTranslation();
   return (
     <section id="overseas-remittance" className="relative overflow-hidden flex items-center snap-section lg:min-h-[calc(100svh-var(--header-height))] py-10 sm:py-12 lg:py-0">
       <div className="absolute inset-0 bg-gradient-to-br from-[#fffafa] via-[#fff8f8] to-[#fff5f5]" />
@@ -27,13 +27,13 @@ export default function RemittanceSection() {
         <div className="w-full grid lg:grid-cols-2 gap-8 lg:gap-20 items-center">
           <div>
             <p className="typo-eyebrow text-primary mb-3">REMITTANCE</p>
-            <h2 className="typo-section-title mb-5">{t("title")}</h2>
+            <h2 className="typo-section-title mb-5">{t("home.remittance-section.title")}</h2>
             <p className="typo-section-subtitle text-gray-600 mb-5 sm:mb-8">
-              {t("description")}
+              {t("home.remittance-section.description")}
             </p>
             <CTAButton
               href="/services/remittance"
-              label={t("button.detail")}
+              label={t("home.remittance-section.button.detail")}
               className="text-primary bg-red-100 hover:bg-red-200"
               iconClassName="bg-primary"
             />
@@ -61,11 +61,11 @@ export default function RemittanceSection() {
                         <div className="w-9 h-9 sm:w-15 sm:h-15 rounded-lg sm:rounded-xl bg-gradient-to-br from-white to-[#f8f9fa] flex items-center justify-center shadow-lg">
                           {featureIcons[index]}
                         </div>
-                        <span className="text-[9px] sm:text-sm font-semibold text-primary bg-primary/10 px-1.5 py-0.5 sm:px-2.5 sm:py-1 rounded-full backdrop-blur-sm">{t(`features.${key}.sub`)}</span>
+                        <span className="text-[9px] sm:text-sm font-semibold text-primary bg-primary/10 px-1.5 py-0.5 sm:px-2.5 sm:py-1 rounded-full backdrop-blur-sm">{t(`home.remittance-section.features.${key}.sub`)}</span>
                       </div>
                       <div>
-                        <p className="text-xs sm:text-2xl font-bold text-dark mb-0.5 sm:mb-1">{t(`features.${key}.title`)}</p>
-                        <p className="text-[10px] sm:text-[15px] text-gray-500 leading-snug sm:leading-relaxed">{t(`features.${key}.desc`)}</p>
+                        <p className="text-xs sm:text-2xl font-bold text-dark mb-0.5 sm:mb-1">{t(`home.remittance-section.features.${key}.title`)}</p>
+                        <p className="text-[10px] sm:text-[15px] text-gray-500 leading-snug sm:leading-relaxed">{t(`home.remittance-section.features.${key}.desc`)}</p>
                       </div>
                     </div>
                   </div>
@@ -79,8 +79,8 @@ export default function RemittanceSection() {
                     <div className="absolute bottom-6 left-6 w-20 h-[1px] bg-gradient-to-r from-white/30 to-transparent -rotate-45" />
 
                     <div className="relative h-full p-3 sm:p-8 flex flex-col justify-center text-white overflow-hidden">
-                      <p className="text-xs sm:text-2xl font-bold mb-1 sm:mb-2">{t(`features.${key}.back_title`)}</p>
-                      <p className="text-[10px] sm:text-base leading-snug sm:leading-relaxed text-white/90 line-clamp-3 sm:line-clamp-none">{t(`features.${key}.back_desc`)}</p>
+                      <p className="text-xs sm:text-2xl font-bold mb-1 sm:mb-2">{t(`home.remittance-section.features.${key}.back_title`)}</p>
+                      <p className="text-[10px] sm:text-base leading-snug sm:leading-relaxed text-white/90 line-clamp-3 sm:line-clamp-none">{t(`home.remittance-section.features.${key}.back_desc`)}</p>
                     </div>
                   </div>
                 </div>

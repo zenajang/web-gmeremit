@@ -1,0 +1,538 @@
+{
+  "home": {
+    "app-download-cta": {
+      "chips": [
+        "リアルタイムレート",
+        "最適化された金額",
+        "安全な認証"
+      ],
+      "description": "簡単で安全な認証、最適化された金額、迅速な送金。GME Remitアプリですべてを安全かつ便利に管理できます。",
+      "qr_scan": "QRコードをスキャン",
+      "subtitle": "GME REMIT APP",
+      "title1": "もっと速く送金、",
+      "title2": "もっと賢く管理"
+    },
+    "cards-showcase": {
+      "black": {
+        "cta": "Black Cardを見る",
+        "desc": "海外決済に特化したプレミアムカード。どこにいても最高のキャッシュバック特典をお楽しみください。",
+        "highlights": [
+          "海外3%キャッシュバック",
+          "シーズナルキャッシュバック",
+          "特別イベント割引",
+          "地下鉄・バス・タクシー簡単決済"
+        ]
+      },
+      "careers": {
+        "cta": {
+          "about": "会社紹介"
+        }
+      },
+      "cta": {
+        "button": "カードを申し込む",
+        "description": "あなたにぴったりのカードを見つけて、限定特典をお楽しみください。",
+        "title": "今日からGME Cardを始めましょう"
+      },
+      "easyCare": {
+        "cta": "",
+        "desc": "",
+        "highlights": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "easyG0": {
+        "cta": "EasyGo Cardを見る",
+        "desc": "毎日をもっと便利に。交通からショッピングまで、シーズン特典をお楽しみください。",
+        "highlights": [
+          "後払い交通カード",
+          "シーズンキャッシュバック",
+          "世界中で決済可能",
+          "オンライン・オフラインショッピング"
+        ]
+      },
+      "image_alt": "カード画像",
+      "loan": {
+        "cta": {
+          "button": "アプリをダウンロード"
+        }
+      },
+      "pay": {
+        "cta": "",
+        "desc": "",
+        "highlights": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "red": {
+        "cta": "Red Cardを見る",
+        "desc": "GMEのシグネチャーカラーのカード。すべての決済をスタイリッシュに。",
+        "highlights": [
+          "シーズナルキャッシュバック",
+          "特別イベント割引",
+          "地下鉄・バス・タクシー簡単決済",
+          "公共交通"
+        ]
+      },
+      "uniq": {
+        "cta": "Uniq Cardを見る",
+        "desc": "18ヶ国30種類以上のデザインから自分だけのカードを選べます。",
+        "highlights": [
+          "シーズナルキャッシュバック",
+          "特別イベント割引",
+          "18ヶ国30種類以上のデザイン",
+          "地下鉄・バス・タクシー簡単決済"
+        ]
+      },
+      "white": {
+        "cta": "White Cardを見る",
+        "desc": "シンプルでクリーンな日常カード。国内決済と公共交通に便利です。",
+        "highlights": [
+          "シーズナルキャッシュバック",
+          "特別イベント割引",
+          "地下鉄・バス・タクシー簡単決済",
+          "公共交通"
+        ]
+      }
+    },
+    "customer-feedback-section": {
+      "subtitle": "お客様の実際の体験談をご紹介します。",
+      "tags": {
+        "easy_tracking": "簡単な送金・追跡",
+        "fast_process": "迅速な処理",
+        "satisfied": "満足のサービス"
+      },
+      "title": "お客様の声"
+    },
+    "hero-main": {
+      "badge": "優れた送金サービス",
+      "button": {
+        "learn_more": "詳しく見る"
+      },
+      "countries": {
+        "names": {
+          "AD": "Andorra",
+          "AE": "アラブ首長国連邦",
+          "AG": "Antigua and Barbuda",
+          "AI": "Anguilla",
+          "AL": "Albania",
+          "AM": "Armenia",
+          "AO": "Angola",
+          "AR": "アルゼンチン",
+          "AS": "American Samoa",
+          "AT": "Austria",
+          "AU": "オーストラリア",
+          "AW": "Aruba",
+          "AZ": "Azerbaijan",
+          "BA": "Bosnia and Herzegovina",
+          "BB": "Barbados",
+          "BD": "バングラデシュ",
+          "BE": "Belgium",
+          "BF": "Burkina Faso",
+          "BG": "Bulgaria",
+          "BH": "バーレーン",
+          "BI": "Burundi",
+          "BJ": "Benin",
+          "BL": "Saint Barthélemy",
+          "BM": "Bermuda",
+          "BN": "Brunei",
+          "BO": "ボリビア",
+          "BR": "ブラジル",
+          "BS": "Bahamas",
+          "BT": "Bhutan",
+          "BW": "Botswana",
+          "BY": "Belarus",
+          "BZ": "Belize",
+          "CA": "カナダ",
+          "CD": "Democratic Republic of the Congo",
+          "CF": "Central African Republic",
+          "CG": "Republic of the Congo",
+          "CH": "スイス",
+          "CI": "Ivory Coast",
+          "CK": "Cook Islands",
+          "CL": "チリ",
+          "CM": "Cameroon",
+          "CN": "中国",
+          "CO": "コロンビア",
+          "CR": "Costa Rica",
+          "CU": "Cuba",
+          "CV": "Cape Verde",
+          "CY": "Cyprus",
+          "CZ": "チェコ",
+          "DE": "ドイツ",
+          "DJ": "Djibouti",
+          "DK": "デンマーク",
+          "DM": "Dominica",
+          "DO": "ドミニカ共和国",
+          "DZ": "Algeria",
+          "EC": "Ecuador",
+          "EE": "Estonia",
+          "EG": "Egypt",
+          "ER": "Eritrea",
+          "ES": "Spain",
+          "ET": "Ethiopia",
+          "FI": "Finland",
+          "FJ": "フィジー",
+          "FM": "Micronesia",
+          "FR": "France",
+          "GA": "Gabon",
+          "GB": "イギリス",
+          "GD": "Grenada",
+          "GE": "Georgia",
+          "GF": "French Guiana",
+          "GH": "ガーナ",
+          "GI": "Gibraltar",
+          "GM": "Gambia",
+          "GN": "Guinea",
+          "GP": "Guadeloupe",
+          "GQ": "Equatorial Guinea",
+          "GR": "Greece",
+          "GT": "グアテマラ",
+          "GU": "Guam",
+          "GW": "Guinea-Bissau",
+          "GY": "Guyana",
+          "HK": "香港",
+          "HN": "ホンジュラス",
+          "HR": "Croatia",
+          "HT": "Haiti",
+          "HU": "ハンガリー",
+          "ID": "インドネシア",
+          "IE": "Ireland",
+          "IL": "イスラエル",
+          "IN": "インド",
+          "IS": "Iceland",
+          "IT": "Italy",
+          "JM": "Jamaica",
+          "JO": "ヨルダン",
+          "JP": "日本",
+          "KE": "ケニア",
+          "KG": "Kyrgyzstan",
+          "KH": "カンボジア",
+          "KM": "Comoros",
+          "KN": "Saint Kitts and Nevis",
+          "KW": "クウェート",
+          "KY": "Cayman Islands",
+          "KZ": "Kazakhstan",
+          "LA": "Laos",
+          "LB": "Lebanon",
+          "LC": "Saint Lucia",
+          "LI": "Liechtenstein",
+          "LK": "スリランカ",
+          "LR": "Liberia",
+          "LS": "Lesotho",
+          "LT": "Lithuania",
+          "LU": "Luxembourg",
+          "LV": "Latvia",
+          "LY": "Libya",
+          "MA": "モロッコ",
+          "MC": "Monaco",
+          "MD": "Moldova",
+          "ME": "Montenegro",
+          "MF": "Saint Martin (French part)",
+          "MG": "Madagascar",
+          "MH": "Marshall Islands",
+          "MK": "Macedonia",
+          "ML": "Mali",
+          "MM": "ミャンマー",
+          "MN": "Mongolia",
+          "MO": "Macao",
+          "MQ": "Martinique",
+          "MR": "Mauritania",
+          "MS": "Montserrat",
+          "MT": "Malta",
+          "MU": "Mauritius",
+          "MV": "Maldives",
+          "MW": "Malawi",
+          "MX": "メキシコ",
+          "MY": "マレーシア",
+          "MZ": "Mozambique",
+          "NA": "Namibia",
+          "NC": "New Caledonia",
+          "NE": "Niger",
+          "NG": "ナイジェリア",
+          "NI": "Nicaragua",
+          "NL": "Netherlands",
+          "NO": "ノルウェー",
+          "NP": "ネパール",
+          "NZ": "ニュージーランド",
+          "OM": "オマーン",
+          "PA": "Panama",
+          "PE": "ペルー",
+          "PF": "French Polynesia",
+          "PG": "Papua New Guinea",
+          "PH": "フィリピン",
+          "PK": "パキスタン",
+          "PL": "ポーランド",
+          "PR": "Puerto Rico",
+          "PS": "Palestinian Territory, Occupied",
+          "PT": "Portugal",
+          "PY": "パラグアイ",
+          "QA": "カタール",
+          "RE": "Réunion",
+          "RO": "ルーマニア",
+          "RS": "Serbia",
+          "RU": "ロシア",
+          "RW": "ルワンダ",
+          "SA": "サウジアラビア",
+          "SB": "Solomon Islands",
+          "SC": "Seychelles",
+          "SD": "Sudan",
+          "SE": "Sweden",
+          "SG": "シンガポール",
+          "SI": "Slovenia",
+          "SK": "Slovakia",
+          "SL": "Sierra Leone",
+          "SN": "Senegal",
+          "SR": "Suriname",
+          "SS": "South Sudan",
+          "ST": "Sao Tome and Principe",
+          "SV": "El Salvador",
+          "SZ": "Swaziland",
+          "TC": "Turks and Caicos Islands",
+          "TD": "Chad",
+          "TG": "Togo",
+          "TH": "タイ",
+          "TJ": "Tajikistan",
+          "TL": "Timor-Leste",
+          "TM": "Turkmenistan",
+          "TN": "Tunisia",
+          "TO": "トンガ",
+          "TR": "Turkey",
+          "TT": "Trinidad and Tobago",
+          "TV": "Tuvalu",
+          "TZ": "タンザニア",
+          "UA": "Ukraine",
+          "UG": "ウガンダ",
+          "US": "アメリカ",
+          "UY": "Uruguay",
+          "UZ": "Uzbekistan",
+          "VC": "Saint Vincent and the Grenadines",
+          "VE": "Venezuela",
+          "VG": "Virgin Islands, British",
+          "VI": "Virgin Islands, U.S.",
+          "VN": "ベトナム",
+          "VU": "Vanuatu",
+          "WS": "サモア",
+          "XK": "Kosovo",
+          "YE": "Yemen",
+          "YT": "Mayotte",
+          "ZA": "South Africa",
+          "ZM": "ザンビア",
+          "ZW": "Zimbabwe"
+        },
+        "realtime": "リアルタイム",
+        "subtitle": "200以上の国に対応",
+        "title": "対応国",
+        "view_all": "送金について知る"
+      },
+      "description1": "200以上の国へ送金、韓国全銀行へリアルタイムで送金できます。",
+      "description2": "70のグローバルパートナーとE-KYC認証で安全です。",
+      "rating": "App Store・Google Play 平均",
+      "stats": {
+        "avg_time": "平均送金時間",
+        "seconds": "秒",
+        "total_amount": "累計送金額",
+        "trillion": "兆+"
+      },
+      "title1": "迅速で安全な",
+      "title2": "海外送金"
+    },
+    "hero-section": {
+      "exchange": {
+        "description1": "200以上の国のリアルタイム為替レート。",
+        "description2": "透明な手数料開示。",
+        "stats": {
+          "countries": "200+",
+          "countries_label": "対応国数",
+          "service": "24/7",
+          "service_label": "リアルタイムサービス"
+        },
+        "title1": "為替レートを",
+        "title2": "今すぐ確認"
+      }
+    },
+    "loan-section": {
+      "button": {
+        "apply": "GMEアプリでローン申請",
+        "detail": "ローンについて詳しく見る"
+      },
+      "card": {
+        "quick_apply": "簡単申請",
+        "subtitle": "外国人向けローン",
+        "title": "GME Finance"
+      },
+      "description": "GMEアプリで数分でローンを申請できます。処理状況と残高をいつでもどこでもリアルタイムで確認できます。",
+      "features": {
+        "countries": {
+          "desc": "対応国数",
+          "label": "14+"
+        },
+        "realtime": {
+          "desc": "追跡",
+          "label": "リアルタイム"
+        },
+        "simple": {
+          "desc": "アプリ申請",
+          "label": "簡単"
+        },
+        "success": {
+          "desc": "融資実績",
+          "label": "100万+"
+        },
+        "support": {
+          "desc": "サポート",
+          "label": "24/7"
+        }
+      },
+      "stats": {
+        "desc": "100万件以上の融資実績・14ヶ国対応",
+        "title": "累計融資実績",
+        "value": "₩500B+"
+      },
+      "title": "オンラインローン"
+    },
+    "main-services": {
+      "card": {
+        "desc1": "送金と決済をつなぐスマートカード。",
+        "desc2": "グローバル決済の新しい基準。",
+        "title": "GME Card"
+      },
+      "loan": {
+        "desc1": "迅速な承認と柔軟な条件",
+        "desc2": "デジタルローンサービス",
+        "title": "オンラインローン"
+      },
+      "mobile": {
+        "desc1": "月額3,300ウォンから利用できる",
+        "desc2": "外国人向け格安モバイルサービス",
+        "title": "モバイル"
+      },
+      "payments": {
+        "desc1": "一括決済、精算、パートナー送金。",
+        "desc2": "迅速で安全な法人決済フロー。",
+        "title": "グローバル決済"
+      },
+      "remittance": {
+        "desc1": "迅速かつ安全に送金",
+        "desc2": "200以上の国に対応。",
+        "title": "海外送金"
+      },
+      "title1": "GMEの",
+      "title2": "さまざまなサービス"
+    },
+    "payments-section": {
+      "global_payments": {
+        "button": {
+          "detail": "決済について詳しく見る"
+        },
+        "card": {
+          "status": "稼働中",
+          "subtitle": "法人向けソリューション",
+          "title": "決済ソリューション"
+        },
+        "description": "給与振込、パートナー精算、EC決済。コスト効率の高い法人決済ソリューション。",
+        "features": {
+          "smb": "SMB",
+          "smb_desc": "ECソリューション",
+          "sps": "SPS",
+          "sps_desc": "B2B決済ソリューション",
+          "vas": "VAS",
+          "vas_desc": "通知・レポート・ダッシュボード"
+        },
+        "stats": {
+          "cost_saving": "コスト削減",
+          "cost_saving_change": "従来比",
+          "cost_saving_value": "最大70%",
+          "partners": "パートナー",
+          "partners_change": "グローバル",
+          "partners_value": "200+",
+          "success_rate": "成功率",
+          "success_rate_change": "通常",
+          "success_rate_value": "99.8%"
+        },
+        "title": "グローバル決済",
+        "transactions": {
+          "b2b": "B2B一括送金",
+          "completed": "完了",
+          "just_now": "たった今",
+          "merchant": "加盟店決済",
+          "mins_ago": "分前",
+          "partner": "パートナー精算",
+          "processing": "処理中",
+          "title": "最近の取引"
+        }
+      }
+    },
+    "remittance-section": {
+      "button": {
+        "detail": "送金について詳しく見る"
+      },
+      "description": "200以上の国に迅速かつ安全に送金できます。",
+      "features": {
+        "fast": {
+          "back_desc": "複雑な手続きなしで、数回のタップだけで世界中どこにでも送金できます。",
+          "back_title": "簡単送金",
+          "desc": "わずか数クリックで海外送金が完了",
+          "sub": "数クリック",
+          "title": "迅速な送金"
+        },
+        "global": {
+          "back_desc": "200以上の国と70のグローバルパートナーを通じて世界中に送金できます。",
+          "back_title": "グローバルネットワーク",
+          "desc": "世界中で100万人以上のユーザーがGMEを信頼しています",
+          "sub": "100万+ユーザー",
+          "title": "200以上の国"
+        },
+        "optimized": {
+          "back_desc": "銀行と比べて最大90%の手数料削減。リアルタイムレートでより多く送金できます。",
+          "back_title": "大幅なコスト削減",
+          "desc": "銀行より90%安い手数料とお得なレート",
+          "sub": "90%節約",
+          "title": "最適化された金額"
+        },
+        "security": {
+          "back_desc": "E-KYC認証と金融委員会登録サービスで安全に送金できます。",
+          "back_title": "徹底したセキュリティ",
+          "desc": "強固なセキュリティで安心してご利用いただけます",
+          "sub": "認証済み",
+          "title": "簡単・安全"
+        }
+      },
+      "title": "海外送金"
+    },
+    "section-nav": {
+      "app_download": "アプリダウンロード",
+      "customer_feedback": "お客様の声",
+      "exchange": "為替計算機",
+      "home": "ホーム",
+      "services": "サービス"
+    },
+    "hero": {
+      "countries": {
+        "more": "その他"
+      }
+    },
+    "services": {
+      "loan": {
+        "estimated_limit": "推定限度額"
+      }
+    },
+    "section_nav": {
+      "testimonials": "お客様の声"
+    },
+    "testimonials": {
+      "subtitle": "お客様の実際の体験談をご紹介します。",
+      "tags": {
+        "easy_tracking": "簡単な送金・追跡",
+        "fast_process": "迅速な処理",
+        "satisfied": "満足のサービス"
+      },
+      "title": "お客様の声"
+    }
+  }
+}

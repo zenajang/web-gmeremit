@@ -1,0 +1,538 @@
+{
+  "home": {
+    "app-download-cta": {
+      "chips": [
+        "Real vaqt kurslari",
+        "Optimallashtirilgan miqdor",
+        "Xavfsiz tasdiqlash"
+      ],
+      "description": "Oson va xavfsiz tasdiqlash, optimallashtirilgan miqdor, tez o'tkazmalar. GME Remit ilovasi bilan hammasini xavfsiz va qulay boshqaring.",
+      "qr_scan": "QR kodni skaner qiling",
+      "subtitle": "GME REMIT APP",
+      "title1": "Tezroq yuboring,",
+      "title2": "Aqlliroq boshqaring"
+    },
+    "cards-showcase": {
+      "black": {
+        "cta": "Premium Card'ni koʻrish",
+        "desc": "Butun dunyo boʻylab xarajatlaringiz uchun mukofot beruvchi premium karta.",
+        "highlights": [
+          "Xorijda 3% keshbek",
+          "Dunyoning istalgan joyida toʻlov qiling",
+          "Onlayn va oflayn xaridlar",
+          "Jamoat transporti"
+        ]
+      },
+      "careers": {
+        "cta": {
+          "about": "Kompaniya haqida"
+        }
+      },
+      "cta": {
+        "button": "Karta uchun ariza bering",
+        "description": "Sizga mos kartani toping va maxsus imtiyozlardan bahramand bo'ling.",
+        "title": "Bugun GME Card bilan boshlang"
+      },
+      "easyCare": {
+        "cta": "EasyCare Card'ni koʻrish",
+        "desc": "Gʻamxoʻrlik bilan yaratilgan, Made to Care. Sugʻurta va aʼzolik yordami imtiyozlariga ega keyinchalik toʻlanadigan transport kartasi.",
+        "highlights": [
+          "Sugʻurta va aʼzolik yordami imtiyozlari",
+          "Keyinchalik toʻlanadigan transport kartasi",
+          "Mavsumiy va maxsus do'konlarda keshbek",
+          "Dunyoning istalgan joyida toʻlov qiling"
+        ]
+      },
+      "easyG0": {
+        "cta": "EasyGo Cardni ko'rish",
+        "desc": "Kundalik hayotingizni yanada qulayroq qiling. Transportdan xariddorlikkacha mavsumiy imtiyozlardan bahramand boʻling.",
+        "highlights": [
+          "Keyinchalik toʻlanadigan transport kartasi",
+          "Mavsumiy va maxsus do'konlarda keshbek",
+          "Dunyo bo'ylab to'lov",
+          "Onlayn & oflayn xarid"
+        ]
+      },
+      "image_alt": "Karta rasmi",
+      "loan": {
+        "cta": {
+          "button": "Ilovani yuklab oling"
+        }
+      },
+      "pay": {
+        "cta": "Pay Card'ni koʻrish",
+        "desc": "Kundalik xarajatlaringiz uchun hammasi birida toʻlov kartasi.",
+        "highlights": [
+          "Mavsumiy va maxsus do'konlarda keshbek",
+          "Dunyoning istalgan joyida toʻlov qiling",
+          "Onlayn va oflayn xaridlar",
+          "Jamoat transporti"
+        ]
+      },
+      "red": {
+        "cta": "Red Cardni ko'rish",
+        "desc": "GME ning ramziy kartasi. Har bir to'lovni zamonaviy qiling.",
+        "highlights": [
+          "Mavsumiy Cashback",
+          "Maxsus tadbir chegirmalari",
+          "Metro · Bus · Taxi Easy Pay",
+          "Jamoat transporti"
+        ]
+      },
+      "uniq": {
+        "cta": "UniQ Card'ni koʻrish",
+        "desc": "18 mamlakatdan 30+ dizayn ichidan kartangizni tanlang.",
+        "highlights": [
+          "Mavsumiy va maxsus do'konlarda keshbek",
+          "Maxsus tadbir chegirmalari",
+          "18 mamlakat 30+ dizayn",
+          "Metro · Bus · Taxi Easy Pay"
+        ]
+      },
+      "white": {
+        "cta": "White Cardni ko'rish",
+        "desc": "Oddiy va toza kundalik karta. Ichki to'lovlar va jamoat transporti uchun qulay.",
+        "highlights": [
+          "Mavsumiy Cashback",
+          "Maxsus tadbir chegirmalari",
+          "Metro · Bus · Taxi Easy Pay",
+          "Jamoat transporti"
+        ]
+      }
+    },
+    "customer-feedback-section": {
+      "subtitle": "Mijozlarimizning haqiqiy tajribalari.",
+      "tags": {
+        "easy_tracking": "Oson o'tkazma & kuzatuv",
+        "fast_process": "Tez jarayon",
+        "satisfied": "Qoniqarli xizmat"
+      },
+      "title": "Fikrlar"
+    },
+    "hero-main": {
+      "badge": "Mukammal pul o'tkazma xizmati",
+      "button": {
+        "learn_more": "Batafsil"
+      },
+      "countries": {
+        "names": {
+          "AD": "Andorra",
+          "AE": "Birlashgan Arab Amirliklari",
+          "AG": "Antigua and Barbuda",
+          "AI": "Anguilla",
+          "AL": "Albania",
+          "AM": "Armenia",
+          "AO": "Angola",
+          "AR": "Argentina",
+          "AS": "American Samoa",
+          "AT": "Austria",
+          "AU": "Avstraliya",
+          "AW": "Aruba",
+          "AZ": "Azerbaijan",
+          "BA": "Bosnia and Herzegovina",
+          "BB": "Barbados",
+          "BD": "Bangladesh",
+          "BE": "Belgium",
+          "BF": "Burkina Faso",
+          "BG": "Bulgaria",
+          "BH": "Bahrayn",
+          "BI": "Burundi",
+          "BJ": "Benin",
+          "BL": "Saint Barthélemy",
+          "BM": "Bermuda",
+          "BN": "Brunei",
+          "BO": "Boliviya",
+          "BR": "Braziliya",
+          "BS": "Bahamas",
+          "BT": "Bhutan",
+          "BW": "Botswana",
+          "BY": "Belarus",
+          "BZ": "Belize",
+          "CA": "Kanada",
+          "CD": "Democratic Republic of the Congo",
+          "CF": "Central African Republic",
+          "CG": "Republic of the Congo",
+          "CH": "Shveytsariya",
+          "CI": "Ivory Coast",
+          "CK": "Cook Islands",
+          "CL": "Chili",
+          "CM": "Cameroon",
+          "CN": "Xitoy",
+          "CO": "Kolumbiya",
+          "CR": "Costa Rica",
+          "CU": "Cuba",
+          "CV": "Cape Verde",
+          "CY": "Cyprus",
+          "CZ": "Chexiya Respublikasi",
+          "DE": "Germaniya",
+          "DJ": "Djibouti",
+          "DK": "Daniya",
+          "DM": "Dominica",
+          "DO": "Dominikan Respublikasi",
+          "DZ": "Algeria",
+          "EC": "Ecuador",
+          "EE": "Estonia",
+          "EG": "Egypt",
+          "ER": "Eritrea",
+          "ES": "Spain",
+          "ET": "Ethiopia",
+          "FI": "Finland",
+          "FJ": "Fiji",
+          "FM": "Micronesia",
+          "FR": "France",
+          "GA": "Gabon",
+          "GB": "Buyuk Britaniya",
+          "GD": "Grenada",
+          "GE": "Georgia",
+          "GF": "French Guiana",
+          "GH": "Gana",
+          "GI": "Gibraltar",
+          "GM": "Gambia",
+          "GN": "Guinea",
+          "GP": "Guadeloupe",
+          "GQ": "Equatorial Guinea",
+          "GR": "Greece",
+          "GT": "Gvatemala",
+          "GU": "Guam",
+          "GW": "Guinea-Bissau",
+          "GY": "Guyana",
+          "HK": "Gonkong",
+          "HN": "Gonduras",
+          "HR": "Croatia",
+          "HT": "Haiti",
+          "HU": "Vengriya",
+          "ID": "Indoneziya",
+          "IE": "Ireland",
+          "IL": "Isroil",
+          "IN": "Hindiston",
+          "IS": "Iceland",
+          "IT": "Italy",
+          "JM": "Jamaica",
+          "JO": "Iordaniya",
+          "JP": "Yaponiya",
+          "KE": "Keniya",
+          "KG": "Kyrgyzstan",
+          "KH": "Kambodja",
+          "KM": "Comoros",
+          "KN": "Saint Kitts and Nevis",
+          "KW": "Quvayt",
+          "KY": "Cayman Islands",
+          "KZ": "Kazakhstan",
+          "LA": "Laos",
+          "LB": "Lebanon",
+          "LC": "Saint Lucia",
+          "LI": "Liechtenstein",
+          "LK": "Shri Lanka",
+          "LR": "Liberia",
+          "LS": "Lesotho",
+          "LT": "Lithuania",
+          "LU": "Luxembourg",
+          "LV": "Latvia",
+          "LY": "Libya",
+          "MA": "Marokash",
+          "MC": "Monaco",
+          "MD": "Moldova",
+          "ME": "Montenegro",
+          "MF": "Saint Martin (French part)",
+          "MG": "Madagascar",
+          "MH": "Marshall Islands",
+          "MK": "Macedonia",
+          "ML": "Mali",
+          "MM": "Myanma",
+          "MN": "Mongolia",
+          "MO": "Macao",
+          "MQ": "Martinique",
+          "MR": "Mauritania",
+          "MS": "Montserrat",
+          "MT": "Malta",
+          "MU": "Mauritius",
+          "MV": "Maldives",
+          "MW": "Malawi",
+          "MX": "Meksika",
+          "MY": "Malayziya",
+          "MZ": "Mozambique",
+          "NA": "Namibia",
+          "NC": "New Caledonia",
+          "NE": "Niger",
+          "NG": "Nigeriya",
+          "NI": "Nicaragua",
+          "NL": "Netherlands",
+          "NO": "Norvegiya",
+          "NP": "Nepal",
+          "NZ": "Yangi Zelandiya",
+          "OM": "Ummon",
+          "PA": "Panama",
+          "PE": "Peru",
+          "PF": "French Polynesia",
+          "PG": "Papua New Guinea",
+          "PH": "Filippin",
+          "PK": "Pokiston",
+          "PL": "Polsha",
+          "PR": "Puerto Rico",
+          "PS": "Palestinian Territory, Occupied",
+          "PT": "Portugal",
+          "PY": "Paragvay",
+          "QA": "Qatar",
+          "RE": "Réunion",
+          "RO": "Ruminiya",
+          "RS": "Serbia",
+          "RU": "Rossiya",
+          "RW": "Ruanda",
+          "SA": "Saudiya Arabistoni",
+          "SB": "Solomon Islands",
+          "SC": "Seychelles",
+          "SD": "Sudan",
+          "SE": "Sweden",
+          "SG": "Singapur",
+          "SI": "Slovenia",
+          "SK": "Slovakia",
+          "SL": "Sierra Leone",
+          "SN": "Senegal",
+          "SR": "Suriname",
+          "SS": "South Sudan",
+          "ST": "Sao Tome and Principe",
+          "SV": "El Salvador",
+          "SZ": "Swaziland",
+          "TC": "Turks and Caicos Islands",
+          "TD": "Chad",
+          "TG": "Togo",
+          "TH": "Tailand",
+          "TJ": "Tajikistan",
+          "TL": "Timor-Leste",
+          "TM": "Turkmenistan",
+          "TN": "Tunisia",
+          "TO": "Tonga",
+          "TR": "Turkey",
+          "TT": "Trinidad and Tobago",
+          "TV": "Tuvalu",
+          "TZ": "Tanzaniya",
+          "UA": "Ukraine",
+          "UG": "Uganda",
+          "US": "AQSh",
+          "UY": "Uruguay",
+          "UZ": "Uzbekistan",
+          "VC": "Saint Vincent and the Grenadines",
+          "VE": "Venezuela",
+          "VG": "Virgin Islands, British",
+          "VI": "Virgin Islands, U.S.",
+          "VN": "Vyetnam",
+          "VU": "Vanuatu",
+          "WS": "Samoa",
+          "XK": "Kosovo",
+          "YE": "Yemen",
+          "YT": "Mayotte",
+          "ZA": "South Africa",
+          "ZM": "Zambiya",
+          "ZW": "Zimbabwe"
+        },
+        "realtime": "Real vaqt",
+        "subtitle": "200+ mamlakatni qo'llab-quvvatlaydi",
+        "title": "Qo'llab-quvvatlanadigan mamlakatlar",
+        "view_all": "Pul o'tkazma haqida"
+      },
+      "description1": "200+ mamlakatga, Koreyaning barcha banklariga real vaqtda yuboring.",
+      "description2": "70 ta global hamkor va E-KYC tekshiruvi bilan xavfsiz.",
+      "rating": "App Store · Google Play o'rtacha",
+      "stats": {
+        "avg_time": "O'rtacha o'tkazish vaqti",
+        "seconds": "soniya",
+        "total_amount": "Jami o'tkazmalar",
+        "trillion": "trln+"
+      },
+      "title1": "Tez va xavfsiz",
+      "title2": "Xalqaro pul o'tkazmalar"
+    },
+    "hero-section": {
+      "exchange": {
+        "description1": "200+ mamlakat uchun real vaqt kurslari.",
+        "description2": "Komissiyalarni ochiq ko'rsatish.",
+        "stats": {
+          "countries": "200+",
+          "countries_label": "Qo'llab-quvvatlanadigan mamlakatlar",
+          "service": "24/7",
+          "service_label": "Real vaqt xizmati"
+        },
+        "title1": "Kurslarni",
+        "title2": "hozir tekshiring"
+      }
+    },
+    "loan-section": {
+      "button": {
+        "apply": "GME ilovasida kreditga ariza",
+        "detail": "Kredit haqida batafsil"
+      },
+      "card": {
+        "quick_apply": "Tezkor ariza",
+        "subtitle": "Chet elliklar uchun kredit",
+        "title": "GME Finance"
+      },
+      "description": "GME ilovasi orqali bir necha daqiqada kreditga ariza bering. Jarayon holatini real vaqtda kuzating va balansni tekshiring.",
+      "features": {
+        "countries": {
+          "desc": "Mamlakatlar",
+          "label": "14+"
+        },
+        "realtime": {
+          "desc": "Kuzatuv",
+          "label": "Real vaqt"
+        },
+        "simple": {
+          "desc": "Ilova orqali",
+          "label": "Oddiy"
+        },
+        "success": {
+          "desc": "Kreditlar",
+          "label": "1M+"
+        },
+        "support": {
+          "desc": "Yordam",
+          "label": "24/7"
+        }
+      },
+      "stats": {
+        "desc": "1M+ muvaffaqiyatli kredit · 14 mamlakat",
+        "title": "Kredit ko'rsatkichlari",
+        "value": "₩500B+"
+      },
+      "title": "Onlayn kredit"
+    },
+    "main-services": {
+      "card": {
+        "desc1": "Pul o'tkazma va sarfni bog'laydigan aqlli karta.",
+        "desc2": "Global to'lovlar uchun yangi standart.",
+        "title": "GME Card"
+      },
+      "loan": {
+        "desc1": "Tez tasdiq va moslashuvchan shartlar",
+        "desc2": "Raqamli kredit xizmati",
+        "title": "Onlayn kredit"
+      },
+      "mobile": {
+        "desc1": "Oyiga 3,300 vondan boshlanadigan",
+        "desc2": "chet elliklar uchun arzon mobil xizmat",
+        "title": "Mobil"
+      },
+      "payments": {
+        "desc1": "Ommaviy to'lovlar, hisob-kitoblar, hamkor transferlari",
+        "desc2": "Tez va xavfsiz korporativ to'lov oqimlari.",
+        "title": "Global to'lovlar"
+      },
+      "remittance": {
+        "desc1": "Tez va xavfsiz yuboring",
+        "desc2": "200+ mamlakatga",
+        "title": "Xalqaro pul o'tkazma"
+      },
+      "title1": "GME ning",
+      "title2": "xizmatlarini kashf eting"
+    },
+    "payments-section": {
+      "global_payments": {
+        "button": {
+          "detail": "Payments haqida ko'proq"
+        },
+        "card": {
+          "status": "Faol",
+          "subtitle": "Korporativ yechimlar",
+          "title": "To'lov yechimlari"
+        },
+        "description": "Maosh o'tkazmalari, hamkorlar hisob-kitobi, e-commerce to'lovlari. Tejamkor korporativ to'lov yechimlari.",
+        "features": {
+          "smb": "SMB",
+          "smb_desc": "E-commerce yechim",
+          "sps": "SPS",
+          "sps_desc": "B2B to'lov yechimi",
+          "vas": "VAS",
+          "vas_desc": "Bildirishnoma · Hisobot · Dashboard"
+        },
+        "stats": {
+          "cost_saving": "Xarajatlarni tejash",
+          "cost_saving_change": "An'anaviyga nisbatan",
+          "cost_saving_value": "70% gacha",
+          "partners": "Hamkorlar",
+          "partners_change": "Global",
+          "partners_value": "200+",
+          "success_rate": "Muvaffaqiyat darajasi",
+          "success_rate_change": "Normal",
+          "success_rate_value": "99.8%"
+        },
+        "title": "Global to'lovlar",
+        "transactions": {
+          "b2b": "B2B ommaviy o'tkazma",
+          "completed": "Yakunlandi",
+          "just_now": "Hozirgina",
+          "merchant": "Savdogar to'lovi",
+          "mins_ago": "daq. avval",
+          "partner": "Hamkor hisob-kitobi",
+          "processing": "Jarayonda",
+          "title": "So'nggi tranzaksiyalar"
+        }
+      }
+    },
+    "remittance-section": {
+      "button": {
+        "detail": "Pul o'tkazma haqida batafsil"
+      },
+      "description": "200+ mamlakatga tez va xavfsiz pul o'tkazing.",
+      "features": {
+        "fast": {
+          "back_desc": "Bir necha marta bosish bilan dunyo bo'ylab yuboring, murakkab bosqichlar shart emas.",
+          "back_title": "Oddiy o'tkazma",
+          "desc": "Bir necha bosishda xalqaro o'tkazma",
+          "sub": "Bir necha bosish",
+          "title": "Tez o'tkazma"
+        },
+        "global": {
+          "back_desc": "200+ mamlakat va 70 global hamkor orqali butun dunyoga yuboring.",
+          "back_title": "Global tarmoq",
+          "desc": "1M+ foydalanuvchi GMEga ishonadi",
+          "sub": "1M+ foydalanuvchi",
+          "title": "200+ mamlakat"
+        },
+        "optimized": {
+          "back_desc": "Banklarga qaraganda 90% gacha past komissiya. Real vaqt kurslari bilan ko'proq yuboring.",
+          "back_title": "Katta tejamkorlik",
+          "desc": "90% kam komissiya, yaxshiroq kurs",
+          "sub": "90% tejash",
+          "title": "Optimallashtirilgan miqdor"
+        },
+        "security": {
+          "back_desc": "E-KYC tekshiruvi va FSC ro'yxatdan o'tgan xizmat bilan xavfsiz yuboring.",
+          "back_title": "Kuchli xavfsizlik",
+          "desc": "Kuchli himoya bilan ishonchli foydalaning",
+          "sub": "Tasdiqlangan",
+          "title": "Oson & Xavfsiz"
+        }
+      },
+      "title": "Xalqaro pul o'tkazma"
+    },
+    "section-nav": {
+      "app_download": "Ilovani yuklab oling",
+      "customer_feedback": "Fikrlar",
+      "exchange": "Valyuta kalkulyatori",
+      "home": "Bosh sahifa",
+      "services": "Xizmatlar"
+    },
+    "hero": {
+      "countries": {
+        "more": "Yana"
+      }
+    },
+    "services": {
+      "loan": {
+        "estimated_limit": "Taxminiy limit"
+      }
+    },
+    "section_nav": {
+      "testimonials": "Fikrlar"
+    },
+    "testimonials": {
+      "subtitle": "Mijozlarimizning haqiqiy tajribalari.",
+      "tags": {
+        "easy_tracking": "Oson o'tkazma & kuzatuv",
+        "fast_process": "Tez jarayon",
+        "satisfied": "Qoniqarli xizmat"
+      },
+      "title": "Fikrlar"
+    }
+  }
+}

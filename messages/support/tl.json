@@ -1,0 +1,218 @@
+{
+  "support-branches": {
+    "address": "Address",
+    "data": {
+      "1": {
+        "address": "315 Jongno, Jongno-gu, Seoul (Dongdaemun Station Exit 3)",
+        "hours": "Weekday at Weekend 10:00 - 19:00",
+        "name": "Dongdaemun Branch"
+      },
+      "2": {
+        "address": "1F, 6 Damunhwa-gil, Danwon-gu, Ansan-si, Gyeonggi-do",
+        "hours": "Weekday at Weekend 10:00 - 19:00",
+        "name": "Ansan Branch"
+      },
+      "3": {
+        "address": "1F, 134 Dorim-ro, Yeongdeungpo-gu, Seoul",
+        "hours": "Weekday at Weekend 10:00 - 19:00",
+        "name": "Daerim Branch"
+      },
+      "4": {
+        "address": "2-10 Maesan-ro, Paldal-gu, Suwon-si, Gyeonggi-do",
+        "hours": "Weekday at Weekend 10:00 - 19:00",
+        "name": "Suwon Branch"
+      },
+      "5": {
+        "address": "1F, 1109-3 3·1 Manse-ro, Hyangnam-eup, Hwaseong-si, Gyeonggi-do",
+        "hours": "Biyernes - Martes 10:00 - 19:00",
+        "name": "Hwaseong Branch"
+      },
+      "6": {
+        "address": "91 Solmoru-ro, Soheul-eup, Pocheon-si, Gyeonggi-do (Katabi ng NH Bank)",
+        "hours": "Sabado - Miyerkules 10:00 - 19:00",
+        "name": "Songuri Branch"
+      },
+      "7": {
+        "address": "16 Gwangjang-ro, Bupyeong-gu, Incheon (Bupyeong Station Shopping Mall)",
+        "hours": "Sabado - Miyerkules 10:00 - 19:00",
+        "name": "Bupyeong Branch"
+      },
+      "8": {
+        "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (Katapat ng Top Mart)",
+        "hours": "Weekday at Weekend 10:00 - 19:00",
+        "name": "Gimhae Branch"
+      },
+      "9": {
+        "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+        "hours": "Weekday at Weekend 10:00 - 19:00",
+        "name": "Pyeongtaek Branch"
+      }
+    },
+    "hours": "Oras",
+    "phone": "Telepono"
+  },
+  "support-inquiry": {
+    "categories": {
+      "2": {
+        "items": [
+          "Pagpaparehistro at pagsusuri ng korporasyon",
+          "Trade at service payment",
+          "Bayarin at palitan",
+          "API integration at settlement"
+        ]
+      },
+      "7": {
+        "items": [
+          "Plano at singil",
+          "Aktibasyon, number porting at pagkansela",
+          "Paghahatid at pagpapalit ng USIM",
+          "Kalidad ng data at tawag"
+        ]
+      }
+    },
+    "category-card": {
+      "categories": {
+        "1": {
+          "name": "Personal na remittance",
+          "sub": "Padala · Palitan · Pagtanggap"
+        },
+        "2": {
+          "name": "Business remittance (Biz)",
+          "sub": "Korporasyon · Trade payment · B2B"
+        },
+        "3": {
+          "name": "Pautang",
+          "sub": "Kwalipikasyon · Limitasyon · Bayad"
+        },
+        "4": {
+          "name": "Partnership",
+          "sub": "Alyansa · Panukalang negosyo"
+        },
+        "5": {
+          "name": "Trabaho · Recruitment",
+          "sub": "Aplikasyon · Proseso ng hiring"
+        },
+        "6": {
+          "name": "Proteksyon ng consumer · Reklamo",
+          "sub": "Alitan · Limitasyon · Pagsusumbong"
+        },
+        "7": {
+          "name": "Mobile · Telekomunikasyon",
+          "sub": "Plano · Aktibasyon · USIM"
+        }
+      }
+    },
+    "category-selector": {
+      "question": "Tungkol saan ang inyong katanungan?"
+    },
+    "chat": {
+      "action": "Simulan ang chat",
+      "description": "Sasagot ang ahente nang live. Sa labas ng oras ng trabaho, gagabay ang chatbot at tatanggapin ang callback request.",
+      "items": [
+        "Lunes - Biyernes 09:00 - 18:00 · Live na ahente",
+        "Iba pang oras · Chatbot at callback",
+        "12 wika ang suportado (Nepali, Vietnamese, Thai at iba pa)"
+      ]
+    },
+    "external": {
+      "action": "Pumunta sa inquiry page",
+      "description": "Ang ganitong katanungan ay tinatanggap sa website ng {{site}}."
+    },
+    "guide-panel": {
+      "common": {
+        "reset": "Pumili ng ibang tema"
+      }
+    },
+    "honeypot-field": {
+      "form": {
+        "honeypot": "Address"
+      }
+    },
+    "inquiry-form": {
+      "categories": {
+        "4": {
+          "dept": "Ang nakatalagang tanggapan"
+        },
+        "5": {
+          "dept": "Ang HR"
+        },
+        "6": {
+          "dept": "Ang consumer protection team"
+        }
+      },
+      "contentLabel": "Nilalaman",
+      "contentPlaceholder": "Mas detalyado ang paliwanag, mas tumpak ang aming sagot.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "name@example.com",
+      "errors": {
+        "email": "Pakisuri ang inyong email address.",
+        "failed": "Hindi naisumite ang katanungan. Subukan muli mamaya.",
+        "phone": "Pakisuri ang inyong numero ng telepono.",
+        "required": "Punan ang lahat ng kinakailangang field.",
+        "turnstile": "Pakitapos ang security check."
+      },
+      "nameLabel": "Pangalan",
+      "namePlaceholder": "Juan dela Cruz",
+      "notice": "Susuriin ito ng {{dept}} at sasagot.",
+      "phoneLabel": "Numero ng telepono",
+      "phonePlaceholder": "010-0000-0000",
+      "submit": "Isumite ang katanungan",
+      "titleLabel": "Paksa",
+      "titlePlaceholder": "Ilagay ang paksa"
+    },
+    "step-indicator": {
+      "steps": {
+        "connect": "2. Koneksyon · Pagsumite",
+        "select": "1. Pumili ng tema"
+      }
+    },
+    "submission-complete": {
+      "description": "Susuriin ito ng nakatalagang tanggapan at sasagot sa email na inyong ibinigay.",
+      "reset": "Bumalik sa simula"
+    }
+  },
+  "support-social-channels": {
+    "contact": "Makipag-ugnayan",
+    "countries_count": "38 Bansa",
+    "countries": {
+      "african-region": "Rehiyon ng Africa",
+      "bangladesh": "Bangladesh",
+      "cambodia": "Cambodia",
+      "china": "China",
+      "india": "India",
+      "indonesia": "Indonesia",
+      "japan": "Japan",
+      "korea": "Korea",
+      "mongolia": "Mongolia",
+      "myanmar": "Myanmar",
+      "nepal": "Nepal",
+      "pakistan": "Pakistan",
+      "philippines": "Pilipinas",
+      "srilanka": "Sri Lanka",
+      "thailand": "Thailand",
+      "uzbekistan-cis": "Uzbekistan at CIS",
+      "vietnam": "Vietnam",
+      "western": "Western"
+    },
+    "description": "Kumonekta sa GME sa pamamagitan ng mga opisyal na channel sa bawat bansa",
+    "operating": "Aktibo",
+    "title": "Pandaigdigang Social Channel"
+  },
+  "support": {
+    "tabs": {
+      "branches": "Mga Branch",
+      "social_channels": "Social Channels"
+    },
+    "stats": {
+      "countries_label": "Mga Bansang Sineserbisyuhan",
+      "branches_label": "Mga Branch",
+      "branches_unit": "+",
+      "branches_value": "12",
+      "countries_unit": "+",
+      "countries_value": "38",
+      "services_label": "Mga Serbisyo",
+      "services_unit": "+",
+      "services_value": "8"
+    }
+  }
+}

@@ -8,7 +8,7 @@ interface TypeBadgeProps {
 }
 
 export default function TypeBadge({ type }: TypeBadgeProps) {
-  const { t } = useTranslation("board.badge");
+  const { t } = useTranslation();
 
   const getTypeColor = () => {
     switch (type) {

@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "i18n:pull": "node scripts/lokalise-sync.mjs pull",
-    "i18n:push": "node scripts/lokalise-sync.mjs push"
+    "i18n:push": "node scripts/lokalise-sync.mjs push",
+    "i18n:push:delete": "node scripts/lokalise-sync.mjs push --delete"
   },
   "dependencies": {
     "@lokalise/node-api": "^15.6.1",

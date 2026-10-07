@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useTranslation } from "@/hooks/useTranslation";
 
 export default function AppDownloadCTA() {
-  const { t, tArray } = useTranslation("home.app_download");
+  const { t, tArray } = useTranslation();
   return (
     <section id="app-download" className="bg-[var(--surface-0)] py-12 lg:py-16 snap-section">
       <div className="max-w-[1540px] mx-auto px-4 sm:px-6 lg:px-10">
@@ -16,20 +16,20 @@ export default function AppDownloadCTA() {
             {/* Left - Text Content */}
             <div className="text-center lg:text-left">
               <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2 text-xs font-semibold text-white/70">
-                {tArray("chips").map((chip) => (
+                {tArray("home.app-download-cta.chips").map((chip) => (
                   <span key={chip} className="rounded-full border border-white/15 bg-white/5 px-3 py-1.5">
                     {chip}
                   </span>
                 ))}
               </div>
-              <p className="mt-5 text-sm font-semibold text-white/70">{t("subtitle")}</p>
+              <p className="mt-5 text-sm font-semibold text-white/70">{t("home.app-download-cta.subtitle")}</p>
               <h3 className="mt-3 text-2xl sm:text-4xl lg:text-5xl font-bold leading-[1.15]">
-                {t("title1")}
-                <br />
-                {t("title2")}
+                {t("home.app-download-cta.title1")}
+                <br />ㅂ
+                {t("home.app-download-cta.title2")}
               </h3>
               <p className="mt-4 text-sm sm:text-base text-white/80 max-w-md mx-auto lg:mx-0">
-                {t("description")}
+                {t("home.app-download-cta.description")}
               </p>
               <div className="mt-8 flex flex-wrap items-center justify-center lg:justify-start gap-3 sm:gap-4">
                 <a
@@ -75,7 +75,7 @@ export default function AppDownloadCTA() {
                   className="rounded-2xl"
                 />
                 <p className="mt-4 text-center text-sm font-medium text-gray-600">
-                  {t("qr_scan")}
+                  {t("home.app-download-cta.qr_scan")}
                 </p>
               </div>
             </div>

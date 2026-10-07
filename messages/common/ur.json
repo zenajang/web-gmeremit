@@ -1,0 +1,227 @@
+{
+  "header": {
+    "link": {
+      "careers": "کیریئرز"
+    },
+    "nav": {
+      "blog": "بلاگ",
+      "branches": "برانچیں",
+      "card": "GME Card",
+      "ceo_message": "سی ای او کا پیغام",
+      "company": "کمپنی",
+      "history": "تاریخ",
+      "inquiry": "استفسار",
+      "loan": "GME قرض",
+      "news": "خبریں",
+      "notice": "نوٹس",
+      "payments": "GME ادائیگیاں (B2B)",
+      "press": "خبریں / پریس",
+      "remittance": "GME ایپ ترسیلات",
+      "services": "خدمات",
+      "services_menu": "خدمات",
+      "social_channels": "سوشل چینلز",
+      "support": "سپورٹ",
+      "telecom": "موبائل"
+    }
+  },
+  "footer": {
+    "company_name": "Global Money Express",
+    "copyright": "© Global Money Express, جملہ حقوق محفوظ ہیں۔",
+    "info": {
+      "address": "پتہ: 901~911Ho, B-dong, Saenggak Gongjang Bldg., 150, Yeongdeungpo-ro, Yeongdeungpo-gu, Seoul, Korea 07292",
+      "email_support": "استفسارات: support@gmeremit.com",
+      "fax": "فیکس: (+82) 2 3674 5559",
+      "phone_general": "02-3673-5559 (عام استفسارات)",
+      "remittance_inquiry": "ترسیلاتِ زر سے متعلق استفسارات"
+    },
+    "link": {
+      "privacy": "رازداری کی پالیسی",
+      "terms": "سروس کی شرائط"
+    }
+  },
+  "common": {
+    "blog-grid": {
+      "board": {
+        "by": "By"
+      }
+    },
+    "board": {
+      "error_description": "براہ کرم بعد میں دوبارہ کوشش کریں۔",
+      "error_title": "پوسٹس لوڈ کرنے میں ناکامی"
+    },
+    "careers": {
+      "cta": {
+        "openings": "آسامیاں دیکھیں",
+        "subtitle": "ہماری موجودہ آسامیاں دیکھیں اور آج ہی درخواست دیں۔",
+        "title": "GME میں شامل ہونے کے لیے تیار ہیں؟"
+      }
+    },
+    "exchange-rate-calculator": {
+      "home": {
+        "exchange": {
+          "calculator": {
+            "bank_deposit": "بینک ڈپازٹ",
+            "cash_payment": "نقد ادائیگی",
+            "delivery_method": "بھیجنے کا طریقہ",
+            "error": "ناکام",
+            "error_failed": "شرح مبادلہ حاصل کرنے میں ناکام",
+            "error_limit": "بھیجنے کی حد سے زیادہ",
+            "error_max_amount": "زیادہ سے زیادہ بھیجنے کی رقم: %1$s KRW",
+            "error_min_amount": "کم سے کم بھیجنے کی رقم: %1$s KRW",
+            "error_network": "نیٹ ورک خرابی",
+            "error_unavailable": "اس رقم کے لیے شرح دستیاب نہیں",
+            "error_unavailable_method": "یہ ترسیل کا طریقہ فی الحال دستیاب نہیں ہے",
+            "fee": "فیس شامل ہے",
+            "loading": "...لوڈ ہو رہا ہے",
+            "mobile_wallet": "موبائل والیٹ",
+            "no_results": "کوئی نتیجہ نہیں",
+            "payout_methods": {
+              "1": "نقد ادائیگی",
+              "2": "بینک ڈپازٹ",
+              "12": "ہوم ڈلیوری",
+              "13": "موبائل والیٹ",
+              "14": "کارڈ ادائیگی",
+              "15": "Bank Deposit (USD)",
+              "16": "WeChat Pay",
+              "17": "Alipay",
+              "18": "Visa/Mastercard/UnionPay",
+              "19": "Visa/Mastercard",
+              "24": "UPTION",
+              "25": "UPI",
+              "26": "UZCARD",
+              "27": "HUMO Card",
+              "33": "bKash",
+              "34": "Rocket",
+              "35": "Nagad",
+              "37": "QR ادائیگی",
+              "38": "Korti Milli"
+            },
+            "qr_pay": "QR ادائیگی",
+            "rate": "شرح تبادلہ",
+            "realtime": "ریئل ٹائم",
+            "receive_amount": "وصول ہونے والی رقم",
+            "receive_country": "وصول کنندہ ملک",
+            "search_placeholder": "ملک تلاش کریں",
+            "send_amount": "بھیجنے کی رقم",
+            "title": "ریئل ٹائم ایکسچینج کیلکولیٹر"
+          }
+        }
+      }
+    },
+    "loan": {
+      "cta": {
+        "description": "آسان موبائل درخواست کے ذریعے جلدی سے ضروری فنڈز حاصل کریں۔",
+        "inline_notice": "ⓘ نیچے دیے گئے بٹن پر کلک کرنے سے آپ GME Finance کی فراہم کردہ قرض سروس سے منسلک ہو جائیں گے۔",
+        "title": "آج ہی GME ایپ سے اپنا قرض شروع کریں"
+      }
+    },
+    "mobile-section": {
+      "hero": {
+        "description": "استفسار کی قسم منتخب کریں، ہم آپ کو متعلقہ شعبے تک رہنمائی دیں گے۔"
+      }
+    },
+    "payments": {
+      "business": {
+        "cta": {
+          "description": "عالمی ادائیگی کے حل کے ساتھ اپنا کاروبار بڑھائیں۔ ہمارے مخصوص مینیجرز آپ کے لیے بہترین حل تجویز کریں گے۔",
+          "email": "corporate@gmeremit.com",
+          "title": "GME ادائیگیوں کے ساتھ شروع کریں"
+        }
+      }
+    },
+    "remittance": {
+      "features": {
+        "app": {
+          "desc": "چند ٹیپس میں ترسیلات مکمل کریں",
+          "title": "ایپ پر مبنی ٹرانسفر"
+        },
+        "branches": {
+          "desc": "ملک بھر کی برانچوں سے سپورٹ حاصل کریں",
+          "title": "آف لائن برانچیں"
+        },
+        "convenient": {
+          "desc": "آسان بہاؤ جسے کوئی بھی استعمال کر سکتا ہے",
+          "title": "آسان تجربہ"
+        },
+        "multilingual": {
+          "desc": "متعدد زبانوں میں سروس استعمال کریں",
+          "title": "کثیر لسانی سپورٹ"
+        },
+        "subtitle": "ایک ایپ میں سب کچھ ٹرانسفر اور ٹریک کریں",
+        "title": "آسان",
+        "title2": "محفوظ ترسیلات"
+      }
+    },
+    "services": {
+      "chat": {
+        "title": "آپ کو لائیو چیٹ سے منسلک کیا جائے گا"
+      },
+      "complete": {
+        "title": "آپ کی درخواست موصول ہو گئی ہے۔"
+      },
+      "external": {
+        "title": "{{site}} پر جا رہے ہیں"
+      },
+      "hero": {
+        "title": "ہم آپ کی کیا مدد کر سکتے ہیں"
+      }
+    },
+    "support": {
+      "hero": {
+        "desc1": "ہماری ملک بھر کی برانچوں اور عالمی سوشل چینلز کے ذریعے،",
+        "desc2": "آپ کسی بھی وقت سپورٹ حاصل کر سکتے ہیں اور سوالات پوچھ سکتے ہیں۔",
+        "desc3": "اپنے قریب ایک برانچ تلاش کریں یا سوشل میڈیا پر ہم سے جڑیں۔",
+        "title": "GME، ہمیشہ آپ کے قریب"
+      }
+    },
+    "telecom-page-client": {
+      "cta": {
+        "button": "GME Mobile پر جائیں",
+        "description": "سستے پلانز کے ساتھ فون بل پر بچت کریں، 17 زبانوں میں دستیاب۔",
+        "title": "GME Mobile کے ساتھ شروع کریں"
+      },
+      "features": {
+        "activation": {
+          "description": "ایپ سے آسانی سے خود فعال کریں",
+          "title": "5 منٹ ایکٹیویشن"
+        },
+        "affordable": {
+          "description": "غیر ملکیوں کے لیے انتہائی سستے پلانز",
+          "title": "₩3,300/ماہ سے"
+        },
+        "esim": {
+          "description": "QR کوڈ سکین کریں اور فوری فعال کریں",
+          "title": "eSIM سپورٹ"
+        },
+        "intl_call": {
+          "description": "کچھ پلانز میں 20 منٹ/دن بین الاقوامی کال",
+          "title": "بین الاقوامی کالز شامل"
+        },
+        "multilang": {
+          "description": "اپنی مادری زبان میں استعمال کریں",
+          "title": "17 زبانیں"
+        },
+        "network": {
+          "description": "ملک بھر میں قابل اعتماد کوریج",
+          "title": "LGU+, KT کے برابر معیار"
+        },
+        "plans": {
+          "description": "₩3,300/ماہ سے شروع ہونے والے پلانز",
+          "title": "لچکدار پلانز"
+        },
+        "usim": {
+          "description": "ڈیلیوری کے 5 منٹ میں فعال",
+          "title": "USIM خود ایکٹیویشن"
+        }
+      }
+    },
+    "company": {
+      "tabs": {
+        "title": "کمپنی کے بارے میں"
+      }
+    },
+    "button": {
+      "app_download": "ایپ ڈاؤن لوڈ"
+    }
+  }
+}

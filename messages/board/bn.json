@@ -1,0 +1,52 @@
+{
+  "board-detail": {
+    "board-detail-client": {
+      "attachment": "সংযুক্তি",
+      "attachment_file": "সংযুক্তি",
+      "back": "পিছনে",
+      "back_to_list": "তালিকায় ফিরুন",
+      "not_found": "পোস্ট পাওয়া যায়নি"
+    }
+  },
+  "board-notice": {
+    "redirect": {
+      "notice": "বিজ্ঞপ্তি পৃষ্ঠায় পুনঃনির্দেশ করা হচ্ছে..."
+    }
+  },
+  "board-press": {
+    "redirect": {
+      "press": "প্রেস পৃষ্ঠায় পুনঃনির্দেশ করা হচ্ছে..."
+    }
+  },
+  "board": {
+    "blog-grid": {
+      "no_image": "ছবি নেই",
+      "no_results": "কোনো ফলাফল পাওয়া যায়নি।"
+    },
+    "board-table": {
+      "attachment": "ফাইল",
+      "attachment_file": "সংযুক্তি",
+      "date": "তারিখ",
+      "title": "শিরোনাম",
+      "type": "ধরন"
+    },
+    "count_suffix": " টি পোস্ট",
+    "pagination": {
+      "load_more": "আরও দেখুন"
+    },
+    "search-bar": {
+      "all": "সব",
+      "content": "বিষয়বস্তু",
+      "placeholder": "অনুসন্ধান কীওয়ার্ড লিখুন",
+      "title": "শিরোনাম",
+      "button": "অনুসন্ধান"
+    },
+    "subtitle": "GME Remit-এর সর্বশেষ সংবাদ দেখুন",
+    "tabs": {
+      "blog": "ব্লগ",
+      "notice": "বিজ্ঞপ্তি",
+      "press": "প্রেস"
+    },
+    "total": "মোট"
+  }
+}

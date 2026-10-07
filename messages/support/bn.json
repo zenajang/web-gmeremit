@@ -1,0 +1,218 @@
+{
+  "support-branches": {
+    "address": "ঠিকানা",
+    "data": {
+      "1": {
+        "address": "315 Jongno, Jongno-gu, Seoul (Dongdaemun Station Exit 3)",
+        "hours": "কর্মদিবস ও সাপ্তাহিক ছুটি 10:00 - 19:00",
+        "name": "দংদেমুন শাখা"
+      },
+      "2": {
+        "address": "1F, 6 Damunhwa-gil, Danwon-gu, Ansan-si, Gyeonggi-do",
+        "hours": "কর্মদিবস ও সাপ্তাহিক ছুটি 10:00 - 19:00",
+        "name": "আনসান শাখা"
+      },
+      "3": {
+        "address": "1F, 134 Dorim-ro, Yeongdeungpo-gu, Seoul",
+        "hours": "কর্মদিবস ও সাপ্তাহিক ছুটি 10:00 - 19:00",
+        "name": "দেরিম শাখা"
+      },
+      "4": {
+        "address": "2-10 Maesan-ro, Paldal-gu, Suwon-si, Gyeonggi-do",
+        "hours": "কর্মদিবস ও সাপ্তাহিক ছুটি 10:00 - 19:00",
+        "name": "সুওন শাখা"
+      },
+      "5": {
+        "address": "1F, 1109-3 3·1 Manse-ro, Hyangnam-eup, Hwaseong-si, Gyeonggi-do",
+        "hours": "শুক্রবার - মঙ্গলবার 10:00 - 19:00",
+        "name": "হুয়াসং শাখা"
+      },
+      "6": {
+        "address": "91 Solmoru-ro, Soheul-eup, Pocheon-si, Gyeonggi-do (NH Bank-এর পাশে)",
+        "hours": "শনিবার - বুধবার 10:00 - 19:00",
+        "name": "সংউরি শাখা"
+      },
+      "7": {
+        "address": "16 Gwangjang-ro, Bupyeong-gu, Incheon (Bupyeong Station Shopping Mall)",
+        "hours": "শনিবার - বুধবার 10:00 - 19:00",
+        "name": "বুপিয়ং শাখা"
+      },
+      "8": {
+        "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (Top Mart-এর বিপরীতে)",
+        "hours": "কর্মদিবস ও সাপ্তাহিক ছুটি 10:00 - 19:00",
+        "name": "গিমহে শাখা"
+      },
+      "9": {
+        "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+        "hours": "কর্মদিবস ও সাপ্তাহিক ছুটি 10:00 - 19:00",
+        "name": "প্যংট্যাক শাখা"
+      }
+    },
+    "hours": "সময়সূচি",
+    "phone": "ফোন"
+  },
+  "support-inquiry": {
+    "categories": {
+      "2": {
+        "items": [
+          "প্রতিষ্ঠান নিবন্ধন ও যাচাই",
+          "বাণিজ্য ও সেবা পেমেন্ট",
+          "ফি ও বিনিময় হারের শর্ত",
+          "API সংযোগ ও নিষ্পত্তি"
+        ]
+      },
+      "7": {
+        "items": [
+          "প্ল্যান ও বিল যাচাই",
+          "চালু, নম্বর স্থানান্তর ও বন্ধ",
+          "USIM সরবরাহ ও পরিবর্তন",
+          "ডেটা ও কল মান"
+        ]
+      }
+    },
+    "category-card": {
+      "categories": {
+        "1": {
+          "name": "ব্যক্তিগত রেমিট্যান্স",
+          "sub": "অর্থ প্রেরণ · বিনিময় হার · অর্থ গ্রহণ"
+        },
+        "2": {
+          "name": "ব্যবসায়িক রেমিট্যান্স (Biz)",
+          "sub": "প্রতিষ্ঠান · ব্যবসায়িক পেমেন্ট · B2B"
+        },
+        "3": {
+          "name": "ঋণ সংক্রান্ত জিজ্ঞাসা",
+          "sub": "যোগ্যতা · সীমা · পরিশোধ"
+        },
+        "4": {
+          "name": "অংশীদারিত্ব",
+          "sub": "সহযোগিতা · ব্যবসায়িক প্রস্তাব"
+        },
+        "5": {
+          "name": "চাকরি · নিয়োগ",
+          "sub": "আবেদন · নিয়োগ প্রক্রিয়া"
+        },
+        "6": {
+          "name": "ভোক্তা সুরক্ষা · অভিযোগ",
+          "sub": "বিরোধ · ব্যবহার সীমাবদ্ধতা · রিপোর্ট"
+        },
+        "7": {
+          "name": "মোবাইল · টেলিকম",
+          "sub": "প্ল্যান · চালু · USIM"
+        }
+      }
+    },
+    "category-selector": {
+      "question": "আপনার জিজ্ঞাসা কী বিষয়ে?"
+    },
+    "chat": {
+      "action": "চ্যাট শুরু করুন",
+      "description": "এজেন্ট সরাসরি উত্তর দেন। অফিস সময়ের পরে চ্যাটবট নির্দেশনা দেয় এবং কলব্যাক অনুরোধ নেয়।",
+      "items": [
+        "সোম - শুক্র ০৯:০০ - ১৮:০০ · এজেন্ট",
+        "অন্য সময় · চ্যাটবট ও কলব্যাক",
+        "১২টি ভাষা সমর্থিত (বাংলা, নেপালি, ভিয়েতনামি, থাই ইত্যাদি)"
+      ]
+    },
+    "external": {
+      "action": "জিজ্ঞাসা পেইজে যান",
+      "description": "এ ধরনের জিজ্ঞাসা {{site}} ওয়েবসাইটে গ্রহণ করা হয়।"
+    },
+    "guide-panel": {
+      "common": {
+        "reset": "অন্য ধরন বেছে নিন"
+      }
+    },
+    "honeypot-field": {
+      "form": {
+        "honeypot": "ঠিকানা"
+      }
+    },
+    "inquiry-form": {
+      "categories": {
+        "4": {
+          "dept": "সংশ্লিষ্ট বিভাগ"
+        },
+        "5": {
+          "dept": "মানবসম্পদ বিভাগ"
+        },
+        "6": {
+          "dept": "ভোক্তা সুরক্ষা বিভাগ"
+        }
+      },
+      "contentLabel": "বিবরণ",
+      "contentPlaceholder": "যত বিস্তারিত লিখবেন, তত সঠিক উত্তর দিতে পারব।",
+      "emailLabel": "ইমেইল",
+      "emailPlaceholder": "name@example.com",
+      "errors": {
+        "email": "অনুগ্রহ করে ইমেইল ঠিকানা যাচাই করুন।",
+        "failed": "জিজ্ঞাসা পাঠানো যায়নি। কিছুক্ষণ পরে আবার চেষ্টা করুন।",
+        "phone": "অনুগ্রহ করে ফোন নম্বর যাচাই করুন।",
+        "required": "অনুগ্রহ করে সব আবশ্যক ঘর পূরণ করুন।",
+        "turnstile": "অনুগ্রহ করে নিরাপত্তা যাচাই সম্পন্ন করুন।"
+      },
+      "nameLabel": "নাম",
+      "namePlaceholder": "রহিম উদ্দিন",
+      "notice": "{{dept}} যাচাই করে উত্তর দেবে।",
+      "phoneLabel": "ফোন নম্বর",
+      "phonePlaceholder": "010-0000-0000",
+      "submit": "জিজ্ঞাস করুন",
+      "titleLabel": "বিষয়",
+      "titlePlaceholder": "বিষয় লিখুন"
+    },
+    "step-indicator": {
+      "steps": {
+        "connect": "২. সংযোগ · গ্রহণ",
+        "select": "১. ধরন নির্বাচন"
+      }
+    },
+    "submission-complete": {
+      "description": "সংশ্লিষ্ট বিভাগ যাচাই করে আপনার দেওয়া ইমেইলে উত্তর দেবে।",
+      "reset": "শুরুতে ফিরুন"
+    }
+  },
+  "support-social-channels": {
+    "contact": "যোগাযোগ",
+    "countries_count": "38টি দেশ",
+    "countries": {
+      "african-region": "আফ্রিকান অঞ্চল",
+      "bangladesh": "বাংলাদেশ",
+      "cambodia": "কম্বোডিয়া",
+      "china": "চীন",
+      "india": "ভারত",
+      "indonesia": "ইন্দোনেশিয়া",
+      "japan": "জাপান",
+      "korea": "কোরিয়া",
+      "mongolia": "মঙ্গোলিয়া",
+      "myanmar": "মিয়ানমার",
+      "nepal": "নেপাল",
+      "pakistan": "পাকিস্তান",
+      "philippines": "ফিলিপাইন",
+      "srilanka": "শ্রীলঙ্কা",
+      "thailand": "থাইল্যান্ড",
+      "uzbekistan-cis": "উজবেকিস্তান ও CIS",
+      "vietnam": "ভিয়েতনাম",
+      "western": "পশ্চিমা"
+    },
+    "description": "প্রতিটি দেশে অফিসিয়াল চ্যানেলের মাধ্যমে GME-এর সাথে সংযুক্ত হন",
+    "operating": "পরিচালনারত",
+    "title": "গ্লোবাল সোশ্যাল চ্যানেল"
+  },
+  "support": {
+    "tabs": {
+      "branches": "শাখা",
+      "social_channels": "সোশ্যাল চ্যানেল"
+    },
+    "stats": {
+      "countries_label": "সেবা দেশ",
+      "branches_label": "শাখা",
+      "branches_unit": "+",
+      "branches_value": "12",
+      "countries_unit": "+",
+      "countries_value": "38",
+      "services_label": "সেবা",
+      "services_unit": "+",
+      "services_value": "8"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "board-detail": {
+    "board-detail-client": {
+      "attachment": "Pièce jointe",
+      "attachment_file": "Pièce jointe",
+      "back": "Retour",
+      "back_to_list": "Retour à la liste",
+      "not_found": "Article introuvable"
+    }
+  },
+  "board-notice": {
+    "redirect": {
+      "notice": "Redirection vers la page Avis..."
+    }
+  },
+  "board-press": {
+    "redirect": {
+      "press": "Redirection vers la page Presse..."
+    }
+  },
+  "board": {
+    "blog-grid": {
+      "no_image": "Aucune image",
+      "no_results": "Aucun résultat trouvé."
+    },
+    "board-table": {
+      "attachment": "Fichier",
+      "attachment_file": "Pièce jointe",
+      "date": "Date",
+      "title": "Titre",
+      "type": "Type"
+    },
+    "count_suffix": " articles",
+    "pagination": {
+      "load_more": "Charger plus"
+    },
+    "search-bar": {
+      "all": "Tous",
+      "content": "Contenu",
+      "placeholder": "Entrez un mot-clé",
+      "title": "Titre",
+      "button": "Rechercher"
+    },
+    "subtitle": "Découvrez les dernières actualités de GME Remit",
+    "tabs": {
+      "blog": "Blog",
+      "notice": "Avis",
+      "press": "Presse"
+    },
+    "total": "Total"
+  }
+}

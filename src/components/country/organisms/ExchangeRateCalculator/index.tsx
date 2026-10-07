@@ -19,7 +19,7 @@ const ExchangeRateCalculator = () => {
   const pathname = usePathname();
   const countryName = pathname.split("/").pop() ?? "";
   const { t: tCountry, activeLangCode } = useCountryTranslation(countryName);
-  const { t } = useTranslation("home.exchange", resolveMessagesLang(activeLangCode));
+  const { t } = useTranslation(undefined, resolveMessagesLang(activeLangCode));
   const normalize = (value: string) => value.toLowerCase().replace(/[-\s]+/g, "");
   const matchedCountry = countryConfigs.find(
     (c) => normalize(c.countryName) === normalize(countryName ?? "")
@@ -86,7 +86,7 @@ const ExchangeRateCalculator = () => {
   return (
     <div className={S.CalculatorTitle}>
       <div className={S.CalculatorHeaderRow}>
-        <span className={S.CalculatorHeading}>{tCountry("exchangeRate.cardTitle")}</span>
+        <span className={S.CalculatorHeading}>{tCountry("exchange-rate-calculator.cardTitle")}</span>
         <div
           className={`${S.CalculatorStatusBadge} ${
             hasError ? S.CalculatorStatusBadgeError : S.CalculatorStatusBadgeSuccess
@@ -101,35 +101,35 @@ const ExchangeRateCalculator = () => {
                 : S.CalculatorStatusDotSuccess
             }`}
           />
-          {isLoading ? t("calculator.loading") : hasError ? t("calculator.error") : t("calculator.realtime")}
+          {isLoading ? t("common.exchange-rate-calculator.home.exchange.calculator.loading") : hasError ? t("common.exchange-rate-calculator.home.exchange.calculator.error") : t("common.exchange-rate-calculator.home.exchange.calculator.realtime")}
         </div>
       </div>
 
       <div className={S.CalculatorFieldWrapper}>
         <label htmlFor="send-amount" className={S.CalculatorFieldLabel}>
-          {tCountry("exchangeRate.sendAmountLabel")}
+          {tCountry("exchange-rate-calculator.sendAmountLabel")}
         </label>
         <div className={S.CalculatorInputRow}>
           <input
             id="send-amount"
             type="text"
             inputMode="numeric"
-            placeholder={tCountry("exchangeRate.sendAmountPlaceholder")}
+            placeholder={tCountry("exchange-rate-calculator.sendAmountPlaceholder")}
             value={sendAmount ? Number(sendAmount).toLocaleString("ko-KR") : ""}
             onChange={handleSendAmountChange}
             className={S.CalculatorInput}
           />
-          <span className={S.CalculatorCurrencyTag}>{tCountry("exchangeRate.sendCurrencyLabel")}</span>
+          <span className={S.CalculatorCurrencyTag}>{tCountry("exchange-rate-calculator.sendCurrencyLabel")}</span>
         </div>
         {hasError && error && (
           <p className={S.CalculatorErrorMessage}>
-            {error.raw ?? t(`calculator.${error.key}`, error.params)}
+            {error.raw ?? t(`common.exchange-rate-calculator.home.exchange.calculator.${error.key}`, error.params)}
           </p>
         )}
       </div>
 
       <div ref={payoutDropdownRef} className={`${S.CalculatorFieldWrapper} relative`}>
-        <label className={S.CalculatorFieldLabel}>{t("calculator.delivery_method")}</label>
+        <label className={S.CalculatorFieldLabel}>{t("common.exchange-rate-calculator.home.exchange.calculator.delivery_method")}</label>
         <button
           type="button"
           disabled={payoutMethods.length <= 1}
@@ -137,7 +137,7 @@ const ExchangeRateCalculator = () => {
           className={`${S.CalculatorInputRow} w-full transition-colors ${payoutMethods.length >= 2 && "cursor-pointer"}`}
         >
           <span className={S.CalculatorValueText}>
-            {deliveryMethod ? t(`calculator.payout_methods.${deliveryMethod}`) : ""}
+            {deliveryMethod ? t(`common.exchange-rate-calculator.home.exchange.calculator.payout_methods.${deliveryMethod}`) : ""}
           </span>
           {payoutMethods.length > 1 && (
             <svg className={`w-5 h-5 text-neutral-400 transition-transform ${isPayoutOpen ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -167,7 +167,7 @@ const ExchangeRateCalculator = () => {
                       : "hover:bg-slate-50"
                   }`}
                 >
-                  <span className="font-medium flex-1 text-left">{t(`calculator.payout_methods.${method.key}`)}</span>
+                  <span className="font-medium flex-1 text-left">{t(`common.exchange-rate-calculator.home.exchange.calculator.payout_methods.${method.key}`)}</span>
                 </button>
               ))}
             </div>
@@ -176,7 +176,7 @@ const ExchangeRateCalculator = () => {
       </div>
 
       <div className={S.CalculatorFieldWrapper}>
-        <div className={S.CalculatorFieldLabel}>{tCountry("exchangeRate.recipientCountryLabel")}
+        <div className={S.CalculatorFieldLabel}>{tCountry("exchange-rate-calculator.recipientCountryLabel")}
           {matchedCountry?.currencies && matchedCountry?.currencies.length > 1 && (
             <div className="mt-2 flex items-center gap-1.5 flex-wrap">
               {matchedCountry?.currencies.map((currency) => {
@@ -200,13 +200,13 @@ const ExchangeRateCalculator = () => {
           )}
         </div>
         <div className={S.CalculatorInputRow}>
-          <p className={S.CalculatorValueText}>{tCountry("exchangeRate.recipientCountryOption")}</p>
+          <p className={S.CalculatorValueText}>{tCountry("exchange-rate-calculator.recipientCountryOption")}</p>
           {/* <span className={S.CalculatorCurrencyTag}>{pCurr}</span> */}
         </div>
       </div>
 
       <div className={S.CalculatorResultBox}>
-        <span className={S.CalculatorResultLabel}>{tCountry("exchangeRate.receiverGetsLabel")}</span>
+        <span className={S.CalculatorResultLabel}>{tCountry("exchange-rate-calculator.receiverGetsLabel")}</span>
         <span className={S.CalculatorResultValue}>
           {isLoading ? "..." : `${resultRecipientCountry} ${formatNumber(receiveAmount || "0")}`}
         </span>
@@ -214,13 +214,13 @@ const ExchangeRateCalculator = () => {
 
       <div>
         <div className={S.CalculatorMetaRow}>
-          <span className={S.CalculatorMetaLabel}>{tCountry("exchangeRate.transferFeeLabel")}</span>
+          <span className={S.CalculatorMetaLabel}>{tCountry("exchange-rate-calculator.transferFeeLabel")}</span>
           <span className={S.CalculatorMetaValue}>
             {scCharge ? `${parseInt(parseNumber(scCharge || "0"), 10).toLocaleString("ko-KR")} KRW` : "Free"}
           </span>
         </div>
         <div className={S.CalculatorMetaRow}>
-          <span className={S.CalculatorMetaLabel}>{tCountry("exchangeRate.exchangeRateLabel")}</span>
+          <span className={S.CalculatorMetaLabel}>{tCountry("exchange-rate-calculator.exchangeRateLabel")}</span>
           <span className={S.CalculatorMetaValue}>{exchangeRateDisplay || "---"}</span>
         </div>
       </div>
@@ -231,7 +231,7 @@ const ExchangeRateCalculator = () => {
         disabled={isLoading}
         className={S.CalculatorSubmitButton}
       >
-        {isLoading ? "Calculating..." : tCountry("exchangeRate.submitLabel")}
+        {isLoading ? "Calculating..." : tCountry("exchange-rate-calculator.submitLabel")}
       </button>
     </div>
   );

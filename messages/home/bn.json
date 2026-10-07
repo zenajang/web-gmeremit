@@ -1,0 +1,538 @@
+{
+  "home": {
+    "app-download-cta": {
+      "chips": [
+        "রিয়েল-টাইম রেট",
+        "অপ্টিমাইজড পরিমাণ",
+        "নিরাপদ প্রমাণীকরণ"
+      ],
+      "description": "সহজ এবং নিরাপদ প্রমাণীকরণ, অপ্টিমাইজড পরিমাণ, দ্রুত ট্রান্সফার। GME Remit অ্যাপের মাধ্যমে নিরাপদে এবং সুবিধাজনকভাবে সবকিছু পরিচালনা করুন।",
+      "qr_scan": "QR কোড স্ক্যান করুন",
+      "subtitle": "GME REMIT APP",
+      "title1": "দ্রুত পাঠান,",
+      "title2": "স্মার্টভাবে পরিচালনা করুন"
+    },
+    "cards-showcase": {
+      "black": {
+        "cta": "Premium Card দেখুন",
+        "desc": "একটি প্রিমিয়াম কার্ড যা আপনার বৈশ্বিক ব্যয়ের জন্য পুরস্কার প্রদান করে।",
+        "highlights": [
+          "বিদেশে 3% ক্যাশব্যাক",
+          "বিশ্বের যেকোনো স্থানে পেমেন্ট করুন",
+          "অনলাইন ও অফলাইন শপিং",
+          "গণপরিবহন"
+        ]
+      },
+      "careers": {
+        "cta": {
+          "about": "কোম্পানি সম্পর্কে"
+        }
+      },
+      "cta": {
+        "button": "কার্ডের জন্য আবেদন করুন",
+        "description": "আপনার জন্য সঠিক কার্ড খুঁজুন এবং একচেটিয়া সুবিধা উপভোগ করুন।",
+        "title": "আজই GME Card দিয়ে শুরু করুন"
+      },
+      "easyCare": {
+        "cta": "EasyCare Card দেখুন",
+        "desc": "যত্নের জন্য তৈরি, Made to Care। বীমা ও সদস্যপদ সহায়তা সুবিধাসহ একটি পোস্টপেইড পরিবহন কার্ড।",
+        "highlights": [
+          "বীমা ও সদস্যপদ সহায়তা সুবিধা",
+          "পোস্টপেইড পরিবহন কার্ড",
+          "মৌসুমি ও বিশেষ দোকানে ক্যাশব্যাক",
+          "বিশ্বের যেকোনো স্থানে পেমেন্ট করুন"
+        ]
+      },
+      "easyG0": {
+        "cta": "EasyGo Card দেখুন",
+        "desc": "দৈনন্দিন জীবনকে আরও সুবিধাজনক করে তুলুন। পরিবহন থেকে শপিং পর্যন্ত মৌসুমি সুবিধা উপভোগ করুন।",
+        "highlights": [
+          "পোস্টপেইড পরিবহন কার্ড",
+          "মৌসুমি ও বিশেষ দোকানে ক্যাশব্যাক",
+          "বিশ্বব্যাপী যেকোনো জায়গায় পেমেন্ট",
+          "অনলাইন এবং অফলাইন শপিং"
+        ]
+      },
+      "image_alt": "কার্ড ছবি",
+      "loan": {
+        "cta": {
+          "button": "অ্যাপ ডাউনলোড করুন"
+        }
+      },
+      "pay": {
+        "cta": "Pay Card দেখুন",
+        "desc": "আপনার দৈনন্দিন ব্যয়ের জন্য একটি অল-ইন-ওয়ান পেমেন্ট কার্ড।",
+        "highlights": [
+          "মৌসুমি ও বিশেষ দোকানে ক্যাশব্যাক",
+          "বিশ্বের যেকোনো স্থানে পেমেন্ট করুন",
+          "অনলাইন ও অফলাইন শপিং",
+          "গণপরিবহন"
+        ]
+      },
+      "red": {
+        "cta": "Red Card দেখুন",
+        "desc": "GME-এর স্বাক্ষর রঙের কার্ড। প্রতিটি পেমেন্ট স্টাইলিশ করুন।",
+        "highlights": [
+          "মৌসুমী ক্যাশব্যাক",
+          "বিশেষ ইভেন্ট ডিসকাউন্ট",
+          "মেট্রো · বাস · ট্যাক্সি ইজি পে",
+          "পাবলিক ট্রান্সপোর্ট"
+        ]
+      },
+      "uniq": {
+        "cta": "UniQ Card দেখুন",
+        "desc": "18টি দেশের 30+ ডিজাইন থেকে আপনার নিজের কার্ড বেছে নিন।",
+        "highlights": [
+          "মৌসুমি ও বিশেষ দোকানে ক্যাশব্যাক",
+          "বিশেষ ইভেন্ট ডিসকাউন্ট",
+          "18টি দেশ 30+ ডিজাইন",
+          "মেট্রো · বাস · ট্যাক্সি ইজি পে"
+        ]
+      },
+      "white": {
+        "cta": "White Card দেখুন",
+        "desc": "সহজ এবং পরিষ্কার দৈনন্দিন কার্ড। দেশীয় পেমেন্ট এবং পাবলিক ট্রান্সপোর্টের জন্য সুবিধাজনক।",
+        "highlights": [
+          "মৌসুমী ক্যাশব্যাক",
+          "বিশেষ ইভেন্ট ডিসকাউন্ট",
+          "মেট্রো · বাস · ট্যাক্সি ইজি পে",
+          "পাবলিক ট্রান্সপোর্ট"
+        ]
+      }
+    },
+    "customer-feedback-section": {
+      "subtitle": "আমাদের গ্রাহকদের প্রকৃত অভিজ্ঞতা।",
+      "tags": {
+        "easy_tracking": "সহজ ট্রান্সফার এবং ট্র্যাকিং",
+        "fast_process": "দ্রুত প্রক্রিয়া",
+        "satisfied": "সন্তোষজনক সেবা"
+      },
+      "title": "প্রশংসাপত্র"
+    },
+    "hero-main": {
+      "badge": "উৎকৃষ্ট রেমিট্যান্স সেবা",
+      "button": {
+        "learn_more": "আরও জানুন"
+      },
+      "countries": {
+        "names": {
+          "AD": "Andorra",
+          "AE": "সংযুক্ত আরব আমিরাত",
+          "AG": "Antigua and Barbuda",
+          "AI": "Anguilla",
+          "AL": "Albania",
+          "AM": "Armenia",
+          "AO": "Angola",
+          "AR": "আর্জেন্টিনা",
+          "AS": "American Samoa",
+          "AT": "Austria",
+          "AU": "অস্ট্রেলিয়া",
+          "AW": "Aruba",
+          "AZ": "Azerbaijan",
+          "BA": "Bosnia and Herzegovina",
+          "BB": "Barbados",
+          "BD": "বাংলাদেশ",
+          "BE": "Belgium",
+          "BF": "Burkina Faso",
+          "BG": "Bulgaria",
+          "BH": "বাহরাইন",
+          "BI": "Burundi",
+          "BJ": "Benin",
+          "BL": "Saint Barthélemy",
+          "BM": "Bermuda",
+          "BN": "Brunei",
+          "BO": "বলিভিয়া",
+          "BR": "ব্রাজিল",
+          "BS": "Bahamas",
+          "BT": "Bhutan",
+          "BW": "Botswana",
+          "BY": "Belarus",
+          "BZ": "Belize",
+          "CA": "কানাডা",
+          "CD": "Democratic Republic of the Congo",
+          "CF": "Central African Republic",
+          "CG": "Republic of the Congo",
+          "CH": "সুইজারল্যান্ড",
+          "CI": "Ivory Coast",
+          "CK": "Cook Islands",
+          "CL": "চিলি",
+          "CM": "Cameroon",
+          "CN": "চীন",
+          "CO": "কলম্বিয়া",
+          "CR": "Costa Rica",
+          "CU": "Cuba",
+          "CV": "Cape Verde",
+          "CY": "Cyprus",
+          "CZ": "চেক প্রজাতন্ত্র",
+          "DE": "জার্মানি",
+          "DJ": "Djibouti",
+          "DK": "ডেনমার্ক",
+          "DM": "Dominica",
+          "DO": "ডোমিনিকান প্রজাতন্ত্র",
+          "DZ": "Algeria",
+          "EC": "Ecuador",
+          "EE": "Estonia",
+          "EG": "Egypt",
+          "ER": "Eritrea",
+          "ES": "Spain",
+          "ET": "Ethiopia",
+          "FI": "Finland",
+          "FJ": "ফিজি",
+          "FM": "Micronesia",
+          "FR": "France",
+          "GA": "Gabon",
+          "GB": "যুক্তরাজ্য",
+          "GD": "Grenada",
+          "GE": "Georgia",
+          "GF": "French Guiana",
+          "GH": "ঘানা",
+          "GI": "Gibraltar",
+          "GM": "Gambia",
+          "GN": "Guinea",
+          "GP": "Guadeloupe",
+          "GQ": "Equatorial Guinea",
+          "GR": "Greece",
+          "GT": "গুয়াতেমালা",
+          "GU": "Guam",
+          "GW": "Guinea-Bissau",
+          "GY": "Guyana",
+          "HK": "হংকং",
+          "HN": "হন্ডুরাস",
+          "HR": "Croatia",
+          "HT": "Haiti",
+          "HU": "হাঙ্গেরি",
+          "ID": "ইন্দোনেশিয়া",
+          "IE": "Ireland",
+          "IL": "ইসরায়েল",
+          "IN": "ভারত",
+          "IS": "Iceland",
+          "IT": "Italy",
+          "JM": "Jamaica",
+          "JO": "জর্ডান",
+          "JP": "জাপান",
+          "KE": "কেনিয়া",
+          "KG": "Kyrgyzstan",
+          "KH": "কম্বোডিয়া",
+          "KM": "Comoros",
+          "KN": "Saint Kitts and Nevis",
+          "KW": "কুয়েত",
+          "KY": "Cayman Islands",
+          "KZ": "Kazakhstan",
+          "LA": "Laos",
+          "LB": "Lebanon",
+          "LC": "Saint Lucia",
+          "LI": "Liechtenstein",
+          "LK": "শ্রীলঙ্কা",
+          "LR": "Liberia",
+          "LS": "Lesotho",
+          "LT": "Lithuania",
+          "LU": "Luxembourg",
+          "LV": "Latvia",
+          "LY": "Libya",
+          "MA": "মরক্কো",
+          "MC": "Monaco",
+          "MD": "Moldova",
+          "ME": "Montenegro",
+          "MF": "Saint Martin (French part)",
+          "MG": "Madagascar",
+          "MH": "Marshall Islands",
+          "MK": "Macedonia",
+          "ML": "Mali",
+          "MM": "মিয়ানমার",
+          "MN": "Mongolia",
+          "MO": "Macao",
+          "MQ": "Martinique",
+          "MR": "Mauritania",
+          "MS": "Montserrat",
+          "MT": "Malta",
+          "MU": "Mauritius",
+          "MV": "Maldives",
+          "MW": "Malawi",
+          "MX": "মেক্সিকো",
+          "MY": "মালয়েশিয়া",
+          "MZ": "Mozambique",
+          "NA": "Namibia",
+          "NC": "New Caledonia",
+          "NE": "Niger",
+          "NG": "নাইজেরিয়া",
+          "NI": "Nicaragua",
+          "NL": "Netherlands",
+          "NO": "নরওয়ে",
+          "NP": "নেপাল",
+          "NZ": "নিউজিল্যান্ড",
+          "OM": "ওমান",
+          "PA": "Panama",
+          "PE": "পেরু",
+          "PF": "French Polynesia",
+          "PG": "Papua New Guinea",
+          "PH": "ফিলিপাইন",
+          "PK": "পাকিস্তান",
+          "PL": "পোল্যান্ড",
+          "PR": "Puerto Rico",
+          "PS": "Palestinian Territory, Occupied",
+          "PT": "Portugal",
+          "PY": "প্যারাগুয়ে",
+          "QA": "কাতার",
+          "RE": "Réunion",
+          "RO": "রোমানিয়া",
+          "RS": "Serbia",
+          "RU": "রাশিয়া",
+          "RW": "রুয়ান্ডা",
+          "SA": "সৌদি আরব",
+          "SB": "Solomon Islands",
+          "SC": "Seychelles",
+          "SD": "Sudan",
+          "SE": "Sweden",
+          "SG": "সিঙ্গাপুর",
+          "SI": "Slovenia",
+          "SK": "Slovakia",
+          "SL": "Sierra Leone",
+          "SN": "Senegal",
+          "SR": "Suriname",
+          "SS": "South Sudan",
+          "ST": "Sao Tome and Principe",
+          "SV": "El Salvador",
+          "SZ": "Swaziland",
+          "TC": "Turks and Caicos Islands",
+          "TD": "Chad",
+          "TG": "Togo",
+          "TH": "থাইল্যান্ড",
+          "TJ": "Tajikistan",
+          "TL": "Timor-Leste",
+          "TM": "Turkmenistan",
+          "TN": "Tunisia",
+          "TO": "টোঙ্গা",
+          "TR": "Turkey",
+          "TT": "Trinidad and Tobago",
+          "TV": "Tuvalu",
+          "TZ": "তানজানিয়া",
+          "UA": "Ukraine",
+          "UG": "উগান্ডা",
+          "US": "যুক্তরাষ্ট্র",
+          "UY": "Uruguay",
+          "UZ": "Uzbekistan",
+          "VC": "Saint Vincent and the Grenadines",
+          "VE": "Venezuela",
+          "VG": "Virgin Islands, British",
+          "VI": "Virgin Islands, U.S.",
+          "VN": "ভিয়েতনাম",
+          "VU": "Vanuatu",
+          "WS": "সামোয়া",
+          "XK": "Kosovo",
+          "YE": "Yemen",
+          "YT": "Mayotte",
+          "ZA": "South Africa",
+          "ZM": "জাম্বিয়া",
+          "ZW": "Zimbabwe"
+        },
+        "realtime": "রিয়েল-টাইম",
+        "subtitle": "200+ দেশ সমর্থিত",
+        "title": "সমর্থিত দেশ",
+        "view_all": "রেমিট্যান্স সম্পর্কে জানুন"
+      },
+      "description1": "200+ দেশে, সমস্ত কোরিয়ান ব্যাংকে রিয়েল-টাইমে পাঠান।",
+      "description2": "70টি গ্লোবাল অংশীদার এবং E-KYC যাচাইকরণের মাধ্যমে নিরাপদ।",
+      "rating": "App Store · Google Play গড়",
+      "stats": {
+        "avg_time": "গড় ট্রান্সফার সময়",
+        "seconds": "সেকেন্ড",
+        "total_amount": "মোট রেমিট্যান্স",
+        "trillion": "ট্রিলিয়ন+"
+      },
+      "title1": "দ্রুত এবং নিরাপদ",
+      "title2": "আন্তর্জাতিক রেমিট্যান্স"
+    },
+    "hero-section": {
+      "exchange": {
+        "description1": "200+ দেশের জন্য রিয়েল-টাইম বিনিময় হার।",
+        "description2": "স্বচ্ছ ফি প্রকাশ।",
+        "stats": {
+          "countries": "200+",
+          "countries_label": "সমর্থিত দেশ",
+          "service": "24/7",
+          "service_label": "রিয়েল-টাইম সেবা"
+        },
+        "title1": "বিনিময় হার দেখুন",
+        "title2": "এখনই"
+      }
+    },
+    "loan-section": {
+      "button": {
+        "apply": "GME অ্যাপে লোনের জন্য আবেদন করুন",
+        "detail": "লোন সম্পর্কে আরও জানুন"
+      },
+      "card": {
+        "quick_apply": "দ্রুত আবেদন",
+        "subtitle": "বিদেশীদের জন্য লোন",
+        "title": "GME Finance"
+      },
+      "description": "GME অ্যাপের মাধ্যমে মিনিটে লোনের জন্য আবেদন করুন। যেকোনো সময়, যেকোনো জায়গায় রিয়েল-টাইম প্রক্রিয়াকরণ স্ট্যাটাস এবং ব্যালেন্স দেখুন।",
+      "features": {
+        "countries": {
+          "desc": "দেশ",
+          "label": "14+"
+        },
+        "realtime": {
+          "desc": "ট্র্যাকিং",
+          "label": "রিয়েল-টাইম"
+        },
+        "simple": {
+          "desc": "অ্যাপে আবেদন",
+          "label": "সহজ"
+        },
+        "success": {
+          "desc": "লোন",
+          "label": "1M+"
+        },
+        "support": {
+          "desc": "সহায়তা",
+          "label": "24/7"
+        }
+      },
+      "stats": {
+        "desc": "1M+ সফল লোন · 14টি দেশ",
+        "title": "সঞ্চিত লোন কর্মক্ষমতা",
+        "value": "₩500B+"
+      },
+      "title": "অনলাইন লোন"
+    },
+    "main-services": {
+      "card": {
+        "desc1": "রেমিট্যান্স এবং খরচ সংযুক্তকারী স্মার্ট কার্ড।",
+        "desc2": "গ্লোবাল পেমেন্টের একটি নতুন মান।",
+        "title": "GME Card"
+      },
+      "loan": {
+        "desc1": "দ্রুত অনুমোদন এবং নমনীয় শর্তাবলী",
+        "desc2": "ডিজিটাল লোন সেবা",
+        "title": "অনলাইন লোন"
+      },
+      "mobile": {
+        "desc1": "প্রতি মাসে ₩৩,৩০০ থেকে শুরু হওয়া",
+        "desc2": "বিদেশীদের জন্য বাজেট মোবাইল পরিষেবা",
+        "title": "মোবাইল"
+      },
+      "payments": {
+        "desc1": "বাল্ক পেমেন্ট, নিষ্পত্তি, অংশীদার ট্রান্সফার।",
+        "desc2": "দ্রুত এবং নিরাপদ কর্পোরেট পেমেন্ট প্রবাহ।",
+        "title": "গ্লোবাল পেমেন্টস"
+      },
+      "remittance": {
+        "desc1": "দ্রুত এবং নিরাপদে টাকা পাঠান",
+        "desc2": "200+ দেশে।",
+        "title": "বিদেশী রেমিট্যান্স"
+      },
+      "title1": "GME-এর",
+      "title2": "বিভিন্ন সেবা অন্বেষণ করুন"
+    },
+    "payments-section": {
+      "global_payments": {
+        "button": {
+          "detail": "পেমেন্টস সম্পর্কে আরও জানুন"
+        },
+        "card": {
+          "status": "সক্রিয়",
+          "subtitle": "এন্টারপ্রাইজ সলিউশন",
+          "title": "পেমেন্ট সলিউশন"
+        },
+        "description": "পে-রোল ট্রান্সফার, অংশীদার নিষ্পত্তি, ই-কমার্স পেমেন্ট। সাশ্রয়ী কর্পোরেট পেমেন্ট সলিউশন।",
+        "features": {
+          "smb": "SMB",
+          "smb_desc": "ই-কমার্স সলিউশন",
+          "sps": "SPS",
+          "sps_desc": "B2B পেমেন্ট সলিউশন",
+          "vas": "VAS",
+          "vas_desc": "অ্যালার্ট · রিপোর্ট · ড্যাশবোর্ড"
+        },
+        "stats": {
+          "cost_saving": "খরচ সাশ্রয়",
+          "cost_saving_change": "প্রচলিতের তুলনায়",
+          "cost_saving_value": "সর্বোচ্চ 70%",
+          "partners": "অংশীদার",
+          "partners_change": "গ্লোবাল",
+          "partners_value": "200+",
+          "success_rate": "সাফল্যের হার",
+          "success_rate_change": "স্বাভাবিক",
+          "success_rate_value": "99.8%"
+        },
+        "title": "গ্লোবাল পেমেন্টস",
+        "transactions": {
+          "b2b": "B2B বাল্ক ট্রান্সফার",
+          "completed": "সম্পন্ন",
+          "just_now": "এইমাত্র",
+          "merchant": "মার্চেন্ট পেমেন্ট",
+          "mins_ago": "মিনিট আগে",
+          "partner": "অংশীদার নিষ্পত্তি",
+          "processing": "প্রক্রিয়াকরণ",
+          "title": "সাম্প্রতিক লেনদেন"
+        }
+      }
+    },
+    "remittance-section": {
+      "button": {
+        "detail": "রেমিট্যান্স সম্পর্কে আরও জানুন"
+      },
+      "description": "200+ দেশে দ্রুত এবং নিরাপদে টাকা পাঠান।",
+      "features": {
+        "fast": {
+          "back_desc": "জটিল ধাপ ছাড়াই মাত্র কয়েকটি ট্যাপে বিশ্বের যেকোনো জায়গায় পাঠান।",
+          "back_title": "সহজ ট্রান্সফার",
+          "desc": "মাত্র কয়েকটি ক্লিকে বিদেশী ট্রান্সফার সম্পন্ন করুন",
+          "sub": "কয়েকটি ক্লিক",
+          "title": "দ্রুত ট্রান্সফার"
+        },
+        "global": {
+          "back_desc": "200+ দেশ এবং 70টি গ্লোবাল অংশীদারের মাধ্যমে বিশ্বব্যাপী পাঠান।",
+          "back_title": "গ্লোবাল নেটওয়ার্ক",
+          "desc": "বিশ্বব্যাপী দশ লক্ষেরও বেশি ব্যবহারকারী GME-কে বিশ্বাস করেন",
+          "sub": "1M+ ব্যবহারকারী",
+          "title": "200+ দেশ"
+        },
+        "optimized": {
+          "back_desc": "ব্যাংকের তুলনায় সর্বোচ্চ 90% কম ফি। রিয়েল-টাইম রেটে আরও বেশি পাঠান।",
+          "back_title": "ব্যাপক খরচ সাশ্রয়",
+          "desc": "ব্যাংকের চেয়ে 90% কম ফি এবং ভালো রেট",
+          "sub": "90% সাশ্রয়",
+          "title": "অপ্টিমাইজড পরিমাণ"
+        },
+        "security": {
+          "back_desc": "E-KYC যাচাইকরণ এবং FSC-নিবন্ধিত সেবার মাধ্যমে নিরাপদে পাঠান।",
+          "back_title": "পুঙ্খানুপুঙ্খ নিরাপত্তা",
+          "desc": "শক্তিশালী নিরাপত্তার সাথে নিশ্চিন্তে ব্যবহার করুন",
+          "sub": "যাচাইকৃত",
+          "title": "সহজ এবং নিরাপদ"
+        }
+      },
+      "title": "বিদেশী রেমিট্যান্স"
+    },
+    "section-nav": {
+      "app_download": "অ্যাপ ডাউনলোড",
+      "customer_feedback": "প্রশংসাপত্র",
+      "exchange": "বিনিময় ক্যালকুলেটর",
+      "home": "হোম",
+      "services": "সেবা"
+    },
+    "hero": {
+      "countries": {
+        "more": "আরও"
+      }
+    },
+    "services": {
+      "loan": {
+        "estimated_limit": "আনুমানিক সীমা"
+      }
+    },
+    "section_nav": {
+      "testimonials": "প্রশংসাপত্র"
+    },
+    "testimonials": {
+      "subtitle": "আমাদের গ্রাহকদের প্রকৃত অভিজ্ঞতা।",
+      "tags": {
+        "easy_tracking": "সহজ ট্রান্সফার এবং ট্র্যাকিং",
+        "fast_process": "দ্রুত প্রক্রিয়া",
+        "satisfied": "সন্তোষজনক সেবা"
+      },
+      "title": "প্রশংসাপত্র"
+    }
+  }
+}

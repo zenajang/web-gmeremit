@@ -1,0 +1,538 @@
+{
+  "home": {
+    "app-download-cta": {
+      "chips": [
+        "Real-time na rate",
+        "Optimized na halaga",
+        "Secure na pagpapatunay"
+      ],
+      "description": "Madali at secure na pagpapatunay, optimized na halaga, mabilis na paglipat. Pamahalaan ang lahat nang ligtas at maginhawa sa GME Remit app.",
+      "qr_scan": "I-scan ang QR code",
+      "subtitle": "GME REMIT APP",
+      "title1": "Magpadala nang mas mabilis,",
+      "title2": "Pamahalaan nang mas matalino"
+    },
+    "cards-showcase": {
+      "black": {
+        "cta": "Tingnan ang Premium Card",
+        "desc": "Premium card na nagbibigay ng reward sa iyong global spending.",
+        "highlights": [
+          "3% Cashback sa Ibang Bansa",
+          "Magbayad Kahit Saan sa Buong Mundo",
+          "Online & Offline na Pamimili",
+          "Pampublikong Transportasyon"
+        ]
+      },
+      "careers": {
+        "cta": {
+          "about": "Tungkol sa Kumpanya"
+        }
+      },
+      "cta": {
+        "button": "Mag-apply para sa Card",
+        "description": "Hanapin ang tamang card para sa iyo at mag-enjoy ng exclusive na benepisyo.",
+        "title": "Magsimula sa GME Card Ngayon"
+      },
+      "easyCare": {
+        "cta": "Tingnan ang EasyCare Card",
+        "desc": "Made to Care. Isang postpaid transportation card na may benepisyong insurance at membership support.",
+        "highlights": [
+          "Mga benepisyong insurance at membership support",
+          "Postpaid na Transportation Card",
+          "Cashback Pana-panahon at sa mga Espesyal na Tindahan",
+          "Magbayad Kahit Saan sa Buong Mundo"
+        ]
+      },
+      "easyG0": {
+        "cta": "Tingnan ang EasyGo Card",
+        "desc": "Gawing mas maginhawa ang iyong araw-araw na buhay. Tamasahin ang mga pana-panahong benepisyo mula sa transportasyon hanggang pamimili.",
+        "highlights": [
+          "Postpaid na Transportation Card",
+          "Cashback Pana-panahon at sa mga Espesyal na Tindahan",
+          "Magbayad Kahit Saan sa Mundo",
+          "Online at Offline Shopping"
+        ]
+      },
+      "image_alt": "Larawan ng Card",
+      "loan": {
+        "cta": {
+          "button": "I-download ang App"
+        }
+      },
+      "pay": {
+        "cta": "Tingnan ang Pay Card",
+        "desc": "Isang all-in-one na payment card para sa iyong pang-araw-araw na gastusin.",
+        "highlights": [
+          "Cashback Pana-panahon at sa mga Espesyal na Tindahan",
+          "Magbayad Kahit Saan sa Buong Mundo",
+          "Online & Offline na Pamimili",
+          "Pampublikong Transportasyon"
+        ]
+      },
+      "red": {
+        "cta": "Tingnan ang Red Card",
+        "desc": "Card na may signature color ng GME. Gawing istilo ang bawat pagbabayad.",
+        "highlights": [
+          "Seasonal Cashback",
+          "Espesyal na Event Discount",
+          "Metro · Bus · Taxi Easy Pay",
+          "Pampublikong Transportasyon"
+        ]
+      },
+      "uniq": {
+        "cta": "Tingnan ang UniQ Card",
+        "desc": "Pumili ng sarili mong card mula sa 30+ na disenyo sa 18 bansa.",
+        "highlights": [
+          "Cashback Pana-panahon at sa mga Espesyal na Tindahan",
+          "Espesyal na Event Discount",
+          "18 Bansa 30+ Disenyo",
+          "Metro · Bus · Taxi Easy Pay"
+        ]
+      },
+      "white": {
+        "cta": "Tingnan ang White Card",
+        "desc": "Simple at malinis na pang-araw-araw na card. Maginhawa para sa domestic payment at pampublikong transportasyon.",
+        "highlights": [
+          "Seasonal Cashback",
+          "Espesyal na Event Discount",
+          "Metro · Bus · Taxi Easy Pay",
+          "Pampublikong Transportasyon"
+        ]
+      }
+    },
+    "customer-feedback-section": {
+      "subtitle": "Mga totoong karanasan mula sa aming mga customer.",
+      "tags": {
+        "easy_tracking": "Madaling Transfer at Pagsubaybay",
+        "fast_process": "Mabilis na Proseso",
+        "satisfied": "Nasiyahang Serbisyo"
+      },
+      "title": "Feedback ng Customer"
+    },
+    "hero-main": {
+      "badge": "Mahusay na Serbisyo sa Remittance",
+      "button": {
+        "learn_more": "Alamin Pa"
+      },
+      "countries": {
+        "names": {
+          "AD": "Andorra",
+          "AE": "United Arab Emirates",
+          "AG": "Antigua and Barbuda",
+          "AI": "Anguilla",
+          "AL": "Albania",
+          "AM": "Armenia",
+          "AO": "Angola",
+          "AR": "Argentina",
+          "AS": "American Samoa",
+          "AT": "Austria",
+          "AU": "Australia",
+          "AW": "Aruba",
+          "AZ": "Azerbaijan",
+          "BA": "Bosnia and Herzegovina",
+          "BB": "Barbados",
+          "BD": "Bangladesh",
+          "BE": "Belgium",
+          "BF": "Burkina Faso",
+          "BG": "Bulgaria",
+          "BH": "Bahrain",
+          "BI": "Burundi",
+          "BJ": "Benin",
+          "BL": "Saint Barthélemy",
+          "BM": "Bermuda",
+          "BN": "Brunei",
+          "BO": "Bolivia",
+          "BR": "Brazil",
+          "BS": "Bahamas",
+          "BT": "Bhutan",
+          "BW": "Botswana",
+          "BY": "Belarus",
+          "BZ": "Belize",
+          "CA": "Canada",
+          "CD": "Democratic Republic of the Congo",
+          "CF": "Central African Republic",
+          "CG": "Republic of the Congo",
+          "CH": "Switzerland",
+          "CI": "Ivory Coast",
+          "CK": "Cook Islands",
+          "CL": "Chile",
+          "CM": "Cameroon",
+          "CN": "China",
+          "CO": "Colombia",
+          "CR": "Costa Rica",
+          "CU": "Cuba",
+          "CV": "Cape Verde",
+          "CY": "Cyprus",
+          "CZ": "Czech Republic",
+          "DE": "Germany",
+          "DJ": "Djibouti",
+          "DK": "Denmark",
+          "DM": "Dominica",
+          "DO": "Dominican Republic",
+          "DZ": "Algeria",
+          "EC": "Ecuador",
+          "EE": "Estonia",
+          "EG": "Egypt",
+          "ER": "Eritrea",
+          "ES": "Spain",
+          "ET": "Ethiopia",
+          "FI": "Finland",
+          "FJ": "Fiji",
+          "FM": "Micronesia",
+          "FR": "France",
+          "GA": "Gabon",
+          "GB": "United Kingdom",
+          "GD": "Grenada",
+          "GE": "Georgia",
+          "GF": "French Guiana",
+          "GH": "Ghana",
+          "GI": "Gibraltar",
+          "GM": "Gambia",
+          "GN": "Guinea",
+          "GP": "Guadeloupe",
+          "GQ": "Equatorial Guinea",
+          "GR": "Greece",
+          "GT": "Guatemala",
+          "GU": "Guam",
+          "GW": "Guinea-Bissau",
+          "GY": "Guyana",
+          "HK": "Hong Kong",
+          "HN": "Honduras",
+          "HR": "Croatia",
+          "HT": "Haiti",
+          "HU": "Hungary",
+          "ID": "Indonesia",
+          "IE": "Ireland",
+          "IL": "Israel",
+          "IN": "India",
+          "IS": "Iceland",
+          "IT": "Italy",
+          "JM": "Jamaica",
+          "JO": "Jordan",
+          "JP": "Japan",
+          "KE": "Kenya",
+          "KG": "Kyrgyzstan",
+          "KH": "Cambodia",
+          "KM": "Comoros",
+          "KN": "Saint Kitts and Nevis",
+          "KW": "Kuwait",
+          "KY": "Cayman Islands",
+          "KZ": "Kazakhstan",
+          "LA": "Laos",
+          "LB": "Lebanon",
+          "LC": "Saint Lucia",
+          "LI": "Liechtenstein",
+          "LK": "Sri Lanka",
+          "LR": "Liberia",
+          "LS": "Lesotho",
+          "LT": "Lithuania",
+          "LU": "Luxembourg",
+          "LV": "Latvia",
+          "LY": "Libya",
+          "MA": "Morocco",
+          "MC": "Monaco",
+          "MD": "Moldova",
+          "ME": "Montenegro",
+          "MF": "Saint Martin (French part)",
+          "MG": "Madagascar",
+          "MH": "Marshall Islands",
+          "MK": "Macedonia",
+          "ML": "Mali",
+          "MM": "Myanmar",
+          "MN": "Mongolia",
+          "MO": "Macao",
+          "MQ": "Martinique",
+          "MR": "Mauritania",
+          "MS": "Montserrat",
+          "MT": "Malta",
+          "MU": "Mauritius",
+          "MV": "Maldives",
+          "MW": "Malawi",
+          "MX": "Mexico",
+          "MY": "Malaysia",
+          "MZ": "Mozambique",
+          "NA": "Namibia",
+          "NC": "New Caledonia",
+          "NE": "Niger",
+          "NG": "Nigeria",
+          "NI": "Nicaragua",
+          "NL": "Netherlands",
+          "NO": "Norway",
+          "NP": "Nepal",
+          "NZ": "New Zealand",
+          "OM": "Oman",
+          "PA": "Panama",
+          "PE": "Peru",
+          "PF": "French Polynesia",
+          "PG": "Papua New Guinea",
+          "PH": "Pilipinas",
+          "PK": "Pakistan",
+          "PL": "Poland",
+          "PR": "Puerto Rico",
+          "PS": "Palestinian Territory, Occupied",
+          "PT": "Portugal",
+          "PY": "Paraguay",
+          "QA": "Qatar",
+          "RE": "Réunion",
+          "RO": "Romania",
+          "RS": "Serbia",
+          "RU": "Russia",
+          "RW": "Rwanda",
+          "SA": "Saudi Arabia",
+          "SB": "Solomon Islands",
+          "SC": "Seychelles",
+          "SD": "Sudan",
+          "SE": "Sweden",
+          "SG": "Singapore",
+          "SI": "Slovenia",
+          "SK": "Slovakia",
+          "SL": "Sierra Leone",
+          "SN": "Senegal",
+          "SR": "Suriname",
+          "SS": "South Sudan",
+          "ST": "Sao Tome and Principe",
+          "SV": "El Salvador",
+          "SZ": "Swaziland",
+          "TC": "Turks and Caicos Islands",
+          "TD": "Chad",
+          "TG": "Togo",
+          "TH": "Thailand",
+          "TJ": "Tajikistan",
+          "TL": "Timor-Leste",
+          "TM": "Turkmenistan",
+          "TN": "Tunisia",
+          "TO": "Tonga",
+          "TR": "Turkey",
+          "TT": "Trinidad and Tobago",
+          "TV": "Tuvalu",
+          "TZ": "Tanzania",
+          "UA": "Ukraine",
+          "UG": "Uganda",
+          "US": "United States",
+          "UY": "Uruguay",
+          "UZ": "Uzbekistan",
+          "VC": "Saint Vincent and the Grenadines",
+          "VE": "Venezuela",
+          "VG": "Virgin Islands, British",
+          "VI": "Virgin Islands, U.S.",
+          "VN": "Vietnam",
+          "VU": "Vanuatu",
+          "WS": "Samoa",
+          "XK": "Kosovo",
+          "YE": "Yemen",
+          "YT": "Mayotte",
+          "ZA": "South Africa",
+          "ZM": "Zambia",
+          "ZW": "Zimbabwe"
+        },
+        "realtime": "Real-time",
+        "subtitle": "200+ na bansang suportado",
+        "title": "Mga Suportadong Bansa",
+        "view_all": "Alamin ang Tungkol sa Remittance"
+      },
+      "description1": "Magpadala sa 200+ na bansa, lahat ng Korean bank sa real-time.",
+      "description2": "Ligtas sa 70 global partner at E-KYC verification.",
+      "rating": "App Store · Google Play Average",
+      "stats": {
+        "avg_time": "Average na Oras ng Transfer",
+        "seconds": "segundo",
+        "total_amount": "Kabuuang Remittance",
+        "trillion": "trilyon+"
+      },
+      "title1": "Mabilis at Ligtas na",
+      "title2": "International Remittance"
+    },
+    "hero-section": {
+      "exchange": {
+        "description1": "Real-time exchange rate para sa 200+ na bansa.",
+        "description2": "Transparent na pagsisiwalat ng bayarin.",
+        "stats": {
+          "countries": "200+",
+          "countries_label": "Mga Suportadong Bansa",
+          "service": "24/7",
+          "service_label": "Real-time na Serbisyo"
+        },
+        "title1": "Tingnan ang exchange rate",
+        "title2": "ngayon na"
+      }
+    },
+    "loan-section": {
+      "button": {
+        "apply": "Mag-apply para sa Loan sa GME App",
+        "detail": "Alamin pa ang tungkol sa Loan"
+      },
+      "card": {
+        "quick_apply": "Quick Apply",
+        "subtitle": "Mga Loan para sa Dayuhan",
+        "title": "GME Finance"
+      },
+      "description": "Mag-apply para sa loan sa ilang minuto gamit ang GME app. Tingnan ang real-time processing status at balanse kahit kailan, kahit saan.",
+      "features": {
+        "countries": {
+          "desc": "Mga Bansa",
+          "label": "14+"
+        },
+        "realtime": {
+          "desc": "Pagsubaybay",
+          "label": "Real-time"
+        },
+        "simple": {
+          "desc": "App Apply",
+          "label": "Simple"
+        },
+        "success": {
+          "desc": "Mga Loan",
+          "label": "1M+"
+        },
+        "support": {
+          "desc": "Suporta",
+          "label": "24/7"
+        }
+      },
+      "stats": {
+        "desc": "1M+ Matagumpay na Loan · 14 na Bansa",
+        "title": "Kabuuang Performance ng Loan",
+        "value": "₩500B+"
+      },
+      "title": "Online Loan"
+    },
+    "main-services": {
+      "card": {
+        "desc1": "Smart card na nag-uugnay ng remittance at paggastos.",
+        "desc2": "Isang bagong pamantayan para sa pandaigdigang pagbabayad.",
+        "title": "GME Card"
+      },
+      "loan": {
+        "desc1": "Mabilis na pag-apruba at flexible na tuntunin",
+        "desc2": "Digital loan service",
+        "title": "Online Loan"
+      },
+      "mobile": {
+        "desc1": "Mga budget mobile plan simula sa",
+        "desc2": "₩3,300/buwan para sa mga dayuhan",
+        "title": "Mobile"
+      },
+      "payments": {
+        "desc1": "Bulk payment, settlement, partner transfer.",
+        "desc2": "Mabilis at ligtas na daloy ng corporate payment.",
+        "title": "Global Payments"
+      },
+      "remittance": {
+        "desc1": "Magpadala ng pera nang mabilis at ligtas",
+        "desc2": "sa 200+ na bansa.",
+        "title": "Overseas Remittance"
+      },
+      "title1": "Tuklasin ang",
+      "title2": "Iba't ibang Serbisyo ng GME"
+    },
+    "payments-section": {
+      "global_payments": {
+        "button": {
+          "detail": "Alamin pa ang tungkol sa Payments"
+        },
+        "card": {
+          "status": "Active",
+          "subtitle": "Enterprise Solutions",
+          "title": "Payment Solutions"
+        },
+        "description": "Payroll transfer, partner settlement, e-commerce payment. Cost-effective na corporate payment solution.",
+        "features": {
+          "smb": "SMB",
+          "smb_desc": "E-commerce Solution",
+          "sps": "SPS",
+          "sps_desc": "B2B Payment Solution",
+          "vas": "VAS",
+          "vas_desc": "Alerts · Reports · Dashboard"
+        },
+        "stats": {
+          "cost_saving": "Pagtitipid sa Gastos",
+          "cost_saving_change": "vs Tradisyunal",
+          "cost_saving_value": "Hanggang 70%",
+          "partners": "Mga Partner",
+          "partners_change": "Pandaigdigan",
+          "partners_value": "200+",
+          "success_rate": "Success Rate",
+          "success_rate_change": "Normal",
+          "success_rate_value": "99.8%"
+        },
+        "title": "Global Payments",
+        "transactions": {
+          "b2b": "B2B Bulk Transfer",
+          "completed": "Nakumpleto",
+          "just_now": "Ngayon lang",
+          "merchant": "Merchant Payment",
+          "mins_ago": "minuto ang nakalipas",
+          "partner": "Partner Settlement",
+          "processing": "Pinoproseso",
+          "title": "Mga Kamakailang Transaksyon"
+        }
+      }
+    },
+    "remittance-section": {
+      "button": {
+        "detail": "Alamin pa ang tungkol sa Remittance"
+      },
+      "description": "Magpadala ng pera nang mabilis at ligtas sa 200+ na bansa.",
+      "features": {
+        "fast": {
+          "back_desc": "Magpadala kahit saan sa mundo sa ilang tap lang, walang kumplikadong hakbang.",
+          "back_title": "Simpleng Paglilipat",
+          "desc": "Kumpletuhin ang overseas transfer sa ilang click lang",
+          "sub": "Ilang Click Lang",
+          "title": "Mabilis na Transfer"
+        },
+        "global": {
+          "back_desc": "Magpadala sa buong mundo sa 200+ na bansa at 70 global partner.",
+          "back_title": "Global Network",
+          "desc": "Higit sa isang milyong user sa buong mundo ang nagtitiwala sa GME",
+          "sub": "1M+ User",
+          "title": "200+ na Bansa"
+        },
+        "optimized": {
+          "back_desc": "Hanggang 90% mas mababang bayarin kumpara sa mga bangko. Magpadala ng mas malaki sa real-time rate.",
+          "back_title": "Malaking Pagtitipid sa Gastos",
+          "desc": "90% mas mababang bayarin at mas magandang rate kaysa bangko",
+          "sub": "90% Pagtitipid",
+          "title": "Optimized na Halaga"
+        },
+        "security": {
+          "back_desc": "Magpadala nang ligtas sa E-KYC verification at FSC-registered na serbisyo.",
+          "back_title": "Masusing Seguridad",
+          "desc": "Gamitin nang may kapanatagan sa matibay na seguridad",
+          "sub": "Na-verify",
+          "title": "Madali at Ligtas"
+        }
+      },
+      "title": "Overseas Remittance"
+    },
+    "section-nav": {
+      "app_download": "I-download ang App",
+      "customer_feedback": "Feedback ng Customer",
+      "exchange": "Exchange Calculator",
+      "home": "Home",
+      "services": "Mga Serbisyo"
+    },
+    "hero": {
+      "countries": {
+        "more": "Marami Pa"
+      }
+    },
+    "services": {
+      "loan": {
+        "estimated_limit": "Tinatayang Limitasyon"
+      }
+    },
+    "section_nav": {
+      "testimonials": "Mga Testimonial"
+    },
+    "testimonials": {
+      "subtitle": "Mga totoong karanasan mula sa aming mga customer.",
+      "tags": {
+        "easy_tracking": "Madaling Transfer at Pagsubaybay",
+        "fast_process": "Mabilis na Proseso",
+        "satisfied": "Nasiyahang Serbisyo"
+      },
+      "title": "Mga Testimonial"
+    }
+  }
+}

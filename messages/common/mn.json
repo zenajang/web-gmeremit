@@ -1,0 +1,227 @@
+{
+  "header": {
+    "link": {
+      "careers": "Ажил эрхлэлт"
+    },
+    "nav": {
+      "blog": "Блог",
+      "branches": "Салбарууд",
+      "card": "GME Card",
+      "ceo_message": "CEO-н мэндчилгээ",
+      "company": "Компани",
+      "history": "Түүх",
+      "inquiry": "Лавлагаа",
+      "loan": "GME Loan",
+      "news": "Мэдээ",
+      "notice": "Мэдэгдэл",
+      "payments": "GME Payments (B2B)",
+      "press": "Мэдээ / Пресс",
+      "remittance": "GME App Remittance",
+      "services": "Үйлчилгээ",
+      "services_menu": "Үйлчилгээний цэс",
+      "social_channels": "Нийгмийн сувгууд",
+      "support": "Дэмжлэг",
+      "telecom": "Мобайл"
+    }
+  },
+  "footer": {
+    "company_name": "Global Money Express",
+    "copyright": "© Global Money Express, All rights reserved.",
+    "info": {
+      "address": "Хаяг: 901~911Ho, B-dong, Saenggak Gongjang Bldg., 150, Yeongdeungpo-ro, Yeongdeungpo-gu, Seoul, Korea 07292",
+      "email_support": "Асуулт: support@gmeremit.com",
+      "fax": "Факс: (+82) 2 3674 5559",
+      "phone_general": "02-3673-5559 (Ерөнхий лавлагаа)",
+      "remittance_inquiry": "Мөнгөн гуйвуулгын асуулт"
+    },
+    "link": {
+      "privacy": "Нууцлалын бодлого",
+      "terms": "Үйлчилгээний нөхцөл"
+    }
+  },
+  "common": {
+    "blog-grid": {
+      "board": {
+        "by": "By"
+      }
+    },
+    "board": {
+      "error_description": "Дараа дахин оролдоно уу.",
+      "error_title": "Постыг ачаалж чадсангүй"
+    },
+    "careers": {
+      "cta": {
+        "openings": "Нээлттэй ажлын байр",
+        "subtitle": "Одоогийн нээлттэй ажлын байруудыг шалгаад өнөөдөр хүсэлт гаргаарай.",
+        "title": "GME-д нэгдэхэд бэлэн үү?"
+      }
+    },
+    "exchange-rate-calculator": {
+      "home": {
+        "exchange": {
+          "calculator": {
+            "bank_deposit": "Банкны шилжүүлэг",
+            "cash_payment": "Бэлэн мөнгө",
+            "delivery_method": "Шилжүүлгийн хэлбэр",
+            "error": "Алдаа",
+            "error_failed": "Ханшийн мэдээлэл авахад алдаа гарлаа",
+            "error_limit": "Шилжүүлгийн хязгаараас хэтэрсэн",
+            "error_max_amount": "Илгээх дээд хэмжээ: %1$s KRW",
+            "error_min_amount": "Илгээх доод хэмжээ: %1$s KRW",
+            "error_network": "Сүлжээний алдаа",
+            "error_unavailable": "Энэ дүнгийн ханш боломжгүй",
+            "error_unavailable_method": "Энэ илгээх аргыг одоогоор ашиглах боломжгүй",
+            "fee": "Шимтгэл багтсан",
+            "loading": "Ачааллаж байна...",
+            "mobile_wallet": "Мобайл хэтэвч",
+            "no_results": "Үр дүн алга",
+            "payout_methods": {
+              "1": "Бэлэн мөнгө",
+              "2": "Банкны шилжүүлэг",
+              "12": "Гэрт хүргэх",
+              "13": "Мобайл хэтэвч",
+              "14": "Картаар төлөх",
+              "15": "Bank Deposit (USD)",
+              "16": "WeChat Pay",
+              "17": "Alipay",
+              "18": "Visa/Mastercard/UnionPay",
+              "19": "Visa/Mastercard",
+              "24": "UPTION",
+              "25": "UPI",
+              "26": "UZCARD",
+              "27": "HUMO Card",
+              "33": "bKash",
+              "34": "Rocket",
+              "35": "Nagad",
+              "37": "QR төлбөр",
+              "38": "Korti Milli"
+            },
+            "qr_pay": "QR төлбөр",
+            "rate": "Ханш",
+            "realtime": "Бодит цаг",
+            "receive_amount": "Хүлээн авах дүн",
+            "receive_country": "Хүлээн авах улс",
+            "search_placeholder": "Улс хайх",
+            "send_amount": "Илгээх дүн",
+            "title": "Бодит цагийн ханшийн тооцоолуур"
+          }
+        }
+      }
+    },
+    "loan": {
+      "cta": {
+        "description": "Хэрэгцээтэй мөнгөө хурдан авахын тулд гар утсаар хялбархан хүсэлт гаргаарай.",
+        "inline_notice": "ⓘ Доорх товчийг дарахад GME Finance-ын зээлийн үйлчилгээ рүү шилжих болно.",
+        "title": "GME апп-аар өнөөдөр зээлээ эхлүүлээрэй"
+      }
+    },
+    "mobile-section": {
+      "hero": {
+        "description": "Үйлчилгээний төрөлөө сонгоно уу. Бид таныг тохирох үйлчилгээтэй холбоно."
+      }
+    },
+    "payments": {
+      "business": {
+        "cta": {
+          "description": "Дэлхийн төлбөрийн шийдлээр бизнесээ өргөжүүлээрэй. Манай тусгай менежер таны хэрэгцээнд хамгийн тохирох шийдлийг санал болгоно.",
+          "email": "corporate@gmeremit.com",
+          "title": "GME Payments-тай эхлэе"
+        }
+      }
+    },
+    "remittance": {
+      "features": {
+        "app": {
+          "desc": "Хэдхэн товшилтоор шилжүүлэг дуусна",
+          "title": "Аппаар шилжүүлэх"
+        },
+        "branches": {
+          "desc": "Улс даяарх салбараас дэмжлэг авна",
+          "title": "Оффлайн салбар"
+        },
+        "convenient": {
+          "desc": "Ойлгомжтой урсгал, хүн бүр ашиглаж чадна",
+          "title": "Хялбар туршлага"
+        },
+        "multilingual": {
+          "desc": "Олон хэлээр үйлчилгээ",
+          "title": "Олон хэлний дэмжлэг"
+        },
+        "subtitle": "Нэг апп дотор илгээ, хяна",
+        "title": "Илүү хялбар",
+        "title2": "Илүү аюулгүй"
+      }
+    },
+    "services": {
+      "chat": {
+        "title": "Таныг шууд чат руу холбоно"
+      },
+      "complete": {
+        "title": "Таны хүсэлтийг хүлээн авлаа"
+      },
+      "external": {
+        "title": "{{site}} руу шилжиж байна"
+      },
+      "hero": {
+        "title": "Танд хэрхэн туслах вэ?"
+      }
+    },
+    "support": {
+      "hero": {
+        "desc1": "Улсын хэмжээнд салбарууд болон дэлхийн сошиал сувгуудаар",
+        "desc2": "та хүссэн үедээ дэмжлэг авч, асуулт асууж болно.",
+        "desc3": "Өөрт ойр салбарыг ол эсвэл сошиалаар холбогдоорой.",
+        "title": "GME, үргэлж таны ойролцоо"
+      }
+    },
+    "telecom-page-client": {
+      "cta": {
+        "button": "GME Mobile руу очих",
+        "description": "Хямд багцаар утасны зардлаа хэмнэ, 17 хэлээр боломжтой.",
+        "title": "GME Mobile-аар эхлээрэй"
+      },
+      "features": {
+        "activation": {
+          "description": "Аппликейшнээс өөрөө амархан идэвхжүүлнэ",
+          "title": "5 минутад идэвхжүүлнэ"
+        },
+        "affordable": {
+          "description": "Гадаад иргэдэд зориулсан хэт хямд багц",
+          "title": "Сард ₩3,300-аас"
+        },
+        "esim": {
+          "description": "QR кодыг сканнердаж шууд идэвхжүүлнэ",
+          "title": "eSIM дэмжлэг"
+        },
+        "intl_call": {
+          "description": "Зарим багцад өдөрт 20 минут олон улсын дуудлага",
+          "title": "Олон улсын дуудлага багтсан"
+        },
+        "multilang": {
+          "description": "Өөрийн эх хэлээрээ ашиглах",
+          "title": "17 хэл"
+        },
+        "network": {
+          "description": "Улс орон даяар найдвартай хамрах хүрээ",
+          "title": "LGU+, KT-тэй ижил чанар"
+        },
+        "plans": {
+          "description": "Сард ₩3,300-аас эхлэх багц",
+          "title": "Уян хатан багц"
+        },
+        "usim": {
+          "description": "Хүргэгдэж 5 минутад идэвхжинэ",
+          "title": "USIM өөрөө идэвхжүүлэх"
+        }
+      }
+    },
+    "company": {
+      "tabs": {
+        "title": "Компанийн тухай"
+      }
+    },
+    "button": {
+      "app_download": "Апп татах"
+    }
+  }
+}

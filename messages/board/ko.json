@@ -1,0 +1,52 @@
+{
+  "board-detail": {
+    "board-detail-client": {
+      "attachment": "첨부파일",
+      "attachment_file": "첨부파일",
+      "back": "목록으로",
+      "back_to_list": "목록으로 돌아가기",
+      "not_found": "게시글을 찾을 수 없습니다"
+    }
+  },
+  "board-notice": {
+    "redirect": {
+      "notice": "공지사항 페이지로 이동 중..."
+    }
+  },
+  "board-press": {
+    "redirect": {
+      "press": "언론보도 페이지로 이동 중..."
+    }
+  },
+  "board": {
+    "blog-grid": {
+      "no_image": "No Image",
+      "no_results": "검색 결과가 없습니다."
+    },
+    "board-table": {
+      "attachment": "첨부",
+      "attachment_file": "첨부파일",
+      "date": "등록일",
+      "title": "제목",
+      "type": "구분"
+    },
+    "count_suffix": "건",
+    "pagination": {
+      "load_more": "더보기"
+    },
+    "search-bar": {
+      "all": "전체",
+      "content": "내용",
+      "placeholder": "검색어를 입력해 주세요.",
+      "title": "제목",
+      "button": "검색"
+    },
+    "subtitle": "GME Remit의 새로운 소식을 확인하세요",
+    "tabs": {
+      "blog": "블로그",
+      "notice": "공지사항",
+      "press": "언론보도"
+    },
+    "total": "총"
+  }
+}

@@ -21,7 +21,7 @@ const formatNumber = (num: string) => num.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 const parseNumber = (str: string) => str.replace(/,/g, "");
 
 export default function HeroSection() {
-  const { t } = useTranslation("home.exchange");
+  const { t } = useTranslation();
   const [sendAmount, setSendAmount] = useState("1000000");
   const [selectedCountry, setSelectedCountry] = useState<CountryConfig>(defaultCountry);
   const [selectedCurrency, setSelectedCurrency] = useState<CurrencyConfig>(defaultCountry.currencies[0]);
@@ -50,7 +50,7 @@ export default function HeroSection() {
     const q = searchQuery.trim().toLowerCase();
     if (!q) return countryConfigs;
     return countryConfigs.filter((c) => {
-      const localized = t(`countries.names.${c.countryCode}`, { ns: "home.hero" });
+      const localized = t(`home.hero-main.countries.names.${c.countryCode}`);
       return (
         c.countryCode.toLowerCase().includes(q) ||
         c.currencies.some((cur) => cur.code.toLowerCase().includes(q)) ||
@@ -220,26 +220,26 @@ export default function HeroSection() {
           <div className="order-2 lg:order-1 hidden lg:block">
             <p className="text-sm font-semibold tracking-widest text-primary mb-4">EXCHANGE CALCULATOR</p>
             <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] font-bold text-dark leading-[1.1] tracking-tight mb-6">
-              {t("title1")}
+              {t("home.hero-section.exchange.title1")}
               <br />
-              {t("title2")}
+              {t("home.hero-section.exchange.title2")}
             </h1>
 
             <p className="text-lg text-gray-500 leading-relaxed mb-8 max-w-sm">
-              {t("description1")}
+              {t("home.hero-section.exchange.description1")}
               <br />
-              {t("description2")}
+              {t("home.hero-section.exchange.description2")}
             </p>
 
             <div className="flex items-center gap-8">
               <div>
-                <p className="typo-stat text-dark">{t("stats.countries")}</p>
-                <p className="text-sm text-gray-400 mt-1">{t("stats.countries_label")}</p>
+                <p className="typo-stat text-dark">{t("home.hero-section.exchange.stats.countries")}</p>
+                <p className="text-sm text-gray-400 mt-1">{t("home.hero-section.exchange.stats.countries_label")}</p>
               </div>
               <div className="w-px h-12 bg-gray-400" />
               <div>
-                <p className="typo-stat text-dark">{t("stats.service")}</p>
-                <p className="text-sm text-gray-400 mt-1">{t("stats.service_label")}</p>
+                <p className="typo-stat text-dark">{t("home.hero-section.exchange.stats.service")}</p>
+                <p className="text-sm text-gray-400 mt-1">{t("home.hero-section.exchange.stats.service_label")}</p>
               </div>
             </div>
           </div>
@@ -255,21 +255,21 @@ export default function HeroSection() {
               {/* Calculator Header */}
               <div className="mb-6 lg:mb-7">
                 <div className="lg:flex lg:items-center lg:justify-between">
-                  <h2 className="text-xl lg:text-2xl font-bold text-dark">{t("calculator.title")}</h2>
+                  <h2 className="text-xl lg:text-2xl font-bold text-dark">{t("common.exchange-rate-calculator.home.exchange.calculator.title")}</h2>
                   <div className={`inline-flex items-center gap-1.5 whitespace-nowrap shrink-0 rounded-full px-2.5 py-1 text-xs font-medium mt-1.5 lg:mt-0 lg:gap-2 lg:px-3.5 lg:py-1.5 lg:text-sm lg:font-semibold ${
                     hasError ? "bg-red-50 text-red-600" : "bg-emerald-50 text-green-800"
                   }`}>
                     <span className={`w-1.5 h-1.5 lg:w-2 lg:h-2 rounded-full ${
                       isLoading ? "bg-yellow-400 animate-pulse" : hasError ? "bg-red-400" : "bg-success"
                     }`} />
-                    {isLoading ? t("calculator.loading") : hasError ? t("calculator.error") : t("calculator.realtime")}
+                    {isLoading ? t("common.exchange-rate-calculator.home.exchange.calculator.loading") : hasError ? t("common.exchange-rate-calculator.home.exchange.calculator.error") : t("common.exchange-rate-calculator.home.exchange.calculator.realtime")}
                   </div>
                 </div>
               </div>
 
               {/* Send Input */}
               <div className="space-y-2 mb-5">
-                <label className="text-[13px] font-medium text-neutral-500">{t("calculator.send_amount")}</label>
+                <label className="text-[13px] font-medium text-neutral-500">{t("common.exchange-rate-calculator.home.exchange.calculator.send_amount")}</label>
                 <div className="flex items-center gap-3 bg-white rounded-2xl px-3 py-3 lg:px-5 lg:py-4 border border-gray-200/80 focus-within:ring-2 focus-within:ring-primary/15 transition-shadow">
                   <input
                     type="text"
@@ -287,20 +287,20 @@ export default function HeroSection() {
                 </div>
                 {hasError && errorMsg && (
                   <p className="text-xs text-red-500 mt-1.5 ml-1">
-                    {errorRaw ?? t(`calculator.${errorMsg}`, errorParams)}
+                    {errorRaw ?? t(`common.exchange-rate-calculator.home.exchange.calculator.${errorMsg}`, errorParams)}
                   </p>
                 )}
               </div>
               {/* Delivery Method */}
               <div ref={payoutDropdownRef} className="space-y-2 mb-5 relative">
-                <label className="text-[13px] font-medium text-neutral-500">{t("calculator.delivery_method")}</label>
+                <label className="text-[13px] font-medium text-neutral-500">{t("common.exchange-rate-calculator.home.exchange.calculator.delivery_method")}</label>
                 <button
                   type="button"
                   onClick={() => setIsPayoutOpen(!isPayoutOpen)}
                   className="w-full flex items-center gap-2 lg:gap-3 bg-white rounded-2xl px-3 py-2.5 lg:px-5 lg:py-4 border border-gray-200/80 hover:bg-slate-50 transition-colors cursor-pointer"
                 >
                   <span className="flex-1 text-left text-sm lg:text-base font-semibold text-dark truncate">
-                    {t(`calculator.payout_methods.${deliveryMethod}`)}
+                    {t(`common.exchange-rate-calculator.home.exchange.calculator.payout_methods.${deliveryMethod}`)}
                   </span>
                   <svg className={`w-5 h-5 text-neutral-400 transition-transform ${isPayoutOpen ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -328,7 +328,7 @@ export default function HeroSection() {
                               : "hover:bg-slate-50"
                           }`}
                         >
-                          <span className="font-medium flex-1 text-left">{t(`calculator.payout_methods.${method.key}`)}</span>
+                          <span className="font-medium flex-1 text-left">{t(`common.exchange-rate-calculator.home.exchange.calculator.payout_methods.${method.key}`)}</span>
                         </button>
                       ))}
                     </div>
@@ -337,7 +337,7 @@ export default function HeroSection() {
               </div>
               {/* Country Select */}
               <div ref={dropdownRef} className="space-y-2 mb-5 relative">
-                <label className="text-[13px] font-medium text-neutral-500">{t("calculator.receive_country")}</label>
+                <label className="text-[13px] font-medium text-neutral-500">{t("common.exchange-rate-calculator.home.exchange.calculator.receive_country")}</label>
                 <button
                   type="button"
                   onClick={() => setIsOpen(!isOpen)}
@@ -345,7 +345,7 @@ export default function HeroSection() {
                 >
                   <span className="text-lg lg:text-2xl">{selectedCountry.flag}</span>
                   <div className="flex-1 text-left min-w-0 truncate">
-                    <span className="text-sm lg:text-base font-semibold text-dark">{t(`countries.names.${selectedCountry.countryCode}`, { ns: "home.hero" })}</span>
+                    <span className="text-sm lg:text-base font-semibold text-dark">{t(`home.hero-main.countries.names.${selectedCountry.countryCode}`)}</span>
                     <span className="text-xs lg:text-base text-neutral-500 ml-1.5 lg:ml-2">{selectedCurrency.code}</span>
                   </div>
                   <svg className={`w-5 h-5 text-neutral-400 transition-transform ${isOpen ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -391,7 +391,7 @@ export default function HeroSection() {
                           type="text"
                           value={searchQuery}
                           onChange={(e) => setSearchQuery(e.target.value)}
-                          placeholder={t("calculator.search_placeholder")}
+                          placeholder={t("common.exchange-rate-calculator.home.exchange.calculator.search_placeholder")}
                           className="flex-1 min-w-0 bg-transparent text-sm text-dark outline-none placeholder-neutral-400"
                         />
                         {searchQuery && (
@@ -413,7 +413,7 @@ export default function HeroSection() {
                     </div>
                     <div className="py-2 max-h-56 overflow-auto">
                       {filteredCountries.length === 0 ? (
-                        <p className="px-5 py-4 text-sm text-neutral-400 text-center">{t("calculator.no_results")}</p>
+                        <p className="px-5 py-4 text-sm text-neutral-400 text-center">{t("common.exchange-rate-calculator.home.exchange.calculator.no_results")}</p>
                       ) : (
                         filteredCountries.map((country) => (
                           <button
@@ -427,7 +427,7 @@ export default function HeroSection() {
                             }`}
                           >
                             <span className="text-xl">{country.flag}</span>
-                            <span className="font-medium flex-1 text-left">{t(`countries.names.${country.countryCode}`, { ns: "home.hero" })}</span>
+                            <span className="font-medium flex-1 text-left">{t(`home.hero-main.countries.names.${country.countryCode}`)}</span>
                             <span className="text-sm text-neutral-400">{country.currencies.map((c) => c.code).join(" / ")}</span>
                           </button>
                         ))
@@ -451,7 +451,7 @@ export default function HeroSection() {
 
               {/* Receive Input */}
               <div className="space-y-2 mb-6">
-                <label className="text-[13px] font-medium text-neutral-500">{t("calculator.receive_amount")}</label>
+                <label className="text-[13px] font-medium text-neutral-500">{t("common.exchange-rate-calculator.home.exchange.calculator.receive_amount")}</label>
                 <div className="relative flex items-center gap-3 bg-gradient-to-br from-teal-500/65 to-teal-700/60 backdrop-blur-2xl rounded-2xl px-3 py-3 lg:px-5 lg:py-5 border border-teal-300/28 shadow-[inset_0_1px_1px_rgba(255,255,255,0.13)]">
                   <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-teal-300/18 via-teal-400/10 to-transparent pointer-events-none" />
                   <div className="absolute top-0 left-4 right-4 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent pointer-events-none" />
@@ -473,14 +473,14 @@ export default function HeroSection() {
                   <div className="mt-3 px-1 space-y-2 text-[12.5px] lg:text-sm">
                     <div className="flex items-center gap-2.5">
                       <span className="w-1.5 h-1.5 rounded-full bg-gray-300 shrink-0" />
-                      <span className="text-neutral-500">{t("calculator.fee")}</span>
+                      <span className="text-neutral-500">{t("common.exchange-rate-calculator.home.exchange.calculator.fee")}</span>
                       <span className="ml-auto font-semibold text-dark tabular-nums">
                         {Number((serviceCharge || "0").replace(/,/g, "")).toLocaleString("ko-KR", { maximumFractionDigits: 0 })} KRW
                       </span>
                     </div>
                     <div className="flex items-center gap-2.5">
                       <span className="w-1.5 h-1.5 rounded-full bg-gray-300 shrink-0" />
-                      <span className="text-neutral-500">{t("calculator.rate")}</span>
+                      <span className="text-neutral-500">{t("common.exchange-rate-calculator.home.exchange.calculator.rate")}</span>
                       <span className="ml-auto font-semibold text-dark tabular-nums">
                         {exchangeRateDisplay}
                       </span>

@@ -1,0 +1,227 @@
+{
+  "header": {
+    "link": {
+      "careers": "ক্যারিয়ার"
+    },
+    "nav": {
+      "blog": "ব্লগ",
+      "branches": "শাখা",
+      "card": "GME Card",
+      "ceo_message": "সিইও-এর বার্তা",
+      "company": "কোম্পানি",
+      "history": "ইতিহাস",
+      "inquiry": "জিজ্ঞাসা",
+      "loan": "GME লোন",
+      "news": "সংবাদ",
+      "notice": "বিজ্ঞপ্তি",
+      "payments": "GME পেমেন্টস (B2B)",
+      "press": "সংবাদ / প্রেস",
+      "remittance": "GME অ্যাপ রেমিট্যান্স",
+      "services": "সেবা",
+      "services_menu": "সেবা",
+      "social_channels": "সোশ্যাল চ্যানেল",
+      "support": "সহায়তা",
+      "telecom": "মোবাইল"
+    }
+  },
+  "footer": {
+    "company_name": "Global Money Express",
+    "copyright": "© Global Money Express, সর্বস্বত্ব সংরক্ষিত।",
+    "info": {
+      "address": "ঠিকানা: 901~911Ho, B-dong, Saenggak Gongjang Bldg., 150, Yeongdeungpo-ro, Yeongdeungpo-gu, Seoul, Korea 07292",
+      "email_support": "জিজ্ঞাসা: support@gmeremit.com",
+      "fax": "ফ্যাক্স: (+82) 2 3674 5559",
+      "phone_general": "02-3673-5559 (সাধারণ জিজ্ঞাসা)",
+      "remittance_inquiry": "রেমিট্যান্স সংক্রান্ত জিজ্ঞাসা"
+    },
+    "link": {
+      "privacy": "গোপনীয়তা নীতি",
+      "terms": "সেবার শর্তাবলী"
+    }
+  },
+  "common": {
+    "blog-grid": {
+      "board": {
+        "by": "By"
+      }
+    },
+    "board": {
+      "error_description": "পরে আবার চেষ্টা করুন।",
+      "error_title": "পোস্ট লোড করতে ব্যর্থ হয়েছে"
+    },
+    "careers": {
+      "cta": {
+        "openings": "চাকরির সুযোগ দেখুন",
+        "subtitle": "আমাদের বর্তমান চাকরির সুযোগ দেখুন এবং আজই আবেদন করুন।",
+        "title": "GME-তে যোগ দিতে প্রস্তুত?"
+      }
+    },
+    "exchange-rate-calculator": {
+      "home": {
+        "exchange": {
+          "calculator": {
+            "bank_deposit": "ব্যাংক জমা",
+            "cash_payment": "নগদ প্রদান",
+            "delivery_method": "পাঠানোর পদ্ধতি",
+            "error": "ব্যর্থ",
+            "error_failed": "বিনিময় হার পাওয়া যায়নি",
+            "error_limit": "পাঠানোর সীমা অতিক্রম",
+            "error_max_amount": "সর্বোচ্চ প্রেরণযোগ্য পরিমাণ: %1$s KRW",
+            "error_min_amount": "সর্বনিম্ন প্রেরণযোগ্য পরিমাণ: %1$s KRW",
+            "error_network": "নেটওয়ার্ক ত্রুটি",
+            "error_unavailable": "এই পরিমাণের জন্য হার পাওয়া যায়নি",
+            "error_unavailable_method": "এই প্রেরণ পদ্ধতি বর্তমানে উপলব্ধ নয়",
+            "fee": "ফি অন্তর্ভুক্ত",
+            "loading": "লোড হচ্ছে...",
+            "mobile_wallet": "মোবাইল ওয়ালেট",
+            "no_results": "কোন ফলাফল নেই",
+            "payout_methods": {
+              "1": "নগদ প্রদান",
+              "2": "ব্যাংক জমা",
+              "12": "হোম ডেলিভারি",
+              "13": "মোবাইল ওয়ালেট",
+              "14": "কার্ড পেমেন্ট",
+              "15": "Bank Deposit (USD)",
+              "16": "WeChat Pay",
+              "17": "Alipay",
+              "18": "Visa/Mastercard/UnionPay",
+              "19": "Visa/Mastercard",
+              "24": "UPTION",
+              "25": "UPI",
+              "26": "UZCARD",
+              "27": "HUMO Card",
+              "33": "bKash",
+              "34": "Rocket",
+              "35": "Nagad",
+              "37": "QR পে",
+              "38": "Korti Milli"
+            },
+            "qr_pay": "QR পে",
+            "rate": "বিনিময় হার",
+            "realtime": "রিয়েল-টাইম",
+            "receive_amount": "প্রাপ্তি পরিমাণ",
+            "receive_country": "প্রাপক দেশ",
+            "search_placeholder": "দেশ অনুসন্ধান করুন",
+            "send_amount": "প্রেরণ পরিমাণ",
+            "title": "রিয়েল-টাইম বিনিময় ক্যালকুলেটর"
+          }
+        }
+      }
+    },
+    "loan": {
+      "cta": {
+        "description": "সহজ মোবাইল আবেদনের মাধ্যমে দ্রুত আপনার প্রয়োজনীয় তহবিল পান।",
+        "inline_notice": "ⓘ নিচের বোতামে ক্লিক করলে আপনি GME Finance দ্বারা প্রদত্ত ঋণ পরিষেবার সাথে সংযুক্ত হবেন।",
+        "title": "আজই GME অ্যাপ দিয়ে আপনার লোন শুরু করুন"
+      }
+    },
+    "mobile-section": {
+      "hero": {
+        "description": "অনুরোধের ধরন বেছে নিন, আমরা আপনাকে সংশ্লিষ্ট বিভাগে পৌঁছে দেব।"
+      }
+    },
+    "payments": {
+      "business": {
+        "cta": {
+          "description": "গ্লোবাল পেমেন্ট সলিউশনের মাধ্যমে আপনার ব্যবসা বৃদ্ধি করুন। আমাদের নিবেদিত ম্যানেজাররা আপনার জন্য সর্বোত্তম সমাধান প্রস্তাব করবেন।",
+          "email": "corporate@gmeremit.com",
+          "title": "GME পেমেন্টস দিয়ে শুরু করুন"
+        }
+      }
+    },
+    "remittance": {
+      "features": {
+        "app": {
+          "desc": "কয়েকটি ট্যাপে রেমিট্যান্স সম্পন্ন করুন",
+          "title": "অ্যাপ-ভিত্তিক ট্রান্সফার"
+        },
+        "branches": {
+          "desc": "দেশব্যাপী শাখায় সহায়তা পান",
+          "title": "অফলাইন শাখা"
+        },
+        "convenient": {
+          "desc": "যে কেউ ব্যবহার করতে পারে এমন সহজাত প্রবাহ",
+          "title": "সহজ অভিজ্ঞতা"
+        },
+        "multilingual": {
+          "desc": "একাধিক ভাষায় সেবা ব্যবহার করুন",
+          "title": "বহু-ভাষা সমর্থন"
+        },
+        "subtitle": "একটি অ্যাপে সবকিছু ট্রান্সফার এবং ট্র্যাক করুন",
+        "title": "সহজতর",
+        "title2": "নিরাপদ ট্রান্সফার"
+      }
+    },
+    "services": {
+      "chat": {
+        "title": "আপনাকে সরাসরি চ্যাটে যুক্ত করা হবে"
+      },
+      "complete": {
+        "title": "আপনার জিজ্ঞাসা গৃহীত হয়েছে"
+      },
+      "external": {
+        "title": "{{site}} এ যাচ্ছি"
+      },
+      "hero": {
+        "title": "আমরা কীভাবে আপনাকে সাহায্য করতে পারি"
+      }
+    },
+    "support": {
+      "hero": {
+        "desc1": "আমাদের দেশব্যাপী শাখা এবং গ্লোবাল সোশ্যাল চ্যানেলের মাধ্যমে,",
+        "desc2": "আপনি যেকোনো সময় সহায়তা পেতে এবং প্রশ্ন করতে পারেন।",
+        "desc3": "আপনার কাছাকাছি শাখা খুঁজুন অথবা সোশ্যাল মিডিয়ায় আমাদের সাথে সংযুক্ত হন।",
+        "title": "GME, সবসময় আপনার কাছে"
+      }
+    },
+    "telecom-page-client": {
+      "cta": {
+        "button": "GME Mobile-এ যান",
+        "description": "সাশ্রয়ী প্ল্যানের সাথে ফোন বিলে সাশ্রয় করুন, 17টি ভাষায় উপলব্ধ।",
+        "title": "GME Mobile দিয়ে শুরু করুন"
+      },
+      "features": {
+        "activation": {
+          "description": "অ্যাপ থেকে সহজে নিজেই সক্রিয় করুন",
+          "title": "5-মিনিট অ্যাক্টিভেশন"
+        },
+        "affordable": {
+          "description": "বিদেশীদের জন্য অতি সস্তা প্ল্যান",
+          "title": "₩3,300/মাস থেকে"
+        },
+        "esim": {
+          "description": "QR কোড স্ক্যান করুন এবং তাৎক্ষণিক সক্রিয় করুন",
+          "title": "eSIM সমর্থন"
+        },
+        "intl_call": {
+          "description": "কিছু প্ল্যানে 20 মিনিট/দিন আন্তর্জাতিক কল",
+          "title": "আন্তর্জাতিক কল সহ"
+        },
+        "multilang": {
+          "description": "আপনার মাতৃভাষায় ব্যবহার করুন",
+          "title": "17টি ভাষা"
+        },
+        "network": {
+          "description": "দেশজুড়ে নির্ভরযোগ্য কভারেজ",
+          "title": "LGU+, KT সমান মান"
+        },
+        "plans": {
+          "description": "₩3,300/মাস থেকে শুরু হওয়া প্ল্যান",
+          "title": "নমনীয় প্ল্যান"
+        },
+        "usim": {
+          "description": "ডেলিভারির পর 5 মিনিটে সক্রিয়",
+          "title": "USIM সেলফ-অ্যাক্টিভেশন"
+        }
+      }
+    },
+    "company": {
+      "tabs": {
+        "title": "কোম্পানি সম্পর্কে"
+      }
+    },
+    "button": {
+      "app_download": "অ্যাপ ডাউনলোড"
+    }
+  }
+}

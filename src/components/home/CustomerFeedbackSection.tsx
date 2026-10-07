@@ -6,7 +6,7 @@ import { useTranslation } from "@/hooks/useTranslation";
 import { customerFeedbacks } from "@/data/customerFeedback";
 
 export default function CustomerFeedbackSection() {
-  const { t } = useTranslation("home.customer_feedback");
+  const { t } = useTranslation();
 
   return (
     <section id="customer-feedback" className="relative overflow-hidden bg-[var(--surface-warm)] py-12 lg:py-16 snap-section">
@@ -32,9 +32,9 @@ export default function CustomerFeedbackSection() {
       <div className="max-w-[1640px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 lg:mb-14">
           <p className="typo-eyebrow text-primary mb-3">CUSTOMER FEEDBACK</p>
-          <h2 className="typo-section-title">{t("title")}</h2>
+          <h2 className="typo-section-title">{t("home.customer-feedback-section.title")}</h2>
           <p className="typo-section-subtitle text-gray-600 max-w-2xl mx-auto mt-4">
-            {t("subtitle")}
+            {t("home.customer-feedback-section.subtitle")}
           </p>
         </div>
 
@@ -55,7 +55,7 @@ export default function CustomerFeedbackSection() {
                   </div>
                 </div>
                 <span className="rounded-full border border-primary/25 bg-primary/10 px-3.5 py-1.5 text-xs font-semibold text-primary-dark shadow-[0_4px_10px_rgba(237,28,36,0.16)] ring-1 ring-primary/15">
-                  {t(`tags.${item.tagKey}`)}
+                  {t(`home.customer-feedback-section.tags.${item.tagKey}`)}
                 </span>
               </div>
 

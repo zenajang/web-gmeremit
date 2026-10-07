@@ -1,0 +1,218 @@
+{
+  "support-branches": {
+    "address": "Alamat",
+    "data": {
+      "1": {
+        "address": "315 Jongno, Jongno-gu, Seoul (Pintu keluar 3 Stasiun Dongdaemun)",
+        "hours": "Hari kerja & Akhir pekan 10:00 - 19:00",
+        "name": "Cabang Dongdaemun"
+      },
+      "2": {
+        "address": "Lantai 1, 6 Damunhwa-gil, Danwon-gu, Ansan-si, Gyeonggi-do",
+        "hours": "Hari kerja & Akhir pekan 10:00 - 19:00",
+        "name": "Cabang Ansan"
+      },
+      "3": {
+        "address": "Lantai 1, 134 Dorim-ro, Yeongdeungpo-gu, Seoul",
+        "hours": "Hari kerja & Akhir pekan 10:00 - 19:00",
+        "name": "Cabang Daerim"
+      },
+      "4": {
+        "address": "2-10 Maesan-ro, Paldal-gu, Suwon-si, Gyeonggi-do",
+        "hours": "Hari kerja & Akhir pekan 10:00 - 19:00",
+        "name": "Cabang Suwon"
+      },
+      "5": {
+        "address": "Lantai 1, 1109-3 3·1 Manse-ro, Hyangnam-eup, Hwaseong-si, Gyeonggi-do",
+        "hours": "Jumat - Selasa 10:00 - 19:00",
+        "name": "Cabang Hwaseong"
+      },
+      "6": {
+        "address": "91 Solmoru-ro, Soheul-eup, Pocheon-si, Gyeonggi-do (Sebelah NH Bank)",
+        "hours": "Sabtu - Rabu 10:00 - 19:00",
+        "name": "Cabang Songuri"
+      },
+      "7": {
+        "address": "16 Gwangjang-ro, Bupyeong-gu, Incheon (Pusat Perbelanjaan Stasiun Bupyeong)",
+        "hours": "Sabtu - Rabu 10:00 - 19:00",
+        "name": "Cabang Bupyeong"
+      },
+      "8": {
+        "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (Seberang Top Mart)",
+        "hours": "Hari kerja & Akhir pekan 10:00 - 19:00",
+        "name": "Cabang Gimhae"
+      },
+      "9": {
+        "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+        "hours": "Hari kerja & Akhir pekan 10:00 - 19:00",
+        "name": "Cabang Pyeongtaek"
+      }
+    },
+    "hours": "Jam Operasional",
+    "phone": "Telepon"
+  },
+  "support-inquiry": {
+    "categories": {
+      "2": {
+        "items": [
+          "Pendaftaran dan verifikasi badan usaha",
+          "Pembayaran dagang dan jasa",
+          "Biaya dan ketentuan kurs",
+          "Integrasi API dan penyelesaian"
+        ]
+      },
+      "7": {
+        "items": [
+          "Paket dan tagihan",
+          "Aktivasi, pindah nomor, dan berhenti berlangganan",
+          "Pengiriman dan penggantian USIM",
+          "Kualitas data dan panggilan"
+        ]
+      }
+    },
+    "category-card": {
+      "categories": {
+        "1": {
+          "name": "Kiriman uang pribadi",
+          "sub": "Pengiriman · Kurs · Penerimaan"
+        },
+        "2": {
+          "name": "Kiriman uang bisnis (Biz)",
+          "sub": "Badan usaha · Pembayaran usaha · B2B"
+        },
+        "3": {
+          "name": "Pinjaman",
+          "sub": "Syarat · Limit · Pelunasan"
+        },
+        "4": {
+          "name": "Kerja sama · Kemitraan",
+          "sub": "Kemitraan · Proposal bisnis"
+        },
+        "5": {
+          "name": "Karier · Rekrutmen",
+          "sub": "Lamaran · Proses rekrutmen"
+        },
+        "6": {
+          "name": "Perlindungan konsumen · Keluhan",
+          "sub": "Sengketa · Pembatasan · Laporan"
+        },
+        "7": {
+          "name": "Seluler dan telekomunikasi",
+          "sub": "Paket · Aktivasi · USIM"
+        }
+      }
+    },
+    "category-selector": {
+      "question": "Pertanyaan Anda tentang apa?"
+    },
+    "chat": {
+      "action": "Mulai obrolan",
+      "description": "Agen kami melayani secara langsung. Di luar jam kerja, chatbot akan mencatat informasi Anda, dan kami akan menghubungi Anda kembali.",
+      "items": [
+        "Senin - Jumat 09.00 - 18.00 · Agen langsung",
+        "Di luar jam operasional · Chatbot dan panggilan balik",
+        "Tersedia 12 bahasa (Nepal, Vietnam, Thailand, dan lainnya)"
+      ]
+    },
+    "external": {
+      "action": "Buka halaman pertanyaan",
+      "description": "Pertanyaan jenis ini ditangani di situs {{site}}."
+    },
+    "guide-panel": {
+      "common": {
+        "reset": "Pilih topik lain"
+      }
+    },
+    "honeypot-field": {
+      "form": {
+        "honeypot": "Alamat"
+      }
+    },
+    "inquiry-form": {
+      "categories": {
+        "4": {
+          "dept": "Bagian terkait"
+        },
+        "5": {
+          "dept": "Bagian SDM"
+        },
+        "6": {
+          "dept": "Bagian perlindungan konsumen"
+        }
+      },
+      "contentLabel": "Isi pertanyaan",
+      "contentPlaceholder": "Semakin rinci penjelasan Anda, semakin tepat jawaban kami.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "name@example.com",
+      "errors": {
+        "email": "Mohon periksa alamat email Anda.",
+        "failed": "Pertanyaan gagal dikirim. Silakan coba lagi.",
+        "phone": "Mohon periksa nomor telepon Anda.",
+        "required": "Mohon isi semua kolom wajib.",
+        "turnstile": "Mohon selesaikan pemeriksaan keamanan."
+      },
+      "nameLabel": "Nama",
+      "namePlaceholder": "Budi Santoso",
+      "notice": "{{dept}} akan memeriksa dan membalas.",
+      "phoneLabel": "Nomor telepon",
+      "phonePlaceholder": "010-0000-0000",
+      "submit": "Kirim pertanyaan",
+      "titleLabel": "Judul",
+      "titlePlaceholder": "Masukkan judul pertanyaan"
+    },
+    "step-indicator": {
+      "steps": {
+        "connect": "2. Hubungkan · Kirim",
+        "select": "1. Pilih jenis pertanyaan"
+      }
+    },
+    "submission-complete": {
+      "description": "Bagian terkait akan memeriksa dan membalas ke email yang Anda isi.",
+      "reset": "Kembali ke awal"
+    }
+  },
+  "support-social-channels": {
+    "contact": "Hubungi",
+    "countries_count": "38 Negara",
+    "countries": {
+      "african-region": "Kawasan Afrika",
+      "bangladesh": "Bangladesh",
+      "cambodia": "Kamboja",
+      "china": "Tiongkok",
+      "india": "India",
+      "indonesia": "Indonesia",
+      "japan": "Jepang",
+      "korea": "Korea",
+      "mongolia": "Mongolia",
+      "myanmar": "Myanmar",
+      "nepal": "Nepal",
+      "pakistan": "Pakistan",
+      "philippines": "Filipina",
+      "srilanka": "Sri Lanka",
+      "thailand": "Thailand",
+      "uzbekistan-cis": "Uzbekistan & CIS",
+      "vietnam": "Vietnam",
+      "western": "Barat"
+    },
+    "description": "Terhubung dengan GME melalui saluran resmi di setiap negara",
+    "operating": "Beroperasi",
+    "title": "Saluran Sosial Global"
+  },
+  "support": {
+    "tabs": {
+      "branches": "Cabang",
+      "social_channels": "Saluran Sosial"
+    },
+    "stats": {
+      "countries_label": "Negara Dilayani",
+      "branches_label": "Cabang",
+      "branches_unit": "+",
+      "branches_value": "12",
+      "countries_unit": "+",
+      "countries_value": "38",
+      "services_label": "Layanan",
+      "services_unit": "+",
+      "services_value": "8"
+    }
+  }
+}

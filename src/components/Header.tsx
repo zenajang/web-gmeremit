@@ -14,7 +14,7 @@ import { getCountriesNavLabel } from "@/data/countryTranslations";
 
 // ============ Main Header ============
 export default function Header() {
-  const { t } = useTranslation("header");
+  const { t } = useTranslation();
   const { currentLanguage } = useLanguage();
   const countriesLabel = getCountriesNavLabel(currentLanguage.code);
   const pathname = usePathname();
@@ -65,7 +65,7 @@ export default function Header() {
               href="/company/careers"
               className="text-[13px] text-gray-500 hover:text-primary transition-colors"
             >
-              {t("link.careers")}
+              {t("header.link.careers")}
             </Link>
             {/* Divider */}
             <div className="h-3 w-px bg-gray-300" />
@@ -120,7 +120,7 @@ export default function Header() {
                 href={{ pathname: "/", hash: "app-download" }}
                 className="hidden lg:flex items-center gap-2 px-5 py-2.5 text-[14px] font-semibold text-white bg-primary-dark hover:bg-primary rounded-full transition-colors"
               >
-                {t("app_download", { ns: "button" })}
+                {t("common.button.app_download")}
               </Link>
 
               {/* Language */}
@@ -168,7 +168,7 @@ export default function Header() {
         isOpen={isMenuOpen}
         onClose={() => setIsMenuOpen(false)}
         menuItems={menuItems}
-        careersLabel={t("link.careers")}
+        careersLabel={t("header.link.careers")}
         countriesLabel={countriesLabel}
       />
 

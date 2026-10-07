@@ -11,7 +11,7 @@ interface BoardTabsProps {
 export default function BoardTabs({ activeTab }: BoardTabsProps) {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const { t } = useTranslation("board.tabs");
+  const { t } = useTranslation();
 
   const tabs = [
     { id: "notice" as TabType, labelKey: "notice" },

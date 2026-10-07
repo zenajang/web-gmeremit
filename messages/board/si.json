@@ -1,0 +1,52 @@
+{
+  "board-detail": {
+    "board-detail-client": {
+      "attachment": "අමුණා ඇති ගොනුව",
+      "attachment_file": "අමුණා ඇති ගොනුව",
+      "back": "ආපසු",
+      "back_to_list": "ලැයිස්තුවට ආපසු",
+      "not_found": "පළ කිරීම සොයාගත නොහැකි විය"
+    }
+  },
+  "board-notice": {
+    "redirect": {
+      "notice": "නිවේදන පිටුවට යළියවනු ලබයි..."
+    }
+  },
+  "board-press": {
+    "redirect": {
+      "press": "පුවත්පත් පිටුවට යළියවනු ලබයි..."
+    }
+  },
+  "board": {
+    "blog-grid": {
+      "no_image": "රූපයක් නොමැත",
+      "no_results": "ප්‍රතිඵල නොමැත."
+    },
+    "board-table": {
+      "attachment": "ගොනුව",
+      "attachment_file": "අමුණා ඇති ගොනුව",
+      "date": "දිනය",
+      "title": "ශීර්ෂය",
+      "type": "වර්ගය"
+    },
+    "count_suffix": " පළ කිරීම්",
+    "pagination": {
+      "load_more": "තවදුරටත් පෙන්වන්න"
+    },
+    "search-bar": {
+      "all": "සියල්ල",
+      "content": "අන්තර්ගතය",
+      "placeholder": "සෙවීමට වචනය ඇතුළත් කරන්න",
+      "title": "ශීර්ෂය",
+      "button": "සොයන්න"
+    },
+    "subtitle": "GME Remit හි නවතම පුවත් පරීක්ෂා කරන්න",
+    "tabs": {
+      "blog": "බ්ලොග්",
+      "notice": "නිවේදනය",
+      "press": "පුවත්පත"
+    },
+    "total": "මුළු"
+  }
+}

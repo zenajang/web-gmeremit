@@ -1,0 +1,52 @@
+{
+  "board-detail": {
+    "board-detail-client": {
+      "attachment": "添付ファイル",
+      "attachment_file": "添付ファイル",
+      "back": "戻る",
+      "back_to_list": "一覧に戻る",
+      "not_found": "記事が見つかりません"
+    }
+  },
+  "board-notice": {
+    "redirect": {
+      "notice": "お知らせページに移動中..."
+    }
+  },
+  "board-press": {
+    "redirect": {
+      "press": "プレスリリースページに移動中..."
+    }
+  },
+  "board": {
+    "blog-grid": {
+      "no_image": "画像なし",
+      "no_results": "検索結果がありません。"
+    },
+    "board-table": {
+      "attachment": "添付",
+      "attachment_file": "添付ファイル",
+      "date": "日付",
+      "title": "タイトル",
+      "type": "区分"
+    },
+    "count_suffix": " 件",
+    "pagination": {
+      "load_more": "もっと見る"
+    },
+    "search-bar": {
+      "all": "すべて",
+      "content": "内容",
+      "placeholder": "検索キーワードを入力してください",
+      "title": "タイトル",
+      "button": "検索"
+    },
+    "subtitle": "GME Remitの最新ニュースをご覧ください",
+    "tabs": {
+      "blog": "ブログ",
+      "notice": "お知らせ",
+      "press": "プレスリリース"
+    },
+    "total": "合計"
+  }
+}

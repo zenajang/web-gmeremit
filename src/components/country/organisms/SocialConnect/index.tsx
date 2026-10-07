@@ -40,14 +40,14 @@ const SocialConnect = ({ countryName }: SocialConnectProps) => {
     <section id="SocialConnect" className="bg-white py-12 sm:py-16">
       <div className="flex flex-col sm:flex-row sm:flex-wrap justify-between items-start sm:items-center gap-8 max-w-[1200px] mx-auto px-5 sm:px-8 lg:px-10">
         <div>
-          <h1 className="text-[24px] sm:text-[28px] font-extrabold tracking-[-0.01 em] text-[#181818]">{t("social.heading")}</h1>
-          <p className="text-[16px] text-[#606060] mt-1">{t("social.subheading")}</p>
+          <h1 className="text-[24px] sm:text-[28px] font-extrabold tracking-[-0.01 em] text-[#181818]">{t("social-connect.heading")}</h1>
+          <p className="text-[16px] text-[#606060] mt-1">{t("social-connect.subheading")}</p>
         </div>
         <ul className="flex items-center gap-x-4 gap-y-3 sm:gap-6">
           <li className="text-[16px] font-semibold text-[#181818]">
             <Link href={links.facebook ?? `/country/${countryName}`} target="_blank" className="flex items-center gap-2 text-[15px] font-semibold text-[#181818]">
               <Image src="/images/country/icons/facebook.svg" alt="Facebook" width={20} height={20} />
-              {t("social.links.facebook")}
+              {t("social-connect.links.facebook")}
             </Link>
           </li>
           {/* <li className="text-[16px] font-semibold text-[#181818]">
@@ -59,7 +59,7 @@ const SocialConnect = ({ countryName }: SocialConnectProps) => {
           <li className="text-[16px] font-semibold text-[#181818]">
             <Link href={links.tiktok ?? `/country/${countryName}`} target="_blank" className="flex items-center gap-2 text-[15px] font-semibold text-[#181818]">
             <Image src="/images/country/icons/tiktok.svg" alt="TikTok" width={20} height={20} />
-            {t("social.links.tiktok")}
+            {t("social-connect.links.tiktok")}
             </Link>
           </li>
           {/* <li className="text-[16px] font-semibold text-[#181818]">

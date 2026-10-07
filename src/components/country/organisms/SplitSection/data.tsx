@@ -35,10 +35,10 @@ export const splitSectionData = (
     id: "exchange-rate",
     direction: "row",
     info: {
-      sectionTitle: t("exchangeRate.eyebrow"),
-      contentTitle: sectionHeading(t("exchangeRate.heading")),
-      description: t("exchangeRate.description"),
-      footnote: t("exchangeRate.note"),
+      sectionTitle: t("split-section.exchangeRate.eyebrow"),
+      contentTitle: sectionHeading(t("split-section.exchangeRate.heading")),
+      description: t("split-section.exchangeRate.description"),
+      footnote: t("split-section.exchangeRate.note"),
     },
     content: <ExchangeRateCalculator />
   },
@@ -46,15 +46,15 @@ export const splitSectionData = (
     id: "international-remittance",
     direction: "row",
     info: {
-      sectionTitle: t("remittance.eyebrow"),
-      contentTitle: sectionHeading(t("remittance.heading")),
-      description: t("remittance.description"),
-      benefits: tArray("remittance.features"),
+      sectionTitle: t("split-section.remittance.eyebrow"),
+      contentTitle: sectionHeading(t("split-section.remittance.heading")),
+      description: t("split-section.remittance.description"),
+      benefits: tArray("split-section.remittance.features"),
       buttonProps: {
         as: "link",
         href: "/#app-download",
         type: "button",
-        children: t("remittance.ctaLabel"),
+        children: t("split-section.remittance.ctaLabel"),
         className: "w-full sm:w-fit flex items-center justify-center font-semibold cursor-pointer px-7 py-3 sm:py-3.5 mt-2 text-[16px] rounded-full bg-primary text-white hover:bg-[#c11a28]"
       }
     },
@@ -64,15 +64,15 @@ export const splitSectionData = (
     id: "card",
     direction: "row-reverse",
     info: {
-      sectionTitle: t("card.eyebrow"),
-      contentTitle: sectionHeading(t("card.heading")),
-      description: t("card.description"),
-      benefits: tArray("card.features"),
+      sectionTitle: t("split-section.card.eyebrow"),
+      contentTitle: sectionHeading(t("split-section.card.heading")),
+      description: t("split-section.card.description"),
+      benefits: tArray("split-section.card.features"),
       buttonProps: {
         as: "link",
         href: "/services/card",
         type: "button",
-        children: t("card.ctaLabel"),
+        children: t("split-section.card.ctaLabel"),
         className: "w-full sm:w-fit flex items-center justify-center font-semibold cursor-pointer px-7 py-3 sm:py-3.5 mt-2 text-[16px] rounded-full bg-primary text-white hover:bg-[#c11a28]"
       }
     },
@@ -82,15 +82,15 @@ export const splitSectionData = (
     id: "sim-card",
     direction: "row",
     info: {
-      sectionTitle: t("simCard.eyebrow"),
-      contentTitle: sectionHeading(t("simCard.heading")),
-      description: t("simCard.description"),
-      benefits: tArray("simCard.features"),
+      sectionTitle: t("split-section.simCard.eyebrow"),
+      contentTitle: sectionHeading(t("split-section.simCard.heading")),
+      description: t("split-section.simCard.description"),
+      benefits: tArray("split-section.simCard.features"),
       buttonProps: {
         as: "link",
         href: "/services/telecom",
         type: "button",
-        children: t("simCard.ctaLabel"),
+        children: t("split-section.simCard.ctaLabel"),
         className: "w-full sm:w-fit flex items-center justify-center font-semibold cursor-pointer px-7 py-3 sm:py-3.5 mt-2 text-[16px] rounded-full bg-primary text-white hover:bg-[#c11a28]"
       }
     },
@@ -100,15 +100,15 @@ export const splitSectionData = (
     id: "loan",
     direction: "row-reverse",
     info: {
-      sectionTitle: t("loan.eyebrow"),
-      contentTitle: sectionHeading(t("loan.heading")),
-      description: t("loan.description"),
-      benefits: tArray("loan.features"),
+      sectionTitle: t("split-section.loan.eyebrow"),
+      contentTitle: sectionHeading(t("split-section.loan.heading")),
+      description: t("split-section.loan.description"),
+      benefits: tArray("split-section.loan.features"),
       buttonProps: {
         as: "link",
         href: "/services/loan",
         type: "button",
-        children: t("loan.ctaLabel"),
+        children: t("split-section.loan.ctaLabel"),
         className: "w-full sm:w-fit flex items-center justify-center font-semibold cursor-pointer px-7 py-3 sm:py-3.5 mt-2 text-[16px] rounded-full bg-primary text-white hover:bg-[#c11a28]"
       }
     },

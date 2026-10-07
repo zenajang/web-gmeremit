@@ -1,0 +1,992 @@
+{
+  "services-card": {
+    "benefits-discover": {
+      "why": {
+        "description": "La tarjeta GME simplifica sus pagos del día a día — ya sea que se esté desplazando, comprando o viajando al extranjero. Pague en línea y en tiendas físicas, use el transporte público con facilidad y disfrute de una experiencia fluida dondequiera que vaya.",
+        "title": "¿Por qué elegir GME Card?"
+      }
+    },
+    "benefits": {
+      "why": {
+        "atm": {
+          "description": "Acceso fácil al efectivo en cajeros automáticos en todo el país",
+          "title": "Retiro y depósito en cajeros"
+        },
+        "cashback": {
+          "description": "Gana hasta un 30% de reembolso en tiendas asociadas",
+          "title": "Reembolso estacional y en tiendas especiales"
+        },
+        "everywhere": {
+          "description": "Compra en línea y paga en tienda sin problemas",
+          "title": "En línea y fuera de línea"
+        },
+        "global": {
+          "description": "Aceptada en todas partes, a nivel nacional e internacional",
+          "title": "Nacional e internacional"
+        },
+        "transit": {
+          "description": "Úsala como tarjeta de transporte para todo el transporte público",
+          "title": "Metro, autobús, taxi"
+        }
+      }
+    },
+    "card-detail-modal": {
+      "app_guide": "La solicitud de tarjeta está disponible en la aplicación GME",
+      "labels": {
+        "annual_fee": "Cuota anual",
+        "availability": "Disponibilidad",
+        "charge_method": "Método de recarga",
+        "limit": "Límite",
+        "monthly_fee": "Cuota mensual",
+        "payment_time": "Plazo de pago",
+        "usage_limit": "Límite de uso"
+      }
+    },
+    "card-grid-item-detail-button": {
+      "detail": "Ver detalles"
+    },
+    "card-grid-title": {
+      "subtitle": "Compare los beneficios entre las tarjetas GME y elija la que mejor se adapte a usted",
+      "title": "Elige tus beneficios"
+    },
+    "service-hero-section": {
+      "cta": "Explorar tarjetas",
+      "title1": "Encuentra tu",
+      "title2": "tarjeta GME perfecta",
+      "description": "Desde pagos internacionales hasta gastos diarios, descubre las tarjetas GME llenas de beneficios.",
+      "badge": "GME CARD"
+    },
+    "cards": {
+      "black": {
+        "details": {
+          "autoPayment": {
+            "desc": "Cuando el saldo de tu GME Pay sea insuficiente para un pago con tarjeta, el déficit se debitará automáticamente de tu cuenta de débito automático vinculada.",
+            "title": "Débito automático"
+          },
+          "cautions": {
+            "items": [
+              "Si se cancela un pago con tarjeta GME, el reembolso se devolverá a tu GME Wallet. No se aceptan reembolsos a otras cuentas.",
+              "La tarjeta GME es una tarjeta de débito prepagada. Los pagos a plazos no están disponibles.",
+              "Puedes seguir usando la aplicación GME incluso si cancelas tu tarjeta. Sin embargo, si cancelas tu suscripción en la aplicación GME, tu tarjeta se cancelará automáticamente.",
+              "Usted será el único responsable en caso de pérdida de su teléfono móvil o tarjeta. GME no asumirá ninguna responsabilidad en tales casos.",
+              "Los comercios afiliados internacionales siguen las políticas y normas de Mastercard."
+            ],
+            "title": "Precauciones"
+          },
+          "delivery": {
+            "methods": [
+              "Entrega a domicilio",
+              "Recogida en sucursal GME"
+            ],
+            "title": "Métodos de entrega de la tarjeta"
+          },
+          "foreignPayment": {
+            "items": [
+              "Para los pagos con comerciantes en el extranjero, las divisas que no sean USD se convierten a USD según los tipos de cambio de Mastercard, procesados en la fecha de aprobación del pago (transacciones aprobadas) o la fecha en que GME recibe la información de facturación.",
+              "Monto facturado = (Monto del pago × Tipo de cambio) + Comisiones extranjeras",
+              "El tipo de cambio es el tipo USD de pago con tarjeta GME, actualizado cada 15 minutos.",
+              "Comisión de marca internacional = (Monto del pago × Tipo de cambio) × Tasa de comisión Mastercard (1.0%)",
+              "Comisión de pago extranjero = (Monto del pago × Tipo de cambio) × Tasa de comisión de la tarjeta GME (0.25%)",
+              "Al pagar en KRW con comerciantes en el extranjero, puede aplicarse una comisión DCC adicional (aprox. 3-15%).",
+              "Puedes configurar restricciones de pago en KRW en el extranjero (DCC) en la aplicación GME.",
+              "Para más detalles, contacta al Centro de Atención (1588-6864) o visita www.gmeremit.com."
+            ],
+            "title": "Pagos internacionales y otra información"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "3% de reembolso en compras en el extranjero",
+                "title": "3% de reembolso en el extranjero"
+              },
+              {
+                "desc": "Disfrute de recompensas en tiendas asociadas seleccionadas durante promociones especiales",
+                "title": "Reembolso estacional y en tiendas especiales"
+              },
+              {
+                "desc": "Paga libremente tanto a nivel nacional como internacional",
+                "title": "Paga en cualquier parte del mundo"
+              },
+              {
+                "desc": "Paga libremente para compras y entretenimiento, en línea y fuera de línea",
+                "title": "Compras en línea y fuera de línea"
+              },
+              {
+                "desc": "Use su tarjeta con facilidad en autobuses, metro y trenes",
+                "title": "Transporte público"
+              }
+            ],
+            "title": "Beneficios clave"
+          },
+          "userGuide": {
+            "annualFee": "₩15,000 (por año)",
+            "chargeMethod": "Puede depositar dinero mediante cajero automático o transferencia bancaria.",
+            "contact": {
+              "center": "Centro de atención GME: 1811-2961",
+              "website": "Sitio web: gmeremit.com"
+            },
+            "limit": "Hasta 2.000.000 ₩ por transacción",
+            "title": "Guía del usuario"
+          }
+        },
+        "features": [
+          "Tarjeta de débito con función de transporte prepago",
+          "3% de reembolso en compras en el extranjero",
+          "Retiro y depósito en cajeros automáticos exclusivos"
+        ],
+        "subtitle": "GME Premium Card"
+      },
+      "easyCare": {
+        "details": {
+          "autoPayment": {
+            "desc": "Vincule cualquier cuenta bancaria para el débito automático y actualícela fácilmente en cualquier momento.",
+            "title": "Débito automático"
+          },
+          "cautions": {
+            "items": [
+              "Si se cancela un pago con la tarjeta GME, el reembolso se devolverá a su GME Wallet. No está disponible el reembolso a otras cuentas.",
+              "La GME Card es una tarjeta de débito prepago. No está disponible el pago en cuotas.",
+              "Usted puede seguir usando la aplicación GME incluso si su tarjeta ha sido cancelada. Sin embargo, si cancela su suscripción en la aplicación GME, su tarjeta también se cancelará automáticamente.",
+              "Usted será el único responsable en caso de pérdida de su teléfono móvil o tarjeta. GME no asumirá ninguna responsabilidad en tales casos.",
+              "Los comercios afiliados internacionales siguen las políticas y normas de Mastercard.",
+              "Si se cancela dentro de los 3 meses posteriores a la emisión, se cobrará una comisión de cancelación de ₩10,000 para cubrir los costos de procesamiento."
+            ],
+            "title": "Precauciones"
+          },
+          "delivery": {
+            "methods": [
+              "Entrega a domicilio",
+              "Retiro en una sucursal de GME"
+            ],
+            "title": "Métodos de entrega de la tarjeta"
+          },
+          "foreignPayment": {
+            "items": [
+              "Para los pagos en comercios en el extranjero, las divisas distintas del USD se convierten a USD según el tipo de cambio de Mastercard, procesado según la fecha de aprobación del pago (transacciones aprobadas) o la fecha en que GME recibe la información de facturación (transacciones no aprobadas). El monto facturado en KRW, que incluye una comisión por transacciones en el extranjero del 1.25%, se suma al monto en KRW según el tipo de cambio de USD de GME y se deduce de GME Pay.",
+              "Monto facturado = (Monto del pago × Tipo de cambio) + Comisiones por transacciones en el extranjero (Comisión de marca internacional² + Comisión de pago en el extranjero²)",
+              "El tipo de cambio aplicado es la tasa de USD de GME para pagos con tarjeta, actualizada cada 15 minutos y aplicada en el momento de la aprobación del pago (o cuando GME recibe la información de facturación).",
+              "Comisión de marca internacional² = (Monto del pago × Tipo de cambio) × Tasa de comisión de Mastercard (1.0%)",
+              "Comisión de pago en el extranjero² = (Monto del pago × Tipo de cambio) × Tasa de comisión de la tarjeta GME (0.25%)",
+              "Al pagar en KRW en comercios en el extranjero, puede aplicarse una comisión adicional de DCC (aproximadamente 3-15%). Es más económico bloquear los pagos en KRW en el extranjero y pagar en la moneda local.",
+              "Puede configurar restricciones de pago en KRW en el extranjero (DCC) en la aplicación GME. Vaya a: Tarjeta > Gestión de tarjeta > configuración \"Restricción de pago en KRW en el extranjero\" (predeterminado: \"Restringido\")",
+              "Para más detalles, comuníquese con el Centro de Atención al Cliente (1588-6864) o visite www.gmeremit.com."
+            ],
+            "title": "Pagos internacionales y otra información"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "Se paga hasta KRW 30 Million a un familiar designado en caso de fallecimiento accidental, y hasta KRW 30 Million en caso de discapacidad accidental.",
+                "title": "Beneficio de apoyo de seguro"
+              },
+              {
+                "desc": "Hasta KRW 1 Million por hospitalización de más de 30 días, hasta KRW 50,000 por visita a la sala de emergencias, y asistencia en la solicitud de devolución de impuestos.",
+                "title": "Beneficio de apoyo de membresía"
+              },
+              {
+                "desc": "Con la recarga automática, no es necesario recargar manualmente al viajar en autobús o metro.",
+                "title": "Tarjeta de transporte pospago"
+              },
+              {
+                "desc": "Disfrute de recompensas en tiendas asociadas seleccionadas durante promociones especiales",
+                "title": "Reembolso estacional y en tiendas especiales"
+              },
+              {
+                "desc": "Realice pagos en todo el mundo, tanto a nivel nacional como en el extranjero, en cualquier lugar donde se acepte Mastercard.",
+                "title": "Pague en cualquier parte del mundo"
+              },
+              {
+                "desc": "Pague en cualquier momento y lugar — en línea o en tienda — para compras, entretenimiento y mucho más",
+                "title": "Compras en línea y en tiendas físicas"
+              }
+            ],
+            "title": "Beneficios principales"
+          },
+          "userGuide": {
+            "contact": {
+              "center": "Centro de Atención al Cliente GME: 1811-2961",
+              "website": "Sitio web: gmeremit.com"
+            },
+            "limit": "Hasta ₩2,000,000 por transacción",
+            "monthlyFee": "₩6,990 (se cobra el día 1 de cada mes)",
+            "title": "Guía del usuario"
+          }
+        },
+        "features": [
+          "Tarjeta de débito con función de transporte pospago",
+          "Beneficios de apoyo de seguro y membresía",
+          "Reembolso estacional y en tiendas especiales"
+        ],
+        "subtitle": "GME EasyCare Card"
+      },
+      "easyG0": {
+        "details": {
+          "autoPayment": {
+            "desc": "Cuando el saldo de tu GME Pay sea insuficiente para un pago con tarjeta, el déficit se debitará automáticamente de tu cuenta de débito automático vinculada.",
+            "title": "Débito automático"
+          },
+          "cardStatus": {
+            "items": [
+              {
+                "desc": "La función de tarjeta de transporte sigue disponible.",
+                "status": "Suspendida temporalmente"
+              },
+              {
+                "desc": "La tarjeta se suspenderá en 2 días. La función de tarjeta de transporte se suspenderá 2 días después del aviso.",
+                "status": "Aviso de pérdida"
+              },
+              {
+                "desc": "La tarjeta puede reutilizarse después de 2-3 días.",
+                "status": "Cancelación de pérdida"
+              },
+              {
+                "desc": "La función de tarjeta de transporte se cancelará 10 días después de la reemisión.",
+                "status": "Reemisión"
+              }
+            ],
+            "title": "Uso de transporte según estado de la tarjeta"
+          },
+          "cautions": {
+            "items": [
+              "Si se cancela un pago con tarjeta GME, el reembolso se devolverá a tu GME Wallet.",
+              "La tarjeta GME es una tarjeta de débito prepagada. Los pagos a plazos no están disponibles.",
+              "Puedes seguir usando la aplicación GME incluso si cancelas tu tarjeta.",
+              "Usted será el único responsable en caso de pérdida de su teléfono móvil o tarjeta. GME no asumirá ninguna responsabilidad en tales casos.",
+              "Los comercios afiliados internacionales siguen las políticas y normas de Mastercard.",
+              "Si se cancela en los 3 meses posteriores a la emisión, se cobrará una tarifa de cancelación de 10.000 ₩."
+            ],
+            "title": "Precauciones"
+          },
+          "delivery": {
+            "methods": [
+              "Entrega a domicilio",
+              "Recogida en sucursal GME"
+            ],
+            "title": "Métodos de entrega de la tarjeta"
+          },
+          "foreignPayment": {
+            "items": [
+              "Para los pagos con comerciantes en el extranjero, las divisas que no sean USD se convierten a USD según los tipos de cambio de Mastercard.",
+              "Monto facturado = (Monto del pago × Tipo de cambio) + Comisiones extranjeras",
+              "El tipo de cambio es el tipo USD de pago con tarjeta GME, actualizado cada 15 minutos.",
+              "Comisión de marca internacional = (Monto del pago × Tipo de cambio) × Tasa de comisión Mastercard (1.0%)",
+              "Comisión de pago extranjero = (Monto del pago × Tipo de cambio) × Tasa de comisión de la tarjeta GME (0.25%)",
+              "Al pagar en KRW con comerciantes en el extranjero, puede aplicarse una comisión DCC adicional (aprox. 3-15%).",
+              "Puedes configurar restricciones de pago en KRW en el extranjero (DCC) en la aplicación GME.",
+              "Para más detalles, contacta al Centro de Atención (1588-6864) o visita www.gmeremit.com."
+            ],
+            "title": "Pagos internacionales y otra información"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "Con la recarga automática, no es necesario recargar manualmente al viajar en autobús o metro.",
+                "title": "Tarjeta de transporte pospago"
+              },
+              {
+                "desc": "Disfrute de recompensas en tiendas asociadas seleccionadas durante promociones especiales",
+                "title": "Reembolso estacional y en tiendas especiales"
+              },
+              {
+                "desc": "Paga libremente tanto a nivel nacional como internacional",
+                "title": "Paga en cualquier parte del mundo"
+              },
+              {
+                "desc": "Paga libremente para compras y entretenimiento, en línea y fuera de línea",
+                "title": "Compras en línea y fuera de línea"
+              }
+            ],
+            "title": "Beneficios clave"
+          },
+          "transitCard": {
+            "availability": "Disponible en metro y autobuses urbanos. Para taxis, autobuses expresos/aeropuerto y trenes, usa la tarjeta (chip IC y lector MS) para pagar.",
+            "limit": "Límite de 10.000 ₩ por viaje",
+            "paymentTime": "Las tarifas de uso deben pagarse en 1-2 días.",
+            "title": "Tarjeta de transporte pospago"
+          },
+          "userGuide": {
+            "contact": {
+              "center": "Centro de atención GME: 1811-2961",
+              "website": "Sitio web: gmeremit.com"
+            },
+            "limit": "Hasta 2.000.000 ₩ por transacción",
+            "monthlyFee": "₩1,000 (se cobra el día 1 de cada mes)",
+            "title": "Guía del usuario"
+          }
+        },
+        "features": [
+          "Tarjeta de débito con función de transporte pospago",
+          "Reembolso estacional y en tiendas especiales",
+          "Retiro y depósito en cajeros automáticos exclusivos"
+        ],
+        "subtitle": "GME EasyGo Card"
+      },
+      "pay": {
+        "details": {
+          "autoPayment": {
+            "desc": "Si el saldo de su GME Pay no es suficiente para un pago con tarjeta, el monto faltante se debitará automáticamente de su cuenta de débito automático vinculada.",
+            "title": "Débito automático"
+          },
+          "cautions": {
+            "items": [
+              "Si se cancela un pago con la tarjeta GME, el reembolso se devolverá a su GME Wallet. No está disponible el reembolso a otras cuentas.",
+              "La GME Card es una tarjeta de débito prepago. No está disponible el pago en cuotas.",
+              "Usted puede seguir usando la aplicación GME incluso si su tarjeta ha sido cancelada. Sin embargo, si cancela su suscripción en la aplicación GME, su tarjeta también se cancelará automáticamente.",
+              "Usted será el único responsable en caso de pérdida de su teléfono móvil o tarjeta. GME no asumirá ninguna responsabilidad en tales casos.",
+              "Los comercios afiliados internacionales siguen las políticas y normas de Mastercard."
+            ],
+            "title": "Precauciones"
+          },
+          "delivery": {
+            "methods": [
+              "Entrega a domicilio",
+              "Retiro en una sucursal de GME"
+            ],
+            "title": "Métodos de entrega de la tarjeta"
+          },
+          "foreignPayment": {
+            "items": [
+              "Para los pagos en comercios en el extranjero, las divisas distintas del USD se convierten a USD según el tipo de cambio de Mastercard, procesado según la fecha de aprobación del pago (transacciones aprobadas) o la fecha en que GME recibe la información de facturación (transacciones no aprobadas). El monto facturado en KRW, que incluye una comisión por transacciones en el extranjero del 1.25%, se suma al monto en KRW según el tipo de cambio de USD de GME y se deduce de GME Pay.",
+              "Monto facturado = (Monto del pago × Tipo de cambio) + Comisiones por transacciones en el extranjero (Comisión de marca internacional² + Comisión de pago en el extranjero²)",
+              "El tipo de cambio aplicado es la tasa de USD de GME para pagos con tarjeta, actualizada cada 15 minutos y aplicada en el momento de la aprobación del pago (o cuando GME recibe la información de facturación).",
+              "Comisión de marca internacional² = (Monto del pago × Tipo de cambio) × Tasa de comisión de Mastercard (1.0%)",
+              "Comisión de pago en el extranjero² = (Monto del pago × Tipo de cambio) × Tasa de comisión de la tarjeta GME (0.25%)",
+              "Al pagar en KRW en comercios en el extranjero, puede aplicarse una comisión adicional de DCC (aproximadamente 3-15%). Es más económico bloquear los pagos en KRW en el extranjero y pagar en la moneda local.",
+              "Puede configurar restricciones de pago en KRW en el extranjero (DCC) en la aplicación GME. Vaya a: Tarjeta > Gestión de tarjeta > configuración \"Restricción de pago en KRW en el extranjero\" (predeterminado: \"Restringido\")",
+              "Para más detalles, comuníquese con el Centro de Atención al Cliente (1588-6864) o visite www.gmeremit.com."
+            ],
+            "title": "Pagos internacionales y otra información"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "Disfrute de recompensas en tiendas asociadas seleccionadas durante promociones especiales",
+                "title": "Reembolso estacional y en tiendas especiales"
+              },
+              {
+                "desc": "Pague libremente tanto a nivel nacional como internacional",
+                "title": "Pague en cualquier parte del mundo"
+              },
+              {
+                "desc": "Pague libremente para compras y entretenimiento, tanto en línea como en tiendas físicas",
+                "title": "Compras en línea y en tiendas físicas"
+              },
+              {
+                "desc": "Use su tarjeta con facilidad en autobuses, metro y trenes",
+                "title": "Transporte público"
+              }
+            ],
+            "title": "Beneficios principales"
+          },
+          "userGuide": {
+            "annualFee": "₩10,000 (por año)",
+            "chargeMethod": "Puede depositar dinero mediante cajero automático o transferencia bancaria.",
+            "contact": {
+              "center": "Centro de Atención al Cliente GME: 1811-2961",
+              "website": "Sitio web: gmeremit.com"
+            },
+            "limit": "Hasta ₩2,000,000 por transacción",
+            "title": "Guía del usuario"
+          }
+        },
+        "features": [
+          "Tarjeta de débito con función de transporte prepago",
+          "Reembolso estacional y en tiendas especiales",
+          "Retiro y depósito en cajeros automáticos exclusivos"
+        ]
+      },
+      "red": {
+        "details": {
+          "autoPayment": {
+            "desc": "Cuando el saldo de tu GME Pay sea insuficiente para un pago con tarjeta, el déficit se debitará automáticamente de tu cuenta de débito automático vinculada.",
+            "title": "Pago automático"
+          },
+          "cautions": {
+            "items": [
+              "Si se cancela un pago con tarjeta GME, el reembolso se devolverá a tu GME Wallet.",
+              "La tarjeta GME es una tarjeta de débito prepagada.",
+              "Puedes seguir usando la aplicación GME incluso si cancelas tu tarjeta.",
+              "Eres totalmente responsable de la pérdida de tu teléfono o tarjeta.",
+              "Las filiales internacionales siguen las políticas y estándares de MasterCard."
+            ],
+            "title": "Precauciones"
+          },
+          "delivery": {
+            "methods": [
+              "Entrega a domicilio",
+              "Recogida en sucursal GME"
+            ],
+            "title": "Métodos de entrega de la tarjeta"
+          },
+          "foreignPayment": {
+            "items": [
+              "Para los pagos con comerciantes en el extranjero, las divisas que no sean USD se convierten a USD según los tipos de cambio de Mastercard.",
+              "Monto facturado = (Monto del pago × Tipo de cambio) + Comisiones extranjeras",
+              "El tipo de cambio es el tipo USD de pago con tarjeta GME, actualizado cada 15 minutos.",
+              "Comisión de marca internacional = (Monto del pago × Tipo de cambio) × Tasa de comisión Mastercard (1.0%)",
+              "Comisión de pago extranjero = (Monto del pago × Tipo de cambio) × Tasa de comisión de la tarjeta GME (0.25%)",
+              "Al pagar en KRW con comerciantes en el extranjero, puede aplicarse una comisión DCC adicional (aprox. 3-15%).",
+              "Puedes configurar restricciones de pago en KRW en el extranjero (DCC) en la aplicación GME.",
+              "Para más detalles, contacta al Centro de Atención (1588-6864) o visita www.gmeremit.com."
+            ],
+            "title": "Pagos internacionales y otra información"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "Reembolso en tiendas asociadas seleccionadas",
+                "title": "Reembolso estacional"
+              },
+              {
+                "desc": "Paga libremente tanto a nivel nacional como internacional",
+                "title": "Paga en cualquier parte del mundo"
+              },
+              {
+                "desc": "Paga libremente para compras y entretenimiento, en línea y fuera de línea",
+                "title": "Compras en línea y fuera de línea"
+              },
+              {
+                "desc": "Paga en autobuses, metro, trenes y todo el transporte público.",
+                "title": "Transporte público"
+              }
+            ],
+            "title": "Beneficios clave"
+          },
+          "userGuide": {
+            "annualFee": "Cuota anual 10.000 ₩ (por año)",
+            "chargeMethod": "Puedes recargar GME Pay vía GME Wallet o una cuenta bancaria.",
+            "contact": {
+              "center": "Centro de atención GME: 1811-2961",
+              "website": "Sitio web: gmeremit.com"
+            },
+            "limit": "Hasta 2.000.000 ₩ por transacción",
+            "title": "Guía del usuario"
+          }
+        },
+        "features": [
+          "Pagos globales Mastercard",
+          "Hasta 30% de reembolso en eventos",
+          "Retiro y depósito en cajeros"
+        ],
+        "subtitle": "GME Red Mastercard"
+      },
+      "white": {
+        "details": {
+          "autoPayment": {
+            "desc": "Cuando el saldo de tu GME Pay sea insuficiente para un pago con tarjeta, el déficit se debitará automáticamente de tu cuenta de débito automático vinculada.",
+            "title": "Pago automático"
+          },
+          "cautions": {
+            "items": [
+              "Si se cancela un pago con tarjeta GME, el reembolso se devolverá a tu GME Wallet.",
+              "La tarjeta GME es una tarjeta de débito prepagada.",
+              "Puedes seguir usando la aplicación GME incluso si cancelas tu tarjeta.",
+              "Eres totalmente responsable de la pérdida de tu teléfono o tarjeta.",
+              "Las filiales internacionales siguen las políticas y estándares de MasterCard."
+            ],
+            "title": "Precauciones"
+          },
+          "delivery": {
+            "methods": [
+              "Entrega a domicilio",
+              "Recogida en sucursal GME"
+            ],
+            "title": "Métodos de entrega de la tarjeta"
+          },
+          "foreignPayment": {
+            "items": [
+              "Para los pagos con comerciantes en el extranjero, las divisas que no sean USD se convierten a USD según los tipos de cambio de Mastercard.",
+              "Monto facturado = (Monto del pago × Tipo de cambio) + Comisiones extranjeras",
+              "El tipo de cambio es el tipo USD de pago con tarjeta GME, actualizado cada 15 minutos.",
+              "Comisión de marca internacional = (Monto del pago × Tipo de cambio) × Tasa de comisión Mastercard (1.0%)",
+              "Comisión de pago extranjero = (Monto del pago × Tipo de cambio) × Tasa de comisión de la tarjeta GME (0.25%)",
+              "Al pagar en KRW con comerciantes en el extranjero, puede aplicarse una comisión DCC adicional (aprox. 3-15%).",
+              "Puedes configurar restricciones de pago en KRW en el extranjero (DCC) en la aplicación GME.",
+              "Para más detalles, contacta al Centro de Atención (1588-6864) o visita www.gmeremit.com."
+            ],
+            "title": "Pagos internacionales y otra información"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "Reembolso en tiendas asociadas seleccionadas",
+                "title": "Reembolso estacional"
+              },
+              {
+                "desc": "Paga libremente tanto a nivel nacional como internacional",
+                "title": "Paga en cualquier parte del mundo"
+              },
+              {
+                "desc": "Paga libremente para compras y entretenimiento, en línea y fuera de línea",
+                "title": "Compras en línea y fuera de línea"
+              },
+              {
+                "desc": "Paga en autobuses, metro, trenes y todo el transporte público.",
+                "title": "Transporte público"
+              }
+            ],
+            "title": "Beneficios clave"
+          },
+          "userGuide": {
+            "annualFee": "Cuota anual 10.000 ₩ (por año)",
+            "chargeMethod": "Puedes recargar GME Pay vía GME Wallet o una cuenta bancaria.",
+            "contact": {
+              "center": "Centro de atención GME: 1811-2961",
+              "website": "Sitio web: gmeremit.com"
+            },
+            "limit": "Hasta 2.000.000 ₩ por transacción",
+            "title": "Guía del usuario"
+          }
+        },
+        "features": [
+          "Descuentos en tiendas de conveniencia y cafés",
+          "Pase de transporte público gratuito",
+          "Gestión fácil vía app móvil",
+          "Acceso a cajeros en todo el país"
+        ],
+        "subtitle": "GME White Mastercard"
+      },
+      "uniq": {
+        "features": [
+          "Tarjeta de débito con función de transporte prepago",
+          "Reembolso estacional y en tiendas especiales",
+          "Retiro y depósito en cajeros automáticos exclusivos"
+        ],
+        "subtitle": "GME UniQ Card"
+      }
+    }
+  },
+  "services-loan": {
+    "details": {
+      "contract": {
+        "label": "Método de firma del contrato",
+        "value": "Contrato digital"
+      },
+      "duration": {
+        "label": "Duración del préstamo",
+        "value": "3 - 45 meses"
+      },
+      "early_settlement": {
+        "label": "Cargos por liquidación anticipada",
+        "value": "Gratis"
+      },
+      "loanable": {
+        "label": "Monto prestable",
+        "value": "2 mill - 35 mill"
+      },
+      "max_amount": {
+        "label": "Monto máximo del préstamo",
+        "value": "Hasta 35 mill"
+      },
+      "repayment": {
+        "label": "Método de pago",
+        "value": "Cuotas mensuales"
+      },
+      "visa_period": {
+        "label": "Período de visa restante elegible",
+        "value": "7 - 48 meses"
+      },
+      "visa_types": {
+        "label": "Tipos de visa elegibles",
+        "value": "E9, E7, F2, F5, F6, D8 y cualquier visa con contrato de trabajo legal"
+      }
+    },
+    "disclosure": {
+      "banner": "Los productos de préstamo presentados en esta página son proporcionados por GME Finance (una entidad legal independiente). GME Finance es la única responsable de todos los aspectos del servicio de préstamo incluyendo consulta, revisión, contrato y servicio postventa. GME Remit solo proporciona información del producto y funciones de conexión.",
+      "disclaimer": "* GME Remit no es vendedor ni intermediario de este producto de préstamo. Todos los derechos y obligaciones derivados de los contratos de préstamo entre GME Finance y los clientes pertenecen exclusivamente a GME Finance. Dirige cualquier disputa o consulta relacionada a GME Finance.",
+      "label_address": "Sede central",
+      "label_brand_name": "Marca",
+      "label_business_number": "N.º de registro empresarial",
+      "label_ceo": "CEO",
+      "label_email": "Correo electrónico",
+      "label_loan_license": "N.º de licencia de préstamo",
+      "label_phone": "Teléfono",
+      "label_supervisor": "Autoridad supervisora",
+      "law_notice": "Divulgación de identidad comercial según el Artículo 10 de la Ley de Protección al Consumidor en Comercio Electrónico, etc.",
+      "provider_heading": "GME Finance"
+    },
+    "faq": {
+      "items": [
+        {
+          "a": "Los titulares de visas D-2, E-9, E-10, E-7, E-1, E-2, E-3, F-2, F-2R, F-5, F-6, F-4 y G-1 son elegibles. Los productos disponibles pueden variar según el tipo de visa.",
+          "q": "¿Qué titulares de visa pueden solicitar un préstamo?"
+        },
+        {
+          "a": "Solo se necesitan tres documentos: Tarjeta de registro de extranjero (ARC), contrato de trabajo y pasaporte. Sin papeleo complicado: un proceso simple y fluido.",
+          "q": "¿Qué documentos se requieren?"
+        },
+        {
+          "a": "Puedes solicitarlo fácilmente a través de la app móvil GME Finance. Con tu smartphone, puedes solicitar un préstamo rápida y seguramente, en cualquier momento y lugar.",
+          "q": "¿Cómo solicito un préstamo?"
+        },
+        {
+          "a": "GME Finance proporciona manejo seguro de la información personal a través de un sistema diseñado específicamente para clientes extranjeros. Puedes usar nuestros servicios con confianza.",
+          "q": "¿Mi información personal está segura?"
+        }
+      ],
+      "title": "Preguntas frecuentes"
+    },
+    "process": {
+      "step1": {
+        "desc": "Descarga la app GME en Google Play Store o App Store. Regístrate y solicita un préstamo.",
+        "title": "Solicitar a través de la app GME"
+      },
+      "step2": {
+        "desc": "Completa tu información y envía los documentos requeridos.",
+        "title": "Envío de requisitos"
+      },
+      "step3": {
+        "desc": "Nuestro personal verificará tus documentos y revisará tu situación crediticia.",
+        "title": "Verificación"
+      },
+      "step4": {
+        "desc": "Una vez aprobado, se procederá con la firma del contrato digital.",
+        "title": "Aprobación"
+      },
+      "step5": {
+        "desc": "Tras la firma del contrato, el monto del préstamo se depositará en tu cuenta bancaria.",
+        "title": "Desembolso"
+      },
+      "subtitle": "Proceso de solicitud en 5 pasos",
+      "title": "Solicitud de préstamo simple"
+    },
+    "products": {
+      "business_loan": {
+        "desc": "Fondos para operación empresarial",
+        "name": "Préstamo empresarial"
+      },
+      "car_loan": {
+        "desc": "Fondos para compra de vehículo",
+        "name": "Préstamo de auto"
+      },
+      "gme_loan": {
+        "desc": "Gastos generales de vida",
+        "name": "Préstamo GME"
+      },
+      "house_loan": {
+        "desc": "Depósito Jeonse y alquiler",
+        "name": "Préstamo de vivienda"
+      },
+      "property_loan": {
+        "desc": "Préstamo con garantía inmobiliaria",
+        "name": "Préstamo inmobiliario"
+      },
+      "student_loan": {
+        "desc": "Matrícula y cuotas escolares",
+        "name": "Préstamo estudiantil"
+      },
+      "subtitle": "Compara y elige el producto de préstamo que se ajuste a tus necesidades.",
+      "title": "Productos de préstamo",
+      "title2": "Adaptados a ti",
+      "vacation_loan": {
+        "desc": "Fondos para viajes y vacaciones",
+        "name": "Préstamo de vacaciones"
+      }
+    },
+    "service-hero-section": {
+      "cta": "Ver productos de préstamo",
+      "title1": "Servicios de préstamo",
+      "title2": "para extranjeros",
+      "description": "Solicita un préstamo fácilmente con la app GME. Apoyamos tu vida en Corea con aprobaciones rápidas y términos flexibles.",
+      "badge": "GME FINANCE"
+    },
+    "why": {
+      "badge": "Impulsado por GME Finance",
+      "countries": {
+        "desc": "Países atendidos",
+        "title": "14+"
+      },
+      "description": "Proporcionamos servicios de préstamo personalizados para clientes extranjeros en más de 14 países. Experimenta la confianza comprobada con más de un millón de préstamos exitosos y más de 500 mil millones de KRW en préstamos acumulados.",
+      "realtime": {
+        "desc": "Seguimiento de estado",
+        "title": "Tiempo real"
+      },
+      "simple": {
+        "desc": "Vía app móvil",
+        "title": "Solicitud fácil"
+      },
+      "stats_desc": "1M+ préstamos exitosos · 14 países",
+      "stats_label": "Préstamos acumulados",
+      "stats_value": "500 mil M ₩+",
+      "success": {
+        "desc": "Préstamos exitosos",
+        "title": "1M+"
+      },
+      "support": {
+        "desc": "Soporte al cliente",
+        "title": "24/7"
+      },
+      "title": "¿Por qué elegir el préstamo GME?"
+    }
+  },
+  "services-payments": {
+    "business": {
+      "partners": {
+        "list": {
+          "1": "Alipay",
+          "2": "Skyee",
+          "12": "LianLian Pay",
+          "13": "Terrapin",
+          "14": "Ria",
+          "15": "Thunes"
+        }
+      }
+    },
+    "features": {
+      "accounting": {
+        "description": "Conciliación fácil para simplificar tu contabilidad. Incluso las liquidaciones complejas se gestionan limpiamente.",
+        "title": "Contabilidad"
+      },
+      "dynamic": {
+        "description": "Elige tu método de pago, sigue las transacciones en tiempo real y obtén recibos de pago instantáneos.",
+        "title": "Dinámico"
+      },
+      "flexibility": {
+        "description": "Cambia y paga simultáneamente, o gestiona tu propio FX. Opera a tu manera.",
+        "title": "Flexibilidad"
+      },
+      "label": "Características del servicio",
+      "netout": {
+        "description": "Reduce tus costos con apalancamiento financiero. Sin comisiones ocultas.",
+        "title": "Netout"
+      },
+      "pob": {
+        "description": "Alto nivel de transparencia y máxima eficiencia para pagos por mandato.",
+        "title": "Pago por cuenta de"
+      },
+      "technology": {
+        "description": "Arquitectura de microservicios con AML y verificación integrados para un sistema robusto y confiable.",
+        "title": "Tecnología"
+      },
+      "title": "Características del servicio GME Payment"
+    },
+    "partners": {
+      "label": "Socios",
+      "title": "Confiado y asociado con"
+    },
+    "process": {
+      "label": "Cómo funciona",
+      "step1": {
+        "description": "SPS para pagos transfronterizos, VAS para cobros y cuentas virtuales. Ambos proporcionados como parte del servicio.",
+        "title": "SPS + VAS"
+      },
+      "step2": {
+        "description": "Conecta tu sistema usando nuestra documentación API en developers.gmeremit.com.",
+        "title": "Integración API"
+      },
+      "step3": {
+        "description": "Gestiona tu propio FX o cambia y paga simultáneamente. Sigue cada transacción en tiempo real.",
+        "title": "Control de FX & Pago"
+      },
+      "step4": {
+        "description": "Conciliación fácil para liquidaciones, recibos de pago instantáneos e historial de transacciones completo.",
+        "title": "Conciliación & Informes"
+      },
+      "title": "Cómo funciona GME Payments"
+    },
+    "service-hero-section": {
+      "cta_contact": "Contactar con ventas",
+      "cta_docs": "Ver documentación API",
+      "title1": "GME para PYMES &",
+      "title2": "Comerciantes E-Commerce",
+      "description": "Crear valor juntos transformando los pagos con colaboración. Reduce los costos de transferencias comerciales y haz crecer tu negocio global.",
+      "badge": "REDUCE COSTOS EN TRANSFERENCIAS COMERCIALES"
+    },
+    "solutions": {
+      "description": "Dos soluciones potentes — SPS y VAS — para gestionar todos los aspectos de los pagos transfronterizos.",
+      "label": "Soluciones principales",
+      "sps": {
+        "description": "Solución de pago transfronterizo masivo 24/7. Gestiona FX, verifica destinatarios y procesa pagos masivos en un solo lugar.",
+        "features": [
+          "Pago 24/7",
+          "Control de FX",
+          "Pagos masivos",
+          "Estado en tiempo real",
+          "Pagos instantáneos",
+          "Verificación en tiempo real"
+        ],
+        "subtitle": "Solución de pago fluida",
+        "title": "SPS"
+      },
+      "title": "Soluciones de pago diseñadas para tu negocio",
+      "vas": {
+        "description": "Desde la emisión de cuentas virtuales hasta los cobros por cuenta de terceros. Todas las funciones adicionales que necesitas para tus operaciones de pago.",
+        "features": [
+          "Notificaciones en tiempo real",
+          "Cobro local a bajo costo",
+          "Asignar V/A",
+          "Cuentas virtuales en múltiples formatos",
+          "Cobros por cuenta de (COBO)",
+          "Sin restricciones para beneficiarios y depositantes",
+          "Emisión instantánea de V/A vía API o portal"
+        ],
+        "subtitle": "Servicio de cuenta virtual",
+        "title": "VAS"
+      }
+    }
+  },
+  "services-remittance": {
+    "process": {
+      "step1": {
+        "desc": "Instala la app GME y completa la verificación de identidad.",
+        "title": "Instalar y verificar"
+      },
+      "step2": {
+        "desc": "Selecciona país, detalles de cuenta y monto.",
+        "title": "Ingresar destinatario"
+      },
+      "step3": {
+        "desc": "Paga y rastrea el estado de la transferencia en tiempo real.",
+        "title": "Transferencia completa"
+      },
+      "subtitle": "3 pasos desde la solicitud hasta la finalización",
+      "title": "Proceso de",
+      "title2": "transferencia simple"
+    },
+    "regions": {
+      "subtitle": "Disponible en Asia, Europa, Américas y África en más de 200 países.",
+      "title": "Cobertura",
+      "title2": "global",
+      "more": "Y muchos más países compatibles"
+    },
+    "stats": {
+      "achieved": {
+        "label": "Remesas anuales 2025",
+        "value": "4 bill ₩"
+      },
+      "branches": {
+        "label": "Sucursales en Corea",
+        "value": "10"
+      },
+      "languages": {
+        "label": "Idiomas soportados",
+        "value": "24"
+      },
+      "savings": {
+        "label": "Ahorro en comisiones",
+        "value": "90%"
+      }
+    },
+    "why": {
+      "items": {
+        "cheapest": {
+          "desc": "Mejores comisiones y tipos que los bancos tradicionales.",
+          "title": "Comisiones competitivas"
+        },
+        "fastest": {
+          "desc": "El procesamiento en tiempo real minimiza el tiempo de transferencia.",
+          "title": "Transferencias rápidas"
+        },
+        "secure": {
+          "desc": "Verificación de identidad mejorada y protección segura.",
+          "title": "Verificación segura"
+        }
+      },
+      "subtitle": "Por qué las remesas GME",
+      "title": "Un servicio de remesas global de confianza"
+    },
+    "trust": {
+      "efb": "",
+      "fss": "",
+      "moef": "",
+      "partner": "",
+      "desc": "Global Money Express (GME) es una institución financiera autorizada por el Ministerio de Economía y Finanzas y el Servicio de Supervisión Financiera, ofreciendo servicios seguros y confiables.",
+      "insurance": "Seguro de responsabilidad del servicio de transacción financiera electrónica: 300 millones KRW",
+      "title": "Proporcionamos servicios seguros."
+    },
+    "service-hero-section": {
+      "badge": "GME REMITTANCE",
+      "cta": "Ver servicio",
+      "description": "Envía dinero rápida y seguramente a más de 200 países.",
+      "title1": "Transferencias internacionales",
+      "title2": "rápidas y seguras"
+    }
+  },
+  "services-telecom": {
+    "categories": {
+      "fiveG": "5G/Especial",
+      "postpaid": "Pospago",
+      "prepaid": "Prepago",
+      "recommended": "Recomendado"
+    },
+    "telecom-page-client": {
+      "esim_intro": {
+        "badge": "eSIM",
+        "cta": "Activar eSIM",
+        "description": "¡Empieza fácilmente con eSIM! Separa claramente el trabajo y la vida personal y encuentra un mejor equilibrio.",
+        "tag1": "Sin cambio de SIM",
+        "tag2": "Sin entrega",
+        "tag3": "¡Autoactivación instantánea!",
+        "title": "Un teléfono, dos números"
+      },
+      "features": {
+        "title": "¿Por qué GME Mobile?"
+      },
+      "plans": {
+        "cta": "Ver todos los planes",
+        "currency": "KRW",
+        "data": "Datos",
+        "empty": "No hay planes para mostrar",
+        "per_month": "mes",
+        "sms": "SMS",
+        "subtitle": "Encuentra un plan que se ajuste a tu estilo de vida",
+        "title": "Planes para ti",
+        "voice": "Voz"
+      },
+      "process": {
+        "title": "Sin complicaciones,",
+        "title2": "Activa al instante"
+      },
+      "usim_intro": {
+        "badge": "USIM",
+        "cta": "Comprar USIM",
+        "description": "Horarios de autoactivación",
+        "title": "¡Activada en 5 minutos!"
+      }
+    },
+    "usim_intro": {
+      "step1": "Comprar USIM",
+      "step2": "Recibir",
+      "step3": "Activar",
+      "step4": "¡Listo!",
+      "time1_label": "Portabilidad de número",
+      "time1_note": "Excepto domingos, Año Nuevo, Seollal/Chuseok",
+      "time1_value": "10:00 - 20:00",
+      "time2_label": "Nuevo registro",
+      "time2_note": "Sin restricciones de día",
+      "time2_value": "8:00 - 22:00"
+    },
+    "plans": {
+      "discount": "DESC",
+      "unlimited": "Ilimitado"
+    },
+    "process": {
+      "steps": {
+        "step1": {
+          "description": "Pide tu USIM en línea",
+          "title": "Comprar USIM"
+        },
+        "step2": {
+          "description": "Consulta el estado de entrega de tu USIM",
+          "title": "Seguir entrega"
+        },
+        "step3": {
+          "description": "Verifica tu identidad y activa desde la app",
+          "title": "Autoactivar"
+        },
+        "step4": {
+          "description": "¡Activación completada en 5 minutos!",
+          "title": "¡Listo!"
+        }
+      },
+      "subtitle": "Autoactivación simple tanto para USIM como eSIM"
+    },
+    "service-hero-section": {
+      "badge": "GME MOBILE",
+      "cta": "Ver planes",
+      "description": "Servicio móvil económico con la misma calidad que las redes LGU+ y KT. Ahorra en facturas telefónicas con planes desde solo 3.300 ₩/mes.",
+      "title1": "El plan móvil",
+      "title2": "perfecto para ti"
+    }
+  }
+}

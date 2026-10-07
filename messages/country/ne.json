@@ -1,0 +1,2707 @@
+{
+  "country": {
+    "bangladesh": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME एप डाउनलोड गर्नुहोस्"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit क्याल्कुलेटर",
+        "exchangeRateLabel": "विनिमय दर",
+        "receiverGetsLabel": "प्राप्तकर्ताले पाउने रकम",
+        "recipientCountryLabel": "प्राप्तकर्ता देश",
+        "recipientCountryOption": "Bangladesh",
+        "sendAmountLabel": "पठाउने रकम",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "अहिले पैसा पठाउनुहोस्",
+        "transferFeeLabel": "ट्रान्सफर शुल्क"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "BDT",
+        "sampleTag": "नमुना रकम"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. सर्वाधिकार सुरक्षित।",
+        "logoText": "GME",
+        "tagline": "Financial services made for Bangladeshis in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "एप डाउनलोड गर्नुहोस्",
+        "navItems": {
+          "company": "कम्पनी",
+          "countries": "देशहरू",
+          "news": "समाचार",
+          "services": "सेवाहरू",
+          "support": "सहायता"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "अहिले पैसा पठाउनुहोस्",
+        "ctaSecondaryLabel": "सुरु गर्नुहोस्",
+        "eyebrow": "GME Bangladesh",
+        "headingLines": [
+          "घर पैसा पठाउनुहोस्।",
+          "सम्पर्कमा रहनुहोस्।",
+          "सजिलै खर्च गर्नुहोस्।"
+        ],
+        "subheading": "कोरियामा बस्ने Bangladeshis का लागि भरपर्दो सेवाहरू"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit सम्बन्धी बारम्बार सोधिने प्रश्नहरू",
+          "items": [
+            {
+              "answer": [
+                "GME Remit ट्रान्सफर सामान्यतया करिब 10 सेकेन्डमा पूरा हुन्छ। वास्तविक समय प्राप्तकर्ता देश, बैंक वा रकम प्राप्त गर्ने विधिअनुसार फरक हुन सक्छ।"
+              ],
+              "question": "GME Remit मार्फत पैसा पठाउन कति समय लाग्छ?"
+            },
+            {
+              "answer": [
+                "हो। GME Remit कोरियामा इजाजतप्राप्त रेमिट्यान्स सेवा हो र सम्बन्धित वित्तीय निकायहरूको निगरानीमा सञ्चालन हुन्छ। सुरक्षित ग्राहक प्रमाणीकरण र कारोबार प्रक्रिया प्रयोग गरिन्छ।"
+              ],
+              "question": "GME Remit प्रयोग गर्न सुरक्षित छ?"
+            },
+            {
+              "answer": [
+                "GME Remit एप डाउनलोड गर्नुहोस्, खाता बनाउनुहोस् र आवश्यक पहिचान प्रमाणीकरण पूरा गर्नुहोस्। त्यसपछि सेवा प्रयोग गर्न सक्नुहुन्छ।"
+              ],
+              "question": "GME Remit खाता कसरी खोल्ने?"
+            },
+            {
+              "answer": [
+                "GME Remit ले धेरै देशमा अन्तर्राष्ट्रिय पैसा ट्रान्सफर सुविधा प्रदान गर्छ। उपलब्ध गन्तव्य र रकम प्राप्त गर्ने विकल्पहरू एपमा हेर्नुहोस्।"
+              ],
+              "question": "GME Remit मार्फत कुन-कुन देशमा पैसा पठाउन सकिन्छ?"
+            },
+            {
+              "answer": [
+                "ग्राहक सहायता टोली सोमबारदेखि आइतबार 10:00–23:00 उपलब्ध छ। {SUPPORT_PHONE_NUMBER}, GME Remit एप, आधिकारिक सामाजिक सञ्जाल वा कोरियाका GME Remit शाखामार्फत सम्पर्क गर्न सक्नुहुन्छ।"
+              ],
+              "question": "मेरो ट्रान्सफरमा समस्या आए के गर्ने?"
+            }
+          ],
+          "subheading": "GME Remit मार्फत पैसा पठाउनेबारे सामान्य प्रश्नहरूको उत्तर पाउनुहोस्"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Bangladesh सँग जोडिनुहोस्",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "हाम्रो समुदायका लागि समाचार, उपयोगी सुझाव र अपडेटहरू"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME Cards हेर्नुहोस्",
+          "description": "कोरिया र विदेशमा दैनिक जीवनका लागि सजिलो भुक्तानी।",
+          "eyebrow": "GME Card",
+          "features": [
+            "विश्वभर भुक्तानी",
+            "किनमेल",
+            "यातायात",
+            "Cashback",
+            "EasyCare सुविधा"
+          ],
+          "heading": "सबै आवश्यकताका लागि एउटै कार्ड"
+        },
+        "exchangeRate": {
+          "description": "कोरियाबाट Bangladesh पैसा पठाउनुअघि नवीनतम GME Remit विनिमय दर हेर्नुहोस्",
+          "eyebrow": "विनिमय दर",
+          "heading": "आजको विनिमय दर हेर्नुहोस्",
+          "note": "विनिमय दर दिनभर परिवर्तन हुन सक्छ"
+        },
+        "loan": {
+          "ctaLabel": "अहिले आवेदन दिनुहोस्",
+          "description": "कोरियामा बस्ने विदेशीहरूका लागि डिजिटल ऋण सेवा। GME एपमार्फत सजिलै आवेदन दिनुहोस्।",
+          "eyebrow": "GME Loan",
+          "features": [
+            "कागजरहित ऋण आवेदन",
+            "रियल-टाइम ऋण स्थिति जाँच",
+            "रियल-टाइम ऋण बाँकी जाँच"
+          ],
+          "heading": "तपाईंको डिजिटल वित्तीय साझेदार"
+        },
+        "remittance": {
+          "ctaLabel": "अहिले पैसा पठाउनुहोस्",
+          "description": "कोरियाबाट Bangladesh मा रहेका आफ्ना परिवार र प्रियजनहरूलाई सहयोग गर्ने सरल र सुरक्षित तरिका।",
+          "eyebrow": "GME Remit",
+          "features": [
+            "प्रतिस्पर्धी विनिमय दर",
+            "छिटो र भरपर्दो ट्रान्सफर",
+            "पारदर्शी शुल्क",
+            "आवश्यक पर्दा सहयोग"
+          ],
+          "heading": "Bangladesh पैसा पठाउनुहोस्"
+        },
+        "simCard": {
+          "ctaLabel": "SIM योजना हेर्नुहोस्",
+          "description": "कोरियाको जीवनलाई सजिलो बनाउन तयार गरिएका मोबाइल योजनामार्फत महत्त्वपूर्ण मानिसहरूसँग सम्पर्कमा रहनुहोस्।",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "भरपर्दो कनेक्सन",
+            "लचिलो SIM योजना",
+            "सजिलो सेटअप",
+            "मैत्रीपूर्ण स्थानीय सहयोग"
+          ],
+          "heading": "कोरियामा सम्पर्कमा रहनुहोस्"
+        }
+      }
+    },
+    "cambodia": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME एप डाउनलोड गर्नुहोस्"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit क्याल्कुलेटर",
+        "exchangeRateLabel": "विनिमय दर",
+        "receiverGetsLabel": "प्राप्तकर्ताले पाउने रकम",
+        "recipientCountryLabel": "प्राप्तकर्ता देश",
+        "recipientCountryOption": "Cambodia",
+        "sendAmountLabel": "पठाउने रकम",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "अहिले पैसा पठाउनुहोस्",
+        "transferFeeLabel": "ट्रान्सफर शुल्क"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "KHR",
+        "sampleTag": "नमुना रकम"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. सर्वाधिकार सुरक्षित।",
+        "logoText": "GME",
+        "tagline": "Financial services made for Cambodians in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "एप डाउनलोड गर्नुहोस्",
+        "navItems": {
+          "company": "कम्पनी",
+          "countries": "देशहरू",
+          "news": "समाचार",
+          "services": "सेवाहरू",
+          "support": "सहायता"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "अहिले पैसा पठाउनुहोस्",
+        "ctaSecondaryLabel": "सुरु गर्नुहोस्",
+        "eyebrow": "GME Cambodia",
+        "headingLines": [
+          "घर पैसा पठाउनुहोस्।",
+          "सम्पर्कमा रहनुहोस्।",
+          "सजिलै खर्च गर्नुहोस्।"
+        ],
+        "subheading": "कोरियामा बस्ने Cambodians का लागि भरपर्दो सेवाहरू"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit सम्बन्धी बारम्बार सोधिने प्रश्नहरू",
+          "items": [
+            {
+              "answer": [
+                "GME Remit ट्रान्सफर सामान्यतया करिब 10 सेकेन्डमा पूरा हुन्छ। वास्तविक समय प्राप्तकर्ता देश, बैंक वा रकम प्राप्त गर्ने विधिअनुसार फरक हुन सक्छ।"
+              ],
+              "question": "GME Remit मार्फत पैसा पठाउन कति समय लाग्छ?"
+            },
+            {
+              "answer": [
+                "हो। GME Remit कोरियामा इजाजतप्राप्त रेमिट्यान्स सेवा हो र सम्बन्धित वित्तीय निकायहरूको निगरानीमा सञ्चालन हुन्छ। सुरक्षित ग्राहक प्रमाणीकरण र कारोबार प्रक्रिया प्रयोग गरिन्छ।"
+              ],
+              "question": "GME Remit प्रयोग गर्न सुरक्षित छ?"
+            },
+            {
+              "answer": [
+                "GME Remit एप डाउनलोड गर्नुहोस्, खाता बनाउनुहोस् र आवश्यक पहिचान प्रमाणीकरण पूरा गर्नुहोस्। त्यसपछि सेवा प्रयोग गर्न सक्नुहुन्छ।"
+              ],
+              "question": "GME Remit खाता कसरी खोल्ने?"
+            },
+            {
+              "answer": [
+                "GME Remit ले धेरै देशमा अन्तर्राष्ट्रिय पैसा ट्रान्सफर सुविधा प्रदान गर्छ। उपलब्ध गन्तव्य र रकम प्राप्त गर्ने विकल्पहरू एपमा हेर्नुहोस्।"
+              ],
+              "question": "GME Remit मार्फत कुन-कुन देशमा पैसा पठाउन सकिन्छ?"
+            },
+            {
+              "answer": [
+                "ग्राहक सहायता टोली सोमबारदेखि आइतबार 10:00–23:00 उपलब्ध छ। {SUPPORT_PHONE_NUMBER}, GME Remit एप, आधिकारिक सामाजिक सञ्जाल वा कोरियाका GME Remit शाखामार्फत सम्पर्क गर्न सक्नुहुन्छ।"
+              ],
+              "question": "मेरो ट्रान्सफरमा समस्या आए के गर्ने?"
+            }
+          ],
+          "subheading": "GME Remit मार्फत पैसा पठाउनेबारे सामान्य प्रश्नहरूको उत्तर पाउनुहोस्"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Cambodia सँग जोडिनुहोस्",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "हाम्रो समुदायका लागि समाचार, उपयोगी सुझाव र अपडेटहरू"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME Cards हेर्नुहोस्",
+          "description": "कोरिया र विदेशमा दैनिक जीवनका लागि सजिलो भुक्तानी।",
+          "eyebrow": "GME Card",
+          "features": [
+            "विश्वभर भुक्तानी",
+            "किनमेल",
+            "यातायात",
+            "Cashback",
+            "EasyCare सुविधा"
+          ],
+          "heading": "सबै आवश्यकताका लागि एउटै कार्ड"
+        },
+        "exchangeRate": {
+          "description": "कोरियाबाट Cambodia पैसा पठाउनुअघि नवीनतम GME Remit विनिमय दर हेर्नुहोस्",
+          "eyebrow": "विनिमय दर",
+          "heading": "आजको विनिमय दर हेर्नुहोस्",
+          "note": "विनिमय दर दिनभर परिवर्तन हुन सक्छ"
+        },
+        "loan": {
+          "ctaLabel": "अहिले आवेदन दिनुहोस्",
+          "description": "कोरियामा बस्ने विदेशीहरूका लागि डिजिटल ऋण सेवा। GME एपमार्फत सजिलै आवेदन दिनुहोस्।",
+          "eyebrow": "GME Loan",
+          "features": [
+            "कागजरहित ऋण आवेदन",
+            "रियल-टाइम ऋण स्थिति जाँच",
+            "रियल-टाइम ऋण बाँकी जाँच"
+          ],
+          "heading": "तपाईंको डिजिटल वित्तीय साझेदार"
+        },
+        "remittance": {
+          "ctaLabel": "अहिले पैसा पठाउनुहोस्",
+          "description": "कोरियाबाट Cambodia मा रहेका आफ्ना परिवार र प्रियजनहरूलाई सहयोग गर्ने सरल र सुरक्षित तरिका।",
+          "eyebrow": "GME Remit",
+          "features": [
+            "प्रतिस्पर्धी विनिमय दर",
+            "छिटो र भरपर्दो ट्रान्सफर",
+            "पारदर्शी शुल्क",
+            "आवश्यक पर्दा सहयोग"
+          ],
+          "heading": "Cambodia पैसा पठाउनुहोस्"
+        },
+        "simCard": {
+          "ctaLabel": "SIM योजना हेर्नुहोस्",
+          "description": "कोरियाको जीवनलाई सजिलो बनाउन तयार गरिएका मोबाइल योजनामार्फत महत्त्वपूर्ण मानिसहरूसँग सम्पर्कमा रहनुहोस्।",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "भरपर्दो कनेक्सन",
+            "लचिलो SIM योजना",
+            "सजिलो सेटअप",
+            "मैत्रीपूर्ण स्थानीय सहयोग"
+          ],
+          "heading": "कोरियामा सम्पर्कमा रहनुहोस्"
+        }
+      }
+    },
+    "china": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME एप डाउनलोड गर्नुहोस्"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit क्याल्कुलेटर",
+        "exchangeRateLabel": "विनिमय दर",
+        "receiverGetsLabel": "प्राप्तकर्ताले पाउने रकम",
+        "recipientCountryLabel": "प्राप्तकर्ता देश",
+        "recipientCountryOption": "China",
+        "sendAmountLabel": "पठाउने रकम",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "अहिले पैसा पठाउनुहोस्",
+        "transferFeeLabel": "ट्रान्सफर शुल्क"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "CNY",
+        "sampleTag": "नमुना रकम"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. सर्वाधिकार सुरक्षित।",
+        "logoText": "GME",
+        "tagline": "Financial services made for Chinese nationals in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "एप डाउनलोड गर्नुहोस्",
+        "navItems": {
+          "company": "कम्पनी",
+          "countries": "देशहरू",
+          "news": "समाचार",
+          "services": "सेवाहरू",
+          "support": "सहायता"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "अहिले पैसा पठाउनुहोस्",
+        "ctaSecondaryLabel": "सुरु गर्नुहोस्",
+        "eyebrow": "GME China",
+        "headingLines": [
+          "घर पैसा पठाउनुहोस्।",
+          "सम्पर्कमा रहनुहोस्।",
+          "सजिलै खर्च गर्नुहोस्।"
+        ],
+        "subheading": "कोरियामा बस्ने Chinese nationals का लागि भरपर्दो सेवाहरू"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit सम्बन्धी बारम्बार सोधिने प्रश्नहरू",
+          "items": [
+            {
+              "answer": [
+                "GME Remit ट्रान्सफर सामान्यतया करिब 10 सेकेन्डमा पूरा हुन्छ। वास्तविक समय प्राप्तकर्ता देश, बैंक वा रकम प्राप्त गर्ने विधिअनुसार फरक हुन सक्छ।"
+              ],
+              "question": "GME Remit मार्फत पैसा पठाउन कति समय लाग्छ?"
+            },
+            {
+              "answer": [
+                "हो। GME Remit कोरियामा इजाजतप्राप्त रेमिट्यान्स सेवा हो र सम्बन्धित वित्तीय निकायहरूको निगरानीमा सञ्चालन हुन्छ। सुरक्षित ग्राहक प्रमाणीकरण र कारोबार प्रक्रिया प्रयोग गरिन्छ।"
+              ],
+              "question": "GME Remit प्रयोग गर्न सुरक्षित छ?"
+            },
+            {
+              "answer": [
+                "GME Remit एप डाउनलोड गर्नुहोस्, खाता बनाउनुहोस् र आवश्यक पहिचान प्रमाणीकरण पूरा गर्नुहोस्। त्यसपछि सेवा प्रयोग गर्न सक्नुहुन्छ।"
+              ],
+              "question": "GME Remit खाता कसरी खोल्ने?"
+            },
+            {
+              "answer": [
+                "GME Remit ले धेरै देशमा अन्तर्राष्ट्रिय पैसा ट्रान्सफर सुविधा प्रदान गर्छ। उपलब्ध गन्तव्य र रकम प्राप्त गर्ने विकल्पहरू एपमा हेर्नुहोस्।"
+              ],
+              "question": "GME Remit मार्फत कुन-कुन देशमा पैसा पठाउन सकिन्छ?"
+            },
+            {
+              "answer": [
+                "ग्राहक सहायता टोली सोमबारदेखि आइतबार 10:00–23:00 उपलब्ध छ। {SUPPORT_PHONE_NUMBER}, GME Remit एप, आधिकारिक सामाजिक सञ्जाल वा कोरियाका GME Remit शाखामार्फत सम्पर्क गर्न सक्नुहुन्छ।"
+              ],
+              "question": "मेरो ट्रान्सफरमा समस्या आए के गर्ने?"
+            }
+          ],
+          "subheading": "GME Remit मार्फत पैसा पठाउनेबारे सामान्य प्रश्नहरूको उत्तर पाउनुहोस्"
+        }
+      },
+      "social-connect": {
+        "heading": "GME China सँग जोडिनुहोस्",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "हाम्रो समुदायका लागि समाचार, उपयोगी सुझाव र अपडेटहरू"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME Cards हेर्नुहोस्",
+          "description": "कोरिया र विदेशमा दैनिक जीवनका लागि सजिलो भुक्तानी।",
+          "eyebrow": "GME Card",
+          "features": [
+            "विश्वभर भुक्तानी",
+            "किनमेल",
+            "यातायात",
+            "Cashback",
+            "EasyCare सुविधा"
+          ],
+          "heading": "सबै आवश्यकताका लागि एउटै कार्ड"
+        },
+        "exchangeRate": {
+          "description": "कोरियाबाट China पैसा पठाउनुअघि नवीनतम GME Remit विनिमय दर हेर्नुहोस्",
+          "eyebrow": "विनिमय दर",
+          "heading": "आजको विनिमय दर हेर्नुहोस्",
+          "note": "विनिमय दर दिनभर परिवर्तन हुन सक्छ"
+        },
+        "loan": {
+          "ctaLabel": "अहिले आवेदन दिनुहोस्",
+          "description": "कोरियामा बस्ने विदेशीहरूका लागि डिजिटल ऋण सेवा। GME एपमार्फत सजिलै आवेदन दिनुहोस्।",
+          "eyebrow": "GME Loan",
+          "features": [
+            "कागजरहित ऋण आवेदन",
+            "रियल-टाइम ऋण स्थिति जाँच",
+            "रियल-टाइम ऋण बाँकी जाँच"
+          ],
+          "heading": "तपाईंको डिजिटल वित्तीय साझेदार"
+        },
+        "remittance": {
+          "ctaLabel": "अहिले पैसा पठाउनुहोस्",
+          "description": "कोरियाबाट China मा रहेका आफ्ना परिवार र प्रियजनहरूलाई सहयोग गर्ने सरल र सुरक्षित तरिका।",
+          "eyebrow": "GME Remit",
+          "features": [
+            "प्रतिस्पर्धी विनिमय दर",
+            "छिटो र भरपर्दो ट्रान्सफर",
+            "पारदर्शी शुल्क",
+            "आवश्यक पर्दा सहयोग"
+          ],
+          "heading": "China पैसा पठाउनुहोस्"
+        },
+        "simCard": {
+          "ctaLabel": "SIM योजना हेर्नुहोस्",
+          "description": "कोरियाको जीवनलाई सजिलो बनाउन तयार गरिएका मोबाइल योजनामार्फत महत्त्वपूर्ण मानिसहरूसँग सम्पर्कमा रहनुहोस्।",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "भरपर्दो कनेक्सन",
+            "लचिलो SIM योजना",
+            "सजिलो सेटअप",
+            "मैत्रीपूर्ण स्थानीय सहयोग"
+          ],
+          "heading": "कोरियामा सम्पर्कमा रहनुहोस्"
+        }
+      }
+    },
+    "india": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME एप डाउनलोड गर्नुहोस्"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit क्याल्कुलेटर",
+        "exchangeRateLabel": "विनिमय दर",
+        "receiverGetsLabel": "प्राप्तकर्ताले पाउने रकम",
+        "recipientCountryLabel": "प्राप्तकर्ता देश",
+        "recipientCountryOption": "India",
+        "sendAmountLabel": "पठाउने रकम",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "अहिले पैसा पठाउनुहोस्",
+        "transferFeeLabel": "ट्रान्सफर शुल्क"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "INR",
+        "sampleTag": "नमुना रकम"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. सर्वाधिकार सुरक्षित।",
+        "logoText": "GME",
+        "tagline": "Financial services made for Indians in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "एप डाउनलोड गर्नुहोस्",
+        "navItems": {
+          "company": "कम्पनी",
+          "countries": "देशहरू",
+          "news": "समाचार",
+          "services": "सेवाहरू",
+          "support": "सहायता"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "अहिले पैसा पठाउनुहोस्",
+        "ctaSecondaryLabel": "सुरु गर्नुहोस्",
+        "eyebrow": "GME India",
+        "headingLines": [
+          "घर पैसा पठाउनुहोस्।",
+          "सम्पर्कमा रहनुहोस्।",
+          "सजिलै खर्च गर्नुहोस्।"
+        ],
+        "subheading": "कोरियामा बस्ने Indians का लागि भरपर्दो सेवाहरू"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit सम्बन्धी बारम्बार सोधिने प्रश्नहरू",
+          "items": [
+            {
+              "answer": [
+                "GME Remit ट्रान्सफर सामान्यतया करिब 10 सेकेन्डमा पूरा हुन्छ। वास्तविक समय प्राप्तकर्ता देश, बैंक वा रकम प्राप्त गर्ने विधिअनुसार फरक हुन सक्छ।"
+              ],
+              "question": "GME Remit मार्फत पैसा पठाउन कति समय लाग्छ?"
+            },
+            {
+              "answer": [
+                "हो। GME Remit कोरियामा इजाजतप्राप्त रेमिट्यान्स सेवा हो र सम्बन्धित वित्तीय निकायहरूको निगरानीमा सञ्चालन हुन्छ। सुरक्षित ग्राहक प्रमाणीकरण र कारोबार प्रक्रिया प्रयोग गरिन्छ।"
+              ],
+              "question": "GME Remit प्रयोग गर्न सुरक्षित छ?"
+            },
+            {
+              "answer": [
+                "GME Remit एप डाउनलोड गर्नुहोस्, खाता बनाउनुहोस् र आवश्यक पहिचान प्रमाणीकरण पूरा गर्नुहोस्। त्यसपछि सेवा प्रयोग गर्न सक्नुहुन्छ।"
+              ],
+              "question": "GME Remit खाता कसरी खोल्ने?"
+            },
+            {
+              "answer": [
+                "GME Remit ले धेरै देशमा अन्तर्राष्ट्रिय पैसा ट्रान्सफर सुविधा प्रदान गर्छ। उपलब्ध गन्तव्य र रकम प्राप्त गर्ने विकल्पहरू एपमा हेर्नुहोस्।"
+              ],
+              "question": "GME Remit मार्फत कुन-कुन देशमा पैसा पठाउन सकिन्छ?"
+            },
+            {
+              "answer": [
+                "ग्राहक सहायता टोली सोमबारदेखि आइतबार 10:00–23:00 उपलब्ध छ। {SUPPORT_PHONE_NUMBER}, GME Remit एप, आधिकारिक सामाजिक सञ्जाल वा कोरियाका GME Remit शाखामार्फत सम्पर्क गर्न सक्नुहुन्छ।"
+              ],
+              "question": "मेरो ट्रान्सफरमा समस्या आए के गर्ने?"
+            }
+          ],
+          "subheading": "GME Remit मार्फत पैसा पठाउनेबारे सामान्य प्रश्नहरूको उत्तर पाउनुहोस्"
+        }
+      },
+      "social-connect": {
+        "heading": "GME India सँग जोडिनुहोस्",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "हाम्रो समुदायका लागि समाचार, उपयोगी सुझाव र अपडेटहरू"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME Cards हेर्नुहोस्",
+          "description": "कोरिया र विदेशमा दैनिक जीवनका लागि सजिलो भुक्तानी।",
+          "eyebrow": "GME Card",
+          "features": [
+            "विश्वभर भुक्तानी",
+            "किनमेल",
+            "यातायात",
+            "Cashback",
+            "EasyCare सुविधा"
+          ],
+          "heading": "सबै आवश्यकताका लागि एउटै कार्ड"
+        },
+        "exchangeRate": {
+          "description": "कोरियाबाट India पैसा पठाउनुअघि नवीनतम GME Remit विनिमय दर हेर्नुहोस्",
+          "eyebrow": "विनिमय दर",
+          "heading": "आजको विनिमय दर हेर्नुहोस्",
+          "note": "विनिमय दर दिनभर परिवर्तन हुन सक्छ"
+        },
+        "loan": {
+          "ctaLabel": "अहिले आवेदन दिनुहोस्",
+          "description": "कोरियामा बस्ने विदेशीहरूका लागि डिजिटल ऋण सेवा। GME एपमार्फत सजिलै आवेदन दिनुहोस्।",
+          "eyebrow": "GME Loan",
+          "features": [
+            "कागजरहित ऋण आवेदन",
+            "रियल-टाइम ऋण स्थिति जाँच",
+            "रियल-टाइम ऋण बाँकी जाँच"
+          ],
+          "heading": "तपाईंको डिजिटल वित्तीय साझेदार"
+        },
+        "remittance": {
+          "ctaLabel": "अहिले पैसा पठाउनुहोस्",
+          "description": "कोरियाबाट India मा रहेका आफ्ना परिवार र प्रियजनहरूलाई सहयोग गर्ने सरल र सुरक्षित तरिका।",
+          "eyebrow": "GME Remit",
+          "features": [
+            "प्रतिस्पर्धी विनिमय दर",
+            "छिटो र भरपर्दो ट्रान्सफर",
+            "पारदर्शी शुल्क",
+            "आवश्यक पर्दा सहयोग"
+          ],
+          "heading": "India पैसा पठाउनुहोस्"
+        },
+        "simCard": {
+          "ctaLabel": "SIM योजना हेर्नुहोस्",
+          "description": "कोरियाको जीवनलाई सजिलो बनाउन तयार गरिएका मोबाइल योजनामार्फत महत्त्वपूर्ण मानिसहरूसँग सम्पर्कमा रहनुहोस्।",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "भरपर्दो कनेक्सन",
+            "लचिलो SIM योजना",
+            "सजिलो सेटअप",
+            "मैत्रीपूर्ण स्थानीय सहयोग"
+          ],
+          "heading": "कोरियामा सम्पर्कमा रहनुहोस्"
+        }
+      }
+    },
+    "indonesia": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME एप डाउनलोड गर्नुहोस्"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit क्याल्कुलेटर",
+        "exchangeRateLabel": "विनिमय दर",
+        "receiverGetsLabel": "प्राप्तकर्ताले पाउने रकम",
+        "recipientCountryLabel": "प्राप्तकर्ता देश",
+        "recipientCountryOption": "Indonesia",
+        "sendAmountLabel": "पठाउने रकम",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "अहिले पैसा पठाउनुहोस्",
+        "transferFeeLabel": "ट्रान्सफर शुल्क"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "IDR",
+        "sampleTag": "नमुना रकम"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. सर्वाधिकार सुरक्षित।",
+        "logoText": "GME",
+        "tagline": "Financial services made for Indonesians in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "एप डाउनलोड गर्नुहोस्",
+        "navItems": {
+          "company": "कम्पनी",
+          "countries": "देशहरू",
+          "news": "समाचार",
+          "services": "सेवाहरू",
+          "support": "सहायता"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "अहिले पैसा पठाउनुहोस्",
+        "ctaSecondaryLabel": "सुरु गर्नुहोस्",
+        "eyebrow": "GME Indonesia",
+        "headingLines": [
+          "घर पैसा पठाउनुहोस्।",
+          "सम्पर्कमा रहनुहोस्।",
+          "सजिलै खर्च गर्नुहोस्।"
+        ],
+        "subheading": "कोरियामा बस्ने Indonesians का लागि भरपर्दो सेवाहरू"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit सम्बन्धी बारम्बार सोधिने प्रश्नहरू",
+          "items": [
+            {
+              "answer": [
+                "GME Remit ट्रान्सफर सामान्यतया करिब 10 सेकेन्डमा पूरा हुन्छ। वास्तविक समय प्राप्तकर्ता देश, बैंक वा रकम प्राप्त गर्ने विधिअनुसार फरक हुन सक्छ।"
+              ],
+              "question": "GME Remit मार्फत पैसा पठाउन कति समय लाग्छ?"
+            },
+            {
+              "answer": [
+                "हो। GME Remit कोरियामा इजाजतप्राप्त रेमिट्यान्स सेवा हो र सम्बन्धित वित्तीय निकायहरूको निगरानीमा सञ्चालन हुन्छ। सुरक्षित ग्राहक प्रमाणीकरण र कारोबार प्रक्रिया प्रयोग गरिन्छ।"
+              ],
+              "question": "GME Remit प्रयोग गर्न सुरक्षित छ?"
+            },
+            {
+              "answer": [
+                "GME Remit एप डाउनलोड गर्नुहोस्, खाता बनाउनुहोस् र आवश्यक पहिचान प्रमाणीकरण पूरा गर्नुहोस्। त्यसपछि सेवा प्रयोग गर्न सक्नुहुन्छ।"
+              ],
+              "question": "GME Remit खाता कसरी खोल्ने?"
+            },
+            {
+              "answer": [
+                "GME Remit ले धेरै देशमा अन्तर्राष्ट्रिय पैसा ट्रान्सफर सुविधा प्रदान गर्छ। उपलब्ध गन्तव्य र रकम प्राप्त गर्ने विकल्पहरू एपमा हेर्नुहोस्।"
+              ],
+              "question": "GME Remit मार्फत कुन-कुन देशमा पैसा पठाउन सकिन्छ?"
+            },
+            {
+              "answer": [
+                "ग्राहक सहायता टोली सोमबारदेखि आइतबार 10:00–23:00 उपलब्ध छ। {SUPPORT_PHONE_NUMBER}, GME Remit एप, आधिकारिक सामाजिक सञ्जाल वा कोरियाका GME Remit शाखामार्फत सम्पर्क गर्न सक्नुहुन्छ।"
+              ],
+              "question": "मेरो ट्रान्सफरमा समस्या आए के गर्ने?"
+            }
+          ],
+          "subheading": "GME Remit मार्फत पैसा पठाउनेबारे सामान्य प्रश्नहरूको उत्तर पाउनुहोस्"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Indonesia सँग जोडिनुहोस्",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "हाम्रो समुदायका लागि समाचार, उपयोगी सुझाव र अपडेटहरू"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME Cards हेर्नुहोस्",
+          "description": "कोरिया र विदेशमा दैनिक जीवनका लागि सजिलो भुक्तानी।",
+          "eyebrow": "GME Card",
+          "features": [
+            "विश्वभर भुक्तानी",
+            "किनमेल",
+            "यातायात",
+            "Cashback",
+            "EasyCare सुविधा"
+          ],
+          "heading": "सबै आवश्यकताका लागि एउटै कार्ड"
+        },
+        "exchangeRate": {
+          "description": "कोरियाबाट Indonesia पैसा पठाउनुअघि नवीनतम GME Remit विनिमय दर हेर्नुहोस्",
+          "eyebrow": "विनिमय दर",
+          "heading": "आजको विनिमय दर हेर्नुहोस्",
+          "note": "विनिमय दर दिनभर परिवर्तन हुन सक्छ"
+        },
+        "loan": {
+          "ctaLabel": "अहिले आवेदन दिनुहोस्",
+          "description": "कोरियामा बस्ने विदेशीहरूका लागि डिजिटल ऋण सेवा। GME एपमार्फत सजिलै आवेदन दिनुहोस्।",
+          "eyebrow": "GME Loan",
+          "features": [
+            "कागजरहित ऋण आवेदन",
+            "रियल-टाइम ऋण स्थिति जाँच",
+            "रियल-टाइम ऋण बाँकी जाँच"
+          ],
+          "heading": "तपाईंको डिजिटल वित्तीय साझेदार"
+        },
+        "remittance": {
+          "ctaLabel": "अहिले पैसा पठाउनुहोस्",
+          "description": "कोरियाबाट Indonesia मा रहेका आफ्ना परिवार र प्रियजनहरूलाई सहयोग गर्ने सरल र सुरक्षित तरिका।",
+          "eyebrow": "GME Remit",
+          "features": [
+            "प्रतिस्पर्धी विनिमय दर",
+            "छिटो र भरपर्दो ट्रान्सफर",
+            "पारदर्शी शुल्क",
+            "आवश्यक पर्दा सहयोग"
+          ],
+          "heading": "Indonesia पैसा पठाउनुहोस्"
+        },
+        "simCard": {
+          "ctaLabel": "SIM योजना हेर्नुहोस्",
+          "description": "कोरियाको जीवनलाई सजिलो बनाउन तयार गरिएका मोबाइल योजनामार्फत महत्त्वपूर्ण मानिसहरूसँग सम्पर्कमा रहनुहोस्।",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "भरपर्दो कनेक्सन",
+            "लचिलो SIM योजना",
+            "सजिलो सेटअप",
+            "मैत्रीपूर्ण स्थानीय सहयोग"
+          ],
+          "heading": "कोरियामा सम्पर्कमा रहनुहोस्"
+        }
+      }
+    },
+    "kazakhstan": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME एप डाउनलोड गर्नुहोस्"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit क्याल्कुलेटर",
+        "exchangeRateLabel": "विनिमय दर",
+        "receiverGetsLabel": "प्राप्तकर्ताले पाउने रकम",
+        "recipientCountryLabel": "प्राप्तकर्ता देश",
+        "recipientCountryOption": "Kazakhstan",
+        "sendAmountLabel": "पठाउने रकम",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "अहिले पैसा पठाउनुहोस्",
+        "transferFeeLabel": "ट्रान्सफर शुल्क"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "KZT",
+        "sampleTag": "नमुना रकम"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. सर्वाधिकार सुरक्षित।",
+        "logoText": "GME",
+        "tagline": "Financial services made for Kazakhstanis in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "एप डाउनलोड गर्नुहोस्",
+        "navItems": {
+          "company": "कम्पनी",
+          "countries": "देशहरू",
+          "news": "समाचार",
+          "services": "सेवाहरू",
+          "support": "सहायता"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "अहिले पैसा पठाउनुहोस्",
+        "ctaSecondaryLabel": "सुरु गर्नुहोस्",
+        "eyebrow": "GME Kazakhstan",
+        "headingLines": [
+          "घर पैसा पठाउनुहोस्।",
+          "सम्पर्कमा रहनुहोस्।",
+          "सजिलै खर्च गर्नुहोस्।"
+        ],
+        "subheading": "कोरियामा बस्ने Kazakhstanis का लागि भरपर्दो सेवाहरू"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit सम्बन्धी बारम्बार सोधिने प्रश्नहरू",
+          "items": [
+            {
+              "answer": [
+                "GME Remit ट्रान्सफर सामान्यतया करिब 10 सेकेन्डमा पूरा हुन्छ। वास्तविक समय प्राप्तकर्ता देश, बैंक वा रकम प्राप्त गर्ने विधिअनुसार फरक हुन सक्छ।"
+              ],
+              "question": "GME Remit मार्फत पैसा पठाउन कति समय लाग्छ?"
+            },
+            {
+              "answer": [
+                "हो। GME Remit कोरियामा इजाजतप्राप्त रेमिट्यान्स सेवा हो र सम्बन्धित वित्तीय निकायहरूको निगरानीमा सञ्चालन हुन्छ। सुरक्षित ग्राहक प्रमाणीकरण र कारोबार प्रक्रिया प्रयोग गरिन्छ।"
+              ],
+              "question": "GME Remit प्रयोग गर्न सुरक्षित छ?"
+            },
+            {
+              "answer": [
+                "GME Remit एप डाउनलोड गर्नुहोस्, खाता बनाउनुहोस् र आवश्यक पहिचान प्रमाणीकरण पूरा गर्नुहोस्। त्यसपछि सेवा प्रयोग गर्न सक्नुहुन्छ।"
+              ],
+              "question": "GME Remit खाता कसरी खोल्ने?"
+            },
+            {
+              "answer": [
+                "GME Remit ले धेरै देशमा अन्तर्राष्ट्रिय पैसा ट्रान्सफर सुविधा प्रदान गर्छ। उपलब्ध गन्तव्य र रकम प्राप्त गर्ने विकल्पहरू एपमा हेर्नुहोस्।"
+              ],
+              "question": "GME Remit मार्फत कुन-कुन देशमा पैसा पठाउन सकिन्छ?"
+            },
+            {
+              "answer": [
+                "ग्राहक सहायता टोली सोमबारदेखि आइतबार 10:00–23:00 उपलब्ध छ। {SUPPORT_PHONE_NUMBER}, GME Remit एप, आधिकारिक सामाजिक सञ्जाल वा कोरियाका GME Remit शाखामार्फत सम्पर्क गर्न सक्नुहुन्छ।"
+              ],
+              "question": "मेरो ट्रान्सफरमा समस्या आए के गर्ने?"
+            }
+          ],
+          "subheading": "GME Remit मार्फत पैसा पठाउनेबारे सामान्य प्रश्नहरूको उत्तर पाउनुहोस्"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Kazakhstan सँग जोडिनुहोस्",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "हाम्रो समुदायका लागि समाचार, उपयोगी सुझाव र अपडेटहरू"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME Cards हेर्नुहोस्",
+          "description": "कोरिया र विदेशमा दैनिक जीवनका लागि सजिलो भुक्तानी।",
+          "eyebrow": "GME Card",
+          "features": [
+            "विश्वभर भुक्तानी",
+            "किनमेल",
+            "यातायात",
+            "Cashback",
+            "EasyCare सुविधा"
+          ],
+          "heading": "सबै आवश्यकताका लागि एउटै कार्ड"
+        },
+        "exchangeRate": {
+          "description": "कोरियाबाट Kazakhstan पैसा पठाउनुअघि नवीनतम GME Remit विनिमय दर हेर्नुहोस्",
+          "eyebrow": "विनिमय दर",
+          "heading": "आजको विनिमय दर हेर्नुहोस्",
+          "note": "विनिमय दर दिनभर परिवर्तन हुन सक्छ"
+        },
+        "loan": {
+          "ctaLabel": "अहिले आवेदन दिनुहोस्",
+          "description": "कोरियामा बस्ने विदेशीहरूका लागि डिजिटल ऋण सेवा। GME एपमार्फत सजिलै आवेदन दिनुहोस्।",
+          "eyebrow": "GME Loan",
+          "features": [
+            "कागजरहित ऋण आवेदन",
+            "रियल-टाइम ऋण स्थिति जाँच",
+            "रियल-टाइम ऋण बाँकी जाँच"
+          ],
+          "heading": "तपाईंको डिजिटल वित्तीय साझेदार"
+        },
+        "remittance": {
+          "ctaLabel": "अहिले पैसा पठाउनुहोस्",
+          "description": "कोरियाबाट Kazakhstan मा रहेका आफ्ना परिवार र प्रियजनहरूलाई सहयोग गर्ने सरल र सुरक्षित तरिका।",
+          "eyebrow": "GME Remit",
+          "features": [
+            "प्रतिस्पर्धी विनिमय दर",
+            "छिटो र भरपर्दो ट्रान्सफर",
+            "पारदर्शी शुल्क",
+            "आवश्यक पर्दा सहयोग"
+          ],
+          "heading": "Kazakhstan पैसा पठाउनुहोस्"
+        },
+        "simCard": {
+          "ctaLabel": "SIM योजना हेर्नुहोस्",
+          "description": "कोरियाको जीवनलाई सजिलो बनाउन तयार गरिएका मोबाइल योजनामार्फत महत्त्वपूर्ण मानिसहरूसँग सम्पर्कमा रहनुहोस्।",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "भरपर्दो कनेक्सन",
+            "लचिलो SIM योजना",
+            "सजिलो सेटअप",
+            "मैत्रीपूर्ण स्थानीय सहयोग"
+          ],
+          "heading": "कोरियामा सम्पर्कमा रहनुहोस्"
+        }
+      }
+    },
+    "kyrgyzstan": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME एप डाउनलोड गर्नुहोस्"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit क्याल्कुलेटर",
+        "exchangeRateLabel": "विनिमय दर",
+        "receiverGetsLabel": "प्राप्तकर्ताले पाउने रकम",
+        "recipientCountryLabel": "प्राप्तकर्ता देश",
+        "recipientCountryOption": "Kyrgyzstan",
+        "sendAmountLabel": "पठाउने रकम",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "अहिले पैसा पठाउनुहोस्",
+        "transferFeeLabel": "ट्रान्सफर शुल्क"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "KGS",
+        "sampleTag": "नमुना रकम"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. सर्वाधिकार सुरक्षित।",
+        "logoText": "GME",
+        "tagline": "Financial services made for Kyrgyzstanis in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "एप डाउनलोड गर्नुहोस्",
+        "navItems": {
+          "company": "कम्पनी",
+          "countries": "देशहरू",
+          "news": "समाचार",
+          "services": "सेवाहरू",
+          "support": "सहायता"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "अहिले पैसा पठाउनुहोस्",
+        "ctaSecondaryLabel": "सुरु गर्नुहोस्",
+        "eyebrow": "GME Kyrgyzstan",
+        "headingLines": [
+          "घर पैसा पठाउनुहोस्।",
+          "सम्पर्कमा रहनुहोस्।",
+          "सजिलै खर्च गर्नुहोस्।"
+        ],
+        "subheading": "कोरियामा बस्ने Kyrgyzstanis का लागि भरपर्दो सेवाहरू"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit सम्बन्धी बारम्बार सोधिने प्रश्नहरू",
+          "items": [
+            {
+              "answer": [
+                "GME Remit ट्रान्सफर सामान्यतया करिब 10 सेकेन्डमा पूरा हुन्छ। वास्तविक समय प्राप्तकर्ता देश, बैंक वा रकम प्राप्त गर्ने विधिअनुसार फरक हुन सक्छ।"
+              ],
+              "question": "GME Remit मार्फत पैसा पठाउन कति समय लाग्छ?"
+            },
+            {
+              "answer": [
+                "हो। GME Remit कोरियामा इजाजतप्राप्त रेमिट्यान्स सेवा हो र सम्बन्धित वित्तीय निकायहरूको निगरानीमा सञ्चालन हुन्छ। सुरक्षित ग्राहक प्रमाणीकरण र कारोबार प्रक्रिया प्रयोग गरिन्छ।"
+              ],
+              "question": "GME Remit प्रयोग गर्न सुरक्षित छ?"
+            },
+            {
+              "answer": [
+                "GME Remit एप डाउनलोड गर्नुहोस्, खाता बनाउनुहोस् र आवश्यक पहिचान प्रमाणीकरण पूरा गर्नुहोस्। त्यसपछि सेवा प्रयोग गर्न सक्नुहुन्छ।"
+              ],
+              "question": "GME Remit खाता कसरी खोल्ने?"
+            },
+            {
+              "answer": [
+                "GME Remit ले धेरै देशमा अन्तर्राष्ट्रिय पैसा ट्रान्सफर सुविधा प्रदान गर्छ। उपलब्ध गन्तव्य र रकम प्राप्त गर्ने विकल्पहरू एपमा हेर्नुहोस्।"
+              ],
+              "question": "GME Remit मार्फत कुन-कुन देशमा पैसा पठाउन सकिन्छ?"
+            },
+            {
+              "answer": [
+                "ग्राहक सहायता टोली सोमबारदेखि आइतबार 10:00–23:00 उपलब्ध छ। {SUPPORT_PHONE_NUMBER}, GME Remit एप, आधिकारिक सामाजिक सञ्जाल वा कोरियाका GME Remit शाखामार्फत सम्पर्क गर्न सक्नुहुन्छ।"
+              ],
+              "question": "मेरो ट्रान्सफरमा समस्या आए के गर्ने?"
+            }
+          ],
+          "subheading": "GME Remit मार्फत पैसा पठाउनेबारे सामान्य प्रश्नहरूको उत्तर पाउनुहोस्"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Kyrgyzstan सँग जोडिनुहोस्",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "हाम्रो समुदायका लागि समाचार, उपयोगी सुझाव र अपडेटहरू"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME Cards हेर्नुहोस्",
+          "description": "कोरिया र विदेशमा दैनिक जीवनका लागि सजिलो भुक्तानी।",
+          "eyebrow": "GME Card",
+          "features": [
+            "विश्वभर भुक्तानी",
+            "किनमेल",
+            "यातायात",
+            "Cashback",
+            "EasyCare सुविधा"
+          ],
+          "heading": "सबै आवश्यकताका लागि एउटै कार्ड"
+        },
+        "exchangeRate": {
+          "description": "कोरियाबाट Kyrgyzstan पैसा पठाउनुअघि नवीनतम GME Remit विनिमय दर हेर्नुहोस्",
+          "eyebrow": "विनिमय दर",
+          "heading": "आजको विनिमय दर हेर्नुहोस्",
+          "note": "विनिमय दर दिनभर परिवर्तन हुन सक्छ"
+        },
+        "loan": {
+          "ctaLabel": "अहिले आवेदन दिनुहोस्",
+          "description": "कोरियामा बस्ने विदेशीहरूका लागि डिजिटल ऋण सेवा। GME एपमार्फत सजिलै आवेदन दिनुहोस्।",
+          "eyebrow": "GME Loan",
+          "features": [
+            "कागजरहित ऋण आवेदन",
+            "रियल-टाइम ऋण स्थिति जाँच",
+            "रियल-टाइम ऋण बाँकी जाँच"
+          ],
+          "heading": "तपाईंको डिजिटल वित्तीय साझेदार"
+        },
+        "remittance": {
+          "ctaLabel": "अहिले पैसा पठाउनुहोस्",
+          "description": "कोरियाबाट Kyrgyzstan मा रहेका आफ्ना परिवार र प्रियजनहरूलाई सहयोग गर्ने सरल र सुरक्षित तरिका।",
+          "eyebrow": "GME Remit",
+          "features": [
+            "प्रतिस्पर्धी विनिमय दर",
+            "छिटो र भरपर्दो ट्रान्सफर",
+            "पारदर्शी शुल्क",
+            "आवश्यक पर्दा सहयोग"
+          ],
+          "heading": "Kyrgyzstan पैसा पठाउनुहोस्"
+        },
+        "simCard": {
+          "ctaLabel": "SIM योजना हेर्नुहोस्",
+          "description": "कोरियाको जीवनलाई सजिलो बनाउन तयार गरिएका मोबाइल योजनामार्फत महत्त्वपूर्ण मानिसहरूसँग सम्पर्कमा रहनुहोस्।",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "भरपर्दो कनेक्सन",
+            "लचिलो SIM योजना",
+            "सजिलो सेटअप",
+            "मैत्रीपूर्ण स्थानीय सहयोग"
+          ],
+          "heading": "कोरियामा सम्पर्कमा रहनुहोस्"
+        }
+      }
+    },
+    "laos": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME एप डाउनलोड गर्नुहोस्"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit क्याल्कुलेटर",
+        "exchangeRateLabel": "विनिमय दर",
+        "receiverGetsLabel": "प्राप्तकर्ताले पाउने रकम",
+        "recipientCountryLabel": "प्राप्तकर्ता देश",
+        "recipientCountryOption": "Laos",
+        "sendAmountLabel": "पठाउने रकम",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "अहिले पैसा पठाउनुहोस्",
+        "transferFeeLabel": "ट्रान्सफर शुल्क"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "LAK",
+        "sampleTag": "नमुना रकम"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. सर्वाधिकार सुरक्षित।",
+        "logoText": "GME",
+        "tagline": "Financial services made for Laotians in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "एप डाउनलोड गर्नुहोस्",
+        "navItems": {
+          "company": "कम्पनी",
+          "countries": "देशहरू",
+          "news": "समाचार",
+          "services": "सेवाहरू",
+          "support": "सहायता"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "अहिले पैसा पठाउनुहोस्",
+        "ctaSecondaryLabel": "सुरु गर्नुहोस्",
+        "eyebrow": "GME Laos",
+        "headingLines": [
+          "घर पैसा पठाउनुहोस्।",
+          "सम्पर्कमा रहनुहोस्।",
+          "सजिलै खर्च गर्नुहोस्।"
+        ],
+        "subheading": "कोरियामा बस्ने Laotians का लागि भरपर्दो सेवाहरू"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit सम्बन्धी बारम्बार सोधिने प्रश्नहरू",
+          "items": [
+            {
+              "answer": [
+                "GME Remit ट्रान्सफर सामान्यतया करिब 10 सेकेन्डमा पूरा हुन्छ। वास्तविक समय प्राप्तकर्ता देश, बैंक वा रकम प्राप्त गर्ने विधिअनुसार फरक हुन सक्छ।"
+              ],
+              "question": "GME Remit मार्फत पैसा पठाउन कति समय लाग्छ?"
+            },
+            {
+              "answer": [
+                "हो। GME Remit कोरियामा इजाजतप्राप्त रेमिट्यान्स सेवा हो र सम्बन्धित वित्तीय निकायहरूको निगरानीमा सञ्चालन हुन्छ। सुरक्षित ग्राहक प्रमाणीकरण र कारोबार प्रक्रिया प्रयोग गरिन्छ।"
+              ],
+              "question": "GME Remit प्रयोग गर्न सुरक्षित छ?"
+            },
+            {
+              "answer": [
+                "GME Remit एप डाउनलोड गर्नुहोस्, खाता बनाउनुहोस् र आवश्यक पहिचान प्रमाणीकरण पूरा गर्नुहोस्। त्यसपछि सेवा प्रयोग गर्न सक्नुहुन्छ।"
+              ],
+              "question": "GME Remit खाता कसरी खोल्ने?"
+            },
+            {
+              "answer": [
+                "GME Remit ले धेरै देशमा अन्तर्राष्ट्रिय पैसा ट्रान्सफर सुविधा प्रदान गर्छ। उपलब्ध गन्तव्य र रकम प्राप्त गर्ने विकल्पहरू एपमा हेर्नुहोस्।"
+              ],
+              "question": "GME Remit मार्फत कुन-कुन देशमा पैसा पठाउन सकिन्छ?"
+            },
+            {
+              "answer": [
+                "ग्राहक सहायता टोली सोमबारदेखि आइतबार 10:00–23:00 उपलब्ध छ। {SUPPORT_PHONE_NUMBER}, GME Remit एप, आधिकारिक सामाजिक सञ्जाल वा कोरियाका GME Remit शाखामार्फत सम्पर्क गर्न सक्नुहुन्छ।"
+              ],
+              "question": "मेरो ट्रान्सफरमा समस्या आए के गर्ने?"
+            }
+          ],
+          "subheading": "GME Remit मार्फत पैसा पठाउनेबारे सामान्य प्रश्नहरूको उत्तर पाउनुहोस्"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Laos सँग जोडिनुहोस्",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "हाम्रो समुदायका लागि समाचार, उपयोगी सुझाव र अपडेटहरू"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME Cards हेर्नुहोस्",
+          "description": "कोरिया र विदेशमा दैनिक जीवनका लागि सजिलो भुक्तानी।",
+          "eyebrow": "GME Card",
+          "features": [
+            "विश्वभर भुक्तानी",
+            "किनमेल",
+            "यातायात",
+            "Cashback",
+            "EasyCare सुविधा"
+          ],
+          "heading": "सबै आवश्यकताका लागि एउटै कार्ड"
+        },
+        "exchangeRate": {
+          "description": "कोरियाबाट Laos पैसा पठाउनुअघि नवीनतम GME Remit विनिमय दर हेर्नुहोस्",
+          "eyebrow": "विनिमय दर",
+          "heading": "आजको विनिमय दर हेर्नुहोस्",
+          "note": "विनिमय दर दिनभर परिवर्तन हुन सक्छ"
+        },
+        "loan": {
+          "ctaLabel": "अहिले आवेदन दिनुहोस्",
+          "description": "कोरियामा बस्ने विदेशीहरूका लागि डिजिटल ऋण सेवा। GME एपमार्फत सजिलै आवेदन दिनुहोस्।",
+          "eyebrow": "GME Loan",
+          "features": [
+            "कागजरहित ऋण आवेदन",
+            "रियल-टाइम ऋण स्थिति जाँच",
+            "रियल-टाइम ऋण बाँकी जाँच"
+          ],
+          "heading": "तपाईंको डिजिटल वित्तीय साझेदार"
+        },
+        "remittance": {
+          "ctaLabel": "अहिले पैसा पठाउनुहोस्",
+          "description": "कोरियाबाट Laos मा रहेका आफ्ना परिवार र प्रियजनहरूलाई सहयोग गर्ने सरल र सुरक्षित तरिका।",
+          "eyebrow": "GME Remit",
+          "features": [
+            "प्रतिस्पर्धी विनिमय दर",
+            "छिटो र भरपर्दो ट्रान्सफर",
+            "पारदर्शी शुल्क",
+            "आवश्यक पर्दा सहयोग"
+          ],
+          "heading": "Laos पैसा पठाउनुहोस्"
+        },
+        "simCard": {
+          "ctaLabel": "SIM योजना हेर्नुहोस्",
+          "description": "कोरियाको जीवनलाई सजिलो बनाउन तयार गरिएका मोबाइल योजनामार्फत महत्त्वपूर्ण मानिसहरूसँग सम्पर्कमा रहनुहोस्।",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "भरपर्दो कनेक्सन",
+            "लचिलो SIM योजना",
+            "सजिलो सेटअप",
+            "मैत्रीपूर्ण स्थानीय सहयोग"
+          ],
+          "heading": "कोरियामा सम्पर्कमा रहनुहोस्"
+        }
+      }
+    },
+    "mongolia": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME एप डाउनलोड गर्नुहोस्"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit क्याल्कुलेटर",
+        "exchangeRateLabel": "विनिमय दर",
+        "receiverGetsLabel": "प्राप्तकर्ताले पाउने रकम",
+        "recipientCountryLabel": "प्राप्तकर्ता देश",
+        "recipientCountryOption": "Mongolia",
+        "sendAmountLabel": "पठाउने रकम",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "अहिले पैसा पठाउनुहोस्",
+        "transferFeeLabel": "ट्रान्सफर शुल्क"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "MNT",
+        "sampleTag": "नमुना रकम"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. सर्वाधिकार सुरक्षित।",
+        "logoText": "GME",
+        "tagline": "Financial services made for Mongolians in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "एप डाउनलोड गर्नुहोस्",
+        "navItems": {
+          "company": "कम्पनी",
+          "countries": "देशहरू",
+          "news": "समाचार",
+          "services": "सेवाहरू",
+          "support": "सहायता"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "अहिले पैसा पठाउनुहोस्",
+        "ctaSecondaryLabel": "सुरु गर्नुहोस्",
+        "eyebrow": "GME Mongolia",
+        "headingLines": [
+          "घर पैसा पठाउनुहोस्।",
+          "सम्पर्कमा रहनुहोस्।",
+          "सजिलै खर्च गर्नुहोस्।"
+        ],
+        "subheading": "कोरियामा बस्ने Mongolians का लागि भरपर्दो सेवाहरू"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit सम्बन्धी बारम्बार सोधिने प्रश्नहरू",
+          "items": [
+            {
+              "answer": [
+                "GME Remit ट्रान्सफर सामान्यतया करिब 10 सेकेन्डमा पूरा हुन्छ। वास्तविक समय प्राप्तकर्ता देश, बैंक वा रकम प्राप्त गर्ने विधिअनुसार फरक हुन सक्छ।"
+              ],
+              "question": "GME Remit मार्फत पैसा पठाउन कति समय लाग्छ?"
+            },
+            {
+              "answer": [
+                "हो। GME Remit कोरियामा इजाजतप्राप्त रेमिट्यान्स सेवा हो र सम्बन्धित वित्तीय निकायहरूको निगरानीमा सञ्चालन हुन्छ। सुरक्षित ग्राहक प्रमाणीकरण र कारोबार प्रक्रिया प्रयोग गरिन्छ।"
+              ],
+              "question": "GME Remit प्रयोग गर्न सुरक्षित छ?"
+            },
+            {
+              "answer": [
+                "GME Remit एप डाउनलोड गर्नुहोस्, खाता बनाउनुहोस् र आवश्यक पहिचान प्रमाणीकरण पूरा गर्नुहोस्। त्यसपछि सेवा प्रयोग गर्न सक्नुहुन्छ।"
+              ],
+              "question": "GME Remit खाता कसरी खोल्ने?"
+            },
+            {
+              "answer": [
+                "GME Remit ले धेरै देशमा अन्तर्राष्ट्रिय पैसा ट्रान्सफर सुविधा प्रदान गर्छ। उपलब्ध गन्तव्य र रकम प्राप्त गर्ने विकल्पहरू एपमा हेर्नुहोस्।"
+              ],
+              "question": "GME Remit मार्फत कुन-कुन देशमा पैसा पठाउन सकिन्छ?"
+            },
+            {
+              "answer": [
+                "ग्राहक सहायता टोली सोमबारदेखि आइतबार 10:00–23:00 उपलब्ध छ। {SUPPORT_PHONE_NUMBER}, GME Remit एप, आधिकारिक सामाजिक सञ्जाल वा कोरियाका GME Remit शाखामार्फत सम्पर्क गर्न सक्नुहुन्छ।"
+              ],
+              "question": "मेरो ट्रान्सफरमा समस्या आए के गर्ने?"
+            }
+          ],
+          "subheading": "GME Remit मार्फत पैसा पठाउनेबारे सामान्य प्रश्नहरूको उत्तर पाउनुहोस्"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Mongolia सँग जोडिनुहोस्",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "हाम्रो समुदायका लागि समाचार, उपयोगी सुझाव र अपडेटहरू"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME Cards हेर्नुहोस्",
+          "description": "कोरिया र विदेशमा दैनिक जीवनका लागि सजिलो भुक्तानी।",
+          "eyebrow": "GME Card",
+          "features": [
+            "विश्वभर भुक्तानी",
+            "किनमेल",
+            "यातायात",
+            "Cashback",
+            "EasyCare सुविधा"
+          ],
+          "heading": "सबै आवश्यकताका लागि एउटै कार्ड"
+        },
+        "exchangeRate": {
+          "description": "कोरियाबाट Mongolia पैसा पठाउनुअघि नवीनतम GME Remit विनिमय दर हेर्नुहोस्",
+          "eyebrow": "विनिमय दर",
+          "heading": "आजको विनिमय दर हेर्नुहोस्",
+          "note": "विनिमय दर दिनभर परिवर्तन हुन सक्छ"
+        },
+        "loan": {
+          "ctaLabel": "अहिले आवेदन दिनुहोस्",
+          "description": "कोरियामा बस्ने विदेशीहरूका लागि डिजिटल ऋण सेवा। GME एपमार्फत सजिलै आवेदन दिनुहोस्।",
+          "eyebrow": "GME Loan",
+          "features": [
+            "कागजरहित ऋण आवेदन",
+            "रियल-टाइम ऋण स्थिति जाँच",
+            "रियल-टाइम ऋण बाँकी जाँच"
+          ],
+          "heading": "तपाईंको डिजिटल वित्तीय साझेदार"
+        },
+        "remittance": {
+          "ctaLabel": "अहिले पैसा पठाउनुहोस्",
+          "description": "कोरियाबाट Mongolia मा रहेका आफ्ना परिवार र प्रियजनहरूलाई सहयोग गर्ने सरल र सुरक्षित तरिका।",
+          "eyebrow": "GME Remit",
+          "features": [
+            "प्रतिस्पर्धी विनिमय दर",
+            "छिटो र भरपर्दो ट्रान्सफर",
+            "पारदर्शी शुल्क",
+            "आवश्यक पर्दा सहयोग"
+          ],
+          "heading": "Mongolia पैसा पठाउनुहोस्"
+        },
+        "simCard": {
+          "ctaLabel": "SIM योजना हेर्नुहोस्",
+          "description": "कोरियाको जीवनलाई सजिलो बनाउन तयार गरिएका मोबाइल योजनामार्फत महत्त्वपूर्ण मानिसहरूसँग सम्पर्कमा रहनुहोस्।",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "भरपर्दो कनेक्सन",
+            "लचिलो SIM योजना",
+            "सजिलो सेटअप",
+            "मैत्रीपूर्ण स्थानीय सहयोग"
+          ],
+          "heading": "कोरियामा सम्पर्कमा रहनुहोस्"
+        }
+      }
+    },
+    "myanmar": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME एप डाउनलोड गर्नुहोस्"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit क्याल्कुलेटर",
+        "exchangeRateLabel": "विनिमय दर",
+        "receiverGetsLabel": "प्राप्तकर्ताले पाउने रकम",
+        "recipientCountryLabel": "प्राप्तकर्ता देश",
+        "recipientCountryOption": "Myanmar",
+        "sendAmountLabel": "पठाउने रकम",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "अहिले पैसा पठाउनुहोस्",
+        "transferFeeLabel": "ट्रान्सफर शुल्क"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "MMK",
+        "sampleTag": "नमुना रकम"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. सर्वाधिकार सुरक्षित।",
+        "logoText": "GME",
+        "tagline": "Financial services made for Myanmar nationals in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "एप डाउनलोड गर्नुहोस्",
+        "navItems": {
+          "company": "कम्पनी",
+          "countries": "देशहरू",
+          "news": "समाचार",
+          "services": "सेवाहरू",
+          "support": "सहायता"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "अहिले पैसा पठाउनुहोस्",
+        "ctaSecondaryLabel": "सुरु गर्नुहोस्",
+        "eyebrow": "GME Myanmar",
+        "headingLines": [
+          "घर पैसा पठाउनुहोस्।",
+          "सम्पर्कमा रहनुहोस्।",
+          "सजिलै खर्च गर्नुहोस्।"
+        ],
+        "subheading": "कोरियामा बस्ने Myanmar nationals का लागि भरपर्दो सेवाहरू"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit सम्बन्धी बारम्बार सोधिने प्रश्नहरू",
+          "items": [
+            {
+              "answer": [
+                "GME Remit ट्रान्सफर सामान्यतया करिब 10 सेकेन्डमा पूरा हुन्छ। वास्तविक समय प्राप्तकर्ता देश, बैंक वा रकम प्राप्त गर्ने विधिअनुसार फरक हुन सक्छ।"
+              ],
+              "question": "GME Remit मार्फत पैसा पठाउन कति समय लाग्छ?"
+            },
+            {
+              "answer": [
+                "हो। GME Remit कोरियामा इजाजतप्राप्त रेमिट्यान्स सेवा हो र सम्बन्धित वित्तीय निकायहरूको निगरानीमा सञ्चालन हुन्छ। सुरक्षित ग्राहक प्रमाणीकरण र कारोबार प्रक्रिया प्रयोग गरिन्छ।"
+              ],
+              "question": "GME Remit प्रयोग गर्न सुरक्षित छ?"
+            },
+            {
+              "answer": [
+                "GME Remit एप डाउनलोड गर्नुहोस्, खाता बनाउनुहोस् र आवश्यक पहिचान प्रमाणीकरण पूरा गर्नुहोस्। त्यसपछि सेवा प्रयोग गर्न सक्नुहुन्छ।"
+              ],
+              "question": "GME Remit खाता कसरी खोल्ने?"
+            },
+            {
+              "answer": [
+                "GME Remit ले धेरै देशमा अन्तर्राष्ट्रिय पैसा ट्रान्सफर सुविधा प्रदान गर्छ। उपलब्ध गन्तव्य र रकम प्राप्त गर्ने विकल्पहरू एपमा हेर्नुहोस्।"
+              ],
+              "question": "GME Remit मार्फत कुन-कुन देशमा पैसा पठाउन सकिन्छ?"
+            },
+            {
+              "answer": [
+                "ग्राहक सहायता टोली सोमबारदेखि आइतबार 10:00–23:00 उपलब्ध छ। {SUPPORT_PHONE_NUMBER}, GME Remit एप, आधिकारिक सामाजिक सञ्जाल वा कोरियाका GME Remit शाखामार्फत सम्पर्क गर्न सक्नुहुन्छ।"
+              ],
+              "question": "मेरो ट्रान्सफरमा समस्या आए के गर्ने?"
+            }
+          ],
+          "subheading": "GME Remit मार्फत पैसा पठाउनेबारे सामान्य प्रश्नहरूको उत्तर पाउनुहोस्"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Myanmar सँग जोडिनुहोस्",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "हाम्रो समुदायका लागि समाचार, उपयोगी सुझाव र अपडेटहरू"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME Cards हेर्नुहोस्",
+          "description": "कोरिया र विदेशमा दैनिक जीवनका लागि सजिलो भुक्तानी।",
+          "eyebrow": "GME Card",
+          "features": [
+            "विश्वभर भुक्तानी",
+            "किनमेल",
+            "यातायात",
+            "Cashback",
+            "EasyCare सुविधा"
+          ],
+          "heading": "सबै आवश्यकताका लागि एउटै कार्ड"
+        },
+        "exchangeRate": {
+          "description": "कोरियाबाट Myanmar पैसा पठाउनुअघि नवीनतम GME Remit विनिमय दर हेर्नुहोस्",
+          "eyebrow": "विनिमय दर",
+          "heading": "आजको विनिमय दर हेर्नुहोस्",
+          "note": "विनिमय दर दिनभर परिवर्तन हुन सक्छ"
+        },
+        "loan": {
+          "ctaLabel": "अहिले आवेदन दिनुहोस्",
+          "description": "कोरियामा बस्ने विदेशीहरूका लागि डिजिटल ऋण सेवा। GME एपमार्फत सजिलै आवेदन दिनुहोस्।",
+          "eyebrow": "GME Loan",
+          "features": [
+            "कागजरहित ऋण आवेदन",
+            "रियल-टाइम ऋण स्थिति जाँच",
+            "रियल-टाइम ऋण बाँकी जाँच"
+          ],
+          "heading": "तपाईंको डिजिटल वित्तीय साझेदार"
+        },
+        "remittance": {
+          "ctaLabel": "अहिले पैसा पठाउनुहोस्",
+          "description": "कोरियाबाट Myanmar मा रहेका आफ्ना परिवार र प्रियजनहरूलाई सहयोग गर्ने सरल र सुरक्षित तरिका।",
+          "eyebrow": "GME Remit",
+          "features": [
+            "प्रतिस्पर्धी विनिमय दर",
+            "छिटो र भरपर्दो ट्रान्सफर",
+            "पारदर्शी शुल्क",
+            "आवश्यक पर्दा सहयोग"
+          ],
+          "heading": "Myanmar पैसा पठाउनुहोस्"
+        },
+        "simCard": {
+          "ctaLabel": "SIM योजना हेर्नुहोस्",
+          "description": "कोरियाको जीवनलाई सजिलो बनाउन तयार गरिएका मोबाइल योजनामार्फत महत्त्वपूर्ण मानिसहरूसँग सम्पर्कमा रहनुहोस्।",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "भरपर्दो कनेक्सन",
+            "लचिलो SIM योजना",
+            "सजिलो सेटअप",
+            "मैत्रीपूर्ण स्थानीय सहयोग"
+          ],
+          "heading": "कोरियामा सम्पर्कमा रहनुहोस्"
+        }
+      }
+    },
+    "nepal": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME एप डाउनलोड गर्नुहोस्"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit क्याल्कुलेटर",
+        "exchangeRateLabel": "विनिमय दर",
+        "receiverGetsLabel": "प्राप्तकर्ताले पाउने रकम",
+        "recipientCountryLabel": "प्राप्तकर्ता देश",
+        "recipientCountryOption": "Nepal",
+        "sendAmountLabel": "पठाउने रकम",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "अहिले पैसा पठाउनुहोस्",
+        "transferFeeLabel": "ट्रान्सफर शुल्क"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "NPR",
+        "sampleTag": "नमुना रकम"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. सर्वाधिकार सुरक्षित।",
+        "logoText": "GME",
+        "tagline": "Financial services made for Nepalis in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "एप डाउनलोड गर्नुहोस्",
+        "navItems": {
+          "company": "कम्पनी",
+          "countries": "देशहरू",
+          "news": "समाचार",
+          "services": "सेवाहरू",
+          "support": "सहायता"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "अहिले पैसा पठाउनुहोस्",
+        "ctaSecondaryLabel": "सुरु गर्नुहोस्",
+        "eyebrow": "GME Nepal",
+        "headingLines": [
+          "घर पैसा पठाउनुहोस्।",
+          "सम्पर्कमा रहनुहोस्।",
+          "सजिलै खर्च गर्नुहोस्।"
+        ],
+        "subheading": "कोरियामा बस्ने नेपालीहरूका लागि भरपर्दो सेवाहरू"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit सम्बन्धी बारम्बार सोधिने प्रश्नहरू",
+          "items": [
+            {
+              "answer": [
+                "GME Remit ट्रान्सफर सामान्यतया करिब 10 सेकेन्डमा पूरा हुन्छ। वास्तविक समय प्राप्तकर्ता देश, बैंक वा रकम प्राप्त गर्ने विधिअनुसार फरक हुन सक्छ।"
+              ],
+              "question": "GME Remit मार्फत पैसा पठाउन कति समय लाग्छ?"
+            },
+            {
+              "answer": [
+                "हो। GME Remit कोरियामा इजाजतप्राप्त रेमिट्यान्स सेवा हो र सम्बन्धित वित्तीय निकायहरूको निगरानीमा सञ्चालन हुन्छ। सुरक्षित ग्राहक प्रमाणीकरण र कारोबार प्रक्रिया प्रयोग गरिन्छ।"
+              ],
+              "question": "GME Remit प्रयोग गर्न सुरक्षित छ?"
+            },
+            {
+              "answer": [
+                "GME Remit एप डाउनलोड गर्नुहोस्, खाता बनाउनुहोस् र आवश्यक पहिचान प्रमाणीकरण पूरा गर्नुहोस्। त्यसपछि सेवा प्रयोग गर्न सक्नुहुन्छ।"
+              ],
+              "question": "GME Remit खाता कसरी खोल्ने?"
+            },
+            {
+              "answer": [
+                "GME Remit ले धेरै देशमा अन्तर्राष्ट्रिय पैसा ट्रान्सफर सुविधा प्रदान गर्छ। उपलब्ध गन्तव्य र रकम प्राप्त गर्ने विकल्पहरू एपमा हेर्नुहोस्।"
+              ],
+              "question": "GME Remit मार्फत कुन-कुन देशमा पैसा पठाउन सकिन्छ?"
+            },
+            {
+              "answer": [
+                "ग्राहक सहायता टोली सोमबारदेखि आइतबार 10:00–23:00 उपलब्ध छ। {SUPPORT_PHONE_NUMBER}, GME Remit एप, आधिकारिक सामाजिक सञ्जाल वा कोरियाका GME Remit शाखामार्फत सम्पर्क गर्न सक्नुहुन्छ।"
+              ],
+              "question": "मेरो ट्रान्सफरमा समस्या आए के गर्ने?"
+            }
+          ],
+          "subheading": "GME Remit मार्फत पैसा पठाउनेबारे सामान्य प्रश्नहरूको उत्तर पाउनुहोस्"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Nepal सँग जोडिनुहोस्",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "हाम्रो समुदायका लागि समाचार, उपयोगी सुझाव र अपडेटहरू"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME Cards हेर्नुहोस्",
+          "description": "कोरिया र विदेशमा दैनिक जीवनका लागि सजिलो भुक्तानी।",
+          "eyebrow": "GME Card",
+          "features": [
+            "विश्वभर भुक्तानी",
+            "किनमेल",
+            "यातायात",
+            "Cashback",
+            "EasyCare सुविधा"
+          ],
+          "heading": "सबै आवश्यकताका लागि एउटै कार्ड"
+        },
+        "exchangeRate": {
+          "description": "कोरियाबाट नेपाल पैसा पठाउनुअघि नवीनतम GME Remit विनिमय दर हेर्नुहोस्",
+          "eyebrow": "विनिमय दर",
+          "heading": "आजको विनिमय दर हेर्नुहोस्",
+          "note": "विनिमय दर दिनभर परिवर्तन हुन सक्छ"
+        },
+        "loan": {
+          "ctaLabel": "अहिले आवेदन दिनुहोस्",
+          "description": "कोरियामा बस्ने विदेशीहरूका लागि डिजिटल ऋण सेवा। GME एपमार्फत सजिलै आवेदन दिनुहोस्।",
+          "eyebrow": "GME Loan",
+          "features": [
+            "कागजरहित ऋण आवेदन",
+            "रियल-टाइम ऋण स्थिति जाँच",
+            "रियल-टाइम ऋण बाँकी जाँच"
+          ],
+          "heading": "तपाईंको डिजिटल वित्तीय साझेदार"
+        },
+        "remittance": {
+          "ctaLabel": "अहिले पैसा पठाउनुहोस्",
+          "description": "कोरियाबाट नेपालमा रहेका आफ्ना परिवार र प्रियजनहरूलाई सहयोग गर्ने सरल र सुरक्षित तरिका।",
+          "eyebrow": "GME Remit",
+          "features": [
+            "प्रतिस्पर्धी विनिमय दर",
+            "छिटो र भरपर्दो ट्रान्सफर",
+            "पारदर्शी शुल्क",
+            "आवश्यक पर्दा सहयोग"
+          ],
+          "heading": "नेपाल पैसा पठाउनुहोस्"
+        },
+        "simCard": {
+          "ctaLabel": "SIM योजना हेर्नुहोस्",
+          "description": "कोरियाको जीवनलाई सजिलो बनाउन तयार गरिएका मोबाइल योजनामार्फत महत्त्वपूर्ण मानिसहरूसँग सम्पर्कमा रहनुहोस्।",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "भरपर्दो कनेक्सन",
+            "लचिलो SIM योजना",
+            "सजिलो सेटअप",
+            "मैत्रीपूर्ण स्थानीय सहयोग"
+          ],
+          "heading": "कोरियामा सम्पर्कमा रहनुहोस्"
+        }
+      }
+    },
+    "pakistan": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME एप डाउनलोड गर्नुहोस्"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit क्याल्कुलेटर",
+        "exchangeRateLabel": "विनिमय दर",
+        "receiverGetsLabel": "प्राप्तकर्ताले पाउने रकम",
+        "recipientCountryLabel": "प्राप्तकर्ता देश",
+        "recipientCountryOption": "Pakistan",
+        "sendAmountLabel": "पठाउने रकम",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "अहिले पैसा पठाउनुहोस्",
+        "transferFeeLabel": "ट्रान्सफर शुल्क"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "PKR",
+        "sampleTag": "नमुना रकम"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. सर्वाधिकार सुरक्षित।",
+        "logoText": "GME",
+        "tagline": "Financial services made for Pakistanis in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "एप डाउनलोड गर्नुहोस्",
+        "navItems": {
+          "company": "कम्पनी",
+          "countries": "देशहरू",
+          "news": "समाचार",
+          "services": "सेवाहरू",
+          "support": "सहायता"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "अहिले पैसा पठाउनुहोस्",
+        "ctaSecondaryLabel": "सुरु गर्नुहोस्",
+        "eyebrow": "GME Pakistan",
+        "headingLines": [
+          "घर पैसा पठाउनुहोस्।",
+          "सम्पर्कमा रहनुहोस्।",
+          "सजिलै खर्च गर्नुहोस्।"
+        ],
+        "subheading": "कोरियामा बस्ने Pakistanis का लागि भरपर्दो सेवाहरू"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit सम्बन्धी बारम्बार सोधिने प्रश्नहरू",
+          "items": [
+            {
+              "answer": [
+                "GME Remit ट्रान्सफर सामान्यतया करिब 10 सेकेन्डमा पूरा हुन्छ। वास्तविक समय प्राप्तकर्ता देश, बैंक वा रकम प्राप्त गर्ने विधिअनुसार फरक हुन सक्छ।"
+              ],
+              "question": "GME Remit मार्फत पैसा पठाउन कति समय लाग्छ?"
+            },
+            {
+              "answer": [
+                "हो। GME Remit कोरियामा इजाजतप्राप्त रेमिट्यान्स सेवा हो र सम्बन्धित वित्तीय निकायहरूको निगरानीमा सञ्चालन हुन्छ। सुरक्षित ग्राहक प्रमाणीकरण र कारोबार प्रक्रिया प्रयोग गरिन्छ।"
+              ],
+              "question": "GME Remit प्रयोग गर्न सुरक्षित छ?"
+            },
+            {
+              "answer": [
+                "GME Remit एप डाउनलोड गर्नुहोस्, खाता बनाउनुहोस् र आवश्यक पहिचान प्रमाणीकरण पूरा गर्नुहोस्। त्यसपछि सेवा प्रयोग गर्न सक्नुहुन्छ।"
+              ],
+              "question": "GME Remit खाता कसरी खोल्ने?"
+            },
+            {
+              "answer": [
+                "GME Remit ले धेरै देशमा अन्तर्राष्ट्रिय पैसा ट्रान्सफर सुविधा प्रदान गर्छ। उपलब्ध गन्तव्य र रकम प्राप्त गर्ने विकल्पहरू एपमा हेर्नुहोस्।"
+              ],
+              "question": "GME Remit मार्फत कुन-कुन देशमा पैसा पठाउन सकिन्छ?"
+            },
+            {
+              "answer": [
+                "ग्राहक सहायता टोली सोमबारदेखि आइतबार 10:00–23:00 उपलब्ध छ। {SUPPORT_PHONE_NUMBER}, GME Remit एप, आधिकारिक सामाजिक सञ्जाल वा कोरियाका GME Remit शाखामार्फत सम्पर्क गर्न सक्नुहुन्छ।"
+              ],
+              "question": "मेरो ट्रान्सफरमा समस्या आए के गर्ने?"
+            }
+          ],
+          "subheading": "GME Remit मार्फत पैसा पठाउनेबारे सामान्य प्रश्नहरूको उत्तर पाउनुहोस्"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Pakistan सँग जोडिनुहोस्",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "हाम्रो समुदायका लागि समाचार, उपयोगी सुझाव र अपडेटहरू"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME Cards हेर्नुहोस्",
+          "description": "कोरिया र विदेशमा दैनिक जीवनका लागि सजिलो भुक्तानी।",
+          "eyebrow": "GME Card",
+          "features": [
+            "विश्वभर भुक्तानी",
+            "किनमेल",
+            "यातायात",
+            "Cashback",
+            "EasyCare सुविधा"
+          ],
+          "heading": "सबै आवश्यकताका लागि एउटै कार्ड"
+        },
+        "exchangeRate": {
+          "description": "कोरियाबाट Pakistan पैसा पठाउनुअघि नवीनतम GME Remit विनिमय दर हेर्नुहोस्",
+          "eyebrow": "विनिमय दर",
+          "heading": "आजको विनिमय दर हेर्नुहोस्",
+          "note": "विनिमय दर दिनभर परिवर्तन हुन सक्छ"
+        },
+        "loan": {
+          "ctaLabel": "अहिले आवेदन दिनुहोस्",
+          "description": "कोरियामा बस्ने विदेशीहरूका लागि डिजिटल ऋण सेवा। GME एपमार्फत सजिलै आवेदन दिनुहोस्।",
+          "eyebrow": "GME Loan",
+          "features": [
+            "कागजरहित ऋण आवेदन",
+            "रियल-टाइम ऋण स्थिति जाँच",
+            "रियल-टाइम ऋण बाँकी जाँच"
+          ],
+          "heading": "तपाईंको डिजिटल वित्तीय साझेदार"
+        },
+        "remittance": {
+          "ctaLabel": "अहिले पैसा पठाउनुहोस्",
+          "description": "कोरियाबाट Pakistan मा रहेका आफ्ना परिवार र प्रियजनहरूलाई सहयोग गर्ने सरल र सुरक्षित तरिका।",
+          "eyebrow": "GME Remit",
+          "features": [
+            "प्रतिस्पर्धी विनिमय दर",
+            "छिटो र भरपर्दो ट्रान्सफर",
+            "पारदर्शी शुल्क",
+            "आवश्यक पर्दा सहयोग"
+          ],
+          "heading": "Pakistan पैसा पठाउनुहोस्"
+        },
+        "simCard": {
+          "ctaLabel": "SIM योजना हेर्नुहोस्",
+          "description": "कोरियाको जीवनलाई सजिलो बनाउन तयार गरिएका मोबाइल योजनामार्फत महत्त्वपूर्ण मानिसहरूसँग सम्पर्कमा रहनुहोस्।",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "भरपर्दो कनेक्सन",
+            "लचिलो SIM योजना",
+            "सजिलो सेटअप",
+            "मैत्रीपूर्ण स्थानीय सहयोग"
+          ],
+          "heading": "कोरियामा सम्पर्कमा रहनुहोस्"
+        }
+      }
+    },
+    "philippines": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME एप डाउनलोड गर्नुहोस्"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit क्याल्कुलेटर",
+        "exchangeRateLabel": "विनिमय दर",
+        "receiverGetsLabel": "प्राप्तकर्ताले पाउने रकम",
+        "recipientCountryLabel": "प्राप्तकर्ता देश",
+        "recipientCountryOption": "Philippines",
+        "sendAmountLabel": "पठाउने रकम",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "अहिले पैसा पठाउनुहोस्",
+        "transferFeeLabel": "ट्रान्सफर शुल्क"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "PHP",
+        "sampleTag": "नमुना रकम"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. सर्वाधिकार सुरक्षित।",
+        "logoText": "GME",
+        "tagline": "Financial services made for Filipinos in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "एप डाउनलोड गर्नुहोस्",
+        "navItems": {
+          "company": "कम्पनी",
+          "countries": "देशहरू",
+          "news": "समाचार",
+          "services": "सेवाहरू",
+          "support": "सहायता"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "अहिले पैसा पठाउनुहोस्",
+        "ctaSecondaryLabel": "सुरु गर्नुहोस्",
+        "eyebrow": "GME Philippines",
+        "headingLines": [
+          "घर पैसा पठाउनुहोस्।",
+          "सम्पर्कमा रहनुहोस्।",
+          "सजिलै खर्च गर्नुहोस्।"
+        ],
+        "subheading": "कोरियामा बस्ने Filipinos का लागि भरपर्दो सेवाहरू"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit सम्बन्धी बारम्बार सोधिने प्रश्नहरू",
+          "items": [
+            {
+              "answer": [
+                "GME Remit ट्रान्सफर सामान्यतया करिब 10 सेकेन्डमा पूरा हुन्छ। वास्तविक समय प्राप्तकर्ता देश, बैंक वा रकम प्राप्त गर्ने विधिअनुसार फरक हुन सक्छ।"
+              ],
+              "question": "GME Remit मार्फत पैसा पठाउन कति समय लाग्छ?"
+            },
+            {
+              "answer": [
+                "हो। GME Remit कोरियामा इजाजतप्राप्त रेमिट्यान्स सेवा हो र सम्बन्धित वित्तीय निकायहरूको निगरानीमा सञ्चालन हुन्छ। सुरक्षित ग्राहक प्रमाणीकरण र कारोबार प्रक्रिया प्रयोग गरिन्छ।"
+              ],
+              "question": "GME Remit प्रयोग गर्न सुरक्षित छ?"
+            },
+            {
+              "answer": [
+                "GME Remit एप डाउनलोड गर्नुहोस्, खाता बनाउनुहोस् र आवश्यक पहिचान प्रमाणीकरण पूरा गर्नुहोस्। त्यसपछि सेवा प्रयोग गर्न सक्नुहुन्छ।"
+              ],
+              "question": "GME Remit खाता कसरी खोल्ने?"
+            },
+            {
+              "answer": [
+                "GME Remit ले धेरै देशमा अन्तर्राष्ट्रिय पैसा ट्रान्सफर सुविधा प्रदान गर्छ। उपलब्ध गन्तव्य र रकम प्राप्त गर्ने विकल्पहरू एपमा हेर्नुहोस्।"
+              ],
+              "question": "GME Remit मार्फत कुन-कुन देशमा पैसा पठाउन सकिन्छ?"
+            },
+            {
+              "answer": [
+                "ग्राहक सहायता टोली सोमबारदेखि आइतबार 10:00–23:00 उपलब्ध छ। {SUPPORT_PHONE_NUMBER}, GME Remit एप, आधिकारिक सामाजिक सञ्जाल वा कोरियाका GME Remit शाखामार्फत सम्पर्क गर्न सक्नुहुन्छ।"
+              ],
+              "question": "मेरो ट्रान्सफरमा समस्या आए के गर्ने?"
+            }
+          ],
+          "subheading": "GME Remit मार्फत पैसा पठाउनेबारे सामान्य प्रश्नहरूको उत्तर पाउनुहोस्"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Philippines सँग जोडिनुहोस्",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "हाम्रो समुदायका लागि समाचार, उपयोगी सुझाव र अपडेटहरू"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME Cards हेर्नुहोस्",
+          "description": "कोरिया र विदेशमा दैनिक जीवनका लागि सजिलो भुक्तानी।",
+          "eyebrow": "GME Card",
+          "features": [
+            "विश्वभर भुक्तानी",
+            "किनमेल",
+            "यातायात",
+            "Cashback",
+            "EasyCare सुविधा"
+          ],
+          "heading": "सबै आवश्यकताका लागि एउटै कार्ड"
+        },
+        "exchangeRate": {
+          "description": "कोरियाबाट Philippines पैसा पठाउनुअघि नवीनतम GME Remit विनिमय दर हेर्नुहोस्",
+          "eyebrow": "विनिमय दर",
+          "heading": "आजको विनिमय दर हेर्नुहोस्",
+          "note": "विनिमय दर दिनभर परिवर्तन हुन सक्छ"
+        },
+        "loan": {
+          "ctaLabel": "अहिले आवेदन दिनुहोस्",
+          "description": "कोरियामा बस्ने विदेशीहरूका लागि डिजिटल ऋण सेवा। GME एपमार्फत सजिलै आवेदन दिनुहोस्।",
+          "eyebrow": "GME Loan",
+          "features": [
+            "कागजरहित ऋण आवेदन",
+            "रियल-टाइम ऋण स्थिति जाँच",
+            "रियल-टाइम ऋण बाँकी जाँच"
+          ],
+          "heading": "तपाईंको डिजिटल वित्तीय साझेदार"
+        },
+        "remittance": {
+          "ctaLabel": "अहिले पैसा पठाउनुहोस्",
+          "description": "कोरियाबाट Philippines मा रहेका आफ्ना परिवार र प्रियजनहरूलाई सहयोग गर्ने सरल र सुरक्षित तरिका।",
+          "eyebrow": "GME Remit",
+          "features": [
+            "प्रतिस्पर्धी विनिमय दर",
+            "छिटो र भरपर्दो ट्रान्सफर",
+            "पारदर्शी शुल्क",
+            "आवश्यक पर्दा सहयोग"
+          ],
+          "heading": "Philippines पैसा पठाउनुहोस्"
+        },
+        "simCard": {
+          "ctaLabel": "SIM योजना हेर्नुहोस्",
+          "description": "कोरियाको जीवनलाई सजिलो बनाउन तयार गरिएका मोबाइल योजनामार्फत महत्त्वपूर्ण मानिसहरूसँग सम्पर्कमा रहनुहोस्।",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "भरपर्दो कनेक्सन",
+            "लचिलो SIM योजना",
+            "सजिलो सेटअप",
+            "मैत्रीपूर्ण स्थानीय सहयोग"
+          ],
+          "heading": "कोरियामा सम्पर्कमा रहनुहोस्"
+        }
+      }
+    },
+    "sri-lanka": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME एप डाउनलोड गर्नुहोस्"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit क्याल्कुलेटर",
+        "exchangeRateLabel": "विनिमय दर",
+        "receiverGetsLabel": "प्राप्तकर्ताले पाउने रकम",
+        "recipientCountryLabel": "प्राप्तकर्ता देश",
+        "recipientCountryOption": "Sri Lanka",
+        "sendAmountLabel": "पठाउने रकम",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "अहिले पैसा पठाउनुहोस्",
+        "transferFeeLabel": "ट्रान्सफर शुल्क"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "LKR",
+        "sampleTag": "नमुना रकम"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. सर्वाधिकार सुरक्षित।",
+        "logoText": "GME",
+        "tagline": "Financial services made for Sri Lankans in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "एप डाउनलोड गर्नुहोस्",
+        "navItems": {
+          "company": "कम्पनी",
+          "countries": "देशहरू",
+          "news": "समाचार",
+          "services": "सेवाहरू",
+          "support": "सहायता"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "अहिले पैसा पठाउनुहोस्",
+        "ctaSecondaryLabel": "सुरु गर्नुहोस्",
+        "eyebrow": "GME Sri Lanka",
+        "headingLines": [
+          "घर पैसा पठाउनुहोस्।",
+          "सम्पर्कमा रहनुहोस्।",
+          "सजिलै खर्च गर्नुहोस्।"
+        ],
+        "subheading": "कोरियामा बस्ने Sri Lankans का लागि भरपर्दो सेवाहरू"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit सम्बन्धी बारम्बार सोधिने प्रश्नहरू",
+          "items": [
+            {
+              "answer": [
+                "GME Remit ट्रान्सफर सामान्यतया करिब 10 सेकेन्डमा पूरा हुन्छ। वास्तविक समय प्राप्तकर्ता देश, बैंक वा रकम प्राप्त गर्ने विधिअनुसार फरक हुन सक्छ।"
+              ],
+              "question": "GME Remit मार्फत पैसा पठाउन कति समय लाग्छ?"
+            },
+            {
+              "answer": [
+                "हो। GME Remit कोरियामा इजाजतप्राप्त रेमिट्यान्स सेवा हो र सम्बन्धित वित्तीय निकायहरूको निगरानीमा सञ्चालन हुन्छ। सुरक्षित ग्राहक प्रमाणीकरण र कारोबार प्रक्रिया प्रयोग गरिन्छ।"
+              ],
+              "question": "GME Remit प्रयोग गर्न सुरक्षित छ?"
+            },
+            {
+              "answer": [
+                "GME Remit एप डाउनलोड गर्नुहोस्, खाता बनाउनुहोस् र आवश्यक पहिचान प्रमाणीकरण पूरा गर्नुहोस्। त्यसपछि सेवा प्रयोग गर्न सक्नुहुन्छ।"
+              ],
+              "question": "GME Remit खाता कसरी खोल्ने?"
+            },
+            {
+              "answer": [
+                "GME Remit ले धेरै देशमा अन्तर्राष्ट्रिय पैसा ट्रान्सफर सुविधा प्रदान गर्छ। उपलब्ध गन्तव्य र रकम प्राप्त गर्ने विकल्पहरू एपमा हेर्नुहोस्।"
+              ],
+              "question": "GME Remit मार्फत कुन-कुन देशमा पैसा पठाउन सकिन्छ?"
+            },
+            {
+              "answer": [
+                "ग्राहक सहायता टोली सोमबारदेखि आइतबार 10:00–23:00 उपलब्ध छ। {SUPPORT_PHONE_NUMBER}, GME Remit एप, आधिकारिक सामाजिक सञ्जाल वा कोरियाका GME Remit शाखामार्फत सम्पर्क गर्न सक्नुहुन्छ।"
+              ],
+              "question": "मेरो ट्रान्सफरमा समस्या आए के गर्ने?"
+            }
+          ],
+          "subheading": "GME Remit मार्फत पैसा पठाउनेबारे सामान्य प्रश्नहरूको उत्तर पाउनुहोस्"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Sri Lanka सँग जोडिनुहोस्",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "हाम्रो समुदायका लागि समाचार, उपयोगी सुझाव र अपडेटहरू"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME Cards हेर्नुहोस्",
+          "description": "कोरिया र विदेशमा दैनिक जीवनका लागि सजिलो भुक्तानी।",
+          "eyebrow": "GME Card",
+          "features": [
+            "विश्वभर भुक्तानी",
+            "किनमेल",
+            "यातायात",
+            "Cashback",
+            "EasyCare सुविधा"
+          ],
+          "heading": "सबै आवश्यकताका लागि एउटै कार्ड"
+        },
+        "exchangeRate": {
+          "description": "कोरियाबाट Sri Lanka पैसा पठाउनुअघि नवीनतम GME Remit विनिमय दर हेर्नुहोस्",
+          "eyebrow": "विनिमय दर",
+          "heading": "आजको विनिमय दर हेर्नुहोस्",
+          "note": "विनिमय दर दिनभर परिवर्तन हुन सक्छ"
+        },
+        "loan": {
+          "ctaLabel": "अहिले आवेदन दिनुहोस्",
+          "description": "कोरियामा बस्ने विदेशीहरूका लागि डिजिटल ऋण सेवा। GME एपमार्फत सजिलै आवेदन दिनुहोस्।",
+          "eyebrow": "GME Loan",
+          "features": [
+            "कागजरहित ऋण आवेदन",
+            "रियल-टाइम ऋण स्थिति जाँच",
+            "रियल-टाइम ऋण बाँकी जाँच"
+          ],
+          "heading": "तपाईंको डिजिटल वित्तीय साझेदार"
+        },
+        "remittance": {
+          "ctaLabel": "अहिले पैसा पठाउनुहोस्",
+          "description": "कोरियाबाट Sri Lanka मा रहेका आफ्ना परिवार र प्रियजनहरूलाई सहयोग गर्ने सरल र सुरक्षित तरिका।",
+          "eyebrow": "GME Remit",
+          "features": [
+            "प्रतिस्पर्धी विनिमय दर",
+            "छिटो र भरपर्दो ट्रान्सफर",
+            "पारदर्शी शुल्क",
+            "आवश्यक पर्दा सहयोग"
+          ],
+          "heading": "Sri Lanka पैसा पठाउनुहोस्"
+        },
+        "simCard": {
+          "ctaLabel": "SIM योजना हेर्नुहोस्",
+          "description": "कोरियाको जीवनलाई सजिलो बनाउन तयार गरिएका मोबाइल योजनामार्फत महत्त्वपूर्ण मानिसहरूसँग सम्पर्कमा रहनुहोस्।",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "भरपर्दो कनेक्सन",
+            "लचिलो SIM योजना",
+            "सजिलो सेटअप",
+            "मैत्रीपूर्ण स्थानीय सहयोग"
+          ],
+          "heading": "कोरियामा सम्पर्कमा रहनुहोस्"
+        }
+      }
+    },
+    "thailand": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME एप डाउनलोड गर्नुहोस्"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit क्याल्कुलेटर",
+        "exchangeRateLabel": "विनिमय दर",
+        "receiverGetsLabel": "प्राप्तकर्ताले पाउने रकम",
+        "recipientCountryLabel": "प्राप्तकर्ता देश",
+        "recipientCountryOption": "Thailand",
+        "sendAmountLabel": "पठाउने रकम",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "अहिले पैसा पठाउनुहोस्",
+        "transferFeeLabel": "ट्रान्सफर शुल्क"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "THB",
+        "sampleTag": "नमुना रकम"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. सर्वाधिकार सुरक्षित।",
+        "logoText": "GME",
+        "tagline": "Financial services made for Thais in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "एप डाउनलोड गर्नुहोस्",
+        "navItems": {
+          "company": "कम्पनी",
+          "countries": "देशहरू",
+          "news": "समाचार",
+          "services": "सेवाहरू",
+          "support": "सहायता"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "अहिले पैसा पठाउनुहोस्",
+        "ctaSecondaryLabel": "सुरु गर्नुहोस्",
+        "eyebrow": "GME Thailand",
+        "headingLines": [
+          "घर पैसा पठाउनुहोस्।",
+          "सम्पर्कमा रहनुहोस्।",
+          "सजिलै खर्च गर्नुहोस्।"
+        ],
+        "subheading": "कोरियामा बस्ने Thais का लागि भरपर्दो सेवाहरू"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit सम्बन्धी बारम्बार सोधिने प्रश्नहरू",
+          "items": [
+            {
+              "answer": [
+                "GME Remit ट्रान्सफर सामान्यतया करिब 10 सेकेन्डमा पूरा हुन्छ। वास्तविक समय प्राप्तकर्ता देश, बैंक वा रकम प्राप्त गर्ने विधिअनुसार फरक हुन सक्छ।"
+              ],
+              "question": "GME Remit मार्फत पैसा पठाउन कति समय लाग्छ?"
+            },
+            {
+              "answer": [
+                "हो। GME Remit कोरियामा इजाजतप्राप्त रेमिट्यान्स सेवा हो र सम्बन्धित वित्तीय निकायहरूको निगरानीमा सञ्चालन हुन्छ। सुरक्षित ग्राहक प्रमाणीकरण र कारोबार प्रक्रिया प्रयोग गरिन्छ।"
+              ],
+              "question": "GME Remit प्रयोग गर्न सुरक्षित छ?"
+            },
+            {
+              "answer": [
+                "GME Remit एप डाउनलोड गर्नुहोस्, खाता बनाउनुहोस् र आवश्यक पहिचान प्रमाणीकरण पूरा गर्नुहोस्। त्यसपछि सेवा प्रयोग गर्न सक्नुहुन्छ।"
+              ],
+              "question": "GME Remit खाता कसरी खोल्ने?"
+            },
+            {
+              "answer": [
+                "GME Remit ले धेरै देशमा अन्तर्राष्ट्रिय पैसा ट्रान्सफर सुविधा प्रदान गर्छ। उपलब्ध गन्तव्य र रकम प्राप्त गर्ने विकल्पहरू एपमा हेर्नुहोस्।"
+              ],
+              "question": "GME Remit मार्फत कुन-कुन देशमा पैसा पठाउन सकिन्छ?"
+            },
+            {
+              "answer": [
+                "ग्राहक सहायता टोली सोमबारदेखि आइतबार 10:00–23:00 उपलब्ध छ। {SUPPORT_PHONE_NUMBER}, GME Remit एप, आधिकारिक सामाजिक सञ्जाल वा कोरियाका GME Remit शाखामार्फत सम्पर्क गर्न सक्नुहुन्छ।"
+              ],
+              "question": "मेरो ट्रान्सफरमा समस्या आए के गर्ने?"
+            }
+          ],
+          "subheading": "GME Remit मार्फत पैसा पठाउनेबारे सामान्य प्रश्नहरूको उत्तर पाउनुहोस्"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Thailand सँग जोडिनुहोस्",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "हाम्रो समुदायका लागि समाचार, उपयोगी सुझाव र अपडेटहरू"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME Cards हेर्नुहोस्",
+          "description": "कोरिया र विदेशमा दैनिक जीवनका लागि सजिलो भुक्तानी।",
+          "eyebrow": "GME Card",
+          "features": [
+            "विश्वभर भुक्तानी",
+            "किनमेल",
+            "यातायात",
+            "Cashback",
+            "EasyCare सुविधा"
+          ],
+          "heading": "सबै आवश्यकताका लागि एउटै कार्ड"
+        },
+        "exchangeRate": {
+          "description": "कोरियाबाट Thailand पैसा पठाउनुअघि नवीनतम GME Remit विनिमय दर हेर्नुहोस्",
+          "eyebrow": "विनिमय दर",
+          "heading": "आजको विनिमय दर हेर्नुहोस्",
+          "note": "विनिमय दर दिनभर परिवर्तन हुन सक्छ"
+        },
+        "loan": {
+          "ctaLabel": "अहिले आवेदन दिनुहोस्",
+          "description": "कोरियामा बस्ने विदेशीहरूका लागि डिजिटल ऋण सेवा। GME एपमार्फत सजिलै आवेदन दिनुहोस्।",
+          "eyebrow": "GME Loan",
+          "features": [
+            "कागजरहित ऋण आवेदन",
+            "रियल-टाइम ऋण स्थिति जाँच",
+            "रियल-टाइम ऋण बाँकी जाँच"
+          ],
+          "heading": "तपाईंको डिजिटल वित्तीय साझेदार"
+        },
+        "remittance": {
+          "ctaLabel": "अहिले पैसा पठाउनुहोस्",
+          "description": "कोरियाबाट Thailand मा रहेका आफ्ना परिवार र प्रियजनहरूलाई सहयोग गर्ने सरल र सुरक्षित तरिका।",
+          "eyebrow": "GME Remit",
+          "features": [
+            "प्रतिस्पर्धी विनिमय दर",
+            "छिटो र भरपर्दो ट्रान्सफर",
+            "पारदर्शी शुल्क",
+            "आवश्यक पर्दा सहयोग"
+          ],
+          "heading": "Thailand पैसा पठाउनुहोस्"
+        },
+        "simCard": {
+          "ctaLabel": "SIM योजना हेर्नुहोस्",
+          "description": "कोरियाको जीवनलाई सजिलो बनाउन तयार गरिएका मोबाइल योजनामार्फत महत्त्वपूर्ण मानिसहरूसँग सम्पर्कमा रहनुहोस्।",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "भरपर्दो कनेक्सन",
+            "लचिलो SIM योजना",
+            "सजिलो सेटअप",
+            "मैत्रीपूर्ण स्थानीय सहयोग"
+          ],
+          "heading": "कोरियामा सम्पर्कमा रहनुहोस्"
+        }
+      }
+    },
+    "uzbekistan": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME एप डाउनलोड गर्नुहोस्"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit क्याल्कुलेटर",
+        "exchangeRateLabel": "विनिमय दर",
+        "receiverGetsLabel": "प्राप्तकर्ताले पाउने रकम",
+        "recipientCountryLabel": "प्राप्तकर्ता देश",
+        "recipientCountryOption": "Uzbekistan",
+        "sendAmountLabel": "पठाउने रकम",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "अहिले पैसा पठाउनुहोस्",
+        "transferFeeLabel": "ट्रान्सफर शुल्क"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "UZS",
+        "sampleTag": "नमुना रकम"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. सर्वाधिकार सुरक्षित।",
+        "logoText": "GME",
+        "tagline": "Financial services made for Uzbeks in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "एप डाउनलोड गर्नुहोस्",
+        "navItems": {
+          "company": "कम्पनी",
+          "countries": "देशहरू",
+          "news": "समाचार",
+          "services": "सेवाहरू",
+          "support": "सहायता"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "अहिले पैसा पठाउनुहोस्",
+        "ctaSecondaryLabel": "सुरु गर्नुहोस्",
+        "eyebrow": "GME Uzbekistan",
+        "headingLines": [
+          "घर पैसा पठाउनुहोस्।",
+          "सम्पर्कमा रहनुहोस्।",
+          "सजिलै खर्च गर्नुहोस्।"
+        ],
+        "subheading": "कोरियामा बस्ने Uzbeks का लागि भरपर्दो सेवाहरू"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit सम्बन्धी बारम्बार सोधिने प्रश्नहरू",
+          "items": [
+            {
+              "answer": [
+                "GME Remit ट्रान्सफर सामान्यतया करिब 10 सेकेन्डमा पूरा हुन्छ। वास्तविक समय प्राप्तकर्ता देश, बैंक वा रकम प्राप्त गर्ने विधिअनुसार फरक हुन सक्छ।"
+              ],
+              "question": "GME Remit मार्फत पैसा पठाउन कति समय लाग्छ?"
+            },
+            {
+              "answer": [
+                "हो। GME Remit कोरियामा इजाजतप्राप्त रेमिट्यान्स सेवा हो र सम्बन्धित वित्तीय निकायहरूको निगरानीमा सञ्चालन हुन्छ। सुरक्षित ग्राहक प्रमाणीकरण र कारोबार प्रक्रिया प्रयोग गरिन्छ।"
+              ],
+              "question": "GME Remit प्रयोग गर्न सुरक्षित छ?"
+            },
+            {
+              "answer": [
+                "GME Remit एप डाउनलोड गर्नुहोस्, खाता बनाउनुहोस् र आवश्यक पहिचान प्रमाणीकरण पूरा गर्नुहोस्। त्यसपछि सेवा प्रयोग गर्न सक्नुहुन्छ।"
+              ],
+              "question": "GME Remit खाता कसरी खोल्ने?"
+            },
+            {
+              "answer": [
+                "GME Remit ले धेरै देशमा अन्तर्राष्ट्रिय पैसा ट्रान्सफर सुविधा प्रदान गर्छ। उपलब्ध गन्तव्य र रकम प्राप्त गर्ने विकल्पहरू एपमा हेर्नुहोस्।"
+              ],
+              "question": "GME Remit मार्फत कुन-कुन देशमा पैसा पठाउन सकिन्छ?"
+            },
+            {
+              "answer": [
+                "ग्राहक सहायता टोली सोमबारदेखि आइतबार 10:00–23:00 उपलब्ध छ। {SUPPORT_PHONE_NUMBER}, GME Remit एप, आधिकारिक सामाजिक सञ्जाल वा कोरियाका GME Remit शाखामार्फत सम्पर्क गर्न सक्नुहुन्छ।"
+              ],
+              "question": "मेरो ट्रान्सफरमा समस्या आए के गर्ने?"
+            }
+          ],
+          "subheading": "GME Remit मार्फत पैसा पठाउनेबारे सामान्य प्रश्नहरूको उत्तर पाउनुहोस्"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Uzbekistan सँग जोडिनुहोस्",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "हाम्रो समुदायका लागि समाचार, उपयोगी सुझाव र अपडेटहरू"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME Cards हेर्नुहोस्",
+          "description": "कोरिया र विदेशमा दैनिक जीवनका लागि सजिलो भुक्तानी।",
+          "eyebrow": "GME Card",
+          "features": [
+            "विश्वभर भुक्तानी",
+            "किनमेल",
+            "यातायात",
+            "Cashback",
+            "EasyCare सुविधा"
+          ],
+          "heading": "सबै आवश्यकताका लागि एउटै कार्ड"
+        },
+        "exchangeRate": {
+          "description": "कोरियाबाट Uzbekistan पैसा पठाउनुअघि नवीनतम GME Remit विनिमय दर हेर्नुहोस्",
+          "eyebrow": "विनिमय दर",
+          "heading": "आजको विनिमय दर हेर्नुहोस्",
+          "note": "विनिमय दर दिनभर परिवर्तन हुन सक्छ"
+        },
+        "loan": {
+          "ctaLabel": "अहिले आवेदन दिनुहोस्",
+          "description": "कोरियामा बस्ने विदेशीहरूका लागि डिजिटल ऋण सेवा। GME एपमार्फत सजिलै आवेदन दिनुहोस्।",
+          "eyebrow": "GME Loan",
+          "features": [
+            "कागजरहित ऋण आवेदन",
+            "रियल-टाइम ऋण स्थिति जाँच",
+            "रियल-टाइम ऋण बाँकी जाँच"
+          ],
+          "heading": "तपाईंको डिजिटल वित्तीय साझेदार"
+        },
+        "remittance": {
+          "ctaLabel": "अहिले पैसा पठाउनुहोस्",
+          "description": "कोरियाबाट Uzbekistan मा रहेका आफ्ना परिवार र प्रियजनहरूलाई सहयोग गर्ने सरल र सुरक्षित तरिका।",
+          "eyebrow": "GME Remit",
+          "features": [
+            "प्रतिस्पर्धी विनिमय दर",
+            "छिटो र भरपर्दो ट्रान्सफर",
+            "पारदर्शी शुल्क",
+            "आवश्यक पर्दा सहयोग"
+          ],
+          "heading": "Uzbekistan पैसा पठाउनुहोस्"
+        },
+        "simCard": {
+          "ctaLabel": "SIM योजना हेर्नुहोस्",
+          "description": "कोरियाको जीवनलाई सजिलो बनाउन तयार गरिएका मोबाइल योजनामार्फत महत्त्वपूर्ण मानिसहरूसँग सम्पर्कमा रहनुहोस्।",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "भरपर्दो कनेक्सन",
+            "लचिलो SIM योजना",
+            "सजिलो सेटअप",
+            "मैत्रीपूर्ण स्थानीय सहयोग"
+          ],
+          "heading": "कोरियामा सम्पर्कमा रहनुहोस्"
+        }
+      }
+    },
+    "vietnam": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME एप डाउनलोड गर्नुहोस्"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit क्याल्कुलेटर",
+        "exchangeRateLabel": "विनिमय दर",
+        "receiverGetsLabel": "प्राप्तकर्ताले पाउने रकम",
+        "recipientCountryLabel": "प्राप्तकर्ता देश",
+        "recipientCountryOption": "Vietnam",
+        "sendAmountLabel": "पठाउने रकम",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "अहिले पैसा पठाउनुहोस्",
+        "transferFeeLabel": "ट्रान्सफर शुल्क"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "VND",
+        "sampleTag": "नमुना रकम"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. सर्वाधिकार सुरक्षित।",
+        "logoText": "GME",
+        "tagline": "Financial services made for Vietnamese in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "एप डाउनलोड गर्नुहोस्",
+        "navItems": {
+          "company": "कम्पनी",
+          "countries": "देशहरू",
+          "news": "समाचार",
+          "services": "सेवाहरू",
+          "support": "सहायता"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "अहिले पैसा पठाउनुहोस्",
+        "ctaSecondaryLabel": "सुरु गर्नुहोस्",
+        "eyebrow": "GME Vietnam",
+        "headingLines": [
+          "घर पैसा पठाउनुहोस्।",
+          "सम्पर्कमा रहनुहोस्।",
+          "सजिलै खर्च गर्नुहोस्।"
+        ],
+        "subheading": "कोरियामा बस्ने Vietnamese का लागि भरपर्दो सेवाहरू"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit सम्बन्धी बारम्बार सोधिने प्रश्नहरू",
+          "items": [
+            {
+              "answer": [
+                "GME Remit ट्रान्सफर सामान्यतया करिब 10 सेकेन्डमा पूरा हुन्छ। वास्तविक समय प्राप्तकर्ता देश, बैंक वा रकम प्राप्त गर्ने विधिअनुसार फरक हुन सक्छ।"
+              ],
+              "question": "GME Remit मार्फत पैसा पठाउन कति समय लाग्छ?"
+            },
+            {
+              "answer": [
+                "हो। GME Remit कोरियामा इजाजतप्राप्त रेमिट्यान्स सेवा हो र सम्बन्धित वित्तीय निकायहरूको निगरानीमा सञ्चालन हुन्छ। सुरक्षित ग्राहक प्रमाणीकरण र कारोबार प्रक्रिया प्रयोग गरिन्छ।"
+              ],
+              "question": "GME Remit प्रयोग गर्न सुरक्षित छ?"
+            },
+            {
+              "answer": [
+                "GME Remit एप डाउनलोड गर्नुहोस्, खाता बनाउनुहोस् र आवश्यक पहिचान प्रमाणीकरण पूरा गर्नुहोस्। त्यसपछि सेवा प्रयोग गर्न सक्नुहुन्छ।"
+              ],
+              "question": "GME Remit खाता कसरी खोल्ने?"
+            },
+            {
+              "answer": [
+                "GME Remit ले धेरै देशमा अन्तर्राष्ट्रिय पैसा ट्रान्सफर सुविधा प्रदान गर्छ। उपलब्ध गन्तव्य र रकम प्राप्त गर्ने विकल्पहरू एपमा हेर्नुहोस्।"
+              ],
+              "question": "GME Remit मार्फत कुन-कुन देशमा पैसा पठाउन सकिन्छ?"
+            },
+            {
+              "answer": [
+                "ग्राहक सहायता टोली सोमबारदेखि आइतबार 10:00–23:00 उपलब्ध छ। {SUPPORT_PHONE_NUMBER}, GME Remit एप, आधिकारिक सामाजिक सञ्जाल वा कोरियाका GME Remit शाखामार्फत सम्पर्क गर्न सक्नुहुन्छ।"
+              ],
+              "question": "मेरो ट्रान्सफरमा समस्या आए के गर्ने?"
+            }
+          ],
+          "subheading": "GME Remit मार्फत पैसा पठाउनेबारे सामान्य प्रश्नहरूको उत्तर पाउनुहोस्"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Vietnam सँग जोडिनुहोस्",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "हाम्रो समुदायका लागि समाचार, उपयोगी सुझाव र अपडेटहरू"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME Cards हेर्नुहोस्",
+          "description": "कोरिया र विदेशमा दैनिक जीवनका लागि सजिलो भुक्तानी।",
+          "eyebrow": "GME Card",
+          "features": [
+            "विश्वभर भुक्तानी",
+            "किनमेल",
+            "यातायात",
+            "Cashback",
+            "EasyCare सुविधा"
+          ],
+          "heading": "सबै आवश्यकताका लागि एउटै कार्ड"
+        },
+        "exchangeRate": {
+          "description": "कोरियाबाट Vietnam पैसा पठाउनुअघि नवीनतम GME Remit विनिमय दर हेर्नुहोस्",
+          "eyebrow": "विनिमय दर",
+          "heading": "आजको विनिमय दर हेर्नुहोस्",
+          "note": "विनिमय दर दिनभर परिवर्तन हुन सक्छ"
+        },
+        "loan": {
+          "ctaLabel": "अहिले आवेदन दिनुहोस्",
+          "description": "कोरियामा बस्ने विदेशीहरूका लागि डिजिटल ऋण सेवा। GME एपमार्फत सजिलै आवेदन दिनुहोस्।",
+          "eyebrow": "GME Loan",
+          "features": [
+            "कागजरहित ऋण आवेदन",
+            "रियल-टाइम ऋण स्थिति जाँच",
+            "रियल-टाइम ऋण बाँकी जाँच"
+          ],
+          "heading": "तपाईंको डिजिटल वित्तीय साझेदार"
+        },
+        "remittance": {
+          "ctaLabel": "अहिले पैसा पठाउनुहोस्",
+          "description": "कोरियाबाट Vietnam मा रहेका आफ्ना परिवार र प्रियजनहरूलाई सहयोग गर्ने सरल र सुरक्षित तरिका।",
+          "eyebrow": "GME Remit",
+          "features": [
+            "प्रतिस्पर्धी विनिमय दर",
+            "छिटो र भरपर्दो ट्रान्सफर",
+            "पारदर्शी शुल्क",
+            "आवश्यक पर्दा सहयोग"
+          ],
+          "heading": "Vietnam पैसा पठाउनुहोस्"
+        },
+        "simCard": {
+          "ctaLabel": "SIM योजना हेर्नुहोस्",
+          "description": "कोरियाको जीवनलाई सजिलो बनाउन तयार गरिएका मोबाइल योजनामार्फत महत्त्वपूर्ण मानिसहरूसँग सम्पर्कमा रहनुहोस्।",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "भरपर्दो कनेक्सन",
+            "लचिलो SIM योजना",
+            "सजिलो सेटअप",
+            "मैत्रीपूर्ण स्थानीय सहयोग"
+          ],
+          "heading": "कोरियामा सम्पर्कमा रहनुहोस्"
+        }
+      }
+    }
+  }
+}

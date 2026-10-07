@@ -164,7 +164,7 @@ export function MobileAccordion({
 
 // ============ Mobile Countries Accordion ============
 export function MobileCountriesAccordion({ label, onClose }: { label: string; onClose: () => void }) {
-  const { t } = useTranslation("home.hero");
+  const { t } = useTranslation();
   const { setLanguage } = useLanguage();
   const router = useRouter();
   const [isExpanded, setIsExpanded] = useState(false);
@@ -174,7 +174,7 @@ export function MobileCountriesAccordion({ label, onClose }: { label: string; on
     () =>
       servedEntries.map((c) => ({
         ...c,
-        name: c.nameNs === "header" ? t(c.nameKey, { ns: "header" }) : t(c.nameKey),
+        name: t(c.nameKey),
       })),
     [t]
   );

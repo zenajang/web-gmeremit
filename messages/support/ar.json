@@ -1,0 +1,218 @@
+{
+  "support-branches": {
+    "address": "العنوان",
+    "data": {
+      "1": {
+        "address": "315 Jongno, Jongno-gu, سيول (محطة Dongdaemun المخرج 3)",
+        "hours": "أيام الأسبوع وعطلات نهاية الأسبوع 10:00 - 19:00",
+        "name": "فرع Dongdaemun"
+      },
+      "2": {
+        "address": "1F, 6 Damunhwa-gil, Danwon-gu, Ansan-si, Gyeonggi-do",
+        "hours": "أيام الأسبوع وعطلات نهاية الأسبوع 10:00 - 19:00",
+        "name": "فرع Ansan"
+      },
+      "3": {
+        "address": "1F, 134 Dorim-ro, Yeongdeungpo-gu, سيول",
+        "hours": "أيام الأسبوع وعطلات نهاية الأسبوع 10:00 - 19:00",
+        "name": "فرع Daerim"
+      },
+      "4": {
+        "address": "2-10 Maesan-ro, Paldal-gu, Suwon-si, Gyeonggi-do",
+        "hours": "أيام الأسبوع وعطلات نهاية الأسبوع 10:00 - 19:00",
+        "name": "فرع Suwon"
+      },
+      "5": {
+        "address": "1F, 1109-3 3·1 Manse-ro, Hyangnam-eup, Hwaseong-si, Gyeonggi-do",
+        "hours": "الجمعة - الثلاثاء 10:00 - 19:00",
+        "name": "فرع Hwaseong"
+      },
+      "6": {
+        "address": "91 Solmoru-ro, Soheul-eup, Pocheon-si, Gyeonggi-do (بجوار NH Bank)",
+        "hours": "السبت - الأربعاء 10:00 - 19:00",
+        "name": "فرع Songuri"
+      },
+      "7": {
+        "address": "16 Gwangjang-ro, Bupyeong-gu, Incheon (مركز تسوق محطة Bupyeong)",
+        "hours": "السبت - الأربعاء 10:00 - 19:00",
+        "name": "فرع Bupyeong"
+      },
+      "8": {
+        "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (مقابل Top Mart)",
+        "hours": "أيام الأسبوع وعطلات نهاية الأسبوع 10:00 - 19:00",
+        "name": "فرع Gimhae"
+      },
+      "9": {
+        "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+        "hours": "أيام الأسبوع وعطلات نهاية الأسبوع 10:00 - 19:00",
+        "name": "فرع Pyeongtaek"
+      }
+    },
+    "hours": "ساعات العمل",
+    "phone": "الهاتف"
+  },
+  "support-inquiry": {
+    "categories": {
+      "2": {
+        "items": [
+          "تسجيل الشركة والتحقق منها",
+          "المدفوعات التجارية ومدفوعات الخدمات",
+          "الرسوم وأسعار الصرف",
+          "تكامل API وتسوية المدفوعات"
+        ]
+      },
+      "7": {
+        "items": [
+          "الباقات والفوترة",
+          "التفعيل · نقل الرقم · إلغاء الخدمة",
+          "توصيل واستبدال USIM",
+          "جودة البيانات والمكالمات"
+        ]
+      }
+    },
+    "category-card": {
+      "categories": {
+        "1": {
+          "name": "تحويل الأموال الشخصي",
+          "sub": "التحويلات · أسعار الصرف · استلام الأموال"
+        },
+        "2": {
+          "name": "تحويل الأموال للأعمال (Biz)",
+          "sub": "الشركات · المدفوعات التجارية · B2B"
+        },
+        "3": {
+          "name": "القروض",
+          "sub": "الأهلية · الحدود · السداد"
+        },
+        "4": {
+          "name": "الشراكات",
+          "sub": "التحالفات · المقترحات التجارية"
+        },
+        "5": {
+          "name": "الوظائف",
+          "sub": "طلبات التوظيف · إجراءات التوظيف"
+        },
+        "6": {
+          "name": "حماية المستهلك",
+          "sub": "النزاعات · القيود · البلاغات"
+        },
+        "7": {
+          "name": "خدمات الهاتف المحمول والاتصالات",
+          "sub": "الباقات · التفعيل · USIM"
+        }
+      }
+    },
+    "category-selector": {
+      "question": "ما موضوع استفسارك؟"
+    },
+    "chat": {
+      "action": "بدء الدردشة المباشرة",
+      "description": "يرد أحد الموظفين في الوقت الفعلي. خارج ساعات العمل، سيجمع روبوت الدردشة بياناتك وسنتصل بك لاحقًا.",
+      "items": [
+        "أيام الأسبوع 09:00 - 18:00 · موظف خدمة العملاء",
+        "خارج هذه الأوقات · روبوت الدردشة وإعادة الاتصال",
+        "ندعم 12 لغة (النيبالية والفيتنامية والتايلاندية وغيرها)"
+      ]
+    },
+    "external": {
+      "action": "الانتقال إلى صفحة الاستفسارات",
+      "description": "يتم التعامل مع هذا النوع من الاستفسارات على موقع {{site}}."
+    },
+    "guide-panel": {
+      "common": {
+        "reset": "اختيار موضوع آخر"
+      }
+    },
+    "honeypot-field": {
+      "form": {
+        "honeypot": "العنوان"
+      }
+    },
+    "inquiry-form": {
+      "categories": {
+        "4": {
+          "dept": "القسم المختص"
+        },
+        "5": {
+          "dept": "قسم الموارد البشرية"
+        },
+        "6": {
+          "dept": "قسم حماية المستهلك"
+        }
+      },
+      "contentLabel": "الرسالة",
+      "contentPlaceholder": "كلما زادت التفاصيل التي تقدمها، تمكنا من تقديم إجابة أكثر دقة.",
+      "emailLabel": "البريد الإلكتروني",
+      "emailPlaceholder": "name@example.com",
+      "errors": {
+        "email": "يرجى التحقق من عنوان بريدك الإلكتروني.",
+        "failed": "تعذر إرسال استفسارك. يرجى المحاولة مرة أخرى بعد قليل.",
+        "phone": "يرجى التحقق من رقم هاتفك.",
+        "required": "يرجى ملء جميع الحقول المطلوبة.",
+        "turnstile": "يرجى إكمال التحقق الأمني."
+      },
+      "nameLabel": "الاسم",
+      "namePlaceholder": "John Doe",
+      "notice": "سيقوم {{dept}} بمراجعة استفسارك والرد عليك.",
+      "phoneLabel": "الهاتف",
+      "phonePlaceholder": "010-0000-0000",
+      "submit": "إرسال الاستفسار",
+      "titleLabel": "الموضوع",
+      "titlePlaceholder": "أدخل الموضوع"
+    },
+    "step-indicator": {
+      "steps": {
+        "connect": "2. التواصل · إرسال الطلب",
+        "select": "1. اختر موضوعًا"
+      }
+    },
+    "submission-complete": {
+      "description": "سيقوم القسم المختص بمراجعة استفسارك والرد على عنوان البريد الإلكتروني الذي قدمته.",
+      "reset": "العودة إلى البداية"
+    }
+  },
+  "support-social-channels": {
+    "contact": "الاتصال",
+    "countries_count": "24 لغة",
+    "countries": {
+      "african-region": "المنطقة الأفريقية",
+      "bangladesh": "بنغلاديش",
+      "cambodia": "كمبوديا",
+      "china": "الصين",
+      "india": "الهند",
+      "indonesia": "إندونيسيا",
+      "japan": "اليابان",
+      "korea": "كوريا",
+      "mongolia": "منغوليا",
+      "myanmar": "ميانمار",
+      "nepal": "نيبال",
+      "pakistan": "باكستان",
+      "philippines": "الفلبين",
+      "srilanka": "سريلانكا",
+      "thailand": "تايلاند",
+      "uzbekistan-cis": "أوزبكستان ودول رابطة الدول المستقلة",
+      "vietnam": "فيتنام",
+      "western": "الغربية"
+    },
+    "description": "تواصل مع GME عبر القنوات الرسمية في كل دولة",
+    "operating": "مدعوم",
+    "title": "القنوات الاجتماعية العالمية"
+  },
+  "support": {
+    "tabs": {
+      "branches": "الفروع",
+      "social_channels": "القنوات الاجتماعية"
+    },
+    "stats": {
+      "countries_label": "دول الخدمة",
+      "branches_label": "الفروع",
+      "branches_unit": "+",
+      "branches_value": "10",
+      "countries_unit": "+",
+      "countries_value": "200",
+      "services_label": "الخدمات",
+      "services_unit": "+",
+      "services_value": "8"
+    }
+  }
+}

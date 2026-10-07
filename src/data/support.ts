@@ -1,6 +1,6 @@
 export const supportTabs = [
-  { key: "branches", labelKey: "tabs.branches", href: "/support/branches" },
-  { key: "social-channels", labelKey: "tabs.social_channels", href: "/support/social-channels" },
+  { key: "branches", labelKey: "support.tabs.branches", href: "/support/branches" },
+  { key: "social-channels", labelKey: "support.tabs.social_channels", href: "/support/social-channels" },
 ];
 
 export interface SupportStat {
@@ -13,21 +13,21 @@ export interface SupportStat {
 export const supportStats: SupportStat[] = [
   {
     image: { src: "/images/common/pin.png", alt: "Pin", width: 160, height: 160 },
-    labelKey: "stats.branches_label",
-    valueKey: "stats.branches_value",
-    unitKey: "stats.branches_unit",
+    labelKey: "support.stats.branches_label",
+    valueKey: "support.stats.branches_value",
+    unitKey: "support.stats.branches_unit",
   },
   {
     image: { src: "/images/common/cs.png", alt: "cs", width: 180, height: 180 },
-    labelKey: "stats.countries_label",
-    valueKey: "stats.countries_value",
-    unitKey: "stats.countries_unit",
+    labelKey: "support.stats.countries_label",
+    valueKey: "support.stats.countries_value",
+    unitKey: "support.stats.countries_unit",
   },
   {
     image: { src: "/images/common/grid.png", alt: "grid", width: 160, height: 160 },
-    labelKey: "stats.services_label",
-    valueKey: "stats.services_value",
-    unitKey: "stats.services_unit",
+    labelKey: "support.stats.services_label",
+    valueKey: "support.stats.services_value",
+    unitKey: "support.stats.services_unit",
   },
 ];
 

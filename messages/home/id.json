@@ -1,0 +1,538 @@
+{
+  "home": {
+    "app-download-cta": {
+      "chips": [
+        "Kurs Real-Time",
+        "Jumlah Optimal",
+        "Autentikasi Aman"
+      ],
+      "description": "Autentikasi mudah dan aman, jumlah optimal, pengiriman cepat. Kelola semuanya dengan aman dan nyaman di aplikasi GME Remit.",
+      "qr_scan": "Pindai Kode QR",
+      "subtitle": "APLIKASI GME REMIT",
+      "title1": "Kirim Lebih Cepat,",
+      "title2": "Kelola Lebih Cerdas"
+    },
+    "cards-showcase": {
+      "black": {
+        "cta": "Lihat Premium Card",
+        "desc": "Kartu premium yang memberikan reward untuk pengeluaran global Anda.",
+        "highlights": [
+          "Cashback 3% Luar Negeri",
+          "Bayar di Mana Saja di Seluruh Dunia",
+          "Belanja Online & Offline",
+          "Transportasi Umum"
+        ]
+      },
+      "careers": {
+        "cta": {
+          "about": "Tentang Perusahaan"
+        }
+      },
+      "cta": {
+        "button": "Daftar Kartu",
+        "description": "Temukan kartu yang paling cocok untuk Anda dan nikmati manfaat eksklusif.",
+        "title": "Mulai GME Card Hari Ini"
+      },
+      "easyCare": {
+        "cta": "Lihat EasyCare Card",
+        "desc": "Made to Care. Kartu transportasi pascabayar dengan manfaat asuransi dan dukungan keanggotaan.",
+        "highlights": [
+          "Manfaat dukungan asuransi dan keanggotaan",
+          "Kartu Transportasi Pascabayar",
+          "Cashback Musiman dan Toko Spesial",
+          "Bayar di Mana Saja di Seluruh Dunia"
+        ]
+      },
+      "easyG0": {
+        "cta": "Lihat EasyGo Card",
+        "desc": "Membuat kehidupan sehari-hari lebih praktis. Nikmati berbagai manfaat musiman, mulai dari transportasi hingga belanja.",
+        "highlights": [
+          "Kartu Transportasi Pascabayar",
+          "Cashback Musiman dan Toko Spesial",
+          "Pembayaran global",
+          "Belanja online & offline"
+        ]
+      },
+      "image_alt": "Gambar kartu",
+      "loan": {
+        "cta": {
+          "button": "Unduh Aplikasi"
+        }
+      },
+      "pay": {
+        "cta": "Lihat Pay Card",
+        "desc": "Kartu pembayaran serbaguna untuk pengeluaran sehari-hari Anda.",
+        "highlights": [
+          "Cashback Musiman dan Toko Spesial",
+          "Bayar di Mana Saja di Seluruh Dunia",
+          "Belanja Online & Offline",
+          "Transportasi Umum"
+        ]
+      },
+      "red": {
+        "cta": "Lihat Red Card",
+        "desc": "Kartu warna khas GME. Jadikan setiap pembayaran penuh gaya.",
+        "highlights": [
+          "Cashback Musiman",
+          "Diskon event khusus",
+          "Kereta · Bus · Taksi bayar mudah",
+          "Transportasi umum"
+        ]
+      },
+      "uniq": {
+        "cta": "Lihat UniQ Card",
+        "desc": "Pilih kartu Anda dari 30+ desain dari 18 negara.",
+        "highlights": [
+          "Cashback Musiman dan Toko Spesial",
+          "Diskon event khusus",
+          "18 Negara 30+ Desain",
+          "Kereta · Bus · Taksi bayar mudah"
+        ]
+      },
+      "white": {
+        "cta": "Lihat White Card",
+        "desc": "Kartu harian yang simpel dan bersih. Nyaman untuk pembayaran domestik dan transportasi umum.",
+        "highlights": [
+          "Cashback Musiman",
+          "Diskon event khusus",
+          "Kereta · Bus · Taksi bayar mudah",
+          "Transportasi umum"
+        ]
+      }
+    },
+    "customer-feedback-section": {
+      "subtitle": "Pengalaman nyata dari pelanggan kami.",
+      "tags": {
+        "easy_tracking": "Kirim & Lacak Mudah",
+        "fast_process": "Proses Cepat",
+        "satisfied": "Layanan Memuaskan"
+      },
+      "title": "Ulasan"
+    },
+    "hero-main": {
+      "badge": "Layanan Pengiriman Uang Terbaik",
+      "button": {
+        "learn_more": "Pelajari Lebih Lanjut"
+      },
+      "countries": {
+        "names": {
+          "AD": "Andorra",
+          "AE": "Uni Emirat Arab",
+          "AG": "Antigua and Barbuda",
+          "AI": "Anguilla",
+          "AL": "Albania",
+          "AM": "Armenia",
+          "AO": "Angola",
+          "AR": "Argentina",
+          "AS": "American Samoa",
+          "AT": "Austria",
+          "AU": "Australia",
+          "AW": "Aruba",
+          "AZ": "Azerbaijan",
+          "BA": "Bosnia and Herzegovina",
+          "BB": "Barbados",
+          "BD": "Bangladesh",
+          "BE": "Belgium",
+          "BF": "Burkina Faso",
+          "BG": "Bulgaria",
+          "BH": "Bahrain",
+          "BI": "Burundi",
+          "BJ": "Benin",
+          "BL": "Saint Barthélemy",
+          "BM": "Bermuda",
+          "BN": "Brunei",
+          "BO": "Bolivia",
+          "BR": "Brasil",
+          "BS": "Bahamas",
+          "BT": "Bhutan",
+          "BW": "Botswana",
+          "BY": "Belarus",
+          "BZ": "Belize",
+          "CA": "Kanada",
+          "CD": "Democratic Republic of the Congo",
+          "CF": "Central African Republic",
+          "CG": "Republic of the Congo",
+          "CH": "Swiss",
+          "CI": "Ivory Coast",
+          "CK": "Cook Islands",
+          "CL": "Chili",
+          "CM": "Cameroon",
+          "CN": "Tiongkok",
+          "CO": "Kolombia",
+          "CR": "Costa Rica",
+          "CU": "Cuba",
+          "CV": "Cape Verde",
+          "CY": "Cyprus",
+          "CZ": "Republik Ceko",
+          "DE": "Jerman",
+          "DJ": "Djibouti",
+          "DK": "Denmark",
+          "DM": "Dominica",
+          "DO": "Republik Dominika",
+          "DZ": "Algeria",
+          "EC": "Ecuador",
+          "EE": "Estonia",
+          "EG": "Egypt",
+          "ER": "Eritrea",
+          "ES": "Spain",
+          "ET": "Ethiopia",
+          "FI": "Finland",
+          "FJ": "Fiji",
+          "FM": "Micronesia",
+          "FR": "France",
+          "GA": "Gabon",
+          "GB": "Inggris",
+          "GD": "Grenada",
+          "GE": "Georgia",
+          "GF": "French Guiana",
+          "GH": "Ghana",
+          "GI": "Gibraltar",
+          "GM": "Gambia",
+          "GN": "Guinea",
+          "GP": "Guadeloupe",
+          "GQ": "Equatorial Guinea",
+          "GR": "Greece",
+          "GT": "Guatemala",
+          "GU": "Guam",
+          "GW": "Guinea-Bissau",
+          "GY": "Guyana",
+          "HK": "Hong Kong",
+          "HN": "Honduras",
+          "HR": "Croatia",
+          "HT": "Haiti",
+          "HU": "Hungaria",
+          "ID": "Indonesia",
+          "IE": "Ireland",
+          "IL": "Israel",
+          "IN": "India",
+          "IS": "Iceland",
+          "IT": "Italy",
+          "JM": "Jamaica",
+          "JO": "Yordania",
+          "JP": "Jepang",
+          "KE": "Kenya",
+          "KG": "Kyrgyzstan",
+          "KH": "Kamboja",
+          "KM": "Comoros",
+          "KN": "Saint Kitts and Nevis",
+          "KW": "Kuwait",
+          "KY": "Cayman Islands",
+          "KZ": "Kazakhstan",
+          "LA": "Laos",
+          "LB": "Lebanon",
+          "LC": "Saint Lucia",
+          "LI": "Liechtenstein",
+          "LK": "Sri Lanka",
+          "LR": "Liberia",
+          "LS": "Lesotho",
+          "LT": "Lithuania",
+          "LU": "Luxembourg",
+          "LV": "Latvia",
+          "LY": "Libya",
+          "MA": "Maroko",
+          "MC": "Monaco",
+          "MD": "Moldova",
+          "ME": "Montenegro",
+          "MF": "Saint Martin (French part)",
+          "MG": "Madagascar",
+          "MH": "Marshall Islands",
+          "MK": "Macedonia",
+          "ML": "Mali",
+          "MM": "Myanmar",
+          "MN": "Mongolia",
+          "MO": "Macao",
+          "MQ": "Martinique",
+          "MR": "Mauritania",
+          "MS": "Montserrat",
+          "MT": "Malta",
+          "MU": "Mauritius",
+          "MV": "Maldives",
+          "MW": "Malawi",
+          "MX": "Meksiko",
+          "MY": "Malaysia",
+          "MZ": "Mozambique",
+          "NA": "Namibia",
+          "NC": "New Caledonia",
+          "NE": "Niger",
+          "NG": "Nigeria",
+          "NI": "Nicaragua",
+          "NL": "Netherlands",
+          "NO": "Norwegia",
+          "NP": "Nepal",
+          "NZ": "Selandia Baru",
+          "OM": "Oman",
+          "PA": "Panama",
+          "PE": "Peru",
+          "PF": "French Polynesia",
+          "PG": "Papua New Guinea",
+          "PH": "Filipina",
+          "PK": "Pakistan",
+          "PL": "Polandia",
+          "PR": "Puerto Rico",
+          "PS": "Palestinian Territory, Occupied",
+          "PT": "Portugal",
+          "PY": "Paraguay",
+          "QA": "Qatar",
+          "RE": "Réunion",
+          "RO": "Rumania",
+          "RS": "Serbia",
+          "RU": "Rusia",
+          "RW": "Rwanda",
+          "SA": "Arab Saudi",
+          "SB": "Solomon Islands",
+          "SC": "Seychelles",
+          "SD": "Sudan",
+          "SE": "Sweden",
+          "SG": "Singapura",
+          "SI": "Slovenia",
+          "SK": "Slovakia",
+          "SL": "Sierra Leone",
+          "SN": "Senegal",
+          "SR": "Suriname",
+          "SS": "South Sudan",
+          "ST": "Sao Tome and Principe",
+          "SV": "El Salvador",
+          "SZ": "Swaziland",
+          "TC": "Turks and Caicos Islands",
+          "TD": "Chad",
+          "TG": "Togo",
+          "TH": "Thailand",
+          "TJ": "Tajikistan",
+          "TL": "Timor-Leste",
+          "TM": "Turkmenistan",
+          "TN": "Tunisia",
+          "TO": "Tonga",
+          "TR": "Turkey",
+          "TT": "Trinidad and Tobago",
+          "TV": "Tuvalu",
+          "TZ": "Tanzania",
+          "UA": "Ukraine",
+          "UG": "Uganda",
+          "US": "Amerika Serikat",
+          "UY": "Uruguay",
+          "UZ": "Uzbekistan",
+          "VC": "Saint Vincent and the Grenadines",
+          "VE": "Venezuela",
+          "VG": "Virgin Islands, British",
+          "VI": "Virgin Islands, U.S.",
+          "VN": "Vietnam",
+          "VU": "Vanuatu",
+          "WS": "Samoa",
+          "XK": "Kosovo",
+          "YE": "Yemen",
+          "YT": "Mayotte",
+          "ZA": "South Africa",
+          "ZM": "Zambia",
+          "ZW": "Zimbabwe"
+        },
+        "realtime": "Real-Time",
+        "subtitle": "Mendukung 200+ negara",
+        "title": "Negara Didukung",
+        "view_all": "Pelajari tentang Pengiriman Uang"
+      },
+      "description1": "Kirim ke 200+ negara, semua bank Korea secara real-time.",
+      "description2": "Aman dengan 70 mitra global dan verifikasi E-KYC.",
+      "rating": "Rata-rata App Store · Google Play",
+      "stats": {
+        "avg_time": "Waktu Kirim Rata-rata",
+        "seconds": "detik",
+        "total_amount": "Total Pengiriman",
+        "trillion": "triliun+"
+      },
+      "title1": "Cepat dan Aman",
+      "title2": "Pengiriman Uang Internasional"
+    },
+    "hero-section": {
+      "exchange": {
+        "description1": "Kurs real-time untuk 200+ negara.",
+        "description2": "Biaya transparan.",
+        "stats": {
+          "countries": "200+",
+          "countries_label": "Negara Didukung",
+          "service": "24/7",
+          "service_label": "Layanan Real-Time"
+        },
+        "title1": "Cek Kurs",
+        "title2": "Sekarang"
+      }
+    },
+    "loan-section": {
+      "button": {
+        "apply": "Ajukan Pinjaman di Aplikasi GME",
+        "detail": "Pelajari Lebih Lanjut tentang Pinjaman"
+      },
+      "card": {
+        "quick_apply": "Daftar Cepat",
+        "subtitle": "Pinjaman untuk Warga Asing",
+        "title": "GME Finance"
+      },
+      "description": "Ajukan pinjaman dalam hitungan menit dengan aplikasi GME. Cek status dan saldo secara real-time kapan saja, di mana saja.",
+      "features": {
+        "countries": {
+          "desc": "Negara",
+          "label": "14+"
+        },
+        "realtime": {
+          "desc": "Pelacakan",
+          "label": "Real-Time"
+        },
+        "simple": {
+          "desc": "Pendaftaran via Aplikasi",
+          "label": "Mudah"
+        },
+        "success": {
+          "desc": "Pinjaman",
+          "label": "1M+"
+        },
+        "support": {
+          "desc": "Dukungan",
+          "label": "24/7"
+        }
+      },
+      "stats": {
+        "desc": "1 juta+ pinjaman · 14 Negara",
+        "title": "Kinerja Pinjaman Kumulatif",
+        "value": "₩500B+"
+      },
+      "title": "Pinjaman Online"
+    },
+    "main-services": {
+      "card": {
+        "desc1": "Kartu pintar yang menghubungkan pengiriman uang dan pengeluaran.",
+        "desc2": "Standar baru untuk pembayaran global.",
+        "title": "GME Card"
+      },
+      "loan": {
+        "desc1": "Persetujuan cepat dan ketentuan fleksibel",
+        "desc2": "Layanan pinjaman digital",
+        "title": "Pinjaman Online"
+      },
+      "mobile": {
+        "desc1": "Paket seluler hemat mulai",
+        "desc2": "dari hanya ₩3.300/bulan",
+        "title": "Seluler"
+      },
+      "payments": {
+        "desc1": "Pembayaran massal, penyelesaian mitra.",
+        "desc2": "Alur pembayaran korporat yang cepat dan aman.",
+        "title": "Pembayaran Global"
+      },
+      "remittance": {
+        "desc1": "Kirim uang dengan cepat dan aman",
+        "desc2": "ke 200+ negara.",
+        "title": "Pengiriman Uang Internasional"
+      },
+      "title1": "Jelajahi",
+      "title2": "Berbagai Layanan GME"
+    },
+    "payments-section": {
+      "global_payments": {
+        "button": {
+          "detail": "Pelajari Lebih Lanjut tentang Payments"
+        },
+        "card": {
+          "status": "Aktif",
+          "subtitle": "Solusi Korporat",
+          "title": "Solusi Pembayaran"
+        },
+        "description": "Pembayaran gaji, penyelesaian mitra, pembayaran e-commerce. Solusi pembayaran korporat hemat biaya.",
+        "features": {
+          "smb": "SMB",
+          "smb_desc": "Solusi E-Commerce",
+          "sps": "SPS",
+          "sps_desc": "Solusi Pembayaran B2B",
+          "vas": "VAS",
+          "vas_desc": "Notifikasi · Laporan · Dashboard"
+        },
+        "stats": {
+          "cost_saving": "Penghematan Biaya",
+          "cost_saving_change": "vs tradisional",
+          "cost_saving_value": "Hingga 70%",
+          "partners": "Mitra",
+          "partners_change": "Global",
+          "partners_value": "200+",
+          "success_rate": "Tingkat Keberhasilan",
+          "success_rate_change": "Normal",
+          "success_rate_value": "99,8%"
+        },
+        "title": "Pembayaran Global",
+        "transactions": {
+          "b2b": "Transfer Massal B2B",
+          "completed": "Selesai",
+          "just_now": "Baru saja",
+          "merchant": "Pembayaran Merchant",
+          "mins_ago": "menit lalu",
+          "partner": "Pembayaran Mitra",
+          "processing": "Diproses",
+          "title": "Transaksi Terbaru"
+        }
+      }
+    },
+    "remittance-section": {
+      "button": {
+        "detail": "Pelajari Lebih Lanjut tentang Pengiriman Uang"
+      },
+      "description": "Kirim uang dengan cepat dan aman ke 200+ negara.",
+      "features": {
+        "fast": {
+          "back_desc": "Kirim ke mana saja di dunia hanya dengan beberapa ketukan, tanpa langkah rumit.",
+          "back_title": "Pengiriman Sederhana",
+          "desc": "Selesaikan pengiriman uang internasional hanya dengan beberapa klik",
+          "sub": "Beberapa Klik",
+          "title": "Kirim Cepat"
+        },
+        "global": {
+          "back_desc": "Kirim ke seluruh dunia dengan 200+ negara dan 70 mitra global.",
+          "back_title": "Jaringan Global",
+          "desc": "Lebih dari satu juta pengguna di seluruh dunia mempercayai GME",
+          "sub": "1M+ Pengguna",
+          "title": "200+ Negara"
+        },
+        "optimized": {
+          "back_desc": "Biaya hingga 90% lebih murah dari bank. Kirim lebih banyak dengan kurs real-time.",
+          "back_title": "Penghematan Besar",
+          "desc": "Biaya 90% lebih murah dan kurs lebih baik dari bank",
+          "sub": "Hemat 90%",
+          "title": "Jumlah Optimal"
+        },
+        "security": {
+          "back_desc": "Kirim dengan aman dengan verifikasi E-KYC dan layanan terdaftar FSC.",
+          "back_title": "Keamanan Menyeluruh",
+          "desc": "Gunakan dengan tenang berkat keamanan yang kuat",
+          "sub": "Terverifikasi",
+          "title": "Mudah & Aman"
+        }
+      },
+      "title": "Pengiriman Uang Internasional"
+    },
+    "section-nav": {
+      "app_download": "Unduh Aplikasi",
+      "customer_feedback": "Ulasan",
+      "exchange": "Kalkulator Kurs",
+      "home": "Beranda",
+      "services": "Layanan"
+    },
+    "hero": {
+      "countries": {
+        "more": "Lainnya"
+      }
+    },
+    "services": {
+      "loan": {
+        "estimated_limit": "Estimasi Limit"
+      }
+    },
+    "section_nav": {
+      "testimonials": "Ulasan"
+    },
+    "testimonials": {
+      "subtitle": "Pengalaman nyata dari pelanggan kami.",
+      "tags": {
+        "easy_tracking": "Kirim & Lacak Mudah",
+        "fast_process": "Proses Cepat",
+        "satisfied": "Layanan Memuaskan"
+      },
+      "title": "Ulasan"
+    }
+  }
+}

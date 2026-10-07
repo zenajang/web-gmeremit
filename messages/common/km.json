@@ -1,0 +1,227 @@
+{
+  "header": {
+    "link": {
+      "careers": "អាជីព"
+    },
+    "nav": {
+      "blog": "ប្លក់",
+      "branches": "សាខា",
+      "card": "GME Card",
+      "ceo_message": "សារ​របស់ CEO",
+      "company": "ក្រុមហ៊ុន",
+      "history": "ប្រវត្តិ",
+      "inquiry": "ការសាកសួរ",
+      "loan": "GME Loan",
+      "news": "ព័ត៌មាន",
+      "notice": "សេចក្តីជូនដំណឹង",
+      "payments": "GME Payments (B2B)",
+      "press": "ព័ត៌មាន / សារព័ត៌មាន",
+      "remittance": "GME App Remittance",
+      "services": "សេវា",
+      "services_menu": "ម៉ឺនុយសេវា",
+      "social_channels": "ឆានែលសង្គម",
+      "support": "ការគាំទ្រ",
+      "telecom": "ទូរសព្ទ"
+    }
+  },
+  "footer": {
+    "company_name": "Global Money Express",
+    "copyright": "© Global Money Express, រក្សាសិទ្ធិគ្រប់យ៉ាង។",
+    "info": {
+      "address": "អាសយដ្ឋាន: 901~911Ho, B-dong, Saenggak Gongjang Bldg., 150, Yeongdeungpo-ro, Yeongdeungpo-gu, Seoul, Korea 07292",
+      "email_support": "សំណួរ: support@gmeremit.com",
+      "fax": "ទូរសារ: (+82) 2 3674 5559",
+      "phone_general": "02-3673-5559 (សំណួរទូទៅ)",
+      "remittance_inquiry": "សំណួរអំពីការផ្ញើប្រាក់"
+    },
+    "link": {
+      "privacy": "គោលការណ៍ឯកជនភាព",
+      "terms": "លក្ខខណ្ឌសេវាកម្ម"
+    }
+  },
+  "common": {
+    "blog-grid": {
+      "board": {
+        "by": "By"
+      }
+    },
+    "board": {
+      "error_description": "សូមព្យាយាមម្តងទៀតនៅពេលក្រោយ។",
+      "error_title": "មិនអាចផ្ទុកការប្រកាសបានទេ"
+    },
+    "careers": {
+      "cta": {
+        "openings": "មើលមុខតំណែងបើក",
+        "subtitle": "ពិនិត្យមុខតំណែងទំនេររបស់យើង និងដាក់ពាក្យថ្ងៃនេះ។",
+        "title": "រួចរាល់ចូលរួមជាមួយ GME ឬនៅ?"
+      }
+    },
+    "exchange-rate-calculator": {
+      "home": {
+        "exchange": {
+          "calculator": {
+            "bank_deposit": "ដាក់ប្រាក់ធនាគារ",
+            "cash_payment": "ទទួលសាច់ប្រាក់",
+            "delivery_method": "វិធីផ្ញើប្រាក់",
+            "error": "បរាជ័យ",
+            "error_failed": "មិនអាចទាញយកអត្រាប្តូរប្រាក់បានទេ",
+            "error_limit": "លើសកំណត់នៃការផ្ញើប្រាក់",
+            "error_max_amount": "ចំនួនទឹកប្រាក់ផ្ញើអតិបរមា: %1$s KRW",
+            "error_min_amount": "ចំនួនទឹកប្រាក់ផ្ញើអប្បបរមា: %1$s KRW",
+            "error_network": "កំហុសបណ្តាញ",
+            "error_unavailable": "មិនអាចសាកសួរចំនួនទឹកប្រាក់នេះបានទេ",
+            "error_unavailable_method": "មិនអាចប្រើវិធីផ្ញើនេះបានទេនៅពេលនេះ",
+            "fee": "រួមបញ្ចូលថ្លៃសេវា",
+            "loading": "កំពុងផ្ទុក...",
+            "mobile_wallet": "កាបូបទូរសព្ទចល័ត",
+            "no_results": "មិនមានលទ្ធផល",
+            "payout_methods": {
+              "1": "ទទួលសាច់ប្រាក់",
+              "2": "ដាក់ប្រាក់ធនាគារ",
+              "12": "ដឹកជញ្ជូនដល់ផ្ទះ",
+              "13": "កាបូបទូរសព្ទចល័ត",
+              "14": "ការទូទាត់ដោយកាត",
+              "15": "Bank Deposit (USD)",
+              "16": "WeChat Pay",
+              "17": "Alipay",
+              "18": "Visa/Mastercard/UnionPay",
+              "19": "Visa/Mastercard",
+              "24": "UPTION",
+              "25": "UPI",
+              "26": "UZCARD",
+              "27": "HUMO Card",
+              "33": "bKash",
+              "34": "Rocket",
+              "35": "Nagad",
+              "37": "ការទូទាត់ QR",
+              "38": "Korti Milli"
+            },
+            "qr_pay": "ការទូទាត់ QR",
+            "rate": "អត្រាប្តូរប្រាក់",
+            "realtime": "ពេលវេលាពិត",
+            "receive_amount": "ចំនួនទទួលបាន",
+            "receive_country": "ប្រទេសទទួល",
+            "search_placeholder": "ស្វែងរកប្រទេស",
+            "send_amount": "ចំនួនផ្ញើ",
+            "title": "ម៉ាស៊ីនគណនាអត្រាប្តូរប្រាក់ពេលវេលាពិត"
+          }
+        }
+      }
+    },
+    "loan": {
+      "cta": {
+        "description": "ទទួលទឹកប្រាក់ដែលអ្នកត្រូវការយ៉ាងរហ័ស ជាមួយការដាក់ពាក្យតាមទូរស័ព្ទងាយស្រួល។",
+        "inline_notice": "ⓘ ការចុចប៊ូតុងខាងក្រោមនឹងភ្ជាប់អ្នកទៅសេវាឥណទានដែលផ្តល់ដោយ GME Finance។",
+        "title": "ចាប់ផ្តើមកម្ចីរបស់អ្នកជាមួយកម្មវិធី GME ថ្ងៃនេះ"
+      }
+    },
+    "mobile-section": {
+      "hero": {
+        "description": "សូមជ្រើសរើសប្រភេទសំណួរ យើងនឹងណែនាំអ្នកទៅផ្នែកដែលទទួលបន្ទុក។"
+      }
+    },
+    "payments": {
+      "business": {
+        "cta": {
+          "description": "ពង្រីកអាជីវកម្មរបស់អ្នកជាមួយដំណោះស្រាយការទូទាត់សកល។ អ្នកគ្រប់គ្រងផ្តាច់មុខរបស់យើងនឹងស្នើដំណោះស្រាយដ៏ល្អបំផុតសម្រាប់អ្នក។",
+          "email": "corporate@gmeremit.com",
+          "title": "ចាប់ផ្តើមជាមួយ GME Payments"
+        }
+      }
+    },
+    "remittance": {
+      "features": {
+        "app": {
+          "desc": "បញ្ចប់ការផ្ញើប្រាក់ក្នុងចុចប៉ុន្មាន",
+          "title": "ផ្ញើតាមកម្មវិធី"
+        },
+        "branches": {
+          "desc": "ទទួលការគាំទ្រនៅសាខាទូទាំងប្រទេស",
+          "title": "សាខាក្រៅអនឡាញ"
+        },
+        "convenient": {
+          "desc": "លំហូរងាយយល់ គ្រប់គ្នាអាចប្រើបាន",
+          "title": "បទពិសោធន៍ងាយស្រួល"
+        },
+        "multilingual": {
+          "desc": "ប្រើសេវាជាច្រើនភាសា",
+          "title": "គាំទ្រភាសាច្រើន"
+        },
+        "subtitle": "ផ្ទេរ និងតាមដានអ្វីៗក្នុងកម្មវិធីតែមួយ",
+        "title": "ងាយស្រួល",
+        "title2": "សុវត្ថិភាពបំផុត"
+      }
+    },
+    "services": {
+      "chat": {
+        "title": "អ្នកនឹងត្រូវភ្ជាប់ទៅការជជែកផ្ទាល់"
+      },
+      "complete": {
+        "title": "សំណួររបស់អ្នកត្រូវបានទទួល"
+      },
+      "external": {
+        "title": "កំពុងទៅ {{site}}"
+      },
+      "hero": {
+        "title": "តើយើងអាចជួយអ្នកអ្វីបាន"
+      }
+    },
+    "support": {
+      "hero": {
+        "desc1": "តាមរយៈសាខាជាតិ និងឆានែលសង្គមសកល",
+        "desc2": "អ្នកអាចទទួលការគាំទ្រ និងសួរសំណួរបានគ្រប់ពេល។",
+        "desc3": "ស្វែងរកសាខាជិតអ្នក ឬភ្ជាប់ជាមួយយើងតាមបណ្តាញសង្គម។",
+        "title": "GME, នៅជិតអ្នកជានិច្ច"
+      }
+    },
+    "telecom-page-client": {
+      "cta": {
+        "button": "ទៅកាន់ GME Mobile",
+        "description": "សន្សំលើវិក្កយបត្រទូរសព្ទជាមួយផែនការតម្លៃសមរម្យ មានជា 17 ភាសា។",
+        "title": "ចាប់ផ្តើមជាមួយ GME Mobile"
+      },
+      "features": {
+        "activation": {
+          "description": "ធ្វើឱ្យសកម្មដោយខ្លួនឯងយ៉ាងងាយស្រួលពីកម្មវិធី",
+          "title": "ការធ្វើឱ្យសកម្ម 5 នាទី"
+        },
+        "affordable": {
+          "description": "ផែនការតម្លៃថោកសម្រាប់ជនបរទេស",
+          "title": "ចាប់ពី ₩3,300/ខែ"
+        },
+        "esim": {
+          "description": "ស្កេនកូដ QR និងធ្វើឱ្យសកម្មភ្លាមៗ",
+          "title": "ការគាំទ្រ eSIM"
+        },
+        "intl_call": {
+          "description": "ផែនការខ្លះមាន 20 នាទី/ថ្ងៃនៃការហៅអន្តរជាតិ",
+          "title": "រួមបញ្ចូលការហៅអន្តរជាតិ"
+        },
+        "multilang": {
+          "description": "ប្រើជាភាសាកំណើតរបស់អ្នក",
+          "title": "17 ភាសា"
+        },
+        "network": {
+          "description": "ការគ្របដណ្តប់ដែលអាចទុកចិត្តបានទូទាំងប្រទេស",
+          "title": "គុណភាពស្មើនឹង LGU+, KT"
+        },
+        "plans": {
+          "description": "ផែនការដែលចាប់ផ្តើមត្រឹមតែ ₩3,300/ខែ",
+          "title": "ផែនការដែលអាចបត់បែនបាន"
+        },
+        "usim": {
+          "description": "បញ្ជូនទៅអ្នក និងធ្វើឱ្យសកម្មក្នុងរយៈពេល 5 នាទី",
+          "title": "ការធ្វើឱ្យសកម្ម USIM ដោយខ្លួនឯង"
+        }
+      }
+    },
+    "company": {
+      "tabs": {
+        "title": "អំពីក្រុមហ៊ុន"
+      }
+    },
+    "button": {
+      "app_download": "ទាញយកកម្មវិធី"
+    }
+  }
+}

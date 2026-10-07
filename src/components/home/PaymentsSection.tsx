@@ -39,7 +39,7 @@ const featureIcons: Record<string, ReactNode> = {
 };
 
 export default function PaymentsSection() {
-  const { t } = useTranslation("home.global_payments");
+  const { t } = useTranslation();
 
   return (
     <section id="payments-section" className="relative overflow-hidden flex items-center snap-section lg:min-h-[calc(100svh-var(--header-height))] py-10 sm:py-12 lg:py-0">
@@ -52,13 +52,13 @@ export default function PaymentsSection() {
         <div className="w-full grid lg:grid-cols-[1fr_1.2fr] gap-8 lg:gap-20 items-center">
           <div className="order-1 lg:order-2">
             <p className="typo-eyebrow text-payments mb-3">PAYMENTS</p>
-            <h2 className="typo-section-title mb-5">{t("title")}</h2>
+            <h2 className="typo-section-title mb-5">{t("home.payments-section.global_payments.title")}</h2>
             <p className="typo-section-subtitle text-gray-600 mb-5 sm:mb-8">
-              {t("description")}
+              {t("home.payments-section.global_payments.description")}
             </p>
             <CTAButton
               href="/services/payments"
-              label={t("button.detail")}
+              label={t("home.payments-section.global_payments.button.detail")}
               className="text-payments bg-blue-100 hover:bg-blue-200"
               iconClassName="bg-payments"
             />
@@ -79,13 +79,13 @@ export default function PaymentsSection() {
                     </svg>
                   </div>
                   <div>
-                    <p className="typo-label">{t("card.title")}</p>
-                    <p className="typo-caption">{t("card.subtitle")}</p>
+                    <p className="typo-label">{t("home.payments-section.global_payments.card.title")}</p>
+                    <p className="typo-caption">{t("home.payments-section.global_payments.card.subtitle")}</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-1.5">
                   <span className="w-2 h-2 rounded-full bg-success animate-pulse" />
-                  <span className="text-xs font-semibold text-success">{t("card.status")}</span>
+                  <span className="text-xs font-semibold text-success">{t("home.payments-section.global_payments.card.status")}</span>
                 </div>
               </div>
 
@@ -93,9 +93,9 @@ export default function PaymentsSection() {
               <div className="grid grid-cols-3 gap-2 sm:gap-3 mb-3 sm:mb-4">
                 {statKeys.map((key) => (
                   <div key={key} className="rounded-xl bg-gray-50 p-3 sm:p-5">
-                    <p className="typo-caption mb-1">{t(`stats.${key}`)}</p>
-                    <p className="typo-card-title">{t(`stats.${key}_value`)}</p>
-                    <p className={`typo-micro mt-0.5 ${statTextColors[key]}`}>{t(`stats.${key}_change`)}</p>
+                    <p className="typo-caption mb-1">{t(`home.payments-section.global_payments.stats.${key}`)}</p>
+                    <p className="typo-card-title">{t(`home.payments-section.global_payments.stats.${key}_value`)}</p>
+                    <p className={`typo-micro mt-0.5 ${statTextColors[key]}`}>{t(`home.payments-section.global_payments.stats.${key}_change`)}</p>
                   </div>
                 ))}
               </div>
@@ -103,7 +103,7 @@ export default function PaymentsSection() {
               {/* Transaction List */}
               <div className="rounded-2xl border border-gray-200 overflow-hidden">
                 <div className="px-4 py-2.5 bg-gray-50 border-b border-gray-200">
-                  <p className="typo-caption font-semibold">{t("transactions.title")}</p>
+                  <p className="typo-caption font-semibold">{t("home.payments-section.global_payments.transactions.title")}</p>
                 </div>
                 <div className="divide-y divide-gray-200">
                   {transactionDefs.map((tx) => (
@@ -111,15 +111,15 @@ export default function PaymentsSection() {
                       <div className="flex items-center gap-3">
                         <span className="text-xl">{tx.icon}</span>
                         <div>
-                          <p className="text-sm font-semibold text-dark">{t(`transactions.${tx.key}`)}</p>
+                          <p className="text-sm font-semibold text-dark">{t(`home.payments-section.global_payments.transactions.${tx.key}`)}</p>
                           <p className="typo-caption">
-                            {tx.timePre ? `${tx.timePre} ${t(`transactions.${tx.timeKey}`)}` : t(`transactions.${tx.timeKey}`)}
+                            {tx.timePre ? `${tx.timePre} ${t(`home.payments-section.global_payments.transactions.${tx.timeKey}`)}` : t(`home.payments-section.global_payments.transactions.${tx.timeKey}`)}
                           </p>
                         </div>
                       </div>
                       <div className="text-right">
                         <p className="typo-label">{tx.amount}</p>
-                        <p className={`typo-micro ${tx.statusColorClass}`}>{t(`transactions.${tx.statusKey}`)}</p>
+                        <p className={`typo-micro ${tx.statusColorClass}`}>{t(`home.payments-section.global_payments.transactions.${tx.statusKey}`)}</p>
                       </div>
                     </div>
                   ))}
@@ -133,8 +133,8 @@ export default function PaymentsSection() {
                     <div className="w-9 h-9 rounded-lg bg-white flex items-center justify-center text-payments mx-auto mb-2 shadow-sm">
                       {featureIcons[key]}
                     </div>
-                    <p className="text-xs font-bold text-dark">{t(`features.${key}`)}</p>
-                    <p className="typo-micro text-gray-400 mt-0.5">{t(`features.${key}_desc`)}</p>
+                    <p className="text-xs font-bold text-dark">{t(`home.payments-section.global_payments.features.${key}`)}</p>
+                    <p className="typo-micro text-gray-400 mt-0.5">{t(`home.payments-section.global_payments.features.${key}_desc`)}</p>
                   </div>
                 ))}
               </div>

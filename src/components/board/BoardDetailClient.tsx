@@ -54,7 +54,7 @@ export default function BoardDetailClient() {
   const isNumericId = typeof idParam === "string" && /^\d+$/.test(idParam);
   const hasInvalidId = !idParam;
   const supabase = createClient();
-  const { t } = useTranslation("board");
+  const { t } = useTranslation();
 
   const [entry, setEntry] = useState<BoardEntry | null>(null);
   const [loading, setLoading] = useState(!hasInvalidId);
@@ -103,25 +103,25 @@ export default function BoardDetailClient() {
         </div>
       ) : fetchError ? (
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
-          <p className="text-lg font-semibold text-gray-900 mb-2">{t("error_title")}</p>
-          <p className="text-sm text-gray-500 mb-6">{t("error_description")}</p>
+          <p className="text-lg font-semibold text-gray-900 mb-2">{t("common.board.error_title")}</p>
+          <p className="text-sm text-gray-500 mb-6">{t("common.board.error_description")}</p>
           <Link
             href="/board"
             className="text-primary hover:underline font-medium"
           >
-            {t("detail.back_to_list")}
+            {t("board-detail.board-detail-client.back_to_list")}
           </Link>
         </div>
       ) : hasInvalidId || !entry ? (
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
           <h1 className="text-2xl font-bold text-gray-900 mb-4">
-            {t("detail.not_found")}
+            {t("board-detail.board-detail-client.not_found")}
           </h1>
           <Link
             href="/board"
             className="text-primary hover:underline font-medium"
           >
-            {t("detail.back_to_list")}
+            {t("board-detail.board-detail-client.back_to_list")}
           </Link>
         </div>
       ) : (
@@ -134,7 +134,7 @@ export default function BoardDetailClient() {
                 className="flex items-center gap-2 text-gray-600 hover:text-primary transition-colors group cursor-pointer"
               >
                 <HiChevronLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform cursor-pointer" />
-                <span className="text-sm font-medium">{t("detail.back")}</span>
+                <span className="text-sm font-medium">{t("board-detail.board-detail-client.back")}</span>
               </button>
             </div>
 
@@ -152,7 +152,7 @@ export default function BoardDetailClient() {
               <div className="flex items-center justify-between gap-3">
                 {entry.type === "blog" || entry.author ? (
                   <span className="text-base font-semibold text-dark">
-                    {t("by")} {entry.author || "GME Remittance"}
+                    {t("common.blog-grid.board.by")} {entry.author || "GME Remittance"}
                   </span>
                 ) : (
                   <span />
@@ -191,7 +191,7 @@ export default function BoardDetailClient() {
             {entry.has_attachment && entry.attachment_url && (
               <div className="mt-10 p-6 rounded-2xl border border-[var(--border-soft)] bg-[var(--surface-1)]">
                 <h3 className="text-sm font-semibold text-gray-700 mb-3">
-                  {t("detail.attachment")}
+                  {t("board-detail.board-detail-client.attachment")}
                 </h3>
                 <a
                   href={entry.attachment_url}
@@ -203,7 +203,7 @@ export default function BoardDetailClient() {
                   </div>
                   <div className="flex-1 min-w-0">
                     <p className="text-sm font-medium text-dark truncate">
-                      {entry.attachment_name || t("detail.attachment_file")}
+                      {entry.attachment_name || t("board-detail.board-detail-client.attachment_file")}
                     </p>
                   </div>
                 </a>
@@ -216,7 +216,7 @@ export default function BoardDetailClient() {
                 href="/board"
                 className="inline-flex items-center justify-center px-6 py-3 rounded-xl border border-[var(--border-soft)] bg-white text-gray-700 font-medium hover:bg-gray-50 transition-colors cursor-pointer"
               >
-                {t("detail.back_to_list")}
+                {t("board-detail.board-detail-client.back_to_list")}
               </Link>
             </div>
           </div>

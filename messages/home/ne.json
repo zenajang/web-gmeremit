@@ -1,0 +1,538 @@
+{
+  "home": {
+    "app-download-cta": {
+      "chips": [
+        "वास्तविक-समय दरहरू",
+        "अनुकूलित रकमहरू",
+        "सुरक्षित प्रमाणीकरण"
+      ],
+      "description": "सजिलो र सुरक्षित प्रमाणीकरण, अनुकूलित रकमहरू, छिटो स्थानान्तरण। GME Remit एपसँग सबै कुरा सुरक्षित र सुविधाजनक रूपमा व्यवस्थापन गर्नुहोस्।",
+      "qr_scan": "QR कोड स्क्यान गर्नुहोस्",
+      "subtitle": "GME REMIT APP",
+      "title1": "छिटो पठाउनुहोस्,",
+      "title2": "स्मार्ट रूपमा व्यवस्थापन गर्नुहोस्"
+    },
+    "cards-showcase": {
+      "black": {
+        "cta": "Premium Card हेर्नुहोस्",
+        "desc": "तपाईंको विश्वव्यापी खर्चमा पुरस्कार दिने प्रिमियम कार्ड।",
+        "highlights": [
+          "विदेशमा 3% क्यासब्याक",
+          "विश्वभर जहाँ पनि भुक्तानी गर्नुहोस्",
+          "अनलाइन र अफलाइन किनमेल",
+          "सार्वजनिक यातायात"
+        ]
+      },
+      "careers": {
+        "cta": {
+          "about": "कम्पनीको बारेमा"
+        }
+      },
+      "cta": {
+        "button": "कार्डको लागि आवेदन दिनुहोस्",
+        "description": "तपाईंको लागि उपयुक्त कार्ड खोज्नुहोस् र विशेष सुविधाहरूको आनन्द लिनुहोस्।",
+        "title": "आज नै GME Card सँग सुरु गर्नुहोस्"
+      },
+      "easyCare": {
+        "cta": "EasyCare Card हेर्नुहोस्",
+        "desc": "हेरचाहको लागि बनाइएको, Made to Care। बीमा र सदस्यता सहयोग सुविधा भएको पोस्टपेड यातायात कार्ड।",
+        "highlights": [
+          "बीमा र सदस्यता सहयोग सुविधाहरू",
+          "पोस्टपेड यातायात कार्ड",
+          "मौसमी र विशेष पसल क्यासब्याक",
+          "विश्वभर जहाँ पनि भुक्तानी गर्नुहोस्"
+        ]
+      },
+      "easyG0": {
+        "cta": "EasyGo Card हेर्नुहोस्",
+        "desc": "दैनिक जीवनलाई अझ सहज बनाउनुहोस्। यातायातदेखि किनमेलसम्म मौसमी सुविधाहरूको आनन्द लिनुहोस्।",
+        "highlights": [
+          "पोस्टपेड यातायात कार्ड",
+          "मौसमी र विशेष पसल क्यासब्याक",
+          "विश्वभर कहीं पनि भुक्तानी",
+          "अनलाइन र अफलाइन किनमेल"
+        ]
+      },
+      "image_alt": "कार्ड छवि",
+      "loan": {
+        "cta": {
+          "button": "एप डाउनलोड गर्नुहोस्"
+        }
+      },
+      "pay": {
+        "cta": "Pay Card हेर्नुहोस्",
+        "desc": "तपाईंको दैनिक खर्चको लागि एक सर्वसमावेशी भुक्तानी कार्ड।",
+        "highlights": [
+          "मौसमी र विशेष पसल क्यासब्याक",
+          "विश्वभर जहाँ पनि भुक्तानी गर्नुहोस्",
+          "अनलाइन र अफलाइन किनमेल",
+          "सार्वजनिक यातायात"
+        ]
+      },
+      "red": {
+        "cta": "Red Card हेर्नुहोस्",
+        "desc": "GME को सिग्नेचर रंगको कार्ड। हरेक भुक्तानीलाई स्टाइलिश बनाउनुहोस्।",
+        "highlights": [
+          "मौसमी क्यासब्याक",
+          "विशेष कार्यक्रम छुटहरू",
+          "मेट्रो · बस · ट्याक्सी सजिलो भुक्तानी",
+          "सार्वजनिक यातायात"
+        ]
+      },
+      "uniq": {
+        "cta": "UniQ Card हेर्नुहोस्",
+        "desc": "18 देशहरूका 30+ डिजाइनहरूबाट आफ्नो कार्ड छान्नुहोस्।",
+        "highlights": [
+          "मौसमी र विशेष पसल क्यासब्याक",
+          "विशेष कार्यक्रम छुटहरू",
+          "18 देशहरू 30+ डिजाइनहरू",
+          "मेट्रो · बस · ट्याक्सी सजिलो भुक्तानी"
+        ]
+      },
+      "white": {
+        "cta": "White Card हेर्नुहोस्",
+        "desc": "सरल र सफा दैनिक कार्ड। घरेलु भुक्तानी र सार्वजनिक यातायातका लागि सुविधाजनक।",
+        "highlights": [
+          "मौसमी क्यासब्याक",
+          "विशेष कार्यक्रम छुटहरू",
+          "मेट्रो · बस · ट्याक्सी सजिलो भुक्तानी",
+          "सार्वजनिक यातायात"
+        ]
+      }
+    },
+    "customer-feedback-section": {
+      "subtitle": "हाम्रा ग्राहकहरूका वास्तविक अनुभवहरू।",
+      "tags": {
+        "easy_tracking": "सजिलो स्थानान्तरण र ट्र्याकिङ",
+        "fast_process": "छिटो प्रक्रिया",
+        "satisfied": "सन्तुष्ट सेवा"
+      },
+      "title": "प्रशंसापत्रहरू"
+    },
+    "hero-main": {
+      "badge": "उत्कृष्ट रेमिट्यान्स सेवा",
+      "button": {
+        "learn_more": "थप जान्नुहोस्"
+      },
+      "countries": {
+        "names": {
+          "AD": "Andorra",
+          "AE": "संयुक्त अरब इमिरेट्स",
+          "AG": "Antigua and Barbuda",
+          "AI": "Anguilla",
+          "AL": "Albania",
+          "AM": "Armenia",
+          "AO": "Angola",
+          "AR": "अर्जेन्टिना",
+          "AS": "American Samoa",
+          "AT": "Austria",
+          "AU": "अस्ट्रेलिया",
+          "AW": "Aruba",
+          "AZ": "Azerbaijan",
+          "BA": "Bosnia and Herzegovina",
+          "BB": "Barbados",
+          "BD": "बंगलादेश",
+          "BE": "Belgium",
+          "BF": "Burkina Faso",
+          "BG": "Bulgaria",
+          "BH": "बहराइन",
+          "BI": "Burundi",
+          "BJ": "Benin",
+          "BL": "Saint Barthélemy",
+          "BM": "Bermuda",
+          "BN": "Brunei",
+          "BO": "बोलिभिया",
+          "BR": "ब्राजिल",
+          "BS": "Bahamas",
+          "BT": "Bhutan",
+          "BW": "Botswana",
+          "BY": "Belarus",
+          "BZ": "Belize",
+          "CA": "क्यानाडा",
+          "CD": "Democratic Republic of the Congo",
+          "CF": "Central African Republic",
+          "CG": "Republic of the Congo",
+          "CH": "स्विट्जरल्यान्ड",
+          "CI": "Ivory Coast",
+          "CK": "Cook Islands",
+          "CL": "चिली",
+          "CM": "Cameroon",
+          "CN": "चीन",
+          "CO": "कोलम्बिया",
+          "CR": "Costa Rica",
+          "CU": "Cuba",
+          "CV": "Cape Verde",
+          "CY": "Cyprus",
+          "CZ": "चेक गणतन्त्र",
+          "DE": "जर्मनी",
+          "DJ": "Djibouti",
+          "DK": "डेनमार्क",
+          "DM": "Dominica",
+          "DO": "डोमिनिकन गणतन्त्र",
+          "DZ": "Algeria",
+          "EC": "Ecuador",
+          "EE": "Estonia",
+          "EG": "Egypt",
+          "ER": "Eritrea",
+          "ES": "Spain",
+          "ET": "Ethiopia",
+          "FI": "Finland",
+          "FJ": "फिजी",
+          "FM": "Micronesia",
+          "FR": "France",
+          "GA": "Gabon",
+          "GB": "बेलायत",
+          "GD": "Grenada",
+          "GE": "Georgia",
+          "GF": "French Guiana",
+          "GH": "घाना",
+          "GI": "Gibraltar",
+          "GM": "Gambia",
+          "GN": "Guinea",
+          "GP": "Guadeloupe",
+          "GQ": "Equatorial Guinea",
+          "GR": "Greece",
+          "GT": "ग्वाटेमाला",
+          "GU": "Guam",
+          "GW": "Guinea-Bissau",
+          "GY": "Guyana",
+          "HK": "हङकङ",
+          "HN": "होन्डुरस",
+          "HR": "Croatia",
+          "HT": "Haiti",
+          "HU": "हंगेरी",
+          "ID": "इन्डोनेसिया",
+          "IE": "Ireland",
+          "IL": "इजरायल",
+          "IN": "भारत",
+          "IS": "Iceland",
+          "IT": "Italy",
+          "JM": "Jamaica",
+          "JO": "जोर्डन",
+          "JP": "जापान",
+          "KE": "केन्या",
+          "KG": "Kyrgyzstan",
+          "KH": "कम्बोडिया",
+          "KM": "Comoros",
+          "KN": "Saint Kitts and Nevis",
+          "KW": "कुवेत",
+          "KY": "Cayman Islands",
+          "KZ": "Kazakhstan",
+          "LA": "Laos",
+          "LB": "Lebanon",
+          "LC": "Saint Lucia",
+          "LI": "Liechtenstein",
+          "LK": "श्रीलंका",
+          "LR": "Liberia",
+          "LS": "Lesotho",
+          "LT": "Lithuania",
+          "LU": "Luxembourg",
+          "LV": "Latvia",
+          "LY": "Libya",
+          "MA": "मोरक्को",
+          "MC": "Monaco",
+          "MD": "Moldova",
+          "ME": "Montenegro",
+          "MF": "Saint Martin (French part)",
+          "MG": "Madagascar",
+          "MH": "Marshall Islands",
+          "MK": "Macedonia",
+          "ML": "Mali",
+          "MM": "म्यानमार",
+          "MN": "Mongolia",
+          "MO": "Macao",
+          "MQ": "Martinique",
+          "MR": "Mauritania",
+          "MS": "Montserrat",
+          "MT": "Malta",
+          "MU": "Mauritius",
+          "MV": "Maldives",
+          "MW": "Malawi",
+          "MX": "मेक्सिको",
+          "MY": "मलेसिया",
+          "MZ": "Mozambique",
+          "NA": "Namibia",
+          "NC": "New Caledonia",
+          "NE": "Niger",
+          "NG": "नाइजेरिया",
+          "NI": "Nicaragua",
+          "NL": "Netherlands",
+          "NO": "नर्वे",
+          "NP": "नेपाल",
+          "NZ": "न्युजिल्यान्ड",
+          "OM": "ओमान",
+          "PA": "Panama",
+          "PE": "पेरू",
+          "PF": "French Polynesia",
+          "PG": "Papua New Guinea",
+          "PH": "फिलिपिन्स",
+          "PK": "पाकिस्तान",
+          "PL": "पोल्याण्ड",
+          "PR": "Puerto Rico",
+          "PS": "Palestinian Territory, Occupied",
+          "PT": "Portugal",
+          "PY": "प्यारागुवे",
+          "QA": "कतार",
+          "RE": "Réunion",
+          "RO": "रोमानिया",
+          "RS": "Serbia",
+          "RU": "रूस",
+          "RW": "रवाण्डा",
+          "SA": "साउदी अरब",
+          "SB": "Solomon Islands",
+          "SC": "Seychelles",
+          "SD": "Sudan",
+          "SE": "Sweden",
+          "SG": "सिंगापुर",
+          "SI": "Slovenia",
+          "SK": "Slovakia",
+          "SL": "Sierra Leone",
+          "SN": "Senegal",
+          "SR": "Suriname",
+          "SS": "South Sudan",
+          "ST": "Sao Tome and Principe",
+          "SV": "El Salvador",
+          "SZ": "Swaziland",
+          "TC": "Turks and Caicos Islands",
+          "TD": "Chad",
+          "TG": "Togo",
+          "TH": "थाइल्यान्ड",
+          "TJ": "Tajikistan",
+          "TL": "Timor-Leste",
+          "TM": "Turkmenistan",
+          "TN": "Tunisia",
+          "TO": "टोंगा",
+          "TR": "Turkey",
+          "TT": "Trinidad and Tobago",
+          "TV": "Tuvalu",
+          "TZ": "तान्जानिया",
+          "UA": "Ukraine",
+          "UG": "युगान्डा",
+          "US": "संयुक्त राज्य अमेरिका",
+          "UY": "Uruguay",
+          "UZ": "Uzbekistan",
+          "VC": "Saint Vincent and the Grenadines",
+          "VE": "Venezuela",
+          "VG": "Virgin Islands, British",
+          "VI": "Virgin Islands, U.S.",
+          "VN": "भियतनाम",
+          "VU": "Vanuatu",
+          "WS": "सामोआ",
+          "XK": "Kosovo",
+          "YE": "Yemen",
+          "YT": "Mayotte",
+          "ZA": "South Africa",
+          "ZM": "जाम्बिया",
+          "ZW": "Zimbabwe"
+        },
+        "realtime": "वास्तविक-समय",
+        "subtitle": "200+ देशहरू समर्थित",
+        "title": "समर्थित देशहरू",
+        "view_all": "रेमिट्यान्सको बारेमा जान्नुहोस्"
+      },
+      "description1": "200+ देशहरूमा, सबै कोरियन बैंकहरूमा वास्तविक-समयमा पठाउनुहोस्।",
+      "description2": "70 विश्वव्यापी साझेदार र E-KYC प्रमाणीकरणसँग सुरक्षित।",
+      "rating": "App Store · Google Play औसत",
+      "stats": {
+        "avg_time": "औसत स्थानान्तरण समय",
+        "seconds": "सेकेन्ड",
+        "total_amount": "कुल रेमिट्यान्स",
+        "trillion": "ट्रिलियन+"
+      },
+      "title1": "छिटो र सुरक्षित",
+      "title2": "अन्तर्राष्ट्रिय रेमिट्यान्स"
+    },
+    "hero-section": {
+      "exchange": {
+        "description1": "200+ देशहरूको लागि वास्तविक-समय विनिमय दरहरू।",
+        "description2": "पारदर्शी शुल्क खुलासा।",
+        "stats": {
+          "countries": "200+",
+          "countries_label": "समर्थित देशहरू",
+          "service": "24/7",
+          "service_label": "वास्तविक-समय सेवा"
+        },
+        "title1": "विनिमय दरहरू",
+        "title2": "अहिले जाँच गर्नुहोस्"
+      }
+    },
+    "loan-section": {
+      "button": {
+        "apply": "GME एपमा ऋणको लागि आवेदन दिनुहोस्",
+        "detail": "ऋणको बारेमा थप जान्नुहोस्"
+      },
+      "card": {
+        "quick_apply": "छिटो आवेदन",
+        "subtitle": "विदेशीहरूको लागि ऋण",
+        "title": "GME Finance"
+      },
+      "description": "GME एपसँग मिनेटमा ऋणको लागि आवेदन दिनुहोस्। कहीं पनि कुनै पनि समय वास्तविक-समय प्रक्रिया स्थिति र मौज्दात जाँच गर्नुहोस्।",
+      "features": {
+        "countries": {
+          "desc": "देशहरू",
+          "label": "14+"
+        },
+        "realtime": {
+          "desc": "ट्र्याकिङ",
+          "label": "वास्तविक-समय"
+        },
+        "simple": {
+          "desc": "एप आवेदन",
+          "label": "सरल"
+        },
+        "success": {
+          "desc": "ऋणहरू",
+          "label": "1M+"
+        },
+        "support": {
+          "desc": "सहयोग",
+          "label": "24/7"
+        }
+      },
+      "stats": {
+        "desc": "1M+ सफल ऋणहरू · 14 देशहरू",
+        "title": "संचित ऋण प्रदर्शन",
+        "value": "₩500B+"
+      },
+      "title": "अनलाइन ऋण"
+    },
+    "main-services": {
+      "card": {
+        "desc1": "रेमिट्यान्स र खर्चलाई जोड्ने स्मार्ट कार्ड।",
+        "desc2": "विश्वव्यापी भुक्तानीको नयाँ मापदण्ड।",
+        "title": "GME Card"
+      },
+      "loan": {
+        "desc1": "छिटो स्वीकृति र लचिलो सर्तहरू",
+        "desc2": "डिजिटल ऋण सेवा",
+        "title": "अनलाइन ऋण"
+      },
+      "mobile": {
+        "desc1": "₩३,३००/महिनादेखि सुरु हुने",
+        "desc2": "विदेशीहरूका लागि बजेट मोबाइल सेवा",
+        "title": "मोबाइल"
+      },
+      "payments": {
+        "desc1": "थोक भुक्तानी, सेटलमेन्ट, साझेदार स्थानान्तरण।",
+        "desc2": "छिटो र सुरक्षित कर्पोरेट भुक्तानी प्रवाह।",
+        "title": "विश्वव्यापी भुक्तानी"
+      },
+      "remittance": {
+        "desc1": "छिटो र सुरक्षित रूपमा पैसा पठाउनुहोस्",
+        "desc2": "200+ देशहरूमा।",
+        "title": "विदेशी रेमिट्यान्स"
+      },
+      "title1": "GME का",
+      "title2": "विभिन्न सेवाहरू अन्वेषण गर्नुहोस्"
+    },
+    "payments-section": {
+      "global_payments": {
+        "button": {
+          "detail": "भुक्तानीको बारेमा थप जान्नुहोस्"
+        },
+        "card": {
+          "status": "सक्रिय",
+          "subtitle": "इन्टरप्राइज समाधानहरू",
+          "title": "भुक्तानी समाधानहरू"
+        },
+        "description": "तलब स्थानान्तरण, साझेदार सेटलमेन्ट, ई-कमर्स भुक्तानी। किफायती कर्पोरेट भुक्तानी समाधानहरू।",
+        "features": {
+          "smb": "SMB",
+          "smb_desc": "ई-कमर्स समाधान",
+          "sps": "SPS",
+          "sps_desc": "B2B भुक्तानी समाधान",
+          "vas": "VAS",
+          "vas_desc": "अलर्ट · रिपोर्ट · ड्यासबोर्ड"
+        },
+        "stats": {
+          "cost_saving": "लागत बचत",
+          "cost_saving_change": "परम्परागत तुलनामा",
+          "cost_saving_value": "70% सम्म",
+          "partners": "साझेदारहरू",
+          "partners_change": "विश्वव्यापी",
+          "partners_value": "200+",
+          "success_rate": "सफलता दर",
+          "success_rate_change": "सामान्य",
+          "success_rate_value": "99.8%"
+        },
+        "title": "विश्वव्यापी भुक्तानी",
+        "transactions": {
+          "b2b": "B2B थोक स्थानान्तरण",
+          "completed": "सम्पन्न",
+          "just_now": "अहिले मात्र",
+          "merchant": "व्यापारी भुक्तानी",
+          "mins_ago": "मिनेट अगाडि",
+          "partner": "साझेदार सेटलमेन्ट",
+          "processing": "प्रक्रियामा",
+          "title": "हालका लेनदेनहरू"
+        }
+      }
+    },
+    "remittance-section": {
+      "button": {
+        "detail": "रेमिट्यान्सको बारेमा थप जान्नुहोस्"
+      },
+      "description": "200+ देशहरूमा छिटो र सुरक्षित रूपमा पैसा पठाउनुहोस्।",
+      "features": {
+        "fast": {
+          "back_desc": "केही ट्यापमा मात्र विश्वमा कहीं पनि पठाउनुहोस्, कुनै जटिल चरणहरू छैनन्।",
+          "back_title": "सरल स्थानान्तरण",
+          "desc": "केही क्लिकमा मात्र विदेशी स्थानान्तरण सम्पन्न गर्नुहोस्",
+          "sub": "केही क्लिक",
+          "title": "छिटो स्थानान्तरण"
+        },
+        "global": {
+          "back_desc": "200+ देशहरू र 70 विश्वव्यापी साझेदारहरूसँग विश्वभर पठाउनुहोस्।",
+          "back_title": "विश्वव्यापी नेटवर्क",
+          "desc": "विश्वभरका दश लाख भन्दा बढी प्रयोगकर्ताहरूले GME मा विश्वास गर्छन्",
+          "sub": "1M+ प्रयोगकर्ताहरू",
+          "title": "200+ देशहरू"
+        },
+        "optimized": {
+          "back_desc": "बैंकहरूको तुलनामा 90% सम्म कम शुल्क। वास्तविक-समय दरहरूसँग बढी पठाउनुहोस्।",
+          "back_title": "ठूलो लागत बचत",
+          "desc": "बैंकहरू भन्दा 90% कम शुल्क र राम्रो दरहरू",
+          "sub": "90% बचत",
+          "title": "अनुकूलित रकम"
+        },
+        "security": {
+          "back_desc": "E-KYC प्रमाणीकरण र FSC-दर्ता सेवासँग सुरक्षित रूपमा पठाउनुहोस्।",
+          "back_title": "पूर्ण सुरक्षा",
+          "desc": "बलियो सुरक्षासँग मन नचिन्ताइ प्रयोग गर्नुहोस्",
+          "sub": "प्रमाणित",
+          "title": "सजिलो र सुरक्षित"
+        }
+      },
+      "title": "विदेशी रेमिट्यान्स"
+    },
+    "section-nav": {
+      "app_download": "एप डाउनलोड",
+      "customer_feedback": "प्रशंसापत्रहरू",
+      "exchange": "विनिमय क्याल्कुलेटर",
+      "home": "गृहपृष्ठ",
+      "services": "सेवाहरू"
+    },
+    "hero": {
+      "countries": {
+        "more": "थप"
+      }
+    },
+    "services": {
+      "loan": {
+        "estimated_limit": "अनुमानित सीमा"
+      }
+    },
+    "section_nav": {
+      "testimonials": "प्रशंसापत्रहरू"
+    },
+    "testimonials": {
+      "subtitle": "हाम्रा ग्राहकहरूका वास्तविक अनुभवहरू।",
+      "tags": {
+        "easy_tracking": "सजिलो स्थानान्तरण र ट्र्याकिङ",
+        "fast_process": "छिटो प्रक्रिया",
+        "satisfied": "सन्तुष्ट सेवा"
+      },
+      "title": "प्रशंसापत्रहरू"
+    }
+  }
+}

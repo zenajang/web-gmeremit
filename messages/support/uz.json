@@ -1,0 +1,218 @@
+{
+  "support-branches": {
+    "address": "Manzil",
+    "data": {
+      "1": {
+        "address": "315 Jongno, Jongno-gu, Seoul (Dongdaemun Station Exit 3)",
+        "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00",
+        "name": "Dongdaemun filiali"
+      },
+      "2": {
+        "address": "1F, 6 Damunhwa-gil, Danwon-gu, Ansan-si, Gyeonggi-do",
+        "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00",
+        "name": "Ansan filiali"
+      },
+      "3": {
+        "address": "1F, 134 Dorim-ro, Yeongdeungpo-gu, Seoul",
+        "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00",
+        "name": "Daerim filiali"
+      },
+      "4": {
+        "address": "2-10 Maesan-ro, Paldal-gu, Suwon-si, Gyeonggi-do",
+        "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00",
+        "name": "Suwon filiali"
+      },
+      "5": {
+        "address": "1F, 1109-3 3·1 Manse-ro, Hyangnam-eup, Hwaseong-si, Gyeonggi-do",
+        "hours": "Juma - Seshanba 10:00 - 19:00",
+        "name": "Hwaseong filiali"
+      },
+      "6": {
+        "address": "91 Solmoru-ro, Soheul-eup, Pocheon-si, Gyeonggi-do (Next to NH Bank)",
+        "hours": "Shanba - Chorshanba 10:00 - 19:00",
+        "name": "Songuri filiali"
+      },
+      "7": {
+        "address": "16 Gwangjang-ro, Bupyeong-gu, Incheon (Bupyeong Station Shopping Mall)",
+        "hours": "Shanba - Chorshanba 10:00 - 19:00",
+        "name": "Bupyeong filiali"
+      },
+      "8": {
+        "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (Across from Top Mart)",
+        "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00",
+        "name": "Gimhae filiali"
+      },
+      "9": {
+        "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+        "hours": "Ish kunlari & Dam olish kunlari 10:00 - 19:00",
+        "name": "Pyeongtaek filiali"
+      }
+    },
+    "hours": "Soat",
+    "phone": "Telefon"
+  },
+  "support-inquiry": {
+    "categories": {
+      "2": {
+        "items": [
+          "Yuridik shaxsni roʻyxatdan oʻtkazish va tekshirish",
+          "Savdo va xizmat toʻlovlari",
+          "Komissiya va valyuta kursi shartlari",
+          "API integratsiyasi va hisob-kitob"
+        ]
+      },
+      "7": {
+        "items": [
+          "Tarif va hisob-Tolovlarni  tekshirish",
+          "Ulanish, raqam koʻchirish va bekor qilish",
+          "USIM yetkazib berish va almashtirish",
+          "Maʼlumot va qoʻngʻiroq sifati"
+        ]
+      }
+    },
+    "category-card": {
+      "categories": {
+        "1": {
+          "name": "Shaxsiy pul oʻtkazmasi",
+          "sub": "Pul joʻnatish · Valyuta kursi · Pul olish"
+        },
+        "2": {
+          "name": "Biznes pul oʻtkazmasi (Biz)",
+          "sub": "Yuridik shaxs · Savdo toʻlovlari · B2B"
+        },
+        "3": {
+          "name": "Kredit boʻyicha murojaat",
+          "sub": "Shartlar · Limitlar · QAYTA Toʻlash"
+        },
+        "4": {
+          "name": "Hamkorlik QILISH",
+          "sub": "Sheriklik · Biznes taklifi"
+        },
+        "5": {
+          "name": "Ish · Tanlov",
+          "sub": "Ariza · Tanlov jarayoni"
+        },
+        "6": {
+          "name": "Isteʼmolchi huquqlari · Shikoyat",
+          "sub": "Nizolar · Foydalanish cheklovi · Xabar berish"
+        },
+        "7": {
+          "name": "Mobil · Aloqa",
+          "sub": "Tarif · Ulanish · USIM"
+        }
+      }
+    },
+    "category-selector": {
+      "question": "Murojatingiz nima haqida?"
+    },
+    "chat": {
+      "action": "Chatni boshlashni bosing",
+      "description": "Operator real vaqtda javob beradi. Ish vaqtidan tashqari chatbot yoʻl koʻrsatadi va ish vohtida sizga qayta telefon qilinadi",
+      "items": [
+        "Dushanba - Juma 09:00 - 18:00 · Operatorlar ishlaydi",
+        "Boshqa vaqtlarda · Chatbot va qayta qoʻngʻiroq qilinadi",
+        "12 til qoʻllab-quvvatlanadi (UZBEK RUS KASAK KYRGYZ TURK ,  va boshqalar)"
+      ]
+    },
+    "external": {
+      "action": "Murojaat sahifasiga oʻtish",
+      "description": "Bunday murojaatlar {{site}} saytida qabul qilinadi."
+    },
+    "guide-panel": {
+      "common": {
+        "reset": "Boshqa turni tanlash"
+      }
+    },
+    "honeypot-field": {
+      "form": {
+        "honeypot": "Manzil"
+      }
+    },
+    "inquiry-form": {
+      "categories": {
+        "4": {
+          "dept": "Tegishli boʻlim"
+        },
+        "5": {
+          "dept": "Kadrlar boʻlimi"
+        },
+        "6": {
+          "dept": "Isteʼmolchi huquqlarini himoya qilish boʻlimi"
+        }
+      },
+      "contentLabel": "Matn",
+      "contentPlaceholder": "Qanchalik batafsil yozsangiz, shunchalik aniq javob bera olamiz.",
+      "emailLabel": "Elektron pochta",
+      "emailPlaceholder": "name@example.com",
+      "errors": {
+        "email": "Elektron pochta manzilini tekshiring.",
+        "failed": "Murojaat yuborilmadi. Birozdan soʻng qayta urinib koʻring.",
+        "phone": "Telefon raqamini tekshiring.",
+        "required": "Barcha belgilangan qatorlarini  toʻldiring.",
+        "turnstile": "Xavfsizlik tekshiruvini yakunlang."
+      },
+      "nameLabel": "Ism",
+      "namePlaceholder": "Aziz Karimov",
+      "notice": "{{dept}} koʻrib chiqib javob beradi.",
+      "phoneLabel": "Telefon raqami",
+      "phonePlaceholder": "010-0000-0000",
+      "submit": "Murojaat yuborish",
+      "titleLabel": "Mavzu",
+      "titlePlaceholder": "Mavzuni kiriting"
+    },
+    "step-indicator": {
+      "steps": {
+        "connect": "2. Ulanish · Qabul",
+        "select": "1. Turni tanlash"
+      }
+    },
+    "submission-complete": {
+      "description": "Tegishli boʻlim koʻrib chiqib, siz kiritgan elektron pochtaga javob yuboradi.",
+      "reset": "Boshiga qaytish"
+    }
+  },
+  "support-social-channels": {
+    "contact": "Aloqa",
+    "countries_count": "38 mamlakat",
+    "countries": {
+      "african-region": "Afrika mintaqasi",
+      "bangladesh": "Bangladesh",
+      "cambodia": "Kambodja",
+      "china": "Xitoy",
+      "india": "Hindiston",
+      "indonesia": "Indoneziya",
+      "japan": "Yaponiya",
+      "korea": "Koreya",
+      "mongolia": "Mo'g'uliston",
+      "myanmar": "Myanma",
+      "nepal": "Nepal",
+      "pakistan": "Pokiston",
+      "philippines": "Filippin",
+      "srilanka": "Shri Lanka",
+      "thailand": "Tailand",
+      "uzbekistan-cis": "O'zbekiston & CIS",
+      "vietnam": "Vyetnam",
+      "western": "G'arbiy"
+    },
+    "description": "Har bir mamlakatning rasmiy kanallari orqali GME bilan bog'laning",
+    "operating": "Ishlayapti",
+    "title": "Global ijtimoiy kanallar"
+  },
+  "support": {
+    "tabs": {
+      "branches": "Filiallar",
+      "social_channels": "Ijtimoiy kanallar"
+    },
+    "stats": {
+      "countries_label": "Xizmat mamlakatlari",
+      "branches_label": "Filiallar",
+      "branches_unit": "+",
+      "branches_value": "12",
+      "countries_unit": "+",
+      "countries_value": "38",
+      "services_label": "Xizmatlar",
+      "services_unit": "+",
+      "services_value": "8"
+    }
+  }
+}

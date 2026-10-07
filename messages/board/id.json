@@ -1,0 +1,52 @@
+{
+  "board-detail": {
+    "board-detail-client": {
+      "attachment": "Lampiran",
+      "attachment_file": "Lampiran",
+      "back": "Kembali",
+      "back_to_list": "Kembali ke Daftar",
+      "not_found": "Posting tidak ditemukan"
+    }
+  },
+  "board-notice": {
+    "redirect": {
+      "notice": "Mengalihkan ke halaman Pengumuman..."
+    }
+  },
+  "board-press": {
+    "redirect": {
+      "press": "Mengalihkan ke halaman Pers..."
+    }
+  },
+  "board": {
+    "blog-grid": {
+      "no_image": "Tidak Ada Gambar",
+      "no_results": "Tidak ada hasil ditemukan."
+    },
+    "board-table": {
+      "attachment": "File",
+      "attachment_file": "Lampiran",
+      "date": "Tanggal",
+      "title": "Judul",
+      "type": "Jenis"
+    },
+    "count_suffix": " posting",
+    "pagination": {
+      "load_more": "Muat Lebih Banyak"
+    },
+    "search-bar": {
+      "all": "Semua",
+      "content": "Konten",
+      "placeholder": "Masukkan kata kunci pencarian",
+      "title": "Judul",
+      "button": "Cari"
+    },
+    "subtitle": "Lihat berita terbaru dari GME Remit",
+    "tabs": {
+      "blog": "Blog",
+      "notice": "Pengumuman",
+      "press": "Pers"
+    },
+    "total": "Total"
+  }
+}

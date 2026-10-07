@@ -14,12 +14,12 @@ interface BoardTableProps {
 }
 
 export default function BoardTable({ entries }: BoardTableProps) {
-  const { t } = useTranslation("board");
+  const { t } = useTranslation();
 
   if (entries.length === 0) {
     return (
       <div className="border-t-2 border-gray-800 bg-white py-16 text-center">
-        <p className="text-gray-500">{t("no_results")}</p>
+        <p className="text-gray-500">{t("board.blog-grid.no_results")}</p>
       </div>
     );
   }
@@ -32,16 +32,16 @@ export default function BoardTable({ entries }: BoardTableProps) {
           <thead className="bg-gray-50 border-b border-gray-200">
             <tr>
               <th className="px-6 py-5 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider w-32">
-                {t("table.type")}
+                {t("board.board-table.type")}
               </th>
               <th className="px-6 py-5 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
-                {t("table.title")}
+                {t("board.board-table.title")}
               </th>
               <th className="px-6 py-5 text-center text-sm font-semibold text-gray-600 uppercase tracking-wider w-24">
-                {t("table.attachment")}
+                {t("board.board-table.attachment")}
               </th>
               <th className="px-6 py-5 text-center text-sm font-semibold text-gray-600 uppercase tracking-wider w-40">
-                {t("table.date")}
+                {t("board.board-table.date")}
               </th>
             </tr>
           </thead>
@@ -83,7 +83,7 @@ export default function BoardTable({ entries }: BoardTableProps) {
               {entry.has_attachment && (
                 <div className="flex items-center gap-2 text-base text-gray-500">
                   <HiPaperClip className="w-4 h-4" />
-                  <span>{t("table.attachment_file")}</span>
+                  <span>{t("board.board-table.attachment_file")}</span>
                 </div>
               )}
             </Link>

@@ -41,16 +41,16 @@ function ArrowCircle({ className = "bg-white/20" }: { className?: string }) {
 }
 
 export default function MainServices() {
-  const { t } = useTranslation("home.services");
+  const { t } = useTranslation();
 
   return (
     <section id="gme-payments" className="relative overflow-hidden bg-gray-100 py-10 sm:py-12 lg:py-16 flex items-center snap-section lg:min-h-[calc(100svh-var(--header-height))]">
       <div className="relative w-full max-w-content mx-auto px-4 sm:px-6 lg:px-0">
         <div className="text-center mb-6 sm:mb-12">
           <h2 className="typo-section-title">
-            {t("title1")}
+            {t("home.main-services.title1")}
             <br />
-            {t("title2")}
+            {t("home.main-services.title2")}
           </h2>
         </div>
 
@@ -59,11 +59,11 @@ export default function MainServices() {
           {/* Remittance */}
           <ServiceCard onClick={() => scrollToSection("overseas-remittance")} bgColor="bg-primary" shadowColor="rgba(237,28,36,0.4)" className="md:col-span-2">
             <div className="relative z-10">
-              <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2 sm:mb-3">{t("remittance.title")}</h3>
+              <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2 sm:mb-3">{t("home.main-services.remittance.title")}</h3>
               <p className="typo-card-desc text-white/80">
-                {t("remittance.desc1")}
+                {t("home.main-services.remittance.desc1")}
                 <br />
-                {t("remittance.desc2")}
+                {t("home.main-services.remittance.desc2")}
               </p>
             </div>
 
@@ -87,11 +87,11 @@ export default function MainServices() {
           {/* Payments */}
           <ServiceCard onClick={() => scrollToSection("payments-section")} bgColor="bg-payments" shadowColor="rgba(96,165,250,0.4)" className="md:col-span-2">
             <div className="relative z-10">
-              <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2 sm:mb-3">{t("payments.title")}</h3>
+              <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2 sm:mb-3">{t("home.main-services.payments.title")}</h3>
               <p className="typo-card-desc text-white/80 max-w-md">
-                {t("payments.desc1")}
+                {t("home.main-services.payments.desc1")}
                 <br />
-                {t("payments.desc2")}
+                {t("home.main-services.payments.desc2")}
               </p>
             </div>
 
@@ -114,11 +114,11 @@ export default function MainServices() {
           {/* Cards */}
           <ServiceCard onClick={() => scrollToSection("gme-cards")} bgColor="bg-cards" shadowColor="rgba(75,85,99,0.45)" className="md:col-span-2">
             <div className="relative z-10">
-              <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2 sm:mb-3">{t("card.title")}</h3>
+              <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2 sm:mb-3">{t("home.main-services.card.title")}</h3>
               <p className="typo-card-desc text-white/70 max-w-md">
-                {t("card.desc1")}
+                {t("home.main-services.card.desc1")}
                 <br />
-                {t("card.desc2")}
+                {t("home.main-services.card.desc2")}
               </p>
             </div>
 
@@ -142,11 +142,11 @@ export default function MainServices() {
           {/* Mobile */}
           <ServiceCard onClick={() => scrollToSection("gme-mobile")} bgColor="bg-mobile" shadowColor="rgba(91,33,182,0.4)" className="md:col-span-3">
             <div className="relative z-10">
-              <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2 sm:mb-3">{t("mobile.title")}</h3>
+              <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2 sm:mb-3">{t("home.main-services.mobile.title")}</h3>
               <p className="typo-card-desc text-white/80">
-                {t("mobile.desc1")}
+                {t("home.main-services.mobile.desc1")}
                 <br />
-                {t("mobile.desc2")}
+                {t("home.main-services.mobile.desc2")}
               </p>
             </div>
 
@@ -170,11 +170,11 @@ export default function MainServices() {
           {/* Loan */}
           <ServiceCard onClick={() => scrollToSection("online-loan")} bgColor="bg-loan" shadowColor="rgba(251,191,36,0.4)" className="md:col-span-3">
             <div className="relative z-10">
-              <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2 sm:mb-3">{t("loan.title")}</h3>
+              <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2 sm:mb-3">{t("home.main-services.loan.title")}</h3>
               <p className="typo-card-desc text-white/90">
-                {t("loan.desc1")}
+                {t("home.main-services.loan.desc1")}
                 <br />
-                {t("loan.desc2")}
+                {t("home.main-services.loan.desc2")}
               </p>
             </div>
             <div className="absolute -bottom-3 sm:-bottom-5 right-0 sm:right-4 lg:-right-5">

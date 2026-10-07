@@ -1,5 +1,5 @@
 import * as S from "./styles";
-import { useInquiryTranslation } from "@/hooks/useInquiryTranslation";
+import { useTranslation } from "@/hooks/useTranslation";
 
 interface HoneypotFieldProps {
   value: string;
@@ -7,11 +7,11 @@ interface HoneypotFieldProps {
 }
 
 const HoneypotField = ({ value, onChange }: HoneypotFieldProps) => {
-  const { t } = useInquiryTranslation();
+  const { t } = useTranslation();
 
   return (
     <div aria-hidden className={S.InquiryHoneypotFieldWrapper}>
-      <label htmlFor="inquiry-address-url">{t("form.honeypot")}</label>
+      <label htmlFor="inquiry-address-url">{t("support-inquiry.honeypot-field.form.honeypot")}</label>
       <input
         id="inquiry-address-url"
         name="address_url"
