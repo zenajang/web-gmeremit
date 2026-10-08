@@ -346,7 +346,6 @@
       "exchange": {
         "description1": "អត្រាប្តូរប្រាក់ពេលវេលាពិតសម្រាប់ 200+ ប្រទេស។",
         "description2": "បង្ហាញថ្លៃសេវាដោយច្បាស់។",
-        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "ប្រទេសដែលគាំទ្រ",
@@ -534,6 +533,7 @@
         "satisfied": "សេវាពេញចិត្ត"
       },
       "title": "សក្ខីកម្ម"
-    }
+    },
+    "mobile-section": {}
   }
 }

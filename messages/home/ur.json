@@ -346,7 +346,6 @@
       "exchange": {
         "description1": "200+ ممالک کے لیے ریئل ٹائم ایکسچینج ریٹس۔",
         "description2": "شفاف فیس کی تفصیلات۔",
-        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "تعاون یافتہ ممالک",
@@ -534,6 +533,7 @@
         "satisfied": "مطمئن سروس"
       },
       "title": "تعریفیں"
-    }
+    },
+    "mobile-section": {}
   }
 }

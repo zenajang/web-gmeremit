@@ -48,7 +48,7 @@ export default function BlogGrid({ entries }: BlogGridProps) {
           <div className="space-y-3">
             <div className="flex items-baseline justify-between gap-2 text-sm">
               <span className="font-medium text-gray-500">
-                {t("common.blog-grid.board.by")} {entry.author || "GME Remittance"}
+                By {entry.author || "GME Remittance"}
               </span>
               <span className="font-light text-gray-400">{entry.date}</span>
             </div>

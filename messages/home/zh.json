@@ -346,7 +346,6 @@
       "exchange": {
         "description1": "200多个国家的实时汇率。",
         "description2": "费用透明公开。",
-        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "支持国家",
@@ -534,6 +533,7 @@
         "satisfied": "满意的服务"
       },
       "title": "用户评价"
-    }
+    },
+    "mobile-section": {}
   }
 }

@@ -143,7 +143,6 @@
       "contentLabel": "Mensaje",
       "contentPlaceholder": "Cuantos más detalles proporcione, más precisa será nuestra respuesta.",
       "emailLabel": "Correo electrónico",
-      "emailPlaceholder": "name@example.com",
       "errors": {
         "email": "Compruebe su dirección de correo electrónico.",
         "failed": "No hemos podido enviar su consulta. Inténtelo de nuevo en unos instantes.",

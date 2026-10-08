@@ -143,7 +143,6 @@
       "contentLabel": "咨询内容",
       "contentPlaceholder": "描述越详细，我们越能准确答复。",
       "emailLabel": "电子邮箱",
-      "emailPlaceholder": "name@example.com",
       "errors": {
         "email": "请检查电子邮箱地址。",
         "failed": "咨询提交失败，请稍后重试。",

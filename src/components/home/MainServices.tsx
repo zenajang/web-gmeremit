@@ -154,7 +154,7 @@ export default function MainServices() {
               <div className="relative">
                 <Image
                   src="/images/home/mobile_3d.png"
-                  alt="GME Mobile"
+                  alt="GME Telecom"
                   width={300}
                   height={300}
                   className="relative w-26 h-26 sm:w-56 sm:h-56 lg:w-55 lg:h-55 object-contain [filter:drop-shadow(8px_8px_16px_rgba(0,0,0,0.35))]"

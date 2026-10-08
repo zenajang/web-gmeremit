@@ -346,7 +346,6 @@
       "exchange": {
         "description1": "200+ देशहरूको लागि वास्तविक-समय विनिमय दरहरू।",
         "description2": "पारदर्शी शुल्क खुलासा।",
-        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "समर्थित देशहरू",
@@ -534,6 +533,7 @@
         "satisfied": "सन्तुष्ट सेवा"
       },
       "title": "प्रशंसापत्रहरू"
-    }
+    },
+    "mobile-section": {}
   }
 }

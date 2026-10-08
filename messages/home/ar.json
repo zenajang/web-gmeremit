@@ -346,7 +346,6 @@
       "exchange": {
         "description1": "أسعار صرف فورية لأكثر من 200 دولة.",
         "description2": "إفصاح شفاف عن الرسوم.",
-        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "الدول المدعومة",
@@ -534,6 +533,7 @@
         "satisfied": "خدمة مرضية"
       },
       "title": ""
-    }
+    },
+    "mobile-section": {}
   }
 }

@@ -41,9 +41,7 @@
   },
   "common": {
     "blog-grid": {
-      "board": {
-        "by": "By"
-      }
+      "board": {}
     },
     "board": {
       "error_description": "براہ کرم بعد میں دوبارہ کوشش کریں۔",
@@ -124,7 +122,6 @@
       "business": {
         "cta": {
           "description": "عالمی ادائیگی کے حل کے ساتھ اپنا کاروبار بڑھائیں۔ ہمارے مخصوص مینیجرز آپ کے لیے بہترین حل تجویز کریں گے۔",
-          "email": "corporate@gmeremit.com",
           "title": "GME ادائیگیوں کے ساتھ شروع کریں"
         }
       }

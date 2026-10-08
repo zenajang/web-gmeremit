@@ -218,7 +218,7 @@ export default function HeroSection() {
 
           {/* Left Content */}
           <div className="order-2 lg:order-1 hidden lg:block">
-            <p className="text-sm font-semibold tracking-widest text-primary mb-4">{t("home.hero-section.exchange.eyebrow")}</p>
+            <p className="text-sm font-semibold tracking-widest text-primary mb-4">CURRENCY CONVERTER</p>
             <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] font-bold text-dark leading-[1.1] tracking-tight mb-6">
               {t("home.hero-section.exchange.title1")}
               <br />

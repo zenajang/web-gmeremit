@@ -143,7 +143,6 @@
       "contentLabel": "Nội dung",
       "contentPlaceholder": "Bạn mô tả càng chi tiết, chúng tôi càng trả lời chính xác.",
       "emailLabel": "Email",
-      "emailPlaceholder": "name@example.com",
       "errors": {
         "email": "Vui lòng kiểm tra địa chỉ email.",
         "failed": "Không gửi được yêu cầu. Vui lòng thử lại sau.",

@@ -143,7 +143,6 @@
       "contentLabel": "お問い合わせ内容",
       "contentPlaceholder": "詳しくご記入いただくと、より正確にご回答できます。",
       "emailLabel": "メールアドレス",
-      "emailPlaceholder": "name@example.com",
       "errors": {
         "email": "メールアドレスをご確認ください。",
         "failed": "お問い合わせの送信に失敗しました。しばらくしてからもう一度お試しください。",

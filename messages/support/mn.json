@@ -143,7 +143,6 @@
       "contentLabel": "Агуулга",
       "contentPlaceholder": "Дэлгэрэнгүй бичих тусам илүү оновчтой хариулна.",
       "emailLabel": "И-мэйл",
-      "emailPlaceholder": "name@example.com",
       "errors": {
         "email": "И-мэйл хаягаа шалгана уу.",
         "failed": "Хүсэлт илгээж чадсангүй. Хэсэг хугацааны дараа дахин оролдоно уу.",

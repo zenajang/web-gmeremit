@@ -143,7 +143,6 @@
       "contentLabel": "विवरण",
       "contentPlaceholder": "जितना विस्तार से लिखेंगे, उतना सटीक उत्तर मिलेगा।",
       "emailLabel": "ईमेल",
-      "emailPlaceholder": "name@example.com",
       "errors": {
         "email": "कृपया अपना ईमेल पता जाँचें।",
         "failed": "पूछताछ भेजी नहीं जा सकी। कृपया कुछ देर बाद पुनः प्रयास करें।",

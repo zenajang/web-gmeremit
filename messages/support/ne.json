@@ -143,7 +143,6 @@
       "contentLabel": "विवरण",
       "contentPlaceholder": "जति विस्तृत लेख्नुहुन्छ, त्यति सही जवाफ दिन सकिन्छ।",
       "emailLabel": "इमेल",
-      "emailPlaceholder": "name@example.com",
       "errors": {
         "email": "कृपया इमेल ठेगाना जाँच्नुहोस।",
         "failed": "सोधपुछ पठाउन सकिएन। केही बेरपछि पुनः प्रयास गर्नुहोस्।",
