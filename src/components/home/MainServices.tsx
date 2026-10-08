@@ -4,6 +4,12 @@ import Image from "next/image";
 import { useTranslation } from "@/hooks/useTranslation";
 import { scrollToSection } from "@/utils/scroll";
 
+const GME_FINANCE_URL = "https://gmefinance.com";
+
+function openGmeFinance() {
+  window.open(GME_FINANCE_URL, "_blank", "noopener,noreferrer");
+}
+
 function ServiceCard({
   onClick,
   bgColor,
@@ -168,7 +174,7 @@ export default function MainServices() {
           </ServiceCard>
 
           {/* Loan */}
-          <ServiceCard onClick={() => scrollToSection("online-loan")} bgColor="bg-loan" shadowColor="rgba(251,191,36,0.4)" className="md:col-span-3">
+          <ServiceCard onClick={openGmeFinance} bgColor="bg-loan" shadowColor="rgba(251,191,36,0.4)" className="md:col-span-3">
             <div className="relative z-10">
               <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2 sm:mb-3">{t("home.main-services.loan.title")}</h3>
               <p className="typo-card-desc text-white/90">

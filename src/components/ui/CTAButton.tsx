@@ -16,6 +16,7 @@ export default function CTAButton({
   return (
     <Link
       href={href}
+      {...(href.startsWith("http") && { target: "_blank", rel: "noopener noreferrer" })}
       className={`group inline-flex items-center gap-2 sm:gap-3 font-semibold text-sm sm:text-base px-4 py-2.5 sm:px-5 sm:py-3 rounded-lg sm:rounded-xl transition-colors duration-250 ease-out cursor-pointer ${className}`}
     >
       {label}
