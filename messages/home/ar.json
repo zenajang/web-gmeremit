@@ -346,6 +346,7 @@
       "exchange": {
         "description1": "أسعار صرف فورية لأكثر من 200 دولة.",
         "description2": "إفصاح شفاف عن الرسوم.",
+        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "الدول المدعومة",
@@ -508,7 +509,7 @@
     "section-nav": {
       "app_download": "تنزيل التطبيق",
       "customer_feedback": "آراء العملاء",
-      "exchange": "حاسبة سعر الصرف",
+      "exchange": "محول العملات",
       "home": "الرئيسية",
       "services": "الخدمات"
     },

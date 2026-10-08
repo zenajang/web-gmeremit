@@ -346,6 +346,7 @@
       "exchange": {
         "description1": "200以上の国のリアルタイム為替レート。",
         "description2": "透明な手数料開示。",
+        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "対応国数",
@@ -508,7 +509,7 @@
     "section-nav": {
       "app_download": "アプリダウンロード",
       "customer_feedback": "お客様の声",
-      "exchange": "為替レート計算機",
+      "exchange": "通貨コンバーター",
       "home": "ホーム",
       "services": "サービス"
     },

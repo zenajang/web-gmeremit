@@ -346,6 +346,7 @@
       "exchange": {
         "description1": "200+ mamlakat uchun real vaqt kurslari.",
         "description2": "Komissiyalarni ochiq ko'rsatish.",
+        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "Qo'llab-quvvatlanadigan mamlakatlar",
@@ -508,7 +509,7 @@
     "section-nav": {
       "app_download": "Ilovani yuklab oling",
       "customer_feedback": "Fikrlar",
-      "exchange": "Valyuta kursi kalkulyatori",
+      "exchange": "Valyuta konvertori",
       "home": "Bosh sahifa",
       "services": "Xizmatlar"
     },

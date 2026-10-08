@@ -346,6 +346,7 @@
       "exchange": {
         "description1": "200+ улсад бодит цагийн ханш.",
         "description2": "Шимтгэлийг ил тод харуулна.",
+        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "Дэмжигдсэн улсууд",
@@ -508,7 +509,7 @@
     "section-nav": {
       "app_download": "Апп татах",
       "customer_feedback": "Сэтгэгдэл",
-      "exchange": "Ханшийн тооцоолуур",
+      "exchange": "Валют хөрвүүлэгч",
       "home": "Нүүр",
       "services": "Үйлчилгээ"
     },

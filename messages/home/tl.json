@@ -346,6 +346,7 @@
       "exchange": {
         "description1": "Real-time exchange rate para sa 200+ na bansa.",
         "description2": "Transparent na pagsisiwalat ng bayarin.",
+        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "Mga Suportadong Bansa",
@@ -508,7 +509,7 @@
     "section-nav": {
       "app_download": "I-download ang App",
       "customer_feedback": "Feedback ng Customer",
-      "exchange": "Exchange Rate Calculator",
+      "exchange": "Currency Converter",
       "home": "Home",
       "services": "Mga Serbisyo"
     },

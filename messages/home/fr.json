@@ -346,6 +346,7 @@
       "exchange": {
         "description1": "Taux de change en temps réel pour plus de 200 pays.",
         "description2": "Divulgation transparente des frais.",
+        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "Pays pris en charge",
@@ -508,7 +509,7 @@
     "section-nav": {
       "app_download": "Télécharger l'app",
       "customer_feedback": "Avis clients",
-      "exchange": "Calculateur de taux de change",
+      "exchange": "Convertisseur de devises",
       "home": "Accueil",
       "services": "Services"
     },

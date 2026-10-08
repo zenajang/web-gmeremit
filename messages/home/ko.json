@@ -346,6 +346,7 @@
       "exchange": {
         "description1": "200개국 이상 실시간 환율 조회.",
         "description2": "수수료 확인을 투명하게.",
+        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "송금 가능 국가",
@@ -508,7 +509,7 @@
     "section-nav": {
       "app_download": "앱 다운로드",
       "customer_feedback": "고객 후기",
-      "exchange": "환율 계산기",
+      "exchange": "통화 변환기",
       "home": "홈",
       "services": "서비스"
     },

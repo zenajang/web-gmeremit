@@ -346,6 +346,7 @@
       "exchange": {
         "description1": "Kurs real-time untuk 200+ negara.",
         "description2": "Biaya transparan.",
+        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "Negara Didukung",
@@ -508,7 +509,7 @@
     "section-nav": {
       "app_download": "Unduh Aplikasi",
       "customer_feedback": "Ulasan",
-      "exchange": "Kalkulator Kurs",
+      "exchange": "Konverter Mata Uang",
       "home": "Beranda",
       "services": "Layanan"
     },

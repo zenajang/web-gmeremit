@@ -346,6 +346,7 @@
       "exchange": {
         "description1": "Real-time exchange rates for 200+ countries.",
         "description2": "Transparent fee disclosure.",
+        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "Supported Countries",
@@ -508,7 +509,7 @@
     "section-nav": {
       "app_download": "App Download",
       "customer_feedback": "Customer Feedback",
-      "exchange": "Exchange Rate Calculator",
+      "exchange": "Currency Converter",
       "home": "Home",
       "services": "Services"
     },

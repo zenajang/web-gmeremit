@@ -20,12 +20,12 @@ const isSiteLanguage = (code: string) => languages.some((language) => language.c
 
 /**
  * 국가 랜딩페이지 전용 번역 훅.
- * 고유 언어가 사이트 언어에 없는 나라(키르기스스탄·카자흐스탄·라오스·러시아)는
- * 진입 직후에만 고유 언어로 보여준다. 사이트에서 고를 수 없는 언어라 랜딩에서만 읽을 수 있기 때문이다.
- * 그 외에는 사이트 언어 → 영어 → 고유 언어 순으로 찾는다.
+ * 고유 언어가 사이트 언어 목록에 없는 나라(카자흐스탄·키르기스스탄·라오스)는
+ * 국가 선택기로 들어왔을 때만 고유 언어로 보여준다. 사이트에서 고를 수 없는 언어라 랜딩에서만 읽을 수 있기 때문이다.
+ * 사용자가 언어를 직접 고르면 그 언어를 따라가고, 없으면 영어 → 고유 언어 순으로 찾는다.
  */
 export function useCountryTranslation(countryName: string) {
-  const { currentLanguage } = useLanguage();
+  const { currentLanguage, isAutoLanguage } = useLanguage();
   const entry = useMemo(() => getCountryTranslation(countryName), [countryName]);
 
   /** 랜딩이 실제로 렌더되는 언어. 랜딩 안의 다른 번역도 이 언어를 따라야 한다 */
@@ -33,16 +33,17 @@ export function useCountryTranslation(countryName: string) {
     if (!entry) return currentLanguage.code;
 
     // 고유 언어가 사이트 언어 목록에 없는 나라(카자흐어·키르기스어·라오어)는
-    // 랜딩 본문만 그 언어로 보여준다. 헤더·푸터는 사이트 언어를 따라가 영어로 나온다.
+    // 국가 선택기로 들어온 직후에만 그 언어로 보여준다. 헤더·푸터는 사이트 언어를 따라가 영어로 나온다.
+    // 사용자가 언어를 직접 고르면 isAutoLanguage 가 false 가 되므로 그 언어를 따라간다.
     const nativeOnly = !isSiteLanguage(entry.nativeLangCode);
-    if (nativeOnly && entry.files[entry.nativeLangCode]) {
+    if (isAutoLanguage && nativeOnly && entry.files[entry.nativeLangCode]) {
       return entry.nativeLangCode;
     }
 
     if (entry.files[currentLanguage.code]) return currentLanguage.code;
     if (entry.files[FALLBACK_LANG]) return FALLBACK_LANG;
     return entry.nativeLangCode;
-  }, [entry, currentLanguage.code]);
+  }, [entry, currentLanguage.code, isAutoLanguage]);
 
   const activeData = useMemo(
     () => entry?.files[activeLangCode] ?? {},

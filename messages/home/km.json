@@ -346,6 +346,7 @@
       "exchange": {
         "description1": "អត្រាប្តូរប្រាក់ពេលវេលាពិតសម្រាប់ 200+ ប្រទេស។",
         "description2": "បង្ហាញថ្លៃសេវាដោយច្បាស់។",
+        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "ប្រទេសដែលគាំទ្រ",
@@ -508,7 +509,7 @@
     "section-nav": {
       "app_download": "ទាញយកកម្មវិធី",
       "customer_feedback": "សក្ខីកម្ម",
-      "exchange": "ម៉ាស៊ីនគណនាអត្រាប្តូរប្រាក់",
+      "exchange": "កម្មវិធីបម្លែងរូបិយប័ណ្ណ",
       "home": "ទំព័រដើម",
       "services": "សេវា"
     },

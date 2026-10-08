@@ -346,6 +346,7 @@
       "exchange": {
         "description1": "200+ দেশের জন্য রিয়েল-টাইম বিনিময় হার।",
         "description2": "স্বচ্ছ ফি প্রকাশ।",
+        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "সমর্থিত দেশ",
@@ -508,7 +509,7 @@
     "section-nav": {
       "app_download": "অ্যাপ ডাউনলোড",
       "customer_feedback": "প্রশংসাপত্র",
-      "exchange": "বিনিময় হার ক্যালকুলেটর",
+      "exchange": "মুদ্রা রূপান্তরকারী",
       "home": "হোম",
       "services": "সেবা"
     },

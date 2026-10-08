@@ -346,6 +346,7 @@
       "exchange": {
         "description1": "อัตราแลกเปลี่ยนเรียลไทม์สำหรับ 200+ ประเทศ",
         "description2": "เปิดเผยค่าธรรมเนียมอย่างโปร่งใส",
+        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "ประเทศที่รองรับ",
@@ -508,7 +509,7 @@
     "section-nav": {
       "app_download": "ดาวน์โหลดแอป",
       "customer_feedback": "รีวิว",
-      "exchange": "เครื่องคำนวณอัตราแลกเปลี่ยน",
+      "exchange": "ตัวแปลงสกุลเงิน",
       "home": "หน้าหลัก",
       "services": "บริการ"
     },

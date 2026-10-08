@@ -346,6 +346,7 @@
       "exchange": {
         "description1": "200+ နိုင်ငံအတွက် အချိန်နှင့်တပြေးညီ အပြန်အလှန်နှုန်းများ။",
         "description2": "ဝန်ဆောင်ခ ကို ရှင်းလင်းစွာ ပြသသည်။",
+        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "ထောက်ပံ့သော နိုင်ငံများ",
@@ -508,7 +509,7 @@
     "section-nav": {
       "app_download": "အက်ပ် ဒေါင်းလုဒ်",
       "customer_feedback": "အတည်ပြုချက်များ",
-      "exchange": "ငွေလဲနှုန်း တွက်စက်",
+      "exchange": "ငွေကြေးပြောင်းလဲကိရိယာ",
       "home": "ပင်မ",
       "services": "ဝန်ဆောင်မှုများ"
     },

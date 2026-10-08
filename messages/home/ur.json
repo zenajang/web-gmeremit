@@ -346,6 +346,7 @@
       "exchange": {
         "description1": "200+ ممالک کے لیے ریئل ٹائم ایکسچینج ریٹس۔",
         "description2": "شفاف فیس کی تفصیلات۔",
+        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "تعاون یافتہ ممالک",
@@ -508,7 +509,7 @@
     "section-nav": {
       "app_download": "ایپ ڈاؤن لوڈ",
       "customer_feedback": "تعریفیں",
-      "exchange": "شرح تبادلہ کیلکولیٹر",
+      "exchange": "کرنسی کنورٹر",
       "home": "ہوم",
       "services": "خدمات"
     },
