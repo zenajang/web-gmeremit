@@ -346,7 +346,6 @@
       "exchange": {
         "description1": "200+ দেশের জন্য রিয়েল-টাইম বিনিময় হার।",
         "description2": "স্বচ্ছ ফি প্রকাশ।",
-        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "সমর্থিত দেশ",
@@ -534,6 +533,7 @@
         "satisfied": "সন্তোষজনক সেবা"
       },
       "title": "প্রশংসাপত্র"
-    }
+    },
+    "mobile-section": {}
   }
 }

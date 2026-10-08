@@ -346,7 +346,6 @@
       "exchange": {
         "description1": "Tipos de cambio en tiempo real para más de 200 países.",
         "description2": "Divulgación transparente de comisiones.",
-        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "Países compatibles",
@@ -534,6 +533,7 @@
         "satisfied": "Servicio satisfactorio"
       },
       "title": ""
-    }
+    },
+    "mobile-section": {}
   }
 }

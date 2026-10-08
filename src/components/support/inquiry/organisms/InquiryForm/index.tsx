@@ -137,7 +137,7 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
         type="email"
         value={form.email}
         onChange={updateFormValue("email")}
-        placeholder={t("support-inquiry.inquiry-form.emailPlaceholder")}
+        placeholder="name@example.com"
         maxLength={FIELD_MAX_LENGTH.email}
       />
       <FormField

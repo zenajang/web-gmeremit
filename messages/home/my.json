@@ -346,7 +346,6 @@
       "exchange": {
         "description1": "200+ နိုင်ငံအတွက် အချိန်နှင့်တပြေးညီ အပြန်အလှန်နှုန်းများ။",
         "description2": "ဝန်ဆောင်ခ ကို ရှင်းလင်းစွာ ပြသသည်။",
-        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "ထောက်ပံ့သော နိုင်ငံများ",
@@ -534,6 +533,7 @@
         "satisfied": "စိတ်ကျေနပ်စရာ ဝန်ဆောင်မှု"
       },
       "title": "အတည်ပြုချက်များ"
-    }
+    },
+    "mobile-section": {}
   }
 }

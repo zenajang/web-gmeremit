@@ -346,7 +346,6 @@
       "exchange": {
         "description1": "200+ රට සඳහා රියල්-ටයිම් අනුපාතිකයන්.",
         "description2": "ගාස්තු පැහැදිලිව පෙන්වයි.",
-        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "සහාය දක්වන රටවල්",
@@ -534,6 +533,7 @@
         "satisfied": "සතුටුදායක සේවාව"
       },
       "title": "සාක්ෂි"
-    }
+    },
+    "mobile-section": {}
   }
 }

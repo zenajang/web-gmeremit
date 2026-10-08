@@ -81,7 +81,7 @@ export default function MobileSection() {
 
             {/* Right - Text + CTA */}
             <div className="order-1 lg:order-2">
-              <p className="typo-eyebrow text-mobile mb-3">GME MOBILE</p>
+              <p className="typo-eyebrow text-mobile mb-3">GME TELECOM</p>
               <h2 className="typo-section-title mb-3 lg:mb-5">
                 {t("services-telecom.service-hero-section.title1")} <span className="text-mobile">{t("services-telecom.service-hero-section.title2")}</span>
               </h2>

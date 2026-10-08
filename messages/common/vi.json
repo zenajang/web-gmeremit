@@ -41,9 +41,7 @@
   },
   "common": {
     "blog-grid": {
-      "board": {
-        "by": "By"
-      }
+      "board": {}
     },
     "board": {
       "error_description": "Vui lòng thử lại sau.",
@@ -124,7 +122,6 @@
       "business": {
         "cta": {
           "description": "Phát triển doanh nghiệp của bạn với giải pháp thanh toán toàn cầu. Quản lý chuyên trách sẽ đề xuất giải pháp tối ưu cho bạn.",
-          "email": "corporate@gmeremit.com",
           "title": "Bắt đầu với GME Payments"
         }
       }

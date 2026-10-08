@@ -143,7 +143,6 @@
       "contentLabel": "বিবরণ",
       "contentPlaceholder": "যত বিস্তারিত লিখবেন, তত সঠিক উত্তর দিতে পারব।",
       "emailLabel": "ইমেইল",
-      "emailPlaceholder": "name@example.com",
       "errors": {
         "email": "অনুগ্রহ করে ইমেইল ঠিকানা যাচাই করুন।",
         "failed": "জিজ্ঞাসা পাঠানো যায়নি। কিছুক্ষণ পরে আবার চেষ্টা করুন।",

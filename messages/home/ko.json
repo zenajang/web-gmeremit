@@ -346,7 +346,6 @@
       "exchange": {
         "description1": "200개국 이상 실시간 환율 조회.",
         "description2": "수수료 확인을 투명하게.",
-        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "송금 가능 국가",
@@ -534,6 +533,7 @@
         "satisfied": "서비스 만족"
       },
       "title": "고객의 말"
-    }
+    },
+    "mobile-section": {}
   }
 }

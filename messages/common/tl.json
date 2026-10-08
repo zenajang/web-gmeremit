@@ -41,9 +41,7 @@
   },
   "common": {
     "blog-grid": {
-      "board": {
-        "by": "By"
-      }
+      "board": {}
     },
     "board": {
       "error_description": "Pakisubukang muli mamaya.",
@@ -124,7 +122,6 @@
       "business": {
         "cta": {
           "description": "Palaguin ang iyong negosyo gamit ang pandaigdigang solusyon sa pagbabayad. Ang aming mga dedicated manager ay magpo-propose ng pinakamainam na solusyon para sa iyo.",
-          "email": "corporate@gmeremit.com",
           "title": "Magsimula sa GME Payments"
         }
       }

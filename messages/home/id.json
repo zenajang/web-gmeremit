@@ -346,7 +346,6 @@
       "exchange": {
         "description1": "Kurs real-time untuk 200+ negara.",
         "description2": "Biaya transparan.",
-        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "Negara Didukung",
@@ -534,6 +533,7 @@
         "satisfied": "Layanan Memuaskan"
       },
       "title": "Ulasan"
-    }
+    },
+    "mobile-section": {}
   }
 }

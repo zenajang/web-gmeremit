@@ -41,9 +41,7 @@
   },
   "common": {
     "blog-grid": {
-      "board": {
-        "by": "By"
-      }
+      "board": {}
     },
     "board": {
       "error_description": "Iltimos, keyinroq qayta urinib ko'ring.",
@@ -124,7 +122,6 @@
       "business": {
         "cta": {
           "description": "Global to'lov yechimlari bilan biznesingizni kengaytiring. Shaxsiy menejerimiz sizga eng yaxshi yechimni taklif qiladi.",
-          "email": "corporate@gmeremit.com",
           "title": "GME Payments bilan boshlang"
         }
       }

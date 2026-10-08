@@ -41,9 +41,7 @@
   },
   "common": {
     "blog-grid": {
-      "board": {
-        "by": "By"
-      }
+      "board": {}
     },
     "board": {
       "error_description": "잠시 후 다시 시도해주세요.",
@@ -124,7 +122,6 @@
       "business": {
         "cta": {
           "description": "전담 매니저가 우리 비즈니스에 맞는 최적의 방법을 제안해드려요.",
-          "email": "corporate@gmeremit.com",
           "title": "우리 회사도 GME Payments 시작하기"
         }
       }

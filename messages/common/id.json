@@ -41,9 +41,7 @@
   },
   "common": {
     "blog-grid": {
-      "board": {
-        "by": "By"
-      }
+      "board": {}
     },
     "board": {
       "error_description": "Silakan coba lagi nanti.",
@@ -124,7 +122,6 @@
       "business": {
         "cta": {
           "description": "Kembangkan bisnis Anda dengan solusi pembayaran global. Manajer khusus kami akan mengusulkan solusi optimal untuk Anda.",
-          "email": "corporate@gmeremit.com",
           "title": "Mulai dengan GME Payments"
         }
       }

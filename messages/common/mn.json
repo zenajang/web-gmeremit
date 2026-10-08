@@ -41,9 +41,7 @@
   },
   "common": {
     "blog-grid": {
-      "board": {
-        "by": "By"
-      }
+      "board": {}
     },
     "board": {
       "error_description": "Дараа дахин оролдоно уу.",
@@ -124,7 +122,6 @@
       "business": {
         "cta": {
           "description": "Дэлхийн төлбөрийн шийдлээр бизнесээ өргөжүүлээрэй. Манай тусгай менежер таны хэрэгцээнд хамгийн тохирох шийдлийг санал болгоно.",
-          "email": "corporate@gmeremit.com",
           "title": "GME Payments-тай эхлэе"
         }
       }

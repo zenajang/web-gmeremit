@@ -41,9 +41,7 @@
   },
   "common": {
     "blog-grid": {
-      "board": {
-        "by": "By"
-      }
+      "board": {}
     },
     "board": {
       "error_description": "请稍后再试。",
@@ -124,7 +122,6 @@
       "business": {
         "cta": {
           "description": "通过全球支付解决方案发展您的业务。我们的专属经理将为您提供最佳方案。",
-          "email": "corporate@gmeremit.com",
           "title": "开始使用GME Payments"
         }
       }

@@ -346,7 +346,6 @@
       "exchange": {
         "description1": "200+ mamlakat uchun real vaqt kurslari.",
         "description2": "Komissiyalarni ochiq ko'rsatish.",
-        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "Qo'llab-quvvatlanadigan mamlakatlar",
@@ -534,6 +533,7 @@
         "satisfied": "Qoniqarli xizmat"
       },
       "title": "Fikrlar"
-    }
+    },
+    "mobile-section": {}
   }
 }

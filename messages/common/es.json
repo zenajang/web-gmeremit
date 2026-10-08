@@ -41,9 +41,7 @@
   },
   "common": {
     "blog-grid": {
-      "board": {
-        "by": "By"
-      }
+      "board": {}
     },
     "board": {
       "error_description": "Por favor, inténtalo de nuevo más tarde.",
@@ -124,7 +122,6 @@
       "business": {
         "cta": {
           "description": "Haz crecer tu negocio con soluciones de pago globales. Nuestros gestores dedicados te propondrán la solución óptima.",
-          "email": "corporate@gmeremit.com",
           "title": "Empieza con GME Payments"
         }
       }

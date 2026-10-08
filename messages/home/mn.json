@@ -346,7 +346,6 @@
       "exchange": {
         "description1": "200+ улсад бодит цагийн ханш.",
         "description2": "Шимтгэлийг ил тод харуулна.",
-        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "Дэмжигдсэн улсууд",
@@ -534,6 +533,7 @@
         "satisfied": "Сэтгэл ханамжтай үйлчилгээ"
       },
       "title": "Сэтгэгдэл"
-    }
+    },
+    "mobile-section": {}
   }
 }

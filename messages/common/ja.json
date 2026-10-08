@@ -41,9 +41,7 @@
   },
   "common": {
     "blog-grid": {
-      "board": {
-        "by": "By"
-      }
+      "board": {}
     },
     "board": {
       "error_description": "後ほど再度お試しください。",
@@ -124,7 +122,6 @@
       "business": {
         "cta": {
           "description": "グローバル決済ソリューションでビジネスを成長させましょう。専任マネージャーが最適なソリューションをご提案いたします。",
-          "email": "corporate@gmeremit.com",
           "title": "GME Paymentsを始めましょう"
         }
       }

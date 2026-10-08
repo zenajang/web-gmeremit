@@ -143,7 +143,6 @@
       "contentLabel": "문의 내용",
       "contentPlaceholder": "문의하실 내용을 자세히 적어 주시면 정확한 답변에 도움이 됩니다.",
       "emailLabel": "이메일",
-      "emailPlaceholder": "name@example.com",
       "errors": {
         "email": "이메일 주소를 확인해 주세요.",
         "failed": "문의 접수에 실패했습니다. 잠시 후 다시 시도해 주세요.",

@@ -26,7 +26,7 @@ export default function RemittanceSection() {
       <div className="relative w-full max-w-content mx-auto px-4 sm:px-6 lg:px-8 lg:min-h-[calc(100svh-var(--header-height))] flex items-center">
         <div className="w-full grid lg:grid-cols-2 gap-8 lg:gap-20 items-center">
           <div>
-            <p className="typo-eyebrow text-primary mb-3">REMITTANCE</p>
+            <p className="typo-eyebrow text-primary mb-3">REMIT</p>
             <h2 className="typo-section-title mb-5">{t("home.remittance-section.title")}</h2>
             <p className="typo-section-subtitle text-gray-600 mb-5 sm:mb-8">
               {t("home.remittance-section.description")}

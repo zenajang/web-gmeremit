@@ -41,9 +41,7 @@
   },
   "common": {
     "blog-grid": {
-      "board": {
-        "by": "By"
-      }
+      "board": {}
     },
     "board": {
       "error_description": "يرجى المحاولة مرة أخرى لاحقًا.",
@@ -124,7 +122,6 @@
       "business": {
         "cta": {
           "description": "نمِّ أعمالك مع حلول الدفع العالمية. سيقترح مديرونا المتخصصون الحل الأمثل لك.",
-          "email": "corporate@gmeremit.com",
           "title": "ابدأ مع GME Payments"
         }
       }

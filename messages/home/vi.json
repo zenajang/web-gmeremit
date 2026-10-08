@@ -346,7 +346,6 @@
       "exchange": {
         "description1": "Tỷ giá thời gian thực cho hơn 200 quốc gia.",
         "description2": "Công khai phí minh bạch.",
-        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "Quốc gia hỗ trợ",
@@ -534,6 +533,7 @@
         "satisfied": "Dịch vụ hài lòng"
       },
       "title": "Đánh giá"
-    }
+    },
+    "mobile-section": {}
   }
 }

@@ -346,7 +346,6 @@
       "exchange": {
         "description1": "อัตราแลกเปลี่ยนเรียลไทม์สำหรับ 200+ ประเทศ",
         "description2": "เปิดเผยค่าธรรมเนียมอย่างโปร่งใส",
-        "eyebrow": "CURRENCY CONVERTER",
         "stats": {
           "countries": "200+",
           "countries_label": "ประเทศที่รองรับ",
@@ -534,6 +533,7 @@
         "satisfied": "บริการน่าพอใจ"
       },
       "title": "รีวิวจากลูกค้า"
-    }
+    },
+    "mobile-section": {}
   }
 }

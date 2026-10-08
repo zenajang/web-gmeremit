@@ -41,9 +41,7 @@
   },
   "common": {
     "blog-grid": {
-      "board": {
-        "by": "By"
-      }
+      "board": {}
     },
     "board": {
       "error_description": "කරුණාකර පසුව නැවත උත්සාහ කරන්න.",
@@ -124,7 +122,6 @@
       "business": {
         "cta": {
           "description": "ගෝලීය ගෙවීම් විසඳුම් සමඟ ඔබගේ ව්‍යාපාරය විහිදුවන්න. අපගේ නිර්දේශක මැණිජර් ඔබට හොඳම විසඳුම යෝජනා කරනු ඇත.",
-          "email": "corporate@gmeremit.com",
           "title": "GME Payments සමඟ ආරම්භ කරන්න"
         }
       }

@@ -152,7 +152,7 @@ export default function BoardDetailClient() {
               <div className="flex items-center justify-between gap-3">
                 {entry.type === "blog" || entry.author ? (
                   <span className="text-base font-semibold text-dark">
-                    {t("common.blog-grid.board.by")} {entry.author || "GME Remittance"}
+                    By {entry.author || "GME Remittance"}
                   </span>
                 ) : (
                   <span />
