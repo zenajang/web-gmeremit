@@ -88,7 +88,7 @@ export default function LoanSection() {
               {t("home.loan-section.description")}
             </p>
             <CTAButton
-              href="/services/loan"
+              href="https://gmefinance.com"
               label={t("home.loan-section.button.detail")}
               className="text-loan bg-amber-100 hover:bg-amber-200"
               iconClassName="bg-loan"
