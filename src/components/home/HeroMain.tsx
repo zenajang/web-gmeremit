@@ -7,7 +7,7 @@ import Button from "@/components/ui/Button";
 import { supportedCountries } from "@/data/countries";
 
 export default function HeroMain() {
-  const { t } = useTranslation("home.hero");
+  const { t } = useTranslation();
 
   return (
     <section className="relative flex flex-col lg:mt-[var(--header-height)] lg:min-h-[calc(100svh-var(--header-height))] bg-gradient-to-b from-white to-gray-50 overflow-hidden snap-section">
@@ -28,20 +28,20 @@ export default function HeroMain() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#a3c520] opacity-75" />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-[#a3c520]" />
               </span>
-              <span className="text-xs sm:text-sm font-semibold text-primary">{t("badge")}</span>
+              <span className="text-xs sm:text-sm font-semibold text-primary">{t("home.hero-main.badge")}</span>
             </div>
 
             {/* Main Heading */}
             <h1 className="text-[1.7rem] sm:text-5xl lg:text-6xl font-bold text-dark leading-[1.18] tracking-tight mb-3 sm:mb-6">
-              {t("title1")}
+              {t("home.hero-main.title1")}
               <br />
-              <span className="text-primary">{t("title2")}</span>
+              <span className="text-primary">{t("home.hero-main.title2")}</span>
             </h1>
 
             <p className="typo-section-subtitle text-gray-500 mb-5 sm:mb-8 max-w-lg mx-auto lg:mx-0">
-              {t("description1")}
+              {t("home.hero-main.description1")}
               <br />
-              {t("description2")}
+              {t("home.hero-main.description2")}
             </p>
 
             {/* CTA Buttons */}
@@ -52,7 +52,7 @@ export default function HeroMain() {
                 onClick={() => scrollToSection("app-download")}
                 className="group hover:-translate-y-0.5"
               >
-                {t("app_download", { ns: "button" })}
+                {t("common.button.app_download")}
                 <svg className="w-4 h-4 sm:w-5 sm:h-5 transition-transform duration-250 ease-out group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
@@ -62,7 +62,7 @@ export default function HeroMain() {
                 variant="secondary"
                 onClick={() => scrollToSection("gme-payments")}
               >
-                {t("button.learn_more")}
+                {t("home.hero-main.button.learn_more")}
               </Button>
             </div>
 
@@ -78,7 +78,7 @@ export default function HeroMain() {
                 </div>
                 <span className="typo-label">4.7</span>
                 <span className="w-px h-3 bg-gray-300" />
-                <span className="text-[10px] sm:text-xs text-gray-500">{t("rating")}</span>
+                <span className="text-[10px] sm:text-xs text-gray-500">{t("home.hero-main.rating")}</span>
               </div>
             </div>
           </div>
@@ -88,12 +88,12 @@ export default function HeroMain() {
               {/* Header */}
               <div className="flex items-center justify-between mb-6">
                 <div>
-                  <h3 className="typo-card-title">{t("countries.title")}</h3>
-                  <p className="text-sm text-gray-400">{t("countries.subtitle")}</p>
+                  <h3 className="typo-card-title">{t("home.hero-main.countries.title")}</h3>
+                  <p className="text-sm text-gray-400">{t("home.hero-main.countries.subtitle")}</p>
                 </div>
                 <div className="flex items-center gap-1.5 bg-emerald-50 px-3 py-1.5 rounded-full">
                   <span className="w-1.5 h-1.5 bg-success rounded-full animate-pulse" />
-                  <span className="text-xs font-semibold text-green-800">{t("countries.realtime")}</span>
+                  <span className="text-xs font-semibold text-green-800">{t("home.hero-main.countries.realtime")}</span>
                 </div>
               </div>
 
@@ -105,7 +105,7 @@ export default function HeroMain() {
                     className="flex flex-col items-center gap-2 p-3 rounded-xl bg-gradient-to-b from-white to-slate-50 border border-gray-100 shadow-[0_2px_8px_rgba(0,0,0,0.06),0_1px_2px_rgba(0,0,0,0.04)]"
                   >
                     <span className="text-2xl">{country.flag}</span>
-                    <span className="text-xs font-medium text-cards">{t(`countries.names.${country.code}`)}</span>
+                    <span className="text-xs font-medium text-cards">{t(`home.hero-main.countries.names.${country.code}`)}</span>
                   </div>
                 ))}
                 <div
@@ -122,7 +122,7 @@ export default function HeroMain() {
                   href="/services/remittance"
                   className="flex items-center justify-center gap-2 text-sm font-semibold text-primary hover:text-primary-dark transition-colors"
                 >
-                  {t("countries.view_all")}
+                  {t("home.hero-main.countries.view_all")}
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
@@ -133,14 +133,14 @@ export default function HeroMain() {
             {/* Floating Stats */}
             <div className="hidden sm:block absolute -bottom-6 -left-6 bg-white/70 backdrop-blur-xl rounded-2xl px-5 py-4 shadow-[0_8px_32px_rgba(0,0,0,0.1)] border border-white/50 ring-1 ring-black/[0.03]">
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-white/60 via-white/20 to-transparent pointer-events-none" />
-              <p className="relative text-xs text-gray-500 mb-1">{t("stats.total_amount")}</p>
-              <p className="relative typo-content-title">4 <span className="text-sm font-medium text-gray-400">{t("stats.trillion")}</span></p>
+              <p className="relative text-xs text-gray-500 mb-1">{t("home.hero-main.stats.total_amount")}</p>
+              <p className="relative typo-content-title">4 <span className="text-sm font-medium text-gray-400">{t("home.hero-main.stats.trillion")}</span></p>
             </div>
 
             <div className="hidden sm:block absolute -top-4 -right-4 bg-primary/80 backdrop-blur-xl text-white rounded-2xl px-5 py-4 shadow-[0_8px_32px_rgba(237,28,36,0.3)] border border-white/20">
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-white/20 via-transparent to-transparent pointer-events-none" />
-              <p className="relative text-xs opacity-90 mb-1">{t("stats.avg_time")}</p>
-              <p className="relative text-2xl font-bold">10<span className="text-sm font-medium opacity-90 ml-0.5">{t("stats.seconds")}</span></p>
+              <p className="relative text-xs opacity-90 mb-1">{t("home.hero-main.stats.avg_time")}</p>
+              <p className="relative text-2xl font-bold">10<span className="text-sm font-medium opacity-90 ml-0.5">{t("home.hero-main.stats.seconds")}</span></p>
             </div>
           </div>
         </div>

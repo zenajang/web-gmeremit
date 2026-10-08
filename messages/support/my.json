@@ -1,0 +1,218 @@
+{
+  "support-branches": {
+    "address": "လိပ်စာ",
+    "data": {
+      "1": {
+        "address": "315 Jongno, Jongno-gu, Seoul (Dongdaemun Station Exit 3)",
+        "hours": "လုပ်ငန်းရက် & အလုပ်ပိတ်ရက် 10:00 - 19:00",
+        "name": "Dongdaemun စာခွဲ"
+      },
+      "2": {
+        "address": "1F, 6 Damunhwa-gil, Danwon-gu, Ansan-si, Gyeonggi-do",
+        "hours": "လုပ်ငန်းရက် & အလုပ်ပိတ်ရက် 10:00 - 19:00",
+        "name": "Ansan စာခွဲ"
+      },
+      "3": {
+        "address": "1F, 134 Dorim-ro, Yeongdeungpo-gu, Seoul",
+        "hours": "လုပ်ငန်းရက် & အလုပ်ပိတ်ရက် 10:00 - 19:00",
+        "name": "Daerim စာခွဲ"
+      },
+      "4": {
+        "address": "2-10 Maesan-ro, Paldal-gu, Suwon-si, Gyeonggi-do",
+        "hours": "လုပ်ငန်းရက် & အလုပ်ပိတ်ရက် 10:00 - 19:00",
+        "name": "Suwon စာခွဲ"
+      },
+      "5": {
+        "address": "1F, 1109-3 3·1 Manse-ro, Hyangnam-eup, Hwaseong-si, Gyeonggi-do",
+        "hours": "သောကြာ - အင်္ဂါ 10:00 - 19:00",
+        "name": "Hwaseong စာခွဲ"
+      },
+      "6": {
+        "address": "91 Solmoru-ro, Soheul-eup, Pocheon-si, Gyeonggi-do (Next to NH Bank)",
+        "hours": "စနေ - ဗုဒ္ဓဟူး 10:00 - 19:00",
+        "name": "Songuri စာခွဲ"
+      },
+      "7": {
+        "address": "16 Gwangjang-ro, Bupyeong-gu, Incheon (Bupyeong Station Shopping Mall)",
+        "hours": "စနေ - ဗုဒ္ဓဟူး 10:00 - 19:00",
+        "name": "Bupyeong စာခွဲ"
+      },
+      "8": {
+        "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (Across from Top Mart)",
+        "hours": "လုပ်ငန်းရက် & အလုပ်ပိတ်ရက် 10:00 - 19:00",
+        "name": "Gimhae စာခွဲ"
+      },
+      "9": {
+        "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+        "hours": "လုပ်ငန်းရက် & အလုပ်ပိတ်ရက် 10:00 - 19:00",
+        "name": "Pyeongtaek စာခွဲ"
+      }
+    },
+    "hours": "ဖွင့်ချိန်",
+    "phone": "ဖုန်း"
+  },
+  "support-inquiry": {
+    "categories": {
+      "2": {
+        "items": [
+          "ကုမ္ပဏီ စာရင်းသွင်းနှင့် စိစစ်ခြင်း",
+          "ကုန်သွယ်မှုနှင့် ဝန်ဆောင်မှုငွေပေးချေမှု",
+          "ဝန်ဆောင်ခနှင့် ငွေလဲနှုန်း",
+          "API ချိတ်ဆက်မှုနှင့် ရှင်းတမ်း"
+        ]
+      },
+      "7": {
+        "items": [
+          "အစီအစဉ်နှင့် ငွေတောင်းခံလွှာစစ်ဆေးခြင်း",
+          "ဖွင့်လှစ်ခြင်း၊ နံပါတ်ပြောင်းခြင်းနှင့် ပိတ်ခြင်း",
+          "USIM ပို့ဆောင်ခြင်းနှင့် လဲလှယ်ခြင်း",
+          "ဒေတာနှင့် ခေါ်ဆိုမှုအရည်အသွေး"
+        ]
+      }
+    },
+    "category-card": {
+      "categories": {
+        "1": {
+          "name": "ပုဂ္ဂိုလ်ရေး ငွေလွှဲ",
+          "sub": "ငွေလွှဲ · ငွေလဲနှုန်း · ငွေထုတ်ယူ"
+        },
+        "2": {
+          "name": "လုပ်ငန်းသုံး ငွေလွှဲ (Biz)",
+          "sub": "ကုမ္ပဏီ · ကုန်သွယ်မှုငွေ · B2B"
+        },
+        "3": {
+          "name": "ချေးငွေဆိုင်ရာ စုံစမ်းမှု",
+          "sub": "အရည်အချင်း · ကန့်သတ်ချက် · ပြန်ဆပ်ခြင်း"
+        },
+        "4": {
+          "name": "ပူးပေါင်းဆောင်ရွက်မှု",
+          "sub": "မိတ်ဖက် · လုပ်ငန်းအဆိုပြုချက်"
+        },
+        "5": {
+          "name": "အလုပ်လျှောက်ထားမှု",
+          "sub": "လျှောက်လွှာ · ခန့်အပ်မှုလုပ်ငန်းစဉ်"
+        },
+        "6": {
+          "name": "အချက်အလက်ကာကွယ်ရေး · တိုင်ကြားချက်",
+          "sub": "အငြင်းပွားမှု · အသုံးပြုမှုကန့်သတ်ချက် · တိုင်ကြားခြင်း"
+        },
+        "7": {
+          "name": "မိုဘိုင်း · ဆက်သွယ်ရေး",
+          "sub": "အစီအစဉ် · ဖွင့်လှစ်ခြင်း · USIM"
+        }
+      }
+    },
+    "category-selector": {
+      "question": "ဘာအကြောင်းအရာ စုံစမ်းလိုပါသလဲ?"
+    },
+    "chat": {
+      "action": "စကားပြောစတင်ရန်",
+      "description": "ဝန်ထမ်းက တိုက်ရိုက်ဖြေကြားပါသည်။ ရုံးချိန်ပြင်ပတွင် chatbot က လမ်းညွှန်ပြီး ပြန်ခေါ်ရန် တောင်းဆိုမှုကို လက်ခံပါသည်။",
+      "items": [
+        "တနင်္လာ - သောကြာ ၀၉:၀၀ - ၁၈:၀၀ · တိုက်ရိုက်ဝန်ထမ်း",
+        "အခြားအချိန် · chatbot နှင့် ပြန်လည်ခေါ်ဆိုခြင်း",
+        "ဘာသာစကား ၁၂ မျိုး ပံ့ပိုးပါသည် (နီပေါ၊ ဗီယက်နမ်၊ ထိုင်း အပါအဝင် စသည်ဖြင့်)"
+      ]
+    },
+    "external": {
+      "action": "စုံစမ်းမှုစာမျက်နှာသို့",
+      "description": "ဤအမျိုးအစား စုံစမ်းမှုကို {{site}} ဝက်ဘ်ဆိုက်တွင် လက်ခံပါသည်။"
+    },
+    "guide-panel": {
+      "common": {
+        "reset": "အမျိုးအစား ပြန်ရွေးရန်"
+      }
+    },
+    "honeypot-field": {
+      "form": {
+        "honeypot": "လိပ်စာ"
+      }
+    },
+    "inquiry-form": {
+      "categories": {
+        "4": {
+          "dept": "သက်ဆိုင်ရာဌာန"
+        },
+        "5": {
+          "dept": "လူ့စွမ်းအားဌာန"
+        },
+        "6": {
+          "dept": "အသုံးပြုသူကာကွယ်ရေးဌာန"
+        }
+      },
+      "contentLabel": "အကြောင်းအရာ",
+      "contentPlaceholder": "ပိုမိုအသေးစိတ်ရေးလေ တိကျစွာဖြေနိုင်လေ ဖြစ်ပါသည်။",
+      "emailLabel": "အီးမေးလ်",
+      "emailPlaceholder": "name@example.com",
+      "errors": {
+        "email": "အီးမေးလ်လိပ်စာကို စစ်ဆေးပါ။",
+        "failed": "စုံစမ်းမှု မပို့နိုင်ပါ။ ခဏနေ ထပ်ကြိုးစားပါ။",
+        "phone": "ဖုန်းနံပါတ်ကို စစ်ဆေးပါ။",
+        "required": "လိုအပ်သည့်အကွက်အားလုံးကို ဖြည့်ပါ။",
+        "turnstile": "လုံခြုံရေးစစ်ဆေးမှုကို ပြီးအောင်လုပ်ပါ။"
+      },
+      "nameLabel": "အမည်",
+      "namePlaceholder": "အောင်အောင်",
+      "notice": "{{dept}} မှ စစ်ဆေးပြီး ပြန်လည်ဖြေကြားပါမည်။",
+      "phoneLabel": "ဖုန်းနံပါတ်",
+      "phonePlaceholder": "010-0000-0000",
+      "submit": "စုံစမ်းမှုပို့ရန်",
+      "titleLabel": "ခေါင်းစဉ်",
+      "titlePlaceholder": "ခေါင်းစဉ်ထည့်ပါ"
+    },
+    "step-indicator": {
+      "steps": {
+        "connect": "၂. ချိတ်ဆက် · လက်ခံ",
+        "select": "၁. အမျိုးအစားရွေးရန်"
+      }
+    },
+    "submission-complete": {
+      "description": "သက်ဆိုင်ရာဌာနမှ စစ်ဆေးပြီး ထည့်သွင်းထားသော အီးမေးလ်သို့ ပြန်လည်ဖြေကြားပေးပါမည်။",
+      "reset": "အစသို့ပြန်သွားရန်"
+    }
+  },
+  "support-social-channels": {
+    "contact": "ဆက်သွယ်ရန်",
+    "countries_count": "38 နိုင်ငံ",
+    "countries": {
+      "african-region": "အာဖရိက ဒေသ",
+      "bangladesh": "ဘင်္ဂလားဒေ့ရှ်",
+      "cambodia": "ကမ္ဘောဒီးယား",
+      "china": "တရုတ်",
+      "india": "အိန္ဒိယ",
+      "indonesia": "အင်ဒိုနီးရှား",
+      "japan": "ဂျပန်",
+      "korea": "ကိုရီးယား",
+      "mongolia": "မွန်ဂိုးလီးယား",
+      "myanmar": "မြန်မာ",
+      "nepal": "နီပေါ",
+      "pakistan": "ပါကစ္စတန်",
+      "philippines": "ဖိလစ်ပိုင်",
+      "srilanka": "သီရိလင်္ကာ",
+      "thailand": "ထိုင်း",
+      "uzbekistan-cis": "ဥဇဘက်ကစ္စတန် & CIS",
+      "vietnam": "ဗီယက်နမ်",
+      "western": "အနောက်ပိုင်း"
+    },
+    "description": "နိုင်ငံအလိုက် တရားဝင် ချန်နယ်များမှတစ်ဆင့် GME နှင့် ချိတ်ဆက်ပါ",
+    "operating": "လည်ပတ်နေသည်",
+    "title": "ကမ္ဘာလုံးဆိုင်ရာ လူမှုရေး ချန်နယ်များ"
+  },
+  "support": {
+    "tabs": {
+      "branches": "စာခွဲများ",
+      "social_channels": "ဆက်သွယ်ရန်"
+    },
+    "stats": {
+      "countries_label": "ဝန်ဆောင်နိုင်ငံ",
+      "branches_label": "စာခွဲများ",
+      "branches_unit": "+",
+      "branches_value": "12",
+      "countries_unit": "+",
+      "countries_value": "38",
+      "services_label": "ဝန်ဆောင်မှုများ",
+      "services_unit": "+",
+      "services_value": "8"
+    }
+  }
+}

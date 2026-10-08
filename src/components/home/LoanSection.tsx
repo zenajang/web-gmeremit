@@ -8,7 +8,7 @@ import { loanBenefitImages } from "@/data/loan";
 const featureKeys = ["countries", "success", "support", "realtime", "simple"] as const;
 
 export default function LoanSection() {
-  const { t } = useTranslation("home.loan");
+  const { t } = useTranslation();
 
   return (
     <section id="online-loan" className="relative overflow-hidden flex items-center snap-section lg:min-h-[calc(100svh-var(--header-height))] py-10 sm:py-12 lg:py-0">
@@ -33,23 +33,23 @@ export default function LoanSection() {
                   </svg>
                 </div>
                 <div>
-                  <p className="typo-label">{t("card.title")}</p>
-                  <p className="typo-caption">{t("card.subtitle")}</p>
+                  <p className="typo-label">{t("home.loan-section.card.title")}</p>
+                  <p className="typo-caption">{t("home.loan-section.card.subtitle")}</p>
                 </div>
               </div>
               <span className="rounded-full bg-loan/10 px-3 py-1 text-xs font-semibold text-loan">
-                {t("card.quick_apply")}
+                {t("home.loan-section.card.quick_apply")}
               </span>
             </div>
 
             {/* Loan Stats */}
             <div className="rounded-xl sm:rounded-2xl bg-yellow-50 border border-yellow-200 p-3 sm:p-5 mb-3 sm:mb-4">
               <div className="flex items-center justify-between mb-3">
-                <span className="text-sm font-semibold text-dark">{t("stats.title")}</span>
+                <span className="text-sm font-semibold text-dark">{t("home.loan-section.stats.title")}</span>
                 <span className="typo-caption">GME Finance</span>
               </div>
-              <p className="typo-stat text-loan mb-1">{t("stats.value")}</p>
-              <p className="text-xs text-gray-400">{t("stats.desc")}</p>
+              <p className="typo-stat text-loan mb-1">{t("home.loan-section.stats.value")}</p>
+              <p className="text-xs text-gray-400">{t("home.loan-section.stats.desc")}</p>
             </div>
 
             {/* Features */}
@@ -68,28 +68,28 @@ export default function LoanSection() {
                       className="object-contain"
                     />
                   </div>
-                  <p className="text-xs font-bold text-dark">{t(`features.${key}.label`)}</p>
-                  <p className="typo-micro text-gray-400">{t(`features.${key}.desc`)}</p>
+                  <p className="text-xs font-bold text-dark">{t(`home.loan-section.features.${key}.label`)}</p>
+                  <p className="typo-micro text-gray-400">{t(`home.loan-section.features.${key}.desc`)}</p>
                 </div>
               ))}
             </div>
 
             {/* CTA */}
             <button className="w-full mt-3 sm:mt-4 bg-loan text-white font-semibold py-2.5 sm:py-3 rounded-xl text-sm sm:text-base">
-              {t("button.apply")}
+              {t("home.loan-section.button.apply")}
             </button>
             </div>
           </div>
 
           <div className="order-1 lg:order-1">
             <p className="typo-eyebrow text-loan mb-3">GME FINANCE</p>
-            <h2 className="typo-section-title mb-5">{t("title")}</h2>
+            <h2 className="typo-section-title mb-5">{t("home.loan-section.title")}</h2>
             <p className="typo-section-subtitle text-gray-600 mb-5 sm:mb-8">
-              {t("description")}
+              {t("home.loan-section.description")}
             </p>
             <CTAButton
               href="/services/loan"
-              label={t("button.detail")}
+              label={t("home.loan-section.button.detail")}
               className="text-loan bg-amber-100 hover:bg-amber-200"
               iconClassName="bg-loan"
             />

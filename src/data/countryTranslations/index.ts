@@ -1,27 +1,26 @@
-import ar from "@messages/pending/ar.json";
-import bn from "@messages/pending/bn.json";
-import en from "@messages/pending/en.json";
-import es from "@messages/pending/es.json";
-import fr from "@messages/pending/fr.json";
-import hi from "@messages/pending/hi.json";
-import id from "@messages/pending/id.json";
-import ja from "@messages/pending/ja.json";
-import kk from "@messages/pending/kk.json";
-import km from "@messages/pending/km.json";
-import ko from "@messages/pending/ko.json";
-import ky from "@messages/pending/ky.json";
-import lo from "@messages/pending/lo.json";
-import mn from "@messages/pending/mn.json";
-import my from "@messages/pending/my.json";
-import ne from "@messages/pending/ne.json";
-import ru from "@messages/pending/ru.json";
-import si from "@messages/pending/si.json";
-import th from "@messages/pending/th.json";
-import tl from "@messages/pending/tl.json";
-import ur from "@messages/pending/ur.json";
-import uz from "@messages/pending/uz.json";
-import vi from "@messages/pending/vi.json";
-import zh from "@messages/pending/zh.json";
+import ar from "@messages/country/ar.json";
+import bn from "@messages/country/bn.json";
+import en from "@messages/country/en.json";
+import es from "@messages/country/es.json";
+import fr from "@messages/country/fr.json";
+import hi from "@messages/country/hi.json";
+import id from "@messages/country/id.json";
+import ja from "@messages/country/ja.json";
+import kk from "@messages/country/kk.json";
+import km from "@messages/country/km.json";
+import ky from "@messages/country/ky.json";
+import lo from "@messages/country/lo.json";
+import ko from "@messages/country/ko.json";
+import mn from "@messages/country/mn.json";
+import my from "@messages/country/my.json";
+import ne from "@messages/country/ne.json";
+import si from "@messages/country/si.json";
+import th from "@messages/country/th.json";
+import tl from "@messages/country/tl.json";
+import ur from "@messages/country/ur.json";
+import uz from "@messages/country/uz.json";
+import vi from "@messages/country/vi.json";
+import zh from "@messages/country/zh.json";
 
 export interface CountryTranslationEntry {
   nativeLangCode: string;
@@ -29,21 +28,18 @@ export interface CountryTranslationEntry {
 }
 
 interface PendingFile {
-  landing?: Record<string, Record<string, unknown>>;
-  [namespace: string]: unknown;
+  [country: string]: unknown;
 }
 
 const normalize = (value: string) => value.toLowerCase().replace(/[-\s]+/g, "");
 
 /** 언어코드 → 그 언어로 작성된 랜딩 번역 파일 */
 const pendingByLang: Record<string, PendingFile> = {
-  ar, bn, en, es, fr, hi, id, ja, kk, km, ko, ky, lo, mn, my, ne, ru, si, th, tl, ur, uz, vi, zh,
+  ar, bn, en, es, fr, hi, id, ja, kk, km, ky, lo, ko, mn, my, ne, si, th, tl, ur, uz, vi, zh,
 };
 
 /** 국가별 고유 언어. 랜딩 번역이 그 언어로만 있을 때의 기본값 */
 const nativeLangByCountry: Record<string, string> = {
-  africa: "en",
-  arab: "ar",
   bangladesh: "bn",
   cambodia: "km",
   china: "zh",
@@ -57,8 +53,6 @@ const nativeLangByCountry: Record<string, string> = {
   nepal: "ne",
   pakistan: "ur",
   philippines: "tl",
-  russia: "ru",
-  "spanish-latam": "es",
   "sri-lanka": "si",
   thailand: "th",
   uzbekistan: "uz",
@@ -73,7 +67,7 @@ for (const [country, nativeLangCode] of Object.entries(nativeLangByCountry)) {
   const files: Record<string, Record<string, unknown>> = {};
 
   for (const [langCode, data] of Object.entries(pendingByLang)) {
-    const landing = data.landing?.[country];
+    const landing = (data.country as Record<string, Record<string, unknown>> | undefined)?.[country];
     if (landing) files[langCode] = landing;
   }
 

@@ -1,6 +1,6 @@
 import * as S from "./styles";
 import { ActionButtons } from "@/components/support/inquiry/molecules";
-import { useInquiryTranslation } from "@/hooks/useInquiryTranslation";
+import { useTranslation } from "@/hooks/useTranslation";
 
 interface GuidePanelProps {
   title: string;
@@ -12,7 +12,7 @@ interface GuidePanelProps {
 }
 
 const GuidePanel = ({ title, description, items, actionLabel, onAction, onReset }: GuidePanelProps) => {
-  const { t } = useInquiryTranslation();
+  const { t } = useTranslation();
 
   return (
   <div className={S.InquiryGuidePanel}>
@@ -30,7 +30,7 @@ const GuidePanel = ({ title, description, items, actionLabel, onAction, onReset 
       <ActionButtons
         primaryLabel={actionLabel}
         onPrimary={onAction}
-        secondaryLabel={t("common.reset")}
+        secondaryLabel={t("support-inquiry.guide-panel.common.reset")}
         onSecondary={onReset}
         align="center"
       />

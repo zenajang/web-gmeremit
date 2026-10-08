@@ -9,7 +9,7 @@ import { countries } from "@/data/socialChannels";
 
 const SocialChannelsTemplate = () => {
   const [expandedId, setExpandedId] = useState<string | null>(null);
-  const { t } = useTranslation("support.social_channels");
+  const { t } = useTranslation();
   return (
     <div>
       {/* 헤더 섹션 */}
@@ -17,13 +17,13 @@ const SocialChannelsTemplate = () => {
         <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-primary/5 rounded-full mb-5">
           <RiCustomerService2Fill className="w-4 h-4 text-primary" />
           <span className="text-sm font-semibold text-primary">
-            {t("countries_count")} {t("operating")}
+            {t("support-social-channels.countries_count")} {t("support-social-channels.operating")}
           </span>
         </div>
         <h2 className="typo-heading mb-3">
-          {t("title")}
+          {t("support-social-channels.title")}
         </h2>
-        <p className="text-gray-500 max-w-md mx-auto">{t("description")}</p>
+        <p className="text-gray-500 max-w-md mx-auto">{t("support-social-channels.description")}</p>
       </div>
 
       {/* 국가별 소셜 채널 그리드 */}
@@ -53,7 +53,7 @@ const SocialChannelsTemplate = () => {
                 <div className="flex items-center justify-between">
                   {/* 국가명 */}
                   <h3 className="text-[15px] font-semibold text-dark">
-                    {t(`countries.${country.id}`)}
+                    {t(`support-social-channels.countries.${country.id}`)}
                   </h3>
 
                   {/* 소셜 링크 + 연락처 버튼 */}
@@ -68,7 +68,7 @@ const SocialChannelsTemplate = () => {
                             ? "bg-primary-dark text-white shadow-md shadow-primary/25"
                             : "bg-white text-primary ring-1 ring-gray-200 hover:bg-primary hover:text-white hover:ring-primary hover:shadow-md hover:shadow-primary/25"
                         }`}
-                        title={t("contact")}
+                        title={t("support-social-channels.contact")}
                       >
                         <HiPhone className="w-3.5 h-3.5" />
                       </button>

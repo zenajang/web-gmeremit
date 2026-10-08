@@ -123,7 +123,7 @@ export function LanguageSelector() {
 
 // ============ Countries Dropdown ============
 export function CountriesDropdown({ label }: { label: string }) {
-  const { t } = useTranslation("home.hero");
+  const { t } = useTranslation();
   const { setLanguage } = useLanguage();
   const [isOpen, setIsOpen] = useState(false);
   const [selectedCode, setSelectedCode] = useState<string | null>(null);
@@ -136,7 +136,7 @@ export function CountriesDropdown({ label }: { label: string }) {
     () =>
       servedEntries.map((c) => ({
         ...c,
-        name: c.nameNs === "header" ? t(c.nameKey, { ns: "header" }) : t(c.nameKey),
+        name: t(c.nameKey),
       })),
     [t]
   );

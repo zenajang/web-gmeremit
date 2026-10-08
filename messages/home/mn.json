@@ -1,0 +1,539 @@
+{
+  "home": {
+    "app-download-cta": {
+      "chips": [
+        "Бодит цагийн ханш",
+        "Оновчтой дүн",
+        "Аюулгүй баталгаажуулалт"
+      ],
+      "description": "Хялбар, аюулгүй баталгаажуулалт, оновчтой дүн, хурдан шилжүүлэг. GME Remit апп-аар бүгдийг аюулгүй, хялбар удирд.",
+      "qr_scan": "QR code-ыг скан хийнэ үү",
+      "subtitle": "GME REMIT APP",
+      "title1": "Илүү хурдан илгээ,",
+      "title2": "Илүү ухаалгаар удирд"
+    },
+    "cards-showcase": {
+      "black": {
+        "cta": "Premium Card-ыг харах",
+        "desc": "Дэлхий даяарх зарцуулгад урамшуулал өгдөг премиум карт.",
+        "highlights": [
+          "Гадаад зарцуулгад 3% кэшбэк",
+          "Дэлхийн хаана ч төлбөр төлөх",
+          "Онлайн болон офлайн худалдан авалт",
+          "Нийтийн тээвэр"
+        ]
+      },
+      "careers": {
+        "cta": {
+          "about": "Компанийн тухай"
+        }
+      },
+      "cta": {
+        "button": "Картанд хүсэлт гаргах",
+        "description": "Танд тохирох картыг олж, онцгой давуу талыг эдлээрэй.",
+        "title": "Өнөөдөр GME Card-тай эхлээрэй"
+      },
+      "easyCare": {
+        "cta": "EasyCare Card-ыг харах",
+        "desc": "Анхаарал халамжтайгаар бүтээгдсэн, Made to Care. Даатгал болон гишүүнчлэлийн дэмжлэгийн урамшуулалтай дараа төлбөртэй тээврийн карт.",
+        "highlights": [
+          "Даатгал болон гишүүнчлэлийн дэмжлэгийн урамшуулал",
+          "Дараа төлбөртэй тээврийн карт",
+          "Улирлын болон тусгай дэлгүүрийн кэшбэк",
+          "Дэлхийн хаана ч төлбөр төлөх"
+        ]
+      },
+      "easyG0": {
+        "cta": "EasyGo Card үзэх",
+        "desc": "Өдөр тутмын амьдралыг илүү тав тухтай болгоорой. Тээврээс эхлээд худалдан авалт хүртэл улирлын онцлог урамшууллуудыг эдлээрэй.",
+        "highlights": [
+          "Дараа төлбөртэй тээврийн карт",
+          "Улирлын болон тусгай дэлгүүрийн кэшбэк",
+          "Дэлхий даяар төлбөр",
+          "Онлайн ба офлайн худалдаа"
+        ]
+      },
+      "image_alt": "Картын зураг",
+      "loan": {
+        "cta": {
+          "button": "Апп татах"
+        }
+      },
+      "pay": {
+        "cta": "Pay Card-ыг харах",
+        "desc": "Өдөр тутмын зарцуулгад зориулсан бүх төрлийн төлбөрийн карт.",
+        "highlights": [
+          "Улирлын болон тусгай дэлгүүрийн кэшбэк",
+          "Дэлхийн хаана ч төлбөр төлөх",
+          "Онлайн болон офлайн худалдан авалт",
+          "Нийтийн тээвэр"
+        ]
+      },
+      "red": {
+        "cta": "Red Card үзэх",
+        "desc": "GME-ийн онцгой өнгөт карт. Төлбөр бүрийг стильтэй болго.",
+        "highlights": [
+          "Улирлын Cashback",
+          "Онцгой арга хэмжээний хөнгөлөлт",
+          "Metro · Bus · Taxi Easy Pay",
+          "Нийтийн тээвэр"
+        ]
+      },
+      "uniq": {
+        "cta": "UniQ Card-ыг харах",
+        "desc": "18 улсаас 30+ загвараас өөрийн картаа сонгоорой.",
+        "highlights": [
+          "Улирлын болон тусгай дэлгүүрийн кэшбэк",
+          "Онцгой арга хэмжээний хөнгөлөлт",
+          "18 улс 30+ загвар",
+          "Metro · Bus · Taxi Easy Pay"
+        ]
+      },
+      "white": {
+        "cta": "White Card үзэх",
+        "desc": "Цэвэр, энгийн өдөр тутмын карт. Дотоод төлбөр, нийтийн тээвэрт тохиромжтой.",
+        "highlights": [
+          "Улирлын Cashback",
+          "Онцгой арга хэмжээний хөнгөлөлт",
+          "Metro · Bus · Taxi Easy Pay",
+          "Нийтийн тээвэр"
+        ]
+      }
+    },
+    "customer-feedback-section": {
+      "subtitle": "Манай хэрэглэгчдийн бодит туршлага.",
+      "tags": {
+        "easy_tracking": "Хялбар шилжүүлэг & хяналт",
+        "fast_process": "Хурдан процесс",
+        "satisfied": "Сэтгэл ханамжтай үйлчилгээ"
+      },
+      "title": "Сэтгэгдэл"
+    },
+    "hero-main": {
+      "badge": "Шилдэг шилжүүлгийн үйлчилгээ",
+      "button": {
+        "learn_more": "Дэлгэрэнгүй"
+      },
+      "countries": {
+        "names": {
+          "AD": "Andorra",
+          "AE": "Арабын Нэгдсэн Эмират",
+          "AG": "Antigua and Barbuda",
+          "AI": "Anguilla",
+          "AL": "Albania",
+          "AM": "Armenia",
+          "AO": "Angola",
+          "AR": "Аргентин",
+          "AS": "American Samoa",
+          "AT": "Austria",
+          "AU": "Австрали",
+          "AW": "Aruba",
+          "AZ": "Azerbaijan",
+          "BA": "Bosnia and Herzegovina",
+          "BB": "Barbados",
+          "BD": "Бангладеш",
+          "BE": "Belgium",
+          "BF": "Burkina Faso",
+          "BG": "Bulgaria",
+          "BH": "Бахрейн",
+          "BI": "Burundi",
+          "BJ": "Benin",
+          "BL": "Saint Barthélemy",
+          "BM": "Bermuda",
+          "BN": "Brunei",
+          "BO": "Боливи",
+          "BR": "Бразил",
+          "BS": "Bahamas",
+          "BT": "Bhutan",
+          "BW": "Botswana",
+          "BY": "Belarus",
+          "BZ": "Belize",
+          "CA": "Канад",
+          "CD": "Democratic Republic of the Congo",
+          "CF": "Central African Republic",
+          "CG": "Republic of the Congo",
+          "CH": "Швейцарь",
+          "CI": "Ivory Coast",
+          "CK": "Cook Islands",
+          "CL": "Чили",
+          "CM": "Cameroon",
+          "CN": "Хятад",
+          "CO": "Колумб",
+          "CR": "Costa Rica",
+          "CU": "Cuba",
+          "CV": "Cape Verde",
+          "CY": "Cyprus",
+          "CZ": "Бүгд Найрамдах Чех",
+          "DE": "Герман",
+          "DJ": "Djibouti",
+          "DK": "Дани",
+          "DM": "Dominica",
+          "DO": "Доминикан Бүгд Найрамдах",
+          "DZ": "Algeria",
+          "EC": "Ecuador",
+          "EE": "Estonia",
+          "EG": "Egypt",
+          "ER": "Eritrea",
+          "ES": "Spain",
+          "ET": "Ethiopia",
+          "FI": "Finland",
+          "FJ": "Фижи",
+          "FM": "Micronesia",
+          "FR": "France",
+          "GA": "Gabon",
+          "GB": "Их Британи",
+          "GD": "Grenada",
+          "GE": "Georgia",
+          "GF": "French Guiana",
+          "GH": "Гана",
+          "GI": "Gibraltar",
+          "GM": "Gambia",
+          "GN": "Guinea",
+          "GP": "Guadeloupe",
+          "GQ": "Equatorial Guinea",
+          "GR": "Greece",
+          "GT": "Гватемал",
+          "GU": "Guam",
+          "GW": "Guinea-Bissau",
+          "GY": "Guyana",
+          "HK": "Хонг Конг",
+          "HN": "Гондурас",
+          "HR": "Croatia",
+          "HT": "Haiti",
+          "HU": "Унгар",
+          "ID": "Индонез",
+          "IE": "Ireland",
+          "IL": "Израиль",
+          "IN": "Энэтхэг",
+          "IS": "Iceland",
+          "IT": "Italy",
+          "JM": "Jamaica",
+          "JO": "Иордан",
+          "JP": "Япон",
+          "KE": "Кени",
+          "KG": "Kyrgyzstan",
+          "KH": "Камбож",
+          "KM": "Comoros",
+          "KN": "Saint Kitts and Nevis",
+          "KW": "Кувейт",
+          "KY": "Cayman Islands",
+          "KZ": "Kazakhstan",
+          "LA": "Laos",
+          "LB": "Lebanon",
+          "LC": "Saint Lucia",
+          "LI": "Liechtenstein",
+          "LK": "Шри Ланка",
+          "LR": "Liberia",
+          "LS": "Lesotho",
+          "LT": "Lithuania",
+          "LU": "Luxembourg",
+          "LV": "Latvia",
+          "LY": "Libya",
+          "MA": "Морокко",
+          "MC": "Monaco",
+          "MD": "Moldova",
+          "ME": "Montenegro",
+          "MF": "Saint Martin (French part)",
+          "MG": "Madagascar",
+          "MH": "Marshall Islands",
+          "MK": "Macedonia",
+          "ML": "Mali",
+          "MM": "Мьянмар",
+          "MN": "Mongolia",
+          "MO": "Macao",
+          "MQ": "Martinique",
+          "MR": "Mauritania",
+          "MS": "Montserrat",
+          "MT": "Malta",
+          "MU": "Mauritius",
+          "MV": "Maldives",
+          "MW": "Malawi",
+          "MX": "Мексик",
+          "MY": "Малайз",
+          "MZ": "Mozambique",
+          "NA": "Namibia",
+          "NC": "New Caledonia",
+          "NE": "Niger",
+          "NG": "Нигери",
+          "NI": "Nicaragua",
+          "NL": "Netherlands",
+          "NO": "Норвеги",
+          "NP": "Непал",
+          "NZ": "Шинэ Зеланд",
+          "OM": "Оман",
+          "PA": "Panama",
+          "PE": "Перу",
+          "PF": "French Polynesia",
+          "PG": "Papua New Guinea",
+          "PH": "Филиппин",
+          "PK": "Пакистан",
+          "PL": "Польш",
+          "PR": "Puerto Rico",
+          "PS": "Palestinian Territory, Occupied",
+          "PT": "Portugal",
+          "PY": "Парагвай",
+          "QA": "Катар",
+          "RE": "Réunion",
+          "RO": "Румын",
+          "RS": "Serbia",
+          "RU": "Орос",
+          "RW": "Руанда",
+          "SA": "Саудын Араб",
+          "SB": "Solomon Islands",
+          "SC": "Seychelles",
+          "SD": "Sudan",
+          "SE": "Sweden",
+          "SG": "Сингапур",
+          "SI": "Slovenia",
+          "SK": "Slovakia",
+          "SL": "Sierra Leone",
+          "SN": "Senegal",
+          "SR": "Suriname",
+          "SS": "South Sudan",
+          "ST": "Sao Tome and Principe",
+          "SV": "El Salvador",
+          "SZ": "Swaziland",
+          "TC": "Turks and Caicos Islands",
+          "TD": "Chad",
+          "TG": "Togo",
+          "TH": "Тайланд",
+          "TJ": "Tajikistan",
+          "TL": "Timor-Leste",
+          "TM": "Turkmenistan",
+          "TN": "Tunisia",
+          "TO": "Тонга",
+          "TR": "Turkey",
+          "TT": "Trinidad and Tobago",
+          "TV": "Tuvalu",
+          "TZ": "Танзани",
+          "UA": "Ukraine",
+          "UG": "Уганда",
+          "US": "АНУ",
+          "UY": "Uruguay",
+          "UZ": "Uzbekistan",
+          "VC": "Saint Vincent and the Grenadines",
+          "VE": "Venezuela",
+          "VG": "Virgin Islands, British",
+          "VI": "Virgin Islands, U.S.",
+          "VN": "Вьетнам",
+          "VU": "Vanuatu",
+          "WS": "Самоа",
+          "XK": "Kosovo",
+          "YE": "Yemen",
+          "YT": "Mayotte",
+          "ZA": "South Africa",
+          "ZM": "Замби",
+          "ZW": "Zimbabwe"
+        },
+        "realtime": "Бодит цаг",
+        "subtitle": "200+ улс дэмждэг",
+        "title": "Дэмжигдсэн улсууд",
+        "view_all": "Шилжүүлгийн талаар"
+      },
+      "description1": "200+ улсад, БНСУ-ын бүх банкуудад бодит цагт илгээнэ.",
+      "description2": "70 дэлхийн түнш, E-KYC баталгаажуулалттай тул аюулгүй.",
+      "rating": "App Store · Google Play дундаж",
+      "stats": {
+        "avg_time": "Дундаж шилжүүлгийн хугацаа",
+        "seconds": "сек",
+        "total_amount": "Нийт шилжүүлсэн дүн",
+        "trillion": "их наяд+"
+      },
+      "title1": "Хурдан, аюулгүй",
+      "title2": "Олон улсын шилжүүлэг"
+    },
+    "hero-section": {
+      "exchange": {
+        "description1": "200+ улсад бодит цагийн ханш.",
+        "description2": "Шимтгэлийг ил тод харуулна.",
+        "eyebrow": "CURRENCY CONVERTER",
+        "stats": {
+          "countries": "200+",
+          "countries_label": "Дэмжигдсэн улсууд",
+          "service": "24/7",
+          "service_label": "Бодит цагийн үйлчилгээ"
+        },
+        "title1": "Ханшаа",
+        "title2": "яг одоо шалга"
+      }
+    },
+    "loan-section": {
+      "button": {
+        "apply": "GME апп дээр зээл хүсэх",
+        "detail": "Зээлийн талаар дэлгэрэнгүй"
+      },
+      "card": {
+        "quick_apply": "Шуурхай хүсэлт",
+        "subtitle": "Гадаадын иргэдэд зориулсан зээл",
+        "title": "GME Finance"
+      },
+      "description": "GME апп-аар хэдхэн минутын дотор зээл хүснэ үү. Ажлын явц, үлдэгдлээ бодит цагт шалгана.",
+      "features": {
+        "countries": {
+          "desc": "Улсууд",
+          "label": "14+"
+        },
+        "realtime": {
+          "desc": "Хяналт",
+          "label": "Бодит цаг"
+        },
+        "simple": {
+          "desc": "Аппаар хүсэх",
+          "label": "Энгийн"
+        },
+        "success": {
+          "desc": "Зээл",
+          "label": "1M+"
+        },
+        "support": {
+          "desc": "Дэмжлэг",
+          "label": "24/7"
+        }
+      },
+      "stats": {
+        "desc": "1M+ амжилттай зээл · 14 улс",
+        "title": "Нийт зээлийн гүйцэтгэл",
+        "value": "₩500B+"
+      },
+      "title": "Онлайн зээл"
+    },
+    "main-services": {
+      "card": {
+        "desc1": "Гуйвуулга, зарцуулалтыг нэгтгэсэн ухаалаг карт.",
+        "desc2": "Дэлхийн төлбөрийн шинэ жишиг.",
+        "title": "GME Card"
+      },
+      "loan": {
+        "desc1": "Шуурхай батлах, уян хатан нөхцөл",
+        "desc2": "Дижитал зээлийн үйлчилгээ",
+        "title": "Онлайн зээл"
+      },
+      "mobile": {
+        "desc1": "Сард 3,300 ваноос эхлэх",
+        "desc2": "гадаадын иргэдэд зориулсан хямд утасны үйлчилгээ",
+        "title": "Мобайл"
+      },
+      "payments": {
+        "desc1": "Цалин, түншийн тооцоо, э-худалдааны төлбөр.",
+        "desc2": "Бизнест зориулсан хэмнэлттэй төлбөрийн шийдэл.",
+        "title": "Дэлхийн төлбөр"
+      },
+      "remittance": {
+        "desc1": "Хурдан, найдвартай мөнгөн гуйвуулга",
+        "desc2": "200+ улс руу.",
+        "title": "Гадаад шилжүүлэг"
+      },
+      "title1": "GME-ийн",
+      "title2": "үйлчилгээг нээнэ үү"
+    },
+    "payments-section": {
+      "global_payments": {
+        "button": {
+          "detail": "Payments талаар дэлгэрэнгүй"
+        },
+        "card": {
+          "status": "Идэвхтэй",
+          "subtitle": "Корпорацийн шийдэл",
+          "title": "Төлбөрийн шийдэл"
+        },
+        "description": "Цалин шилжүүлэг, түншийн тооцоо, e-commerce төлбөр. Зардал багатай корпорацийн төлбөрийн шийдэл.",
+        "features": {
+          "smb": "SMB",
+          "smb_desc": "E-commerce шийдэл",
+          "sps": "SPS",
+          "sps_desc": "B2B төлбөрийн шийдэл",
+          "vas": "VAS",
+          "vas_desc": "Мэдэгдэл · Тайлан · Дашбоард"
+        },
+        "stats": {
+          "cost_saving": "Зардлын хэмнэлт",
+          "cost_saving_change": "Энгийнтэй харьцуулбал",
+          "cost_saving_value": "70% хүртэл",
+          "partners": "Түншүүд",
+          "partners_change": "Дэлхий",
+          "partners_value": "200+",
+          "success_rate": "Амжилтын хувь",
+          "success_rate_change": "Хэвийн",
+          "success_rate_value": "99.8%"
+        },
+        "title": "Дэлхийн төлбөр",
+        "transactions": {
+          "b2b": "B2B бөөн шилжүүлэг",
+          "completed": "Дууссан",
+          "just_now": "Дөнгөж сая",
+          "merchant": "Худалдаачны төлбөр",
+          "mins_ago": "минутын өмнө",
+          "partner": "Түншийн тооцоо",
+          "processing": "Боловсруулж байна",
+          "title": "Сүүлийн гүйлгээнүүд"
+        }
+      }
+    },
+    "remittance-section": {
+      "button": {
+        "detail": "Шилжүүлгийн талаар дэлгэрэнгүй"
+      },
+      "description": "200+ улсад хурдан, аюулгүйгээр мөнгө шилжүүлээрэй.",
+      "features": {
+        "fast": {
+          "back_desc": "Төвөгтэй алхамгүйгээр хэдхэн товшилтоор дэлхийн хаана ч мөнгө илгээнэ үү.",
+          "back_title": "Энгийн шилжүүлэг",
+          "desc": "Гадаад шилжүүлгийг хэдхэн товшилтоор дуусгана",
+          "sub": "Хэдхэн товшилт",
+          "title": "Хурдан шилжүүлэг"
+        },
+        "global": {
+          "back_desc": "200+ улс, 70 дэлхийн түнштэйгээр дэлхий даяар илгээнэ.",
+          "back_title": "Дэлхийн сүлжээ",
+          "desc": "1M+ хэрэглэгч GME-д итгэдэг",
+          "sub": "1M+ хэрэглэгч",
+          "title": "200+ улс"
+        },
+        "optimized": {
+          "back_desc": "Банктай харьцуулахад шимтгэл 90% хүртэл бага. Бодит цагийн ханшаар илүү их илгээнэ.",
+          "back_title": "Их хэмнэлт",
+          "desc": "90% бага шимтгэл, илүү сайн ханш",
+          "sub": "90% хэмнэлт",
+          "title": "Оновчтой дүн"
+        },
+        "security": {
+          "back_desc": "E-KYC баталгаажуулалттай, FSC-д бүртгэлтэй үйлчилгээтэйгээр аюулгүй илгээнэ.",
+          "back_title": "Бат бөх аюулгүй байдал",
+          "desc": "Өндөр хамгаалалттай тул итгэлтэй хэрэглэнэ",
+          "sub": "Баталгаажсан",
+          "title": "Хялбар & аюулгүй"
+        }
+      },
+      "title": "Гадаад шилжүүлэг"
+    },
+    "section-nav": {
+      "app_download": "Апп татах",
+      "customer_feedback": "Сэтгэгдэл",
+      "exchange": "Валют хөрвүүлэгч",
+      "home": "Нүүр",
+      "services": "Үйлчилгээ"
+    },
+    "hero": {
+      "countries": {
+        "more": "Илүү"
+      }
+    },
+    "services": {
+      "loan": {
+        "estimated_limit": "Тооцоолсон лимит"
+      }
+    },
+    "section_nav": {
+      "testimonials": "Сэтгэгдэл"
+    },
+    "testimonials": {
+      "subtitle": "Манай хэрэглэгчдийн бодит туршлага.",
+      "tags": {
+        "easy_tracking": "Хялбар шилжүүлэг & хяналт",
+        "fast_process": "Хурдан процесс",
+        "satisfied": "Сэтгэл ханамжтай үйлчилгээ"
+      },
+      "title": "Сэтгэгдэл"
+    }
+  }
+}

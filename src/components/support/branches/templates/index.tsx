@@ -25,14 +25,14 @@ interface Branch extends BranchData {
 
 
 const BranchedTemplate = () => {
-  const { t } = useTranslation("support.branches");
+  const { t } = useTranslation();
 
   const branches: Branch[] = useMemo(() => {
     return branchesData.map((data) => ({
       ...data,
-      name: t(`data.${data.id}.name`),
-      address: t(`data.${data.id}.address`),
-      hours: t(`data.${data.id}.hours`),
+      name: t(`support-branches.data.${data.id}.name`),
+      address: t(`support-branches.data.${data.id}.address`),
+      hours: t(`support-branches.data.${data.id}.hours`),
     }));
   }, [t]);
 
@@ -143,7 +143,7 @@ const BranchedTemplate = () => {
             <div className="flex items-start gap-3">
               <HiLocationMarker className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
               <div>
-                <p className="text-xs sm:text-lg font-semibold text-gray-400 uppercase tracking-wide mb-1">{t("address")}</p>
+                <p className="text-xs sm:text-lg font-semibold text-gray-400 uppercase tracking-wide mb-1">{t("support-branches.address")}</p>
                 <p className="text-xs sm:text-lg text-gray-700 leading-relaxed">
                   {selectedBranch.address}
                 </p>
@@ -154,7 +154,7 @@ const BranchedTemplate = () => {
             <div className="flex items-start gap-3">
               <HiPhone className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
               <div>
-                <p className="text-xs sm:text-lg font-semibold text-gray-400 uppercase tracking-wide mb-1">{t("phone")}</p>
+                <p className="text-xs sm:text-lg font-semibold text-gray-400 uppercase tracking-wide mb-1">{t("support-branches.phone")}</p>
                 <a
                   href={`tel:${selectedBranch.phone}`}
                   className="text-xs sm:text-lg text-dark hover:text-primary transition-colors"
@@ -168,7 +168,7 @@ const BranchedTemplate = () => {
             <div className="flex items-start gap-3">
               <HiClock className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
               <div>
-                <p className="text-xs sm:text-lg font-semibold text-gray-400 uppercase tracking-wide mb-1">{t("hours")}</p>
+                <p className="text-xs sm:text-lg font-semibold text-gray-400 uppercase tracking-wide mb-1">{t("support-branches.hours")}</p>
                 <p className="text-xs sm:text-lg text-gray-700">{selectedBranch.hours}</p>
               </div>
             </div>

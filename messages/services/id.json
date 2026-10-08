@@ -1,0 +1,992 @@
+{
+  "services-card": {
+    "benefits-discover": {
+      "why": {
+        "description": "Kartu GME membuat pembayaran sehari-hari menjadi lebih mudah — baik saat Anda bepergian, berbelanja, atau melakukan perjalanan ke luar negeri. Bayar secara online maupun offline, gunakan transportasi umum dengan mudah, dan nikmati pengalaman yang lancar di mana pun Anda berada.",
+        "title": "Mengapa Memilih GME Card"
+      }
+    },
+    "benefits": {
+      "why": {
+        "atm": {
+          "description": "Tarik tunai dengan mudah di ATM seluruh negeri",
+          "title": "Penarikan & Setoran ATM"
+        },
+        "cashback": {
+          "description": "Cashback hingga 30% di toko mitra",
+          "title": "Cashback Musiman dan Toko Spesial"
+        },
+        "everywhere": {
+          "description": "Belanja online dan pembayaran di toko dengan lancar",
+          "title": "Online · Offline"
+        },
+        "global": {
+          "description": "Gunakan bebas di dalam maupun luar negeri",
+          "title": "Domestik · Internasional"
+        },
+        "transit": {
+          "description": "Gunakan sebagai kartu transportasi di semua transportasi umum",
+          "title": "Kereta · Bus · Taksi"
+        }
+      }
+    },
+    "card-detail-modal": {
+      "app_guide": "Pendaftaran kartu dapat dilakukan di aplikasi GME",
+      "labels": {
+        "annual_fee": "Biaya Tahunan",
+        "availability": "Ketersediaan",
+        "charge_method": "Metode Top-up",
+        "limit": "Batas Penggunaan",
+        "monthly_fee": "Biaya Bulanan",
+        "payment_time": "Waktu Pembayaran",
+        "usage_limit": "Batas Penggunaan"
+      }
+    },
+    "card-grid-item-detail-button": {
+      "detail": "Lihat Detail"
+    },
+    "card-grid-title": {
+      "subtitle": "Bandingkan manfaat antar kartu GME dan pilih yang paling sesuai untuk Anda",
+      "title": "Pilih yang Paling Sesuai untuk Anda"
+    },
+    "service-hero-section": {
+      "cta": "Tuklasin ang mga Card",
+      "title1": "Hanapin ang Iyong Perpektong",
+      "title2": "GME Card",
+      "description": "Mula sa international payment hanggang sa pang-araw-araw na gastusin, tuklasin ang mga GME Card na puno ng benepisyo.",
+      "badge": "GME CARD"
+    },
+    "cards": {
+      "black": {
+        "details": {
+          "autoPayment": {
+            "desc": "Ketika saldo GME Pay tidak cukup untuk pembayaran kartu, kekurangannya akan otomatis didebit dari rekening auto-debit yang terhubung.",
+            "title": "Auto Debit"
+          },
+          "cautions": {
+            "items": [
+              "Jika pembayaran kartu GME dibatalkan, pengembalian dana akan dikembalikan ke Dompet GME Anda. Pengembalian ke rekening lain tidak tersedia.",
+              "Kartu GME adalah kartu debit prabayar. Pembayaran cicilan tidak tersedia.",
+              "Anda masih bisa menggunakan aplikasi GME meskipun kartu dibatalkan. Namun, jika Anda membatalkan langganan di aplikasi GME, kartu akan otomatis dibatalkan.",
+              "Anda bertanggung jawab penuh apabila kehilangan ponsel atau kartu Anda. GME tidak akan bertanggung jawab atas kejadian tersebut.",
+              "Merchant afiliasi internasional mengikuti kebijakan dan standar Mastercard."
+            ],
+            "title": "Perhatian"
+          },
+          "delivery": {
+            "methods": [
+              "Pengiriman ke rumah",
+              "Ambil di cabang GME"
+            ],
+            "title": "Metode Pengiriman Kartu"
+          },
+          "foreignPayment": {
+            "items": [
+              "Untuk pembayaran di merchant luar negeri, mata uang non-USD dikonversi ke USD berdasarkan kurs Mastercard, diproses pada tanggal persetujuan pembayaran (transaksi disetujui) atau tanggal GME menerima informasi tagihan (transaksi belum disetujui). Jumlah tagihan KRW, termasuk biaya luar negeri 1,25%, ditambahkan ke jumlah KRW berdasarkan kurs USD GME dan dipotong dari GME Pay.",
+              "Jumlah Tagihan = (Jumlah Pembayaran × Kurs) + Biaya Luar Negeri (Biaya Brand Internasional² + Biaya Pembayaran Luar Negeri³)",
+              "Kurs adalah kurs USD pembayaran kartu GME, diperbarui setiap 15 menit, berlaku saat persetujuan pembayaran (atau saat GME menerima informasi tagihan).",
+              "Biaya Brand Internasional² = (Jumlah Pembayaran × Kurs) × Tarif Biaya Mastercard (1,0%)",
+              "Biaya Pembayaran Luar Negeri³ = (Jumlah Pembayaran × Kurs) × Tarif Biaya Kartu GME (0,25%)",
+              "Saat membayar dalam KRW di merchant luar negeri, biaya DCC tambahan (sekitar 3-15%) mungkin berlaku. Memblokir pembayaran KRW luar negeri dan membayar dalam mata uang lokal lebih hemat.",
+              "Anda dapat mengatur pembatasan pembayaran KRW luar negeri (DCC) di aplikasi GME. Buka: Kartu > Manajemen Kartu > Pengaturan 'Pembatasan Pembayaran KRW Luar Negeri' (Default: 'Dibatasi')",
+              "Untuk detail lebih lanjut, hubungi Pusat Layanan Pelanggan (1588-6864) atau kunjungi www.gmeremit.com."
+            ],
+            "title": "Pembayaran Internasional & Informasi Lainnya"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "Cashback 3% untuk pembelian di luar negeri",
+                "title": "Cashback 3% Luar Negeri"
+              },
+              {
+                "desc": "Nikmati reward di toko mitra terpilih selama periode promosi khusus",
+                "title": "Cashback Musiman dan Toko Spesial"
+              },
+              {
+                "desc": "Bayar bebas di dalam dan luar negeri",
+                "title": "Bayar di Seluruh Dunia"
+              },
+              {
+                "desc": "Bayar bebas untuk belanja dan hiburan, online maupun offline",
+                "title": "Belanja Online & Offline"
+              },
+              {
+                "desc": "Gunakan kartu Anda dengan mudah di bus, subway, dan kereta",
+                "title": "Transportasi Umum"
+              }
+            ],
+            "title": "Manfaat Utama"
+          },
+          "userGuide": {
+            "annualFee": "₩15,000 (per tahun)",
+            "chargeMethod": "Anda dapat melakukan top-up melalui ATM atau transfer bank.",
+            "contact": {
+              "center": "Pusat Layanan GME: 1811-2961",
+              "website": "Website: gmeremit.com"
+            },
+            "limit": "Hingga ₩2.000.000 per transaksi",
+            "title": "Panduan Pengguna"
+          }
+        },
+        "features": [
+          "Kartu debit dengan fungsi transportasi prabayar",
+          "Cashback 3% untuk Transaksi Luar Negeri",
+          "Penarikan dan setoran tunai di ATM khusus"
+        ],
+        "subtitle": "GME Premium Card"
+      },
+      "easyCare": {
+        "details": {
+          "autoPayment": {
+            "desc": "Hubungkan rekening bank apa pun untuk auto-debit dan perbarui kapan saja dengan mudah.",
+            "title": "Auto Debit"
+          },
+          "cautions": {
+            "items": [
+              "Jika pembayaran kartu GME dibatalkan, dana pengembalian akan dikembalikan ke GME Wallet Anda. Pengembalian dana ke rekening lain tidak tersedia.",
+              "GME Card adalah kartu debit prabayar. Pembayaran cicilan tidak tersedia.",
+              "Anda tetap dapat menggunakan aplikasi GME meskipun kartu Anda telah dibatalkan. Namun, jika Anda membatalkan langganan di aplikasi GME, kartu Anda akan otomatis dibatalkan.",
+              "Anda bertanggung jawab penuh apabila kehilangan ponsel atau kartu Anda. GME tidak akan bertanggung jawab atas kejadian tersebut.",
+              "Merchant afiliasi internasional mengikuti kebijakan dan standar Mastercard.",
+              "Jika dibatalkan dalam waktu 3 bulan sejak penerbitan, biaya pembatalan sebesar ₩10,000 akan dikenakan untuk menutupi biaya pemrosesan."
+            ],
+            "title": "Perhatian"
+          },
+          "delivery": {
+            "methods": [
+              "Pengiriman ke rumah",
+              "Ambil di cabang GME"
+            ],
+            "title": "Metode Pengiriman Kartu"
+          },
+          "foreignPayment": {
+            "items": [
+              "Untuk pembayaran di merchant luar negeri, mata uang selain USD akan dikonversi ke USD berdasarkan nilai tukar Mastercard, diproses pada tanggal persetujuan pembayaran (transaksi yang disetujui) atau tanggal GME menerima informasi tagihan (transaksi yang belum disetujui). Jumlah tagihan dalam KRW, termasuk biaya luar negeri sebesar 1.25%, ditambahkan ke jumlah KRW berdasarkan nilai tukar USD GME dan dipotong dari GME Pay.",
+              "Jumlah Tagihan = (Jumlah Pembayaran × Nilai Tukar) + Biaya Luar Negeri (Biaya Brand Internasional² + Biaya Pembayaran Luar Negeri²)",
+              "Nilai tukar yang digunakan adalah kurs USD pembayaran kartu GME, yang diperbarui setiap 15 menit dan diterapkan pada saat persetujuan pembayaran (atau saat GME menerima informasi tagihan).",
+              "Biaya Brand Internasional² = (Jumlah Pembayaran × Nilai Tukar) × Tarif Biaya Mastercard (1.0%)",
+              "Biaya Pembayaran Luar Negeri² = (Jumlah Pembayaran × Nilai Tukar) × Tarif Biaya Kartu GME (0.25%)",
+              "Saat membayar dalam KRW di merchant luar negeri, biaya DCC tambahan (sekitar 3-15%) dapat dikenakan. Memblokir pembayaran KRW di luar negeri dan membayar dalam mata uang lokal akan lebih hemat biaya.",
+              "Anda dapat mengatur pembatasan pembayaran KRW luar negeri (DCC) di aplikasi GME. Buka: Kartu > Manajemen Kartu > pengaturan \"Pembatasan Pembayaran KRW Luar Negeri\" (Default: \"Dibatasi\")",
+              "Untuk informasi lebih lanjut, silakan hubungi Pusat Layanan Pelanggan (1588-6864) atau kunjungi www.gmeremit.com."
+            ],
+            "title": "Pembayaran Internasional & Informasi Lainnya"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "Hingga KRW 30 Million diberikan kepada anggota keluarga yang ditunjuk dalam hal kematian akibat kecelakaan, dan hingga KRW 30 Million dalam hal kecacatan akibat kecelakaan.",
+                "title": "Manfaat Dukungan Asuransi"
+              },
+              {
+                "desc": "Hingga KRW 1 Million untuk rawat inap lebih dari 30 hari, hingga KRW 50,000 untuk kunjungan ruang gawat darurat, serta bantuan pengajuan pengembalian pajak.",
+                "title": "Manfaat Dukungan Keanggotaan"
+              },
+              {
+                "desc": "Dengan isi ulang otomatis, Anda tidak perlu melakukan top-up manual saat naik bus dan subway.",
+                "title": "Kartu Transportasi Pascabayar"
+              },
+              {
+                "desc": "Nikmati reward di toko mitra terpilih selama periode promosi khusus",
+                "title": "Cashback Musiman dan Toko Spesial"
+              },
+              {
+                "desc": "Lakukan pembayaran di seluruh dunia, baik di dalam maupun luar negeri, di mana pun Mastercard diterima.",
+                "title": "Bayar di Mana Saja di Seluruh Dunia"
+              },
+              {
+                "desc": "Bayar kapan saja, di mana saja — online atau di toko — untuk belanja, hiburan, dan lainnya",
+                "title": "Belanja Online & Offline"
+              }
+            ],
+            "title": "Manfaat Utama"
+          },
+          "userGuide": {
+            "contact": {
+              "center": "Pusat Layanan Pelanggan GME: 1811-2961",
+              "website": "Situs Web: gmeremit.com"
+            },
+            "limit": "Hingga ₩2,000,000 per transaksi",
+            "monthlyFee": "₩6,990 (ditagihkan setiap tanggal 1 tiap bulan)",
+            "title": "Panduan Pengguna"
+          }
+        },
+        "features": [
+          "Kartu debit dengan fungsi transportasi pascabayar",
+          "Manfaat dukungan asuransi dan keanggotaan",
+          "Cashback Musiman dan Toko Spesial"
+        ],
+        "subtitle": "GME EasyCare Card"
+      },
+      "easyG0": {
+        "details": {
+          "autoPayment": {
+            "desc": "Ketika saldo GME Pay tidak cukup untuk pembayaran kartu, kekurangannya akan otomatis didebit dari rekening auto-debit yang terhubung.",
+            "title": "Auto Debit"
+          },
+          "cardStatus": {
+            "items": [
+              {
+                "desc": "Fungsi kartu transportasi tetap tersedia.",
+                "status": "Ditangguhkan Sementara"
+              },
+              {
+                "desc": "Kartu akan ditangguhkan dalam 2 hari. Fungsi kartu transportasi akan ditangguhkan 2 hari setelah laporan.",
+                "status": "Laporan Kehilangan"
+              },
+              {
+                "desc": "Kartu dapat digunakan kembali setelah 2-3 hari.",
+                "status": "Pembatalan Kehilangan"
+              },
+              {
+                "desc": "Fungsi kartu transportasi akan dibatalkan 10 hari setelah penerbitan ulang.",
+                "status": "Penerbitan Ulang"
+              }
+            ],
+            "title": "Penggunaan Transportasi berdasarkan Status Kartu"
+          },
+          "cautions": {
+            "items": [
+              "Jika pembayaran kartu GME dibatalkan, pengembalian dana akan dikembalikan ke Dompet GME Anda. Pengembalian ke rekening lain tidak tersedia.",
+              "Kartu GME adalah kartu debit prabayar. Pembayaran cicilan tidak tersedia.",
+              "Anda masih bisa menggunakan aplikasi GME meskipun kartu dibatalkan. Namun, jika Anda membatalkan langganan di aplikasi GME, kartu akan otomatis dibatalkan.",
+              "Anda bertanggung jawab penuh apabila kehilangan ponsel atau kartu Anda. GME tidak akan bertanggung jawab atas kejadian tersebut.",
+              "Merchant afiliasi internasional mengikuti kebijakan dan standar Mastercard.",
+              "Jika dibatalkan dalam 3 bulan sejak penerbitan, biaya pembatalan ₩10.000 akan dikenakan untuk menutupi biaya pemrosesan."
+            ],
+            "title": "Perhatian"
+          },
+          "delivery": {
+            "methods": [
+              "Pengiriman ke rumah",
+              "Ambil di cabang GME"
+            ],
+            "title": "Metode Pengiriman Kartu"
+          },
+          "foreignPayment": {
+            "items": [
+              "Untuk pembayaran di merchant luar negeri, mata uang non-USD dikonversi ke USD berdasarkan kurs Mastercard, diproses pada tanggal persetujuan pembayaran (transaksi disetujui) atau tanggal GME menerima informasi tagihan (transaksi belum disetujui). Jumlah tagihan KRW, termasuk biaya luar negeri 1,25%, ditambahkan ke jumlah KRW berdasarkan kurs USD GME dan dipotong dari GME Pay.",
+              "Jumlah Tagihan = (Jumlah Pembayaran × Kurs) + Biaya Luar Negeri (Biaya Brand Internasional² + Biaya Pembayaran Luar Negeri²)",
+              "Kurs adalah kurs USD pembayaran kartu GME, diperbarui setiap 15 menit, berlaku saat persetujuan pembayaran (atau saat GME menerima informasi tagihan).",
+              "Biaya Brand Internasional² = (Jumlah Pembayaran × Kurs) × Tarif Biaya Mastercard (1,0%)",
+              "Biaya Pembayaran Luar Negeri² = (Jumlah Pembayaran × Kurs) × Tarif Biaya Kartu GME (0,25%)",
+              "Saat membayar dalam KRW di merchant luar negeri, biaya DCC tambahan (sekitar 3-15%) mungkin berlaku. Memblokir pembayaran KRW luar negeri dan membayar dalam mata uang lokal lebih hemat.",
+              "Anda dapat mengatur pembatasan pembayaran KRW luar negeri (DCC) di aplikasi GME. Buka: Kartu > Manajemen Kartu > Pengaturan 'Pembatasan Pembayaran KRW Luar Negeri' (Default: 'Dibatasi')",
+              "Untuk detail lebih lanjut, hubungi Pusat Layanan Pelanggan (1588-6864) atau kunjungi www.gmeremit.com."
+            ],
+            "title": "Pembayaran Internasional & Informasi Lainnya"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "Dengan isi ulang otomatis, Anda tidak perlu melakukan top-up manual saat naik bus dan subway.",
+                "title": "Kartu Transportasi Pascabayar"
+              },
+              {
+                "desc": "Nikmati reward di toko mitra terpilih selama periode promosi khusus",
+                "title": "Cashback Musiman dan Toko Spesial"
+              },
+              {
+                "desc": "Bayar bebas di dalam dan luar negeri",
+                "title": "Bayar di Seluruh Dunia"
+              },
+              {
+                "desc": "Bayar bebas untuk belanja dan hiburan, online maupun offline",
+                "title": "Belanja Online & Offline"
+              }
+            ],
+            "title": "Manfaat Utama"
+          },
+          "transitCard": {
+            "availability": "Tersedia di kereta bawah tanah dan bus kota. Untuk taksi, bus bandara, dan kereta, gunakan kartu (chip IC dan pembaca MS) untuk membayar.",
+            "limit": "Batas ₩10.000 per perjalanan",
+            "paymentTime": "Biaya penggunaan harus dibayar dalam 1-2 hari.",
+            "title": "Kartu Transportasi Pascabayar"
+          },
+          "userGuide": {
+            "contact": {
+              "center": "Pusat Layanan GME: 1811-2961",
+              "website": "Website: gmeremit.com"
+            },
+            "limit": "Hingga ₩2.000.000 per transaksi",
+            "monthlyFee": "₩1,000 (ditagihkan setiap tanggal 1 tiap bulan)",
+            "title": "Panduan Pengguna"
+          }
+        },
+        "features": [
+          "Kartu debit dengan fungsi transportasi pascabayar",
+          "Cashback Musiman dan Toko Spesial",
+          "Penarikan dan setoran tunai di ATM khusus"
+        ],
+        "subtitle": "GME EasyGo Card"
+      },
+      "pay": {
+        "details": {
+          "autoPayment": {
+            "desc": "Jika saldo GME Pay Anda tidak mencukupi untuk pembayaran kartu, kekurangannya akan didebit secara otomatis dari rekening auto-debit yang terhubung.",
+            "title": "Auto Debit"
+          },
+          "cautions": {
+            "items": [
+              "Jika pembayaran kartu GME dibatalkan, dana pengembalian akan dikembalikan ke GME Wallet Anda. Pengembalian dana ke rekening lain tidak tersedia.",
+              "GME Card adalah kartu debit prabayar. Pembayaran cicilan tidak tersedia.",
+              "Anda tetap dapat menggunakan aplikasi GME meskipun kartu Anda telah dibatalkan. Namun, jika Anda membatalkan langganan di aplikasi GME, kartu Anda akan otomatis dibatalkan.",
+              "Anda bertanggung jawab penuh apabila kehilangan ponsel atau kartu Anda. GME tidak akan bertanggung jawab atas kejadian tersebut.",
+              "Merchant afiliasi internasional mengikuti kebijakan dan standar Mastercard."
+            ],
+            "title": "Perhatian"
+          },
+          "delivery": {
+            "methods": [
+              "Pengiriman ke rumah",
+              "Ambil di cabang GME"
+            ],
+            "title": "Metode Pengiriman Kartu"
+          },
+          "foreignPayment": {
+            "items": [
+              "Untuk pembayaran di merchant luar negeri, mata uang selain USD akan dikonversi ke USD berdasarkan nilai tukar Mastercard, diproses pada tanggal persetujuan pembayaran (transaksi yang disetujui) atau tanggal GME menerima informasi tagihan (transaksi yang belum disetujui). Jumlah tagihan dalam KRW, termasuk biaya luar negeri sebesar 1.25%, ditambahkan ke jumlah KRW berdasarkan nilai tukar USD GME dan dipotong dari GME Pay.",
+              "Jumlah Tagihan = (Jumlah Pembayaran × Nilai Tukar) + Biaya Luar Negeri (Biaya Brand Internasional² + Biaya Pembayaran Luar Negeri²)",
+              "Nilai tukar yang digunakan adalah kurs USD pembayaran kartu GME, yang diperbarui setiap 15 menit dan diterapkan pada saat persetujuan pembayaran (atau saat GME menerima informasi tagihan).",
+              "Biaya Brand Internasional² = (Jumlah Pembayaran × Nilai Tukar) × Tarif Biaya Mastercard (1.0%)",
+              "Biaya Pembayaran Luar Negeri² = (Jumlah Pembayaran × Nilai Tukar) × Tarif Biaya Kartu GME (0.25%)",
+              "Saat membayar dalam KRW di merchant luar negeri, biaya DCC tambahan (sekitar 3-15%) dapat dikenakan. Memblokir pembayaran KRW di luar negeri dan membayar dalam mata uang lokal akan lebih hemat biaya.",
+              "Anda dapat mengatur pembatasan pembayaran KRW luar negeri (DCC) di aplikasi GME. Buka: Kartu > Manajemen Kartu > pengaturan \"Pembatasan Pembayaran KRW Luar Negeri\" (Default: \"Dibatasi\")",
+              "Untuk informasi lebih lanjut, silakan hubungi Pusat Layanan Pelanggan (1588-6864) atau kunjungi www.gmeremit.com."
+            ],
+            "title": "Pembayaran Internasional & Informasi Lainnya"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "Nikmati reward di toko mitra terpilih selama periode promosi khusus",
+                "title": "Cashback Musiman dan Toko Spesial"
+              },
+              {
+                "desc": "Bayar dengan bebas baik di dalam maupun luar negeri",
+                "title": "Bayar di Mana Saja di Seluruh Dunia"
+              },
+              {
+                "desc": "Bayar dengan bebas untuk belanja dan hiburan, baik online maupun offline",
+                "title": "Belanja Online & Offline"
+              },
+              {
+                "desc": "Gunakan kartu Anda dengan mudah di bus, subway, dan kereta",
+                "title": "Transportasi Umum"
+              }
+            ],
+            "title": "Manfaat Utama"
+          },
+          "userGuide": {
+            "annualFee": "₩10,000 (per tahun)",
+            "chargeMethod": "Anda dapat melakukan top-up melalui ATM atau transfer bank.",
+            "contact": {
+              "center": "Pusat Layanan Pelanggan GME: 1811-2961",
+              "website": "Situs Web: gmeremit.com"
+            },
+            "limit": "Hingga ₩2,000,000 per transaksi",
+            "title": "Panduan Pengguna"
+          }
+        },
+        "features": [
+          "Kartu debit dengan fungsi transportasi prabayar",
+          "Cashback Musiman dan Toko Spesial",
+          "Penarikan dan setoran tunai di ATM khusus"
+        ]
+      },
+      "red": {
+        "details": {
+          "autoPayment": {
+            "desc": "Ketika saldo GME Pay tidak cukup untuk pembayaran kartu, kekurangannya akan otomatis didebit dari rekening auto-debit yang terhubung.",
+            "title": "Pembayaran Otomatis"
+          },
+          "cautions": {
+            "items": [
+              "Jika pembayaran kartu GME dibatalkan, pengembalian dana akan dikembalikan ke Dompet GME Anda. Pengembalian ke rekening lain tidak tersedia.",
+              "Kartu GME adalah kartu debit prabayar. Pembayaran cicilan tidak tersedia.",
+              "Anda masih bisa menggunakan aplikasi GME meskipun kartu dibatalkan. Namun, jika Anda membatalkan langganan di aplikasi GME, kartu akan otomatis dibatalkan.",
+              "Anda bertanggung jawab penuh atas kehilangan ponsel atau kartu. GME tidak bertanggung jawab dalam kasus tersebut.",
+              "Afiliasi internasional mengikuti kebijakan dan standar Mastercard."
+            ],
+            "title": "Perhatian"
+          },
+          "delivery": {
+            "methods": [
+              "Pengiriman ke rumah",
+              "Ambil di cabang GME"
+            ],
+            "title": "Metode Pengiriman Kartu"
+          },
+          "foreignPayment": {
+            "items": [
+              "Untuk pembayaran di merchant luar negeri, mata uang non-USD dikonversi ke USD berdasarkan kurs Mastercard, diproses pada tanggal persetujuan pembayaran (transaksi disetujui) atau tanggal GME menerima informasi tagihan (transaksi belum disetujui). Jumlah tagihan KRW, termasuk biaya luar negeri 1,25%, ditambahkan ke jumlah KRW berdasarkan kurs USD GME dan dipotong dari GME Pay.",
+              "Jumlah Tagihan = (Jumlah Pembayaran × Kurs) + Biaya Luar Negeri (Biaya Brand Internasional² + Biaya Pembayaran Luar Negeri²)",
+              "Kurs adalah kurs USD pembayaran kartu GME, diperbarui setiap 15 menit, berlaku saat persetujuan pembayaran (atau saat GME menerima informasi tagihan).",
+              "Biaya Brand Internasional² = (Jumlah Pembayaran × Kurs) × Tarif Biaya Mastercard (1,0%)",
+              "Biaya Pembayaran Luar Negeri² = (Jumlah Pembayaran × Kurs) × Tarif Biaya Kartu GME (0,25%)",
+              "Saat membayar dalam KRW di merchant luar negeri, biaya DCC tambahan (sekitar 3-15%) mungkin berlaku. Memblokir pembayaran KRW luar negeri dan membayar dalam mata uang lokal lebih hemat.",
+              "Anda dapat mengatur pembatasan pembayaran KRW luar negeri (DCC) di aplikasi GME. Buka: Kartu > Manajemen Kartu > Pengaturan 'Pembatasan Pembayaran KRW Luar Negeri' (Default: 'Dibatasi')",
+              "Untuk detail lebih lanjut, hubungi Pusat Layanan Pelanggan (1588-6864) atau kunjungi www.gmeremit.com."
+            ],
+            "title": "Pembayaran Internasional & Informasi Lainnya"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "Cashback di toko mitra terpilih",
+                "title": "Cashback Musiman"
+              },
+              {
+                "desc": "Bayar bebas di dalam dan luar negeri",
+                "title": "Bayar di Seluruh Dunia"
+              },
+              {
+                "desc": "Bayar bebas untuk belanja dan hiburan, online maupun offline",
+                "title": "Belanja Online & Offline"
+              },
+              {
+                "desc": "Bayar di bus, kereta bawah tanah, kereta, dan semua transportasi umum.",
+                "title": "Transportasi Umum"
+              }
+            ],
+            "title": "Manfaat Utama"
+          },
+          "userGuide": {
+            "annualFee": "Biaya tahunan ₩10.000 (per tahun)",
+            "chargeMethod": "Anda dapat mengisi GME Pay melalui Dompet GME atau rekening bank.",
+            "contact": {
+              "center": "Pusat Layanan GME: 1811-2961",
+              "website": "Website: gmeremit.com"
+            },
+            "limit": "Hingga ₩2.000.000 per transaksi",
+            "title": "Panduan Pengguna"
+          }
+        },
+        "features": [
+          "Pembayaran global Mastercard",
+          "Cashback hingga 30% saat event",
+          "Penarikan & setoran ATM"
+        ],
+        "subtitle": "GME Red Mastercard"
+      },
+      "white": {
+        "details": {
+          "autoPayment": {
+            "desc": "Ketika saldo GME Pay tidak cukup untuk pembayaran kartu, kekurangannya akan otomatis didebit dari rekening auto-debit yang terhubung.",
+            "title": "Pembayaran Otomatis"
+          },
+          "cautions": {
+            "items": [
+              "Jika pembayaran kartu GME dibatalkan, pengembalian dana akan dikembalikan ke Dompet GME Anda. Pengembalian ke rekening lain tidak tersedia.",
+              "Kartu GME adalah kartu debit prabayar. Pembayaran cicilan tidak tersedia.",
+              "Anda masih bisa menggunakan aplikasi GME meskipun kartu dibatalkan. Namun, jika Anda membatalkan langganan di aplikasi GME, kartu akan otomatis dibatalkan.",
+              "Anda bertanggung jawab penuh atas kehilangan ponsel atau kartu. GME tidak bertanggung jawab dalam kasus tersebut.",
+              "Afiliasi internasional mengikuti kebijakan dan standar Mastercard."
+            ],
+            "title": "Perhatian"
+          },
+          "delivery": {
+            "methods": [
+              "Pengiriman ke rumah",
+              "Ambil di cabang GME"
+            ],
+            "title": "Metode Pengiriman Kartu"
+          },
+          "foreignPayment": {
+            "items": [
+              "Untuk pembayaran di merchant luar negeri, mata uang non-USD dikonversi ke USD berdasarkan kurs Mastercard, diproses pada tanggal persetujuan pembayaran (transaksi disetujui) atau tanggal GME menerima informasi tagihan (transaksi belum disetujui). Jumlah tagihan KRW, termasuk biaya luar negeri 1,25%, ditambahkan ke jumlah KRW berdasarkan kurs USD GME dan dipotong dari GME Pay.",
+              "Jumlah Tagihan = (Jumlah Pembayaran × Kurs) + Biaya Luar Negeri (Biaya Brand Internasional² + Biaya Pembayaran Luar Negeri²)",
+              "Kurs adalah kurs USD pembayaran kartu GME, diperbarui setiap 15 menit, berlaku saat persetujuan pembayaran (atau saat GME menerima informasi tagihan).",
+              "Biaya Brand Internasional² = (Jumlah Pembayaran × Kurs) × Tarif Biaya Mastercard (1,0%)",
+              "Biaya Pembayaran Luar Negeri² = (Jumlah Pembayaran × Kurs) × Tarif Biaya Kartu GME (0,25%)",
+              "Saat membayar dalam KRW di merchant luar negeri, biaya DCC tambahan (sekitar 3-15%) mungkin berlaku. Memblokir pembayaran KRW luar negeri dan membayar dalam mata uang lokal lebih hemat.",
+              "Anda dapat mengatur pembatasan pembayaran KRW luar negeri (DCC) di aplikasi GME. Buka: Kartu > Manajemen Kartu > Pengaturan 'Pembatasan Pembayaran KRW Luar Negeri' (Default: 'Dibatasi')",
+              "Untuk detail lebih lanjut, hubungi Pusat Layanan Pelanggan (1588-6864) atau kunjungi www.gmeremit.com."
+            ],
+            "title": "Pembayaran Internasional & Informasi Lainnya"
+          },
+          "mainBenefits": {
+            "items": [
+              {
+                "desc": "Cashback di toko mitra terpilih",
+                "title": "Cashback Musiman"
+              },
+              {
+                "desc": "Bayar bebas di dalam dan luar negeri",
+                "title": "Bayar di Seluruh Dunia"
+              },
+              {
+                "desc": "Bayar bebas untuk belanja dan hiburan, online maupun offline",
+                "title": "Belanja Online & Offline"
+              },
+              {
+                "desc": "Bayar di bus, kereta bawah tanah, kereta, dan semua transportasi umum.",
+                "title": "Transportasi Umum"
+              }
+            ],
+            "title": "Manfaat Utama"
+          },
+          "userGuide": {
+            "annualFee": "Biaya tahunan ₩10.000 (per tahun)",
+            "chargeMethod": "Anda dapat mengisi GME Pay melalui Dompet GME atau rekening bank.",
+            "contact": {
+              "center": "Pusat Layanan GME: 1811-2961",
+              "website": "Website: gmeremit.com"
+            },
+            "limit": "Hingga ₩2.000.000 per transaksi",
+            "title": "Panduan Pengguna"
+          }
+        },
+        "features": [
+          "Diskon minimarket & kafe",
+          "Gratis transportasi umum",
+          "Kelola mudah via aplikasi",
+          "ATM seluruh Indonesia"
+        ],
+        "subtitle": "GME White Mastercard"
+      },
+      "uniq": {
+        "features": [
+          "Kartu debit dengan fungsi transportasi prabayar",
+          "Cashback Musiman dan Toko Spesial",
+          "Penarikan dan setoran tunai di ATM khusus"
+        ],
+        "subtitle": "GME UniQ Card"
+      }
+    }
+  },
+  "services-loan": {
+    "details": {
+      "contract": {
+        "label": "Metode Kontrak",
+        "value": "Kontrak Digital"
+      },
+      "duration": {
+        "label": "Jangka Waktu Pinjaman",
+        "value": "3 - 45 bulan"
+      },
+      "early_settlement": {
+        "label": "Biaya Pelunasan Awal",
+        "value": "Gratis"
+      },
+      "loanable": {
+        "label": "Jumlah yang Dapat Dipinjam",
+        "value": "2 juta - 35 juta"
+      },
+      "max_amount": {
+        "label": "Jumlah Pinjaman Maksimal",
+        "value": "Hingga 35 juta"
+      },
+      "repayment": {
+        "label": "Metode Pembayaran",
+        "value": "Cicilan Bulanan"
+      },
+      "visa_period": {
+        "label": "Sisa Masa Berlaku Visa",
+        "value": "7 - 48 bulan"
+      },
+      "visa_types": {
+        "label": "Jenis Visa yang Memenuhi Syarat",
+        "value": "E9, E7, F2, F5, F6, D8 & visa apapun dengan Kontrak Kerja yang Sah"
+      }
+    },
+    "disclosure": {
+      "banner": "Produk pinjaman yang diperkenalkan di halaman ini disediakan oleh GME Finance (entitas hukum terpisah). GME Finance bertanggung jawab penuh atas semua aspek layanan pinjaman termasuk konsultasi, peninjauan, kontrak, dan layanan purnajual. GME Remit hanya menyediakan informasi produk dan fitur penghubung.",
+      "disclaimer": "* GME Remit bukan penjual atau perantara produk pinjaman ini. Semua hak dan kewajiban yang timbul dari kontrak pinjaman antara GME Finance dan pelanggan sepenuhnya menjadi milik GME Finance. Silakan ajukan sengketa atau pertanyaan terkait langsung ke GME Finance.",
+      "label_address": "Kantor Pusat",
+      "label_brand_name": "Merek",
+      "label_business_number": "No. Registrasi Bisnis",
+      "label_ceo": "CEO",
+      "label_email": "Email",
+      "label_loan_license": "No. Lisensi Pemberian Pinjaman",
+      "label_phone": "Telepon",
+      "label_supervisor": "Otoritas Pengawas",
+      "law_notice": "Pengungkapan identitas bisnis sesuai dengan Pasal 10 Undang-Undang Perlindungan Konsumen dalam Perdagangan Elektronik.",
+      "provider_heading": "GME Finance"
+    },
+    "faq": {
+      "items": [
+        {
+          "a": "Pemegang visa D-2, E-9, E-10, E-7, E-1, E-2, E-3, F-2, F-2R, F-5, F-6, F-4, dan G-1 memenuhi syarat. Produk yang tersedia mungkin berbeda berdasarkan jenis visa.",
+          "q": "Visa apa saja yang bisa mengajukan pinjaman?"
+        },
+        {
+          "a": "Hanya tiga dokumen: Kartu Registrasi Orang Asing (ARC), Kontrak Kerja, dan Paspor. Tanpa dokumen rumit — prosesnya lancar dan mudah.",
+          "q": "Dokumen apa saja yang diperlukan?"
+        },
+        {
+          "a": "Anda dapat mendaftar dengan mudah melalui aplikasi mobile GME Finance. Hanya dengan smartphone, Anda dapat mengajukan pinjaman dengan cepat dan aman — kapan saja, di mana saja.",
+          "q": "Bagaimana cara mengajukan pinjaman?"
+        },
+        {
+          "a": "GME Finance menyediakan penanganan informasi pribadi yang aman melalui sistem yang dirancang khusus untuk pelanggan asing. Anda dapat menggunakan layanan kami dengan tenang.",
+          "q": "Apakah informasi pribadi saya aman?"
+        }
+      ],
+      "title": "Pertanyaan yang Sering Diajukan"
+    },
+    "process": {
+      "step1": {
+        "desc": "Unduh aplikasi GME di Google Play Store atau App Store. Daftar dan ajukan pinjaman.",
+        "title": "Daftar via Aplikasi GME"
+      },
+      "step2": {
+        "desc": "Isi informasi Anda dan kirim dokumen yang diperlukan.",
+        "title": "Kirim Dokumen"
+      },
+      "step3": {
+        "desc": "Staf akan memverifikasi dokumen dan melakukan pengecekan kredit.",
+        "title": "Verifikasi"
+      },
+      "step4": {
+        "desc": "Setelah disetujui, penandatanganan kontrak digital akan dilakukan.",
+        "title": "Persetujuan"
+      },
+      "step5": {
+        "desc": "Setelah penandatanganan kontrak, jumlah pinjaman akan ditransfer ke rekening bank Anda.",
+        "title": "Pencairan"
+      },
+      "subtitle": "Proses Pendaftaran 5 Langkah",
+      "title": "Pengajuan Pinjaman Mudah"
+    },
+    "products": {
+      "business_loan": {
+        "desc": "Modal kerja bisnis",
+        "name": "Pinjaman Bisnis"
+      },
+      "car_loan": {
+        "desc": "Dana pembelian kendaraan",
+        "name": "Pinjaman Mobil"
+      },
+      "gme_loan": {
+        "desc": "Biaya hidup umum",
+        "name": "GME Finance"
+      },
+      "house_loan": {
+        "desc": "Deposit sewa & jeonse",
+        "name": "Pinjaman Rumah"
+      },
+      "property_loan": {
+        "desc": "Pinjaman jaminan properti",
+        "name": "Pinjaman Properti"
+      },
+      "student_loan": {
+        "desc": "Biaya kuliah & sekolah",
+        "name": "Pinjaman Pelajar"
+      },
+      "subtitle": "Bandingkan dan pilih produk pinjaman yang sesuai dengan kebutuhan Anda.",
+      "title": "Produk Pinjaman",
+      "title2": "Cocok untuk Anda",
+      "vacation_loan": {
+        "desc": "Biaya liburan & perjalanan",
+        "name": "Pinjaman Liburan"
+      }
+    },
+    "service-hero-section": {
+      "cta": "Tingnan ang Mga Produkto ng Finance",
+      "title1": "Mga Serbisyo sa Finance",
+      "title2": "para sa mga Dayuhan",
+      "description": "Madaling mag-apply ng loan gamit ang GME app. Sinusuportahan namin ang iyong buhay sa Korea sa mabilis na pag-apruba at flexible na tuntunin.",
+      "badge": "GME FINANCE"
+    },
+    "why": {
+      "badge": "Powered by GME Finance",
+      "countries": {
+        "desc": "Negara Dilayani",
+        "title": "14+"
+      },
+      "description": "Kami menyediakan layanan pinjaman yang disesuaikan untuk pelanggan asing di 14+ negara. Rasakan kepercayaan yang terbukti dengan 1 juta+ pinjaman dan total kumulatif ₩500 miliar+.",
+      "realtime": {
+        "desc": "Pelacakan Status",
+        "title": "Real-Time"
+      },
+      "simple": {
+        "desc": "Via Aplikasi Mobile",
+        "title": "Pendaftaran Mudah"
+      },
+      "stats_desc": "1 juta+ pinjaman · 14 Negara",
+      "stats_label": "Total Pinjaman Kumulatif",
+      "stats_value": "₩500B+",
+      "success": {
+        "desc": "Pinjaman Berhasil",
+        "title": "1M+"
+      },
+      "support": {
+        "desc": "Dukungan Pelanggan",
+        "title": "24/7"
+      },
+      "title": "Mengapa Memilih GME Finance?"
+    }
+  },
+  "services-payments": {
+    "business": {
+      "partners": {
+        "list": {
+          "1": "Alipay",
+          "2": "Skyee",
+          "12": "LianLian Pay",
+          "13": "Terrapin",
+          "14": "Ria",
+          "15": "Thunes"
+        }
+      }
+    },
+    "features": {
+      "accounting": {
+        "description": "Rekonsiliasi otomatis untuk menyederhanakan akuntansi Anda. Penyelesaian yang rumit pun ditangani dengan rapi.",
+        "title": "Penyelesaian Mudah"
+      },
+      "dynamic": {
+        "description": "Pilih metode pembayaran Anda, lacak transaksi secara real-time, dan dapatkan tanda terima instan.",
+        "title": "Pelacakan Real-Time"
+      },
+      "flexibility": {
+        "description": "Tukar dan bayar secara bersamaan, atau kelola FX Anda sendiri. Operasikan sesuai keinginan Anda.",
+        "title": "Penukaran Fleksibel"
+      },
+      "label": "Fitur Layanan",
+      "netout": {
+        "description": "Kurangi biaya dengan leverage dana. Tanpa komisi tersembunyi.",
+        "title": "Netout"
+      },
+      "pob": {
+        "description": "Tingkat transparansi tinggi dan efisiensi maksimal untuk pembayaran proxy.",
+        "title": "Pembayaran atas Nama"
+      },
+      "technology": {
+        "description": "Arsitektur Micro Service dengan AML dan verifikasi bawaan untuk sistem yang kuat dan andal.",
+        "title": "Teknologi"
+      },
+      "title": "Fitur Layanan Pembayaran GME"
+    },
+    "partners": {
+      "label": "Mitra",
+      "title": "Dipercaya dan Bermitra dengan"
+    },
+    "process": {
+      "label": "Cara Kerja",
+      "step1": {
+        "description": "SPS untuk pembayaran lintas batas, VAS untuk penagihan dan rekening virtual. Keduanya disediakan sebagai bagian dari layanan.",
+        "title": "SPS + VAS"
+      },
+      "step2": {
+        "description": "Hubungkan sistem Anda menggunakan dokumentasi API kami di developers.gmeremit.com.",
+        "title": "Integrasi API"
+      },
+      "step3": {
+        "description": "Kelola FX Anda sendiri atau tukar dan bayar secara bersamaan. Lacak setiap transaksi secara real-time.",
+        "title": "Kontrol FX & Pembayaran"
+      },
+      "step4": {
+        "description": "Rekonsiliasi mudah untuk penyelesaian, tanda terima instan, dan riwayat transaksi lengkap.",
+        "title": "Rekonsiliasi & Laporan"
+      },
+      "title": "Cara Kerja GME Payments"
+    },
+    "service-hero-section": {
+      "cta_contact": "Makipag-ugnayan sa Sales",
+      "cta_docs": "Tingnan ang API Docs",
+      "title1": "GME para sa SMB's &",
+      "title2": "E-Commerce Merchants",
+      "description": "Lumilikha ng halaga sa pamamagitan ng pagbabago ng mga pagbabayad sa pakikipagtulungan. Bawasan ang gastos sa mga business transfer at palaguin ang iyong pandaigdigang negosyo.",
+      "badge": "BAWASAN ANG GASTOS SA MGA BUSINESS TRANSFER"
+    },
+    "solutions": {
+      "description": "Dua solusi andal — SPS dan VAS — untuk menangani setiap aspek pembayaran lintas batas.",
+      "label": "Solusi Inti",
+      "sps": {
+        "description": "Solusi pembayaran lintas batas massal 24/7. Kelola FX, verifikasi penerima, dan proses pembayaran massal dalam satu tempat.",
+        "features": [
+          "Pembayaran 24/7",
+          "Kontrol FX",
+          "Pembayaran Massal",
+          "Status Real-Time",
+          "Pembayaran Instan",
+          "Verifikasi Real-Time"
+        ],
+        "subtitle": "Solusi Pembayaran Lancar",
+        "title": "SPS"
+      },
+      "title": "Solusi Pembayaran untuk Bisnis Anda",
+      "vas": {
+        "description": "Dari penerbitan rekening virtual hingga penagihan atas nama. Semua fitur tambahan yang dibutuhkan untuk operasi pembayaran.",
+        "features": [
+          "Notifikasi Real-Time",
+          "Penagihan Lokal Biaya Rendah",
+          "Tetapkan V/A",
+          "Rekening Virtual Berbagai Format",
+          "Penagihan atas Nama (COBO)",
+          "Tidak Ada Batasan Penerima & Penyetor",
+          "Penerbitan V/A Instan via API atau Portal"
+        ],
+        "subtitle": "Layanan Akun Virtual",
+        "title": "VAS"
+      }
+    }
+  },
+  "services-remittance": {
+    "process": {
+      "step1": {
+        "desc": "Instal aplikasi GME dan selesaikan verifikasi identitas.",
+        "title": "Instal & Verifikasi"
+      },
+      "step2": {
+        "desc": "Pilih negara tujuan, info rekening, dan jumlah.",
+        "title": "Masukkan Info Penerima"
+      },
+      "step3": {
+        "desc": "Bayar dan lacak status pengiriman secara real-time.",
+        "title": "Pengiriman Selesai"
+      },
+      "subtitle": "3 langkah dari pendaftaran hingga selesai",
+      "title": "Proses",
+      "title2": "Pengiriman Uang Sederhana"
+    },
+    "regions": {
+      "subtitle": "Tersedia di 200+ negara di Asia, Eropa, Amerika, dan Afrika.",
+      "title": "Jangkauan",
+      "title2": "Global",
+      "more": "Dan banyak negara lainnya yang didukung"
+    },
+    "stats": {
+      "achieved": {
+        "label": "Total Pengiriman",
+        "value": "₩3.5T+"
+      },
+      "branches": {
+        "label": "Cabang di Korea",
+        "value": "12"
+      },
+      "languages": {
+        "label": "Bahasa Didukung",
+        "value": "14"
+      },
+      "savings": {
+        "label": "Penghematan Biaya",
+        "value": "90%"
+      }
+    },
+    "why": {
+      "items": {
+        "cheapest": {
+          "desc": "Biaya dan kurs lebih baik dari bank tradisional.",
+          "title": "Biaya Kompetitif"
+        },
+        "fastest": {
+          "desc": "Pemrosesan real-time meminimalkan waktu pengiriman.",
+          "title": "Pengiriman Cepat"
+        },
+        "secure": {
+          "desc": "Verifikasi identitas yang ditingkatkan dan perlindungan keamanan.",
+          "title": "Verifikasi Aman"
+        }
+      },
+      "subtitle": "Mengapa Memilih GME Remittance",
+      "title": "Layanan Pengiriman Uang Global Terpercaya"
+    },
+    "trust": {
+      "efb": "",
+      "fss": "",
+      "moef": "",
+      "partner": "",
+      "desc": "Global Money Express (GME) adalah lembaga keuangan yang dilisensikan oleh Kementerian Ekonomi dan Badan Pengawas Keuangan, menyediakan layanan yang aman dan terpercaya.",
+      "insurance": "Asuransi tanggung jawab layanan transaksi keuangan elektronik: 300 juta KRW",
+      "title": "Kami menyediakan layanan yang aman."
+    },
+    "service-hero-section": {
+      "badge": "GME REMITTANCE",
+      "cta": "Tingnan ang Serbisyo",
+      "description": "Magpadala ng pera nang mabilis at ligtas sa 200+ na bansa.",
+      "title1": "Mabilis at Ligtas na",
+      "title2": "International Transfer"
+    }
+  },
+  "services-telecom": {
+    "categories": {
+      "fiveG": "5G/Khusus",
+      "postpaid": "Pascabayar",
+      "prepaid": "Prabayar",
+      "recommended": "Rekomendasi"
+    },
+    "telecom-page-client": {
+      "esim_intro": {
+        "badge": "eSIM",
+        "cta": "Aktivasi eSIM",
+        "description": "Mulai dengan mudah menggunakan eSIM! Pisahkan pekerjaan dan kehidupan pribadi dengan jelas untuk keseimbangan yang lebih baik.",
+        "tag1": "Tanpa ganti SIM",
+        "tag2": "Tanpa pengiriman",
+        "tag3": "Aktivasi mandiri langsung!",
+        "title": "Satu Ponsel, Dua Nomor"
+      },
+      "features": {
+        "title": "Mengapa GME Telecom?"
+      },
+      "plans": {
+        "cta": "Lihat Semua Paket",
+        "currency": "KRW",
+        "data": "Data",
+        "empty": "Tidak ada paket untuk ditampilkan",
+        "per_month": "bulan",
+        "sms": "SMS",
+        "subtitle": "Temukan paket yang sesuai dengan gaya hidup Anda!",
+        "title": "Paket untuk Anda",
+        "voice": "Telepon"
+      },
+      "process": {
+        "title": "Tanpa Repot,",
+        "title2": "Aktivasi Langsung"
+      },
+      "usim_intro": {
+        "badge": "USIM",
+        "cta": "Beli USIM",
+        "description": "Jam aktivasi mandiri",
+        "title": "Aktivasi dalam 5 Menit!"
+      }
+    },
+    "usim_intro": {
+      "step1": "Beli USIM",
+      "step2": "Terima",
+      "step3": "Aktifkan",
+      "step4": "Selesai!",
+      "time1_label": "Port Nomor",
+      "time1_note": "Kecuali Minggu, Tahun Baru, Seollal/Chuseok",
+      "time1_value": "10:00 - 20:00",
+      "time2_label": "Registrasi Baru",
+      "time2_note": "Tanpa batasan hari",
+      "time2_value": "08:00 - 22:00"
+    },
+    "plans": {
+      "discount": "DISKON",
+      "unlimited": "Tanpa Batas"
+    },
+    "process": {
+      "steps": {
+        "step1": {
+          "description": "Pesan USIM secara online",
+          "title": "Beli USIM"
+        },
+        "step2": {
+          "description": "Cek status pengiriman USIM",
+          "title": "Lacak Pengiriman"
+        },
+        "step3": {
+          "description": "Verifikasi identitas dan aktifkan dari aplikasi",
+          "title": "Aktivasi Mandiri"
+        },
+        "step4": {
+          "description": "Aktivasi selesai dalam 5 menit!",
+          "title": "Selesai!"
+        }
+      },
+      "subtitle": "Aktivasi mandiri sederhana untuk USIM dan eSIM"
+    },
+    "service-hero-section": {
+      "badge": "GME TELECOM",
+      "cta": "Tingnan ang Plans",
+      "description": "Murang mobile service na may kalidad na katumbas ng LGU+ at KT networks. Tipid sa phone bills na nagsisimula sa ₩3,300/buwan.",
+      "title1": "Ang Perpektong",
+      "title2": "Mobile Plan para sa Iyo"
+    }
+  }
+}

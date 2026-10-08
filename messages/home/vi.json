@@ -1,0 +1,539 @@
+{
+  "home": {
+    "app-download-cta": {
+      "chips": [
+        "Tỷ giá thời gian thực",
+        "Số tiền tối ưu",
+        "Xác thực an toàn"
+      ],
+      "description": "Xác thực dễ dàng và an toàn, số tiền tối ưu, chuyển tiền nhanh. Quản lý mọi thứ an toàn và tiện lợi với ứng dụng GME Remit.",
+      "qr_scan": "Quét mã QR",
+      "subtitle": "GME REMIT APP",
+      "title1": "Gửi nhanh hơn,",
+      "title2": "Quản lý thông minh hơn"
+    },
+    "cards-showcase": {
+      "black": {
+        "cta": "Xem Premium Card",
+        "desc": "Thẻ cao cấp mang lại ưu đãi cho chi tiêu quốc tế của bạn.",
+        "highlights": [
+          "Hoàn tiền 3% khi chi tiêu ở nước ngoài",
+          "Thanh toán mọi nơi trên thế giới",
+          "Mua sắm trực tuyến & trực tiếp",
+          "Phương tiện công cộng"
+        ]
+      },
+      "careers": {
+        "cta": {
+          "about": "Về công ty"
+        }
+      },
+      "cta": {
+        "button": "Đăng ký thẻ",
+        "description": "Tìm thẻ phù hợp nhất và tận hưởng các ưu đãi độc quyền.",
+        "title": "Bắt đầu sử dụng GME Card ngay hôm nay"
+      },
+      "easyCare": {
+        "cta": "Xem EasyCare Card",
+        "desc": "Made to Care — được tạo ra để chăm sóc bạn. Thẻ giao thông trả sau với quyền lợi bảo hiểm và hỗ trợ thành viên.",
+        "highlights": [
+          "Quyền lợi hỗ trợ bảo hiểm và thành viên",
+          "Thẻ giao thông trả sau",
+          "Hoàn tiền theo mùa và tại cửa hàng đặc biệt",
+          "Thanh toán mọi nơi trên thế giới"
+        ]
+      },
+      "easyG0": {
+        "cta": "Xem EasyGo Card",
+        "desc": "Giúp cuộc sống hàng ngày thêm tiện lợi. Tận hưởng các ưu đãi theo mùa, từ giao thông đến mua sắm.",
+        "highlights": [
+          "Thẻ giao thông trả sau",
+          "Hoàn tiền theo mùa và tại cửa hàng đặc biệt",
+          "Thanh toán toàn cầu",
+          "Mua sắm trực tuyến & ngoại tuyến"
+        ]
+      },
+      "image_alt": "Hình ảnh thẻ",
+      "loan": {
+        "cta": {
+          "button": "Tải ứng dụng"
+        }
+      },
+      "pay": {
+        "cta": "Xem Pay Card",
+        "desc": "Thẻ thanh toán đa năng cho chi tiêu hàng ngày của bạn.",
+        "highlights": [
+          "Hoàn tiền theo mùa và tại cửa hàng đặc biệt",
+          "Thanh toán mọi nơi trên thế giới",
+          "Mua sắm trực tuyến & trực tiếp",
+          "Phương tiện công cộng"
+        ]
+      },
+      "red": {
+        "cta": "Xem Red Card",
+        "desc": "Thẻ mang màu sắc đặc trưng của GME. Biến mỗi thanh toán trở nên phong cách.",
+        "highlights": [
+          "Hoàn tiền theo mùa",
+          "Giảm giá sự kiện đặc biệt",
+          "Tàu điện · Xe buýt · Taxi thanh toán dễ dàng",
+          "Giao thông công cộng"
+        ]
+      },
+      "uniq": {
+        "cta": "Xem UniQ Card",
+        "desc": "Chọn thẻ của riêng bạn từ hơn 30 thiết kế của 18 quốc gia.",
+        "highlights": [
+          "Hoàn tiền theo mùa và tại cửa hàng đặc biệt",
+          "Giảm giá sự kiện đặc biệt",
+          "18 quốc gia hơn 30 thiết kế",
+          "Tàu điện · Xe buýt · Taxi thanh toán dễ dàng"
+        ]
+      },
+      "white": {
+        "cta": "Xem White Card",
+        "desc": "Thẻ đơn giản và gọn gàng cho hàng ngày. Tiện lợi cho thanh toán trong nước và giao thông công cộng.",
+        "highlights": [
+          "Hoàn tiền theo mùa",
+          "Giảm giá sự kiện đặc biệt",
+          "Tàu điện · Xe buýt · Taxi thanh toán dễ dàng",
+          "Giao thông công cộng"
+        ]
+      }
+    },
+    "customer-feedback-section": {
+      "subtitle": "Trải nghiệm thực tế từ khách hàng của chúng tôi.",
+      "tags": {
+        "easy_tracking": "Chuyển tiền & Theo dõi dễ dàng",
+        "fast_process": "Xử lý nhanh",
+        "satisfied": "Dịch vụ hài lòng"
+      },
+      "title": "Đánh giá"
+    },
+    "hero-main": {
+      "badge": "Dịch vụ chuyển tiền xuất sắc",
+      "button": {
+        "learn_more": "Tìm hiểu thêm"
+      },
+      "countries": {
+        "names": {
+          "AD": "Andorra",
+          "AE": "Các Tiểu vương quốc Ả Rập",
+          "AG": "Antigua and Barbuda",
+          "AI": "Anguilla",
+          "AL": "Albania",
+          "AM": "Armenia",
+          "AO": "Angola",
+          "AR": "Argentina",
+          "AS": "American Samoa",
+          "AT": "Austria",
+          "AU": "Úc",
+          "AW": "Aruba",
+          "AZ": "Azerbaijan",
+          "BA": "Bosnia and Herzegovina",
+          "BB": "Barbados",
+          "BD": "Bangladesh",
+          "BE": "Belgium",
+          "BF": "Burkina Faso",
+          "BG": "Bulgaria",
+          "BH": "Bahrain",
+          "BI": "Burundi",
+          "BJ": "Benin",
+          "BL": "Saint Barthélemy",
+          "BM": "Bermuda",
+          "BN": "Brunei",
+          "BO": "Bolivia",
+          "BR": "Brazil",
+          "BS": "Bahamas",
+          "BT": "Bhutan",
+          "BW": "Botswana",
+          "BY": "Belarus",
+          "BZ": "Belize",
+          "CA": "Canada",
+          "CD": "Democratic Republic of the Congo",
+          "CF": "Central African Republic",
+          "CG": "Republic of the Congo",
+          "CH": "Thụy Sĩ",
+          "CI": "Ivory Coast",
+          "CK": "Cook Islands",
+          "CL": "Chile",
+          "CM": "Cameroon",
+          "CN": "Trung Quốc",
+          "CO": "Colombia",
+          "CR": "Costa Rica",
+          "CU": "Cuba",
+          "CV": "Cape Verde",
+          "CY": "Cyprus",
+          "CZ": "Cộng hòa Séc",
+          "DE": "Đức",
+          "DJ": "Djibouti",
+          "DK": "Đan Mạch",
+          "DM": "Dominica",
+          "DO": "Cộng hòa Dominica",
+          "DZ": "Algeria",
+          "EC": "Ecuador",
+          "EE": "Estonia",
+          "EG": "Egypt",
+          "ER": "Eritrea",
+          "ES": "Spain",
+          "ET": "Ethiopia",
+          "FI": "Finland",
+          "FJ": "Fiji",
+          "FM": "Micronesia",
+          "FR": "France",
+          "GA": "Gabon",
+          "GB": "Anh",
+          "GD": "Grenada",
+          "GE": "Georgia",
+          "GF": "French Guiana",
+          "GH": "Ghana",
+          "GI": "Gibraltar",
+          "GM": "Gambia",
+          "GN": "Guinea",
+          "GP": "Guadeloupe",
+          "GQ": "Equatorial Guinea",
+          "GR": "Greece",
+          "GT": "Guatemala",
+          "GU": "Guam",
+          "GW": "Guinea-Bissau",
+          "GY": "Guyana",
+          "HK": "Hồng Kông",
+          "HN": "Honduras",
+          "HR": "Croatia",
+          "HT": "Haiti",
+          "HU": "Hungary",
+          "ID": "Indonesia",
+          "IE": "Ireland",
+          "IL": "Israel",
+          "IN": "Ấn Độ",
+          "IS": "Iceland",
+          "IT": "Italy",
+          "JM": "Jamaica",
+          "JO": "Jordan",
+          "JP": "Nhật Bản",
+          "KE": "Kenya",
+          "KG": "Kyrgyzstan",
+          "KH": "Campuchia",
+          "KM": "Comoros",
+          "KN": "Saint Kitts and Nevis",
+          "KW": "Kuwait",
+          "KY": "Cayman Islands",
+          "KZ": "Kazakhstan",
+          "LA": "Laos",
+          "LB": "Lebanon",
+          "LC": "Saint Lucia",
+          "LI": "Liechtenstein",
+          "LK": "Sri Lanka",
+          "LR": "Liberia",
+          "LS": "Lesotho",
+          "LT": "Lithuania",
+          "LU": "Luxembourg",
+          "LV": "Latvia",
+          "LY": "Libya",
+          "MA": "Maroc",
+          "MC": "Monaco",
+          "MD": "Moldova",
+          "ME": "Montenegro",
+          "MF": "Saint Martin (French part)",
+          "MG": "Madagascar",
+          "MH": "Marshall Islands",
+          "MK": "Macedonia",
+          "ML": "Mali",
+          "MM": "Myanmar",
+          "MN": "Mongolia",
+          "MO": "Macao",
+          "MQ": "Martinique",
+          "MR": "Mauritania",
+          "MS": "Montserrat",
+          "MT": "Malta",
+          "MU": "Mauritius",
+          "MV": "Maldives",
+          "MW": "Malawi",
+          "MX": "Mexico",
+          "MY": "Malaysia",
+          "MZ": "Mozambique",
+          "NA": "Namibia",
+          "NC": "New Caledonia",
+          "NE": "Niger",
+          "NG": "Nigeria",
+          "NI": "Nicaragua",
+          "NL": "Netherlands",
+          "NO": "Na Uy",
+          "NP": "Nepal",
+          "NZ": "New Zealand",
+          "OM": "Oman",
+          "PA": "Panama",
+          "PE": "Peru",
+          "PF": "French Polynesia",
+          "PG": "Papua New Guinea",
+          "PH": "Philippines",
+          "PK": "Pakistan",
+          "PL": "Ba Lan",
+          "PR": "Puerto Rico",
+          "PS": "Palestinian Territory, Occupied",
+          "PT": "Portugal",
+          "PY": "Paraguay",
+          "QA": "Qatar",
+          "RE": "Réunion",
+          "RO": "Romania",
+          "RS": "Serbia",
+          "RU": "Nga",
+          "RW": "Rwanda",
+          "SA": "Ả Rập Xê Út",
+          "SB": "Solomon Islands",
+          "SC": "Seychelles",
+          "SD": "Sudan",
+          "SE": "Sweden",
+          "SG": "Singapore",
+          "SI": "Slovenia",
+          "SK": "Slovakia",
+          "SL": "Sierra Leone",
+          "SN": "Senegal",
+          "SR": "Suriname",
+          "SS": "South Sudan",
+          "ST": "Sao Tome and Principe",
+          "SV": "El Salvador",
+          "SZ": "Swaziland",
+          "TC": "Turks and Caicos Islands",
+          "TD": "Chad",
+          "TG": "Togo",
+          "TH": "Thái Lan",
+          "TJ": "Tajikistan",
+          "TL": "Timor-Leste",
+          "TM": "Turkmenistan",
+          "TN": "Tunisia",
+          "TO": "Tonga",
+          "TR": "Turkey",
+          "TT": "Trinidad and Tobago",
+          "TV": "Tuvalu",
+          "TZ": "Tanzania",
+          "UA": "Ukraine",
+          "UG": "Uganda",
+          "US": "Hoa Kỳ",
+          "UY": "Uruguay",
+          "UZ": "Uzbekistan",
+          "VC": "Saint Vincent and the Grenadines",
+          "VE": "Venezuela",
+          "VG": "Virgin Islands, British",
+          "VI": "Virgin Islands, U.S.",
+          "VN": "Việt Nam",
+          "VU": "Vanuatu",
+          "WS": "Samoa",
+          "XK": "Kosovo",
+          "YE": "Yemen",
+          "YT": "Mayotte",
+          "ZA": "South Africa",
+          "ZM": "Zambia",
+          "ZW": "Zimbabwe"
+        },
+        "realtime": "Thời gian thực",
+        "subtitle": "Hỗ trợ hơn 200 quốc gia",
+        "title": "Quốc gia hỗ trợ",
+        "view_all": "Tìm hiểu về chuyển tiền"
+      },
+      "description1": "Gửi đến hơn 200 quốc gia, tất cả ngân hàng Hàn Quốc theo thời gian thực.",
+      "description2": "An toàn với 70 đối tác toàn cầu và xác minh E-KYC.",
+      "rating": "Trung bình App Store · Google Play",
+      "stats": {
+        "avg_time": "Thời gian chuyển trung bình",
+        "seconds": "giây",
+        "total_amount": "Tổng số tiền chuyển",
+        "trillion": "nghìn tỷ+"
+      },
+      "title1": "Nhanh chóng và An toàn",
+      "title2": "Chuyển tiền quốc tế"
+    },
+    "hero-section": {
+      "exchange": {
+        "description1": "Tỷ giá thời gian thực cho hơn 200 quốc gia.",
+        "description2": "Công khai phí minh bạch.",
+        "eyebrow": "CURRENCY CONVERTER",
+        "stats": {
+          "countries": "200+",
+          "countries_label": "Quốc gia hỗ trợ",
+          "service": "24/7",
+          "service_label": "Dịch vụ thời gian thực"
+        },
+        "title1": "Kiểm tra tỷ giá",
+        "title2": "ngay bây giờ"
+      }
+    },
+    "loan-section": {
+      "button": {
+        "apply": "Đăng ký vay trong ứng dụng GME",
+        "detail": "Tìm hiểu thêm về Vay"
+      },
+      "card": {
+        "quick_apply": "Đăng ký nhanh",
+        "subtitle": "Vay cho người nước ngoài",
+        "title": "GME Finance"
+      },
+      "description": "Đăng ký vay trong vài phút với ứng dụng GME. Kiểm tra trạng thái và số dư theo thời gian thực mọi lúc, mọi nơi.",
+      "features": {
+        "countries": {
+          "desc": "Quốc gia",
+          "label": "14+"
+        },
+        "realtime": {
+          "desc": "Theo dõi",
+          "label": "Thời gian thực"
+        },
+        "simple": {
+          "desc": "Đăng ký qua ứng dụng",
+          "label": "Đơn giản"
+        },
+        "success": {
+          "desc": "Khoản vay",
+          "label": "1M+"
+        },
+        "support": {
+          "desc": "Hỗ trợ",
+          "label": "24/7"
+        }
+      },
+      "stats": {
+        "desc": "Hơn 1 triệu khoản vay · 14 quốc gia",
+        "title": "Thành tích cho vay lũy kế",
+        "value": "₩500B+"
+      },
+      "title": "Vay trực tuyến"
+    },
+    "main-services": {
+      "card": {
+        "desc1": "Một thẻ thông minh cho chuyển tiền và chi tiêu.",
+        "desc2": "Chuẩn mực mới cho thanh toán toàn cầu.",
+        "title": "GME Card"
+      },
+      "loan": {
+        "desc1": "Phê duyệt nhanh và điều khoản linh hoạt",
+        "desc2": "Dịch vụ vay kỹ thuật số",
+        "title": "Vay trực tuyến"
+      },
+      "mobile": {
+        "desc1": "Gói cước di động giá rẻ từ",
+        "desc2": "₩3.300/tháng dành cho người nước ngoài",
+        "title": "Di động"
+      },
+      "payments": {
+        "desc1": "Trả lương, thanh toán đối tác, thanh toán thương mại điện tử.",
+        "desc2": "Giải pháp thanh toán tiết kiệm cho doanh nghiệp.",
+        "title": "Thanh toán toàn cầu"
+      },
+      "remittance": {
+        "desc1": "Chuyển tiền nhanh chóng và an toàn",
+        "desc2": "đến hơn 200 quốc gia.",
+        "title": "Chuyển tiền quốc tế"
+      },
+      "title1": "Khám phá các",
+      "title2": "Dịch vụ đa dạng của GME"
+    },
+    "payments-section": {
+      "global_payments": {
+        "button": {
+          "detail": "Tìm hiểu thêm về Payments"
+        },
+        "card": {
+          "status": "Đang hoạt động",
+          "subtitle": "Giải pháp doanh nghiệp",
+          "title": "Giải pháp thanh toán"
+        },
+        "description": "Chuyển lương, thanh toán đối tác, thanh toán thương mại điện tử. Giải pháp thanh toán doanh nghiệp tiết kiệm chi phí.",
+        "features": {
+          "smb": "SMB",
+          "smb_desc": "Giải pháp thương mại điện tử",
+          "sps": "SPS",
+          "sps_desc": "Giải pháp thanh toán B2B",
+          "vas": "VAS",
+          "vas_desc": "Cảnh báo · Báo cáo · Bảng điều khiển"
+        },
+        "stats": {
+          "cost_saving": "Tiết kiệm chi phí",
+          "cost_saving_change": "so với truyền thống",
+          "cost_saving_value": "Lên đến 70%",
+          "partners": "Đối tác",
+          "partners_change": "Toàn cầu",
+          "partners_value": "200+",
+          "success_rate": "Tỷ lệ thành công",
+          "success_rate_change": "Bình thường",
+          "success_rate_value": "99,8%"
+        },
+        "title": "Thanh toán toàn cầu",
+        "transactions": {
+          "b2b": "Chuyển khoản hàng loạt B2B",
+          "completed": "Hoàn thành",
+          "just_now": "Vừa xong",
+          "merchant": "Thanh toán thương nhân",
+          "mins_ago": "phút trước",
+          "partner": "Thanh toán đối tác",
+          "processing": "Đang xử lý",
+          "title": "Giao dịch gần đây"
+        }
+      }
+    },
+    "remittance-section": {
+      "button": {
+        "detail": "Tìm hiểu thêm về Chuyển tiền"
+      },
+      "description": "Gửi tiền nhanh chóng và an toàn đến hơn 200 quốc gia.",
+      "features": {
+        "fast": {
+          "back_desc": "Gửi tiền đến bất kỳ đâu trên thế giới chỉ với vài thao tác, không cần thủ tục phức tạp.",
+          "back_title": "Chuyển tiền đơn giản",
+          "desc": "Hoàn tất chuyển tiền quốc tế chỉ với vài cú nhấp",
+          "sub": "Vài cú nhấp",
+          "title": "Chuyển tiền nhanh"
+        },
+        "global": {
+          "back_desc": "Gửi toàn cầu với hơn 200 quốc gia và 70 đối tác toàn cầu.",
+          "back_title": "Mạng lưới toàn cầu",
+          "desc": "Hơn một triệu người dùng trên toàn thế giới tin tưởng GME",
+          "sub": "1M+ Người dùng",
+          "title": "200+ Quốc gia"
+        },
+        "optimized": {
+          "back_desc": "Phí thấp hơn đến 90% so với ngân hàng. Gửi nhiều hơn với tỷ giá thời gian thực.",
+          "back_title": "Tiết kiệm chi phí lớn",
+          "desc": "Phí thấp hơn 90% và tỷ giá tốt hơn so với ngân hàng",
+          "sub": "Tiết kiệm 90%",
+          "title": "Số tiền tối ưu"
+        },
+        "security": {
+          "back_desc": "Gửi an toàn với xác minh E-KYC và dịch vụ đã đăng ký tại FSC.",
+          "back_title": "Bảo mật triệt để",
+          "desc": "Sử dụng an tâm với bảo mật mạnh mẽ",
+          "sub": "Đã xác minh",
+          "title": "Dễ dàng & An toàn"
+        }
+      },
+      "title": "Chuyển tiền quốc tế"
+    },
+    "section-nav": {
+      "app_download": "Tải ứng dụng",
+      "customer_feedback": "Đánh giá",
+      "exchange": "Chuyển đổi tiền tệ",
+      "home": "Trang chủ",
+      "services": "Dịch vụ"
+    },
+    "hero": {
+      "countries": {
+        "more": "Thêm"
+      }
+    },
+    "services": {
+      "loan": {
+        "estimated_limit": "Hạn mức ước tính"
+      }
+    },
+    "section_nav": {
+      "testimonials": "Đánh giá"
+    },
+    "testimonials": {
+      "subtitle": "Trải nghiệm thực tế từ khách hàng của chúng tôi.",
+      "tags": {
+        "easy_tracking": "Chuyển tiền & Theo dõi dễ dàng",
+        "fast_process": "Xử lý nhanh",
+        "satisfied": "Dịch vụ hài lòng"
+      },
+      "title": "Đánh giá"
+    }
+  }
+}

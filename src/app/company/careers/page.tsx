@@ -8,7 +8,7 @@ import { useTranslation } from "@/hooks/useTranslation";
 import { benefitKeys, benefitImages, staffStories, whyGmeKeys, whyGmeIcons } from "@/data/careers";
 
 export default function CareersPage() {
-  const { t } = useTranslation("careers");
+  const { t } = useTranslation();
   const [selectedStory, setSelectedStory] = useState<typeof staffStories[0] | null>(null);
 
   useLenis();
@@ -32,9 +32,9 @@ export default function CareersPage() {
             <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
               <div>
                 <p className="text-sm font-medium text-primary mb-2">Careers</p>
-                <h1 className="typo-sub-page-title mb-3">{t("header.title")}</h1>
+                <h1 className="typo-sub-page-title mb-3">{t("company-careers.header.title")}</h1>
                 <p className="text-gray-500 text-base sm:text-lg max-w-xl">
-                  {t("header.description")}
+                  {t("company-careers.header.description")}
                 </p>
               </div>
               <a
@@ -43,7 +43,7 @@ export default function CareersPage() {
                 rel="noopener noreferrer"
                 className="shrink-0 inline-flex items-center gap-2 bg-primary-dark hover:bg-primary text-white font-semibold px-6 py-3 rounded-xl transition-all duration-200"
               >
-                {t("header.button")}
+                {t("company-careers.header.button")}
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
@@ -55,7 +55,7 @@ export default function CareersPage() {
         {/* Why GME */}
         <section className="py-14 lg:py-20 bg-gray-50">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="typo-heading mb-6 sm:mb-10 text-center">{t("why_gme.title")}</h2>
+            <h2 className="typo-heading mb-6 sm:mb-10 text-center">{t("company-careers.why_gme.title")}</h2>
             <div className="grid md:grid-cols-3 gap-4 sm:gap-6">
               {whyGmeKeys.map((key, idx) => (
                 <div key={key} className="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100">
@@ -64,8 +64,8 @@ export default function CareersPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" d={whyGmeIcons[idx]} />
                     </svg>
                   </div>
-                  <h3 className="font-bold text-dark mb-2">{t(`why_gme.${key}.title`)}</h3>
-                  <p className="text-sm text-gray-500 leading-relaxed">{t(`why_gme.${key}.description`)}</p>
+                  <h3 className="font-bold text-dark mb-2">{t(`company-careers.why_gme.${key}.title`)}</h3>
+                  <p className="text-sm text-gray-500 leading-relaxed">{t(`company-careers.why_gme.${key}.description`)}</p>
                 </div>
               ))}
             </div>
@@ -75,8 +75,8 @@ export default function CareersPage() {
         {/* Benefits */}
         <section className="py-14 lg:py-20">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="typo-heading mb-3 text-center">{t("benefits.title")}</h2>
-            <p className="text-gray-500 text-center mb-6 sm:mb-10">{t("benefits.subtitle")}</p>
+            <h2 className="typo-heading mb-3 text-center">{t("company-careers.benefits.title")}</h2>
+            <p className="text-gray-500 text-center mb-6 sm:mb-10">{t("company-careers.benefits.subtitle")}</p>
 
             <div className="space-y-4 sm:space-y-6">
               {benefitKeys.map((key, index) => (
@@ -87,7 +87,7 @@ export default function CareersPage() {
                   <div className="lg:w-1/3 relative h-36 sm:h-48 lg:h-auto">
                     <Image
                       src={benefitImages[index]}
-                      alt={t(`benefits.${key}.title`)}
+                      alt={t(`company-careers.benefits.${key}.title`)}
                       fill
                       className="object-cover"
                       style={key === 'health' ? { objectPosition: 'center 25%' } : undefined}
@@ -96,9 +96,9 @@ export default function CareersPage() {
                   <div className="lg:w-2/3 p-6 lg:p-10 flex flex-col justify-center">
                     <div className="flex items-center gap-3 mb-3">
                       <span className="text-2xl font-bold text-primary/20" aria-hidden="true">0{index + 1}</span>
-                      <h3 className="typo-feature-title">{t(`benefits.${key}.title`)}</h3>
+                      <h3 className="typo-feature-title">{t(`company-careers.benefits.${key}.title`)}</h3>
                     </div>
-                    <p className="text-gray-500 leading-relaxed">{t(`benefits.${key}.description`)}</p>
+                    <p className="text-gray-500 leading-relaxed">{t(`company-careers.benefits.${key}.description`)}</p>
                   </div>
                 </div>
               ))}
@@ -109,8 +109,8 @@ export default function CareersPage() {
         {/* Team Stories */}
         <section className="py-14 lg:py-20 bg-gray-50">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="typo-heading mb-3 text-center">{t("staff_stories.title")}</h2>
-            <p className="text-gray-500 text-center mb-6 sm:mb-10">{t("staff_stories.subtitle")}</p>
+            <h2 className="typo-heading mb-3 text-center">{t("company-careers.staff_stories.title")}</h2>
+            <p className="text-gray-500 text-center mb-6 sm:mb-10">{t("company-careers.staff_stories.subtitle")}</p>
 
             <div className="grid md:grid-cols-3 gap-4 sm:gap-6">
               {staffStories.map((item) => (
@@ -200,8 +200,8 @@ export default function CareersPage() {
         {/* CTA */}
         <section className="py-14 lg:py-20 border-t border-gray-100">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="typo-heading mb-4">{t("cta.title")}</h2>
-            <p className="text-gray-500 mb-8">{t("cta.subtitle")}</p>
+            <h2 className="typo-heading mb-4">{t("common.careers.cta.title")}</h2>
+            <p className="text-gray-500 mb-8">{t("common.careers.cta.subtitle")}</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
                 href="https://gme.career.greetinghr.com/ko/recruit"
@@ -209,7 +209,7 @@ export default function CareersPage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-primary-dark hover:bg-primary text-white font-semibold px-8 py-3.5 rounded-xl transition-all duration-200"
               >
-                {t("cta.openings")}
+                {t("common.careers.cta.openings")}
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>

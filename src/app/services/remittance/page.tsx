@@ -11,7 +11,7 @@ import { remittanceFeatureKeys, remittanceFeatureIconPaths, processStepKeys, rem
 import SectionHeader from "@/components/ui/SectionHeader";
 
 export default function RemittancePage() {
-  const { t } = useTranslation("remittance");
+  const { t } = useTranslation();
   useLenis();
   const { registerSectionRef } = useScrollFadeIn();
 
@@ -41,7 +41,7 @@ export default function RemittancePage() {
   return (
     <PublicLayout className="bg-white">
 
-        <ServiceHeroSection translationKey="remittance" color="primary" ctaHref="#why" />
+        <ServiceHeroSection translationKey="services-remittance.service-hero-section" color="primary" ctaHref="#why" />
 
         {/* ── Why Choose GME Remittance ── */}
         <section id="why" ref={registerSectionRef(0)} className="py-20 lg:py-28 fade-section">
@@ -49,8 +49,8 @@ export default function RemittancePage() {
             {/* Header */}
             <div className="flex items-end justify-between mb-8">
               <div>
-                <p className="text-[15px] lg:text-base text-gray-500 mb-1">{t("why.subtitle")}</p>
-                <h2 className="typo-section-title text-primary">{t("why.title")}</h2>
+                <p className="text-[15px] lg:text-base text-gray-500 mb-1">{t("services-remittance.why.subtitle")}</p>
+                <h2 className="typo-section-title text-primary">{t("services-remittance.why.title")}</h2>
               </div>
             </div>
 
@@ -67,21 +67,21 @@ export default function RemittancePage() {
               <div className="absolute inset-0 bg-gradient-to-r from-black/35 via-black/5 via-30% to-transparent to-65%" />
               <div className="absolute bottom-6 left-6 sm:bottom-8 sm:left-8 lg:bottom-10 lg:left-10 flex flex-col gap-4">
                 <div>
-                  <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">{t("stats.achieved.value")}</p>
-                  <p className="text-xs sm:text-sm text-white/70">{t("stats.achieved.label")}</p>
+                  <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">{t("services-remittance.stats.achieved.value")}</p>
+                  <p className="text-xs sm:text-sm text-white/70">{t("services-remittance.stats.achieved.label")}</p>
                 </div>
                 <div className="flex gap-6">
                   <div>
-                    <p className="text-lg sm:text-xl font-bold text-white">{t("stats.branches.value")}</p>
-                    <p className="text-[11px] sm:text-xs text-white/70">{t("stats.branches.label")}</p>
+                    <p className="text-lg sm:text-xl font-bold text-white">{t("services-remittance.stats.branches.value")}</p>
+                    <p className="text-[11px] sm:text-xs text-white/70">{t("services-remittance.stats.branches.label")}</p>
                   </div>
                   <div>
-                    <p className="text-lg sm:text-xl font-bold text-white">{t("stats.savings.value")}</p>
-                    <p className="text-[11px] sm:text-xs text-white/70">{t("stats.savings.label")}</p>
+                    <p className="text-lg sm:text-xl font-bold text-white">{t("services-remittance.stats.savings.value")}</p>
+                    <p className="text-[11px] sm:text-xs text-white/70">{t("services-remittance.stats.savings.label")}</p>
                   </div>
                   <div>
-                    <p className="text-lg sm:text-xl font-bold text-white">{t("stats.languages.value")}</p>
-                    <p className="text-[11px] sm:text-xs text-white/70">{t("stats.languages.label")}</p>
+                    <p className="text-lg sm:text-xl font-bold text-white">{t("services-remittance.stats.languages.value")}</p>
+                    <p className="text-[11px] sm:text-xs text-white/70">{t("services-remittance.stats.languages.label")}</p>
                   </div>
                 </div>
               </div>
@@ -91,8 +91,8 @@ export default function RemittancePage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-16 lg:gap-x-24 gap-y-7">
               {whyKeys.map((key) => (
                 <div key={key} className="fade-step">
-                  <h3 className="typo-feature-title mb-1.5">{t(`why.items.${key}.title`)}</h3>
-                  <p className="text-[16px] text-gray-400 leading-relaxed">{t(`why.items.${key}.desc`)}</p>
+                  <h3 className="typo-feature-title mb-1.5">{t(`services-remittance.why.items.${key}.title`)}</h3>
+                  <p className="text-[16px] text-gray-400 leading-relaxed">{t(`services-remittance.why.items.${key}.desc`)}</p>
                 </div>
               ))}
             </div>
@@ -103,9 +103,9 @@ export default function RemittancePage() {
         <section ref={registerSectionRef(1)} className="py-20 lg:py-28 bg-gray-50 fade-section">
           <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
             <SectionHeader
-              title={t("features.title")}
-              title2={t("features.title2")}
-              description={t("features.subtitle")}
+              title={t("common.remittance.features.title")}
+              title2={t("common.remittance.features.title2")}
+              description={t("common.remittance.features.subtitle")}
               colorClass="text-primary"
             />
 
@@ -119,10 +119,10 @@ export default function RemittancePage() {
                     {item.icon}
                   </div>
                   <h3 className="typo-card-title mb-2">
-                    {t(`features.${item.key}.title`)}
+                    {t(`common.remittance.features.${item.key}.title`)}
                   </h3>
                   <p className="text-sm text-gray-500 leading-relaxed">
-                    {t(`features.${item.key}.desc`)}
+                    {t(`common.remittance.features.${item.key}.desc`)}
                   </p>
                 </div>
               ))}
@@ -134,9 +134,9 @@ export default function RemittancePage() {
         <section ref={registerSectionRef(2)} className="py-20 lg:py-28 fade-section">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <SectionHeader
-              title={t("process.title")}
-              title2={t("process.title2")}
-              description={t("process.subtitle")}
+              title={t("services-remittance.process.title")}
+              title2={t("services-remittance.process.title2")}
+              description={t("services-remittance.process.subtitle")}
               colorClass="text-primary"
             />
 
@@ -158,10 +158,10 @@ export default function RemittancePage() {
                       STEP {String(idx + 1).padStart(2, "0")}
                     </p>
                     <h3 className="typo-card-title mb-2">
-                      {t(`process.${step}.title`)}
+                      {t(`services-remittance.process.${step}.title`)}
                     </h3>
                     <p className="text-sm text-gray-500 leading-relaxed">
-                      {t(`process.${step}.desc`)}
+                      {t(`services-remittance.process.${step}.desc`)}
                     </p>
                   </div>
                 </div>
@@ -174,10 +174,10 @@ export default function RemittancePage() {
         <section ref={registerSectionRef(3)} className="py-16 lg:py-20 fade-section">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="typo-section-title mb-3">
-              {t("trust.title")}
+              {t("services-remittance.trust.title")}
             </h2>
             <p className="text-gray-500 leading-relaxed mb-10 max-w-2xl mx-auto">
-              {t("trust.desc")}
+              {t("services-remittance.trust.desc")}
             </p>
             <Image
               src="/images/license.png"
@@ -187,7 +187,7 @@ export default function RemittancePage() {
               className="mx-auto mb-6 object-contain"
             />
             <p className="text-sm text-gray-400">
-              * {t("trust.insurance")}
+              * {t("services-remittance.trust.insurance")}
             </p>
           </div>
         </section>
@@ -203,9 +203,9 @@ export default function RemittancePage() {
           />
           <div className="relative max-w-content mx-auto px-4 sm:px-6 lg:px-8">
             <SectionHeader
-              title={t("regions.title")}
-              title2={t("regions.title2")}
-              description={t("regions.subtitle")}
+              title={t("services-remittance.regions.title")}
+              title2={t("services-remittance.regions.title2")}
+              description={t("services-remittance.regions.subtitle")}
               colorClass="text-primary"
               className="mb-12"
             />

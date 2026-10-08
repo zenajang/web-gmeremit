@@ -17,7 +17,7 @@ import {
   PHONE_PATTERN,
 } from "@/components/support/inquiry/constants";
 import { sendInquiryEmail } from "@/components/support/inquiry/api";
-import { useInquiryTranslation } from "@/hooks/useInquiryTranslation";
+import { useTranslation } from "@/hooks/useTranslation";
 import type { InquiryCategory, InquiryFormValues } from "@/components/support/inquiry/types";
 
 interface InquiryFormProps {
@@ -27,7 +27,7 @@ interface InquiryFormProps {
 }
 
 const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
-  const { t } = useInquiryTranslation();
+  const { t } = useTranslation();
   const [form, setForm] = useState<InquiryFormValues>(EMPTY_FORM);
   const [honeypot, setHoneypot] = useState("");
   const [turnstileToken, setTurnstileToken] = useState("");
@@ -39,19 +39,19 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
 
   const hasValidationError = () => {
     if (!form.name.trim() || !form.email.trim() || !form.title.trim() || !form.content.trim()) {
-      setError(t("errors.required"));
+      setError(t("support-inquiry.inquiry-form.errors.required"));
       return true;
     }
     if (!EMAIL_PATTERN.test(form.email)) {
-      setError(t("errors.email"));
+      setError(t("support-inquiry.inquiry-form.errors.email"));
       return true;
     }
     if (form.phone.trim() && !PHONE_PATTERN.test(form.phone.trim())) {
-      setError(t("errors.phone"));
+      setError(t("support-inquiry.inquiry-form.errors.phone"));
       return true;
     }
     if (!turnstileToken) {
-      setError(t("errors.turnstile"));
+      setError(t("support-inquiry.inquiry-form.errors.turnstile"));
       return true;
     }
     return false;
@@ -64,7 +64,7 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
       ...form,
     });
     if (!success) {
-      setError(message || t("errors.failed"));
+      setError(message || t("support-inquiry.inquiry-form.errors.failed"));
     }
     return success;
   };
@@ -94,7 +94,7 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
       onSubmitted();
     } catch {
       await holdMinimumLoading(startedAt);
-      setError(t("errors.failed"));
+      setError(t("support-inquiry.inquiry-form.errors.failed"));
     } finally {
       setIsSubmitting(false);
     }
@@ -105,57 +105,57 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
       <HoneypotField value={honeypot} onChange={setHoneypot} />
 
       <div className={S.InquiryFormDeptBox}>
-        <b className={S.InquiryFormDeptName}>{t(`categories.${category.no}.name`)}</b>
+        <b className={S.InquiryFormDeptName}>{t(`support-inquiry.categories.${category.no}.name`)}</b>
         <span className={S.InquiryFormDeptDescription}>
-          {t("form.notice", { dept: t(`categories.${category.no}.dept`) })}
+          {t("support-inquiry.inquiry-form.notice", { dept: t(`support-inquiry.categories.${category.no}.dept`) })}
         </span>
       </div>
 
       <div className={S.InquiryFormNameRow}>
         <FormField
           id="inquiry-name"
-          label={t("form.nameLabel")}
+          label={t("support-inquiry.inquiry-form.nameLabel")}
           required
           value={form.name}
           onChange={updateFormValue("name")}
-          placeholder={t("form.namePlaceholder")}
+          placeholder={t("support-inquiry.inquiry-form.namePlaceholder")}
           maxLength={FIELD_MAX_LENGTH.name}
         />
         <FormField
           id="inquiry-phone"
-          label={t("form.phoneLabel")}
+          label={t("support-inquiry.inquiry-form.phoneLabel")}
           value={form.phone}
           onChange={updateFormValue("phone")}
-          placeholder={t("form.phonePlaceholder")}
+          placeholder={t("support-inquiry.inquiry-form.phonePlaceholder")}
           maxLength={FIELD_MAX_LENGTH.phone}
         />
       </div>
       <FormField
         id="inquiry-email"
-        label={t("form.emailLabel")}
+        label={t("support-inquiry.inquiry-form.emailLabel")}
         required
         type="email"
         value={form.email}
         onChange={updateFormValue("email")}
-        placeholder={t("form.emailPlaceholder")}
+        placeholder={t("support-inquiry.inquiry-form.emailPlaceholder")}
         maxLength={FIELD_MAX_LENGTH.email}
       />
       <FormField
         id="inquiry-title"
-        label={t("form.titleLabel")}
+        label={t("support-inquiry.inquiry-form.titleLabel")}
         required
         value={form.title}
         onChange={updateFormValue("title")}
-        placeholder={t("form.titlePlaceholder")}
+        placeholder={t("support-inquiry.inquiry-form.titlePlaceholder")}
         maxLength={FIELD_MAX_LENGTH.title}
       />
       <TextAreaField
         id="inquiry-content"
-        label={t("form.contentLabel")}
+        label={t("support-inquiry.inquiry-form.contentLabel")}
         required
         value={form.content}
         onChange={updateFormValue("content")}
-        placeholder={t("form.contentPlaceholder")}
+        placeholder={t("support-inquiry.inquiry-form.contentPlaceholder")}
         maxLength={FIELD_MAX_LENGTH.content}
       />
 
@@ -167,9 +167,9 @@ const InquiryForm = ({ category, onSubmitted, onReset }: InquiryFormProps) => {
 
       <ActionButtons
         align="center"
-        primaryLabel={t("form.submit")}
+        primaryLabel={t("support-inquiry.inquiry-form.submit")}
         primaryType="submit"
-        secondaryLabel={t("common.reset")}
+        secondaryLabel={t("support-inquiry.guide-panel.common.reset")}
         onSecondary={onReset}
         isLoading={isSubmitting}
       />

@@ -1,0 +1,539 @@
+{
+  "home": {
+    "app-download-cta": {
+      "chips": [
+        "อัตราเรียลไทม์",
+        "ยอดเงินที่เหมาะสม",
+        "การยืนยันตัวตนที่ปลอดภัย"
+      ],
+      "description": "การยืนยันตัวตนที่ง่ายและปลอดภัย ยอดเงินที่เหมาะสม การโอนเงินรวดเร็ว จัดการทุกอย่างอย่างปลอดภัยและสะดวกด้วยแอป GME Remit",
+      "qr_scan": "สแกน QR code",
+      "subtitle": "GME REMIT APP",
+      "title1": "ส่งเร็วขึ้น",
+      "title2": "จัดการฉลาดขึ้น"
+    },
+    "cards-showcase": {
+      "black": {
+        "cta": "ดู Premium Card",
+        "desc": "บัตรพรีเมียมที่มอบสิทธิประโยชน์คืนกำไรจากการใช้จ่ายทั่วโลกของคุณ",
+        "highlights": [
+          "เงินคืน 3% สำหรับการใช้จ่ายในต่างประเทศ",
+          "ชำระเงินได้ทุกที่ทั่วโลก",
+          "ช้อปปิ้งออนไลน์และออฟไลน์",
+          "ขนส่งสาธารณะ"
+        ]
+      },
+      "careers": {
+        "cta": {
+          "about": "เกี่ยวกับบริษัท"
+        }
+      },
+      "cta": {
+        "button": "สมัครบัตร",
+        "description": "ค้นหาบัตรที่เหมาะกับคุณและเพลิดเพลินกับสิทธิประโยชน์พิเศษ",
+        "title": "เริ่มต้นกับ GME Card วันนี้"
+      },
+      "easyCare": {
+        "cta": "ดู EasyCare Card",
+        "desc": "Made to Care ใส่ใจเพื่อคุณ บัตรเดินทางแบบชำระภายหลังพร้อมสิทธิประโยชน์ด้านประกันภัยและการสนับสนุนสมาชิก",
+        "highlights": [
+          "สิทธิประโยชน์สนับสนุนด้านประกันภัยและสมาชิก",
+          "บัตรเดินทางแบบชำระภายหลัง",
+          "เงินคืนตามฤดูกาลและร้านค้าพิเศษ",
+          "ชำระเงินได้ทุกที่ทั่วโลก"
+        ]
+      },
+      "easyG0": {
+        "cta": "ดู EasyGo Card",
+        "desc": "ทำให้ชีวิตประจำวันสะดวกสบายยิ่งขึ้น เพลิดเพลินกับสิทธิประโยชน์ตามฤดูกาล ตั้งแต่การเดินทางไปจนถึงการช้อปปิ้ง",
+        "highlights": [
+          "บัตรเดินทางแบบชำระภายหลัง",
+          "เงินคืนตามฤดูกาลและร้านค้าพิเศษ",
+          "ชำระเงินได้ทั่วโลก",
+          "ช้อปปิ้งออนไลน์และออฟไลน์"
+        ]
+      },
+      "image_alt": "รูปภาพบัตร",
+      "loan": {
+        "cta": {
+          "button": "ดาวน์โหลดแอป"
+        }
+      },
+      "pay": {
+        "cta": "ดู Pay Card",
+        "desc": "บัตรชำระเงินอเนกประสงค์สำหรับการใช้จ่ายในชีวิตประจำวันของคุณ",
+        "highlights": [
+          "เงินคืนตามฤดูกาลและร้านค้าพิเศษ",
+          "ชำระเงินได้ทุกที่ทั่วโลก",
+          "ช้อปปิ้งออนไลน์และออฟไลน์",
+          "ขนส่งสาธารณะ"
+        ]
+      },
+      "red": {
+        "cta": "ดู Red Card",
+        "desc": "บัตรสีเอกลักษณ์ของ GME ทำให้ทุกการชำระเงินดูดี",
+        "highlights": [
+          "เงินคืนตามฤดูกาล",
+          "ส่วนลดกิจกรรมพิเศษ",
+          "รถไฟฟ้า · รถเมล์ · แท็กซี่ จ่ายง่าย",
+          "ระบบขนส่งสาธารณะ"
+        ]
+      },
+      "uniq": {
+        "cta": "ดู UniQ Card",
+        "desc": "เลือกบัตรของคุณเองจาก 30+ ดีไซน์ จาก 18 ประเทศ",
+        "highlights": [
+          "เงินคืนตามฤดูกาลและร้านค้าพิเศษ",
+          "ส่วนลดกิจกรรมพิเศษ",
+          "18 ประเทศ 30+ ดีไซน์",
+          "รถไฟฟ้า · รถเมล์ · แท็กซี่ จ่ายง่าย"
+        ]
+      },
+      "white": {
+        "cta": "ดู White Card",
+        "desc": "บัตรใช้งานประจำวันเรียบง่ายและสะอาดตา สะดวกสำหรับการชำระเงินในประเทศและระบบขนส่งสาธารณะ",
+        "highlights": [
+          "เงินคืนตามฤดูกาล",
+          "ส่วนลดกิจกรรมพิเศษ",
+          "รถไฟฟ้า · รถเมล์ · แท็กซี่ จ่ายง่าย",
+          "ระบบขนส่งสาธารณะ"
+        ]
+      }
+    },
+    "customer-feedback-section": {
+      "subtitle": "ประสบการณ์จริงจากลูกค้าของเรา",
+      "tags": {
+        "easy_tracking": "โอนเงินและติดตามง่าย",
+        "fast_process": "ดำเนินการรวดเร็ว",
+        "satisfied": "บริการน่าพอใจ"
+      },
+      "title": "รีวิวจากลูกค้า"
+    },
+    "hero-main": {
+      "badge": "บริการโอนเงินยอดเยี่ยม",
+      "button": {
+        "learn_more": "เรียนรู้เพิ่มเติม"
+      },
+      "countries": {
+        "names": {
+          "AD": "Andorra",
+          "AE": "สหรัฐอาหรับเอมิเรตส์",
+          "AG": "Antigua and Barbuda",
+          "AI": "Anguilla",
+          "AL": "Albania",
+          "AM": "Armenia",
+          "AO": "Angola",
+          "AR": "อาร์เจนตินา",
+          "AS": "American Samoa",
+          "AT": "Austria",
+          "AU": "ออสเตรเลีย",
+          "AW": "Aruba",
+          "AZ": "Azerbaijan",
+          "BA": "Bosnia and Herzegovina",
+          "BB": "Barbados",
+          "BD": "บังกลาเทศ",
+          "BE": "Belgium",
+          "BF": "Burkina Faso",
+          "BG": "Bulgaria",
+          "BH": "บาห์เรน",
+          "BI": "Burundi",
+          "BJ": "Benin",
+          "BL": "Saint Barthélemy",
+          "BM": "Bermuda",
+          "BN": "Brunei",
+          "BO": "โบลิเวีย",
+          "BR": "บราซิล",
+          "BS": "Bahamas",
+          "BT": "Bhutan",
+          "BW": "Botswana",
+          "BY": "Belarus",
+          "BZ": "Belize",
+          "CA": "แคนาดา",
+          "CD": "Democratic Republic of the Congo",
+          "CF": "Central African Republic",
+          "CG": "Republic of the Congo",
+          "CH": "สวิตเซอร์แลนด์",
+          "CI": "Ivory Coast",
+          "CK": "Cook Islands",
+          "CL": "ชิลี",
+          "CM": "Cameroon",
+          "CN": "จีน",
+          "CO": "โคลอมเบีย",
+          "CR": "Costa Rica",
+          "CU": "Cuba",
+          "CV": "Cape Verde",
+          "CY": "Cyprus",
+          "CZ": "สาธารณรัฐเช็ก",
+          "DE": "เยอรมนี",
+          "DJ": "Djibouti",
+          "DK": "เดนมาร์ก",
+          "DM": "Dominica",
+          "DO": "สาธารณรัฐโดมินิกัน",
+          "DZ": "Algeria",
+          "EC": "Ecuador",
+          "EE": "Estonia",
+          "EG": "Egypt",
+          "ER": "Eritrea",
+          "ES": "Spain",
+          "ET": "Ethiopia",
+          "FI": "Finland",
+          "FJ": "ฟิจิ",
+          "FM": "Micronesia",
+          "FR": "France",
+          "GA": "Gabon",
+          "GB": "สหราชอาณาจักร",
+          "GD": "Grenada",
+          "GE": "Georgia",
+          "GF": "French Guiana",
+          "GH": "กานา",
+          "GI": "Gibraltar",
+          "GM": "Gambia",
+          "GN": "Guinea",
+          "GP": "Guadeloupe",
+          "GQ": "Equatorial Guinea",
+          "GR": "Greece",
+          "GT": "กัวเตมาลา",
+          "GU": "Guam",
+          "GW": "Guinea-Bissau",
+          "GY": "Guyana",
+          "HK": "ฮ่องกง",
+          "HN": "ฮอนดูรัส",
+          "HR": "Croatia",
+          "HT": "Haiti",
+          "HU": "ฮังการี",
+          "ID": "อินโดนีเซีย",
+          "IE": "Ireland",
+          "IL": "อิสราเอล",
+          "IN": "อินเดีย",
+          "IS": "Iceland",
+          "IT": "Italy",
+          "JM": "Jamaica",
+          "JO": "จอร์แดน",
+          "JP": "ญี่ปุ่น",
+          "KE": "เคนยา",
+          "KG": "Kyrgyzstan",
+          "KH": "กัมพูชา",
+          "KM": "Comoros",
+          "KN": "Saint Kitts and Nevis",
+          "KW": "คูเวต",
+          "KY": "Cayman Islands",
+          "KZ": "Kazakhstan",
+          "LA": "Laos",
+          "LB": "Lebanon",
+          "LC": "Saint Lucia",
+          "LI": "Liechtenstein",
+          "LK": "ศรีลังกา",
+          "LR": "Liberia",
+          "LS": "Lesotho",
+          "LT": "Lithuania",
+          "LU": "Luxembourg",
+          "LV": "Latvia",
+          "LY": "Libya",
+          "MA": "โมร็อกโก",
+          "MC": "Monaco",
+          "MD": "Moldova",
+          "ME": "Montenegro",
+          "MF": "Saint Martin (French part)",
+          "MG": "Madagascar",
+          "MH": "Marshall Islands",
+          "MK": "Macedonia",
+          "ML": "Mali",
+          "MM": "เมียนมาร์",
+          "MN": "Mongolia",
+          "MO": "Macao",
+          "MQ": "Martinique",
+          "MR": "Mauritania",
+          "MS": "Montserrat",
+          "MT": "Malta",
+          "MU": "Mauritius",
+          "MV": "Maldives",
+          "MW": "Malawi",
+          "MX": "เม็กซิโก",
+          "MY": "มาเลเซีย",
+          "MZ": "Mozambique",
+          "NA": "Namibia",
+          "NC": "New Caledonia",
+          "NE": "Niger",
+          "NG": "ไนจีเรีย",
+          "NI": "Nicaragua",
+          "NL": "Netherlands",
+          "NO": "นอร์เวย์",
+          "NP": "เนปาล",
+          "NZ": "นิวซีแลนด์",
+          "OM": "โอมาน",
+          "PA": "Panama",
+          "PE": "เปรู",
+          "PF": "French Polynesia",
+          "PG": "Papua New Guinea",
+          "PH": "ฟิลิปปินส์",
+          "PK": "ปากีสถาน",
+          "PL": "โปแลนด์",
+          "PR": "Puerto Rico",
+          "PS": "Palestinian Territory, Occupied",
+          "PT": "Portugal",
+          "PY": "ปารากวัย",
+          "QA": "กาตาร์",
+          "RE": "Réunion",
+          "RO": "โรมาเนีย",
+          "RS": "Serbia",
+          "RU": "รัสเซีย",
+          "RW": "รวันดา",
+          "SA": "ซาอุดีอาระเบีย",
+          "SB": "Solomon Islands",
+          "SC": "Seychelles",
+          "SD": "Sudan",
+          "SE": "Sweden",
+          "SG": "สิงคโปร์",
+          "SI": "Slovenia",
+          "SK": "Slovakia",
+          "SL": "Sierra Leone",
+          "SN": "Senegal",
+          "SR": "Suriname",
+          "SS": "South Sudan",
+          "ST": "Sao Tome and Principe",
+          "SV": "El Salvador",
+          "SZ": "Swaziland",
+          "TC": "Turks and Caicos Islands",
+          "TD": "Chad",
+          "TG": "Togo",
+          "TH": "ไทย",
+          "TJ": "Tajikistan",
+          "TL": "Timor-Leste",
+          "TM": "Turkmenistan",
+          "TN": "Tunisia",
+          "TO": "ตองกา",
+          "TR": "Turkey",
+          "TT": "Trinidad and Tobago",
+          "TV": "Tuvalu",
+          "TZ": "แทนซาเนีย",
+          "UA": "Ukraine",
+          "UG": "ยูกันดา",
+          "US": "สหรัฐอเมริกา",
+          "UY": "Uruguay",
+          "UZ": "Uzbekistan",
+          "VC": "Saint Vincent and the Grenadines",
+          "VE": "Venezuela",
+          "VG": "Virgin Islands, British",
+          "VI": "Virgin Islands, U.S.",
+          "VN": "เวียดนาม",
+          "VU": "Vanuatu",
+          "WS": "ซามัว",
+          "XK": "Kosovo",
+          "YE": "Yemen",
+          "YT": "Mayotte",
+          "ZA": "South Africa",
+          "ZM": "แซมเบีย",
+          "ZW": "Zimbabwe"
+        },
+        "realtime": "เรียลไทม์",
+        "subtitle": "รองรับ 200+ ประเทศ",
+        "title": "ประเทศที่รองรับ",
+        "view_all": "เรียนรู้เกี่ยวกับการโอนเงิน"
+      },
+      "description1": "ส่งไปยัง 200+ ประเทศ ธนาคารเกาหลีทุกแห่งแบบเรียลไทม์",
+      "description2": "ปลอดภัยด้วยพันธมิตรระดับโลก 70 รายและการยืนยันตัวตน E-KYC",
+      "rating": "App Store · Google Play เฉลี่ย",
+      "stats": {
+        "avg_time": "เวลาโอนเงินเฉลี่ย",
+        "seconds": "วินาที",
+        "total_amount": "ยอดโอนเงินทั้งหมด",
+        "trillion": "ล้านล้าน+"
+      },
+      "title1": "โอนเงินต่างประเทศ",
+      "title2": "รวดเร็วและปลอดภัย"
+    },
+    "hero-section": {
+      "exchange": {
+        "description1": "อัตราแลกเปลี่ยนเรียลไทม์สำหรับ 200+ ประเทศ",
+        "description2": "เปิดเผยค่าธรรมเนียมอย่างโปร่งใส",
+        "eyebrow": "CURRENCY CONVERTER",
+        "stats": {
+          "countries": "200+",
+          "countries_label": "ประเทศที่รองรับ",
+          "service": "24/7",
+          "service_label": "บริการเรียลไทม์"
+        },
+        "title1": "ตรวจสอบอัตราแลกเปลี่ยน",
+        "title2": "ได้เลยตอนนี้"
+      }
+    },
+    "loan-section": {
+      "button": {
+        "apply": "สมัครสินเชื่อในแอป GME",
+        "detail": "เรียนรู้เพิ่มเติมเกี่ยวกับสินเชื่อ"
+      },
+      "card": {
+        "quick_apply": "สมัครด่วน",
+        "subtitle": "สินเชื่อสำหรับชาวต่างชาติ",
+        "title": "GME Finance"
+      },
+      "description": "สมัครสินเชื่อได้ในไม่กี่นาทีผ่านแอป GME ตรวจสอบสถานะการดำเนินการและยอดคงเหลือแบบเรียลไทม์ได้ทุกที่ทุกเวลา",
+      "features": {
+        "countries": {
+          "desc": "ประเทศ",
+          "label": "14+"
+        },
+        "realtime": {
+          "desc": "การติดตาม",
+          "label": "เรียลไทม์"
+        },
+        "simple": {
+          "desc": "สมัครผ่านแอป",
+          "label": "ง่าย"
+        },
+        "success": {
+          "desc": "สินเชื่อ",
+          "label": "1M+"
+        },
+        "support": {
+          "desc": "สนับสนุน",
+          "label": "24/7"
+        }
+      },
+      "stats": {
+        "desc": "สินเชื่อสำเร็จ 1M+ รายการ · 14 ประเทศ",
+        "title": "ผลการดำเนินงานสินเชื่อสะสม",
+        "value": "₩500B+"
+      },
+      "title": "สินเชื่อออนไลน์"
+    },
+    "main-services": {
+      "card": {
+        "desc1": "บัตรอัจฉริยะใบเดียวสำหรับโอนเงินและใช้จ่าย",
+        "desc2": "มาตรฐานใหม่ของการชำระเงินทั่วโลก",
+        "title": "GME Card"
+      },
+      "loan": {
+        "desc1": "อนุมัติรวดเร็วและเงื่อนไขยืดหยุ่น",
+        "desc2": "บริการสินเชื่อดิจิทัล",
+        "title": "สินเชื่อออนไลน์"
+      },
+      "mobile": {
+        "desc1": "แพ็กเกจมือถือราคาประหยัดเริ่มต้น",
+        "desc2": "บริการมือถือสำหรับชาวต่างชาติเพียง ₩3,300/เดือน",
+        "title": "มือถือ"
+      },
+      "payments": {
+        "desc1": "เงินเดือน การชำระเงินพาร์ทเนอร์ การชำระเงินอีคอมเมิร์ซ",
+        "desc2": "โซลูชันการชำระเงินที่คุ้มค่าสำหรับธุรกิจ",
+        "title": "การชำระเงินระดับโลก"
+      },
+      "remittance": {
+        "desc1": "โอนเงินรวดเร็วและปลอดภัย",
+        "desc2": "ไปยังกว่า 200 ประเทศ",
+        "title": "โอนเงินต่างประเทศ"
+      },
+      "title1": "สำรวจบริการ",
+      "title2": "หลากหลายของ GME"
+    },
+    "payments-section": {
+      "global_payments": {
+        "button": {
+          "detail": "เรียนรู้เพิ่มเติมเกี่ยวกับ Payments"
+        },
+        "card": {
+          "status": "ใช้งานอยู่",
+          "subtitle": "โซลูชันองค์กร",
+          "title": "โซลูชันการชำระเงิน"
+        },
+        "description": "การโอนเงินเดือน การชำระเงินพันธมิตร การชำระเงินอีคอมเมิร์ซ โซลูชันการชำระเงินองค์กรที่คุ้มค่า",
+        "features": {
+          "smb": "SMB",
+          "smb_desc": "โซลูชันอีคอมเมิร์ซ",
+          "sps": "SPS",
+          "sps_desc": "โซลูชันการชำระเงิน B2B",
+          "vas": "VAS",
+          "vas_desc": "การแจ้งเตือน · รายงาน · แดชบอร์ด"
+        },
+        "stats": {
+          "cost_saving": "ประหยัดต้นทุน",
+          "cost_saving_change": "เทียบกับแบบดั้งเดิม",
+          "cost_saving_value": "สูงสุด 70%",
+          "partners": "พันธมิตร",
+          "partners_change": "ทั่วโลก",
+          "partners_value": "200+",
+          "success_rate": "อัตราความสำเร็จ",
+          "success_rate_change": "ปกติ",
+          "success_rate_value": "99.8%"
+        },
+        "title": "การชำระเงินระดับโลก",
+        "transactions": {
+          "b2b": "การโอน B2B แบบเป็นกลุ่ม",
+          "completed": "เสร็จสมบูรณ์",
+          "just_now": "เมื่อสักครู่",
+          "merchant": "การชำระเงินร้านค้า",
+          "mins_ago": "นาทีที่แล้ว",
+          "partner": "การชำระเงินพันธมิตร",
+          "processing": "กำลังดำเนินการ",
+          "title": "ธุรกรรมล่าสุด"
+        }
+      }
+    },
+    "remittance-section": {
+      "button": {
+        "detail": "เรียนรู้เพิ่มเติมเกี่ยวกับการโอนเงิน"
+      },
+      "description": "ส่งเงินรวดเร็วและปลอดภัยไปยัง 200+ ประเทศ",
+      "features": {
+        "fast": {
+          "back_desc": "ส่งเงินไปที่ใดก็ได้ทั่วโลกเพียงไม่กี่ครั้ง โดยไม่ต้องผ่านขั้นตอนยุ่งยาก",
+          "back_title": "การโอนเงินง่ายๆ",
+          "desc": "โอนเงินต่างประเทศเสร็จสมบูรณ์ในไม่กี่คลิก",
+          "sub": "ไม่กี่คลิก",
+          "title": "โอนเงินรวดเร็ว"
+        },
+        "global": {
+          "back_desc": "ส่งเงินทั่วโลกด้วย 200+ ประเทศและพันธมิตรระดับโลก 70 ราย",
+          "back_title": "เครือข่ายทั่วโลก",
+          "desc": "ผู้ใช้กว่าล้านคนทั่วโลกไว้วางใจ GME",
+          "sub": "ผู้ใช้ 1M+",
+          "title": "200+ ประเทศ"
+        },
+        "optimized": {
+          "back_desc": "ค่าธรรมเนียมต่ำกว่าธนาคารถึง 90% ส่งเงินได้มากขึ้นด้วยอัตราเรียลไทม์",
+          "back_title": "ประหยัดต้นทุนมหาศาล",
+          "desc": "ค่าธรรมเนียมต่ำกว่าและอัตราดีกว่าธนาคารถึง 90%",
+          "sub": "ประหยัด 90%",
+          "title": "จำนวนเงินที่เหมาะสม"
+        },
+        "security": {
+          "back_desc": "ส่งเงินอย่างปลอดภัยด้วยการยืนยันตัวตน E-KYC และบริการที่จดทะเบียนกับ FSC",
+          "back_title": "ความปลอดภัยอย่างรอบด้าน",
+          "desc": "ใช้งานได้อย่างสบายใจด้วยความปลอดภัยที่แข็งแกร่ง",
+          "sub": "ยืนยันแล้ว",
+          "title": "ง่ายและปลอดภัย"
+        }
+      },
+      "title": "โอนเงินต่างประเทศ"
+    },
+    "section-nav": {
+      "app_download": "ดาวน์โหลดแอป",
+      "customer_feedback": "รีวิว",
+      "exchange": "ตัวแปลงสกุลเงิน",
+      "home": "หน้าหลัก",
+      "services": "บริการ"
+    },
+    "hero": {
+      "countries": {
+        "more": "เพิ่มเติม"
+      }
+    },
+    "services": {
+      "loan": {
+        "estimated_limit": "วงเงินประมาณการ"
+      }
+    },
+    "section_nav": {
+      "testimonials": "รีวิว"
+    },
+    "testimonials": {
+      "subtitle": "ประสบการณ์จริงจากลูกค้าของเรา",
+      "tags": {
+        "easy_tracking": "โอนเงินและติดตามง่าย",
+        "fast_process": "ดำเนินการรวดเร็ว",
+        "satisfied": "บริการน่าพอใจ"
+      },
+      "title": "รีวิวจากลูกค้า"
+    }
+  }
+}

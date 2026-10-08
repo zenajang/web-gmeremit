@@ -1,0 +1,52 @@
+{
+  "board-detail": {
+    "board-detail-client": {
+      "attachment": "منسلکہ",
+      "attachment_file": "منسلکہ",
+      "back": "واپس",
+      "back_to_list": "فہرست پر واپس",
+      "not_found": "پوسٹ نہیں ملی"
+    }
+  },
+  "board-notice": {
+    "redirect": {
+      "notice": "نوٹس کے صفحے پر بھیجا جا رہا ہے..."
+    }
+  },
+  "board-press": {
+    "redirect": {
+      "press": "پریس کے صفحے پر بھیجا جا رہا ہے..."
+    }
+  },
+  "board": {
+    "blog-grid": {
+      "no_image": "کوئی تصویر نہیں",
+      "no_results": "کوئی نتائج نہیں ملے۔"
+    },
+    "board-table": {
+      "attachment": "فائل",
+      "attachment_file": "منسلکہ",
+      "date": "تاریخ",
+      "title": "عنوان",
+      "type": "قسم"
+    },
+    "count_suffix": " پوسٹس",
+    "pagination": {
+      "load_more": "مزید لوڈ کریں"
+    },
+    "search-bar": {
+      "all": "سب",
+      "content": "مواد",
+      "placeholder": "تلاش کا لفظ درج کریں",
+      "title": "عنوان",
+      "button": "تلاش"
+    },
+    "subtitle": "GME Remit کی تازہ ترین خبریں دیکھیں",
+    "tabs": {
+      "blog": "بلاگ",
+      "notice": "نوٹس",
+      "press": "پریس"
+    },
+    "total": "کل"
+  }
+}

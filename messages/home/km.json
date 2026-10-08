@@ -1,0 +1,539 @@
+{
+  "home": {
+    "app-download-cta": {
+      "chips": [
+        "អត្រា​ពេល​វេលា​ពិត",
+        "ចំនួនដែលបានបង្កើតល្អ",
+        "ការផ្ទៀងផ្ទាត់សុវត្ថិភាព"
+      ],
+      "description": "ការផ្ទៀងផ្ទាត់ងាយ និងមានសុវត្ថិភាព ចំនួនដែលបានបង្កើតល្អ ការផ្ញើលឿន។ គ្រប់គ្រងអ្វីៗទាំងអស់ដោយសុវត្ថិភាព និងងាយស្រួលជាមួយកម្មវិធី GME Remit។",
+      "qr_scan": "ស្កេន QR code",
+      "subtitle": "GME REMIT APP",
+      "title1": "ផ្ញើលឿនជាងមុន,",
+      "title2": "គ្រប់គ្រងឆ្លាតជាងមុន"
+    },
+    "cards-showcase": {
+      "black": {
+        "cta": "មើល Premium Card",
+        "desc": "កាតកម្រិតខ្ពស់ដែលផ្តល់រង្វាន់សម្រាប់ការចំណាយរបស់អ្នកនៅទូទាំងពិភពលោក។",
+        "highlights": [
+          "សាច់ប្រាក់សងវិញ 3% នៅក្រៅប្រទេស",
+          "ទូទាត់នៅគ្រប់ទីកន្លែងទូទាំងពិភពលោក",
+          "ការទិញឥវ៉ាន់អនឡាញ និងក្រៅបណ្តាញ",
+          "ការដឹកជញ្ជូនសាធារណៈ"
+        ]
+      },
+      "careers": {
+        "cta": {
+          "about": "អំពីក្រុមហ៊ុន"
+        }
+      },
+      "cta": {
+        "button": "ដាក់ពាក្យសម្រាប់កាត",
+        "description": "ស្វែងរកកាតដែលសមរម្យសម្រាប់អ្នក ហើយរីករាយនឹងអត្ថប្រយោជន៍ពិសេស។",
+        "title": "ចាប់ផ្តើមជាមួយ GME Card ថ្ងៃនេះ"
+      },
+      "easyCare": {
+        "cta": "មើល EasyCare Card",
+        "desc": "បង្កើតឡើងដើម្បីថែទាំ Made to Care។ កាតដឹកជញ្ជូនបង់ប្រាក់ក្រោយដែលមានអត្ថប្រយោជន៍ធានារ៉ាប់រង និងការគាំទ្រសមាជិកភាព។",
+        "highlights": [
+          "អត្ថប្រយោជន៍គាំទ្រធានារ៉ាប់រង និងសមាជិកភាព",
+          "កាតដឹកជញ្ជូនបង់ប្រាក់ក្រោយ",
+          "សាច់ប្រាក់សងវិញតាមរដូវកាល និងហាងពិសេស",
+          "ទូទាត់នៅគ្រប់ទីកន្លែងទូទាំងពិភពលោក"
+        ]
+      },
+      "easyG0": {
+        "cta": "មើល EasyGo Card",
+        "desc": "ធ្វើឱ្យជីវិតប្រចាំថ្ងៃកាន់តែងាយស្រួល។ ទទួលបានអត្ថប្រយោជន៍តាមរដូវកាល ចាប់ពីការដឹកជញ្ជូនរហូតដល់ការទិញឥវ៉ាន់។",
+        "highlights": [
+          "កាតដឹកជញ្ជូនបង់ប្រាក់ក្រោយ",
+          "សាច់ប្រាក់សងវិញតាមរដូវកាល និងហាងពិសេស",
+          "បង់បានគ្រប់ទីកន្លែង",
+          "ទិញអនឡាញ និងក្រៅអនឡាញ"
+        ]
+      },
+      "image_alt": "រូបភាពកាត",
+      "loan": {
+        "cta": {
+          "button": "ទាញយកកម្មវិធី"
+        }
+      },
+      "pay": {
+        "cta": "មើល Pay Card",
+        "desc": "កាតទូទាត់ទាំងអស់ក្នុងមួយសម្រាប់ការចំណាយប្រចាំថ្ងៃរបស់អ្នក។",
+        "highlights": [
+          "សាច់ប្រាក់សងវិញតាមរដូវកាល និងហាងពិសេស",
+          "ទូទាត់នៅគ្រប់ទីកន្លែងទូទាំងពិភពលោក",
+          "ការទិញឥវ៉ាន់អនឡាញ និងក្រៅបណ្តាញ",
+          "ការដឹកជញ្ជូនសាធារណៈ"
+        ]
+      },
+      "red": {
+        "cta": "មើល Red Card",
+        "desc": "កាតពណ៌សញ្ញារបស់ GME។ ធ្វើឱ្យរាល់ការបង់ប្រាក់ទំនើប។",
+        "highlights": [
+          "Cashback តាមរដូវ",
+          "បញ្ចុះតម្លៃព្រឹត្តិការណ៍ពិសេស",
+          "Metro · Bus · Taxi Easy Pay",
+          "ដឹកជញ្ជូនសាធារណៈ"
+        ]
+      },
+      "uniq": {
+        "cta": "មើល UniQ Card",
+        "desc": "ជ្រើសរើសកាតរបស់អ្នកពីរចនា 30+ នៅ 18 ប្រទេស។",
+        "highlights": [
+          "សាច់ប្រាក់សងវិញតាមរដូវកាល និងហាងពិសេស",
+          "បញ្ចុះតម្លៃព្រឹត្តិការណ៍ពិសេស",
+          "18 ប្រទេស 30+ រចនា",
+          "Metro · Bus · Taxi Easy Pay"
+        ]
+      },
+      "white": {
+        "cta": "មើល White Card",
+        "desc": "កាតប្រចាំថ្ងៃសាមញ្ញស្អាត។ ងាយស្រួលសម្រាប់ការទូទាត់ក្នុងស្រុក និងដឹកជញ្ជូនសាធារណៈ។",
+        "highlights": [
+          "Cashback តាមរដូវ",
+          "បញ្ចុះតម្លៃព្រឹត្តិការណ៍ពិសេស",
+          "Metro · Bus · Taxi Easy Pay",
+          "ដឹកជញ្ជូនសាធារណៈ"
+        ]
+      }
+    },
+    "customer-feedback-section": {
+      "subtitle": "បទពិសោធន៍ពិតពីអតិថិជនរបស់យើង។",
+      "tags": {
+        "easy_tracking": "ផ្ញើយ៉ាងងាយ និងតាមដានបាន",
+        "fast_process": "ដំណើរការលឿន",
+        "satisfied": "សេវាពេញចិត្ត"
+      },
+      "title": "សក្ខីកម្ម"
+    },
+    "hero-main": {
+      "badge": "សេវាផ្ញើប្រាក់ល្អឥតខ្ចោះ",
+      "button": {
+        "learn_more": "ស្វែងយល់បន្ថែម"
+      },
+      "countries": {
+        "names": {
+          "AD": "Andorra",
+          "AE": "អេមីរ៉ាតអារ៉ាប់រួម",
+          "AG": "Antigua and Barbuda",
+          "AI": "Anguilla",
+          "AL": "Albania",
+          "AM": "Armenia",
+          "AO": "Angola",
+          "AR": "អាហ្សង់ទីន",
+          "AS": "American Samoa",
+          "AT": "Austria",
+          "AU": "អូស្ត្រាលី",
+          "AW": "Aruba",
+          "AZ": "Azerbaijan",
+          "BA": "Bosnia and Herzegovina",
+          "BB": "Barbados",
+          "BD": "បង់ក្លាដែស",
+          "BE": "Belgium",
+          "BF": "Burkina Faso",
+          "BG": "Bulgaria",
+          "BH": "បារ៉ែន",
+          "BI": "Burundi",
+          "BJ": "Benin",
+          "BL": "Saint Barthélemy",
+          "BM": "Bermuda",
+          "BN": "Brunei",
+          "BO": "បូលីវី",
+          "BR": "ប្រេស៊ីល",
+          "BS": "Bahamas",
+          "BT": "Bhutan",
+          "BW": "Botswana",
+          "BY": "Belarus",
+          "BZ": "Belize",
+          "CA": "កាណាដា",
+          "CD": "Democratic Republic of the Congo",
+          "CF": "Central African Republic",
+          "CG": "Republic of the Congo",
+          "CH": "ស្វីស",
+          "CI": "Ivory Coast",
+          "CK": "Cook Islands",
+          "CL": "ឈីលី",
+          "CM": "Cameroon",
+          "CN": "ចិន",
+          "CO": "កូឡុំប៊ី",
+          "CR": "Costa Rica",
+          "CU": "Cuba",
+          "CV": "Cape Verde",
+          "CY": "Cyprus",
+          "CZ": "សាធារណរដ្ឋឆេក",
+          "DE": "អាល្លឺម៉ង់",
+          "DJ": "Djibouti",
+          "DK": "ដាណឺម៉ាក",
+          "DM": "Dominica",
+          "DO": "សាធារណរដ្ឋដូមីនីកែន",
+          "DZ": "Algeria",
+          "EC": "Ecuador",
+          "EE": "Estonia",
+          "EG": "Egypt",
+          "ER": "Eritrea",
+          "ES": "Spain",
+          "ET": "Ethiopia",
+          "FI": "Finland",
+          "FJ": "ហ្វីជី",
+          "FM": "Micronesia",
+          "FR": "France",
+          "GA": "Gabon",
+          "GB": "ចក្រភពអង់គ្លេស",
+          "GD": "Grenada",
+          "GE": "Georgia",
+          "GF": "French Guiana",
+          "GH": "ហ្គាណា",
+          "GI": "Gibraltar",
+          "GM": "Gambia",
+          "GN": "Guinea",
+          "GP": "Guadeloupe",
+          "GQ": "Equatorial Guinea",
+          "GR": "Greece",
+          "GT": "ក្វាតេម៉ាឡា",
+          "GU": "Guam",
+          "GW": "Guinea-Bissau",
+          "GY": "Guyana",
+          "HK": "ហុងកុង",
+          "HN": "ហុងឌូរ៉ាស",
+          "HR": "Croatia",
+          "HT": "Haiti",
+          "HU": "ហុងគ្រី",
+          "ID": "ឥណ្ឌូណេស៊ី",
+          "IE": "Ireland",
+          "IL": "អ៊ីស្រាអែល",
+          "IN": "ឥណ្ឌា",
+          "IS": "Iceland",
+          "IT": "Italy",
+          "JM": "Jamaica",
+          "JO": "ហ្សកដានី",
+          "JP": "ជប៉ុន",
+          "KE": "កេនយ៉ា",
+          "KG": "Kyrgyzstan",
+          "KH": "កម្ពុជា",
+          "KM": "Comoros",
+          "KN": "Saint Kitts and Nevis",
+          "KW": "កូវ៉ែត",
+          "KY": "Cayman Islands",
+          "KZ": "Kazakhstan",
+          "LA": "Laos",
+          "LB": "Lebanon",
+          "LC": "Saint Lucia",
+          "LI": "Liechtenstein",
+          "LK": "ស្រីលង្កា",
+          "LR": "Liberia",
+          "LS": "Lesotho",
+          "LT": "Lithuania",
+          "LU": "Luxembourg",
+          "LV": "Latvia",
+          "LY": "Libya",
+          "MA": "ម៉ារ៉ុក",
+          "MC": "Monaco",
+          "MD": "Moldova",
+          "ME": "Montenegro",
+          "MF": "Saint Martin (French part)",
+          "MG": "Madagascar",
+          "MH": "Marshall Islands",
+          "MK": "Macedonia",
+          "ML": "Mali",
+          "MM": "មីយ៉ាន់ម៉ា",
+          "MN": "Mongolia",
+          "MO": "Macao",
+          "MQ": "Martinique",
+          "MR": "Mauritania",
+          "MS": "Montserrat",
+          "MT": "Malta",
+          "MU": "Mauritius",
+          "MV": "Maldives",
+          "MW": "Malawi",
+          "MX": "ម៉ិកស៊ិក",
+          "MY": "ម៉ាឡេស៊ី",
+          "MZ": "Mozambique",
+          "NA": "Namibia",
+          "NC": "New Caledonia",
+          "NE": "Niger",
+          "NG": "នីហ្សេរីយ៉ា",
+          "NI": "Nicaragua",
+          "NL": "Netherlands",
+          "NO": "ន័រវែស",
+          "NP": "នេប៉ាល់",
+          "NZ": "នូវែលសេឡង់",
+          "OM": "អូម៉ង់",
+          "PA": "Panama",
+          "PE": "ប៉េរូ",
+          "PF": "French Polynesia",
+          "PG": "Papua New Guinea",
+          "PH": "ហ្វីលីពីន",
+          "PK": "ប៉ាគីស្ថាន",
+          "PL": "ប៉ូឡូញ",
+          "PR": "Puerto Rico",
+          "PS": "Palestinian Territory, Occupied",
+          "PT": "Portugal",
+          "PY": "ប៉ារ៉ាហ្គាយ",
+          "QA": "កាតា",
+          "RE": "Réunion",
+          "RO": "រូម៉ានី",
+          "RS": "Serbia",
+          "RU": "រុស្ស៊ី",
+          "RW": "រវ៉ាន់ដា",
+          "SA": "អារ៉ាប៊ីសាអូឌីត",
+          "SB": "Solomon Islands",
+          "SC": "Seychelles",
+          "SD": "Sudan",
+          "SE": "Sweden",
+          "SG": "សិង្ហបុរី",
+          "SI": "Slovenia",
+          "SK": "Slovakia",
+          "SL": "Sierra Leone",
+          "SN": "Senegal",
+          "SR": "Suriname",
+          "SS": "South Sudan",
+          "ST": "Sao Tome and Principe",
+          "SV": "El Salvador",
+          "SZ": "Swaziland",
+          "TC": "Turks and Caicos Islands",
+          "TD": "Chad",
+          "TG": "Togo",
+          "TH": "ថៃ",
+          "TJ": "Tajikistan",
+          "TL": "Timor-Leste",
+          "TM": "Turkmenistan",
+          "TN": "Tunisia",
+          "TO": "តុងហ្គា",
+          "TR": "Turkey",
+          "TT": "Trinidad and Tobago",
+          "TV": "Tuvalu",
+          "TZ": "តង់ហ្សានី",
+          "UA": "Ukraine",
+          "UG": "អ៊ូហ្គង់ដា",
+          "US": "សហរដ្ឋអាមេរិក",
+          "UY": "Uruguay",
+          "UZ": "Uzbekistan",
+          "VC": "Saint Vincent and the Grenadines",
+          "VE": "Venezuela",
+          "VG": "Virgin Islands, British",
+          "VI": "Virgin Islands, U.S.",
+          "VN": "វៀតណាម",
+          "VU": "Vanuatu",
+          "WS": "សាម័រ",
+          "XK": "Kosovo",
+          "YE": "Yemen",
+          "YT": "Mayotte",
+          "ZA": "South Africa",
+          "ZM": "សំប៊ី",
+          "ZW": "Zimbabwe"
+        },
+        "realtime": "ពេលវេលាពិត",
+        "subtitle": "គាំទ្រ 200+ ប្រទេស",
+        "title": "ប្រទេសដែលគាំទ្រ",
+        "view_all": "ស្វែងយល់អំពីការផ្ញើប្រាក់"
+      },
+      "description1": "ផ្ញើទៅ 200+ ប្រទេស ទៅធនាគារកូរ៉េទាំងអស់ក្នុងពេលវេលាពិត។",
+      "description2": "មានសុវត្ថិភាពជាមួយដៃគូសកល 70 និងការផ្ទៀងផ្ទាត់ E-KYC។",
+      "rating": "App Store · Google Play មធ្យម",
+      "stats": {
+        "avg_time": "ពេលវេលាមធ្យមនៃការផ្ទេរ",
+        "seconds": "វិនាទី",
+        "total_amount": "ប្រាក់ផ្ញើសរុប",
+        "trillion": "ត្រីល្យុន+"
+      },
+      "title1": "លឿន និងមានសុវត្ថិភាព",
+      "title2": "ការផ្ញើប្រាក់អន្តរជាតិ"
+    },
+    "hero-section": {
+      "exchange": {
+        "description1": "អត្រាប្តូរប្រាក់ពេលវេលាពិតសម្រាប់ 200+ ប្រទេស។",
+        "description2": "បង្ហាញថ្លៃសេវាដោយច្បាស់។",
+        "eyebrow": "CURRENCY CONVERTER",
+        "stats": {
+          "countries": "200+",
+          "countries_label": "ប្រទេសដែលគាំទ្រ",
+          "service": "24/7",
+          "service_label": "សេវាពេលវេលាពិត"
+        },
+        "title1": "ពិនិត្យអត្រាប្តូរប្រាក់",
+        "title2": "ឥឡូវនេះ"
+      }
+    },
+    "loan-section": {
+      "button": {
+        "apply": "ដាក់ពាក្យកម្ចីក្នុងកម្មវិធី GME",
+        "detail": "ស្វែងយល់បន្ថែមអំពីកម្ចី"
+      },
+      "card": {
+        "quick_apply": "ដាក់ពាក្យរហ័ស",
+        "subtitle": "កម្ចីសម្រាប់ជនបរទេស",
+        "title": "GME Finance"
+      },
+      "description": "ដាក់ពាក្យកម្ចីក្នុងប៉ុន្មាននាទីជាមួយកម្មវិធី GME។ ពិនិត្យស្ថានភាពដំណើរការពេលវេលាពិត និងសមតុល្យបានគ្រប់ពេល។",
+      "features": {
+        "countries": {
+          "desc": "ប្រទេស",
+          "label": "14+"
+        },
+        "realtime": {
+          "desc": "តាមដាន",
+          "label": "ពេលវេលាពិត"
+        },
+        "simple": {
+          "desc": "ដាក់ពាក្យតាមកម្មវិធី",
+          "label": "សាមញ្ញ"
+        },
+        "success": {
+          "desc": "កម្ចី",
+          "label": "1M+"
+        },
+        "support": {
+          "desc": "ការគាំទ្រ",
+          "label": "24/7"
+        }
+      },
+      "stats": {
+        "desc": "1M+ កម្ចីជោគជ័យ · 14 ប្រទេស",
+        "title": "សមិទ្ធផលកម្ចីសរុប",
+        "value": "₩500B+"
+      },
+      "title": "កម្ចីអនឡាញ"
+    },
+    "main-services": {
+      "card": {
+        "desc1": "កាតឆ្លាតវៃមួយសម្រាប់ការផ្ទេរប្រាក់ និងការចំណាយ។",
+        "desc2": "ស្តង់ដារថ្មីសម្រាប់ការទូទាត់ជាសកល។",
+        "title": "GME Card"
+      },
+      "loan": {
+        "desc1": "អនុម័តឆាប់រហ័ស និងលក្ខខណ្ឌបត់បែន",
+        "desc2": "សេវាកម្ចីឌីជីថល",
+        "title": "កម្ចីអនឡាញ"
+      },
+      "mobile": {
+        "desc1": "ចាប់ពី 3,300 វ៉ុនក្នុងមួយខែ",
+        "desc2": "សេវាទូរសព្ទចល័តសម្រាប់ជនបរទេស",
+        "title": "ទូរសព្ទចល័ត"
+      },
+      "payments": {
+        "desc1": "ប្រាក់ខែ ការទូទាត់ដៃគូ ការទូទាត់អេឡិចត្រូនិក។",
+        "desc2": "ដំណោះស្រាយទូទាត់សន្សំសំចៃសម្រាប់អាជីវកម្ម។",
+        "title": "ការទូទាត់សកល"
+      },
+      "remittance": {
+        "desc1": "ការផ្ទេរប្រាក់រហ័ស និងសុវត្ថិភាព",
+        "desc2": "ទៅកាន់ប្រទេសជាង ២០០។",
+        "title": "ការផ្ញើប្រាក់ក្រៅប្រទេស"
+      },
+      "title1": "ស្វែងរកសេវា",
+      "title2": "GME ជាច្រើន"
+    },
+    "payments-section": {
+      "global_payments": {
+        "button": {
+          "detail": "ស្វែងយល់បន្ថែមអំពី Payments"
+        },
+        "card": {
+          "status": "ដំណើរការ",
+          "subtitle": "ដំណោះស្រាយសហគ្រាស",
+          "title": "ដំណោះស្រាយការទូទាត់"
+        },
+        "description": "ផ្ទេរប្រាក់បៀវត្ស សម្របសម្រួលដៃគូ ការទូទាត់ e-commerce។ ដំណោះស្រាយការទូទាត់សហគ្រាសមានតម្លៃសមរម្យ។",
+        "features": {
+          "smb": "SMB",
+          "smb_desc": "ដំណោះស្រាយ E-commerce",
+          "sps": "SPS",
+          "sps_desc": "ដំណោះស្រាយការទូទាត់ B2B",
+          "vas": "VAS",
+          "vas_desc": "សារ​ជូន​ដំណឹង · របាយការណ៍ · ផ្ទាំងគ្រប់គ្រង"
+        },
+        "stats": {
+          "cost_saving": "ការសន្សំថ្លៃ",
+          "cost_saving_change": "ប្រៀបធៀបនឹងប្រព័ន្ធប传统",
+          "cost_saving_value": "រហូតដល់ 70%",
+          "partners": "ដៃគូ",
+          "partners_change": "សកល",
+          "partners_value": "200+",
+          "success_rate": "អត្រាជោគជ័យ",
+          "success_rate_change": "ធម្មតា",
+          "success_rate_value": "99.8%"
+        },
+        "title": "ការទូទាត់សកល",
+        "transactions": {
+          "b2b": "ផ្ទេរប្រាក់ B2B ជាច្រើន",
+          "completed": "បានបញ្ចប់",
+          "just_now": "តែឥឡូវ",
+          "merchant": "ការទូទាត់ពាណិជ្ជករ",
+          "mins_ago": "នាទីមុន",
+          "partner": "សម្របសម្រួលដៃគូ",
+          "processing": "កំពុងដំណើរការ",
+          "title": "ប្រតិបត្តិការថ្មីៗ"
+        }
+      }
+    },
+    "remittance-section": {
+      "button": {
+        "detail": "ស្វែងយល់បន្ថែមអំពីការផ្ញើប្រាក់"
+      },
+      "description": "ផ្ញើប្រាក់លឿន និងមានសុវត្ថិភាពទៅ 200+ ប្រទេស។",
+      "features": {
+        "fast": {
+          "back_desc": "ផ្ញើប្រាក់ទៅកន្លែងណាក៏បានលើពិភពលោក ត្រឹមតែប៉ះពីរបីដង ដោយមិនចាំបាច់មានជំហានស្មុគស្មាញ។",
+          "back_title": "ផ្ញើសាមញ្ញ",
+          "desc": "បញ្ចប់ការផ្ញើក្រៅប្រទេសក្នុងចុចប៉ុន្មានលើក",
+          "sub": "ចុចប៉ុន្មាន",
+          "title": "ផ្ញើលឿន"
+        },
+        "global": {
+          "back_desc": "ផ្ញើទូទាំងពិភពលោកជាមួយ 200+ ប្រទេស និងដៃគូសកល 70។",
+          "back_title": "បណ្តាញសកល",
+          "desc": "អ្នកប្រើជាងមួយលាននាក់ជឿទុកចិត្ត GME",
+          "sub": "1M+ អ្នកប្រើ",
+          "title": "200+ ប្រទេស"
+        },
+        "optimized": {
+          "back_desc": "ថ្លៃទាបជាងធនាគាររហូតដល់ 90%។ ផ្ញើច្រើនជាមួយអត្រាពេលវេលាពិត។",
+          "back_title": "សន្សំធំ",
+          "desc": "ថ្លៃទាប 90% និងអត្រាល្អជាងធនាគារ",
+          "sub": "សន្សំ 90%",
+          "title": "ចំនួនបានបង្កើតល្អ"
+        },
+        "security": {
+          "back_desc": "ផ្ញើដោយសុវត្ថិភាពជាមួយការផ្ទៀងផ្ទាត់ E-KYC និងសេវាចុះបញ្ជី FSC។",
+          "back_title": "សុវត្ថិភាពរឹងមាំ",
+          "desc": "ប្រើប្រាស់ដោយមានទំនុកចិត្តជាមួយការពារ​សុវត្ថិភាពខ្លាំង",
+          "sub": "បានផ្ទៀងផ្ទាត់",
+          "title": "ងាយ និងមានសុវត្ថិភាព"
+        }
+      },
+      "title": "ការផ្ញើប្រាក់ក្រៅប្រទេស"
+    },
+    "section-nav": {
+      "app_download": "ទាញយកកម្មវិធី",
+      "customer_feedback": "សក្ខីកម្ម",
+      "exchange": "កម្មវិធីបម្លែងរូបិយប័ណ្ណ",
+      "home": "ទំព័រដើម",
+      "services": "សេវា"
+    },
+    "hero": {
+      "countries": {
+        "more": "បន្ថែមទៀត"
+      }
+    },
+    "services": {
+      "loan": {
+        "estimated_limit": "កំណត់ប៉ាន់ស្មាន"
+      }
+    },
+    "section_nav": {
+      "testimonials": "សក្ខីកម្ម"
+    },
+    "testimonials": {
+      "subtitle": "បទពិសោធន៍ពិតពីអតិថិជនរបស់យើង។",
+      "tags": {
+        "easy_tracking": "ផ្ញើយ៉ាងងាយ និងតាមដានបាន",
+        "fast_process": "ដំណើរការលឿន",
+        "satisfied": "សេវាពេញចិត្ត"
+      },
+      "title": "សក្ខីកម្ម"
+    }
+  }
+}

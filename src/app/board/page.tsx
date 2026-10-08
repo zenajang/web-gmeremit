@@ -21,7 +21,7 @@ const ITEMS_PER_PAGE = 10;
 export default function BoardPage() {
   const searchParams = useSearchParams();
   const supabase = createClient();
-  const { t } = useTranslation("board");
+  const { t } = useTranslation();
 
   const [entries, setEntries] = useState<BoardEntry[]>([]);
   const [loading, setLoading] = useState(true);
@@ -103,7 +103,7 @@ export default function BoardPage() {
 
   // Get title based on active tab
   const getPageTitle = () => {
-    return t(`tabs.${activeTab}`);
+    return t(`board.tabs.${activeTab}`);
   };
 
   return (
@@ -116,7 +116,7 @@ export default function BoardPage() {
               <div className="absolute -top-4 left-0 w-4 h-4 bg-gradient-to-br from-primary to-primary/60 rounded-sm" />
 
               <p className="typo-eyebrow text-primary mb-3 relative z-10">
-                {t("subtitle")}
+                {t("board.subtitle")}
               </p>
               <h1 className="typo-page-title tracking-tight relative z-10">
                 {getPageTitle()}
@@ -137,9 +137,9 @@ export default function BoardPage() {
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-6">
               {/* Total Count */}
               <div className="flex items-center gap-2 shrink-0">
-                <span className="text-sm sm:text-base font-semibold text-gray-700">{t("total")}</span>
+                <span className="text-sm sm:text-base font-semibold text-gray-700">{t("board.total")}</span>
                 <span className="text-sm sm:text-base font-bold text-primary">
-                  {totalCount}{t("count_suffix")}
+                  {totalCount}{t("board.count_suffix")}
                 </span>
               </div>
 
@@ -154,8 +154,8 @@ export default function BoardPage() {
               </div>
             ) : fetchError ? (
               <div className="rounded-2xl border border-red-100 bg-red-50/50 py-16 text-center">
-                <p className="text-gray-700 font-semibold mb-2">{t("error_title")}</p>
-                <p className="text-sm text-gray-500">{t("error_description")}</p>
+                <p className="text-gray-700 font-semibold mb-2">{t("common.board.error_title")}</p>
+                <p className="text-sm text-gray-500">{t("common.board.error_description")}</p>
               </div>
             ) : activeTab === "blog" ? (
               <BlogGrid entries={displayedEntries} />

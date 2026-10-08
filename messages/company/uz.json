@@ -1,0 +1,153 @@
+{
+  "company-careers": {
+    "benefits": {
+      "education": {
+        "description": "Onlayn kurslar, sertifikatlar, til darslari va konferensiya to'lovlarini to'liq qo'llab-quvvatlash.",
+        "title": "Ta'lim va rivojlanish yordami"
+      },
+      "health": {
+        "description": "To'liq stavkali xodimlar uchun yiliga ₩300,000 sog'liqni tekshirish subsidiyasi.",
+        "title": "Sog'liqni tekshirish yordami"
+      },
+      "incentive": {
+        "description": "Maqsadlarga erishish, yangi g'oyalar va yuqori natija uchun rag'batlantirishlar.",
+        "title": "Natijaga asoslangan rag'bat"
+      },
+      "subtitle": "GME a'zolarining o'sishi va baxtini qo'llab-quvvatlaymiz",
+      "team_building": {
+        "description": "Oylik town hall, choraklik jamoaviy tadbirlar, sport klublari va sog'lomlashtirish konsertlari.",
+        "title": "Jamoa va madaniyat"
+      },
+      "title": "Imtiyozlar",
+      "vacation": {
+        "description": "Tug'ilgan kun ta'tili, yubiley ta'tili, oilaviy tadbirlar va ota-ona ta'tillari.",
+        "title": "Yillik va maxsus ta'tillar"
+      }
+    },
+    "header": {
+      "button": "Bo'sh ish o'rinlari",
+      "description": "200+ mamlakatdagi mijozlarga xizmat ko'rsatuvchi global fintech kompaniyasiga qo'shiling.",
+      "title": "GME bilan o'sing"
+    },
+    "staff_stories": {
+      "subtitle": "Hamkasblarimizdan haqiqiy hikoyalar",
+      "title": "Jamoa hikoyalari"
+    },
+    "why_gme": {
+      "agile": {
+        "description": "Yassi tashkilotda tez qarorlar qabul qilamiz, xatolardan o'rganamiz va birga o'samiz.",
+        "title": "Tez qarorlar"
+      },
+      "diversity": {
+        "description": "14+ millat vakillari bilan ishlaymiz va turli qarashlardan o'rganamiz.",
+        "title": "Turli xillik"
+      },
+      "fairness": {
+        "description": "Jins yoki millatdan qat'i nazar, faqat qobiliyat va natijaga ko'ra adolatli baholanadi.",
+        "title": "Adolatli imkoniyat"
+      },
+      "title": "Nega GME alohida?"
+    }
+  },
+  "company-ceo-message": {
+    "paragraph1": "Koreyadagi yetakchi fintech kompaniyasi sifatida biz ilg'or texnologiya va odamlarimizga sarmoya kiritib, o'zaro o'sish va mijozlar muvaffaqiyatiga intilamiz.",
+    "paragraph2": "GME bilan birga global moliyaviy xizmatlar kelajagini yarating va yanada qulay hamda innovatsion xizmatlardan bahramand bo'ling."
+  },
+  "company-history": {
+    "events": {
+      "2016_08": "Global Money Express Co., Ltd. tashkil etildi",
+      "2017_03": "Birinchi onlayn xizmat ishga tushirildi",
+      "2017_06": "Koreyada birinchi xizmat ko'rsatuvchi",
+      "2017_08": "Koreyada kichik miqdordagi xalqaro pul o'tkazmalari litsenziyasini olgan birinchi kompaniya",
+      "2017_12": "Yillik xorijiy pul o'tkazmalari 10 milliard vondan oshdi",
+      "2018_04": "Xalqaro o'tkazmalar jami KRW 54 mlrd dan oshdi",
+      "2018_09": "Seul shahri tavsiya qilgan pul o'tkazma provayderi sifatida tanlandi",
+      "2018_12": "Yillik xorijiy pul o'tkazmalari 460 milliard vondan oshdi",
+      "2018_loan": "Chet elliklar uchun kredit xizmati boshlandi",
+      "2019_03": "Ichki pul o'tkazma xizmati ishga tushdi",
+      "2019_06": "Butun mamlakat bo'ylab 12 ta filial ochildi",
+      "2019_07": "Koreyada №1 xalqaro pul o'tkazma kompaniyasi (yakunlangan o'tkazmalar)",
+      "2019_09": "Butun mamlakat bo'ylab 3 ta markaz ochildi",
+      "2019_12": "Valyuta ayirboshlash litsenziyasi olindi",
+      "2020_02": "Xalqaro o'tkazmalar jami KRW 1 trln dan oshdi",
+      "2020_05": "Mobile Top-up xizmati ishga tushdi",
+      "2020_08": "Oldindan elektron to'lov litsenziyasi olindi",
+      "2020_09": "GME Pay xizmati ishga tushirildi",
+      "2020_12": "Yillik xorijiy pul o'tkazmalari 1.0 trillion vondan oshdi",
+      "2021_04": "Xalqaro o'tkazmalar jami KRW 1.9 trln dan oshdi",
+      "2021_07": "Mobile Coupon xizmati ishga tushdi",
+      "2021_10": "Hankyung Fintech Awards (Tech Category) da bosh mukofot",
+      "2021_12": "PG litsenziyasi va elektron to'lov biznesi ruxsatnomasi olindi",
+      "2022_03": "Valyuta biznesi litsenziyasi olindi",
+      "2022_06": "To'lov biznesi boshlandi",
+      "2022_11": "Xalqaro o'tkazmalar jami KRW 2 trln dan oshdi",
+      "2022_12": "Yillik xorijiy pul o'tkazmalari 1.7 trillion vondan oshdi",
+      "2023_02": "Xalqaro o'tkazmalar jami KRW 2.1 trln dan oshdi",
+      "2023_05": "BC Card va Mastercard bilan GME Card xizmati ishga tushdi",
+      "2023_09": "GME Mobile (MVNO) xizmat litsenziyasi olindi",
+      "2023_10": "Forbes 2023 da Korea Fintech Top 10",
+      "2023_kibo": "KOTEC tomonidan KIBO-Star Valley Company sifatida tanlandi",
+      "2023_nice": "NICE tomonidan A'lo texnologik kompaniya sifatida sertifikatlandi",
+      "2024_03": "LG U+ bilan GME Mobile (MVNO) xizmati ishga tushdi",
+      "2024_06": "'GMEBiz' korporativ to'lov xizmati ishga tushdi",
+      "2024_12": "Xalqaro o'tkazmalar jami KRW 2.8 trln dan oshdi",
+      "2025_03": "Chet elliklar uchun sug'urta mahsuloti ishga tushdi",
+      "2025_04": "Innovatsion KO'B (Inno-Biz) sertifikatini oldi",
+      "2025_06": "Transport kartasi funksiyali debit karta ishga tushdi",
+      "2025_12": "Xalqaro o'tkazmalar jami KRW 3.5 trln dan oshdi",
+      "2026_09": "DB Insurance bilan hamkorlikda sugʻurta va aʼzolik yordamini taqdim etuvchi EasyCare Card ishga tushirildi."
+    },
+    "title_line1": "Cheksiz sinovlar,",
+    "title_line2": "Yangi boshlanishlar"
+  },
+  "company-services": {
+    "b2b_payments": {
+      "desc": "Tez va arzon transchegaraviy to'lovlar va yig'ishlar",
+      "title": "B2B to'lovlar"
+    },
+    "core_services": "Asosiy xizmatlar",
+    "digital_wallet": {
+      "desc": "Bir joyda to'lash, yuborish va saqlash",
+      "title": "Raqamli hamyon"
+    },
+    "easy_loan": {
+      "desc": "100% qog'ozsiz, bir kunda tasdiqlanadigan kredit",
+      "title": "Oson kredit"
+    },
+    "gift_coupons": {
+      "desc": "Mukofot ballari orqali raqamli sovg'a kuponlari",
+      "title": "Sovg'a kuponlari"
+    },
+    "gme_card": {
+      "desc": "Dunyo bo'ylab to'lang, yeching va boshqaring",
+      "title": "GME Card"
+    },
+    "learn_more": "Batafsil",
+    "mobile_topup": {
+      "desc": "150+ mamlakatda tezkor mobil to'ldirish",
+      "title": "Mobile Top-up"
+    },
+    "money_exchange": {
+      "desc": "Banklardan ko'ra yaxshi kurslar",
+      "title": "Valyuta ayirboshlash"
+    },
+    "personal_remittance": {
+      "desc": "Ko'p tilli qo'llab-quvvatlash bilan ichki va xalqaro o'tkazmalar",
+      "title": "Shaxsiy pul o'tkazma"
+    },
+    "related_services": "Bog'liq xizmatlar",
+    "subtitle": "Barcha global moliyaviy ehtiyojlaringiz bir joyda",
+    "telecom": {
+      "desc": "Oyiga 3,300 vondan boshlanadigan arzon mobil tariflar",
+      "title": "Telecom"
+    },
+    "title": "GME xizmatlari"
+  },
+  "company": {
+    "tabs": {
+      "ceo_message": "CEO xabari",
+      "history": "Tarix",
+      "services": "Xizmatlar"
+    }
+  }
+}

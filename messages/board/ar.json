@@ -1,0 +1,52 @@
+{
+  "board-detail": {
+    "board-detail-client": {
+      "attachment": "مرفق",
+      "attachment_file": "مرفق",
+      "back": "رجوع",
+      "back_to_list": "العودة إلى القائمة",
+      "not_found": "المنشور غير موجود"
+    }
+  },
+  "board-notice": {
+    "redirect": {
+      "notice": "إعادة التوجيه إلى صفحة الإشعارات..."
+    }
+  },
+  "board-press": {
+    "redirect": {
+      "press": "إعادة التوجيه إلى صفحة الصحافة..."
+    }
+  },
+  "board": {
+    "blog-grid": {
+      "no_image": "لا توجد صورة",
+      "no_results": "لم يتم العثور على نتائج."
+    },
+    "board-table": {
+      "attachment": "الملف",
+      "attachment_file": "مرفق",
+      "date": "التاريخ",
+      "title": "العنوان",
+      "type": "النوع"
+    },
+    "count_suffix": " منشورًا",
+    "pagination": {
+      "load_more": "تحميل المزيد"
+    },
+    "search-bar": {
+      "all": "الكل",
+      "content": "المحتوى",
+      "placeholder": "أدخل كلمة البحث",
+      "title": "العنوان",
+      "button": "بحث"
+    },
+    "subtitle": "اطلع على أحدث أخبار GME Remit",
+    "tabs": {
+      "blog": "المدونة",
+      "notice": "إشعار",
+      "press": "الصحافة"
+    },
+    "total": "الإجمالي"
+  }
+}

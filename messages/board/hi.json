@@ -1,0 +1,52 @@
+{
+  "board-detail": {
+    "board-detail-client": {
+      "attachment": "संलग्नक",
+      "attachment_file": "संलग्नक",
+      "back": "वापस",
+      "back_to_list": "सूची पर वापस",
+      "not_found": "पोस्ट नहीं मिला"
+    }
+  },
+  "board-notice": {
+    "redirect": {
+      "notice": "सूचना पृष्ठ पर पुनर्निर्देशित हो रहा है..."
+    }
+  },
+  "board-press": {
+    "redirect": {
+      "press": "प्रेस पृष्ठ पर पुनर्निर्देशित हो रहा है..."
+    }
+  },
+  "board": {
+    "blog-grid": {
+      "no_image": "कोई छवि नहीं",
+      "no_results": "कोई परिणाम नहीं मिला।"
+    },
+    "board-table": {
+      "attachment": "फ़ाइल",
+      "attachment_file": "संलग्नक",
+      "date": "तिथि",
+      "title": "शीर्षक",
+      "type": "प्रकार"
+    },
+    "count_suffix": " पोस्ट",
+    "pagination": {
+      "load_more": "और देखें"
+    },
+    "search-bar": {
+      "all": "सभी",
+      "content": "सामग्री",
+      "placeholder": "खोज कीवर्ड दर्ज करें",
+      "title": "शीर्षक",
+      "button": "खोजें"
+    },
+    "subtitle": "GME Remit की नवीनतम समाचार देखें",
+    "tabs": {
+      "blog": "ब्लॉग",
+      "notice": "सूचना",
+      "press": "प्रेस"
+    },
+    "total": "कुल"
+  }
+}

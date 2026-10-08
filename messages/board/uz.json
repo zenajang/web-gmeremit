@@ -1,0 +1,52 @@
+{
+  "board-detail": {
+    "board-detail-client": {
+      "attachment": "Ilova",
+      "attachment_file": "Ilova fayl",
+      "back": "Orqaga",
+      "back_to_list": "Ro'yxatga qaytish",
+      "not_found": "Post topilmadi"
+    }
+  },
+  "board-notice": {
+    "redirect": {
+      "notice": "E'lonlar sahifasiga yo'naltirilmoqda..."
+    }
+  },
+  "board-press": {
+    "redirect": {
+      "press": "Matbuot sahifasiga yo'naltirilmoqda..."
+    }
+  },
+  "board": {
+    "blog-grid": {
+      "no_image": "Rasm yo'q",
+      "no_results": "Natija topilmadi."
+    },
+    "board-table": {
+      "attachment": "Fayl",
+      "attachment_file": "Ilova",
+      "date": "Sana",
+      "title": "Sarlavha",
+      "type": "Turi"
+    },
+    "count_suffix": " ta post",
+    "pagination": {
+      "load_more": "Yana ko'rsatish"
+    },
+    "search-bar": {
+      "all": "Barchasi",
+      "content": "Kontent",
+      "placeholder": "Qidiruv so'zini kiriting",
+      "title": "Sarlavha",
+      "button": "Qidirish"
+    },
+    "subtitle": "GME Remit yangiliklarini tekshiring",
+    "tabs": {
+      "blog": "Blog",
+      "notice": "E'lon",
+      "press": "Matbuot"
+    },
+    "total": "Jami"
+  }
+}

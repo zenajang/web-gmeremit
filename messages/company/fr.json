@@ -1,0 +1,153 @@
+{
+  "company-careers": {
+    "benefits": {
+      "education": {
+        "description": "Soutien complet pour le développement personnel incluant cours en ligne, certifications, cours de langue et frais de conférence.",
+        "title": "Soutien éducation & croissance"
+      },
+      "health": {
+        "description": "Allocation annuelle de bilan de santé de 300 000 ₩ pour les employés à temps plein.",
+        "title": "Soutien bilan de santé"
+      },
+      "incentive": {
+        "description": "Diverses primes basées sur les performances et récompenses pour l'atteinte des objectifs, nouvelles idées et performances exceptionnelles.",
+        "title": "Primes de performance"
+      },
+      "subtitle": "Soutenir la croissance et le bonheur des membres GME",
+      "team_building": {
+        "description": "Réunions mensuelles, événements d'équipe trimestriels, clubs sportifs et concerts pour grandir ensemble.",
+        "title": "Team building & culture"
+      },
+      "title": "Avantages & privilèges",
+      "vacation": {
+        "description": "Divers programmes de congés spéciaux incluant congé d'anniversaire, congé anniversaire de mariage, événements familiaux et congé parental.",
+        "title": "Congés annuels & spéciaux"
+      }
+    },
+    "header": {
+      "button": "Voir les offres",
+      "description": "Rejoignez notre entreprise fintech mondiale fournissant des services financiers à des clients dans plus de 200 pays.",
+      "title": "Grandissez avec GME"
+    },
+    "staff_stories": {
+      "subtitle": "Histoires réelles de nos collègues",
+      "title": "Histoires d'équipe"
+    },
+    "why_gme": {
+      "agile": {
+        "description": "Exécutez rapidement dans une organisation plate, apprenez des échecs et grandissez ensemble.",
+        "title": "Prise de décision rapide"
+      },
+      "diversity": {
+        "description": "Travaillez aux côtés de collègues de plus de 14 nationalités et apprenez de perspectives diverses.",
+        "title": "Embrasser la diversité"
+      },
+      "fairness": {
+        "description": "Évalué équitablement sur la base des capacités et performances, indépendamment du genre ou de la nationalité.",
+        "title": "Opportunités équitables"
+      },
+      "title": "Pourquoi GME est spécial"
+    }
+  },
+  "company-ceo-message": {
+    "paragraph1": "En tant qu'entreprise fintech de premier plan en Corée du Sud, nous investissons dans une technologie de pointe et dans nos collaborateurs, en visant la croissance mutuelle et le succès client.",
+    "paragraph2": "Rejoignez GME alors que nous façonnons l'avenir des services financiers mondiaux, et découvrez des services plus pratiques et innovants."
+  },
+  "company-history": {
+    "events": {
+      "2016_08": "Création de Global Money Express Co., Ltd.",
+      "2017_03": "",
+      "2017_06": "Lancement du premier service de transfert international en Corée",
+      "2017_08": "Premier enregistrement officiel de petite société de transfert international en Corée",
+      "2017_12": "Volume annuel de transferts internationaux dépassant 10 milliards KRW",
+      "2018_04": "",
+      "2018_09": "Sélectionné comme prestataire de transfert recommandé par la ville de Séoul",
+      "2018_12": "Volume annuel de transferts internationaux dépassant 460 milliards KRW",
+      "2018_loan": "Lancement du service de prêt à la consommation pour les étrangers",
+      "2019_03": "Lancement du service de transfert domestique",
+      "2019_06": "Ouverture de 12 agences à travers le pays",
+      "2019_07": "",
+      "2019_09": "Ouverture de 3 centres à travers le pays",
+      "2019_12": "",
+      "2020_02": "",
+      "2020_05": "Lancement du service de recharge mobile",
+      "2020_08": "Obtention de la licence d'émission et gestion d'instruments de paiement électronique prépayés",
+      "2020_09": "Lancement du service GME Pay",
+      "2020_12": "Volume annuel de transferts internationaux dépassant 1 000 milliards KRW",
+      "2021_04": "Volume annuel de transferts internationaux dépassant 1 500 milliards KRW",
+      "2021_07": "Lancement du service de coupons mobiles",
+      "2021_10": "Grand prix aux Hankyung Fintech Awards (catégorie Tech)",
+      "2021_12": "Obtention de la licence de passerelle de paiement (PG)",
+      "2022_03": "Obtention de la licence spécialisée en change",
+      "2022_06": "Lancement du service GME B2B Payments",
+      "2022_11": "",
+      "2022_12": "Volume annuel de transferts internationaux dépassant 1 700 milliards KRW",
+      "2023_02": "Volume annuel de transferts internationaux dépassant 2 800 milliards KRW",
+      "2023_05": "Lancement du service GME Card en partenariat avec BC Card et Mastercard",
+      "2023_09": "Obtention de la licence de service GME Mobile (MVNO)",
+      "2023_10": "Classé Top 10 Korea Fintech par Forbes 2023",
+      "2023_kibo": "Sélectionné comme société KIBO-Star Valley par KOTEC",
+      "2023_nice": "Certifié comme entreprise de technologie d'excellence par NICE",
+      "2024_03": "Lancement du service GME Mobile (MVNO) en partenariat avec LG U+",
+      "2024_06": "Lancement du service de paiement d'entreprise « GMEBiz »",
+      "2024_12": "Volume annuel de transferts internationaux dépassant 2 800 milliards KRW",
+      "2025_03": "Lancement d'un produit d'assurance pour les résidents étrangers",
+      "2025_04": "Certifié comme PME innovante (Inno-Biz)",
+      "2025_06": "Lancement d'une carte de débit avec fonction transport",
+      "2025_12": "Volume annuel de transferts internationaux dépassant 4 000 milliards KRW",
+      "2026_09": "Launched the EasyCare Card, offering insurance and membership benefits in partnership with DB Insurance."
+    },
+    "title_line1": "Défis sans fin,",
+    "title_line2": "Nouveaux départs"
+  },
+  "company-services": {
+    "b2b_payments": {
+      "desc": "Versements et encaissements transfrontaliers rapides et à faible coût",
+      "title": "Paiements B2B"
+    },
+    "core_services": "Services principaux",
+    "digital_wallet": {
+      "desc": "Déposez, envoyez et payez en un seul endroit",
+      "title": "Portefeuille numérique"
+    },
+    "easy_loan": {
+      "desc": "Prêt 100 % sans papier avec approbation le jour même",
+      "title": "Prêt facile"
+    },
+    "gift_coupons": {
+      "desc": "Envoyez des coupons cadeaux numériques avec vos points de récompense",
+      "title": "Coupons cadeaux"
+    },
+    "gme_card": {
+      "desc": "Payez, retirez et gérez votre argent dans le monde entier",
+      "title": "GME Card"
+    },
+    "learn_more": "En savoir plus",
+    "mobile_topup": {
+      "desc": "Recharge mobile instantanée dans plus de 150 pays",
+      "title": "Recharge mobile"
+    },
+    "money_exchange": {
+      "desc": "Meilleurs taux de change que les banques traditionnelles",
+      "title": "Change de devises"
+    },
+    "personal_remittance": {
+      "desc": "Envoyez de l'argent localement ou internationalement avec support multilingue",
+      "title": "Transfert"
+    },
+    "related_services": "Services associés",
+    "subtitle": "Tous vos besoins financiers mondiaux en un seul endroit",
+    "telecom": {
+      "desc": "Forfaits mobiles économiques à partir de 3 300 ₩/mois",
+      "title": "Télécom"
+    },
+    "title": "Services GME"
+  },
+  "company": {
+    "tabs": {
+      "ceo_message": "Message du PDG",
+      "history": "Histoire",
+      "services": "Services"
+    }
+  }
+}

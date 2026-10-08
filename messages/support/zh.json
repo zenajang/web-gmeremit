@@ -1,0 +1,218 @@
+{
+  "support-branches": {
+    "address": "地址",
+    "data": {
+      "1": {
+        "address": "首尔特别市钟路区钟路315（东大门站3号出口）",
+        "hours": "工作日·周末 10:00 - 19:00",
+        "name": "东大门分行"
+      },
+      "2": {
+        "address": "京畿道安山市檀园区多文化路6 1楼",
+        "hours": "工作日·周末 10:00 - 19:00",
+        "name": "安山分行"
+      },
+      "3": {
+        "address": "首尔特别市永登浦区道林路134 1楼",
+        "hours": "工作日·周末 10:00 - 19:00",
+        "name": "大林分行"
+      },
+      "4": {
+        "address": "京畿道水原市八达区梅山路2-10",
+        "hours": "工作日·周末 10:00 - 19:00",
+        "name": "水原分行"
+      },
+      "5": {
+        "address": "京畿道华城市乡南邑3·1万岁路1109-3 1楼",
+        "hours": "周五～周二 10:00 - 19:00",
+        "name": "华城分行"
+      },
+      "6": {
+        "address": "京畿道抱川市苏屹邑松墨路91（农协银行旁）",
+        "hours": "周六～周三 10:00 - 19:00",
+        "name": "松内分行"
+      },
+      "7": {
+        "address": "仁川广域市富平区光场路16（富平站购物中心）",
+        "hours": "周六～周三 10:00 - 19:00",
+        "name": "富平分行"
+      },
+      "8": {
+        "address": "庆尚南道金海市伽落路84（Top Mart对面）",
+        "hours": "工作日·周末 10:00 - 19:00",
+        "name": "金海分行"
+      },
+      "9": {
+        "address": "京畿道平泽市平泽1路16-1",
+        "hours": "工作日·周末 10:00 - 19:00",
+        "name": "平泽分行"
+      }
+    },
+    "hours": "营业时间",
+    "phone": "电话"
+  },
+  "support-inquiry": {
+    "categories": {
+      "2": {
+        "items": [
+          "法人注册及审核",
+          "贸易货款·服务费汇款",
+          "手续费及汇率",
+          "API 对接及结算"
+        ]
+      },
+      "7": {
+        "items": [
+          "资费及账单查询",
+          "开通·携号转网·解约",
+          "USIM 配送及更换",
+          "数据·通话质量"
+        ]
+      }
+    },
+    "category-card": {
+      "categories": {
+        "1": {
+          "name": "个人汇款咨询",
+          "sub": "个人汇款 · 汇率 · 收款"
+        },
+        "2": {
+          "name": "企业汇款 (Biz) 咨询",
+          "sub": "法人 · 贸易付款 · B2B"
+        },
+        "3": {
+          "name": "贷款咨询",
+          "sub": "申请资格 · 额度 · 还款"
+        },
+        "4": {
+          "name": "合作·伙伴关系咨询",
+          "sub": "合作 · 业务提案"
+        },
+        "5": {
+          "name": "招聘咨询",
+          "sub": "应聘 · 招聘流程"
+        },
+        "6": {
+          "name": "消费者保护·投诉",
+          "sub": "纠纷 · 使用限制 · 举报"
+        },
+        "7": {
+          "name": "移动通信咨询",
+          "sub": "资费 · 开通 · USIM"
+        }
+      }
+    },
+    "category-selector": {
+      "question": "请问您要咨询什么?"
+    },
+    "chat": {
+      "action": "开始在线咨询",
+      "description": "客服人员将实时为您解答。非工作时间由聊天机器人引导并受理回电申请。",
+      "items": [
+        "工作日 09:00 ~ 18:00 · 人工客服",
+        "其他时间 · 机器人引导后受理回电",
+        "支持 12 种语言 (尼泊尔语·越南语·泰语等)"
+      ]
+    },
+    "external": {
+      "action": "前往咨询页面",
+      "description": "该类咨询由 {{site}} 官网受理。"
+    },
+    "guide-panel": {
+      "common": {
+        "reset": "重新选择类型"
+      }
+    },
+    "honeypot-field": {
+      "form": {
+        "honeypot": "地址"
+      }
+    },
+    "inquiry-form": {
+      "categories": {
+        "4": {
+          "dept": "相关部门"
+        },
+        "5": {
+          "dept": "人事部门"
+        },
+        "6": {
+          "dept": "消费者保护部门"
+        }
+      },
+      "contentLabel": "咨询内容",
+      "contentPlaceholder": "描述越详细，我们越能准确答复。",
+      "emailLabel": "电子邮箱",
+      "emailPlaceholder": "name@example.com",
+      "errors": {
+        "email": "请检查电子邮箱地址。",
+        "failed": "咨询提交失败，请稍后重试。",
+        "phone": "请检查联系电话。",
+        "required": "请填写所有必填项。",
+        "turnstile": "请完成安全验证。"
+      },
+      "nameLabel": "姓名",
+      "namePlaceholder": "张三",
+      "notice": "{{dept}}确认后将为您答复。",
+      "phoneLabel": "联系电话",
+      "phonePlaceholder": "010-0000-0000",
+      "submit": "提交咨询",
+      "titleLabel": "标题",
+      "titlePlaceholder": "请输入咨询标题"
+    },
+    "step-indicator": {
+      "steps": {
+        "connect": "2. 咨询连接 · 受理",
+        "select": "1. 选择咨询类型"
+      }
+    },
+    "submission-complete": {
+      "description": "相关部门确认后将通过您填写的邮箱答复。",
+      "reset": "返回首页"
+    }
+  },
+  "support-social-channels": {
+    "contact": "联系我们",
+    "countries_count": "38个国家",
+    "countries": {
+      "african-region": "非洲地区",
+      "bangladesh": "孟加拉国",
+      "cambodia": "柬埔寨",
+      "china": "中国",
+      "india": "印度",
+      "indonesia": "印度尼西亚",
+      "japan": "日本",
+      "korea": "韩国",
+      "mongolia": "蒙古",
+      "myanmar": "缅甸",
+      "nepal": "尼泊尔",
+      "pakistan": "巴基斯坦",
+      "philippines": "菲律宾",
+      "srilanka": "斯里兰卡",
+      "thailand": "泰国",
+      "uzbekistan-cis": "乌兹别克斯坦·CIS",
+      "vietnam": "越南",
+      "western": "欧美"
+    },
+    "description": "通过各国GME官方频道与我们联系",
+    "operating": "运营中",
+    "title": "全球社交频道"
+  },
+  "support": {
+    "tabs": {
+      "branches": "分行",
+      "social_channels": "联系我们"
+    },
+    "stats": {
+      "countries_label": "服务国家",
+      "branches_label": "分行",
+      "branches_unit": "+",
+      "branches_value": "12",
+      "countries_unit": "+",
+      "countries_value": "38",
+      "services_label": "服务",
+      "services_unit": "+",
+      "services_value": "8"
+    }
+  }
+}

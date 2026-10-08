@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { usePendingTranslation } from "@/hooks/usePendingTranslation";
+import { useTranslation } from "@/hooks/useTranslation";
 import { cardDefs, type CardDef } from "@/data/cardsShowcase";
 import CTAButton from "@/components/ui/CTAButton";
 
@@ -13,7 +13,7 @@ function mod(n: number, m: number) {
 }
 
 export default function CardsShowcase() {
-  const { t, tArray } = usePendingTranslation("home.cards");
+  const { t, tArray } = useTranslation();
   const [activeIndex, setActiveIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
   // 카드가 바뀌면 디자인 선택은 첫 번째로 돌아간다
@@ -69,7 +69,7 @@ export default function CardsShowcase() {
   }, [isMobile]);
 
   const activeDef = cardDefs[activeIndex];
-  const highlights = tArray(`${activeDef.id}.highlights`);
+  const highlights = tArray(`home.cards-showcase.${activeDef.id}.highlights`);
 
   const positions = useMemo(() => {
     return cardDefs.map((_: CardDef, index: number) => {
@@ -92,7 +92,7 @@ export default function CardsShowcase() {
             )}
           </div>
           <h3 className="typo-section-title">{activeDef.title}</h3>
-        <p className="typo-section-subtitle text-gray-600">{t(`${activeDef.id}.desc`)}</p>
+        <p className="typo-section-subtitle text-gray-600">{t(`home.cards-showcase.${activeDef.id}.desc`)}</p>
 
           {activeDef.designs && (
             <div className="flex items-center gap-2 mt-3">
@@ -132,7 +132,7 @@ export default function CardsShowcase() {
           <div className="mt-7">
             <CTAButton
               href={activeDef.ctaHref}
-              label={t(`${activeDef.id}.cta`)}
+              label={t(`home.cards-showcase.${activeDef.id}.cta`)}
               className="text-cards bg-gray-200 hover:bg-gray-300"
               iconClassName="bg-cards"
             />
@@ -151,7 +151,7 @@ export default function CardsShowcase() {
             )}
           </div>
           <h3 className="typo-section-title mb-5">{activeDef.title}</h3>
-          <p className="typo-section-subtitle text-gray-600">{t(`${activeDef.id}.desc`)}</p>
+          <p className="typo-section-subtitle text-gray-600">{t(`home.cards-showcase.${activeDef.id}.desc`)}</p>
 
           {activeDef.designs && (
             <div className="flex items-center gap-2 mt-3">
@@ -208,7 +208,7 @@ export default function CardsShowcase() {
               >
                 <Image
                   src={displayImage}
-                  alt={`${card.title} ${t("image_alt")}`}
+                  alt={`${card.title} ${t("home.cards-showcase.image_alt")}`}
                   width={360}
                   height={480}
                   {...imageProps}
@@ -254,7 +254,7 @@ export default function CardsShowcase() {
           <div className="mt-5 w-full">
             <CTAButton
               href={activeDef.ctaHref}
-              label={t(`${activeDef.id}.cta`)}
+              label={t(`home.cards-showcase.${activeDef.id}.cta`)}
               className="text-cards bg-gray-200 hover:bg-gray-300"
               iconClassName="bg-cards"
             />

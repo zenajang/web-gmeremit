@@ -1,0 +1,539 @@
+{
+  "home": {
+    "app-download-cta": {
+      "chips": [
+        "Tipos en tiempo real",
+        "Montos optimizados",
+        "Autenticación segura"
+      ],
+      "description": "La aplicación GME Remit reúne todos tus servicios esenciales en una sola plataforma. Envía dinero al extranjero fácilmente, gestiona tus finanzas, accede a tu tarjeta GME, mantente conectado con nuestros servicios SIM y explora soluciones B2B para tu negocio, todo en una app segura y conveniente.",
+      "qr_scan": "Escanea el código QR",
+      "subtitle": "APLICACIÓN GME REMIT",
+      "title1": "Tu solución financiera",
+      "title2": "y de conectividad completa"
+    },
+    "cards-showcase": {
+      "black": {
+        "cta": "Ver Premium Card",
+        "desc": "Una tarjeta premium que recompensa sus gastos internacionales.",
+        "highlights": [
+          "3% de reembolso en el extranjero",
+          "Pague en cualquier parte del mundo",
+          "Compras en línea y en tiendas físicas",
+          "Transporte público"
+        ]
+      },
+      "careers": {
+        "cta": {
+          "about": "Sobre la empresa"
+        }
+      },
+      "cta": {
+        "button": "Solicitar una tarjeta",
+        "description": "Encuentra la tarjeta adecuada para ti y disfruta de beneficios exclusivos.",
+        "title": "Empieza con GME Card hoy"
+      },
+      "easyCare": {
+        "cta": "Ver EasyCare Card",
+        "desc": "Creada para cuidarte, Made to Care. Una tarjeta de transporte pospago con beneficios de seguro y apoyo de membresía.",
+        "highlights": [
+          "Beneficios de apoyo de seguro y membresía",
+          "Tarjeta de transporte pospago",
+          "Reembolso estacional y en tiendas especiales",
+          "Pague en cualquier parte del mundo"
+        ]
+      },
+      "easyG0": {
+        "cta": "Ver la EasyGo Card",
+        "desc": "Haga su vida diaria más práctica. Disfrute de beneficios estacionales, desde transporte hasta compras.",
+        "highlights": [
+          "Tarjeta de transporte pospago",
+          "Reembolso estacional y en tiendas especiales",
+          "Paga en cualquier parte del mundo",
+          "Compras en línea y fuera de línea"
+        ]
+      },
+      "image_alt": "Imagen de tarjeta",
+      "loan": {
+        "cta": {
+          "button": "Descargar app"
+        }
+      },
+      "pay": {
+        "cta": "Ver Pay Card",
+        "desc": "Una tarjeta de pago todo en uno para sus gastos diarios.",
+        "highlights": [
+          "Reembolso estacional y en tiendas especiales",
+          "Pague en cualquier parte del mundo",
+          "Compras en línea y en tiendas físicas",
+          "Transporte público"
+        ]
+      },
+      "red": {
+        "cta": "Ver la Red Card",
+        "desc": "Tarjeta con los colores insignia de GME. Haz que cada pago sea elegante.",
+        "highlights": [
+          "Reembolso estacional",
+          "Descuentos en eventos especiales",
+          "Pago fácil metro · autobús · taxi",
+          "Transporte público"
+        ]
+      },
+      "uniq": {
+        "cta": "Ver UniQ Card",
+        "desc": "Elige tu tarjeta entre más de 30 diseños de 18 países.",
+        "highlights": [
+          "Reembolso estacional y en tiendas especiales",
+          "Descuentos en eventos especiales",
+          "18 países, más de 30 diseños",
+          "Pago fácil metro · autobús · taxi"
+        ]
+      },
+      "white": {
+        "cta": "Ver la White Card",
+        "desc": "Tarjeta diaria simple y limpia. Conveniente para pagos nacionales y transporte público.",
+        "highlights": [
+          "Reembolso estacional",
+          "Descuentos en eventos especiales",
+          "Pago fácil metro · autobús · taxi",
+          "Transporte público"
+        ]
+      }
+    },
+    "customer-feedback-section": {
+      "subtitle": "Experiencias reales de nuestros clientes.",
+      "tags": {
+        "easy_tracking": "Transferencia y seguimiento fáciles",
+        "fast_process": "Proceso rápido",
+        "satisfied": "Servicio satisfactorio"
+      },
+      "title": "Opiniones de clientes"
+    },
+    "hero-main": {
+      "badge": "Excelente servicio de remesas",
+      "button": {
+        "learn_more": "Más información"
+      },
+      "countries": {
+        "names": {
+          "AD": "Andorra",
+          "AE": "Emiratos Árabes Unidos",
+          "AG": "Antigua y Barbuda",
+          "AI": "Anguila",
+          "AL": "Albania",
+          "AM": "Armenia",
+          "AO": "Angola",
+          "AR": "Argentina",
+          "AS": "Samoa Americana",
+          "AT": "Austria",
+          "AU": "Australia",
+          "AW": "Aruba",
+          "AZ": "Azerbaiyán",
+          "BA": "Bosnia y Herzegovina",
+          "BB": "Barbados",
+          "BD": "Bangladés",
+          "BE": "Bélgica",
+          "BF": "Burkina Faso",
+          "BG": "Bulgaria",
+          "BH": "Baréin",
+          "BI": "Burundi",
+          "BJ": "Benín",
+          "BL": "San Bartolomé",
+          "BM": "Bermudas",
+          "BN": "Brunéi",
+          "BO": "Bolivia",
+          "BR": "Brasil",
+          "BS": "Bahamas",
+          "BT": "Bután",
+          "BW": "Botsuana",
+          "BY": "Bielorrusia",
+          "BZ": "Belice",
+          "CA": "Canadá",
+          "CD": "República Democrática del Congo",
+          "CF": "República Centroafricana",
+          "CG": "República del Congo",
+          "CH": "Suiza",
+          "CI": "Costa de Marfil",
+          "CK": "Islas Cook",
+          "CL": "Chile",
+          "CM": "Camerún",
+          "CN": "China",
+          "CO": "Colombia",
+          "CR": "Costa Rica",
+          "CU": "Cuba",
+          "CV": "Cabo Verde",
+          "CY": "Chipre",
+          "CZ": "República Checa",
+          "DE": "Alemania",
+          "DJ": "Yibuti",
+          "DK": "Dinamarca",
+          "DM": "Dominica",
+          "DO": "República Dominicana",
+          "DZ": "Argelia",
+          "EC": "Ecuador",
+          "EE": "Estonia",
+          "EG": "Egipto",
+          "ER": "Eritrea",
+          "ES": "España",
+          "ET": "Etiopía",
+          "FI": "Finlandia",
+          "FJ": "Fiyi",
+          "FM": "Micronesia",
+          "FR": "Francia",
+          "GA": "Gabón",
+          "GB": "Reino Unido",
+          "GD": "Granada",
+          "GE": "Georgia",
+          "GF": "Guayana Francesa",
+          "GH": "Ghana",
+          "GI": "Gibraltar",
+          "GM": "Gambia",
+          "GN": "Guinea",
+          "GP": "Guadalupe",
+          "GQ": "Guinea Ecuatorial",
+          "GR": "Grecia",
+          "GT": "Guatemala",
+          "GU": "Guam",
+          "GW": "Guinea-Bisáu",
+          "GY": "Guyana",
+          "HK": "Hong Kong",
+          "HN": "Honduras",
+          "HR": "Croacia",
+          "HT": "Haití",
+          "HU": "Hungría",
+          "ID": "Indonesia",
+          "IE": "Irlanda",
+          "IL": "Israel",
+          "IN": "India",
+          "IS": "Islandia",
+          "IT": "Italia",
+          "JM": "Jamaica",
+          "JO": "Jordania",
+          "JP": "Japón",
+          "KE": "Kenia",
+          "KG": "Kirguistán",
+          "KH": "Camboya",
+          "KM": "Comoras",
+          "KN": "San Cristóbal y Nieves",
+          "KW": "Kuwait",
+          "KY": "Islas Caimán",
+          "KZ": "Kazajistán",
+          "LA": "Laos",
+          "LB": "Líbano",
+          "LC": "Santa Lucía",
+          "LI": "Liechtenstein",
+          "LK": "Sri Lanka",
+          "LR": "Liberia",
+          "LS": "Lesoto",
+          "LT": "Lituania",
+          "LU": "Luxemburgo",
+          "LV": "Letonia",
+          "LY": "Libia",
+          "MA": "Marruecos",
+          "MC": "Mónaco",
+          "MD": "Moldavia",
+          "ME": "Montenegro",
+          "MF": "San Martín (parte francesa)",
+          "MG": "Madagascar",
+          "MH": "Islas Marshall",
+          "MK": "Macedonia",
+          "ML": "Malí",
+          "MM": "Myanmar",
+          "MN": "Mongolia",
+          "MO": "Macao",
+          "MQ": "Martinica",
+          "MR": "Mauritania",
+          "MS": "Montserrat",
+          "MT": "Malta",
+          "MU": "Mauricio",
+          "MV": "Maldivas",
+          "MW": "Malaui",
+          "MX": "México",
+          "MY": "Malasia",
+          "MZ": "Mozambique",
+          "NA": "Namibia",
+          "NC": "Nueva Caledonia",
+          "NE": "Níger",
+          "NG": "Nigeria",
+          "NI": "Nicaragua",
+          "NL": "Países Bajos",
+          "NO": "Noruega",
+          "NP": "Nepal",
+          "NZ": "Nueva Zelanda",
+          "OM": "Omán",
+          "PA": "Panamá",
+          "PE": "Perú",
+          "PF": "Polinesia Francesa",
+          "PG": "Papúa Nueva Guinea",
+          "PH": "Filipinas",
+          "PK": "Pakistán",
+          "PL": "Polonia",
+          "PR": "Puerto Rico",
+          "PS": "Territorios Palestinos",
+          "PT": "Portugal",
+          "PY": "Paraguay",
+          "QA": "Catar",
+          "RE": "Reunión",
+          "RO": "Rumanía",
+          "RS": "Serbia",
+          "RU": "Rusia",
+          "RW": "Ruanda",
+          "SA": "Arabia Saudita",
+          "SB": "Islas Salomón",
+          "SC": "Seychelles",
+          "SD": "Sudán",
+          "SE": "Suecia",
+          "SG": "Singapur",
+          "SI": "Eslovenia",
+          "SK": "Eslovaquia",
+          "SL": "Sierra Leona",
+          "SN": "Senegal",
+          "SR": "Surinam",
+          "SS": "Sudán del Sur",
+          "ST": "Santo Tomé y Príncipe",
+          "SV": "El Salvador",
+          "SZ": "Esuatini",
+          "TC": "Islas Turcas y Caicos",
+          "TD": "Chad",
+          "TG": "Togo",
+          "TH": "Tailandia",
+          "TJ": "Tayikistán",
+          "TL": "Timor Oriental",
+          "TM": "Turkmenistán",
+          "TN": "Túnez",
+          "TO": "Tonga",
+          "TR": "Turquía",
+          "TT": "Trinidad y Tobago",
+          "TV": "Tuvalu",
+          "TZ": "Tanzania",
+          "UA": "Ucrania",
+          "UG": "Uganda",
+          "US": "Estados Unidos",
+          "UY": "Uruguay",
+          "UZ": "Uzbekistán",
+          "VC": "San Vicente y las Granadinas",
+          "VE": "Venezuela",
+          "VG": "Islas Vírgenes Británicas",
+          "VI": "Islas Vírgenes de EE. UU.",
+          "VN": "Vietnam",
+          "VU": "Vanuatu",
+          "WS": "Samoa",
+          "XK": "Kosovo",
+          "YE": "Yemen",
+          "YT": "Mayotte",
+          "ZA": "Sudáfrica",
+          "ZM": "Zambia",
+          "ZW": "Zimbabue"
+        },
+        "realtime": "Tiempo real",
+        "subtitle": "Más de 200 países compatibles",
+        "title": "Países compatibles",
+        "view_all": "Más información sobre remesas"
+      },
+      "description1": "Envía a más de 200 países y a todos los bancos coreanos en tiempo real.",
+      "description2": "Seguro con 70 socios globales y verificación E-KYC.",
+      "rating": "Promedio App Store · Google Play",
+      "stats": {
+        "avg_time": "Tiempo promedio de transferencia",
+        "seconds": "s",
+        "total_amount": "Remesas anuales 2025",
+        "trillion": "billones KRW"
+      },
+      "title1": "Remesas internacionales",
+      "title2": "rápidas y seguras"
+    },
+    "hero-section": {
+      "exchange": {
+        "description1": "Tipos de cambio en tiempo real para más de 200 países.",
+        "description2": "Divulgación transparente de comisiones.",
+        "eyebrow": "CURRENCY CONVERTER",
+        "stats": {
+          "countries": "200+",
+          "countries_label": "Países compatibles",
+          "service": "24/7",
+          "service_label": "Servicio en tiempo real"
+        },
+        "title1": "Consulta los tipos de cambio",
+        "title2": "ahora mismo"
+      }
+    },
+    "loan-section": {
+      "button": {
+        "apply": "Solicitar préstamo en la app GME",
+        "detail": "Más información sobre el préstamo"
+      },
+      "card": {
+        "quick_apply": "Solicitud rápida",
+        "subtitle": "Préstamos para extranjeros",
+        "title": "GME Finance"
+      },
+      "description": "Solicita un préstamo en minutos con la app GME. Consulta el estado de procesamiento y el saldo en tiempo real en cualquier momento y lugar.",
+      "features": {
+        "countries": {
+          "desc": "Países",
+          "label": "14+"
+        },
+        "realtime": {
+          "desc": "Seguimiento",
+          "label": "Tiempo real"
+        },
+        "simple": {
+          "desc": "Solicitud vía app",
+          "label": "Simple"
+        },
+        "success": {
+          "desc": "Préstamos",
+          "label": "1M+"
+        },
+        "support": {
+          "desc": "Soporte",
+          "label": "24/7"
+        }
+      },
+      "stats": {
+        "desc": "Más de 1M de préstamos exitosos · 14 países",
+        "title": "Desempeño acumulado de préstamos",
+        "value": "500 mil M ₩+"
+      },
+      "title": "Préstamo en línea"
+    },
+    "main-services": {
+      "card": {
+        "desc1": "Una tarjeta inteligente para enviar dinero y pagar.",
+        "desc2": "El nuevo estándar de los pagos globales.",
+        "title": "GME Card"
+      },
+      "loan": {
+        "desc1": "Aprobación rápida y términos flexibles",
+        "desc2": "Servicio de préstamo digital",
+        "title": "Préstamo en línea"
+      },
+      "mobile": {
+        "desc1": "Planes móviles económicos desde",
+        "desc2": "solo 3.300 ₩/mes",
+        "title": "Móvil"
+      },
+      "payments": {
+        "desc1": "Nóminas, liquidaciones con socios, pagos de comercio electrónico.",
+        "desc2": "Soluciones de pago rentables para empresas.",
+        "title": "Pagos B2B"
+      },
+      "remittance": {
+        "desc1": "Transferencias de dinero rápidas y seguras",
+        "desc2": "a más de 200 países.",
+        "title": "Remesas internacionales"
+      },
+      "title1": "Descubre los",
+      "title2": "diversos servicios de GME"
+    },
+    "payments-section": {
+      "global_payments": {
+        "button": {
+          "detail": "Más información sobre Payments"
+        },
+        "card": {
+          "status": "Activo",
+          "subtitle": "Soluciones empresariales",
+          "title": "Soluciones de pago"
+        },
+        "description": "Transferencias de nómina, liquidaciones de socios, pagos de e-commerce. Soluciones de pago corporativas rentables.",
+        "features": {
+          "smb": "PYMES",
+          "smb_desc": "Solución de e-commerce",
+          "sps": "SPS",
+          "sps_desc": "Solución de pago B2B",
+          "vas": "VAS",
+          "vas_desc": "Alertas · Informes · Panel"
+        },
+        "stats": {
+          "cost_saving": "Ahorro de costos",
+          "cost_saving_change": "vs Tradicional",
+          "cost_saving_value": "Hasta 70%",
+          "partners": "Socios",
+          "partners_change": "Global",
+          "partners_value": "200+",
+          "success_rate": "Tasa de éxito",
+          "success_rate_change": "Normal",
+          "success_rate_value": "99,8%"
+        },
+        "title": "Pagos B2B",
+        "transactions": {
+          "b2b": "Transferencia B2B masiva",
+          "completed": "Completado",
+          "just_now": "Ahora mismo",
+          "merchant": "Pago a comerciante",
+          "mins_ago": "min",
+          "partner": "Liquidación de socio",
+          "processing": "Procesando",
+          "title": "Transacciones recientes"
+        }
+      }
+    },
+    "remittance-section": {
+      "button": {
+        "detail": "Más información sobre remesas"
+      },
+      "description": "Envía dinero rápida y seguramente a más de 200 países.",
+      "features": {
+        "fast": {
+          "back_desc": "Envía dinero a cualquier parte del mundo con unos pocos toques, sin pasos complicados.",
+          "back_title": "Transferencia simple",
+          "desc": "Completa una transferencia al extranjero en pocos clics",
+          "sub": "Pocos clics",
+          "title": "Transferencia rápida"
+        },
+        "global": {
+          "back_desc": "Envía en todo el mundo con más de 200 países y 70 socios globales.",
+          "back_title": "Red global",
+          "desc": "Más de un millón de usuarios en todo el mundo confían en GME",
+          "sub": "1M+ usuarios",
+          "title": "200+ países"
+        },
+        "optimized": {
+          "back_desc": "Hasta 90% menos comisiones que los bancos. Envía más con tipos en tiempo real.",
+          "back_title": "Ahorros masivos",
+          "desc": "90% menos comisiones y mejores tipos que los bancos",
+          "sub": "Ahorro 90%",
+          "title": "Monto optimizado"
+        },
+        "security": {
+          "back_desc": "Envía con seguridad con verificación E-KYC y servicio registrado en la FSC.",
+          "back_title": "Seguridad exhaustiva",
+          "desc": "Úsalo con tranquilidad gracias a la seguridad robusta",
+          "sub": "Verificado",
+          "title": "Fácil y seguro"
+        }
+      },
+      "title": "Remesas internacionales"
+    },
+    "section-nav": {
+      "app_download": "Descargar app",
+      "customer_feedback": "Opiniones de clientes",
+      "exchange": "Conversor de divisas",
+      "home": "Inicio",
+      "services": "Servicios"
+    },
+    "hero": {
+      "countries": {
+        "more": "Más"
+      }
+    },
+    "services": {
+      "loan": {
+        "estimated_limit": "Límite estimado"
+      }
+    },
+    "section_nav": {
+      "testimonials": ""
+    },
+    "testimonials": {
+      "subtitle": "",
+      "tags": {
+        "easy_tracking": "Transferencia y seguimiento fáciles",
+        "fast_process": "Proceso rápido",
+        "satisfied": "Servicio satisfactorio"
+      },
+      "title": ""
+    }
+  }
+}

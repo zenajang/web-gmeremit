@@ -1,0 +1,539 @@
+{
+  "home": {
+    "app-download-cta": {
+      "chips": [
+        "ریئل ٹائم ریٹس",
+        "بہترین رقم",
+        "محفوظ تصدیق"
+      ],
+      "description": "آسان اور محفوظ تصدیق، بہترین رقم، تیز ٹرانسفر۔ GME Remit ایپ سے سب کچھ محفوظ اور آسانی سے منظم کریں۔",
+      "qr_scan": "QR کوڈ اسکین کریں",
+      "subtitle": "GME REMIT APP",
+      "title1": "تیزی سے بھیجیں،",
+      "title2": "سمجھداری سے منظم کریں"
+    },
+    "cards-showcase": {
+      "black": {
+        "cta": "Premium Card ملاحظہ کریں",
+        "desc": "ایک پریمیم کارڈ جو آپ کی عالمی خرچ پر انعامات فراہم کرتا ہے۔",
+        "highlights": [
+          "بیرونِ ملک 3% کیش بیک",
+          "دنیا بھر میں کہیں بھی ادائیگی کریں",
+          "آن لائن اور آف لائن شاپنگ",
+          "پبلک ٹرانسپورٹ"
+        ]
+      },
+      "careers": {
+        "cta": {
+          "about": "کمپنی کے بارے میں"
+        }
+      },
+      "cta": {
+        "button": "کارڈ کے لیے درخواست دیں",
+        "description": "اپنے لیے صحیح کارڈ تلاش کریں اور خصوصی فوائد سے لطف اٹھائیں۔",
+        "title": "آج ہی GME Card کے ساتھ شروع کریں"
+      },
+      "easyCare": {
+        "cta": "EasyCare Card ملاحظہ کریں",
+        "desc": "خیال رکھنے کے لیے تیار کیا گیا، Made to Care۔ انشورنس اور رکنیت معاونت کے فوائد کے ساتھ ایک پوسٹ پیڈ ٹرانسپورٹ کارڈ۔",
+        "highlights": [
+          "انشورنس اور رکنیت معاونت کے فوائد",
+          "پوسٹ پیڈ ٹرانسپورٹ کارڈ",
+          "موسمی اور خصوصی اسٹور کیش بیک",
+          "دنیا بھر میں کہیں بھی ادائیگی کریں"
+        ]
+      },
+      "easyG0": {
+        "cta": "EasyGo Card دیکھیں",
+        "desc": "روزمرہ کی زندگی کو مزید آسان بنائیں۔ ٹرانسپورٹ سے لے کر خریداری تک موسمی فوائد سے لطف اندوز ہوں۔",
+        "highlights": [
+          "پوسٹ پیڈ ٹرانسپورٹ کارڈ",
+          "موسمی اور خصوصی اسٹور کیش بیک",
+          "دنیا بھر میں کہیں بھی ادائیگی",
+          "آن لائن اور آف لائن شاپنگ"
+        ]
+      },
+      "image_alt": "کارڈ کی تصویر",
+      "loan": {
+        "cta": {
+          "button": "ایپ ڈاؤن لوڈ کریں"
+        }
+      },
+      "pay": {
+        "cta": "Pay Card ملاحظہ کریں",
+        "desc": "آپ کے روزمرہ اخراجات کے لیے ایک آل اِن ون ادائیگی کارڈ۔",
+        "highlights": [
+          "موسمی اور خصوصی اسٹور کیش بیک",
+          "دنیا بھر میں کہیں بھی ادائیگی کریں",
+          "آن لائن اور آف لائن شاپنگ",
+          "پبلک ٹرانسپورٹ"
+        ]
+      },
+      "red": {
+        "cta": "Red Card دیکھیں",
+        "desc": "GME کے نمائندہ رنگ کا کارڈ۔ ہر ادائیگی کو اسٹائلش بنائیں۔",
+        "highlights": [
+          "موسمی کیش بیک",
+          "خصوصی ایونٹ ڈسکاؤنٹس",
+          "میٹرو · بس · ٹیکسی آسان ادائیگی",
+          "پبلک ٹرانسپورٹ"
+        ]
+      },
+      "uniq": {
+        "cta": "UniQ Card ملاحظہ کریں",
+        "desc": "18 ممالک میں 30+ ڈیزائنز میں سے اپنا کارڈ منتخب کریں۔",
+        "highlights": [
+          "موسمی اور خصوصی اسٹور کیش بیک",
+          "خصوصی ایونٹ ڈسکاؤنٹس",
+          "18 ممالک 30+ ڈیزائنز",
+          "میٹرو · بس · ٹیکسی آسان ادائیگی"
+        ]
+      },
+      "white": {
+        "cta": "White Card دیکھیں",
+        "desc": "سادہ اور صاف روزمرہ کا کارڈ۔ ملکی ادائیگیوں اور پبلک ٹرانسپورٹ کے لیے آسان۔",
+        "highlights": [
+          "موسمی کیش بیک",
+          "خصوصی ایونٹ ڈسکاؤنٹس",
+          "میٹرو · بس · ٹیکسی آسان ادائیگی",
+          "پبلک ٹرانسپورٹ"
+        ]
+      }
+    },
+    "customer-feedback-section": {
+      "subtitle": "ہمارے صارفین کے حقیقی تجربات۔",
+      "tags": {
+        "easy_tracking": "آسان ٹرانسفر اور ٹریکنگ",
+        "fast_process": "تیز عمل",
+        "satisfied": "مطمئن سروس"
+      },
+      "title": "تعریفیں"
+    },
+    "hero-main": {
+      "badge": "بہترین ترسیلات سروس",
+      "button": {
+        "learn_more": "مزید جانیں"
+      },
+      "countries": {
+        "names": {
+          "AD": "Andorra",
+          "AE": "متحدہ عرب امارات",
+          "AG": "Antigua and Barbuda",
+          "AI": "Anguilla",
+          "AL": "Albania",
+          "AM": "Armenia",
+          "AO": "Angola",
+          "AR": "ارجنٹائن",
+          "AS": "American Samoa",
+          "AT": "Austria",
+          "AU": "آسٹریلیا",
+          "AW": "Aruba",
+          "AZ": "Azerbaijan",
+          "BA": "Bosnia and Herzegovina",
+          "BB": "Barbados",
+          "BD": "بنگلادیش",
+          "BE": "Belgium",
+          "BF": "Burkina Faso",
+          "BG": "Bulgaria",
+          "BH": "بحرین",
+          "BI": "Burundi",
+          "BJ": "Benin",
+          "BL": "Saint Barthélemy",
+          "BM": "Bermuda",
+          "BN": "Brunei",
+          "BO": "بولیویا",
+          "BR": "برازیل",
+          "BS": "Bahamas",
+          "BT": "Bhutan",
+          "BW": "Botswana",
+          "BY": "Belarus",
+          "BZ": "Belize",
+          "CA": "کینیڈا",
+          "CD": "Democratic Republic of the Congo",
+          "CF": "Central African Republic",
+          "CG": "Republic of the Congo",
+          "CH": "سوئٹزرلینڈ",
+          "CI": "Ivory Coast",
+          "CK": "Cook Islands",
+          "CL": "چلی",
+          "CM": "Cameroon",
+          "CN": "چین",
+          "CO": "کولمبیا",
+          "CR": "Costa Rica",
+          "CU": "Cuba",
+          "CV": "Cape Verde",
+          "CY": "Cyprus",
+          "CZ": "چیک جمہوریہ",
+          "DE": "جرمنی",
+          "DJ": "Djibouti",
+          "DK": "ڈنمارک",
+          "DM": "Dominica",
+          "DO": "ڈومینیکن ریپبلک",
+          "DZ": "Algeria",
+          "EC": "Ecuador",
+          "EE": "Estonia",
+          "EG": "Egypt",
+          "ER": "Eritrea",
+          "ES": "Spain",
+          "ET": "Ethiopia",
+          "FI": "Finland",
+          "FJ": "فجی",
+          "FM": "Micronesia",
+          "FR": "France",
+          "GA": "Gabon",
+          "GB": "برطانیہ",
+          "GD": "Grenada",
+          "GE": "Georgia",
+          "GF": "French Guiana",
+          "GH": "گھانا",
+          "GI": "Gibraltar",
+          "GM": "Gambia",
+          "GN": "Guinea",
+          "GP": "Guadeloupe",
+          "GQ": "Equatorial Guinea",
+          "GR": "Greece",
+          "GT": "گواتیمالا",
+          "GU": "Guam",
+          "GW": "Guinea-Bissau",
+          "GY": "Guyana",
+          "HK": "ہانگ کانگ",
+          "HN": "ہونڈوراس",
+          "HR": "Croatia",
+          "HT": "Haiti",
+          "HU": "ہنگری",
+          "ID": "انڈونیشیا",
+          "IE": "Ireland",
+          "IL": "اسرائیل",
+          "IN": "بھارت",
+          "IS": "Iceland",
+          "IT": "Italy",
+          "JM": "Jamaica",
+          "JO": "اردن",
+          "JP": "جاپان",
+          "KE": "کینیا",
+          "KG": "Kyrgyzstan",
+          "KH": "کمبوڈیا",
+          "KM": "Comoros",
+          "KN": "Saint Kitts and Nevis",
+          "KW": "کویت",
+          "KY": "Cayman Islands",
+          "KZ": "Kazakhstan",
+          "LA": "Laos",
+          "LB": "Lebanon",
+          "LC": "Saint Lucia",
+          "LI": "Liechtenstein",
+          "LK": "سری لنکا",
+          "LR": "Liberia",
+          "LS": "Lesotho",
+          "LT": "Lithuania",
+          "LU": "Luxembourg",
+          "LV": "Latvia",
+          "LY": "Libya",
+          "MA": "مراکش",
+          "MC": "Monaco",
+          "MD": "Moldova",
+          "ME": "Montenegro",
+          "MF": "Saint Martin (French part)",
+          "MG": "Madagascar",
+          "MH": "Marshall Islands",
+          "MK": "Macedonia",
+          "ML": "Mali",
+          "MM": "میانمار",
+          "MN": "Mongolia",
+          "MO": "Macao",
+          "MQ": "Martinique",
+          "MR": "Mauritania",
+          "MS": "Montserrat",
+          "MT": "Malta",
+          "MU": "Mauritius",
+          "MV": "Maldives",
+          "MW": "Malawi",
+          "MX": "میکسیکو",
+          "MY": "ملائیشیا",
+          "MZ": "Mozambique",
+          "NA": "Namibia",
+          "NC": "New Caledonia",
+          "NE": "Niger",
+          "NG": "نائیجیریا",
+          "NI": "Nicaragua",
+          "NL": "Netherlands",
+          "NO": "ناروے",
+          "NP": "نیپال",
+          "NZ": "نیوزی لینڈ",
+          "OM": "عمان",
+          "PA": "Panama",
+          "PE": "پیرو",
+          "PF": "French Polynesia",
+          "PG": "Papua New Guinea",
+          "PH": "فلپائن",
+          "PK": "پاکستان",
+          "PL": "پولینڈ",
+          "PR": "Puerto Rico",
+          "PS": "Palestinian Territory, Occupied",
+          "PT": "Portugal",
+          "PY": "پیراگوئے",
+          "QA": "قطر",
+          "RE": "Réunion",
+          "RO": "رومانیہ",
+          "RS": "Serbia",
+          "RU": "روس",
+          "RW": "روانڈا",
+          "SA": "سعودی عرب",
+          "SB": "Solomon Islands",
+          "SC": "Seychelles",
+          "SD": "Sudan",
+          "SE": "Sweden",
+          "SG": "سنگاپور",
+          "SI": "Slovenia",
+          "SK": "Slovakia",
+          "SL": "Sierra Leone",
+          "SN": "Senegal",
+          "SR": "Suriname",
+          "SS": "South Sudan",
+          "ST": "Sao Tome and Principe",
+          "SV": "El Salvador",
+          "SZ": "Swaziland",
+          "TC": "Turks and Caicos Islands",
+          "TD": "Chad",
+          "TG": "Togo",
+          "TH": "تھائی لینڈ",
+          "TJ": "Tajikistan",
+          "TL": "Timor-Leste",
+          "TM": "Turkmenistan",
+          "TN": "Tunisia",
+          "TO": "ٹونگا",
+          "TR": "Turkey",
+          "TT": "Trinidad and Tobago",
+          "TV": "Tuvalu",
+          "TZ": "تنزانیہ",
+          "UA": "Ukraine",
+          "UG": "یوگنڈا",
+          "US": "امریکہ",
+          "UY": "Uruguay",
+          "UZ": "Uzbekistan",
+          "VC": "Saint Vincent and the Grenadines",
+          "VE": "Venezuela",
+          "VG": "Virgin Islands, British",
+          "VI": "Virgin Islands, U.S.",
+          "VN": "ویتنام",
+          "VU": "Vanuatu",
+          "WS": "ساموا",
+          "XK": "Kosovo",
+          "YE": "Yemen",
+          "YT": "Mayotte",
+          "ZA": "South Africa",
+          "ZM": "زیمبیا",
+          "ZW": "Zimbabwe"
+        },
+        "realtime": "ریئل ٹائم",
+        "subtitle": "200+ ممالک تعاون یافتہ",
+        "title": "تعاون یافتہ ممالک",
+        "view_all": "ترسیلات کے بارے میں جانیں"
+      },
+      "description1": "200+ ممالک میں بھیجیں، تمام کورین بینکوں میں ریئل ٹائم۔",
+      "description2": "70 عالمی شراکت داروں اور E-KYC تصدیق کے ساتھ محفوظ۔",
+      "rating": "App Store · Google Play اوسط",
+      "stats": {
+        "avg_time": "اوسط ٹرانسفر وقت",
+        "seconds": "سیکنڈ",
+        "total_amount": "کل ترسیلات",
+        "trillion": "ٹریلین+"
+      },
+      "title1": "تیز اور محفوظ",
+      "title2": "بین الاقوامی ترسیلات"
+    },
+    "hero-section": {
+      "exchange": {
+        "description1": "200+ ممالک کے لیے ریئل ٹائم ایکسچینج ریٹس۔",
+        "description2": "شفاف فیس کی تفصیلات۔",
+        "eyebrow": "CURRENCY CONVERTER",
+        "stats": {
+          "countries": "200+",
+          "countries_label": "تعاون یافتہ ممالک",
+          "service": "24/7",
+          "service_label": "ریئل ٹائم سروس"
+        },
+        "title1": "ایکسچینج ریٹس چیک کریں",
+        "title2": "ابھی"
+      }
+    },
+    "loan-section": {
+      "button": {
+        "apply": "GME ایپ میں قرض کے لیے درخواست دیں",
+        "detail": "قرض کے بارے میں مزید جانیں"
+      },
+      "card": {
+        "quick_apply": "فوری درخواست",
+        "subtitle": "غیر ملکیوں کے لیے قرض",
+        "title": "GME Finance"
+      },
+      "description": "GME ایپ سے منٹوں میں قرض کے لیے درخواست دیں۔ کبھی بھی، کہیں بھی ریئل ٹائم پروسیسنگ سٹیٹس اور بیلنس چیک کریں۔",
+      "features": {
+        "countries": {
+          "desc": "ممالک",
+          "label": "14+"
+        },
+        "realtime": {
+          "desc": "ٹریکنگ",
+          "label": "ریئل ٹائم"
+        },
+        "simple": {
+          "desc": "ایپ درخواست",
+          "label": "آسان"
+        },
+        "success": {
+          "desc": "قرضے",
+          "label": "1M+"
+        },
+        "support": {
+          "desc": "سپورٹ",
+          "label": "24/7"
+        }
+      },
+      "stats": {
+        "desc": "1M+ کامیاب قرضے · 14 ممالک",
+        "title": "مجموعی قرض کی کارکردگی",
+        "value": "₩500B+"
+      },
+      "title": "آن لائن قرض"
+    },
+    "main-services": {
+      "card": {
+        "desc1": "ترسیلات اور اخراجات کے لیے ایک سمارٹ کارڈ۔",
+        "desc2": "عالمی ادائیگیوں کا نیا معیار۔",
+        "title": "GME Card"
+      },
+      "loan": {
+        "desc1": "فوری منظوری اور لچکدار شرائط",
+        "desc2": "ڈیجیٹل قرض سروس",
+        "title": "آن لائن قرض"
+      },
+      "mobile": {
+        "desc1": "₩3,300/ماہ سے شروع ہونے والے",
+        "desc2": "غیر ملکیوں کے لیے سستی موبائل سروس",
+        "title": "موبائل"
+      },
+      "payments": {
+        "desc1": "پے رول، پارٹنر سیٹلمنٹ، ای کامرس ادائیگیاں۔",
+        "desc2": "کاروبار کے لیے کفایتی ادائیگی حل۔",
+        "title": "عالمی ادائیگیاں"
+      },
+      "remittance": {
+        "desc1": "تیز اور محفوظ رقم کی منتقلی",
+        "desc2": "200+ ممالک تک۔",
+        "title": "بیرون ملک ترسیلات"
+      },
+      "title1": "GME کی",
+      "title2": "مختلف خدمات دریافت کریں"
+    },
+    "payments-section": {
+      "global_payments": {
+        "button": {
+          "detail": "ادائیگیوں کے بارے میں مزید جانیں"
+        },
+        "card": {
+          "status": "فعال",
+          "subtitle": "انٹرپرائز حل",
+          "title": "ادائیگی کے حل"
+        },
+        "description": "پے رول ٹرانسفرز، پارٹنر تصفیے، ای کامرس ادائیگیاں۔ کم لاگت کارپوریٹ ادائیگی کے حل۔",
+        "features": {
+          "smb": "SMB",
+          "smb_desc": "ای کامرس حل",
+          "sps": "SPS",
+          "sps_desc": "B2B ادائیگی حل",
+          "vas": "VAS",
+          "vas_desc": "الرٹس · رپورٹس · ڈیش بورڈ"
+        },
+        "stats": {
+          "cost_saving": "لاگت کی بچت",
+          "cost_saving_change": "روایتی کے مقابلے",
+          "cost_saving_value": "70% تک",
+          "partners": "شراکت دار",
+          "partners_change": "عالمی",
+          "partners_value": "200+",
+          "success_rate": "کامیابی کی شرح",
+          "success_rate_change": "عام",
+          "success_rate_value": "99.8%"
+        },
+        "title": "عالمی ادائیگیاں",
+        "transactions": {
+          "b2b": "B2B بلک ٹرانسفر",
+          "completed": "مکمل",
+          "just_now": "ابھی ابھی",
+          "merchant": "مرچنٹ ادائیگی",
+          "mins_ago": "منٹ پہلے",
+          "partner": "پارٹنر تصفیہ",
+          "processing": "پروسیسنگ",
+          "title": "حالیہ لین دین"
+        }
+      }
+    },
+    "remittance-section": {
+      "button": {
+        "detail": "ترسیلات کے بارے میں مزید جانیں"
+      },
+      "description": "200+ ممالک میں تیزی اور محفوظ طریقے سے رقم بھیجیں۔",
+      "features": {
+        "fast": {
+          "back_desc": "پیچیدہ مراحل کے بغیر چند ٹیپس میں دنیا میں کہیں بھی رقم بھیجیں۔",
+          "back_title": "آسان ٹرانسفر",
+          "desc": "بس چند کلکس میں بیرون ملک ٹرانسفر مکمل کریں",
+          "sub": "چند کلکس",
+          "title": "تیز ٹرانسفر"
+        },
+        "global": {
+          "back_desc": "200+ ممالک اور 70 عالمی شراکت داروں کے ساتھ دنیا بھر میں بھیجیں۔",
+          "back_title": "عالمی نیٹ ورک",
+          "desc": "دنیا بھر میں دس لاکھ سے زائد صارفین GME پر اعتماد کرتے ہیں",
+          "sub": "1M+ صارفین",
+          "title": "200+ ممالک"
+        },
+        "optimized": {
+          "back_desc": "بینکوں کے مقابلے 90% تک کم فیس۔ ریئل ٹائم ریٹس کے ساتھ زیادہ بھیجیں۔",
+          "back_title": "بڑی لاگت کی بچت",
+          "desc": "بینکوں سے 90% کم فیس اور بہتر ریٹس",
+          "sub": "90% بچت",
+          "title": "بہترین رقم"
+        },
+        "security": {
+          "back_desc": "E-KYC تصدیق اور FSC رجسٹرڈ سروس کے ساتھ محفوظ طریقے سے بھیجیں۔",
+          "back_title": "مکمل سیکیورٹی",
+          "desc": "مضبوط سیکیورٹی کے ساتھ اطمینان سے استعمال کریں",
+          "sub": "تصدیق شدہ",
+          "title": "آسان اور محفوظ"
+        }
+      },
+      "title": "بیرون ملک ترسیلات"
+    },
+    "section-nav": {
+      "app_download": "ایپ ڈاؤن لوڈ",
+      "customer_feedback": "تعریفیں",
+      "exchange": "کرنسی کنورٹر",
+      "home": "ہوم",
+      "services": "خدمات"
+    },
+    "hero": {
+      "countries": {
+        "more": "مزید"
+      }
+    },
+    "services": {
+      "loan": {
+        "estimated_limit": "تخمینی حد"
+      }
+    },
+    "section_nav": {
+      "testimonials": "تعریفیں"
+    },
+    "testimonials": {
+      "subtitle": "ہمارے صارفین کے حقیقی تجربات۔",
+      "tags": {
+        "easy_tracking": "آسان ٹرانسفر اور ٹریکنگ",
+        "fast_process": "تیز عمل",
+        "satisfied": "مطمئن سروس"
+      },
+      "title": "تعریفیں"
+    }
+  }
+}

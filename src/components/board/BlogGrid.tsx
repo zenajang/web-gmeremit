@@ -10,12 +10,12 @@ interface BlogGridProps {
 }
 
 export default function BlogGrid({ entries }: BlogGridProps) {
-  const { t } = useTranslation("board");
+  const { t } = useTranslation();
 
   if (entries.length === 0) {
     return (
       <div className="rounded-2xl border border-[var(--border-soft)] bg-white py-16 text-center">
-        <p className="text-gray-500">{t("no_results")}</p>
+        <p className="text-gray-500">{t("board.blog-grid.no_results")}</p>
       </div>
     );
   }
@@ -39,7 +39,7 @@ export default function BlogGrid({ entries }: BlogGridProps) {
               />
             ) : (
               <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200">
-                <span className="text-gray-400 text-sm">{t("no_image")}</span>
+                <span className="text-gray-400 text-sm">{t("board.blog-grid.no_image")}</span>
               </div>
             )}
           </div>
@@ -48,7 +48,7 @@ export default function BlogGrid({ entries }: BlogGridProps) {
           <div className="space-y-3">
             <div className="flex items-baseline justify-between gap-2 text-sm">
               <span className="font-medium text-gray-500">
-                {t("by")} {entry.author || "GME Remittance"}
+                {t("common.blog-grid.board.by")} {entry.author || "GME Remittance"}
               </span>
               <span className="font-light text-gray-400">{entry.date}</span>
             </div>

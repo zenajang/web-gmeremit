@@ -1,0 +1,227 @@
+{
+  "header": {
+    "link": {
+      "careers": "Karir"
+    },
+    "nav": {
+      "blog": "Blog",
+      "branches": "Cabang",
+      "card": "Kartu",
+      "ceo_message": "Pesan CEO",
+      "company": "Perusahaan",
+      "history": "Sejarah",
+      "inquiry": "Pertanyaan",
+      "loan": "Finance",
+      "news": "Berita",
+      "notice": "Pengumuman",
+      "payments": "B2B Payments",
+      "press": "Berita / Pers",
+      "remittance": "Kirim Uang",
+      "services": "Layanan",
+      "services_menu": "Layanan",
+      "social_channels": "Hubungi Kami",
+      "support": "Dukungan",
+      "telecom": "Seluler"
+    }
+  },
+  "footer": {
+    "company_name": "Global Money Express",
+    "copyright": "© Global Money Express, All rights reserved.",
+    "info": {
+      "address": "Alamat: 901~911Ho, B-dong, Saenggak Gongjang Bldg., 150, Yeongdeungpo-ro, Yeongdeungpo-gu, Seoul, Korea 07292",
+      "email_support": "Dukungan: support@gmeremit.com",
+      "fax": "Fax: (+82) 2 3674 5559",
+      "phone_general": "02-3673-5559 (Pertanyaan Umum)",
+      "remittance_inquiry": "Pertanyaan pengiriman uang"
+    },
+    "link": {
+      "privacy": "Kebijakan Privasi",
+      "terms": "Ketentuan Layanan"
+    }
+  },
+  "common": {
+    "blog-grid": {
+      "board": {
+        "by": "By"
+      }
+    },
+    "board": {
+      "error_description": "Silakan coba lagi nanti.",
+      "error_title": "Gagal memuat postingan"
+    },
+    "careers": {
+      "cta": {
+        "openings": "Lihat Lowongan",
+        "subtitle": "Cek lowongan saat ini dan daftar sekarang.",
+        "title": "Bergabung dengan GME"
+      }
+    },
+    "exchange-rate-calculator": {
+      "home": {
+        "exchange": {
+          "calculator": {
+            "bank_deposit": "Transfer Bank",
+            "cash_payment": "Tunai",
+            "delivery_method": "Metode Transfer",
+            "error": "Gagal",
+            "error_failed": "Gagal mengambil kurs",
+            "error_limit": "Melebihi batas transfer",
+            "error_max_amount": "Jumlah maksimum pengiriman: %1$s KRW",
+            "error_min_amount": "Jumlah minimum pengiriman: %1$s KRW",
+            "error_network": "Kesalahan jaringan",
+            "error_unavailable": "Kurs tidak tersedia untuk jumlah ini",
+            "error_unavailable_method": "Metode pengiriman ini saat ini tidak tersedia",
+            "fee": "Termasuk biaya",
+            "loading": "Memuat...",
+            "mobile_wallet": "Dompet Seluler",
+            "no_results": "Tidak ada hasil",
+            "payout_methods": {
+              "1": "Tunai",
+              "2": "Transfer Bank",
+              "12": "Antar ke Rumah",
+              "13": "Dompet Seluler",
+              "14": "Pembayaran Kartu",
+              "15": "Bank Deposit (USD)",
+              "16": "WeChat Pay",
+              "17": "Alipay",
+              "18": "Visa/Mastercard/UnionPay",
+              "19": "Visa/Mastercard",
+              "24": "UPTION",
+              "25": "UPI",
+              "26": "UZCARD",
+              "27": "HUMO Card",
+              "33": "bKash",
+              "34": "Rocket",
+              "35": "Nagad",
+              "37": "Pembayaran QR",
+              "38": "Korti Milli"
+            },
+            "qr_pay": "Pembayaran QR",
+            "rate": "Kurs",
+            "realtime": "Real-Time",
+            "receive_amount": "Jumlah Diterima",
+            "receive_country": "Negara Penerima",
+            "search_placeholder": "Cari negara",
+            "send_amount": "Jumlah Kirim",
+            "title": "Kalkulator Kurs Real-Time"
+          }
+        }
+      }
+    },
+    "loan": {
+      "cta": {
+        "description": "Dapatkan pinjaman yang Anda butuhkan dengan cepat melalui pendaftaran mudah di ponsel.",
+        "inline_notice": "ⓘ Mengklik tombol di bawah akan menghubungkan Anda ke layanan pinjaman yang disediakan oleh GME Finance.",
+        "title": "Mulai Pinjaman dengan Aplikasi GME Hari Ini"
+      }
+    },
+    "mobile-section": {
+      "hero": {
+        "description": "Pilih jenis pertanyaan, kami akan mengarahkan Anda ke bagian yang tepat."
+      }
+    },
+    "payments": {
+      "business": {
+        "cta": {
+          "description": "Kembangkan bisnis Anda dengan solusi pembayaran global. Manajer khusus kami akan mengusulkan solusi optimal untuk Anda.",
+          "email": "corporate@gmeremit.com",
+          "title": "Mulai dengan GME Payments"
+        }
+      }
+    },
+    "remittance": {
+      "features": {
+        "app": {
+          "desc": "Selesaikan pengiriman uang hanya dengan beberapa ketukan",
+          "title": "Kirim via Aplikasi"
+        },
+        "branches": {
+          "desc": "Dapatkan bantuan di cabang-cabang seluruh negeri",
+          "title": "Cabang Offline"
+        },
+        "convenient": {
+          "desc": "Proses intuitif yang bisa digunakan siapa saja",
+          "title": "Pengalaman Mudah"
+        },
+        "multilingual": {
+          "desc": "Gunakan layanan dalam berbagai bahasa",
+          "title": "Dukungan Multibahasa"
+        },
+        "subtitle": "Kirim uang dan lacak semuanya dalam satu aplikasi",
+        "title": "Lebih Mudah",
+        "title2": "Kirim Uang Lebih Aman"
+      }
+    },
+    "services": {
+      "chat": {
+        "title": "Anda akan terhubung ke obrolan langsung"
+      },
+      "complete": {
+        "title": "Pertanyaan Anda telah diterima"
+      },
+      "external": {
+        "title": "Menuju {{site}}"
+      },
+      "hero": {
+        "title": "Ada yang bisa kami bantu?"
+      }
+    },
+    "support": {
+      "hero": {
+        "desc1": "Dapatkan dukungan kapan saja melalui cabang di seluruh negeri",
+        "desc2": "dan kanal media sosial global.",
+        "desc3": "Kunjungi cabang terdekat atau hubungi kami di media sosial.",
+        "title": "GME – Selalu di Sisi Anda"
+      }
+    },
+    "telecom-page-client": {
+      "cta": {
+        "button": "Ke GME Telecom",
+        "description": "Paket seluler mudah dan terjangkau dengan dukungan 17 bahasa.",
+        "title": "Mulai dengan GME Telecom"
+      },
+      "features": {
+        "activation": {
+          "description": "Aktifkan sendiri dengan mudah dari aplikasi",
+          "title": "Aktivasi 5 Menit"
+        },
+        "affordable": {
+          "description": "Paket super hemat untuk warga asing",
+          "title": "Mulai 3.300 KRW/bln"
+        },
+        "esim": {
+          "description": "Pindai QR code dan aktifkan langsung",
+          "title": "Dukungan eSIM"
+        },
+        "intl_call": {
+          "description": "Beberapa paket termasuk 20 mnt/hari panggilan internasional",
+          "title": "Termasuk Panggilan Internasional"
+        },
+        "multilang": {
+          "description": "Gunakan dalam bahasa Anda",
+          "title": "17 Bahasa"
+        },
+        "network": {
+          "description": "Jangkauan stabil di seluruh negeri",
+          "title": "Kualitas Setara LGU+, KT"
+        },
+        "plans": {
+          "description": "Paket cocok mulai 3.300 KRW/bulan",
+          "title": "Paket Fleksibel"
+        },
+        "usim": {
+          "description": "Diantar dan aktifkan dalam 5 menit",
+          "title": "Aktivasi Mandiri USIM"
+        }
+      }
+    },
+    "company": {
+      "tabs": {
+        "title": "Tentang Perusahaan"
+      }
+    },
+    "button": {
+      "app_download": "Unduh Aplikasi"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "board-detail": {
+    "board-detail-client": {
+      "attachment": "Attachment",
+      "attachment_file": "Attachment",
+      "back": "Back",
+      "back_to_list": "Back to List",
+      "not_found": "Post not found"
+    }
+  },
+  "board-notice": {
+    "redirect": {
+      "notice": "Redirecting to Notice page..."
+    }
+  },
+  "board-press": {
+    "redirect": {
+      "press": "Redirecting to Press page..."
+    }
+  },
+  "board": {
+    "blog-grid": {
+      "no_image": "No Image",
+      "no_results": "No results found."
+    },
+    "board-table": {
+      "attachment": "File",
+      "attachment_file": "Attachment",
+      "date": "Date",
+      "title": "Title",
+      "type": "Type"
+    },
+    "count_suffix": " posts",
+    "pagination": {
+      "load_more": "Load More"
+    },
+    "search-bar": {
+      "all": "All",
+      "content": "Content",
+      "placeholder": "Enter search keyword",
+      "title": "Title",
+      "button": "Search"
+    },
+    "subtitle": "Check out the latest news from GME Remit",
+    "tabs": {
+      "blog": "Blog",
+      "notice": "Notice",
+      "press": "Press"
+    },
+    "total": "Total"
+  }
+}

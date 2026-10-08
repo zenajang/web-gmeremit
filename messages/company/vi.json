@@ -1,0 +1,153 @@
+{
+  "company-careers": {
+    "benefits": {
+      "education": {
+        "description": "Hỗ trợ toàn diện cho phát triển bản thân bao gồm khóa học trực tuyến, chứng chỉ, học ngoại ngữ, tham gia hội nghị.",
+        "title": "Hỗ trợ đào tạo · phát triển"
+      },
+      "health": {
+        "description": "Hỗ trợ ₩300.000/năm cho kiểm tra sức khỏe dành cho nhân viên chính thức.",
+        "title": "Hỗ trợ kiểm tra sức khỏe"
+      },
+      "incentive": {
+        "description": "Các chương trình thưởng và khích lệ đa dạng dựa trên hiệu suất cho việc đạt mục tiêu, ý tưởng mới và thành tích xuất sắc.",
+        "title": "Thưởng hiệu suất"
+      },
+      "subtitle": "Hỗ trợ sự phát triển và hạnh phúc của thành viên GME",
+      "team_building": {
+        "description": "Town Hall hàng tháng, sự kiện team hàng quý, câu lạc bộ thể thao, concert thư giãn và nhiều hơn nữa.",
+        "title": "Xây dựng đội nhóm · Văn hóa"
+      },
+      "title": "Phúc lợi",
+      "vacation": {
+        "description": "Nghỉ sinh nhật, kỷ niệm, sự kiện gia đình, nghỉ phép chăm sóc con và nhiều chế độ nghỉ đặc biệt khác.",
+        "title": "Nghỉ phép · Nghỉ đặc biệt"
+      }
+    },
+    "header": {
+      "button": "Xem vị trí tuyển dụng",
+      "description": "Gia nhập công ty fintech toàn cầu phục vụ khách hàng tại hơn 200 quốc gia và vùng lãnh thổ.",
+      "title": "Cùng phát triển với GME"
+    },
+    "staff_stories": {
+      "subtitle": "Câu chuyện thực từ đồng nghiệp",
+      "title": "Câu chuyện đội nhóm"
+    },
+    "why_gme": {
+      "agile": {
+        "description": "Tổ chức phẳng, thực thi nhanh, học từ thất bại và cùng phát triển.",
+        "title": "Ra quyết định nhanh"
+      },
+      "diversity": {
+        "description": "Làm việc với đồng nghiệp từ hơn 14 quốc tịch, học hỏi từ nhiều góc nhìn khác nhau.",
+        "title": "Tôn trọng đa dạng"
+      },
+      "fairness": {
+        "description": "Đánh giá công bằng dựa trên năng lực và hiệu suất, không phân biệt giới tính hay quốc tịch.",
+        "title": "Cơ hội công bằng"
+      },
+      "title": "Điều đặc biệt tại GME"
+    }
+  },
+  "company-ceo-message": {
+    "paragraph1": "Là công ty fintech hàng đầu Hàn Quốc, chúng tôi đầu tư vào công nghệ tiên tiến và nhân tài, hướng tới sự phát triển chung và thành công của khách hàng.",
+    "paragraph2": "Cùng GME xây dựng tương lai dịch vụ tài chính toàn cầu, trải nghiệm dịch vụ tiện lợi và đổi mới hơn."
+  },
+  "company-history": {
+    "events": {
+      "2016_08": "Thành lập Công ty Global Money Express",
+      "2017_03": "Ra mắt dịch vụ trực tuyến đầu tiên",
+      "2017_06": "Nhà cung cấp dịch vụ đầu tiên tại Hàn Quốc",
+      "2017_08": "Giấy phép chuyển tiền nước ngoài nhỏ đầu tiên tại Hàn Quốc",
+      "2017_12": "Tổng chuyển tiền nước ngoài hàng năm vượt 10 tỷ KRW",
+      "2018_04": "Tổng chuyển tiền nước ngoài lũy kế vượt 54 tỷ Won",
+      "2018_09": "Được chọn làm nhà cung cấp dịch vụ chuyển tiền khuyến nghị bởi thành phố Seoul",
+      "2018_12": "Tổng chuyển tiền nước ngoài hàng năm vượt 460 tỷ KRW",
+      "2018_loan": "Ra mắt dịch vụ cho vay tín dụng dành cho người nước ngoài",
+      "2019_03": "Ra mắt dịch vụ chuyển tiền nội địa",
+      "2019_06": "Mở 12 chi nhánh trên toàn quốc",
+      "2019_07": "",
+      "2019_09": "Mở 3 trung tâm trên toàn quốc",
+      "2019_12": "",
+      "2020_02": "Tổng chuyển tiền nước ngoài lũy kế vượt 1 nghìn tỷ Won",
+      "2020_05": "Ra mắt dịch vụ nạp tiền di động",
+      "2020_08": "Giấy phép thanh toán điện tử trả trước",
+      "2020_09": "Ra mắt dịch vụ GME Pay",
+      "2020_12": "Tổng chuyển tiền nước ngoài hàng năm vượt 1,0 nghìn tỷ KRW",
+      "2021_04": "Tổng chuyển tiền nước ngoài lũy kế vượt 1,9 nghìn tỷ Won",
+      "2021_07": "Ra mắt dịch vụ coupon di động",
+      "2021_10": "Giải thưởng Fintech Hàn Quốc (hạng mục Công nghệ)",
+      "2021_12": "Giấy phép PG và giấy phép kinh doanh thanh toán điện tử",
+      "2022_03": "Giấy phép kinh doanh ngoại hối",
+      "2022_06": "Ra mắt dịch vụ thanh toán",
+      "2022_11": "Tổng chuyển tiền nước ngoài lũy kế vượt 2 nghìn tỷ Won",
+      "2022_12": "Tổng chuyển tiền nước ngoài hàng năm vượt 1,7 nghìn tỷ KRW",
+      "2023_02": "Tổng chuyển tiền nước ngoài lũy kế vượt 2,1 nghìn tỷ Won",
+      "2023_05": "Hợp tác BC Card · Mastercard ra mắt dịch vụ GME Card",
+      "2023_09": "Giấy phép dịch vụ GME Mobile (MVNO)",
+      "2023_10": "Lọt top 10 Fintech Hàn Quốc của Forbes 2023",
+      "2023_kibo": "Được KOTEC chọn là doanh nghiệp KIBO-Star Valley",
+      "2023_nice": "Chứng nhận doanh nghiệp công nghệ ưu tú từ NICE",
+      "2024_03": "Hợp tác LG U+ ra mắt dịch vụ GME Mobile (MVNO)",
+      "2024_06": "Ra mắt dịch vụ thanh toán doanh nghiệp 'GMEBiz'",
+      "2024_12": "Tổng chuyển tiền nước ngoài lũy kế vượt 2,8 nghìn tỷ Won",
+      "2025_03": "Ra mắt sản phẩm bảo hiểm cho cư dân nước ngoài",
+      "2025_04": "Được chứng nhận là SME đổi mới sáng tạo (Inno-Biz)",
+      "2025_06": "Ra mắt thẻ ghi nợ tích hợp thẻ giao thông",
+      "2025_12": "Tổng chuyển tiền nước ngoài lũy kế vượt 3,5 nghìn tỷ Won",
+      "2026_09": "Ra mắt EasyCare Card, cung cấp quyền lợi bảo hiểm và hỗ trợ thành viên hợp tác cùng DB Insurance."
+    },
+    "title_line1": "Thử thách không ngừng,",
+    "title_line2": "Khởi đầu mới"
+  },
+  "company-services": {
+    "b2b_payments": {
+      "desc": "Chuyển tiền và thu tiền quốc tế nhanh và chi phí thấp",
+      "title": "Thanh toán B2B"
+    },
+    "core_services": "Dịch vụ cốt lõi",
+    "digital_wallet": {
+      "desc": "Nạp tiền · Chuyển tiền · Thanh toán tất cả trong một",
+      "title": "Ví điện tử"
+    },
+    "easy_loan": {
+      "desc": "100% không giấy tờ, phê duyệt tức thì",
+      "title": "Vay dễ dàng"
+    },
+    "gift_coupons": {
+      "desc": "Gửi coupon quà tặng kỹ thuật số bằng điểm",
+      "title": "Coupon quà tặng"
+    },
+    "gme_card": {
+      "desc": "Thanh toán · Rút tiền · Quản lý toàn cầu",
+      "title": "GME Card"
+    },
+    "learn_more": "Tìm hiểu thêm",
+    "mobile_topup": {
+      "desc": "Nạp tiền di động tức thì tại hơn 150 quốc gia",
+      "title": "Nạp tiền di động"
+    },
+    "money_exchange": {
+      "desc": "Tỷ giá tốt hơn ngân hàng truyền thống",
+      "title": "Đổi ngoại tệ"
+    },
+    "personal_remittance": {
+      "desc": "Chuyển tiền trong nước và quốc tế đa ngôn ngữ",
+      "title": "Chuyển tiền cá nhân"
+    },
+    "related_services": "Dịch vụ liên quan",
+    "subtitle": "Tất cả dịch vụ tài chính toàn cầu trong một nơi",
+    "telecom": {
+      "desc": "Gói cước di động giá rẻ từ ₩3.300/tháng",
+      "title": "Telecom"
+    },
+    "title": "Dịch vụ GME"
+  },
+  "company": {
+    "tabs": {
+      "ceo_message": "Thông điệp CEO",
+      "history": "Lịch sử",
+      "services": "Dịch vụ"
+    }
+  }
+}

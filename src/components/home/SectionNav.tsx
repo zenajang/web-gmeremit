@@ -5,11 +5,11 @@ import { useTranslation } from "@/hooks/useTranslation";
 import { scrollToTop, scrollToSection } from "@/utils/scroll";
 
 const navSectionDefs = [
-  { id: "hero", key: "home" },
-  { id: "app", key: "exchange" },
-  { id: "gme-payments", key: "services" },
-  { id: "customer-feedback", key: "customer_feedback" },
-  { id: "app-download", key: "app_download" },
+  { id: "hero", key: "home.section-nav.home" },
+  { id: "app", key: "home.section-nav.exchange" },
+  { id: "gme-payments", key: "home.section-nav.services" },
+  { id: "customer-feedback", key: "home.section-nav.customer_feedback" },
+  { id: "app-download", key: "home.section-nav.app_download" },
 ];
 
 // 실제 감지할 모든 섹션들 (서비스 하위 섹션 포함)
@@ -35,7 +35,7 @@ const serviceSectionIds = [
 ];
 
 export default function SectionNav() {
-  const { t } = useTranslation("home.section_nav");
+  const { t } = useTranslation();
   const [activeSection, setActiveSection] = useState("hero");
 
   useEffect(() => {

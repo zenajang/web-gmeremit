@@ -164,7 +164,7 @@ export function MobileAccordion({
 
 // ============ Mobile Countries Accordion ============
 export function MobileCountriesAccordion({ label, onClose }: { label: string; onClose: () => void }) {
-  const { t } = useTranslation("home.hero");
+  const { t } = useTranslation();
   const { setLanguage } = useLanguage();
   const router = useRouter();
   const [isExpanded, setIsExpanded] = useState(false);
@@ -174,7 +174,7 @@ export function MobileCountriesAccordion({ label, onClose }: { label: string; on
     () =>
       servedEntries.map((c) => ({
         ...c,
-        name: c.nameNs === "header" ? t(c.nameKey, { ns: "header" }) : t(c.nameKey),
+        name: t(c.nameKey),
       })),
     [t]
   );
@@ -232,12 +232,14 @@ export default function MobileNav({
   onClose,
   menuItems,
   careersLabel = "Careers",
+  appDownloadLabel,
   countriesLabel,
 }: {
   isOpen: boolean;
   onClose: () => void;
   menuItems: MenuItem[];
   careersLabel?: string;
+  appDownloadLabel: string;
   countriesLabel: string;
 }) {
   return (
@@ -276,7 +278,7 @@ export default function MobileNav({
               className="block w-full bg-primary-dark hover:bg-primary text-white font-semibold px-6 py-3 rounded-full text-center transition-colors duration-200"
               onClick={onClose}
             >
-              Download App
+              {appDownloadLabel}
             </Link>
             <div className="flex items-center justify-center gap-3 mt-4 pb-2">
               <Link

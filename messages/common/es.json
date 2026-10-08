@@ -1,0 +1,227 @@
+{
+  "header": {
+    "link": {
+      "careers": "Carreras"
+    },
+    "nav": {
+      "blog": "Blog",
+      "branches": "Sucursales",
+      "card": "Tarjeta",
+      "ceo_message": "Mensaje del CEO",
+      "company": "Empresa",
+      "history": "Historia",
+      "inquiry": "Consulta",
+      "loan": "Préstamo",
+      "news": "Noticias",
+      "notice": "Aviso",
+      "payments": "Pagos (B2B)",
+      "press": "Noticias / Prensa",
+      "remittance": "Remesas",
+      "services": "Servicios",
+      "services_menu": "Servicios",
+      "social_channels": "Contáctanos",
+      "support": "Soporte",
+      "telecom": "Móvil"
+    }
+  },
+  "footer": {
+    "company_name": "Global Money Express",
+    "copyright": "© Global Money Express, Todos los derechos reservados.",
+    "info": {
+      "address": "Dirección: 901~911Ho, B-dong, Saenggak Gongjang Bldg., 150, Yeongdeungpo-ro, Yeongdeungpo-gu, Seúl, Corea 07292",
+      "email_support": "Consultas: support@gmeremit.com",
+      "fax": "Fax: (+82) 2 3674 5559",
+      "phone_general": "02-3673-5559 (Consultas generales)",
+      "remittance_inquiry": "Consultas sobre remesas"
+    },
+    "link": {
+      "privacy": "Política de privacidad",
+      "terms": "Términos del servicio"
+    }
+  },
+  "common": {
+    "blog-grid": {
+      "board": {
+        "by": "By"
+      }
+    },
+    "board": {
+      "error_description": "Por favor, inténtalo de nuevo más tarde.",
+      "error_title": "No se pudieron cargar las publicaciones"
+    },
+    "careers": {
+      "cta": {
+        "openings": "Ver vacantes",
+        "subtitle": "Consulta nuestras vacantes actuales y aplica hoy.",
+        "title": "¿Listo para unirte a GME?"
+      }
+    },
+    "exchange-rate-calculator": {
+      "home": {
+        "exchange": {
+          "calculator": {
+            "bank_deposit": "Depósito bancario",
+            "cash_payment": "Pago en efectivo",
+            "delivery_method": "Método de transferencia",
+            "error": "Error",
+            "error_failed": "Error al consultar el tipo de cambio",
+            "error_limit": "El monto excede el límite de transferencia",
+            "error_max_amount": "Monto máximo de envío: %1$s KRW",
+            "error_min_amount": "Monto mínimo de envío: %1$s KRW",
+            "error_network": "Error de red",
+            "error_unavailable": "Tipo no disponible para este monto",
+            "error_unavailable_method": "Este método de transferencia no está disponible actualmente",
+            "fee": "Comisión incluida",
+            "loading": "Cargando...",
+            "mobile_wallet": "Cartera móvil",
+            "no_results": "Sin resultados",
+            "payout_methods": {
+              "1": "Pago en efectivo",
+              "2": "Depósito bancario",
+              "12": "Entrega a domicilio",
+              "13": "Cartera móvil",
+              "14": "Pago con tarjeta",
+              "15": "Bank Deposit (USD)",
+              "16": "WeChat Pay",
+              "17": "Alipay",
+              "18": "Visa/Mastercard/UnionPay",
+              "19": "Visa/Mastercard",
+              "24": "UPTION",
+              "25": "UPI",
+              "26": "UZCARD",
+              "27": "HUMO Card",
+              "33": "bKash",
+              "34": "Rocket",
+              "35": "Nagad",
+              "37": "QR Pay",
+              "38": "Korti Milli"
+            },
+            "qr_pay": "QR Pay",
+            "rate": "Tipo de cambio",
+            "realtime": "Tiempo real",
+            "receive_amount": "Monto a recibir",
+            "receive_country": "País destinatario",
+            "search_placeholder": "Buscar país",
+            "send_amount": "Monto a enviar",
+            "title": "Calculadora de cambio en tiempo real"
+          }
+        }
+      }
+    },
+    "loan": {
+      "cta": {
+        "description": "Obtén los fondos que necesitas rápidamente con una solicitud móvil fácil.",
+        "inline_notice": "ⓘ Al hacer clic en el botón a continuación, te conectarás al servicio de préstamo proporcionado por GME Finance.",
+        "title": "Comienza tu préstamo con la app GME hoy"
+      }
+    },
+    "mobile-section": {
+      "hero": {
+        "description": "Elija un tema y le orientaremos al departamento adecuado."
+      }
+    },
+    "payments": {
+      "business": {
+        "cta": {
+          "description": "Haz crecer tu negocio con soluciones de pago globales. Nuestros gestores dedicados te propondrán la solución óptima.",
+          "email": "corporate@gmeremit.com",
+          "title": "Empieza con GME Payments"
+        }
+      }
+    },
+    "remittance": {
+      "features": {
+        "app": {
+          "desc": "Completa la transferencia con unos pocos toques",
+          "title": "Transferencia vía app"
+        },
+        "branches": {
+          "desc": "Obtén soporte en nuestras sucursales nacionales",
+          "title": "Sucursales físicas"
+        },
+        "convenient": {
+          "desc": "Flujo intuitivo que cualquiera puede usar",
+          "title": "Experiencia fácil"
+        },
+        "multilingual": {
+          "desc": "Usa el servicio en múltiples idiomas",
+          "title": "Soporte multilingüe"
+        },
+        "subtitle": "Transfiere y rastrea todo en una sola app",
+        "title": "Transferencias más",
+        "title2": "simples y seguras"
+      }
+    },
+    "services": {
+      "chat": {
+        "title": "Será conectado al chat en vivo"
+      },
+      "complete": {
+        "title": "Su consulta ha sido recibida"
+      },
+      "external": {
+        "title": "Redirigiendo a {{site}}"
+      },
+      "hero": {
+        "title": "¿Cómo podemos ayudarle?"
+      }
+    },
+    "support": {
+      "hero": {
+        "desc1": "Obtén ayuda en cualquier momento en nuestras sucursales",
+        "desc2": "y canales sociales globales.",
+        "desc3": "Visita una sucursal cercana o conéctate con nosotros en redes sociales.",
+        "title": "GME – Siempre a tu lado"
+      }
+    },
+    "telecom-page-client": {
+      "cta": {
+        "button": "Ir a GME Telecom",
+        "description": "Planes móviles sencillos y asequibles con soporte en 17 idiomas.",
+        "title": "Empieza con GME Telecom"
+      },
+      "features": {
+        "activation": {
+          "description": "Autoactivación fácil desde la app",
+          "title": "Activación en 5 min"
+        },
+        "affordable": {
+          "description": "Planes ultra económicos para extranjeros",
+          "title": "Desde 3.300 ₩/mes"
+        },
+        "esim": {
+          "description": "Escanea un código QR y activa al instante",
+          "title": "Soporte eSIM"
+        },
+        "intl_call": {
+          "description": "Algunos planes incluyen 20 min/día de llamadas intl.",
+          "title": "Llamadas intl. incluidas"
+        },
+        "multilang": {
+          "description": "Úsalo en tu idioma nativo",
+          "title": "17 idiomas"
+        },
+        "network": {
+          "description": "Cobertura confiable en todo el país",
+          "title": "Misma calidad que LGU+, KT"
+        },
+        "plans": {
+          "description": "Planes desde solo 3.300 ₩/mes",
+          "title": "Planes flexibles"
+        },
+        "usim": {
+          "description": "Te lo entregamos, lo activas en 5 minutos",
+          "title": "Autoactivación USIM"
+        }
+      }
+    },
+    "company": {
+      "tabs": {
+        "title": "Sobre la empresa"
+      }
+    },
+    "button": {
+      "app_download": "Descargar aplicación"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "board-detail": {
+    "board-detail-client": {
+      "attachment": "ไฟล์แนบ",
+      "attachment_file": "ไฟล์แนบ",
+      "back": "กลับ",
+      "back_to_list": "กลับไปยังรายการ",
+      "not_found": "ไม่พบโพสต์"
+    }
+  },
+  "board-notice": {
+    "redirect": {
+      "notice": "กำลังเปลี่ยนเส้นทางไปยังหน้าประกาศ..."
+    }
+  },
+  "board-press": {
+    "redirect": {
+      "press": "กำลังเปลี่ยนเส้นทางไปยังหน้าข่าวสาร..."
+    }
+  },
+  "board": {
+    "blog-grid": {
+      "no_image": "ไม่มีรูปภาพ",
+      "no_results": "ไม่พบผลลัพธ์"
+    },
+    "board-table": {
+      "attachment": "ไฟล์",
+      "attachment_file": "ไฟล์แนบ",
+      "date": "วันที่",
+      "title": "หัวข้อ",
+      "type": "ประเภท"
+    },
+    "count_suffix": " โพสต์",
+    "pagination": {
+      "load_more": "โหลดเพิ่มเติม"
+    },
+    "search-bar": {
+      "all": "ทั้งหมด",
+      "content": "เนื้อหา",
+      "placeholder": "กรอกคำค้นหา",
+      "title": "หัวข้อ",
+      "button": "ค้นหา"
+    },
+    "subtitle": "ดูข่าวสารล่าสุดจาก GME Remit",
+    "tabs": {
+      "blog": "บล็อก",
+      "notice": "ประกาศ",
+      "press": "ข่าวสาร"
+    },
+    "total": "ทั้งหมด"
+  }
+}

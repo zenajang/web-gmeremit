@@ -3,7 +3,7 @@ export interface ServedEntry {
   flagSrc?: string;
   emoji?: string;
   nameKey: string;
-  nameNs: "home.hero" | "header";
+  nameNs: "home.hero-main" | "header";
   langCode: string;
 }
 
@@ -11,8 +11,8 @@ function country(code: string, langCode: string): ServedEntry {
   return {
     code,
     flagSrc: `/images/flags/${code.toLowerCase()}.svg`,
-    nameKey: `countries.names.${code}`,
-    nameNs: "home.hero",
+    nameKey: `home.hero-main.countries.names.${code}`,
+    nameNs: "home.hero-main",
     langCode,
   };
 }

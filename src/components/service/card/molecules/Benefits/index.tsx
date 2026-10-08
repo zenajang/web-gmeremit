@@ -1,7 +1,7 @@
 "use client";
 
 import { CardBenefit } from "@/data/cards";
-import { usePendingTranslation } from "@/hooks/usePendingTranslation";
+import { useTranslation } from "@/hooks/useTranslation";
 
 
 interface BenefitsProps {
@@ -9,7 +9,7 @@ interface BenefitsProps {
 }
 
 const Benefits = ({benefits} : BenefitsProps) => {
-  const { t } = usePendingTranslation("card");
+  const { t } = useTranslation();
 
   return (
     <div className="mt-16 lg:mt-24">
@@ -23,10 +23,10 @@ const Benefits = ({benefits} : BenefitsProps) => {
               {benefit.icon}
             </div>
             <h3 className="text-[17px] font-bold text-dark mb-1">
-              {t(`why.${benefit.key}.title`)}
+              {t(`services-card.benefits.why.${benefit.key}.title`)}
             </h3>
             <p className="text-[14px] text-gray-400 leading-relaxed">
-              {t(`why.${benefit.key}.description`)}
+              {t(`services-card.benefits.why.${benefit.key}.description`)}
             </p>
           </div>
         ))}

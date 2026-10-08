@@ -1,0 +1,52 @@
+{
+  "board-detail": {
+    "board-detail-client": {
+      "attachment": "ឯកសារភ្ជាប់",
+      "attachment_file": "ឯកសារភ្ជាប់",
+      "back": "ត្រឡប់ក្រោយ",
+      "back_to_list": "ត្រឡប់ទៅបញ្ជី",
+      "not_found": "រកមិនឃើញការបង្ហោះ"
+    }
+  },
+  "board-notice": {
+    "redirect": {
+      "notice": "កំពុងបញ្ជូនទៅទំព័រសេចក្តីជូនដំណឹង..."
+    }
+  },
+  "board-press": {
+    "redirect": {
+      "press": "កំពុងបញ្ជូនទៅទំព័រសារព័ត៌មាន..."
+    }
+  },
+  "board": {
+    "blog-grid": {
+      "no_image": "គ្មានរូបភាព",
+      "no_results": "រកមិនឃើញលទ្ធផល។"
+    },
+    "board-table": {
+      "attachment": "ឯកសារ",
+      "attachment_file": "ឯកសារភ្ជាប់",
+      "date": "កាលបរិច្ឆេទ",
+      "title": "ចំណងជើង",
+      "type": "ប្រភេទ"
+    },
+    "count_suffix": " ការបង្ហោះ",
+    "pagination": {
+      "load_more": "បង្ហាញបន្ថែម"
+    },
+    "search-bar": {
+      "all": "ទាំងអស់",
+      "content": "មាតិកា",
+      "placeholder": "បញ្ចូលពាក្យគន្លឹះស្វែងរក",
+      "title": "ចំណងជើង",
+      "button": "ស្វែងរក"
+    },
+    "subtitle": "សូមពិនិត្យមើលព័ត៌មានថ្មីៗពី GME Remit",
+    "tabs": {
+      "blog": "ប្លក់",
+      "notice": "សេចក្តីជូនដំណឹង",
+      "press": "សារព័ត៌មាន"
+    },
+    "total": "សរុប"
+  }
+}

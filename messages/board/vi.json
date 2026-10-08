@@ -1,0 +1,52 @@
+{
+  "board-detail": {
+    "board-detail-client": {
+      "attachment": "Tệp đính kèm",
+      "attachment_file": "Tệp đính kèm",
+      "back": "Quay lại",
+      "back_to_list": "Quay lại danh sách",
+      "not_found": "Không tìm thấy bài viết"
+    }
+  },
+  "board-notice": {
+    "redirect": {
+      "notice": "Đang chuyển đến trang Thông báo..."
+    }
+  },
+  "board-press": {
+    "redirect": {
+      "press": "Đang chuyển đến trang Báo chí..."
+    }
+  },
+  "board": {
+    "blog-grid": {
+      "no_image": "Không có hình ảnh",
+      "no_results": "Không tìm thấy kết quả."
+    },
+    "board-table": {
+      "attachment": "Tệp",
+      "attachment_file": "Tệp đính kèm",
+      "date": "Ngày",
+      "title": "Tiêu đề",
+      "type": "Loại"
+    },
+    "count_suffix": " bài",
+    "pagination": {
+      "load_more": "Xem thêm"
+    },
+    "search-bar": {
+      "all": "Tất cả",
+      "content": "Nội dung",
+      "placeholder": "Nhập từ khóa tìm kiếm",
+      "title": "Tiêu đề",
+      "button": "Tìm kiếm"
+    },
+    "subtitle": "Xem tin tức mới nhất từ GME Remit",
+    "tabs": {
+      "blog": "Blog",
+      "notice": "Thông báo",
+      "press": "Báo chí"
+    },
+    "total": "Tổng"
+  }
+}

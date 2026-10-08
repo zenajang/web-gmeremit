@@ -1,0 +1,218 @@
+{
+  "support-branches": {
+    "address": "Địa chỉ",
+    "data": {
+      "1": {
+        "address": "315 Jongno, Jongno-gu, Seoul (Lối ra số 3 ga Dongdaemun)",
+        "hours": "Ngày thường & Cuối tuần 10:00 - 19:00",
+        "name": "Chi nhánh Dongdaemun"
+      },
+      "2": {
+        "address": "Tầng 1, 6 Damunhwa-gil, Danwon-gu, Ansan-si, Gyeonggi-do",
+        "hours": "Ngày thường & Cuối tuần 10:00 - 19:00",
+        "name": "Chi nhánh Ansan"
+      },
+      "3": {
+        "address": "Tầng 1, 134 Dorim-ro, Yeongdeungpo-gu, Seoul",
+        "hours": "Ngày thường & Cuối tuần 10:00 - 19:00",
+        "name": "Chi nhánh Daerim"
+      },
+      "4": {
+        "address": "2-10 Maesan-ro, Paldal-gu, Suwon-si, Gyeonggi-do",
+        "hours": "Ngày thường & Cuối tuần 10:00 - 19:00",
+        "name": "Chi nhánh Suwon"
+      },
+      "5": {
+        "address": "Tầng 1, 1109-3 3·1 Manse-ro, Hyangnam-eup, Hwaseong-si, Gyeonggi-do",
+        "hours": "Thứ Sáu - Thứ Ba 10:00 - 19:00",
+        "name": "Chi nhánh Hwaseong"
+      },
+      "6": {
+        "address": "91 Solmoru-ro, Soheul-eup, Pocheon-si, Gyeonggi-do (Cạnh NH Bank)",
+        "hours": "Thứ Bảy - Thứ Tư 10:00 - 19:00",
+        "name": "Chi nhánh Songuri"
+      },
+      "7": {
+        "address": "16 Gwangjang-ro, Bupyeong-gu, Incheon (Trung tâm mua sắm ga Bupyeong)",
+        "hours": "Thứ Bảy - Thứ Tư 10:00 - 19:00",
+        "name": "Chi nhánh Bupyeong"
+      },
+      "8": {
+        "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (Đối diện Top Mart)",
+        "hours": "Ngày thường & Cuối tuần 10:00 - 19:00",
+        "name": "Chi nhánh Gimhae"
+      },
+      "9": {
+        "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+        "hours": "Ngày thường & Cuối tuần 10:00 - 19:00",
+        "name": "Chi nhánh Pyeongtaek"
+      }
+    },
+    "hours": "Giờ làm việc",
+    "phone": "Điện thoại"
+  },
+  "support-inquiry": {
+    "categories": {
+      "2": {
+        "items": [
+          "Đăng ký doanh nghiệp và thẩm định",
+          "Thanh toán thương mại và dịch vụ",
+          "Phí gửi và điều kiện tỷ giá",
+          "Tích hợp API và quyết toán"
+        ]
+      },
+      "7": {
+        "items": [
+          "Gói cước và tra cứu hóa đơn",
+          "Kích hoạt, chuyển mạng và hủy",
+          "Giao hàng và đổi USIM",
+          "Chất lượng dữ liệu và cuộc gọi"
+        ]
+      }
+    },
+    "category-card": {
+      "categories": {
+        "1": {
+          "name": "Chuyển tiền cá nhân",
+          "sub": "Chuyển tiền · Tỷ giá · Nhận tiền"
+        },
+        "2": {
+          "name": "Chuyển tiền doanh nghiệp (Biz)",
+          "sub": "Doanh nghiệp · Thanh toán thương mại · B2B"
+        },
+        "3": {
+          "name": "Vay vốn",
+          "sub": "Điều kiện · Hạn mức · Thanh toán"
+        },
+        "4": {
+          "name": "Hợp tác · Đối tác",
+          "sub": "Liên kết · Đề xuất kinh doanh"
+        },
+        "5": {
+          "name": "Tuyển dụng",
+          "sub": "Ứng tuyển · Quy trình tuyển dụng"
+        },
+        "6": {
+          "name": "Bảo vệ người tiêu dùng · Khiếu nại",
+          "sub": "Tranh chấp · Hạn chế sử dụng · Khiếu nại"
+        },
+        "7": {
+          "name": "Di động · Viễn thông",
+          "sub": "Gói cước · Kích hoạt · USIM"
+        }
+      }
+    },
+    "category-selector": {
+      "question": "Bạn muốn hỏi về vấn đề gì?"
+    },
+    "chat": {
+      "action": "Bắt đầu trò chuyện",
+      "description": "Tư vấn viên trả lời theo thời gian thực. Ngoài giờ làm việc, chatbot sẽ hướng dẫn và tiếp nhận yêu cầu gọi lại.",
+      "items": [
+        "Các ngày trong tuần 09:00 ~ 18:00 · Tư vấn viên trực tuyến",
+        "Ngoài giờ làm việc· Chatbot hướng dẫn và gọi lại",
+        "Hỗ trợ 12 ngôn ngữ (tiếng Nepal, tiếng Việt, tiếng Thái...)"
+      ]
+    },
+    "external": {
+      "action": "Đến trang yêu cầu",
+      "description": "Yêu cầu này được tiếp nhận trên trang {{site}}."
+    },
+    "guide-panel": {
+      "common": {
+        "reset": "Chọn lại loại yêu cầu"
+      }
+    },
+    "honeypot-field": {
+      "form": {
+        "honeypot": "Địa chỉ"
+      }
+    },
+    "inquiry-form": {
+      "categories": {
+        "4": {
+          "dept": "Bộ phận phụ trách"
+        },
+        "5": {
+          "dept": "Bộ phận nhân sự"
+        },
+        "6": {
+          "dept": "Bộ phận bảo vệ người tiêu dùng"
+        }
+      },
+      "contentLabel": "Nội dung",
+      "contentPlaceholder": "Bạn mô tả càng chi tiết, chúng tôi càng trả lời chính xác.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "name@example.com",
+      "errors": {
+        "email": "Vui lòng kiểm tra địa chỉ email.",
+        "failed": "Không gửi được yêu cầu. Vui lòng thử lại sau.",
+        "phone": "Vui lòng kiểm tra số điện thoại.",
+        "required": "Vui lòng điền đầy đủ các mục bắt buộc.",
+        "turnstile": "Vui lòng hoàn tất bước xác minh bảo mật."
+      },
+      "nameLabel": "Họ và tên",
+      "namePlaceholder": "Nguyễn Văn A",
+      "notice": "{{dept}} sẽ kiểm tra yêu cầu của bạn và phản hồi.",
+      "phoneLabel": "Số điện thoại",
+      "phonePlaceholder": "010-0000-0000",
+      "submit": "Gửi yêu cầu",
+      "titleLabel": "Tiêu đề",
+      "titlePlaceholder": "Nhập tiêu đề"
+    },
+    "step-indicator": {
+      "steps": {
+        "connect": "2. Kết nối · Gửi yêu cầu",
+        "select": "1. Chọn loại yêu cầu"
+      }
+    },
+    "submission-complete": {
+      "description": "Bộ phận phụ trách sẽ kiểm tra yêu cầu và phản hồi qua email bạn đã cung cấp.",
+      "reset": "Về trang đầu"
+    }
+  },
+  "support-social-channels": {
+    "contact": "Liên hệ",
+    "countries_count": "38 quốc gia",
+    "countries": {
+      "african-region": "Khu vực châu Phi",
+      "bangladesh": "Bangladesh",
+      "cambodia": "Campuchia",
+      "china": "Trung Quốc",
+      "india": "Ấn Độ",
+      "indonesia": "Indonesia",
+      "japan": "Nhật Bản",
+      "korea": "Hàn Quốc",
+      "mongolia": "Mông Cổ",
+      "myanmar": "Myanmar",
+      "nepal": "Nepal",
+      "pakistan": "Pakistan",
+      "philippines": "Philippines",
+      "srilanka": "Sri Lanka",
+      "thailand": "Thái Lan",
+      "uzbekistan-cis": "Uzbekistan & CIS",
+      "vietnam": "Việt Nam",
+      "western": "Phương Tây"
+    },
+    "description": "Kết nối với GME qua các kênh chính thức tại mỗi quốc gia",
+    "operating": "Đang hoạt động",
+    "title": "Kênh mạng xã hội toàn cầu"
+  },
+  "support": {
+    "tabs": {
+      "branches": "Chi nhánh",
+      "social_channels": "Liên hệ"
+    },
+    "stats": {
+      "countries_label": "Quốc gia phục vụ",
+      "branches_label": "Chi nhánh",
+      "branches_unit": "+",
+      "branches_value": "12",
+      "countries_unit": "+",
+      "countries_value": "38",
+      "services_label": "Dịch vụ",
+      "services_unit": "+",
+      "services_value": "8"
+    }
+  }
+}

@@ -15,7 +15,7 @@ const cards = [
 ] as const;
 
 export default function MobileSection() {
-  const { t } = useTranslation("telecom");
+  const { t } = useTranslation();
   const containerRef = useRef<HTMLDivElement>(null);
   const [animate, setAnimate] = useState(false);
 
@@ -70,10 +70,10 @@ export default function MobileSection() {
                     {card.icon}
                   </div>
                   <h3 className="text-[11px] sm:text-sm lg:text-base font-bold text-dark mt-2 sm:mt-4 mb-0.5 sm:mb-1">
-                    {t(`features.${card.titleKey}.title`)}
+                    {t(`common.telecom-page-client.features.${card.titleKey}.title`)}
                   </h3>
                   <p className="text-[10px] sm:text-xs lg:text-sm text-gray-500 leading-relaxed mb-auto">
-                    {t(`features.${card.titleKey}.description`)}
+                    {t(`common.telecom-page-client.features.${card.titleKey}.description`)}
                   </p>
                 </div>
               ))}
@@ -83,14 +83,14 @@ export default function MobileSection() {
             <div className="order-1 lg:order-2">
               <p className="typo-eyebrow text-mobile mb-3">GME MOBILE</p>
               <h2 className="typo-section-title mb-3 lg:mb-5">
-                {t("hero.title1")} <span className="text-mobile">{t("hero.title2")}</span>
+                {t("services-telecom.service-hero-section.title1")} <span className="text-mobile">{t("services-telecom.service-hero-section.title2")}</span>
               </h2>
               <p className="typo-section-subtitle text-gray-600 mb-3 sm:mb-5 lg:mb-8 break-keep">
-                {t("hero.description")}
+                {t("services-telecom.service-hero-section.description")}
               </p>
               <CTAButton
                 href="/services/telecom"
-                label={t("hero.cta")}
+                label={t("services-telecom.service-hero-section.cta")}
                 className="text-mobile bg-mobile/10 hover:bg-mobile/20"
                 iconClassName="bg-mobile"
               />

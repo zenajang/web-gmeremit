@@ -1,0 +1,218 @@
+{
+  "support-branches": {
+    "address": "ที่อยู่",
+    "data": {
+      "1": {
+        "address": "315 Jongno, Jongno-gu, Seoul (สถานี Dongdaemun ทางออก 3)",
+        "hours": "วันธรรมดาและวันหยุดสุดสัปดาห์ 10:00 - 19:00",
+        "name": "สาขา Dongdaemun"
+      },
+      "2": {
+        "address": "1F, 6 Damunhwa-gil, Danwon-gu, Ansan-si, Gyeonggi-do",
+        "hours": "วันธรรมดาและวันหยุดสุดสัปดาห์ 10:00 - 19:00",
+        "name": "สาขา Ansan"
+      },
+      "3": {
+        "address": "1F, 134 Dorim-ro, Yeongdeungpo-gu, Seoul",
+        "hours": "วันธรรมดาและวันหยุดสุดสัปดาห์ 10:00 - 19:00",
+        "name": "สาขา Daerim"
+      },
+      "4": {
+        "address": "2-10 Maesan-ro, Paldal-gu, Suwon-si, Gyeonggi-do",
+        "hours": "วันธรรมดาและวันหยุดสุดสัปดาห์ 10:00 - 19:00",
+        "name": "สาขา Suwon"
+      },
+      "5": {
+        "address": "1F, 1109-3 3·1 Manse-ro, Hyangnam-eup, Hwaseong-si, Gyeonggi-do",
+        "hours": "ศุกร์ - อังคาร 10:00 - 19:00",
+        "name": "สาขา Hwaseong"
+      },
+      "6": {
+        "address": "91 Solmoru-ro, Soheul-eup, Pocheon-si, Gyeonggi-do (ข้าง NH Bank)",
+        "hours": "เสาร์ - พุธ 10:00 - 19:00",
+        "name": "สาขา Songuri"
+      },
+      "7": {
+        "address": "16 Gwangjang-ro, Bupyeong-gu, Incheon (ห้างสรรพสินค้าสถานี Bupyeong)",
+        "hours": "เสาร์ - พุธ 10:00 - 19:00",
+        "name": "สาขา Bupyeong"
+      },
+      "8": {
+        "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (ตรงข้าม Top Mart)",
+        "hours": "วันธรรมดาและวันหยุดสุดสัปดาห์ 10:00 - 19:00",
+        "name": "สาขา Gimhae"
+      },
+      "9": {
+        "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+        "hours": "วันธรรมดาและวันหยุดสุดสัปดาห์ 10:00 - 19:00",
+        "name": "สาขา Pyeongtaek"
+      }
+    },
+    "hours": "เวลาทำการ",
+    "phone": "โทรศัพท์"
+  },
+  "support-inquiry": {
+    "categories": {
+      "2": {
+        "items": [
+          "การสมัครและตรวจสอบนิติบุคคล",
+          "การโอนค่าสินค้าและค่าบริการ",
+          "ค่าธรรมเนียมและอัตราแลกเปลี่ยน",
+          "การเชื่อมต่อ API และการชำระบัญชี"
+        ]
+      },
+      "7": {
+        "items": [
+          "แพ็กเกจและการตรวจสอบค่าบริการ",
+          "เปิดใช้งาน ย้ายค่าย และการยกเลิก",
+          "การจัดส่งและเปลี่ยนซิม USIM",
+          "คุณภาพสัญญาณและการโทร"
+        ]
+      }
+    },
+    "category-card": {
+      "categories": {
+        "1": {
+          "name": "การโอนเงินส่วนบุคคล",
+          "sub": "การโอนเงิน · อัตราแลกเปลี่ยน · การรับเงิน"
+        },
+        "2": {
+          "name": "การโอนเงินธุรกิจ (Biz)",
+          "sub": "นิติบุคคล · ค่าสินค้า · B2B"
+        },
+        "3": {
+          "name": "สินเชื่อ",
+          "sub": "คุณสมบัติ · วงเงิน · การชำระคืน"
+        },
+        "4": {
+          "name": "ความร่วมมือ · พันธมิตร",
+          "sub": "พันธมิตร · ข้อเสนอทางธุรกิจ"
+        },
+        "5": {
+          "name": "สมัครงาน · การรับสมัคร",
+          "sub": "การสมัคร · ขั้นตอนการรับสมัคร"
+        },
+        "6": {
+          "name": "การคุ้มครองผู้บริโภค · ร้องเรียน",
+          "sub": "ข้อพิพาท · การจำกัดการใช้งาน · การแจ้งเหตุ"
+        },
+        "7": {
+          "name": "มือถือ · โทรคมนาคม",
+          "sub": "แพ็กเกจ · เปิดใช้งาน · ซิมการ์ด"
+        }
+      }
+    },
+    "category-selector": {
+      "question": "คุณต้องการสอบถามเรื่องใด?"
+    },
+    "chat": {
+      "action": "เริ่มแชท",
+      "description": "เจ้าหน้าที่จะตอบแบบเรียลไทม์ นอกเวลาทำการ แชทบอทจะแนะนำและรับเรื่องเพื่อติดต่อกลับ",
+      "items": [
+        "จันทร์ - ศุกร์ 09:00 - 18:00 · เจ้าหน้าที่",
+        "นอกเวลาทำการ · แชทบอทและการติดต่อกลับ",
+        "รองรับ 12 ภาษา (เนปาล เวียดนาม ไทย และอื่น ๆ)"
+      ]
+    },
+    "external": {
+      "action": "ไปที่หน้าสอบถาม",
+      "description": "คำถามประเภทนี้รับเรื่องที่เว็บไซต์ {{site}}"
+    },
+    "guide-panel": {
+      "common": {
+        "reset": "เลือกประเภทใหม่"
+      }
+    },
+    "honeypot-field": {
+      "form": {
+        "honeypot": "ที่อยู่"
+      }
+    },
+    "inquiry-form": {
+      "categories": {
+        "4": {
+          "dept": "แผนกที่รับผิดชอบ"
+        },
+        "5": {
+          "dept": "ฝ่ายทรัพยากรบุคคล"
+        },
+        "6": {
+          "dept": "ฝ่ายคุ้มครองผู้บริโภค"
+        }
+      },
+      "contentLabel": "รายละเอียด",
+      "contentPlaceholder": "ยิ่งคุณอธิบายละเอียดมากเท่าไหร่ เราก็ยิ่งตอบได้ตรงจุดมากยิ่งขึ้น",
+      "emailLabel": "อีเมล",
+      "emailPlaceholder": "name@example.com",
+      "errors": {
+        "email": "กรุณาตรวจสอบอีเมล",
+        "failed": "ส่งคำถามไม่สำเร็จ กรุณาลองใหม่อีกครั้ง",
+        "phone": "กรุณาตรวจสอบเบอร์โทรศัพท์",
+        "required": "กรุณากรอกข้อมูลที่จำเป็นให้ครบถ้วน",
+        "turnstile": "กรุณายืนยันความปลอดภัยให้เสร็จสิ้น"
+      },
+      "nameLabel": "ชื่อ",
+      "namePlaceholder": "สมชาย ใจดี",
+      "notice": "{{dept}}จะตรวจสอบและตอบกลับ",
+      "phoneLabel": "เบอร์โทรศัพท์",
+      "phonePlaceholder": "010-0000-0000",
+      "submit": "ส่งคำถาม",
+      "titleLabel": "หัวข้อ",
+      "titlePlaceholder": "กรุณากรอกหัวข้อ"
+    },
+    "step-indicator": {
+      "steps": {
+        "connect": "2. เชื่อมต่อ · ส่ง",
+        "select": "1. เลือกประเภทคำถาม"
+      }
+    },
+    "submission-complete": {
+      "description": "แผนกที่รับผิดชอบจะตรวจสอบและตอบกลับไปยังอีเมลที่คุณกรอกไว้",
+      "reset": "กลับไปหน้าแรก"
+    }
+  },
+  "support-social-channels": {
+    "contact": "ติดต่อ",
+    "countries_count": "38 ประเทศ",
+    "countries": {
+      "african-region": "ภูมิภาคแอฟริกา",
+      "bangladesh": "บังกลาเทศ",
+      "cambodia": "กัมพูชา",
+      "china": "จีน",
+      "india": "อินเดีย",
+      "indonesia": "อินโดนีเซีย",
+      "japan": "ญี่ปุ่น",
+      "korea": "เกาหลี",
+      "mongolia": "มองโกเลีย",
+      "myanmar": "เมียนมาร์",
+      "nepal": "เนปาล",
+      "pakistan": "ปากีสถาน",
+      "philippines": "ฟิลิปปินส์",
+      "srilanka": "ศรีลังกา",
+      "thailand": "ไทย",
+      "uzbekistan-cis": "อุซเบกิสถานและ CIS",
+      "vietnam": "เวียดนาม",
+      "western": "ตะวันตก"
+    },
+    "description": "เชื่อมต่อกับ GME ผ่านช่องทางทางการในแต่ละประเทศ",
+    "operating": "กำลังดำเนินการ",
+    "title": "ช่องทางโซเชียลทั่วโลก"
+  },
+  "support": {
+    "tabs": {
+      "branches": "สาขา",
+      "social_channels": "ติดต่อเรา"
+    },
+    "stats": {
+      "countries_label": "ประเทศที่ให้บริการ",
+      "branches_label": "สาขา",
+      "branches_unit": "+",
+      "branches_value": "12",
+      "countries_unit": "+",
+      "countries_value": "38",
+      "services_label": "บริการ",
+      "services_unit": "+",
+      "services_value": "8"
+    }
+  }
+}

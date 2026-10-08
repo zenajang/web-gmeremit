@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useTranslation } from "@/hooks/useTranslation";
 
 export default function Footer() {
-  const { t } = useTranslation("footer");
+  const { t } = useTranslation();
   return (
     <footer className="bg-white border-t border-gray-200">
       <div className="max-w-[1540px] mx-auto px-4 lg:pt-10 sm:px-6 lg:px-8 py-12 lg:py-6 min-h-[420px] lg:min-h-[320px]">
@@ -17,7 +17,7 @@ export default function Footer() {
             <div className="mb-6">
               <div className="flex items-center gap-2">
                 <Image src="/images/favicon.png" alt="GME Logo" width={32} height={32} className="w-8 h-8" />
-                <span className="typo-feature-title">{t("company_name")}</span>
+                <span className="typo-feature-title">{t("footer.company_name")}</span>
               </div>
             </div>
 
@@ -25,37 +25,37 @@ export default function Footer() {
             <div className="mb-6">
               <div className="flex items-center gap-2 text-sm font-medium text-gray-700">
                 <Link href="/terms" className="hover:text-primary transition-colors">
-                  {t("link.terms")}
+                  {t("footer.link.terms")}
                 </Link>
                 <span className="text-gray-400">|</span>
                 <Link href="/privacy" className="hover:text-primary transition-colors">
-                  {t("link.privacy")}
+                  {t("footer.link.privacy")}
                 </Link>
               </div>
             </div>
 
             {/* Company Details */}
             <div className="space-y-1 text-xs text-gray-600 min-h-[200px] lg:min-h-[100px]">
-              <p>{t("info.address")}</p>
-              <p>{t("info.email_support")}</p>
+              <p>{t("footer.info.address")}</p>
+              <p>{t("footer.info.email_support")}</p>
               <p>
                 <Link
                   href="/support/social-channels"
                   className="underline underline-offset-2 hover:text-primary transition-colors"
                 >
-                  {t("info.remittance_inquiry")}
+                  {t("footer.info.remittance_inquiry")}
                 </Link>
               </p>
-              <p>{t("info.phone_general")} | {t("info.fax")}</p>
+              <p>{t("footer.info.phone_general")} | {t("footer.info.fax")}</p>
             </div>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-200 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-xs text-gray-500 text-center sm:text-left">{t("copyright")}</p>
+          <p className="text-xs text-gray-500 text-center sm:text-left">{t("footer.copyright")}</p>
           <Link href="/" className="text-xs text-gray-500 hover:text-primary transition-colors">
-            {t("company_name")}
+            {t("footer.company_name")}
           </Link>
         </div>
       </div>

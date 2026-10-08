@@ -6,11 +6,11 @@ import CompanyTabs from "@/components/CompanyTabs";
 import { useEffect, useLayoutEffect, useRef, useState, useMemo } from "react";
 import { usePathname } from "next/navigation";
 import { useLenis } from "@/hooks/useLenis";
-import { usePendingTranslation } from "@/hooks/usePendingTranslation";
+import { useTranslation } from "@/hooks/useTranslation";
 import { historyData } from "@/data/history";
 
 export default function HistoryPage() {
-  const { t } = usePendingTranslation("company.history");
+  const { t } = useTranslation();
   const [currentEventIndex, setCurrentEventIndex] = useState(0);
   const [modalImageSrc, setModalImageSrc] = useState<string | null>(null);
   const pathname = usePathname();
@@ -166,7 +166,7 @@ export default function HistoryPage() {
                   </div>
 
                   <h3 className="relative z-10 typo-heading leading-tight mb-6">
-                    {t("title_line1")}<br />{t("title_line2")}
+                    {t("company-history.title_line1")}<br />{t("company-history.title_line2")}
                   </h3>
 
                   {/* Large Year Number with accent */}
@@ -211,7 +211,7 @@ export default function HistoryPage() {
                                 <div className="relative w-full overflow-visible transition-all duration-300 hover:scale-[1.02]">
                                   <Image
                                     src={imageSrc}
-                                    alt={`${t(`events.${event.textKey}`)} ${idx + 1}`}
+                                    alt={`${t(`company-history.events.${event.textKey}`)} ${idx + 1}`}
                                     width={600}
                                     height={400}
                                     className="w-full h-auto object-contain transition-all duration-500 group-hover:scale-[1.02] opacity-95 cursor-pointer rounded-lg"
@@ -233,7 +233,7 @@ export default function HistoryPage() {
                             <div className="relative w-full lg:w-full overflow-visible transition-all duration-300 hover:scale-[1.02]">
                               <Image
                                 src={imageSrc}
-                                alt={`${t(`events.${event.textKey}`)} ${idx + 1}`}
+                                alt={`${t(`company-history.events.${event.textKey}`)} ${idx + 1}`}
                                 width={600}
                                 height={400}
                                 className="w-full h-auto object-contain transition-all duration-500 opacity-95 group-hover:scale-[1.02] cursor-pointer rounded-lg"
@@ -307,7 +307,7 @@ export default function HistoryPage() {
                                     ? 'text-dark font-semibold text-[13px] sm:text-[16px]'
                                     : 'text-gray-500 text-[12px] sm:text-[15px]'
                                 }`}>
-                                  {t(`events.${event.textKey}`)}
+                                  {t(`company-history.events.${event.textKey}`)}
                                 </p>
                                 {hasImages && (
                                   <button

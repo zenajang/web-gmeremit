@@ -20,10 +20,10 @@ export type ApiPlan = {
 };
 
 export const TELECOM_CATEGORIES = [
-  { seq: "10002", labelKey: "categories.recommended" },
-  { seq: "10000", labelKey: "categories.postpaid" },
-  { seq: "10001", labelKey: "categories.fiveG" },
-  { seq: "10005", labelKey: "categories.prepaid" },
+  { seq: "10002", labelKey: "services-telecom.categories.recommended" },
+  { seq: "10000", labelKey: "services-telecom.categories.postpaid" },
+  { seq: "10001", labelKey: "services-telecom.categories.fiveG" },
+  { seq: "10005", labelKey: "services-telecom.categories.prepaid" },
 ] as const;
 
 export const DEFAULT_TELECOM_SEQ = TELECOM_CATEGORIES[0].seq;

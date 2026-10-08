@@ -1,0 +1,52 @@
+{
+  "board-detail": {
+    "board-detail-client": {
+      "attachment": "ပူးတွဲဖိုင်",
+      "attachment_file": "ပူးတွဲဖိုင်",
+      "back": "နောက်သို့",
+      "back_to_list": "စာရင်းသို့ပြန်",
+      "not_found": "ပို့စ်မတွေ့ပါ"
+    }
+  },
+  "board-notice": {
+    "redirect": {
+      "notice": "ကြေညာချက်စာမျက်နှာသို့ ပြောင်းနေသည်..."
+    }
+  },
+  "board-press": {
+    "redirect": {
+      "press": "သတင်းစာမျက်နှာသို့ ပြောင်းနေသည်..."
+    }
+  },
+  "board": {
+    "blog-grid": {
+      "no_image": "ပုံမရှိပါ",
+      "no_results": "ရလဒ်မတွေ့ပါ။"
+    },
+    "board-table": {
+      "attachment": "ဖိုင်",
+      "attachment_file": "ပူးတွဲဖိုင်",
+      "date": "ရက်စွဲ",
+      "title": "ခေါင်းစဉ်",
+      "type": "အမျိုးအစား"
+    },
+    "count_suffix": " ပို့စ်",
+    "pagination": {
+      "load_more": "ပိုမိုပြရန်"
+    },
+    "search-bar": {
+      "all": "အားလုံး",
+      "content": "အကြောင်းအရာ",
+      "placeholder": "ရှာဖွေရန်စကားလုံးထည့်ပါ",
+      "title": "ခေါင်းစဉ်",
+      "button": "ရှာဖွေ"
+    },
+    "subtitle": "GME Remit ၏ နောက်ဆုံးသတင်းများကို စစ်ဆေးပါ",
+    "tabs": {
+      "blog": "ဘလော့ဂ်",
+      "notice": "ကြေညာချက်",
+      "press": "သတင်းစာ"
+    },
+    "total": "စုစုပေါင်း"
+  }
+}

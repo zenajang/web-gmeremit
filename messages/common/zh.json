@@ -1,0 +1,227 @@
+{
+  "header": {
+    "link": {
+      "careers": "招聘"
+    },
+    "nav": {
+      "blog": "博客",
+      "branches": "分行",
+      "card": "卡",
+      "ceo_message": "CEO致辞",
+      "company": "公司介绍",
+      "history": "发展历程",
+      "inquiry": "咨询",
+      "loan": "贷款",
+      "news": "新闻",
+      "notice": "公告",
+      "payments": "B2B Payments",
+      "press": "新闻/媒体",
+      "remittance": "汇款",
+      "services": "服务",
+      "services_menu": "服务",
+      "social_channels": "联系我们",
+      "support": "客服支持",
+      "telecom": "手机"
+    }
+  },
+  "footer": {
+    "company_name": "Global Money Express",
+    "copyright": "© Global Money Express, All rights reserved.",
+    "info": {
+      "address": "地址: 901~911Ho, B-dong, Saenggak Gongjang Bldg., 150, Yeongdeungpo-ro, Yeongdeungpo-gu, Seoul, Korea 07292",
+      "email_support": "客户支持：support@gmeremit.com",
+      "fax": "传真：(+82) 2 3674 5559",
+      "phone_general": "02-3673-5559（一般咨询）",
+      "remittance_inquiry": "汇款相关咨询"
+    },
+    "link": {
+      "privacy": "隐私政策",
+      "terms": "服务条款"
+    }
+  },
+  "common": {
+    "blog-grid": {
+      "board": {
+        "by": "By"
+      }
+    },
+    "board": {
+      "error_description": "请稍后再试。",
+      "error_title": "无法加载帖子"
+    },
+    "careers": {
+      "cta": {
+        "openings": "查看职位",
+        "subtitle": "查看当前招聘信息，立即申请。",
+        "title": "加入GME"
+      }
+    },
+    "exchange-rate-calculator": {
+      "home": {
+        "exchange": {
+          "calculator": {
+            "bank_deposit": "银行转账",
+            "cash_payment": "现金领取",
+            "delivery_method": "汇款方式",
+            "error": "查询失败",
+            "error_failed": "汇率查询失败",
+            "error_limit": "超出汇款金额限制",
+            "error_max_amount": "最大汇款金额：%1$s 韩元",
+            "error_min_amount": "最小汇款金额：%1$s 韩元",
+            "error_network": "网络错误",
+            "error_unavailable": "该金额无法查询",
+            "error_unavailable_method": "当前不支持此汇款方式",
+            "fee": "含手续费",
+            "loading": "查询中...",
+            "mobile_wallet": "移动钱包",
+            "no_results": "暂无结果",
+            "payout_methods": {
+              "1": "现金领取",
+              "2": "银行转账",
+              "12": "上门派送",
+              "13": "移动钱包",
+              "14": "刷卡支付",
+              "15": "Bank Deposit (USD)",
+              "16": "微信支付",
+              "17": "支付宝",
+              "18": "Visa/Mastercard/银联",
+              "19": "Visa/Mastercard",
+              "24": "UPTION",
+              "25": "UPI",
+              "26": "UZCARD",
+              "27": "HUMO Card",
+              "33": "bKash",
+              "34": "Rocket",
+              "35": "Nagad",
+              "37": "QR 支付",
+              "38": "Korti Milli"
+            },
+            "qr_pay": "QR支付",
+            "rate": "汇率",
+            "realtime": "实时",
+            "receive_amount": "收款金额",
+            "receive_country": "收款国家",
+            "search_placeholder": "搜索国家",
+            "send_amount": "汇款金额",
+            "title": "实时汇率计算器"
+          }
+        }
+      }
+    },
+    "loan": {
+      "cta": {
+        "description": "通过手机轻松申请，快速获取所需资金。",
+        "inline_notice": "ⓘ 点击下方按钮将连接到GME Finance提供的贷款服务。",
+        "title": "立即通过GME APP开始贷款"
+      }
+    },
+    "mobile-section": {
+      "hero": {
+        "description": "选择咨询类型，我们将为您转接至相应窗口。"
+      }
+    },
+    "payments": {
+      "business": {
+        "cta": {
+          "description": "通过全球支付解决方案发展您的业务。我们的专属经理将为您提供最佳方案。",
+          "email": "corporate@gmeremit.com",
+          "title": "开始使用GME Payments"
+        }
+      }
+    },
+    "remittance": {
+      "features": {
+        "app": {
+          "desc": "轻触几下即可完成汇款",
+          "title": "APP汇款"
+        },
+        "branches": {
+          "desc": "在全国各分行获得帮助",
+          "title": "线下分行"
+        },
+        "convenient": {
+          "desc": "任何人都能轻松使用的直观操作",
+          "title": "便捷操作"
+        },
+        "multilingual": {
+          "desc": "支持多语言使用",
+          "title": "多语言支持"
+        },
+        "subtitle": "汇款和追踪全在一个APP里",
+        "title": "更简单",
+        "title2": "更安全地汇款"
+      }
+    },
+    "services": {
+      "chat": {
+        "title": "将为您连接实时在线咨询"
+      },
+      "complete": {
+        "title": "咨询已受理"
+      },
+      "external": {
+        "title": "将前往 {{site}}"
+      },
+      "hero": {
+        "title": "有什么可以帮助您"
+      }
+    },
+    "support": {
+      "hero": {
+        "desc1": "通过全国分行与全球社交渠道,",
+        "desc2": "您可随时咨询并获得帮助。",
+        "desc3": "就近前往分行,或通过社交媒体联系我们。",
+        "title": "GME,始终在您身边"
+      }
+    },
+    "telecom-page-client": {
+      "cta": {
+        "button": "前往GME Telecom",
+        "description": "简单实惠的手机套餐,支持17种语言。",
+        "title": "开始使用GME Telecom"
+      },
+      "features": {
+        "activation": {
+          "description": "在App内轻松自助开通",
+          "title": "5分钟自助开通"
+        },
+        "affordable": {
+          "description": "外国人专属超低价套餐",
+          "title": "月费3,300韩元起"
+        },
+        "esim": {
+          "description": "扫描二维码即可立即激活",
+          "title": "支持eSIM"
+        },
+        "intl_call": {
+          "description": "部分套餐每日20分钟国际通话",
+          "title": "包含国际电话"
+        },
+        "multilang": {
+          "description": "用母语轻松使用",
+          "title": "支持17种语言"
+        },
+        "network": {
+          "description": "全国稳定的通话品质",
+          "title": "LGU+、KT同等品质"
+        },
+        "plans": {
+          "description": "月费3,300韩元起的合适套餐",
+          "title": "多样套餐"
+        },
+        "usim": {
+          "description": "收到后5分钟内完成开通",
+          "title": "USIM自助开通"
+        }
+      }
+    },
+    "company": {
+      "tabs": {
+        "title": "公司介绍"
+      }
+    },
+    "button": {
+      "app_download": "下载APP"
+    }
+  }
+}

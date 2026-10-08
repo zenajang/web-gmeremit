@@ -1,0 +1,2707 @@
+{
+  "country": {
+    "bangladesh": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "تنزيل تطبيق GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "حاسبة GME Remit",
+        "exchangeRateLabel": "سعر الصرف",
+        "receiverGetsLabel": "المبلغ الذي سيستلمه المستفيد",
+        "recipientCountryLabel": "بلد المستلم",
+        "recipientCountryOption": "Bangladesh",
+        "sendAmountLabel": "مبلغ الإرسال",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "أرسل المال الآن",
+        "transferFeeLabel": "رسوم التحويل"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "BDT",
+        "sampleTag": "قيم توضيحية"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. جميع الحقوق محفوظة.",
+        "logoText": "GME",
+        "tagline": "خدمات مالية للعملاء العرب في كوريا."
+      },
+      "header": {
+        "downloadAppLabel": "تنزيل التطبيق",
+        "navItems": {
+          "company": "الشركة",
+          "countries": "الدول",
+          "news": "الأخبار",
+          "services": "الخدمات",
+          "support": "الدعم"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "أرسل المال الآن",
+        "ctaSecondaryLabel": "ابدأ الآن",
+        "eyebrow": "GME Bangladesh",
+        "headingLines": [
+          "أرسل المال إلى أحبائك.",
+          "ابقَ على اتصال.",
+          "أنفق بسهولة."
+        ],
+        "subheading": "خدمات موثوقة للعملاء العرب المقيمين في كوريا"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "الأسئلة الشائعة حول GME Remit",
+          "items": [
+            {
+              "answer": [
+                "عادةً ما تكتمل تحويلات GME Remit في حوالي 10 ثوانٍ، رغم أن الوقت الفعلي قد يختلف حسب الدولة المستلمة أو البنك أو طريقة الدفع."
+              ],
+              "question": "كم يستغرق إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "نعم. GME Remit خدمة تحويل أموال مرخصة في كوريا وتخضع لإشراف الجهات المالية الكورية المختصة. نستخدم إجراءات آمنة للتحقق من العملاء والمعاملات لحماية عملائنا."
+              ],
+              "question": "هل استخدام GME Remit آمن؟"
+            },
+            {
+              "answer": [
+                "نزّل تطبيق GME Remit، وأنشئ حسابك، وأكمل التحقق من الهوية المطلوب. بعد إتمام التسجيل والتحقق، يمكنك البدء باستخدام خدمات GME Remit."
+              ],
+              "question": "كيف أسجل حسابًا في GME Remit؟"
+            },
+            {
+              "answer": [
+                "يدعم GME Remit التحويلات المالية الدولية إلى العديد من الدول حول العالم. يمكن الاطلاع على الوجهات المتاحة وخيارات الدفع مباشرة عبر تطبيق GME Remit."
+              ],
+              "question": "إلى أي دول يمكنني إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "فريق دعم العملاء متاح من 10:00 إلى 23:00 من الاثنين إلى الأحد. يمكنك التواصل معنا عبر {SUPPORT_PHONE_NUMBER} أو تطبيق GME Remit أو قنوات GME الرسمية على وسائل التواصل الاجتماعي أو زيارة أحد فروع GME Remit في كوريا."
+              ],
+              "question": "ماذا أفعل إذا واجهت مشكلة في التحويل؟"
+            }
+          ],
+          "subheading": "اعثر على إجابات للأسئلة الشائعة حول إرسال الأموال باستخدام GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "تواصل مع GME Bangladesh",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "أخبار ونصائح مفيدة وتحديثات لمجتمعنا"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "استكشف بطاقات GME",
+          "description": "مدفوعات بسيطة للحياة اليومية في كوريا وخارجها.",
+          "eyebrow": "GME Card",
+          "features": [
+            "الدفع حول العالم",
+            "التسوق",
+            "المواصلات",
+            "استرداد نقدي",
+            "مزايا EasyCare"
+          ],
+          "heading": "بطاقة واحدة لكل احتياجاتك"
+        },
+        "exchangeRate": {
+          "description": "See the latest GME Remit exchange rate before sending money from Korea to Bangladesh",
+          "eyebrow": "سعر الصرف",
+          "heading": "تحقق من سعر الصرف اليوم",
+          "note": "قد تتغير أسعار الصرف خلال اليوم"
+        },
+        "loan": {
+          "ctaLabel": "قدّم الآن",
+          "description": "استفد من تجربة قروض رقمية مصممة للأجانب المقيمين في كوريا. قدّم طلبك بسهولة عبر تطبيق GME.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "طلب قرض بدون أوراق",
+            "متابعة حالة القرض لحظيًا",
+            "متابعة رصيد القرض لحظيًا"
+          ],
+          "heading": "شريكك المالي الرقمي"
+        },
+        "remittance": {
+          "ctaLabel": "أرسل المال الآن",
+          "description": "A simple, secure way to support your family and loved ones in Bangladesh from Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "أسعار صرف تنافسية",
+            "تحويلات سريعة وموثوقة",
+            "رسوم واضحة",
+            "دعم عند الحاجة"
+          ],
+          "heading": "Send Money to Bangladesh"
+        },
+        "simCard": {
+          "ctaLabel": "عرض باقات SIM",
+          "description": "ابقَ قريبًا مما يهمك مع باقات جوال مصممة لتجعل الحياة في كوريا أكثر سهولة.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "اتصال موثوق",
+            "باقات SIM مرنة",
+            "إعداد بسيط",
+            "دعم محلي ودود"
+          ],
+          "heading": "ابقَ على اتصال في كوريا"
+        }
+      }
+    },
+    "cambodia": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "تنزيل تطبيق GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "حاسبة GME Remit",
+        "exchangeRateLabel": "سعر الصرف",
+        "receiverGetsLabel": "المبلغ الذي سيستلمه المستفيد",
+        "recipientCountryLabel": "بلد المستلم",
+        "recipientCountryOption": "Cambodia",
+        "sendAmountLabel": "مبلغ الإرسال",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "أرسل المال الآن",
+        "transferFeeLabel": "رسوم التحويل"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "KHR",
+        "sampleTag": "قيم توضيحية"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. جميع الحقوق محفوظة.",
+        "logoText": "GME",
+        "tagline": "خدمات مالية للعملاء العرب في كوريا."
+      },
+      "header": {
+        "downloadAppLabel": "تنزيل التطبيق",
+        "navItems": {
+          "company": "الشركة",
+          "countries": "الدول",
+          "news": "الأخبار",
+          "services": "الخدمات",
+          "support": "الدعم"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "أرسل المال الآن",
+        "ctaSecondaryLabel": "ابدأ الآن",
+        "eyebrow": "GME Cambodia",
+        "headingLines": [
+          "أرسل المال إلى أحبائك.",
+          "ابقَ على اتصال.",
+          "أنفق بسهولة."
+        ],
+        "subheading": "خدمات موثوقة للعملاء العرب المقيمين في كوريا"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "الأسئلة الشائعة حول GME Remit",
+          "items": [
+            {
+              "answer": [
+                "عادةً ما تكتمل تحويلات GME Remit في حوالي 10 ثوانٍ، رغم أن الوقت الفعلي قد يختلف حسب الدولة المستلمة أو البنك أو طريقة الدفع."
+              ],
+              "question": "كم يستغرق إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "نعم. GME Remit خدمة تحويل أموال مرخصة في كوريا وتخضع لإشراف الجهات المالية الكورية المختصة. نستخدم إجراءات آمنة للتحقق من العملاء والمعاملات لحماية عملائنا."
+              ],
+              "question": "هل استخدام GME Remit آمن؟"
+            },
+            {
+              "answer": [
+                "نزّل تطبيق GME Remit، وأنشئ حسابك، وأكمل التحقق من الهوية المطلوب. بعد إتمام التسجيل والتحقق، يمكنك البدء باستخدام خدمات GME Remit."
+              ],
+              "question": "كيف أسجل حسابًا في GME Remit؟"
+            },
+            {
+              "answer": [
+                "يدعم GME Remit التحويلات المالية الدولية إلى العديد من الدول حول العالم. يمكن الاطلاع على الوجهات المتاحة وخيارات الدفع مباشرة عبر تطبيق GME Remit."
+              ],
+              "question": "إلى أي دول يمكنني إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "فريق دعم العملاء متاح من 10:00 إلى 23:00 من الاثنين إلى الأحد. يمكنك التواصل معنا عبر {SUPPORT_PHONE_NUMBER} أو تطبيق GME Remit أو قنوات GME الرسمية على وسائل التواصل الاجتماعي أو زيارة أحد فروع GME Remit في كوريا."
+              ],
+              "question": "ماذا أفعل إذا واجهت مشكلة في التحويل؟"
+            }
+          ],
+          "subheading": "اعثر على إجابات للأسئلة الشائعة حول إرسال الأموال باستخدام GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "تواصل مع GME Cambodia",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "أخبار ونصائح مفيدة وتحديثات لمجتمعنا"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "استكشف بطاقات GME",
+          "description": "مدفوعات بسيطة للحياة اليومية في كوريا وخارجها.",
+          "eyebrow": "GME Card",
+          "features": [
+            "الدفع حول العالم",
+            "التسوق",
+            "المواصلات",
+            "استرداد نقدي",
+            "مزايا EasyCare"
+          ],
+          "heading": "بطاقة واحدة لكل احتياجاتك"
+        },
+        "exchangeRate": {
+          "description": "See the latest GME Remit exchange rate before sending money from Korea to Cambodia",
+          "eyebrow": "سعر الصرف",
+          "heading": "تحقق من سعر الصرف اليوم",
+          "note": "قد تتغير أسعار الصرف خلال اليوم"
+        },
+        "loan": {
+          "ctaLabel": "قدّم الآن",
+          "description": "استفد من تجربة قروض رقمية مصممة للأجانب المقيمين في كوريا. قدّم طلبك بسهولة عبر تطبيق GME.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "طلب قرض بدون أوراق",
+            "متابعة حالة القرض لحظيًا",
+            "متابعة رصيد القرض لحظيًا"
+          ],
+          "heading": "شريكك المالي الرقمي"
+        },
+        "remittance": {
+          "ctaLabel": "أرسل المال الآن",
+          "description": "A simple, secure way to support your family and loved ones in Cambodia from Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "أسعار صرف تنافسية",
+            "تحويلات سريعة وموثوقة",
+            "رسوم واضحة",
+            "دعم عند الحاجة"
+          ],
+          "heading": "Send Money to Cambodia"
+        },
+        "simCard": {
+          "ctaLabel": "عرض باقات SIM",
+          "description": "ابقَ قريبًا مما يهمك مع باقات جوال مصممة لتجعل الحياة في كوريا أكثر سهولة.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "اتصال موثوق",
+            "باقات SIM مرنة",
+            "إعداد بسيط",
+            "دعم محلي ودود"
+          ],
+          "heading": "ابقَ على اتصال في كوريا"
+        }
+      }
+    },
+    "china": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "تنزيل تطبيق GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "حاسبة GME Remit",
+        "exchangeRateLabel": "سعر الصرف",
+        "receiverGetsLabel": "المبلغ الذي سيستلمه المستفيد",
+        "recipientCountryLabel": "بلد المستلم",
+        "recipientCountryOption": "China",
+        "sendAmountLabel": "مبلغ الإرسال",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "أرسل المال الآن",
+        "transferFeeLabel": "رسوم التحويل"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "CNY",
+        "sampleTag": "قيم توضيحية"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. جميع الحقوق محفوظة.",
+        "logoText": "GME",
+        "tagline": "خدمات مالية للعملاء العرب في كوريا."
+      },
+      "header": {
+        "downloadAppLabel": "تنزيل التطبيق",
+        "navItems": {
+          "company": "الشركة",
+          "countries": "الدول",
+          "news": "الأخبار",
+          "services": "الخدمات",
+          "support": "الدعم"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "أرسل المال الآن",
+        "ctaSecondaryLabel": "ابدأ الآن",
+        "eyebrow": "GME China",
+        "headingLines": [
+          "أرسل المال إلى أحبائك.",
+          "ابقَ على اتصال.",
+          "أنفق بسهولة."
+        ],
+        "subheading": "خدمات موثوقة للعملاء العرب المقيمين في كوريا"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "الأسئلة الشائعة حول GME Remit",
+          "items": [
+            {
+              "answer": [
+                "عادةً ما تكتمل تحويلات GME Remit في حوالي 10 ثوانٍ، رغم أن الوقت الفعلي قد يختلف حسب الدولة المستلمة أو البنك أو طريقة الدفع."
+              ],
+              "question": "كم يستغرق إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "نعم. GME Remit خدمة تحويل أموال مرخصة في كوريا وتخضع لإشراف الجهات المالية الكورية المختصة. نستخدم إجراءات آمنة للتحقق من العملاء والمعاملات لحماية عملائنا."
+              ],
+              "question": "هل استخدام GME Remit آمن؟"
+            },
+            {
+              "answer": [
+                "نزّل تطبيق GME Remit، وأنشئ حسابك، وأكمل التحقق من الهوية المطلوب. بعد إتمام التسجيل والتحقق، يمكنك البدء باستخدام خدمات GME Remit."
+              ],
+              "question": "كيف أسجل حسابًا في GME Remit؟"
+            },
+            {
+              "answer": [
+                "يدعم GME Remit التحويلات المالية الدولية إلى العديد من الدول حول العالم. يمكن الاطلاع على الوجهات المتاحة وخيارات الدفع مباشرة عبر تطبيق GME Remit."
+              ],
+              "question": "إلى أي دول يمكنني إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "فريق دعم العملاء متاح من 10:00 إلى 23:00 من الاثنين إلى الأحد. يمكنك التواصل معنا عبر {SUPPORT_PHONE_NUMBER} أو تطبيق GME Remit أو قنوات GME الرسمية على وسائل التواصل الاجتماعي أو زيارة أحد فروع GME Remit في كوريا."
+              ],
+              "question": "ماذا أفعل إذا واجهت مشكلة في التحويل؟"
+            }
+          ],
+          "subheading": "اعثر على إجابات للأسئلة الشائعة حول إرسال الأموال باستخدام GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "تواصل مع GME China",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "أخبار ونصائح مفيدة وتحديثات لمجتمعنا"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "استكشف بطاقات GME",
+          "description": "مدفوعات بسيطة للحياة اليومية في كوريا وخارجها.",
+          "eyebrow": "GME Card",
+          "features": [
+            "الدفع حول العالم",
+            "التسوق",
+            "المواصلات",
+            "استرداد نقدي",
+            "مزايا EasyCare"
+          ],
+          "heading": "بطاقة واحدة لكل احتياجاتك"
+        },
+        "exchangeRate": {
+          "description": "See the latest GME Remit exchange rate before sending money from Korea to China",
+          "eyebrow": "سعر الصرف",
+          "heading": "تحقق من سعر الصرف اليوم",
+          "note": "قد تتغير أسعار الصرف خلال اليوم"
+        },
+        "loan": {
+          "ctaLabel": "قدّم الآن",
+          "description": "استفد من تجربة قروض رقمية مصممة للأجانب المقيمين في كوريا. قدّم طلبك بسهولة عبر تطبيق GME.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "طلب قرض بدون أوراق",
+            "متابعة حالة القرض لحظيًا",
+            "متابعة رصيد القرض لحظيًا"
+          ],
+          "heading": "شريكك المالي الرقمي"
+        },
+        "remittance": {
+          "ctaLabel": "أرسل المال الآن",
+          "description": "A simple, secure way to support your family and loved ones in China from Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "أسعار صرف تنافسية",
+            "تحويلات سريعة وموثوقة",
+            "رسوم واضحة",
+            "دعم عند الحاجة"
+          ],
+          "heading": "Send Money to China"
+        },
+        "simCard": {
+          "ctaLabel": "عرض باقات SIM",
+          "description": "ابقَ قريبًا مما يهمك مع باقات جوال مصممة لتجعل الحياة في كوريا أكثر سهولة.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "اتصال موثوق",
+            "باقات SIM مرنة",
+            "إعداد بسيط",
+            "دعم محلي ودود"
+          ],
+          "heading": "ابقَ على اتصال في كوريا"
+        }
+      }
+    },
+    "india": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "تنزيل تطبيق GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "حاسبة GME Remit",
+        "exchangeRateLabel": "سعر الصرف",
+        "receiverGetsLabel": "المبلغ الذي سيستلمه المستفيد",
+        "recipientCountryLabel": "بلد المستلم",
+        "recipientCountryOption": "India",
+        "sendAmountLabel": "مبلغ الإرسال",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "أرسل المال الآن",
+        "transferFeeLabel": "رسوم التحويل"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "INR",
+        "sampleTag": "قيم توضيحية"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. جميع الحقوق محفوظة.",
+        "logoText": "GME",
+        "tagline": "خدمات مالية للعملاء العرب في كوريا."
+      },
+      "header": {
+        "downloadAppLabel": "تنزيل التطبيق",
+        "navItems": {
+          "company": "الشركة",
+          "countries": "الدول",
+          "news": "الأخبار",
+          "services": "الخدمات",
+          "support": "الدعم"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "أرسل المال الآن",
+        "ctaSecondaryLabel": "ابدأ الآن",
+        "eyebrow": "GME India",
+        "headingLines": [
+          "أرسل المال إلى أحبائك.",
+          "ابقَ على اتصال.",
+          "أنفق بسهولة."
+        ],
+        "subheading": "خدمات موثوقة للعملاء العرب المقيمين في كوريا"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "الأسئلة الشائعة حول GME Remit",
+          "items": [
+            {
+              "answer": [
+                "عادةً ما تكتمل تحويلات GME Remit في حوالي 10 ثوانٍ، رغم أن الوقت الفعلي قد يختلف حسب الدولة المستلمة أو البنك أو طريقة الدفع."
+              ],
+              "question": "كم يستغرق إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "نعم. GME Remit خدمة تحويل أموال مرخصة في كوريا وتخضع لإشراف الجهات المالية الكورية المختصة. نستخدم إجراءات آمنة للتحقق من العملاء والمعاملات لحماية عملائنا."
+              ],
+              "question": "هل استخدام GME Remit آمن؟"
+            },
+            {
+              "answer": [
+                "نزّل تطبيق GME Remit، وأنشئ حسابك، وأكمل التحقق من الهوية المطلوب. بعد إتمام التسجيل والتحقق، يمكنك البدء باستخدام خدمات GME Remit."
+              ],
+              "question": "كيف أسجل حسابًا في GME Remit؟"
+            },
+            {
+              "answer": [
+                "يدعم GME Remit التحويلات المالية الدولية إلى العديد من الدول حول العالم. يمكن الاطلاع على الوجهات المتاحة وخيارات الدفع مباشرة عبر تطبيق GME Remit."
+              ],
+              "question": "إلى أي دول يمكنني إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "فريق دعم العملاء متاح من 10:00 إلى 23:00 من الاثنين إلى الأحد. يمكنك التواصل معنا عبر {SUPPORT_PHONE_NUMBER} أو تطبيق GME Remit أو قنوات GME الرسمية على وسائل التواصل الاجتماعي أو زيارة أحد فروع GME Remit في كوريا."
+              ],
+              "question": "ماذا أفعل إذا واجهت مشكلة في التحويل؟"
+            }
+          ],
+          "subheading": "اعثر على إجابات للأسئلة الشائعة حول إرسال الأموال باستخدام GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "تواصل مع GME India",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "أخبار ونصائح مفيدة وتحديثات لمجتمعنا"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "استكشف بطاقات GME",
+          "description": "مدفوعات بسيطة للحياة اليومية في كوريا وخارجها.",
+          "eyebrow": "GME Card",
+          "features": [
+            "الدفع حول العالم",
+            "التسوق",
+            "المواصلات",
+            "استرداد نقدي",
+            "مزايا EasyCare"
+          ],
+          "heading": "بطاقة واحدة لكل احتياجاتك"
+        },
+        "exchangeRate": {
+          "description": "See the latest GME Remit exchange rate before sending money from Korea to India",
+          "eyebrow": "سعر الصرف",
+          "heading": "تحقق من سعر الصرف اليوم",
+          "note": "قد تتغير أسعار الصرف خلال اليوم"
+        },
+        "loan": {
+          "ctaLabel": "قدّم الآن",
+          "description": "استفد من تجربة قروض رقمية مصممة للأجانب المقيمين في كوريا. قدّم طلبك بسهولة عبر تطبيق GME.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "طلب قرض بدون أوراق",
+            "متابعة حالة القرض لحظيًا",
+            "متابعة رصيد القرض لحظيًا"
+          ],
+          "heading": "شريكك المالي الرقمي"
+        },
+        "remittance": {
+          "ctaLabel": "أرسل المال الآن",
+          "description": "A simple, secure way to support your family and loved ones in India from Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "أسعار صرف تنافسية",
+            "تحويلات سريعة وموثوقة",
+            "رسوم واضحة",
+            "دعم عند الحاجة"
+          ],
+          "heading": "Send Money to India"
+        },
+        "simCard": {
+          "ctaLabel": "عرض باقات SIM",
+          "description": "ابقَ قريبًا مما يهمك مع باقات جوال مصممة لتجعل الحياة في كوريا أكثر سهولة.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "اتصال موثوق",
+            "باقات SIM مرنة",
+            "إعداد بسيط",
+            "دعم محلي ودود"
+          ],
+          "heading": "ابقَ على اتصال في كوريا"
+        }
+      }
+    },
+    "indonesia": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "تنزيل تطبيق GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "حاسبة GME Remit",
+        "exchangeRateLabel": "سعر الصرف",
+        "receiverGetsLabel": "المبلغ الذي سيستلمه المستفيد",
+        "recipientCountryLabel": "بلد المستلم",
+        "recipientCountryOption": "Indonesia",
+        "sendAmountLabel": "مبلغ الإرسال",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "أرسل المال الآن",
+        "transferFeeLabel": "رسوم التحويل"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "IDR",
+        "sampleTag": "قيم توضيحية"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. جميع الحقوق محفوظة.",
+        "logoText": "GME",
+        "tagline": "خدمات مالية للعملاء العرب في كوريا."
+      },
+      "header": {
+        "downloadAppLabel": "تنزيل التطبيق",
+        "navItems": {
+          "company": "الشركة",
+          "countries": "الدول",
+          "news": "الأخبار",
+          "services": "الخدمات",
+          "support": "الدعم"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "أرسل المال الآن",
+        "ctaSecondaryLabel": "ابدأ الآن",
+        "eyebrow": "GME Indonesia",
+        "headingLines": [
+          "أرسل المال إلى أحبائك.",
+          "ابقَ على اتصال.",
+          "أنفق بسهولة."
+        ],
+        "subheading": "خدمات موثوقة للعملاء العرب المقيمين في كوريا"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "الأسئلة الشائعة حول GME Remit",
+          "items": [
+            {
+              "answer": [
+                "عادةً ما تكتمل تحويلات GME Remit في حوالي 10 ثوانٍ، رغم أن الوقت الفعلي قد يختلف حسب الدولة المستلمة أو البنك أو طريقة الدفع."
+              ],
+              "question": "كم يستغرق إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "نعم. GME Remit خدمة تحويل أموال مرخصة في كوريا وتخضع لإشراف الجهات المالية الكورية المختصة. نستخدم إجراءات آمنة للتحقق من العملاء والمعاملات لحماية عملائنا."
+              ],
+              "question": "هل استخدام GME Remit آمن؟"
+            },
+            {
+              "answer": [
+                "نزّل تطبيق GME Remit، وأنشئ حسابك، وأكمل التحقق من الهوية المطلوب. بعد إتمام التسجيل والتحقق، يمكنك البدء باستخدام خدمات GME Remit."
+              ],
+              "question": "كيف أسجل حسابًا في GME Remit؟"
+            },
+            {
+              "answer": [
+                "يدعم GME Remit التحويلات المالية الدولية إلى العديد من الدول حول العالم. يمكن الاطلاع على الوجهات المتاحة وخيارات الدفع مباشرة عبر تطبيق GME Remit."
+              ],
+              "question": "إلى أي دول يمكنني إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "فريق دعم العملاء متاح من 10:00 إلى 23:00 من الاثنين إلى الأحد. يمكنك التواصل معنا عبر {SUPPORT_PHONE_NUMBER} أو تطبيق GME Remit أو قنوات GME الرسمية على وسائل التواصل الاجتماعي أو زيارة أحد فروع GME Remit في كوريا."
+              ],
+              "question": "ماذا أفعل إذا واجهت مشكلة في التحويل؟"
+            }
+          ],
+          "subheading": "اعثر على إجابات للأسئلة الشائعة حول إرسال الأموال باستخدام GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "تواصل مع GME Indonesia",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "أخبار ونصائح مفيدة وتحديثات لمجتمعنا"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "استكشف بطاقات GME",
+          "description": "مدفوعات بسيطة للحياة اليومية في كوريا وخارجها.",
+          "eyebrow": "GME Card",
+          "features": [
+            "الدفع حول العالم",
+            "التسوق",
+            "المواصلات",
+            "استرداد نقدي",
+            "مزايا EasyCare"
+          ],
+          "heading": "بطاقة واحدة لكل احتياجاتك"
+        },
+        "exchangeRate": {
+          "description": "See the latest GME Remit exchange rate before sending money from Korea to Indonesia",
+          "eyebrow": "سعر الصرف",
+          "heading": "تحقق من سعر الصرف اليوم",
+          "note": "قد تتغير أسعار الصرف خلال اليوم"
+        },
+        "loan": {
+          "ctaLabel": "قدّم الآن",
+          "description": "استفد من تجربة قروض رقمية مصممة للأجانب المقيمين في كوريا. قدّم طلبك بسهولة عبر تطبيق GME.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "طلب قرض بدون أوراق",
+            "متابعة حالة القرض لحظيًا",
+            "متابعة رصيد القرض لحظيًا"
+          ],
+          "heading": "شريكك المالي الرقمي"
+        },
+        "remittance": {
+          "ctaLabel": "أرسل المال الآن",
+          "description": "A simple, secure way to support your family and loved ones in Indonesia from Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "أسعار صرف تنافسية",
+            "تحويلات سريعة وموثوقة",
+            "رسوم واضحة",
+            "دعم عند الحاجة"
+          ],
+          "heading": "Send Money to Indonesia"
+        },
+        "simCard": {
+          "ctaLabel": "عرض باقات SIM",
+          "description": "ابقَ قريبًا مما يهمك مع باقات جوال مصممة لتجعل الحياة في كوريا أكثر سهولة.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "اتصال موثوق",
+            "باقات SIM مرنة",
+            "إعداد بسيط",
+            "دعم محلي ودود"
+          ],
+          "heading": "ابقَ على اتصال في كوريا"
+        }
+      }
+    },
+    "kazakhstan": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "تنزيل تطبيق GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "حاسبة GME Remit",
+        "exchangeRateLabel": "سعر الصرف",
+        "receiverGetsLabel": "المبلغ الذي سيستلمه المستفيد",
+        "recipientCountryLabel": "بلد المستلم",
+        "recipientCountryOption": "Kazakhstan",
+        "sendAmountLabel": "مبلغ الإرسال",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "أرسل المال الآن",
+        "transferFeeLabel": "رسوم التحويل"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "KZT",
+        "sampleTag": "قيم توضيحية"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. جميع الحقوق محفوظة.",
+        "logoText": "GME",
+        "tagline": "خدمات مالية للعملاء العرب في كوريا."
+      },
+      "header": {
+        "downloadAppLabel": "تنزيل التطبيق",
+        "navItems": {
+          "company": "الشركة",
+          "countries": "الدول",
+          "news": "الأخبار",
+          "services": "الخدمات",
+          "support": "الدعم"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "أرسل المال الآن",
+        "ctaSecondaryLabel": "ابدأ الآن",
+        "eyebrow": "GME Kazakhstan",
+        "headingLines": [
+          "أرسل المال إلى أحبائك.",
+          "ابقَ على اتصال.",
+          "أنفق بسهولة."
+        ],
+        "subheading": "خدمات موثوقة للعملاء العرب المقيمين في كوريا"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "الأسئلة الشائعة حول GME Remit",
+          "items": [
+            {
+              "answer": [
+                "عادةً ما تكتمل تحويلات GME Remit في حوالي 10 ثوانٍ، رغم أن الوقت الفعلي قد يختلف حسب الدولة المستلمة أو البنك أو طريقة الدفع."
+              ],
+              "question": "كم يستغرق إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "نعم. GME Remit خدمة تحويل أموال مرخصة في كوريا وتخضع لإشراف الجهات المالية الكورية المختصة. نستخدم إجراءات آمنة للتحقق من العملاء والمعاملات لحماية عملائنا."
+              ],
+              "question": "هل استخدام GME Remit آمن؟"
+            },
+            {
+              "answer": [
+                "نزّل تطبيق GME Remit، وأنشئ حسابك، وأكمل التحقق من الهوية المطلوب. بعد إتمام التسجيل والتحقق، يمكنك البدء باستخدام خدمات GME Remit."
+              ],
+              "question": "كيف أسجل حسابًا في GME Remit؟"
+            },
+            {
+              "answer": [
+                "يدعم GME Remit التحويلات المالية الدولية إلى العديد من الدول حول العالم. يمكن الاطلاع على الوجهات المتاحة وخيارات الدفع مباشرة عبر تطبيق GME Remit."
+              ],
+              "question": "إلى أي دول يمكنني إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "فريق دعم العملاء متاح من 10:00 إلى 23:00 من الاثنين إلى الأحد. يمكنك التواصل معنا عبر {SUPPORT_PHONE_NUMBER} أو تطبيق GME Remit أو قنوات GME الرسمية على وسائل التواصل الاجتماعي أو زيارة أحد فروع GME Remit في كوريا."
+              ],
+              "question": "ماذا أفعل إذا واجهت مشكلة في التحويل؟"
+            }
+          ],
+          "subheading": "اعثر على إجابات للأسئلة الشائعة حول إرسال الأموال باستخدام GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "تواصل مع GME Kazakhstan",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "أخبار ونصائح مفيدة وتحديثات لمجتمعنا"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "استكشف بطاقات GME",
+          "description": "مدفوعات بسيطة للحياة اليومية في كوريا وخارجها.",
+          "eyebrow": "GME Card",
+          "features": [
+            "الدفع حول العالم",
+            "التسوق",
+            "المواصلات",
+            "استرداد نقدي",
+            "مزايا EasyCare"
+          ],
+          "heading": "بطاقة واحدة لكل احتياجاتك"
+        },
+        "exchangeRate": {
+          "description": "See the latest GME Remit exchange rate before sending money from Korea to Kazakhstan",
+          "eyebrow": "سعر الصرف",
+          "heading": "تحقق من سعر الصرف اليوم",
+          "note": "قد تتغير أسعار الصرف خلال اليوم"
+        },
+        "loan": {
+          "ctaLabel": "قدّم الآن",
+          "description": "استفد من تجربة قروض رقمية مصممة للأجانب المقيمين في كوريا. قدّم طلبك بسهولة عبر تطبيق GME.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "طلب قرض بدون أوراق",
+            "متابعة حالة القرض لحظيًا",
+            "متابعة رصيد القرض لحظيًا"
+          ],
+          "heading": "شريكك المالي الرقمي"
+        },
+        "remittance": {
+          "ctaLabel": "أرسل المال الآن",
+          "description": "A simple, secure way to support your family and loved ones in Kazakhstan from Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "أسعار صرف تنافسية",
+            "تحويلات سريعة وموثوقة",
+            "رسوم واضحة",
+            "دعم عند الحاجة"
+          ],
+          "heading": "Send Money to Kazakhstan"
+        },
+        "simCard": {
+          "ctaLabel": "عرض باقات SIM",
+          "description": "ابقَ قريبًا مما يهمك مع باقات جوال مصممة لتجعل الحياة في كوريا أكثر سهولة.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "اتصال موثوق",
+            "باقات SIM مرنة",
+            "إعداد بسيط",
+            "دعم محلي ودود"
+          ],
+          "heading": "ابقَ على اتصال في كوريا"
+        }
+      }
+    },
+    "kyrgyzstan": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "تنزيل تطبيق GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "حاسبة GME Remit",
+        "exchangeRateLabel": "سعر الصرف",
+        "receiverGetsLabel": "المبلغ الذي سيستلمه المستفيد",
+        "recipientCountryLabel": "بلد المستلم",
+        "recipientCountryOption": "Kyrgyzstan",
+        "sendAmountLabel": "مبلغ الإرسال",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "أرسل المال الآن",
+        "transferFeeLabel": "رسوم التحويل"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "KGS",
+        "sampleTag": "قيم توضيحية"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. جميع الحقوق محفوظة.",
+        "logoText": "GME",
+        "tagline": "خدمات مالية للعملاء العرب في كوريا."
+      },
+      "header": {
+        "downloadAppLabel": "تنزيل التطبيق",
+        "navItems": {
+          "company": "الشركة",
+          "countries": "الدول",
+          "news": "الأخبار",
+          "services": "الخدمات",
+          "support": "الدعم"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "أرسل المال الآن",
+        "ctaSecondaryLabel": "ابدأ الآن",
+        "eyebrow": "GME Kyrgyzstan",
+        "headingLines": [
+          "أرسل المال إلى أحبائك.",
+          "ابقَ على اتصال.",
+          "أنفق بسهولة."
+        ],
+        "subheading": "خدمات موثوقة للعملاء العرب المقيمين في كوريا"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "الأسئلة الشائعة حول GME Remit",
+          "items": [
+            {
+              "answer": [
+                "عادةً ما تكتمل تحويلات GME Remit في حوالي 10 ثوانٍ، رغم أن الوقت الفعلي قد يختلف حسب الدولة المستلمة أو البنك أو طريقة الدفع."
+              ],
+              "question": "كم يستغرق إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "نعم. GME Remit خدمة تحويل أموال مرخصة في كوريا وتخضع لإشراف الجهات المالية الكورية المختصة. نستخدم إجراءات آمنة للتحقق من العملاء والمعاملات لحماية عملائنا."
+              ],
+              "question": "هل استخدام GME Remit آمن؟"
+            },
+            {
+              "answer": [
+                "نزّل تطبيق GME Remit، وأنشئ حسابك، وأكمل التحقق من الهوية المطلوب. بعد إتمام التسجيل والتحقق، يمكنك البدء باستخدام خدمات GME Remit."
+              ],
+              "question": "كيف أسجل حسابًا في GME Remit؟"
+            },
+            {
+              "answer": [
+                "يدعم GME Remit التحويلات المالية الدولية إلى العديد من الدول حول العالم. يمكن الاطلاع على الوجهات المتاحة وخيارات الدفع مباشرة عبر تطبيق GME Remit."
+              ],
+              "question": "إلى أي دول يمكنني إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "فريق دعم العملاء متاح من 10:00 إلى 23:00 من الاثنين إلى الأحد. يمكنك التواصل معنا عبر {SUPPORT_PHONE_NUMBER} أو تطبيق GME Remit أو قنوات GME الرسمية على وسائل التواصل الاجتماعي أو زيارة أحد فروع GME Remit في كوريا."
+              ],
+              "question": "ماذا أفعل إذا واجهت مشكلة في التحويل؟"
+            }
+          ],
+          "subheading": "اعثر على إجابات للأسئلة الشائعة حول إرسال الأموال باستخدام GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "تواصل مع GME Kyrgyzstan",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "أخبار ونصائح مفيدة وتحديثات لمجتمعنا"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "استكشف بطاقات GME",
+          "description": "مدفوعات بسيطة للحياة اليومية في كوريا وخارجها.",
+          "eyebrow": "GME Card",
+          "features": [
+            "الدفع حول العالم",
+            "التسوق",
+            "المواصلات",
+            "استرداد نقدي",
+            "مزايا EasyCare"
+          ],
+          "heading": "بطاقة واحدة لكل احتياجاتك"
+        },
+        "exchangeRate": {
+          "description": "See the latest GME Remit exchange rate before sending money from Korea to Kyrgyzstan",
+          "eyebrow": "سعر الصرف",
+          "heading": "تحقق من سعر الصرف اليوم",
+          "note": "قد تتغير أسعار الصرف خلال اليوم"
+        },
+        "loan": {
+          "ctaLabel": "قدّم الآن",
+          "description": "استفد من تجربة قروض رقمية مصممة للأجانب المقيمين في كوريا. قدّم طلبك بسهولة عبر تطبيق GME.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "طلب قرض بدون أوراق",
+            "متابعة حالة القرض لحظيًا",
+            "متابعة رصيد القرض لحظيًا"
+          ],
+          "heading": "شريكك المالي الرقمي"
+        },
+        "remittance": {
+          "ctaLabel": "أرسل المال الآن",
+          "description": "A simple, secure way to support your family and loved ones in Kyrgyzstan from Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "أسعار صرف تنافسية",
+            "تحويلات سريعة وموثوقة",
+            "رسوم واضحة",
+            "دعم عند الحاجة"
+          ],
+          "heading": "Send Money to Kyrgyzstan"
+        },
+        "simCard": {
+          "ctaLabel": "عرض باقات SIM",
+          "description": "ابقَ قريبًا مما يهمك مع باقات جوال مصممة لتجعل الحياة في كوريا أكثر سهولة.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "اتصال موثوق",
+            "باقات SIM مرنة",
+            "إعداد بسيط",
+            "دعم محلي ودود"
+          ],
+          "heading": "ابقَ على اتصال في كوريا"
+        }
+      }
+    },
+    "laos": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "تنزيل تطبيق GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "حاسبة GME Remit",
+        "exchangeRateLabel": "سعر الصرف",
+        "receiverGetsLabel": "المبلغ الذي سيستلمه المستفيد",
+        "recipientCountryLabel": "بلد المستلم",
+        "recipientCountryOption": "Laos",
+        "sendAmountLabel": "مبلغ الإرسال",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "أرسل المال الآن",
+        "transferFeeLabel": "رسوم التحويل"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "LAK",
+        "sampleTag": "قيم توضيحية"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. جميع الحقوق محفوظة.",
+        "logoText": "GME",
+        "tagline": "خدمات مالية للعملاء العرب في كوريا."
+      },
+      "header": {
+        "downloadAppLabel": "تنزيل التطبيق",
+        "navItems": {
+          "company": "الشركة",
+          "countries": "الدول",
+          "news": "الأخبار",
+          "services": "الخدمات",
+          "support": "الدعم"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "أرسل المال الآن",
+        "ctaSecondaryLabel": "ابدأ الآن",
+        "eyebrow": "GME Laos",
+        "headingLines": [
+          "أرسل المال إلى أحبائك.",
+          "ابقَ على اتصال.",
+          "أنفق بسهولة."
+        ],
+        "subheading": "خدمات موثوقة للعملاء العرب المقيمين في كوريا"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "الأسئلة الشائعة حول GME Remit",
+          "items": [
+            {
+              "answer": [
+                "عادةً ما تكتمل تحويلات GME Remit في حوالي 10 ثوانٍ، رغم أن الوقت الفعلي قد يختلف حسب الدولة المستلمة أو البنك أو طريقة الدفع."
+              ],
+              "question": "كم يستغرق إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "نعم. GME Remit خدمة تحويل أموال مرخصة في كوريا وتخضع لإشراف الجهات المالية الكورية المختصة. نستخدم إجراءات آمنة للتحقق من العملاء والمعاملات لحماية عملائنا."
+              ],
+              "question": "هل استخدام GME Remit آمن؟"
+            },
+            {
+              "answer": [
+                "نزّل تطبيق GME Remit، وأنشئ حسابك، وأكمل التحقق من الهوية المطلوب. بعد إتمام التسجيل والتحقق، يمكنك البدء باستخدام خدمات GME Remit."
+              ],
+              "question": "كيف أسجل حسابًا في GME Remit؟"
+            },
+            {
+              "answer": [
+                "يدعم GME Remit التحويلات المالية الدولية إلى العديد من الدول حول العالم. يمكن الاطلاع على الوجهات المتاحة وخيارات الدفع مباشرة عبر تطبيق GME Remit."
+              ],
+              "question": "إلى أي دول يمكنني إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "فريق دعم العملاء متاح من 10:00 إلى 23:00 من الاثنين إلى الأحد. يمكنك التواصل معنا عبر {SUPPORT_PHONE_NUMBER} أو تطبيق GME Remit أو قنوات GME الرسمية على وسائل التواصل الاجتماعي أو زيارة أحد فروع GME Remit في كوريا."
+              ],
+              "question": "ماذا أفعل إذا واجهت مشكلة في التحويل؟"
+            }
+          ],
+          "subheading": "اعثر على إجابات للأسئلة الشائعة حول إرسال الأموال باستخدام GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "تواصل مع GME Laos",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "أخبار ونصائح مفيدة وتحديثات لمجتمعنا"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "استكشف بطاقات GME",
+          "description": "مدفوعات بسيطة للحياة اليومية في كوريا وخارجها.",
+          "eyebrow": "GME Card",
+          "features": [
+            "الدفع حول العالم",
+            "التسوق",
+            "المواصلات",
+            "استرداد نقدي",
+            "مزايا EasyCare"
+          ],
+          "heading": "بطاقة واحدة لكل احتياجاتك"
+        },
+        "exchangeRate": {
+          "description": "See the latest GME Remit exchange rate before sending money from Korea to Laos",
+          "eyebrow": "سعر الصرف",
+          "heading": "تحقق من سعر الصرف اليوم",
+          "note": "قد تتغير أسعار الصرف خلال اليوم"
+        },
+        "loan": {
+          "ctaLabel": "قدّم الآن",
+          "description": "استفد من تجربة قروض رقمية مصممة للأجانب المقيمين في كوريا. قدّم طلبك بسهولة عبر تطبيق GME.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "طلب قرض بدون أوراق",
+            "متابعة حالة القرض لحظيًا",
+            "متابعة رصيد القرض لحظيًا"
+          ],
+          "heading": "شريكك المالي الرقمي"
+        },
+        "remittance": {
+          "ctaLabel": "أرسل المال الآن",
+          "description": "A simple, secure way to support your family and loved ones in Laos from Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "أسعار صرف تنافسية",
+            "تحويلات سريعة وموثوقة",
+            "رسوم واضحة",
+            "دعم عند الحاجة"
+          ],
+          "heading": "Send Money to Laos"
+        },
+        "simCard": {
+          "ctaLabel": "عرض باقات SIM",
+          "description": "ابقَ قريبًا مما يهمك مع باقات جوال مصممة لتجعل الحياة في كوريا أكثر سهولة.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "اتصال موثوق",
+            "باقات SIM مرنة",
+            "إعداد بسيط",
+            "دعم محلي ودود"
+          ],
+          "heading": "ابقَ على اتصال في كوريا"
+        }
+      }
+    },
+    "mongolia": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "تنزيل تطبيق GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "حاسبة GME Remit",
+        "exchangeRateLabel": "سعر الصرف",
+        "receiverGetsLabel": "المبلغ الذي سيستلمه المستفيد",
+        "recipientCountryLabel": "بلد المستلم",
+        "recipientCountryOption": "Mongolia",
+        "sendAmountLabel": "مبلغ الإرسال",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "أرسل المال الآن",
+        "transferFeeLabel": "رسوم التحويل"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "MNT",
+        "sampleTag": "قيم توضيحية"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. جميع الحقوق محفوظة.",
+        "logoText": "GME",
+        "tagline": "خدمات مالية للعملاء العرب في كوريا."
+      },
+      "header": {
+        "downloadAppLabel": "تنزيل التطبيق",
+        "navItems": {
+          "company": "الشركة",
+          "countries": "الدول",
+          "news": "الأخبار",
+          "services": "الخدمات",
+          "support": "الدعم"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "أرسل المال الآن",
+        "ctaSecondaryLabel": "ابدأ الآن",
+        "eyebrow": "GME Mongolia",
+        "headingLines": [
+          "أرسل المال إلى أحبائك.",
+          "ابقَ على اتصال.",
+          "أنفق بسهولة."
+        ],
+        "subheading": "خدمات موثوقة للعملاء العرب المقيمين في كوريا"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "الأسئلة الشائعة حول GME Remit",
+          "items": [
+            {
+              "answer": [
+                "عادةً ما تكتمل تحويلات GME Remit في حوالي 10 ثوانٍ، رغم أن الوقت الفعلي قد يختلف حسب الدولة المستلمة أو البنك أو طريقة الدفع."
+              ],
+              "question": "كم يستغرق إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "نعم. GME Remit خدمة تحويل أموال مرخصة في كوريا وتخضع لإشراف الجهات المالية الكورية المختصة. نستخدم إجراءات آمنة للتحقق من العملاء والمعاملات لحماية عملائنا."
+              ],
+              "question": "هل استخدام GME Remit آمن؟"
+            },
+            {
+              "answer": [
+                "نزّل تطبيق GME Remit، وأنشئ حسابك، وأكمل التحقق من الهوية المطلوب. بعد إتمام التسجيل والتحقق، يمكنك البدء باستخدام خدمات GME Remit."
+              ],
+              "question": "كيف أسجل حسابًا في GME Remit؟"
+            },
+            {
+              "answer": [
+                "يدعم GME Remit التحويلات المالية الدولية إلى العديد من الدول حول العالم. يمكن الاطلاع على الوجهات المتاحة وخيارات الدفع مباشرة عبر تطبيق GME Remit."
+              ],
+              "question": "إلى أي دول يمكنني إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "فريق دعم العملاء متاح من 10:00 إلى 23:00 من الاثنين إلى الأحد. يمكنك التواصل معنا عبر {SUPPORT_PHONE_NUMBER} أو تطبيق GME Remit أو قنوات GME الرسمية على وسائل التواصل الاجتماعي أو زيارة أحد فروع GME Remit في كوريا."
+              ],
+              "question": "ماذا أفعل إذا واجهت مشكلة في التحويل؟"
+            }
+          ],
+          "subheading": "اعثر على إجابات للأسئلة الشائعة حول إرسال الأموال باستخدام GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "تواصل مع GME Mongolia",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "أخبار ونصائح مفيدة وتحديثات لمجتمعنا"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "استكشف بطاقات GME",
+          "description": "مدفوعات بسيطة للحياة اليومية في كوريا وخارجها.",
+          "eyebrow": "GME Card",
+          "features": [
+            "الدفع حول العالم",
+            "التسوق",
+            "المواصلات",
+            "استرداد نقدي",
+            "مزايا EasyCare"
+          ],
+          "heading": "بطاقة واحدة لكل احتياجاتك"
+        },
+        "exchangeRate": {
+          "description": "See the latest GME Remit exchange rate before sending money from Korea to Mongolia",
+          "eyebrow": "سعر الصرف",
+          "heading": "تحقق من سعر الصرف اليوم",
+          "note": "قد تتغير أسعار الصرف خلال اليوم"
+        },
+        "loan": {
+          "ctaLabel": "قدّم الآن",
+          "description": "استفد من تجربة قروض رقمية مصممة للأجانب المقيمين في كوريا. قدّم طلبك بسهولة عبر تطبيق GME.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "طلب قرض بدون أوراق",
+            "متابعة حالة القرض لحظيًا",
+            "متابعة رصيد القرض لحظيًا"
+          ],
+          "heading": "شريكك المالي الرقمي"
+        },
+        "remittance": {
+          "ctaLabel": "أرسل المال الآن",
+          "description": "A simple, secure way to support your family and loved ones in Mongolia from Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "أسعار صرف تنافسية",
+            "تحويلات سريعة وموثوقة",
+            "رسوم واضحة",
+            "دعم عند الحاجة"
+          ],
+          "heading": "Send Money to Mongolia"
+        },
+        "simCard": {
+          "ctaLabel": "عرض باقات SIM",
+          "description": "ابقَ قريبًا مما يهمك مع باقات جوال مصممة لتجعل الحياة في كوريا أكثر سهولة.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "اتصال موثوق",
+            "باقات SIM مرنة",
+            "إعداد بسيط",
+            "دعم محلي ودود"
+          ],
+          "heading": "ابقَ على اتصال في كوريا"
+        }
+      }
+    },
+    "myanmar": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "تنزيل تطبيق GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "حاسبة GME Remit",
+        "exchangeRateLabel": "سعر الصرف",
+        "receiverGetsLabel": "المبلغ الذي سيستلمه المستفيد",
+        "recipientCountryLabel": "بلد المستلم",
+        "recipientCountryOption": "Myanmar",
+        "sendAmountLabel": "مبلغ الإرسال",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "أرسل المال الآن",
+        "transferFeeLabel": "رسوم التحويل"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "MMK",
+        "sampleTag": "قيم توضيحية"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. جميع الحقوق محفوظة.",
+        "logoText": "GME",
+        "tagline": "خدمات مالية للعملاء العرب في كوريا."
+      },
+      "header": {
+        "downloadAppLabel": "تنزيل التطبيق",
+        "navItems": {
+          "company": "الشركة",
+          "countries": "الدول",
+          "news": "الأخبار",
+          "services": "الخدمات",
+          "support": "الدعم"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "أرسل المال الآن",
+        "ctaSecondaryLabel": "ابدأ الآن",
+        "eyebrow": "GME Myanmar",
+        "headingLines": [
+          "أرسل المال إلى أحبائك.",
+          "ابقَ على اتصال.",
+          "أنفق بسهولة."
+        ],
+        "subheading": "خدمات موثوقة للعملاء العرب المقيمين في كوريا"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "الأسئلة الشائعة حول GME Remit",
+          "items": [
+            {
+              "answer": [
+                "عادةً ما تكتمل تحويلات GME Remit في حوالي 10 ثوانٍ، رغم أن الوقت الفعلي قد يختلف حسب الدولة المستلمة أو البنك أو طريقة الدفع."
+              ],
+              "question": "كم يستغرق إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "نعم. GME Remit خدمة تحويل أموال مرخصة في كوريا وتخضع لإشراف الجهات المالية الكورية المختصة. نستخدم إجراءات آمنة للتحقق من العملاء والمعاملات لحماية عملائنا."
+              ],
+              "question": "هل استخدام GME Remit آمن؟"
+            },
+            {
+              "answer": [
+                "نزّل تطبيق GME Remit، وأنشئ حسابك، وأكمل التحقق من الهوية المطلوب. بعد إتمام التسجيل والتحقق، يمكنك البدء باستخدام خدمات GME Remit."
+              ],
+              "question": "كيف أسجل حسابًا في GME Remit؟"
+            },
+            {
+              "answer": [
+                "يدعم GME Remit التحويلات المالية الدولية إلى العديد من الدول حول العالم. يمكن الاطلاع على الوجهات المتاحة وخيارات الدفع مباشرة عبر تطبيق GME Remit."
+              ],
+              "question": "إلى أي دول يمكنني إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "فريق دعم العملاء متاح من 10:00 إلى 23:00 من الاثنين إلى الأحد. يمكنك التواصل معنا عبر {SUPPORT_PHONE_NUMBER} أو تطبيق GME Remit أو قنوات GME الرسمية على وسائل التواصل الاجتماعي أو زيارة أحد فروع GME Remit في كوريا."
+              ],
+              "question": "ماذا أفعل إذا واجهت مشكلة في التحويل؟"
+            }
+          ],
+          "subheading": "اعثر على إجابات للأسئلة الشائعة حول إرسال الأموال باستخدام GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "تواصل مع GME Myanmar",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "أخبار ونصائح مفيدة وتحديثات لمجتمعنا"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "استكشف بطاقات GME",
+          "description": "مدفوعات بسيطة للحياة اليومية في كوريا وخارجها.",
+          "eyebrow": "GME Card",
+          "features": [
+            "الدفع حول العالم",
+            "التسوق",
+            "المواصلات",
+            "استرداد نقدي",
+            "مزايا EasyCare"
+          ],
+          "heading": "بطاقة واحدة لكل احتياجاتك"
+        },
+        "exchangeRate": {
+          "description": "See the latest GME Remit exchange rate before sending money from Korea to Myanmar",
+          "eyebrow": "سعر الصرف",
+          "heading": "تحقق من سعر الصرف اليوم",
+          "note": "قد تتغير أسعار الصرف خلال اليوم"
+        },
+        "loan": {
+          "ctaLabel": "قدّم الآن",
+          "description": "استفد من تجربة قروض رقمية مصممة للأجانب المقيمين في كوريا. قدّم طلبك بسهولة عبر تطبيق GME.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "طلب قرض بدون أوراق",
+            "متابعة حالة القرض لحظيًا",
+            "متابعة رصيد القرض لحظيًا"
+          ],
+          "heading": "شريكك المالي الرقمي"
+        },
+        "remittance": {
+          "ctaLabel": "أرسل المال الآن",
+          "description": "A simple, secure way to support your family and loved ones in Myanmar from Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "أسعار صرف تنافسية",
+            "تحويلات سريعة وموثوقة",
+            "رسوم واضحة",
+            "دعم عند الحاجة"
+          ],
+          "heading": "Send Money to Myanmar"
+        },
+        "simCard": {
+          "ctaLabel": "عرض باقات SIM",
+          "description": "ابقَ قريبًا مما يهمك مع باقات جوال مصممة لتجعل الحياة في كوريا أكثر سهولة.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "اتصال موثوق",
+            "باقات SIM مرنة",
+            "إعداد بسيط",
+            "دعم محلي ودود"
+          ],
+          "heading": "ابقَ على اتصال في كوريا"
+        }
+      }
+    },
+    "nepal": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "تنزيل تطبيق GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "حاسبة GME Remit",
+        "exchangeRateLabel": "سعر الصرف",
+        "receiverGetsLabel": "المبلغ الذي سيستلمه المستفيد",
+        "recipientCountryLabel": "بلد المستلم",
+        "recipientCountryOption": "Nepal",
+        "sendAmountLabel": "مبلغ الإرسال",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "أرسل المال الآن",
+        "transferFeeLabel": "رسوم التحويل"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "NPR",
+        "sampleTag": "قيم توضيحية"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. جميع الحقوق محفوظة.",
+        "logoText": "GME",
+        "tagline": "خدمات مالية للعملاء العرب في كوريا."
+      },
+      "header": {
+        "downloadAppLabel": "تنزيل التطبيق",
+        "navItems": {
+          "company": "الشركة",
+          "countries": "الدول",
+          "news": "الأخبار",
+          "services": "الخدمات",
+          "support": "الدعم"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "أرسل المال الآن",
+        "ctaSecondaryLabel": "ابدأ الآن",
+        "eyebrow": "GME Nepal",
+        "headingLines": [
+          "أرسل المال إلى أحبائك.",
+          "ابقَ على اتصال.",
+          "أنفق بسهولة."
+        ],
+        "subheading": "خدمات موثوقة للعملاء العرب المقيمين في كوريا"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "الأسئلة الشائعة حول GME Remit",
+          "items": [
+            {
+              "answer": [
+                "عادةً ما تكتمل تحويلات GME Remit في حوالي 10 ثوانٍ، رغم أن الوقت الفعلي قد يختلف حسب الدولة المستلمة أو البنك أو طريقة الدفع."
+              ],
+              "question": "كم يستغرق إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "نعم. GME Remit خدمة تحويل أموال مرخصة في كوريا وتخضع لإشراف الجهات المالية الكورية المختصة. نستخدم إجراءات آمنة للتحقق من العملاء والمعاملات لحماية عملائنا."
+              ],
+              "question": "هل استخدام GME Remit آمن؟"
+            },
+            {
+              "answer": [
+                "نزّل تطبيق GME Remit، وأنشئ حسابك، وأكمل التحقق من الهوية المطلوب. بعد إتمام التسجيل والتحقق، يمكنك البدء باستخدام خدمات GME Remit."
+              ],
+              "question": "كيف أسجل حسابًا في GME Remit؟"
+            },
+            {
+              "answer": [
+                "يدعم GME Remit التحويلات المالية الدولية إلى العديد من الدول حول العالم. يمكن الاطلاع على الوجهات المتاحة وخيارات الدفع مباشرة عبر تطبيق GME Remit."
+              ],
+              "question": "إلى أي دول يمكنني إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "فريق دعم العملاء متاح من 10:00 إلى 23:00 من الاثنين إلى الأحد. يمكنك التواصل معنا عبر {SUPPORT_PHONE_NUMBER} أو تطبيق GME Remit أو قنوات GME الرسمية على وسائل التواصل الاجتماعي أو زيارة أحد فروع GME Remit في كوريا."
+              ],
+              "question": "ماذا أفعل إذا واجهت مشكلة في التحويل؟"
+            }
+          ],
+          "subheading": "اعثر على إجابات للأسئلة الشائعة حول إرسال الأموال باستخدام GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "تواصل مع GME Nepal",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "أخبار ونصائح مفيدة وتحديثات لمجتمعنا"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "استكشف بطاقات GME",
+          "description": "مدفوعات بسيطة للحياة اليومية في كوريا وخارجها.",
+          "eyebrow": "GME Card",
+          "features": [
+            "الدفع حول العالم",
+            "التسوق",
+            "المواصلات",
+            "استرداد نقدي",
+            "مزايا EasyCare"
+          ],
+          "heading": "بطاقة واحدة لكل احتياجاتك"
+        },
+        "exchangeRate": {
+          "description": "See the latest GME Remit exchange rate before sending money from Korea to Nepal",
+          "eyebrow": "سعر الصرف",
+          "heading": "تحقق من سعر الصرف اليوم",
+          "note": "قد تتغير أسعار الصرف خلال اليوم"
+        },
+        "loan": {
+          "ctaLabel": "قدّم الآن",
+          "description": "استفد من تجربة قروض رقمية مصممة للأجانب المقيمين في كوريا. قدّم طلبك بسهولة عبر تطبيق GME.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "طلب قرض بدون أوراق",
+            "متابعة حالة القرض لحظيًا",
+            "متابعة رصيد القرض لحظيًا"
+          ],
+          "heading": "شريكك المالي الرقمي"
+        },
+        "remittance": {
+          "ctaLabel": "أرسل المال الآن",
+          "description": "A simple, secure way to support your family and loved ones in Nepal from Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "أسعار صرف تنافسية",
+            "تحويلات سريعة وموثوقة",
+            "رسوم واضحة",
+            "دعم عند الحاجة"
+          ],
+          "heading": "Send Money to Nepal"
+        },
+        "simCard": {
+          "ctaLabel": "عرض باقات SIM",
+          "description": "ابقَ قريبًا مما يهمك مع باقات جوال مصممة لتجعل الحياة في كوريا أكثر سهولة.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "اتصال موثوق",
+            "باقات SIM مرنة",
+            "إعداد بسيط",
+            "دعم محلي ودود"
+          ],
+          "heading": "ابقَ على اتصال في كوريا"
+        }
+      }
+    },
+    "pakistan": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "تنزيل تطبيق GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "حاسبة GME Remit",
+        "exchangeRateLabel": "سعر الصرف",
+        "receiverGetsLabel": "المبلغ الذي سيستلمه المستفيد",
+        "recipientCountryLabel": "بلد المستلم",
+        "recipientCountryOption": "Pakistan",
+        "sendAmountLabel": "مبلغ الإرسال",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "أرسل المال الآن",
+        "transferFeeLabel": "رسوم التحويل"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "PKR",
+        "sampleTag": "قيم توضيحية"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. جميع الحقوق محفوظة.",
+        "logoText": "GME",
+        "tagline": "خدمات مالية للعملاء العرب في كوريا."
+      },
+      "header": {
+        "downloadAppLabel": "تنزيل التطبيق",
+        "navItems": {
+          "company": "الشركة",
+          "countries": "الدول",
+          "news": "الأخبار",
+          "services": "الخدمات",
+          "support": "الدعم"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "أرسل المال الآن",
+        "ctaSecondaryLabel": "ابدأ الآن",
+        "eyebrow": "GME Pakistan",
+        "headingLines": [
+          "أرسل المال إلى أحبائك.",
+          "ابقَ على اتصال.",
+          "أنفق بسهولة."
+        ],
+        "subheading": "خدمات موثوقة للعملاء العرب المقيمين في كوريا"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "الأسئلة الشائعة حول GME Remit",
+          "items": [
+            {
+              "answer": [
+                "عادةً ما تكتمل تحويلات GME Remit في حوالي 10 ثوانٍ، رغم أن الوقت الفعلي قد يختلف حسب الدولة المستلمة أو البنك أو طريقة الدفع."
+              ],
+              "question": "كم يستغرق إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "نعم. GME Remit خدمة تحويل أموال مرخصة في كوريا وتخضع لإشراف الجهات المالية الكورية المختصة. نستخدم إجراءات آمنة للتحقق من العملاء والمعاملات لحماية عملائنا."
+              ],
+              "question": "هل استخدام GME Remit آمن؟"
+            },
+            {
+              "answer": [
+                "نزّل تطبيق GME Remit، وأنشئ حسابك، وأكمل التحقق من الهوية المطلوب. بعد إتمام التسجيل والتحقق، يمكنك البدء باستخدام خدمات GME Remit."
+              ],
+              "question": "كيف أسجل حسابًا في GME Remit؟"
+            },
+            {
+              "answer": [
+                "يدعم GME Remit التحويلات المالية الدولية إلى العديد من الدول حول العالم. يمكن الاطلاع على الوجهات المتاحة وخيارات الدفع مباشرة عبر تطبيق GME Remit."
+              ],
+              "question": "إلى أي دول يمكنني إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "فريق دعم العملاء متاح من 10:00 إلى 23:00 من الاثنين إلى الأحد. يمكنك التواصل معنا عبر {SUPPORT_PHONE_NUMBER} أو تطبيق GME Remit أو قنوات GME الرسمية على وسائل التواصل الاجتماعي أو زيارة أحد فروع GME Remit في كوريا."
+              ],
+              "question": "ماذا أفعل إذا واجهت مشكلة في التحويل؟"
+            }
+          ],
+          "subheading": "اعثر على إجابات للأسئلة الشائعة حول إرسال الأموال باستخدام GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "تواصل مع GME Pakistan",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "أخبار ونصائح مفيدة وتحديثات لمجتمعنا"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "استكشف بطاقات GME",
+          "description": "مدفوعات بسيطة للحياة اليومية في كوريا وخارجها.",
+          "eyebrow": "GME Card",
+          "features": [
+            "الدفع حول العالم",
+            "التسوق",
+            "المواصلات",
+            "استرداد نقدي",
+            "مزايا EasyCare"
+          ],
+          "heading": "بطاقة واحدة لكل احتياجاتك"
+        },
+        "exchangeRate": {
+          "description": "See the latest GME Remit exchange rate before sending money from Korea to Pakistan",
+          "eyebrow": "سعر الصرف",
+          "heading": "تحقق من سعر الصرف اليوم",
+          "note": "قد تتغير أسعار الصرف خلال اليوم"
+        },
+        "loan": {
+          "ctaLabel": "قدّم الآن",
+          "description": "استفد من تجربة قروض رقمية مصممة للأجانب المقيمين في كوريا. قدّم طلبك بسهولة عبر تطبيق GME.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "طلب قرض بدون أوراق",
+            "متابعة حالة القرض لحظيًا",
+            "متابعة رصيد القرض لحظيًا"
+          ],
+          "heading": "شريكك المالي الرقمي"
+        },
+        "remittance": {
+          "ctaLabel": "أرسل المال الآن",
+          "description": "A simple, secure way to support your family and loved ones in Pakistan from Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "أسعار صرف تنافسية",
+            "تحويلات سريعة وموثوقة",
+            "رسوم واضحة",
+            "دعم عند الحاجة"
+          ],
+          "heading": "Send Money to Pakistan"
+        },
+        "simCard": {
+          "ctaLabel": "عرض باقات SIM",
+          "description": "ابقَ قريبًا مما يهمك مع باقات جوال مصممة لتجعل الحياة في كوريا أكثر سهولة.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "اتصال موثوق",
+            "باقات SIM مرنة",
+            "إعداد بسيط",
+            "دعم محلي ودود"
+          ],
+          "heading": "ابقَ على اتصال في كوريا"
+        }
+      }
+    },
+    "philippines": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "تنزيل تطبيق GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "حاسبة GME Remit",
+        "exchangeRateLabel": "سعر الصرف",
+        "receiverGetsLabel": "المبلغ الذي سيستلمه المستفيد",
+        "recipientCountryLabel": "بلد المستلم",
+        "recipientCountryOption": "Philippines",
+        "sendAmountLabel": "مبلغ الإرسال",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "أرسل المال الآن",
+        "transferFeeLabel": "رسوم التحويل"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "PHP",
+        "sampleTag": "قيم توضيحية"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. جميع الحقوق محفوظة.",
+        "logoText": "GME",
+        "tagline": "خدمات مالية للعملاء العرب في كوريا."
+      },
+      "header": {
+        "downloadAppLabel": "تنزيل التطبيق",
+        "navItems": {
+          "company": "الشركة",
+          "countries": "الدول",
+          "news": "الأخبار",
+          "services": "الخدمات",
+          "support": "الدعم"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "أرسل المال الآن",
+        "ctaSecondaryLabel": "ابدأ الآن",
+        "eyebrow": "GME Philippines",
+        "headingLines": [
+          "أرسل المال إلى أحبائك.",
+          "ابقَ على اتصال.",
+          "أنفق بسهولة."
+        ],
+        "subheading": "خدمات موثوقة للعملاء العرب المقيمين في كوريا"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "الأسئلة الشائعة حول GME Remit",
+          "items": [
+            {
+              "answer": [
+                "عادةً ما تكتمل تحويلات GME Remit في حوالي 10 ثوانٍ، رغم أن الوقت الفعلي قد يختلف حسب الدولة المستلمة أو البنك أو طريقة الدفع."
+              ],
+              "question": "كم يستغرق إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "نعم. GME Remit خدمة تحويل أموال مرخصة في كوريا وتخضع لإشراف الجهات المالية الكورية المختصة. نستخدم إجراءات آمنة للتحقق من العملاء والمعاملات لحماية عملائنا."
+              ],
+              "question": "هل استخدام GME Remit آمن؟"
+            },
+            {
+              "answer": [
+                "نزّل تطبيق GME Remit، وأنشئ حسابك، وأكمل التحقق من الهوية المطلوب. بعد إتمام التسجيل والتحقق، يمكنك البدء باستخدام خدمات GME Remit."
+              ],
+              "question": "كيف أسجل حسابًا في GME Remit؟"
+            },
+            {
+              "answer": [
+                "يدعم GME Remit التحويلات المالية الدولية إلى العديد من الدول حول العالم. يمكن الاطلاع على الوجهات المتاحة وخيارات الدفع مباشرة عبر تطبيق GME Remit."
+              ],
+              "question": "إلى أي دول يمكنني إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "فريق دعم العملاء متاح من 10:00 إلى 23:00 من الاثنين إلى الأحد. يمكنك التواصل معنا عبر {SUPPORT_PHONE_NUMBER} أو تطبيق GME Remit أو قنوات GME الرسمية على وسائل التواصل الاجتماعي أو زيارة أحد فروع GME Remit في كوريا."
+              ],
+              "question": "ماذا أفعل إذا واجهت مشكلة في التحويل؟"
+            }
+          ],
+          "subheading": "اعثر على إجابات للأسئلة الشائعة حول إرسال الأموال باستخدام GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "تواصل مع GME Philippines",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "أخبار ونصائح مفيدة وتحديثات لمجتمعنا"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "استكشف بطاقات GME",
+          "description": "مدفوعات بسيطة للحياة اليومية في كوريا وخارجها.",
+          "eyebrow": "GME Card",
+          "features": [
+            "الدفع حول العالم",
+            "التسوق",
+            "المواصلات",
+            "استرداد نقدي",
+            "مزايا EasyCare"
+          ],
+          "heading": "بطاقة واحدة لكل احتياجاتك"
+        },
+        "exchangeRate": {
+          "description": "See the latest GME Remit exchange rate before sending money from Korea to Philippines",
+          "eyebrow": "سعر الصرف",
+          "heading": "تحقق من سعر الصرف اليوم",
+          "note": "قد تتغير أسعار الصرف خلال اليوم"
+        },
+        "loan": {
+          "ctaLabel": "قدّم الآن",
+          "description": "استفد من تجربة قروض رقمية مصممة للأجانب المقيمين في كوريا. قدّم طلبك بسهولة عبر تطبيق GME.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "طلب قرض بدون أوراق",
+            "متابعة حالة القرض لحظيًا",
+            "متابعة رصيد القرض لحظيًا"
+          ],
+          "heading": "شريكك المالي الرقمي"
+        },
+        "remittance": {
+          "ctaLabel": "أرسل المال الآن",
+          "description": "A simple, secure way to support your family and loved ones in Philippines from Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "أسعار صرف تنافسية",
+            "تحويلات سريعة وموثوقة",
+            "رسوم واضحة",
+            "دعم عند الحاجة"
+          ],
+          "heading": "Send Money to Philippines"
+        },
+        "simCard": {
+          "ctaLabel": "عرض باقات SIM",
+          "description": "ابقَ قريبًا مما يهمك مع باقات جوال مصممة لتجعل الحياة في كوريا أكثر سهولة.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "اتصال موثوق",
+            "باقات SIM مرنة",
+            "إعداد بسيط",
+            "دعم محلي ودود"
+          ],
+          "heading": "ابقَ على اتصال في كوريا"
+        }
+      }
+    },
+    "sri-lanka": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "تنزيل تطبيق GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "حاسبة GME Remit",
+        "exchangeRateLabel": "سعر الصرف",
+        "receiverGetsLabel": "المبلغ الذي سيستلمه المستفيد",
+        "recipientCountryLabel": "بلد المستلم",
+        "recipientCountryOption": "Sri Lanka",
+        "sendAmountLabel": "مبلغ الإرسال",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "أرسل المال الآن",
+        "transferFeeLabel": "رسوم التحويل"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "LKR",
+        "sampleTag": "قيم توضيحية"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. جميع الحقوق محفوظة.",
+        "logoText": "GME",
+        "tagline": "خدمات مالية للعملاء العرب في كوريا."
+      },
+      "header": {
+        "downloadAppLabel": "تنزيل التطبيق",
+        "navItems": {
+          "company": "الشركة",
+          "countries": "الدول",
+          "news": "الأخبار",
+          "services": "الخدمات",
+          "support": "الدعم"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "أرسل المال الآن",
+        "ctaSecondaryLabel": "ابدأ الآن",
+        "eyebrow": "GME Sri Lanka",
+        "headingLines": [
+          "أرسل المال إلى أحبائك.",
+          "ابقَ على اتصال.",
+          "أنفق بسهولة."
+        ],
+        "subheading": "خدمات موثوقة للعملاء العرب المقيمين في كوريا"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "الأسئلة الشائعة حول GME Remit",
+          "items": [
+            {
+              "answer": [
+                "عادةً ما تكتمل تحويلات GME Remit في حوالي 10 ثوانٍ، رغم أن الوقت الفعلي قد يختلف حسب الدولة المستلمة أو البنك أو طريقة الدفع."
+              ],
+              "question": "كم يستغرق إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "نعم. GME Remit خدمة تحويل أموال مرخصة في كوريا وتخضع لإشراف الجهات المالية الكورية المختصة. نستخدم إجراءات آمنة للتحقق من العملاء والمعاملات لحماية عملائنا."
+              ],
+              "question": "هل استخدام GME Remit آمن؟"
+            },
+            {
+              "answer": [
+                "نزّل تطبيق GME Remit، وأنشئ حسابك، وأكمل التحقق من الهوية المطلوب. بعد إتمام التسجيل والتحقق، يمكنك البدء باستخدام خدمات GME Remit."
+              ],
+              "question": "كيف أسجل حسابًا في GME Remit؟"
+            },
+            {
+              "answer": [
+                "يدعم GME Remit التحويلات المالية الدولية إلى العديد من الدول حول العالم. يمكن الاطلاع على الوجهات المتاحة وخيارات الدفع مباشرة عبر تطبيق GME Remit."
+              ],
+              "question": "إلى أي دول يمكنني إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "فريق دعم العملاء متاح من 10:00 إلى 23:00 من الاثنين إلى الأحد. يمكنك التواصل معنا عبر {SUPPORT_PHONE_NUMBER} أو تطبيق GME Remit أو قنوات GME الرسمية على وسائل التواصل الاجتماعي أو زيارة أحد فروع GME Remit في كوريا."
+              ],
+              "question": "ماذا أفعل إذا واجهت مشكلة في التحويل؟"
+            }
+          ],
+          "subheading": "اعثر على إجابات للأسئلة الشائعة حول إرسال الأموال باستخدام GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "تواصل مع GME Sri Lanka",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "أخبار ونصائح مفيدة وتحديثات لمجتمعنا"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "استكشف بطاقات GME",
+          "description": "مدفوعات بسيطة للحياة اليومية في كوريا وخارجها.",
+          "eyebrow": "GME Card",
+          "features": [
+            "الدفع حول العالم",
+            "التسوق",
+            "المواصلات",
+            "استرداد نقدي",
+            "مزايا EasyCare"
+          ],
+          "heading": "بطاقة واحدة لكل احتياجاتك"
+        },
+        "exchangeRate": {
+          "description": "See the latest GME Remit exchange rate before sending money from Korea to Sri Lanka",
+          "eyebrow": "سعر الصرف",
+          "heading": "تحقق من سعر الصرف اليوم",
+          "note": "قد تتغير أسعار الصرف خلال اليوم"
+        },
+        "loan": {
+          "ctaLabel": "قدّم الآن",
+          "description": "استفد من تجربة قروض رقمية مصممة للأجانب المقيمين في كوريا. قدّم طلبك بسهولة عبر تطبيق GME.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "طلب قرض بدون أوراق",
+            "متابعة حالة القرض لحظيًا",
+            "متابعة رصيد القرض لحظيًا"
+          ],
+          "heading": "شريكك المالي الرقمي"
+        },
+        "remittance": {
+          "ctaLabel": "أرسل المال الآن",
+          "description": "A simple, secure way to support your family and loved ones in Sri Lanka from Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "أسعار صرف تنافسية",
+            "تحويلات سريعة وموثوقة",
+            "رسوم واضحة",
+            "دعم عند الحاجة"
+          ],
+          "heading": "Send Money to Sri Lanka"
+        },
+        "simCard": {
+          "ctaLabel": "عرض باقات SIM",
+          "description": "ابقَ قريبًا مما يهمك مع باقات جوال مصممة لتجعل الحياة في كوريا أكثر سهولة.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "اتصال موثوق",
+            "باقات SIM مرنة",
+            "إعداد بسيط",
+            "دعم محلي ودود"
+          ],
+          "heading": "ابقَ على اتصال في كوريا"
+        }
+      }
+    },
+    "thailand": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "تنزيل تطبيق GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "حاسبة GME Remit",
+        "exchangeRateLabel": "سعر الصرف",
+        "receiverGetsLabel": "المبلغ الذي سيستلمه المستفيد",
+        "recipientCountryLabel": "بلد المستلم",
+        "recipientCountryOption": "Thailand",
+        "sendAmountLabel": "مبلغ الإرسال",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "أرسل المال الآن",
+        "transferFeeLabel": "رسوم التحويل"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "THB",
+        "sampleTag": "قيم توضيحية"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. جميع الحقوق محفوظة.",
+        "logoText": "GME",
+        "tagline": "خدمات مالية للعملاء العرب في كوريا."
+      },
+      "header": {
+        "downloadAppLabel": "تنزيل التطبيق",
+        "navItems": {
+          "company": "الشركة",
+          "countries": "الدول",
+          "news": "الأخبار",
+          "services": "الخدمات",
+          "support": "الدعم"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "أرسل المال الآن",
+        "ctaSecondaryLabel": "ابدأ الآن",
+        "eyebrow": "GME Thailand",
+        "headingLines": [
+          "أرسل المال إلى أحبائك.",
+          "ابقَ على اتصال.",
+          "أنفق بسهولة."
+        ],
+        "subheading": "خدمات موثوقة للعملاء العرب المقيمين في كوريا"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "الأسئلة الشائعة حول GME Remit",
+          "items": [
+            {
+              "answer": [
+                "عادةً ما تكتمل تحويلات GME Remit في حوالي 10 ثوانٍ، رغم أن الوقت الفعلي قد يختلف حسب الدولة المستلمة أو البنك أو طريقة الدفع."
+              ],
+              "question": "كم يستغرق إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "نعم. GME Remit خدمة تحويل أموال مرخصة في كوريا وتخضع لإشراف الجهات المالية الكورية المختصة. نستخدم إجراءات آمنة للتحقق من العملاء والمعاملات لحماية عملائنا."
+              ],
+              "question": "هل استخدام GME Remit آمن؟"
+            },
+            {
+              "answer": [
+                "نزّل تطبيق GME Remit، وأنشئ حسابك، وأكمل التحقق من الهوية المطلوب. بعد إتمام التسجيل والتحقق، يمكنك البدء باستخدام خدمات GME Remit."
+              ],
+              "question": "كيف أسجل حسابًا في GME Remit؟"
+            },
+            {
+              "answer": [
+                "يدعم GME Remit التحويلات المالية الدولية إلى العديد من الدول حول العالم. يمكن الاطلاع على الوجهات المتاحة وخيارات الدفع مباشرة عبر تطبيق GME Remit."
+              ],
+              "question": "إلى أي دول يمكنني إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "فريق دعم العملاء متاح من 10:00 إلى 23:00 من الاثنين إلى الأحد. يمكنك التواصل معنا عبر {SUPPORT_PHONE_NUMBER} أو تطبيق GME Remit أو قنوات GME الرسمية على وسائل التواصل الاجتماعي أو زيارة أحد فروع GME Remit في كوريا."
+              ],
+              "question": "ماذا أفعل إذا واجهت مشكلة في التحويل؟"
+            }
+          ],
+          "subheading": "اعثر على إجابات للأسئلة الشائعة حول إرسال الأموال باستخدام GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "تواصل مع GME Thailand",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "أخبار ونصائح مفيدة وتحديثات لمجتمعنا"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "استكشف بطاقات GME",
+          "description": "مدفوعات بسيطة للحياة اليومية في كوريا وخارجها.",
+          "eyebrow": "GME Card",
+          "features": [
+            "الدفع حول العالم",
+            "التسوق",
+            "المواصلات",
+            "استرداد نقدي",
+            "مزايا EasyCare"
+          ],
+          "heading": "بطاقة واحدة لكل احتياجاتك"
+        },
+        "exchangeRate": {
+          "description": "See the latest GME Remit exchange rate before sending money from Korea to Thailand",
+          "eyebrow": "سعر الصرف",
+          "heading": "تحقق من سعر الصرف اليوم",
+          "note": "قد تتغير أسعار الصرف خلال اليوم"
+        },
+        "loan": {
+          "ctaLabel": "قدّم الآن",
+          "description": "استفد من تجربة قروض رقمية مصممة للأجانب المقيمين في كوريا. قدّم طلبك بسهولة عبر تطبيق GME.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "طلب قرض بدون أوراق",
+            "متابعة حالة القرض لحظيًا",
+            "متابعة رصيد القرض لحظيًا"
+          ],
+          "heading": "شريكك المالي الرقمي"
+        },
+        "remittance": {
+          "ctaLabel": "أرسل المال الآن",
+          "description": "A simple, secure way to support your family and loved ones in Thailand from Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "أسعار صرف تنافسية",
+            "تحويلات سريعة وموثوقة",
+            "رسوم واضحة",
+            "دعم عند الحاجة"
+          ],
+          "heading": "Send Money to Thailand"
+        },
+        "simCard": {
+          "ctaLabel": "عرض باقات SIM",
+          "description": "ابقَ قريبًا مما يهمك مع باقات جوال مصممة لتجعل الحياة في كوريا أكثر سهولة.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "اتصال موثوق",
+            "باقات SIM مرنة",
+            "إعداد بسيط",
+            "دعم محلي ودود"
+          ],
+          "heading": "ابقَ على اتصال في كوريا"
+        }
+      }
+    },
+    "uzbekistan": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "تنزيل تطبيق GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "حاسبة GME Remit",
+        "exchangeRateLabel": "سعر الصرف",
+        "receiverGetsLabel": "المبلغ الذي سيستلمه المستفيد",
+        "recipientCountryLabel": "بلد المستلم",
+        "recipientCountryOption": "Uzbekistan",
+        "sendAmountLabel": "مبلغ الإرسال",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "أرسل المال الآن",
+        "transferFeeLabel": "رسوم التحويل"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "UZS",
+        "sampleTag": "قيم توضيحية"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. جميع الحقوق محفوظة.",
+        "logoText": "GME",
+        "tagline": "خدمات مالية للعملاء العرب في كوريا."
+      },
+      "header": {
+        "downloadAppLabel": "تنزيل التطبيق",
+        "navItems": {
+          "company": "الشركة",
+          "countries": "الدول",
+          "news": "الأخبار",
+          "services": "الخدمات",
+          "support": "الدعم"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "أرسل المال الآن",
+        "ctaSecondaryLabel": "ابدأ الآن",
+        "eyebrow": "GME Uzbekistan",
+        "headingLines": [
+          "أرسل المال إلى أحبائك.",
+          "ابقَ على اتصال.",
+          "أنفق بسهولة."
+        ],
+        "subheading": "خدمات موثوقة للعملاء العرب المقيمين في كوريا"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "الأسئلة الشائعة حول GME Remit",
+          "items": [
+            {
+              "answer": [
+                "عادةً ما تكتمل تحويلات GME Remit في حوالي 10 ثوانٍ، رغم أن الوقت الفعلي قد يختلف حسب الدولة المستلمة أو البنك أو طريقة الدفع."
+              ],
+              "question": "كم يستغرق إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "نعم. GME Remit خدمة تحويل أموال مرخصة في كوريا وتخضع لإشراف الجهات المالية الكورية المختصة. نستخدم إجراءات آمنة للتحقق من العملاء والمعاملات لحماية عملائنا."
+              ],
+              "question": "هل استخدام GME Remit آمن؟"
+            },
+            {
+              "answer": [
+                "نزّل تطبيق GME Remit، وأنشئ حسابك، وأكمل التحقق من الهوية المطلوب. بعد إتمام التسجيل والتحقق، يمكنك البدء باستخدام خدمات GME Remit."
+              ],
+              "question": "كيف أسجل حسابًا في GME Remit؟"
+            },
+            {
+              "answer": [
+                "يدعم GME Remit التحويلات المالية الدولية إلى العديد من الدول حول العالم. يمكن الاطلاع على الوجهات المتاحة وخيارات الدفع مباشرة عبر تطبيق GME Remit."
+              ],
+              "question": "إلى أي دول يمكنني إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "فريق دعم العملاء متاح من 10:00 إلى 23:00 من الاثنين إلى الأحد. يمكنك التواصل معنا عبر {SUPPORT_PHONE_NUMBER} أو تطبيق GME Remit أو قنوات GME الرسمية على وسائل التواصل الاجتماعي أو زيارة أحد فروع GME Remit في كوريا."
+              ],
+              "question": "ماذا أفعل إذا واجهت مشكلة في التحويل؟"
+            }
+          ],
+          "subheading": "اعثر على إجابات للأسئلة الشائعة حول إرسال الأموال باستخدام GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "تواصل مع GME Uzbekistan",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "أخبار ونصائح مفيدة وتحديثات لمجتمعنا"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "استكشف بطاقات GME",
+          "description": "مدفوعات بسيطة للحياة اليومية في كوريا وخارجها.",
+          "eyebrow": "GME Card",
+          "features": [
+            "الدفع حول العالم",
+            "التسوق",
+            "المواصلات",
+            "استرداد نقدي",
+            "مزايا EasyCare"
+          ],
+          "heading": "بطاقة واحدة لكل احتياجاتك"
+        },
+        "exchangeRate": {
+          "description": "See the latest GME Remit exchange rate before sending money from Korea to Uzbekistan",
+          "eyebrow": "سعر الصرف",
+          "heading": "تحقق من سعر الصرف اليوم",
+          "note": "قد تتغير أسعار الصرف خلال اليوم"
+        },
+        "loan": {
+          "ctaLabel": "قدّم الآن",
+          "description": "استفد من تجربة قروض رقمية مصممة للأجانب المقيمين في كوريا. قدّم طلبك بسهولة عبر تطبيق GME.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "طلب قرض بدون أوراق",
+            "متابعة حالة القرض لحظيًا",
+            "متابعة رصيد القرض لحظيًا"
+          ],
+          "heading": "شريكك المالي الرقمي"
+        },
+        "remittance": {
+          "ctaLabel": "أرسل المال الآن",
+          "description": "A simple, secure way to support your family and loved ones in Uzbekistan from Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "أسعار صرف تنافسية",
+            "تحويلات سريعة وموثوقة",
+            "رسوم واضحة",
+            "دعم عند الحاجة"
+          ],
+          "heading": "Send Money to Uzbekistan"
+        },
+        "simCard": {
+          "ctaLabel": "عرض باقات SIM",
+          "description": "ابقَ قريبًا مما يهمك مع باقات جوال مصممة لتجعل الحياة في كوريا أكثر سهولة.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "اتصال موثوق",
+            "باقات SIM مرنة",
+            "إعداد بسيط",
+            "دعم محلي ودود"
+          ],
+          "heading": "ابقَ على اتصال في كوريا"
+        }
+      }
+    },
+    "vietnam": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "تنزيل تطبيق GME"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "حاسبة GME Remit",
+        "exchangeRateLabel": "سعر الصرف",
+        "receiverGetsLabel": "المبلغ الذي سيستلمه المستفيد",
+        "recipientCountryLabel": "بلد المستلم",
+        "recipientCountryOption": "Vietnam",
+        "sendAmountLabel": "مبلغ الإرسال",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "أرسل المال الآن",
+        "transferFeeLabel": "رسوم التحويل"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "VND",
+        "sampleTag": "قيم توضيحية"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. جميع الحقوق محفوظة.",
+        "logoText": "GME",
+        "tagline": "خدمات مالية للعملاء العرب في كوريا."
+      },
+      "header": {
+        "downloadAppLabel": "تنزيل التطبيق",
+        "navItems": {
+          "company": "الشركة",
+          "countries": "الدول",
+          "news": "الأخبار",
+          "services": "الخدمات",
+          "support": "الدعم"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "أرسل المال الآن",
+        "ctaSecondaryLabel": "ابدأ الآن",
+        "eyebrow": "GME Vietnam",
+        "headingLines": [
+          "أرسل المال إلى أحبائك.",
+          "ابقَ على اتصال.",
+          "أنفق بسهولة."
+        ],
+        "subheading": "خدمات موثوقة للعملاء العرب المقيمين في كوريا"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "الأسئلة الشائعة حول GME Remit",
+          "items": [
+            {
+              "answer": [
+                "عادةً ما تكتمل تحويلات GME Remit في حوالي 10 ثوانٍ، رغم أن الوقت الفعلي قد يختلف حسب الدولة المستلمة أو البنك أو طريقة الدفع."
+              ],
+              "question": "كم يستغرق إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "نعم. GME Remit خدمة تحويل أموال مرخصة في كوريا وتخضع لإشراف الجهات المالية الكورية المختصة. نستخدم إجراءات آمنة للتحقق من العملاء والمعاملات لحماية عملائنا."
+              ],
+              "question": "هل استخدام GME Remit آمن؟"
+            },
+            {
+              "answer": [
+                "نزّل تطبيق GME Remit، وأنشئ حسابك، وأكمل التحقق من الهوية المطلوب. بعد إتمام التسجيل والتحقق، يمكنك البدء باستخدام خدمات GME Remit."
+              ],
+              "question": "كيف أسجل حسابًا في GME Remit؟"
+            },
+            {
+              "answer": [
+                "يدعم GME Remit التحويلات المالية الدولية إلى العديد من الدول حول العالم. يمكن الاطلاع على الوجهات المتاحة وخيارات الدفع مباشرة عبر تطبيق GME Remit."
+              ],
+              "question": "إلى أي دول يمكنني إرسال الأموال عبر GME Remit؟"
+            },
+            {
+              "answer": [
+                "فريق دعم العملاء متاح من 10:00 إلى 23:00 من الاثنين إلى الأحد. يمكنك التواصل معنا عبر {SUPPORT_PHONE_NUMBER} أو تطبيق GME Remit أو قنوات GME الرسمية على وسائل التواصل الاجتماعي أو زيارة أحد فروع GME Remit في كوريا."
+              ],
+              "question": "ماذا أفعل إذا واجهت مشكلة في التحويل؟"
+            }
+          ],
+          "subheading": "اعثر على إجابات للأسئلة الشائعة حول إرسال الأموال باستخدام GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "تواصل مع GME Vietnam",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "أخبار ونصائح مفيدة وتحديثات لمجتمعنا"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "استكشف بطاقات GME",
+          "description": "مدفوعات بسيطة للحياة اليومية في كوريا وخارجها.",
+          "eyebrow": "GME Card",
+          "features": [
+            "الدفع حول العالم",
+            "التسوق",
+            "المواصلات",
+            "استرداد نقدي",
+            "مزايا EasyCare"
+          ],
+          "heading": "بطاقة واحدة لكل احتياجاتك"
+        },
+        "exchangeRate": {
+          "description": "See the latest GME Remit exchange rate before sending money from Korea to Vietnam",
+          "eyebrow": "سعر الصرف",
+          "heading": "تحقق من سعر الصرف اليوم",
+          "note": "قد تتغير أسعار الصرف خلال اليوم"
+        },
+        "loan": {
+          "ctaLabel": "قدّم الآن",
+          "description": "استفد من تجربة قروض رقمية مصممة للأجانب المقيمين في كوريا. قدّم طلبك بسهولة عبر تطبيق GME.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "طلب قرض بدون أوراق",
+            "متابعة حالة القرض لحظيًا",
+            "متابعة رصيد القرض لحظيًا"
+          ],
+          "heading": "شريكك المالي الرقمي"
+        },
+        "remittance": {
+          "ctaLabel": "أرسل المال الآن",
+          "description": "A simple, secure way to support your family and loved ones in Vietnam from Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "أسعار صرف تنافسية",
+            "تحويلات سريعة وموثوقة",
+            "رسوم واضحة",
+            "دعم عند الحاجة"
+          ],
+          "heading": "Send Money to Vietnam"
+        },
+        "simCard": {
+          "ctaLabel": "عرض باقات SIM",
+          "description": "ابقَ قريبًا مما يهمك مع باقات جوال مصممة لتجعل الحياة في كوريا أكثر سهولة.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "اتصال موثوق",
+            "باقات SIM مرنة",
+            "إعداد بسيط",
+            "دعم محلي ودود"
+          ],
+          "heading": "ابقَ على اتصال في كوريا"
+        }
+      }
+    }
+  }
+}

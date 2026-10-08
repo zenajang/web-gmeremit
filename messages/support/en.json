@@ -1,0 +1,218 @@
+{
+  "support-branches": {
+    "address": "Address",
+    "data": {
+      "1": {
+        "address": "315 Jongno, Jongno-gu, Seoul (Dongdaemun Station Exit 3)",
+        "hours": "Weekdays & Weekends 10:00 - 19:00",
+        "name": "Dongdaemun Branch"
+      },
+      "2": {
+        "address": "1F, 6 Damunhwa-gil, Danwon-gu, Ansan-si, Gyeonggi-do",
+        "hours": "Weekdays & Weekends 10:00 - 19:00",
+        "name": "Ansan Branch"
+      },
+      "3": {
+        "address": "1F, 134 Dorim-ro, Yeongdeungpo-gu, Seoul",
+        "hours": "Weekdays & Weekends 10:00 - 19:00",
+        "name": "Daerim Branch"
+      },
+      "4": {
+        "address": "2-10 Maesan-ro, Paldal-gu, Suwon-si, Gyeonggi-do",
+        "hours": "Weekdays & Weekends 10:00 - 19:00",
+        "name": "Suwon Branch"
+      },
+      "5": {
+        "address": "1F, 1109-3 3·1 Manse-ro, Hyangnam-eup, Hwaseong-si, Gyeonggi-do",
+        "hours": "Fri - Tue 10:00 - 19:00",
+        "name": "Hwaseong Branch"
+      },
+      "6": {
+        "address": "91 Solmoru-ro, Soheul-eup, Pocheon-si, Gyeonggi-do (Next to NH Bank)",
+        "hours": "Sat - Wed 10:00 - 19:00",
+        "name": "Songuri Branch"
+      },
+      "7": {
+        "address": "16 Gwangjang-ro, Bupyeong-gu, Incheon (Bupyeong Station Shopping Mall)",
+        "hours": "Sat - Wed 10:00 - 19:00",
+        "name": "Bupyeong Branch"
+      },
+      "8": {
+        "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (Across from Top Mart)",
+        "hours": "Weekdays & Weekends 10:00 - 19:00",
+        "name": "Gimhae Branch"
+      },
+      "9": {
+        "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+        "hours": "Weekdays & Weekends 10:00 - 19:00",
+        "name": "Pyeongtaek Branch"
+      }
+    },
+    "hours": "Hours",
+    "phone": "Phone"
+  },
+  "support-inquiry": {
+    "categories": {
+      "2": {
+        "items": [
+          "Corporate sign-up and review",
+          "Trade and service payments",
+          "Fees and exchange rates",
+          "API integration and settlement"
+        ]
+      },
+      "7": {
+        "items": [
+          "Plans and billing",
+          "Activation, porting and cancellation",
+          "USIM delivery and replacement",
+          "Data and call quality"
+        ]
+      }
+    },
+    "category-card": {
+      "categories": {
+        "1": {
+          "name": "Personal remittance",
+          "sub": "Transfers · Exchange rates · Payout"
+        },
+        "2": {
+          "name": "Business remittance (Biz)",
+          "sub": "Corporate · Trade payments · B2B"
+        },
+        "3": {
+          "name": "Finance",
+          "sub": "Eligibility · Limits · Repayment"
+        },
+        "4": {
+          "name": "Partnership",
+          "sub": "Alliances · Business proposals"
+        },
+        "5": {
+          "name": "Careers",
+          "sub": "Applications · Hiring process"
+        },
+        "6": {
+          "name": "Consumer protection",
+          "sub": "Disputes · Restrictions · Reports"
+        },
+        "7": {
+          "name": "Mobile and telecom",
+          "sub": "Plans · Activation · USIM"
+        }
+      }
+    },
+    "category-selector": {
+      "question": "What is your inquiry about?"
+    },
+    "chat": {
+      "action": "Start live chat",
+      "description": "An agent replies in real time. Outside business hours, the chatbot takes your details and we call you back.",
+      "items": [
+        "Weekdays 09:00 - 18:00 · Live agent",
+        "Other hours · Chatbot and callback",
+        "12 languages supported (Nepali, Vietnamese, Thai and more)"
+      ]
+    },
+    "external": {
+      "action": "Go to the inquiry page",
+      "description": "This type of inquiry is handled on the {{site}} website."
+    },
+    "guide-panel": {
+      "common": {
+        "reset": "Choose another topic"
+      }
+    },
+    "honeypot-field": {
+      "form": {
+        "honeypot": "Address"
+      }
+    },
+    "inquiry-form": {
+      "categories": {
+        "4": {
+          "dept": "The team in charge"
+        },
+        "5": {
+          "dept": "The HR team"
+        },
+        "6": {
+          "dept": "The consumer protection team"
+        }
+      },
+      "contentLabel": "Message",
+      "contentPlaceholder": "The more detail you give, the more accurately we can answer.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "name@example.com",
+      "errors": {
+        "email": "Please check your email address.",
+        "failed": "We could not submit your inquiry. Please try again shortly.",
+        "phone": "Please check your phone number.",
+        "required": "Please fill in all required fields.",
+        "turnstile": "Please complete the security check."
+      },
+      "nameLabel": "Name",
+      "namePlaceholder": "John Doe",
+      "notice": "{{dept}} will review your inquiry and reply.",
+      "phoneLabel": "Phone",
+      "phonePlaceholder": "010-0000-0000",
+      "submit": "Submit inquiry",
+      "titleLabel": "Subject",
+      "titlePlaceholder": "Enter a subject"
+    },
+    "step-indicator": {
+      "steps": {
+        "connect": "2. Connect · Submit",
+        "select": "1. Choose a topic"
+      }
+    },
+    "submission-complete": {
+      "description": "The team in charge will review it and reply to the email address you provided.",
+      "reset": "Back to start"
+    }
+  },
+  "support-social-channels": {
+    "contact": "Contact",
+    "countries_count": "24 Languages",
+    "countries": {
+      "african-region": "African Region",
+      "bangladesh": "Bangladesh",
+      "cambodia": "Cambodia",
+      "china": "China",
+      "india": "India",
+      "indonesia": "Indonesia",
+      "japan": "Japan",
+      "korea": "Korea",
+      "mongolia": "Mongolia",
+      "myanmar": "Myanmar",
+      "nepal": "Nepal",
+      "pakistan": "Pakistan",
+      "philippines": "Philippines",
+      "srilanka": "Sri Lanka",
+      "thailand": "Thailand",
+      "uzbekistan-cis": "Uzbekistan & CIS",
+      "vietnam": "Vietnam",
+      "western": "Western"
+    },
+    "description": "Connect with GME through official channels in each country",
+    "operating": "Supported",
+    "title": "Global Social Channels"
+  },
+  "support": {
+    "tabs": {
+      "branches": "Branches",
+      "social_channels": "Contact Us"
+    },
+    "stats": {
+      "countries_label": "Service Countries",
+      "branches_label": "Branches",
+      "branches_unit": "+",
+      "branches_value": "10",
+      "countries_unit": "+",
+      "countries_value": "200",
+      "services_label": "Services",
+      "services_unit": "+",
+      "services_value": "8"
+    }
+  }
+}

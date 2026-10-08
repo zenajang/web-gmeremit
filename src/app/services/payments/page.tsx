@@ -10,7 +10,7 @@ import { solutions as solutionsData, paymentFeatureKeys, partnerLogos, paymentPr
 import SectionHeader from "@/components/ui/SectionHeader";
 
 export default function PaymentsPage() {
-  const { t, tArray } = useTranslation("business");
+  const { t, tArray } = useTranslation();
   useLenis();
 
   const solutions = solutionsData.map((sol) => ({
@@ -101,14 +101,14 @@ export default function PaymentsPage() {
 
   return (
     <PublicLayout className="bg-white">
-        <ServiceHeroSection translationKey="business" color="payments" />
+        <ServiceHeroSection translationKey="services-payments.service-hero-section" color="payments" ctaTextKey="cta_contact" />
         {/* ── Core Solutions (SPS / VAS) ── */}
         <section ref={setSolutionsSectionRef} className="py-24 lg:py-32 fade-section">
           <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
             <SectionHeader
-              label={t("solutions.label")}
-              title={t("solutions.title")}
-              description={t("solutions.description")}
+              label={t("services-payments.solutions.label")}
+              title={t("services-payments.solutions.title")}
+              description={t("services-payments.solutions.description")}
               colorClass="text-payments"
               className="mb-16"
             />
@@ -130,20 +130,20 @@ export default function PaymentsPage() {
                     </div>
                     <div>
                       <h3 className="typo-content-title">
-                        {t(`solutions.${sol.key}.title`)}
+                        {t(`services-payments.solutions.${sol.key}.title`)}
                       </h3>
                       <p className="text-sm font-medium" style={{ color: sol.color }}>
-                        {t(`solutions.${sol.key}.subtitle`)}
+                        {t(`services-payments.solutions.${sol.key}.subtitle`)}
                       </p>
                     </div>
                   </div>
 
                   <p className="text-gray-500 text-[15px] leading-relaxed mb-6">
-                    {t(`solutions.${sol.key}.description`)}
+                    {t(`services-payments.solutions.${sol.key}.description`)}
                   </p>
 
                   <div className="grid grid-cols-2 gap-2.5">
-                    {tArray(`solutions.${sol.key}.features`).map(
+                    {tArray(`services-payments.solutions.${sol.key}.features`).map(
                       (feature: string, idx: number) => (
                         <div key={idx} className="flex items-center gap-2.5 text-sm text-gray-600">
                           <svg className="w-4 h-4 flex-shrink-0" style={{ color: sol.color }} fill="currentColor" viewBox="0 0 20 20">
@@ -164,8 +164,8 @@ export default function PaymentsPage() {
         <section ref={setFeaturesSectionRef} className="py-24 lg:py-32 bg-[#fafbfc] fade-section">
           <div className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
             <SectionHeader
-              label={t("features.label")}
-              title={t("features.title")}
+              label={t("services-payments.features.label")}
+              title={t("services-payments.features.title")}
               colorClass="text-payments"
               className="mb-16"
             />
@@ -187,11 +187,11 @@ export default function PaymentsPage() {
                       </svg>
                     </div>
                     <h3 className="typo-base-title text-[15px] lg:text-base lg:mb-2">
-                      {t(`features.${f.key}.title`)}
+                      {t(`services-payments.features.${f.key}.title`)}
                     </h3>
                   </div>
                   <p className="text-sm text-gray-500 leading-relaxed lg:pl-0 pl-[44px]">
-                    {t(`features.${f.key}.description`)}
+                    {t(`services-payments.features.${f.key}.description`)}
                   </p>
                 </div>
               ))}
@@ -203,8 +203,8 @@ export default function PaymentsPage() {
         <section className="py-24 lg:py-32 bg-light">
           <div ref={partnersRef} className="max-w-content mx-auto px-4 sm:px-6 lg:px-8" style={{ opacity: partnersVisible ? 1 : 0, transform: partnersVisible ? "translateY(0)" : "translateY(-48px)", transition: "opacity 3s cubic-bezier(0.16, 1, 0.3, 1), transform 3s cubic-bezier(0.16, 1, 0.3, 1)" }}>
             <SectionHeader
-              label={t("partners.label")}
-              title={t("partners.title")}
+              label={t("services-payments.partners.label")}
+              title={t("services-payments.partners.title")}
               colorClass="text-payments"
               className="mb-16"
             />
@@ -232,8 +232,8 @@ export default function PaymentsPage() {
         <section className="py-24 lg:py-32 bg-[#fafbfc]">
           <div ref={processRef} className="max-w-content mx-auto px-4 sm:px-6 lg:px-8">
             <SectionHeader
-              label={t("process.label")}
-              title={t("process.title")}
+              label={t("services-payments.process.label")}
+              title={t("services-payments.process.title")}
               colorClass="text-payments"
               className="mb-20 fade-step"
             />
@@ -261,10 +261,10 @@ export default function PaymentsPage() {
 
                     {/* Text */}
                     <h3 className="text-[17px] font-bold text-dark mb-2">
-                      {t(`process.${step}.title`)}
+                      {t(`services-payments.process.${step}.title`)}
                     </h3>
                     <p className="text-[15px] text-gray-400 leading-relaxed">
-                      {t(`process.${step}.description`)}
+                      {t(`services-payments.process.${step}.description`)}
                     </p>
                   </div>
                 </div>
@@ -285,10 +285,10 @@ export default function PaymentsPage() {
                   {/* Content */}
                   <div className="pb-10">
                     <h3 className="text-[15px] font-bold text-dark mb-1.5 -mt-0.5">
-                      {t(`process.${step}.title`)}
+                      {t(`services-payments.process.${step}.title`)}
                     </h3>
                     <p className="text-[13px] text-gray-400 leading-relaxed">
-                      {t(`process.${step}.description`)}
+                      {t(`services-payments.process.${step}.description`)}
                     </p>
                   </div>
                 </div>
@@ -307,15 +307,15 @@ export default function PaymentsPage() {
 
           <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-5">
-              {t("cta.title")}
+              {t("common.payments.business.cta.title")}
             </h2>
             <p className="text-lg text-gray-300 mb-10 max-w-xl mx-auto leading-relaxed">
-              {t("cta.description")}
+              {t("common.payments.business.cta.description")}
             </p>
 
             {/* <div className="inline-flex items-center gap-3 px-7 py-3.5 rounded-xl bg-white/[0.05] border border-white/[0.08] backdrop-blur-sm">
               <span className="w-1.5 h-1.5 rounded-full bg-[#ed1c24]/60" />
-              <span className="text-sm text-gray-400">{t("cta.email")}</span>
+              <span className="text-sm text-gray-400">{t("common.payments.business.cta.email")}</span>
             </div> */}
           </div>
         </section>

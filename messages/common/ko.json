@@ -1,0 +1,227 @@
+{
+  "header": {
+    "link": {
+      "careers": "채용"
+    },
+    "nav": {
+      "blog": "블로그",
+      "branches": "지점 안내",
+      "card": "카드",
+      "ceo_message": "CEO 인사말",
+      "company": "회사소개",
+      "history": "연혁",
+      "inquiry": "문의하기",
+      "loan": "대출",
+      "news": "소식",
+      "notice": "공지사항",
+      "payments": "기업송금",
+      "press": "뉴스 / 보도자료",
+      "remittance": "해외송금",
+      "services": "사업소개",
+      "services_menu": "서비스",
+      "social_channels": "문의하기",
+      "support": "고객지원",
+      "telecom": "모바일"
+    }
+  },
+  "footer": {
+    "company_name": "글로벌머니익스프레스",
+    "copyright": "© 글로벌머니익스프레스, All rights reserved.",
+    "info": {
+      "address": "주소 : 서울시 영등포구 영등포로150 생각공장당산 B동 901~911호",
+      "email_support": "Queries: support@gmeremit.com",
+      "fax": "팩스 : (+82) 2 3674 5559",
+      "phone_general": "02-3673-5559 (송금 서비스 외 회사 문의)",
+      "remittance_inquiry": "송금 서비스 관련 문의"
+    },
+    "link": {
+      "privacy": "개인정보처리방침",
+      "terms": "이용약관"
+    }
+  },
+  "common": {
+    "blog-grid": {
+      "board": {
+        "by": "By"
+      }
+    },
+    "board": {
+      "error_description": "잠시 후 다시 시도해주세요.",
+      "error_title": "게시글을 불러올 수 없습니다"
+    },
+    "careers": {
+      "cta": {
+        "openings": "채용 공고 보기",
+        "subtitle": "현재 채용 중인 포지션을 확인하고 지원해보세요.",
+        "title": "GME와 함께할 준비가 되셨나요?"
+      }
+    },
+    "exchange-rate-calculator": {
+      "home": {
+        "exchange": {
+          "calculator": {
+            "bank_deposit": "계좌 입금",
+            "cash_payment": "현금 수령",
+            "delivery_method": "송금 방식",
+            "error": "조회 실패",
+            "error_failed": "환율 조회에 실패했습니다",
+            "error_limit": "송금 가능 금액 범위를 초과했습니다",
+            "error_max_amount": "최대 송금 가능 금액: %1$s KRW",
+            "error_min_amount": "최소 송금 가능 금액: %1$s KRW",
+            "error_network": "네트워크 오류가 발생했습니다",
+            "error_unavailable": "해당 금액은 조회할 수 없습니다",
+            "error_unavailable_method": "현재 이용할 수 없는 송금 방식입니다",
+            "fee": "수수료 포함",
+            "loading": "조회 중...",
+            "mobile_wallet": "모바일 월렛",
+            "no_results": "검색 결과가 없습니다",
+            "payout_methods": {
+              "1": "현금 수령",
+              "2": "계좌 입금",
+              "12": "방문 배송",
+              "13": "모바일 월렛",
+              "14": "카드 결제",
+              "15": "Bank Deposit (USD)",
+              "16": "위챗페이",
+              "17": "알리페이",
+              "18": "비자/마스터/유니온페이",
+              "19": "비자/마스터카드",
+              "24": "UPTION",
+              "25": "UPI",
+              "26": "UZCARD",
+              "27": "HUMO Card",
+              "33": "비캐시",
+              "34": "로켓",
+              "35": "나가드",
+              "37": "QR 결제",
+              "38": "Korti Milli"
+            },
+            "qr_pay": "QR 결제",
+            "rate": "환율",
+            "realtime": "실시간",
+            "receive_amount": "받는 금액",
+            "receive_country": "받는 국가",
+            "search_placeholder": "국가 검색",
+            "send_amount": "보내는 금액",
+            "title": "실시간 환율 계산기"
+          }
+        }
+      }
+    },
+    "loan": {
+      "cta": {
+        "description": "간편한 모바일 신청으로 빠르게 자금을 마련하세요.",
+        "inline_notice": "ⓘ 아래 버튼을 누르면 GME Finance가 제공하는 대출 서비스로 연결됩니다.",
+        "title": "지금 GME 앱에서 대출을 시작하세요"
+      }
+    },
+    "mobile-section": {
+      "hero": {
+        "description": "문의 유형을 선택하시면 담당 창구로 안내해 드립니다."
+      }
+    },
+    "payments": {
+      "business": {
+        "cta": {
+          "description": "전담 매니저가 우리 비즈니스에 맞는 최적의 방법을 제안해드려요.",
+          "email": "corporate@gmeremit.com",
+          "title": "우리 회사도 GME Payments 시작하기"
+        }
+      }
+    },
+    "remittance": {
+      "features": {
+        "app": {
+          "desc": "모바일 앱에서 몇 번의 터치로 송금 완료",
+          "title": "앱으로 간편 송금"
+        },
+        "branches": {
+          "desc": "전국 지점에서 상담 및 지원 가능",
+          "title": "오프라인 지점"
+        },
+        "convenient": {
+          "desc": "직관적인 화면으로 누구나 쉽게 이용",
+          "title": "편리한 사용자 경험"
+        },
+        "multilingual": {
+          "desc": "여러 언어로 편리하게 서비스 이용",
+          "title": "다국어 지원"
+        },
+        "subtitle": "앱 하나로 간편하게 송금부터 조회까지",
+        "title": "더 쉽고",
+        "title2": "더 안전한 송금"
+      }
+    },
+    "services": {
+      "chat": {
+        "title": "실시간 채팅 상담으로 연결됩니다"
+      },
+      "complete": {
+        "title": "문의가 접수되었습니다"
+      },
+      "external": {
+        "title": "{{site}} 로 이동합니다"
+      },
+      "hero": {
+        "title": "무엇을 도와드릴까요"
+      }
+    },
+    "support": {
+      "hero": {
+        "desc1": "전국 지점과 글로벌 소셜 채널을 통해",
+        "desc2": "언제든 문의하고 도움을 받으실 수 있습니다.",
+        "desc3": "가까운 지점을 방문하거나 소셜 미디어로 연결하세요.",
+        "title": "GME, 언제나 당신 곁에"
+      }
+    },
+    "telecom-page-client": {
+      "cta": {
+        "button": "GME Telecom 바로가기",
+        "description": "17개 언어로 지원되는 간편하고 저렴한 요금제.",
+        "title": "지금 GME Telecom을 시작하세요"
+      },
+      "features": {
+        "activation": {
+          "description": "앱에서 간편하게 직접 개통",
+          "title": "5분 셀프개통"
+        },
+        "affordable": {
+          "description": "외국인 맞춤 초저가 요금제",
+          "title": "월 3,300원부터"
+        },
+        "esim": {
+          "description": "QR 스캔 한 번으로 바로 개통",
+          "title": "eSIM 지원"
+        },
+        "intl_call": {
+          "description": "일부 요금제 매일 20분 국제전화",
+          "title": "국제전화 포함"
+        },
+        "multilang": {
+          "description": "모국어로 편리하게 이용",
+          "title": "17개 언어 지원"
+        },
+        "network": {
+          "description": "전국 어디서나 안정적인 통화 품질",
+          "title": "LGU+, KT와 동일품질"
+        },
+        "plans": {
+          "description": "월 3,300원부터 나에게 맞는 요금제",
+          "title": "다양한 요금제"
+        },
+        "usim": {
+          "description": "배송받아서 5분 만에 개통 완료",
+          "title": "USIM 셀프개통"
+        }
+      }
+    },
+    "company": {
+      "tabs": {
+        "title": "회사 소개"
+      }
+    },
+    "button": {
+      "app_download": "앱 다운로드"
+    }
+  }
+}

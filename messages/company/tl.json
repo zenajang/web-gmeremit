@@ -1,0 +1,153 @@
+{
+  "company-careers": {
+    "benefits": {
+      "education": {
+        "description": "Buong suporta para sa pagpapaunlad ng sarili kasama ang mga online course, sertipikasyon, klase sa wika, at bayad sa kumperensya.",
+        "title": "Suporta sa Edukasyon at Paglago"
+      },
+      "health": {
+        "description": "Taunang health checkup allowance na ₩300,000 para sa mga full-time na empleyado para suportahan ang malusog na pamumuhay.",
+        "title": "Suporta sa Health Checkup"
+      },
+      "incentive": {
+        "description": "Iba't ibang incentive at gantimpala base sa performance para sa pagkamit ng mga layunin, bagong ideya, at natatanging pagganap.",
+        "title": "Performance Incentive"
+      },
+      "subtitle": "Sinusuportahan ang paglago at kaligayahan ng mga miyembro ng GME",
+      "team_building": {
+        "description": "Buwanang town hall, quarterly team event, sports club, at healing concert para lumago nang magkasama.",
+        "title": "Team Building at Kultura"
+      },
+      "title": "Mga Benepisyo at Perks",
+      "vacation": {
+        "description": "Iba't ibang espesyal na leave program kasama ang birthday leave, anniversary leave, family event, at parental leave.",
+        "title": "Taunang at Espesyal na Leave"
+      }
+    },
+    "header": {
+      "button": "Tingnan ang mga Bakante",
+      "description": "Sumali sa aming pandaigdigang fintech company na nagbibigay ng serbisyong pinansyal sa mga customer sa 200+ na bansa.",
+      "title": "Lumago kasama ang GME"
+    },
+    "staff_stories": {
+      "subtitle": "Mga totoong kwento mula sa aming mga kasamahan",
+      "title": "Mga Kwento ng Team"
+    },
+    "why_gme": {
+      "agile": {
+        "description": "Mabilis na pagpapatupad sa flat na organisasyon, matuto mula sa mga pagkabigo, at lumago nang magkasama.",
+        "title": "Mabilis na Paggawa ng Desisyon"
+      },
+      "diversity": {
+        "description": "Makipagtulungan sa mga kasamahang mula sa 14+ na nasyonalidad at matuto mula sa iba't ibang pananaw.",
+        "title": "Pagtanggap sa Pagkakaiba"
+      },
+      "fairness": {
+        "description": "Patas na sinusuri base sa kakayahan at pagganap, anuman ang kasarian o nasyonalidad.",
+        "title": "Patas na Pagkakataon"
+      },
+      "title": "Bakit Espesyal ang GME"
+    }
+  },
+  "company-ceo-message": {
+    "paragraph1": "Bilang nangungunang fintech company sa South Korea, kami ay nag-iinvest sa makabagong teknolohiya at sa aming mga tao, nagsusumikap para sa mutual na paglago at tagumpay ng customer.",
+    "paragraph2": "Sumali sa GME habang hinuhubog namin ang kinabukasan ng pandaigdigang serbisyong pinansyal, at maranasan ang mas maginhawa at makabagong mga serbisyo."
+  },
+  "company-history": {
+    "events": {
+      "2016_08": "Itinatag ang Global Money Express Co., Ltd.",
+      "2017_03": "Inilunsad ang unang online na serbisyo",
+      "2017_06": "Unang service provider sa Korea",
+      "2017_08": "Unang kumpanyang nakakuha ng small overseas remittance license sa Korea",
+      "2017_12": "Lumampas sa KRW 10 bilyon ang taunang remittance sa ibang bansa",
+      "2018_04": "Lumagpas sa KRW 54 bilyon ang kabuuang overseas remittance",
+      "2018_09": "Napili bilang Seoul City recommended remittance provider",
+      "2018_12": "Lumampas sa KRW 460 bilyon ang taunang remittance sa ibang bansa",
+      "2018_loan": "Nagsimula ng credit loan service para sa mga dayuhan",
+      "2019_03": "Inilunsad ang domestic remittance service",
+      "2019_06": "Nagbukas ng 12 branch sa buong bansa",
+      "2019_07": "",
+      "2019_09": "Nagbukas ng 3 center sa buong bansa",
+      "2019_12": "",
+      "2020_02": "Lumagpas sa KRW 1 trilyon ang kabuuang overseas remittance",
+      "2020_05": "Inilunsad ang Mobile Top-up service",
+      "2020_08": "Nakakuha ng prepaid electronic payment license",
+      "2020_09": "Inilunsad ang serbisyo ng GME Pay",
+      "2020_12": "Lumampas sa KRW 1.0 trilyon ang taunang remittance sa ibang bansa",
+      "2021_04": "Lumagpas sa KRW 1.9 trilyon ang kabuuang overseas remittance",
+      "2021_07": "Inilunsad ang Mobile Coupon service",
+      "2021_10": "Nanalo ng Grand Prize sa Hankyung Fintech Awards (Tech Category)",
+      "2021_12": "Nakakuha ng PG license at electronic payment business authorization",
+      "2022_03": "Nakakuha ng foreign exchange business license",
+      "2022_06": "Nagsimula ng payment business",
+      "2022_11": "Lumagpas sa KRW 2 trilyon ang kabuuang overseas remittance",
+      "2022_12": "Lumampas sa KRW 1.7 trilyon ang taunang remittance sa ibang bansa",
+      "2023_02": "Lumagpas sa KRW 2.1 trilyon ang kabuuang overseas remittance",
+      "2023_05": "Inilunsad ang GME Card service sa pakikipagtulungan ng BC Card at Mastercard",
+      "2023_09": "Nakakuha ng GME Mobile (MVNO) service license",
+      "2023_10": "Nairanggo sa Top 10 Korea Fintech ng Forbes 2023",
+      "2023_kibo": "Napili bilang KIBO-Star Valley Company ng KOTEC",
+      "2023_nice": "Sertipikado bilang Excellent Technology Company ng NICE",
+      "2024_03": "Inilunsad ang GME Mobile (MVNO) service sa pakikipagtulungan ng LG U+",
+      "2024_06": "Inilunsad ang 'GMEBiz' corporate payment service",
+      "2024_12": "Lumagpas sa KRW 2.8 trilyon ang kabuuang overseas remittance",
+      "2025_03": "Inilunsad ang insurance product para sa mga dayuhang residente",
+      "2025_04": "Sertipikado bilang Innovative SME (Inno-Biz)",
+      "2025_06": "Inilunsad ang debit card na may transportation card feature",
+      "2025_12": "Lumagpas sa KRW 3.5 trilyon ang kabuuang overseas remittance",
+      "2026_09": "Inilunsad ang EasyCare Card, na nag-aalok ng benepisyong insurance at membership sa pakikipagtulungan sa DB Insurance."
+    },
+    "title_line1": "Walang Katapusang Hamon,",
+    "title_line2": "Mga Bagong Simula"
+  },
+  "company-services": {
+    "b2b_payments": {
+      "desc": "Mabilis at murang cross-border payout at koleksyon",
+      "title": "B2B Payments"
+    },
+    "core_services": "Mga Pangunahing Serbisyo",
+    "digital_wallet": {
+      "desc": "Mag-deposit, magpadala, at magbayad nang walang abala sa isang lugar",
+      "title": "Digital Wallet"
+    },
+    "easy_loan": {
+      "desc": "100% paperless loan na may same-day approval",
+      "title": "Easy Finance"
+    },
+    "gift_coupons": {
+      "desc": "Magpadala ng digital gift coupon gamit ang reward point",
+      "title": "Gift Coupons"
+    },
+    "gme_card": {
+      "desc": "Magbayad, mag-withdraw, at pamahalaan ang iyong pera sa buong mundo",
+      "title": "GME Card"
+    },
+    "learn_more": "Alamin Pa",
+    "mobile_topup": {
+      "desc": "Instant mobile recharge sa 150+ na bansa",
+      "title": "Mobile Top-up"
+    },
+    "money_exchange": {
+      "desc": "Mas magandang exchange rate kaysa sa mga tradisyunal na bangko",
+      "title": "Money Exchange"
+    },
+    "personal_remittance": {
+      "desc": "Magpadala ng pera sa lokal o pandaigdigan na may multi-language support",
+      "title": "Personal Remit"
+    },
+    "related_services": "Mga Kaugnay na Serbisyo",
+    "subtitle": "Lahat ng iyong pangangailangan sa pandaigdigang pananalapi sa isang lugar",
+    "telecom": {
+      "desc": "Mga budget mobile plan simula sa ₩3,300/buwan",
+      "title": "Telecom"
+    },
+    "title": "Mga Serbisyo ng GME"
+  },
+  "company": {
+    "tabs": {
+      "ceo_message": "Mensahe ng CEO",
+      "history": "Kasaysayan",
+      "services": "Mga Serbisyo"
+    }
+  }
+}

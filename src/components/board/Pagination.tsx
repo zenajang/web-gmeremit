@@ -15,7 +15,7 @@ export default function Pagination({
   hasMore,
   onLoadMore,
 }: PaginationProps) {
-  const { t } = useTranslation("board");
+  const { t } = useTranslation();
 
   if (!hasMore) {
     return null;
@@ -29,7 +29,7 @@ export default function Pagination({
         className="group relative px-10 py-4 bg-white border-2 border-primary text-primary font-semibold rounded-full hover:bg-gradient-to-r hover:from-primary hover:to-primary-dark hover:text-white hover:border-primary transition-all duration-300 shadow-sm hover:shadow-[0_8px_30px_rgba(237,28,36,0.2)] hover:-translate-y-1 active:translate-y-0 cursor-pointer"
       >
         <span className="flex items-center gap-3">
-          <span>{t("load_more")}</span>
+          <span>{t("board.pagination.load_more")}</span>
           <span className="text-sm opacity-75">
             ({currentCount}/{totalCount})
           </span>

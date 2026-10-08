@@ -1,0 +1,52 @@
+{
+  "board-detail": {
+    "board-detail-client": {
+      "attachment": "Хавсралт",
+      "attachment_file": "Хавсралт файл",
+      "back": "Буцах",
+      "back_to_list": "Жагсаалт руу буцах",
+      "not_found": "Бичлэг олдсонгүй"
+    }
+  },
+  "board-notice": {
+    "redirect": {
+      "notice": "Мэдэгдлийн хуудас руу шилжиж байна..."
+    }
+  },
+  "board-press": {
+    "redirect": {
+      "press": "Мэдээний хуудас руу шилжиж байна..."
+    }
+  },
+  "board": {
+    "blog-grid": {
+      "no_image": "Зураггүй",
+      "no_results": "Үр дүн олдсонгүй."
+    },
+    "board-table": {
+      "attachment": "Файл",
+      "attachment_file": "Хавсралт",
+      "date": "Огноо",
+      "title": "Гарчиг",
+      "type": "Төрөл"
+    },
+    "count_suffix": " бичлэг",
+    "pagination": {
+      "load_more": "Илүүг үзэх"
+    },
+    "search-bar": {
+      "all": "Бүгд",
+      "content": "Агуулга",
+      "placeholder": "Хайх үгээ оруулна уу",
+      "title": "Гарчиг",
+      "button": "Хайх"
+    },
+    "subtitle": "GME Remit-ийн хамгийн сүүлийн мэдээллийг шалгана уу",
+    "tabs": {
+      "blog": "Блог",
+      "notice": "Мэдэгдэл",
+      "press": "Мэдээ"
+    },
+    "total": "Нийт"
+  }
+}

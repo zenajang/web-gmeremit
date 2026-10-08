@@ -1,0 +1,539 @@
+{
+  "home": {
+    "app-download-cta": {
+      "chips": [
+        "实时汇率",
+        "最优金额",
+        "安全认证"
+      ],
+      "description": "便捷安全的认证、最优金额、快速汇款。GME Remit APP让一切安全又方便。",
+      "qr_scan": "扫描二维码",
+      "subtitle": "GME REMIT APP",
+      "title1": "更快汇款，",
+      "title2": "更智能管理"
+    },
+    "cards-showcase": {
+      "black": {
+        "cta": "查看Premium Card",
+        "desc": "为您的境外消费提供丰厚回馈的高端卡片。",
+        "highlights": [
+          "境外消费3%返现",
+          "全球畅行无忧支付",
+          "线上线下购物",
+          "公共交通"
+        ]
+      },
+      "careers": {
+        "cta": {
+          "about": "公司介绍"
+        }
+      },
+      "cta": {
+        "button": "申请卡片",
+        "description": "找到最适合您的卡片，享受专属优惠。",
+        "title": "今天就开始使用GME Card"
+      },
+      "easyCare": {
+        "cta": "查看EasyCare Card",
+        "desc": "用心守护,Made to Care。提供保险及会员支持权益的后付交通卡。",
+        "highlights": [
+          "保险及会员支持权益",
+          "后付交通卡",
+          "季节性及特约商户返现",
+          "全球畅行无忧支付"
+        ]
+      },
+      "easyG0": {
+        "cta": "查看EasyGo Card",
+        "desc": "让日常生活更加便利。从交通出行到购物消费,尽享季节性专属优惠。",
+        "highlights": [
+          "后付交通卡",
+          "季节性及特约商户返现",
+          "全球支付",
+          "线上线下购物"
+        ]
+      },
+      "image_alt": "卡片图片",
+      "loan": {
+        "cta": {
+          "button": "下载APP"
+        }
+      },
+      "pay": {
+        "cta": "查看Pay Card",
+        "desc": "满足您日常消费所需的多合一支付卡。",
+        "highlights": [
+          "季节性及特约商户返现",
+          "全球畅行无忧支付",
+          "线上线下购物",
+          "公共交通"
+        ]
+      },
+      "red": {
+        "cta": "查看Red Card",
+        "desc": "GME标志色彩卡片。让每一次支付都充满格调。",
+        "highlights": [
+          "季节性返现",
+          "特别活动折扣",
+          "地铁·公交·出租车便捷支付",
+          "公共交通"
+        ]
+      },
+      "uniq": {
+        "cta": "查看UniQ Card",
+        "desc": "从18个国家30多种设计中选择专属于您的卡片。",
+        "highlights": [
+          "季节性及特约商户返现",
+          "特别活动折扣",
+          "18个国家30多种设计",
+          "地铁·公交·出租车便捷支付"
+        ]
+      },
+      "white": {
+        "cta": "查看White Card",
+        "desc": "简洁清爽的日常卡片。方便国内支付和公共交通使用。",
+        "highlights": [
+          "季节性返现",
+          "特别活动折扣",
+          "地铁·公交·出租车便捷支付",
+          "公共交通"
+        ]
+      }
+    },
+    "customer-feedback-section": {
+      "subtitle": "来自真实客户的使用体验。",
+      "tags": {
+        "easy_tracking": "便捷汇款·追踪",
+        "fast_process": "快速处理",
+        "satisfied": "满意的服务"
+      },
+      "title": "用户评价"
+    },
+    "hero-main": {
+      "badge": "卓越的汇款服务",
+      "button": {
+        "learn_more": "了解更多"
+      },
+      "countries": {
+        "names": {
+          "AD": "Andorra",
+          "AE": "阿联酋",
+          "AG": "Antigua and Barbuda",
+          "AI": "Anguilla",
+          "AL": "Albania",
+          "AM": "Armenia",
+          "AO": "Angola",
+          "AR": "阿根廷",
+          "AS": "American Samoa",
+          "AT": "Austria",
+          "AU": "澳大利亚",
+          "AW": "Aruba",
+          "AZ": "Azerbaijan",
+          "BA": "Bosnia and Herzegovina",
+          "BB": "Barbados",
+          "BD": "孟加拉国",
+          "BE": "Belgium",
+          "BF": "Burkina Faso",
+          "BG": "Bulgaria",
+          "BH": "巴林",
+          "BI": "Burundi",
+          "BJ": "Benin",
+          "BL": "Saint Barthélemy",
+          "BM": "Bermuda",
+          "BN": "Brunei",
+          "BO": "玻利维亚",
+          "BR": "巴西",
+          "BS": "Bahamas",
+          "BT": "Bhutan",
+          "BW": "Botswana",
+          "BY": "Belarus",
+          "BZ": "Belize",
+          "CA": "加拿大",
+          "CD": "Democratic Republic of the Congo",
+          "CF": "Central African Republic",
+          "CG": "Republic of the Congo",
+          "CH": "瑞士",
+          "CI": "Ivory Coast",
+          "CK": "Cook Islands",
+          "CL": "智利",
+          "CM": "Cameroon",
+          "CN": "中国",
+          "CO": "哥伦比亚",
+          "CR": "Costa Rica",
+          "CU": "Cuba",
+          "CV": "Cape Verde",
+          "CY": "Cyprus",
+          "CZ": "捷克",
+          "DE": "德国",
+          "DJ": "Djibouti",
+          "DK": "丹麦",
+          "DM": "Dominica",
+          "DO": "多米尼加共和国",
+          "DZ": "Algeria",
+          "EC": "Ecuador",
+          "EE": "Estonia",
+          "EG": "Egypt",
+          "ER": "Eritrea",
+          "ES": "Spain",
+          "ET": "Ethiopia",
+          "FI": "Finland",
+          "FJ": "斐济",
+          "FM": "Micronesia",
+          "FR": "France",
+          "GA": "Gabon",
+          "GB": "英国",
+          "GD": "Grenada",
+          "GE": "Georgia",
+          "GF": "French Guiana",
+          "GH": "加纳",
+          "GI": "Gibraltar",
+          "GM": "Gambia",
+          "GN": "Guinea",
+          "GP": "Guadeloupe",
+          "GQ": "Equatorial Guinea",
+          "GR": "Greece",
+          "GT": "危地马拉",
+          "GU": "Guam",
+          "GW": "Guinea-Bissau",
+          "GY": "Guyana",
+          "HK": "香港",
+          "HN": "洪都拉斯",
+          "HR": "Croatia",
+          "HT": "Haiti",
+          "HU": "匈牙利",
+          "ID": "印度尼西亚",
+          "IE": "Ireland",
+          "IL": "以色列",
+          "IN": "印度",
+          "IS": "Iceland",
+          "IT": "Italy",
+          "JM": "Jamaica",
+          "JO": "约旦",
+          "JP": "日本",
+          "KE": "肯尼亚",
+          "KG": "Kyrgyzstan",
+          "KH": "柬埔寨",
+          "KM": "Comoros",
+          "KN": "Saint Kitts and Nevis",
+          "KW": "科威特",
+          "KY": "Cayman Islands",
+          "KZ": "Kazakhstan",
+          "LA": "Laos",
+          "LB": "Lebanon",
+          "LC": "Saint Lucia",
+          "LI": "Liechtenstein",
+          "LK": "斯里兰卡",
+          "LR": "Liberia",
+          "LS": "Lesotho",
+          "LT": "Lithuania",
+          "LU": "Luxembourg",
+          "LV": "Latvia",
+          "LY": "Libya",
+          "MA": "摩洛哥",
+          "MC": "Monaco",
+          "MD": "Moldova",
+          "ME": "Montenegro",
+          "MF": "Saint Martin (French part)",
+          "MG": "Madagascar",
+          "MH": "Marshall Islands",
+          "MK": "Macedonia",
+          "ML": "Mali",
+          "MM": "缅甸",
+          "MN": "Mongolia",
+          "MO": "Macao",
+          "MQ": "Martinique",
+          "MR": "Mauritania",
+          "MS": "Montserrat",
+          "MT": "Malta",
+          "MU": "Mauritius",
+          "MV": "Maldives",
+          "MW": "Malawi",
+          "MX": "墨西哥",
+          "MY": "马来西亚",
+          "MZ": "Mozambique",
+          "NA": "Namibia",
+          "NC": "New Caledonia",
+          "NE": "Niger",
+          "NG": "尼日利亚",
+          "NI": "Nicaragua",
+          "NL": "Netherlands",
+          "NO": "挪威",
+          "NP": "尼泊尔",
+          "NZ": "新西兰",
+          "OM": "阿曼",
+          "PA": "Panama",
+          "PE": "秘鲁",
+          "PF": "French Polynesia",
+          "PG": "Papua New Guinea",
+          "PH": "菲律宾",
+          "PK": "巴基斯坦",
+          "PL": "波兰",
+          "PR": "Puerto Rico",
+          "PS": "Palestinian Territory, Occupied",
+          "PT": "Portugal",
+          "PY": "巴拉圭",
+          "QA": "卡塔尔",
+          "RE": "Réunion",
+          "RO": "罗马尼亚",
+          "RS": "Serbia",
+          "RU": "俄罗斯",
+          "RW": "卢旺达",
+          "SA": "沙特阿拉伯",
+          "SB": "Solomon Islands",
+          "SC": "Seychelles",
+          "SD": "Sudan",
+          "SE": "Sweden",
+          "SG": "新加坡",
+          "SI": "Slovenia",
+          "SK": "Slovakia",
+          "SL": "Sierra Leone",
+          "SN": "Senegal",
+          "SR": "Suriname",
+          "SS": "South Sudan",
+          "ST": "Sao Tome and Principe",
+          "SV": "El Salvador",
+          "SZ": "Swaziland",
+          "TC": "Turks and Caicos Islands",
+          "TD": "Chad",
+          "TG": "Togo",
+          "TH": "泰国",
+          "TJ": "Tajikistan",
+          "TL": "Timor-Leste",
+          "TM": "Turkmenistan",
+          "TN": "Tunisia",
+          "TO": "汤加",
+          "TR": "Turkey",
+          "TT": "Trinidad and Tobago",
+          "TV": "Tuvalu",
+          "TZ": "坦桑尼亚",
+          "UA": "Ukraine",
+          "UG": "乌干达",
+          "US": "美国",
+          "UY": "Uruguay",
+          "UZ": "Uzbekistan",
+          "VC": "Saint Vincent and the Grenadines",
+          "VE": "Venezuela",
+          "VG": "Virgin Islands, British",
+          "VI": "Virgin Islands, U.S.",
+          "VN": "越南",
+          "VU": "Vanuatu",
+          "WS": "萨摩亚",
+          "XK": "Kosovo",
+          "YE": "Yemen",
+          "YT": "Mayotte",
+          "ZA": "South Africa",
+          "ZM": "赞比亚",
+          "ZW": "Zimbabwe"
+        },
+        "realtime": "实时",
+        "subtitle": "支持200多个国家",
+        "title": "支持国家",
+        "view_all": "了解汇款"
+      },
+      "description1": "向200多个国家汇款，韩国所有银行实时到账。",
+      "description2": "70个全球合作伙伴和E-KYC认证，安全可靠。",
+      "rating": "App Store·Google Play 平均",
+      "stats": {
+        "avg_time": "平均汇款时间",
+        "seconds": "秒",
+        "total_amount": "累计汇款额",
+        "trillion": "万亿+"
+      },
+      "title1": "快速安全的",
+      "title2": "海外汇款"
+    },
+    "hero-section": {
+      "exchange": {
+        "description1": "200多个国家的实时汇率。",
+        "description2": "费用透明公开。",
+        "eyebrow": "CURRENCY CONVERTER",
+        "stats": {
+          "countries": "200+",
+          "countries_label": "支持国家",
+          "service": "24/7",
+          "service_label": "实时服务"
+        },
+        "title1": "立即查看",
+        "title2": "汇率"
+      }
+    },
+    "loan-section": {
+      "button": {
+        "apply": "在GME APP中申请贷款",
+        "detail": "了解更多贷款信息"
+      },
+      "card": {
+        "quick_apply": "快速申请",
+        "subtitle": "外国人专用贷款",
+        "title": "GME Finance"
+      },
+      "description": "GME APP几分钟即可申请贷款。随时随地实时查看处理状态和余额。",
+      "features": {
+        "countries": {
+          "desc": "国家",
+          "label": "14+"
+        },
+        "realtime": {
+          "desc": "追踪",
+          "label": "实时"
+        },
+        "simple": {
+          "desc": "APP申请",
+          "label": "简单"
+        },
+        "success": {
+          "desc": "放贷笔数",
+          "label": "100万+"
+        },
+        "support": {
+          "desc": "客服",
+          "label": "24/7"
+        }
+      },
+      "stats": {
+        "desc": "100万+笔放贷·14个国家",
+        "title": "累计放贷业绩",
+        "value": "₩500B+"
+      },
+      "title": "在线贷款"
+    },
+    "main-services": {
+      "card": {
+        "desc1": "一张智能卡,汇款与消费兼顾。",
+        "desc2": "全球支付的新标准。",
+        "title": "GME Card"
+      },
+      "loan": {
+        "desc1": "快速审批、灵活条件",
+        "desc2": "数字贷款服务",
+        "title": "在线贷款"
+      },
+      "mobile": {
+        "desc1": "月费3,300韩元起的",
+        "desc2": "外国人专属实惠手机服务",
+        "title": "手机"
+      },
+      "payments": {
+        "desc1": "薪资、合作伙伴结算、电商支付。",
+        "desc2": "高性价比的企业支付解决方案。",
+        "title": "全球支付"
+      },
+      "remittance": {
+        "desc1": "快速安全的汇款",
+        "desc2": "至200多个国家。",
+        "title": "海外汇款"
+      },
+      "title1": "了解GME的",
+      "title2": "多样化服务"
+    },
+    "payments-section": {
+      "global_payments": {
+        "button": {
+          "detail": "了解更多支付信息"
+        },
+        "card": {
+          "status": "运行中",
+          "subtitle": "企业解决方案",
+          "title": "支付解决方案"
+        },
+        "description": "工资发放、合作伙伴结算、电商支付。高性价比的企业支付解决方案。",
+        "features": {
+          "smb": "SMB",
+          "smb_desc": "电商解决方案",
+          "sps": "SPS",
+          "sps_desc": "B2B支付解决方案",
+          "vas": "VAS",
+          "vas_desc": "通知·报表·仪表板"
+        },
+        "stats": {
+          "cost_saving": "成本节省",
+          "cost_saving_change": "相比传统方式",
+          "cost_saving_value": "最高70%",
+          "partners": "合作伙伴",
+          "partners_change": "全球",
+          "partners_value": "200+",
+          "success_rate": "成功率",
+          "success_rate_change": "通常",
+          "success_rate_value": "99.8%"
+        },
+        "title": "全球支付",
+        "transactions": {
+          "b2b": "B2B批量汇款",
+          "completed": "已完成",
+          "just_now": "刚刚",
+          "merchant": "商户支付",
+          "mins_ago": "分钟前",
+          "partner": "合作伙伴结算",
+          "processing": "处理中",
+          "title": "最近交易"
+        }
+      }
+    },
+    "remittance-section": {
+      "button": {
+        "detail": "了解更多汇款信息"
+      },
+      "description": "快速安全地向200多个国家汇款。",
+      "features": {
+        "fast": {
+          "back_desc": "无需繁琐步骤,轻点几下即可汇款至全球任何地方。",
+          "back_title": "简单汇款",
+          "desc": "只需几次点击即可完成海外汇款",
+          "sub": "几次点击",
+          "title": "快速汇款"
+        },
+        "global": {
+          "back_desc": "通过200多个国家和70个全球合作伙伴向全世界汇款。",
+          "back_title": "全球网络",
+          "desc": "全球超过100万用户信赖GME",
+          "sub": "100万+用户",
+          "title": "200+个国家"
+        },
+        "optimized": {
+          "back_desc": "比银行手续费低90%。实时汇率让您汇出更多。",
+          "back_title": "大幅节省成本",
+          "desc": "比银行便宜90%的手续费和更优惠的汇率",
+          "sub": "节省90%",
+          "title": "最优金额"
+        },
+        "security": {
+          "back_desc": "通过E-KYC认证和金融委员会注册服务安全汇款。",
+          "back_title": "全方位安全保障",
+          "desc": "强大安全保障让您安心使用",
+          "sub": "已认证",
+          "title": "简单·安全"
+        }
+      },
+      "title": "海外汇款"
+    },
+    "section-nav": {
+      "app_download": "下载APP",
+      "customer_feedback": "用户评价",
+      "exchange": "货币换算器",
+      "home": "首页",
+      "services": "服务"
+    },
+    "hero": {
+      "countries": {
+        "more": "更多"
+      }
+    },
+    "services": {
+      "loan": {
+        "estimated_limit": "预估额度"
+      }
+    },
+    "section_nav": {
+      "testimonials": "用户评价"
+    },
+    "testimonials": {
+      "subtitle": "来自真实客户的使用体验。",
+      "tags": {
+        "easy_tracking": "便捷汇款·追踪",
+        "fast_process": "快速处理",
+        "satisfied": "满意的服务"
+      },
+      "title": "用户评价"
+    }
+  }
+}

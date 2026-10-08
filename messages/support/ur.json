@@ -1,0 +1,218 @@
+{
+  "support-branches": {
+    "address": "پتہ",
+    "data": {
+      "1": {
+        "address": "315 Jongno, Jongno-gu, Seoul (Dongdaemun Station Exit 3)",
+        "hours": "ہفتے کے دن اور اختتام ہفتہ 10:00 - 19:00",
+        "name": "ڈونگ ڈے مون برانچ"
+      },
+      "2": {
+        "address": "1F, 6 Damunhwa-gil, Danwon-gu, Ansan-si, Gyeonggi-do",
+        "hours": "ہفتے کے دن اور اختتام ہفتہ 10:00 - 19:00",
+        "name": "انسان برانچ"
+      },
+      "3": {
+        "address": "1F, 134 Dorim-ro, Yeongdeungpo-gu, Seoul",
+        "hours": "ہفتے کے دن اور اختتام ہفتہ 10:00 - 19:00",
+        "name": "ڈے رِم برانچ"
+      },
+      "4": {
+        "address": "2-10 Maesan-ro, Paldal-gu, Suwon-si, Gyeonggi-do",
+        "hours": "ہفتے کے دن اور اختتام ہفتہ 10:00 - 19:00",
+        "name": "سووان برانچ"
+      },
+      "5": {
+        "address": "1F, 1109-3 3·1 Manse-ro, Hyangnam-eup, Hwaseong-si, Gyeonggi-do",
+        "hours": "جمعہ - منگل 10:00 - 19:00",
+        "name": "ہواسونگ برانچ"
+      },
+      "6": {
+        "address": "91 Solmoru-ro, Soheul-eup, Pocheon-si, Gyeonggi-do (Next to NH Bank)",
+        "hours": "ہفتہ - بدھ 10:00 - 19:00",
+        "name": "سونگ اُری برانچ"
+      },
+      "7": {
+        "address": "16 Gwangjang-ro, Bupyeong-gu, Incheon (Bupyeong Station Shopping Mall)",
+        "hours": "ہفتہ - بدھ 10:00 - 19:00",
+        "name": "بوپیونگ برانچ"
+      },
+      "8": {
+        "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (Across from Top Mart)",
+        "hours": "ہفتے کے دن اور اختتام ہفتہ 10:00 - 19:00",
+        "name": "گِمہے برانچ"
+      },
+      "9": {
+        "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+        "hours": "ہفتے کے دن اور اختتام ہفتہ 10:00 - 19:00",
+        "name": "پیونگٹیک برانچ"
+      }
+    },
+    "hours": "اوقات",
+    "phone": "فون"
+  },
+  "support-inquiry": {
+    "categories": {
+      "2": {
+        "items": [
+          "کمپنی رجسٹریشن اور جانچ",
+          "تجارتی اور خدماتی ادائیگی",
+          "فیس اور شرح تبادلہ کی شرائط",
+          "API انضمام اور تصفیہ"
+        ]
+      },
+      "7": {
+        "items": [
+          "پیکج اور بل کی جانچ",
+          "ایکٹیویشن، نمبر منتقلی اور بندش",
+          "USIM ترسیل اور تبدیلی",
+          "ڈیٹا اور کال کا معیار"
+        ]
+      }
+    },
+    "category-card": {
+      "categories": {
+        "1": {
+          "name": "ذاتی ترسیل زر",
+          "sub": "رقم بھیجنا · شرح تبادلہ · وصولی"
+        },
+        "2": {
+          "name": "کاروباری ترسیل زر (Biz)",
+          "sub": "کمپنی · تجارتی ادائیگی · B2B"
+        },
+        "3": {
+          "name": "قرض سے متعلق استفسار",
+          "sub": "اہلیت · حد · واپسی"
+        },
+        "4": {
+          "name": "اشتراک · شراکت داری",
+          "sub": "شراکت · کاروباری تجویز"
+        },
+        "5": {
+          "name": "ملازمت · بھرتی",
+          "sub": "درخواست · بھرتی کا عمل"
+        },
+        "6": {
+          "name": "صارف تحفظ · شکایت",
+          "sub": "تنازع · استعمال کی پابندی · اطلاع"
+        },
+        "7": {
+          "name": "موبائل · ٹیلی کام",
+          "sub": "پیکج · ایکٹیویشن · USIM"
+        }
+      }
+    },
+    "category-selector": {
+      "question": "آپ کا استفسار کس بارے میں ہے؟"
+    },
+    "chat": {
+      "action": "چیٹ شروع کریں",
+      "description": "نمائندہ فوری جواب دیتا ہے۔ دفتری اوقات کے بعد چیٹ بوٹ رہنمائی کرتا ہے اور واپس کال کی درخواست لیتا ہے۔",
+      "items": [
+        "پیر - جمعہ 09:00 - 18:00 · نمائندہ",
+        "دیگر اوقات · چیٹ بوٹ اور واپس کال",
+        "12 زبانوں کی سہولت (نیپالی، ویتنامی، تھائی وغیرہ)"
+      ]
+    },
+    "external": {
+      "action": "استفسار کے صفحے پر جائیں",
+      "description": "اس قسم کا استفسار {{site}} کی ویب سائٹ پر وصول کیا جاتا ہے۔"
+    },
+    "guide-panel": {
+      "common": {
+        "reset": "دوسری قسم منتخب کریں"
+      }
+    },
+    "honeypot-field": {
+      "form": {
+        "honeypot": "پتہ"
+      }
+    },
+    "inquiry-form": {
+      "categories": {
+        "4": {
+          "dept": "متعلقہ شعبہ"
+        },
+        "5": {
+          "dept": "شعبہ انسانی وسائل"
+        },
+        "6": {
+          "dept": "شعبہ صارف تحفظ"
+        }
+      },
+      "contentLabel": "پیغام",
+      "contentPlaceholder": "آپ جتنی زیادہ تفصیلات فراہم کریں گے، ہم اتنی ہی درستگی سے جواب دے سکیں گے۔",
+      "emailLabel": "ای میل",
+      "emailPlaceholder": "name@example.com",
+      "errors": {
+        "email": "براہِ کرم اپنا ای میل ایڈریس چیک کریں۔",
+        "failed": "ہم آپ کی درخواست جمع نہیں کر سکے۔ براہِ کرم کچھ دیر بعد دوبارہ کوشش کریں۔",
+        "phone": "براہِ کرم اپنا فون نمبر چیک کریں۔",
+        "required": "براہِ کرم تمام ضروری خانے پُر کریں۔",
+        "turnstile": "براہِ کرم سیکیورٹی کی تصدیق مکمل کریں۔"
+      },
+      "nameLabel": "نام",
+      "namePlaceholder": "احمد علی",
+      "notice": "{{dept}} آپ کی درخواست کا جائزہ لے گا اور جواب دے گا۔",
+      "phoneLabel": "فون نمبر",
+      "phonePlaceholder": "010-0000-0000",
+      "submit": "درخواست جمع کروائیں",
+      "titleLabel": "عنوان",
+      "titlePlaceholder": "عنوان درج کریں"
+    },
+    "step-indicator": {
+      "steps": {
+        "connect": "2. رابطہ · وصولی",
+        "select": "1. قسم منتخب کریں"
+      }
+    },
+    "submission-complete": {
+      "description": "متعلقہ شعبہ جانچ کے بعد آپ کے دیے گئے ای میل پر جواب دے گا۔",
+      "reset": "واپس شروع پر"
+    }
+  },
+  "support-social-channels": {
+    "contact": "رابطہ",
+    "countries_count": "38 ممالک",
+    "countries": {
+      "african-region": "افریقی خطہ",
+      "bangladesh": "بنگلادیش",
+      "cambodia": "کمبوڈیا",
+      "china": "چین",
+      "india": "بھارت",
+      "indonesia": "انڈونیشیا",
+      "japan": "جاپان",
+      "korea": "کوریا",
+      "mongolia": "منگولیا",
+      "myanmar": "میانمار",
+      "nepal": "نیپال",
+      "pakistan": "پاکستان",
+      "philippines": "فلپائن",
+      "srilanka": "سری لنکا",
+      "thailand": "تھائی لینڈ",
+      "uzbekistan-cis": "ازبکستان اور CIS",
+      "vietnam": "ویتنام",
+      "western": "مغربی"
+    },
+    "description": "ہر ملک میں سرکاری چینلز کے ذریعے GME سے جڑیں",
+    "operating": "فعال",
+    "title": "عالمی سوشل چینلز"
+  },
+  "support": {
+    "tabs": {
+      "branches": "برانچیں",
+      "social_channels": "ہم سے رابطہ کریں"
+    },
+    "stats": {
+      "countries_label": "سروس ممالک",
+      "branches_label": "برانچیں",
+      "branches_unit": "+",
+      "branches_value": "12",
+      "countries_unit": "+",
+      "countries_value": "38",
+      "services_label": "خدمات",
+      "services_unit": "+",
+      "services_value": "8"
+    }
+  }
+}

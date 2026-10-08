@@ -8,12 +8,12 @@ interface CompanyTabsProps {
 }
 
 export default function CompanyTabs({ activeTab }: CompanyTabsProps) {
-  const { t } = useTranslation("company.tabs");
+  const { t } = useTranslation();
 
   const tabs = [
-    { id: "ceo-message", labelKey: "ceo_message", href: "/company/ceo-message" },
-    { id: "history", labelKey: "history", href: "/company/history" },
-    { id: "services", labelKey: "services", href: "/company/services" },
+    { id: "ceo-message", labelKey: "header.nav.ceo_message", href: "/company/ceo-message" },
+    { id: "history", labelKey: "header.nav.history", href: "/company/history" },
+    { id: "services", labelKey: "header.nav.services", href: "/company/services" },
   ];
 
   return (
@@ -27,7 +27,7 @@ export default function CompanyTabs({ activeTab }: CompanyTabsProps) {
           About Us
         </p>
         <h2 className="text-xl sm:text-3xl lg:text-5xl font-bold text-dark tracking-tight relative z-10">
-          {t("title")}
+          {t("common.company.tabs.title")}
         </h2>
       </div>
       <div className="flex gap-1 sm:gap-2 border-b border-gray-200">

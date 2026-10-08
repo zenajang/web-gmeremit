@@ -1,0 +1,218 @@
+{
+  "support-branches": {
+    "address": "पता",
+    "data": {
+      "1": {
+        "address": "315 Jongno, Jongno-gu, Seoul (Dongdaemun Station Exit 3)",
+        "hours": "कार्यदिवस और सप्ताहांत 10:00 - 19:00",
+        "name": "डोंगडेमुन शाखा"
+      },
+      "2": {
+        "address": "1F, 6 Damunhwa-gil, Danwon-gu, Ansan-si, Gyeonggi-do",
+        "hours": "कार्यदिवस और सप्ताहांत 10:00 - 19:00",
+        "name": "अनसान शाखा"
+      },
+      "3": {
+        "address": "1F, 134 Dorim-ro, Yeongdeungpo-gu, Seoul",
+        "hours": "कार्यदिवस और सप्ताहांत 10:00 - 19:00",
+        "name": "डेरिम शाखा"
+      },
+      "4": {
+        "address": "2-10 Maesan-ro, Paldal-gu, Suwon-si, Gyeonggi-do",
+        "hours": "कार्यदिवस और सप्ताहांत 10:00 - 19:00",
+        "name": "सुवॉन शाखा"
+      },
+      "5": {
+        "address": "1F, 1109-3 3·1 Manse-ro, Hyangnam-eup, Hwaseong-si, Gyeonggi-do",
+        "hours": "शुक्र - मंगल 10:00 - 19:00",
+        "name": "ह्वासोंग शाखा"
+      },
+      "6": {
+        "address": "91 Solmoru-ro, Soheul-eup, Pocheon-si, Gyeonggi-do (NH Bank के बगल में)",
+        "hours": "शनि - बुध 10:00 - 19:00",
+        "name": "सोंगुरी शाखा"
+      },
+      "7": {
+        "address": "16 Gwangjang-ro, Bupyeong-gu, Incheon (Bupyeong Station Shopping Mall)",
+        "hours": "शनि - बुध 10:00 - 19:00",
+        "name": "बुप्योंग शाखा"
+      },
+      "8": {
+        "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (Top Mart के सामने)",
+        "hours": "कार्यदिवस और सप्ताहांत 10:00 - 19:00",
+        "name": "गिमहे शाखा"
+      },
+      "9": {
+        "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+        "hours": "कार्यदिवस और सप्ताहांत 10:00 - 19:00",
+        "name": "प्योंगटेक शाखा"
+      }
+    },
+    "hours": "समय",
+    "phone": "फोन"
+  },
+  "support-inquiry": {
+    "categories": {
+      "2": {
+        "items": [
+          "कंपनी पंजीकरण और सत्यापन",
+          "व्यापार एवं सेवा भुगतान",
+          "शुल्क और विनिमय दर शर्तें",
+          "API एकीकरण और निपटान"
+        ]
+      },
+      "7": {
+        "items": [
+          "प्लान और बिल विवरण",
+          "सक्रियण, नंबर पोर्टिंग और बंद करना",
+          "USIM डिलीवरी और बदलाव",
+          "डेटा और कॉल गुणवत्ता"
+        ]
+      }
+    },
+    "category-card": {
+      "categories": {
+        "1": {
+          "name": "व्यक्तिगत प्रेषण",
+          "sub": "धन प्रेषण · विनिमय दर · भुगतान प्राप्ति"
+        },
+        "2": {
+          "name": "व्यावसायिक प्रेषण (Biz)",
+          "sub": "कंपनी · व्यापार भुगतान · B2B"
+        },
+        "3": {
+          "name": "ऋण संबंधी पूछताछ",
+          "sub": "पात्रता · सीमा · चुकौती"
+        },
+        "4": {
+          "name": "साझेदारी",
+          "sub": "गठबंधन · व्यावसायिक प्रस्ताव"
+        },
+        "5": {
+          "name": "नौकरी · भर्ती",
+          "sub": "आवेदन · भर्ती प्रक्रिया"
+        },
+        "6": {
+          "name": "उपभोक्ता संरक्षण · शिकायत",
+          "sub": "विवाद · उपयोग प्रतिबंध · रिपोर्ट"
+        },
+        "7": {
+          "name": "मोबाइल · दूरसंचार",
+          "sub": "प्लान · सक्रियण · USIM"
+        }
+      }
+    },
+    "category-selector": {
+      "question": "आपकी पूछताछ किस बारे में है?"
+    },
+    "chat": {
+      "action": "चैट शुरू करें",
+      "description": "एजेंट वास्तविक समय में उत्तर देते हैं। कार्यसमय के बाद चैटबॉट मार्गदर्शन करता है और कॉलबैक अनुरोध लेता है।",
+      "items": [
+        "सोम - शुक्र 09:00 - 18:00 · एजेंट",
+        "अन्य समय · चैटबॉट और कॉलबैक",
+        "12 भाषाएँ उपलब्ध (नेपाली, वियतनामी, थाई आदि)"
+      ]
+    },
+    "external": {
+      "action": "पूछताछ पृष्ठ पर जाएँ",
+      "description": "इस प्रकार की पूछताछ {{site}} वेबसाइट पर ली जाती है।"
+    },
+    "guide-panel": {
+      "common": {
+        "reset": "दूसरा प्रकार चुनें"
+      }
+    },
+    "honeypot-field": {
+      "form": {
+        "honeypot": "पता"
+      }
+    },
+    "inquiry-form": {
+      "categories": {
+        "4": {
+          "dept": "संबंधित विभाग"
+        },
+        "5": {
+          "dept": "मानव संसाधन विभाग"
+        },
+        "6": {
+          "dept": "उपभोक्ता संरक्षण विभाग"
+        }
+      },
+      "contentLabel": "विवरण",
+      "contentPlaceholder": "जितना विस्तार से लिखेंगे, उतना सटीक उत्तर मिलेगा।",
+      "emailLabel": "ईमेल",
+      "emailPlaceholder": "name@example.com",
+      "errors": {
+        "email": "कृपया अपना ईमेल पता जाँचें।",
+        "failed": "पूछताछ भेजी नहीं जा सकी। कृपया कुछ देर बाद पुनः प्रयास करें।",
+        "phone": "कृपया अपना फ़ोन नंबर जाँचें।",
+        "required": "कृपया सभी आवश्यक फ़ील्ड भरें।",
+        "turnstile": "कृपया सुरक्षा जाँच पूरी करें।"
+      },
+      "nameLabel": "नाम",
+      "namePlaceholder": "राहुल शर्मा",
+      "notice": "{{dept}} जाँच कर उत्तर देगा।",
+      "phoneLabel": "फ़ोन नंबर",
+      "phonePlaceholder": "010-0000-0000",
+      "submit": "पूछताछ भेजें",
+      "titleLabel": "विषय",
+      "titlePlaceholder": "विषय दर्ज करें"
+    },
+    "step-indicator": {
+      "steps": {
+        "connect": "2. संपर्क · दर्ज",
+        "select": "1. प्रकार चुनें"
+      }
+    },
+    "submission-complete": {
+      "description": "संबंधित विभाग जाँच कर आपके दिए गए ईमेल पर उत्तर देगा।",
+      "reset": "शुरुआत पर लौटें"
+    }
+  },
+  "support-social-channels": {
+    "contact": "संपर्क",
+    "countries_count": "38 देश",
+    "countries": {
+      "african-region": "अफ्रीकी क्षेत्र",
+      "bangladesh": "बांग्लादेश",
+      "cambodia": "कंबोडिया",
+      "china": "चीन",
+      "india": "भारत",
+      "indonesia": "इंडोनेशिया",
+      "japan": "जापान",
+      "korea": "कोरिया",
+      "mongolia": "मंगोलिया",
+      "myanmar": "म्यांमार",
+      "nepal": "नेपाल",
+      "pakistan": "पाकिस्तान",
+      "philippines": "फिलीपींस",
+      "srilanka": "श्रीलंका",
+      "thailand": "थाईलैंड",
+      "uzbekistan-cis": "उज़्बेकिस्तान और CIS",
+      "vietnam": "वियतनाम",
+      "western": "पश्चिमी"
+    },
+    "description": "प्रत्येक देश में आधिकारिक चैनलों के माध्यम से GME से जुड़ें",
+    "operating": "संचालन में",
+    "title": "वैश्विक सोशल चैनल"
+  },
+  "support": {
+    "tabs": {
+      "branches": "शाखाएं",
+      "social_channels": "संपर्क करें"
+    },
+    "stats": {
+      "countries_label": "सेवा देश",
+      "branches_label": "शाखाएं",
+      "branches_unit": "+",
+      "branches_value": "12",
+      "countries_unit": "+",
+      "countries_value": "38",
+      "services_label": "सेवाएं",
+      "services_unit": "+",
+      "services_value": "8"
+    }
+  }
+}

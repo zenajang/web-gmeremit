@@ -1,0 +1,218 @@
+{
+  "support-branches": {
+    "address": "Dirección",
+    "data": {
+      "1": {
+        "address": "315 Jongno, Jongno-gu, Seúl (Estación Dongdaemun Salida 3)",
+        "hours": "Entre semana y fines de semana 10:00 - 19:00",
+        "name": "Sucursal Dongdaemun"
+      },
+      "2": {
+        "address": "1F, 6 Damunhwa-gil, Danwon-gu, Ansan-si, Gyeonggi-do",
+        "hours": "Entre semana y fines de semana 10:00 - 19:00",
+        "name": "Sucursal Ansan"
+      },
+      "3": {
+        "address": "1F, 134 Dorim-ro, Yeongdeungpo-gu, Seúl",
+        "hours": "Entre semana y fines de semana 10:00 - 19:00",
+        "name": "Sucursal Daerim"
+      },
+      "4": {
+        "address": "2-10 Maesan-ro, Paldal-gu, Suwon-si, Gyeonggi-do",
+        "hours": "Entre semana y fines de semana 10:00 - 19:00",
+        "name": "Sucursal Suwon"
+      },
+      "5": {
+        "address": "1F, 1109-3 3·1 Manse-ro, Hyangnam-eup, Hwaseong-si, Gyeonggi-do",
+        "hours": "Vie - Mar 10:00 - 19:00",
+        "name": "Sucursal Hwaseong"
+      },
+      "6": {
+        "address": "91 Solmoru-ro, Soheul-eup, Pocheon-si, Gyeonggi-do (Junto a NH Bank)",
+        "hours": "Sáb - Mié 10:00 - 19:00",
+        "name": "Sucursal Songuri"
+      },
+      "7": {
+        "address": "16 Gwangjang-ro, Bupyeong-gu, Incheon (Centro comercial de la estación Bupyeong)",
+        "hours": "Sáb - Mié 10:00 - 19:00",
+        "name": "Sucursal Bupyeong"
+      },
+      "8": {
+        "address": "84 Garak-ro, Gimhae-si, Gyeongsangnam-do (Frente a Top Mart)",
+        "hours": "Entre semana y fines de semana 10:00 - 19:00",
+        "name": "Sucursal Gimhae"
+      },
+      "9": {
+        "address": "16-1 Pyeongtaek 1-ro, Pyeongtaek-si, Gyeonggi-do",
+        "hours": "Entre semana y fines de semana 10:00 - 19:00",
+        "name": "Sucursal Pyeongtaek"
+      }
+    },
+    "hours": "Horario",
+    "phone": "Teléfono"
+  },
+  "support-inquiry": {
+    "categories": {
+      "2": {
+        "items": [
+          "Registro y verificación de empresas",
+          "Pagos comerciales y de servicios",
+          "Comisiones y tipos de cambio",
+          "Integración de API y liquidación"
+        ]
+      },
+      "7": {
+        "items": [
+          "Planes y facturación",
+          "Activación, portabilidad y cancelación",
+          "Entrega y reemplazo de USIM",
+          "Calidad de datos y llamadas"
+        ]
+      }
+    },
+    "category-card": {
+      "categories": {
+        "1": {
+          "name": "Envío de dinero personal",
+          "sub": "Transferencias · Tipos de cambio · Recepción de fondos"
+        },
+        "2": {
+          "name": "Envío de dinero empresarial (Biz)",
+          "sub": "Empresas · Pagos comerciales · B2B"
+        },
+        "3": {
+          "name": "Préstamos",
+          "sub": "Elegibilidad · Límites · Reembolso"
+        },
+        "4": {
+          "name": "Asociaciones",
+          "sub": "Alianzas · Propuestas comerciales"
+        },
+        "5": {
+          "name": "Empleo",
+          "sub": "Solicitudes · Proceso de contratación"
+        },
+        "6": {
+          "name": "Protección del consumidor",
+          "sub": "Disputas · Restricciones · Reportes"
+        },
+        "7": {
+          "name": "Telefonía móvil y telecomunicaciones",
+          "sub": "Planes · Activación · USIM"
+        }
+      }
+    },
+    "category-selector": {
+      "question": "¿Sobre qué desea realizar su consulta?"
+    },
+    "chat": {
+      "action": "Iniciar chat en vivo",
+      "description": "Un agente le responderá en tiempo real. Fuera del horario de atención, el chatbot recopilará sus datos y le devolveremos la llamada.",
+      "items": [
+        "De lunes a viernes, 09:00 - 18:00 · Agente",
+        "Fuera de este horario · Chatbot y devolución de llamada",
+        "12 idiomas disponibles (nepalí, vietnamita, tailandés y más)"
+      ]
+    },
+    "external": {
+      "action": "Ir a la página de consultas",
+      "description": "Este tipo de consulta se gestiona en el sitio web de {{site}}."
+    },
+    "guide-panel": {
+      "common": {
+        "reset": "Elegir otro tema"
+      }
+    },
+    "honeypot-field": {
+      "form": {
+        "honeypot": "Dirección"
+      }
+    },
+    "inquiry-form": {
+      "categories": {
+        "4": {
+          "dept": "el departamento correspondiente"
+        },
+        "5": {
+          "dept": "el departamento de Recursos Humanos"
+        },
+        "6": {
+          "dept": "el departamento de protección del consumidor"
+        }
+      },
+      "contentLabel": "Mensaje",
+      "contentPlaceholder": "Cuantos más detalles proporcione, más precisa será nuestra respuesta.",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "name@example.com",
+      "errors": {
+        "email": "Compruebe su dirección de correo electrónico.",
+        "failed": "No hemos podido enviar su consulta. Inténtelo de nuevo en unos instantes.",
+        "phone": "Compruebe su número de teléfono.",
+        "required": "Complete todos los campos obligatorios.",
+        "turnstile": "Complete la verificación de seguridad."
+      },
+      "nameLabel": "Nombre",
+      "namePlaceholder": "Juan Pérez",
+      "notice": "{{dept}} revisará su consulta y le responderá.",
+      "phoneLabel": "Teléfono",
+      "phonePlaceholder": "010-0000-0000",
+      "submit": "Enviar consulta",
+      "titleLabel": "Asunto",
+      "titlePlaceholder": "Introduzca un asunto"
+    },
+    "step-indicator": {
+      "steps": {
+        "connect": "2. Contactar · Enviar",
+        "select": "1. Elegir un tema"
+      }
+    },
+    "submission-complete": {
+      "description": "El departamento correspondiente revisará su consulta y responderá a la dirección de correo electrónico que proporcionó.",
+      "reset": "Volver al inicio"
+    }
+  },
+  "support-social-channels": {
+    "contact": "Contacto",
+    "countries_count": "24 idiomas",
+    "countries": {
+      "african-region": "Región africana",
+      "bangladesh": "Bangladés",
+      "cambodia": "Camboya",
+      "china": "China",
+      "india": "India",
+      "indonesia": "Indonesia",
+      "japan": "Japón",
+      "korea": "Corea",
+      "mongolia": "Mongolia",
+      "myanmar": "Myanmar",
+      "nepal": "Nepal",
+      "pakistan": "Pakistán",
+      "philippines": "Filipinas",
+      "srilanka": "Sri Lanka",
+      "thailand": "Tailandia",
+      "uzbekistan-cis": "Uzbekistán y CEI",
+      "vietnam": "Vietnam",
+      "western": "Occidental"
+    },
+    "description": "Conéctate con GME a través de canales oficiales en cada país",
+    "operating": "Soportado",
+    "title": "Canales sociales globales"
+  },
+  "support": {
+    "tabs": {
+      "branches": "Sucursales",
+      "social_channels": "Contáctanos"
+    },
+    "stats": {
+      "countries_label": "Países atendidos",
+      "branches_label": "Sucursales",
+      "branches_unit": "+",
+      "branches_value": "10",
+      "countries_unit": "+",
+      "countries_value": "200",
+      "services_label": "Servicios",
+      "services_unit": "+",
+      "services_value": "8"
+    }
+  }
+}
