@@ -321,51 +321,51 @@ export const aboutJourney: AboutJourneyYear[] = [
 export const aboutPartnerLogos: AboutPartnerLogo[] = [
   {
     "alt": "Nepal / Global IME Bank logo",
-    "src": "/images/company/about/nepal-global-ime-bank.gif"
+    "src": "/images/company/about/partner01.gif"
   },
   {
     "alt": "Cambodia / Wing logo",
-    "src": "/images/company/about/cambodia-wing.png"
+    "src": "/images/company/about/partner02.png"
   },
   {
     "alt": "Sri Lanka / Commercial Bank of Ceylon logo",
-    "src": "/images/company/about/sri-lanka-commercial-bank-of-ceylon.png"
+    "src": "/images/company/about/partner03.png"
   },
   {
     "alt": "CIS / KoronaPay logo",
-    "src": "/images/company/about/cis-koronapay.png"
+    "src": "/images/company/about/partner04.png"
   },
   {
     "alt": "Indonesia / BNI logo",
-    "src": "/images/company/about/indonesia-bni.png"
+    "src": "/images/company/about/partner05.png"
   },
   {
     "alt": "Bangladesh / BRAC Bank logo",
-    "src": "/images/company/about/bangladesh-brac-bank.png"
+    "src": "/images/company/about/partner06.png"
   },
   {
     "alt": "Vietnam / Zalo logo",
-    "src": "/images/company/about/vietnam-zalo.png"
+    "src": "/images/company/about/partner07.png"
   },
   {
     "alt": "Western Union logo",
-    "src": "/images/company/about/western-union.png"
+    "src": "/images/company/about/partner08.png"
   },
   {
     "alt": "MoneyGram logo",
-    "src": "/images/company/about/moneygram.png"
+    "src": "/images/company/about/partner09.png"
   },
   {
     "alt": "RIA logo",
-    "src": "/images/company/about/ria.png"
+    "src": "/images/company/about/partner10.png"
   },
   {
     "alt": "Alipay logo",
-    "src": "/images/company/about/alipay.jpg"
+    "src": "/images/company/about/partner11.jpg"
   },
   {
     "alt": "PingPong logo",
-    "src": "/images/company/about/pingpong.png"
+    "src": "/images/company/about/partner12.png"
   }
 ];
 
