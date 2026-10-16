@@ -9,9 +9,10 @@ export const menuItemDefs: MenuItemDef[] = [
   {
     labelKey: "header.nav.company",
     children: [
-      { labelKey: "header.nav.ceo_message", href: "/company/ceo-message" },
-      { labelKey: "header.nav.history", href: "/company/history" },
-      { labelKey: "header.nav.services", href: "/company/services" },
+      { labelKey: "header.nav.about_us", href: "/company/about-us" },
+      { labelKey: "header.nav.mission_vision", href: "/company/mission-vision" },
+      { labelKey: "header.nav.our_team", href: "/company/our-team" },
+      { labelKey: "header.link.careers", href: "/company/careers" },
     ],
   },
   {

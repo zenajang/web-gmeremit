@@ -231,14 +231,12 @@ export default function MobileNav({
   isOpen,
   onClose,
   menuItems,
-  careersLabel = "Careers",
   appDownloadLabel,
   countriesLabel,
 }: {
   isOpen: boolean;
   onClose: () => void;
   menuItems: MenuItem[];
-  careersLabel?: string;
   appDownloadLabel: string;
   countriesLabel: string;
 }) {
@@ -281,14 +279,6 @@ export default function MobileNav({
               {appDownloadLabel}
             </Link>
             <div className="flex items-center justify-center gap-3 mt-4 pb-2">
-              <Link
-                href="/company/careers"
-                className="text-sm text-gray-500 hover:text-primary transition-colors"
-                onClick={onClose}
-              >
-                {careersLabel}
-              </Link>
-              <span className="text-gray-300">|</span>
               <a
                 href="https://gmebiz.com"
                 target="_blank"

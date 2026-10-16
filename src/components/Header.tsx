@@ -60,15 +60,6 @@ export default function Header() {
       <div className="hidden lg:block bg-white border-b border-gray-100">
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-10">
           <div className="flex items-center justify-end h-10 gap-6">
-            {/* 채용 */}
-            <Link
-              href="/company/careers"
-              className="text-[13px] text-gray-500 hover:text-primary transition-colors"
-            >
-              {t("header.link.careers")}
-            </Link>
-            {/* Divider */}
-            <div className="h-3 w-px bg-gray-300" />
             {/* GME Biz */}
             <a
               href="https://gmebiz.com"
@@ -168,7 +159,6 @@ export default function Header() {
         isOpen={isMenuOpen}
         onClose={() => setIsMenuOpen(false)}
         menuItems={menuItems}
-        careersLabel={t("header.link.careers")}
         appDownloadLabel={t("common.button.app_download")}
         countriesLabel={countriesLabel}
       />

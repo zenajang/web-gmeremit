@@ -106,7 +106,7 @@ export const splitSectionData = (
       benefits: tArray("split-section.loan.features"),
       buttonProps: {
         as: "link",
-        href: "/services/loan",
+        href: "https://gmefinance.com",
         type: "button",
         children: t("split-section.loan.ctaLabel"),
         className: "w-full sm:w-fit flex items-center justify-center font-semibold cursor-pointer px-7 py-3 sm:py-3.5 mt-2 text-[16px] rounded-full bg-primary text-white hover:bg-[#c11a28]"
