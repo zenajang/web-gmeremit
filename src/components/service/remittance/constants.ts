@@ -30,3 +30,11 @@ export const remittanceCountries = [
   "Australia", "New Zealand", "Saudi Arabia", "UAE", "Jordan",
   "Peru", "Fiji", "Laos", "Tajikistan", "Kyrgyzstan", "Senegal", "Togo", "Benin",
 ];
+
+export const whyItemKeys = ["fastest", "cheapest", "secure"] as const;
+
+export const smallStatKeys = ["branches", "savings", "languages"] as const;
+
+export const COUNTRIES_PER_ROW = 8;
+
+export const COUNTRY_ROW_OPACITIES = [1, 0.85, 0.6, 0.4, 0.25, 0.1];

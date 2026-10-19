@@ -1,10 +1,10 @@
-export interface Solution {
-  key: string;
-  color: string;
-  iconPath: string;
-}
+import type {
+  PaymentFeature,
+  PaymentPartnerLogo,
+  PaymentSolution,
+} from "@/components/service/payments/types";
 
-export const solutions: Solution[] = [
+export const solutions: PaymentSolution[] = [
   {
     key: "sps",
     color: "#3b82f6",
@@ -17,7 +17,7 @@ export const solutions: Solution[] = [
   },
 ];
 
-export const paymentFeatureKeys = [
+export const paymentFeatureKeys: PaymentFeature[] = [
   { key: "accounting", color: "#3b82f6", icon: "M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" },
   { key: "pob", color: "#8b5cf6", icon: "M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" },
   { key: "flexibility", color: "#f97316", icon: "M7.5 21L3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5" },
@@ -26,12 +26,7 @@ export const paymentFeatureKeys = [
   { key: "technology", color: "#6366f1", icon: "M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" },
 ];
 
-export interface PartnerLogo {
-  name: string;
-  src: string;
-}
-
-export const partnerLogos: PartnerLogo[] = [
+export const partnerLogos: PaymentPartnerLogo[] = [
   { name: "Hana Bank", src: "/images/payments/hanaBank.png" },
   { name: "Alipay", src: "/images/payments/alipay.svg" },
   { name: "Skyee", src: "/images/payments/skyee.png" },
