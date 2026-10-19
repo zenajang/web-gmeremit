@@ -8,10 +8,11 @@ import SearchBar from "@/components/board/SearchBar";
 import BoardTable from "@/components/board/BoardTable";
 import BlogGrid from "@/components/board/BlogGrid";
 import Pagination from "@/components/board/Pagination";
-import { BoardEntry, TabType } from "@/types/board";
+import { BoardEntry } from "@/types/board";
 import { useLenis } from "@/hooks/useLenis";
 import { createClient } from "@/lib/supabase/client";
 import { useTranslation } from "@/hooks/useTranslation";
+import { resolveBoardTab } from "@/utils/board";
 import DotLoader from "@/components/ui/DotLoader";
 
 export const dynamic = 'force-dynamic';
@@ -30,12 +31,7 @@ export default function BoardPage() {
   const [searchType, setSearchType] = useState("title");
   const [displayCount, setDisplayCount] = useState(ITEMS_PER_PAGE);
 
-  // Get active tab from URL (default to "notice")
-  const tabParam = searchParams.get("tab");
-  const activeTab: TabType =
-    tabParam === "press" ? "press" :
-    tabParam === "blog" ? "blog" :
-    "notice";
+  const activeTab = resolveBoardTab(searchParams.get("tab"));
 
   // Fetch data from Supabase
   useEffect(() => {

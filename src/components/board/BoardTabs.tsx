@@ -3,6 +3,7 @@
 import { useRouter, useSearchParams } from "next/navigation";
 import { TabType } from "@/types/board";
 import { useTranslation } from "@/hooks/useTranslation";
+import { boardTabs } from "@/data/board";
 
 interface BoardTabsProps {
   activeTab: TabType;
@@ -12,12 +13,6 @@ export default function BoardTabs({ activeTab }: BoardTabsProps) {
   const router = useRouter();
   const searchParams = useSearchParams();
   const { t } = useTranslation();
-
-  const tabs = [
-    { id: "notice" as TabType, labelKey: "board.tabs.notice" },
-    { id: "press" as TabType, labelKey: "board.tabs.press" },
-    { id: "blog" as TabType, labelKey: "board.tabs.blog" },
-  ];
 
   const handleTabClick = (tabId: TabType) => {
     const params = new URLSearchParams(searchParams.toString());
@@ -31,7 +26,7 @@ export default function BoardTabs({ activeTab }: BoardTabsProps) {
 
   return (
     <div className="flex gap-3">
-      {tabs.map((tab) => (
+      {boardTabs.map((tab) => (
         <button
           key={tab.id}
           onClick={() => handleTabClick(tab.id)}

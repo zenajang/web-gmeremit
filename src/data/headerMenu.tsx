@@ -28,9 +28,9 @@ export const menuItemDefs: MenuItemDef[] = [
   {
     labelKey: "header.nav.news",
     children: [
-      { labelKey: "header.nav.notice", href: "/board/notice" },
       { labelKey: "header.nav.press", href: "/board/press" },
       { labelKey: "header.nav.blog", href: "/board/blog" },
+      { labelKey: "header.nav.notice", href: "/board/notice" },
     ],
   },
   {
