@@ -1,27 +1,10 @@
-// 회사소개 About Us 화면 데이터.
-// 문구는 전부 messages/company 의 company-about-us.* 키로 가고, 여기에는 순서·이미지·링크만 둔다.
+import type {
+  AboutJourneyYear,
+  AboutMediaLink,
+  AboutPartnerLogo,
+} from "@/components/company/about-us/types";
 
-export interface AboutJourneyEvent {
-  id: string;
-  month: string;
-  images: string[];
-  highlight: boolean;
-}
-
-export interface AboutJourneyYear {
-  year: string;
-  events: AboutJourneyEvent[];
-}
-
-export interface AboutPartnerLogo {
-  alt: string;
-  src: string;
-}
-
-export interface AboutMediaLink {
-  id: string;
-  href: string;
-}
+export const ABOUT_US_NAMESPACE = "company-about-us";
 
 export const aboutGlanceRows = ["established","registration","ceo","employees","head_office","branches"] as const;
 

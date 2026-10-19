@@ -1,3 +1,7 @@
+import type { StaffStory } from "@/components/company/careers/types";
+
+export const CAREERS_RECRUIT_URL = "https://gme.career.greetinghr.com/ko/recruit";
+
 export const benefitKeys = ["education", "incentive", "team_building", "health", "vacation"] as const;
 
 export const benefitImages = [
@@ -7,13 +11,6 @@ export const benefitImages = [
   "/images/company/careers/perks/health-checkup.png",
   "/images/company/careers/perks/annual.jpg",
 ];
-
-export interface StaffStory {
-  name: string;
-  position: string;
-  quote: string;
-  image: string;
-}
 
 export const staffStories: StaffStory[] = [
   {

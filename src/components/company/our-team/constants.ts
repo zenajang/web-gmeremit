@@ -1,9 +1,6 @@
-// 회사소개 Our Team 화면 데이터. 문구는 messages/company 의 company-our-team.* 키로 간다.
+import type { TeamMember } from "@/components/company/our-team/types";
 
-export interface TeamMember {
-  id: string;
-  src: string;
-}
+export const OUR_TEAM_NAMESPACE = "company-our-team";
 
 export const teamMembers: TeamMember[] = [
   {

@@ -2,12 +2,36 @@
 
 기준 구현은 `src/components/support/inquiry/` 다. 새 화면을 만들 때 이 구조를 따른다.
 
+## app 은 라우팅만 한다
+
+`src/app/<route>/` 에는 `page.tsx` 와 `layout.tsx` 만 둔다. 마크업·상태·데이터는 전부 `src/components/<도메인>/<feature>/` 아래로 간다.
+
+`page.tsx` 는 레이아웃으로 감싸고 템플릿 하나를 부르기만 한다.
+
+```tsx
+import PublicLayout from "@/components/layout/PublicLayout";
+import AboutUsTemplate from "@/components/company/about-us/templates";
+
+const AboutUsPage = () => {
+  return (
+    <PublicLayout className="bg-white">
+      <AboutUsTemplate />
+    </PublicLayout>
+  );
+};
+
+export default AboutUsPage;
+```
+
+`page.tsx` 안에 `<section>` 이나 `useState` 가 보이면 컴포넌트로 빼야 할 것이 남은 것이다.
+
 ## 폴더 구조
 
 ```
 <feature>/
 ├── types.ts              타입 정의
 ├── constants.ts          화면에 쓰이는 데이터 (문구, 목록, 설정값)
+├── styles.ts             feature 전체가 공유하는 스타일
 ├── api.ts                API 호출 함수
 ├── molecules/
 │   ├── index.ts          barrel export
@@ -88,6 +112,51 @@ props 로 받는 콜백은 예외다. `onSubmit`, `onReset` 처럼 `on<Event>` �
 import * as S from "./styles";
 
 <div className={S.InquiryFormDeptBox}>
+```
+
+### 어디에 두나
+
+**쓰는 곳에 가장 가까운 곳에 둔다.**
+
+| 범위 | 위치 |
+|------|------|
+| 컴포넌트 하나만 쓴다 | 그 컴포넌트 폴더의 `styles.ts` |
+| molecule 끼리 공유한다 | `molecules/styles.ts` |
+| feature 전체가 공유한다 | `constants.ts` 와 같은 뎁스의 `<feature>/styles.ts` |
+
+공유 스타일은 import 해서 조합한다.
+
+```ts
+import { AboutUsCard, AboutUsCardGrid } from "@/components/company/about-us/styles";
+
+export const TechnologyGrid = `${AboutUsCardGrid} grid-cols-4 max-md:grid-cols-2 max-sm:grid-cols-1`;
+```
+
+### Tailwind 로만 쓴다
+
+`styles.ts` 가 내보내는 값은 **Tailwind 클래스 문자열**이다. `.css` 파일을 만들어 import 하지 않는다. 전역 CSS 는 선택자가 다른 화면까지 새고, 페이지별 스코프를 손으로 관리해야 한다.
+
+디자인 시안이 CSS 로 넘어오면 계산된 값을 Tailwind 로 옮긴다. 브레이크포인트는 **Tailwind 기본값(`sm` 640 / `md` 768 / `lg` 1024 / `xl` 1280)** 에 맞춘다. 시안의 어중간한 px 값을 그대로 쓰겠다고 `@custom-variant` 를 늘리지 않는다. 관리 지점만 늘어난다.
+
+```ts
+// 나쁨 — 시안 px 를 그대로 옮기려고 전역 변형을 추가
+export const PartnerGrid = "grid grid-cols-4 max-900:grid-cols-3 max-650:grid-cols-2";
+
+// 좋음
+export const PartnerGrid = "grid grid-cols-4 max-lg:grid-cols-3 max-sm:grid-cols-2";
+```
+
+같은 속성을 조건부로 덮어쓰지 않는다. Tailwind 는 뒤에 붙인 클래스가 이기는 게 아니라 생성된 CSS 순서로 이긴다. 상태별로 **완성된 문자열**을 따로 내보낸다.
+
+```ts
+// 나쁨 — font-normal 과 font-[650] 중 무엇이 이길지 JSX 로는 알 수 없다
+export const EventText = "text-[14px] font-normal text-[#4c586a]";
+export const EventTextHighlighted = "font-[650] text-[#171b22]";
+
+// 좋음
+const eventTextBase = "col-start-3 row-start-1 text-[14px] leading-[1.65]";
+export const EventText = `${eventTextBase} text-[#4c586a]`;
+export const EventTextHighlighted = `${eventTextBase} font-[650] text-[#171b22]`;
 ```
 
 ### 이름 규칙
