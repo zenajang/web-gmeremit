@@ -4,24 +4,25 @@
       "careers": "အလုပ်အကိုင်"
     },
     "nav": {
+      "about_us": "About Us",
       "blog": "ဘလော့ဂ်",
       "branches": "စာခွဲများ",
       "card": "ကတ်",
-      "ceo_message": "CEO ၏ မက်ဆေ့ချ်",
       "company": "ကုမ္ပဏီ",
-      "history": "သမိုင်း",
       "inquiry": "စုံစမ်းမေးမြန်းရန်",
       "loan": "Finance",
+      "mission_vision": "Mission & Vision",
       "news": "သတင်း",
       "notice": "ကြေညာချက်",
+      "our_team": "Our Team",
       "payments": "B2B Payments",
       "press": "သတင်း / စာနယ်ဇင်း",
       "remittance": "Remit",
-      "services": "ဝန်ဆောင်မှုများ",
-      "services_menu": "ဝန်ဆောင်မှု မီနူး",
+      "services_menu": "ထုတ်ကုန်များ",
       "social_channels": "ဆက်သွယ်ရန်",
       "support": "အထောက်အပံ့",
-      "telecom": "မိုဘိုင်း"
+      "telecom": "မိုဘိုင်း",
+      "faq": "မေးခွန်းများ"
     }
   },
   "footer": {
@@ -144,9 +145,7 @@
           "desc": "ဘာသာစကားများစွာဖြင့် ဝန်ဆောင်မှု",
           "title": "ဘာသာစကားများ ထောက်ပံ့မှု"
         },
-        "subtitle": "အက်ပ်တစ်ခုတည်းတွင် လွှဲပို့ခြင်းနှင့် စောင့်ကြည့်ခြင်း",
-        "title": "ပိုရိုးရှင်း",
-        "title2": "ပိုလုံခြုံ"
+        "title": "အက်ပ်တစ်ခုတည်းဖြင့် လွယ်ကူ လုံခြုံ စိတ်ချရသော ငွေလွှဲမှု"
       }
     },
     "services": {

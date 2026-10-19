@@ -4,24 +4,25 @@
       "careers": "کیریئرز"
     },
     "nav": {
+      "about_us": "About Us",
       "blog": "بلاگ",
       "branches": "برانچیں",
       "card": "کارڈ",
-      "ceo_message": "سی ای او کا پیغام",
       "company": "کمپنی",
-      "history": "تاریخ",
       "inquiry": "استفسار",
       "loan": "قرض",
+      "mission_vision": "Mission & Vision",
       "news": "خبریں",
       "notice": "نوٹس",
+      "our_team": "Our Team",
       "payments": "ادائیگیاں (B2B)",
       "press": "خبریں / پریس",
       "remittance": "ترسیلات",
-      "services": "خدمات",
-      "services_menu": "خدمات",
+      "services_menu": "مصنوعات",
       "social_channels": "ہم سے رابطہ کریں",
       "support": "سپورٹ",
-      "telecom": "موبائل"
+      "telecom": "موبائل",
+      "faq": "عام سوالات"
     }
   },
   "footer": {
@@ -144,9 +145,7 @@
           "desc": "متعدد زبانوں میں سروس استعمال کریں",
           "title": "کثیر لسانی سپورٹ"
         },
-        "subtitle": "ایک ایپ میں سب کچھ ٹرانسفر اور ٹریک کریں",
-        "title": "آسان",
-        "title2": "محفوظ ترسیلات"
+        "title": "ایک ہی ایپ میں آسان، محفوظ اور مامون لین دین"
       }
     },
     "services": {

@@ -57,7 +57,7 @@ export default function PaymentsSection() {
               {t("home.payments-section.global_payments.description")}
             </p>
             <CTAButton
-              href="/services/payments"
+              href="/products/payments"
               label={t("home.payments-section.global_payments.button.detail")}
               className="text-payments bg-blue-100 hover:bg-blue-200"
               iconClassName="bg-payments"

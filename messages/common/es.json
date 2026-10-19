@@ -4,24 +4,25 @@
       "careers": "Carreras"
     },
     "nav": {
+      "about_us": "About Us",
       "blog": "Blog",
       "branches": "Sucursales",
       "card": "Tarjeta",
-      "ceo_message": "Mensaje del CEO",
       "company": "Empresa",
-      "history": "Historia",
       "inquiry": "Consulta",
       "loan": "Préstamo",
+      "mission_vision": "Mission & Vision",
       "news": "Noticias",
       "notice": "Aviso",
+      "our_team": "Our Team",
       "payments": "Pagos (B2B)",
       "press": "Noticias / Prensa",
       "remittance": "Remesas",
-      "services": "Servicios",
-      "services_menu": "Servicios",
+      "services_menu": "Productos",
       "social_channels": "Contáctanos",
       "support": "Soporte",
-      "telecom": "Móvil"
+      "telecom": "Móvil",
+      "faq": "Preguntas frecuentes"
     }
   },
   "footer": {
@@ -144,9 +145,7 @@
           "desc": "Usa el servicio en múltiples idiomas",
           "title": "Soporte multilingüe"
         },
-        "subtitle": "Transfiere y rastrea todo en una sola app",
-        "title": "Transferencias más",
-        "title2": "simples y seguras"
+        "title": "Transacciones simples, seguras y protegidas en una sola aplicación"
       }
     },
     "services": {

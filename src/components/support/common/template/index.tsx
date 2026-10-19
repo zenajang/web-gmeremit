@@ -112,7 +112,7 @@ const SupportHeroTemplate = ({
                   <Link
                     key={tab.key}
                     href={tab.href}
-                    className={`flex-1 sm:flex-none text-center px-6 py-2.5 text-sm sm:text-base font-medium transition-all rounded-md ${
+                    className={`flex-1 min-w-0 sm:flex-none text-center px-3 sm:px-6 py-2.5 text-sm sm:text-base font-medium transition-all rounded-md ${
                       pathname === tab.href
                         ? "bg-primary-dark text-white shadow-lg shadow-primary/30"
                         : "bg-white text-gray-600 hover:bg-gray-50 border border-gray-200"

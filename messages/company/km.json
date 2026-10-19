@@ -1,4 +1,187 @@
 {
+  "company-about-us": {
+    "glance": {
+      "eyebrow": "Company Information",
+      "rows": {
+        "branches": {
+          "label": "Branches",
+          "value": "Nationwide branch network"
+        },
+        "ceo": {
+          "label": "CEO",
+          "value": "Sung Jong-hwa"
+        },
+        "employees": {
+          "label": "Employees",
+          "value": "330"
+        },
+        "established": {
+          "label": "Company Established",
+          "value": "August 30, 2016"
+        },
+        "head_office": {
+          "label": "Head Office",
+          "value": "Saenggak Factory Building B, Suite 910, 150 Yeongdeungpo-ro, Yeongdeungpo-gu, Seoul, Republic of Korea"
+        },
+        "registration": {
+          "label": "Small-Amount Overseas Remittance Registration",
+          "value": "August 23, 2017"
+        }
+      },
+      "title": "Company at a Glance"
+    },
+    "hero": {
+      "eyebrow": "Global Money Express",
+      "lead": "Global Money Express (GME) is a Korea-based financial services company established in 2016. From small-amount overseas remittance, GME has expanded its capabilities through nationwide branches, full online services, technology, global partnerships and a multinational workforce.",
+      "title": "About Us"
+    },
+    "journey": {
+      "events": {
+        "2016_08": "Global Money Express Co., Ltd. established",
+        "2017_06": "Launched Korea's first overseas remittance service",
+        "2017_08": "Korea's first small overseas remittance business registration",
+        "2017_12": "Annual overseas remittance exceeded KRW 10 billion",
+        "2018_09": "Selected as Seoul City recommended remittance provider",
+        "2018_12": "Annual overseas remittance exceeded KRW 460 billion",
+        "2018_na": "Started credit loan service for foreigners",
+        "2019_03": "Launched domestic remittance service",
+        "2019_06": "Opened 12 branches nationwide",
+        "2019_09": "Opened 3 centers nationwide",
+        "2020_05": "Launched Mobile Top-up service",
+        "2020_08": "Obtained prepaid electronic payment instrument issuance and management license",
+        "2020_09": "Launched GME Pay service",
+        "2020_12": "Annual overseas remittance exceeded KRW 1.0 trillion",
+        "2021_04": "Annual overseas remittance exceeded KRW 1.5 trillion",
+        "2021_07": "Launched Mobile Coupon service",
+        "2021_10": "Won Grand Prize at Hankyung Fintech Awards (Tech Category)",
+        "2021_12": "Obtained Payment Gateway (PG) business license",
+        "2022_03": "Obtained specialized foreign exchange business license",
+        "2022_06": "Launched GME B2B Payments service",
+        "2022_12": "Annual overseas remittance exceeded KRW 1.7 trillion",
+        "2023_01": "Certified as Excellent Technology Company by NICE",
+        "2023_02": "Annual overseas remittance exceeded KRW 2.8 trillion",
+        "2023_02_2": "Selected as KIBO-Star Valley Company by KOTEC",
+        "2023_10": "Ranked Top 10 Korea Fintech by Forbes 2023",
+        "2023_10_2": "Obtained GME Mobile (MVNO) service license",
+        "2023_12": "Launched GME Card service in partnership with BC Card and Mastercard",
+        "2024_03": "Launched GME Mobile (MVNO) service in partnership with LG U+",
+        "2024_06": "Launched 'GMEBiz' corporate payment service",
+        "2024_12": "Annual overseas remittance exceeded KRW 2.8 trillion",
+        "2025_03": "Launched insurance product for foreign residents",
+        "2025_04": "Certified as Innovative SME (Inno-Biz)",
+        "2025_06": "Launched debit card with transportation card feature",
+        "2025_12": "Annual overseas remittance exceeded KRW 4 trillion",
+        "2026_09": "Launched the EasyCare Card, offering insurance and membership benefits in partnership with DB Insurance."
+      },
+      "eyebrow": "History & Milestones",
+      "intro": "Key milestones that have shaped GME’s growth in Korea and across global remittance markets.",
+      "title": "Our Journey"
+    },
+    "media": {
+      "items": {
+        "1": {
+          "title": "2023 Korea Fintech 50 — Forbes Korea",
+          "type": "Award"
+        },
+        "2": {
+          "title": "CEO Interview — ChosunBiz",
+          "type": "Interview"
+        },
+        "3": {
+          "title": "BC Card & GME Launch Card for Foreign Residents — ChosunBiz",
+          "type": "News"
+        },
+        "4": {
+          "title": "BC Card and GME Launch Card Specialized for Foreign Residents — Korea Economic Daily",
+          "type": "News"
+        },
+        "5": {
+          "title": "GME Launches MVNO Service — ChosunBiz",
+          "type": "News"
+        },
+        "6": {
+          "title": "Where Cultural Differences Create Synergy — The Korea Times",
+          "type": "Feature"
+        },
+        "7": {
+          "title": "GME Opens Daerim Branch — JoongAng",
+          "type": "News"
+        },
+        "8": {
+          "title": "GME Opens New Daerim Branch in Seoul — Maeil Business Newspaper",
+          "type": "News"
+        },
+        "9": {
+          "title": "Inside GME's China-Focused Daerim Branch — ChosunBiz",
+          "type": "Feature"
+        },
+        "10": {
+          "title": "CEO Sung Jong-hwa: “We Looked at People, Not Just Remittances” — News Korea",
+          "type": "INTERVIEW"
+        },
+        "11": {
+          "title": "GME Maintains AA- Corporate Credit Rating — AI Gyeonggi Broadcasting",
+          "type": "NEWS"
+        },
+        "12": {
+          "title": "GMEBiz Launches Indonesia-to-Korea Tuition & Medical Payment Service — Newswire",
+          "type": "NEWS"
+        },
+        "13": {
+          "title": "GME Biz Expands Payment Services to Mongolia, SEPA Europe & the UK — Newswire",
+          "type": "NEWS"
+        },
+        "14": {
+          "title": "GME Donates KRW 20 Million for Nepal Flood Recovery — Newswire",
+          "type": "NEWS"
+        },
+        "15": {
+          "title": "GMEBiz Successfully Participates in Korea E-Commerce Fair 2026 — Newswire",
+          "type": "NEWS"
+        }
+      },
+      "title": "Recognition & Media"
+    },
+    "network": {
+      "branches": "Dongdaemun · Daerim · Ansan · Hwaseong · Suwon · Bupyeong · Pyeongtaek · Songuri · Gimhae",
+      "title": "Nationwide Service Network"
+    },
+    "partners": {
+      "title": "Our Global Partnership Network"
+    },
+    "services": {
+      "items": {
+        "b2b": "B2B Remittance / Payment",
+        "card": "GME Card",
+        "exchange": "Money Exchange",
+        "finance": "Online Finance",
+        "mvno": "MVNO Service",
+        "remittance": "Overseas Remittance"
+      },
+      "title": "Full Online Services"
+    },
+    "tech": {
+      "items": {
+        "api": {
+          "desc": "Inbound & outbound Full API connections with domestic banks and financial institutions.",
+          "title": "Full API"
+        },
+        "efb": {
+          "desc": "Licensed for prepaid electronic payment instruments and PG services.",
+          "title": "Electronic Financial Business"
+        },
+        "mvno": {
+          "desc": "Licensed telecommunications / MVNO service capability.",
+          "title": "MVNO"
+        },
+        "recognition": {
+          "desc": "Small-amount overseas remittance technology recognized by the Minister of SMEs and Startups.",
+          "title": "Technology Recognition"
+        }
+      },
+      "title": "Technology & Licenses"
+    }
+  },
   "company-careers": {
     "benefits": {
       "education": {
@@ -49,105 +232,48 @@
       "title": "ហេតុអ្វី GME ពិសេស"
     }
   },
-  "company-ceo-message": {
-    "paragraph1": "ជាក្រុមហ៊ុន fintech នាំមុខក្នុងកូរ៉េ ខ្ញុំយើងវិនិយោគក្នុងបច្ចេកវិទ្យាចុងក្រោយ និងមនុស្សរបស់យើង ដើម្បីរីកចម្រើនរួម និងជោគជ័យអតិថិជន។",
-    "paragraph2": "ចូលរួមជាមួយ GME ដើម្បីបង្កើតអនាគតសេវាហិរញ្ញវត្ថុសកល និងទទួលបទពិសោធន៍សេវាផ្តល់ភាពងាយស្រួល និងច្នៃប្រឌិត។"
+  "company-mission-vision": {
+    "hero": {
+      "title": "Mission & Vision"
+    },
+    "vision": {
+      "label": "OUR VISION",
+      "title": "The Most Convenient Service"
+    },
+    "mission": {
+      "label": "OUR MISSION",
+      "items": {
+        "01": "Deliver the best service through outstanding people.",
+        "02": "Provide the best mobile and online services through innovation and research & development."
+      }
+    }
   },
-  "company-history": {
-    "events": {
-      "2016_08": "បង្កើត Global Money Express Co., Ltd.",
-      "2017_03": "ដាក់ឲ្យប្រើសេវាអនឡាញដំបូង",
-      "2017_06": "អ្នកផ្តល់សេវាដំបូងក្នុងកូរ៉េ",
-      "2017_08": "ក្រុមហ៊ុនដំបូងដែលទទួលអាជ្ញាបណ្ណផ្ញើប្រាក់ក្រៅប្រទេសតូចក្នុងកូរ៉េ",
-      "2017_12": "សម្រេចបានចំនួនការផ្ទេរប្រាក់ប្រចាំឆ្នាំ 10 ពាន់លានវ៉ុន",
-      "2018_04": "ប្រាក់ផ្ញើក្រៅប្រទេសសរុបលើស KRW 54 ពាន់លាន",
-      "2018_09": "ជាប់ជម្រើសជាអ្នកផ្តល់សេវាផ្ញើប្រាក់ដែលក្រុងសេអ៊ូលផ្តល់អនុសាសន៍",
-      "2018_12": "សម្រេចបានចំនួនការផ្ទេរប្រាក់ប្រចាំឆ្នាំ 460 ពាន់លានវ៉ុន",
-      "2018_loan": "ចាប់ផ្តើមសេវាកម្ចីឥណទានសម្រាប់ជនបរទេស",
-      "2019_03": "ដាក់ឲ្យប្រើសេវាផ្ញើប្រាក់ក្នុងស្រុក",
-      "2019_06": "បើកសាខា 12 នៅទូទាំងប្រទេស",
-      "2019_07": "ក្លាយជាក្រុមហ៊ុនផ្ញើប្រាក់ក្រៅប្រទេសលេខ 1 ក្នុងកូរ៉េ (ការបញ្ចប់ការផ្ញើ)",
-      "2019_09": "បើកមជ្ឈមណ្ឌល 3 នៅទូទាំងប្រទេស",
-      "2019_12": "បញ្ចូលអាជ្ញាបណ្ណសេវាប្តូរប្រាក់",
-      "2020_02": "ប្រាក់ផ្ញើក្រៅប្រទេសសរុបលើស KRW 1 ពាន់លាន",
-      "2020_05": "ដាក់ឲ្យប្រើសេវា Mobile Top-up",
-      "2020_08": "ទទួលអាជ្ញាបណ្ណបង់ប្រាក់អេឡិចត្រូនិកជាមុន",
-      "2020_09": "ចាប់ផ្តើមសេវា GME Pay",
-      "2020_12": "សម្រេចបានចំនួនការផ្ទេរប្រាក់ប្រចាំឆ្នាំ 1 លានលានវ៉ុន",
-      "2021_04": "ប្រាក់ផ្ញើក្រៅប្រទេសសរុបលើស KRW 1.9 ពាន់លាន",
-      "2021_07": "ដាក់ឲ្យប្រើសេវា Mobile Coupon",
-      "2021_10": "ឈ្នះពានរង្វាន់ធំ Hankyung Fintech Awards (ផ្នែកបច្ចេកវិទ្យា)",
-      "2021_12": "ទទួលអាជ្ញាបណ្ណ PG និងអាជ្ញាបណ្ណអាជីវកម្មបង់ប្រាក់អេឡិចត្រូនិក",
-      "2022_03": "ទទួលអាជ្ញាបណ្ណអាជីវកម្មអត្រាប្តូរប្រាក់",
-      "2022_06": "ចាប់ផ្តើមអាជីវកម្មបង់ប្រាក់",
-      "2022_11": "ប្រាក់ផ្ញើក្រៅប្រទេសសរុបលើស KRW 2 ពាន់លាន",
-      "2022_12": "សម្រេចបានចំនួនការផ្ទេរប្រាក់ប្រចាំឆ្នាំ 1.7 លានលានវ៉ុន",
-      "2023_02": "ប្រាក់ផ្ញើក្រៅប្រទេសសរុបលើស KRW 2.1 ពាន់លាន",
-      "2023_05": "ដាក់ឲ្យប្រើសេវា GME Card ជាមួយ BC Card និង Mastercard",
-      "2023_09": "ទទួលអាជ្ញាបណ្ណសេវា GME Telecom (MVNO)",
-      "2023_10": "ជាប់ចំណាត់ថ្នាក់ Top 10 Korea Fintech by Forbes 2023",
-      "2023_kibo": "បានជ្រើសជាក្រុមហ៊ុន KIBO-Star Valley ដោយ KOTEC",
-      "2023_nice": "បានបញ្ជាក់ជាក្រុមហ៊ុនបច្ចេកវិទ្យាល្អដោយ NICE",
-      "2024_03": "ដាក់ឲ្យប្រើសេវា GME Telecom (MVNO) ជាមួយ LG U+",
-      "2024_06": "ដាក់ឲ្យប្រើសេវាបង់ប្រាក់សហគ្រាស 'GMEBiz'",
-      "2024_12": "ប្រាក់ផ្ញើក្រៅប្រទេសសរុបលើស KRW 2.8 ពាន់លាន",
-      "2025_03": "ដាក់ឲ្យប្រើផលិតផលធានារ៉ាប់រងសម្រាប់ជនបរទេស",
-      "2025_04": "ទទួលបានការទទួលស្គាល់ Inno-Biz (សហគ្រាសច្នៃប្រឌិតបច្ចេកវិទ្យា)",
-      "2025_06": "ដាក់ឲ្យប្រើកាតឥណពន្ធដែលមានមុខងារកាតធ្វើដំណើរ",
-      "2025_12": "ប្រាក់ផ្ញើក្រៅប្រទេសសរុបលើស KRW 3.5 ពាន់លាន",
-      "2026_09": "បានចាប់ផ្តើមកាត EasyCare Card ដែលផ្តល់អត្ថប្រយោជន៍ធានារ៉ាប់រង និងការគាំទ្រសមាជិកភាព ដោយសហការជាមួយ DB Insurance។"
+  "company-our-team": {
+    "hero": {
+      "title": "Our Team",
+      "lead": "Leadership experience across finance, technology, remittance, international business and global partnerships."
     },
-    "title_line1": "ការប៉ុនប៉ងគ្មានទីបញ្ចប់,",
-    "title_line2": "ការចាប់ផ្តើមថ្មី"
-  },
-  "company-services": {
-    "b2b_payments": {
-      "desc": "ការទូទាត់ និងទទួលប្រាក់ឆ្លងដែនលឿន និងមានថ្លៃទាប",
-      "title": "ការទូទាត់ B2B"
-    },
-    "core_services": "សេវាស្នូល",
-    "digital_wallet": {
-      "desc": "ដាក់ប្រាក់ ផ្ញើ និងបង់បានងាយក្នុងកន្លែងតែមួយ",
-      "title": "កាបូបឌីជីថល"
-    },
-    "easy_loan": {
-      "desc": "កម្ចីឆាប់រហ័ស 100% គ្មានក្រដាស អនុម័តថ្ងៃเดียว",
-      "title": "កម្ចីងាយស្រួល"
-    },
-    "gift_coupons": {
-      "desc": "ផ្ញើគូប៉ុងឌីជីថលដោយប្រើពិន្ទុរង្វាន់",
-      "title": "គូប៉ុងអំណោយ"
-    },
-    "gme_card": {
-      "desc": "បង់ ដកប្រាក់ និងគ្រប់គ្រងប្រាក់របស់អ្នកទូទាំងពិភពលោក",
-      "title": "GME Card"
-    },
-    "learn_more": "ស្វែងយល់បន្ថែម",
-    "mobile_topup": {
-      "desc": "បញ្ចូលទឹកប្រាក់ទូរស័ព្ទភ្លាមៗក្នុង 150+ ប្រទេស",
-      "title": "Mobile Top-up"
-    },
-    "money_exchange": {
-      "desc": "អត្រាប្តូរប្រាក់ល្អជាងធនាគារប្រពៃណី",
-      "title": "ប្តូរប្រាក់"
-    },
-    "personal_remittance": {
-      "desc": "ផ្ញើប្រាក់ទាំងក្នុងស្រុក និងអន្តរជាតិ ជាមួយគាំទ្រភាសាច្រើន",
-      "title": "ការផ្ញើប្រាក់ផ្ទាល់ខ្លួន"
-    },
-    "related_services": "សេវាផ្សេងៗ",
-    "subtitle": "គ្រប់តម្រូវការហិរញ្ញវត្ថុសកលរបស់អ្នកនៅកន្លែងតែមួយ",
-    "telecom": {
-      "desc": "សេវាទូរសព្ទចល័តចាប់ពី 3,300 វ៉ុនក្នុងមួយខែ",
-      "title": "Telecom"
-    },
-    "title": "សេវា GME"
-  },
-  "company": {
-    "tabs": {
-      "ceo_message": "សារ​របស់ CEO",
-      "history": "ប្រវត្តិ",
-      "services": "សេវា"
+    "people": {
+      "jong-hwa-sung": {
+        "name": "Jong-hwa Sung",
+        "role": "CEO",
+        "bio": "Formerly worked at LG Electronics headquarters and its Australia and Malaysia offices. Management experience with Next Telecommunications in Malaysia, China and Indonesia."
+      },
+      "won-hae-choi": {
+        "name": "Won-hae Choi",
+        "role": "CFO",
+        "bio": "30 years of professional experience at KEB Hana Bank."
+      },
+      "eric-sung": {
+        "name": "Eric Sung",
+        "role": "COO – Remittance & Finance",
+        "bio": "Co-founder of GME Remittance."
+      },
+      "subash-chandra-poudel": {
+        "name": "Subash Chandra Poudel",
+        "role": "COO – B2B & Overseas Partner Relations",
+        "bio": "Professional experience with RIA Malaysia and IME Malaysia."
+      }
     }
   }
 }

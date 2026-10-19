@@ -4,24 +4,25 @@
       "careers": "Carrières"
     },
     "nav": {
+      "about_us": "About Us",
       "blog": "Blog",
       "branches": "Agences",
       "card": "Carte",
-      "ceo_message": "Message du PDG",
       "company": "Entreprise",
-      "history": "Histoire",
       "inquiry": "Contact",
       "loan": "Prêt",
+      "mission_vision": "Mission & Vision",
       "news": "Actualités",
       "notice": "Avis",
+      "our_team": "Our Team",
       "payments": "Paiements (B2B)",
       "press": "Actualités / Presse",
       "remittance": "Transfert",
-      "services": "Services",
-      "services_menu": "Services",
+      "services_menu": "Produits",
       "social_channels": "Nous contacter",
       "support": "Support",
-      "telecom": "Telecom"
+      "telecom": "Telecom",
+      "faq": "FAQ"
     }
   },
   "footer": {
@@ -144,9 +145,7 @@
           "desc": "Utilisez le service en plusieurs langues",
           "title": "Support multilingue"
         },
-        "subtitle": "Transférez et suivez tout dans une seule app",
-        "title": "Transferts plus",
-        "title2": "simples et sécurisés"
+        "title": "Des transactions simples, sûres et sécurisées dans une seule application"
       }
     },
     "services": {

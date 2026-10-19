@@ -9,27 +9,28 @@ export const menuItemDefs: MenuItemDef[] = [
   {
     labelKey: "header.nav.company",
     children: [
-      { labelKey: "header.nav.ceo_message", href: "/company/ceo-message" },
-      { labelKey: "header.nav.history", href: "/company/history" },
-      { labelKey: "header.nav.services", href: "/company/services" },
+      { labelKey: "header.nav.about_us", href: "/company/about-us" },
+      { labelKey: "header.nav.mission_vision", href: "/company/mission-vision" },
+      { labelKey: "header.nav.our_team", href: "/company/our-team" },
+      { labelKey: "header.link.careers", href: "/company/careers" },
     ],
   },
   {
     labelKey: "header.nav.services_menu",
     children: [
-      { labelKey: "header.nav.remittance", href: "/services/remittance" },
+      { labelKey: "header.nav.remittance", href: "/products/remittance" },
       { labelKey: "header.nav.loan", href: "https://gmefinance.com" },
-      { labelKey: "header.nav.card", href: "/services/card" },
-      { labelKey: "header.nav.payments", href: "/services/payments" },
-      { labelKey: "header.nav.telecom", href: "/services/telecom" },
+      { labelKey: "header.nav.card", href: "/products/card" },
+      { labelKey: "header.nav.payments", href: "/products/payments" },
+      { labelKey: "header.nav.telecom", href: "/products/telecom" },
     ],
   },
   {
     labelKey: "header.nav.news",
     children: [
-      { labelKey: "header.nav.notice", href: "/board/notice" },
       { labelKey: "header.nav.press", href: "/board/press" },
       { labelKey: "header.nav.blog", href: "/board/blog" },
+      { labelKey: "header.nav.notice", href: "/board/notice" },
     ],
   },
   {
@@ -37,6 +38,7 @@ export const menuItemDefs: MenuItemDef[] = [
     children: [
       { labelKey: "header.nav.branches", href: "/support/branches" },
       { labelKey: "header.nav.social_channels", href: "/support/social-channels" },
+      { labelKey: "header.nav.faq", href: "/support/faq" },
       { labelKey: "header.nav.inquiry", href: "/support/inquiry" },
     ],
   },

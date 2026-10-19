@@ -32,7 +32,7 @@ export default function RemittanceSection() {
               {t("home.remittance-section.description")}
             </p>
             <CTAButton
-              href="/services/remittance"
+              href="/products/remittance"
               label={t("home.remittance-section.button.detail")}
               className="text-primary bg-red-100 hover:bg-red-200"
               iconClassName="bg-primary"

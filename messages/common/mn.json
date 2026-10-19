@@ -4,24 +4,25 @@
       "careers": "Ажил эрхлэлт"
     },
     "nav": {
+      "about_us": "About Us",
       "blog": "Блог",
       "branches": "Салбарууд",
       "card": "Карт",
-      "ceo_message": "CEO-н мэндчилгээ",
       "company": "Компани",
-      "history": "Түүх",
       "inquiry": "Лавлагаа",
       "loan": "Finance",
+      "mission_vision": "Mission & Vision",
       "news": "Мэдээ",
       "notice": "Мэдэгдэл",
+      "our_team": "Our Team",
       "payments": "B2B Payments",
       "press": "Мэдээ / Пресс",
       "remittance": "Remit",
-      "services": "Үйлчилгээ",
-      "services_menu": "Үйлчилгээний цэс",
+      "services_menu": "Бүтээгдэхүүн",
       "social_channels": "Холбоо барих",
       "support": "Дэмжлэг",
-      "telecom": "Мобайл"
+      "telecom": "Мобайл",
+      "faq": "Түгээмэл асуулт"
     }
   },
   "footer": {
@@ -144,9 +145,7 @@
           "desc": "Олон хэлээр үйлчилгээ",
           "title": "Олон хэлний дэмжлэг"
         },
-        "subtitle": "Нэг апп дотор илгээ, хяна",
-        "title": "Илүү хялбар",
-        "title2": "Илүү аюулгүй"
+        "title": "Нэг аппаар хялбар, аюулгүй, найдвартай гүйлгээ"
       }
     },
     "services": {

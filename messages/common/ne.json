@@ -4,24 +4,25 @@
       "careers": "क्यारियर"
     },
     "nav": {
+      "about_us": "About Us",
       "blog": "ब्लग",
       "branches": "शाखाहरू",
       "card": "कार्ड",
-      "ceo_message": "CEO को सन्देश",
       "company": "कम्पनी",
-      "history": "इतिहास",
       "inquiry": "सोधपुछ",
       "loan": "ऋण",
+      "mission_vision": "Mission & Vision",
       "news": "समाचार",
       "notice": "सूचना",
+      "our_team": "Our Team",
       "payments": "भुक्तानी (B2B)",
       "press": "समाचार / प्रेस",
       "remittance": "रेमिट्यान्स",
-      "services": "सेवाहरू",
-      "services_menu": "सेवाहरू",
+      "services_menu": "उत्पादनहरू",
       "social_channels": "सम्पर्क गर्नुहोस्",
       "support": "सहयोग",
-      "telecom": "मोबाइल"
+      "telecom": "मोबाइल",
+      "faq": "जिज्ञासा"
     }
   },
   "footer": {
@@ -144,9 +145,7 @@
           "desc": "विभिन्न भाषाहरूमा सेवा प्रयोग गर्नुहोस्",
           "title": "बहुभाषिक समर्थन"
         },
-        "subtitle": "एउटै एपमा स्थानान्तरण र ट्र्याक सबै कुरा",
-        "title": "अझ सरल",
-        "title2": "अझ सुरक्षित स्थानान्तरण"
+        "title": "एउटै एपमा सजिलो, सुरक्षित र भरपर्दो कारोबार"
       }
     },
     "services": {

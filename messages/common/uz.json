@@ -4,24 +4,25 @@
       "careers": "Karyera"
     },
     "nav": {
+      "about_us": "About Us",
       "blog": "Blog",
       "branches": "Filiallar",
       "card": "Karta",
-      "ceo_message": "CEO xabari",
       "company": "Kompaniya",
-      "history": "Tarix",
       "inquiry": "So'rov",
       "loan": "Finance",
+      "mission_vision": "Mission & Vision",
       "news": "Yangiliklar",
       "notice": "E'lon",
+      "our_team": "Our Team",
       "payments": "B2B Payments",
       "press": "Yangiliklar / Matbuot",
       "remittance": "Remit",
-      "services": "Xizmatlar",
-      "services_menu": "Xizmatlar menyusi",
+      "services_menu": "Mahsulotlar",
       "social_channels": "Biz bilan bogʻlaning",
       "support": "Yordam",
-      "telecom": "Mobil"
+      "telecom": "Mobil",
+      "faq": "Savollar"
     }
   },
   "footer": {
@@ -144,9 +145,7 @@
           "desc": "Ko'p tilli xizmat",
           "title": "Ko'p tilli qo'llab-quvvatlash"
         },
-        "subtitle": "Bitta ilovada yuboring va kuzating",
-        "title": "Yanada oson",
-        "title2": "Yanada xavfsiz"
+        "title": "Bitta ilovada oddiy, xavfsiz va ishonchli tranzaksiyalar"
       }
     },
     "services": {

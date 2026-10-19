@@ -4,24 +4,25 @@
       "careers": "Tuyển dụng"
     },
     "nav": {
+      "about_us": "About Us",
       "blog": "Blog",
       "branches": "Chi nhánh",
       "card": "Thẻ",
-      "ceo_message": "Thông điệp CEO",
       "company": "Công ty",
-      "history": "Lịch sử",
       "inquiry": "Liên hệ",
       "loan": "Finance",
+      "mission_vision": "Mission & Vision",
       "news": "Tin tức",
       "notice": "Thông báo",
+      "our_team": "Our Team",
       "payments": "B2B Payments",
       "press": "Tin tức / Báo chí",
       "remittance": "Chuyển tiền",
-      "services": "Dịch vụ",
-      "services_menu": "Dịch vụ",
+      "services_menu": "Sản phẩm",
       "social_channels": "Liên hệ",
       "support": "Hỗ trợ",
-      "telecom": "Di động"
+      "telecom": "Di động",
+      "faq": "Câu hỏi thường gặp"
     }
   },
   "footer": {
@@ -144,9 +145,7 @@
           "desc": "Sử dụng dịch vụ bằng nhiều ngôn ngữ",
           "title": "Hỗ trợ đa ngôn ngữ"
         },
-        "subtitle": "Chuyển tiền và theo dõi mọi thứ trong một ứng dụng",
-        "title": "Đơn giản hơn",
-        "title2": "Chuyển tiền an toàn hơn"
+        "title": "Giao dịch đơn giản, an toàn và bảo mật trong một ứng dụng"
       }
     },
     "services": {

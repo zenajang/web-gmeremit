@@ -119,7 +119,7 @@ export default function HeroMain() {
 
               <div className="mt-6 pt-5 border-t border-gray-100">
                 <Link
-                  href="/services/remittance"
+                  href="/products/remittance"
                   className="flex items-center justify-center gap-2 text-sm font-semibold text-primary hover:text-primary-dark transition-colors"
                 >
                   {t("home.hero-main.countries.view_all")}

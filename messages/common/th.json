@@ -4,24 +4,25 @@
       "careers": "ร่วมงานกับเรา"
     },
     "nav": {
+      "about_us": "About Us",
       "blog": "บล็อก",
       "branches": "สาขา",
       "card": "บัตร",
-      "ceo_message": "สารจาก CEO",
       "company": "บริษัท",
-      "history": "ประวัติ",
       "inquiry": "สอบถาม",
       "loan": "Finance",
+      "mission_vision": "Mission & Vision",
       "news": "ข่าวสาร",
       "notice": "ประกาศ",
+      "our_team": "Our Team",
       "payments": "B2B Payments",
       "press": "ข่าว / สื่อ",
       "remittance": "โอนเงิน",
-      "services": "บริการ",
-      "services_menu": "บริการ",
+      "services_menu": "ผลิตภัณฑ์",
       "social_channels": "ติดต่อเรา",
       "support": "ช่วยเหลือ",
-      "telecom": "มือถือ"
+      "telecom": "มือถือ",
+      "faq": "คำถามที่พบบ่อย"
     }
   },
   "footer": {
@@ -144,9 +145,7 @@
           "desc": "ใช้บริการได้หลายภาษา",
           "title": "รองรับหลายภาษา"
         },
-        "subtitle": "โอนเงินและติดตามทุกอย่างในแอปเดียว",
-        "title": "ง่ายกว่า",
-        "title2": "โอนเงินปลอดภัยกว่า"
+        "title": "ธุรกรรมที่ง่าย ปลอดภัย และมั่นคงในแอปเดียว"
       }
     },
     "services": {

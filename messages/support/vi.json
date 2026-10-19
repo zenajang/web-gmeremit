@@ -200,7 +200,8 @@
   "support": {
     "tabs": {
       "branches": "Chi nhánh",
-      "social_channels": "Liên hệ"
+      "social_channels": "Liên hệ",
+      "faq": "Câu hỏi thường gặp"
     },
     "stats": {
       "countries_label": "Quốc gia phục vụ",
@@ -213,5 +214,30 @@
       "services_unit": "+",
       "services_value": "8"
     }
+  },
+  "support-faq": {
+    "title": "Câu hỏi thường gặp",
+    "items": [
+      {
+        "q": "Tôi chuyển tiền bằng GME Remittance như thế nào?",
+        "a": "Bạn có thể chuyển tiền dễ dàng qua ứng dụng GME Remittance. Hãy đăng ký, hoàn tất xác minh danh tính và làm theo các bước để thực hiện giao dịch."
+      },
+      {
+        "q": "Tôi có thể chuyển tiền đến những quốc gia nào?",
+        "a": "GME cung cấp dịch vụ chuyển tiền quốc tế đến nhiều quốc gia. Bạn có thể kiểm tra các điểm đến khả dụng trong ứng dụng GME Remittance."
+      },
+      {
+        "q": "Tôi xem tỷ giá hối đoái ở đâu?",
+        "a": "Bạn có thể xem tỷ giá mới nhất ngay trong ứng dụng GME Remittance trước khi chuyển tiền."
+      },
+      {
+        "q": "Chuyển tiền quốc tế mất bao lâu?",
+        "a": "Thời gian chuyển có thể thay đổi tùy theo quốc gia nhận, phương thức nhận và trạng thái giao dịch."
+      },
+      {
+        "q": "Tôi nên làm gì nếu giao dịch gặp sự cố?",
+        "a": "Vui lòng liên hệ Bộ phận Hỗ trợ Khách hàng GME để được trợ giúp về giao dịch hoặc tài khoản của bạn."
+      }
+    ]
   }
 }

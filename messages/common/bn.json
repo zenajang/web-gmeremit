@@ -4,24 +4,25 @@
       "careers": "ক্যারিয়ার"
     },
     "nav": {
+      "about_us": "About Us",
       "blog": "ব্লগ",
       "branches": "শাখা",
       "card": "কার্ড",
-      "ceo_message": "সিইও-এর বার্তা",
       "company": "কোম্পানি",
-      "history": "ইতিহাস",
       "inquiry": "জিজ্ঞাসা",
       "loan": "লোন",
+      "mission_vision": "Mission & Vision",
       "news": "সংবাদ",
       "notice": "বিজ্ঞপ্তি",
+      "our_team": "Our Team",
       "payments": "পেমেন্টস (B2B)",
       "press": "সংবাদ / প্রেস",
       "remittance": "রেমিট্যান্স",
-      "services": "সেবা",
-      "services_menu": "সেবা",
+      "services_menu": "পণ্য",
       "social_channels": "যোগাযোগ করুন",
       "support": "সহায়তা",
-      "telecom": "মোবাইল"
+      "telecom": "মোবাইল",
+      "faq": "সাধারণ জিজ্ঞাসা"
     }
   },
   "footer": {
@@ -144,9 +145,7 @@
           "desc": "একাধিক ভাষায় সেবা ব্যবহার করুন",
           "title": "বহু-ভাষা সমর্থন"
         },
-        "subtitle": "একটি অ্যাপে সবকিছু ট্রান্সফার এবং ট্র্যাক করুন",
-        "title": "সহজতর",
-        "title2": "নিরাপদ ট্রান্সফার"
+        "title": "একটি অ্যাপেই সহজ, নিরাপদ ও সুরক্ষিত লেনদেন"
       }
     },
     "services": {

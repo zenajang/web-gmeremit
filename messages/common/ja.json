@@ -4,24 +4,25 @@
       "careers": "採用情報"
     },
     "nav": {
+      "about_us": "About Us",
       "blog": "ブログ",
       "branches": "支店",
       "card": "カード",
-      "ceo_message": "代表メッセージ",
       "company": "会社紹介",
-      "history": "沿革",
       "inquiry": "お問い合わせ",
       "loan": "ローン",
+      "mission_vision": "Mission & Vision",
       "news": "ニュース",
       "notice": "お知らせ",
+      "our_team": "Our Team",
       "payments": "B2B Payments",
       "press": "ニュース / プレス",
       "remittance": "送金",
-      "services": "サービス",
-      "services_menu": "サービス",
+      "services_menu": "商品",
       "social_channels": "お問い合わせ",
       "support": "サポート",
-      "telecom": "モバイル"
+      "telecom": "モバイル",
+      "faq": "よくある質問"
     }
   },
   "footer": {
@@ -144,9 +145,7 @@
           "desc": "複数の言語でサービスを利用できます",
           "title": "多言語対応"
         },
-        "subtitle": "送金も追跡もすべて一つのアプリで",
-        "title": "もっと簡単に",
-        "title2": "もっと安全に送金"
+        "title": "アプリひとつで、簡単・安全な送金"
       }
     },
     "services": {

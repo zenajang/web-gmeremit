@@ -4,24 +4,25 @@
       "careers": "អាជីព"
     },
     "nav": {
+      "about_us": "About Us",
       "blog": "ប្លក់",
       "branches": "សាខា",
       "card": "កាត",
-      "ceo_message": "សារ​របស់ CEO",
       "company": "ក្រុមហ៊ុន",
-      "history": "ប្រវត្តិ",
       "inquiry": "ការសាកសួរ",
       "loan": "Finance",
+      "mission_vision": "Mission & Vision",
       "news": "ព័ត៌មាន",
       "notice": "សេចក្តីជូនដំណឹង",
+      "our_team": "Our Team",
       "payments": "B2B Payments",
       "press": "ព័ត៌មាន / សារព័ត៌មាន",
       "remittance": "Remit",
-      "services": "សេវា",
-      "services_menu": "ម៉ឺនុយសេវា",
+      "services_menu": "ផលិតផល",
       "social_channels": "ទាក់ទងមកយើង",
       "support": "ការគាំទ្រ",
-      "telecom": "ទូរសព្ទ"
+      "telecom": "ទូរសព្ទ",
+      "faq": "សំណួរញឹកញាប់"
     }
   },
   "footer": {
@@ -144,9 +145,7 @@
           "desc": "ប្រើសេវាជាច្រើនភាសា",
           "title": "គាំទ្រភាសាច្រើន"
         },
-        "subtitle": "ផ្ទេរ និងតាមដានអ្វីៗក្នុងកម្មវិធីតែមួយ",
-        "title": "ងាយស្រួល",
-        "title2": "សុវត្ថិភាពបំផុត"
+        "title": "ប្រតិបត្តិការងាយស្រួល សុវត្ថិភាព និងមានការការពារ ក្នុងកម្មវិធីតែមួយ"
       }
     },
     "services": {

@@ -200,7 +200,8 @@
   "support": {
     "tabs": {
       "branches": "分行",
-      "social_channels": "联系我们"
+      "social_channels": "联系我们",
+      "faq": "常见问题"
     },
     "stats": {
       "countries_label": "服务国家",
@@ -213,5 +214,30 @@
       "services_unit": "+",
       "services_value": "8"
     }
+  },
+  "support-faq": {
+    "title": "常见问题",
+    "items": [
+      {
+        "q": "如何通过 GME Remittance 汇款？",
+        "a": "您可以通过 GME Remittance 应用便捷汇款。注册并完成身份验证后，按照步骤操作即可完成转账。"
+      },
+      {
+        "q": "可以汇款到哪些国家？",
+        "a": "GME 为许多国家提供海外汇款服务。可汇款的目的地可在 GME Remittance 应用中查询。"
+      },
+      {
+        "q": "如何查看汇率？",
+        "a": "汇款前，您可以在 GME Remittance 应用中直接查看最新适用汇率。"
+      },
+      {
+        "q": "海外汇款需要多长时间？",
+        "a": "到账时间可能因收款国家、收款方式和交易状态而有所不同。"
+      },
+      {
+        "q": "交易出现问题时该怎么办？",
+        "a": "如交易或账户有任何问题，请联系 GME 客户服务。"
+      }
+    ]
   }
 }

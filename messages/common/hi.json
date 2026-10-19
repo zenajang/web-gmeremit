@@ -4,24 +4,25 @@
       "careers": "करियर"
     },
     "nav": {
+      "about_us": "About Us",
       "blog": "ब्लॉग",
       "branches": "शाखाएं",
       "card": "कार्ड",
-      "ceo_message": "CEO का संदेश",
       "company": "कंपनी",
-      "history": "इतिहास",
       "inquiry": "पूछताछ",
       "loan": "ऋण",
+      "mission_vision": "Mission & Vision",
       "news": "समाचार",
       "notice": "सूचना",
+      "our_team": "Our Team",
       "payments": "B2B Payments",
       "press": "समाचार / प्रेस",
       "remittance": "रेमिटेंस",
-      "services": "सेवाएं",
-      "services_menu": "सेवाएं",
+      "services_menu": "उत्पाद",
       "social_channels": "संपर्क करें",
       "support": "सहायता",
-      "telecom": "मोबाइल"
+      "telecom": "मोबाइल",
+      "faq": "सामान्य प्रश्न"
     }
   },
   "footer": {
@@ -144,9 +145,7 @@
           "desc": "कई भाषाओं में सेवा का उपयोग करें",
           "title": "बहु-भाषा सहायता"
         },
-        "subtitle": "एक ही ऐप में सब कुछ ट्रांसफर और ट्रैक करें",
-        "title": "अधिक सरल",
-        "title2": "अधिक सुरक्षित ट्रांसफर"
+        "title": "एक ही ऐप में आसान, सुरक्षित और संरक्षित लेन-देन"
       }
     },
     "services": {

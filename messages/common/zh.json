@@ -4,24 +4,25 @@
       "careers": "招聘"
     },
     "nav": {
+      "about_us": "About Us",
       "blog": "博客",
       "branches": "分行",
       "card": "卡",
-      "ceo_message": "CEO致辞",
       "company": "公司介绍",
-      "history": "发展历程",
       "inquiry": "咨询",
       "loan": "贷款",
+      "mission_vision": "Mission & Vision",
       "news": "新闻",
       "notice": "公告",
+      "our_team": "Our Team",
       "payments": "B2B Payments",
       "press": "新闻/媒体",
       "remittance": "汇款",
-      "services": "服务",
-      "services_menu": "服务",
+      "services_menu": "产品",
       "social_channels": "联系我们",
       "support": "客服支持",
-      "telecom": "手机"
+      "telecom": "手机",
+      "faq": "常见问题"
     }
   },
   "footer": {
@@ -144,9 +145,7 @@
           "desc": "支持多语言使用",
           "title": "多语言支持"
         },
-        "subtitle": "汇款和追踪全在一个APP里",
-        "title": "更简单",
-        "title2": "更安全地汇款"
+        "title": "一个应用，简单安全地完成汇款"
       }
     },
     "services": {

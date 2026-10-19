@@ -4,24 +4,25 @@
       "careers": "වෘත්තිය"
     },
     "nav": {
+      "about_us": "About Us",
       "blog": "බ්ලොග්",
       "branches": "ශාඛා",
       "card": "කාඩ්පත",
-      "ceo_message": "CEO පණිවිඩය",
       "company": "සමාගම",
-      "history": "ඉතිහාසය",
       "inquiry": "විමසීම්",
       "loan": "Finance",
+      "mission_vision": "Mission & Vision",
       "news": "පුවත්",
       "notice": "නිවේදනය",
+      "our_team": "Our Team",
       "payments": "B2B Payments",
       "press": "පුවත් / පුවත්පත",
       "remittance": "Remit",
-      "services": "සේවා",
-      "services_menu": "සේවා මෙනුව",
+      "services_menu": "නිෂ්පාදන",
       "social_channels": "අප හා සම්බන්ධ වන්න",
       "support": "සහාය",
-      "telecom": "ජංගම"
+      "telecom": "ජංගම",
+      "faq": "නිතර අසන ප්‍රශ්න"
     }
   },
   "footer": {
@@ -144,9 +145,7 @@
           "desc": "බහු භාෂා සේවාව",
           "title": "බහු භාෂා සහාය"
         },
-        "subtitle": "එකම ඇප් එකකින් යැවීම සහ නිරීක්ෂණය",
-        "title": "තවමත් පහසු",
-        "title2": "තවමත් ආරක්ෂිත"
+        "title": "එක් යෙදුමකින් සරල, ආරක්ෂිත හා විශ්වාසනීය ගනුදෙනු"
       }
     },
     "services": {

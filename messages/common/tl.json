@@ -4,24 +4,25 @@
       "careers": "Mga Karera"
     },
     "nav": {
+      "about_us": "About Us",
       "blog": "Blog",
       "branches": "Mga Branch",
       "card": "Card",
-      "ceo_message": "Mensahe ng CEO",
       "company": "Kumpanya",
-      "history": "Kasaysayan",
       "inquiry": "Katanungan",
       "loan": "Finance",
+      "mission_vision": "Mission & Vision",
       "news": "Balita",
       "notice": "Abiso",
+      "our_team": "Our Team",
       "payments": "B2B Payments",
       "press": "Balita / Press",
       "remittance": "Remit",
-      "services": "Mga Serbisyo",
-      "services_menu": "Mga Serbisyo",
+      "services_menu": "Mga Produkto",
       "social_channels": "Makipag-ugnayan",
       "support": "Suporta",
-      "telecom": "Telecom"
+      "telecom": "Telecom",
+      "faq": "Mga Tanong"
     }
   },
   "footer": {
@@ -144,9 +145,7 @@
           "desc": "Gamitin ang serbisyo sa maraming wika",
           "title": "Multilingual Support"
         },
-        "subtitle": "I-transfer at subaybayan ang lahat sa isang app",
-        "title": "Mas Simple",
-        "title2": "Mas Ligtas na Paglipat"
+        "title": "Simple, Ligtas, at Secured na Transaksyon sa Isang App"
       }
     },
     "services": {

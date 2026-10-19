@@ -4,24 +4,25 @@
       "careers": "الوظائف"
     },
     "nav": {
+      "about_us": "About Us",
       "blog": "المدونة",
       "branches": "الفروع",
       "card": "البطاقة",
-      "ceo_message": "رسالة الرئيس التنفيذي",
       "company": "الشركة",
-      "history": "التاريخ",
       "inquiry": "استفسار",
       "loan": "القرض",
+      "mission_vision": "Mission & Vision",
       "news": "الأخبار",
       "notice": "إشعار",
+      "our_team": "Our Team",
       "payments": "المدفوعات (B2B)",
       "press": "الأخبار / الصحافة",
       "remittance": "التحويلات",
-      "services": "الخدمات",
-      "services_menu": "الخدمات",
+      "services_menu": "المنتجات",
       "social_channels": "اتصل بنا",
       "support": "الدعم",
-      "telecom": "الجوال"
+      "telecom": "الجوال",
+      "faq": "الأسئلة الشائعة"
     }
   },
   "footer": {
@@ -144,9 +145,7 @@
           "desc": "استخدم الخدمة بلغات متعددة",
           "title": "دعم متعدد اللغات"
         },
-        "subtitle": "حوّل وتتبع كل شيء في تطبيق واحد",
-        "title": "تحويلات",
-        "title2": "أبسط وأكثر أمانًا"
+        "title": "معاملات بسيطة وآمنة ومحمية في تطبيق واحد"
       }
     },
     "services": {

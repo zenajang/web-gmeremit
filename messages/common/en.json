@@ -4,24 +4,25 @@
       "careers": "Careers"
     },
     "nav": {
+      "about_us": "About Us",
       "blog": "Blog",
       "branches": "Branches",
       "card": "Card",
-      "ceo_message": "CEO's Message",
       "company": "Company",
-      "history": "History",
       "inquiry": "Inquiry",
       "loan": "Finance",
+      "mission_vision": "Mission & Vision",
       "news": "News",
       "notice": "Notice",
+      "our_team": "Our Team",
       "payments": "B2B Payments",
       "press": "News / Press",
       "remittance": "Remit",
-      "services": "Services",
-      "services_menu": "Services",
+      "services_menu": "Products",
       "social_channels": "Contact Us",
       "support": "Support",
-      "telecom": "Telecom"
+      "telecom": "Telecom",
+      "faq": "FAQ"
     }
   },
   "footer": {
@@ -144,9 +145,7 @@
           "desc": "Use the service in multiple languages",
           "title": "Multilingual Support"
         },
-        "subtitle": "Transfer and track everything in one app",
-        "title": "Simpler",
-        "title2": "Safer Transfers"
+        "title": "Simple, Safe & Secured Transactions in One App"
       }
     },
     "services": {

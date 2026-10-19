@@ -4,24 +4,25 @@
       "careers": "Karir"
     },
     "nav": {
+      "about_us": "About Us",
       "blog": "Blog",
       "branches": "Cabang",
       "card": "Kartu",
-      "ceo_message": "Pesan CEO",
       "company": "Perusahaan",
-      "history": "Sejarah",
       "inquiry": "Pertanyaan",
       "loan": "Finance",
+      "mission_vision": "Mission & Vision",
       "news": "Berita",
       "notice": "Pengumuman",
+      "our_team": "Our Team",
       "payments": "B2B Payments",
       "press": "Berita / Pers",
       "remittance": "Kirim Uang",
-      "services": "Layanan",
-      "services_menu": "Layanan",
+      "services_menu": "Produk",
       "social_channels": "Hubungi Kami",
       "support": "Dukungan",
-      "telecom": "Seluler"
+      "telecom": "Seluler",
+      "faq": "Tanya Jawab"
     }
   },
   "footer": {
@@ -144,9 +145,7 @@
           "desc": "Gunakan layanan dalam berbagai bahasa",
           "title": "Dukungan Multibahasa"
         },
-        "subtitle": "Kirim uang dan lacak semuanya dalam satu aplikasi",
-        "title": "Lebih Mudah",
-        "title2": "Kirim Uang Lebih Aman"
+        "title": "Transaksi Mudah, Aman, dan Terlindungi dalam Satu Aplikasi"
       }
     },
     "services": {

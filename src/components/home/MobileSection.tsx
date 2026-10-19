@@ -89,7 +89,7 @@ export default function MobileSection() {
                 {t("services-telecom.service-hero-section.description")}
               </p>
               <CTAButton
-                href="/services/telecom"
+                href="/products/telecom"
                 label={t("services-telecom.service-hero-section.cta")}
                 className="text-mobile bg-mobile/10 hover:bg-mobile/20"
                 iconClassName="bg-mobile"
