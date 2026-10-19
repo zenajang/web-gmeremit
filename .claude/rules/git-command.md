@@ -7,8 +7,7 @@
 | `git-cm-m` | 커밋 메시지만 작성한다. 커밋하지 않는다 |
 | `git-cm` | 변경 전체를 커밋 하나로 묶어 커밋한다 |
 | `git-cm-di` | 작업별로 나눠서 여러 커밋으로 커밋한다 |
-| `git-ps` | 현재 브랜치를 원격에 push 한다 |
-| `git-ps-<branch>` | `<branch>` 를 원격에 push 한다 |
+| `git-ps` | 현재 브랜치를 origin 에 push 한다 |
 | `git-fc` | `git fetch --all --prune` |
 | `git-pl` | 현재 브랜치를 원격에서 pull 한다 |
 | `git-merge-<branch>` | 현재 브랜치에 `<branch>` 를 merge 한다 |
