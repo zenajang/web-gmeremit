@@ -200,7 +200,8 @@
   "support": {
     "tabs": {
       "branches": "Agences",
-      "social_channels": "Nous contacter"
+      "social_channels": "Nous contacter",
+      "faq": "FAQ"
     },
     "stats": {
       "countries_label": "Pays desservis",
@@ -213,5 +214,30 @@
       "services_unit": "+",
       "services_value": "8"
     }
+  },
+  "support-faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "q": "Comment envoyer de l'argent avec GME Remittance ?",
+        "a": "Vous pouvez envoyer de l'argent facilement via l'application GME Remittance. Inscrivez-vous, complétez la vérification d'identité, puis suivez les étapes pour effectuer votre transfert."
+      },
+      {
+        "q": "Vers quels pays puis-je envoyer de l'argent ?",
+        "a": "GME propose des services de transfert international vers de nombreux pays. Les destinations disponibles sont consultables dans l'application GME Remittance."
+      },
+      {
+        "q": "Comment consulter le taux de change ?",
+        "a": "Vous pouvez consulter le dernier taux de change disponible directement dans l'application GME Remittance avant d'envoyer de l'argent."
+      },
+      {
+        "q": "Combien de temps prend un transfert international ?",
+        "a": "Les délais peuvent varier selon le pays de destination, le mode de réception et l'état de la transaction."
+      },
+      {
+        "q": "Que faire en cas de problème avec ma transaction ?",
+        "a": "Veuillez contacter le service client GME pour toute assistance concernant votre transaction ou votre compte."
+      }
+    ]
   }
 }

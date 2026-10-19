@@ -200,7 +200,8 @@
   "support": {
     "tabs": {
       "branches": "Filiallar",
-      "social_channels": "Biz bilan bogʻlaning"
+      "social_channels": "Biz bilan bogʻlaning",
+      "faq": "Savollar"
     },
     "stats": {
       "countries_label": "Xizmat mamlakatlari",
@@ -213,5 +214,30 @@
       "services_unit": "+",
       "services_value": "8"
     }
+  },
+  "support-faq": {
+    "title": "Ko'p so'raladigan savollar",
+    "items": [
+      {
+        "q": "GME Remittance orqali qanday pul jo'nataman?",
+        "a": "Siz GME Remittance ilovasi orqali qulay tarzda pul jo'natishingiz mumkin. Ro'yxatdan o'ting, shaxsni tasdiqlashni yakunlang va o'tkazmani amalga oshirish uchun bosqichlarga amal qiling."
+      },
+      {
+        "q": "Qaysi davlatlarga pul jo'nata olaman?",
+        "a": "GME ko'plab davlatlarga xalqaro pul o'tkazmalari xizmatini taqdim etadi. Mavjud yo'nalishlarni GME Remittance ilovasida ko'rishingiz mumkin."
+      },
+      {
+        "q": "Valyuta kursini qanday bilsam bo'ladi?",
+        "a": "Pul jo'natishdan oldin eng so'nggi valyuta kursini to'g'ridan-to'g'ri GME Remittance ilovasida ko'rishingiz mumkin."
+      },
+      {
+        "q": "Xalqaro pul o'tkazmasi qancha vaqt oladi?",
+        "a": "O'tkazma muddati qabul qiluvchi davlat, pul olish usuli va tranzaksiya holatiga qarab farq qilishi mumkin."
+      },
+      {
+        "q": "Tranzaksiyamda muammo bo'lsa nima qilishim kerak?",
+        "a": "Tranzaksiya yoki hisobingiz bo'yicha yordam olish uchun GME Mijozlarni qo'llab-quvvatlash xizmatiga murojaat qiling."
+      }
+    ]
   }
 }

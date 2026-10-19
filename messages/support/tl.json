@@ -200,7 +200,8 @@
   "support": {
     "tabs": {
       "branches": "Mga Branch",
-      "social_channels": "Makipag-ugnayan"
+      "social_channels": "Makipag-ugnayan",
+      "faq": "Mga Tanong"
     },
     "stats": {
       "countries_label": "Mga Bansang Sineserbisyuhan",
@@ -213,5 +214,30 @@
       "services_unit": "+",
       "services_value": "8"
     }
+  },
+  "support-faq": {
+    "title": "Mga Madalas Itanong",
+    "items": [
+      {
+        "q": "Paano ako makakapagpadala ng pera gamit ang GME Remittance?",
+        "a": "Madali kang makakapagpadala ng pera sa pamamagitan ng GME Remittance app. Magparehistro, kumpletuhin ang verification, at sundin ang mga hakbang para maipadala ang iyong pera."
+      },
+      {
+        "q": "Saang mga bansa ako puwedeng magpadala ng pera?",
+        "a": "Nagbibigay ang GME ng serbisyong padala sa maraming bansa. Makikita ang mga available na destinasyon sa GME Remittance app."
+      },
+      {
+        "q": "Paano ko matitingnan ang exchange rate?",
+        "a": "Makikita mo ang pinakabagong exchange rate mismo sa GME Remittance app bago magpadala."
+      },
+      {
+        "q": "Gaano katagal bago matanggap ang padala sa ibang bansa?",
+        "a": "Nag-iiba ang bilis ng padala depende sa bansang tatanggap, paraan ng pagtanggap, at katayuan ng transaksyon."
+      },
+      {
+        "q": "Ano ang dapat kong gawin kung may problema sa aking transaksyon?",
+        "a": "Mangyaring makipag-ugnayan sa GME Customer Support para sa tulong sa iyong transaksyon o account."
+      }
+    ]
   }
 }

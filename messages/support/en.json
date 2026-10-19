@@ -200,7 +200,8 @@
   "support": {
     "tabs": {
       "branches": "Branches",
-      "social_channels": "Contact Us"
+      "social_channels": "Contact Us",
+      "faq": "FAQ"
     },
     "stats": {
       "countries_label": "Service Countries",
@@ -213,5 +214,30 @@
       "services_unit": "+",
       "services_value": "8"
     }
+  },
+  "support-faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "How can I send money with GME Remittance?",
+        "a": "You can send money conveniently through the GME Remittance app. Register, complete verification, and follow the steps to make your transfer."
+      },
+      {
+        "q": "Which countries can I send money to?",
+        "a": "GME provides overseas remittance services to many countries. Available destinations can be checked through the GME Remittance app."
+      },
+      {
+        "q": "How can I check the exchange rate?",
+        "a": "You can check the latest available exchange rate directly in the GME Remittance app before sending money."
+      },
+      {
+        "q": "How long does an overseas remittance take?",
+        "a": "Transfer times may vary depending on the destination country, receiving method, and transaction status."
+      },
+      {
+        "q": "What should I do if I have a problem with my transaction?",
+        "a": "Please contact GME Customer Support for assistance with your transaction or account."
+      }
+    ]
   }
 }

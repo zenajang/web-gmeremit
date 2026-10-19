@@ -1,6 +1,7 @@
 export const supportTabs = [
   { key: "branches", labelKey: "support.tabs.branches", href: "/support/branches" },
   { key: "social-channels", labelKey: "support.tabs.social_channels", href: "/support/social-channels" },
+  { key: "faq", labelKey: "support.tabs.faq", href: "/support/faq" },
 ];
 
 export interface SupportStat {

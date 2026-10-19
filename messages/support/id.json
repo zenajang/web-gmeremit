@@ -200,7 +200,8 @@
   "support": {
     "tabs": {
       "branches": "Cabang",
-      "social_channels": "Hubungi Kami"
+      "social_channels": "Hubungi Kami",
+      "faq": "Tanya Jawab"
     },
     "stats": {
       "countries_label": "Negara Dilayani",
@@ -213,5 +214,30 @@
       "services_unit": "+",
       "services_value": "8"
     }
+  },
+  "support-faq": {
+    "title": "Pertanyaan yang Sering Diajukan",
+    "items": [
+      {
+        "q": "Bagaimana cara mengirim uang dengan GME Remittance?",
+        "a": "Anda dapat mengirim uang dengan mudah melalui aplikasi GME Remittance. Daftar, selesaikan verifikasi, lalu ikuti langkah-langkah untuk melakukan transfer."
+      },
+      {
+        "q": "Ke negara mana saja saya bisa mengirim uang?",
+        "a": "GME menyediakan layanan pengiriman uang ke luar negeri ke banyak negara. Negara tujuan yang tersedia dapat dicek melalui aplikasi GME Remittance."
+      },
+      {
+        "q": "Bagaimana cara mengecek nilai tukar?",
+        "a": "Anda dapat mengecek nilai tukar terbaru langsung di aplikasi GME Remittance sebelum mengirim uang."
+      },
+      {
+        "q": "Berapa lama pengiriman uang ke luar negeri?",
+        "a": "Waktu transfer dapat berbeda tergantung negara tujuan, metode penerimaan, dan status transaksi."
+      },
+      {
+        "q": "Apa yang harus saya lakukan jika ada masalah dengan transaksi saya?",
+        "a": "Silakan hubungi Layanan Pelanggan GME untuk bantuan terkait transaksi atau akun Anda."
+      }
+    ]
   }
 }
