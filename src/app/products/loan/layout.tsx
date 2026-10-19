@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     title: "GME Finance | 외국인 금융 서비스",
     description:
       "GME Finance — 한국 거주 외국인을 위한 금융 서비스. 간편 신청, 빠른 심사.",
-    url: "https://www.gmeremit.com/services/loan",
+    url: "https://www.gmeremit.com/products/loan",
   },
   alternates: {
-    canonical: "https://www.gmeremit.com/services/loan",
+    canonical: "https://www.gmeremit.com/products/loan",
   },
 };
 

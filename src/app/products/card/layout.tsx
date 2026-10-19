@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     title: "GME 선불카드 | GME Remit",
     description:
       "전 세계 어디서나 사용 가능한 GME 선불카드. ATM 인출, 대중교통, 해외 결제.",
-    url: "https://www.gmeremit.com/services/card",
+    url: "https://www.gmeremit.com/products/card",
   },
   alternates: {
-    canonical: "https://www.gmeremit.com/services/card",
+    canonical: "https://www.gmeremit.com/products/card",
   },
 };
 

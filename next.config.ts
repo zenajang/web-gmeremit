@@ -12,6 +12,16 @@ const nextConfig: NextConfig = {
         destination: 'https://gmefinance.com',
         permanent: true,
       },
+      {
+        source: '/products/loan',
+        destination: 'https://gmefinance.com',
+        permanent: true,
+      },
+      {
+        source: '/services/:path*',
+        destination: '/products/:path*',
+        permanent: true,
+      },
     ];
   },
   images: {

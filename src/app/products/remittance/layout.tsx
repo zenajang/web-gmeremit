@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     title: "해외송금 서비스 | GME Remit",
     description:
       "수수료 90% 절감, 최고 환율로 해외송금. 빠르고 안전한 GME 해외송금 서비스.",
-    url: "https://www.gmeremit.com/services/remittance",
+    url: "https://www.gmeremit.com/products/remittance",
   },
   alternates: {
-    canonical: "https://www.gmeremit.com/services/remittance",
+    canonical: "https://www.gmeremit.com/products/remittance",
   },
 };
 

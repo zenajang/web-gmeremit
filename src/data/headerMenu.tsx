@@ -18,11 +18,11 @@ export const menuItemDefs: MenuItemDef[] = [
   {
     labelKey: "header.nav.services_menu",
     children: [
-      { labelKey: "header.nav.remittance", href: "/services/remittance" },
+      { labelKey: "header.nav.remittance", href: "/products/remittance" },
       { labelKey: "header.nav.loan", href: "https://gmefinance.com" },
-      { labelKey: "header.nav.card", href: "/services/card" },
-      { labelKey: "header.nav.payments", href: "/services/payments" },
-      { labelKey: "header.nav.telecom", href: "/services/telecom" },
+      { labelKey: "header.nav.card", href: "/products/card" },
+      { labelKey: "header.nav.payments", href: "/products/payments" },
+      { labelKey: "header.nav.telecom", href: "/products/telecom" },
     ],
   },
   {

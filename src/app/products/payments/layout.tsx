@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     title: "기업 결제 솔루션 | GME Remit",
     description:
       "글로벌 결제, 급여 지급, 공급망 금융까지. GME Remit 기업 결제 솔루션.",
-    url: "https://www.gmeremit.com/services/payments",
+    url: "https://www.gmeremit.com/products/payments",
   },
   alternates: {
-    canonical: "https://www.gmeremit.com/services/payments",
+    canonical: "https://www.gmeremit.com/products/payments",
   },
 };
 

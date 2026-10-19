@@ -70,7 +70,7 @@ export const splitSectionData = (
       benefits: tArray("split-section.card.features"),
       buttonProps: {
         as: "link",
-        href: "/services/card",
+        href: "/products/card",
         type: "button",
         children: t("split-section.card.ctaLabel"),
         className: "w-full sm:w-fit flex items-center justify-center font-semibold cursor-pointer px-7 py-3 sm:py-3.5 mt-2 text-[16px] rounded-full bg-primary text-white hover:bg-[#c11a28]"
@@ -88,7 +88,7 @@ export const splitSectionData = (
       benefits: tArray("split-section.simCard.features"),
       buttonProps: {
         as: "link",
-        href: "/services/telecom",
+        href: "/products/telecom",
         type: "button",
         children: t("split-section.simCard.ctaLabel"),
         className: "w-full sm:w-fit flex items-center justify-center font-semibold cursor-pointer px-7 py-3 sm:py-3.5 mt-2 text-[16px] rounded-full bg-primary text-white hover:bg-[#c11a28]"
