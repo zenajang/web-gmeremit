@@ -17,37 +17,25 @@ export interface MenuItem {
 }
 
 export const CountryNamesEn: Record<string, string> = {
-  PH: "Philippines",
-  ID: "Indonesia",
-  MY: "Malaysia",
-  SG: "Singapore",
-  HK: "Hong-Kong",
-  TW: "Taiwan",
-  CN: "China",
-  JP: "Japan",
-  KR: "Korea",
-  TH: "Thailand",
-  VN: "Vietnam",
-  IN: "India",
-  BD: "Bangladesh",
-  PK: "Pakistan",
-  AF: "Afghanistan",
-  BT: "Bhutan",
-  BN: "Brunei",
   KH: "Cambodia",
-  MM: "Myanmar",
-  LA: "Laos",
-  MN: "Mongolia",
   NP: "Nepal",
-  KZ: "Kazakhstan",
-  KG: "Kyrgyzstan",
-  LK: "Sri-Lanka",
+  ID: "Indonesia",
   UZ: "Uzbekistan",
-  AFRICA: "Africa",
+  MM: "Myanmar",
+  TH: "Thailand",
+  CN: "China",
+  BD: "Bangladesh",
+  MN: "Mongolia",
+  PH: "Philippines",
+  VN: "Vietnam",
+  LA: "Laos",
+  KZ: "Kazakhstan",
+  CIS: "CIS",
+  LK: "Sri-Lanka",
+  IN: "India",
   WEST_AFRICA: "West-Africa",
-  ARAB: "Arab",
-  SPANISH_LATAM: "Spanish-Latam",
-  RU: "Russian-Federation",
+  KG: "Kyrgyzstan",
+  PK: "Pakistan",
 };
 
 // ============ Language Selector ============
@@ -174,7 +162,10 @@ export function CountriesDropdown({ label }: { label: string }) {
       {isOpen && (
         <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 z-50 w-fit">
           <div className="bg-white rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.12),0_0_0_1px_rgba(0,0,0,0.04)] p-8">
-            <div className="grid grid-cols-[auto_auto] gap-x-10 gap-y-5">
+            <div
+              className="grid grid-flow-col grid-cols-[auto_auto] gap-x-10 gap-y-5"
+              style={{ gridTemplateRows: `repeat(${Math.ceil(countriesWithNames.length / 2)}, auto)` }}
+            >
               {countriesWithNames.map((c) => (
                 <button
                   key={c.code}
