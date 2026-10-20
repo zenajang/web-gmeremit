@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
-import { countryConfigs, regionCountries } from "@/data/countries";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { countryConfigs, regionDefaultCountry } from "@/data/countries";
 import { useTranslation, translations } from "@/hooks/useTranslation";
 import { useCountryTranslation } from "@/hooks/useCountryTranslation";
 import { useClickOutside } from "@/hooks/useClickOutside";
@@ -24,10 +24,12 @@ const ExchangeRateCalculator = () => {
   const findCountryConfig = (name: string) =>
     countryConfigs.find((c) => normalize(c.countryName) === normalize(name));
 
-  // 지역 랜딩(서아프리카 등)은 수취국을 사용자가 고른다. 국가 랜딩은 슬러그가 곧 수취국이다.
-  const regionCountryNames = regionCountries[normalize(countryName ?? "")];
+  // 지역 랜딩(서아프리카·CIS)은 홈 계산기처럼 전체 국가에서 수취국을 고른다.
+  // 국가 랜딩은 슬러그가 곧 수취국이라 선택기를 띄우지 않는다.
+  const regionDefault = regionDefaultCountry[normalize(countryName ?? "")];
+  const isRegionLanding = Boolean(regionDefault);
   const [selectedCountryName, setSelectedCountryName] = useState(
-    regionCountryNames?.[0] ?? countryName
+    regionDefault ?? countryName
   );
   const matchedCountry = findCountryConfig(selectedCountryName);
 
@@ -42,9 +44,11 @@ const ExchangeRateCalculator = () => {
   const [deliveryMethod, setDeliveryMethod] = useState("");
   const [isPayoutOpen, setIsPayoutOpen] = useState(false);
   const [isCountryOpen, setIsCountryOpen] = useState(false);
+  const [countrySearch, setCountrySearch] = useState("");
   const [resultRecipientCountry, setResultRecipientCountry] = useState(matchedCountry?.currencies[0]?.code ?? "");
   const payoutDropdownRef = useRef<HTMLDivElement>(null);
   const countryDropdownRef = useRef<HTMLDivElement>(null);
+  const countrySearchRef = useRef<HTMLInputElement>(null);
 
   useClickOutside(payoutDropdownRef, () => setIsPayoutOpen(false));
   useClickOutside(countryDropdownRef, () => setIsCountryOpen(false));
@@ -96,7 +100,19 @@ const ExchangeRateCalculator = () => {
     setSelectedCountryName(name);
     setSelectedRecipientCountry(findCountryConfig(name)?.currencies[0]?.code ?? "");
     setIsCountryOpen(false);
+    setCountrySearch("");
   };
+
+  const searchedCountries = useMemo(() => {
+    const query = countrySearch.trim().toLowerCase();
+    if (!query) return countryConfigs;
+    return countryConfigs.filter(
+      (c) =>
+        c.countryName.toLowerCase().includes(query) ||
+        t(`home.hero-main.countries.names.${c.countryCode}`).toLowerCase().includes(query) ||
+        c.currencies.some((currency) => currency.code.toLowerCase().includes(query))
+    );
+  }, [countrySearch, t]);
 
   return (
     <div className={S.CalculatorTitle}>
@@ -214,14 +230,15 @@ const ExchangeRateCalculator = () => {
             </div>
           )}
         </div>
-        {regionCountryNames ? (
+        {isRegionLanding ? (
           <>
             <button
               type="button"
               onClick={() => setIsCountryOpen(!isCountryOpen)}
               className={`${S.CalculatorInputRow} w-full cursor-pointer transition-colors`}
             >
-              <span className={S.CalculatorValueText}>
+              <span className="text-lg">{matchedCountry?.flag}</span>
+              <span className={`${S.CalculatorValueText} flex-1 text-left`}>
                 {t(`home.hero-main.countries.names.${matchedCountry?.countryCode}`)}
               </span>
               <svg
@@ -239,25 +256,64 @@ const ExchangeRateCalculator = () => {
                 className="absolute z-50 top-full left-0 right-0 w-full bg-white rounded-2xl shadow-xl border border-gray-200/70 overflow-hidden"
                 onWheel={(e) => e.stopPropagation()}
               >
-                <div className="py-2 max-h-56 overflow-auto">
-                  {regionCountryNames.map((name) => {
-                    const config = findCountryConfig(name);
-                    return (
+                <div className="px-3 py-2 border-b border-gray-100">
+                  <div className="flex items-center gap-2 bg-gray-50 rounded-xl px-3 py-2">
+                    <svg className="w-4 h-4 text-neutral-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z" />
+                    </svg>
+                    <input
+                      ref={countrySearchRef}
+                      type="text"
+                      value={countrySearch}
+                      onChange={(e) => setCountrySearch(e.target.value)}
+                      placeholder={t("common.exchange-rate-calculator.home.exchange.calculator.search_placeholder")}
+                      className="flex-1 min-w-0 bg-transparent text-sm text-dark outline-none placeholder-neutral-400"
+                    />
+                    {countrySearch && (
                       <button
-                        key={name}
                         type="button"
-                        onClick={() => changeRecipientCountryName(name)}
+                        onClick={() => {
+                          setCountrySearch("");
+                          countrySearchRef.current?.focus();
+                        }}
+                        className="text-neutral-400 hover:text-neutral-600 cursor-pointer"
+                        aria-label="clear"
+                      >
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                      </button>
+                    )}
+                  </div>
+                </div>
+
+                <div className="py-2 max-h-56 overflow-auto">
+                  {searchedCountries.length === 0 ? (
+                    <p className="px-5 py-4 text-sm text-neutral-400 text-center">
+                      {t("common.exchange-rate-calculator.home.exchange.calculator.no_results")}
+                    </p>
+                  ) : (
+                    searchedCountries.map((config) => (
+                      <button
+                        key={config.countryCode}
+                        type="button"
+                        onClick={() => changeRecipientCountryName(config.countryName)}
                         className={`w-full flex items-center gap-3 px-5 py-3 transition-colors cursor-pointer ${
-                          selectedCountryName === name ? "bg-red-50 text-primary" : "hover:bg-slate-50"
+                          matchedCountry?.countryCode === config.countryCode
+                            ? "bg-red-50 text-primary"
+                            : "hover:bg-slate-50"
                         }`}
                       >
+                        <span className="text-xl">{config.flag}</span>
                         <span className="font-medium flex-1 text-left">
-                          {t(`home.hero-main.countries.names.${config?.countryCode}`)}
+                          {t(`home.hero-main.countries.names.${config.countryCode}`)}
                         </span>
-                        <span className="text-xs text-neutral-400">{config?.currencies[0]?.code}</span>
+                        <span className="text-sm text-neutral-400">
+                          {config.currencies.map((c) => c.code).join(" / ")}
+                        </span>
                       </button>
-                    );
-                  })}
+                    ))
+                  )}
                 </div>
               </div>
             )}

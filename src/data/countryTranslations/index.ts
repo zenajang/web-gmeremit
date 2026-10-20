@@ -14,6 +14,7 @@ import ko from "@messages/country/ko.json";
 import mn from "@messages/country/mn.json";
 import my from "@messages/country/my.json";
 import ne from "@messages/country/ne.json";
+import ru from "@messages/country/ru.json";
 import si from "@messages/country/si.json";
 import th from "@messages/country/th.json";
 import tl from "@messages/country/tl.json";
@@ -35,7 +36,7 @@ const normalize = (value: string) => value.toLowerCase().replace(/[-\s]+/g, "");
 
 /** 언어코드 → 그 언어로 작성된 랜딩 번역 파일 */
 const pendingByLang: Record<string, PendingFile> = {
-  ar, bn, en, es, fr, hi, id, ja, kk, km, ky, lo, ko, mn, my, ne, si, th, tl, ur, uz, vi, zh,
+  ar, bn, en, es, fr, hi, id, ja, kk, km, ky, lo, ko, mn, my, ne, ru, si, th, tl, ur, uz, vi, zh,
 };
 
 /** 국가별 고유 언어. 랜딩 번역이 그 언어로만 있을 때의 기본값 */
@@ -57,6 +58,7 @@ const nativeLangByCountry: Record<string, string> = {
   thailand: "th",
   uzbekistan: "uz",
   vietnam: "vi",
+  cis: "ru",
   "west-africa": "en",
 };
 
@@ -75,14 +77,8 @@ for (const [country, nativeLangCode] of Object.entries(nativeLangByCountry)) {
   manifest[normalize(country)] = { nativeLangCode, files };
 }
 
-// 헤더 국가 라우팅에서 실제 슬러그와 번역 키가 다른 경우만 여기서 매핑
-const slugAliases: Record<string, string> = {
-  [normalize("Russian-Federation")]: normalize("russia"),
-};
-
 export function getCountryTranslation(countryName: string): CountryTranslationEntry | undefined {
-  const key = normalize(countryName);
-  return manifest[key] ?? manifest[slugAliases[key]];
+  return manifest[normalize(countryName)];
 }
 
 // 헤더 "Countries" 네비 라벨: 각 국가 번역 파일의 header.navItems.countries 값을 언어코드별로 취합

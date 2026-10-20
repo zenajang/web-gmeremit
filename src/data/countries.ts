@@ -686,24 +686,8 @@ export interface SupportedCountry {
 
 export const supportedCountries: SupportedCountry[] = countryConfigs.map(c => ({ code: c.countryCode, flag: c.flag }));
 
-/** 국가가 아닌 지역 단위 랜딩의 수취 가능 국가. 키는 슬러그를 소문자·구분자 제거한 형태 */
-export const regionCountries: Record<string, string[]> = {
-  westafrica: [
-    "Benin",
-    "Burkina Faso",
-    "Cape Verde",
-    "Gambia",
-    "Ghana",
-    "Guinea",
-    "Guinea-Bissau",
-    "Ivory Coast",
-    "Liberia",
-    "Mali",
-    "Mauritania",
-    "Niger",
-    "Nigeria",
-    "Senegal",
-    "Sierra Leone",
-    "Togo",
-  ],
+/** 국가가 아닌 지역 단위 랜딩. 슬러그(소문자·구분자 제거) → 환율 계산기 기본 수취국 */
+export const regionDefaultCountry: Record<string, string> = {
+  westafrica: "Benin",
+  cis: "Russian Federation",
 };
