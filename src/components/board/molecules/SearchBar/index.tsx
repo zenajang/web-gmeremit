@@ -2,14 +2,15 @@
 
 import { useState } from "react";
 import { useTranslation } from "@/hooks/useTranslation";
+import type { BoardSearchType } from "@/utils/board";
 
 interface SearchBarProps {
-  onSearch: (query: string, searchType: string) => void;
+  onSearch: (query: string, searchType: BoardSearchType) => void;
 }
 
 export default function SearchBar({ onSearch }: SearchBarProps) {
   const { t } = useTranslation();
-  const [searchType, setSearchType] = useState("title");
+  const [searchType, setSearchType] = useState<BoardSearchType>("title");
   const [query, setQuery] = useState("");
 
   const handleSearch = () => {
@@ -27,7 +28,7 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
       {/* Search Type Dropdown */}
       <select
         value={searchType}
-        onChange={(e) => setSearchType(e.target.value)}
+        onChange={(e) => setSearchType(e.target.value as BoardSearchType)}
         style={{
           backgroundImage: `url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%23333' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e")`,
           backgroundPosition: 'right 0.75rem center',

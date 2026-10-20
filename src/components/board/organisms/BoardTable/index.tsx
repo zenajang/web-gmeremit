@@ -4,8 +4,8 @@ import Link from "next/link";
 import { HiPaperClip } from "react-icons/hi2";
 import { BsPinFill } from "react-icons/bs";
 import { BoardEntry } from "@/types/board";
-import BoardTableRow from "./BoardTableRow";
-import TypeBadge from "./TypeBadge";
+import BoardTableRow from "@/components/board/molecules/BoardTableRow";
+import TypeBadge from "@/components/board/molecules/TypeBadge";
 import { useTranslation } from "@/hooks/useTranslation";
 import { isNewEntry } from "@/utils/board";
 
