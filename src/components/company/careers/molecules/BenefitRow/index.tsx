@@ -23,6 +23,7 @@ const BenefitRow = ({ itemKey, image, index }: BenefitRowProps) => {
           src={image}
           alt={t(`company-careers.benefits.${itemKey}.title`)}
           fill
+          sizes="(min-width: 1024px) 33vw, 100vw"
           className={S.BenefitRowImage}
           style={itemKey === "health" ? { objectPosition: "center 25%" } : undefined}
         />

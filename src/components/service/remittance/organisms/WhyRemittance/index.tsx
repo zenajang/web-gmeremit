@@ -30,6 +30,8 @@ const WhyRemittance = () => {
             src="/images/gme_app_hand.jpg"
             alt="GME Remit 앱 사용 화면"
             fill
+            sizes="(min-width: 1024px) 50vw, 100vw"
+            priority
             className={S.WhyRemittanceVisualImage}
             style={{ objectPosition: "100% 20%" }}
           />

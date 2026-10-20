@@ -8,10 +8,10 @@ import type { ReactNode } from "react";
 const featureKeys = ["optimized", "security", "global", "fast"] as const;
 
 const featureIcons: ReactNode[] = [
-  <Image key="coin" src="/images/common/coin.png" alt="Coin" width={80} height={80} className="w-16 h-16 sm:w-20 sm:h-20 object-contain" />,
-  <Image key="shield" src="/images/common/shield.png" alt="Shield" width={80} height={80} className="w-16 h-16 sm:w-20 sm:h-20 object-contain" />,
-  <Image key="globe" src="/images/common/globe.png" alt="Globe" width={90} height={90} className="w-20 h-20 sm:w-30 sm:h-30 object-contain" />,
-  <Image key="fast" src="/images/common/speed.png" alt="Speed" width={80} height={80} className="w-16 h-16 sm:w-20 sm:h-20 object-contain" />,
+  <Image key="coin" src="/images/common/coin.png" alt="Coin" width={60} height={60} className="w-9 h-9 sm:w-15 sm:h-15 object-contain" />,
+  <Image key="shield" src="/images/common/shield.png" alt="Shield" width={60} height={60} className="w-9 h-9 sm:w-15 sm:h-15 object-contain" />,
+  <Image key="globe" src="/images/common/globe.png" alt="Globe" width={60} height={60} className="w-9 h-9 sm:w-15 sm:h-15 object-contain" />,
+  <Image key="fast" src="/images/common/speed.png" alt="Speed" width={60} height={60} className="w-9 h-9 sm:w-15 sm:h-15 object-contain" />,
 ];
 
 export default function RemittanceSection() {

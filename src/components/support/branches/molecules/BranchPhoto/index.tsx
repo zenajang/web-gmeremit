@@ -17,6 +17,7 @@ const BranchPhoto = ({ name, image }: BranchPhotoProps) => {
           alt={name}
           width={600}
           height={176}
+          priority
           className="w-full h-40 lg:h-64 object-cover"
         />
       ) : (
