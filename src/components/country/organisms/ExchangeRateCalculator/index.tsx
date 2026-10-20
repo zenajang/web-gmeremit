@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { countryConfigs } from "@/data/countries";
+import { countryConfigs, regionCountries } from "@/data/countries";
 import { useTranslation, translations } from "@/hooks/useTranslation";
 import { useCountryTranslation } from "@/hooks/useCountryTranslation";
 import { useClickOutside } from "@/hooks/useClickOutside";
@@ -21,9 +21,15 @@ const ExchangeRateCalculator = () => {
   const { t: tCountry, activeLangCode } = useCountryTranslation(countryName);
   const { t } = useTranslation(undefined, resolveMessagesLang(activeLangCode));
   const normalize = (value: string) => value.toLowerCase().replace(/[-\s]+/g, "");
-  const matchedCountry = countryConfigs.find(
-    (c) => normalize(c.countryName) === normalize(countryName ?? "")
+  const findCountryConfig = (name: string) =>
+    countryConfigs.find((c) => normalize(c.countryName) === normalize(name));
+
+  // 지역 랜딩(서아프리카 등)은 수취국을 사용자가 고른다. 국가 랜딩은 슬러그가 곧 수취국이다.
+  const regionCountryNames = regionCountries[normalize(countryName ?? "")];
+  const [selectedCountryName, setSelectedCountryName] = useState(
+    regionCountryNames?.[0] ?? countryName
   );
+  const matchedCountry = findCountryConfig(selectedCountryName);
 
   const [sendAmount, setSendAmount] = useState(""); // 보내는 금액 (input에 표시, 콤마 포맷 전 raw 문자열)
   const [receiveAmount, setReceiveAmount] = useState(""); // 받는 금액 (계산 결과, 화면 표시용)
@@ -35,10 +41,13 @@ const ExchangeRateCalculator = () => {
   const [selectedRecipientCountry, setSelectedRecipientCountry] = useState(matchedCountry?.currencies[0]?.code ?? "");
   const [deliveryMethod, setDeliveryMethod] = useState("");
   const [isPayoutOpen, setIsPayoutOpen] = useState(false);
+  const [isCountryOpen, setIsCountryOpen] = useState(false);
   const [resultRecipientCountry, setResultRecipientCountry] = useState(matchedCountry?.currencies[0]?.code ?? "");
   const payoutDropdownRef = useRef<HTMLDivElement>(null);
+  const countryDropdownRef = useRef<HTMLDivElement>(null);
 
   useClickOutside(payoutDropdownRef, () => setIsPayoutOpen(false));
+  useClickOutside(countryDropdownRef, () => setIsCountryOpen(false));
 
   const pCurr = matchedCountry?.currencies[0]?.code ?? "";
   const pCountryName = matchedCountry?.countryName ?? countryName;
@@ -81,6 +90,12 @@ const ExchangeRateCalculator = () => {
 
   const changeRecipientCountry = (currency: string) => {
     setSelectedRecipientCountry(currency);
+  };
+
+  const changeRecipientCountryName = (name: string) => {
+    setSelectedCountryName(name);
+    setSelectedRecipientCountry(findCountryConfig(name)?.currencies[0]?.code ?? "");
+    setIsCountryOpen(false);
   };
 
   return (
@@ -175,7 +190,7 @@ const ExchangeRateCalculator = () => {
         )}
       </div>
 
-      <div className={S.CalculatorFieldWrapper}>
+      <div ref={countryDropdownRef} className={`${S.CalculatorFieldWrapper} relative`}>
         <div className={S.CalculatorFieldLabel}>{tCountry("exchange-rate-calculator.recipientCountryLabel")}
           {matchedCountry?.currencies && matchedCountry?.currencies.length > 1 && (
             <div className="mt-2 flex items-center gap-1.5 flex-wrap">
@@ -199,10 +214,59 @@ const ExchangeRateCalculator = () => {
             </div>
           )}
         </div>
-        <div className={S.CalculatorInputRow}>
-          <p className={S.CalculatorValueText}>{tCountry("exchange-rate-calculator.recipientCountryOption")}</p>
-          {/* <span className={S.CalculatorCurrencyTag}>{pCurr}</span> */}
-        </div>
+        {regionCountryNames ? (
+          <>
+            <button
+              type="button"
+              onClick={() => setIsCountryOpen(!isCountryOpen)}
+              className={`${S.CalculatorInputRow} w-full cursor-pointer transition-colors`}
+            >
+              <span className={S.CalculatorValueText}>
+                {t(`home.hero-main.countries.names.${matchedCountry?.countryCode}`)}
+              </span>
+              <svg
+                className={`w-5 h-5 text-neutral-400 transition-transform ${isCountryOpen ? "rotate-180" : ""}`}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+
+            {isCountryOpen && (
+              <div
+                className="absolute z-50 top-full left-0 right-0 w-full bg-white rounded-2xl shadow-xl border border-gray-200/70 overflow-hidden"
+                onWheel={(e) => e.stopPropagation()}
+              >
+                <div className="py-2 max-h-56 overflow-auto">
+                  {regionCountryNames.map((name) => {
+                    const config = findCountryConfig(name);
+                    return (
+                      <button
+                        key={name}
+                        type="button"
+                        onClick={() => changeRecipientCountryName(name)}
+                        className={`w-full flex items-center gap-3 px-5 py-3 transition-colors cursor-pointer ${
+                          selectedCountryName === name ? "bg-red-50 text-primary" : "hover:bg-slate-50"
+                        }`}
+                      >
+                        <span className="font-medium flex-1 text-left">
+                          {t(`home.hero-main.countries.names.${config?.countryCode}`)}
+                        </span>
+                        <span className="text-xs text-neutral-400">{config?.currencies[0]?.code}</span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+          </>
+        ) : (
+          <div className={S.CalculatorInputRow}>
+            <p className={S.CalculatorValueText}>{tCountry("exchange-rate-calculator.recipientCountryOption")}</p>
+          </div>
+        )}
       </div>
 
       <div className={S.CalculatorResultBox}>

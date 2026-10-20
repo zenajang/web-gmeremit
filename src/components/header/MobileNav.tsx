@@ -209,15 +209,21 @@ export function MobileCountriesAccordion({ label, onClose }: { label: string; on
                 selectedCode === c.code ? "text-primary" : "text-dark hover:text-primary"
               }`}
             >
-              <img
-                src={c.flagSrc}
-                alt=""
-                width={20}
-                height={20}
-                loading="lazy"
-                decoding="async"
-                className="w-5 h-5 rounded-full object-cover shrink-0"
-              />
+              {c.flagSrc ? (
+                <img
+                  src={c.flagSrc}
+                  alt=""
+                  width={20}
+                  height={20}
+                  loading="lazy"
+                  decoding="async"
+                  className="w-5 h-5 rounded-full object-cover shrink-0"
+                />
+              ) : (
+                <span aria-hidden="true" className="w-5 h-5 shrink-0 text-base leading-5 text-center">
+                  {c.emoji}
+                </span>
+              )}
               <span>{c.name}</span>
             </button>
           ))}

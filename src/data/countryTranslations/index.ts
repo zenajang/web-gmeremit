@@ -57,6 +57,7 @@ const nativeLangByCountry: Record<string, string> = {
   thailand: "th",
   uzbekistan: "uz",
   vietnam: "vi",
+  "west-africa": "en",
 };
 
 // 각 언어 파일의 landing 아래 국가 키를 훑어 국가별로 언어를 모은다.

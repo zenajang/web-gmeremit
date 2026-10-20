@@ -18,7 +18,7 @@ function country(code: string, langCode: string): ServedEntry {
 }
 
 function region(code: string, emoji: string, nameKey: string, langCode: string): ServedEntry {
-  return { code, emoji, nameKey, nameNs: "header", langCode };
+  return { code, emoji, nameKey, nameNs: "home.hero-main", langCode };
 }
 
 // Order matches the reference GME country selector exactly.
@@ -26,7 +26,6 @@ function region(code: string, emoji: string, nameKey: string, langCode: string):
 export const servedEntries: ServedEntry[] = [
   country("PH", "en"),
   country("ID", "id"),
-  // country("AFRICA", "en"),
   // country("ARAB", "ar"),
   country("CN", "zh"),
   // country("SPANISH_LATAM", "es"),
@@ -45,4 +44,5 @@ export const servedEntries: ServedEntry[] = [
   country("PK", "ur"),
   country("TH", "th"),
   country("KG", "en"),
+  region("WEST_AFRICA", "🌍", "home.hero-main.countries.names.WEST_AFRICA", "en"),
 ];
