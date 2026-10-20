@@ -1,4 +1,4 @@
-import CardsShowcase from "@/components/home/CardsShowcase";
+import CardsShowcase from "@/components/home/organisms/CardsShowcase";
 
 export default function CardsSection() {
   return (
