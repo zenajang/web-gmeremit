@@ -1,5 +1,5 @@
 import { redirect } from 'next/navigation'
-import EditBoardEntryClient from '@/components/admin/EditBoardEntryClient'
+import { BoardEditTemplate } from '@/components/admin/templates'
 import { fetchBoardEntryById, toBoardFormData } from '@/lib/board-admin'
 import { createServer } from '@/lib/supabase/server'
 
@@ -31,7 +31,7 @@ export default async function EditBoardEntryPage({
   }
 
   return (
-    <EditBoardEntryClient
+    <BoardEditTemplate
       id={id}
       initialFormData={toBoardFormData(entry)}
       initialImageUrl={entry.image_url || ''}
