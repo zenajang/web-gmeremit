@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import DesktopNav, { LanguageSelector } from "./header/DesktopNav";
 import MobileNav, { MobileLanguageBottomSheet } from "./header/MobileNav";
+import HomeLanguageToggle from "./header/HomeLanguageToggle";
 import type { MenuItem } from "./header/DesktopNav";
 import { useTranslation } from "@/hooks/useTranslation";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -31,6 +32,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLangOpen, setIsLangOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const isHome = pathname === "/";
 
   useEffect(() => {
     const handleResize = () => {
@@ -116,13 +118,13 @@ export default function Header() {
 
               {/* Language */}
               <div className="hidden lg:block">
-                <LanguageSelector />
+                {isHome ? <HomeLanguageToggle /> : <LanguageSelector />}
               </div>
 
-              {/* Mobile Language Button */}
+              {/* Mobile Language */}
               <button
                 type="button"
-                className="lg:hidden p-2.5 rounded-xl text-dark hover:bg-gray-100 active:scale-95 transition-all duration-150 cursor-pointer"
+                className={`lg:hidden p-2.5 rounded-xl text-dark hover:bg-gray-100 active:scale-95 transition-all duration-150 cursor-pointer ${isHome ? "hidden" : ""}`}
                 onClick={() => setIsLangOpen(true)}
                 aria-label="Select language"
               >

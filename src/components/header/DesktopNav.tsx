@@ -44,6 +44,7 @@ export const CountryNamesEn: Record<string, string> = {
   LK: "Sri-Lanka",
   UZ: "Uzbekistan",
   AFRICA: "Africa",
+  WEST_AFRICA: "West-Africa",
   ARAB: "Arab",
   SPANISH_LATAM: "Spanish-Latam",
   RU: "Russian-Federation",
@@ -183,15 +184,21 @@ export function CountriesDropdown({ label }: { label: string }) {
                     selectedCode === c.code ? "text-primary" : "text-[#181818] hover:text-primary"
                   }`}
                 >
-                  <img
-                    src={c.flagSrc}
-                    alt=""
-                    width={20}
-                    height={20}
-                    loading="lazy"
-                    decoding="async"
-                    className="w-5 h-5 rounded-full object-cover shrink-0"
-                  />
+                  {c.flagSrc ? (
+                    <img
+                      src={c.flagSrc}
+                      alt=""
+                      width={20}
+                      height={20}
+                      loading="lazy"
+                      decoding="async"
+                      className="w-5 h-5 rounded-full object-cover shrink-0"
+                    />
+                  ) : (
+                    <span aria-hidden="true" className="w-5 h-5 shrink-0 text-base leading-5 text-center">
+                      {c.emoji}
+                    </span>
+                  )}
                   <span>{c.name}</span>
                 </button>
               ))}

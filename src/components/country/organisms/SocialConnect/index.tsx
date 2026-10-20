@@ -11,7 +11,7 @@ interface SocialConnectProps {
 const socialLinks: Record<string, { facebook?: string; tiktok?: string }> = {
   philippines: { facebook: "https://www.facebook.com/gmephilippines", tiktok: "https://www.tiktok.com/@gmeremittancephilippines" },
   indonesia: { facebook: "https://www.facebook.com/gmeindonesia", tiktok: "https://www.tiktok.com/@gmeindonesia" },
-  africa: { facebook: "https://www.facebook.com/gmeafrica", tiktok: "https://www.tiktok.com/@gmeremitafrica" },
+  "west-africa": { facebook: "https://www.facebook.com/gmeafrica", tiktok: "https://www.tiktok.com/@gmeremitafrica" },
   arab: { facebook: "https://www.facebook.com/gmearab", tiktok: "https://www.tiktok.com/@gmeremitarab" },
   china: { facebook: "https://www.facebook.com/GMERemittanceChina", tiktok: "https://www.tiktok.com/@gmeremittance_china" },
   "spanish-latam": { facebook: "https://www.facebook.com/gmelatam", tiktok: "https://www.tiktok.com/@gmeremitlatam" },

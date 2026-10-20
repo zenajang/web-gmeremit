@@ -2,11 +2,12 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { languages } from "@/lib/language";
 import { CountryNamesEn, type MenuItem } from "./DesktopNav";
 import { useTranslation } from "@/hooks/useTranslation";
+import HomeLanguageToggle from "./HomeLanguageToggle";
 import { servedEntries } from "@/data/servedCountries";
 
 // ============ Icons ============
@@ -208,15 +209,21 @@ export function MobileCountriesAccordion({ label, onClose }: { label: string; on
                 selectedCode === c.code ? "text-primary" : "text-dark hover:text-primary"
               }`}
             >
-              <img
-                src={c.flagSrc}
-                alt=""
-                width={20}
-                height={20}
-                loading="lazy"
-                decoding="async"
-                className="w-5 h-5 rounded-full object-cover shrink-0"
-              />
+              {c.flagSrc ? (
+                <img
+                  src={c.flagSrc}
+                  alt=""
+                  width={20}
+                  height={20}
+                  loading="lazy"
+                  decoding="async"
+                  className="w-5 h-5 rounded-full object-cover shrink-0"
+                />
+              ) : (
+                <span aria-hidden="true" className="w-5 h-5 shrink-0 text-base leading-5 text-center">
+                  {c.emoji}
+                </span>
+              )}
               <span>{c.name}</span>
             </button>
           ))}
@@ -240,6 +247,8 @@ export default function MobileNav({
   appDownloadLabel: string;
   countriesLabel: string;
 }) {
+  const isHome = usePathname() === "/";
+
   return (
     <>
       <div
@@ -278,6 +287,11 @@ export default function MobileNav({
             >
               {appDownloadLabel}
             </Link>
+            {isHome && (
+              <div className="flex items-center justify-center mt-5">
+                <HomeLanguageToggle />
+              </div>
+            )}
             <div className="flex items-center justify-center gap-3 mt-4 pb-2">
               <a
                 href="https://gmebiz.com"
