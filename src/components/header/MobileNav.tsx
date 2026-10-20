@@ -2,11 +2,12 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { languages } from "@/lib/language";
 import { CountryNamesEn, type MenuItem } from "./DesktopNav";
 import { useTranslation } from "@/hooks/useTranslation";
+import HomeLanguageToggle from "./HomeLanguageToggle";
 import { servedEntries } from "@/data/servedCountries";
 
 // ============ Icons ============
@@ -240,6 +241,8 @@ export default function MobileNav({
   appDownloadLabel: string;
   countriesLabel: string;
 }) {
+  const isHome = usePathname() === "/";
+
   return (
     <>
       <div
@@ -278,6 +281,11 @@ export default function MobileNav({
             >
               {appDownloadLabel}
             </Link>
+            {isHome && (
+              <div className="flex items-center justify-center mt-5">
+                <HomeLanguageToggle />
+              </div>
+            )}
             <div className="flex items-center justify-center gap-3 mt-4 pb-2">
               <a
                 href="https://gmebiz.com"
