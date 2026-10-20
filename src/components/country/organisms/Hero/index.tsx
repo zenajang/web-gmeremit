@@ -27,6 +27,7 @@ export default function Hero() {
         src={backgroundImage}
         alt={`${country} hero image`}
         fill
+        sizes="100vw"
         priority
         className="absolute top-0 left-0 right-0 bottom-0 w-full h-full object-cover text-transparent object-[var(--hero-pos-mobile-x)_var(--hero-pos-mobile-y)] sm:object-[var(--hero-pos-tablet-x)_var(--hero-pos-tablet-y)] lg:object-[var(--hero-pos-desktop-x)_top]"
       />

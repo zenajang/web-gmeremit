@@ -15,8 +15,8 @@ const OurTeamTemplate = () => {
       <p className={S.OurTeamTemplateLead}>{t("hero.lead")}</p>
 
       <section className={S.OurTeamTemplateGrid}>
-        {teamMembers.map((member) => (
-          <TeamMemberCard key={member.id} member={member} />
+        {teamMembers.map((member, index) => (
+          <TeamMemberCard key={member.id} member={member} isPriority={index === 0} />
         ))}
       </section>
     </div>

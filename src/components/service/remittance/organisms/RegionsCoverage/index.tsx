@@ -29,6 +29,7 @@ const RegionsCoverage = () => {
         alt=""
         aria-hidden="true"
         fill
+        sizes="100vw"
         className={S.RegionsCoverageBackground}
       />
       <div className={S.RegionsCoverageContainer}>

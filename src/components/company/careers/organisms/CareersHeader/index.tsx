@@ -22,6 +22,7 @@ const CareersHeader = () => {
           aria-hidden="true"
           width={400}
           height={400}
+          priority
           className={S.CareersHeaderWatermarkImage}
         />
       </div>
