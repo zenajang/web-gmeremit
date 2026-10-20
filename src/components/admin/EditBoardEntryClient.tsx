@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { HiArrowLeft } from 'react-icons/hi2'
-import BoardForm from '@/components/board/BoardForm'
+import { BoardForm } from '@/components/board/organisms'
 import { useToast } from '@/components/ui/Toast'
 import type { BoardFormData } from '@/types/board'
 import {

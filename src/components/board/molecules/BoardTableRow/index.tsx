@@ -2,7 +2,7 @@ import Link from "next/link";
 import { HiArrowDownTray } from "react-icons/hi2";
 import { BsPinFill } from "react-icons/bs";
 import { BoardEntry } from "@/types/board";
-import TypeBadge from "./TypeBadge";
+import TypeBadge from "@/components/board/molecules/TypeBadge";
 import { isNewEntry } from "@/utils/board";
 
 interface BoardTableRowProps {
