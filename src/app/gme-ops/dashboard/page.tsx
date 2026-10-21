@@ -1,5 +1,5 @@
 import { redirect } from 'next/navigation'
-import AdminDashboardClient from '@/components/admin/AdminDashboardClient'
+import { AdminDashboardTemplate } from '@/components/admin/templates'
 import { fetchBoardCounts, fetchBoardEntries } from '@/lib/board-admin'
 import { createServer } from '@/lib/supabase/server'
 
@@ -31,7 +31,7 @@ export default async function AdminDashboardPage({ searchParams }: DashboardPage
   ])
 
   return (
-    <AdminDashboardClient
+    <AdminDashboardTemplate
       entries={entries}
       totalCounts={totalCounts}
       activeFilter={filter}

@@ -1,5 +1,5 @@
 import * as S from "./styles";
-import { useInquiryTranslation } from "@/hooks/useInquiryTranslation";
+import { useTranslation } from "@/hooks/useTranslation";
 
 interface StepIndicatorProps {
   step: 1 | 2;
@@ -7,7 +7,7 @@ interface StepIndicatorProps {
 }
 
 const StepIndicator = ({ step, onStepBack }: StepIndicatorProps) => {
-  const { t } = useInquiryTranslation();
+  const { t } = useTranslation();
 
   return (
     <div className={S.InquiryStepIndicatorRow}>
@@ -19,14 +19,14 @@ const StepIndicator = ({ step, onStepBack }: StepIndicatorProps) => {
           step === 1 ? S.InquiryStepIndicatorCurrent : S.InquiryStepIndicatorDone
         }`}
       >
-        {t("steps.select")}
+        {t("support-inquiry.step-indicator.steps.select")}
       </button>
       <div
         className={`${S.InquiryStepIndicatorBase} ${
           step === 2 ? S.InquiryStepIndicatorCurrent : S.InquiryStepIndicatorTodo
         }`}
       >
-        {t("steps.connect")}
+        {t("support-inquiry.step-indicator.steps.connect")}
       </div>
     </div>
   );

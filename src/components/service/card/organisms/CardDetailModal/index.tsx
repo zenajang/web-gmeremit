@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { usePendingTranslation } from "@/hooks/usePendingTranslation";
+import { useTranslation } from "@/hooks/useTranslation";
 import { cards } from "@/data/cards";
 
 interface CardDetailModalProps {
@@ -11,7 +11,7 @@ interface CardDetailModalProps {
 }
 
 export default function CardDetailModal({ selectedCard, onClose }: CardDetailModalProps) {
-  const { t, tArray, tObject } = usePendingTranslation("card");
+  const { t, tArray, tObject } = useTranslation();
   const [designIndex, setDesignIndex] = useState(0);
 
   useEffect(() => {
@@ -30,10 +30,10 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
 
   const toList = <T,>(value: unknown): T[] => (Array.isArray(value) ? (value as T[]) : []);
   const mainBenefits = toList<{ title: string; desc: string }>(
-    tObject(`cards.${selectedCard}.details.mainBenefits.items`)
+    tObject(`services-card.cards.${selectedCard}.details.mainBenefits.items`)
   );
   const cardStatusItems = toList<{ status: string; desc: string }>(
-    tObject("cards.easyG0.details.cardStatus.items")
+    tObject("services-card.cards.easyG0.details.cardStatus.items")
   );
 
   return (
@@ -76,7 +76,7 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
               {card.displayName}
             </h2>
             <p className="text-xs text-gray-500 text-center">
-              {activeDesign ? activeDesign.label : t(`cards.${selectedCard}.subtitle`)}
+              {activeDesign ? activeDesign.label : t(`services-card.cards.${selectedCard}.subtitle`)}
             </p>
             {card.designs && (
               <div className="flex items-center gap-2 mt-3">
@@ -104,7 +104,7 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
         <div className="p-6 space-y-8">
           <section>
             <h3 className="typo-feature-title mb-4">
-              {t(`cards.${selectedCard}.details.mainBenefits.title`)}
+              {t(`services-card.cards.${selectedCard}.details.mainBenefits.title`)}
             </h3>
             <div className="grid gap-4">
               {mainBenefits.map((item, idx) => (
@@ -119,20 +119,20 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
           {selectedCard === "easyG0" && (
             <section>
               <h3 className="typo-feature-title mb-4">
-                {t("cards.easyG0.details.transitCard.title")}
+                {t("services-card.cards.easyG0.details.transitCard.title")}
               </h3>
               <div className="space-y-2 bg-gray-50 rounded-xl p-4">
                 <p className="text-sm text-gray-600">
-                  <span className="font-semibold text-dark">{t("labels.limit")}: </span>
-                  {t("cards.easyG0.details.transitCard.limit")}
+                  <span className="font-semibold text-dark">{t("services-card.card-detail-modal.labels.limit")}: </span>
+                  {t("services-card.cards.easyG0.details.transitCard.limit")}
                 </p>
                 <p className="text-sm text-gray-600">
-                  <span className="font-semibold text-dark">{t("labels.payment_time")}: </span>
-                  {t("cards.easyG0.details.transitCard.paymentTime")}
+                  <span className="font-semibold text-dark">{t("services-card.card-detail-modal.labels.payment_time")}: </span>
+                  {t("services-card.cards.easyG0.details.transitCard.paymentTime")}
                 </p>
                 <p className="text-sm text-gray-600">
-                  <span className="font-semibold text-dark">{t("labels.availability")}: </span>
-                  {t("cards.easyG0.details.transitCard.availability")}
+                  <span className="font-semibold text-dark">{t("services-card.card-detail-modal.labels.availability")}: </span>
+                  {t("services-card.cards.easyG0.details.transitCard.availability")}
                 </p>
               </div>
             </section>
@@ -140,47 +140,47 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
 
           <section>
             <h3 className="typo-feature-title mb-4">
-              {t(`cards.${selectedCard}.details.userGuide.title`)}
+              {t(`services-card.cards.${selectedCard}.details.userGuide.title`)}
             </h3>
             <div className="space-y-3 bg-gray-50 rounded-xl p-4">
               {["easyG0", "easyCare"].includes(selectedCard) ? (
                 <div>
-                  <span className="font-semibold text-dark">{t("labels.monthly_fee")}: </span>
-                  <span className="text-gray-600">{t(`cards.${selectedCard}.details.userGuide.monthlyFee`)}</span>
+                  <span className="font-semibold text-dark">{t("services-card.card-detail-modal.labels.monthly_fee")}: </span>
+                  <span className="text-gray-600">{t(`services-card.cards.${selectedCard}.details.userGuide.monthlyFee`)}</span>
                 </div>
               ) : (
                 <>
                   <div>
-                    <span className="font-semibold text-dark">{t("labels.annual_fee")}: </span>
-                    <span className="text-gray-600">{t(`cards.${selectedCard}.details.userGuide.annualFee`)}</span>
+                    <span className="font-semibold text-dark">{t("services-card.card-detail-modal.labels.annual_fee")}: </span>
+                    <span className="text-gray-600">{t(`services-card.cards.${selectedCard}.details.userGuide.annualFee`)}</span>
                   </div>
                   <div>
-                    <span className="font-semibold text-dark">{t("labels.charge_method")}: </span>
-                    <span className="text-gray-600">{t(`cards.${selectedCard}.details.userGuide.chargeMethod`)}</span>
+                    <span className="font-semibold text-dark">{t("services-card.card-detail-modal.labels.charge_method")}: </span>
+                    <span className="text-gray-600">{t(`services-card.cards.${selectedCard}.details.userGuide.chargeMethod`)}</span>
                   </div>
                 </>
               )}
               <div>
-                <span className="font-semibold text-dark">{t(`cards.${selectedCard}.details.autoPayment.title`)}: </span>
-                <span className="text-gray-600">{t(`cards.${selectedCard}.details.autoPayment.desc`)}</span>
+                <span className="font-semibold text-dark">{t(`services-card.cards.${selectedCard}.details.autoPayment.title`)}: </span>
+                <span className="text-gray-600">{t(`services-card.cards.${selectedCard}.details.autoPayment.desc`)}</span>
               </div>
               <div>
-                <span className="font-semibold text-dark">{t("labels.usage_limit")}: </span>
-                <span className="text-gray-600">{t(`cards.${selectedCard}.details.userGuide.limit`)}</span>
+                <span className="font-semibold text-dark">{t("services-card.card-detail-modal.labels.usage_limit")}: </span>
+                <span className="text-gray-600">{t(`services-card.cards.${selectedCard}.details.userGuide.limit`)}</span>
               </div>
               <div className="pt-2 border-t border-gray-200">
-                <p className="text-sm text-gray-600">{t(`cards.${selectedCard}.details.userGuide.contact.center`)}</p>
-                <p className="text-sm text-gray-600">{t(`cards.${selectedCard}.details.userGuide.contact.website`)}</p>
+                <p className="text-sm text-gray-600">{t(`services-card.cards.${selectedCard}.details.userGuide.contact.center`)}</p>
+                <p className="text-sm text-gray-600">{t(`services-card.cards.${selectedCard}.details.userGuide.contact.website`)}</p>
               </div>
             </div>
           </section>
 
           <section>
             <h3 className="typo-feature-title mb-4">
-              {t(`cards.${selectedCard}.details.delivery.title`)}
+              {t(`services-card.cards.${selectedCard}.details.delivery.title`)}
             </h3>
             <div className="flex gap-3">
-              {tArray(`cards.${selectedCard}.details.delivery.methods`).map((method, idx) => (
+              {tArray(`services-card.cards.${selectedCard}.details.delivery.methods`).map((method, idx) => (
                 <div key={idx} className="px-4 py-2 bg-gray-100 rounded-lg text-sm font-medium text-gray-700">
                   {method}
                 </div>
@@ -190,10 +190,10 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
 
           <section>
             <h3 className="typo-feature-title mb-4">
-              {t(`cards.${selectedCard}.details.cautions.title`)}
+              {t(`services-card.cards.${selectedCard}.details.cautions.title`)}
             </h3>
             <ul className="space-y-2">
-              {tArray(`cards.${selectedCard}.details.cautions.items`).map((item, idx) => (
+              {tArray(`services-card.cards.${selectedCard}.details.cautions.items`).map((item, idx) => (
                 <li key={idx} className="flex items-start gap-2 text-sm text-gray-600">
                   <span className="text-dark mt-1">•</span>
                   <span>{item}</span>
@@ -204,10 +204,10 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
 
           <section>
             <h3 className="typo-feature-title mb-4">
-              {t(`cards.${selectedCard}.details.foreignPayment.title`)}
+              {t(`services-card.cards.${selectedCard}.details.foreignPayment.title`)}
             </h3>
             <ul className="space-y-2">
-              {tArray(`cards.${selectedCard}.details.foreignPayment.items`).map((item, idx) => (
+              {tArray(`services-card.cards.${selectedCard}.details.foreignPayment.items`).map((item, idx) => (
                 <li key={idx} className="flex items-start gap-2 text-sm text-gray-600">
                   <span className="text-dark mt-1">•</span>
                   <span>{item}</span>
@@ -219,7 +219,7 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
           {selectedCard === "easyG0" && (
             <section>
               <h3 className="typo-feature-title mb-4">
-                {t("cards.easyG0.details.cardStatus.title")}
+                {t("services-card.cards.easyG0.details.cardStatus.title")}
               </h3>
               <div className="space-y-3">
                 {cardStatusItems.map((item, idx) => (
@@ -233,7 +233,7 @@ export default function CardDetailModal({ selectedCard, onClose }: CardDetailMod
           )}
 
           <div className="pt-4">
-            <p className="text-center text-sm text-gray-500 mb-3">{t("modal.app_guide")}</p>
+            <p className="text-center text-sm text-gray-500 mb-3">{t("services-card.card-detail-modal.app_guide")}</p>
             <div className="flex gap-3">
               <a
                 href="https://apps.apple.com/us/app/gme-remit/id1439161261?l=ko"

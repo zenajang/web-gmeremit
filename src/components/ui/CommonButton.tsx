@@ -15,8 +15,14 @@ export interface CommonButtonProps {
 
 const CommonButton = ({ type, as, href, children, className, disabled, target, onClick }: CommonButtonProps) => {
   if (as === "link" && href) {
+    const isExternal = href.startsWith("http");
     return (
-      <Link href={href} className={className} target={target}>
+      <Link
+        href={href}
+        className={className}
+        target={target ?? (isExternal ? "_blank" : undefined)}
+        {...(isExternal && { rel: "noopener noreferrer" })}
+      >
         {children}
       </Link>
     )

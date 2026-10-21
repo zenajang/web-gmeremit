@@ -685,3 +685,9 @@ export interface SupportedCountry {
 }
 
 export const supportedCountries: SupportedCountry[] = countryConfigs.map(c => ({ code: c.countryCode, flag: c.flag }));
+
+/** 국가가 아닌 지역 단위 랜딩. 슬러그(소문자·구분자 제거) → 환율 계산기 기본 수취국 */
+export const regionDefaultCountry: Record<string, string> = {
+  westafrica: "Benin",
+  cis: "Russian Federation",
+};

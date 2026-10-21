@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import DesktopNav, { LanguageSelector } from "./header/DesktopNav";
 import MobileNav, { MobileLanguageBottomSheet } from "./header/MobileNav";
+import HomeLanguageToggle from "./header/HomeLanguageToggle";
 import type { MenuItem } from "./header/DesktopNav";
 import { useTranslation } from "@/hooks/useTranslation";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -14,7 +15,7 @@ import { getCountriesNavLabel } from "@/data/countryTranslations";
 
 // ============ Main Header ============
 export default function Header() {
-  const { t } = useTranslation("header");
+  const { t } = useTranslation();
   const { currentLanguage } = useLanguage();
   const countriesLabel = getCountriesNavLabel(currentLanguage.code);
   const pathname = usePathname();
@@ -31,6 +32,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLangOpen, setIsLangOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const isHome = pathname === "/";
 
   useEffect(() => {
     const handleResize = () => {
@@ -60,15 +62,6 @@ export default function Header() {
       <div className="hidden lg:block bg-white border-b border-gray-100">
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-10">
           <div className="flex items-center justify-end h-10 gap-6">
-            {/* 채용 */}
-            <Link
-              href="/company/careers"
-              className="text-[13px] text-gray-500 hover:text-primary transition-colors"
-            >
-              {t("link.careers")}
-            </Link>
-            {/* Divider */}
-            <div className="h-3 w-px bg-gray-300" />
             {/* GME Biz */}
             <a
               href="https://gmebiz.com"
@@ -120,18 +113,18 @@ export default function Header() {
                 href={{ pathname: "/", hash: "app-download" }}
                 className="hidden lg:flex items-center gap-2 px-5 py-2.5 text-[14px] font-semibold text-white bg-primary-dark hover:bg-primary rounded-full transition-colors"
               >
-                {t("app_download", { ns: "button" })}
+                {t("common.button.app_download")}
               </Link>
 
               {/* Language */}
               <div className="hidden lg:block">
-                <LanguageSelector />
+                {isHome ? <HomeLanguageToggle /> : <LanguageSelector />}
               </div>
 
-              {/* Mobile Language Button */}
+              {/* Mobile Language */}
               <button
                 type="button"
-                className="lg:hidden p-2.5 rounded-xl text-dark hover:bg-gray-100 active:scale-95 transition-all duration-150 cursor-pointer"
+                className={`lg:hidden p-2.5 rounded-xl text-dark hover:bg-gray-100 active:scale-95 transition-all duration-150 cursor-pointer ${isHome ? "hidden" : ""}`}
                 onClick={() => setIsLangOpen(true)}
                 aria-label="Select language"
               >
@@ -168,7 +161,7 @@ export default function Header() {
         isOpen={isMenuOpen}
         onClose={() => setIsMenuOpen(false)}
         menuItems={menuItems}
-        careersLabel={t("link.careers")}
+        appDownloadLabel={t("common.button.app_download")}
         countriesLabel={countriesLabel}
       />
 

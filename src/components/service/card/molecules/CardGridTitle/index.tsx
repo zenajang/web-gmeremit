@@ -1,9 +1,9 @@
 "use client";
 
-import { usePendingTranslation } from "@/hooks/usePendingTranslation";
+import { useTranslation } from "@/hooks/useTranslation";
 
 const CardGridTitle = () => {
-  const { t } = usePendingTranslation("card");
+  const { t } = useTranslation();
   return (
     <div className="relative text-center mb-10 lg:mb-12 overflow-visible">
       <div className="pointer-events-none absolute inset-0">
@@ -20,10 +20,10 @@ const CardGridTitle = () => {
         <span className="w-6 h-[2px] bg-primary/40 rounded-full" />
       </div>
       <h2 className="relative typo-section-title mb-5">
-        {t("grid.title")}
+        {t("services-card.card-grid-title.title")}
       </h2>
       <p className="relative text-gray-500 max-w-2xl mx-auto text-sm">
-        {t("grid.subtitle")}
+        {t("services-card.card-grid-title.subtitle")}
       </p>
     </div>
   )

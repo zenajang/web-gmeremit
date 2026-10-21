@@ -15,7 +15,7 @@ const SupportHeroTemplate = ({
   children: ReactNode;
 }) => {
   const pathname = usePathname();
-  const { t } = useTranslation("support");
+  const { t } = useTranslation();
 
   useLenis([pathname]);
 
@@ -52,7 +52,7 @@ const SupportHeroTemplate = ({
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
             <div className="relative inline-block">
               <h1 className="text-xl lg:text-5xl font-bold text-dark mb-6 lg:mb-10">
-                {t("hero.title")}
+                {t("common.support.hero.title")}
               </h1>
               {/* 핀 장식 - 타이틀 오른쪽 상단 */}
               <Image
@@ -75,13 +75,13 @@ const SupportHeroTemplate = ({
             </div>
             <div className="space-y-2 mb-10 lg:mb-20">
               <p className="text-sm lg:text-lg text-gray-700">
-                {t("hero.desc1")}
+                {t("common.support.hero.desc1")}
               </p>
               <p className="text-sm lg:text-lg text-gray-700">
-                {t("hero.desc2")}
+                {t("common.support.hero.desc2")}
               </p>
               <p className="text-sm lg:text-lg text-gray-700">
-                {t("hero.desc3")}
+                {t("common.support.hero.desc3")}
               </p>
             </div>
 
@@ -112,7 +112,7 @@ const SupportHeroTemplate = ({
                   <Link
                     key={tab.key}
                     href={tab.href}
-                    className={`flex-1 sm:flex-none text-center px-6 py-2.5 text-sm sm:text-base font-medium transition-all rounded-md ${
+                    className={`flex-1 min-w-0 sm:flex-none text-center px-3 sm:px-6 py-2.5 text-sm sm:text-base font-medium transition-all rounded-md ${
                       pathname === tab.href
                         ? "bg-primary-dark text-white shadow-lg shadow-primary/30"
                         : "bg-white text-gray-600 hover:bg-gray-50 border border-gray-200"

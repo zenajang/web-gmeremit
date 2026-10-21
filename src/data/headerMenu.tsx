@@ -7,37 +7,39 @@ export interface MenuItemDef {
 
 export const menuItemDefs: MenuItemDef[] = [
   {
-    labelKey: "nav.company",
+    labelKey: "header.nav.company",
     children: [
-      { labelKey: "nav.ceo_message", href: "/company/ceo-message" },
-      { labelKey: "nav.history", href: "/company/history" },
-      { labelKey: "nav.services", href: "/company/services" },
+      { labelKey: "header.nav.about_us", href: "/company/about-us" },
+      { labelKey: "header.nav.mission_vision", href: "/company/mission-vision" },
+      { labelKey: "header.nav.our_team", href: "/company/our-team" },
+      { labelKey: "header.link.careers", href: "/company/careers" },
     ],
   },
   {
-    labelKey: "nav.services_menu",
+    labelKey: "header.nav.services_menu",
     children: [
-      { labelKey: "nav.remittance", href: "/services/remittance" },
-      { labelKey: "nav.loan", href: "/services/loan" },
-      { labelKey: "nav.card", href: "/services/card" },
-      { labelKey: "nav.payments", href: "/services/payments" },
-      { labelKey: "nav.telecom", href: "/services/telecom" },
+      { labelKey: "header.nav.remittance", href: "/products/remittance" },
+      { labelKey: "header.nav.loan", href: "https://gmefinance.com" },
+      { labelKey: "header.nav.card", href: "/products/card" },
+      { labelKey: "header.nav.payments", href: "/products/payments" },
+      { labelKey: "header.nav.telecom", href: "/products/telecom" },
     ],
   },
   {
-    labelKey: "nav.news",
+    labelKey: "header.nav.news",
     children: [
-      { labelKey: "nav.notice", href: "/board/notice" },
-      { labelKey: "nav.press", href: "/board/press" },
-      { labelKey: "nav.blog", href: "/board/blog" },
+      { labelKey: "header.nav.press", href: "/board/press" },
+      { labelKey: "header.nav.blog", href: "/board/blog" },
+      { labelKey: "header.nav.notice", href: "/board/notice" },
     ],
   },
   {
-    labelKey: "nav.support",
+    labelKey: "header.nav.support",
     children: [
-      { labelKey: "nav.branches", href: "/support/branches" },
-      { labelKey: "nav.social_channels", href: "/support/social-channels" },
-      { labelKey: "nav.inquiry", href: "/support/inquiry" },
+      { labelKey: "header.nav.branches", href: "/support/branches" },
+      { labelKey: "header.nav.social_channels", href: "/support/social-channels" },
+      { labelKey: "header.nav.faq", href: "/support/faq" },
+      { labelKey: "header.nav.inquiry", href: "/support/inquiry" },
     ],
   },
 ];

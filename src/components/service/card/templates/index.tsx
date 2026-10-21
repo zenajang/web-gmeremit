@@ -10,7 +10,7 @@ export default function CardPageTemplate() {
 
   return (
     <PublicLayout className="bg-gradient-to-b from-white via-white to-gray-100">
-      <ServiceHeroSection translationKey="card" color="primary" ctaHref="#cards" maxWidth="max-w-content" />
+      <ServiceHeroSection translationKey="services-card.service-hero-section" color="primary" ctaHref="#cards" maxWidth="max-w-content" />
       <CardBenefits />
       <CardGrid />
     </PublicLayout>

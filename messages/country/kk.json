@@ -1,0 +1,2707 @@
+{
+  "country": {
+    "bangladesh": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME қолданбасын жүктеп алу"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit калькуляторы",
+        "exchangeRateLabel": "Валюта бағамы",
+        "receiverGetsLabel": "Алушы алатын сома",
+        "recipientCountryLabel": "Алушы ел",
+        "recipientCountryOption": "Bangladesh",
+        "sendAmountLabel": "Жіберілетін сома",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Ақшаны қазір жіберу",
+        "transferFeeLabel": "Аударым комиссиясы"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "BDT",
+        "sampleTag": "Үлгі мәндер"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Барлық құқықтар қорғалған.",
+        "logoText": "GME",
+        "tagline": "Financial services made for Bangladeshis in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Қолданбаны жүктеп алу",
+        "navItems": {
+          "company": "Компания",
+          "countries": "Елдер",
+          "news": "Жаңалықтар",
+          "services": "Қызметтер",
+          "support": "Қолдау"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Ақшаны қазір жіберу",
+        "ctaSecondaryLabel": "Бастау",
+        "eyebrow": "GME Bangladesh",
+        "headingLines": [
+          "Үйге ақша жіберіңіз.",
+          "Байланыста болыңыз.",
+          "Оңай төлем жасаңыз."
+        ],
+        "subheading": "Кореяда тұратын Bangladeshis арналған сенімді қызметтер"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit туралы жиі қойылатын сұрақтар",
+          "items": [
+            {
+              "answer": [
+                "GME Remit аударымдары әдетте шамамен 10 секундта аяқталады. Нақты уақыт алушы елге, банкке немесе төлем алу тәсіліне байланысты өзгеруі мүмкін."
+              ],
+              "question": "GME Remit арқылы ақша жіберу қанша уақыт алады?"
+            },
+            {
+              "answer": [
+                "Иә. GME Remit — Кореяда лицензияланған ақша аудару қызметі және тиісті қаржы органдарының қадағалауында. Қауіпсіз сәйкестендіру және транзакция процестері қолданылады."
+              ],
+              "question": "GME Remit пайдалану қауіпсіз бе?"
+            },
+            {
+              "answer": [
+                "GME Remit қолданбасын жүктеп, аккаунт ашыңыз және қажетті жеке басыңызды растауды аяқтаңыз. Содан кейін қызметтерді пайдалана аласыз."
+              ],
+              "question": "GME Remit аккаунтын қалай ашамын?"
+            },
+            {
+              "answer": [
+                "GME Remit көптеген елдерге халықаралық ақша аударымдарын қолдайды. Қолжетімді бағыттар мен төлем алу тәсілдерін қолданбадан тексеріңіз."
+              ],
+              "question": "GME Remit арқылы қай елдерге ақша жібере аламын?"
+            },
+            {
+              "answer": [
+                "Қолдау қызметі дүйсенбіден жексенбіге дейін 10:00–23:00 жұмыс істейді. {SUPPORT_PHONE_NUMBER} нөмірі, GME Remit қолданбасы, ресми әлеуметтік желілер немесе Кореядағы GME Remit бөлімшелері арқылы хабарласа аласыз."
+              ],
+              "question": "Аударымда мәселе туындаса не істеуім керек?"
+            }
+          ],
+          "subheading": "GME Remit арқылы ақша жіберу туралы жиі қойылатын сұрақтарға жауап табыңыз"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Bangladesh-мен байланысу",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Қауымдастығымызға арналған жаңалықтар, пайдалы кеңестер және жаңартулар"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME карталарын көру",
+          "description": "Кореяда және шетелде күнделікті өмірге арналған ыңғайлы төлемдер.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Әлем бойынша төлем жасау",
+            "Сауда",
+            "Көлік",
+            "Кэшбэк",
+            "EasyCare артықшылықтары"
+          ],
+          "heading": "Барлығына арналған бір карта"
+        },
+        "exchangeRate": {
+          "description": "Кореядан Bangladesh ақша жіберер алдында соңғы GME Remit валюта бағамын тексеріңіз",
+          "eyebrow": "Валюта бағамы",
+          "heading": "Бүгінгі валюта бағамын тексеріңіз",
+          "note": "Бағамдар күн ішінде өзгеруі мүмкін"
+        },
+        "loan": {
+          "ctaLabel": "Қазір өтініш беру",
+          "description": "Кореяда тұратын шетелдіктерге арналған ыңғайлы цифрлық несие қызметі. GME қолданбасы арқылы оңай өтініш беріңіз.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Қағазсыз несие өтінімі",
+            "Несие мәртебесін нақты уақытта тексеру",
+            "Несие қалдығын нақты уақытта тексеру"
+          ],
+          "heading": "Сіздің цифрлық қаржы серіктесіңіз"
+        },
+        "remittance": {
+          "ctaLabel": "Ақшаны қазір жіберу",
+          "description": "Кореядан Bangladeshдағы отбасыңыз бен жақындарыңызға қолдау көрсетудің қарапайым әрі қауіпсіз жолы.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Бәсекеге қабілетті валюта бағамдары",
+            "Жылдам әрі сенімді аударымдар",
+            "Ашық комиссиялар",
+            "Қажет кезде қолдау"
+          ],
+          "heading": "Bangladesh ақша жіберу"
+        },
+        "simCard": {
+          "ctaLabel": "SIM жоспарларын көру",
+          "description": "Кореядағы өмірді жеңілдетуге арналған мобильді жоспарлармен маңызды адамдармен байланыста болыңыз.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Сенімді байланыс",
+            "Икемді SIM жоспарлары",
+            "Оңай қосылу",
+            "Жергілікті достық қолдау"
+          ],
+          "heading": "Кореяда байланыста болыңыз"
+        }
+      }
+    },
+    "cambodia": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME қолданбасын жүктеп алу"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit калькуляторы",
+        "exchangeRateLabel": "Валюта бағамы",
+        "receiverGetsLabel": "Алушы алатын сома",
+        "recipientCountryLabel": "Алушы ел",
+        "recipientCountryOption": "Cambodia",
+        "sendAmountLabel": "Жіберілетін сома",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Ақшаны қазір жіберу",
+        "transferFeeLabel": "Аударым комиссиясы"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "KHR",
+        "sampleTag": "Үлгі мәндер"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Барлық құқықтар қорғалған.",
+        "logoText": "GME",
+        "tagline": "Financial services made for Cambodians in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Қолданбаны жүктеп алу",
+        "navItems": {
+          "company": "Компания",
+          "countries": "Елдер",
+          "news": "Жаңалықтар",
+          "services": "Қызметтер",
+          "support": "Қолдау"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Ақшаны қазір жіберу",
+        "ctaSecondaryLabel": "Бастау",
+        "eyebrow": "GME Cambodia",
+        "headingLines": [
+          "Үйге ақша жіберіңіз.",
+          "Байланыста болыңыз.",
+          "Оңай төлем жасаңыз."
+        ],
+        "subheading": "Кореяда тұратын Cambodians арналған сенімді қызметтер"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit туралы жиі қойылатын сұрақтар",
+          "items": [
+            {
+              "answer": [
+                "GME Remit аударымдары әдетте шамамен 10 секундта аяқталады. Нақты уақыт алушы елге, банкке немесе төлем алу тәсіліне байланысты өзгеруі мүмкін."
+              ],
+              "question": "GME Remit арқылы ақша жіберу қанша уақыт алады?"
+            },
+            {
+              "answer": [
+                "Иә. GME Remit — Кореяда лицензияланған ақша аудару қызметі және тиісті қаржы органдарының қадағалауында. Қауіпсіз сәйкестендіру және транзакция процестері қолданылады."
+              ],
+              "question": "GME Remit пайдалану қауіпсіз бе?"
+            },
+            {
+              "answer": [
+                "GME Remit қолданбасын жүктеп, аккаунт ашыңыз және қажетті жеке басыңызды растауды аяқтаңыз. Содан кейін қызметтерді пайдалана аласыз."
+              ],
+              "question": "GME Remit аккаунтын қалай ашамын?"
+            },
+            {
+              "answer": [
+                "GME Remit көптеген елдерге халықаралық ақша аударымдарын қолдайды. Қолжетімді бағыттар мен төлем алу тәсілдерін қолданбадан тексеріңіз."
+              ],
+              "question": "GME Remit арқылы қай елдерге ақша жібере аламын?"
+            },
+            {
+              "answer": [
+                "Қолдау қызметі дүйсенбіден жексенбіге дейін 10:00–23:00 жұмыс істейді. {SUPPORT_PHONE_NUMBER} нөмірі, GME Remit қолданбасы, ресми әлеуметтік желілер немесе Кореядағы GME Remit бөлімшелері арқылы хабарласа аласыз."
+              ],
+              "question": "Аударымда мәселе туындаса не істеуім керек?"
+            }
+          ],
+          "subheading": "GME Remit арқылы ақша жіберу туралы жиі қойылатын сұрақтарға жауап табыңыз"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Cambodia-мен байланысу",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Қауымдастығымызға арналған жаңалықтар, пайдалы кеңестер және жаңартулар"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME карталарын көру",
+          "description": "Кореяда және шетелде күнделікті өмірге арналған ыңғайлы төлемдер.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Әлем бойынша төлем жасау",
+            "Сауда",
+            "Көлік",
+            "Кэшбэк",
+            "EasyCare артықшылықтары"
+          ],
+          "heading": "Барлығына арналған бір карта"
+        },
+        "exchangeRate": {
+          "description": "Кореядан Cambodia ақша жіберер алдында соңғы GME Remit валюта бағамын тексеріңіз",
+          "eyebrow": "Валюта бағамы",
+          "heading": "Бүгінгі валюта бағамын тексеріңіз",
+          "note": "Бағамдар күн ішінде өзгеруі мүмкін"
+        },
+        "loan": {
+          "ctaLabel": "Қазір өтініш беру",
+          "description": "Кореяда тұратын шетелдіктерге арналған ыңғайлы цифрлық несие қызметі. GME қолданбасы арқылы оңай өтініш беріңіз.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Қағазсыз несие өтінімі",
+            "Несие мәртебесін нақты уақытта тексеру",
+            "Несие қалдығын нақты уақытта тексеру"
+          ],
+          "heading": "Сіздің цифрлық қаржы серіктесіңіз"
+        },
+        "remittance": {
+          "ctaLabel": "Ақшаны қазір жіберу",
+          "description": "Кореядан Cambodiaдағы отбасыңыз бен жақындарыңызға қолдау көрсетудің қарапайым әрі қауіпсіз жолы.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Бәсекеге қабілетті валюта бағамдары",
+            "Жылдам әрі сенімді аударымдар",
+            "Ашық комиссиялар",
+            "Қажет кезде қолдау"
+          ],
+          "heading": "Cambodia ақша жіберу"
+        },
+        "simCard": {
+          "ctaLabel": "SIM жоспарларын көру",
+          "description": "Кореядағы өмірді жеңілдетуге арналған мобильді жоспарлармен маңызды адамдармен байланыста болыңыз.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Сенімді байланыс",
+            "Икемді SIM жоспарлары",
+            "Оңай қосылу",
+            "Жергілікті достық қолдау"
+          ],
+          "heading": "Кореяда байланыста болыңыз"
+        }
+      }
+    },
+    "china": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME қолданбасын жүктеп алу"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit калькуляторы",
+        "exchangeRateLabel": "Валюта бағамы",
+        "receiverGetsLabel": "Алушы алатын сома",
+        "recipientCountryLabel": "Алушы ел",
+        "recipientCountryOption": "China",
+        "sendAmountLabel": "Жіберілетін сома",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Ақшаны қазір жіберу",
+        "transferFeeLabel": "Аударым комиссиясы"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "CNY",
+        "sampleTag": "Үлгі мәндер"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Барлық құқықтар қорғалған.",
+        "logoText": "GME",
+        "tagline": "Financial services made for Chinese nationals in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Қолданбаны жүктеп алу",
+        "navItems": {
+          "company": "Компания",
+          "countries": "Елдер",
+          "news": "Жаңалықтар",
+          "services": "Қызметтер",
+          "support": "Қолдау"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Ақшаны қазір жіберу",
+        "ctaSecondaryLabel": "Бастау",
+        "eyebrow": "GME China",
+        "headingLines": [
+          "Үйге ақша жіберіңіз.",
+          "Байланыста болыңыз.",
+          "Оңай төлем жасаңыз."
+        ],
+        "subheading": "Кореяда тұратын Chinese nationals арналған сенімді қызметтер"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit туралы жиі қойылатын сұрақтар",
+          "items": [
+            {
+              "answer": [
+                "GME Remit аударымдары әдетте шамамен 10 секундта аяқталады. Нақты уақыт алушы елге, банкке немесе төлем алу тәсіліне байланысты өзгеруі мүмкін."
+              ],
+              "question": "GME Remit арқылы ақша жіберу қанша уақыт алады?"
+            },
+            {
+              "answer": [
+                "Иә. GME Remit — Кореяда лицензияланған ақша аудару қызметі және тиісті қаржы органдарының қадағалауында. Қауіпсіз сәйкестендіру және транзакция процестері қолданылады."
+              ],
+              "question": "GME Remit пайдалану қауіпсіз бе?"
+            },
+            {
+              "answer": [
+                "GME Remit қолданбасын жүктеп, аккаунт ашыңыз және қажетті жеке басыңызды растауды аяқтаңыз. Содан кейін қызметтерді пайдалана аласыз."
+              ],
+              "question": "GME Remit аккаунтын қалай ашамын?"
+            },
+            {
+              "answer": [
+                "GME Remit көптеген елдерге халықаралық ақша аударымдарын қолдайды. Қолжетімді бағыттар мен төлем алу тәсілдерін қолданбадан тексеріңіз."
+              ],
+              "question": "GME Remit арқылы қай елдерге ақша жібере аламын?"
+            },
+            {
+              "answer": [
+                "Қолдау қызметі дүйсенбіден жексенбіге дейін 10:00–23:00 жұмыс істейді. {SUPPORT_PHONE_NUMBER} нөмірі, GME Remit қолданбасы, ресми әлеуметтік желілер немесе Кореядағы GME Remit бөлімшелері арқылы хабарласа аласыз."
+              ],
+              "question": "Аударымда мәселе туындаса не істеуім керек?"
+            }
+          ],
+          "subheading": "GME Remit арқылы ақша жіберу туралы жиі қойылатын сұрақтарға жауап табыңыз"
+        }
+      },
+      "social-connect": {
+        "heading": "GME China-мен байланысу",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Қауымдастығымызға арналған жаңалықтар, пайдалы кеңестер және жаңартулар"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME карталарын көру",
+          "description": "Кореяда және шетелде күнделікті өмірге арналған ыңғайлы төлемдер.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Әлем бойынша төлем жасау",
+            "Сауда",
+            "Көлік",
+            "Кэшбэк",
+            "EasyCare артықшылықтары"
+          ],
+          "heading": "Барлығына арналған бір карта"
+        },
+        "exchangeRate": {
+          "description": "Кореядан China ақша жіберер алдында соңғы GME Remit валюта бағамын тексеріңіз",
+          "eyebrow": "Валюта бағамы",
+          "heading": "Бүгінгі валюта бағамын тексеріңіз",
+          "note": "Бағамдар күн ішінде өзгеруі мүмкін"
+        },
+        "loan": {
+          "ctaLabel": "Қазір өтініш беру",
+          "description": "Кореяда тұратын шетелдіктерге арналған ыңғайлы цифрлық несие қызметі. GME қолданбасы арқылы оңай өтініш беріңіз.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Қағазсыз несие өтінімі",
+            "Несие мәртебесін нақты уақытта тексеру",
+            "Несие қалдығын нақты уақытта тексеру"
+          ],
+          "heading": "Сіздің цифрлық қаржы серіктесіңіз"
+        },
+        "remittance": {
+          "ctaLabel": "Ақшаны қазір жіберу",
+          "description": "Кореядан Chinaдағы отбасыңыз бен жақындарыңызға қолдау көрсетудің қарапайым әрі қауіпсіз жолы.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Бәсекеге қабілетті валюта бағамдары",
+            "Жылдам әрі сенімді аударымдар",
+            "Ашық комиссиялар",
+            "Қажет кезде қолдау"
+          ],
+          "heading": "China ақша жіберу"
+        },
+        "simCard": {
+          "ctaLabel": "SIM жоспарларын көру",
+          "description": "Кореядағы өмірді жеңілдетуге арналған мобильді жоспарлармен маңызды адамдармен байланыста болыңыз.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Сенімді байланыс",
+            "Икемді SIM жоспарлары",
+            "Оңай қосылу",
+            "Жергілікті достық қолдау"
+          ],
+          "heading": "Кореяда байланыста болыңыз"
+        }
+      }
+    },
+    "india": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME қолданбасын жүктеп алу"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit калькуляторы",
+        "exchangeRateLabel": "Валюта бағамы",
+        "receiverGetsLabel": "Алушы алатын сома",
+        "recipientCountryLabel": "Алушы ел",
+        "recipientCountryOption": "India",
+        "sendAmountLabel": "Жіберілетін сома",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Ақшаны қазір жіберу",
+        "transferFeeLabel": "Аударым комиссиясы"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "INR",
+        "sampleTag": "Үлгі мәндер"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Барлық құқықтар қорғалған.",
+        "logoText": "GME",
+        "tagline": "Financial services made for Indians in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Қолданбаны жүктеп алу",
+        "navItems": {
+          "company": "Компания",
+          "countries": "Елдер",
+          "news": "Жаңалықтар",
+          "services": "Қызметтер",
+          "support": "Қолдау"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Ақшаны қазір жіберу",
+        "ctaSecondaryLabel": "Бастау",
+        "eyebrow": "GME India",
+        "headingLines": [
+          "Үйге ақша жіберіңіз.",
+          "Байланыста болыңыз.",
+          "Оңай төлем жасаңыз."
+        ],
+        "subheading": "Кореяда тұратын Indians арналған сенімді қызметтер"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit туралы жиі қойылатын сұрақтар",
+          "items": [
+            {
+              "answer": [
+                "GME Remit аударымдары әдетте шамамен 10 секундта аяқталады. Нақты уақыт алушы елге, банкке немесе төлем алу тәсіліне байланысты өзгеруі мүмкін."
+              ],
+              "question": "GME Remit арқылы ақша жіберу қанша уақыт алады?"
+            },
+            {
+              "answer": [
+                "Иә. GME Remit — Кореяда лицензияланған ақша аудару қызметі және тиісті қаржы органдарының қадағалауында. Қауіпсіз сәйкестендіру және транзакция процестері қолданылады."
+              ],
+              "question": "GME Remit пайдалану қауіпсіз бе?"
+            },
+            {
+              "answer": [
+                "GME Remit қолданбасын жүктеп, аккаунт ашыңыз және қажетті жеке басыңызды растауды аяқтаңыз. Содан кейін қызметтерді пайдалана аласыз."
+              ],
+              "question": "GME Remit аккаунтын қалай ашамын?"
+            },
+            {
+              "answer": [
+                "GME Remit көптеген елдерге халықаралық ақша аударымдарын қолдайды. Қолжетімді бағыттар мен төлем алу тәсілдерін қолданбадан тексеріңіз."
+              ],
+              "question": "GME Remit арқылы қай елдерге ақша жібере аламын?"
+            },
+            {
+              "answer": [
+                "Қолдау қызметі дүйсенбіден жексенбіге дейін 10:00–23:00 жұмыс істейді. {SUPPORT_PHONE_NUMBER} нөмірі, GME Remit қолданбасы, ресми әлеуметтік желілер немесе Кореядағы GME Remit бөлімшелері арқылы хабарласа аласыз."
+              ],
+              "question": "Аударымда мәселе туындаса не істеуім керек?"
+            }
+          ],
+          "subheading": "GME Remit арқылы ақша жіберу туралы жиі қойылатын сұрақтарға жауап табыңыз"
+        }
+      },
+      "social-connect": {
+        "heading": "GME India-мен байланысу",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Қауымдастығымызға арналған жаңалықтар, пайдалы кеңестер және жаңартулар"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME карталарын көру",
+          "description": "Кореяда және шетелде күнделікті өмірге арналған ыңғайлы төлемдер.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Әлем бойынша төлем жасау",
+            "Сауда",
+            "Көлік",
+            "Кэшбэк",
+            "EasyCare артықшылықтары"
+          ],
+          "heading": "Барлығына арналған бір карта"
+        },
+        "exchangeRate": {
+          "description": "Кореядан India ақша жіберер алдында соңғы GME Remit валюта бағамын тексеріңіз",
+          "eyebrow": "Валюта бағамы",
+          "heading": "Бүгінгі валюта бағамын тексеріңіз",
+          "note": "Бағамдар күн ішінде өзгеруі мүмкін"
+        },
+        "loan": {
+          "ctaLabel": "Қазір өтініш беру",
+          "description": "Кореяда тұратын шетелдіктерге арналған ыңғайлы цифрлық несие қызметі. GME қолданбасы арқылы оңай өтініш беріңіз.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Қағазсыз несие өтінімі",
+            "Несие мәртебесін нақты уақытта тексеру",
+            "Несие қалдығын нақты уақытта тексеру"
+          ],
+          "heading": "Сіздің цифрлық қаржы серіктесіңіз"
+        },
+        "remittance": {
+          "ctaLabel": "Ақшаны қазір жіберу",
+          "description": "Кореядан Indiaдағы отбасыңыз бен жақындарыңызға қолдау көрсетудің қарапайым әрі қауіпсіз жолы.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Бәсекеге қабілетті валюта бағамдары",
+            "Жылдам әрі сенімді аударымдар",
+            "Ашық комиссиялар",
+            "Қажет кезде қолдау"
+          ],
+          "heading": "India ақша жіберу"
+        },
+        "simCard": {
+          "ctaLabel": "SIM жоспарларын көру",
+          "description": "Кореядағы өмірді жеңілдетуге арналған мобильді жоспарлармен маңызды адамдармен байланыста болыңыз.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Сенімді байланыс",
+            "Икемді SIM жоспарлары",
+            "Оңай қосылу",
+            "Жергілікті достық қолдау"
+          ],
+          "heading": "Кореяда байланыста болыңыз"
+        }
+      }
+    },
+    "indonesia": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME қолданбасын жүктеп алу"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit калькуляторы",
+        "exchangeRateLabel": "Валюта бағамы",
+        "receiverGetsLabel": "Алушы алатын сома",
+        "recipientCountryLabel": "Алушы ел",
+        "recipientCountryOption": "Indonesia",
+        "sendAmountLabel": "Жіберілетін сома",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Ақшаны қазір жіберу",
+        "transferFeeLabel": "Аударым комиссиясы"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "IDR",
+        "sampleTag": "Үлгі мәндер"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Барлық құқықтар қорғалған.",
+        "logoText": "GME",
+        "tagline": "Financial services made for Indonesians in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Қолданбаны жүктеп алу",
+        "navItems": {
+          "company": "Компания",
+          "countries": "Елдер",
+          "news": "Жаңалықтар",
+          "services": "Қызметтер",
+          "support": "Қолдау"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Ақшаны қазір жіберу",
+        "ctaSecondaryLabel": "Бастау",
+        "eyebrow": "GME Indonesia",
+        "headingLines": [
+          "Үйге ақша жіберіңіз.",
+          "Байланыста болыңыз.",
+          "Оңай төлем жасаңыз."
+        ],
+        "subheading": "Кореяда тұратын Indonesians арналған сенімді қызметтер"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit туралы жиі қойылатын сұрақтар",
+          "items": [
+            {
+              "answer": [
+                "GME Remit аударымдары әдетте шамамен 10 секундта аяқталады. Нақты уақыт алушы елге, банкке немесе төлем алу тәсіліне байланысты өзгеруі мүмкін."
+              ],
+              "question": "GME Remit арқылы ақша жіберу қанша уақыт алады?"
+            },
+            {
+              "answer": [
+                "Иә. GME Remit — Кореяда лицензияланған ақша аудару қызметі және тиісті қаржы органдарының қадағалауында. Қауіпсіз сәйкестендіру және транзакция процестері қолданылады."
+              ],
+              "question": "GME Remit пайдалану қауіпсіз бе?"
+            },
+            {
+              "answer": [
+                "GME Remit қолданбасын жүктеп, аккаунт ашыңыз және қажетті жеке басыңызды растауды аяқтаңыз. Содан кейін қызметтерді пайдалана аласыз."
+              ],
+              "question": "GME Remit аккаунтын қалай ашамын?"
+            },
+            {
+              "answer": [
+                "GME Remit көптеген елдерге халықаралық ақша аударымдарын қолдайды. Қолжетімді бағыттар мен төлем алу тәсілдерін қолданбадан тексеріңіз."
+              ],
+              "question": "GME Remit арқылы қай елдерге ақша жібере аламын?"
+            },
+            {
+              "answer": [
+                "Қолдау қызметі дүйсенбіден жексенбіге дейін 10:00–23:00 жұмыс істейді. {SUPPORT_PHONE_NUMBER} нөмірі, GME Remit қолданбасы, ресми әлеуметтік желілер немесе Кореядағы GME Remit бөлімшелері арқылы хабарласа аласыз."
+              ],
+              "question": "Аударымда мәселе туындаса не істеуім керек?"
+            }
+          ],
+          "subheading": "GME Remit арқылы ақша жіберу туралы жиі қойылатын сұрақтарға жауап табыңыз"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Indonesia-мен байланысу",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Қауымдастығымызға арналған жаңалықтар, пайдалы кеңестер және жаңартулар"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME карталарын көру",
+          "description": "Кореяда және шетелде күнделікті өмірге арналған ыңғайлы төлемдер.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Әлем бойынша төлем жасау",
+            "Сауда",
+            "Көлік",
+            "Кэшбэк",
+            "EasyCare артықшылықтары"
+          ],
+          "heading": "Барлығына арналған бір карта"
+        },
+        "exchangeRate": {
+          "description": "Кореядан Indonesia ақша жіберер алдында соңғы GME Remit валюта бағамын тексеріңіз",
+          "eyebrow": "Валюта бағамы",
+          "heading": "Бүгінгі валюта бағамын тексеріңіз",
+          "note": "Бағамдар күн ішінде өзгеруі мүмкін"
+        },
+        "loan": {
+          "ctaLabel": "Қазір өтініш беру",
+          "description": "Кореяда тұратын шетелдіктерге арналған ыңғайлы цифрлық несие қызметі. GME қолданбасы арқылы оңай өтініш беріңіз.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Қағазсыз несие өтінімі",
+            "Несие мәртебесін нақты уақытта тексеру",
+            "Несие қалдығын нақты уақытта тексеру"
+          ],
+          "heading": "Сіздің цифрлық қаржы серіктесіңіз"
+        },
+        "remittance": {
+          "ctaLabel": "Ақшаны қазір жіберу",
+          "description": "Кореядан Indonesiaдағы отбасыңыз бен жақындарыңызға қолдау көрсетудің қарапайым әрі қауіпсіз жолы.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Бәсекеге қабілетті валюта бағамдары",
+            "Жылдам әрі сенімді аударымдар",
+            "Ашық комиссиялар",
+            "Қажет кезде қолдау"
+          ],
+          "heading": "Indonesia ақша жіберу"
+        },
+        "simCard": {
+          "ctaLabel": "SIM жоспарларын көру",
+          "description": "Кореядағы өмірді жеңілдетуге арналған мобильді жоспарлармен маңызды адамдармен байланыста болыңыз.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Сенімді байланыс",
+            "Икемді SIM жоспарлары",
+            "Оңай қосылу",
+            "Жергілікті достық қолдау"
+          ],
+          "heading": "Кореяда байланыста болыңыз"
+        }
+      }
+    },
+    "kazakhstan": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME қолданбасын жүктеп алу"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit калькуляторы",
+        "exchangeRateLabel": "Валюта бағамы",
+        "receiverGetsLabel": "Алушы алатын сома",
+        "recipientCountryLabel": "Алушы ел",
+        "recipientCountryOption": "Kazakhstan",
+        "sendAmountLabel": "Жіберілетін сома",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Ақшаны қазір жіберу",
+        "transferFeeLabel": "Аударым комиссиясы"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "KZT",
+        "sampleTag": "Үлгі мәндер"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Барлық құқықтар қорғалған.",
+        "logoText": "GME",
+        "tagline": "Financial services made for Kazakhstanis in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Қолданбаны жүктеп алу",
+        "navItems": {
+          "company": "Компания",
+          "countries": "Елдер",
+          "news": "Жаңалықтар",
+          "services": "Қызметтер",
+          "support": "Қолдау"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Ақшаны қазір жіберу",
+        "ctaSecondaryLabel": "Бастау",
+        "eyebrow": "GME Kazakhstan",
+        "headingLines": [
+          "Үйге ақша жіберіңіз.",
+          "Байланыста болыңыз.",
+          "Оңай төлем жасаңыз."
+        ],
+        "subheading": "Кореяда тұратын қазақстандықтарға арналған сенімді қызметтер"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit туралы жиі қойылатын сұрақтар",
+          "items": [
+            {
+              "answer": [
+                "GME Remit аударымдары әдетте шамамен 10 секундта аяқталады. Нақты уақыт алушы елге, банкке немесе төлем алу тәсіліне байланысты өзгеруі мүмкін."
+              ],
+              "question": "GME Remit арқылы ақша жіберу қанша уақыт алады?"
+            },
+            {
+              "answer": [
+                "Иә. GME Remit — Кореяда лицензияланған ақша аудару қызметі және тиісті қаржы органдарының қадағалауында. Қауіпсіз сәйкестендіру және транзакция процестері қолданылады."
+              ],
+              "question": "GME Remit пайдалану қауіпсіз бе?"
+            },
+            {
+              "answer": [
+                "GME Remit қолданбасын жүктеп, аккаунт ашыңыз және қажетті жеке басыңызды растауды аяқтаңыз. Содан кейін қызметтерді пайдалана аласыз."
+              ],
+              "question": "GME Remit аккаунтын қалай ашамын?"
+            },
+            {
+              "answer": [
+                "GME Remit көптеген елдерге халықаралық ақша аударымдарын қолдайды. Қолжетімді бағыттар мен төлем алу тәсілдерін қолданбадан тексеріңіз."
+              ],
+              "question": "GME Remit арқылы қай елдерге ақша жібере аламын?"
+            },
+            {
+              "answer": [
+                "Қолдау қызметі дүйсенбіден жексенбіге дейін 10:00–23:00 жұмыс істейді. {SUPPORT_PHONE_NUMBER} нөмірі, GME Remit қолданбасы, ресми әлеуметтік желілер немесе Кореядағы GME Remit бөлімшелері арқылы хабарласа аласыз."
+              ],
+              "question": "Аударымда мәселе туындаса не істеуім керек?"
+            }
+          ],
+          "subheading": "GME Remit арқылы ақша жіберу туралы жиі қойылатын сұрақтарға жауап табыңыз"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Kazakhstan-мен байланысу",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Қауымдастығымызға арналған жаңалықтар, пайдалы кеңестер және жаңартулар"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME карталарын көру",
+          "description": "Кореяда және шетелде күнделікті өмірге арналған ыңғайлы төлемдер.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Әлем бойынша төлем жасау",
+            "Сауда",
+            "Көлік",
+            "Кэшбэк",
+            "EasyCare артықшылықтары"
+          ],
+          "heading": "Барлығына арналған бір карта"
+        },
+        "exchangeRate": {
+          "description": "Кореядан Қазақстанға ақша жіберер алдында соңғы GME Remit валюта бағамын тексеріңіз",
+          "eyebrow": "Валюта бағамы",
+          "heading": "Бүгінгі валюта бағамын тексеріңіз",
+          "note": "Бағамдар күн ішінде өзгеруі мүмкін"
+        },
+        "loan": {
+          "ctaLabel": "Қазір өтініш беру",
+          "description": "Кореяда тұратын шетелдіктерге арналған ыңғайлы цифрлық несие қызметі. GME қолданбасы арқылы оңай өтініш беріңіз.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Қағазсыз несие өтінімі",
+            "Несие мәртебесін нақты уақытта тексеру",
+            "Несие қалдығын нақты уақытта тексеру"
+          ],
+          "heading": "Сіздің цифрлық қаржы серіктесіңіз"
+        },
+        "remittance": {
+          "ctaLabel": "Ақшаны қазір жіберу",
+          "description": "Кореядан Қазақстандағы отбасыңыз бен жақындарыңызға қолдау көрсетудің қарапайым әрі қауіпсіз жолы.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Бәсекеге қабілетті валюта бағамдары",
+            "Жылдам әрі сенімді аударымдар",
+            "Ашық комиссиялар",
+            "Қажет кезде қолдау"
+          ],
+          "heading": "Қазақстанға ақша жіберу"
+        },
+        "simCard": {
+          "ctaLabel": "SIM жоспарларын көру",
+          "description": "Кореядағы өмірді жеңілдетуге арналған мобильді жоспарлармен маңызды адамдармен байланыста болыңыз.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Сенімді байланыс",
+            "Икемді SIM жоспарлары",
+            "Оңай қосылу",
+            "Жергілікті достық қолдау"
+          ],
+          "heading": "Кореяда байланыста болыңыз"
+        }
+      }
+    },
+    "kyrgyzstan": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME қолданбасын жүктеп алу"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit калькуляторы",
+        "exchangeRateLabel": "Валюта бағамы",
+        "receiverGetsLabel": "Алушы алатын сома",
+        "recipientCountryLabel": "Алушы ел",
+        "recipientCountryOption": "Kyrgyzstan",
+        "sendAmountLabel": "Жіберілетін сома",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Ақшаны қазір жіберу",
+        "transferFeeLabel": "Аударым комиссиясы"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "KGS",
+        "sampleTag": "Үлгі мәндер"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Барлық құқықтар қорғалған.",
+        "logoText": "GME",
+        "tagline": "Financial services made for Kyrgyzstanis in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Қолданбаны жүктеп алу",
+        "navItems": {
+          "company": "Компания",
+          "countries": "Елдер",
+          "news": "Жаңалықтар",
+          "services": "Қызметтер",
+          "support": "Қолдау"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Ақшаны қазір жіберу",
+        "ctaSecondaryLabel": "Бастау",
+        "eyebrow": "GME Kyrgyzstan",
+        "headingLines": [
+          "Үйге ақша жіберіңіз.",
+          "Байланыста болыңыз.",
+          "Оңай төлем жасаңыз."
+        ],
+        "subheading": "Кореяда тұратын Kyrgyzstanis арналған сенімді қызметтер"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit туралы жиі қойылатын сұрақтар",
+          "items": [
+            {
+              "answer": [
+                "GME Remit аударымдары әдетте шамамен 10 секундта аяқталады. Нақты уақыт алушы елге, банкке немесе төлем алу тәсіліне байланысты өзгеруі мүмкін."
+              ],
+              "question": "GME Remit арқылы ақша жіберу қанша уақыт алады?"
+            },
+            {
+              "answer": [
+                "Иә. GME Remit — Кореяда лицензияланған ақша аудару қызметі және тиісті қаржы органдарының қадағалауында. Қауіпсіз сәйкестендіру және транзакция процестері қолданылады."
+              ],
+              "question": "GME Remit пайдалану қауіпсіз бе?"
+            },
+            {
+              "answer": [
+                "GME Remit қолданбасын жүктеп, аккаунт ашыңыз және қажетті жеке басыңызды растауды аяқтаңыз. Содан кейін қызметтерді пайдалана аласыз."
+              ],
+              "question": "GME Remit аккаунтын қалай ашамын?"
+            },
+            {
+              "answer": [
+                "GME Remit көптеген елдерге халықаралық ақша аударымдарын қолдайды. Қолжетімді бағыттар мен төлем алу тәсілдерін қолданбадан тексеріңіз."
+              ],
+              "question": "GME Remit арқылы қай елдерге ақша жібере аламын?"
+            },
+            {
+              "answer": [
+                "Қолдау қызметі дүйсенбіден жексенбіге дейін 10:00–23:00 жұмыс істейді. {SUPPORT_PHONE_NUMBER} нөмірі, GME Remit қолданбасы, ресми әлеуметтік желілер немесе Кореядағы GME Remit бөлімшелері арқылы хабарласа аласыз."
+              ],
+              "question": "Аударымда мәселе туындаса не істеуім керек?"
+            }
+          ],
+          "subheading": "GME Remit арқылы ақша жіберу туралы жиі қойылатын сұрақтарға жауап табыңыз"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Kyrgyzstan-мен байланысу",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Қауымдастығымызға арналған жаңалықтар, пайдалы кеңестер және жаңартулар"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME карталарын көру",
+          "description": "Кореяда және шетелде күнделікті өмірге арналған ыңғайлы төлемдер.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Әлем бойынша төлем жасау",
+            "Сауда",
+            "Көлік",
+            "Кэшбэк",
+            "EasyCare артықшылықтары"
+          ],
+          "heading": "Барлығына арналған бір карта"
+        },
+        "exchangeRate": {
+          "description": "Кореядан Kyrgyzstan ақша жіберер алдында соңғы GME Remit валюта бағамын тексеріңіз",
+          "eyebrow": "Валюта бағамы",
+          "heading": "Бүгінгі валюта бағамын тексеріңіз",
+          "note": "Бағамдар күн ішінде өзгеруі мүмкін"
+        },
+        "loan": {
+          "ctaLabel": "Қазір өтініш беру",
+          "description": "Кореяда тұратын шетелдіктерге арналған ыңғайлы цифрлық несие қызметі. GME қолданбасы арқылы оңай өтініш беріңіз.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Қағазсыз несие өтінімі",
+            "Несие мәртебесін нақты уақытта тексеру",
+            "Несие қалдығын нақты уақытта тексеру"
+          ],
+          "heading": "Сіздің цифрлық қаржы серіктесіңіз"
+        },
+        "remittance": {
+          "ctaLabel": "Ақшаны қазір жіберу",
+          "description": "Кореядан Kyrgyzstanдағы отбасыңыз бен жақындарыңызға қолдау көрсетудің қарапайым әрі қауіпсіз жолы.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Бәсекеге қабілетті валюта бағамдары",
+            "Жылдам әрі сенімді аударымдар",
+            "Ашық комиссиялар",
+            "Қажет кезде қолдау"
+          ],
+          "heading": "Kyrgyzstan ақша жіберу"
+        },
+        "simCard": {
+          "ctaLabel": "SIM жоспарларын көру",
+          "description": "Кореядағы өмірді жеңілдетуге арналған мобильді жоспарлармен маңызды адамдармен байланыста болыңыз.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Сенімді байланыс",
+            "Икемді SIM жоспарлары",
+            "Оңай қосылу",
+            "Жергілікті достық қолдау"
+          ],
+          "heading": "Кореяда байланыста болыңыз"
+        }
+      }
+    },
+    "laos": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME қолданбасын жүктеп алу"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit калькуляторы",
+        "exchangeRateLabel": "Валюта бағамы",
+        "receiverGetsLabel": "Алушы алатын сома",
+        "recipientCountryLabel": "Алушы ел",
+        "recipientCountryOption": "Laos",
+        "sendAmountLabel": "Жіберілетін сома",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Ақшаны қазір жіберу",
+        "transferFeeLabel": "Аударым комиссиясы"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "LAK",
+        "sampleTag": "Үлгі мәндер"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Барлық құқықтар қорғалған.",
+        "logoText": "GME",
+        "tagline": "Financial services made for Laotians in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Қолданбаны жүктеп алу",
+        "navItems": {
+          "company": "Компания",
+          "countries": "Елдер",
+          "news": "Жаңалықтар",
+          "services": "Қызметтер",
+          "support": "Қолдау"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Ақшаны қазір жіберу",
+        "ctaSecondaryLabel": "Бастау",
+        "eyebrow": "GME Laos",
+        "headingLines": [
+          "Үйге ақша жіберіңіз.",
+          "Байланыста болыңыз.",
+          "Оңай төлем жасаңыз."
+        ],
+        "subheading": "Кореяда тұратын Laotians арналған сенімді қызметтер"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit туралы жиі қойылатын сұрақтар",
+          "items": [
+            {
+              "answer": [
+                "GME Remit аударымдары әдетте шамамен 10 секундта аяқталады. Нақты уақыт алушы елге, банкке немесе төлем алу тәсіліне байланысты өзгеруі мүмкін."
+              ],
+              "question": "GME Remit арқылы ақша жіберу қанша уақыт алады?"
+            },
+            {
+              "answer": [
+                "Иә. GME Remit — Кореяда лицензияланған ақша аудару қызметі және тиісті қаржы органдарының қадағалауында. Қауіпсіз сәйкестендіру және транзакция процестері қолданылады."
+              ],
+              "question": "GME Remit пайдалану қауіпсіз бе?"
+            },
+            {
+              "answer": [
+                "GME Remit қолданбасын жүктеп, аккаунт ашыңыз және қажетті жеке басыңызды растауды аяқтаңыз. Содан кейін қызметтерді пайдалана аласыз."
+              ],
+              "question": "GME Remit аккаунтын қалай ашамын?"
+            },
+            {
+              "answer": [
+                "GME Remit көптеген елдерге халықаралық ақша аударымдарын қолдайды. Қолжетімді бағыттар мен төлем алу тәсілдерін қолданбадан тексеріңіз."
+              ],
+              "question": "GME Remit арқылы қай елдерге ақша жібере аламын?"
+            },
+            {
+              "answer": [
+                "Қолдау қызметі дүйсенбіден жексенбіге дейін 10:00–23:00 жұмыс істейді. {SUPPORT_PHONE_NUMBER} нөмірі, GME Remit қолданбасы, ресми әлеуметтік желілер немесе Кореядағы GME Remit бөлімшелері арқылы хабарласа аласыз."
+              ],
+              "question": "Аударымда мәселе туындаса не істеуім керек?"
+            }
+          ],
+          "subheading": "GME Remit арқылы ақша жіберу туралы жиі қойылатын сұрақтарға жауап табыңыз"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Laos-мен байланысу",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Қауымдастығымызға арналған жаңалықтар, пайдалы кеңестер және жаңартулар"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME карталарын көру",
+          "description": "Кореяда және шетелде күнделікті өмірге арналған ыңғайлы төлемдер.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Әлем бойынша төлем жасау",
+            "Сауда",
+            "Көлік",
+            "Кэшбэк",
+            "EasyCare артықшылықтары"
+          ],
+          "heading": "Барлығына арналған бір карта"
+        },
+        "exchangeRate": {
+          "description": "Кореядан Laos ақша жіберер алдында соңғы GME Remit валюта бағамын тексеріңіз",
+          "eyebrow": "Валюта бағамы",
+          "heading": "Бүгінгі валюта бағамын тексеріңіз",
+          "note": "Бағамдар күн ішінде өзгеруі мүмкін"
+        },
+        "loan": {
+          "ctaLabel": "Қазір өтініш беру",
+          "description": "Кореяда тұратын шетелдіктерге арналған ыңғайлы цифрлық несие қызметі. GME қолданбасы арқылы оңай өтініш беріңіз.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Қағазсыз несие өтінімі",
+            "Несие мәртебесін нақты уақытта тексеру",
+            "Несие қалдығын нақты уақытта тексеру"
+          ],
+          "heading": "Сіздің цифрлық қаржы серіктесіңіз"
+        },
+        "remittance": {
+          "ctaLabel": "Ақшаны қазір жіберу",
+          "description": "Кореядан Laosдағы отбасыңыз бен жақындарыңызға қолдау көрсетудің қарапайым әрі қауіпсіз жолы.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Бәсекеге қабілетті валюта бағамдары",
+            "Жылдам әрі сенімді аударымдар",
+            "Ашық комиссиялар",
+            "Қажет кезде қолдау"
+          ],
+          "heading": "Laos ақша жіберу"
+        },
+        "simCard": {
+          "ctaLabel": "SIM жоспарларын көру",
+          "description": "Кореядағы өмірді жеңілдетуге арналған мобильді жоспарлармен маңызды адамдармен байланыста болыңыз.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Сенімді байланыс",
+            "Икемді SIM жоспарлары",
+            "Оңай қосылу",
+            "Жергілікті достық қолдау"
+          ],
+          "heading": "Кореяда байланыста болыңыз"
+        }
+      }
+    },
+    "mongolia": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME қолданбасын жүктеп алу"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit калькуляторы",
+        "exchangeRateLabel": "Валюта бағамы",
+        "receiverGetsLabel": "Алушы алатын сома",
+        "recipientCountryLabel": "Алушы ел",
+        "recipientCountryOption": "Mongolia",
+        "sendAmountLabel": "Жіберілетін сома",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Ақшаны қазір жіберу",
+        "transferFeeLabel": "Аударым комиссиясы"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "MNT",
+        "sampleTag": "Үлгі мәндер"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Барлық құқықтар қорғалған.",
+        "logoText": "GME",
+        "tagline": "Financial services made for Mongolians in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Қолданбаны жүктеп алу",
+        "navItems": {
+          "company": "Компания",
+          "countries": "Елдер",
+          "news": "Жаңалықтар",
+          "services": "Қызметтер",
+          "support": "Қолдау"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Ақшаны қазір жіберу",
+        "ctaSecondaryLabel": "Бастау",
+        "eyebrow": "GME Mongolia",
+        "headingLines": [
+          "Үйге ақша жіберіңіз.",
+          "Байланыста болыңыз.",
+          "Оңай төлем жасаңыз."
+        ],
+        "subheading": "Кореяда тұратын Mongolians арналған сенімді қызметтер"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit туралы жиі қойылатын сұрақтар",
+          "items": [
+            {
+              "answer": [
+                "GME Remit аударымдары әдетте шамамен 10 секундта аяқталады. Нақты уақыт алушы елге, банкке немесе төлем алу тәсіліне байланысты өзгеруі мүмкін."
+              ],
+              "question": "GME Remit арқылы ақша жіберу қанша уақыт алады?"
+            },
+            {
+              "answer": [
+                "Иә. GME Remit — Кореяда лицензияланған ақша аудару қызметі және тиісті қаржы органдарының қадағалауында. Қауіпсіз сәйкестендіру және транзакция процестері қолданылады."
+              ],
+              "question": "GME Remit пайдалану қауіпсіз бе?"
+            },
+            {
+              "answer": [
+                "GME Remit қолданбасын жүктеп, аккаунт ашыңыз және қажетті жеке басыңызды растауды аяқтаңыз. Содан кейін қызметтерді пайдалана аласыз."
+              ],
+              "question": "GME Remit аккаунтын қалай ашамын?"
+            },
+            {
+              "answer": [
+                "GME Remit көптеген елдерге халықаралық ақша аударымдарын қолдайды. Қолжетімді бағыттар мен төлем алу тәсілдерін қолданбадан тексеріңіз."
+              ],
+              "question": "GME Remit арқылы қай елдерге ақша жібере аламын?"
+            },
+            {
+              "answer": [
+                "Қолдау қызметі дүйсенбіден жексенбіге дейін 10:00–23:00 жұмыс істейді. {SUPPORT_PHONE_NUMBER} нөмірі, GME Remit қолданбасы, ресми әлеуметтік желілер немесе Кореядағы GME Remit бөлімшелері арқылы хабарласа аласыз."
+              ],
+              "question": "Аударымда мәселе туындаса не істеуім керек?"
+            }
+          ],
+          "subheading": "GME Remit арқылы ақша жіберу туралы жиі қойылатын сұрақтарға жауап табыңыз"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Mongolia-мен байланысу",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Қауымдастығымызға арналған жаңалықтар, пайдалы кеңестер және жаңартулар"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME карталарын көру",
+          "description": "Кореяда және шетелде күнделікті өмірге арналған ыңғайлы төлемдер.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Әлем бойынша төлем жасау",
+            "Сауда",
+            "Көлік",
+            "Кэшбэк",
+            "EasyCare артықшылықтары"
+          ],
+          "heading": "Барлығына арналған бір карта"
+        },
+        "exchangeRate": {
+          "description": "Кореядан Mongolia ақша жіберер алдында соңғы GME Remit валюта бағамын тексеріңіз",
+          "eyebrow": "Валюта бағамы",
+          "heading": "Бүгінгі валюта бағамын тексеріңіз",
+          "note": "Бағамдар күн ішінде өзгеруі мүмкін"
+        },
+        "loan": {
+          "ctaLabel": "Қазір өтініш беру",
+          "description": "Кореяда тұратын шетелдіктерге арналған ыңғайлы цифрлық несие қызметі. GME қолданбасы арқылы оңай өтініш беріңіз.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Қағазсыз несие өтінімі",
+            "Несие мәртебесін нақты уақытта тексеру",
+            "Несие қалдығын нақты уақытта тексеру"
+          ],
+          "heading": "Сіздің цифрлық қаржы серіктесіңіз"
+        },
+        "remittance": {
+          "ctaLabel": "Ақшаны қазір жіберу",
+          "description": "Кореядан Mongoliaдағы отбасыңыз бен жақындарыңызға қолдау көрсетудің қарапайым әрі қауіпсіз жолы.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Бәсекеге қабілетті валюта бағамдары",
+            "Жылдам әрі сенімді аударымдар",
+            "Ашық комиссиялар",
+            "Қажет кезде қолдау"
+          ],
+          "heading": "Mongolia ақша жіберу"
+        },
+        "simCard": {
+          "ctaLabel": "SIM жоспарларын көру",
+          "description": "Кореядағы өмірді жеңілдетуге арналған мобильді жоспарлармен маңызды адамдармен байланыста болыңыз.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Сенімді байланыс",
+            "Икемді SIM жоспарлары",
+            "Оңай қосылу",
+            "Жергілікті достық қолдау"
+          ],
+          "heading": "Кореяда байланыста болыңыз"
+        }
+      }
+    },
+    "myanmar": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME қолданбасын жүктеп алу"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit калькуляторы",
+        "exchangeRateLabel": "Валюта бағамы",
+        "receiverGetsLabel": "Алушы алатын сома",
+        "recipientCountryLabel": "Алушы ел",
+        "recipientCountryOption": "Myanmar",
+        "sendAmountLabel": "Жіберілетін сома",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Ақшаны қазір жіберу",
+        "transferFeeLabel": "Аударым комиссиясы"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "MMK",
+        "sampleTag": "Үлгі мәндер"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Барлық құқықтар қорғалған.",
+        "logoText": "GME",
+        "tagline": "Financial services made for Myanmar nationals in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Қолданбаны жүктеп алу",
+        "navItems": {
+          "company": "Компания",
+          "countries": "Елдер",
+          "news": "Жаңалықтар",
+          "services": "Қызметтер",
+          "support": "Қолдау"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Ақшаны қазір жіберу",
+        "ctaSecondaryLabel": "Бастау",
+        "eyebrow": "GME Myanmar",
+        "headingLines": [
+          "Үйге ақша жіберіңіз.",
+          "Байланыста болыңыз.",
+          "Оңай төлем жасаңыз."
+        ],
+        "subheading": "Кореяда тұратын Myanmar nationals арналған сенімді қызметтер"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit туралы жиі қойылатын сұрақтар",
+          "items": [
+            {
+              "answer": [
+                "GME Remit аударымдары әдетте шамамен 10 секундта аяқталады. Нақты уақыт алушы елге, банкке немесе төлем алу тәсіліне байланысты өзгеруі мүмкін."
+              ],
+              "question": "GME Remit арқылы ақша жіберу қанша уақыт алады?"
+            },
+            {
+              "answer": [
+                "Иә. GME Remit — Кореяда лицензияланған ақша аудару қызметі және тиісті қаржы органдарының қадағалауында. Қауіпсіз сәйкестендіру және транзакция процестері қолданылады."
+              ],
+              "question": "GME Remit пайдалану қауіпсіз бе?"
+            },
+            {
+              "answer": [
+                "GME Remit қолданбасын жүктеп, аккаунт ашыңыз және қажетті жеке басыңызды растауды аяқтаңыз. Содан кейін қызметтерді пайдалана аласыз."
+              ],
+              "question": "GME Remit аккаунтын қалай ашамын?"
+            },
+            {
+              "answer": [
+                "GME Remit көптеген елдерге халықаралық ақша аударымдарын қолдайды. Қолжетімді бағыттар мен төлем алу тәсілдерін қолданбадан тексеріңіз."
+              ],
+              "question": "GME Remit арқылы қай елдерге ақша жібере аламын?"
+            },
+            {
+              "answer": [
+                "Қолдау қызметі дүйсенбіден жексенбіге дейін 10:00–23:00 жұмыс істейді. {SUPPORT_PHONE_NUMBER} нөмірі, GME Remit қолданбасы, ресми әлеуметтік желілер немесе Кореядағы GME Remit бөлімшелері арқылы хабарласа аласыз."
+              ],
+              "question": "Аударымда мәселе туындаса не істеуім керек?"
+            }
+          ],
+          "subheading": "GME Remit арқылы ақша жіберу туралы жиі қойылатын сұрақтарға жауап табыңыз"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Myanmar-мен байланысу",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Қауымдастығымызға арналған жаңалықтар, пайдалы кеңестер және жаңартулар"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME карталарын көру",
+          "description": "Кореяда және шетелде күнделікті өмірге арналған ыңғайлы төлемдер.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Әлем бойынша төлем жасау",
+            "Сауда",
+            "Көлік",
+            "Кэшбэк",
+            "EasyCare артықшылықтары"
+          ],
+          "heading": "Барлығына арналған бір карта"
+        },
+        "exchangeRate": {
+          "description": "Кореядан Myanmar ақша жіберер алдында соңғы GME Remit валюта бағамын тексеріңіз",
+          "eyebrow": "Валюта бағамы",
+          "heading": "Бүгінгі валюта бағамын тексеріңіз",
+          "note": "Бағамдар күн ішінде өзгеруі мүмкін"
+        },
+        "loan": {
+          "ctaLabel": "Қазір өтініш беру",
+          "description": "Кореяда тұратын шетелдіктерге арналған ыңғайлы цифрлық несие қызметі. GME қолданбасы арқылы оңай өтініш беріңіз.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Қағазсыз несие өтінімі",
+            "Несие мәртебесін нақты уақытта тексеру",
+            "Несие қалдығын нақты уақытта тексеру"
+          ],
+          "heading": "Сіздің цифрлық қаржы серіктесіңіз"
+        },
+        "remittance": {
+          "ctaLabel": "Ақшаны қазір жіберу",
+          "description": "Кореядан Myanmarдағы отбасыңыз бен жақындарыңызға қолдау көрсетудің қарапайым әрі қауіпсіз жолы.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Бәсекеге қабілетті валюта бағамдары",
+            "Жылдам әрі сенімді аударымдар",
+            "Ашық комиссиялар",
+            "Қажет кезде қолдау"
+          ],
+          "heading": "Myanmar ақша жіберу"
+        },
+        "simCard": {
+          "ctaLabel": "SIM жоспарларын көру",
+          "description": "Кореядағы өмірді жеңілдетуге арналған мобильді жоспарлармен маңызды адамдармен байланыста болыңыз.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Сенімді байланыс",
+            "Икемді SIM жоспарлары",
+            "Оңай қосылу",
+            "Жергілікті достық қолдау"
+          ],
+          "heading": "Кореяда байланыста болыңыз"
+        }
+      }
+    },
+    "nepal": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME қолданбасын жүктеп алу"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit калькуляторы",
+        "exchangeRateLabel": "Валюта бағамы",
+        "receiverGetsLabel": "Алушы алатын сома",
+        "recipientCountryLabel": "Алушы ел",
+        "recipientCountryOption": "Nepal",
+        "sendAmountLabel": "Жіберілетін сома",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Ақшаны қазір жіберу",
+        "transferFeeLabel": "Аударым комиссиясы"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "NPR",
+        "sampleTag": "Үлгі мәндер"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Барлық құқықтар қорғалған.",
+        "logoText": "GME",
+        "tagline": "Financial services made for Nepalis in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Қолданбаны жүктеп алу",
+        "navItems": {
+          "company": "Компания",
+          "countries": "Елдер",
+          "news": "Жаңалықтар",
+          "services": "Қызметтер",
+          "support": "Қолдау"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Ақшаны қазір жіберу",
+        "ctaSecondaryLabel": "Бастау",
+        "eyebrow": "GME Nepal",
+        "headingLines": [
+          "Үйге ақша жіберіңіз.",
+          "Байланыста болыңыз.",
+          "Оңай төлем жасаңыз."
+        ],
+        "subheading": "Кореяда тұратын Nepalis арналған сенімді қызметтер"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit туралы жиі қойылатын сұрақтар",
+          "items": [
+            {
+              "answer": [
+                "GME Remit аударымдары әдетте шамамен 10 секундта аяқталады. Нақты уақыт алушы елге, банкке немесе төлем алу тәсіліне байланысты өзгеруі мүмкін."
+              ],
+              "question": "GME Remit арқылы ақша жіберу қанша уақыт алады?"
+            },
+            {
+              "answer": [
+                "Иә. GME Remit — Кореяда лицензияланған ақша аудару қызметі және тиісті қаржы органдарының қадағалауында. Қауіпсіз сәйкестендіру және транзакция процестері қолданылады."
+              ],
+              "question": "GME Remit пайдалану қауіпсіз бе?"
+            },
+            {
+              "answer": [
+                "GME Remit қолданбасын жүктеп, аккаунт ашыңыз және қажетті жеке басыңызды растауды аяқтаңыз. Содан кейін қызметтерді пайдалана аласыз."
+              ],
+              "question": "GME Remit аккаунтын қалай ашамын?"
+            },
+            {
+              "answer": [
+                "GME Remit көптеген елдерге халықаралық ақша аударымдарын қолдайды. Қолжетімді бағыттар мен төлем алу тәсілдерін қолданбадан тексеріңіз."
+              ],
+              "question": "GME Remit арқылы қай елдерге ақша жібере аламын?"
+            },
+            {
+              "answer": [
+                "Қолдау қызметі дүйсенбіден жексенбіге дейін 10:00–23:00 жұмыс істейді. {SUPPORT_PHONE_NUMBER} нөмірі, GME Remit қолданбасы, ресми әлеуметтік желілер немесе Кореядағы GME Remit бөлімшелері арқылы хабарласа аласыз."
+              ],
+              "question": "Аударымда мәселе туындаса не істеуім керек?"
+            }
+          ],
+          "subheading": "GME Remit арқылы ақша жіберу туралы жиі қойылатын сұрақтарға жауап табыңыз"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Nepal-мен байланысу",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Қауымдастығымызға арналған жаңалықтар, пайдалы кеңестер және жаңартулар"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME карталарын көру",
+          "description": "Кореяда және шетелде күнделікті өмірге арналған ыңғайлы төлемдер.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Әлем бойынша төлем жасау",
+            "Сауда",
+            "Көлік",
+            "Кэшбэк",
+            "EasyCare артықшылықтары"
+          ],
+          "heading": "Барлығына арналған бір карта"
+        },
+        "exchangeRate": {
+          "description": "Кореядан Nepal ақша жіберер алдында соңғы GME Remit валюта бағамын тексеріңіз",
+          "eyebrow": "Валюта бағамы",
+          "heading": "Бүгінгі валюта бағамын тексеріңіз",
+          "note": "Бағамдар күн ішінде өзгеруі мүмкін"
+        },
+        "loan": {
+          "ctaLabel": "Қазір өтініш беру",
+          "description": "Кореяда тұратын шетелдіктерге арналған ыңғайлы цифрлық несие қызметі. GME қолданбасы арқылы оңай өтініш беріңіз.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Қағазсыз несие өтінімі",
+            "Несие мәртебесін нақты уақытта тексеру",
+            "Несие қалдығын нақты уақытта тексеру"
+          ],
+          "heading": "Сіздің цифрлық қаржы серіктесіңіз"
+        },
+        "remittance": {
+          "ctaLabel": "Ақшаны қазір жіберу",
+          "description": "Кореядан Nepalдағы отбасыңыз бен жақындарыңызға қолдау көрсетудің қарапайым әрі қауіпсіз жолы.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Бәсекеге қабілетті валюта бағамдары",
+            "Жылдам әрі сенімді аударымдар",
+            "Ашық комиссиялар",
+            "Қажет кезде қолдау"
+          ],
+          "heading": "Nepal ақша жіберу"
+        },
+        "simCard": {
+          "ctaLabel": "SIM жоспарларын көру",
+          "description": "Кореядағы өмірді жеңілдетуге арналған мобильді жоспарлармен маңызды адамдармен байланыста болыңыз.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Сенімді байланыс",
+            "Икемді SIM жоспарлары",
+            "Оңай қосылу",
+            "Жергілікті достық қолдау"
+          ],
+          "heading": "Кореяда байланыста болыңыз"
+        }
+      }
+    },
+    "pakistan": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME қолданбасын жүктеп алу"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit калькуляторы",
+        "exchangeRateLabel": "Валюта бағамы",
+        "receiverGetsLabel": "Алушы алатын сома",
+        "recipientCountryLabel": "Алушы ел",
+        "recipientCountryOption": "Pakistan",
+        "sendAmountLabel": "Жіберілетін сома",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Ақшаны қазір жіберу",
+        "transferFeeLabel": "Аударым комиссиясы"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "PKR",
+        "sampleTag": "Үлгі мәндер"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Барлық құқықтар қорғалған.",
+        "logoText": "GME",
+        "tagline": "Financial services made for Pakistanis in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Қолданбаны жүктеп алу",
+        "navItems": {
+          "company": "Компания",
+          "countries": "Елдер",
+          "news": "Жаңалықтар",
+          "services": "Қызметтер",
+          "support": "Қолдау"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Ақшаны қазір жіберу",
+        "ctaSecondaryLabel": "Бастау",
+        "eyebrow": "GME Pakistan",
+        "headingLines": [
+          "Үйге ақша жіберіңіз.",
+          "Байланыста болыңыз.",
+          "Оңай төлем жасаңыз."
+        ],
+        "subheading": "Кореяда тұратын Pakistanis арналған сенімді қызметтер"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit туралы жиі қойылатын сұрақтар",
+          "items": [
+            {
+              "answer": [
+                "GME Remit аударымдары әдетте шамамен 10 секундта аяқталады. Нақты уақыт алушы елге, банкке немесе төлем алу тәсіліне байланысты өзгеруі мүмкін."
+              ],
+              "question": "GME Remit арқылы ақша жіберу қанша уақыт алады?"
+            },
+            {
+              "answer": [
+                "Иә. GME Remit — Кореяда лицензияланған ақша аудару қызметі және тиісті қаржы органдарының қадағалауында. Қауіпсіз сәйкестендіру және транзакция процестері қолданылады."
+              ],
+              "question": "GME Remit пайдалану қауіпсіз бе?"
+            },
+            {
+              "answer": [
+                "GME Remit қолданбасын жүктеп, аккаунт ашыңыз және қажетті жеке басыңызды растауды аяқтаңыз. Содан кейін қызметтерді пайдалана аласыз."
+              ],
+              "question": "GME Remit аккаунтын қалай ашамын?"
+            },
+            {
+              "answer": [
+                "GME Remit көптеген елдерге халықаралық ақша аударымдарын қолдайды. Қолжетімді бағыттар мен төлем алу тәсілдерін қолданбадан тексеріңіз."
+              ],
+              "question": "GME Remit арқылы қай елдерге ақша жібере аламын?"
+            },
+            {
+              "answer": [
+                "Қолдау қызметі дүйсенбіден жексенбіге дейін 10:00–23:00 жұмыс істейді. {SUPPORT_PHONE_NUMBER} нөмірі, GME Remit қолданбасы, ресми әлеуметтік желілер немесе Кореядағы GME Remit бөлімшелері арқылы хабарласа аласыз."
+              ],
+              "question": "Аударымда мәселе туындаса не істеуім керек?"
+            }
+          ],
+          "subheading": "GME Remit арқылы ақша жіберу туралы жиі қойылатын сұрақтарға жауап табыңыз"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Pakistan-мен байланысу",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Қауымдастығымызға арналған жаңалықтар, пайдалы кеңестер және жаңартулар"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME карталарын көру",
+          "description": "Кореяда және шетелде күнделікті өмірге арналған ыңғайлы төлемдер.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Әлем бойынша төлем жасау",
+            "Сауда",
+            "Көлік",
+            "Кэшбэк",
+            "EasyCare артықшылықтары"
+          ],
+          "heading": "Барлығына арналған бір карта"
+        },
+        "exchangeRate": {
+          "description": "Кореядан Pakistan ақша жіберер алдында соңғы GME Remit валюта бағамын тексеріңіз",
+          "eyebrow": "Валюта бағамы",
+          "heading": "Бүгінгі валюта бағамын тексеріңіз",
+          "note": "Бағамдар күн ішінде өзгеруі мүмкін"
+        },
+        "loan": {
+          "ctaLabel": "Қазір өтініш беру",
+          "description": "Кореяда тұратын шетелдіктерге арналған ыңғайлы цифрлық несие қызметі. GME қолданбасы арқылы оңай өтініш беріңіз.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Қағазсыз несие өтінімі",
+            "Несие мәртебесін нақты уақытта тексеру",
+            "Несие қалдығын нақты уақытта тексеру"
+          ],
+          "heading": "Сіздің цифрлық қаржы серіктесіңіз"
+        },
+        "remittance": {
+          "ctaLabel": "Ақшаны қазір жіберу",
+          "description": "Кореядан Pakistanдағы отбасыңыз бен жақындарыңызға қолдау көрсетудің қарапайым әрі қауіпсіз жолы.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Бәсекеге қабілетті валюта бағамдары",
+            "Жылдам әрі сенімді аударымдар",
+            "Ашық комиссиялар",
+            "Қажет кезде қолдау"
+          ],
+          "heading": "Pakistan ақша жіберу"
+        },
+        "simCard": {
+          "ctaLabel": "SIM жоспарларын көру",
+          "description": "Кореядағы өмірді жеңілдетуге арналған мобильді жоспарлармен маңызды адамдармен байланыста болыңыз.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Сенімді байланыс",
+            "Икемді SIM жоспарлары",
+            "Оңай қосылу",
+            "Жергілікті достық қолдау"
+          ],
+          "heading": "Кореяда байланыста болыңыз"
+        }
+      }
+    },
+    "philippines": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME қолданбасын жүктеп алу"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit калькуляторы",
+        "exchangeRateLabel": "Валюта бағамы",
+        "receiverGetsLabel": "Алушы алатын сома",
+        "recipientCountryLabel": "Алушы ел",
+        "recipientCountryOption": "Philippines",
+        "sendAmountLabel": "Жіберілетін сома",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Ақшаны қазір жіберу",
+        "transferFeeLabel": "Аударым комиссиясы"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "PHP",
+        "sampleTag": "Үлгі мәндер"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Барлық құқықтар қорғалған.",
+        "logoText": "GME",
+        "tagline": "Financial services made for Filipinos in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Қолданбаны жүктеп алу",
+        "navItems": {
+          "company": "Компания",
+          "countries": "Елдер",
+          "news": "Жаңалықтар",
+          "services": "Қызметтер",
+          "support": "Қолдау"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Ақшаны қазір жіберу",
+        "ctaSecondaryLabel": "Бастау",
+        "eyebrow": "GME Philippines",
+        "headingLines": [
+          "Үйге ақша жіберіңіз.",
+          "Байланыста болыңыз.",
+          "Оңай төлем жасаңыз."
+        ],
+        "subheading": "Кореяда тұратын Filipinos арналған сенімді қызметтер"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit туралы жиі қойылатын сұрақтар",
+          "items": [
+            {
+              "answer": [
+                "GME Remit аударымдары әдетте шамамен 10 секундта аяқталады. Нақты уақыт алушы елге, банкке немесе төлем алу тәсіліне байланысты өзгеруі мүмкін."
+              ],
+              "question": "GME Remit арқылы ақша жіберу қанша уақыт алады?"
+            },
+            {
+              "answer": [
+                "Иә. GME Remit — Кореяда лицензияланған ақша аудару қызметі және тиісті қаржы органдарының қадағалауында. Қауіпсіз сәйкестендіру және транзакция процестері қолданылады."
+              ],
+              "question": "GME Remit пайдалану қауіпсіз бе?"
+            },
+            {
+              "answer": [
+                "GME Remit қолданбасын жүктеп, аккаунт ашыңыз және қажетті жеке басыңызды растауды аяқтаңыз. Содан кейін қызметтерді пайдалана аласыз."
+              ],
+              "question": "GME Remit аккаунтын қалай ашамын?"
+            },
+            {
+              "answer": [
+                "GME Remit көптеген елдерге халықаралық ақша аударымдарын қолдайды. Қолжетімді бағыттар мен төлем алу тәсілдерін қолданбадан тексеріңіз."
+              ],
+              "question": "GME Remit арқылы қай елдерге ақша жібере аламын?"
+            },
+            {
+              "answer": [
+                "Қолдау қызметі дүйсенбіден жексенбіге дейін 10:00–23:00 жұмыс істейді. {SUPPORT_PHONE_NUMBER} нөмірі, GME Remit қолданбасы, ресми әлеуметтік желілер немесе Кореядағы GME Remit бөлімшелері арқылы хабарласа аласыз."
+              ],
+              "question": "Аударымда мәселе туындаса не істеуім керек?"
+            }
+          ],
+          "subheading": "GME Remit арқылы ақша жіберу туралы жиі қойылатын сұрақтарға жауап табыңыз"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Philippines-мен байланысу",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Қауымдастығымызға арналған жаңалықтар, пайдалы кеңестер және жаңартулар"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME карталарын көру",
+          "description": "Кореяда және шетелде күнделікті өмірге арналған ыңғайлы төлемдер.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Әлем бойынша төлем жасау",
+            "Сауда",
+            "Көлік",
+            "Кэшбэк",
+            "EasyCare артықшылықтары"
+          ],
+          "heading": "Барлығына арналған бір карта"
+        },
+        "exchangeRate": {
+          "description": "Кореядан Philippines ақша жіберер алдында соңғы GME Remit валюта бағамын тексеріңіз",
+          "eyebrow": "Валюта бағамы",
+          "heading": "Бүгінгі валюта бағамын тексеріңіз",
+          "note": "Бағамдар күн ішінде өзгеруі мүмкін"
+        },
+        "loan": {
+          "ctaLabel": "Қазір өтініш беру",
+          "description": "Кореяда тұратын шетелдіктерге арналған ыңғайлы цифрлық несие қызметі. GME қолданбасы арқылы оңай өтініш беріңіз.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Қағазсыз несие өтінімі",
+            "Несие мәртебесін нақты уақытта тексеру",
+            "Несие қалдығын нақты уақытта тексеру"
+          ],
+          "heading": "Сіздің цифрлық қаржы серіктесіңіз"
+        },
+        "remittance": {
+          "ctaLabel": "Ақшаны қазір жіберу",
+          "description": "Кореядан Philippinesдағы отбасыңыз бен жақындарыңызға қолдау көрсетудің қарапайым әрі қауіпсіз жолы.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Бәсекеге қабілетті валюта бағамдары",
+            "Жылдам әрі сенімді аударымдар",
+            "Ашық комиссиялар",
+            "Қажет кезде қолдау"
+          ],
+          "heading": "Philippines ақша жіберу"
+        },
+        "simCard": {
+          "ctaLabel": "SIM жоспарларын көру",
+          "description": "Кореядағы өмірді жеңілдетуге арналған мобильді жоспарлармен маңызды адамдармен байланыста болыңыз.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Сенімді байланыс",
+            "Икемді SIM жоспарлары",
+            "Оңай қосылу",
+            "Жергілікті достық қолдау"
+          ],
+          "heading": "Кореяда байланыста болыңыз"
+        }
+      }
+    },
+    "sri-lanka": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME қолданбасын жүктеп алу"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit калькуляторы",
+        "exchangeRateLabel": "Валюта бағамы",
+        "receiverGetsLabel": "Алушы алатын сома",
+        "recipientCountryLabel": "Алушы ел",
+        "recipientCountryOption": "Sri Lanka",
+        "sendAmountLabel": "Жіберілетін сома",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Ақшаны қазір жіберу",
+        "transferFeeLabel": "Аударым комиссиясы"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "LKR",
+        "sampleTag": "Үлгі мәндер"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Барлық құқықтар қорғалған.",
+        "logoText": "GME",
+        "tagline": "Financial services made for Sri Lankans in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Қолданбаны жүктеп алу",
+        "navItems": {
+          "company": "Компания",
+          "countries": "Елдер",
+          "news": "Жаңалықтар",
+          "services": "Қызметтер",
+          "support": "Қолдау"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Ақшаны қазір жіберу",
+        "ctaSecondaryLabel": "Бастау",
+        "eyebrow": "GME Sri Lanka",
+        "headingLines": [
+          "Үйге ақша жіберіңіз.",
+          "Байланыста болыңыз.",
+          "Оңай төлем жасаңыз."
+        ],
+        "subheading": "Кореяда тұратын Sri Lankans арналған сенімді қызметтер"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit туралы жиі қойылатын сұрақтар",
+          "items": [
+            {
+              "answer": [
+                "GME Remit аударымдары әдетте шамамен 10 секундта аяқталады. Нақты уақыт алушы елге, банкке немесе төлем алу тәсіліне байланысты өзгеруі мүмкін."
+              ],
+              "question": "GME Remit арқылы ақша жіберу қанша уақыт алады?"
+            },
+            {
+              "answer": [
+                "Иә. GME Remit — Кореяда лицензияланған ақша аудару қызметі және тиісті қаржы органдарының қадағалауында. Қауіпсіз сәйкестендіру және транзакция процестері қолданылады."
+              ],
+              "question": "GME Remit пайдалану қауіпсіз бе?"
+            },
+            {
+              "answer": [
+                "GME Remit қолданбасын жүктеп, аккаунт ашыңыз және қажетті жеке басыңызды растауды аяқтаңыз. Содан кейін қызметтерді пайдалана аласыз."
+              ],
+              "question": "GME Remit аккаунтын қалай ашамын?"
+            },
+            {
+              "answer": [
+                "GME Remit көптеген елдерге халықаралық ақша аударымдарын қолдайды. Қолжетімді бағыттар мен төлем алу тәсілдерін қолданбадан тексеріңіз."
+              ],
+              "question": "GME Remit арқылы қай елдерге ақша жібере аламын?"
+            },
+            {
+              "answer": [
+                "Қолдау қызметі дүйсенбіден жексенбіге дейін 10:00–23:00 жұмыс істейді. {SUPPORT_PHONE_NUMBER} нөмірі, GME Remit қолданбасы, ресми әлеуметтік желілер немесе Кореядағы GME Remit бөлімшелері арқылы хабарласа аласыз."
+              ],
+              "question": "Аударымда мәселе туындаса не істеуім керек?"
+            }
+          ],
+          "subheading": "GME Remit арқылы ақша жіберу туралы жиі қойылатын сұрақтарға жауап табыңыз"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Sri Lanka-мен байланысу",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Қауымдастығымызға арналған жаңалықтар, пайдалы кеңестер және жаңартулар"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME карталарын көру",
+          "description": "Кореяда және шетелде күнделікті өмірге арналған ыңғайлы төлемдер.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Әлем бойынша төлем жасау",
+            "Сауда",
+            "Көлік",
+            "Кэшбэк",
+            "EasyCare артықшылықтары"
+          ],
+          "heading": "Барлығына арналған бір карта"
+        },
+        "exchangeRate": {
+          "description": "Кореядан Sri Lanka ақша жіберер алдында соңғы GME Remit валюта бағамын тексеріңіз",
+          "eyebrow": "Валюта бағамы",
+          "heading": "Бүгінгі валюта бағамын тексеріңіз",
+          "note": "Бағамдар күн ішінде өзгеруі мүмкін"
+        },
+        "loan": {
+          "ctaLabel": "Қазір өтініш беру",
+          "description": "Кореяда тұратын шетелдіктерге арналған ыңғайлы цифрлық несие қызметі. GME қолданбасы арқылы оңай өтініш беріңіз.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Қағазсыз несие өтінімі",
+            "Несие мәртебесін нақты уақытта тексеру",
+            "Несие қалдығын нақты уақытта тексеру"
+          ],
+          "heading": "Сіздің цифрлық қаржы серіктесіңіз"
+        },
+        "remittance": {
+          "ctaLabel": "Ақшаны қазір жіберу",
+          "description": "Кореядан Sri Lankaдағы отбасыңыз бен жақындарыңызға қолдау көрсетудің қарапайым әрі қауіпсіз жолы.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Бәсекеге қабілетті валюта бағамдары",
+            "Жылдам әрі сенімді аударымдар",
+            "Ашық комиссиялар",
+            "Қажет кезде қолдау"
+          ],
+          "heading": "Sri Lanka ақша жіберу"
+        },
+        "simCard": {
+          "ctaLabel": "SIM жоспарларын көру",
+          "description": "Кореядағы өмірді жеңілдетуге арналған мобильді жоспарлармен маңызды адамдармен байланыста болыңыз.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Сенімді байланыс",
+            "Икемді SIM жоспарлары",
+            "Оңай қосылу",
+            "Жергілікті достық қолдау"
+          ],
+          "heading": "Кореяда байланыста болыңыз"
+        }
+      }
+    },
+    "thailand": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME қолданбасын жүктеп алу"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit калькуляторы",
+        "exchangeRateLabel": "Валюта бағамы",
+        "receiverGetsLabel": "Алушы алатын сома",
+        "recipientCountryLabel": "Алушы ел",
+        "recipientCountryOption": "Thailand",
+        "sendAmountLabel": "Жіберілетін сома",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Ақшаны қазір жіберу",
+        "transferFeeLabel": "Аударым комиссиясы"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "THB",
+        "sampleTag": "Үлгі мәндер"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Барлық құқықтар қорғалған.",
+        "logoText": "GME",
+        "tagline": "Financial services made for Thais in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Қолданбаны жүктеп алу",
+        "navItems": {
+          "company": "Компания",
+          "countries": "Елдер",
+          "news": "Жаңалықтар",
+          "services": "Қызметтер",
+          "support": "Қолдау"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Ақшаны қазір жіберу",
+        "ctaSecondaryLabel": "Бастау",
+        "eyebrow": "GME Thailand",
+        "headingLines": [
+          "Үйге ақша жіберіңіз.",
+          "Байланыста болыңыз.",
+          "Оңай төлем жасаңыз."
+        ],
+        "subheading": "Кореяда тұратын Thais арналған сенімді қызметтер"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit туралы жиі қойылатын сұрақтар",
+          "items": [
+            {
+              "answer": [
+                "GME Remit аударымдары әдетте шамамен 10 секундта аяқталады. Нақты уақыт алушы елге, банкке немесе төлем алу тәсіліне байланысты өзгеруі мүмкін."
+              ],
+              "question": "GME Remit арқылы ақша жіберу қанша уақыт алады?"
+            },
+            {
+              "answer": [
+                "Иә. GME Remit — Кореяда лицензияланған ақша аудару қызметі және тиісті қаржы органдарының қадағалауында. Қауіпсіз сәйкестендіру және транзакция процестері қолданылады."
+              ],
+              "question": "GME Remit пайдалану қауіпсіз бе?"
+            },
+            {
+              "answer": [
+                "GME Remit қолданбасын жүктеп, аккаунт ашыңыз және қажетті жеке басыңызды растауды аяқтаңыз. Содан кейін қызметтерді пайдалана аласыз."
+              ],
+              "question": "GME Remit аккаунтын қалай ашамын?"
+            },
+            {
+              "answer": [
+                "GME Remit көптеген елдерге халықаралық ақша аударымдарын қолдайды. Қолжетімді бағыттар мен төлем алу тәсілдерін қолданбадан тексеріңіз."
+              ],
+              "question": "GME Remit арқылы қай елдерге ақша жібере аламын?"
+            },
+            {
+              "answer": [
+                "Қолдау қызметі дүйсенбіден жексенбіге дейін 10:00–23:00 жұмыс істейді. {SUPPORT_PHONE_NUMBER} нөмірі, GME Remit қолданбасы, ресми әлеуметтік желілер немесе Кореядағы GME Remit бөлімшелері арқылы хабарласа аласыз."
+              ],
+              "question": "Аударымда мәселе туындаса не істеуім керек?"
+            }
+          ],
+          "subheading": "GME Remit арқылы ақша жіберу туралы жиі қойылатын сұрақтарға жауап табыңыз"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Thailand-мен байланысу",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Қауымдастығымызға арналған жаңалықтар, пайдалы кеңестер және жаңартулар"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME карталарын көру",
+          "description": "Кореяда және шетелде күнделікті өмірге арналған ыңғайлы төлемдер.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Әлем бойынша төлем жасау",
+            "Сауда",
+            "Көлік",
+            "Кэшбэк",
+            "EasyCare артықшылықтары"
+          ],
+          "heading": "Барлығына арналған бір карта"
+        },
+        "exchangeRate": {
+          "description": "Кореядан Thailand ақша жіберер алдында соңғы GME Remit валюта бағамын тексеріңіз",
+          "eyebrow": "Валюта бағамы",
+          "heading": "Бүгінгі валюта бағамын тексеріңіз",
+          "note": "Бағамдар күн ішінде өзгеруі мүмкін"
+        },
+        "loan": {
+          "ctaLabel": "Қазір өтініш беру",
+          "description": "Кореяда тұратын шетелдіктерге арналған ыңғайлы цифрлық несие қызметі. GME қолданбасы арқылы оңай өтініш беріңіз.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Қағазсыз несие өтінімі",
+            "Несие мәртебесін нақты уақытта тексеру",
+            "Несие қалдығын нақты уақытта тексеру"
+          ],
+          "heading": "Сіздің цифрлық қаржы серіктесіңіз"
+        },
+        "remittance": {
+          "ctaLabel": "Ақшаны қазір жіберу",
+          "description": "Кореядан Thailandдағы отбасыңыз бен жақындарыңызға қолдау көрсетудің қарапайым әрі қауіпсіз жолы.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Бәсекеге қабілетті валюта бағамдары",
+            "Жылдам әрі сенімді аударымдар",
+            "Ашық комиссиялар",
+            "Қажет кезде қолдау"
+          ],
+          "heading": "Thailand ақша жіберу"
+        },
+        "simCard": {
+          "ctaLabel": "SIM жоспарларын көру",
+          "description": "Кореядағы өмірді жеңілдетуге арналған мобильді жоспарлармен маңызды адамдармен байланыста болыңыз.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Сенімді байланыс",
+            "Икемді SIM жоспарлары",
+            "Оңай қосылу",
+            "Жергілікті достық қолдау"
+          ],
+          "heading": "Кореяда байланыста болыңыз"
+        }
+      }
+    },
+    "uzbekistan": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME қолданбасын жүктеп алу"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit калькуляторы",
+        "exchangeRateLabel": "Валюта бағамы",
+        "receiverGetsLabel": "Алушы алатын сома",
+        "recipientCountryLabel": "Алушы ел",
+        "recipientCountryOption": "Uzbekistan",
+        "sendAmountLabel": "Жіберілетін сома",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Ақшаны қазір жіберу",
+        "transferFeeLabel": "Аударым комиссиясы"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "UZS",
+        "sampleTag": "Үлгі мәндер"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Барлық құқықтар қорғалған.",
+        "logoText": "GME",
+        "tagline": "Financial services made for Uzbeks in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Қолданбаны жүктеп алу",
+        "navItems": {
+          "company": "Компания",
+          "countries": "Елдер",
+          "news": "Жаңалықтар",
+          "services": "Қызметтер",
+          "support": "Қолдау"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Ақшаны қазір жіберу",
+        "ctaSecondaryLabel": "Бастау",
+        "eyebrow": "GME Uzbekistan",
+        "headingLines": [
+          "Үйге ақша жіберіңіз.",
+          "Байланыста болыңыз.",
+          "Оңай төлем жасаңыз."
+        ],
+        "subheading": "Кореяда тұратын Uzbeks арналған сенімді қызметтер"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit туралы жиі қойылатын сұрақтар",
+          "items": [
+            {
+              "answer": [
+                "GME Remit аударымдары әдетте шамамен 10 секундта аяқталады. Нақты уақыт алушы елге, банкке немесе төлем алу тәсіліне байланысты өзгеруі мүмкін."
+              ],
+              "question": "GME Remit арқылы ақша жіберу қанша уақыт алады?"
+            },
+            {
+              "answer": [
+                "Иә. GME Remit — Кореяда лицензияланған ақша аудару қызметі және тиісті қаржы органдарының қадағалауында. Қауіпсіз сәйкестендіру және транзакция процестері қолданылады."
+              ],
+              "question": "GME Remit пайдалану қауіпсіз бе?"
+            },
+            {
+              "answer": [
+                "GME Remit қолданбасын жүктеп, аккаунт ашыңыз және қажетті жеке басыңызды растауды аяқтаңыз. Содан кейін қызметтерді пайдалана аласыз."
+              ],
+              "question": "GME Remit аккаунтын қалай ашамын?"
+            },
+            {
+              "answer": [
+                "GME Remit көптеген елдерге халықаралық ақша аударымдарын қолдайды. Қолжетімді бағыттар мен төлем алу тәсілдерін қолданбадан тексеріңіз."
+              ],
+              "question": "GME Remit арқылы қай елдерге ақша жібере аламын?"
+            },
+            {
+              "answer": [
+                "Қолдау қызметі дүйсенбіден жексенбіге дейін 10:00–23:00 жұмыс істейді. {SUPPORT_PHONE_NUMBER} нөмірі, GME Remit қолданбасы, ресми әлеуметтік желілер немесе Кореядағы GME Remit бөлімшелері арқылы хабарласа аласыз."
+              ],
+              "question": "Аударымда мәселе туындаса не істеуім керек?"
+            }
+          ],
+          "subheading": "GME Remit арқылы ақша жіберу туралы жиі қойылатын сұрақтарға жауап табыңыз"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Uzbekistan-мен байланысу",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Қауымдастығымызға арналған жаңалықтар, пайдалы кеңестер және жаңартулар"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME карталарын көру",
+          "description": "Кореяда және шетелде күнделікті өмірге арналған ыңғайлы төлемдер.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Әлем бойынша төлем жасау",
+            "Сауда",
+            "Көлік",
+            "Кэшбэк",
+            "EasyCare артықшылықтары"
+          ],
+          "heading": "Барлығына арналған бір карта"
+        },
+        "exchangeRate": {
+          "description": "Кореядан Uzbekistan ақша жіберер алдында соңғы GME Remit валюта бағамын тексеріңіз",
+          "eyebrow": "Валюта бағамы",
+          "heading": "Бүгінгі валюта бағамын тексеріңіз",
+          "note": "Бағамдар күн ішінде өзгеруі мүмкін"
+        },
+        "loan": {
+          "ctaLabel": "Қазір өтініш беру",
+          "description": "Кореяда тұратын шетелдіктерге арналған ыңғайлы цифрлық несие қызметі. GME қолданбасы арқылы оңай өтініш беріңіз.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Қағазсыз несие өтінімі",
+            "Несие мәртебесін нақты уақытта тексеру",
+            "Несие қалдығын нақты уақытта тексеру"
+          ],
+          "heading": "Сіздің цифрлық қаржы серіктесіңіз"
+        },
+        "remittance": {
+          "ctaLabel": "Ақшаны қазір жіберу",
+          "description": "Кореядан Uzbekistanдағы отбасыңыз бен жақындарыңызға қолдау көрсетудің қарапайым әрі қауіпсіз жолы.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Бәсекеге қабілетті валюта бағамдары",
+            "Жылдам әрі сенімді аударымдар",
+            "Ашық комиссиялар",
+            "Қажет кезде қолдау"
+          ],
+          "heading": "Uzbekistan ақша жіберу"
+        },
+        "simCard": {
+          "ctaLabel": "SIM жоспарларын көру",
+          "description": "Кореядағы өмірді жеңілдетуге арналған мобильді жоспарлармен маңызды адамдармен байланыста болыңыз.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Сенімді байланыс",
+            "Икемді SIM жоспарлары",
+            "Оңай қосылу",
+            "Жергілікті достық қолдау"
+          ],
+          "heading": "Кореяда байланыста болыңыз"
+        }
+      }
+    },
+    "vietnam": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "GME қолданбасын жүктеп алу"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "GME Remit калькуляторы",
+        "exchangeRateLabel": "Валюта бағамы",
+        "receiverGetsLabel": "Алушы алатын сома",
+        "recipientCountryLabel": "Алушы ел",
+        "recipientCountryOption": "Vietnam",
+        "sendAmountLabel": "Жіберілетін сома",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Ақшаны қазір жіберу",
+        "transferFeeLabel": "Аударым комиссиясы"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "VND",
+        "sampleTag": "Үлгі мәндер"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Барлық құқықтар қорғалған.",
+        "logoText": "GME",
+        "tagline": "Financial services made for Vietnamese in Korea."
+      },
+      "header": {
+        "downloadAppLabel": "Қолданбаны жүктеп алу",
+        "navItems": {
+          "company": "Компания",
+          "countries": "Елдер",
+          "news": "Жаңалықтар",
+          "services": "Қызметтер",
+          "support": "Қолдау"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Ақшаны қазір жіберу",
+        "ctaSecondaryLabel": "Бастау",
+        "eyebrow": "GME Vietnam",
+        "headingLines": [
+          "Үйге ақша жіберіңіз.",
+          "Байланыста болыңыз.",
+          "Оңай төлем жасаңыз."
+        ],
+        "subheading": "Кореяда тұратын Vietnamese арналған сенімді қызметтер"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "GME Remit туралы жиі қойылатын сұрақтар",
+          "items": [
+            {
+              "answer": [
+                "GME Remit аударымдары әдетте шамамен 10 секундта аяқталады. Нақты уақыт алушы елге, банкке немесе төлем алу тәсіліне байланысты өзгеруі мүмкін."
+              ],
+              "question": "GME Remit арқылы ақша жіберу қанша уақыт алады?"
+            },
+            {
+              "answer": [
+                "Иә. GME Remit — Кореяда лицензияланған ақша аудару қызметі және тиісті қаржы органдарының қадағалауында. Қауіпсіз сәйкестендіру және транзакция процестері қолданылады."
+              ],
+              "question": "GME Remit пайдалану қауіпсіз бе?"
+            },
+            {
+              "answer": [
+                "GME Remit қолданбасын жүктеп, аккаунт ашыңыз және қажетті жеке басыңызды растауды аяқтаңыз. Содан кейін қызметтерді пайдалана аласыз."
+              ],
+              "question": "GME Remit аккаунтын қалай ашамын?"
+            },
+            {
+              "answer": [
+                "GME Remit көптеген елдерге халықаралық ақша аударымдарын қолдайды. Қолжетімді бағыттар мен төлем алу тәсілдерін қолданбадан тексеріңіз."
+              ],
+              "question": "GME Remit арқылы қай елдерге ақша жібере аламын?"
+            },
+            {
+              "answer": [
+                "Қолдау қызметі дүйсенбіден жексенбіге дейін 10:00–23:00 жұмыс істейді. {SUPPORT_PHONE_NUMBER} нөмірі, GME Remit қолданбасы, ресми әлеуметтік желілер немесе Кореядағы GME Remit бөлімшелері арқылы хабарласа аласыз."
+              ],
+              "question": "Аударымда мәселе туындаса не істеуім керек?"
+            }
+          ],
+          "subheading": "GME Remit арқылы ақша жіберу туралы жиі қойылатын сұрақтарға жауап табыңыз"
+        }
+      },
+      "social-connect": {
+        "heading": "GME Vietnam-мен байланысу",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Қауымдастығымызға арналған жаңалықтар, пайдалы кеңестер және жаңартулар"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "GME карталарын көру",
+          "description": "Кореяда және шетелде күнделікті өмірге арналған ыңғайлы төлемдер.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Әлем бойынша төлем жасау",
+            "Сауда",
+            "Көлік",
+            "Кэшбэк",
+            "EasyCare артықшылықтары"
+          ],
+          "heading": "Барлығына арналған бір карта"
+        },
+        "exchangeRate": {
+          "description": "Кореядан Vietnam ақша жіберер алдында соңғы GME Remit валюта бағамын тексеріңіз",
+          "eyebrow": "Валюта бағамы",
+          "heading": "Бүгінгі валюта бағамын тексеріңіз",
+          "note": "Бағамдар күн ішінде өзгеруі мүмкін"
+        },
+        "loan": {
+          "ctaLabel": "Қазір өтініш беру",
+          "description": "Кореяда тұратын шетелдіктерге арналған ыңғайлы цифрлық несие қызметі. GME қолданбасы арқылы оңай өтініш беріңіз.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Қағазсыз несие өтінімі",
+            "Несие мәртебесін нақты уақытта тексеру",
+            "Несие қалдығын нақты уақытта тексеру"
+          ],
+          "heading": "Сіздің цифрлық қаржы серіктесіңіз"
+        },
+        "remittance": {
+          "ctaLabel": "Ақшаны қазір жіберу",
+          "description": "Кореядан Vietnamдағы отбасыңыз бен жақындарыңызға қолдау көрсетудің қарапайым әрі қауіпсіз жолы.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Бәсекеге қабілетті валюта бағамдары",
+            "Жылдам әрі сенімді аударымдар",
+            "Ашық комиссиялар",
+            "Қажет кезде қолдау"
+          ],
+          "heading": "Vietnam ақша жіберу"
+        },
+        "simCard": {
+          "ctaLabel": "SIM жоспарларын көру",
+          "description": "Кореядағы өмірді жеңілдетуге арналған мобильді жоспарлармен маңызды адамдармен байланыста болыңыз.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Сенімді байланыс",
+            "Икемді SIM жоспарлары",
+            "Оңай қосылу",
+            "Жергілікті достық қолдау"
+          ],
+          "heading": "Кореяда байланыста болыңыз"
+        }
+      }
+    }
+  }
+}

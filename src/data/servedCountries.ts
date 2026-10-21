@@ -3,7 +3,7 @@ export interface ServedEntry {
   flagSrc?: string;
   emoji?: string;
   nameKey: string;
-  nameNs: "home.hero" | "header";
+  nameNs: "home.hero-main" | "header";
   langCode: string;
 }
 
@@ -11,38 +11,36 @@ function country(code: string, langCode: string): ServedEntry {
   return {
     code,
     flagSrc: `/images/flags/${code.toLowerCase()}.svg`,
-    nameKey: `countries.names.${code}`,
-    nameNs: "home.hero",
+    nameKey: `home.hero-main.countries.names.${code}`,
+    nameNs: "home.hero-main",
     langCode,
   };
 }
 
 function region(code: string, emoji: string, nameKey: string, langCode: string): ServedEntry {
-  return { code, emoji, nameKey, nameNs: "header", langCode };
+  return { code, emoji, nameKey, nameNs: "home.hero-main", langCode };
 }
 
-// Order matches the reference GME country selector exactly.
-// langCode: matching site language when selected; "en" when no dedicated language exists.
+// 순서는 기획 확정본을 따른다. 드롭다운은 이 순서를 세로로 2열에 나눠 채운다.
+// langCode: 선택 시 전환할 사이트 언어. 전용 언어가 없으면 "en".
 export const servedEntries: ServedEntry[] = [
-  country("PH", "en"),
-  country("ID", "id"),
-  // country("AFRICA", "en"),
-  // country("ARAB", "ar"),
-  country("CN", "zh"),
-  // country("SPANISH_LATAM", "es"),
-  country("VN", "vi"),
-  country("KZ", "en"),
   country("KH", "km"),
+  country("NP", "ne"),
+  country("ID", "id"),
+  country("UZ", "uz"),
+  country("MM", "my"),
+  country("TH", "th"),
+  country("CN", "zh"),
   country("BD", "bn"),
   country("MN", "mn"),
+  country("PH", "en"),
+  country("VN", "vi"),
   country("LA", "en"),
-  // country("RU", "en"),
-  country("MM", "my"),
-  country("NP", "ne"),
+  country("KZ", "en"),
+  region("CIS", "🗺️", "home.hero-main.countries.names.CIS", "en"),
   country("LK", "si"),
-  country("UZ", "uz"),
   country("IN", "en"),
-  country("PK", "ur"),
-  country("TH", "th"),
+  region("WEST_AFRICA", "🌍", "home.hero-main.countries.names.WEST_AFRICA", "en"),
   country("KG", "en"),
+  country("PK", "ur"),
 ];

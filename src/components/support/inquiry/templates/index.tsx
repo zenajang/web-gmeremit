@@ -10,11 +10,11 @@ import {
   SubmissionComplete,
 } from "@/components/support/inquiry/organisms";
 import ChannelService from "@/components/channel-talk/ChannelService";
-import { useInquiryTranslation } from "@/hooks/useInquiryTranslation";
+import { useTranslation } from "@/hooks/useTranslation";
 import type { InquiryCategory } from "@/components/support/inquiry/types";
 
 const InquiryTemplate = () => {
-  const { t, tArray } = useInquiryTranslation();
+  const { t, tArray } = useTranslation();
   const [selected, setSelected] = useState<InquiryCategory | null>(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
@@ -41,8 +41,8 @@ const InquiryTemplate = () => {
       <Backdrop />
 
       <section className={S.InquiryTemplateHeroSection}>
-        <h1 className={S.InquiryTemplateHeroTitle}>{t("hero.title")}</h1>
-        <p className={S.InquiryTemplateHeroDescription}>{t("hero.description")}</p>
+        <h1 className={S.InquiryTemplateHeroTitle}>{t("common.services.hero.title")}</h1>
+        <p className={S.InquiryTemplateHeroDescription}>{t("common.mobile-section.hero.description")}</p>
       </section>
 
       <div className={S.InquiryTemplateContainer}>
@@ -53,10 +53,10 @@ const InquiryTemplate = () => {
 
           {selected?.kind === "chat" && (
             <GuidePanel
-              title={t("chat.title")}
-              description={t("chat.description")}
-              items={tArray("chat.items")}
-              actionLabel={t("chat.action")}
+              title={t("common.services.chat.title")}
+              description={t("support-inquiry.chat.description")}
+              items={tArray("support-inquiry.chat.items")}
+              actionLabel={t("support-inquiry.chat.action")}
               onAction={() => openChannelTalk(selected.chatPage)}
               onReset={resetInquiryFlow}
             />
@@ -64,10 +64,10 @@ const InquiryTemplate = () => {
 
           {selected?.kind === "ext" && (
             <GuidePanel
-              title={t("external.title", { site: selected.site })}
-              description={t("external.description", { site: selected.site })}
-              items={tArray(`categories.${selected.no}.items`)}
-              actionLabel={t("external.action")}
+              title={t("common.services.external.title", { site: selected.site })}
+              description={t("support-inquiry.external.description", { site: selected.site })}
+              items={tArray(`support-inquiry.categories.${selected.no}.items`)}
+              actionLabel={t("support-inquiry.external.action")}
               onAction={() => window.open(selected.url, "_blank", "noopener,noreferrer")}
               onReset={resetInquiryFlow}
             />

@@ -1,0 +1,2707 @@
+{
+  "country": {
+    "bangladesh": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "I-download ang GME App"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator ng GME Remit",
+        "exchangeRateLabel": "Rate ng Palitan",
+        "receiverGetsLabel": "Matatanggap ng Recipient",
+        "recipientCountryLabel": "Bansang Tatanggap",
+        "recipientCountryOption": "Bangladesh",
+        "sendAmountLabel": "Halagang Ipapadala",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Magpadala Ngayon",
+        "transferFeeLabel": "Bayad sa Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "BDT",
+        "sampleTag": "Halimbawang halaga"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Lahat ng karapatan ay nakalaan.",
+        "logoText": "GME",
+        "tagline": "Mga serbisyong pinansyal para sa mga Bangladeshis sa Korea."
+      },
+      "header": {
+        "downloadAppLabel": "I-download ang App",
+        "navItems": {
+          "company": "Kumpanya",
+          "countries": "Mga Bansa",
+          "news": "Balita",
+          "services": "Mga Serbisyo",
+          "support": "Suporta"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Magpadala Ngayon",
+        "ctaSecondaryLabel": "Magsimula",
+        "eyebrow": "GME Bangladesh",
+        "headingLines": [
+          "Magpadala ng pera sa pamilya.",
+          "Manatiling konektado.",
+          "Gawing mas madali ang paggastos."
+        ],
+        "subheading": "Mga mapagkakatiwalaang serbisyo para sa mga Bangladeshis naninirahan sa Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Mga Madalas Itanong Tungkol sa GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Karaniwang natatapos ang paglilipat gamit ang GME Remit sa loob lamang ng humigit-kumulang 10 segundo, bagaman maaaring mag-iba ang aktwal na oras depende sa bansang tatanggap, bangko, o paraan ng pagbabayad."
+              ],
+              "question": "Gaano katagal bago maipadala ang pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Oo. Ang GME Remit ay lisensyadong serbisyo sa padala ng pera sa Korea at nasa ilalim ng pangangasiwa ng kaugnay na mga awtoridad pinansyal ng Korea. Gumagamit kami ng ligtas na pag-verify ng customer at proseso ng transaksyon upang protektahan ang aming mga customer."
+              ],
+              "question": "Ligtas bang gamitin ang GME Remit?"
+            },
+            {
+              "answer": [
+                "I-download ang GME Remit app, gumawa ng account, at kumpletuhin ang kinakailangang pag-verify ng pagkakakilanlan. Kapag natapos na ang pagpaparehistro at pag-verify, maaari mo nang simulan ang paggamit ng mga serbisyo ng GME Remit."
+              ],
+              "question": "Paano ako gagawa ng GME Remit account?"
+            },
+            {
+              "answer": [
+                "Sinusuportahan ng GME Remit ang internasyonal na padala ng pera sa maraming bansa sa buong mundo. Ang mga available na destinasyon at paraan ng pagbabayad ay maaaring tingnan direkta sa GME Remit app."
+              ],
+              "question": "Saang mga bansa ako maaaring magpadala ng pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Available ang aming customer support team mula 10:00 hanggang 23:00, Lunes hanggang Linggo. Maaari kaming tawagan sa {SUPPORT_PHONE_NUMBER}, kontakin sa GME Remit app o opisyal na GME social media channels, o bisitahin ang isang GME Remit branch sa Korea para sa personal na tulong."
+              ],
+              "question": "Ano ang gagawin ko kung may problema sa aking transfer?"
+            }
+          ],
+          "subheading": "Hanapin ang sagot sa mga karaniwang tanong tungkol sa pagpapadala ng pera gamit ang GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Kumonekta sa GME Bangladesh",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Balita, kapaki-pakinabang na tips, at updates para sa aming community"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Tingnan ang GME Cards",
+          "description": "Simple at madaling pagbabayad para sa araw-araw na buhay sa Korea at sa ibang bansa.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Magbayad saanman sa mundo",
+            "Pamimili",
+            "Transportasyon",
+            "Cashback",
+            "Mga Benepisyo ng EasyCare"
+          ],
+          "heading": "Isang Card para sa Lahat"
+        },
+        "exchangeRate": {
+          "description": "Tingnan ang pinakabagong GME Remit exchange rate bago magpadala ng pera mula Korea papuntang Bangladesh",
+          "eyebrow": "Rate ng Palitan",
+          "heading": "Tingnan ang Exchange Rate Ngayon",
+          "note": "Maaaring magbago ang rate anumang oras sa loob ng araw"
+        },
+        "loan": {
+          "ctaLabel": "Mag-apply Ngayon",
+          "description": "Damhin ang makabagong loan service para sa mga dayuhan. Madaling mag-apply gamit ang GME app—isang simpleng digital loan experience para sa mga dayuhang naninirahan sa Korea.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Paperless na Finance Application",
+            "Real-time na Pagsubaybay sa Finance Status",
+            "Real-time na Pagsubaybay sa Finance Balance"
+          ],
+          "heading": "Ang Iyong Digital Finance Partner"
+        },
+        "remittance": {
+          "ctaLabel": "Magpadala Ngayon",
+          "description": "Isang simple at secure na paraan para suportahan ang iyong pamilya at mga mahal sa buhay sa Bangladesh mula Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Competitive na exchange rates",
+            "Mabilis at maaasahang transfer",
+            "Malinaw na mga bayarin",
+            "Suporta kapag kailangan mo"
+          ],
+          "heading": "Magpadala ng Pera sa Bangladesh"
+        },
+        "simCard": {
+          "ctaLabel": "Tingnan ang SIM Plans",
+          "description": "Manatiling konektado sa mga mahalaga sa iyo gamit ang mga mobile plan na dinisenyo para gawing mas simple ang buhay sa Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Maaasahang koneksyon",
+            "Flexible na SIM plans",
+            "Madaling setup",
+            "Magiliw na lokal na suporta"
+          ],
+          "heading": "Manatiling Konektado sa Korea"
+        }
+      }
+    },
+    "cambodia": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "I-download ang GME App"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator ng GME Remit",
+        "exchangeRateLabel": "Rate ng Palitan",
+        "receiverGetsLabel": "Matatanggap ng Recipient",
+        "recipientCountryLabel": "Bansang Tatanggap",
+        "recipientCountryOption": "Cambodia",
+        "sendAmountLabel": "Halagang Ipapadala",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Magpadala Ngayon",
+        "transferFeeLabel": "Bayad sa Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "KHR",
+        "sampleTag": "Halimbawang halaga"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Lahat ng karapatan ay nakalaan.",
+        "logoText": "GME",
+        "tagline": "Mga serbisyong pinansyal para sa mga Cambodians sa Korea."
+      },
+      "header": {
+        "downloadAppLabel": "I-download ang App",
+        "navItems": {
+          "company": "Kumpanya",
+          "countries": "Mga Bansa",
+          "news": "Balita",
+          "services": "Mga Serbisyo",
+          "support": "Suporta"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Magpadala Ngayon",
+        "ctaSecondaryLabel": "Magsimula",
+        "eyebrow": "GME Cambodia",
+        "headingLines": [
+          "Magpadala ng pera sa pamilya.",
+          "Manatiling konektado.",
+          "Gawing mas madali ang paggastos."
+        ],
+        "subheading": "Mga mapagkakatiwalaang serbisyo para sa mga Cambodians naninirahan sa Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Mga Madalas Itanong Tungkol sa GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Karaniwang natatapos ang paglilipat gamit ang GME Remit sa loob lamang ng humigit-kumulang 10 segundo, bagaman maaaring mag-iba ang aktwal na oras depende sa bansang tatanggap, bangko, o paraan ng pagbabayad."
+              ],
+              "question": "Gaano katagal bago maipadala ang pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Oo. Ang GME Remit ay lisensyadong serbisyo sa padala ng pera sa Korea at nasa ilalim ng pangangasiwa ng kaugnay na mga awtoridad pinansyal ng Korea. Gumagamit kami ng ligtas na pag-verify ng customer at proseso ng transaksyon upang protektahan ang aming mga customer."
+              ],
+              "question": "Ligtas bang gamitin ang GME Remit?"
+            },
+            {
+              "answer": [
+                "I-download ang GME Remit app, gumawa ng account, at kumpletuhin ang kinakailangang pag-verify ng pagkakakilanlan. Kapag natapos na ang pagpaparehistro at pag-verify, maaari mo nang simulan ang paggamit ng mga serbisyo ng GME Remit."
+              ],
+              "question": "Paano ako gagawa ng GME Remit account?"
+            },
+            {
+              "answer": [
+                "Sinusuportahan ng GME Remit ang internasyonal na padala ng pera sa maraming bansa sa buong mundo. Ang mga available na destinasyon at paraan ng pagbabayad ay maaaring tingnan direkta sa GME Remit app."
+              ],
+              "question": "Saang mga bansa ako maaaring magpadala ng pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Available ang aming customer support team mula 10:00 hanggang 23:00, Lunes hanggang Linggo. Maaari kaming tawagan sa {SUPPORT_PHONE_NUMBER}, kontakin sa GME Remit app o opisyal na GME social media channels, o bisitahin ang isang GME Remit branch sa Korea para sa personal na tulong."
+              ],
+              "question": "Ano ang gagawin ko kung may problema sa aking transfer?"
+            }
+          ],
+          "subheading": "Hanapin ang sagot sa mga karaniwang tanong tungkol sa pagpapadala ng pera gamit ang GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Kumonekta sa GME Cambodia",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Balita, kapaki-pakinabang na tips, at updates para sa aming community"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Tingnan ang GME Cards",
+          "description": "Simple at madaling pagbabayad para sa araw-araw na buhay sa Korea at sa ibang bansa.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Magbayad saanman sa mundo",
+            "Pamimili",
+            "Transportasyon",
+            "Cashback",
+            "Mga Benepisyo ng EasyCare"
+          ],
+          "heading": "Isang Card para sa Lahat"
+        },
+        "exchangeRate": {
+          "description": "Tingnan ang pinakabagong GME Remit exchange rate bago magpadala ng pera mula Korea papuntang Cambodia",
+          "eyebrow": "Rate ng Palitan",
+          "heading": "Tingnan ang Exchange Rate Ngayon",
+          "note": "Maaaring magbago ang rate anumang oras sa loob ng araw"
+        },
+        "loan": {
+          "ctaLabel": "Mag-apply Ngayon",
+          "description": "Damhin ang makabagong loan service para sa mga dayuhan. Madaling mag-apply gamit ang GME app—isang simpleng digital loan experience para sa mga dayuhang naninirahan sa Korea.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Paperless na Finance Application",
+            "Real-time na Pagsubaybay sa Finance Status",
+            "Real-time na Pagsubaybay sa Finance Balance"
+          ],
+          "heading": "Ang Iyong Digital Finance Partner"
+        },
+        "remittance": {
+          "ctaLabel": "Magpadala Ngayon",
+          "description": "Isang simple at secure na paraan para suportahan ang iyong pamilya at mga mahal sa buhay sa Cambodia mula Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Competitive na exchange rates",
+            "Mabilis at maaasahang transfer",
+            "Malinaw na mga bayarin",
+            "Suporta kapag kailangan mo"
+          ],
+          "heading": "Magpadala ng Pera sa Cambodia"
+        },
+        "simCard": {
+          "ctaLabel": "Tingnan ang SIM Plans",
+          "description": "Manatiling konektado sa mga mahalaga sa iyo gamit ang mga mobile plan na dinisenyo para gawing mas simple ang buhay sa Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Maaasahang koneksyon",
+            "Flexible na SIM plans",
+            "Madaling setup",
+            "Magiliw na lokal na suporta"
+          ],
+          "heading": "Manatiling Konektado sa Korea"
+        }
+      }
+    },
+    "china": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "I-download ang GME App"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator ng GME Remit",
+        "exchangeRateLabel": "Rate ng Palitan",
+        "receiverGetsLabel": "Matatanggap ng Recipient",
+        "recipientCountryLabel": "Bansang Tatanggap",
+        "recipientCountryOption": "China",
+        "sendAmountLabel": "Halagang Ipapadala",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Magpadala Ngayon",
+        "transferFeeLabel": "Bayad sa Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "CNY",
+        "sampleTag": "Halimbawang halaga"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Lahat ng karapatan ay nakalaan.",
+        "logoText": "GME",
+        "tagline": "Mga serbisyong pinansyal para sa mga Chinese nationals sa Korea."
+      },
+      "header": {
+        "downloadAppLabel": "I-download ang App",
+        "navItems": {
+          "company": "Kumpanya",
+          "countries": "Mga Bansa",
+          "news": "Balita",
+          "services": "Mga Serbisyo",
+          "support": "Suporta"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Magpadala Ngayon",
+        "ctaSecondaryLabel": "Magsimula",
+        "eyebrow": "GME China",
+        "headingLines": [
+          "Magpadala ng pera sa pamilya.",
+          "Manatiling konektado.",
+          "Gawing mas madali ang paggastos."
+        ],
+        "subheading": "Mga mapagkakatiwalaang serbisyo para sa mga Chinese nationals naninirahan sa Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Mga Madalas Itanong Tungkol sa GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Karaniwang natatapos ang paglilipat gamit ang GME Remit sa loob lamang ng humigit-kumulang 10 segundo, bagaman maaaring mag-iba ang aktwal na oras depende sa bansang tatanggap, bangko, o paraan ng pagbabayad."
+              ],
+              "question": "Gaano katagal bago maipadala ang pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Oo. Ang GME Remit ay lisensyadong serbisyo sa padala ng pera sa Korea at nasa ilalim ng pangangasiwa ng kaugnay na mga awtoridad pinansyal ng Korea. Gumagamit kami ng ligtas na pag-verify ng customer at proseso ng transaksyon upang protektahan ang aming mga customer."
+              ],
+              "question": "Ligtas bang gamitin ang GME Remit?"
+            },
+            {
+              "answer": [
+                "I-download ang GME Remit app, gumawa ng account, at kumpletuhin ang kinakailangang pag-verify ng pagkakakilanlan. Kapag natapos na ang pagpaparehistro at pag-verify, maaari mo nang simulan ang paggamit ng mga serbisyo ng GME Remit."
+              ],
+              "question": "Paano ako gagawa ng GME Remit account?"
+            },
+            {
+              "answer": [
+                "Sinusuportahan ng GME Remit ang internasyonal na padala ng pera sa maraming bansa sa buong mundo. Ang mga available na destinasyon at paraan ng pagbabayad ay maaaring tingnan direkta sa GME Remit app."
+              ],
+              "question": "Saang mga bansa ako maaaring magpadala ng pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Available ang aming customer support team mula 10:00 hanggang 23:00, Lunes hanggang Linggo. Maaari kaming tawagan sa {SUPPORT_PHONE_NUMBER}, kontakin sa GME Remit app o opisyal na GME social media channels, o bisitahin ang isang GME Remit branch sa Korea para sa personal na tulong."
+              ],
+              "question": "Ano ang gagawin ko kung may problema sa aking transfer?"
+            }
+          ],
+          "subheading": "Hanapin ang sagot sa mga karaniwang tanong tungkol sa pagpapadala ng pera gamit ang GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Kumonekta sa GME China",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Balita, kapaki-pakinabang na tips, at updates para sa aming community"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Tingnan ang GME Cards",
+          "description": "Simple at madaling pagbabayad para sa araw-araw na buhay sa Korea at sa ibang bansa.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Magbayad saanman sa mundo",
+            "Pamimili",
+            "Transportasyon",
+            "Cashback",
+            "Mga Benepisyo ng EasyCare"
+          ],
+          "heading": "Isang Card para sa Lahat"
+        },
+        "exchangeRate": {
+          "description": "Tingnan ang pinakabagong GME Remit exchange rate bago magpadala ng pera mula Korea papuntang China",
+          "eyebrow": "Rate ng Palitan",
+          "heading": "Tingnan ang Exchange Rate Ngayon",
+          "note": "Maaaring magbago ang rate anumang oras sa loob ng araw"
+        },
+        "loan": {
+          "ctaLabel": "Mag-apply Ngayon",
+          "description": "Damhin ang makabagong loan service para sa mga dayuhan. Madaling mag-apply gamit ang GME app—isang simpleng digital loan experience para sa mga dayuhang naninirahan sa Korea.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Paperless na Finance Application",
+            "Real-time na Pagsubaybay sa Finance Status",
+            "Real-time na Pagsubaybay sa Finance Balance"
+          ],
+          "heading": "Ang Iyong Digital Finance Partner"
+        },
+        "remittance": {
+          "ctaLabel": "Magpadala Ngayon",
+          "description": "Isang simple at secure na paraan para suportahan ang iyong pamilya at mga mahal sa buhay sa China mula Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Competitive na exchange rates",
+            "Mabilis at maaasahang transfer",
+            "Malinaw na mga bayarin",
+            "Suporta kapag kailangan mo"
+          ],
+          "heading": "Magpadala ng Pera sa China"
+        },
+        "simCard": {
+          "ctaLabel": "Tingnan ang SIM Plans",
+          "description": "Manatiling konektado sa mga mahalaga sa iyo gamit ang mga mobile plan na dinisenyo para gawing mas simple ang buhay sa Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Maaasahang koneksyon",
+            "Flexible na SIM plans",
+            "Madaling setup",
+            "Magiliw na lokal na suporta"
+          ],
+          "heading": "Manatiling Konektado sa Korea"
+        }
+      }
+    },
+    "india": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "I-download ang GME App"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator ng GME Remit",
+        "exchangeRateLabel": "Rate ng Palitan",
+        "receiverGetsLabel": "Matatanggap ng Recipient",
+        "recipientCountryLabel": "Bansang Tatanggap",
+        "recipientCountryOption": "India",
+        "sendAmountLabel": "Halagang Ipapadala",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Magpadala Ngayon",
+        "transferFeeLabel": "Bayad sa Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "INR",
+        "sampleTag": "Halimbawang halaga"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Lahat ng karapatan ay nakalaan.",
+        "logoText": "GME",
+        "tagline": "Mga serbisyong pinansyal para sa mga Indians sa Korea."
+      },
+      "header": {
+        "downloadAppLabel": "I-download ang App",
+        "navItems": {
+          "company": "Kumpanya",
+          "countries": "Mga Bansa",
+          "news": "Balita",
+          "services": "Mga Serbisyo",
+          "support": "Suporta"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Magpadala Ngayon",
+        "ctaSecondaryLabel": "Magsimula",
+        "eyebrow": "GME India",
+        "headingLines": [
+          "Magpadala ng pera sa pamilya.",
+          "Manatiling konektado.",
+          "Gawing mas madali ang paggastos."
+        ],
+        "subheading": "Mga mapagkakatiwalaang serbisyo para sa mga Indians naninirahan sa Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Mga Madalas Itanong Tungkol sa GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Karaniwang natatapos ang paglilipat gamit ang GME Remit sa loob lamang ng humigit-kumulang 10 segundo, bagaman maaaring mag-iba ang aktwal na oras depende sa bansang tatanggap, bangko, o paraan ng pagbabayad."
+              ],
+              "question": "Gaano katagal bago maipadala ang pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Oo. Ang GME Remit ay lisensyadong serbisyo sa padala ng pera sa Korea at nasa ilalim ng pangangasiwa ng kaugnay na mga awtoridad pinansyal ng Korea. Gumagamit kami ng ligtas na pag-verify ng customer at proseso ng transaksyon upang protektahan ang aming mga customer."
+              ],
+              "question": "Ligtas bang gamitin ang GME Remit?"
+            },
+            {
+              "answer": [
+                "I-download ang GME Remit app, gumawa ng account, at kumpletuhin ang kinakailangang pag-verify ng pagkakakilanlan. Kapag natapos na ang pagpaparehistro at pag-verify, maaari mo nang simulan ang paggamit ng mga serbisyo ng GME Remit."
+              ],
+              "question": "Paano ako gagawa ng GME Remit account?"
+            },
+            {
+              "answer": [
+                "Sinusuportahan ng GME Remit ang internasyonal na padala ng pera sa maraming bansa sa buong mundo. Ang mga available na destinasyon at paraan ng pagbabayad ay maaaring tingnan direkta sa GME Remit app."
+              ],
+              "question": "Saang mga bansa ako maaaring magpadala ng pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Available ang aming customer support team mula 10:00 hanggang 23:00, Lunes hanggang Linggo. Maaari kaming tawagan sa {SUPPORT_PHONE_NUMBER}, kontakin sa GME Remit app o opisyal na GME social media channels, o bisitahin ang isang GME Remit branch sa Korea para sa personal na tulong."
+              ],
+              "question": "Ano ang gagawin ko kung may problema sa aking transfer?"
+            }
+          ],
+          "subheading": "Hanapin ang sagot sa mga karaniwang tanong tungkol sa pagpapadala ng pera gamit ang GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Kumonekta sa GME India",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Balita, kapaki-pakinabang na tips, at updates para sa aming community"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Tingnan ang GME Cards",
+          "description": "Simple at madaling pagbabayad para sa araw-araw na buhay sa Korea at sa ibang bansa.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Magbayad saanman sa mundo",
+            "Pamimili",
+            "Transportasyon",
+            "Cashback",
+            "Mga Benepisyo ng EasyCare"
+          ],
+          "heading": "Isang Card para sa Lahat"
+        },
+        "exchangeRate": {
+          "description": "Tingnan ang pinakabagong GME Remit exchange rate bago magpadala ng pera mula Korea papuntang India",
+          "eyebrow": "Rate ng Palitan",
+          "heading": "Tingnan ang Exchange Rate Ngayon",
+          "note": "Maaaring magbago ang rate anumang oras sa loob ng araw"
+        },
+        "loan": {
+          "ctaLabel": "Mag-apply Ngayon",
+          "description": "Damhin ang makabagong loan service para sa mga dayuhan. Madaling mag-apply gamit ang GME app—isang simpleng digital loan experience para sa mga dayuhang naninirahan sa Korea.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Paperless na Finance Application",
+            "Real-time na Pagsubaybay sa Finance Status",
+            "Real-time na Pagsubaybay sa Finance Balance"
+          ],
+          "heading": "Ang Iyong Digital Finance Partner"
+        },
+        "remittance": {
+          "ctaLabel": "Magpadala Ngayon",
+          "description": "Isang simple at secure na paraan para suportahan ang iyong pamilya at mga mahal sa buhay sa India mula Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Competitive na exchange rates",
+            "Mabilis at maaasahang transfer",
+            "Malinaw na mga bayarin",
+            "Suporta kapag kailangan mo"
+          ],
+          "heading": "Magpadala ng Pera sa India"
+        },
+        "simCard": {
+          "ctaLabel": "Tingnan ang SIM Plans",
+          "description": "Manatiling konektado sa mga mahalaga sa iyo gamit ang mga mobile plan na dinisenyo para gawing mas simple ang buhay sa Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Maaasahang koneksyon",
+            "Flexible na SIM plans",
+            "Madaling setup",
+            "Magiliw na lokal na suporta"
+          ],
+          "heading": "Manatiling Konektado sa Korea"
+        }
+      }
+    },
+    "indonesia": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "I-download ang GME App"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator ng GME Remit",
+        "exchangeRateLabel": "Rate ng Palitan",
+        "receiverGetsLabel": "Matatanggap ng Recipient",
+        "recipientCountryLabel": "Bansang Tatanggap",
+        "recipientCountryOption": "Indonesia",
+        "sendAmountLabel": "Halagang Ipapadala",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Magpadala Ngayon",
+        "transferFeeLabel": "Bayad sa Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "IDR",
+        "sampleTag": "Halimbawang halaga"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Lahat ng karapatan ay nakalaan.",
+        "logoText": "GME",
+        "tagline": "Mga serbisyong pinansyal para sa mga Indonesians sa Korea."
+      },
+      "header": {
+        "downloadAppLabel": "I-download ang App",
+        "navItems": {
+          "company": "Kumpanya",
+          "countries": "Mga Bansa",
+          "news": "Balita",
+          "services": "Mga Serbisyo",
+          "support": "Suporta"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Magpadala Ngayon",
+        "ctaSecondaryLabel": "Magsimula",
+        "eyebrow": "GME Indonesia",
+        "headingLines": [
+          "Magpadala ng pera sa pamilya.",
+          "Manatiling konektado.",
+          "Gawing mas madali ang paggastos."
+        ],
+        "subheading": "Mga mapagkakatiwalaang serbisyo para sa mga Indonesians naninirahan sa Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Mga Madalas Itanong Tungkol sa GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Karaniwang natatapos ang paglilipat gamit ang GME Remit sa loob lamang ng humigit-kumulang 10 segundo, bagaman maaaring mag-iba ang aktwal na oras depende sa bansang tatanggap, bangko, o paraan ng pagbabayad."
+              ],
+              "question": "Gaano katagal bago maipadala ang pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Oo. Ang GME Remit ay lisensyadong serbisyo sa padala ng pera sa Korea at nasa ilalim ng pangangasiwa ng kaugnay na mga awtoridad pinansyal ng Korea. Gumagamit kami ng ligtas na pag-verify ng customer at proseso ng transaksyon upang protektahan ang aming mga customer."
+              ],
+              "question": "Ligtas bang gamitin ang GME Remit?"
+            },
+            {
+              "answer": [
+                "I-download ang GME Remit app, gumawa ng account, at kumpletuhin ang kinakailangang pag-verify ng pagkakakilanlan. Kapag natapos na ang pagpaparehistro at pag-verify, maaari mo nang simulan ang paggamit ng mga serbisyo ng GME Remit."
+              ],
+              "question": "Paano ako gagawa ng GME Remit account?"
+            },
+            {
+              "answer": [
+                "Sinusuportahan ng GME Remit ang internasyonal na padala ng pera sa maraming bansa sa buong mundo. Ang mga available na destinasyon at paraan ng pagbabayad ay maaaring tingnan direkta sa GME Remit app."
+              ],
+              "question": "Saang mga bansa ako maaaring magpadala ng pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Available ang aming customer support team mula 10:00 hanggang 23:00, Lunes hanggang Linggo. Maaari kaming tawagan sa {SUPPORT_PHONE_NUMBER}, kontakin sa GME Remit app o opisyal na GME social media channels, o bisitahin ang isang GME Remit branch sa Korea para sa personal na tulong."
+              ],
+              "question": "Ano ang gagawin ko kung may problema sa aking transfer?"
+            }
+          ],
+          "subheading": "Hanapin ang sagot sa mga karaniwang tanong tungkol sa pagpapadala ng pera gamit ang GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Kumonekta sa GME Indonesia",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Balita, kapaki-pakinabang na tips, at updates para sa aming community"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Tingnan ang GME Cards",
+          "description": "Simple at madaling pagbabayad para sa araw-araw na buhay sa Korea at sa ibang bansa.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Magbayad saanman sa mundo",
+            "Pamimili",
+            "Transportasyon",
+            "Cashback",
+            "Mga Benepisyo ng EasyCare"
+          ],
+          "heading": "Isang Card para sa Lahat"
+        },
+        "exchangeRate": {
+          "description": "Tingnan ang pinakabagong GME Remit exchange rate bago magpadala ng pera mula Korea papuntang Indonesia",
+          "eyebrow": "Rate ng Palitan",
+          "heading": "Tingnan ang Exchange Rate Ngayon",
+          "note": "Maaaring magbago ang rate anumang oras sa loob ng araw"
+        },
+        "loan": {
+          "ctaLabel": "Mag-apply Ngayon",
+          "description": "Damhin ang makabagong loan service para sa mga dayuhan. Madaling mag-apply gamit ang GME app—isang simpleng digital loan experience para sa mga dayuhang naninirahan sa Korea.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Paperless na Finance Application",
+            "Real-time na Pagsubaybay sa Finance Status",
+            "Real-time na Pagsubaybay sa Finance Balance"
+          ],
+          "heading": "Ang Iyong Digital Finance Partner"
+        },
+        "remittance": {
+          "ctaLabel": "Magpadala Ngayon",
+          "description": "Isang simple at secure na paraan para suportahan ang iyong pamilya at mga mahal sa buhay sa Indonesia mula Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Competitive na exchange rates",
+            "Mabilis at maaasahang transfer",
+            "Malinaw na mga bayarin",
+            "Suporta kapag kailangan mo"
+          ],
+          "heading": "Magpadala ng Pera sa Indonesia"
+        },
+        "simCard": {
+          "ctaLabel": "Tingnan ang SIM Plans",
+          "description": "Manatiling konektado sa mga mahalaga sa iyo gamit ang mga mobile plan na dinisenyo para gawing mas simple ang buhay sa Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Maaasahang koneksyon",
+            "Flexible na SIM plans",
+            "Madaling setup",
+            "Magiliw na lokal na suporta"
+          ],
+          "heading": "Manatiling Konektado sa Korea"
+        }
+      }
+    },
+    "kazakhstan": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "I-download ang GME App"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator ng GME Remit",
+        "exchangeRateLabel": "Rate ng Palitan",
+        "receiverGetsLabel": "Matatanggap ng Recipient",
+        "recipientCountryLabel": "Bansang Tatanggap",
+        "recipientCountryOption": "Kazakhstan",
+        "sendAmountLabel": "Halagang Ipapadala",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Magpadala Ngayon",
+        "transferFeeLabel": "Bayad sa Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "KZT",
+        "sampleTag": "Halimbawang halaga"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Lahat ng karapatan ay nakalaan.",
+        "logoText": "GME",
+        "tagline": "Mga serbisyong pinansyal para sa mga Kazakhstanis sa Korea."
+      },
+      "header": {
+        "downloadAppLabel": "I-download ang App",
+        "navItems": {
+          "company": "Kumpanya",
+          "countries": "Mga Bansa",
+          "news": "Balita",
+          "services": "Mga Serbisyo",
+          "support": "Suporta"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Magpadala Ngayon",
+        "ctaSecondaryLabel": "Magsimula",
+        "eyebrow": "GME Kazakhstan",
+        "headingLines": [
+          "Magpadala ng pera sa pamilya.",
+          "Manatiling konektado.",
+          "Gawing mas madali ang paggastos."
+        ],
+        "subheading": "Mga mapagkakatiwalaang serbisyo para sa mga Kazakhstanis naninirahan sa Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Mga Madalas Itanong Tungkol sa GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Karaniwang natatapos ang paglilipat gamit ang GME Remit sa loob lamang ng humigit-kumulang 10 segundo, bagaman maaaring mag-iba ang aktwal na oras depende sa bansang tatanggap, bangko, o paraan ng pagbabayad."
+              ],
+              "question": "Gaano katagal bago maipadala ang pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Oo. Ang GME Remit ay lisensyadong serbisyo sa padala ng pera sa Korea at nasa ilalim ng pangangasiwa ng kaugnay na mga awtoridad pinansyal ng Korea. Gumagamit kami ng ligtas na pag-verify ng customer at proseso ng transaksyon upang protektahan ang aming mga customer."
+              ],
+              "question": "Ligtas bang gamitin ang GME Remit?"
+            },
+            {
+              "answer": [
+                "I-download ang GME Remit app, gumawa ng account, at kumpletuhin ang kinakailangang pag-verify ng pagkakakilanlan. Kapag natapos na ang pagpaparehistro at pag-verify, maaari mo nang simulan ang paggamit ng mga serbisyo ng GME Remit."
+              ],
+              "question": "Paano ako gagawa ng GME Remit account?"
+            },
+            {
+              "answer": [
+                "Sinusuportahan ng GME Remit ang internasyonal na padala ng pera sa maraming bansa sa buong mundo. Ang mga available na destinasyon at paraan ng pagbabayad ay maaaring tingnan direkta sa GME Remit app."
+              ],
+              "question": "Saang mga bansa ako maaaring magpadala ng pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Available ang aming customer support team mula 10:00 hanggang 23:00, Lunes hanggang Linggo. Maaari kaming tawagan sa {SUPPORT_PHONE_NUMBER}, kontakin sa GME Remit app o opisyal na GME social media channels, o bisitahin ang isang GME Remit branch sa Korea para sa personal na tulong."
+              ],
+              "question": "Ano ang gagawin ko kung may problema sa aking transfer?"
+            }
+          ],
+          "subheading": "Hanapin ang sagot sa mga karaniwang tanong tungkol sa pagpapadala ng pera gamit ang GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Kumonekta sa GME Kazakhstan",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Balita, kapaki-pakinabang na tips, at updates para sa aming community"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Tingnan ang GME Cards",
+          "description": "Simple at madaling pagbabayad para sa araw-araw na buhay sa Korea at sa ibang bansa.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Magbayad saanman sa mundo",
+            "Pamimili",
+            "Transportasyon",
+            "Cashback",
+            "Mga Benepisyo ng EasyCare"
+          ],
+          "heading": "Isang Card para sa Lahat"
+        },
+        "exchangeRate": {
+          "description": "Tingnan ang pinakabagong GME Remit exchange rate bago magpadala ng pera mula Korea papuntang Kazakhstan",
+          "eyebrow": "Rate ng Palitan",
+          "heading": "Tingnan ang Exchange Rate Ngayon",
+          "note": "Maaaring magbago ang rate anumang oras sa loob ng araw"
+        },
+        "loan": {
+          "ctaLabel": "Mag-apply Ngayon",
+          "description": "Damhin ang makabagong loan service para sa mga dayuhan. Madaling mag-apply gamit ang GME app—isang simpleng digital loan experience para sa mga dayuhang naninirahan sa Korea.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Paperless na Finance Application",
+            "Real-time na Pagsubaybay sa Finance Status",
+            "Real-time na Pagsubaybay sa Finance Balance"
+          ],
+          "heading": "Ang Iyong Digital Finance Partner"
+        },
+        "remittance": {
+          "ctaLabel": "Magpadala Ngayon",
+          "description": "Isang simple at secure na paraan para suportahan ang iyong pamilya at mga mahal sa buhay sa Kazakhstan mula Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Competitive na exchange rates",
+            "Mabilis at maaasahang transfer",
+            "Malinaw na mga bayarin",
+            "Suporta kapag kailangan mo"
+          ],
+          "heading": "Magpadala ng Pera sa Kazakhstan"
+        },
+        "simCard": {
+          "ctaLabel": "Tingnan ang SIM Plans",
+          "description": "Manatiling konektado sa mga mahalaga sa iyo gamit ang mga mobile plan na dinisenyo para gawing mas simple ang buhay sa Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Maaasahang koneksyon",
+            "Flexible na SIM plans",
+            "Madaling setup",
+            "Magiliw na lokal na suporta"
+          ],
+          "heading": "Manatiling Konektado sa Korea"
+        }
+      }
+    },
+    "kyrgyzstan": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "I-download ang GME App"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator ng GME Remit",
+        "exchangeRateLabel": "Rate ng Palitan",
+        "receiverGetsLabel": "Matatanggap ng Recipient",
+        "recipientCountryLabel": "Bansang Tatanggap",
+        "recipientCountryOption": "Kyrgyzstan",
+        "sendAmountLabel": "Halagang Ipapadala",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Magpadala Ngayon",
+        "transferFeeLabel": "Bayad sa Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "KGS",
+        "sampleTag": "Halimbawang halaga"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Lahat ng karapatan ay nakalaan.",
+        "logoText": "GME",
+        "tagline": "Mga serbisyong pinansyal para sa mga Kyrgyzstanis sa Korea."
+      },
+      "header": {
+        "downloadAppLabel": "I-download ang App",
+        "navItems": {
+          "company": "Kumpanya",
+          "countries": "Mga Bansa",
+          "news": "Balita",
+          "services": "Mga Serbisyo",
+          "support": "Suporta"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Magpadala Ngayon",
+        "ctaSecondaryLabel": "Magsimula",
+        "eyebrow": "GME Kyrgyzstan",
+        "headingLines": [
+          "Magpadala ng pera sa pamilya.",
+          "Manatiling konektado.",
+          "Gawing mas madali ang paggastos."
+        ],
+        "subheading": "Mga mapagkakatiwalaang serbisyo para sa mga Kyrgyzstanis naninirahan sa Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Mga Madalas Itanong Tungkol sa GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Karaniwang natatapos ang paglilipat gamit ang GME Remit sa loob lamang ng humigit-kumulang 10 segundo, bagaman maaaring mag-iba ang aktwal na oras depende sa bansang tatanggap, bangko, o paraan ng pagbabayad."
+              ],
+              "question": "Gaano katagal bago maipadala ang pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Oo. Ang GME Remit ay lisensyadong serbisyo sa padala ng pera sa Korea at nasa ilalim ng pangangasiwa ng kaugnay na mga awtoridad pinansyal ng Korea. Gumagamit kami ng ligtas na pag-verify ng customer at proseso ng transaksyon upang protektahan ang aming mga customer."
+              ],
+              "question": "Ligtas bang gamitin ang GME Remit?"
+            },
+            {
+              "answer": [
+                "I-download ang GME Remit app, gumawa ng account, at kumpletuhin ang kinakailangang pag-verify ng pagkakakilanlan. Kapag natapos na ang pagpaparehistro at pag-verify, maaari mo nang simulan ang paggamit ng mga serbisyo ng GME Remit."
+              ],
+              "question": "Paano ako gagawa ng GME Remit account?"
+            },
+            {
+              "answer": [
+                "Sinusuportahan ng GME Remit ang internasyonal na padala ng pera sa maraming bansa sa buong mundo. Ang mga available na destinasyon at paraan ng pagbabayad ay maaaring tingnan direkta sa GME Remit app."
+              ],
+              "question": "Saang mga bansa ako maaaring magpadala ng pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Available ang aming customer support team mula 10:00 hanggang 23:00, Lunes hanggang Linggo. Maaari kaming tawagan sa {SUPPORT_PHONE_NUMBER}, kontakin sa GME Remit app o opisyal na GME social media channels, o bisitahin ang isang GME Remit branch sa Korea para sa personal na tulong."
+              ],
+              "question": "Ano ang gagawin ko kung may problema sa aking transfer?"
+            }
+          ],
+          "subheading": "Hanapin ang sagot sa mga karaniwang tanong tungkol sa pagpapadala ng pera gamit ang GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Kumonekta sa GME Kyrgyzstan",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Balita, kapaki-pakinabang na tips, at updates para sa aming community"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Tingnan ang GME Cards",
+          "description": "Simple at madaling pagbabayad para sa araw-araw na buhay sa Korea at sa ibang bansa.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Magbayad saanman sa mundo",
+            "Pamimili",
+            "Transportasyon",
+            "Cashback",
+            "Mga Benepisyo ng EasyCare"
+          ],
+          "heading": "Isang Card para sa Lahat"
+        },
+        "exchangeRate": {
+          "description": "Tingnan ang pinakabagong GME Remit exchange rate bago magpadala ng pera mula Korea papuntang Kyrgyzstan",
+          "eyebrow": "Rate ng Palitan",
+          "heading": "Tingnan ang Exchange Rate Ngayon",
+          "note": "Maaaring magbago ang rate anumang oras sa loob ng araw"
+        },
+        "loan": {
+          "ctaLabel": "Mag-apply Ngayon",
+          "description": "Damhin ang makabagong loan service para sa mga dayuhan. Madaling mag-apply gamit ang GME app—isang simpleng digital loan experience para sa mga dayuhang naninirahan sa Korea.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Paperless na Finance Application",
+            "Real-time na Pagsubaybay sa Finance Status",
+            "Real-time na Pagsubaybay sa Finance Balance"
+          ],
+          "heading": "Ang Iyong Digital Finance Partner"
+        },
+        "remittance": {
+          "ctaLabel": "Magpadala Ngayon",
+          "description": "Isang simple at secure na paraan para suportahan ang iyong pamilya at mga mahal sa buhay sa Kyrgyzstan mula Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Competitive na exchange rates",
+            "Mabilis at maaasahang transfer",
+            "Malinaw na mga bayarin",
+            "Suporta kapag kailangan mo"
+          ],
+          "heading": "Magpadala ng Pera sa Kyrgyzstan"
+        },
+        "simCard": {
+          "ctaLabel": "Tingnan ang SIM Plans",
+          "description": "Manatiling konektado sa mga mahalaga sa iyo gamit ang mga mobile plan na dinisenyo para gawing mas simple ang buhay sa Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Maaasahang koneksyon",
+            "Flexible na SIM plans",
+            "Madaling setup",
+            "Magiliw na lokal na suporta"
+          ],
+          "heading": "Manatiling Konektado sa Korea"
+        }
+      }
+    },
+    "laos": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "I-download ang GME App"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator ng GME Remit",
+        "exchangeRateLabel": "Rate ng Palitan",
+        "receiverGetsLabel": "Matatanggap ng Recipient",
+        "recipientCountryLabel": "Bansang Tatanggap",
+        "recipientCountryOption": "Laos",
+        "sendAmountLabel": "Halagang Ipapadala",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Magpadala Ngayon",
+        "transferFeeLabel": "Bayad sa Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "LAK",
+        "sampleTag": "Halimbawang halaga"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Lahat ng karapatan ay nakalaan.",
+        "logoText": "GME",
+        "tagline": "Mga serbisyong pinansyal para sa mga Laotians sa Korea."
+      },
+      "header": {
+        "downloadAppLabel": "I-download ang App",
+        "navItems": {
+          "company": "Kumpanya",
+          "countries": "Mga Bansa",
+          "news": "Balita",
+          "services": "Mga Serbisyo",
+          "support": "Suporta"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Magpadala Ngayon",
+        "ctaSecondaryLabel": "Magsimula",
+        "eyebrow": "GME Laos",
+        "headingLines": [
+          "Magpadala ng pera sa pamilya.",
+          "Manatiling konektado.",
+          "Gawing mas madali ang paggastos."
+        ],
+        "subheading": "Mga mapagkakatiwalaang serbisyo para sa mga Laotians naninirahan sa Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Mga Madalas Itanong Tungkol sa GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Karaniwang natatapos ang paglilipat gamit ang GME Remit sa loob lamang ng humigit-kumulang 10 segundo, bagaman maaaring mag-iba ang aktwal na oras depende sa bansang tatanggap, bangko, o paraan ng pagbabayad."
+              ],
+              "question": "Gaano katagal bago maipadala ang pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Oo. Ang GME Remit ay lisensyadong serbisyo sa padala ng pera sa Korea at nasa ilalim ng pangangasiwa ng kaugnay na mga awtoridad pinansyal ng Korea. Gumagamit kami ng ligtas na pag-verify ng customer at proseso ng transaksyon upang protektahan ang aming mga customer."
+              ],
+              "question": "Ligtas bang gamitin ang GME Remit?"
+            },
+            {
+              "answer": [
+                "I-download ang GME Remit app, gumawa ng account, at kumpletuhin ang kinakailangang pag-verify ng pagkakakilanlan. Kapag natapos na ang pagpaparehistro at pag-verify, maaari mo nang simulan ang paggamit ng mga serbisyo ng GME Remit."
+              ],
+              "question": "Paano ako gagawa ng GME Remit account?"
+            },
+            {
+              "answer": [
+                "Sinusuportahan ng GME Remit ang internasyonal na padala ng pera sa maraming bansa sa buong mundo. Ang mga available na destinasyon at paraan ng pagbabayad ay maaaring tingnan direkta sa GME Remit app."
+              ],
+              "question": "Saang mga bansa ako maaaring magpadala ng pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Available ang aming customer support team mula 10:00 hanggang 23:00, Lunes hanggang Linggo. Maaari kaming tawagan sa {SUPPORT_PHONE_NUMBER}, kontakin sa GME Remit app o opisyal na GME social media channels, o bisitahin ang isang GME Remit branch sa Korea para sa personal na tulong."
+              ],
+              "question": "Ano ang gagawin ko kung may problema sa aking transfer?"
+            }
+          ],
+          "subheading": "Hanapin ang sagot sa mga karaniwang tanong tungkol sa pagpapadala ng pera gamit ang GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Kumonekta sa GME Laos",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Balita, kapaki-pakinabang na tips, at updates para sa aming community"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Tingnan ang GME Cards",
+          "description": "Simple at madaling pagbabayad para sa araw-araw na buhay sa Korea at sa ibang bansa.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Magbayad saanman sa mundo",
+            "Pamimili",
+            "Transportasyon",
+            "Cashback",
+            "Mga Benepisyo ng EasyCare"
+          ],
+          "heading": "Isang Card para sa Lahat"
+        },
+        "exchangeRate": {
+          "description": "Tingnan ang pinakabagong GME Remit exchange rate bago magpadala ng pera mula Korea papuntang Laos",
+          "eyebrow": "Rate ng Palitan",
+          "heading": "Tingnan ang Exchange Rate Ngayon",
+          "note": "Maaaring magbago ang rate anumang oras sa loob ng araw"
+        },
+        "loan": {
+          "ctaLabel": "Mag-apply Ngayon",
+          "description": "Damhin ang makabagong loan service para sa mga dayuhan. Madaling mag-apply gamit ang GME app—isang simpleng digital loan experience para sa mga dayuhang naninirahan sa Korea.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Paperless na Finance Application",
+            "Real-time na Pagsubaybay sa Finance Status",
+            "Real-time na Pagsubaybay sa Finance Balance"
+          ],
+          "heading": "Ang Iyong Digital Finance Partner"
+        },
+        "remittance": {
+          "ctaLabel": "Magpadala Ngayon",
+          "description": "Isang simple at secure na paraan para suportahan ang iyong pamilya at mga mahal sa buhay sa Laos mula Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Competitive na exchange rates",
+            "Mabilis at maaasahang transfer",
+            "Malinaw na mga bayarin",
+            "Suporta kapag kailangan mo"
+          ],
+          "heading": "Magpadala ng Pera sa Laos"
+        },
+        "simCard": {
+          "ctaLabel": "Tingnan ang SIM Plans",
+          "description": "Manatiling konektado sa mga mahalaga sa iyo gamit ang mga mobile plan na dinisenyo para gawing mas simple ang buhay sa Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Maaasahang koneksyon",
+            "Flexible na SIM plans",
+            "Madaling setup",
+            "Magiliw na lokal na suporta"
+          ],
+          "heading": "Manatiling Konektado sa Korea"
+        }
+      }
+    },
+    "mongolia": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "I-download ang GME App"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator ng GME Remit",
+        "exchangeRateLabel": "Rate ng Palitan",
+        "receiverGetsLabel": "Matatanggap ng Recipient",
+        "recipientCountryLabel": "Bansang Tatanggap",
+        "recipientCountryOption": "Mongolia",
+        "sendAmountLabel": "Halagang Ipapadala",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Magpadala Ngayon",
+        "transferFeeLabel": "Bayad sa Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "MNT",
+        "sampleTag": "Halimbawang halaga"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Lahat ng karapatan ay nakalaan.",
+        "logoText": "GME",
+        "tagline": "Mga serbisyong pinansyal para sa mga Mongolians sa Korea."
+      },
+      "header": {
+        "downloadAppLabel": "I-download ang App",
+        "navItems": {
+          "company": "Kumpanya",
+          "countries": "Mga Bansa",
+          "news": "Balita",
+          "services": "Mga Serbisyo",
+          "support": "Suporta"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Magpadala Ngayon",
+        "ctaSecondaryLabel": "Magsimula",
+        "eyebrow": "GME Mongolia",
+        "headingLines": [
+          "Magpadala ng pera sa pamilya.",
+          "Manatiling konektado.",
+          "Gawing mas madali ang paggastos."
+        ],
+        "subheading": "Mga mapagkakatiwalaang serbisyo para sa mga Mongolians naninirahan sa Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Mga Madalas Itanong Tungkol sa GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Karaniwang natatapos ang paglilipat gamit ang GME Remit sa loob lamang ng humigit-kumulang 10 segundo, bagaman maaaring mag-iba ang aktwal na oras depende sa bansang tatanggap, bangko, o paraan ng pagbabayad."
+              ],
+              "question": "Gaano katagal bago maipadala ang pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Oo. Ang GME Remit ay lisensyadong serbisyo sa padala ng pera sa Korea at nasa ilalim ng pangangasiwa ng kaugnay na mga awtoridad pinansyal ng Korea. Gumagamit kami ng ligtas na pag-verify ng customer at proseso ng transaksyon upang protektahan ang aming mga customer."
+              ],
+              "question": "Ligtas bang gamitin ang GME Remit?"
+            },
+            {
+              "answer": [
+                "I-download ang GME Remit app, gumawa ng account, at kumpletuhin ang kinakailangang pag-verify ng pagkakakilanlan. Kapag natapos na ang pagpaparehistro at pag-verify, maaari mo nang simulan ang paggamit ng mga serbisyo ng GME Remit."
+              ],
+              "question": "Paano ako gagawa ng GME Remit account?"
+            },
+            {
+              "answer": [
+                "Sinusuportahan ng GME Remit ang internasyonal na padala ng pera sa maraming bansa sa buong mundo. Ang mga available na destinasyon at paraan ng pagbabayad ay maaaring tingnan direkta sa GME Remit app."
+              ],
+              "question": "Saang mga bansa ako maaaring magpadala ng pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Available ang aming customer support team mula 10:00 hanggang 23:00, Lunes hanggang Linggo. Maaari kaming tawagan sa {SUPPORT_PHONE_NUMBER}, kontakin sa GME Remit app o opisyal na GME social media channels, o bisitahin ang isang GME Remit branch sa Korea para sa personal na tulong."
+              ],
+              "question": "Ano ang gagawin ko kung may problema sa aking transfer?"
+            }
+          ],
+          "subheading": "Hanapin ang sagot sa mga karaniwang tanong tungkol sa pagpapadala ng pera gamit ang GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Kumonekta sa GME Mongolia",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Balita, kapaki-pakinabang na tips, at updates para sa aming community"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Tingnan ang GME Cards",
+          "description": "Simple at madaling pagbabayad para sa araw-araw na buhay sa Korea at sa ibang bansa.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Magbayad saanman sa mundo",
+            "Pamimili",
+            "Transportasyon",
+            "Cashback",
+            "Mga Benepisyo ng EasyCare"
+          ],
+          "heading": "Isang Card para sa Lahat"
+        },
+        "exchangeRate": {
+          "description": "Tingnan ang pinakabagong GME Remit exchange rate bago magpadala ng pera mula Korea papuntang Mongolia",
+          "eyebrow": "Rate ng Palitan",
+          "heading": "Tingnan ang Exchange Rate Ngayon",
+          "note": "Maaaring magbago ang rate anumang oras sa loob ng araw"
+        },
+        "loan": {
+          "ctaLabel": "Mag-apply Ngayon",
+          "description": "Damhin ang makabagong loan service para sa mga dayuhan. Madaling mag-apply gamit ang GME app—isang simpleng digital loan experience para sa mga dayuhang naninirahan sa Korea.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Paperless na Finance Application",
+            "Real-time na Pagsubaybay sa Finance Status",
+            "Real-time na Pagsubaybay sa Finance Balance"
+          ],
+          "heading": "Ang Iyong Digital Finance Partner"
+        },
+        "remittance": {
+          "ctaLabel": "Magpadala Ngayon",
+          "description": "Isang simple at secure na paraan para suportahan ang iyong pamilya at mga mahal sa buhay sa Mongolia mula Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Competitive na exchange rates",
+            "Mabilis at maaasahang transfer",
+            "Malinaw na mga bayarin",
+            "Suporta kapag kailangan mo"
+          ],
+          "heading": "Magpadala ng Pera sa Mongolia"
+        },
+        "simCard": {
+          "ctaLabel": "Tingnan ang SIM Plans",
+          "description": "Manatiling konektado sa mga mahalaga sa iyo gamit ang mga mobile plan na dinisenyo para gawing mas simple ang buhay sa Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Maaasahang koneksyon",
+            "Flexible na SIM plans",
+            "Madaling setup",
+            "Magiliw na lokal na suporta"
+          ],
+          "heading": "Manatiling Konektado sa Korea"
+        }
+      }
+    },
+    "myanmar": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "I-download ang GME App"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator ng GME Remit",
+        "exchangeRateLabel": "Rate ng Palitan",
+        "receiverGetsLabel": "Matatanggap ng Recipient",
+        "recipientCountryLabel": "Bansang Tatanggap",
+        "recipientCountryOption": "Myanmar",
+        "sendAmountLabel": "Halagang Ipapadala",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Magpadala Ngayon",
+        "transferFeeLabel": "Bayad sa Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "MMK",
+        "sampleTag": "Halimbawang halaga"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Lahat ng karapatan ay nakalaan.",
+        "logoText": "GME",
+        "tagline": "Mga serbisyong pinansyal para sa mga Myanmar nationals sa Korea."
+      },
+      "header": {
+        "downloadAppLabel": "I-download ang App",
+        "navItems": {
+          "company": "Kumpanya",
+          "countries": "Mga Bansa",
+          "news": "Balita",
+          "services": "Mga Serbisyo",
+          "support": "Suporta"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Magpadala Ngayon",
+        "ctaSecondaryLabel": "Magsimula",
+        "eyebrow": "GME Myanmar",
+        "headingLines": [
+          "Magpadala ng pera sa pamilya.",
+          "Manatiling konektado.",
+          "Gawing mas madali ang paggastos."
+        ],
+        "subheading": "Mga mapagkakatiwalaang serbisyo para sa mga Myanmar nationals naninirahan sa Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Mga Madalas Itanong Tungkol sa GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Karaniwang natatapos ang paglilipat gamit ang GME Remit sa loob lamang ng humigit-kumulang 10 segundo, bagaman maaaring mag-iba ang aktwal na oras depende sa bansang tatanggap, bangko, o paraan ng pagbabayad."
+              ],
+              "question": "Gaano katagal bago maipadala ang pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Oo. Ang GME Remit ay lisensyadong serbisyo sa padala ng pera sa Korea at nasa ilalim ng pangangasiwa ng kaugnay na mga awtoridad pinansyal ng Korea. Gumagamit kami ng ligtas na pag-verify ng customer at proseso ng transaksyon upang protektahan ang aming mga customer."
+              ],
+              "question": "Ligtas bang gamitin ang GME Remit?"
+            },
+            {
+              "answer": [
+                "I-download ang GME Remit app, gumawa ng account, at kumpletuhin ang kinakailangang pag-verify ng pagkakakilanlan. Kapag natapos na ang pagpaparehistro at pag-verify, maaari mo nang simulan ang paggamit ng mga serbisyo ng GME Remit."
+              ],
+              "question": "Paano ako gagawa ng GME Remit account?"
+            },
+            {
+              "answer": [
+                "Sinusuportahan ng GME Remit ang internasyonal na padala ng pera sa maraming bansa sa buong mundo. Ang mga available na destinasyon at paraan ng pagbabayad ay maaaring tingnan direkta sa GME Remit app."
+              ],
+              "question": "Saang mga bansa ako maaaring magpadala ng pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Available ang aming customer support team mula 10:00 hanggang 23:00, Lunes hanggang Linggo. Maaari kaming tawagan sa {SUPPORT_PHONE_NUMBER}, kontakin sa GME Remit app o opisyal na GME social media channels, o bisitahin ang isang GME Remit branch sa Korea para sa personal na tulong."
+              ],
+              "question": "Ano ang gagawin ko kung may problema sa aking transfer?"
+            }
+          ],
+          "subheading": "Hanapin ang sagot sa mga karaniwang tanong tungkol sa pagpapadala ng pera gamit ang GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Kumonekta sa GME Myanmar",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Balita, kapaki-pakinabang na tips, at updates para sa aming community"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Tingnan ang GME Cards",
+          "description": "Simple at madaling pagbabayad para sa araw-araw na buhay sa Korea at sa ibang bansa.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Magbayad saanman sa mundo",
+            "Pamimili",
+            "Transportasyon",
+            "Cashback",
+            "Mga Benepisyo ng EasyCare"
+          ],
+          "heading": "Isang Card para sa Lahat"
+        },
+        "exchangeRate": {
+          "description": "Tingnan ang pinakabagong GME Remit exchange rate bago magpadala ng pera mula Korea papuntang Myanmar",
+          "eyebrow": "Rate ng Palitan",
+          "heading": "Tingnan ang Exchange Rate Ngayon",
+          "note": "Maaaring magbago ang rate anumang oras sa loob ng araw"
+        },
+        "loan": {
+          "ctaLabel": "Mag-apply Ngayon",
+          "description": "Damhin ang makabagong loan service para sa mga dayuhan. Madaling mag-apply gamit ang GME app—isang simpleng digital loan experience para sa mga dayuhang naninirahan sa Korea.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Paperless na Finance Application",
+            "Real-time na Pagsubaybay sa Finance Status",
+            "Real-time na Pagsubaybay sa Finance Balance"
+          ],
+          "heading": "Ang Iyong Digital Finance Partner"
+        },
+        "remittance": {
+          "ctaLabel": "Magpadala Ngayon",
+          "description": "Isang simple at secure na paraan para suportahan ang iyong pamilya at mga mahal sa buhay sa Myanmar mula Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Competitive na exchange rates",
+            "Mabilis at maaasahang transfer",
+            "Malinaw na mga bayarin",
+            "Suporta kapag kailangan mo"
+          ],
+          "heading": "Magpadala ng Pera sa Myanmar"
+        },
+        "simCard": {
+          "ctaLabel": "Tingnan ang SIM Plans",
+          "description": "Manatiling konektado sa mga mahalaga sa iyo gamit ang mga mobile plan na dinisenyo para gawing mas simple ang buhay sa Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Maaasahang koneksyon",
+            "Flexible na SIM plans",
+            "Madaling setup",
+            "Magiliw na lokal na suporta"
+          ],
+          "heading": "Manatiling Konektado sa Korea"
+        }
+      }
+    },
+    "nepal": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "I-download ang GME App"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator ng GME Remit",
+        "exchangeRateLabel": "Rate ng Palitan",
+        "receiverGetsLabel": "Matatanggap ng Recipient",
+        "recipientCountryLabel": "Bansang Tatanggap",
+        "recipientCountryOption": "Nepal",
+        "sendAmountLabel": "Halagang Ipapadala",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Magpadala Ngayon",
+        "transferFeeLabel": "Bayad sa Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "NPR",
+        "sampleTag": "Halimbawang halaga"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Lahat ng karapatan ay nakalaan.",
+        "logoText": "GME",
+        "tagline": "Mga serbisyong pinansyal para sa mga Nepalis sa Korea."
+      },
+      "header": {
+        "downloadAppLabel": "I-download ang App",
+        "navItems": {
+          "company": "Kumpanya",
+          "countries": "Mga Bansa",
+          "news": "Balita",
+          "services": "Mga Serbisyo",
+          "support": "Suporta"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Magpadala Ngayon",
+        "ctaSecondaryLabel": "Magsimula",
+        "eyebrow": "GME Nepal",
+        "headingLines": [
+          "Magpadala ng pera sa pamilya.",
+          "Manatiling konektado.",
+          "Gawing mas madali ang paggastos."
+        ],
+        "subheading": "Mga mapagkakatiwalaang serbisyo para sa mga Nepalis naninirahan sa Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Mga Madalas Itanong Tungkol sa GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Karaniwang natatapos ang paglilipat gamit ang GME Remit sa loob lamang ng humigit-kumulang 10 segundo, bagaman maaaring mag-iba ang aktwal na oras depende sa bansang tatanggap, bangko, o paraan ng pagbabayad."
+              ],
+              "question": "Gaano katagal bago maipadala ang pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Oo. Ang GME Remit ay lisensyadong serbisyo sa padala ng pera sa Korea at nasa ilalim ng pangangasiwa ng kaugnay na mga awtoridad pinansyal ng Korea. Gumagamit kami ng ligtas na pag-verify ng customer at proseso ng transaksyon upang protektahan ang aming mga customer."
+              ],
+              "question": "Ligtas bang gamitin ang GME Remit?"
+            },
+            {
+              "answer": [
+                "I-download ang GME Remit app, gumawa ng account, at kumpletuhin ang kinakailangang pag-verify ng pagkakakilanlan. Kapag natapos na ang pagpaparehistro at pag-verify, maaari mo nang simulan ang paggamit ng mga serbisyo ng GME Remit."
+              ],
+              "question": "Paano ako gagawa ng GME Remit account?"
+            },
+            {
+              "answer": [
+                "Sinusuportahan ng GME Remit ang internasyonal na padala ng pera sa maraming bansa sa buong mundo. Ang mga available na destinasyon at paraan ng pagbabayad ay maaaring tingnan direkta sa GME Remit app."
+              ],
+              "question": "Saang mga bansa ako maaaring magpadala ng pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Available ang aming customer support team mula 10:00 hanggang 23:00, Lunes hanggang Linggo. Maaari kaming tawagan sa {SUPPORT_PHONE_NUMBER}, kontakin sa GME Remit app o opisyal na GME social media channels, o bisitahin ang isang GME Remit branch sa Korea para sa personal na tulong."
+              ],
+              "question": "Ano ang gagawin ko kung may problema sa aking transfer?"
+            }
+          ],
+          "subheading": "Hanapin ang sagot sa mga karaniwang tanong tungkol sa pagpapadala ng pera gamit ang GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Kumonekta sa GME Nepal",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Balita, kapaki-pakinabang na tips, at updates para sa aming community"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Tingnan ang GME Cards",
+          "description": "Simple at madaling pagbabayad para sa araw-araw na buhay sa Korea at sa ibang bansa.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Magbayad saanman sa mundo",
+            "Pamimili",
+            "Transportasyon",
+            "Cashback",
+            "Mga Benepisyo ng EasyCare"
+          ],
+          "heading": "Isang Card para sa Lahat"
+        },
+        "exchangeRate": {
+          "description": "Tingnan ang pinakabagong GME Remit exchange rate bago magpadala ng pera mula Korea papuntang Nepal",
+          "eyebrow": "Rate ng Palitan",
+          "heading": "Tingnan ang Exchange Rate Ngayon",
+          "note": "Maaaring magbago ang rate anumang oras sa loob ng araw"
+        },
+        "loan": {
+          "ctaLabel": "Mag-apply Ngayon",
+          "description": "Damhin ang makabagong loan service para sa mga dayuhan. Madaling mag-apply gamit ang GME app—isang simpleng digital loan experience para sa mga dayuhang naninirahan sa Korea.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Paperless na Finance Application",
+            "Real-time na Pagsubaybay sa Finance Status",
+            "Real-time na Pagsubaybay sa Finance Balance"
+          ],
+          "heading": "Ang Iyong Digital Finance Partner"
+        },
+        "remittance": {
+          "ctaLabel": "Magpadala Ngayon",
+          "description": "Isang simple at secure na paraan para suportahan ang iyong pamilya at mga mahal sa buhay sa Nepal mula Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Competitive na exchange rates",
+            "Mabilis at maaasahang transfer",
+            "Malinaw na mga bayarin",
+            "Suporta kapag kailangan mo"
+          ],
+          "heading": "Magpadala ng Pera sa Nepal"
+        },
+        "simCard": {
+          "ctaLabel": "Tingnan ang SIM Plans",
+          "description": "Manatiling konektado sa mga mahalaga sa iyo gamit ang mga mobile plan na dinisenyo para gawing mas simple ang buhay sa Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Maaasahang koneksyon",
+            "Flexible na SIM plans",
+            "Madaling setup",
+            "Magiliw na lokal na suporta"
+          ],
+          "heading": "Manatiling Konektado sa Korea"
+        }
+      }
+    },
+    "pakistan": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "I-download ang GME App"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator ng GME Remit",
+        "exchangeRateLabel": "Rate ng Palitan",
+        "receiverGetsLabel": "Matatanggap ng Recipient",
+        "recipientCountryLabel": "Bansang Tatanggap",
+        "recipientCountryOption": "Pakistan",
+        "sendAmountLabel": "Halagang Ipapadala",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Magpadala Ngayon",
+        "transferFeeLabel": "Bayad sa Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "PKR",
+        "sampleTag": "Halimbawang halaga"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Lahat ng karapatan ay nakalaan.",
+        "logoText": "GME",
+        "tagline": "Mga serbisyong pinansyal para sa mga Pakistanis sa Korea."
+      },
+      "header": {
+        "downloadAppLabel": "I-download ang App",
+        "navItems": {
+          "company": "Kumpanya",
+          "countries": "Mga Bansa",
+          "news": "Balita",
+          "services": "Mga Serbisyo",
+          "support": "Suporta"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Magpadala Ngayon",
+        "ctaSecondaryLabel": "Magsimula",
+        "eyebrow": "GME Pakistan",
+        "headingLines": [
+          "Magpadala ng pera sa pamilya.",
+          "Manatiling konektado.",
+          "Gawing mas madali ang paggastos."
+        ],
+        "subheading": "Mga mapagkakatiwalaang serbisyo para sa mga Pakistanis naninirahan sa Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Mga Madalas Itanong Tungkol sa GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Karaniwang natatapos ang paglilipat gamit ang GME Remit sa loob lamang ng humigit-kumulang 10 segundo, bagaman maaaring mag-iba ang aktwal na oras depende sa bansang tatanggap, bangko, o paraan ng pagbabayad."
+              ],
+              "question": "Gaano katagal bago maipadala ang pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Oo. Ang GME Remit ay lisensyadong serbisyo sa padala ng pera sa Korea at nasa ilalim ng pangangasiwa ng kaugnay na mga awtoridad pinansyal ng Korea. Gumagamit kami ng ligtas na pag-verify ng customer at proseso ng transaksyon upang protektahan ang aming mga customer."
+              ],
+              "question": "Ligtas bang gamitin ang GME Remit?"
+            },
+            {
+              "answer": [
+                "I-download ang GME Remit app, gumawa ng account, at kumpletuhin ang kinakailangang pag-verify ng pagkakakilanlan. Kapag natapos na ang pagpaparehistro at pag-verify, maaari mo nang simulan ang paggamit ng mga serbisyo ng GME Remit."
+              ],
+              "question": "Paano ako gagawa ng GME Remit account?"
+            },
+            {
+              "answer": [
+                "Sinusuportahan ng GME Remit ang internasyonal na padala ng pera sa maraming bansa sa buong mundo. Ang mga available na destinasyon at paraan ng pagbabayad ay maaaring tingnan direkta sa GME Remit app."
+              ],
+              "question": "Saang mga bansa ako maaaring magpadala ng pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Available ang aming customer support team mula 10:00 hanggang 23:00, Lunes hanggang Linggo. Maaari kaming tawagan sa {SUPPORT_PHONE_NUMBER}, kontakin sa GME Remit app o opisyal na GME social media channels, o bisitahin ang isang GME Remit branch sa Korea para sa personal na tulong."
+              ],
+              "question": "Ano ang gagawin ko kung may problema sa aking transfer?"
+            }
+          ],
+          "subheading": "Hanapin ang sagot sa mga karaniwang tanong tungkol sa pagpapadala ng pera gamit ang GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Kumonekta sa GME Pakistan",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Balita, kapaki-pakinabang na tips, at updates para sa aming community"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Tingnan ang GME Cards",
+          "description": "Simple at madaling pagbabayad para sa araw-araw na buhay sa Korea at sa ibang bansa.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Magbayad saanman sa mundo",
+            "Pamimili",
+            "Transportasyon",
+            "Cashback",
+            "Mga Benepisyo ng EasyCare"
+          ],
+          "heading": "Isang Card para sa Lahat"
+        },
+        "exchangeRate": {
+          "description": "Tingnan ang pinakabagong GME Remit exchange rate bago magpadala ng pera mula Korea papuntang Pakistan",
+          "eyebrow": "Rate ng Palitan",
+          "heading": "Tingnan ang Exchange Rate Ngayon",
+          "note": "Maaaring magbago ang rate anumang oras sa loob ng araw"
+        },
+        "loan": {
+          "ctaLabel": "Mag-apply Ngayon",
+          "description": "Damhin ang makabagong loan service para sa mga dayuhan. Madaling mag-apply gamit ang GME app—isang simpleng digital loan experience para sa mga dayuhang naninirahan sa Korea.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Paperless na Finance Application",
+            "Real-time na Pagsubaybay sa Finance Status",
+            "Real-time na Pagsubaybay sa Finance Balance"
+          ],
+          "heading": "Ang Iyong Digital Finance Partner"
+        },
+        "remittance": {
+          "ctaLabel": "Magpadala Ngayon",
+          "description": "Isang simple at secure na paraan para suportahan ang iyong pamilya at mga mahal sa buhay sa Pakistan mula Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Competitive na exchange rates",
+            "Mabilis at maaasahang transfer",
+            "Malinaw na mga bayarin",
+            "Suporta kapag kailangan mo"
+          ],
+          "heading": "Magpadala ng Pera sa Pakistan"
+        },
+        "simCard": {
+          "ctaLabel": "Tingnan ang SIM Plans",
+          "description": "Manatiling konektado sa mga mahalaga sa iyo gamit ang mga mobile plan na dinisenyo para gawing mas simple ang buhay sa Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Maaasahang koneksyon",
+            "Flexible na SIM plans",
+            "Madaling setup",
+            "Magiliw na lokal na suporta"
+          ],
+          "heading": "Manatiling Konektado sa Korea"
+        }
+      }
+    },
+    "philippines": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "I-download ang GME App"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator ng GME Remit",
+        "exchangeRateLabel": "Rate ng Palitan",
+        "receiverGetsLabel": "Matatanggap ng Recipient",
+        "recipientCountryLabel": "Bansang Tatanggap",
+        "recipientCountryOption": "Philippines",
+        "sendAmountLabel": "Halagang Ipapadala",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Magpadala Ngayon",
+        "transferFeeLabel": "Bayad sa Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "PHP",
+        "sampleTag": "Halimbawang halaga"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Lahat ng karapatan ay nakalaan.",
+        "logoText": "GME",
+        "tagline": "Mga serbisyong pinansyal para sa mga Pilipino sa Korea."
+      },
+      "header": {
+        "downloadAppLabel": "I-download ang App",
+        "navItems": {
+          "company": "Kumpanya",
+          "countries": "Mga Bansa",
+          "news": "Balita",
+          "services": "Mga Serbisyo",
+          "support": "Suporta"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Magpadala Ngayon",
+        "ctaSecondaryLabel": "Magsimula",
+        "eyebrow": "GME Philippines",
+        "headingLines": [
+          "Magpadala ng pera sa pamilya.",
+          "Manatiling konektado.",
+          "Gawing mas madali ang paggastos."
+        ],
+        "subheading": "Mga mapagkakatiwalaang serbisyo para sa mga Pilipinong naninirahan sa Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Mga Madalas Itanong Tungkol sa GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Karaniwang natatapos ang paglilipat gamit ang GME Remit sa loob lamang ng humigit-kumulang 10 segundo, bagaman maaaring mag-iba ang aktwal na oras depende sa bansang tatanggap, bangko, o paraan ng pagbabayad."
+              ],
+              "question": "Gaano katagal bago maipadala ang pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Oo. Ang GME Remit ay lisensyadong serbisyo sa padala ng pera sa Korea at nasa ilalim ng pangangasiwa ng kaugnay na mga awtoridad pinansyal ng Korea. Gumagamit kami ng ligtas na pag-verify ng customer at proseso ng transaksyon upang protektahan ang aming mga customer."
+              ],
+              "question": "Ligtas bang gamitin ang GME Remit?"
+            },
+            {
+              "answer": [
+                "I-download ang GME Remit app, gumawa ng account, at kumpletuhin ang kinakailangang pag-verify ng pagkakakilanlan. Kapag natapos na ang pagpaparehistro at pag-verify, maaari mo nang simulan ang paggamit ng mga serbisyo ng GME Remit."
+              ],
+              "question": "Paano ako gagawa ng GME Remit account?"
+            },
+            {
+              "answer": [
+                "Sinusuportahan ng GME Remit ang internasyonal na padala ng pera sa maraming bansa sa buong mundo. Ang mga available na destinasyon at paraan ng pagbabayad ay maaaring tingnan direkta sa GME Remit app."
+              ],
+              "question": "Saang mga bansa ako maaaring magpadala ng pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Available ang aming customer support team mula 10:00 hanggang 23:00, Lunes hanggang Linggo. Maaari kaming tawagan sa {SUPPORT_PHONE_NUMBER}, kontakin sa GME Remit app o opisyal na GME social media channels, o bisitahin ang isang GME Remit branch sa Korea para sa personal na tulong."
+              ],
+              "question": "Ano ang gagawin ko kung may problema sa aking transfer?"
+            }
+          ],
+          "subheading": "Hanapin ang sagot sa mga karaniwang tanong tungkol sa pagpapadala ng pera gamit ang GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Kumonekta sa GME Philippines",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Balita, kapaki-pakinabang na tips, at updates para sa aming community"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Tingnan ang GME Cards",
+          "description": "Simple at madaling pagbabayad para sa araw-araw na buhay sa Korea at sa ibang bansa.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Magbayad saanman sa mundo",
+            "Pamimili",
+            "Transportasyon",
+            "Cashback",
+            "Mga Benepisyo ng EasyCare"
+          ],
+          "heading": "Isang Card para sa Lahat"
+        },
+        "exchangeRate": {
+          "description": "Tingnan ang pinakabagong GME Remit exchange rate bago magpadala ng pera mula Korea papuntang Pilipinas",
+          "eyebrow": "Rate ng Palitan",
+          "heading": "Tingnan ang Exchange Rate Ngayon",
+          "note": "Maaaring magbago ang rate anumang oras sa loob ng araw"
+        },
+        "loan": {
+          "ctaLabel": "Mag-apply Ngayon",
+          "description": "Damhin ang makabagong loan service para sa mga dayuhan. Madaling mag-apply gamit ang GME app—isang simpleng digital loan experience para sa mga dayuhang naninirahan sa Korea.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Paperless na Finance Application",
+            "Real-time na Pagsubaybay sa Finance Status",
+            "Real-time na Pagsubaybay sa Finance Balance"
+          ],
+          "heading": "Ang Iyong Digital Finance Partner"
+        },
+        "remittance": {
+          "ctaLabel": "Magpadala Ngayon",
+          "description": "Isang simple at secure na paraan para suportahan ang iyong pamilya at mga mahal sa buhay sa Pilipinas mula Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Competitive na exchange rates",
+            "Mabilis at maaasahang transfer",
+            "Malinaw na mga bayarin",
+            "Suporta kapag kailangan mo"
+          ],
+          "heading": "Magpadala ng Pera sa Pilipinas"
+        },
+        "simCard": {
+          "ctaLabel": "Tingnan ang SIM Plans",
+          "description": "Manatiling konektado sa mga mahalaga sa iyo gamit ang mga mobile plan na dinisenyo para gawing mas simple ang buhay sa Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Maaasahang koneksyon",
+            "Flexible na SIM plans",
+            "Madaling setup",
+            "Magiliw na lokal na suporta"
+          ],
+          "heading": "Manatiling Konektado sa Korea"
+        }
+      }
+    },
+    "sri-lanka": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "I-download ang GME App"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator ng GME Remit",
+        "exchangeRateLabel": "Rate ng Palitan",
+        "receiverGetsLabel": "Matatanggap ng Recipient",
+        "recipientCountryLabel": "Bansang Tatanggap",
+        "recipientCountryOption": "Sri Lanka",
+        "sendAmountLabel": "Halagang Ipapadala",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Magpadala Ngayon",
+        "transferFeeLabel": "Bayad sa Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "LKR",
+        "sampleTag": "Halimbawang halaga"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Lahat ng karapatan ay nakalaan.",
+        "logoText": "GME",
+        "tagline": "Mga serbisyong pinansyal para sa mga Sri Lankans sa Korea."
+      },
+      "header": {
+        "downloadAppLabel": "I-download ang App",
+        "navItems": {
+          "company": "Kumpanya",
+          "countries": "Mga Bansa",
+          "news": "Balita",
+          "services": "Mga Serbisyo",
+          "support": "Suporta"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Magpadala Ngayon",
+        "ctaSecondaryLabel": "Magsimula",
+        "eyebrow": "GME Sri Lanka",
+        "headingLines": [
+          "Magpadala ng pera sa pamilya.",
+          "Manatiling konektado.",
+          "Gawing mas madali ang paggastos."
+        ],
+        "subheading": "Mga mapagkakatiwalaang serbisyo para sa mga Sri Lankans naninirahan sa Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Mga Madalas Itanong Tungkol sa GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Karaniwang natatapos ang paglilipat gamit ang GME Remit sa loob lamang ng humigit-kumulang 10 segundo, bagaman maaaring mag-iba ang aktwal na oras depende sa bansang tatanggap, bangko, o paraan ng pagbabayad."
+              ],
+              "question": "Gaano katagal bago maipadala ang pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Oo. Ang GME Remit ay lisensyadong serbisyo sa padala ng pera sa Korea at nasa ilalim ng pangangasiwa ng kaugnay na mga awtoridad pinansyal ng Korea. Gumagamit kami ng ligtas na pag-verify ng customer at proseso ng transaksyon upang protektahan ang aming mga customer."
+              ],
+              "question": "Ligtas bang gamitin ang GME Remit?"
+            },
+            {
+              "answer": [
+                "I-download ang GME Remit app, gumawa ng account, at kumpletuhin ang kinakailangang pag-verify ng pagkakakilanlan. Kapag natapos na ang pagpaparehistro at pag-verify, maaari mo nang simulan ang paggamit ng mga serbisyo ng GME Remit."
+              ],
+              "question": "Paano ako gagawa ng GME Remit account?"
+            },
+            {
+              "answer": [
+                "Sinusuportahan ng GME Remit ang internasyonal na padala ng pera sa maraming bansa sa buong mundo. Ang mga available na destinasyon at paraan ng pagbabayad ay maaaring tingnan direkta sa GME Remit app."
+              ],
+              "question": "Saang mga bansa ako maaaring magpadala ng pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Available ang aming customer support team mula 10:00 hanggang 23:00, Lunes hanggang Linggo. Maaari kaming tawagan sa {SUPPORT_PHONE_NUMBER}, kontakin sa GME Remit app o opisyal na GME social media channels, o bisitahin ang isang GME Remit branch sa Korea para sa personal na tulong."
+              ],
+              "question": "Ano ang gagawin ko kung may problema sa aking transfer?"
+            }
+          ],
+          "subheading": "Hanapin ang sagot sa mga karaniwang tanong tungkol sa pagpapadala ng pera gamit ang GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Kumonekta sa GME Sri Lanka",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Balita, kapaki-pakinabang na tips, at updates para sa aming community"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Tingnan ang GME Cards",
+          "description": "Simple at madaling pagbabayad para sa araw-araw na buhay sa Korea at sa ibang bansa.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Magbayad saanman sa mundo",
+            "Pamimili",
+            "Transportasyon",
+            "Cashback",
+            "Mga Benepisyo ng EasyCare"
+          ],
+          "heading": "Isang Card para sa Lahat"
+        },
+        "exchangeRate": {
+          "description": "Tingnan ang pinakabagong GME Remit exchange rate bago magpadala ng pera mula Korea papuntang Sri Lanka",
+          "eyebrow": "Rate ng Palitan",
+          "heading": "Tingnan ang Exchange Rate Ngayon",
+          "note": "Maaaring magbago ang rate anumang oras sa loob ng araw"
+        },
+        "loan": {
+          "ctaLabel": "Mag-apply Ngayon",
+          "description": "Damhin ang makabagong loan service para sa mga dayuhan. Madaling mag-apply gamit ang GME app—isang simpleng digital loan experience para sa mga dayuhang naninirahan sa Korea.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Paperless na Finance Application",
+            "Real-time na Pagsubaybay sa Finance Status",
+            "Real-time na Pagsubaybay sa Finance Balance"
+          ],
+          "heading": "Ang Iyong Digital Finance Partner"
+        },
+        "remittance": {
+          "ctaLabel": "Magpadala Ngayon",
+          "description": "Isang simple at secure na paraan para suportahan ang iyong pamilya at mga mahal sa buhay sa Sri Lanka mula Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Competitive na exchange rates",
+            "Mabilis at maaasahang transfer",
+            "Malinaw na mga bayarin",
+            "Suporta kapag kailangan mo"
+          ],
+          "heading": "Magpadala ng Pera sa Sri Lanka"
+        },
+        "simCard": {
+          "ctaLabel": "Tingnan ang SIM Plans",
+          "description": "Manatiling konektado sa mga mahalaga sa iyo gamit ang mga mobile plan na dinisenyo para gawing mas simple ang buhay sa Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Maaasahang koneksyon",
+            "Flexible na SIM plans",
+            "Madaling setup",
+            "Magiliw na lokal na suporta"
+          ],
+          "heading": "Manatiling Konektado sa Korea"
+        }
+      }
+    },
+    "thailand": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "I-download ang GME App"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator ng GME Remit",
+        "exchangeRateLabel": "Rate ng Palitan",
+        "receiverGetsLabel": "Matatanggap ng Recipient",
+        "recipientCountryLabel": "Bansang Tatanggap",
+        "recipientCountryOption": "Thailand",
+        "sendAmountLabel": "Halagang Ipapadala",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Magpadala Ngayon",
+        "transferFeeLabel": "Bayad sa Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "THB",
+        "sampleTag": "Halimbawang halaga"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Lahat ng karapatan ay nakalaan.",
+        "logoText": "GME",
+        "tagline": "Mga serbisyong pinansyal para sa mga Thais sa Korea."
+      },
+      "header": {
+        "downloadAppLabel": "I-download ang App",
+        "navItems": {
+          "company": "Kumpanya",
+          "countries": "Mga Bansa",
+          "news": "Balita",
+          "services": "Mga Serbisyo",
+          "support": "Suporta"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Magpadala Ngayon",
+        "ctaSecondaryLabel": "Magsimula",
+        "eyebrow": "GME Thailand",
+        "headingLines": [
+          "Magpadala ng pera sa pamilya.",
+          "Manatiling konektado.",
+          "Gawing mas madali ang paggastos."
+        ],
+        "subheading": "Mga mapagkakatiwalaang serbisyo para sa mga Thais naninirahan sa Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Mga Madalas Itanong Tungkol sa GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Karaniwang natatapos ang paglilipat gamit ang GME Remit sa loob lamang ng humigit-kumulang 10 segundo, bagaman maaaring mag-iba ang aktwal na oras depende sa bansang tatanggap, bangko, o paraan ng pagbabayad."
+              ],
+              "question": "Gaano katagal bago maipadala ang pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Oo. Ang GME Remit ay lisensyadong serbisyo sa padala ng pera sa Korea at nasa ilalim ng pangangasiwa ng kaugnay na mga awtoridad pinansyal ng Korea. Gumagamit kami ng ligtas na pag-verify ng customer at proseso ng transaksyon upang protektahan ang aming mga customer."
+              ],
+              "question": "Ligtas bang gamitin ang GME Remit?"
+            },
+            {
+              "answer": [
+                "I-download ang GME Remit app, gumawa ng account, at kumpletuhin ang kinakailangang pag-verify ng pagkakakilanlan. Kapag natapos na ang pagpaparehistro at pag-verify, maaari mo nang simulan ang paggamit ng mga serbisyo ng GME Remit."
+              ],
+              "question": "Paano ako gagawa ng GME Remit account?"
+            },
+            {
+              "answer": [
+                "Sinusuportahan ng GME Remit ang internasyonal na padala ng pera sa maraming bansa sa buong mundo. Ang mga available na destinasyon at paraan ng pagbabayad ay maaaring tingnan direkta sa GME Remit app."
+              ],
+              "question": "Saang mga bansa ako maaaring magpadala ng pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Available ang aming customer support team mula 10:00 hanggang 23:00, Lunes hanggang Linggo. Maaari kaming tawagan sa {SUPPORT_PHONE_NUMBER}, kontakin sa GME Remit app o opisyal na GME social media channels, o bisitahin ang isang GME Remit branch sa Korea para sa personal na tulong."
+              ],
+              "question": "Ano ang gagawin ko kung may problema sa aking transfer?"
+            }
+          ],
+          "subheading": "Hanapin ang sagot sa mga karaniwang tanong tungkol sa pagpapadala ng pera gamit ang GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Kumonekta sa GME Thailand",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Balita, kapaki-pakinabang na tips, at updates para sa aming community"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Tingnan ang GME Cards",
+          "description": "Simple at madaling pagbabayad para sa araw-araw na buhay sa Korea at sa ibang bansa.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Magbayad saanman sa mundo",
+            "Pamimili",
+            "Transportasyon",
+            "Cashback",
+            "Mga Benepisyo ng EasyCare"
+          ],
+          "heading": "Isang Card para sa Lahat"
+        },
+        "exchangeRate": {
+          "description": "Tingnan ang pinakabagong GME Remit exchange rate bago magpadala ng pera mula Korea papuntang Thailand",
+          "eyebrow": "Rate ng Palitan",
+          "heading": "Tingnan ang Exchange Rate Ngayon",
+          "note": "Maaaring magbago ang rate anumang oras sa loob ng araw"
+        },
+        "loan": {
+          "ctaLabel": "Mag-apply Ngayon",
+          "description": "Damhin ang makabagong loan service para sa mga dayuhan. Madaling mag-apply gamit ang GME app—isang simpleng digital loan experience para sa mga dayuhang naninirahan sa Korea.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Paperless na Finance Application",
+            "Real-time na Pagsubaybay sa Finance Status",
+            "Real-time na Pagsubaybay sa Finance Balance"
+          ],
+          "heading": "Ang Iyong Digital Finance Partner"
+        },
+        "remittance": {
+          "ctaLabel": "Magpadala Ngayon",
+          "description": "Isang simple at secure na paraan para suportahan ang iyong pamilya at mga mahal sa buhay sa Thailand mula Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Competitive na exchange rates",
+            "Mabilis at maaasahang transfer",
+            "Malinaw na mga bayarin",
+            "Suporta kapag kailangan mo"
+          ],
+          "heading": "Magpadala ng Pera sa Thailand"
+        },
+        "simCard": {
+          "ctaLabel": "Tingnan ang SIM Plans",
+          "description": "Manatiling konektado sa mga mahalaga sa iyo gamit ang mga mobile plan na dinisenyo para gawing mas simple ang buhay sa Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Maaasahang koneksyon",
+            "Flexible na SIM plans",
+            "Madaling setup",
+            "Magiliw na lokal na suporta"
+          ],
+          "heading": "Manatiling Konektado sa Korea"
+        }
+      }
+    },
+    "uzbekistan": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "I-download ang GME App"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator ng GME Remit",
+        "exchangeRateLabel": "Rate ng Palitan",
+        "receiverGetsLabel": "Matatanggap ng Recipient",
+        "recipientCountryLabel": "Bansang Tatanggap",
+        "recipientCountryOption": "Uzbekistan",
+        "sendAmountLabel": "Halagang Ipapadala",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Magpadala Ngayon",
+        "transferFeeLabel": "Bayad sa Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "UZS",
+        "sampleTag": "Halimbawang halaga"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Lahat ng karapatan ay nakalaan.",
+        "logoText": "GME",
+        "tagline": "Mga serbisyong pinansyal para sa mga Uzbeks sa Korea."
+      },
+      "header": {
+        "downloadAppLabel": "I-download ang App",
+        "navItems": {
+          "company": "Kumpanya",
+          "countries": "Mga Bansa",
+          "news": "Balita",
+          "services": "Mga Serbisyo",
+          "support": "Suporta"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Magpadala Ngayon",
+        "ctaSecondaryLabel": "Magsimula",
+        "eyebrow": "GME Uzbekistan",
+        "headingLines": [
+          "Magpadala ng pera sa pamilya.",
+          "Manatiling konektado.",
+          "Gawing mas madali ang paggastos."
+        ],
+        "subheading": "Mga mapagkakatiwalaang serbisyo para sa mga Uzbeks naninirahan sa Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Mga Madalas Itanong Tungkol sa GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Karaniwang natatapos ang paglilipat gamit ang GME Remit sa loob lamang ng humigit-kumulang 10 segundo, bagaman maaaring mag-iba ang aktwal na oras depende sa bansang tatanggap, bangko, o paraan ng pagbabayad."
+              ],
+              "question": "Gaano katagal bago maipadala ang pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Oo. Ang GME Remit ay lisensyadong serbisyo sa padala ng pera sa Korea at nasa ilalim ng pangangasiwa ng kaugnay na mga awtoridad pinansyal ng Korea. Gumagamit kami ng ligtas na pag-verify ng customer at proseso ng transaksyon upang protektahan ang aming mga customer."
+              ],
+              "question": "Ligtas bang gamitin ang GME Remit?"
+            },
+            {
+              "answer": [
+                "I-download ang GME Remit app, gumawa ng account, at kumpletuhin ang kinakailangang pag-verify ng pagkakakilanlan. Kapag natapos na ang pagpaparehistro at pag-verify, maaari mo nang simulan ang paggamit ng mga serbisyo ng GME Remit."
+              ],
+              "question": "Paano ako gagawa ng GME Remit account?"
+            },
+            {
+              "answer": [
+                "Sinusuportahan ng GME Remit ang internasyonal na padala ng pera sa maraming bansa sa buong mundo. Ang mga available na destinasyon at paraan ng pagbabayad ay maaaring tingnan direkta sa GME Remit app."
+              ],
+              "question": "Saang mga bansa ako maaaring magpadala ng pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Available ang aming customer support team mula 10:00 hanggang 23:00, Lunes hanggang Linggo. Maaari kaming tawagan sa {SUPPORT_PHONE_NUMBER}, kontakin sa GME Remit app o opisyal na GME social media channels, o bisitahin ang isang GME Remit branch sa Korea para sa personal na tulong."
+              ],
+              "question": "Ano ang gagawin ko kung may problema sa aking transfer?"
+            }
+          ],
+          "subheading": "Hanapin ang sagot sa mga karaniwang tanong tungkol sa pagpapadala ng pera gamit ang GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Kumonekta sa GME Uzbekistan",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Balita, kapaki-pakinabang na tips, at updates para sa aming community"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Tingnan ang GME Cards",
+          "description": "Simple at madaling pagbabayad para sa araw-araw na buhay sa Korea at sa ibang bansa.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Magbayad saanman sa mundo",
+            "Pamimili",
+            "Transportasyon",
+            "Cashback",
+            "Mga Benepisyo ng EasyCare"
+          ],
+          "heading": "Isang Card para sa Lahat"
+        },
+        "exchangeRate": {
+          "description": "Tingnan ang pinakabagong GME Remit exchange rate bago magpadala ng pera mula Korea papuntang Uzbekistan",
+          "eyebrow": "Rate ng Palitan",
+          "heading": "Tingnan ang Exchange Rate Ngayon",
+          "note": "Maaaring magbago ang rate anumang oras sa loob ng araw"
+        },
+        "loan": {
+          "ctaLabel": "Mag-apply Ngayon",
+          "description": "Damhin ang makabagong loan service para sa mga dayuhan. Madaling mag-apply gamit ang GME app—isang simpleng digital loan experience para sa mga dayuhang naninirahan sa Korea.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Paperless na Finance Application",
+            "Real-time na Pagsubaybay sa Finance Status",
+            "Real-time na Pagsubaybay sa Finance Balance"
+          ],
+          "heading": "Ang Iyong Digital Finance Partner"
+        },
+        "remittance": {
+          "ctaLabel": "Magpadala Ngayon",
+          "description": "Isang simple at secure na paraan para suportahan ang iyong pamilya at mga mahal sa buhay sa Uzbekistan mula Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Competitive na exchange rates",
+            "Mabilis at maaasahang transfer",
+            "Malinaw na mga bayarin",
+            "Suporta kapag kailangan mo"
+          ],
+          "heading": "Magpadala ng Pera sa Uzbekistan"
+        },
+        "simCard": {
+          "ctaLabel": "Tingnan ang SIM Plans",
+          "description": "Manatiling konektado sa mga mahalaga sa iyo gamit ang mga mobile plan na dinisenyo para gawing mas simple ang buhay sa Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Maaasahang koneksyon",
+            "Flexible na SIM plans",
+            "Madaling setup",
+            "Magiliw na lokal na suporta"
+          ],
+          "heading": "Manatiling Konektado sa Korea"
+        }
+      }
+    },
+    "vietnam": {
+      "download": {
+        "buttons": {
+          "appleAppStore": "Apple App Store",
+          "googlePlay": "Google Play"
+        },
+        "heading": "I-download ang GME App"
+      },
+      "exchange-rate-calculator": {
+        "cardTitle": "Kalkulator ng GME Remit",
+        "exchangeRateLabel": "Rate ng Palitan",
+        "receiverGetsLabel": "Matatanggap ng Recipient",
+        "recipientCountryLabel": "Bansang Tatanggap",
+        "recipientCountryOption": "Vietnam",
+        "sendAmountLabel": "Halagang Ipapadala",
+        "sendAmountPlaceholder": "00,000",
+        "sendCurrencyLabel": "KRW",
+        "submitLabel": "Magpadala Ngayon",
+        "transferFeeLabel": "Bayad sa Transfer"
+      },
+      "exchangeRate": {
+        "receiveCurrencyLabel": "VND",
+        "sampleTag": "Halimbawang halaga"
+      },
+      "footer": {
+        "copyrightSuffix": "GME. Lahat ng karapatan ay nakalaan.",
+        "logoText": "GME",
+        "tagline": "Mga serbisyong pinansyal para sa mga Vietnamese sa Korea."
+      },
+      "header": {
+        "downloadAppLabel": "I-download ang App",
+        "navItems": {
+          "company": "Kumpanya",
+          "countries": "Mga Bansa",
+          "news": "Balita",
+          "services": "Mga Serbisyo",
+          "support": "Suporta"
+        }
+      },
+      "hero": {
+        "ctaPrimaryLabel": "Magpadala Ngayon",
+        "ctaSecondaryLabel": "Magsimula",
+        "eyebrow": "GME Vietnam",
+        "headingLines": [
+          "Magpadala ng pera sa pamilya.",
+          "Manatiling konektado.",
+          "Gawing mas madali ang paggastos."
+        ],
+        "subheading": "Mga mapagkakatiwalaang serbisyo para sa mga Vietnamese naninirahan sa Korea"
+      },
+      "qn-a": {
+        "faq": {
+          "heading": "Mga Madalas Itanong Tungkol sa GME Remit",
+          "items": [
+            {
+              "answer": [
+                "Karaniwang natatapos ang paglilipat gamit ang GME Remit sa loob lamang ng humigit-kumulang 10 segundo, bagaman maaaring mag-iba ang aktwal na oras depende sa bansang tatanggap, bangko, o paraan ng pagbabayad."
+              ],
+              "question": "Gaano katagal bago maipadala ang pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Oo. Ang GME Remit ay lisensyadong serbisyo sa padala ng pera sa Korea at nasa ilalim ng pangangasiwa ng kaugnay na mga awtoridad pinansyal ng Korea. Gumagamit kami ng ligtas na pag-verify ng customer at proseso ng transaksyon upang protektahan ang aming mga customer."
+              ],
+              "question": "Ligtas bang gamitin ang GME Remit?"
+            },
+            {
+              "answer": [
+                "I-download ang GME Remit app, gumawa ng account, at kumpletuhin ang kinakailangang pag-verify ng pagkakakilanlan. Kapag natapos na ang pagpaparehistro at pag-verify, maaari mo nang simulan ang paggamit ng mga serbisyo ng GME Remit."
+              ],
+              "question": "Paano ako gagawa ng GME Remit account?"
+            },
+            {
+              "answer": [
+                "Sinusuportahan ng GME Remit ang internasyonal na padala ng pera sa maraming bansa sa buong mundo. Ang mga available na destinasyon at paraan ng pagbabayad ay maaaring tingnan direkta sa GME Remit app."
+              ],
+              "question": "Saang mga bansa ako maaaring magpadala ng pera gamit ang GME Remit?"
+            },
+            {
+              "answer": [
+                "Available ang aming customer support team mula 10:00 hanggang 23:00, Lunes hanggang Linggo. Maaari kaming tawagan sa {SUPPORT_PHONE_NUMBER}, kontakin sa GME Remit app o opisyal na GME social media channels, o bisitahin ang isang GME Remit branch sa Korea para sa personal na tulong."
+              ],
+              "question": "Ano ang gagawin ko kung may problema sa aking transfer?"
+            }
+          ],
+          "subheading": "Hanapin ang sagot sa mga karaniwang tanong tungkol sa pagpapadala ng pera gamit ang GME Remit"
+        }
+      },
+      "social-connect": {
+        "heading": "Kumonekta sa GME Vietnam",
+        "links": {
+          "facebook": "Facebook",
+          "tiktok": "TikTok"
+        },
+        "subheading": "Balita, kapaki-pakinabang na tips, at updates para sa aming community"
+      },
+      "social": {
+        "links": {
+          "channelTalk": "ChannelTalk",
+          "instagram": "Instagram"
+        }
+      },
+      "split-section": {
+        "card": {
+          "ctaLabel": "Tingnan ang GME Cards",
+          "description": "Simple at madaling pagbabayad para sa araw-araw na buhay sa Korea at sa ibang bansa.",
+          "eyebrow": "GME Card",
+          "features": [
+            "Magbayad saanman sa mundo",
+            "Pamimili",
+            "Transportasyon",
+            "Cashback",
+            "Mga Benepisyo ng EasyCare"
+          ],
+          "heading": "Isang Card para sa Lahat"
+        },
+        "exchangeRate": {
+          "description": "Tingnan ang pinakabagong GME Remit exchange rate bago magpadala ng pera mula Korea papuntang Vietnam",
+          "eyebrow": "Rate ng Palitan",
+          "heading": "Tingnan ang Exchange Rate Ngayon",
+          "note": "Maaaring magbago ang rate anumang oras sa loob ng araw"
+        },
+        "loan": {
+          "ctaLabel": "Mag-apply Ngayon",
+          "description": "Damhin ang makabagong loan service para sa mga dayuhan. Madaling mag-apply gamit ang GME app—isang simpleng digital loan experience para sa mga dayuhang naninirahan sa Korea.",
+          "eyebrow": "GME Finance",
+          "features": [
+            "Paperless na Finance Application",
+            "Real-time na Pagsubaybay sa Finance Status",
+            "Real-time na Pagsubaybay sa Finance Balance"
+          ],
+          "heading": "Ang Iyong Digital Finance Partner"
+        },
+        "remittance": {
+          "ctaLabel": "Magpadala Ngayon",
+          "description": "Isang simple at secure na paraan para suportahan ang iyong pamilya at mga mahal sa buhay sa Vietnam mula Korea.",
+          "eyebrow": "GME Remit",
+          "features": [
+            "Competitive na exchange rates",
+            "Mabilis at maaasahang transfer",
+            "Malinaw na mga bayarin",
+            "Suporta kapag kailangan mo"
+          ],
+          "heading": "Magpadala ng Pera sa Vietnam"
+        },
+        "simCard": {
+          "ctaLabel": "Tingnan ang SIM Plans",
+          "description": "Manatiling konektado sa mga mahalaga sa iyo gamit ang mga mobile plan na dinisenyo para gawing mas simple ang buhay sa Korea.",
+          "eyebrow": "GME SIM Card",
+          "features": [
+            "Maaasahang koneksyon",
+            "Flexible na SIM plans",
+            "Madaling setup",
+            "Magiliw na lokal na suporta"
+          ],
+          "heading": "Manatiling Konektado sa Korea"
+        }
+      }
+    }
+  }
+}

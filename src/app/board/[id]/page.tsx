@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { createServer } from "@/lib/supabase/server";
 import { BoardEntry } from "@/types/board";
-import BoardDetailClient from "@/components/board/BoardDetailClient";
+import { BoardDetailTemplate } from "@/components/board/templates";
 
 interface BoardDetailPageProps {
   params: Promise<{ id: string }>;
@@ -57,5 +57,5 @@ export async function generateMetadata({
 }
 
 export default function BoardDetailPage() {
-  return <BoardDetailClient />;
+  return <BoardDetailTemplate />;
 }

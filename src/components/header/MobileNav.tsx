@@ -2,11 +2,12 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { languages } from "@/lib/language";
 import { CountryNamesEn, type MenuItem } from "./DesktopNav";
 import { useTranslation } from "@/hooks/useTranslation";
+import HomeLanguageToggle from "./HomeLanguageToggle";
 import { servedEntries } from "@/data/servedCountries";
 
 // ============ Icons ============
@@ -164,7 +165,7 @@ export function MobileAccordion({
 
 // ============ Mobile Countries Accordion ============
 export function MobileCountriesAccordion({ label, onClose }: { label: string; onClose: () => void }) {
-  const { t } = useTranslation("home.hero");
+  const { t } = useTranslation();
   const { setLanguage } = useLanguage();
   const router = useRouter();
   const [isExpanded, setIsExpanded] = useState(false);
@@ -174,7 +175,7 @@ export function MobileCountriesAccordion({ label, onClose }: { label: string; on
     () =>
       servedEntries.map((c) => ({
         ...c,
-        name: c.nameNs === "header" ? t(c.nameKey, { ns: "header" }) : t(c.nameKey),
+        name: t(c.nameKey),
       })),
     [t]
   );
@@ -208,15 +209,21 @@ export function MobileCountriesAccordion({ label, onClose }: { label: string; on
                 selectedCode === c.code ? "text-primary" : "text-dark hover:text-primary"
               }`}
             >
-              <img
-                src={c.flagSrc}
-                alt=""
-                width={20}
-                height={20}
-                loading="lazy"
-                decoding="async"
-                className="w-5 h-5 rounded-full object-cover shrink-0"
-              />
+              {c.flagSrc ? (
+                <img
+                  src={c.flagSrc}
+                  alt=""
+                  width={20}
+                  height={20}
+                  loading="lazy"
+                  decoding="async"
+                  className="w-5 h-5 rounded-full object-cover shrink-0"
+                />
+              ) : (
+                <span aria-hidden="true" className="w-5 h-5 shrink-0 text-base leading-5 text-center">
+                  {c.emoji}
+                </span>
+              )}
               <span>{c.name}</span>
             </button>
           ))}
@@ -231,15 +238,17 @@ export default function MobileNav({
   isOpen,
   onClose,
   menuItems,
-  careersLabel = "Careers",
+  appDownloadLabel,
   countriesLabel,
 }: {
   isOpen: boolean;
   onClose: () => void;
   menuItems: MenuItem[];
-  careersLabel?: string;
+  appDownloadLabel: string;
   countriesLabel: string;
 }) {
+  const isHome = usePathname() === "/";
+
   return (
     <>
       <div
@@ -276,17 +285,14 @@ export default function MobileNav({
               className="block w-full bg-primary-dark hover:bg-primary text-white font-semibold px-6 py-3 rounded-full text-center transition-colors duration-200"
               onClick={onClose}
             >
-              Download App
+              {appDownloadLabel}
             </Link>
+            {isHome && (
+              <div className="flex items-center justify-center mt-5">
+                <HomeLanguageToggle />
+              </div>
+            )}
             <div className="flex items-center justify-center gap-3 mt-4 pb-2">
-              <Link
-                href="/company/careers"
-                className="text-sm text-gray-500 hover:text-primary transition-colors"
-                onClick={onClose}
-              >
-                {careersLabel}
-              </Link>
-              <span className="text-gray-300">|</span>
               <a
                 href="https://gmebiz.com"
                 target="_blank"
