@@ -37,7 +37,7 @@ export const servedEntries: ServedEntry[] = [
   country("VN", "vi"),
   country("LA", "en"),
   country("KZ", "en"),
-  region("CIS", "🌏", "home.hero-main.countries.names.CIS", "en"),
+  region("CIS", "🗺️", "home.hero-main.countries.names.CIS", "en"),
   country("LK", "si"),
   country("IN", "en"),
   region("WEST_AFRICA", "🌍", "home.hero-main.countries.names.WEST_AFRICA", "en"),
