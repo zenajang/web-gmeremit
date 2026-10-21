@@ -1,4 +1,4 @@
-export default function ElectronicFinanceContent() {
+export default function ElectronicFinanceContent20261021() {
   return (
     <div className="prose prose-gray max-w-none">
       <h2 className="typo-content-title mb-6">
