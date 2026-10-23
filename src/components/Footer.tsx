@@ -24,7 +24,7 @@ export default function Footer() {
             {/* Navigation Links */}
             <div className="mb-6">
               <div className="flex items-center gap-2 text-sm font-medium text-gray-700">
-                <Link href="/terms" className="hover:text-primary transition-colors" onClick={() => window.scrollTo({ top: 0 })}>
+                <Link href="/terms" scroll={false} className="hover:text-primary transition-colors" onClick={() => window.scrollTo({ top: 0 })}>
                   {t("footer.link.terms")}
                 </Link>
                 <span className="text-gray-400">|</span>
