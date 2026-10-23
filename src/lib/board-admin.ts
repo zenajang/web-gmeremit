@@ -1,8 +1,7 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
 import type { BoardCounts, BoardEntry, BoardEntryType, BoardFormData } from "@/types/board";
 import { slugify } from "@/utils/slug";
-
-const BOARD_TABLE = "board_entries";
+import { BOARD_TABLE } from "@/data/board-table";
 
 async function generateUniqueSlug(supabase: SupabaseClient, title: string) {
   const base = slugify(title);

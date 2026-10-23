@@ -1,5 +1,6 @@
 import { createClient } from "@/lib/supabase/client";
 import { BoardEntry, TabType } from "@/types/board";
+import { BOARD_TABLE } from "@/data/board-table";
 
 /**
  * 게시판 탭에 해당하는 글 목록을 최신순으로 가져온다.
@@ -13,7 +14,7 @@ import { BoardEntry, TabType } from "@/types/board";
 export async function fetchBoardEntriesByType(type: TabType): Promise<BoardEntry[] | null> {
   const supabase = createClient();
   const { data, error } = await supabase
-    .from("board_entries")
+    .from(BOARD_TABLE)
     .select("*")
     .eq("type", type)
     .order("date", { ascending: false });
@@ -37,7 +38,7 @@ export async function fetchBoardEntriesByType(type: TabType): Promise<BoardEntry
 export async function fetchBoardEntry(idOrSlug: string): Promise<BoardEntry | null> {
   const supabase = createClient();
   const isNumericId = /^\d+$/.test(idOrSlug);
-  const query = supabase.from("board_entries").select("*");
+  const query = supabase.from(BOARD_TABLE).select("*");
   const { data, error } = await (isNumericId
     ? query.eq("id", Number(idOrSlug))
     : query.eq("slug", idOrSlug)
