@@ -282,7 +282,7 @@ export default function ElectronicFinanceContent() {
           <h3 className="text-lg font-semibold text-dark">[이전 약관 제·개정 내역]</h3>
           <Link
             target="_blank"
-            href="/terms/20261021"
+            href="/terms/electronic-finance/20261021"
             className="underline underline-offset-4 pb-3"
           >
             - 2026.10.21 이전 약관

@@ -143,7 +143,12 @@ export async function fetchBoardEntries(
   supabase: SupabaseClient,
   filter: "all" | BoardEntryType
 ) {
-  let query = supabase.from(BOARD_TABLE).select("*").order("date", { ascending: false });
+  let query = supabase
+    .from(BOARD_TABLE)
+    .select("*")
+    .order("is_important", { ascending: false })
+    .order("date", { ascending: false })
+    .order("id", { ascending: false });
 
   if (filter !== "all") {
     query = query.eq("type", filter);

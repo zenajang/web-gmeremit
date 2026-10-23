@@ -17,7 +17,9 @@ export async function fetchBoardEntriesByType(type: TabType): Promise<BoardEntry
     .from(BOARD_TABLE)
     .select("*")
     .eq("type", type)
-    .order("date", { ascending: false });
+    .order("is_important", { ascending: false })
+    .order("date", { ascending: false })
+    .order("id", { ascending: false });
 
   if (error) return null;
   return data ?? [];
