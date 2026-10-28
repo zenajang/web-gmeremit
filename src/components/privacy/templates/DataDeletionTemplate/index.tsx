@@ -1,5 +1,5 @@
 import PublicLayout from "@/components/layout/PublicLayout";
-import { LegalSection } from "@/components/privacy/molecules";
+import { LegalSection } from "@/components/privacy/common";
 
 const DataDeletionTemplate = () => {
   return (

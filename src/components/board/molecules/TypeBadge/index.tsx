@@ -25,7 +25,7 @@ export default function TypeBadge({ type }: TypeBadgeProps) {
 
   return (
     <span className={`text-base font-medium ${getTypeColor()}`}>
-      {t(type)}
+      {t(`board.tabs.${type}`)}
     </span>
   );
 }
