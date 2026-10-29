@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { createServer } from "@/lib/supabase/server";
 import { BoardEntry } from "@/types/board";
+import { BOARD_TABLE } from "@/data/board-table";
 import { BoardDetailTemplate } from "@/components/board/templates";
 
 interface BoardDetailPageProps {
@@ -11,7 +12,7 @@ async function fetchEntryForMeta(idParam: string): Promise<BoardEntry | null> {
   const isNumericId = /^\d+$/.test(idParam);
   const supabase = await createServer();
   const { data } = await supabase
-    .from("board_entries")
+    .from(BOARD_TABLE)
     .select("*")
     .eq(isNumericId ? "id" : "slug", isNumericId ? Number(idParam) : idParam)
     .maybeSingle();

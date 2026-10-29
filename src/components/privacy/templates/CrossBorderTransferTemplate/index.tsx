@@ -1,6 +1,6 @@
 import PublicLayout from "@/components/layout/PublicLayout";
 import CrossBorderTransferListContent from "@/components/privacy/CrossBorderTransferListContent";
-import { LegalPageHero, PolicyPanel } from "@/components/privacy/organisms";
+import { LegalPageHero, PolicyPanel } from "@/components/privacy/common";
 
 const CrossBorderTransferTemplate = () => {
   return (

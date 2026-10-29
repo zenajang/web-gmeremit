@@ -1,8 +1,8 @@
-export default function ElectronicFinanceContent() {
+const ElectronicFinanceContent20261130 = () => {
   return (
     <div className="prose prose-gray max-w-none">
       <h2 className="typo-content-title mb-6">
-       전자금융거래 이용약관
+        전자금융거래 이용약관
       </h2>
 
       <div className="space-y-6 text-gray-600">
@@ -93,3 +93,5 @@ export default function ElectronicFinanceContent() {
     </div>
   );
 }
+
+export default ElectronicFinanceContent20261130;

@@ -487,7 +487,7 @@ export default function TreatmentPolicyContent() {
         <div>
           <p>개인정보 처리방침 변경 내역</p>
           <p className="mt-3">– 변경일자:</p>
-          <Link target="_blank" href="/privacy/20241202" className="underline underline-offset-4 pb-3">2024년 12월 2일 시행</Link> 
+          <Link target="_blank" href="/privacy/treatment/20241202" className="underline underline-offset-4 pb-3">2024년 12월 2일 시행</Link> 
           <p className="!mt-2 !mb-0">2023년 4월 19일 시행</p>
           <p className="!my-0">2018년 8월 16일 시행</p>
         </div>
