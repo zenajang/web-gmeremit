@@ -1,4 +1,4 @@
-const ElectronicFinanceContent20261130 = () => {
+const ElectronicFinanceContentLegacy = () => {
   return (
     <div className="prose prose-gray max-w-none">
       <h2 className="typo-content-title mb-6">
@@ -94,4 +94,4 @@ const ElectronicFinanceContent20261130 = () => {
   );
 }
 
-export default ElectronicFinanceContent20261130;
+export default ElectronicFinanceContentLegacy;
