@@ -275,10 +275,10 @@ const ElectronicFinanceContent = () => {
           <h3 className="text-lg font-semibold text-dark">[이전 약관 제·개정 내역]</h3>
           <Link
             target="_blank"
-            href="/terms/electronic-finance/20261130"
+            href="/terms/electronic-finance/legacy"
             className="underline underline-offset-4 pb-3"
           >
-            - 2026.11.30 이전 약관
+            - 전자금융거래 이용약관
           </Link>
         </div>
       </div>
