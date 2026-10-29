@@ -43,7 +43,11 @@ export default function BoardTableRow({ entry }: BoardTableRowProps) {
       <td className="px-6 py-4 text-center">
         {entry.has_attachment && entry.attachment_url && (
           <a
-            href={entry.attachment_url}
+            href={
+              entry.attachment_name
+                ? `${entry.attachment_url}?download=${encodeURIComponent(entry.attachment_name)}`
+                : entry.attachment_url
+            }
             download={entry.attachment_name}
             onClick={(e) => e.stopPropagation()}
             className="inline-flex items-center justify-center w-8 h-8 rounded-lg hover:bg-gray-100 transition-colors"

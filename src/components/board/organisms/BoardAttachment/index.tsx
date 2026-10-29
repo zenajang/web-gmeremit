@@ -17,7 +17,7 @@ const BoardAttachment = ({ url, name }: BoardAttachmentProps) => {
         {t("board-detail.board-detail-client.attachment")}
       </h3>
       <a
-        href={url}
+        href={name ? `${url}?download=${encodeURIComponent(name)}` : url}
         download={name || undefined}
         className="flex items-center gap-3 p-4 rounded-xl border border-[var(--border-soft)] bg-white hover:bg-gray-50 transition-colors group"
       >
