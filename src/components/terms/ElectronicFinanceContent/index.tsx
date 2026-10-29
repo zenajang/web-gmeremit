@@ -275,17 +275,17 @@ const ElectronicFinanceContent = () => {
 
         <div>
           <h3 className="text-lg font-semibold text-dark">부칙</h3>
-          <p>이 약관은 2026년 11월 29일부터 시행됩니다.</p>
+          <p>이 약관은 2026년 11월 30일부터 시행됩니다.</p>
         </div>
 
         <div>
           <h3 className="text-lg font-semibold text-dark">[이전 약관 제·개정 내역]</h3>
           <Link
             target="_blank"
-            href="/terms/electronic-finance/20261129"
+            href="/terms/electronic-finance/20261130"
             className="underline underline-offset-4 pb-3"
           >
-            - 2026.11.29 이전 약관
+            - 2026.11.30 이전 약관
           </Link>
         </div>
       </div>
